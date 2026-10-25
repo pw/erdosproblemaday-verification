@@ -1,0 +1,28 @@
+falsestart_build 1 0/7582 failed=OAI.NumberTheory.Ostmann.Construction.DiagonalGapBudget (cache race, see note)
+# ^ false start: driver launched 06:08:27Z, 7 s before 'lake exe cache get' finished decompressing (06:08:34Z); missing Mathlib olean, not a finding. Relaunched.
+# 06:14Z driver restarted W=4 -> W=8 (resume from modules.tsv; in-flight modules rebuilt)
+# 06:35Z driver restarted W=8 -> W=12 after seat R2's numerics finished (resume from modules.tsv)
+build 0 7582/7582 failed=
+cmp_OstmannComplete 0 7
+ax_OstmannComplete 0 8
+cmp_OstmannPrimes 0 7
+ax_OstmannPrimes 0 8
+neg 0 9
+statement_match 0 0
+statement_match_mutant 1 0
+verbatim 0 0
+verbatim_mut 1 0
+bridgeC_compile 0 9
+bridgeC_axioms 0 12
+mutC_sorry_compile 0 9
+mutC_sorry_axioms 0 8
+mutC_nonempty 1 8
+bridgeM_compile 0 11
+bridgeM_axioms 0 17
+mutM_sorry_compile 0 11
+mutM_sorry_axioms 0 9
+mutM_nonempty 1 12
+mutC_dropB 1 9
+both_probe 0 10
+leanchecker_fresh_BothProbe 0 4282
+leanchecker_missing_control 1 2

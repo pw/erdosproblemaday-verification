@@ -1,0 +1,343 @@
+                                                                         Acts Math . Hung.
+                                                                 50 (1-2) (1987), 1 1 7-122.
+
+           ON DIVISIBILITY PROPERTIES OF INTEGERS
+                     OF THE FORM a + a'
+            P . ERDŐS, member of the Academy and A . SÁRKÖZY (Budapest)
+
+
+
+
+     1 . Throughout this paper, we use the following notations :
+     For any real number x let [x] denote the greatest integer less than or equal to
+x, and let lxll denote the distance from x to the nearest integer : jjxjl =min (x-[x], 1 +
+ +[x]-x) . We write e""=e(x). The cardinality of the set X is denoted by JXJ .
+A (n) denotes the Mangoldt symbol .
+     In this paper, our goal is to study the following problem : how large can IS/I
+be if ~l c {1, 2, . . ., N} and a+á is squarefree for all aE sl, áE'4? (See [1],
+[2] and [4] for other somewhat related results . In fact, in all these papers arithmetic
+properties of sums of sequences of integers are studied .)
+     We will prove the following results :
+      THEOREM 1 .   For N>N, there exists a sequence 4 (-- {1, 2, . . ., N} such that
+
+(1)                                ICI > 248 log N
+and a+á is squarefree for all aE sY, á E d .
+     THEOREM 2 . If N>Nr , sl c{1, 2, . . ., N} and a+á is squarefree for all aE 4,
+a 'EV then iti°e hate
+(2)                                sl < 3 N31`á log N.
+      There is a considerable gap between the lower and upper bounds above . We
+guess that the lower bound is nearer to the truth . In fact, we conjecture that the
+upper bound in (2) can be replaced by N' (for all a >0 and N>N2 (e)) and, perhaps,
+even by (log N)e . Unfortunately, we have not been able to prove this .
+      By similar but slightly more complicated methods we can get analogous results
+for k-th power free numbers .
+      Also the following related problem can be considered : Let I-a,<a2< . . .
+, . .<ak -N, 1<br<b2< . . .<bt--N be two sequences of integers . Assume that all
+the sums
+                           a,+b,, 1---i=k, 1-j--1
+are squarefree . Our method gives that
+                                      kl < N3 / 2+e
+and we can show that Icl/N-- is possible, but we of course have no satisfactory
+upper bound for /cl . Perhaps the following remark is of some interest : there is an
+
+                                                              Acta Mathematics Hungarica 50, 1987
+                                                                        Akadémiai Kiadó, Budapest
+118                                         P . ERDŐS and A . SÁRKÖZY
+
+
+
+absolute constant c so that               k>cN, l-- is possible . Here perhaps I must be less
+than log N or (log N)` .
+    2 • In this section, we prove Theorem 1 . Let p i denote the i-th prime number .
+Let N be a large positive integer, define the positive integer K by
+                                          x-i                             x
+(3)                                        ff     p i' < N112           f P2)
+                                           i=1                          i=1
+and put
+                                                                  K
+                                                       P = ff p12 .
+                                                                 i=1
+
+Then by the prime number theorem we have
+                                                 x
+(4)                          log P = 2                log p i      2    Z A (n)        - 2Px
+                                             i=l                       nSp.
+
+so that for N-> + - we obtain from (3) that
+                                         4P                   P < N1/2 _ P
+                                                        ti
+                                      (log P)2               Px
+hence log P-       2 log    N, so that, in view of (4), for large N
+
+                                      x-1
+(5)            N112
+                         p = PK Z            PZ < 1 /3 (l og p)2 N112 <                      N1í2 (log N)1.
+                                      i=1                                              Ill
+
+      Let us take all the integers n satisfying
+(6)                                                   n - 2 (mod 4)
+and
+(7)                           n       0     (mod pi) for                 i = 2, 3, . . . K.
+These integers lie in
+                        K           1 x              1     xr     11
+                       IÍ (P2 -1 )=    %1 (Pi -1 ) = - P jj't 1- z                                   >
+                      i=2           3 i=1            3   i=,     Pi
+                                                                                      22 P >
+                       < 13 P,U               12) =
+                                                                                                 1   P
+                             i=1                 Pi             31 P' á(2)                       5
+
+residue classes modulo P . Let us take the intersection of the set {l, 2, . . ., N} with
+                                                                                  K
+each of these residue classes . In this way, we get jI (pi -1) arithmetic progres-
+sions ; let us denote the set of them by B, so that
+
+(8)                                         IBI =      Íi ( p~ -1) > 5 P .
+                                                       i=2
+                                                                              1
+Acta Mathematica Hungarica 50, 1987
+                                   ON DIVISIBILITY PROPERTIES OF INTEGERS                                                         119
+
+Then for    A EB,     cle,1rly we have
+
+(9)                                [NIP]           1,21 < [NIP]+ I                 (for       DEB) .
+    If G E B, nEY), then n satisfies (6) and (7), so that n is not divisible by pi, . . ., pK .
+Thus if n is not squarefree then p il ln for some K<i-7r(N 112 ) . In view of (4), the
+number of the integers n with n~-N, p'ln (K<i--7r(N 11 2)) is
+           n(N112~                      +~          N                 +~       l
+                      N                                                                                            1
+            ~              <                     <-<N                                  < N = 'Y +1
+          i=K+1      p2            i=        1      pi                   +1    n2                            (n- 1)n
+
+                                                                           1                       1           3N
+                                                                                       <N                <
+                      „=    +i          n-1 n                         Px+1-1                       A         Plog P
+for N large enough . Thus, in view of (8) and (9), there exists an arithmetic progres-
+sion 24,EB which contains less than
+                                                                                   1
+                           3N(IogP) - I   3N(log P)_                                                 N
+                               IBI      =     P/5                                      < 15
+                                                                                                   P1ogP
+integers which are not squarefree (for N large enough) . Let                                                    nI<n2< . . .<nt   be
+those integers in e, which are not squarefree so that
+
+                                                                      15 N
+(10)                                                      t<
+                                                                     p1ogP'
+Put n„=0, nt+1 =N+1,
+                                                 m = max
+                                                       = I ,, n (ni , ni+1I,
+                                                         o= ii
+
+and assune that this maximum is assumed at i=r :
+                                                    M = l,!„c(nr, nr+1)I •
+
+In view of (5), (8) and (10), for large N we have
+
+         N     N
+                               l        I =          `' pl~l [ ni, ll i i-1 )1 -=                  ~3,
+                                                                                             ( I+ I'         ( ni, ii i ,, ))I)
+                                                                                                                             I)
+         2P < [P                                                                       i=0
+
+                                           l5N            31 MN
+                 _    t     +M)=(t+l)2M< ~       + 1 2M <
+                     i=o                 P log P          P log P
+hence, by (3),
+(11)                       M >           1       log P           l    log N1 / 2 =             l       log N.
+                                         62                    62                            124
+       Let us write
+                           „~l (n r , nr+1 ) _ { 2b, 2b+P, . . ., 2b+(M-I)P} .
+
+(Note that by (6) and 1,,EB, all the elements of ~2, ) are even .) The elements of
+ e,, 0r, nr+,) are squarefree . In fact, if nE °7Jon(nr, nr+1), then by (6) and (7),
+
+                                                                                                   Acta Maikemafica Hungarica 50, 1937
+120                                         P. ERDŐS and A. SÁRKÖZY
+
+
+
+n is not divisible by pi, p2, . . ., pK, and by nr~n<nr+1, it is not divisible by pK+ 1 ,
+ 2              2 _
+PK+2, . . . , P, (VN )
+     Let us put
+
+                                    .5/ ={b,b+P,       . . .,b+[M21]P} .
+
+Then for aE,4, a 'Ed we have a+a'Em,) n(nr , nr+1 ), so that a+á is square-
+free .
+       Finally, by (11) we have
+
+
+                                  I-41 = [ MZ 1 ] > M > 248 log N
+
+which completes the proof of Theorem 1 .
+
+    3. The proof of Theorem 2 will be based on the large sieve but we shall sieve
+by squares of primes . In this section, we derive the sieve result needed in the proof .
+    LEMMA 1 . If M, N are integers,                     N--1,           aM+i, aM+2, . . ., aM+N are arbitrary
+complex numbers, we put
+                                                      M+N
+                                            S(x) _                b„ e (nx) .
+                                                     n=M+1
+Let X be a set of real numbers for which
+(12)                                           ~Ix-x'11 -- S > 0
+whenever x and x' are distinct members of X . Then
+
+                                            IS(x)1 2 = ( S -1 +7rN)               Ib n12 .
+                                    xE .X                                     n
+
+
+        PROOF . This is Corollary 2 .2 in [3], p . 12 .
+
+     LEMMA 2. Let M, N be integers, N--1, and let                                   .N' be a set of Z integers in
+ the interval [M+1, M+ N] . Put
+(13)                                         Z(q, h) _                       1.
+                                                                 n E °C
+                                                             n = 11(mod 2)
+ Then for O%0 we have
+                                                                    2
+                                                             Z
+                              _     p   2 Y tZ (p 2 , h) -         ) - (22 + 7zN )Z.
+
+        PROOF . Let us write
+                                               S(x) _             e(nx) .
+                                                        nE .41'
+
+ Then by [31, p . 23, (3 .1) we have
+
+
+ (15)                           p         (Z(p, h) - pZ2 )2
+                                                                        a=1   I S l7)
+                                                                                   a ~
+
+ Acta Mathernatica Huagarica 50, 1987
+                                     ON DIVISIBILITY PROPERTIES OF INTEGERS                                                              121
+
+
+Furthermore, by [3], p . 24, (3 .4) we have
+
+                                     e                                 2                                           2
+                                           p (d)
+                                                 Z ( q , h)                                          S(q)
+                                q h =1 dlq d         d                             1--a=9
+                                                                                   (a, 4)=1
+
+Putting q=p`2 here, we obtain that
+                                                                                                                       2
+
+                           p2            (Z(p2, h) - 1 Z(p, h)) 2 =                                       S
+                                I==1                      p                           1-`-- a=p2              (p2 )
+                                                                                       0,A=1
+
+By (15) and (16), we have
+                                                                                                2
+                                                                                      1
+                                            p2 sQ
+                                                    p2   P
+                                                         h=1
+                                                               (Z(P2
+                                                                                     P2
+                                                                               2                                           2
+                           (p2            (Z(p2, h) -         l
+                                                             - Z(P, h)) +p P (Z(p,h) --
+                                                                                      Z) =
+                  p 2 -Q         h=1                         P             h=1        p 1
+                                                                           2       P - 7.                      )
+                                                               S                            S(p
+                                          P1 Q j1= a =p2           (7) } a=1
+                                                (a, p)=1
+
+In order to estimate this last sum, we use Lemma 1 where X is taken as the set of
+                              2
+the fractions of the form       (p2 _Q, 1-_=a_p 2 , ( a,p)=1) and p (p 2 -_=Q,
+
+
+l-a=p-1) . Then for x= , E . , x'= áz2 EX (where a1 , a 2 =1 or 2), x xx'
+                       Pi           P2 2
+we have
+                    a,    a2    a, p22 - a2Pi        1       1                              1
+                   P1    P22 I       Pal p a2   Pi 1 P2 2   Q2
+
+so that (12) in Lemma 1 holds with b=Q-2 . Thus by using Lemma 1, we obtain
+from (17) that
+                                p2
+                                                         Z     2
+
+             p2     Q
+                        p2
+                             h=1
+                                     (z(p2, h) - z
+                                                         P
+                                                              ) _ (Q2 +~N)                          Z 1= (Q 2 +~N )z
+                                                                                                ná .,71
+
+which completes the proof of Lemma 2 .
+    4 . In this section, we derive Theorem 2 from Lemma 2 .
+    Let 4c {l, 2, . . ., N} be a sequence such that for all aE,d, á E        the sum
+a+á is squarefree . Then for all p, a+á - 0 (mod p 2 ) . Thus 9/ may lie in at most
+P2-1 residue classes modulo p2, P, hence, definingg Z (q, ) by (13) (with sl in Place
+  2
+of A' ), we have Z(p 2 , h)=0 for at least p 2 - P2 2                                               1= P2 2 1 incongruent values
+                                                                                                          Acta Malhematica Hortgarica 50, 1987
+1 22           P . ERDŐS and A . SÁRKÖZY : ON DIVISIBILITY PROPERTIES OF INTEGERS
+
+
+
+of h . Thus the left hand side of (14) in Lemma 2 can be estimated in the following
+way :
+
+                                          (Z(p2         Z       _                        Z
+                             p2                   h)    g                  p2            ¢
+                      Pz'Q        /i =1                 p           Pz-Q         1,1,' P 2 p
+                                                                                Z(p'l, h)=0
+
+                       z2                                                  z2
+             = Pz s=Q p l--h --p ,
+                                                       z~ p2                                   z2
+                                                                +1 '
+                                                                2          2    pz
+                                                                                  ~Q 1   =     2
+                                              P I --Q py
+                             Z(pz, h)=0
+
+Setting Q=N1 / 2 , we obtain from (18) and Lemma 2 that
+
+                                           22 71fí ") -- (N+irN)Z
+
+
+hence, by the prime number theorem, for large N we have
+                              2(1+Ir)N                  9N
+                     Z ~                C
+                                                                 -1 < 3N 3/ 4 log N
+                               7í(N1/4)                 1
+                                                   N1/4   log Nl
+                                                            4
+which completes the proof of Theorem 2 .
+
+
+                                                       References
+
+[l] A . Balog and A . Sárközy, On sums of sequences of integers . 11, Acta Math . Hung ., 44 (1984),
+               339-349 .
+[2] P. Erdős and A . Sárközy, On differences and sums of integers, 1, J. Number Theory, 10 (1978),
+               430-450 .
+[3] H . L . Montgomery, Topics in Multiplicative Number Theory, Springer Verlag (1971) .
+[4] A . Sárközy and C . L . Stewart, On divisors of sums of integers, 11, J. Reine Angew . Math ., to
+               appear .
+
+                                            (Received August 21, 1985)
+
+MATHEMATICAL INSTITUTE
+OF THE HUNGARIAN ACADEMY OF SCIENCES
+BUDAPEST, REÁLTANODA U . 13-15 .
+H-1053
+
+
+
+
+Acta Ma.thematica Hangacica 50, 1987
+
+
+                        86-4013 - Szegedi Nyonxla - Felelős vezető : Surányi Tibor igazgató
+

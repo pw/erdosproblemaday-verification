@@ -1,0 +1,21 @@
+erdos_978.variants.sub_two MATCH
+   FC  : theorem erdos_978.variants.sub_two {f : ℤ[X]} (hi : Irreducible f) (hd : 9 ≤ f.natDegree) (hp : ∀ (p : ℕ), p.Prime → ∃ n : ℕ, ¬ (p : ℤ) ^ (f.natDegree - 2) ∣ f.eval (n : ℤ)) : {n : ℕ | Powerfree (f.natDegree - 2) (f.eval (n : ℤ))}.Infinite := by
+   ours: theorem erdos_978.variants.sub_two {f : ℤ[X]} (hi : Irreducible f) (hd : 9 ≤ f.natDegree) (hp : ∀ (p : ℕ), p.Prime → ∃ n : ℕ, ¬ (p : ℤ) ^ (f.natDegree - 2) ∣ f.eval (n : ℤ)) : {n : ℕ | Powerfree (f.natDegree - 2) (f.eval (n : ℤ))}.Infinite := by
+erdos_978.parts.ii MATCH
+   FC  : theorem erdos_978.parts.ii : ∀ {f : ℤ[X]}, Irreducible f → f.natDegree > 3 → (¬ ∃ l : ℕ, f.natDegree = 2 ^ l) → 0 < f.leadingCoeff → (∀ (p : ℕ), p.Prime → ∃ n : ℕ, ¬ (p : ℤ) ^ (f.natDegree - 2) ∣ f.eval (n : ℤ)) → {n : ℕ | Powerfree (f.natDegree - 2) (f.eval (n : ℤ))}.Infinite := by
+   ours: theorem erdos_978.parts.ii : ∀ {f : ℤ[X]}, Irreducible f → f.natDegree > 3 → (¬ ∃ l : ℕ, f.natDegree = 2 ^ l) → 0 < f.leadingCoeff → (∀ (p : ℕ), p.Prime → ∃ n : ℕ, ¬ (p : ℤ) ^ (f.natDegree - 2) ∣ f.eval (n : ℤ)) → {n : ℕ | Powerfree (f.natDegree - 2) (f.eval (n : ℤ))}.Infinite := by
+erdos_978.parts.iii MISMATCH
+   FC  : theorem erdos_978.parts.iii : {n : ℕ | Squarefree (n ^ 4 + 2)}.Infinite := by
+   ours: theorem erdos_978.parts.iii : {n : ℕ | Squarefree (n ^ 4 + 1)}.Infinite := by
+Powerfree (def body) MATCH
+   FC  : def Powerfree [Monoid M] (k : ℕ) (m : M) : Prop := ∀ ⦃x : M⦄, x ^ k ∣ m → IsUnit x
+   ours: def Powerfree [Monoid M] (k : ℕ) (m : M) : Prop := ∀ ⦃x : M⦄, x ^ k ∣ m → IsUnit x
+partialDensity MATCH
+   FC  : noncomputable abbrev partialDensity {β : Type*} [Preorder β] [LocallyFiniteOrderBot β] (S : Set β) (A : Set β := Set.univ) (b : β) : ℝ := ((S ∩ A) ∩ Iio b).ncard / (A ∩ Iio b).ncard
+   ours: noncomputable abbrev partialDensity {β : Type*} [Preorder β] [LocallyFiniteOrderBot β] (S : Set β) (A : Set β := Set.univ) (b : β) : ℝ := ((S ∩ A) ∩ Iio b).ncard / (A ∩ Iio b).ncard
+HasDensity MATCH
+   FC  : def HasDensity {β : Type*} [Preorder β] [LocallyFiniteOrderBot β] (S : Set β) (α : ℝ) (A : Set β := Set.univ) : Prop := Tendsto (fun (b : β) => S.partialDensity A b) atTop (𝓝 α)
+   ours: def HasDensity {β : Type*} [Preorder β] [LocallyFiniteOrderBot β] (S : Set β) (α : ℝ) (A : Set β := Set.univ) : Prop := Tendsto (fun (b : β) => S.partialDensity A b) atTop (𝓝 α)
+HasPosDensity MATCH
+   FC  : def HasPosDensity {β : Type*} [Preorder β] [LocallyFiniteOrderBot β] (S : Set β) (A : Set β := Set.univ) : Prop := ∃ α > 0, S.HasDensity α A
+   ours: def HasPosDensity {β : Type*} [Preorder β] [LocallyFiniteOrderBot β] (S : Set β) (A : Set β := Set.univ) : Prop := ∃ α > 0, S.HasDensity α A

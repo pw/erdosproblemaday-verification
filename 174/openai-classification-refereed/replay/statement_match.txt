@@ -1,0 +1,8 @@
+ALL_MATCH_STD_SORRYSEEN
+EuclideanRamsey: 11 MATCH / 0 MISMATCH
+GrahamSpherical: 13 MATCH / 0 MISMATCH
+EuclideanRamseyCircle: 4 MATCH / 0 MISMATCH
+EuclideanRamseyNine: 5 MATCH / 0 MISMATCH
+EuclideanRamseyQuadratic: 8 MATCH / 0 MISMATCH
+EuclideanRamseySpherical: 4 MATCH / 0 MISMATCH
+EuclideanRamseyTransitive: 4 MATCH / 0 MISMATCH

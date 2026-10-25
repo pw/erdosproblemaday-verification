@@ -1,0 +1,334 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/forum/thread/535?order=oldest
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑟 ≥3
+, and let 𝑓𝑟⁡(𝑁)
+ denote the size of the largest subset of {1,…,𝑁}
+ such that no subset of size 𝑟
+ has the same pairwise greatest common divisor between all elements. Estimate 𝑓𝑟⁡(𝑁)
+.
+#535: [Er69][Er70][Er73]
+number theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+Erdős [Er64] proved that
+𝑓𝑟⁡(𝑁)≤𝑁
+3
+4
++𝑜⁡(1),
+and Abbott and Hanson [AbHa70] improved this exponent to 1/2
+. Erdős [Er64] proved the lower bound, for any 𝑟 ≥3
+,
+𝑓𝑟⁡(𝑁)>𝑁
+𝑐𝑟
+log⁡log⁡𝑁
+for some constant 𝑐𝑟 >0
+, and conjectured this should also be an upper bound.
+
+This is intimately connected with the sunflower problem [20]. Indeed, Erdős [Er64] noted that a positive solution to [20] would imply
+𝑓𝑟⁡(𝑁)≤𝑁
+𝐶𝑟
+log⁡log⁡𝑁
+for some constant 𝐶𝑟 >0
+. Using the recent bounds of Alweiss, Lovett, Wu, and Zhang [ALWZ20] for the sunflower problem yields
+𝑓𝑟⁡(𝑁)≤𝑁𝐶𝑟⁢
+log⁡log⁡log⁡𝑁
+log⁡log⁡𝑁
+,
+and in particular 𝑓𝑟⁡(𝑁) ≤𝑁𝑜⁡(1)
+.
+
+An alternative description of the details of these lower and upper bounds was given by Abbott and Hanson [AbHa67]. (A similar detailed calculation is given in the comments by Hrishi.)
+
+See also [536].
+
+View the LaTeX source
+
+This page was last edited 29 April 2026. View history
+
+External data from the database - you can help update this
+Formalised statement? Yes
+Related OEIS sequences: Possible
+
+9 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	None
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+Additional thanks to: Kireet Cheri, Cong, Sourish Kumrawat, and Hrishi Sunder
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #535, https://www.erdosproblems.com/535, accessed 2026-08-12
+Order by oldest first or newest first. (The most recent comments are highlighted in a red border.)
+
+I tried to formalize the “stronger sunflower problem” phrasing here: https://github.com/google-deepmind/formal-conjectures/pull/2199
+
+But as stated, this seems false without an extra restriction: for 𝑘 =1
+ consider 𝐴𝑚 =2,4,8,…,2𝑚.
+
+Then 𝜔⁡(𝑛) =1
+ for all 𝑛 ∈𝐴𝑚
+, and for any 𝑟 ≥3
+ there is no 𝑟
+-subset with constant pairwise gcd (pairwise gcds vary with the minimal exponent), so it satisfies the “no constant pairwise gcd with coprime quotients” condition. Yet |𝐴𝑚| =𝑚
+ is arbitrarily large, contradicting any bound |𝐴| ≤𝑐𝑘
+𝑟
+ (or even 𝑐𝑘
+𝑟⁢𝑘!
+ since 𝑘 =1
+).
+
+In Erdős’s 1964 paper, the set-system/sunflower step is applied to squarefree parts / prime-factor sets (he explicitly introduces squarefree numbers and decomposes 𝑎𝑖 =𝐴𝑖⁢𝐵𝑖
+ with 𝐵𝑖
+ squarefree). That suggests the intended sunflower-style statement meant to restrict to squarefree integers (or radicals) rather than just 𝜔⁡(𝑛) =𝑘
+?
+
+(The site has been updated to address this comment.)
+Cong
+—
+17:37 on 13 Feb 2026
+👍
+2
+📝
+2
+🤖
+0
+
+I looked through the literature after my earlier comment, and I think the right correction is stronger than just adding a squarefree hypothesis.
+
+The counterexample 𝐴𝑚 ={2,4,8,…,2𝑚}
+ shows that the current auxiliary formulation with 𝜔⁡(𝑛) =𝑘
+ is false: for 𝑘 =1
+, this family can be arbitrarily large while still avoiding an 𝑟
+-tuple with constant pairwise gcd.
+
+What seems to be the correct fix is the one Erdős gives later. In [Er73], he says that Abbott pointed out the ordinary sunflower conjecture does not seem to suffice for deriving the conjectured upper bound for 𝑓3⁡(𝑥)
+. He then replaces it by a slightly stronger conjecture in which the integers have exactly 𝑛
+ prime factors counted with multiplicity. In modern notation, this is Ω⁡(𝑛) =𝑘
+, not 𝜔⁡(𝑛) =𝑘
+.
+
+So I think the auxiliary statement here should be updated to:
+
+estimate the size of the largest set 𝐴
+ of integers such that Ω⁡(𝑛) =𝑘
+ for all 𝑛 ∈𝐴
+, and there do not exist 𝑎1,…,𝑎𝑟 ∈𝐴
+ and an integer 𝑑
+ such that (𝑎𝑖,𝑎𝑗) =𝑑
+ for all 𝑖 ≠𝑗
+ and (
+𝑎𝑖
+𝑑
+,𝑑) =1
+ for all 𝑖
+.
+
+The squarefree / 𝜔⁡(𝑛) =𝑘
+ version is still a natural special case, and it is suggested by the argument in [Er64], but it is not the full corrected auxiliary statement that Erdős later endorsed after Abbott’s objection.
+
+Cong
+—
+10:24 on 16 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+We have obtained an estimate for 𝑓𝑟⁡(𝑁)
+, developed in conjunction with ChatGPT-5.5 Thinking, where I worked on the argument with sourish and kireet.
+
+Our main estimate is:
+
+
+𝑓𝑟⁡(𝑁)≥exp⁡((log⁡(𝑟−1)+𝑜⁡(1))⁢
+log⁡𝑁
+log⁡log⁡𝑁
+)
+
+
+and
+
+
+𝑓𝑟⁡(𝑁)≤exp⁡(𝑂𝑟⁡(
+log⁡𝑁⁢log⁡log⁡log⁡𝑁
+log⁡log⁡𝑁
+)).
+
+
+In particular,
+
+
+𝑓𝑟⁡(𝑁)=𝑁𝑜⁡(1).
+
+
+The key idea is to encode each integer 𝑛
+ by the set of its prime-power divisibility layers,
+
+
+𝑆⁡(𝑛)={(𝑝,𝑗):1≤𝑗≤𝑣𝑝⁡(𝑛)}.
+
+
+Then
+
+
+𝑆⁡(𝑎)∩𝑆⁡(𝑏)=𝑆⁡(gcd⁡(𝑎,𝑏)),
+
+
+so an 𝑟
+-tuple whose pairwise gcds are all equal is exactly an 𝑟
+-sunflower in the corresponding set system.
+
+The lower bound comes from a block construction: partition the primes into blocks of size 𝑟 −1
+, and choose one prime from each block. The pigeonhole principle prevents 𝑟
+ distinct chosen products from having all pairwise gcds equal.
+
+For the upper bound, we split each integer into its smooth part and rough part. Rankin’s estimate controls the number of possible smooth parts, while the improved sunflower lemma controls each rough fiber, giving the stated upper bound.
+
+The paper is available here.
+
+Hrishi
+—
+20:59 on 27 Apr 2026
+👍
+3
+📝
+0
+🤖
+0
+
+Congrats! Standard check found no mathematical issues.
+
+However, there was a literature issue. It would seem that the ALWZ citation did not contain the required result. Instead, the result could be found in this paper by Bell-Chueluecha-Warnke.
+
+Nat Sothanaphan
+—
+13:21 on 28 Apr 2026
+👍
+2
+📝
+0
+🤖
+0
+
+Thanks! You're right: the ALWZ citation alone does not give the exact bound used in the lemma. I revised the paper to cite Bell-Chueluecha-Warnke, Theorem 1, and added the short padding argument passing from 𝐾
+-element set systems to sets of size at most 𝐾
+. Here is the revised version.
+
+Hrishi
+—
+22:20 on 28 Apr 2026
+👍
+2
+📝
+0
+🤖
+0
+
+Nice! Would a positive solution to #20 remove the final log⁡log⁡log⁡𝑁
+ factor in the upper bound?
+
+TerenceTao
+—
+01:00 on 29 Apr 2026
+👍
+2
+📝
+0
+🤖
+0
+
+Yes, for fixed 𝑟
+, a positive answer to #20 with 𝑘 =𝑟
+ would replace the (𝐶𝑟⁢log⁡𝐾)𝐾
+ sunflower bound in Lemma 4.1 by 𝑐𝐾
+𝑟
+, after the same padding argument from sets of size at most 𝐾
+ to 𝐾
+-uniform sets.
+
+In the proof, 𝐾 =⌊log⁡𝑁/⁢log⁡log⁡𝑁⌋
+, and the number of possible log⁡𝑁
+-smooth parts is still only
+exp⁡(𝑂⁡(
+log⁡𝑁
+log⁡log⁡𝑁
+)).
+So the fiber bound would become 𝑐𝐾
+𝑟
+, giving
+𝑓𝑟⁡(𝑁)≤exp⁡(𝑂𝑟⁡(
+log⁡𝑁
+log⁡log⁡𝑁
+)),
+which removes the extra log⁡log⁡log⁡𝑁
+ factor. This would match the lower bound at the right exponential scale, up to the constant in the exponent.
+
+Edit: Typo.
+
+Hrishi
+—
+04:26 on 29 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+This fact (that an exponential upper bound for the sunflower problem [20] implies the upper bound 𝑁𝑐/log⁡log⁡𝑁
+) was already recorded in the remarks, and is noted by Erdős in [Er64].
+
+Thomas Bloom
+—
+07:00 on 29 Apr 2026
+👍
+2
+📝
+0
+🤖
+0
+
+Thanks! While it is good to have the detailed calculations written down, this is not new; it is precisely the argument sketched by Erdős in [Er64].
+
+The improved upper bound is an immediate consequence of the improved bounds for the sunflower problem now available, when inserted into Erdős' argument.
+
+Thomas Bloom
+—
+06:59 on 29 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+All comments are the responsibility of the user. Comments appearing on this page are not verified for correctness. Please keep posts mathematical and on topic.
+
+Log in to add a comment.
+
+Back to the forum
+
+Page title: 535 Discussion Thread | Erdős Problems
+URL: https://www.erdosproblems.com/forum/thread/535?order=oldest

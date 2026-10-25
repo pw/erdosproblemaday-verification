@@ -1,0 +1,108 @@
+k=7 case j=0 e=[2, 1, 2, 1, 2, 1, 2, 1] vars=600 clauses=242556 c4=206916 derived=24 sb=24
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=0 e=[2, 1, 2, 1, 2, 1, 2, 1] vars=600 clauses=35640 c4=0 derived=24 sb=24 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=0 e=[2, 1, 2, 1, 2, 1, 2, 1] vars=600 clauses=240372 c4=206916 derived=24 sb=0
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=0 e=[2, 1, 2, 1, 2, 1, 2, 1] vars=600 clauses=232716 c4=206916 derived=0 sb=24
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=0 e=[2, 1, 2, 1, 2, 1, 2, 1] vars=600 clauses=25800 c4=0 derived=0 sb=24 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=0 e=[2, 1, 2, 1, 2, 1, 2, 1] vars=600 clauses=33456 c4=0 derived=24 sb=0 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=1 e=[2, 2, 2, 1, 2, 1, 2, 1] vars=600 clauses=243458 c4=208152 derived=24 sb=22
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=1 e=[2, 2, 2, 1, 2, 1, 2, 1] vars=600 clauses=35306 c4=0 derived=24 sb=22 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=1 e=[2, 2, 2, 1, 2, 1, 2, 1] vars=600 clauses=241456 c4=208152 derived=24 sb=0
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=1 e=[2, 2, 2, 1, 2, 1, 2, 1] vars=600 clauses=233618 c4=208152 derived=0 sb=22
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=1 e=[2, 2, 2, 1, 2, 1, 2, 1] vars=600 clauses=25466 c4=0 derived=0 sb=22 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=1 e=[2, 2, 2, 1, 2, 1, 2, 1] vars=600 clauses=33304 c4=0 derived=24 sb=0 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=2 e=[2, 2, 2, 2, 2, 1, 2, 1] vars=600 clauses=244364 c4=209392 derived=24 sb=20
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=2 e=[2, 2, 2, 2, 2, 1, 2, 1] vars=600 clauses=34972 c4=0 derived=24 sb=20 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=2 e=[2, 2, 2, 2, 2, 1, 2, 1] vars=600 clauses=242544 c4=209392 derived=24 sb=0
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=2 e=[2, 2, 2, 2, 2, 1, 2, 1] vars=600 clauses=234524 c4=209392 derived=0 sb=20
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=2 e=[2, 2, 2, 2, 2, 1, 2, 1] vars=600 clauses=25132 c4=0 derived=0 sb=20 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=2 e=[2, 2, 2, 2, 2, 1, 2, 1] vars=600 clauses=33152 c4=0 derived=24 sb=0 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] vars=600 clauses=245274 c4=210636 derived=24 sb=18
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] vars=600 clauses=34638 c4=0 derived=24 sb=18 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] vars=600 clauses=243636 c4=210636 derived=24 sb=0
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] vars=600 clauses=235434 c4=210636 derived=0 sb=18
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] vars=600 clauses=24798 c4=0 derived=0 sb=18 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] vars=600 clauses=33000 c4=0 derived=24 sb=0 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] vars=600 clauses=246188 c4=211884 derived=24 sb=16
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] vars=600 clauses=34304 c4=0 derived=24 sb=16 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] vars=600 clauses=244732 c4=211884 derived=24 sb=0
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] vars=600 clauses=236348 c4=211884 derived=0 sb=16
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] vars=600 clauses=24464 c4=0 derived=0 sb=16 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] vars=600 clauses=32848 c4=0 derived=24 sb=0 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=8940 c4=5502 derived=12 sb=6
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=3438 c4=0 derived=12 sb=6 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=8718 c4=5502 derived=12 sb=0
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=8004 c4=5502 derived=0 sb=6
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=2502 c4=0 derived=0 sb=6 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=3216 c4=0 derived=12 sb=0 DROP-C4 CONTROL
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe

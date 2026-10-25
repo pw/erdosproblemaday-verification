@@ -1,0 +1,4 @@
+# seed=204 P=3 hard=0 gls=1 init=file tmin=5 tspan=12 stag=2200 kick=6 start tf=9 k5=0
+FEAS tf=9 iter=2 t=0.0 2575c 3c53c 30fe3 1df83 3ee43 3e1c6 17b35 37e2c 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b3a 0c8fe 0b6b7
+END best_feas_tf=9 iters=137472 commits=137472 kicks=62 restarts=0 bumps=16211 t=150.1
+BESTFEAS 2575c 3c53c 30fe3 1df83 3ee43 3e1c6 17b35 37e2c 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b3a 0c8fe 0b6b7

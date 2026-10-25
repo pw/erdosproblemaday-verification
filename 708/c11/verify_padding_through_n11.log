@@ -1,0 +1,9 @@
+n=5 (u,v,w)=(17,19,23) r=1 qs=[331]: q-multiples unique&placed=True neutral=True minCover=6 (need 6) ratio=1.4760  -> claim holds: True
+n=5 (u,v,w)=(29,31,37) r=1 qs=[907]: q-multiples unique&placed=True neutral=True minCover=6 (need 6) ratio=1.5667  -> claim holds: True
+n=6 (u,v,w)=(41,43,47) r=2 qs=[1777, 1783]: q-multiples unique&placed=True neutral=True minCover=7 (need 7) ratio=1.7442  -> claim holds: True
+n=6 (u,v,w)=(101,103,107) r=2 qs=[10427, 10429]: q-multiples unique&placed=True neutral=True minCover=7 (need 7) ratio=1.8878  -> claim holds: True
+n=7 (u,v,w)=(101,103,107) r=3 qs=[10427, 10429, 10433]: q-multiples unique&placed=True neutral=True minCover=8 (need 8) ratio=1.8878  -> claim holds: True
+n=8 (u,v,w)=(101,103,107) r=4 qs=[10427, 10429, 10433, 10453]: q-multiples unique&placed=True neutral=True minCover=9 (need 9) ratio=1.8878  -> claim holds: True
+n=9 (u,v,w)=(101,103,107) r=5 qs=[10427, 10429, 10433, 10453, 10457]: q-multiples unique&placed=True neutral=True minCover=10 (need 10) ratio=1.8878  -> claim holds: True
+n=10 (u,v,w)=(101,103,107) r=6 qs=[10427, 10429, 10433, 10453, 10457, 10459]: q-multiples unique&placed=True neutral=True minCover=11 (need 11) ratio=1.8878  -> claim holds: True
+n=11 (u,v,w)=(101,103,107) r=7 qs=[10427, 10429, 10433, 10453, 10457, 10459, 10463]: q-multiples unique&placed=True neutral=True minCover=12 (need 12) ratio=1.8878  -> claim holds: True

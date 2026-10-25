@@ -1,0 +1,20 @@
+RESULT n=13 k=1 t=6 engine=z3 prune=1 atoms=352 clauses=1716 status=unsat secs=124.5
+RESULT n=13 k=4 t=6 engine=z3 prune=1 atoms=328 clauses=1716 status=unsat secs=225.3
+RESULT n=13 k=3 t=6 engine=z3 prune=1 atoms=334 clauses=1716 status=unsat secs=297.1
+RESULT n=13 k=6 t=6 engine=z3 prune=1 atoms=322 clauses=1716 status=unsat secs=316.3
+RESULT n=13 k=5 t=6 engine=z3 prune=1 atoms=324 clauses=1716 status=unsat secs=331.8
+RESULT n=13 k=2 t=6 engine=z3 prune=1 atoms=342 clauses=1716 status=unsat secs=388.7
+RESULT n=13 k=1 t=6 engine=z3 prune=0 atoms=1014 clauses=1716 status=unsat secs=545.5
+RESULT n=13 k=2 t=6 engine=z3 prune=0 atoms=1014 clauses=1716 status=unsat secs=850.4
+RESULT n=13 k=5 t=6 engine=z3 prune=0 atoms=1014 clauses=1716 status=unsat secs=898.7
+RESULT n=13 k=4 t=6 engine=z3 prune=0 atoms=1014 clauses=1716 status=unsat secs=1591.7
+RESULT n=13 k=3 t=6 engine=z3 prune=0 atoms=1014 clauses=1716 status=unsat secs=2008.3
+RESULT n=13 k=6 t=6 engine=z3 prune=0 atoms=1014 clauses=1716 status=unsat secs=1978.3
+RESULT n=13 k=1 t=6 engine=cvc5 prune=1 atoms=352 clauses=1716 status=unsat secs=4578.7
+RESULT n=15 k=0 t=7 engine=z3 prune=1 atoms=560 clauses=6435 status=unsat secs=7195.9
+RESULT n=13 k=3 t=6 engine=cvc5 prune=1 atoms=334 clauses=1716 status=unsat secs=16520.2
+TIMEOUT k=2 engine=cvc5 prune=prune after 21600s
+TIMEOUT k=4 engine=cvc5 prune=prune after 21600s
+TIMEOUT k=5 engine=cvc5 prune=prune after 21600s
+TIMEOUT k=6 engine=cvc5 prune=prune after 21600s
+ALL 18 JOBS DONE at 2026-10-11T21:29:03Z

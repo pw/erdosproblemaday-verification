@@ -1,0 +1,8 @@
+witness C= [1, 2, 4, 14, 15, 17] is (I3,L4)-free on 20 vertices: OK
+root profile of vertex 0: (6, 6, 7)
+types: N+ idx 10 N- idx 10 N0 idx 0
+case CNF written: vars 5770 clauses 128870
+cadical exit 10 (10=SAT)
+
+arcs=125 nonedges=65 independent_triples=0 transitive_4=0
+WITNESS VALID

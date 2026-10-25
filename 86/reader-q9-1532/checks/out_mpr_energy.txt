@@ -1,0 +1,2 @@
+positive bonds 1532 equals edge file: True
+sum J s s = 760  E per spin = -95/192 = -0.4947916666666667  x768 = -380

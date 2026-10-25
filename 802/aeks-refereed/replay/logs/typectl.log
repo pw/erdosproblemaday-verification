@@ -1,0 +1,8 @@
+TypeCtl.lean:3:83: error: Application type mismatch: The argument
+  hr
+has type
+  3 ≤ r
+but is expected to have type
+  4 ≤ r
+in the application
+  OAI.CliqueFreeLog.logarithmic_independence_bound r hr

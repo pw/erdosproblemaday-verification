@@ -1,0 +1,5 @@
+'Erdos12.erdos_one_two_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos12.greedyStrategy_wins_above_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos12.erdos_one_two_main : ∃ N, ∀ (n : ℕ), N ≤ n → ∃ σ, Erdos12.WinningStrategy σ
+def Erdos12.explicitThreshold : ℕ :=
+3 ^ 158

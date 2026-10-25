@@ -1,0 +1,1 @@
+on a module of rank two (generators 0.4637413 and 0.0545564 — the referee found the relation <em>f</em>₁ + 2<em>f</em>₂ − 2<em>f</em>₄ ≡ 0 among a first draft's three; 26 of its 40 largest peaks and 67% of its variance, so less of it is explained by two frequencies than of <em>E</em> by one)

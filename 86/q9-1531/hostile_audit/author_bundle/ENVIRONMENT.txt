@@ -1,0 +1,10 @@
+date_utc=2026-08-11
+host=exe.dev VM
+os=Ubuntu Linux x86_64
+python=3.12.3 (/bin/python3 used by every frozen verification command)
+compiler=g++ C++20 with OpenMP
+certificate_checker=Python standard library only
+generator_dependency=nlohmann/json.hpp plus OpenMP
+generator_role=non-load-bearing provenance
+final_witness_edges=1531
+failed_next_target=1532 (bounded heuristic miss only)

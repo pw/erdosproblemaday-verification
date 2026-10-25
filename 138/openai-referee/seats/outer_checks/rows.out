@@ -1,0 +1,6 @@
+correct construction: {'ok': 3898, 'nolight': 55, 'few': 47}
+row-balanced colorings tested: 2950 ; overall-unbalanced among them: 0
+--- CONTROLS (each must FAIL) ---
+CONTROL deal into w_max-1 rows: {'REPEAT': 2000}
+CONTROL ungrouped (random) order: {'REPEAT': 2000}
+[wall 8.50 s, maxrss 12308 KB, exit 0]

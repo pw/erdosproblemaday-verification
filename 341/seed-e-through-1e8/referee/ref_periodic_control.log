@@ -1,0 +1,5 @@
+suffix from gap index 20186 (len 20187): smallest period 204 (period of THIS SUFFIX only)
+suffix from gap index 30279 (len 10094): smallest period 204 (period of THIS SUFFIX only)
+suffix from gap index 36335 (len 4038): smallest period 204 (period of THIS SUFFIX only)
+analyze.py smallest_period on July-certified {1,2,7,8,10,11,12} gap suffix from 20186: 204 (July: 2039-term period)
+synthetic period-37 from index 5000: suffix from 4000 -> 15799 ; from 5000 -> 37 ; from 6000 -> 37

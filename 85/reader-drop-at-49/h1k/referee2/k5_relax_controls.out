@@ -1,0 +1,14 @@
+== 5 0 --relax-pairs
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=135 clauses=16350 c4=13020 derived=0 sb=6 slots=0 ph=0 RELAXED-PAIRS CONTROL
+UNKNOWN (cap 60)
+== 5 0 --relax-pairs --ph
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=135 clauses=18960 c4=13020 derived=0 sb=6 slots=0 ph=90 RELAXED-PAIRS CONTROL
+UNKNOWN (cap 60)
+== 5 0 --relax-pairs --ph --pairsb
+pair-level SB: 47 permutations, 17618 clauses
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=135 clauses=36578 c4=13020 derived=0 sb=6 slots=0 ph=90 RELAXED-PAIRS CONTROL
+UNSAT
+== 5 0 --relax-pairs --ph --pairsb --check-only
+pair-level SB: 47 permutations, 0 clauses
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=135 clauses=18960 c4=13020 derived=0 sb=6 slots=0 ph=90 RELAXED-PAIRS CONTROL
+UNKNOWN (cap 60)

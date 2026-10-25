@@ -1,0 +1,5 @@
+endpoint_cases=51691
+materialized_cases=1691
+materialized_repeated_triples=9821816
+hostile_trace_sha256=8d930d9cb8ab06a4a94647ba957f100f1bb01aea6100861379cd1000cdf32fa0
+ALL INDEPENDENT CHECKS PASSED

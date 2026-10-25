@@ -1,0 +1,8 @@
+source Golomb ruler: 10 marks, 45 distinct positive differences, PASS
+normalized witness: 0 1 6 10 23 26 34 41 53 55 97 99 111 118 126 129 142 146 151 152
+unordered pairs with diagonal: 210
+only repeated sum: 152, representations: 10
+translated witness lies in [1,153], only repeated sum: 154
+prior 19-point witness: diameter 134, only repeated sum 134 (10 reps), PASS
+direct-search positive control at diameter 152: sole repeat 152 (10 reps), PASS
+ALL WITNESS CHECKS PASSED

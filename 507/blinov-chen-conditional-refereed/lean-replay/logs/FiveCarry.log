@@ -1,0 +1,6 @@
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveCarry.lean:57:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'HeilbronnFive.truncEval_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.eval_sub_trunc_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.small_residue_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1226048 wall=5s

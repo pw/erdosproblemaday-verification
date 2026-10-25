@@ -1,0 +1,9 @@
+BridgeMutDef.lean:73:2: error: Tactic `rfl` failed: The left-hand side
+  ↑(Nat.nth Nat.Prime n) / (↑n + 2) < ↑(Nat.nth Nat.Prime (n + 1)) / (↑n + 1 + 2)
+is not definitionally equal to the right-hand side
+  ↑(Nat.nth Nat.Prime n) / (↑n + 1) < ↑(Nat.nth Nat.Prime (n + 1)) / (↑n + 1 + 1)
+
+n : ℕ
+⊢ ↑(Nat.nth Nat.Prime n) / (↑n + 2) < ↑(Nat.nth Nat.Prime (n + 1)) / (↑n + 1 + 2) ↔
+    ↑(Nat.nth Nat.Prime n) / (↑n + 1) < ↑(Nat.nth Nat.Prime (n + 1)) / (↑n + 1 + 1)
+BridgeMutDef rc=1 (must be nonzero)

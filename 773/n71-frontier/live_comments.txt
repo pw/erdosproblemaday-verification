@@ -1,0 +1,327 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/forum/discuss/773
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+What is the size of the largest Sidon subset 𝐴 ⊆{1,22,…,𝑁2}
+? Is it 𝑁1−𝑜⁡(1)
+?
+#773: [Er80,p.109][AlEr85]
+number theory | sidon sets | squares
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+A question of Alon and Erdős [AlEr85], who proved |𝐴| ≥𝑁2/3−𝑜⁡(1)
+ is possible (via a random subset), and observed that
+|𝐴|≪
+𝑁
+(log⁡𝑁)1/4
+,
+since (as shown by Landau) the density of the sums of two squares decays like (log⁡𝑁)−1/2
+. This upper bound was improved to
+|𝐴|≤𝑁1−
+𝑐
+log⁡log⁡𝑁
+for some constant 𝑐 >0
+ by Croot, Mao, and Yip (see the comments).
+
+The lower bound was improved to
+|𝐴|≫𝑁2/3
+by Lefmann and Thiele [LeTh95].
+
+In [Er80] Erdős further defines 𝑔⁡(𝐴)
+ to be the maximal size of a Sidon set of {𝑎2 :𝑎 ∈𝐴}
+, and asks whether 𝑔⁡(𝐴) ≥𝑔⁡({1,…,𝑁})
+ where 𝑁 =|𝐴|
+. (See [530] for the linear analogue.)
+
+He further asks the infinite analogue: is there an infinite set 𝐴 ⊂ℕ
+ such that |𝐴 ∩[1,𝑁]| ≥𝑁1−𝑜⁡(1)
+ for all large 𝑁
+ and {𝑎2 :𝑎 ∈𝐴}
+ is a Sidon set?
+
+See [1206] for a similar question for higher powers.
+
+View the LaTeX source
+
+This page was last edited 24 April 2026. View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: A390813
+
+11 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	Sayan_Dutta
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+Additional thanks to: Ernie Croot and Akshat Mudgal
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #773, https://www.erdosproblems.com/773, accessed 2026-08-12
+Order by oldest first or newest first. (The most recent comments are highlighted in a red border.)
+
+My student Junzhe Mao and postdoc Kyle Yip had worked on this problem some, and then Junzhe made an advance on it, and we have a "proof from the book" upper bound.  This and other results will be included in a forthcoming paper we are writing. Below is a version of the argument, which was heavily inspired by Brandon Hanson's paper "Additive Correlation and the Inverse Problem for the Large Sieve". We didn't use AI for this work.
+
+Basically, we have an upper bound of the form:
+
+|𝐴|⁢ < ⁢𝑁⁢exp⁡(−𝑐⁢
+log⁡𝑁
+log⁡log⁡𝑁
+),
+
+for some 𝑐 >0
+.
+
+Proof: We can assume |𝐴| >𝑁1−𝜀
+, or else we are done. Let 𝑟𝐴−𝐴⁡(𝑛)
+ denote the number of ordered pairs 𝑎,𝑎′ ∈𝐴
+, 𝑎 ≠𝑎′
+, such that 𝑎 −𝑎′ =𝑛
+. Note that if 𝐴
+ is a Sidon set, it implies that 𝑟𝐴−𝐴⁡(𝑛) =0
+ or 1
+. Let 𝑑
+ be an integer that is a product of about 𝑡 =(1 −2⁢𝜀)⁢(log⁡𝑁)/log⁡log⁡𝑁
+ primes in [log⁡𝑁,2⁢log⁡𝑁]
+; and note that the Prime Number Theorem implies 𝑑 <𝑁1−2⁢𝜀+𝑜⁡(1)
+, so |𝐴| >𝑑
+. Let 𝐴⁡(𝑟,𝑑)
+ denote the set of elements of 𝐴
+ that are 𝑟
+ mod 𝑑
+.
+
+Now, 𝐴
+ is contained in the squares, and since the squares occupy (𝑝 +1)/2
+ residue classes mod 𝑝
+, for each prime 𝑝 ≥3
+, we have that 𝐴
+ can occupy at most 𝑑⁢(1 +𝑜⁡(1))/2𝑡
+ residue classes mod 𝑑
+. Using Cauchy-Schwarz we have
+
+∑
+
+|𝑛|≤𝑁2
+𝑑|𝑛
+𝑟𝐴−𝐴⁡(𝑛)=(
+𝑑−1
+∑
+𝑟=0
+|𝐴⁡(𝑟,𝑑)|2)−|𝐴|≫
+2𝑡⁢|𝐴|2
+𝑑
+−|𝐴|>
+2𝑡−1⁢|𝐴|2
+𝑑
+,
+
+where the last inequality follows from the fact that |𝐴| >𝑑
+.
+
+On the other hand, since 𝐴
+ is Sidon (implying 𝑟𝐴−𝐴⁡(𝑛) =0
+ or 1
+, recall), the first sum is bounded from above by about 2⁢𝑁2/𝑑
+. So, we get
+
+2⁢𝑁2
+𝑑
+≫
+2𝑡−1⁢|𝐴|2
+𝑑
+,
+
+and the result follows.
+
+ecroot
+—
+19:04 on 17 Apr 2026
+👍
+3
+📝
+0
+🤖
+0
+
+Thanks Ernie, and welcome to the site! Great result, I've always liked this problem. Do you have a feeling what the truth is (I've always thought it surely must be 𝑁1−𝑜⁡(1)
+)
+
+Thomas Bloom
+—
+19:07 on 17 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+I think the upper bound ought to be 𝑀𝜃
+ for some 𝜃 <1/2
+, but I don't have a good feeling for the exact 𝜃
+. We (Junzhe and Kyle and I) have discussed this a few times. Or, using the 𝑁
+ notation, 𝑁𝛼
+ for some 𝛼 <1
+.
+
+ecroot
+—
+19:09 on 17 Apr 2026
+👍
+0
+📝
+0
+🤖
+0
+
+Just thought I would mention one more thing. See this paper (Theorem 1.2):
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/rsa.20496
+
+If the squares in [𝑁2]
+ behave like random sets of size 𝑁
+, then one would expect that the largest Sidon set contained within it has size about 𝑁2/3+𝑜⁡(1)
+. If so, then it means that improving the lower bound by finding a better construction is a fool's errand; and that what one *should* be doing is trying to improve the upper bound.
+
+ecroot
+—
+14:38 on 19 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+I think, Lefmann and Thiele back in 1995 [LeTh95] had also thought in this direction.
+
+old-bielefelder
+—
+15:05 on 19 Apr 2026
+👍
+2
+📝
+0
+🤖
+0
+
+I agree that if the squares act completely randomly this is the threshold, but I'd guess/hope that the squares do not act like a random set from this perspective.
+
+Compare to the question of the largest Sidon subset of {1,…,𝑁}
+ - a purely random construction only produces Sidon sets of size up to  ≈𝑁1/3
+, but of course we know various clever algebraic constructions that do much better,  ∼𝑁1/2
+.
+
+I see no reason not to expect some similar clever algebraic trick that creates a large Sidon, that now interacts well enough with squares to work in this context.
+
+Thomas Bloom
+—
+18:59 on 19 Apr 2026
+👍
+2
+📝
+0
+🤖
+0
+
+I'd personally put 20% effort on improving the lower bound and 80% on the upper bound.
+
+It's possible that the squares may "play nice" with some magic algebraic construction, but I'm pessimistic. The random model in that paper, by the way, does take into account magic sets like this, since it's the outer sets that are randomly chosen, and then inner set that gives the largest Sidon set is the one whose size it tries to predict -- and this one matches algebraic constructions.
+
+It would interesting to try to come up with some nice algebraic or interesting quasi-algebraic set where the largest Sidon set inside it is larger than the random model would predict for a set of similar density -- in case the lower bound on #773 can be improved, yet the improvement is very hard to find. e.g. maybe something like the set of numbers that are the sum of two 4th powers, which seems like it might be close enough to being Sidon that all you need is a small tweak.
+
+ecroot
+—
+22:03 on 19 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+Cosmin Pohoata and Adam Sheffer use this to say some new things about distinct distances in a grid and also about sets of grid points not containing an isosceles triangle:
+
+https://pohoatza.wordpress.com/2026/04/27/sets-with-no-isosceles-triangles-repeated-distances-in-atlanta/
+
+ecroot
+—
+01:16 on 28 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+We have 𝑔⁡({1,2,3,4}) =4
+, while 𝑔⁡({1,4,7,8}) =3
+ because 12 +82 =42 +72
+. So (as stated) the inequality 𝑔⁡(𝐴) ≥𝑔⁡({1,2,…,𝑁})
+ cannot uniformly hold for all 𝑁
+ and all sets 𝐴
+ with |𝐴| =𝑁
+. Perhaps a weaker version of the inequality does hold, not sure.
+
+Woett
+—
+07:41 on 18 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+Yes, I assume he was likely thinking of an asymptotic version of this inequality.
+
+Thomas Bloom
+—
+08:13 on 18 Apr 2026
+👍
+1
+📝
+0
+🤖
+0
+
+I submitted A390813. Draft edits here
+
+(The site has been updated to address this comment.)
+Giorgos Kalogeropoulos
+—
+12:50 on 20 Nov 2025
+👍
+0
+📝
+0
+🤖
+0
+
+All comments are the responsibility of the user. Comments appearing on this page are not verified for correctness. Please keep posts mathematical and on topic.
+
+Log in to add a comment.
+
+Back to the forum
+
+Page title: 773 Discussion Thread | Erdős Problems
+URL: https://www.erdosproblems.com/forum/thread/773

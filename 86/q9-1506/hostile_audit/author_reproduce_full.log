@@ -1,0 +1,42 @@
+PASS faces: edges=1506 valid_Q9_edges=1506 faces=4608 violations=0
+sha256=883919d0e3c7d571aadd920ad539667338dfdb74efa24e61808fb41754db573c
+file          : q9_edges_1506.json
+n             : 9
+solutions     : 1 (verifying index 0)
+unique edges  : 1506 (== 1506: True)
+invalid edges : range=0 dist=0 loop=0 dup=0
+C4-free       : True
+support       : 512 / 512 vertices
+degree range  : 4..7
+
+PASS
+PASS public-frontier comparison
+new_edges=1506 old_edges=1505 improvement=1
+added=193 removed=192 symmetric_difference=385
+new_sha256=883919d0e3c7d571aadd920ad539667338dfdb74efa24e61808fb41754db573c
+old_sha256=0994be825ec39d115b65eb1436eace7c1be324448a6ec116d69c8a7e2a75d338
+FOUND 1506 edges; wrote /tmp/tmp.iksnWY0HnW/reproduced.json
+PASS deterministic generation: byte-identical witness
+./PROVENANCE.md: OK
+./README.md: OK
+./compare_public_frontier.py: OK
+./generator/q9_min_conflicts.cpp: OK
+./logs/generation.log: OK
+./logs/reproduce.log: OK
+./logs/verification.log: OK
+./provenance/CLAIM_BOUNDARY.md: OK
+./provenance/LICENSE: OK
+./provenance/PAPER_V2.md: OK
+./provenance/README.md: OK
+./provenance/SITE_GATE.md: OK
+./provenance/erdosproblems_86_forum_20260811.txt: OK
+./provenance/erdosproblems_86_live_20260811.txt: OK
+./provenance/minamoto_arxiv_2603.29127v4.pdf: OK
+./provenance/oeis_A245762_bfile_20260811.txt: OK
+./provenance/upstream_verify_faces.py: OK
+./q9_edges_1506.json: OK
+./q9_edges_1506.txt: OK
+./q9_upstream/q9_edges_repair_from1503_iter2.json: OK
+./reproduce.sh: OK
+./verify_cherries.py: OK
+./verify_faces.py: OK

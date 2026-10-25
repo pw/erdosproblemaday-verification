@@ -1,0 +1,107 @@
+diff --git a/src/index.js b/src/index.js
+index 105b5fa..e4dea7d 100644
+--- a/src/index.js
++++ b/src/index.js
+@@ -1100,19 +1100,20 @@ F(n)&gt;n eventually.</p>
+   {
+     slug: "773-square-sidon-frontier",
+     problemNum: 773,
+-    title: "#773: conditional exact values a(69) = 32 and a(70) = 33",
+-    date: "2026-08-11",
++    title: "#773: conditional exact values through a(71) = 33",
++    date: "2026-08-12",
+     status: "partial",
+     originatedByUs: true,
+     summary:
+       "Problem #773 asks whether the largest Sidon subset of the first N " +
+       "positive squares has size N^(1-o(1)); that asymptotic problem remains " +
+       "open. Conditional on the full published exact OEIS A390813 prefix " +
+-      "through N=68, a frozen exhaustive search proves the next two values: " +
+-      "a(69)=32 and a(70)=33. The upper search at 69 covers seven disjoint " +
+-      "cubes and 171,546,643 recursive states; the size-32 and size-33 lower " +
+-      "witnesses are direct integer certificates. Two hostile audits reran " +
+-      "the proof and checked its reduction independently. This extends a " +
++      "through N=68, frozen exhaustive searches prove the next three values: " +
++      "a(69)=32, a(70)=33, and a(71)=33. The new upper search at 71 covers " +
++      "seven disjoint cubes and 114,296,406 recursive states; the size-33 " +
++      "lower witness is a direct integer certificate. An independent " +
++      "definition-level audit reconstructs every collision support and checks " +
++      "the witness, cube cover, and counters. This extends a " +
+       "finite table, not the exponent in Erdős's question.",
+     body: `
+ <p><strong>The target</strong> (<a href="https://www.erdosproblems.com/773">erdosproblems.com/773</a>,
+@@ -1123,21 +1124,22 @@ including the diagonal i=j, must be different. Erdős asked whether</p>
+ <p style="text-align:center"><strong>a(N)=N<sup>1-o(1)</sup>.</strong></p>
+ 
+ <p>We do not settle that asymptotic question. We extend its exact finite
+-frontier by two places.</p>
++frontier by three places.</p>
+ 
+ <p><strong>The result.</strong> Conditional on the full published exact
+ <a href="https://oeis.org/A390813">OEIS A390813</a> prefix through N=68,</p>
+ 
+ <p style="text-align:center;font-size:1.2em"><strong>
+-a(69)=32 and a(70)=33.
++a(69)=32, a(70)=33, and a(71)=33.
+ </strong></p>
+ 
+-<p>The condition is substantive and explicit. The frozen proof uses the
++<p>The condition is substantive and explicit. The N=69 frozen proof uses the
+ published upper bounds a(k) for every remaining prefix 1,...,k with k&le;68;
+ it does not independently re-prove those earlier values. The final published
+ value a(68)=32 first forces any hypothetical 33-set at N=69 to contain
+ 69<sup>2</sup>. The computation then fixes index 69 and asks whether 32 more
+-indices can be chosen from 1,...,68.</p>
++indices can be chosen from 1,...,68. The N=71 computation additionally depends
++on the resulting certified a(69)=32 and a(70)=33.</p>
+ 
+ <p><strong>An exact finite model.</strong> A collision is an equality</p>
+ 
+@@ -1181,6 +1183,22 @@ pairwise distinct unordered square sums at N=69:</p>
+ candidate shows a(70)&le;a(69)+1, so the second witness gives equality once
+ the conditional value at 69 is established.</p>
+ 
++<p><strong>The next exact value.</strong> Conditional on that certified
++frontier through 70, a(71)=33. A hypothetical 34-set at 71 must contain index
++71, since a(70)=33. Fixing 71 leaves exactly 33 indices to choose from 1,...,70.
++The new checker reconstructs all 764 collision supports at N=71 (23 triples
++and 741 quadruples) and exhausts the same seven prefix cubes for
++(x<sub>70</sub>,x<sub>69</sub>,x<sub>68</sub>). All return UNSATISFIABLE,
++after 114,296,406 states in total. The displayed N=70 witness remains a valid
++33-set at N=71, proving equality under the stated dependency.</p>
++
++<p>A separate definition-level Python audit directly compares every pair of
++unordered square pairs rather than sharing the C++ support builder. It
++reconstructs the 764 forbidden supports, checks all 561 witness sums, proves
++the cube cover exhaustive, and totals and checks every recorded counter. A
++separately assigned hostile audit then rebuilt the checker and reran all seven
++cubes from source, reproducing every deterministic counter.</p>
++
+ <p><strong>Audit posture.</strong> The bundle freezes the exact OEIS b-file and
+ its hash, the proof source, all seven completed logs, witnesses, and independent
+ checkers. The primary audit rebuilds the optimized executable byte-for-byte and
+@@ -1190,16 +1208,20 @@ passed a sanitizer plus incremental-state check on a deep subcube. A second
+ independent hostile audit reviewed the proof and artifact package separately
+ before publication.</p>
+ 
+-<p><strong>Scope.</strong> This is a rigorous computational extension conditional
+-on the existing exact table, not a claim that the OEIS prefix has been
++<p><strong>Scope.</strong> These are rigorous computational extensions conditional
++on the stated exact prefix, not a claim that the OEIS prefix has been
+ re-certified here and not progress on the exponent in Erdős's question. The
+-site also records a July CODEX attempt on #773 that found no proof; this is a
+-new finite round, not our first encounter with the problem.</p>
++live OEIS table stopped at 68 on 12 August 2026, and the live problem still
++showed zero claimed proofs and no worker or collaborator. That is dated search
++evidence only: no absolute novelty or priority claim is made for a(71). The site
++also records a July CODEX attempt on #773 that found no proof; this is a new
++finite round, not our first encounter with the problem.</p>
+ `,
+     links: [
+       { label: "erdosproblems.com/773", url: "https://www.erdosproblems.com/773" },
+       { label: "OEIS A390813", url: "https://oeis.org/A390813" },
+       { label: "Proof search, witnesses, logs, and hostile audits", url: "https://github.com/pw/ErdosProblemADay.com/tree/main/verification/773/n69-frontier" },
++      { label: "N=71 exhaustive certificate and definition-level audit", url: "https://github.com/pw/ErdosProblemADay.com/tree/main/verification/773/n71-frontier" },
+     ],
+   },
+   {

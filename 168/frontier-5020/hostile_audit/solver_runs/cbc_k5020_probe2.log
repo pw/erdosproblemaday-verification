@@ -1,0 +1,42 @@
+Welcome to the CBC MILP Solver
+Version: Devel (unstable)
+Build Date: Mar 23 2026
+command line - solver_runs/flat_k5020_counterexample.lp -threads 1 -seconds 2 -solve -quit (default strategy 1)
+ CoinLpIO::readLp(): Maximization problem reformulated as minimization
+Problem flat_k5020_counterexample.lp has 4897 rows, 5020 columns and 19706 elements
+Coin0009I Switching back to maximization to get correct duals etc
+threads was changed from 0 to 1
+seconds was changed from 1e+08 to 2
+Continuous objective value is 1 - 1.50927 seconds
+Cgl0004I processed model has 4896 rows, 5018 columns (5018 integer (5017 of which binary)) and 19701 elements
+Coin0011I Conflict graph built in 0.000 seconds, density: 0.010%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.056209
+Cbc0045I 1 integer variables out of 5018 objects (5018 integer) have cost of -1 - high priority
+Cbc0045I branch on satisfied Y create fake objective Y random cost Y
+Cbc0038I Initial state - 4801 integers unsatisfied sum - 1437.05
+Cbc0038I Pass   1: (1.97 seconds) suminf.  222.38652 (3362) obj. 1 iterations 625
+Cbc0038I No solution found this major pass
+Cbc0038I After 2.00 seconds - Feasibility pump exiting - took 0.49 seconds
+Cbc0030I Thread 0 used 0 times,  waiting to start 7.1525574e-07, 0 cpu time, 0 locks, 0 locked, 0 waiting for locks
+Cbc0030I Main thread 0 waiting for threads,  1 locks, 8.3446503e-06 locked, 2.3841858e-06 waiting for locks
+Cbc0020I Exiting on maximum time
+Cbc0005I Partial search - best objective -1e+50 (best possible 1), took 0 iterations and 0 nodes (2.02 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 1 to 1
+Probing was tried 0 times and created 0 cuts (0 seconds)
+Gomory was tried 0 times and created 0 cuts (0 seconds)
+Knapsack was tried 0 times and created 0 cuts (0 seconds)
+Clique was tried 0 times and created 0 cuts (0 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts (0 seconds)
+FlowCover was tried 0 times and created 0 cuts (0 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts (0 seconds)
+ZeroHalf was tried 0 times and created 0 cuts (0 seconds)
+
+Result - Stopped on time limit
+No feasible solution found
+Upper bound:                    1
+Enumerated nodes:               0
+Total iterations:               0
+Time (B&C, Wallclock seconds):  2.01806
+Total time (Wallclock seconds): 2.03182   (CPU seconds):             2.25434

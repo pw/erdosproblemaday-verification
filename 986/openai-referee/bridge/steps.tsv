@@ -1,0 +1,11 @@
+Bridge986 0 7
+Bridge986Main 0 7
+Neg_s3 1 7
+Neg_defmut(v1-wrong-route) 1 6
+Neg_sorry 0 7
+DONE
+Neg_defmut_v2 1err
+leanchecker_Bridge986 0 9
+leanchecker_Bridge986Main 0 6
+leanchecker_missing_control 1 2
+LCDONE

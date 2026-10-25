@@ -1,0 +1,14 @@
+== t7r0 controls (06:5xZ) ==
+orig  rupcheck: RUP-VERIFIED (strict): empty clause at action #163
+orig  cake_lpr: s VERIFIED UNSAT
+droplast-empty rupcheck: actions: add=84 del=79 total=163 empty_adds=1 rat_adds=0 last_id=1329125
+FAIL: hints end without conflict (no RAT/pure-literal fallback here) (84) at action id 1329125
+droplast-empty cake_lpr: c Checking failed at line: 162. Reason: pivot must be non-zero
+droplast-empty lrat-check: c VERIFIED
+mutate1 rupcheck: FAIL: hint has >=2 unassigned literals (1232916) at action id 1329042
+cnfmut rupcheck: FAIL: hint has >=2 unassigned literals (1327818) at action id 1329055
+== t7r0 cake_lpr controls (06:5xZ) ==
+mutate1 cake_lpr: c Checking failed at line: 0. Reason: clause not empty or singleton after reduction
+mutate40 cake_lpr: c Checking failed at line: 77. Reason: clause not empty or singleton after reduction
+cnfmut(clause 24, cited) cake_lpr: c Checking failed at line: 26. Reason: clause not empty or singleton after reduction
+exploit sat_r.cnf + '2 0 0': cake_lpr: c Checking failed at line: 0. Reason: pivot must be non-zero | lrat-check: c VERIFIED

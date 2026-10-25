@@ -1,0 +1,18 @@
+25c25
+< d, bs, nb = k - 1, k - 2, k + 1
+---
+> d, bs = int(os.environ['GEN_D']), int(os.environ['GEN_S']); nb = d + 2   # REFEREE PATCH
+31,40c31,32
+< need = -(-(d - 1) // 2)
+< if k == 7:
+<     assert 0 <= j <= nb // 2
+<     E = []
+<     for p in range(nb // 2):
+<         E += [2, 2] if p < j else [2, 1]
+< elif k == 5:
+<     E = [1] * nb
+< else:
+<     sys.exit("k must be 5 or 7")
+---
+> need = 0   # REFEREE PATCH (generalised: within-pair bound s(d-s)/2 <= 0 for s >= d)
+> E = [int(t) for t in os.environ['GEN_E'].split(',')]   # REFEREE PATCH

@@ -1,0 +1,14 @@
+paper bounds: first k=10^e with first-family weight <= 1/1000: e = 23 ; stays below through e=259: True
+  e= 20  D=100       log T_glob <= 9.495e+07   (deltaM-1)/32 = 3.125e+07   log(k T e^{-(dM-1)/32}) = 6.37e+07
+  e= 22  D=159       log T_glob <= 4.185e+08   (deltaM-1)/32 = 3.125e+08   log(k T e^{-(dM-1)/32}) = 1.06e+08
+  e= 23  D=200       log T_glob <= 8.697e+08   (deltaM-1)/32 = 9.882e+08   log(k T e^{-(dM-1)/32}) = -1.185e+08
+  e= 24  D=252       log T_glob <= 1.813e+09   (deltaM-1)/32 = 3.125e+09   log(k T e^{-(dM-1)/32}) = -1.312e+09
+  e= 26  D=399       log T_glob <= 7.782e+09   (deltaM-1)/32 = 3.125e+10   log(k T e^{-(dM-1)/32}) = -2.347e+10
+  e= 30  D=1000      log T_glob <= 1.409e+11   (deltaM-1)/32 = 3.125e+12   log(k T e^{-(dM-1)/32}) = -2.984e+12
+  e= 45  D=31623     log T_glob <= 6.641e+15   (deltaM-1)/32 = 9.882e+19   log(k T e^{-(dM-1)/32}) = -9.881e+19
+  e= 60  D=1000000   log T_glob <= 2.791e+20   (deltaM-1)/32 = 3.125e+27   log(k T e^{-(dM-1)/32}) = -3.125e+27
+Lean global-count base 16(3k^2F+1)^6: first e = 26 ; stays: True
+--- CONTROLS (each must FAIL) ---
+CONTROL rows of size delta*k^{1/4} instead of delta*M: first e = None ; value at e=259: 5.992e+80
+CONTROL D = k^{1/5} instead of k^{1/10} (log T_glob ~ D^3 log M vs M): first e = None ; value at e=259: 3.003e+158
+[wall 0.19 s, maxrss 10980 KB, exit 0]

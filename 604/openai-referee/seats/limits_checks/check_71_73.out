@@ -1,0 +1,13 @@
+[multiscale] n=1200  E_pi log|U-U'| = -8.09e-17 (=0 by the choice of m)  C1=E|log|=1.7692  E(log)_+=0.8846  E(log)_-=0.8846
+   pair tail ok=True  (7.2) ok=True (max lhs-rhs=+0)  (7.3) ok=True (max lhs-rhs=-0.0665 at r,lhs,rhs=(1e-12, np.float64(6.944444444444446e-07), np.float64(0.06651157847974767)))
+[clustered] n=1200  E_pi log|U-U'| = -3.24e-16 (=0 by the choice of m)  C1=E|log|=7.9594  E(log)_+=3.9797  E(log)_-=3.9797
+   pair tail ok=True  (7.2) ok=True (max lhs-rhs=+0)  (7.3) ok=True (max lhs-rhs=-0.296 at r,lhs,rhs=(1e-12, np.float64(6.944444444444446e-07), np.float64(0.29630435451153314)))
+[clustered] n=1200  E_pi log|U-U'| = -3.24e-16 (=0 by the choice of m)  C1=E|log|=7.9594  E(log)_+=3.9797  E(log)_-=3.9797
+   CONTROL: using signed C1 := max(E log, 0) = 0
+   pair tail ok=False  (7.2) ok=False (max lhs-rhs=+0.5)  (7.3) ok=False (max lhs-rhs=+0.249 at r,lhs,rhs=(0.49, np.float64(0.25), np.float64(0.0008333333333333334)))
+[spread] n=1200  E_pi log|U-U'| = +8.09e-17 (=0 by the choice of m)  C1=E|log|=4.1796  E(log)_+=2.0898  E(log)_-=2.0898
+   pair tail ok=True  (7.2) ok=True (max lhs-rhs=+0)  (7.3) ok=True (max lhs-rhs=-0.156 at r,lhs,rhs=(1e-12, np.float64(6.944444444444446e-07), np.float64(0.15599112629186437)))
+[spread] n=1200  E_pi log|U-U'| = +8.09e-17 (=0 by the choice of m)  C1=E|log|=4.1796  E(log)_+=2.0898  E(log)_-=2.0898
+   CONTROL: using signed C1 := max(E log, 0) = 8.09e-17
+   pair tail ok=False  (7.2) ok=False (max lhs-rhs=+0.0417)  (7.3) ok=False (max lhs-rhs=+0.918 at r,lhs,rhs=(0.49, np.float64(0.9184027777777779), np.float64(0.0008333333333373383)))
+MAXRSS_KB=92100 ELAPSED=1.05

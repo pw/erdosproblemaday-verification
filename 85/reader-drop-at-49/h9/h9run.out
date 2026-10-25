@@ -1,0 +1,48 @@
+ctl_petersen_free_deg3	kissat	SAT	0.01	45	1980	SAT	model: free degrees ok=True, max codegree=1
+ctl_petersen_free_deg3	cadical	SAT	0.0	45	1980	SAT	model: free degrees ok=True, max codegree=1
+ctl_n10_deg4	kissat	UNSAT	0.26	45	2060	UNSAT	
+ctl_n10_deg4	cadical	UNSAT	0.15	45	2060	UNSAT	
+ctl_hs_30fixed	kissat	SAT	0.01	190	13840	SAT	model: free degrees ok=True, max codegree=1
+ctl_hs_30fixed	cadical	SAT	0.01	190	13840	SAT	model: free degrees ok=True, max codegree=1
+mut_hs30_no_free_c4	kissat	SAT	0.01	190	7720	SAT-but-model-must-fail	model: free degrees ok=True, max codegree=1
+mut_hs30_no_free_c4	cadical	SAT	0.01	190	7720	SAT-but-model-must-fail	model: free degrees ok=True, max codegree=1
+h9_t0_rep0	kissat	UNSAT	6.92	780	418400	UNSAT	
+h9_t0_rep0	cadical	UNSAT	0.49	780	418400	UNSAT	
+h9_t1_rep0	kissat	UNSAT	7.25	780	418400	UNSAT	
+h9_t1_rep0	cadical	UNSAT	1.48	780	418400	UNSAT	
+h9_t2_rep0	kissat	UNSAT	10.25	780	418400	UNSAT	
+h9_t2_rep0	cadical	UNSAT	3.49	780	418400	UNSAT	
+h9_t2_rep1	kissat	UNSAT	11.52	780	418400	UNSAT	
+h9_t2_rep1	cadical	UNSAT	3.43	780	418400	UNSAT	
+h9_t3_rep0	kissat	UNSAT	15.41	780	418400	UNSAT	
+h9_t3_rep0	cadical	UNSAT	5.03	780	418400	UNSAT	
+h9_t3_rep1	kissat	UNSAT	63.17	780	418400	UNSAT	
+h9_t3_rep1	cadical	UNSAT	70.0	780	418400	UNSAT	
+h9_t3_rep2	kissat	UNSAT	66.59	780	418400	UNSAT	
+h9_t3_rep2	cadical	UNSAT	47.52	780	418400	UNSAT	
+h9_t3_rep3	kissat	UNSAT	57.87	780	418400	UNSAT	
+h9_t3_rep3	cadical	UNSAT	74.1	780	418400	UNSAT	
+h9_t3_rep4	kissat	UNSAT	93.3	780	418400	UNSAT	
+h9_t3_rep4	cadical	UNSAT	166.71	780	418400	UNSAT	
+h9_t4_rep0	kissat	UNSAT	78.17	780	418400	UNSAT	
+h9_t4_rep0	cadical	UNSAT	64.2	780	418400	UNSAT	
+h9_t4_rep1	kissat	UNSAT	78.22	780	418400	UNSAT	
+h9_t4_rep1	cadical	UNSAT	39.26	780	418400	UNSAT	
+h9_t4_rep2	kissat	UNSAT	136.88	780	418400	UNSAT	
+h9_t4_rep2	cadical	UNSAT	151.6	780	418400	UNSAT	
+h9_t4_rep3	kissat	UNSAT	89.31	780	418400	UNSAT	
+h9_t4_rep3	cadical	UNSAT	43.9	780	418400	UNSAT	
+h9_t4_rep4	kissat	UNSAT	61.92	780	418400	UNSAT	
+h9_t4_rep4	cadical	UNSAT	31.65	780	418400	UNSAT	
+h9_t4_rep5	kissat	UNSAT	150.79	780	418400	UNSAT	
+h9_t4_rep5	cadical	UNSAT	327.01	780	418400	UNSAT	
+h9_t4_rep6	kissat	UNSAT	91.63	780	418400	UNSAT	
+h9_t4_rep6	cadical	UNSAT	53.5	780	418400	UNSAT	
+h9_t4_rep7	kissat	UNSAT	134.9	780	418400	UNSAT	
+h9_t4_rep7	cadical	UNSAT	345.36	780	418400	UNSAT	
+h9_t4_rep8	kissat	UNSAT	188.71	780	418400	UNSAT	
+h9_t4_rep8	cadical	UNSAT	160.56	780	418400	UNSAT	
+h9_t4_rep9	kissat	UNSAT	416.03	780	418400	UNSAT	
+h9_t4_rep9	cadical	UNSAT	1699.01	780	418400	UNSAT	
+h9_t4_rep10	kissat	UNSAT	351.3	780	418400	UNSAT	
+h9_t4_rep10	cadical	UNSAT	604.81	780	418400	UNSAT	

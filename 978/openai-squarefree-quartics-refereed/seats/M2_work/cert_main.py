@@ -1,0 +1,81 @@
+
+from fractions import Fraction as F
+from math import comb
+
+K, G = 3000, 100000
+
+def polynomials(d):
+    k = d - 2
+    for i in range(1, 500):
+        t = F(i, 50)
+        values = [sum(comb(d-r, j-s) * comb(k, j-1)
+                      * k**(j-1) * t**(j-s)
+                      for j in range(1, d))
+                  for r, s in [(0, 0), (1, 0), (1, 1)]]
+        yield (t, *values)
+
+def upper(x, e):
+    assert 0 <= x < 1
+    l, r = 0, G
+    while r > l + 1:
+        middle = (l + r) // 2
+        if F(middle, G)**e > x:
+            r = middle
+        else:
+            l = middle
+    return F(r, G)
+
+def check_derivatives():
+    for k in range(2, 7):
+        for t in [F(3, 20), F(5)]:
+            for a, b in [(1, 0), (0, 1), (1, 1)]:
+                for h in range(2, k+3):
+                    N = t * (1 + 1/t
+                        - F(h-1, h)*(k+1)/(k+t)
+                        - F(1, h)*(a+b)/(a+b*t))
+                    assert N >= 0
+                    assert N**h < (k+t)**(h-1)*(a+b*t)
+
+def check_degree(d):
+    k, choices, least = d-2, list(polynomials(d)), F(1)
+    for z in range(K, 2*K):
+        etaL, etaH = F(z, K), F(z+1, K)
+        if etaL*(1-k*etaL/d) < F(2495, 10000):
+            return z, least
+        bL, bH = d-k*etaH, d-k*etaL
+        t, H, Ha, Hb = min(choices,
+            key=lambda row: (etaH+bH*row[0])**d/row[1])
+        w = upper(((d+1)*(etaH+bH*t)/d**2)**d/H, d-1)
+        assert (w**(d-2)*min(Ha, Hb)
+                > ((etaH+bH*t)/(d-1))**(d-1))
+        m = (d-1)*w
+        u, v = (etaH-m)/d, (bH-m)/d
+        assert 0 < m < 1 and min(etaL, bL) > m
+        assert min(u, v) > 0 and F(3, 20) <= v/u <= 5
+
+        def delta(h, D):
+            return upper((u*v)**h/((k*u+v)**(h-1)*D), h)
+
+        P = [delta(d, u+v)]
+        if d == 4 and z < 4000:
+            assert m+2*u < F(999, 1000)
+            P += [delta(3, v),
+                  max(delta(2, min(3*u, 2*v, u+v)),
+                      upper(u*u/3, 2))]
+        else:
+            P += [delta(h, min(u, v))
+                  for h in range(d-1, 1, -1)]
+        g = (d-1)*(k-1) + (d == 4)
+        P.append(max(u/2, min(u, v/g)))
+        gap = 1-m-sum(max(P[:h]) for h in range(1, d+1))
+        assert gap > F(1, 1000)
+        least = min(least, gap)
+    raise AssertionError("cutoff not reached")
+
+check_derivatives()
+assert [check_degree(d) for d in range(4, 9)] == [
+    (5124, F(191, 100000)), (4084, F(293, 50000)),
+    (3552, F(321, 2500)), (3226, F(23177, 100000)),
+    (3003, F(31683, 100000))]
+
+print('MAIN CERT OK')

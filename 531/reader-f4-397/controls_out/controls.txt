@@ -1,0 +1,18 @@
+allzero396 C mono 40781268 rc 1
+allzero60 C 16390 PY 16390
+rand0 p=0.45 C=3028 PY=3028
+rand1 p=0.3 C=226717 PY=226717
+rand2 p=0.3 C=275250 PY=275250
+rand3 p=0.3 C=198772 PY=198772
+rand4 p=0.3 C=365511 PY=365511
+rand5 p=0.3 C=62183 PY=62183
+rand6 p=0.5 C=2348 PY=2348
+rand7 p=0.3 C=161498 PY=161498
+rand8 p=0.45 C=6670 PY=6670
+rand9 p=0.5 C=2086 PY=2086
+rand10 p=0.45 C=10830 PY=10830
+rand11 p=0.45 C=5625 PY=5625
+single-bit mutants: agree 396 /396; flips that stay proper: 24 [15, 101, 107, 120, 121, 122, 129, 131, 185, 187, 188, 191, 192, 276, 278, 280, 284, 306, 356, 367, 373, 384, 388, 392]
+total disagreements 0
+
+[exited with code 0]

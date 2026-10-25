@@ -1,0 +1,12 @@
+## 5 0 60 kissat --ph
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=11064 c4=5502 derived=12 sb=6 slots=0 ph=90
+UNSAT
+## 5 0 60 kissat --relax-pairs
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=135 clauses=16350 c4=13020 derived=0 sb=6 slots=0 ph=0 RELAXED-PAIRS CONTROL
+UNKNOWN (cap 60)
+## 5 0 60 kissat --relax-pairs --ph
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=135 clauses=18960 c4=13020 derived=0 sb=6 slots=0 ph=90 RELAXED-PAIRS CONTROL
+UNKNOWN (cap 60)
+## 5 0 60 kissat --relax-pairs --ph --pairsb
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=135 clauses=36578 c4=13020 derived=0 sb=6 slots=0 ph=90 RELAXED-PAIRS CONTROL
+UNSAT

@@ -1,0 +1,5 @@
+f3 = T^3+0T^2+0T+2 ; f5 = T^5+0T^4+0T^3+0T^2+1T+3
+nontrivial zeros: N3 0  N5 0  (both must be 0)
+k=6 p=7: 100000000 random 6-APs: symmetric in real colouring 0, in no-Q control 13 (control must be >0)
+          exhaustive-in-d from 3 random starts (121060818 6-APs): symmetric 0
+rc=0

@@ -1,0 +1,8 @@
+'HeilbronnFivePacking.exact_layer_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFivePacking.layer_capacity' does not depend on any axioms
+'HeilbronnFivePacking.exact_layer_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFivePacking.trace_packing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFivePacking.tagged_packing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFivePacking.tag_separation' depends on axioms: [propext, Quot.sound]
+'HeilbronnFivePacking.trace_gain' does not depend on any axioms
+RSSCAP done rc=0 peak_kb=563024 wall=1s

@@ -1,0 +1,2 @@
+shard=0/1 sequence=1/1 case=396/403 edges=30 result=False conflicts=77334 seconds=3.313
+SHARD_DONE shard=0/1 degree=11 cases=1 unsat=1 unknown=0 conflicts=77334 seconds=3.315

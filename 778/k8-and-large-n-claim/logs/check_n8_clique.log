@@ -1,0 +1,1 @@
+ACCEPT :: ACCEPT winner=bob n=8 mode=clique: 122288 Alice-to-move positions explored, 0 terminal leaves, 57512 cutoff leaves, 210325 certificate entries

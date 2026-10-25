@@ -1,0 +1,12 @@
+'HeilbronnSphere.sphere_matching' depends on axioms: [propext, Quot.sound]
+'HeilbronnSphere.position_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnSphere.encode_injective' depends on axioms: [propext, Quot.sound]
+'HeilbronnSphere.right_injective' depends on axioms: [propext, Quot.sound]
+'HeilbronnSphere.paper_capacity' does not depend on any axioms
+'HeilbronnSphere.sphere_gain' does not depend on any axioms
+'HeilbronnSphere.sphere_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnSphere.packing_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnSphere.paper_packing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnSphere.paperT_binomial' does not depend on any axioms
+'HeilbronnSphere.paper_packing_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=587072 wall=6s

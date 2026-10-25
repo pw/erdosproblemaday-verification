@@ -1,0 +1,8 @@
+PASS bfile_sha256=dce8e0faa57f6373f1f9fa7e33afe1b1819723cf3a3535b1e4d94ad62d056916 rows=68 a68=32
+PASS source_sha256=eb21d0f429881f61dd5148ab2a41da3fb6b57d1513ea2db656ae3ae69883e933
+PASS binary_sha256=e9d471fb6df395f0807c21efc2fffbda64403511cd92b8098bb9100eaaa5655a deterministic_rebuild
+PASS supports=712 triples=21 quadruples=691
+PASS cubes=00,010,011,100,101,110,111 exhaustive_disjoint total_nodes=171546643
+PASS witness_N69_size=32 sums=528
+PASS witness_N70_size=33 sums=561
+CERTIFIED conditional_on_frozen_A390813_prefix a69=32 a70=33

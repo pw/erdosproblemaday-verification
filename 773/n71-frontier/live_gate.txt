@@ -1,0 +1,70 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/773
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+What is the size of the largest Sidon subset 𝐴 ⊆{1,22,…,𝑁2}? Is it 𝑁1−𝑜⁡(1)?
+#773: [Er80,p.109][AlEr85]
+number theory | sidon sets | squares
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+A question of Alon and Erdős [AlEr85], who proved |𝐴| ≥𝑁2/3−𝑜⁡(1) is possible (via a random subset), and observed that
+|𝐴|≪
+𝑁
+(log⁡𝑁)1/4
+,
+since (as shown by Landau) the density of the sums of two squares decays like (log⁡𝑁)−1/2. This upper bound was improved to
+|𝐴|≤𝑁1−
+𝑐
+log⁡log⁡𝑁
+for some constant 𝑐 >0 by Croot, Mao, and Yip (see the comments).
+
+The lower bound was improved to
+|𝐴|≫𝑁2/3
+by Lefmann and Thiele [LeTh95].
+
+In [Er80] Erdős further defines 𝑔⁡(𝐴) to be the maximal size of a Sidon set of {𝑎2 :𝑎 ∈𝐴}, and asks whether 𝑔⁡(𝐴) ≥𝑔⁡({1,…,𝑁}) where 𝑁 =|𝐴|. (See [530] for the linear analogue.)
+
+He further asks the infinite analogue: is there an infinite set 𝐴 ⊂ℕ such that |𝐴 ∩[1,𝑁]| ≥𝑁1−𝑜⁡(1) for all large 𝑁 and {𝑎2 :𝑎 ∈𝐴} is a Sidon set?
+
+See [1206] for a similar question for higher powers.
+
+View the LaTeX source
+
+This page was last edited 24 April 2026. View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: A390813
+
+11 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	Sayan_Dutta
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+Additional thanks to: Ernie Croot and Akshat Mudgal
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #773, https://www.erdosproblems.com/773, accessed 2026-08-12
+Previous
+Next
+
+Page title: 773 | Erdős Problems
+URL: https://www.erdosproblems.com/773

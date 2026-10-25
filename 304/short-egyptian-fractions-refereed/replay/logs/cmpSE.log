@@ -1,0 +1,60 @@
+@@@ BEGIN thm OAI.ShortEgyptian.main
+OAI.ShortEgyptian.main : And
+  (∀ (a b : Nat),
+    @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) a →
+      @LT.lt.{0} Nat instLTNat a b →
+        @Exists.{1} (List.{0} Nat) fun (ns : List.{0} Nat) => OAI.ShortEgyptian.IsExpansion a b ns)
+  (@Exists.{1} Real fun (c₁ : Real) =>
+    @Exists.{1} Real fun (c₂ : Real) =>
+      And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c₁)
+        (And
+          (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c₂)
+          (@Exists.{1} Nat fun (b₀ : Nat) =>
+            And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) b₀)
+              (∀ (b : Nat),
+                @LE.le.{0} Nat instLENat b₀ b →
+                  And
+                    (@LE.le.{0} Real Real.instLE
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c₁
+                        (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast b))))
+                      (@Nat.cast.{0} Real Real.instNatCast (OAI.ShortEgyptian.maxMinLength b)))
+                    (@LE.le.{0} Real Real.instLE
+                      (@Nat.cast.{0} Real Real.instNatCast (OAI.ShortEgyptian.maxMinLength b))
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c₂
+                        (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast b)))))))))
+'OAI.ShortEgyptian.main' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN def OAI.ShortEgyptian.IsExpansion
+def OAI.ShortEgyptian.IsExpansion : (a b : Nat) → (ns : List.{0} Nat) → Prop :=
+fun (a b : Nat) (ns : List.{0} Nat) =>
+  And (@List.Pairwise.{0} Nat (fun (x1 x2 : Nat) => @LT.lt.{0} Nat instLTNat x1 x2) ns)
+    (And
+      (∀ (n : Nat),
+        @Membership.mem.{0, 0} Nat (List.{0} Nat) (@List.instMembership.{0} Nat) ns n →
+          @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) n)
+      (@Eq.{1} Rat
+        (@List.sum.{0} Rat Rat.instAdd (@MulZeroClass.toZero.{0} Rat (@instMulZeroClassOfSemiring.{0} Rat Rat.semiring))
+          (@List.map.{0, 0} Rat Rat
+            (fun (n : Rat) =>
+              @HDiv.hDiv.{0, 0, 0} Rat Rat Rat (@instHDiv.{0} Rat Rat.instDiv)
+                (@OfNat.ofNat.{0} Rat (nat_lit 1) (@Rat.instOfNat (nat_lit 1))) n)
+            (@Bind.bind.{0, 0} List.{0} (@Monad.toBind.{0, 0} List.{0} List.instMonad.{0}) Nat Rat ns fun (a : Nat) =>
+              @Pure.pure.{0, 0} List.{0}
+                (@Applicative.toPure.{0, 0} List.{0} (@Monad.toApplicative.{0, 0} List.{0} List.instMonad.{0})) Rat
+                (@Nat.cast.{0} Rat Rat.instNatCast a))))
+        (@HDiv.hDiv.{0, 0, 0} Rat Rat Rat (@instHDiv.{0} Rat Rat.instDiv) (@Nat.cast.{0} Rat Rat.instNatCast a)
+          (@Nat.cast.{0} Rat Rat.instNatCast b))))
+@@@ BEGIN def OAI.ShortEgyptian.minLength
+def OAI.ShortEgyptian.minLength : (a b : Nat) → Nat :=
+fun (a b : Nat) =>
+  @InfSet.sInf.{0} Nat Nat.instInfSet
+    (@Set.ofPred.{0} Nat fun (k : Nat) =>
+      @Exists.{1} (List.{0} Nat) fun (ns : List.{0} Nat) =>
+        And (OAI.ShortEgyptian.IsExpansion a b ns) (@Eq.{1} Nat (@List.length.{0} Nat ns) k))
+@@@ BEGIN def OAI.ShortEgyptian.maxMinLength
+def OAI.ShortEgyptian.maxMinLength : (b : Nat) → Nat :=
+fun (b : Nat) =>
+  @Finset.sup.{0, 0} Nat Nat (@Lattice.toSemilatticeSup.{0} Nat Nat.instLattice) Nat.instOrderBot
+    (@Finset.Ico.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) b)
+    fun (a : Nat) => OAI.ShortEgyptian.minLength a b
+@@@ END

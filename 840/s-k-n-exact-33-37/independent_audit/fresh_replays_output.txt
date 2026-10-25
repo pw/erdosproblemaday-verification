@@ -1,0 +1,8 @@
+n37_k12_no_score_65.drat.gz: VERIFIED (458 log characters)
+n37_k13_no_score_70.drat.gz: VERIFIED (453 log characters)
+n37_k11_no_score_60.drat.gz: VERIFIED (462 log characters)
+n37_k09_no_score_44_diameter_34.drat.gz: VERIFIED (465333 log characters)
+n37_k09_no_score_44_diameter_35.drat.gz: VERIFIED (511172 log characters)
+n37_k10_no_score_52.drat.gz: VERIFIED (468 log characters)
+n37_k09_no_score_44_diameter_36.drat.gz: VERIFIED (559671 log characters)
+ALL SEVEN FRESH HOSTILE DRAT REPLAYS PASS

@@ -1,0 +1,7 @@
+L(Heawood): n 21 deg {4} diam 3 distance-regular True ([4, 2, 2], [1, 1, 2])
+distance-2 graph of L(Heawood): deg {8}, iso to G21: False
+distance-3 graph of L(Heawood): deg {8}, iso to G21: True
+flags, adjacent iff p∉M and q∉L: deg {8} iso G21: True
+F21 inverse-pairs: 10
+locally-M8 Cayley graphs on F21 = Z7:Z3: 21  connected/iso-to-G21: [(True, True)]
+example S: [(0, 1), (0, 2), (1, 0), (1, 1), (2, 1), (3, 2), (6, 0), (6, 2)]

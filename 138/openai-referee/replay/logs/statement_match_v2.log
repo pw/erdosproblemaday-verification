@@ -1,0 +1,17 @@
+OAI.QuantitativeVanDerWaerden.uniform_lower_bound MATCH | lens 1238 1238
+def OAI.QuantitativeVanDerWaerden.W MATCH | lens 304 304
+def OAI.QuantitativeVanDerWaerden.IsRamsey MATCH | lens 187 187
+def OAI.QuantitativeVanDerWaerden.HasMonoAP MATCH | lens 664 664
+def OAI.QuantitativeVanDerWaerden.MonoAP MATCH | lens 355 355
+axioms uniform_lower_bound {'propext', 'Quot.sound', 'Classical.choice'}
+axioms uniform_lower_bound_floor {'propext', 'Quot.sound', 'Classical.choice'}
+axioms exists_uniform_lower_bound {'propext', 'Quot.sound', 'Classical.choice'}
+axioms kthRoot_tendsto {'propext', 'Quot.sound', 'Classical.choice'}
+axioms length_rate_tendsto {'propext', 'Quot.sound', 'Classical.choice'}
+axioms exists_cyclic_coloring {'propext', 'Quot.sound', 'Classical.choice'}
+comparator axioms: {'sorryAx', 'propext', 'Quot.sound', 'Classical.choice'}
+MATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+ALL_STD_AXIOMS
+

@@ -1,0 +1,431 @@
+@@@ BEGIN thm OAI.TotientAsymptotic.companion_zero_case
+OAI.TotientAsymptotic.companion_zero_case : ∀ (k : Nat)
+  (_hk : @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) k)
+  (hno :
+    Not
+      (@Exists.{1} Nat fun (d : Nat) =>
+        And (OAI.TotientAsymptotic.IsTotient d)
+          (@LT.lt.{0} Nat instLTNat (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) k d)
+            (OAI.TotientAsymptotic.ell d)))),
+  And
+    (∀ (x : Real),
+      @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) x →
+        @Eq.{1} Real (OAI.TotientAsymptotic.N k x)
+          (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)))
+    (∀ (s : Real),
+      @Membership.mem.{0, 0} Real (Set.{0} Real) (@Set.instMembership.{0} Real)
+          (@Set.Ico.{0} Real Real.instPreorder
+            (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+          s →
+        @Eq.{1} Real (OAI.TotientAsymptotic.A (OAI.TotientAsymptotic.fk k) s)
+          (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)))
+'OAI.TotientAsymptotic.companion_zero_case' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]
+@@@ BEGIN def OAI.TotientAsymptotic.IsTotient
+def OAI.TotientAsymptotic.IsTotient : (v : Nat) → Prop :=
+fun (v : Nat) =>
+  @Exists.{1} Nat fun (n : Nat) =>
+    And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)
+      (@Eq.{1} Nat (Nat.totient n) v)
+@@@ BEGIN def OAI.TotientAsymptotic.ell
+def OAI.TotientAsymptotic.ell : (v : Nat) → Nat :=
+fun (v : Nat) =>
+  @dite.{1} Nat (OAI.TotientAsymptotic.IsTotient v) (Classical.propDecidable (OAI.TotientAsymptotic.IsTotient v))
+    (fun (h : OAI.TotientAsymptotic.IsTotient v) =>
+      @Nat.find
+        (fun (n : Nat) =>
+          And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)
+            (@Eq.{1} Nat (Nat.totient n) v))
+        (fun (a : Nat) =>
+          @instDecidableAnd (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) a)
+            (@Eq.{1} Nat (Nat.totient a) v) (Nat.decLt (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) a)
+            (instDecidableEqNat (Nat.totient a) v))
+        h)
+    fun (h : Not (OAI.TotientAsymptotic.IsTotient v)) => @OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))
+@@@ BEGIN def OAI.TotientAsymptotic.a
+def OAI.TotientAsymptotic.a : (j : Nat) → Real :=
+fun (j : Nat) =>
+  @HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+    (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) (@Nat.cast.{0} Real Real.instNatCast j)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+        (Real.log
+          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) (@Nat.cast.{0} Real Real.instNatCast j)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))))
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) (@Nat.cast.{0} Real Real.instNatCast j)
+        (Real.log (@Nat.cast.{0} Real Real.instNatCast j))))
+    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+@@@ BEGIN def OAI.TotientAsymptotic.RenewalRootSet
+def OAI.TotientAsymptotic.RenewalRootSet : Set.{0} Real :=
+@Set.ofPred.{0} Real fun (z : Real) =>
+  And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) z)
+    (And (@LT.lt.{0} Real Real.instLT z (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+      (@Eq.{1} Real
+        (@tsum.{0, 0} Real Nat Real.instAddCommMonoid
+          (@UniformSpace.toTopologicalSpace.{0} Real
+            (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace))
+          (fun (j : Nat) =>
+            @HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (OAI.TotientAsymptotic.a
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) j
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))
+              (@HPow.hPow.{0, 0, 0} Real Nat Real
+                (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid))) z
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) j
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+          (SummationFilter.unconditional.{0} Nat))
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))
+@@@ BEGIN def OAI.TotientAsymptotic.rho
+def OAI.TotientAsymptotic.rho : Real :=
+@InfSet.sInf.{0} Real Real.instInfSet OAI.TotientAsymptotic.RenewalRootSet
+@@@ BEGIN def OAI.TotientAsymptotic.lam
+def OAI.TotientAsymptotic.lam : Real :=
+Real.log
+  (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) OAI.TotientAsymptotic.rho)
+@@@ BEGIN def OAI.TotientAsymptotic.gamma
+def OAI.TotientAsymptotic.gamma : Real :=
+@Inv.inv.{0} Real Real.instInv
+  (@tsum.{0, 0} Real Nat Real.instAddCommMonoid
+    (@UniformSpace.toTopologicalSpace.{0} Real (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace))
+    (fun (j : Nat) =>
+      @HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) (@Nat.cast.{0} Real Real.instNatCast j)
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+          (OAI.TotientAsymptotic.a
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) j
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+        (@HPow.hPow.{0, 0, 0} Real Nat Real
+          (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+          OAI.TotientAsymptotic.rho
+          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) j
+            (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+    (SummationFilter.unconditional.{0} Nat))
+@@@ BEGIN def OAI.TotientAsymptotic.P
+def OAI.TotientAsymptotic.P : (H : Nat) → Nat :=
+fun (H : Nat) =>
+  @Nat.floor.{0} Real Real.semiring Real.partialOrder
+    (@FloorRing.toFloorSemiring.{0} Real Real.instRing Real.linearOrder Real.instFloorRing)
+    (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast H)))
+@@@ BEGIN def OAI.TotientAsymptotic.alpha
+def OAI.TotientAsymptotic.alpha : (s : Real) → Real :=
+fun (s : Real) =>
+  @HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.TotientAsymptotic.lam
+    (Real.exp (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.TotientAsymptotic.lam s))
+@@@ BEGIN def OAI.TotientAsymptotic.largestPrimeFactor
+def OAI.TotientAsymptotic.largestPrimeFactor : (n : Nat) → Nat :=
+fun (n : Nat) =>
+  @Max.max.{0} Nat Nat.instMax (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+    (@Finset.sup.{0, 0} Nat Nat (@Lattice.toSemilatticeSup.{0} Nat Nat.instLattice) Nat.instOrderBot
+      (Nat.primeFactors n) (@id.{1} Nat))
+@@@ BEGIN def OAI.TotientAsymptotic.TailDatum
+structure OAI.TotientAsymptotic.TailDatum (H : Nat) : Type
+number of parameters: 1
+fields:
+  OAI.TotientAsymptotic.TailDatum.Q : Fin H → Nat
+  OAI.TotientAsymptotic.TailDatum.cofactor : Nat
+constructor:
+  OAI.TotientAsymptotic.TailDatum.mk {H : Nat} (Q : Fin H → Nat) (cofactor : Nat) : OAI.TotientAsymptotic.TailDatum H
+@@@ BEGIN def OAI.TotientAsymptotic.tailPrime
+def OAI.TotientAsymptotic.tailPrime : {H : Nat} → (η : OAI.TotientAsymptotic.TailDatum H) → (h : Nat) → Nat :=
+fun {H : Nat} (η : OAI.TotientAsymptotic.TailDatum H) (h : Nat) =>
+  @dite.{1} Nat (@LT.lt.{0} Nat instLTNat h H) (Nat.decLt h H)
+    (fun (hH : @LT.lt.{0} Nat instLTNat h H) => @OAI.TotientAsymptotic.TailDatum.Q H η (@Fin.mk H h hH))
+    fun (hH : Not (@LT.lt.{0} Nat instLTNat h H)) => @OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))
+@@@ BEGIN def OAI.TotientAsymptotic.tailLog
+def OAI.TotientAsymptotic.tailLog : {H : Nat} → (η : OAI.TotientAsymptotic.TailDatum H) → (h : Nat) → Real :=
+fun {H : Nat} (η : OAI.TotientAsymptotic.TailDatum H) (h : Nat) =>
+  Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast (@OAI.TotientAsymptotic.tailPrime H η h)))
+@@@ BEGIN def OAI.TotientAsymptotic.IsWitness
+def OAI.TotientAsymptotic.IsWitness : (H : Nat) → (s : Real) → (η : OAI.TotientAsymptotic.TailDatum H) → Prop :=
+fun (H : Nat) (s : Real) (η : OAI.TotientAsymptotic.TailDatum H) =>
+  And
+    (∀ (h : Fin H),
+      @LT.lt.{0} Nat instLTNat (@Fin.val H h) (OAI.TotientAsymptotic.P H) →
+        @Eq.{1} Nat (@OAI.TotientAsymptotic.TailDatum.Q H η h)
+          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+    (And
+      (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+        (@OAI.TotientAsymptotic.TailDatum.cofactor H η))
+      (And
+        (∀ (h : Nat),
+          @Membership.mem.{0, 0} Nat (Finset.{0} Nat)
+              (@SetLike.instMembership.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat))
+              (@Finset.Ico.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder (OAI.TotientAsymptotic.P H) H) h →
+            And (Nat.Prime (@OAI.TotientAsymptotic.tailPrime H η h))
+              (And
+                (@LE.le.{0} Real Real.instLE
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                        (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                          (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                          (@OfNat.ofNat.{0} Real (nat_lit 9)
+                            (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+                              OAI.TotientAsymptotic.IsWitness._proof_1))
+                          (@OfNat.ofNat.{0} Real (nat_lit 10)
+                            (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+                              OAI.TotientAsymptotic.IsWitness._proof_2)))
+                        (OAI.TotientAsymptotic.alpha s))
+                      (@Nat.cast.{0} Real Real.instNatCast h))
+                    (@Inv.inv.{0} Real Real.instInv
+                      (@HPow.hPow.{0, 0, 0} Real Nat Real
+                        (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                        OAI.TotientAsymptotic.rho h)))
+                  (@OAI.TotientAsymptotic.tailLog H η h))
+                (And
+                  (@LE.le.{0} Real Real.instLE (@OAI.TotientAsymptotic.tailLog H η h)
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                            (@OfNat.ofNat.{0} Real (nat_lit 11)
+                              (@instOfNatAtLeastTwo.{0} Real (nat_lit 11) Real.instNatCast
+                                OAI.TotientAsymptotic.IsWitness._proof_3))
+                            (@OfNat.ofNat.{0} Real (nat_lit 10)
+                              (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast
+                                OAI.TotientAsymptotic.IsWitness._proof_2)))
+                          (OAI.TotientAsymptotic.alpha s))
+                        (@Nat.cast.{0} Real Real.instNatCast h))
+                      (@Inv.inv.{0} Real Real.instInv
+                        (@HPow.hPow.{0, 0, 0} Real Nat Real
+                          (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                          OAI.TotientAsymptotic.rho h))))
+                  (@LE.le.{0} Real Real.instLE
+                    (@Finset.sum.{0, 0} Nat Real Real.instAddCommMonoid
+                      (@Finset.Ico.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder (OAI.TotientAsymptotic.P H) h)
+                      fun (l : Nat) =>
+                      @HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                        (OAI.TotientAsymptotic.a (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) h l))
+                        (@OAI.TotientAsymptotic.tailLog H η l))
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                      (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                            (@OfNat.ofNat.{0} Real (nat_lit 10000)
+                              (@instOfNatAtLeastTwo.{0} Real (nat_lit 10000) Real.instNatCast
+                                OAI.TotientAsymptotic.IsWitness._proof_4)))
+                          (Real.exp
+                            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                              (@Neg.neg.{0} Real Real.instNeg (@Nat.cast.{0} Real Real.instNatCast h))
+                              (@OfNat.ofNat.{0} Real (nat_lit 40)
+                                (@instOfNatAtLeastTwo.{0} Real (nat_lit 40) Real.instNatCast
+                                  OAI.TotientAsymptotic.IsWitness._proof_5))))))
+                      (@OAI.TotientAsymptotic.tailLog H η h))))))
+        (And
+          (@LE.le.{0} Nat instLENat
+            (OAI.TotientAsymptotic.largestPrimeFactor (@OAI.TotientAsymptotic.TailDatum.cofactor H η))
+            (@OAI.TotientAsymptotic.tailPrime H η (OAI.TotientAsymptotic.P H)))
+          (@LE.le.{0} Real Real.instLE
+            (Real.log (@Nat.cast.{0} Real Real.instNatCast (@OAI.TotientAsymptotic.TailDatum.cofactor H η)))
+            (Real.exp
+              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                    (@OfNat.ofNat.{0} Real (nat_lit 2)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                        OAI.TotientAsymptotic.IsWitness._proof_6))
+                    (OAI.TotientAsymptotic.alpha s))
+                  (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.P H)))
+                (@Inv.inv.{0} Real Real.instInv
+                  (@HPow.hPow.{0, 0, 0} Real Nat Real
+                    (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                    OAI.TotientAsymptotic.rho (OAI.TotientAsymptotic.P H)))))))))
+@@@ BEGIN def OAI.TotientAsymptotic.w
+def OAI.TotientAsymptotic.w : {H : Nat} → (η : OAI.TotientAsymptotic.TailDatum H) → Nat :=
+fun {H : Nat} (η : OAI.TotientAsymptotic.TailDatum H) =>
+  @HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) (@OAI.TotientAsymptotic.TailDatum.cofactor H η)
+    (@Finset.prod.{0, 0} Nat Nat Nat.instCommMonoid
+      (@Finset.Ico.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder (OAI.TotientAsymptotic.P H) H) fun (h : Nat) =>
+      @OAI.TotientAsymptotic.tailPrime H η h)
+@@@ BEGIN def OAI.TotientAsymptotic.witnesses
+def OAI.TotientAsymptotic.witnesses : (H : Nat) →
+  (s : Real) → (d : Nat) → Set.{0} (OAI.TotientAsymptotic.TailDatum H) :=
+fun (H : Nat) (s : Real) (d : Nat) =>
+  @Set.ofPred.{0} (OAI.TotientAsymptotic.TailDatum H) fun (η : OAI.TotientAsymptotic.TailDatum H) =>
+    And (OAI.TotientAsymptotic.IsWitness H s η) (@Eq.{1} Nat (Nat.totient (@OAI.TotientAsymptotic.w H η)) d)
+@@@ BEGIN def OAI.TotientAsymptotic.D
+def OAI.TotientAsymptotic.D : {H : Nat} → (h : Nat) → (η : OAI.TotientAsymptotic.TailDatum H) → Real :=
+fun {H : Nat} (h : Nat) (η : OAI.TotientAsymptotic.TailDatum H) =>
+  @Finset.sum.{0, 0} Nat Real Real.instAddCommMonoid
+    (@Finset.Ico.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder (OAI.TotientAsymptotic.P H) H) fun (l : Nat) =>
+    @HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (OAI.TotientAsymptotic.a (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) h l))
+      (@OAI.TotientAsymptotic.tailLog H η l)
+@@@ BEGIN def OAI.TotientAsymptotic.maxD
+def OAI.TotientAsymptotic.maxD : {H : Nat} → (h : Nat) → (T : Finset.{0} (OAI.TotientAsymptotic.TailDatum H)) → Real :=
+fun {H : Nat} (h : Nat) (T : Finset.{0} (OAI.TotientAsymptotic.TailDatum H)) =>
+  @dite.{1} Real (@Finset.Nonempty.{0} (OAI.TotientAsymptotic.TailDatum H) T)
+    (@Finset.decidableNonempty.{0} (OAI.TotientAsymptotic.TailDatum H) T)
+    (fun (ht : @Finset.Nonempty.{0} (OAI.TotientAsymptotic.TailDatum H) T) =>
+      @Finset.sup'.{0, 0} Real (OAI.TotientAsymptotic.TailDatum H) Real.instSemilatticeSup T ht
+        (@OAI.TotientAsymptotic.D H h))
+    fun (ht : Not (@Finset.Nonempty.{0} (OAI.TotientAsymptotic.TailDatum H) T)) =>
+    @OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)
+@@@ BEGIN def OAI.TotientAsymptotic.AH
+def OAI.TotientAsymptotic.AH : (H : Nat) → (f : Real → Real) → (s : Real) → Real :=
+fun (H : Nat) (f : Real → Real) (s : Real) =>
+  @HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@HPow.hPow.{0, 0, 0} Real Nat Real
+        (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+        OAI.TotientAsymptotic.rho
+        (@HDiv.hDiv.{0, 0, 0} Nat Nat Nat (@instHDiv.{0} Nat Nat.instDiv)
+          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) H
+            (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) H
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+      (@HPow.hPow.{0, 0, 0} Real Nat Real
+        (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          OAI.TotientAsymptotic.gamma (OAI.TotientAsymptotic.alpha s))
+        H))
+    (@finsum.{0, 1} Real Nat Real.instAddCommMonoid fun (d : Nat) =>
+      @ite.{1} Real (OAI.TotientAsymptotic.IsTotient d) (Classical.propDecidable (OAI.TotientAsymptotic.IsTotient d))
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (f
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell d))
+                (@Nat.cast.{0} Real Real.instNatCast d)))
+            (@Nat.cast.{0} Real Real.instNatCast d))
+          (@finsum.{0, 1} Real (Finset.{0} (OAI.TotientAsymptotic.TailDatum H)) Real.instAddCommMonoid
+            fun (T : Finset.{0} (OAI.TotientAsymptotic.TailDatum H)) =>
+            @ite.{1} Real
+              (And (@Finset.Nonempty.{0} (OAI.TotientAsymptotic.TailDatum H) T)
+                (@LE.le.{0} (Set.{0} (OAI.TotientAsymptotic.TailDatum H))
+                  (@Set.instLE.{0} (OAI.TotientAsymptotic.TailDatum H))
+                  (@SetLike.coe.{0, 0} (Finset.{0} (OAI.TotientAsymptotic.TailDatum H))
+                    (OAI.TotientAsymptotic.TailDatum H) (@Finset.instSetLike.{0} (OAI.TotientAsymptotic.TailDatum H)) T)
+                  (OAI.TotientAsymptotic.witnesses H s d)))
+              (@instDecidableAnd (@Finset.Nonempty.{0} (OAI.TotientAsymptotic.TailDatum H) T)
+                (@LE.le.{0} (Set.{0} (OAI.TotientAsymptotic.TailDatum H))
+                  (@Set.instLE.{0} (OAI.TotientAsymptotic.TailDatum H))
+                  (@SetLike.coe.{0, 0} (Finset.{0} (OAI.TotientAsymptotic.TailDatum H))
+                    (OAI.TotientAsymptotic.TailDatum H) (@Finset.instSetLike.{0} (OAI.TotientAsymptotic.TailDatum H)) T)
+                  (OAI.TotientAsymptotic.witnesses H s d))
+                (@Finset.decidableNonempty.{0} (OAI.TotientAsymptotic.TailDatum H) T)
+                (Classical.propDecidable
+                  (@LE.le.{0} (Set.{0} (OAI.TotientAsymptotic.TailDatum H))
+                    (@Set.instLE.{0} (OAI.TotientAsymptotic.TailDatum H))
+                    (@SetLike.coe.{0, 0} (Finset.{0} (OAI.TotientAsymptotic.TailDatum H))
+                      (OAI.TotientAsymptotic.TailDatum H) (@Finset.instSetLike.{0} (OAI.TotientAsymptotic.TailDatum H))
+                      T)
+                    (OAI.TotientAsymptotic.witnesses H s d))))
+              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                (@HPow.hPow.{0, 0, 0} Real Nat Real
+                  (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                  (@Neg.neg.{0} Real Real.instNeg
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+                  (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+                    (@Finset.card.{0} (OAI.TotientAsymptotic.TailDatum H) T)
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))
+                (Real.exp
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                    (@Neg.neg.{0} Real Real.instNeg
+                      (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                        (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                        OAI.TotientAsymptotic.gamma (OAI.TotientAsymptotic.alpha s)))
+                    (@tsum.{0, 0} Real Nat Real.instAddCommMonoid
+                      (@UniformSpace.toTopologicalSpace.{0} Real
+                        (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace))
+                      (fun (n : Nat) =>
+                        @HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                          (@HPow.hPow.{0, 0, 0} Real Nat Real
+                            (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                            OAI.TotientAsymptotic.rho
+                            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) H n))
+                          (@OAI.TotientAsymptotic.maxD H
+                            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) H n) T))
+                      (SummationFilter.unconditional.{0} Nat)))))
+              (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))))
+        (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)))
+@@@ BEGIN def OAI.TotientAsymptotic.A
+def OAI.TotientAsymptotic.A : (f : Real → Real) → (s : Real) → Real :=
+fun (f : Real → Real) (s : Real) =>
+  @Filter.limUnder.{0, 0} Real
+    (@UniformSpace.toTopologicalSpace.{0} Real (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace)) Nat
+    (@instNonemptyOfInhabited.{1} Real Real.instInhabited) (@Filter.atTop.{0} Nat Nat.instPreorder) fun (H : Nat) =>
+    OAI.TotientAsymptotic.AH H f s
+@@@ BEGIN def OAI.TotientAsymptotic.N
+def OAI.TotientAsymptotic.N : (k : Nat) → (x : Real) → Real :=
+fun (k : Nat) (x : Real) =>
+  @Nat.cast.{0} Real Real.instNatCast
+    (@Finset.card.{0} Nat
+      (@Finset.filter.{0} Nat
+        (fun (v : Nat) =>
+          And (OAI.TotientAsymptotic.IsTotient v)
+            (And
+              (@LT.lt.{0} Real Real.instLT
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@Nat.cast.{0} Real Real.instNatCast k) x)
+                (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell v)))
+              (@LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell v))
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                    (@Nat.cast.{0} Real Real.instNatCast k)
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+                  x))))
+        (fun (a : Nat) =>
+          @instDecidableAnd (OAI.TotientAsymptotic.IsTotient a)
+            (And
+              (@LT.lt.{0} Real Real.instLT
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@Nat.cast.{0} Real Real.instNatCast k) x)
+                (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell a)))
+              (@LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell a))
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                    (@Nat.cast.{0} Real Real.instNatCast k)
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+                  x)))
+            (Classical.propDecidable (OAI.TotientAsymptotic.IsTotient a))
+            (@instDecidableAnd
+              (@LT.lt.{0} Real Real.instLT
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@Nat.cast.{0} Real Real.instNatCast k) x)
+                (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell a)))
+              (@LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell a))
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                    (@Nat.cast.{0} Real Real.instNatCast k)
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+                  x))
+              (Real.decidableLT
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@Nat.cast.{0} Real Real.instNatCast k) x)
+                (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell a)))
+              (Real.decidableLE (@Nat.cast.{0} Real Real.instNatCast (OAI.TotientAsymptotic.ell a))
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                    (@Nat.cast.{0} Real Real.instNatCast k)
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+                  x))))
+        (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+          (@Nat.floor.{0} Real Real.semiring Real.partialOrder
+            (@FloorRing.toFloorSemiring.{0} Real Real.instRing Real.linearOrder Real.instFloorRing) x))))
+@@@ BEGIN def OAI.TotientAsymptotic.fk
+def OAI.TotientAsymptotic.fk : (k : Nat) → (r : Real) → Real :=
+fun (k : Nat) (r : Real) =>
+  @HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+    (@Min.min.{0} Real Real.instMin (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) (@Nat.cast.{0} Real Real.instNatCast k)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+        r))
+    (@Min.min.{0} Real Real.instMin (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@Nat.cast.{0} Real Real.instNatCast k) r))
+@@@ END

@@ -1,0 +1,18 @@
+SL OAI.SharpLogRamsey.main MATCH | lens 205 205
+SL def OAI.SharpLogRamsey.MainBounds MATCH | lens 2140 2140
+SL def OAI.SharpLogRamsey.MainLimit MATCH | lens 1076 1076
+SL def OAI.SharpLogRamsey.ramsey MATCH | lens 186 186
+SL def OAI.SharpLogRamsey.RamseyProperty MATCH | lens 418 418
+SL solution axioms: {'Classical.choice', 'propext', 'Quot.sound'} comparator axioms: {'sorryAx', 'Classical.choice', 'propext', 'Quot.sound'}
+R5 OAI.SharpRamseyFive.main MATCH | lens 96 96
+R5 def OAI.SharpRamseyFive.SharpBounds MATCH | lens 2001 2001
+R5 def OAI.SharpRamseyFive.SharpExponent MATCH | lens 1055 1055
+R5 def OAI.SharpRamseyFive.ramsey MATCH | lens 188 188
+R5 def OAI.SharpRamseyFive.RamseyProperty MATCH | lens 339 339
+R5 solution axioms: {'Classical.choice', 'propext', 'Quot.sound'} comparator axioms: {'sorryAx', 'Classical.choice', 'propext', 'Quot.sound'}
+SL MATCH
+SL STD_AXIOMS
+SL CMP_SORRY_SEEN
+R5 MATCH
+R5 STD_AXIOMS
+R5 CMP_SORRY_SEEN

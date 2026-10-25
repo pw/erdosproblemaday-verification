@@ -1,0 +1,17 @@
+path=/home/exedev/ErdosProblemADay/src/index.js sha256=f367fac843b163557e7a60b9b3c9ea92cc4c9d1a862c0eddc4f989575b689327 bytes=418203
+pattern=problemNum count=0
+pattern=n count=0
+pattern=problem count=0
+pattern=erdos_url count=0
+pattern=title_or_prose count=0
+pattern=theta4 count=0
+pattern=monotone4 count=0
+path=/home/exedev/ErdosProblemADay/src/ledger_data.js sha256=9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052 bytes=6421993
+pattern=problemNum count=0
+pattern=n count=0
+pattern=problem count=0
+pattern=erdos_url count=0
+pattern=title_or_prose count=0
+pattern=theta4 count=0
+pattern=monotone4 count=0
+collision_total=0

@@ -1,0 +1,8 @@
+grep over Mathlib d13f23b723b8a846827a245b89c10fc7d3f11612 (Mathlib/**/*.lean), 2026-10-21, case-insensitive; files matching:
+== /olya.?Vinogradov|polya_vinogradov|PolyaVinogradov/: 
+== /large.?sieve|largeSieve|large_sieve/: 
+== /Vaughan|vaughan/: 
+== /Walfisz/: 
+== /Bombieri/: 
+== /Siegel/: Mathlib/NumberTheory/SiegelsLemma.lean Mathlib/NumberTheory/Transcendental/Liouville/LiouvilleWith.lean Mathlib/NumberTheory/NumberField/House.lean Mathlib/Analysis/Analytic/Inverse.lean Mathlib/Geometry/Manifold/Complex.lean 
+(the Siegel hits: SiegelsLemma.lean = Siegel's lemma on integer solutions of linear systems; LiouvilleWith.lean = a Thue–Siegel–Roth docstring; House.lean = asiegel, a matrix in the house-of-algebraic-integers proof; Analytic/Inverse.lean = a citation of Pöschel's Siegel–Sternberg notes; Manifold/Complex.lean = a TODO comment on Siegel's theorem about algebraic dependence of meromorphic functions. None is Siegel's theorem on L(1,χ).)

@@ -1,0 +1,3 @@
+'Bridge505.Borsuk.borsuk_conjecture.not_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge505.Borsuk.borsuk_conjecture.not_forall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge505.Borsuk.borsuk_conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]

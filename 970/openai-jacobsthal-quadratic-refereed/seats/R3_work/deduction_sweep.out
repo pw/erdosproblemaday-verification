@@ -1,0 +1,49 @@
+== R(k)*A0/e^gamma (should -> 1) and paper-form ratio*A0 (should -> 1), A0=10 ==
+   log10 k  loglog k  R*A0/e^g (11.10)*A0 Y*M^2/(A0^2 k^2)  logw/M
+         2  (w<2: parameters undefined)
+         3  (w<2: parameters undefined)
+         4  (w<2: parameters undefined)
+         5     2.443   10.9083     7.0099           0.5614  0.2955
+         6     2.626    9.6184     6.5419           0.6039  0.2909
+         8     2.913    7.7907     5.8492           0.6663  0.2894
+        10     3.137    6.5840     5.3660           0.7102  0.2918
+        15     3.542    4.8600     4.6227           0.7796  0.3015
+        20     3.830    5.9276     4.1951           0.8205  0.3113
+        30     4.235    4.5101     3.7116           0.8674  0.3273
+        50     4.746    4.1348     3.2570           0.9110  0.3494
+       100     5.439    3.3605     2.8297           0.9495  0.3803
+       200     6.132    2.7295     2.5404           0.9719  0.4101
+       300     6.538    2.5316     2.4126           0.9801  0.4267
+
+== astronomically large k: ell = log k = 10^j ==
+log k=1e3    loglogk=    6.91  R*A0/e^g=2.4936  (11.10)*A0=2.3149
+log k=1e5    loglogk=   11.51  R*A0/e^g=1.7474  (11.10)*A0=1.7381
+log k=1e10   loglogk=   23.03  R*A0/e^g=1.3745  (11.10)*A0=1.3745
+log k=1e20   loglogk=   46.05  R*A0/e^g=1.1995  (11.10)*A0=1.1995
+log k=1e50   loglogk=  115.13  R*A0/e^g=1.0899  (11.10)*A0=1.0899
+log k=1e100  loglogk=  230.26  R*A0/e^g=1.0496  (11.10)*A0=1.0496
+log k=1e200  loglogk=  460.52  R*A0/e^g=1.0274  (11.10)*A0=1.0274
+log k=1e300  loglogk=  690.78  R*A0/e^g=1.0194  (11.10)*A0=1.0193
+
+== threshold on log k for rho*R(k) < 1, A0 = t*e^gamma*rho ==
+rho=1       t=1.05  A0=     1.870  inequality holds for all log k > 1.078e+99 (log10 k > 4.682e+98)
+rho=1       t=1.5   A0=     2.672  inequality holds for all log k > 2.449e+07 (log10 k > 1.063e+07)
+rho=1       t=2.0   A0=     3.562  inequality holds for all log k > 9.494e+03 (log10 k > 4.123e+03)
+rho=1       t=4.0   A0=     7.124  inequality holds for all log k > 1.176e+02 (log10 k > 5.107e+01)
+rho=10      t=1.05  A0=    18.701  inequality holds for all log k > 1.078e+99 (log10 k > 4.682e+98)
+rho=10      t=1.5   A0=    26.716  inequality holds for all log k > 2.449e+07 (log10 k > 1.063e+07)
+rho=10      t=2.0   A0=    35.621  inequality holds for all log k > 9.494e+03 (log10 k > 4.123e+03)
+rho=10      t=4.0   A0=    71.243  inequality holds for all log k > 1.176e+02 (log10 k > 5.107e+01)
+rho=1000    t=1.05  A0=  1870.126  inequality holds for all log k > 1.078e+99 (log10 k > 4.682e+98)
+rho=1000    t=1.5   A0=  2671.609  inequality holds for all log k > 2.449e+07 (log10 k > 1.063e+07)
+rho=1000    t=2.0   A0=  3562.145  inequality holds for all log k > 9.494e+03 (log10 k > 4.123e+03)
+rho=1000    t=4.0   A0=  7124.290  inequality holds for all log k > 1.235e+02 (log10 k > 5.363e+01)
+
+== CONTROL (must fail): z = A0 k log k/(loglog k)^e with e=1.5 and e=2 -> ratio should grow without bound ==
+e=1.5: logk=1e5: 5.929  logk=1e20: 8.140  logk=1e100: 15.927  logk=1e300: 26.792
+e=2.0: logk=1e5: 20.117  logk=1e20: 55.239  logk=1e100: 241.676  logk=1e300: 704.173
+== CONTROL 2: e=0 (z=A0 k log k): ratio -> 0 but then Y ~ A0^2 k^2, no loglog saving ==
+logk=1e5: R*A0/e^g=0.1518  vs 1/loglogk=0.0869
+logk=1e20: R*A0/e^g=0.0260  vs 1/loglogk=0.0217
+logk=1e100: R*A0/e^g=0.0046  vs 1/loglogk=0.0043
+logk=1e300: R*A0/e^g=0.0015  vs 1/loglogk=0.0014

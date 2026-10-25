@@ -1,0 +1,2 @@
+# 09:4xZ (09:00Z seat): drive970 never exits — its done-set includes the 7,582 main-build modules, so len(done)==len(order)=850 is never true. Verified all 850 closure modules rc=0 errors=0 with oleans (0 missing, 0 failed rows), then stopped it by PID and wrote this line by hand.
+build970 0 850/850 failed=

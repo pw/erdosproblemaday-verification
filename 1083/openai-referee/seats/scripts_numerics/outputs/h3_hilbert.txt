@@ -1,0 +1,123 @@
+== T1: D' concurrent lines through [0:0:1] in P^2 (n=2,k=1), tested at degree D ==
+  1 concurrent lines @deg D=1                    n=2 k=1 a=   1 L= 1: H=    2  H/(aL^k)= 2.000  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  2 concurrent lines @deg D=1                    n=2 k=1 a=   2 L= 1: H=    3  H/(aL^k)= 1.500  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  4 concurrent lines @deg D=1                    n=2 k=1 a=   4 L= 1: H=    3  H/(aL^k)= 0.750  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  8 concurrent lines @deg D=1                    n=2 k=1 a=   8 L= 1: H=    3  H/(aL^k)= 0.375  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  1 concurrent lines @deg D=2                    n=2 k=1 a=   1 L= 2: H=    3  H/(aL^k)= 1.500  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  2 concurrent lines @deg D=2                    n=2 k=1 a=   2 L= 2: H=    5  H/(aL^k)= 1.250  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  3 concurrent lines @deg D=2                    n=2 k=1 a=   3 L= 2: H=    6  H/(aL^k)= 1.000  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  6 concurrent lines @deg D=2                    n=2 k=1 a=   6 L= 2: H=    6  H/(aL^k)= 0.500  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  12 concurrent lines @deg D=2                   n=2 k=1 a=  12 L= 2: H=    6  H/(aL^k)= 0.250  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  1 concurrent lines @deg D=3                    n=2 k=1 a=   1 L= 3: H=    4  H/(aL^k)= 1.333  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  3 concurrent lines @deg D=3                    n=2 k=1 a=   3 L= 3: H=    9  H/(aL^k)= 1.000  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  4 concurrent lines @deg D=3                    n=2 k=1 a=   4 L= 3: H=   10  H/(aL^k)= 0.833  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  8 concurrent lines @deg D=3                    n=2 k=1 a=   8 L= 3: H=   10  H/(aL^k)= 0.417  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  16 concurrent lines @deg D=3                   n=2 k=1 a=  16 L= 3: H=   10  H/(aL^k)= 0.208  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  1 concurrent lines @deg D=4                    n=2 k=1 a=   1 L= 4: H=    5  H/(aL^k)= 1.250  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  2 concurrent lines @deg D=4                    n=2 k=1 a=   2 L= 4: H=    9  H/(aL^k)= 1.125  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  4 concurrent lines @deg D=4                    n=2 k=1 a=   4 L= 4: H=   14  H/(aL^k)= 0.875  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  5 concurrent lines @deg D=4                    n=2 k=1 a=   5 L= 4: H=   15  H/(aL^k)= 0.750  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  10 concurrent lines @deg D=4                   n=2 k=1 a=  10 L= 4: H=   15  H/(aL^k)= 0.375  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  20 concurrent lines @deg D=4                   n=2 k=1 a=  20 L= 4: H=   15  H/(aL^k)= 0.188  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  1 concurrent lines @deg D=5                    n=2 k=1 a=   1 L= 5: H=    6  H/(aL^k)= 1.200  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  2 concurrent lines @deg D=5                    n=2 k=1 a=   2 L= 5: H=   11  H/(aL^k)= 1.100  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  5 concurrent lines @deg D=5                    n=2 k=1 a=   5 L= 5: H=   20  H/(aL^k)= 0.800  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  6 concurrent lines @deg D=5                    n=2 k=1 a=   6 L= 5: H=   21  H/(aL^k)= 0.700  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  12 concurrent lines @deg D=5                   n=2 k=1 a=  12 L= 5: H=   21  H/(aL^k)= 0.350  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  24 concurrent lines @deg D=5                   n=2 k=1 a=  24 L= 5: H=   21  H/(aL^k)= 0.175  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  1 concurrent lines @deg D=6                    n=2 k=1 a=   1 L= 6: H=    7  H/(aL^k)= 1.167  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  3 concurrent lines @deg D=6                    n=2 k=1 a=   3 L= 6: H=   18  H/(aL^k)= 1.000  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  6 concurrent lines @deg D=6                    n=2 k=1 a=   6 L= 6: H=   27  H/(aL^k)= 0.750  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  7 concurrent lines @deg D=6                    n=2 k=1 a=   7 L= 6: H=   28  H/(aL^k)= 0.667  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  14 concurrent lines @deg D=6                   n=2 k=1 a=  14 L= 6: H=   28  H/(aL^k)= 0.333  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  28 concurrent lines @deg D=6                   n=2 k=1 a=  28 L= 6: H=   28  H/(aL^k)= 0.167  c_nk=0.2500  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  same lines at their defining degree L = D' (one equation: product of D' linear forms):
+  2 concurrent lines @deg L=D'=2                 n=2 k=1 a=   2 L= 2: H=    5  H/(aL^k)= 1.250  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  4 concurrent lines @deg L=D'=4                 n=2 k=1 a=   4 L= 4: H=   14  H/(aL^k)= 0.875  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  8 concurrent lines @deg L=D'=8                 n=2 k=1 a=   8 L= 8: H=   44  H/(aL^k)= 0.688  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  12 concurrent lines @deg L=D'=12               n=2 k=1 a=  12 L=12: H=   90  H/(aL^k)= 0.625  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  20 concurrent lines @deg L=D'=20               n=2 k=1 a=  20 L=20: H=  230  H/(aL^k)= 0.575  c_nk=0.2500  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  failure threshold when the hypothesis is dropped: H(D) = C(D+2,2) < c*D'*D  iff  D' > C(D+2,2)/(c D); c=1/4, D=3: D' > 13.333333333333334
+== T2: complete intersection of two degree-D surfaces in P^3 (curve, degree D^2), at L = D ==
+  product CI (D^2 lines), D=1                    n=3 k=1 a=   1 L= 1: H=    2  H/(aL^k)= 2.000  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  product CI (D^2 lines), D=2                    n=3 k=1 a=   4 L= 2: H=    8  H/(aL^k)= 1.000  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  product CI (D^2 lines), D=3                    n=3 k=1 a=   9 L= 3: H=   18  H/(aL^k)= 0.667  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  product CI (D^2 lines), D=4                    n=3 k=1 a=  16 L= 4: H=   33  H/(aL^k)= 0.516  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  product CI (D^2 lines), D=5                    n=3 k=1 a=  25 L= 5: H=   54  H/(aL^k)= 0.432  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  random CI (smooth, reduced: I(Y)=(f,g)), D=1   n=3 k=1 a=   1 L= 1: H=    2  H/(aL^k)= 2.000  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: minimal q = 0  vs (n-k)(L-1) = 0: True
+  random CI (smooth, reduced: I(Y)=(f,g)), D=2   n=3 k=1 a=   4 L= 2: H=    8  H/(aL^k)= 1.000  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: minimal q = 1  vs (n-k)(L-1) = 2: True
+  random CI (smooth, reduced: I(Y)=(f,g)), D=3   n=3 k=1 a=   9 L= 3: H=   18  H/(aL^k)= 0.667  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: minimal q = 2  vs (n-k)(L-1) = 4: True
+  random CI (smooth, reduced: I(Y)=(f,g)), D=4   n=3 k=1 a=  16 L= 4: H=   33  H/(aL^k)= 0.516  c_nk=0.0370  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: minimal q = 3  vs (n-k)(L-1) = 6: True
+== T3: a points in P^2 (n=2,k=0): general position vs collinear, at degree D ==
+  2 general points @D=2                          n=2 k=0 a=   2 L= 2: H=    2  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  2 collinear points @D=2                        n=2 k=0 a=   2 L= 2: H=    2  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  3 general points @D=2                          n=2 k=0 a=   3 L= 2: H=    3  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  3 collinear points @D=2                        n=2 k=0 a=   3 L= 2: H=    3  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  4 general points @D=2                          n=2 k=0 a=   4 L= 2: H=    4  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  4 collinear points @D=2                        n=2 k=0 a=   4 L= 2: H=    3  H/(aL^k)= 0.750  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  6 general points @D=2                          n=2 k=0 a=   6 L= 2: H=    6  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  6 collinear points @D=2                        n=2 k=0 a=   6 L= 2: H=    3  H/(aL^k)= 0.500  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  12 general points @D=2                         n=2 k=0 a=  12 L= 2: H=    6  H/(aL^k)= 0.500  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  12 collinear points @D=2                       n=2 k=0 a=  12 L= 2: H=    3  H/(aL^k)= 0.250  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  2 general points @D=3                          n=2 k=0 a=   2 L= 3: H=    2  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  2 collinear points @D=3                        n=2 k=0 a=   2 L= 3: H=    2  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  3 general points @D=3                          n=2 k=0 a=   3 L= 3: H=    3  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  3 collinear points @D=3                        n=2 k=0 a=   3 L= 3: H=    3  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  4 general points @D=3                          n=2 k=0 a=   4 L= 3: H=    4  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  4 collinear points @D=3                        n=2 k=0 a=   4 L= 3: H=    4  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  5 general points @D=3                          n=2 k=0 a=   5 L= 3: H=    5  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  5 collinear points @D=3                        n=2 k=0 a=   5 L= 3: H=    4  H/(aL^k)= 0.800  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  8 general points @D=3                          n=2 k=0 a=   8 L= 3: H=    8  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  8 collinear points @D=3                        n=2 k=0 a=   8 L= 3: H=    4  H/(aL^k)= 0.500  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  10 general points @D=3                         n=2 k=0 a=  10 L= 3: H=   10  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  10 collinear points @D=3                       n=2 k=0 a=  10 L= 3: H=    4  H/(aL^k)= 0.400  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  20 general points @D=3                         n=2 k=0 a=  20 L= 3: H=   10  H/(aL^k)= 0.500  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  20 collinear points @D=3                       n=2 k=0 a=  20 L= 3: H=    4  H/(aL^k)= 0.200  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  2 general points @D=4                          n=2 k=0 a=   2 L= 4: H=    2  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  2 collinear points @D=4                        n=2 k=0 a=   2 L= 4: H=    2  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  4 general points @D=4                          n=2 k=0 a=   4 L= 4: H=    4  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  4 collinear points @D=4                        n=2 k=0 a=   4 L= 4: H=    4  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  5 general points @D=4                          n=2 k=0 a=   5 L= 4: H=    5  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  5 collinear points @D=4                        n=2 k=0 a=   5 L= 4: H=    5  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  6 general points @D=4                          n=2 k=0 a=   6 L= 4: H=    6  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  6 collinear points @D=4                        n=2 k=0 a=   6 L= 4: H=    5  H/(aL^k)= 0.833  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  13 general points @D=4                         n=2 k=0 a=  13 L= 4: H=   13  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  13 collinear points @D=4                       n=2 k=0 a=  13 L= 4: H=    5  H/(aL^k)= 0.385  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  15 general points @D=4                         n=2 k=0 a=  15 L= 4: H=   15  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  15 collinear points @D=4                       n=2 k=0 a=  15 L= 4: H=    5  H/(aL^k)= 0.333  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  30 general points @D=4                         n=2 k=0 a=  30 L= 4: H=   15  H/(aL^k)= 0.500  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  30 collinear points @D=4                       n=2 k=0 a=  30 L= 4: H=    5  H/(aL^k)= 0.167  c_nk=0.1111  hyp(components of degree-L locus)=False  lower-ok=None  (3.5) H<=aC(L+k,k)=True
+  collinear points at their defining degree L = a (line + one degree-a form): H(a) = a, ratio 1
+== T4: 0-dimensional complete intersections (all D^n points are components), at L = D ==
+  CI of two degree-1 curves in P^2 (grid)        n=2 k=0 a=   1 L= 1: H=    1  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: H(m) = a first at m = 0  vs (n-k)(L-1) = 0: q = 0 <= 0: True
+  CI of two degree-2 curves in P^2 (grid)        n=2 k=0 a=   4 L= 2: H=    4  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: H(m) = a first at m = 2  vs (n-k)(L-1) = 2: q = 2 <= 2: True
+  CI of two degree-3 curves in P^2 (grid)        n=2 k=0 a=   9 L= 3: H=    8  H/(aL^k)= 0.889  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: H(m) = a first at m = 4  vs (n-k)(L-1) = 4: q = 4 <= 4: True
+  CI of two degree-4 curves in P^2 (grid)        n=2 k=0 a=  16 L= 4: H=   13  H/(aL^k)= 0.812  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: H(m) = a first at m = 6  vs (n-k)(L-1) = 6: q = 6 <= 6: True
+  CI of two degree-5 curves in P^2 (grid)        n=2 k=0 a=  25 L= 5: H=   19  H/(aL^k)= 0.760  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: H(m) = a first at m = 8  vs (n-k)(L-1) = 8: q = 8 <= 8: True
+  CI of two degree-6 curves in P^2 (grid)        n=2 k=0 a=  36 L= 6: H=   26  H/(aL^k)= 0.722  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+      (3.6) shift: H(m) = a first at m = 10  vs (n-k)(L-1) = 10: q = 10 <= 10: True
+  CI of three degree-1 surfaces in P^3 (grid)    n=3 k=0 a=   1 L= 1: H=    1  H/(aL^k)= 1.000  c_nk=0.0156  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  CI of three degree-2 surfaces in P^3 (grid)    n=3 k=0 a=   8 L= 2: H=    7  H/(aL^k)= 0.875  c_nk=0.0156  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  CI of three degree-3 surfaces in P^3 (grid)    n=3 k=0 a=  27 L= 3: H=   17  H/(aL^k)= 0.630  c_nk=0.0156  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  CI of three degree-4 surfaces in P^3 (grid)    n=3 k=0 a=  64 L= 4: H=   32  H/(aL^k)= 0.500  c_nk=0.0156  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+== T5: isolated points of {l f = l g = 0} (extra 1-dim component l), f=prod(x-i), g=prod(y-j), deg L-1, at L ==
+  isolated grid of 1 pts (+ a line), L=2         n=2 k=0 a=   1 L= 2: H=    1  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  isolated grid of 4 pts (+ a line), L=3         n=2 k=0 a=   4 L= 3: H=    4  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  isolated grid of 9 pts (+ a line), L=4         n=2 k=0 a=   9 L= 4: H=    9  H/(aL^k)= 1.000  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  isolated grid of 16 pts (+ a line), L=5        n=2 k=0 a=  16 L= 5: H=   15  H/(aL^k)= 0.938  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  isolated grid of 25 pts (+ a line), L=6        n=2 k=0 a=  25 L= 6: H=   22  H/(aL^k)= 0.880  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+  isolated grid of 36 pts (+ a line), L=7        n=2 k=0 a=  36 L= 7: H=   30  H/(aL^k)= 0.833  c_nk=0.1111  hyp(components of degree-L locus)=True  lower-ok=True  (3.5) H<=aC(L+k,k)=True
+== summary ==
+  toys satisfying the hypothesis: 62; lower bound H >= c_nk a L^k violated in: 0
+  min over hypothesis-satisfying toys of (H/(aL^k))/c_nk = 2.300
+  toys violating the hypothesis: 38; of these, H < c_nk a L^k in 4  (hypothesis is needed)
+  upper bound (3.5) violated in: 0 of 100

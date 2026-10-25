@@ -1,0 +1,12 @@
+00Z seat G:  1 "model":"<synthetic>"; 100 "model":"claude-opus-5-5";
+00Z seat I:  65 "model":"claude-opus-5-5";
+00Z seat L:  183 "model":"claude-opus-5-5";
+00Z seat S_died:  1 "model":"<synthetic>"; 63 "model":"claude-opus-5-5";
+00Z seat W_died:  1 "model":"<synthetic>"; 362 "model":"claude-opus-5-5";
+03Z seat S:  144 "model":"claude-opus-5-5";
+03Z seat W:  344 "model":"claude-opus-5-5";
+03Z seat B:  62 "model":"claude-opus-5-5";
+00Z main session:  1 "model":"<synthetic>"; 345 "model":"claude-opus-5-5"; 15 "model":"opus";
+03Z main session:  393 "model":"claude-opus-5-5"; 8 "model":"opus";
+(<synthetic> = harness-generated messages, e.g. the session-limit notice; not a model)
+("opus" in a main session = the requested-model parameter of an Agent tool call, not a served model)

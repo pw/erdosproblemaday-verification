@@ -1,0 +1,6 @@
+../F_E_eq_1e7_elems.u32: analyze.py statistic max|D|=949.6 attained at x=1702604
+   on [1999999,9999995] with density refitted there: max|D|=214.8; random-set expectation ~892
+   on [4999997,9999995] with density refitted there: max|D|=190.4; random-set expectation ~705
+../F_S13_eq_1e7_elems.u32: analyze.py statistic max|D|=4075.7 attained at x=5730427
+   on [2000000,10000000] with density refitted there: max|D|=3233.9; random-set expectation ~795
+   on [5000000,10000000] with density refitted there: max|D|=1029.0; random-set expectation ~627

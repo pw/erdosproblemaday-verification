@@ -1,0 +1,13 @@
+Erdos174.IsRamsey MATCH
+   FC  : def IsRamsey {n : ℕ} (A : Set (EuclideanSpace ℝ (Fin n))) : Prop := A.Finite ∧ ∀ k : ℕ, 1 ≤ k → ∃ d : ℕ, ∀ c : EuclideanSpace ℝ (Fin d) → Fin k, ∃ p : A → EuclideanSpace ℝ (Fin d), Congruent (fun a : A ↦ (a : EuclideanSpace ℝ (Fin n))) p ∧ ∃ i, ∀ a, c (p a) = i
+   ours: def IsRamsey {n : ℕ} (A : Set (EuclideanSpace ℝ (Fin n))) : Prop := A.Finite ∧ ∀ k : ℕ, 1 ≤ k → ∃ d : ℕ, ∀ c : EuclideanSpace ℝ (Fin d) → Fin k, ∃ p : A → EuclideanSpace ℝ (Fin d), Congruent (fun a : A ↦ (a : EuclideanSpace ℝ (Fin n))) p ∧ ∃ i, ∀ a, c (p a) = i
+graham binders+conclusion (ours sits inside ¬ (∀ … , IsRamsey A)) MATCH
+   FC  : (A : Set (EuclideanSpace ℝ (Fin n))) (hA : A.Finite) (hs : EuclideanGeometry.Cospherical A), IsRamsey A
+   ours: (A : Set (EuclideanSpace ℝ (Fin n))) (hA : A.Finite) (hs : EuclideanGeometry.Cospherical A), IsRamsey A
+erdos_174 left-hand side (ours: = criterionAnswer n) MATCH
+   FC  : (n : ℕ) : {A : Set (EuclideanSpace ℝ (Fin n)) | IsRamsey A} =
+   ours: (n : ℕ) : {A : Set (EuclideanSpace ℝ (Fin n)) | IsRamsey A} =
+erdos_174.variants.spherical (statement) MATCH
+   FC  : theorem erdos_174.variants.spherical {n : ℕ} (A : Set (EuclideanSpace ℝ (Fin n))) (hA : IsRamsey A) : EuclideanGeometry.Cospherical A
+   ours: theorem erdos_174.variants.spherical {n : ℕ} (A : Set (EuclideanSpace ℝ (Fin n))) (hA : IsRamsey A) : EuclideanGeometry.Cospherical A
+verbatim rc=0

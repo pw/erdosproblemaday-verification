@@ -1,0 +1,29 @@
+== §10 numeric constants ==
+f(2.18)=0.27045  bound 2(1.95)(.166)/2.18=0.29697  e^g=1.78107  H6-log6=0.65824  e^.66=1.93479  log1.18=0.165514  cubic=0.165744
+.94/2.22=0.42342  .95*.94/2.22=0.40225
+f is increasing on [2,4]: True
+P=10000 E=all       sum=0.4932  target e^-g*.94=0.5278  BELOW
+P=10000 E=odd       sum=0.5776  target e^-g*.94=0.5278  OK
+P=10000 E=none      sum=1.0000  target e^-g*.94=0.5278  OK
+P=10000 E=only2     sum=0.9998  target e^-g*.94=0.5278  OK
+P=10000 E=big half  sum=0.8238  target e^-g*.94=0.5278  OK
+P=10000 E=small     sum=0.8432  target e^-g*.94=0.5278  OK
+P=10000 E=random1/2 sum=0.4932  target e^-g*.94=0.5278  BELOW
+P=10000 CONTROL exponent .50, E=all: 0.2416 (expect ~ e^-g*.5=0.2807 < target)
+P=100000 E=all       sum=0.5015  target e^-g*.94=0.5278  BELOW
+P=100000 E=odd       sum=0.5691  target e^-g*.94=0.5278  OK
+P=100000 E=none      sum=1.0000  target e^-g*.94=0.5278  OK
+P=100000 E=only2     sum=1.0000  target e^-g*.94=0.5278  OK
+P=100000 E=big half  sum=0.8239  target e^-g*.94=0.5278  OK
+P=100000 E=small     sum=0.9301  target e^-g*.94=0.5278  OK
+P=100000 E=random1/2 sum=0.5015  target e^-g*.94=0.5278  BELOW
+P=100000 CONTROL exponent .50, E=all: 0.2491 (expect ~ e^-g*.5=0.2807 < target)
+
+== Lemma A.1 toy brute force ==
+max |C_l - main|/explicit-error-shape over 60 random toy instances = 0.0011 (bounded => consistent)
+CONTROL: max |C_l - main_without_1/phi(T0)| / main (T0>2 cases) = 6.941 (should be O(1) large => control fails as it must)
+large instance H=12,T0=6,T1=5: C=37020, main=37037.0, rel.err=-0.00046
+
+== Lemma B.1: Buchstab omega(u) via delay equation ==
+omega(3)=0.564382  omega(4)=0.561458  omega(6)=0.561460  omega(8)=0.561459  omega(10)=0.561459  omega(12)=0.561459  
+ e^-gamma=0.561459; CONTROL e^-gamma*1.01=0.567074 differs from omega(12) by 5.61e-03

@@ -1,0 +1,9 @@
+shard=0/1 sequence=1/8 case=0/8 edges=35 result=False conflicts=-1 seconds=0.545
+shard=0/1 sequence=2/8 case=1/8 edges=34 result=False conflicts=-1 seconds=0.708
+shard=0/1 sequence=3/8 case=2/8 edges=33 result=False conflicts=-1 seconds=0.652
+shard=0/1 sequence=4/8 case=3/8 edges=32 result=False conflicts=-1 seconds=0.666
+shard=0/1 sequence=5/8 case=4/8 edges=33 result=False conflicts=-1 seconds=0.662
+shard=0/1 sequence=6/8 case=5/8 edges=31 result=False conflicts=-1 seconds=0.581
+shard=0/1 sequence=7/8 case=6/8 edges=30 result=False conflicts=-1 seconds=0.560
+shard=0/1 sequence=8/8 case=7/8 edges=36 result=False conflicts=-1 seconds=0.579
+SHARD_DONE shard=0/1 degree=12 cases=8 unsat=8 unknown=0 conflicts=0 seconds=4.961

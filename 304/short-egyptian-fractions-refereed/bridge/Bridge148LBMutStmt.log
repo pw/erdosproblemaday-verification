@@ -1,0 +1,5 @@
+Bridge148LBMutStmt.lean:50:7: error: invalid 'calc' step, left-hand side is
+  rexp (rexp (log 2 * log 3 / 3 * (↑k / log ↑k))) : ℝ
+but is expected to be
+  rexp (rexp (log 2 * log 3 / 3 * (↑k * log ↑k))) : ℝ
+Bridge148LBMutStmt rc=1 (must be nonzero)

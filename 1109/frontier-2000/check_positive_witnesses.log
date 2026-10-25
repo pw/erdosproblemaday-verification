@@ -1,0 +1,3 @@
+certificate_sha256=6e7a746db6395d04978456ea114ff74a6490fc75f5dd96e69aa7d827abd666c2
+witnesses=10 checked_sums=12540
+CONCLUSION all ten diagonal-inclusive lower certificates are valid

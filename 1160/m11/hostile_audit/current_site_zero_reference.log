@@ -1,0 +1,9 @@
+UTC 2026-08-11T15:27:38Z
+7459b795c2fd5fca66b25639e1bda9aa77a1ac5f
+ M src/ledger_data.js
+9202dbe6f452589ba4700230a0ee31c484508d8968e3f721e7e3a4abe9fafcc4  /home/exedev/ErdosProblemADay/src/index.js
+9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052  /home/exedev/ErdosProblemADay/src/ledger_data.js
+/home/exedev/ErdosProblemADay/src/index.js bytes 394265 raw_substrings 0 exact_tokens 0
+/home/exedev/ErdosProblemADay/src/ledger_data.js bytes 6421993 raw_substrings 11 exact_tokens 0
+tracked_files_scanned 483
+exact_token_hits ['verification/1106/frontier-10100/b194259_20260811.txt', 'verification/1106/frontier-10100/b194261_20260811.txt', 'verification/1106/frontier-10100/hostile_audit/current_b194259_20260811.txt', 'verification/1106/frontier-10100/hostile_audit/current_b194261_20260811.txt', 'verification/1109/frontier-1500/verify_1109_frontier_sanitize', 'verification/168/frontier-5020/author/sources/b004059.txt', 'verification/168/frontier-5020/hostile_audit/solver_runs/baseline_k5000.mipstart', 'verification/168/frontier-5020/hostile_audit/solver_runs/baseline_k5000_maximum.lp', 'verification/168/frontier-5020/hostile_audit/solver_runs/cbc_k5013.log', 'verification/168/frontier-5020/hostile_audit/solver_runs/flat_k5001_counterexample.lp', 'verification/168/frontier-5020/hostile_audit/solver_runs/flat_k5004_counterexample.lp', 'verification/168/frontier-5020/hostile_audit/solver_runs/flat_k5006_counterexample.lp', 'verification/168/frontier-5020/hostile_audit/solver_runs/flat_k5009_counterexample.lp', 'verification/168/frontier-5020/hostile_audit/solver_runs/flat_k5011_counterexample.lp', 'verification/168/frontier-5020/hostile_audit/solver_runs/flat_k5013_counterexample.lp', 'verification/168/frontier-5020/hostile_audit/solver_runs/flat_k5016_counterexample.lp', 'verification/168/frontier-5020/hostile_audit/solver_runs/flat_k5020_counterexample.lp', 'verification/168/frontier-5020/hostile_audit/sources/b004059.current.txt']

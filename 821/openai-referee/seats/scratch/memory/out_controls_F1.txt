@@ -1,0 +1,5 @@
+case F1: paths=27380 stats={'nonzero': 564, 'hN_nonzero': 304, 'cmp_edge': 544, 'multirun': 304, 'endpoint_hit': 24, 'pending_hit': 0, 'ghost_needed': 24, 'orphan_possible': 500, 'two_orphans_possible': 20}
+  LHS = (4767242227143646527895411930608633714932384064806481309029/2315678508046403540055538620391948810533854200666905807360) + (-6928442993113536131062419419413/13005683723680374400607793581568768)*sqrt2
+  LHS ~ 2.05792713072+0j; unperturbed RHS equal: True
+  control no_ban                  : RHS ~ 2.10456087634+0j   equal=False   RHS-LHS ~ 0.0466337+0j
+  control free_mut                : RHS ~ 2.06363029499+0j   equal=False   RHS-LHS ~ 0.00570316+0j

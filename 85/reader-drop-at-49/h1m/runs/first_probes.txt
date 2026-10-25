@@ -1,0 +1,7 @@
+# first probes 2026-10-19 ~21:2xZ, j=0, flags --pairsb --slots --ph (no --edgeswap), kissat cap 600, wall incl. ~3 s encoding
+# (copied from the seat's harness task output; the #400 probe ran untimed: M=0,0,0,2,2,0,1,1,0,0,0,0,2,0,0,1,0,0,1,0,1,1,0,0 -> UNSAT)
+j0 #1 0,0,0,0,2,2,0,0,0,0,2,0,2,2,0,0,2,0,0,0,0,0,0,0 -> UNSAT  42.316100751 s
+j0 #200 0,0,0,1,2,1,0,1,1,0,0,0,2,0,1,1,1,0,0,0,0,0,1,0 -> UNSAT  149.878743867 s
+j0 #839 1,0,1,0,2,0,0,1,0,1,0,0,2,0,1,0,0,0,0,1,1,0,0,1 -> UNSAT  86.507174536 s
+
+[exited with code 0]

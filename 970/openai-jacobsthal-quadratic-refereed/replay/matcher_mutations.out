@@ -1,0 +1,9 @@
+baseline rc 0
+pow2_to_pow3_solution          rc=1
+const3_to_2_solution           rc=1
+lt_m_to_le_m_solution          rc=1
+card_le_to_lt_comparator       rc=1
+extra_axiom_solution           rc=1
+sorry_removed_comparator       rc=1
+missing_file                   rc=2
+ALL MUTANTS CAUGHT

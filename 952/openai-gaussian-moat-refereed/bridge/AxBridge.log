@@ -1,0 +1,3 @@
+'Erdos952.erdos_952' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos952.erdos_952_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos952.dist_toComplex_eq_sqrt_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

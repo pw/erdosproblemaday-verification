@@ -1,0 +1,5 @@
+{"N": 110880, "dir": [1, 1], "Mp": 60, "lumpy": 31, "sym": false, "result": "INFEASIBLE (no class choice reaches 1 on every cell)", "nodes": 8, "secs": 0.0}
+{"N": 166320, "dir": [1, 1], "Mp": 60, "lumpy": 38, "sym": false, "result": "INFEASIBLE (no class choice reaches 1 on every cell)", "nodes": 17, "secs": 0.0}
+{"N": 221760, "dir": [1, 1], "Mp": 60, "lumpy": 34, "sym": false, "result": "INFEASIBLE (no class choice reaches 1 on every cell)", "nodes": 17, "secs": 0.0}
+{"N": 332640, "dir": [1, 1], "Mp": 60, "lumpy": 41, "sym": false, "result": "INFEASIBLE (no class choice reaches 1 on every cell)", "nodes": 17, "secs": 0.0}
+{"N": 720720, "dir": [1, 1], "Mp": 60, "lumpy": 51, "sym": false, "result": "INFEASIBLE (no class choice reaches 1 on every cell)", "nodes": 17, "secs": 0.0}

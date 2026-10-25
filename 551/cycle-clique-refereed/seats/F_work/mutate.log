@@ -1,0 +1,2 @@
+CONTROL rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3049 out2 50 identical 52s
+W1_no_extension_rule rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14] out0 304 out1 0 out2 847 DIFFERS 900s

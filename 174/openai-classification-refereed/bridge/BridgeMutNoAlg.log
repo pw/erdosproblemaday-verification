@@ -1,0 +1,17 @@
+BridgeMutNoAlg.lean:34:36: error: Application type mismatch: The argument
+  halg
+has type
+  True
+but is expected to have type
+  ∀ (i : Fin s) (j : Fin d), IsAlgebraic ℚ ((a i).ofLp j)
+in the application
+  coeff_finiteDimensional a halg
+BridgeMutNoAlg.lean:88:78: error: Application type mismatch: The argument
+  halg
+has type
+  ∀ (i : Fin s) (j : Fin d), IsAlgebraic ℚ ((a i).ofLp j)
+but is expected to have type
+  True
+in the application
+  algebraic_spherical_fieldCriterion a halg
+BridgeMutNoAlg rc=1 (must be nonzero)

@@ -1,0 +1,10 @@
+case j=0: 24 transpositions, structural/semantic mismatches vs add_perm_sb order: 0
+case j=1: 22 transpositions, structural/semantic mismatches vs add_perm_sb order: 0
+case j=2: 20 transpositions, structural/semantic mismatches vs add_perm_sb order: 0
+case j=3: 18 transpositions, structural/semantic mismatches vs add_perm_sb order: 0
+case j=4: 16 transpositions, structural/semantic mismatches vs add_perm_sb order: 0
+TRANSPOSITION SB == add_perm_sb lex-leader (same order, same direction): True
+NEGATIVE CONTROL (descending columns): semantic mismatches 1590 (must be > 0)
+NEGATIVE CONTROL (flipped direction): semantic mismatches 3200 (must be > 0)
+NEGATIVE CONTROL (odd-even column order): semantic mismatches 1061 (must be > 0)
+step 3: 5952 perms checked over 200 cells (incl. the 15 largest stabilisers per case): problems 0

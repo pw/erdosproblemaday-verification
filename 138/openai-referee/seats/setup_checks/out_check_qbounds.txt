@@ -1,0 +1,21 @@
+log-form q-bounds, k=3..60, EVERY prime P in (k,2k^2]: 20099 (k,P) pairs, violations=0, exponent histogram={1: 20099}, min lower margin=3.2188, min upper margin=0.0020618
+EXACT integer form k=3 D=2 P=5 e=1  q^(1e5 D) >= k^k: True   q^(1e5 D) <= (2k^2)^(1e5 D) k^k: True
+EXACT integer form k=10 D=2 P=11 e=1  q^(1e5 D) >= k^k: True   q^(1e5 D) <= (2k^2)^(1e5 D) k^k: True
+EXACT integer form k=30 D=2 P=31 e=1  q^(1e5 D) >= k^k: True   q^(1e5 D) <= (2k^2)^(1e5 D) k^k: True
+EXACT integer form k=100 D=2 P=101 e=1  q^(1e5 D) >= k^k: True   q^(1e5 D) <= (2k^2)^(1e5 D) k^k: True
+EXACT integer form k=400 D=2 P=401 e=1  q^(1e5 D) >= k^k: True   q^(1e5 D) <= (2k^2)^(1e5 D) k^k: True
+
+log-scale (mpmath 60 digits): ck log k <= D log q <= ck log k + D log(2k^2); orders of magnitude
+k=1e4   D=3     e=1              lower=True upper=True | logq/(k^.9 logk)=0.0002512  loglam/(k^.2 logk)=0.3092  D/k^.1=1.194  M/k^.5=1.0  |V|/(k^3 log k)=0.000785
+k=1e6   D=4     e=3              lower=True upper=True | logq/(k^.9 logk)=1.194e-5  loglam/(k^.2 logk)=0.1741  D/k^.1=1.005  M/k^.5=1.0  |V|/(k^3 log k)=2.99e-5
+k=1e9   D=8     e=1250           lower=True upper=True | logq/(k^.9 logk)=9.929e-6  loglam/(k^.2 logk)=0.1266  D/k^.1=1.007  M/k^.5=1.0  |V|/(k^3 log k)=2.25e-5
+k=1e12  D=16    e=625000         lower=True upper=True | logq/(k^.9 logk)=9.906e-6  loglam/(k^.2 logk)=0.09308  D/k^.1=1.01  M/k^.5=1.0  |V|/(k^3 log k)=2.125e-5
+k=1e20  D=100   e=10000000000000 lower=True upper=True | logq/(k^.9 logk)=1.0e-5  loglam/(k^.2 logk)=0.05004  D/k^.1=1.0  M/k^.5=1.0  |V|/(k^3 log k)=2.02e-5
+k=1e40  D=10000 e=10000000000000000000000000000000 lower=True upper=True | logq/(k^.9 logk)=1.0e-5  loglam/(k^.2 logk)=skip  D/k^.1=1.0  M/k^.5=1.0  |V|/(k^3 log k)=2.0e-5
+
+CONTROL: prime P' > 2k^2 (outside Lemma setup:prime)
+k=10 P'=1009 e=1 lower=True upper=False  -> upper bound FAILS (expected)
+k=20 P'=8009 e=1 lower=True upper=False  -> upper bound FAILS (expected)
+k=30 P'=27011 e=1 lower=True upper=False  -> upper bound FAILS (expected)
+[check_qbounds: 5.54s, maxrss 50244kB]
+exit=0

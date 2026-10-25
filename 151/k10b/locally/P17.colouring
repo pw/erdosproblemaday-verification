@@ -1,0 +1,31 @@
+# graph6 P|fLKfH[QJkSVDMJDrGm]A|g
+# red edges of a (K3,K3)-free 2-colouring (29 red of 68); every other edge blue; 68 triangles, 0 monochromatic
+0 1
+0 3
+0 4
+0 6
+1 2
+1 10
+2 9
+2 13
+3 7
+3 12
+3 13
+4 8
+4 12
+4 14
+5 6
+5 10
+5 12
+6 7
+6 11
+6 14
+7 8
+7 9
+7 10
+8 11
+9 12
+9 14
+10 13
+11 12
+11 13

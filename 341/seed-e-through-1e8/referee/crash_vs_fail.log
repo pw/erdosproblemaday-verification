@@ -1,0 +1,4 @@
+Demonstration (referee, 2026-10-15): an uncaught Python exception exits with status 1, the exact code census.py
+(line 35: if c.returncode!=1: TOOL ERROR) treats as an ordinary "not certified". So a certify.py crash still escalates and
+ends as UNRESOLVED/survivor, the failure the entry says is fixed ("the driver now distinguishes the two").
+rc=1

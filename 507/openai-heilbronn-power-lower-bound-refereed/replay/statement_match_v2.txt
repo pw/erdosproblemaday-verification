@@ -1,0 +1,15 @@
+ALL_MATCH_KERNEL_STD_SORRYSEEN
+HeilbronnTriangle OAI.Problem355.heilbronn_power_lower_bound MATCH | solution axioms ['Classical.choice', 'Quot.sound', 'propext'] | comparator ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+HeilbronnTriangle OAI.Problem355.almost_n_minus_two_refuted MATCH | solution axioms ['Classical.choice', 'Quot.sound', 'propext'] | comparator ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+HeilbronnTriangle OAI.Problem355.Point MATCH
+HeilbronnTriangle OAI.Problem355.triangleArea MATCH
+HeilbronnTriangle OAI.Problem355.pointInUnitSquare MATCH
+HeilbronnTriangle OAI.Problem355.pointsInUnitSquare MATCH
+HeilbronnTriangle OAI.Problem355.triangleAreasAtLeast MATCH
+HeilbronnTriangle OAI.Problem355.hasTriangleAreaAtMost MATCH
+HeilbronnTriangle OAI.Problem355.heilbronnD MATCH
+HeilbronnTriangle OAI.Problem355.heilbronnM MATCH
+HeilbronnTriangle OAI.Problem355.heilbronnT MATCH
+HeilbronnTriangle OAI.Problem355.heilbronnK MATCH-UP-TO-ELAB-ATTRIBUTE (kernel hints/value/type/safety identical: ('regular 7', '3603132665', '421340980', 'Lean.DefinitionSafety.safe'); elab status Lean.ReducibilityStatus.irreducible vs Lean.ReducibilityStatus.semireducible)
+HeilbronnTriangle OAI.Problem355.heilbronnExponent MATCH
+HeilbronnTriangle OAI.Problem355.eventualAlmostUpperBound MATCH

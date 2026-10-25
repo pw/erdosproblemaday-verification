@@ -1,0 +1,2 @@
+d=2 s=3 N=12 C4 ON: 3000 solutions from referee encoder
+  normal forms REJECTED by colleague CNF: 0 / 3000   (lex-descent steps total 6890); patterns {(1, 1, 1, 1): 2188, (1, 0, 1, 0): 757, (0, 0, 0, 0): 55}

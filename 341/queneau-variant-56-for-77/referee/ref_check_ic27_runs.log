@@ -1,0 +1,4 @@
+Y0: project runs == referee closed-form runs on [0,2^20): True  (7 runs)
+Y1: project runs == referee closed-form runs on [0,2^20): True  (7 runs)
+Y2: project runs == referee closed-form runs on [0,2^20): True  (8 runs)
+ALL MATCH

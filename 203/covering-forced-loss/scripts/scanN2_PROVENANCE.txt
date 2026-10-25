@@ -1,0 +1,1 @@
+scanN2.tsv was produced by the scanN.py code run inline over 5041..30000; scanN_range.py is that script with the range on argv: python scanN_range.py 5041 30000 scanN2.tsv (and 30001 65520 scanN3.tsv).

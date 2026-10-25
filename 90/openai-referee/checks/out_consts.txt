@@ -1,0 +1,19 @@
+[paper] delta=1/100 lam=1/20000
+  (6.7) min over grid+edges = 2.5e-05  >= lam/2: True ; outside-edge infimum 4d^2-lam(1/2+2d^2) = 0.00037499
+  4d^2 - lam > lam/2 : True
+  Prop 5.5 constant 4/(2(1/4-d^2)) = 8.003201280512204  <= 10 : True
+  10 d^2 < 1/4 : True   (sandwich lam/4 > 10 d^2 lam: True )
+  on window 2rho(1-rho) >= 2(1/4-d^2): True
+[control lam=8 d^2 (should FAIL (6.7))] delta=1/100 lam=1/1250
+  (6.7) min over grid+edges = -1.59999920032e-07  >= lam/2: False ; outside-edge infimum 4d^2-lam(1/2+2d^2) = -1.6e-07
+  4d^2 - lam > lam/2 : False
+  Prop 5.5 constant 4/(2(1/4-d^2)) = 8.003201280512204  <= 10 : True
+  10 d^2 < 1/4 : True   (sandwich lam/4 > 10 d^2 lam: True )
+  on window 2rho(1-rho) >= 2(1/4-d^2): True
+[control delta=1/5 (should FAIL 10d^2<1/4)] delta=1/5 lam=1/50
+  (6.7) min over grid+edges = 0.01  >= lam/2: True ; outside-edge infimum 4d^2-lam(1/2+2d^2) = 0.1484
+  4d^2 - lam > lam/2 : True
+  Prop 5.5 constant 4/(2(1/4-d^2)) = 9.523809523809524  <= 10 : True
+  10 d^2 < 1/4 : False   (sandwich lam/4 > 10 d^2 lam: False )
+  on window 2rho(1-rho) >= 2(1/4-d^2): True
+ALL PAPER CONSTANT CHECKS PASS: True | control1 passes? False | control2 passes? False

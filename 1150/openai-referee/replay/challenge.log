@@ -1,0 +1,37 @@
+ChallengeStatement.lean:18:8: warning: declaration uses `sorry`
+def OAI.AsymptoticallyMinimalLittlewood.MainStatement : Prop :=
+∀ (η : Real),
+  @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) η →
+    @Exists.{1} Nat fun (N₀ : Nat) =>
+      And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) N₀)
+        (∀ (N : Nat),
+          @LE.le.{0} Nat instLENat N₀ N →
+            @Exists.{1} (Fin N → Real) fun (ε : Fin N → Real) =>
+              And (@OAI.AsymptoticallyMinimalLittlewood.IsRealSigning N ε)
+                (∀ (z : Complex),
+                  @Eq.{1} Real (@Norm.norm.{0} Complex Complex.instNorm z)
+                      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+                    @LE.le.{0} Real Real.instLE
+                      (@Norm.norm.{0} Complex Complex.instNorm
+                        (@OAI.AsymptoticallyMinimalLittlewood.littlewoodValue N ε z))
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) η)
+                        (Real.sqrt (@Nat.cast.{0} Real Real.instNatCast N)))))
+def OAI.AsymptoticallyMinimalLittlewood.littlewoodValue : {N : Nat} → (ε : Fin N → Real) → (z : Complex) → Complex :=
+fun {N : Nat} (ε : Fin N → Real) (z : Complex) =>
+  @Finset.sum.{0, 0} (Fin N) Complex Complex.instAddCommMonoid (@Finset.univ.{0} (Fin N) (Fin.fintype N))
+    fun (k : Fin N) =>
+    @HMul.hMul.{0, 0, 0} Complex Complex Complex (@instHMul.{0} Complex Complex.instMul) (Complex.ofReal (ε k))
+      (@HPow.hPow.{0, 0, 0} Complex Nat Complex
+        (@instHPow.{0, 0} Complex Nat
+          (@NPow.toPow.{0} Complex (@Monoid.toNPow.{0} Complex (@Semiring.toMonoid.{0} Complex Complex.instSemiring))))
+        z (@Fin.val N k))
+def OAI.AsymptoticallyMinimalLittlewood.IsRealSigning : {N : Nat} → (ε : Fin N → Real) → Prop :=
+fun {N : Nat} (ε : Fin N → Real) =>
+  ∀ (k : Fin N),
+    Or
+      (@Eq.{1} Real (ε k)
+        (@Neg.neg.{0} Real Real.instNeg (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))
+      (@Eq.{1} Real (ε k) (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+'OAI.AsymptoticallyMinimalLittlewood.main' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

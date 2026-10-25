@@ -1,0 +1,27 @@
+PASS (4.15) determinant identity
+PASS Cramer |dZ| < r/2 under (4.12) — worst |dZ|=7.389e-03 vs r/2=0.25
+PASS CONTROL: violating (4.12) by 2000x can exceed r/2 (expect FAIL-shape => check prints True when violated) — worst=1.478e+01
+PASS (8.9) LHS derivative = 2(p-r)·(H-U)
+PASS (8.9) RHS derivative = R·(dlam/lam)
+PASS (8.10) R^2 = L(L-4)
+PASS (7.13) (d-d')(1/d-1/d') = 2 - d/d' - d'/d
+PASS (5.14) -log|(d-d')(1/d-1/d')| = 2u-(b+b') = 2(u-b)-(b'-b) — pure log identity: (d-d')(1/d-1/d') = -(d-d')^2/(dd')
+PASS (6.7) >= lam/2 on a 10^-4 grid (exact rationals) — min attained near rho=1/2: 2.5e-05
+PASS (6.7) algebra: 4delta^2 - lam > lam/2
+PASS 10 delta^2 < 1/4
+PASS CONTROL (6.7) with lam=8delta^2 fails outside the window (expect True=failure detected)
+PASS Lemma 5.4 (5.11) random trials
+PASS CONTROL Lemma 5.4 with a wrong indicator is violated (expect True)
+PASS (2.2)-(2.3): |E| = |P| d(p) = |Q| d(q)
+PASS (2.16) exponent -2-3a
+PASS (2.18) D <= a log t (so o(log t) iff a -> 0)
+PASS (2.17) exponent -a
+PASS gamma=27/50: 2/3-gamma=19/150, eta=1/25
+PASS second term exponent -a/2 + a/4*eta = -49a/100
+PASS xi_t exponent -a/48 from (uv)^{1/6} with uv <= t^{-a/8}
+PASS Lemma 7.5 exponents: M<=t^{1/5}, |P_mult|<=t^{2/5}, wedge prob<=t^{-3/5}
+PASS Lemma 8.5: N=20 > 3j=15
+FAIL toy Lemma 2.7: unbalanced wedge D small vs log|P| — D=1.210, log|P|=3.689
+FAIL CONTROL: balanced graph (4 centers, degree 20) has D >> unbalanced — D_balanced=0.201
+
+SUMMARY: 23 PASS / 2 FAIL

@@ -1,0 +1,76 @@
+TotientAsymptotic OAI.TotientAsymptotic.totient_asymptotic_formula MATCH | lens 2523 2523
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+TotientAsymptotic OAI.TotientAsymptotic.weighted_totient_asymptotic MATCH | lens 4184 4184
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+TotientAsymptotic OAI.TotientAsymptotic.weighted_totient_one_two MATCH | lens 1009 1009
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+TotientAsymptotic OAI.TotientAsymptotic.coefficient_nonnegative MATCH | lens 569 569
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+TotientAsymptotic OAI.TotientAsymptotic.IsTotient MATCH | lens 234 234
+TotientAsymptotic OAI.TotientAsymptotic.V MATCH | lens 535 535
+TotientAsymptotic OAI.TotientAsymptotic.ell MATCH | lens 774 774
+TotientAsymptotic OAI.TotientAsymptotic.a MATCH | lens 900 900
+TotientAsymptotic OAI.TotientAsymptotic.RenewalRootSet MATCH | lens 1116 1116
+TotientAsymptotic OAI.TotientAsymptotic.rho MATCH | lens 114 114
+TotientAsymptotic OAI.TotientAsymptotic.lam MATCH | lens 260 260
+TotientAsymptotic OAI.TotientAsymptotic.gamma MATCH | lens 1060 1060
+TotientAsymptotic OAI.TotientAsymptotic.g MATCH | lens 1468 1468
+TotientAsymptotic OAI.TotientAsymptotic.B MATCH | lens 90 90
+TotientAsymptotic OAI.TotientAsymptotic.psi MATCH | lens 315 315
+TotientAsymptotic OAI.TotientAsymptotic.m MATCH | lens 263 263
+TotientAsymptotic OAI.TotientAsymptotic.theta MATCH | lens 264 264
+TotientAsymptotic OAI.TotientAsymptotic.G MATCH | lens 712 712
+TotientAsymptotic OAI.TotientAsymptotic.P MATCH | lens 267 267
+TotientAsymptotic OAI.TotientAsymptotic.alpha MATCH | lens 279 279
+TotientAsymptotic OAI.TotientAsymptotic.largestPrimeFactor MATCH | lens 306 306
+TotientAsymptotic OAI.TotientAsymptotic.TailDatum MATCH | lens 314 314
+TotientAsymptotic OAI.TotientAsymptotic.tailPrime MATCH | lens 448 448
+TotientAsymptotic OAI.TotientAsymptotic.tailLog MATCH | lens 275 275
+TotientAsymptotic OAI.TotientAsymptotic.IsWitness MATCH | lens 5123 5123
+TotientAsymptotic OAI.TotientAsymptotic.w MATCH | lens 460 460
+TotientAsymptotic OAI.TotientAsymptotic.witnesses MATCH | lens 363 363
+TotientAsymptotic OAI.TotientAsymptotic.D MATCH | lens 539 539
+TotientAsymptotic OAI.TotientAsymptotic.maxD MATCH | lens 694 694
+TotientAsymptotic OAI.TotientAsymptotic.AH MATCH | lens 4620 4620
+TotientAsymptotic OAI.TotientAsymptotic.A MATCH | lens 395 395
+TotientAsymptotic OAI.TotientAsymptotic.mainTerm MATCH | lens 550 550
+TotientAsymptotic OAI.TotientAsymptotic.N MATCH | lens 2930 2930
+TotientAsymptotic OAI.TotientAsymptotic.fk MATCH | lens 829 829
+TotientAsymptotic OAI.TotientAsymptotic.normalizedCount MATCH | lens 491 491
+TotientAsymptotic OAI.TotientAsymptotic.tupleNormalization MATCH | lens 338 338
+TotientCompanionZero OAI.TotientAsymptotic.companion_zero_case MATCH | lens 1042 1042
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+TotientCompanionZero OAI.TotientAsymptotic.IsTotient MATCH | lens 234 234
+TotientCompanionZero OAI.TotientAsymptotic.ell MATCH | lens 774 774
+TotientCompanionZero OAI.TotientAsymptotic.a MATCH | lens 900 900
+TotientCompanionZero OAI.TotientAsymptotic.RenewalRootSet MATCH | lens 1116 1116
+TotientCompanionZero OAI.TotientAsymptotic.rho MATCH | lens 114 114
+TotientCompanionZero OAI.TotientAsymptotic.lam MATCH | lens 260 260
+TotientCompanionZero OAI.TotientAsymptotic.gamma MATCH | lens 1060 1060
+TotientCompanionZero OAI.TotientAsymptotic.P MATCH | lens 267 267
+TotientCompanionZero OAI.TotientAsymptotic.alpha MATCH | lens 279 279
+TotientCompanionZero OAI.TotientAsymptotic.largestPrimeFactor MATCH | lens 306 306
+TotientCompanionZero OAI.TotientAsymptotic.TailDatum MATCH | lens 314 314
+TotientCompanionZero OAI.TotientAsymptotic.tailPrime MATCH | lens 448 448
+TotientCompanionZero OAI.TotientAsymptotic.tailLog MATCH | lens 275 275
+TotientCompanionZero OAI.TotientAsymptotic.IsWitness MATCH | lens 5123 5123
+TotientCompanionZero OAI.TotientAsymptotic.w MATCH | lens 460 460
+TotientCompanionZero OAI.TotientAsymptotic.witnesses MATCH | lens 363 363
+TotientCompanionZero OAI.TotientAsymptotic.D MATCH | lens 539 539
+TotientCompanionZero OAI.TotientAsymptotic.maxD MATCH | lens 694 694
+TotientCompanionZero OAI.TotientAsymptotic.AH MATCH | lens 4620 4620
+TotientCompanionZero OAI.TotientAsymptotic.A MATCH | lens 395 395
+TotientCompanionZero OAI.TotientAsymptotic.N MATCH | lens 2930 2930
+TotientCompanionZero OAI.TotientAsymptotic.fk MATCH | lens 829 829
+ALL_MATCH_STD_SORRYSEEN
+TotientAsymptotic: 36 MATCH / 0 MISMATCH
+TotientCompanionZero: 23 MATCH / 0 MISMATCH
+OAI.TotientAsymptotic.rho_mem STD_AXIOMS
+OAI.TotientAsymptotic.seeds_one_two STD_AXIOMS
+OAI.TotientAsymptotic.seed_least_preimage STD_AXIOMS
+OAI.TotientAsymptotic.extractedStructureInput STD_AXIOMS
+OAI.TotientAsymptotic.fordLemma26Input STD_AXIOMS
+OAI.TotientAsymptotic.primeNumberTheoremInput STD_AXIOMS
+OAI.TotientAsymptotic.ford_scale_lower STD_AXIOMS
+OAI.TotientAsymptotic.ford_scale_upper STD_AXIOMS
+OAI.TotientAsymptotic.fordScaleBounds STD_AXIOMS

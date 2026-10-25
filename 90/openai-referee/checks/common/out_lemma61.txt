@@ -1,0 +1,12 @@
+k=2: distinct cross traces=11 (bound 25); CONTROL <=3-row unions traces=15
+k=8: distinct cross traces=137 (bound 289); CONTROL <=3-row unions traces=697
+k=14: distinct cross traces=407 (bound 841); CONTROL <=3-row unions traces=3683
+max ratio traces/(2k+1)^2 over random trials: 0.595
+CONTROL family exceeds (2k+1)^2 for some k: True
+hypergeometric <= 2^-m: all k<=80 OK; CONTROL '<= 2^-(m+1)' violated in 747 cases
+max P(Bin(k,beta)<k alpha/2) over k alpha>=8 grid: 8.849e-02 (claim <= 1/2)
+CONTROL k alpha=0.3 (hypothesis violated): P = 0.69 > 1/2: True
+MC n=10,k=200,alpha=0.4: bound=2.925e-07; iid frequency=0/2000; CONTROL dependent samples frequency=2000/2000
+(6.3) toy k=300: bound=2.042e-05; iid templates P=9.818e-91 (=2^(1-k)); CONTROL deterministic template P=1.0
+(6.3) toy k=1000: bound=2.747e-20; iid templates P=1.867e-301 (=2^(1-k)); CONTROL deterministic template P=1.0
+exit=0

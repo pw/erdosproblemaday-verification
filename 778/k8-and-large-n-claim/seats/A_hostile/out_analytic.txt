@@ -1,0 +1,23 @@
+theta^5 = 6250/6561  == 6250/6561: True  <1: True
+theta = 0.99033469887000186416  log theta = -0.0097123133228860697482  eta = 0.0097123133228860697482
+C must exceed 2/eta = 205.9241638433559617
+Chingiz factor on P_U (3/4)*(6/5) = 9/10  Bella factor (6/5); Bella add = P/5 = 1/5  = 2 * (1/10)
+(4/3)^{3H/5}(5/6)^H == theta^H identity: per-unit exponent check (4/3)^{3/5}(5/6) = theta  [definition]
+1/log(5/3) = 1.95761518897122  2/log3 = 1.82047845325367  gap = 0.137136735717543  27>25 equivalence: log3 > 2log(5/3) <=> True
+h - a log3 n >= a/2 for n in [2,200000]: failures = 0
+C=206 (C*eta=2.00074): first integer log n with both Phi_init<1 (paper's bounds) and R(n)>=a : log n = 156  (a=286, l=32136, R=286, Phi bound=1.773e-68)
+C=210 (C*eta=2.03959): first integer log n with both Phi_init<1 (paper's bounds) and R(n)>=a : log n = 156  (a=286, l=32760, R=286, Phi bound=1.773e-68)
+C=220 (C*eta=2.13671): first integer log n with both Phi_init<1 (paper's bounds) and R(n)>=a : log n = 162  (a=297, l=35640, R=297, Phi bound=4.213e-71)
+C=230 (C*eta=2.23383): first integer log n with both Phi_init<1 (paper's bounds) and R(n)>=a : log n = 162  (a=297, l=37260, R=297, Phi bound=4.213e-71)
+C=250 (C*eta=2.42808): first integer log n with both Phi_init<1 (paper's bounds) and R(n)>=a : log n = 162  (a=297, l=40500, R=297, Phi bound=4.213e-71)
+C=300 (C*eta=2.91369): first integer log n with both Phi_init<1 (paper's bounds) and R(n)>=a : log n = 162  (a=297, l=48600, R=297, Phi bound=4.213e-71)
+C=400 (C*eta=3.88493): first integer log n with both Phi_init<1 (paper's bounds) and R(n)>=a : log n = 168  (a=308, l=67200, R=308, Phi bound=1.001e-73)
+=> 'sufficiently large' in the paper's argument means roughly n >= e^156 (best C tried = 206)
+identity C(s,l)C(l,2) = C(s,2)C(s-2,l-2) for 2<=l<=s<60: failures = 0
+Lemma 2 worst-case recursion (m_{i+1}=ceil(3/5(m_i-1))), 2<=l<80, l<=m<4000: steps checked = 2465555  m_i<l before step R: failures = 0
+  (exact-boundary cases where (m+3/2)/(l+3/2) is exactly a power of 5/3: 117 ; a float log/floor evaluation of R disagrees with the exact integer R in 9 of them -- instrument artifact, exact R used)
+algebra: (3/5)(m-1)+3/2 == (3/5)(m+3/2): True
+graphs n=14 l=3: 29 graphs with all l-sets >=3/5 dense; averaging failures=0; greedy/clique failures=0 (R(n)=3)
+graphs n=14 l=4: 4 graphs with all l-sets >=3/5 dense; averaging failures=0; greedy/clique failures=0 (R(n)=3)
+graphs n=16 l=4: 1 graphs with all l-sets >=3/5 dense; averaging failures=0; greedy/clique failures=0 (R(n)=3)
+graphs n=17 l=5: 1 graphs with all l-sets >=3/5 dense; averaging failures=0; greedy/clique failures=0 (R(n)=3)

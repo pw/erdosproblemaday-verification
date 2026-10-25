@@ -1,0 +1,6 @@
+TypeCtl.lean:7:42: error: Type mismatch
+  OAI.BorsukNine.main_theorem.right.right.right
+has type
+  ¬OAI.BorsukNine.HasTenSmallCover
+but is expected to have type
+  ¬HasElevenSmallCover

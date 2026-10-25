@@ -1,0 +1,160 @@
+
+
+Erdős #371: P(n) < P(n+1) for half of all n — OpenAI's proof of the joint Dickman law in natural density, its Lean replayed here and its paper read by AI seats; Formal Conjectures' erdos_371 proved in Lean from it, and #928 proved in Lean as Erdős posed it — Erdős Problem a Day
+
+  [/] Erdős Problem a Daythe open tracker
+  ☰
+  [/board] Board[/guide] Guide[/submit] Submit[/submissions] Submissions[/progress] Our attempts[/about] About
+
+  ERDŐS #371
+
+  #371: P(n) < P(n+1) for half of all n — OpenAI's proof of the joint Dickman law in natural density, its Lean replayed here and its paper read by AI seats; Formal Conjectures' erdos_371 proved in Lean from it, and #928 proved in Lean as Erdős posed it
+
+  CLOSEDOCT 22, 2026
+
+  Community database OPENas of 2025-08-31tags [/board?tag=number%20theory] number theory[/problem/371] problem page &middot; [https://www.erdosproblems.com/371] erdosproblems.com/371
+
+  Newer public claim (6 Oct 2026): OpenAI's internal-model release claims, for this problem, the density of {n : P(n) < P(n+1)} is 1/2 (Erdős–Pomerance), via the joint Dickman law in natural density — read by four AI seats here 22 Oct, see /day/371-openai-joint-dickman-law-refereed — family 12 at [https://github.com/openai/math] github.com/openai/math, OpenAI's own Lean proves Theorem 1.1 (the joint Dickman law in ordinary natural density, thresholds n^a and n^b, all real X) and Corollary 1.2 (both strict orderings of P(n), P(n+1) have density 1/2). Kernel-replayed on our machine on 22 Oct 2026, after others had built it: PaperMain's 1,836-module closure (1,792 OpenAI + patched PrimeNumberTheoremAnd/StrongPNT + LeanArchitect) plus the umbrella module, 0 errors, standard axioms on all three theorems, statements and definitions matched to the comparator (10/10). The proof term reaches none of the Matomäki–Radziwiłł / MRT / Montgomery–Vaughan propositions the paper cites; it formalizes the MR method for the bin labels. Our bridge proves Formal Conjectures' erdos_371 and #928 as posed from it. Bloom calls these claims, not endorsements.
+
+The problem. [https://www.erdosproblems.com/371] Erdős problem #371 [ErPo78, p. 320; Er79e; ErGr80, p. 70; Er85c, p. 82; Va99, 1.10]: "Let P(n) denote the largest prime factor of n. Show that the set of n with P(n) < P(n+1) has density 1/2." Erdős and Pomerance stated it in 1978 (the paper and Teräväinen trace the ordering question to Erdős and Turán), together with the stronger conjecture that log P(n)/log n and log P(n+1)/log n are asymptotically independent, each with Dickman's distribution. They proved that each ordering has positive lower density (at least 0.0099). The lower bound was raised over the years to 0.2017 (Lü and Wang) and recently to 0.280 and then 0.299 (Yang, 2026). Teräväinen (2018) proved the joint law, and so the value ½, in logarithmic density. Tao and Teräväinen sketched it at almost all scales in 2019 (their Remark 3.3) and proved a quantitative form, still outside an exceptional set of scales, in 2025–26. Wang (2021) proved it in natural density assuming the Elliott–Halberstam conjecture for smooth numbers. The same page records a second question from [Er79e]: for every α, does {n : P(n+1) > P(n)·nα} have a density? [https://www.erdosproblems.com/928] #928 asks the joint question directly: for α, β ∈ (0,1), does the density of n with P(n) < nα and P(n+1) < (n+1)β exist, and is it ρ(1/α)ρ(1/β)? There ρ is the Dickman function: ρ(u) = 1 for 0 ≤ u ≤ 1 and uρ′(u) = −ρ(u−1) for u > 1. When we read them on 22 October, both pages listed no proof claims, and #928 had no formal statement.
+
+The claim. OpenAI, "The joint Dickman law for consecutive integers" (dated 24 September 2026, 84 pages, released 6 October as family 012 of github.com/openai/math). Theorem 1.1: for every fixed a, b ∈ (0,1),
+
+(1/X)·#{2 ≤ n ≤ X : P(n) ≤ na, P(n+1) ≤ nb} → ρ(1/a)·ρ(1/b) as X → ∞ through all real X.
+
+Corollary 1.2: P(n) < P(n+1) has natural density ½, and so does the reverse ordering. The paper is explicit about what is new. Earlier work had the logarithmic density, the limit outside an exceptional set of scales, or the limit under a conjecture. The new statement is the ordinary limit at every large scale, unconditionally.
+
+The argument. Split the primes in (x1/J, x] into J−1 bins, and encode how many prime factors n has in each bin by a "bin character" fx(n), a product of roots of unity. The joint law then reduces, by finite Fourier inversion, to one decorrelation: (1/x)Σn<x gx(n)·(fx(n+1) − μ) → 0, where gx is a second bin character and μ is the limiting mean of fx.
+
+§2 shows that fx − μ cancels in short averages, after weighting by products over a finite set of auxiliary primes. The paper writes the centred function as a fixed finite combination of real multiplicative functions and applies Matomäki–Radziwiłł (Annals 2016, Theorem 1) and Matomäki–Radziwiłł–Tao (Theorem A.1, corrected version).
+
+§2.6 supposes the decorrelation fails along some sequence of scales and passes to a limit profile on (0,∞) × Ẑ. §4 then amplifies that profile with a divisor weight that counts factorisations n = am, n+1 = c·l; Lemma 4.4 shows the profile survives the weight.
+
+§5 turns the resulting quadratic energy into a weighted graph of additive shifts. The step is an exact substitution: if c divides am+1 and bm+1, then n′ = b(am+1)/c and n′ + (a−b)/c = a(bm+1)/c.
+
+§§6–9 compare that graph, in expected cut norm, with a kernel that factors through features of its two endpoints. The tools are a second-moment bound, smoothing channels, a Montgomery–Vaughan minor-arc estimate and a sampling lemma.
+
+§10 shows that the factored energy is a combination of exactly the short averages §2 controls, which forces it to zero, a contradiction.
+
+§11 inverts the Fourier step, identifies the marginals as Dickman's law, and passes from fixed to moving thresholds and to the ordering.
+
+The original scale x always tends to infinity before the auxiliary scale B.
+
+The Lean, and our replay. OpenAI's comparator challenge (ComparatorChallenges/JointDickman.lean) states joint_law, increasing_order and decreasing_order with no hypotheses beyond 0 < a, b < 1 (no analytic input is assumed), over Mathlib's Nat.maxPrimeFac. The solution is OAI.NumberTheory.JointDickman.PaperMain. Its import closure is 1,836 modules and 221,509 lines (we built 1,837: that closure plus the one-line umbrella module OAI.NumberTheory.JointDickman, which imports it):
+
+1,792 of OpenAI's own (1,456 under JointDickman, the rest shared with its other families);
+
+28 from PrimeNumberTheoremAnd at c39a751 and 7 from StrongPNT at 2f5835c, both with OpenAI's compatibility patches applied (the patches add namespaced ports, among them Mertens' theorems and a de la Vallée Poussin prime number theorem);
+
+9 from LeanArchitect.
+
+We compiled all of it from source on our machine with Lean v4.34.1 and Mathlib d13f23b7 (the repository's pins), module by module with no build cache for anything but Mathlib: 1,837 of 1,837 modules, 0 errors, about 4 CPU-hours, peak 7.4 GiB per process. The first run stopped at module 1,576 of 1,834. The script we wrote to compute the import closure had stopped reading the imports of a patched file at its leading comment, and so missed three modules (PrimeNumberTheoremAnd's Sobolev, SmoothExistence and an asymptotics file). We fixed the parser and resumed; the second run completed.
+
+The checks on the result:
+
+#print axioms under --trust=0 gives exactly propext, Classical.choice and Quot.sound for all three theorems.
+
+The fully elaborated (pp.all) printouts of the three theorems and of the seven definitions they use match the comparator's character for character (after collapsing whitespace and dropping noncomputable and @[reducible] markers): 10 of 10. A mutation test of the matching script (flip ρ's sign, start the count at 1, change ≤ to <, add an axiom, remove the challenge's sorry, drop a block, drop a file) caught all seven mutants.
+
+A planted sorry surfaces as sorryAx.
+
+A second replay by leanchecker --fresh over the whole closure and our bridge (it re-checks every declaration from the stored terms through the same kernel, independently of the build's elaboration) exited 0 after 3,629 seconds (peak 8.9 GiB); its missing-module control fails as it should. We were not first. The plasma-ai/erdos wiki reported building increasing_order with the standard axioms on 7 October; ours is a replication.
+
+The Lean is not a transcript of the paper, and it does not assume what the paper cites. The paper's §2 rests on two published theorems: Matomäki–Radziwiłł (MR) Theorem 1 for real multiplicative functions and Matomäki–Radziwiłł–Tao (MRT) Theorem A.1 for the twists. OpenAI's library states both as propositions (RealShortIntervalInput, ComplexShortIntervalInput). A conditional route through ConditionalMain.lean takes them as hypotheses. The theorem in PaperMain.lean does not use that route. Its proof term never mentions those propositions, nor the Montgomery–Vaughan one; a kernel-level walk of the three proof terms (types and values, opaque constants included) reaches about 10,500 non-Mathlib constants in 1,626 of the 1,836 modules, 141 of them OpenAI's Matomäki–Radziwiłł and Halász files (140 of those from TwoPointCorrelations, the Lean of OpenAI's sibling family 007, "Ordinary two-point correlations of multiplicative functions", which the paper does not cite), and none of RealShortIntervalInput, ComplexShortIntervalInput, MultiplicativeExponentialInput or CharacterDistanceInput. The "published input" propositions it does reach (an upper sieve, Selberg–Delange, a Siegel–Walfisz-type bound, two Mertens theorems, McDiarmid's inequality, a Chebyshev bound, a prime-reciprocal sum, the finite-bin distribution) are each supplied by a proof.
+
+Seat L read the route the Lean does take. It formalizes the Matomäki–Radziwiłł method itself, specialised to the bin labels: prime bands, typical integers, the Ramaré decomposition and large values, with Halász's theorem alongside. The specialisation removes the hard case. A bin label equals 1 at every prime below x1/J, and every band lives far below that, so the band polynomials are the same for every label. A label can therefore only "pretend" to be nit where the constant function 1 does, which is near t = 0. Two kinds of frequency remain:
+
+t near 0, handled by the long-interval distribution of Lemma 2.1;
+
+large t, excluded once ζ(1+it) (or L(1+it, χ) for the twists) is o(log t), a bound weaker than Littlewood's O(log t/log log t) that the library proves from Weyl differencing.
+
+So the Lean needs neither MR's real-valued hypothesis (the principal case works with the complex centred label directly), nor MRT's exceptional twist and its corrected Proposition A.3, nor the Vinogradov–Korobov bound of the paper's (2.17). Other inputs are proved rather than cited, in the library or in OpenAI's patched copies of PrimeNumberTheoremAnd and StrongPNT. The profinite limit profile of §2.6 becomes a compatible family of finite residue profiles, extracted by compactness. The upper sieve is a Brun-type sieve with an explicit constant. Selberg–Delange is proved for the two exponents used, the Siegel–Walfisz-type character bound (ineffective, through a formalized Siegel bound), Mertens' theorems with the exact constant, and McDiarmid's inequality. The minor arcs of §8 are done without Montgomery–Vaughan. None of this is an error in the paper, which cites more than it needs. One of the library's docstrings (in PublishedInputs.lean), though, still describes discharged inputs as "propositions to be supplied as hypotheses", and the scope note does not say which cited theorems the proof avoids. In the Lean the order of limits is explicit: the vanishing lemma is proved for every value of the parameter the positive side chooses after the bad subsequence, and the kernel checks that this matches.
+
+The reading. Four seats, all Claude Opus 5.5, were each briefed to refute, to quote the sentence they objected to by the paper's printed numbering, and to grade every objection. Seat A took §1.2 and §§2–4, seat R §§5–11, seat L the Lean against the paper, and seat W the sources and the world. All four returned HOLDS AS READ. There were no FATAL or GAP findings; what they did find is listed below.
+
+A fetched Matomäki–Radziwiłł (arXiv v4) and Matomäki–Radziwiłł–Tao (v3). MR's Theorem 1 is uniform over all multiplicative f with values in [−1,1], and its X-dependent exceptional-set term is absorbed because X ≥ H, exactly as §2 says. MRT's corrected Theorem A.1 gives e−MM; the v3 remark allows e−M; the paper uses the weaker (1+M)e−M. The centred bin character is written through a fixed finite family of completely multiplicative functions with values in [0,1]. The coefficients depend only on J and the phases, and A re-solved the interpolation numerically for J = 3 (residual 3·10−12). The limit profile on (0,∞) × Ẑ is extracted once, before any B is chosen, so it serves every B.
+
+A checked the explicit constants of §4. These are α₀ = 1.6·log 2 ≈ 1.109 > 1, the energy lower bound c₅ = (d₀β*)²/C₄ (independent of C*, the grid and C₆), and 2h₀ ≈ 0.307 < 0.32, which makes the diagonal vanish.
+
+A passed one dependency to R. Lemma 2.3 gives no rate in B, so every coefficient in §10's final factorisation must be bounded uniformly in B. §10 only asserts this. R traced each bound to where it is proved (kB ≤ ½ in §§5.3/8.2, the B-free weights of §3, the B-free w of (8.18), Lemma 10.1, Lemma 10.2) and found the bound holds.
+
+R re-derived the substitution of §5, b·la + j = a·lb, symbolically and on 11,804 random instances. The coupling of auxiliary-prime divisibility to independent model sets cannot see two block positions sharing a prime, because every prime involved exceeds B1000 while the block has about B0.32 positions. All coupling failures together cost O(B50/P₀) + O(B50e−B).
+
+R checked §§9–10. The sampling lemma's sample size depends only on B, never on x. §10's averages have exactly the shape of Lemma 2.3's.
+
+Small slips (R). §5.1 writes "0 < |j| ≤ T" where §1.2 has the strict 0 < |j| < T (harmless: the non-strict bound is also true). §5.4 disposes of the site-square event in one sentence ("Equation (5.7) is handled in the resulting weights, as just explained"); R wrote out the missing line, which costs O(B−989). R could not fetch Montgomery–Vaughan 1977 to confirm the label "Corollary 1", but the function it is applied to is 1-bounded and multiplicative, so the standard form of their theorem applies either way.
+
+Omissions in the history (W). §1.1 cites Yang's 0.280 but not his 0.296 (13 August) or 0.299 (3 September), both before the paper's date. It says Tao and Teräväinen "obtained" the almost-all-scales law, where their Remark 3.3 is a sketch that leaves the details to the reader.
+
+Seat L read the Lean against the paper. The three comparator statements and the definitions they use are textually identical in the challenge and the solution. Thresholds are based at n as printed, counting is over 2 ≤ n ≤ ⌊X⌋ through real X, and ρ is Dickman's (L re-evaluated it; so did we, see below). Each of the eight inputs L traced into the unconditional proof is proved with a non-vacuous statement; the two the dependency walk adds (the Chebyshev bound and the prime-reciprocal sum) are proved too (checked by seat B). A scan of every Lean file in the closure for forbidden constructs (seat L's, plus the three modules its file list missed, which seat B scanned) found nothing in the proof: no sorry outside the challenge file, no native_decide, no axiom in code, no metaprogramming in any OpenAI file. L's verdict was conditional on our replay; the replay paragraph above is that condition.
+
+Formal Conjectures' erdos_371 and an unconditional #928 in Lean (ours; #928's Lean statement and the implication were jbaelaw's first). Formal Conjectures' Erdos371.erdos_371 states { n | Nat.maxPrimeFac (n + 1) > Nat.maxPrimeFac n }.HasDensity (1/2). Since PR #6898 (merged 11 October) it has been tagged "research solved", with a link to OpenAI's PaperMain.lean, but its proof is still sorry. The merge commit's "Reviewer notes" say that "a few links differ from the repository statement by a routine transport that is not in the linked proof", and list "Erdős 371 (density over Icc 2 ⌊X⌋ vs Iio b)". That transport is what this file supplies. FC's density is |S ∩ [0,b)| / b as b → ∞ through ℕ. OpenAI's is #{2 ≤ n ≤ ⌊X⌋} / X as X → ∞ through ℝ. Our Bridge371.lean copies FC's Set.partialDensity, Set.HasDensity and the statement verbatim (checked by script against FC at commit 3b7c94ec; three one-token mutations of our copy are each caught). It proves the statement in OpenAI's environment from increasingOrderLaw_unconditional, through a lemma that the two densities differ by at most 2/b.
+
+The same file proves #928 as Erdős posed it, with strict inequalities and threshold (n+1)β:
+
+{n : ℕ | (n.maxPrimeFac : ℝ) < (n : ℝ) ^ α ∧ ((n + 1).maxPrimeFac : ℝ) < ((n + 1 : ℕ) : ℝ) ^ β}.HasDensity (ρ (1/α) * ρ (1/β))
+
+The statement holds for all α, β ∈ (0,1), and the proof is a sandwich. The event contains OpenAI's event at (α−δ, β−δ) for every n ≥ 2. It is contained in OpenAI's event at (α, β+δ) for all n ≥ n₀ = ⌈2β/δ⌉, because (n+1)β ≤ nβ+δ once nδ ≥ 2β. Continuity of OpenAI's dickmanCDF closes the gap.
+
+Here ρ is OpenAI's own definition, a Picard iteration of the delay equation. Its printout matches the comparator's. Evaluated numerically, it agrees to 10−9 with an independent solution of uρ′(u) = −ρ(u−1) and with published values (ρ(3) = 0.0486083883, ρ(4) = 0.0049109256).
+
+Erdos371.erdos_371, EPAD371.erdos_928 and its existence form depend only on propext, Classical.choice and Quot.sound. Three mutants fail to compile, each at the step that uses what it changed: density ½ replaced by ⅓; (n+1)β replaced by (n+1)β/2; FC's Iio in the partial density replaced by Iic. The conditional versions, from OpenAI's propositions JointDickmanLaw and IncreasingOrderLaw, were compiled first against a five-module slice of the library.
+
+Credit for #928. We were not first to formalize #928 or the implication. Seat W found jbaelaw/Erdos928 (9–10 October): a Mathlib-only Lean development of Problem 928 in exactly these conventions. It proves problem928_of_jointDickmanLaw, an implication from a joint law stated with an abstract ρ, via the count bound |A(X) − B(X)| ≤ ⌊Xα⌋ + ⌊(X+1)β⌋. Its README says it does not import or re-prove OpenAI's theorem. The plasma-ai/erdos wiki also attributes #928 to this paper. What our file adds is the discharge. The hypothesis is supplied by OpenAI's kernel-checked theorem, in OpenAI's environment, so #928 is proved in Lean with no assumption beyond the three standard axioms. The statement is in Formal Conjectures' density language, and the route is different (a sandwich, not a count bound). OpenAI does not claim #928, Bloom's 8 October post does not list it, and when we read it the #928 page listed no claim. Seat R noted independently that #928 follows from Theorem 1.1 in a line. The r-fold form of #928 ([Er76e]: all of n, …, n+r−1 smooth, density ρ(1/α)r) is untouched.
+
+Erdős's α-question (rigorous modulo Theorem 1.1, label (b)). Erdős asked in [Er79e] whether {n : P(n+1) > P(n)·nα} has a density for every α. The paper does not state this, but its own proof of Corollary 1.2 answers it. That proof shows the empirical law of (log P(n)/log n, log P(n+1)/log n) converges weakly to the product of two Dickman laws, each with distribution function D(t) = ρ(1/t) on (0,1). The boundary of {v > u + α} is a line. Under a product of two atomless laws a line has mass zero (Fubini). So the density exists and equals ∫∫y > x+α f(x)f(y) dx dy, with f(t) = ρ(1/t − 1)/t. This is Teräväinen's 2018 logarithmic-density formula, now in natural density. Seats R and W found the same consequence unprompted. Predicted values, against counts:
+
+αshare of n ≤ 106 with P(n+1) > P(n)·nαsame, n ≤ 109mirror P(n) > P(n+1)·nα, n ≤ 109limit predicted by the product law0.050.43780.43240.43240.42880.100.37540.36770.36770.36100.200.26210.25130.25130.24130.300.16950.15790.15790.14680.500.04900.04000.04000.0314
+The counts fall toward the prediction as X grows, slowly. Each comparison was decided with a margin of 10−9 in 20·(log(P(n+1)/P(n)) − α·log n), that is 5·10−11 in the quantity itself. No n fell inside the margin up to 109.
+
+Counts to 1010 (computer-assisted, label (d); these test nothing about the theorem, they show how the limit is approached). A segmented largest-prime-factor sieve counted every n ≤ 1010. For 2 ≤ n ≤ 1010, P(n) < P(n+1) for 4,999,983,166 values and P(n) > P(n+1) for 5,000,016,833; consecutive integers never share a largest prime factor, so these sum to 1010 − 1. A second program, written differently (it overwrites a table by ascending primes and never divides), agrees exactly at every checkpoint to 108. It also agrees on sixteen joint counts at 107. Our own July census of #371 (a third program, [/report/371] /report/371, which counts n = 1 as well) agrees at every power of ten to 108, and the list of n ≤ 1,981 matches the OEIS b-file of A070089 term for term. At every tested (a, b) the joint share at 1010 is below its limit, and at small exponents it is not yet moving toward it: at (0.3, 0.7) it reads 0.0134, 0.0121, 0.0121 at 106, 108, 1010 against a limit of 0.0152, close to what the second-order term below predicts (0.0118). A better test of independence is to divide the joint count by the product of the two counted marginals at the same X; independence means this ratio tends to 1:
+
+abX = 10410610810100.30.30.29310.38220.58140.73520.50.50.69990.87750.93710.96270.30.70.82040.88120.92580.95430.70.30.82860.87500.92550.95430.50.70.87600.94510.97180.98300.70.70.93790.97560.98730.99230.90.90.97830.99020.99450.9963
+Each entry is (1/X)·#{n ≤ X : P(n) ≤ na, P(n+1) ≤ nb} divided by the product of (1/X)·#{n ≤ X : P(n) ≤ na} and (1/X)·#{n ≤ X : P(n+1) ≤ nb}, using a histogram of the two exponents in steps of 0.01. Every row rises toward 1. Small exponents converge slowest: two consecutive integers that are both very smooth are rarer at these heights than independence predicts.
+
+A heuristic check (label (c)). For thresholds na that move with n, de Bruijn's two-term formula for Ψ(x, y) suggests that the marginal density near n is about ρ(1/a) − γρ(1/a − 1)/log n, below the limit. Averaged over n ≤ 1010 (1/log n averages to about li(X)/X) that gives 0.2806 for a = ½ and 0.6171 for a = 0.7; we count 0.2811 and 0.6172. The pointwise values at n = 1010 would be 0.2818 and 0.6183.
+
+Sources and the world. Seat W read every source the paper cites that it could open, and searched for earlier or parallel claims.
+
+The result was open before the release, as far as the record shows. Tao and Teräväinen wrote in 2019 (arXiv 1809.02518) that "it would of course be desirable if we could upgrade 'almost all scales' to 'all scales' … We do not know how to do so in general". Their later paper (arXiv 2512.01739; v1 1 December 2025, v2 2026; Theorem 1.8) still excludes a set of scales of logarithmic density zero. Yang's preprint of 16 October (arXiv 2610.23280) still calls the Erdős–Turán comparison a conjecture and does not mention OpenAI.
+
+The citations hold. W checked Teräväinen 2018 (Theorems 1.14, 1.16 and 1.19), Tao–Teräväinen 2019 (Corollary 1.16, Remark 3.3), Matomäki–Radziwiłł Theorem 1, MRT Theorem A.1 and Erdős–Pomerance p. 311 against their sources; every arXiv version cited is current. W could not open de la Bretèche–Pomerance–Tenenbaum, Lü–Wang or Wang 2021 in full; those three are checked only secondhand.
+
+The paper and its Lean have not changed since release. The Lean directory and the PDF have the same git hashes at the 6 October initial commit (adc7f12), at fd4aeeb and at the current head 1581d4c.
+
+Bloom's post of 8 October lists #371 as a claim: "The above theorem is a corollary of a more general joint distribution law (hinted at in the remarks of [371])". He adds a general caution that he had "not yet looked at in any serious way any of the proofs".
+
+Others built the Lean before us. The plasma-ai/erdos wiki reported a v4.34.1 build of increasing_order with the standard axioms on 7 October. We did not rebuild theirs, and ours is a replication.
+
+No independent re-formalization. GitHub search found none of the analytic theorem. Epoch's four LeanOpenProblems runs on Erdos371 ($300–$1,000 budgets) are all scored "I" in its results.
+
+Two notes on the problem page itself. It says Erdős and Pomerance proved that this set and its complement both have positive upper density. Their paper proves positive lower density, which is stronger: "the lower density of integers n for which P(n) > P(n+1) is positive" (p. 312), and §6 (p. 319) gives at least 0.0099 and adds "the same is true for integers n for which P(n) < P(n+1)". Its "formalised proof … here" link, added on 16 October, points to the comparator file, whose theorems end in sorry; the proof is in PaperMain.lean.
+
+What this entry is. The theorem is OpenAI's, and its proof is OpenAI's model's. What is ours: the replay and its controls; the readings; the Lean bridge to Formal Conjectures' erdos_371; an unconditional Lean proof of #928 as posed, stated in Formal Conjectures' density language (jbaelaw/Erdos928 stated #928 in Lean, and proved it from a hypothesised joint law, first); the remark on the α-question, which is our reading of the paper's own step; and the counts. Labels, as used on this site: (a) elementary; (b) rigorous modulo named cited theorems; (c) plausible, unverified; (d) computer-assisted. Theorem 1.1 and Corollary 1.2 are (d): Lean-verified, kernel-replayed here, statement matched to the paper. The bridge and #928 are (d): Lean, standard axioms. The α-question is (b), modulo Theorem 1.1. The second-order comparison is (c), a heuristic. No human has refereed the paper. If you are a number theorist looking for the hole, start with the Lean route paragraph above: the formal proof and the paper part ways at §2. Then read §2.6's profile extraction and its preservation under the divisor weight (Lemma 4.4), §5's coupling of auxiliary-prime sets, and the claim in §10 that every coefficient is bounded uniformly in B.
+
+  Sources & verification
+[https://www.erdosproblems.com/371] erdosproblems.com/371 (read 22 Oct 2026: no proof claims, comments suspended) ↗
+[https://www.erdosproblems.com/928] erdosproblems.com/928 (the joint density question; read 22 Oct 2026: no proof claims, no formal statement listed) ↗
+[https://github.com/openai/math/tree/main/preprints/The-joint-Dickman-law-for-consecutive-integers-September-24-2026] OpenAI, "The joint Dickman law for consecutive integers" (family 012, dated 24 Sep 2026, released 6 Oct, 84 pp) ↗
+[https://github.com/openai/math/tree/main/lean/OAI/NumberTheory/JointDickman] OpenAI's Lean — OAI/NumberTheory/JointDickman (entry PaperMain.lean) and the comparator challenge ComparatorChallenges/JointDickman.lean ↗
+[https://github.com/google-deepmind/formal-conjectures/blob/3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8/FormalConjectures/ErdosProblems/371.lean] Formal Conjectures, Erdős 371 at commit 3b7c94ec — the statement our bridge copies (tagged research solved, proof sorry) ↗
+[https://github.com/google-deepmind/formal-conjectures/commit/3dfd999dfe] Formal Conjectures commit 3dfd999 (PR #6898, 11 Oct 2026): marks #371 solved; its reviewer notes list "Erdős 371 (density over Icc 2 ⌊X⌋ vs Iio b)" as a transport not in the linked proof ↗
+[https://github.com/jbaelaw/Erdos928] jbaelaw/Erdos928 (9–10 Oct 2026): Problem 928 in Lean and the implication from a joint Dickman law taken as a hypothesis — earlier than ours ↗
+[https://arxiv.org/abs/1710.01195] Teräväinen, "On binary correlations of multiplicative functions" (arXiv 1710.01195) — the joint law in logarithmic density, Theorems 1.14, 1.16 ↗
+[https://arxiv.org/abs/1809.02518] Tao and Teräväinen, "The structure of correlations of multiplicative functions at almost all scales" (arXiv 1809.02518) — almost all scales; "We do not know how to do so in general" ↗
+[https://arxiv.org/abs/2512.01739] Tao and Teräväinen, "Quantitative correlations and some problems on prime factors of consecutive integers" (arXiv 2512.01739v2) — Theorem 1.8, still outside an exceptional set of scales ↗
+[https://arxiv.org/abs/1501.04585] Matomäki and Radziwiłł, "Multiplicative functions in short intervals" (Annals 2016; arXiv 1501.04585) — Theorem 1, cited by the paper ↗
+[https://arxiv.org/abs/1503.05121] Matomäki, Radziwiłł and Tao, "An averaged form of Chowla's conjecture" (arXiv 1503.05121v3, corrected) — Theorem A.1, cited by the paper ↗
+[https://arxiv.org/abs/2608.13299] Yang, "Convolution-type Bombieri–Vinogradov theorem with well-factorable weights, and its applications" (arXiv 2608.13299v2, 3 Sep 2026) — #{n ≤ x : P(n) < P(n+1)} > 0.299x ↗
+[https://oeis.org/A070089] OEIS A070089 (n with P(n) < P(n+1)) — our list matches its b-file ↗
+[https://github.com/pw/ErdosProblemADay.com/tree/main/verification/371/openai-joint-dickman-refereed] Our bundle (repository private at the time of writing; files available on request) — the replay (driver, per-module logs, probes, statement match, dependency walk), the bridge and its controls, the counting programs and their outputs, referee reports, model receipts, SHA256SUMS ↗
+
+[/progress] ← our attempt log &middot; [/problem/371] problem #371 on the board
+
+  The problems are Paul Erdős's, collected by Thomas Bloom at [https://www.erdosproblems.com] erdosproblems.com — the authoritative wording lives there.
+  Statuses come from the community database [https://github.com/teorth/erdosproblems] teorth/erdosproblems and statements from
+  Google DeepMind's [https://github.com/google-deepmind/formal-conjectures] Formal Conjectures, both Apache-2.0.
+
+  Built and kept by Patrick White with Claude (Anthropic). Our own attempts are labelled as ours, everywhere. [/about] About · [/submit] Send an attempt
+
+

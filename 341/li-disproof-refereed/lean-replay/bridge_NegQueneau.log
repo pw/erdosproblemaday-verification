@@ -1,0 +1,16 @@
+/tmp/erdos2100/seats/A/bridge/NegQueneau.lean:34:8: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/tmp/erdos2100/seats/A/bridge/NegQueneau.lean:41:38: error: Application type mismatch: The argument
+  hyp
+has type
+  ∀ᶠ (n : ℕ) in atTop, IsLeast {x | ↑(e n) < x ∧ x ∉ {x | ∃ i ≤ n, ∃ j ≤ n, ↑(e i) + ↑(e j) = x}} ↑(e (n + 1))
+but is expected to have type
+  ∀ᶠ (n : ℕ) in atTop, IsLeast {x | ↑(e n) < x ∧ x ∉ {x | ∃ i < j, ∃ j ≤ n, ↑(e i) + ↑(e j) = x}} ↑(e (n + 1))
+in the application
+  H (fun n => ↑(e n)) hyp
+'fc_erdos_341_refA' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+# both seed=1 base7=1 base5=3 start tf=9 k5=0
+END best_sum=9 best_feas_tf=9 iter=6144 bumps=938 kicks=1 t=5.1
+BESTRAW 2575c 3c53c 30fe3 1df83 3ee43 3e1c6 17b35 37e2c 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b3a 0c8fe 0b6b7
+BESTFEAS 2575c 3c53c 30fe3 1df83 3ee43 3e1c6 17b35 37e2c 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b3a 0c8fe 0b6b7

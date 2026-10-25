@@ -1,0 +1,96 @@
+@@@ BEGIN thm OAI.EuclideanRamsey.TransitiveConsequence.subset_of_finite_transitive_ramsey
+@OAI.EuclideanRamsey.TransitiveConsequence.subset_of_finite_transitive_ramsey : ∀ {s t D : Nat}
+  (a : Fin s → OAI.EuclideanRamsey.Space D) (y : Fin t → OAI.EuclideanRamsey.Space D)
+  (hs : @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) s)
+  (ha : @Function.Injective.{1, 1} (Fin s) (OAI.EuclideanRamsey.Space D) a)
+  (_hy : @Function.Injective.{1, 1} (Fin t) (OAI.EuclideanRamsey.Space D) y)
+  (htrans :
+    ∀ (i j : Fin t),
+      @Exists.{1} (Equiv.Perm.{1} (Fin t)) fun (σ : Equiv.Perm.{1} (Fin t)) =>
+        And
+          (∀ (k l : Fin t),
+            @Eq.{1} Real
+              (@Dist.dist.{0} (OAI.EuclideanRamsey.Space D)
+                (@PiLp.instDist.{0, 0}
+                  (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+                    (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                      (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                        (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                      PiLp.innerProductSpace._proof_1))
+                  (Fin D) (fun (x : Fin D) => Real) (Fin.fintype D) fun (i : Fin D) =>
+                  @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+                (y
+                  (@DFunLike.coe.{1, 1, 1} (Equiv.Perm.{1} (Fin t)) (Fin t) (fun (x : Fin t) => Fin t)
+                    (@EquivLike.toFunLike.{1, 1, 1} (Equiv.Perm.{1} (Fin t)) (Fin t) (Fin t)
+                      (@Equiv.instEquivLike.{1, 1} (Fin t) (Fin t)))
+                    σ k))
+                (y
+                  (@DFunLike.coe.{1, 1, 1} (Equiv.Perm.{1} (Fin t)) (Fin t) (fun (x : Fin t) => Fin t)
+                    (@EquivLike.toFunLike.{1, 1, 1} (Equiv.Perm.{1} (Fin t)) (Fin t) (Fin t)
+                      (@Equiv.instEquivLike.{1, 1} (Fin t) (Fin t)))
+                    σ l)))
+              (@Dist.dist.{0} (OAI.EuclideanRamsey.Space D)
+                (@PiLp.instDist.{0, 0}
+                  (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+                    (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                      (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                        (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                      PiLp.innerProductSpace._proof_1))
+                  (Fin D) (fun (x : Fin D) => Real) (Fin.fintype D) fun (i : Fin D) =>
+                  @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+                (y k) (y l)))
+          (@Eq.{1} (Fin t)
+            (@DFunLike.coe.{1, 1, 1} (Equiv.Perm.{1} (Fin t)) (Fin t) (fun (x : Fin t) => Fin t)
+              (@EquivLike.toFunLike.{1, 1, 1} (Equiv.Perm.{1} (Fin t)) (Fin t) (Fin t)
+                (@Equiv.instEquivLike.{1, 1} (Fin t) (Fin t)))
+              σ i)
+            j))
+  (hsub :
+    @LE.le.{0} (Set.{0} (OAI.EuclideanRamsey.Space D)) (@Set.instLE.{0} (OAI.EuclideanRamsey.Space D))
+      (@Set.range.{0, 1} (OAI.EuclideanRamsey.Space D) (Fin s) a)
+      (@Set.range.{0, 1} (OAI.EuclideanRamsey.Space D) (Fin t) y)),
+  @OAI.EuclideanRamsey.Ramsey s D a
+'OAI.EuclideanRamsey.TransitiveConsequence.subset_of_finite_transitive_ramsey' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+@@@ BEGIN def OAI.EuclideanRamsey.Space
+@[reducible] def OAI.EuclideanRamsey.Space : (d : Nat) → Type :=
+fun (d : Nat) => EuclideanSpace.{0, 0} Real (Fin d)
+@@@ BEGIN def OAI.EuclideanRamsey.Congruent
+def OAI.EuclideanRamsey.Congruent : {s d D : Nat} →
+  (a : Fin s → OAI.EuclideanRamsey.Space d) → (b : Fin s → OAI.EuclideanRamsey.Space D) → Prop :=
+fun {s d D : Nat} (a : Fin s → OAI.EuclideanRamsey.Space d) (b : Fin s → OAI.EuclideanRamsey.Space D) =>
+  ∀ (i j : Fin s),
+    @Eq.{1} Real
+      (@Dist.dist.{0} (OAI.EuclideanRamsey.Space D)
+        (@PiLp.instDist.{0, 0}
+          (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+              (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+              PiLp.innerProductSpace._proof_1))
+          (Fin D) (fun (x : Fin D) => Real) (Fin.fintype D) fun (i : Fin D) =>
+          @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+        (b i) (b j))
+      (@Dist.dist.{0} (OAI.EuclideanRamsey.Space d)
+        (@PiLp.instDist.{0, 0}
+          (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+              (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+              PiLp.innerProductSpace._proof_1))
+          (Fin d) (fun (x : Fin d) => Real) (Fin.fintype d) fun (i : Fin d) =>
+          @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+        (a i) (a j))
+@@@ BEGIN def OAI.EuclideanRamsey.Ramsey
+def OAI.EuclideanRamsey.Ramsey : {s d : Nat} → (a : Fin s → OAI.EuclideanRamsey.Space d) → Prop :=
+fun {s d : Nat} (a : Fin s → OAI.EuclideanRamsey.Space d) =>
+  ∀ (r : Nat),
+    @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) r →
+      @Exists.{1} Nat fun (D : Nat) =>
+        And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) D)
+          (∀ (c : OAI.EuclideanRamsey.Space D → Fin r),
+            @Exists.{1} (Fin s → OAI.EuclideanRamsey.Space D) fun (b : Fin s → OAI.EuclideanRamsey.Space D) =>
+              And (@OAI.EuclideanRamsey.Congruent s d D a b)
+                (@Exists.{1} (Fin r) fun (k : Fin r) => ∀ (i : Fin s), @Eq.{1} (Fin r) (c (b i)) k))
+@@@ END

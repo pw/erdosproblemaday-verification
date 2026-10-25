@@ -1,0 +1,8 @@
+compiler_flags=-std=c++20 -O1 -g -fno-omit-frame-pointer -fsanitize=address,undefined -fopenmp
+runtime=OMP_NUM_THREADS=1 ASAN_OPTIONS=detect_leaks=1:halt_on_error=1 UBSAN_OPTIONS=halt_on_error=1
+FOUND 1506 edges; wrote ../work/sanitizer/q9_1506.json
+Q9_WITNESS=PASS edges=1506 vertices=512 faces=4608 c4=0 cherries=7426 repeated_pairs=0
+degree_histogram={4: 5, 5: 91, 6: 375, 7: 41}
+direction_counts=(167, 171, 168, 166, 171, 166, 167, 167, 163)
+sha256=966a931b732980cd7114cfcce17bb1d552c308a40ccb29347453056740eeeb1c
+EDGE_SET_IDENTITY=PASS edges=1506

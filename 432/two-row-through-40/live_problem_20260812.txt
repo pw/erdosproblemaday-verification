@@ -1,0 +1,48 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/432
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝐴,𝐵 ⊆ℕ be two infinite sets. How dense can 𝐴 +𝐵 be if all elements of 𝐴 +𝐵 are pairwise relatively prime?
+#432: [ErGr80,p.85]
+number theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+Asked by Straus, inspired by a problem of Ostmann (see [431]).
+
+View the LaTeX source
+
+View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+
+1 comment on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	Alfaiz
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	TerenceTao
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #432, https://www.erdosproblems.com/432, accessed 2026-08-12
+Previous
+Next
+
+Page title: 432 | Erdős Problems
+URL: https://www.erdosproblems.com/432

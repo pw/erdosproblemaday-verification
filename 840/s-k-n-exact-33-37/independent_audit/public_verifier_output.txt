@@ -1,0 +1,7 @@
+closed manifest: PASS (51 files)
+live no-collision transcript: PASS
+definition-level lower witness for every extension cell: PASS
+independent direct-definition small search: PASS (8,191 candidates)
+terminal n=37 k=9 diameter split and hashes: PASS (3 dual-solver/proof cases)
+terminal n=37 generic CaDiCaL/Kissat/DRAT records and hashes: PASS (4 cases)
+ALL EXTENSION CHECKS PASSED

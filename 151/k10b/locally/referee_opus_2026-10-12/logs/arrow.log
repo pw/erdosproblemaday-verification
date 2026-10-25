@@ -1,0 +1,7 @@
+control K5: good colouring found  (5 DFS nodes)
+control K6: NO good colouring (arrows)  (9 DFS nodes)
+control K3+C5 (Graham): NO good colouring (arrows)  (16 DFS nodes)
+T|fLKfHWAXkoOLKsEAorDEEWKCwKQWEKk@zB: n=21 triangles=84: good colouring found (40 DFS nodes); literal recount of monochromatic triangles = 0; red edges 48, blue 36
+   red edge list: [(0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (1, 9), (1, 10), (1, 11), (1, 12), (2, 9), (2, 11), (2, 13), (2, 14), (3, 13), (3, 14), (3, 15), (3, 16), (4, 10), (4, 15), (4, 16), (4, 17), (5, 10), (5, 11), (5, 17), (5, 18), (6, 11), (6, 13), (6, 18), (6, 19), (7, 13), (7, 15), (7, 19), (7, 20), (8, 10), (8, 12), (8, 15), (8, 20), (9, 16), (9, 20), (12, 14), (12, 19), (14, 17), (16, 18), (17, 19), (18, 20)]
+P|fLKfH[QJkSVDMJDrGm]A|g: n=17 triangles=68: good colouring found (29 DFS nodes); literal recount of monochromatic triangles = 0; red edges 39, blue 29
+   red edge list: [(0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (1, 9), (1, 10), (1, 11), (1, 12), (2, 9), (2, 11), (2, 13), (2, 14), (3, 9), (3, 12), (3, 13), (3, 15), (4, 12), (4, 13), (4, 14), (4, 16), (5, 10), (5, 12), (5, 15), (6, 11), (6, 14), (7, 10), (7, 15), (7, 16), (8, 10), (8, 11), (9, 16), (10, 13), (10, 14), (11, 15), (11, 16)]

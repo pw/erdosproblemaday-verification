@@ -1,0 +1,54 @@
+Erdos #295 k(17) finite-frontier verification
+Date: 2026-08-11 UTC
+Host: Linux 6.12.93 x86_64 GNU/Linux; 16 logical CPUs
+Compiler: g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+GMP package: 2:6.3.0+dfsg-2ubuntu6.1
+
+SOURCE_SHA256 16aba5c18a959760e60981c63da17faea0e880d0c7db7b8e4c2015bca4f6f8b6  verify_295_k17_independent.cpp
+
+BUILD
+g++ -O3 -std=c++17 -pthread erdos_scratch/verify_295_k17_independent.cpp -lgmpxx -lgmp -o /tmp/verify_295_k17_independent
+
+COMMAND
+/usr/bin/time -f 'wall=%e user=%U sys=%S maxrss_kb=%M' /tmp/verify_295_k17_independent 17 31 14 21
+
+OUTPUT
+frontier_depth=21 tasks=18727 prefix_states=20180
+DIVISOR_STATE a=2511623003 b=219060189739591200 lower=63 width=87218579 factors=2^5*3^3*5^2*7^1*11^1*13^1*17^1*19^1*23^1*29^1*31^1*37^1*41^1
+DIVISOR_STATE a=133025383151 b=9419588158802421600 lower=77 width=70810457 factors=2^5*3^3*5^2*7^1*11^1*13^1*17^1*19^1*23^1*29^1*31^1*37^1*41^1*43^1
+min=17 terms=31 found=false
+states=447526713 two_states=382969084 scan_candidates=5721929705
+factored_states=202 divisor_states=2 divisor_candidates=45467731
+seconds=127.320
+wall=127.32 user=987.14 sys=1.22 maxrss_kb=7416
+
+CONTROL: TERMS=29
+frontier_depth=10 tasks=1 prefix_states=10
+min=17 terms=29 found=false
+states=1667 two_states=910 scan_candidates=3843
+factored_states=0 divisor_states=0 divisor_candidates=0
+seconds=0.003
+
+CONTROL: TERMS=30
+frontier_depth=18 tasks=217 prefix_states=470
+min=17 terms=30 found=false
+states=1461942 two_states=1119929 scan_candidates=9197969
+factored_states=0 divisor_states=0 divisor_candidates=0
+seconds=0.997
+
+WIDE-STATE COMMAND
+python3 erdos_scratch/verify_295_k17_wide_states.py
+
+WIDE-STATE OUTPUT
+a=2511623003 b=219060189739591200 lower=63
+factor_product_ok=True tau_b2=22733865 divisors_strictly_below_b=11366932
+q_interval=[1,219060189739591199] residue=2077404540 mod 2511623003 matches=[]
+a=133025383151 b=9419588158802421600 lower=77
+factor_product_ok=True tau_b2=68201595 divisors_strictly_below_b=34100797
+q_interval=[1,9419588158802421599] residue=14719988407 mod 133025383151 matches=[]
+WIDE STATES VERIFIED: no two-term completion
+
+UPPER-CERTIFICATE EXACT INTEGER CHECK
+LCM=200301702400800
+sum(LCM/d for d in D)=200301702400800
+count=32 distinct=True minimum=17

@@ -1,0 +1,28 @@
+== Lemma 8.1 / 8.6 / 8.8 symbolic identities (sympy)
+  ok   |x+e-q|^2 = 1 + r^2 - 2r(e.w) for unit e,w
+  ok   (8.3): q'+(t/2)Jv'+sqrt(1-t^2/4)v' is at unit distance from q' and q'+tJv'
+  ok   F(r,th)=r^2-2r cos th, F(1,pi/3)=0, dF/dth(1,pi/3)=sqrt3
+  ok   Im (xi+i ups)^3 = ups(3xi^2-ups^2)  [so l^3 sin^2 3phi = P]
+  ok   sin 3d = sin d (4cos^2 d - 1)
+  ok   sin(a-b)sin(a+b) = sin^2 a - sin^2 b
+  ok   Jacobian of (a1,a2)->e^{ia1}+e^{ia2} is sin(a2-a1) (= sin 2delta)
+== Lemma 8.8: (8.4) <=> endpoints phi+-delta strictly in opposite-sign sin(3.) sectors (random test, n=200000)
+  ok   unit directions phi-delta, phi+delta sum to z
+  ok   (P<P') == (sin3(phi-d) sin3(phi+d) < 0) on 156931 points with |P'-P|>1e-9: disagreements 0
+  ok     control: the reversed inequality P>P' disagrees with the sector test on 156931 of 156931 points (must be many) -> comparison not vacuous
+   fraction of the disk of radius 2 in the region: 0.500
+== Moser vertices: independent angular check with mpmath (50 digits) of opposite-sector endpoints
+  ok    0: |z|=1.3041534  sin3(phi-d)=0.126851  sin3(phi+d)=-0.837743  opposite signs
+  ok    A: |z|=1.134741  sin3(phi-d)=-0.430816  sin3(phi+d)=0.0328592  opposite signs
+  ok    B: |z|=0.30925243  sin3(phi-d)=-0.872883  sin3(phi+d)=0.912362  opposite signs
+  ok    T: |z|=0.82611024  sin3(phi-d)=-0.0263787  sin3(phi+d)=0.531503  opposite signs
+  ok   uA: |z|=1.6537858  sin3(phi-d)=-0.857792  sin3(phi+d)=0.55564  opposite signs
+  ok   uB: |z|=0.6776769  sin3(phi-d)=0.380022  sin3(phi+d)=-0.626988  opposite signs
+  ok   uT: |z|=1.5790622  sin3(phi-d)=-0.0381169  sin3(phi+d)=0.758523  opposite signs
+== Lemma 8.4 grid check: four rays v_0..v_3 on a 15-degree grid (24^4 configurations, vectorised)
+  ok   configs split at every generic direction: 576 (528 two-line, 48 one-line) of 331776; Lemma 8.4 violations: 0 []
+  ok     control: a weaker (wrong) split test admits strictly more configurations -> the detector discriminates
+== Lemma 8.7 grid check: three rays on a 5-degree grid; R-orbits all of whose consecutive pairs meet B (vectorised)
+  ok   three rays, 5-degree grid: 373248 configs, max qualifying orbits = 1, histogram [313920, 59328]
+  ok     control: four rays (15-degree subgrid, 331776 configs): max qualifying orbits = 2 (>=2 shows the detector can exceed 1)
+RESULT: ALL CHECKS PASS

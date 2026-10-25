@@ -1,0 +1,91 @@
+$ python3 cyclic_keys.py literal 10 11 1 2
+MODE=literal k=10 P=11 q=11 D=2 N=121 lambda=24 H=1/100 2kH=0.200
+adaptive mesh: m=651 intervals per family, max width=4.976e-03 <= 2H=2.000e-02, min nonzero point-endpoint gap=1.6513e-5
+distinct keys=121, max elements of G per key=1
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 14520 ordered pairs: failures=0
+progressions checked=14520; max key multiplicity=1 (witness n0,d=(0, 1)); distribution of per-progression max: {1: 14520}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): HOLD
+[0.30s, 36100KB]
+exit=0
+$ python3 cyclic_keys.py literal 10 13 1 2
+MODE=literal k=10 P=13 q=13 D=2 N=169 lambda=24 H=1/100 2kH=0.200
+adaptive mesh: m=701 intervals per family, max width=4.974e-03 <= 2H=2.000e-02, min nonzero point-endpoint gap=6.6408e-6
+distinct keys=169, max elements of G per key=1
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 28392 ordered pairs: failures=0
+progressions checked=28392; max key multiplicity=1 (witness n0,d=(0, 1)); distribution of per-progression max: {1: 28392}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): HOLD
+[0.33s, 38496KB]
+exit=0
+$ python3 cyclic_keys.py stress 6 7 2 2
+MODE=stress k=6 P=7 q=49 D=2 N=2401 lambda=24 H=49/600 2kH=0.980
+uniform mesh: 7 intervals of width 1/7 <= 2H
+distinct keys=1947, max elements of G per key=8
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 5762400 ordered pairs: failures=0
+progressions checked=5762400; max key multiplicity=2 (witness n0,d=(1, 49)); distribution of per-progression max: {1: 5747328, 2: 15072}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): HOLD
+[2.57s, 87424KB]
+exit=0
+$ python3 cyclic_keys.py stress_adaptive 6 7 2 2
+MODE=stress_adaptive k=6 P=7 q=49 D=2 N=2401 lambda=24 H=49/600 2kH=0.980
+adaptive mesh: m=135 intervals per family, max width=3.907e-02 <= 2H=1.633e-01, min nonzero point-endpoint gap=4.9574e-7
+distinct keys=2366, max elements of G per key=2
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 5762400 ordered pairs: failures=0
+progressions checked=5762400; max key multiplicity=2 (witness n0,d=(1, 2351)); distribution of per-progression max: {1: 5761350, 2: 1050}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): HOLD
+[3.00s, 87076KB]
+exit=0
+$ python3 cyclic_keys.py stress 4 5 2 2
+MODE=stress k=4 P=5 q=25 D=2 N=625 lambda=24 H=49/400 2kH=0.980
+uniform mesh: 5 intervals of width 1/5 <= 2H
+distinct keys=469, max elements of G per key=8
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 390000 ordered pairs: failures=0
+progressions checked=390000; max key multiplicity=2 (witness n0,d=(1, 8)); distribution of per-progression max: {1: 387768, 2: 2232}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): HOLD
+[0.37s, 42576KB]
+exit=0
+$ python3 cyclic_keys.py stress 6 7 1 3
+MODE=stress k=6 P=7 q=7 D=3 N=343 lambda=24 H=49/600 2kH=0.980
+uniform mesh: 7 intervals of width 1/7 <= 2H
+distinct keys=343, max elements of G per key=1
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 117306 ordered pairs: failures=0
+progressions checked=117306; max key multiplicity=1 (witness n0,d=(0, 1)); distribution of per-progression max: {1: 117306}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): HOLD
+[0.32s, 41252KB]
+exit=0
+$ python3 cyclic_keys.py stress 10 11 1 3
+MODE=stress k=10 P=11 q=11 D=3 N=1331 lambda=24 H=49/1000 2kH=0.980
+uniform mesh: 11 intervals of width 1/11 <= 2H
+distinct keys=1331, max elements of G per key=1
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 1770230 ordered pairs: failures=0
+progressions checked=1770230; max key multiplicity=1 (witness n0,d=(0, 1)); distribution of per-progression max: {1: 1770230}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): HOLD
+[1.52s, 80892KB]
+exit=0
+$ python3 cyclic_keys.py ctl_noband 6 7 2 2
+MODE=ctl_noband k=6 P=7 q=49 D=2 N=2401 lambda=24 H=49/600 2kH=0.980
+uniform mesh: 7 intervals of width 1/7 <= 2H
+distinct keys=49, max elements of G per key=49
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 5762400 ordered pairs: failures=0
+progressions checked=5762400; max key multiplicity=6 (witness n0,d=(1, 100)); distribution of per-progression max: {1: 4822776, 2: 833784, 3: 82320, 4: 15288, 5: 4704, 6: 3528}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): FAIL
+Command exited with non-zero status 1
+[2.87s, 86752KB]
+exit=1
+$ python3 cyclic_keys.py ctl_nonunit 6 7 2 2
+MODE=ctl_nonunit k=6 P=7 q=49 D=2 N=2401 lambda=7 H=49/600 2kH=0.980
+uniform mesh: 7 intervals of width 1/7 <= 2H
+distinct keys=332, max elements of G per key=14
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 5762400 ordered pairs: failures=14406
+progressions checked=5762400; max key multiplicity=6 (witness n0,d=(0, 343)); distribution of per-progression max: {1: 5732902, 2: 15092, 6: 14406}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): FAIL
+Command exited with non-zero status 1
+[2.44s, 86716KB]
+exit=1
+$ python3 cyclic_keys.py ctl_widebox 6 7 2 2
+MODE=ctl_widebox k=6 P=7 q=49 D=2 N=2401 lambda=24 H=49/600 2kH=0.980
+distinct keys=495, max elements of G per key=16
+separation ||q ytilde(n) - q ytilde(n')|| >= 1 over all 5762400 ordered pairs: failures=0
+progressions checked=5762400; max key multiplicity=4 (witness n0,d=(1, 2351)); distribution of per-progression max: {1: 5606044, 2: 155718, 3: 604, 4: 34}
+Lemma perturb:multiplicity (<=4) and (perturb:separation): HOLD
+[2.63s, 86684KB]
+exit=0

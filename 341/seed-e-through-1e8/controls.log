@@ -1,0 +1,27 @@
+# controls.log — 2026-10-15 00:5xZ (regenerated into a file; the same commands were run live earlier this tick)
+## generator: fast341 vs greedy341 (13 Oct binary) byte-identical
+IDENTICAL: F_E_eq_2e6_elems.u32 == E_eq_2e6_elems.u32 (1246172 bytes)
+IDENTICAL: F_E_eq_1e7_elems.u32 == E_eq_1e7_elems.u32 (6248652 bytes)
+IDENTICAL: F_li_eq_1e7_elems.u32 == ../erdos341/li_eq_1e7_elems.u32 (4898032 bytes)
+IDENTICAL: F_li_dist_1e7_elems.u32 == ../erdos341/li_dist_1e7_elems.u32 (4835216 bytes)
+## verify341 (second implementation of the recurrence) on the 1e7 output: start / middle / end windows
+window [13,200013) elems=1562163 inS=30872 violations=0
+window [4000000,4200000) elems=1562163 inS=31251 violations=0
+window [9799000,9999000) elems=1562163 inS=31260 violations=0
+## negative controls: one membership bit flipped inside the window (must report violations, rc=1)
+window [4000000,4200000) elems=1562163 inS=31252 violations=2654 4000037 4000048 4000083 4000105 4000185
+rc=1
+window [4000000,4200000) elems=1562163 inS=31252 violations=7659 4000031 4000039 4000048 4000062 4000128
+rc=1
+## rule-flag unit test on seed {1,2} (rules part at 4): (eq,0)->0 (eq,1)->1 (dist,1)->0 (dist,0)->1
+window [3,1503) elems=668 inS=500 violations=0
+rc=0 <- u_eq_elems.u32 0
+window [3,1503) elems=668 inS=500 violations=1 4
+rc=1 <- u_eq_elems.u32 1
+window [3,1503) elems=668 inS=500 violations=0
+rc=0 <- u_dist_elems.u32 1
+window [3,1503) elems=668 inS=500 violations=1 4
+rc=1 <- u_dist_elems.u32 0
+## Li's seed (certified periodic under rule Q, period 693 terms): both rules' sets pass their own rule's check
+window [5000000,5100000) elems=1208804 inS=12089 violations=0
+window [5000000,5100000) elems=1224508 inS=12245 violations=0

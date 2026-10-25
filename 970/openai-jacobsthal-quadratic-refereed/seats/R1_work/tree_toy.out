@@ -1,0 +1,16 @@
+w=5 z=60 Y=3000 a*=0.01: random fails=0 worst S1-L=49  adversarial fails=0 worst=33  minJ=1.23 (w^a*=1.02)  (3.2) max viol=0.0
+w=5 z=60 Y=3000 a*=0.5: random fails=0 worst S1-L=86  adversarial fails=0 worst=69  minJ=18.63 (w^a*=2.24)  (3.2) max viol=0.0
+w=5 z=60 Y=3000 a*=1.5: random fails=0 worst S1-L=123  adversarial fails=0 worst=103  minJ=50.85 (w^a*=11.18)  (3.2) max viol=0.0
+w=3 z=40 Y=1500 a*=0.01: random fails=0 worst S1-L=20  adversarial fails=0 worst=17  minJ=1.48 (w^a*=1.01)  (3.2) max viol=0.0
+w=3 z=40 Y=1500 a*=0.5: random fails=0 worst S1-L=32  adversarial fails=0 worst=25  minJ=2.52 (w^a*=1.73)  (3.2) max viol=0.0
+w=3 z=40 Y=1500 a*=1.5: random fails=0 worst S1-L=75  adversarial fails=0 worst=64  minJ=27.27 (w^a*=5.20)  (3.2) max viol=0.0
+w=7 z=90 Y=6000 a*=0.01: random fails=0 worst S1-L=113  adversarial fails=0 worst=80  minJ=1.35 (w^a*=1.02)  (3.2) max viol=0.0
+w=7 z=90 Y=6000 a*=0.5: random fails=0 worst S1-L=176  adversarial fails=0 worst=136  minJ=32.09 (w^a*=2.65)  (3.2) max viol=0.0
+w=7 z=90 Y=6000 a*=1.5: random fails=0 worst S1-L=194  adversarial fails=0 worst=145  minJ=67.42 (w^a*=18.52)  (3.2) max viol=0.0
+control (i): admission test applied at LOWER nodes instead of upper:
+  w=5 z=60: fails=80 of 80, worst S1-L=-60
+  w=3 z=40: fails=80 of 80, worst S1-L=-41
+comparison identity (3.5):
+  w=5 z=60: |T|=28 |S|=7  lhs=-2.496947757 rhs=-2.496947757 diff=4.44e-16 | perturbed-reference control diff=2.440e+01
+  w=3 z=40: |T|=24 |S|=5  lhs=1.342023708 rhs=1.342023708 diff=2.58e-14 | perturbed-reference control diff=4.455e+00
+  w=7 z=90: |T|=35 |S|=7  lhs=5.823742901 rhs=5.823742901 diff=2.12e-13 | perturbed-reference control diff=3.439e+01

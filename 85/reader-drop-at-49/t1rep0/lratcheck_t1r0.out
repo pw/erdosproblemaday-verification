@@ -1,0 +1,8 @@
+c expecting proof in stdin
+c parsed a formula with 29764 variables and 1329041 clauses
+c topTable reallocation from 1024 to 1536
+c increasing the number of buckets from 1024 to 1536
+c VERIFIED
+c allocated 1536 20184808 297640
+c Added clauses = 10975255.  Deleted clauses = 9724760.  Max live clauses = 1470448
+c verification time = 279.98 secs

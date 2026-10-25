@@ -1,0 +1,10 @@
+Erdos416.V MATCH 133 133
+erdos_416.parts.i (statement) MATCH 98 98
+erdos_416.variants.regularly_varying (statement) MATCH 134 134
+open lines MATCH
+rc=0
+Erdos416.V MISMATCH 133 133
+erdos_416.parts.i (statement) MATCH 98 98
+erdos_416.variants.regularly_varying (statement) MATCH 134 134
+open lines MATCH
+mutate rc=1 (must be 1)

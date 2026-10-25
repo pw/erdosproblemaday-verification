@@ -1,0 +1,123 @@
+
+===== Theorem 1 certificate (all-rational)  (check_certificates.py) =====
+Certificate inequalities (all-rational verification):
+  p - 1 >= 0 on [sqrt3, 3]: OK (roots in [1.7,3]: 1)
+  p     >= 0 on [-3, -sqrt3]: OK (roots in [-3,-1.7]: 0)
+  1 - q >= 0 on [sqrt3, 3]: OK (roots in [1.7,3]: 0)
+  -q    >= 0 on [-3, -sqrt3]: OK (roots in [-3,-1.7]: 1)
+
+Bound values (exact rational):
+  N_+ <= 4361769/200000 = 21.808845   (expected 4361769/200000)
+  N_+ >= 4234009/200000 = 21.170045   (expected 4234009/200000)
+  integers in the closed interval: NONE
+
+CERTIFICATE VALID: N_+ confined to an integer-free interval.
+
+===== Theorem 2 + f(83) proposition  (verify_51.py) =====
+1. lower bound f(51) >= 59
+  [OK]   lower_bound_58.json: 58 vertices, C_4-free, delta = 7 >= 7
+2. Lemma A: delta >= 8 on 59 vertices forces 8-regularity
+  [OK]   8d <= 58 + d has unique solution d = 8 among d >= 8
+3. Lemma B: deg_D = n-1-k(k-1) on every stored witness
+  [OK]   reg_4_15.json (n=15,k=4): deg_D = 2, A^2 = (k-1)I + J - D holds
+  [OK]   reg_5_26.json (n=26,k=5): deg_D = 5, A^2 = (k-1)I + J - D holds
+  [OK]   reg_6_34.json (n=34,k=6): deg_D = 3, A^2 = (k-1)I + J - D holds
+  [OK]   reg_3_10.json (n=10,k=3): deg_D = 3, A^2 = (k-1)I + J - D holds
+4./5. product identity and psi cross-checks
+  [OK] product identity verified to 30 digits for d <= 12, x = 7
+  [OK] psi_d(7) matches sympy minimal_polynomial for 3 <= d <= 12
+6. square scan for k = 8 (d <= 59) and k = 10 (d <= 93)
+  [OK]   k=8: psi_d(7) is not a perfect square for any relevant d <= 59
+  [OK]   k=10: psi_d(9) is not a perfect square for any relevant d <= 93
+7. control: full sign-balance pattern on the (15,4) witness
+  [OK]   charpoly factors: (x-4)(x-1)(x+1)(x-2)^2(x+2)^4 (x^2-5)(x^2-2)^2 ; irrational pairs balanced; rational trace = -4 = -k
+8. ground-truth behaviour at (23,5) and (45,7)
+  [OK]   (23,5): no square cases; only rational theta = +-2; 2(a-b) = -5 impossible -> re-proves f(18) = 23
+  [OK]   (45,7): square cases at d = 14 (13^2), 15 (31^2) -> argument correctly silent on this known-impossible case
+
+All checks passed:  R(C_4, K_{1,51}) = 59.
+
+===== fifth-moment identity on six known graphs  (verify_m5.py) =====
+Petersen (10,3): n=10 k=3 z=3 | sum th^5 =     -123  predicted     -123  OK | tr(AD) OK | tr(AD^2) OK
+Heawood (14,3): n=14 k=3 z=7 | sum th^5 =     -243  predicted     -243  OK | tr(AD) OK | tr(AD^2) OK
+Hoffman-Singleton (50,7): n=50 k=7 z=7 | sum th^5 =    -4207  predicted    -4207  OK | tr(AD) OK | tr(AD^2) OK
+found (15,4): n=15 k=4 z=2 | sum th^5 =      -64  predicted      -64  OK | tr(AD) OK | tr(AD^2) OK
+found (26,5): n=26 k=5 z=5 | sum th^5 =     -405  predicted     -405  OK | tr(AD) OK | tr(AD^2) OK
+found (34,6): n=34 k=6 z=3 | sum th^5 =      -96  predicted      -96  OK | tr(AD) OK | tr(AD^2) OK
+
+Specialisation to n=46,k=7,z=3,T=46:
+  k*n*[2(k-1-z)+n] - k^5 = 7*46*[6+46] - 16807 = -63
+  tr(AD) = 2*23 = 46  (M is a perfect matching of triangle-free edges)
+  => sum theta^5 = -2*6*46 + tr(AD^2) + -63 = tr(AD^2) - 615   [check: -615 ]
+  tr(AD^2) = 2*kappa, kappa in [0,46]  =>  sum theta^5 in [-615, -523]
+
+===== Theorem 1 full check incl. SAT encoder audits  (verify.py) =====
+1. lower bound  R(C_4,K_{1,39}) >= 46
+  [OK]   45 vertices, C_4-free, delta = 6 >= 45-39  =>  f(39) >= 46
+2. Lemma 1: delta >= 7 on 46 vertices forces 7-regularity
+  [OK]   7d <= 45 + d has the unique solution d = 7 among d >= 7
+3. Lemma 3 (k odd, f_v = 0, m_v >= 1 impossible) and its predictions
+  [OK]   for odd k the matched block has odd size k-2, so no perfect matching
+  [OK]   search confirms: no 3-regular C_4-free graph on 8 vertices
+  [OK]   search confirms: no 5-regular C_4-free graph on 22 vertices
+  [OK]   search confirms: no 7-regular C_4-free graph on 44 vertices
+  [OK]   encoder reproduces the six neighbouring cases with known answers
+4. encoder soundness at full scale (Hoffman-Singleton)
+  [OK]   Hoffman-Singleton: 50 vertices, 7-regular, girth 5
+Hoffman-Singleton: n=50, degrees=[7], girth=5, C4-free=True
+encoding for (n,k,m)=(50,7,0): 18501 vars, 715680 clauses
+hard-coded layout entries contradicting H: 0
+CNF satisfied by the Hoffman-Singleton assignment: True
+ENCODING SOUND at full scale: it accepts a genuine 7-regular C4-free graph on 50 vertices.
+5. case coverage
+  [OK]   144 subcases enumerate exactly the canonical possibilities for N(p)
+6. exhaustive search results
+  [OK]   results.jsonl: 144/144 subcases recorded, all UNSAT
+  [--]   crosscheck.jsonl not present, skipping
+
+All checks passed.
+
+===== independent (OpenAI): factored f(39) certificate  (verification_independent_openai/verify_ramsey_C4_K1_39.py) =====
+All exact polynomial identities passed.
+sum q - 21 at T=0:  15497/378125
+22 - sum Q at T=92: 1574082/13234375
+Certificate conclusion: 21 < N_+ < 22, an impossibility.
+
+===== independent (OpenAI): check of this repo's certificate  (verification_independent_openai/verify_pasted_f39_certificate.py) =====
+All exact inequalities for the pasted f(39) certificate passed.
+For every 0 <= kappa <= 46:
+  4234009/200000 <= N_+ <= 4361769/200000
+  hence 21 < N_+ < 22, impossible for an integer N_+
+
+===== independent (OpenAI): all-orders norm scan  (verification_independent_openai/verify_ramsey_C4_K1_51_norms.py) =====
+All exact cyclotomic norm checks passed.
+argument 7, orders 3..59: no square norms
+argument 9, orders 3..93: only (d, norm)=(4, 9), the separately handled rational case mu=0
+ground-truth square cases at argument 6: d=14 and d=15 confirmed
+Lucas-Fibonacci identity at argument 7 confirmed through d=93
+
+ALL VERIFIERS PASSED  (27s)
+Conclusions: R(C4,K_{1,39}) = 46;  R(C4,K_{1,51}) = 59;  R(C4,K_{1,83}) <= 93.
+	Command being timed: "../venv_pinned/bin/python run_all_verifiers.py"
+	User time (seconds): 29.81
+	System time (seconds): 0.61
+	Percent of CPU this job got: 114%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 282308
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 157556
+	Voluntary context switches: 79
+	Involuntary context switches: 3318
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

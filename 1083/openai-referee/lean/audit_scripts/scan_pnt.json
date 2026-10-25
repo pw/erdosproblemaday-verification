@@ -1,0 +1,186 @@
+{
+"decide": [
+[
+"Consequences.lean",
+1555,
+"rw [\u2190 Finset.sum_sub_distrib] ; refine Finset.sum_congr rfl fun i hi => ?_ ; by_cases hi' : i = 0 <;> simp +decide [*, Real.log_div, ne_of_gt (zero_lt_one.trans"
+],
+[
+"Consequences.lean",
+1594,
+"have := sum_mobius_div_self_le (\u230ax\u230b\u208a + 1) ; simp_all +decide [Finset.sum_range_succ']"
+],
+[
+"Consequences.lean",
+1597,
+"use 1; filter_upwards [Filter.eventually_ge_atTop 1] with x hx; simp_all +decide [div_eq_mul_inv, mul_assoc, mul_comm]"
+],
+[
+"Consequences.lean",
+1755,
+"ext x; by_cases hx : 1 \u2264 x <;> simp_all +decide only [ge_iff_le, mul_sub, sum_sub_distrib, not_le, Pi.sub_apply]"
+],
+[
+"Consequences.lean",
+1756,
+"\u00b7 simp +decide [sub_sub, mul_sub, Finset.sum_sub_distrib, Psi, R]"
+],
+[
+"Consequences.lean",
+1798,
+"simp_all +decide [Norm.norm]"
+],
+[
+"Consequences.lean",
+1833,
+"simp +decide only [Finset.mul_sum _ _ _];"
+],
+[
+"Consequences.lean",
+1867,
+"have : d \u2223 p ^ a p := dvd_of_mul_left_dvd hd.2; ( rw [ Nat.dvd_prime_pow ( Nat.prime_of_mem_primeFactors hp ) ] at this; obtain \u27e8 k, hk \u27e9 := this; use k; simp +"
+],
+[
+"Consequences.lean",
+1887,
+"\u00b7 simp +decide only [pow_zero, isUnit_iff_eq_one, IsUnit.squarefree, moebius_apply_of_squarefree, Int.reduceNeg,"
+],
+[
+"Consequences.lean",
+1889,
+"\u00b7 simp +decide only [zero_add, pow_one, \u2193reduceIte]"
+],
+[
+"Consequences.lean",
+1892,
+"\u00b7 simp +decide only [Nat.add_eq_zero_iff, and_false, and_self, \u2193reduceIte, Nat.add_eq_right, Int.cast_eq_zero]"
+],
+[
+"Consequences.lean",
+1949,
+"\u00b7 simp_all +decide only [Finset.ext_iff, mem_filter, mem_product, mem_Icc, mem_biUnion, mem_image, Prod.forall,"
+],
+[
+"Consequences.lean",
+1955,
+"exact fun b hb\u2081 hb\u2082 hb\u2083 hb\u2084 => \u27e8 b.fst ^ 2 * b.snd, b.fst, \u27e8 \u27e8 by nlinarith, by nlinarith [ Nat.div_mul_le_self N ( b.fst ^ 2 ) ] \u27e9, \u27e8 by nlinarith, by nlinarit"
+],
+[
+"Consequences.lean",
+1993,
+"\u00b7 simp_all +decide only [gt_iff_lt, ge_iff_le, mem_Icc, _root_.zero_le, and_true]"
+],
+[
+"Consequences.lean",
+1994,
+"\u00b7 simp_all +decide only [gt_iff_lt, ge_iff_le, mem_Icc, ne_eq, cast_add, cast_one]"
+],
+[
+"Consequences.lean",
+2040,
+"simp_all +decide only [Finset.sum_range_succ]"
+],
+[
+"Consequences.lean",
+2102,
+"\u00b7 intros k hk l hl hkl; simp_all +decide [Finset.disjoint_left]"
+],
+[
+"Consequences.lean",
+2115,
+"simp_all +decide only [ge_iff_le, Finset.sum_range_succ]"
+],
+[
+"Consequences.lean",
+2135,
+"by_cases hx : 0 \u2264 x <;> simp_all +decide only [ge_iff_le, floor_div_natCast, not_le]"
+],
+[
+"Consequences.lean",
+2143,
+"exact Asymptotics.isBigO_iff.mpr \u27e8(k : \u211d) \u207b\u00b9, Filter.eventually_atTop.mpr \u27e81, fun x hx => by simp +decide ; ring_nf; norm_num [show k \u2260 0 by linarith]\u27e9\u27e9"
+],
+[
+"Consequences.lean",
+2146,
+"intro c hc; filter_upwards [this (show 0 < c * (k + 1) by positivity), Filter.eventually_gt_atTop 0] with x hx\u2081 hx\u2082; simp_all +decide only [ge_iff_le, norm_eq_a"
+],
+[
+"Consequences.lean",
+2207,
+"use Y / K; intros y hy; specialize hY (y * K) (by nlinarith [show (K : \u211d) \u2265 1 by norm_cast, div_mul_cancel\u2080 Y (by positivity : (K : \u211d) \u2260 0)]) ; simp_all +decide"
+]
+],
+"notation": [
+[
+"MellinCalculus.lean",
+238,
+"local notation (name := mellintransform) \"\ud835\udcdc\" => mellin"
+],
+[
+"ZetaBounds.lean",
+34,
+"local notation (name := riemannzeta) \"\u03b6\" => riemannZeta"
+],
+[
+"ZetaBounds.lean",
+35,
+"local notation (name := derivriemannzeta) \"\u03b6'\" => deriv riemannZeta"
+],
+[
+"ZetaBounds.lean",
+500,
+"local notation (name := riemannzeta0) \"\u03b6\u2080\" => riemannZeta0"
+],
+[
+"ZetaBounds.lean",
+2686,
+"local notation \"\u039b\" => vonMangoldt"
+]
+],
+"instance-dist": [
+[
+"Sobolev.lean",
+201,
+"noncomputable instance : Norm W21 where norm := norm \u2218 W1.toFun"
+]
+],
+"partial": [
+[
+"Tactic/AdditiveCombination.lean",
+18,
+"partial def expandAdditiveCombo (ty : Expr) (stx : Syntax.Term) : TermElabM Expanded := withRef stx do"
+]
+],
+"elab": [
+[
+"Tactic/AdditiveCombination.lean",
+84,
+"elab_rules : tactic"
+]
+],
+"syntax": [
+[
+"Tactic/AdditiveCombination.lean",
+82,
+"syntax (name := AdditiveCombination) \"additive_combination\""
+]
+],
+"sorry": [],
+"admit": [],
+"axiom-decl": [],
+"native_decide": [],
+"ofReduceBool": [],
+"implemented_by": [],
+"extern": [],
+"unsafe": [],
+"opaque": [],
+"csimp": [],
+"set_option": [],
+"skipKernelTC": [],
+"import Lean": [],
+"macro": [],
+"run_cmd/#eval": [],
+"addDecl": [],
+"Classical.choice-axiom-name": []
+}

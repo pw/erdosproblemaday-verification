@@ -1,0 +1,5 @@
+n=7 a=4 l=4 (h=6, H=6, 3H/5=18/5) families Q=True P=False: games=120, chingiz_edges=1680, danger_monotone_checks=15960, bella_exact_checks=720, complete_rounds=720, truncated_endings=120, phi_init_below_1=120, bella_has_a_clique=0, some_lowU=120
+n=8 a=4 l=4 (h=6, H=6, 3H/5=18/5) families Q=True P=False: games=120, chingiz_edges=2160, danger_monotone_checks=29160, bella_exact_checks=1080, complete_rounds=1080, truncated_endings=0, phi_init_below_1=120, bella_has_a_clique=0, some_lowU=120
+n=9 a=4 l=4 (h=6, H=6, 3H/5=18/5) families Q=True P=False: games=120, chingiz_edges=2880, danger_monotone_checks=48960, bella_exact_checks=1320, complete_rounds=1320, truncated_endings=120, phi_init_below_1=120, bella_has_a_clique=0, some_lowU=120
+n=10 a=4 l=4 (h=6, H=6, 3H/5=18/5) families Q=True P=False: games=120, chingiz_edges=3600, danger_monotone_checks=77400, bella_exact_checks=1680, complete_rounds=1680, truncated_endings=120, phi_init_below_1=120, bella_has_a_clique=0, some_lowU=120
+VIOLATIONS: 0

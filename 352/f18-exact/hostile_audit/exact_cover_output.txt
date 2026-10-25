@@ -1,0 +1,12 @@
+pool_size=42 incompatibility_edges=57
+exact_minimum_vertex_cover=9 minimum_covers=2
+cover[0]=((-1, 2), (-1, 3), (0, 4), (1, 5), (2, 5), (2, 6), (3, -2), (3, 5), (4, 5))
+survivor[0]_sha256=1f88d54ca7d7317d67ea0d319295cd1ba45bf068a47235d4262b577264ed7f0f
+bad_triple=(1, -1),(1, 4),(6, 1) margin=-15
+bad_triple=(1, -1),(1, 4),(6, 2) margin=-15
+cover[1]=((1, -1), (2, -1), (2, 6), (3, -2), (3, -1), (4, -1), (5, 0), (6, 1), (6, 2))
+survivor[1]_sha256=dd08b8214282512d1a0fd433ce9af08d88044cab9e31a979585d496eb8f7bb2a
+bad_triple=(-1, 2),(4, 0),(4, 5) margin=-15
+bad_triple=(-1, 3),(4, 0),(4, 5) margin=-15
+transcript_sha256=baa035bceada708b6fd1d41381c2fa2763527a34ca55d00c7bc2a9e31f8c4fe2
+EXACT_COVER_AUDIT_PASS candidate_cap=32 total_cap=34

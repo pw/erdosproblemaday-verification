@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-20T21:08:54.990356+00:00",
+  "python": "3.12.3 (main, Nov  6 2025, 13:44:16) [GCC 13.3.0]",
+  "platform": "Linux-6.12.93-x86_64-with-glibc2.39",
+  "interpreter": "/usr/bin/python3",
+  "interpreter_sha256": "1319c137ea5d30f1d7599943cb0e72666648c20a94cf5932dd095364d07dafeb",
+  "runs": [
+    {
+      "name": "original",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/tmp/oaimath/189/finite/verification_pristine/code/original_checker.py"
+      ],
+      "script_sha256": "2511cb782e150c6bc449e16145a8303ddd072a6966483760e35ddeb5aa6d9cb9",
+      "runtime_seconds": 50.513890667352825,
+      "exit_code": 0,
+      "stdout_sha256": "4cc194d9611dc742e09672bb9cd714ae0bb5005fdd52187d002f9db383ddb285",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_stdout_equal": true
+    },
+    {
+      "name": "independent",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/tmp/oaimath/189/finite/verification_pristine/code/independent_checker.py",
+        "--output",
+        "/tmp/oaimath/189/finite/run1/independent"
+      ],
+      "script_sha256": "1e792e47e388458989a9efbffa371d042042e78691394dda6b6270599802e796",
+      "runtime_seconds": 145.98451413959265,
+      "exit_code": 0,
+      "stdout_sha256": "4cc194d9611dc742e09672bb9cd714ae0bb5005fdd52187d002f9db383ddb285",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_stdout_equal": true
+    }
+  ],
+  "validated": {
+    "parameter_pairs": 42,
+    "patterns": 3099,
+    "unresolved": 0,
+    "trace_sha256": "a5646def0211a8b4393167d76aa09c30647fda73043756a362ede9773d3cab39",
+    "trace_matches_delivered_data": true
+  }
+}

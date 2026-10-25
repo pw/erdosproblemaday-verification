@@ -1,0 +1,66 @@
+BridgeMutAnswer.lean:252:59: error: unsolved goals
+c : ℝ
+hc : 0 < c
+n0 : ℕ
+hn0 : 3 ≤ n0
+n : ℕ
+hn : n0 ≤ n
+P : Finset OAI.Problem355.Point
+hcard : #P = n
+hsq : OAI.Problem355.pointsInUnitSquare P
+η : ℝ := -2 + 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)
+h :
+  ∀ (n : ℕ),
+    n0 ≤ n → ∃ P, #P = n ∧ OAI.Problem355.pointsInUnitSquare P ∧ OAI.Problem355.triangleAreasAtLeast P (c * (↑n).rpow η)
+harea : OAI.Problem355.triangleAreasAtLeast P (c * (↑n).rpow η)
+hn3 : 3 ≤ n
+hnpos : 0 < ↑n
+hbpos : 0 < c * (↑n).rpow η
+S : Finset ℝ² := Finset.image φ P
+hScard : #S = n
+hSball : ↑S ⊆ Metric.closedBall 0 1
+hall :
+  ∀ (p : Fin 3 → ℝ²),
+    Function.Injective p → (∀ (i : Fin 3), p i ∈ S) → c * (↑n).rpow η ≤ |triangle_area (p 0) (p 1) (p 2)|
+a : ℝ²
+ha : a ∈ S
+b : ℝ²
+hb : b ∈ S
+d : ℝ²
+hd : d ∈ S
+hab : a ≠ b
+had : a ≠ d
+hbd : b ≠ d
+t : Fin 3 → ℝ² := ![a, b, d]
+ht : Function.Injective t
+htS : ∀ (i : Fin 3), t i ∈ S
+hncol : ¬Collinear ℝ ↑S
+hmin : c * (↑n).rpow η ≤ minTriangleArea S
+hα : minTriangleArea S ≤ α n
+⊢ ↑n ^ (-2 + 4 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)) =
+    ↑n ^ (-2 + 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK))
+BridgeMutAnswer.lean:292:29: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)
+in the target expression
+  ↑n ^ (e + -2) = ↑n ^ (-2 + 4 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK))
+
+e : ℝ := 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)
+he : e = 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)
+hpos : 0 < e
+h1 : (fun n => Real.log ↑n) =o[atTop] fun n => ↑n ^ e
+h2 : (fun n => Real.log ↑n * ↑n ^ (-2)) =o[atTop] fun n => ↑n ^ e * ↑n ^ (-2)
+n : ℕ
+hn : 0 < n
+hnR : 0 < ↑n
+⊢ ↑n ^ (e + -2) = ↑n ^ (-2 + 4 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK))
+BridgeMutAnswer.lean:327:2: error: linarith failed to find a contradiction
+n : ℕ
+hn : 0 < n
+hnR : 1 ≤ ↑n
+hn0 : 0 < ↑n
+hans : 0 < lower.answer n
+this : 1 / ↑n ^ 2 = ↑n ^ (-2)
+a✝ : -2 + 4 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK) < -2
+⊢ False
+failed
+RSSCAP done rc=1 peak_kb=6985504 wall=13s

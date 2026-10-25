@@ -1,0 +1,8 @@
+pairs exact-unit: 11 checked
+runs exact (collinear, unit-spaced, length 4): 4 checked
+coverage: all 16 core clauses were geometrically checked
+minisat22 on core: UNSAT
+minimality: 16/16 single deletions SAT
+negative control (i): with the wrong rotation angle 1/11 pair clauses fail the unit test (need >= 1)
+negative control (ii): corrupted run still reads as a run? False
+RESULT: PASS

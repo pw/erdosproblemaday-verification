@@ -1,0 +1,80 @@
+Exact construction audit
+n  claimed_h  computed_h  min_4pt_distances  witness
+ 1          1           1            vacuous  (0,)
+ 2          2           2            vacuous  (0, 97)
+ 3          2           2            vacuous  (0, 97)
+ 4          3           3                  5  (0, 97, 161)
+ 5          4           4                  5  (0, 97, 161, 227)
+ 6          4           4                  5  (0, 97, 161, 227)
+ 7          5           5                  5  (0, 97, 161, 227, 374)
+ 8          5           5                  5  (0, 97, 161, 227, 547)
+ 9          6           6                  5  (0, 97, 161, 227, 374, 534)
+10          6           6                  5  (200, 243, 246, 272, 323, 528)
+11          7           7                  5  (0, 97, 161, 227, 374, 534, 547)
+12          7           7                  5  (0, 97, 161, 227, 374, 534, 547)
+13          8           8                  5  (0, 136, 200, 243, 246, 298, 323, 528)
+14          8           8                  5  (0, 136, 200, 243, 246, 298, 323, 528)
+15          9           9                  5  (0, 136, 200, 243, 246, 298, 323, 528, 1057)
+
+A12 direct certificate:
+  checked quadruples = 495
+  minimum distinct distances = 5
+  AP edges = ((0, 1, 3), (0, 2, 5), (0, 4, 7), (1, 5, 10), (2, 3, 4), (4, 6, 8), (5, 8, 11), (6, 7, 9), (6, 10, 11), (8, 9, 10))
+  h(A12) = 7
+  Sidon-7 witness = (0, 97, 161, 227, 374, 534, 547)
+
+A14 independent recheck:
+  checked quadruples = 1001
+  minimum distinct distances = 5
+  h(A14) = 8
+  Sidon-8 witness = (0, 136, 200, 243, 246, 298, 323, 528)
+
+A15 exact finite extension:
+  checked quadruples = 1365
+  minimum distinct distances = 5
+  live |B-B| histogram = {11: 144, 13: 1221}
+  h(A15) = 9
+  Sidon-9 witness = (0, 136, 200, 243, 246, 298, 323, 528, 1057)
+  all 3003 ten-subsets are non-Sidon
+  all 32768 subsets audited; Sidon counts = {0: 1, 1: 15, 2: 105, 3: 443, 4: 1221, 5: 2242, 6: 2696, 7: 2012, 8: 832, 9: 143, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0}
+  AP edge list is unchanged from A14
+
+Finite lower-bound arithmetic (named theorem treated as input)
+n  floor((8n-6)/17)  HY_lower  final_lower  construction_h
+ 1                  0         1            1               1
+ 2                  0         2            2               2
+ 3                  1         2            2               2
+ 4                  1         3            3               3
+ 5                  2         3            4               4
+ 6                  2         4            4               4
+ 7                  2         5            5               5
+ 8                  3         5            5               5
+ 9                  3         6            6               6
+10                  4         6            6               6
+11                  4         7            7               7
+12                  5         7            7               7
+13                  5         8            8               8
+14                  6         8            8               8
+15                  6         9            9               9
+Verified separately: max edges in a linear 3-graph on 5 vertices = 2
+
+Independent n=7 exhaustive obstruction
+  midpoint-labelled candidates = 29160
+  linear candidates = 2364
+  linear candidates with alpha<=4 = 48
+  strictly ordered normalized solutions = 4
+  edges: ((0, 1, 3), (0, 2, 5), (2, 3, 4), (0, 4, 6), (1, 5, 6))
+    coordinates: (Fraction(0, 1), Fraction(1, 5), Fraction(3, 10), Fraction(2, 5), Fraction(1, 2), Fraction(3, 5), Fraction(1, 1))
+    forced weak-Sidon collision: ((0, 4), (1, 2), Fraction(1, 2))
+  edges: ((0, 1, 3), (0, 2, 5), (2, 3, 4), (1, 4, 6), (3, 5, 6))
+    coordinates: (Fraction(0, 1), Fraction(1, 4), Fraction(3, 8), Fraction(1, 2), Fraction(5, 8), Fraction(3, 4), Fraction(1, 1))
+    forced weak-Sidon collision: ((0, 4), (1, 2), Fraction(5, 8))
+  edges: ((0, 1, 4), (1, 2, 3), (0, 3, 6), (3, 4, 5), (2, 5, 6))
+    coordinates: (Fraction(0, 1), Fraction(3, 10), Fraction(2, 5), Fraction(1, 2), Fraction(3, 5), Fraction(7, 10), Fraction(1, 1))
+    forced weak-Sidon collision: ((0, 5), (1, 2), Fraction(7, 10))
+  edges: ((0, 1, 5), (0, 2, 6), (2, 3, 4), (1, 4, 6), (3, 5, 6))
+    coordinates: (Fraction(0, 1), Fraction(2, 5), Fraction(1, 2), Fraction(3, 5), Fraction(7, 10), Fraction(4, 5), Fraction(1, 1))
+    forced weak-Sidon collision: ((0, 6), (1, 3), Fraction(1, 1))
+  weak-Sidon survivors = 0
+
+PASS: all construction, table, arithmetic, and n=7 checks succeeded

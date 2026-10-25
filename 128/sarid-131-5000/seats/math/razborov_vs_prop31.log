@@ -1,0 +1,4 @@
+Sarid cubic minus Razborov 3.1(a) (both in hom units t): rho*(16*rho - 5)*(16*rho - 3)/256
+Lemma 3.2 with Razborov 3.1(a): 27/1024
+slopes at 5/16: Razborov 53/256  Sarid 63/256
+high-branch margin at 7/22: 1.84400776446281e-05  max gamma that still works: 0.046948760330578515

@@ -1,0 +1,20 @@
+# check778c control runs, 2026-10-13T15:18:11Z — the C++/nauty checker vs the Python checker's recorded counts
+# python (check778.py) n8: 122288 explored / 0 terminal / 57512 cutoff / 210325 entries; n8 nocut (--no-cutoff): 145749 / 2719 / 0 / 336027
+certs/n6_clique.cert: ACCEPT :: ACCEPT winner=bob n=6 mode=clique: 70 Alice-to-move positions explored, 3 terminal leaves, 59 cutoff leaves, 100 certificate entries (100 rows, 0 duplicate rows) [check778c, nauty 2.9.1 (64 bits), threads 4, 0 s]
+certs/n7_clique.cert: ACCEPT :: ACCEPT winner=bob n=7 mode=clique: 2068 Alice-to-move positions explored, 24 terminal leaves, 1483 cutoff leaves, 4198 certificate entries (4198 rows, 0 duplicate rows) [check778c, nauty 2.9.1 (64 bits), threads 4, 0 s]
+certs/n7_triangle.cert: ACCEPT :: ACCEPT winner=bob n=7 mode=triangle: 1236 Alice-to-move positions explored, 0 terminal leaves, 1975 cutoff leaves, 2677 certificate entries (2677 rows, 0 duplicate rows) [check778c, nauty 2.9.1 (64 bits), threads 4, 0 s]
+certs/n8_clique.cert: ACCEPT :: ACCEPT winner=bob n=8 mode=clique: 122288 Alice-to-move positions explored, 0 terminal leaves, 57512 cutoff leaves, 210325 certificate entries (210325 rows, 0 duplicate rows) [check778c, nauty 2.9.1 (64 bits), threads 4, 2 s]
+certs/n8_clique_nocut.cert --no-cutoff: ACCEPT :: ACCEPT winner=bob n=8 mode=clique: 145749 Alice-to-move positions explored, 2719 terminal leaves, 0 cutoff leaves, 336027 certificate entries (336027 rows, 0 duplicate rows) [check778c, nauty 2.9.1 (64 bits), threads 4, 3 s]
+certs/mut/n3_fake.cert: REJECT :: terminal lost at R=1 B=6
+certs/mut/n7_del.cert: REJECT :: no Bob reply recorded for R=4739 B=1163572
+certs/mut/n7_flip.cert: CANNOT SEE :: this checker handles winner=bob certificates only (got alice)
+certs/mut/n7_swap.cert: ACCEPT :: ACCEPT winner=bob n=7 mode=clique: 2068 Alice-to-move positions explored, 24 terminal leaves, 1484 cutoff leaves, 4198 certificate entries (4198 rows, 0 duplicate rows) [check778c, nauty 2.9.1 (64 bits), threads 2, 0 s]
+certs/mut/n7_swap30.cert: REJECT :: no Bob reply recorded for R=36867 B=84368
+# nautytest (convention + brute-force isomorphism oracle):
+all good: 2000 transports verified
+oracle: 400/400 pairs agree (key-equal 102, isomorphic 102)
+
+# nautytest re-run 2026-10-13T15:34:23Z after adding the deliberate blue-layer-permuted arm + the first-draft-key count:
+all good: 2000 transports verified
+oracle: 400/400 pairs agree (key-equal 102, isomorphic 102)
+deliberate arm (blue layer permuted alone): 196 pairs, key/oracle agree 196/196 (isomorphic 4); FIRST-DRAFT key (rung matching dropped) wrong on 7 of them, and on 4 of the 400 random pairs

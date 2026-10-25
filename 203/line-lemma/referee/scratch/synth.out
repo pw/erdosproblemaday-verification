@@ -1,0 +1,19 @@
+family [(4, 1, 2), (6, 2, 3), (4, 1, 1), (12, 1, 5), (12, 1, 0), (2, 1, 1), (12, 3, 2), (3, 1, 0), (12, 1, 9)] cover classes [3, 4, 2, 1, 11, 1, 5, 1, 0] density 11/6
+ dir (1, 0) lumpy 2 i [2, 3] E 19/12 -> OPTIMAL V 19/12 bound 19/12
+ dir (0, 1) lumpy 6 i [2, 3, 12, 2, 3, 3] E 5/6 -> OPTIMAL V 5/4 bound 5/4
+ dir (1, 1) lumpy 4 i [2, 6, 2, 2] E 11/12 -> OPTIMAL V 19/12 bound 19/12
+ dir (1, -1) lumpy 4 i [4, 4, 2, 4] E 11/12 -> OPTIMAL V 19/12 bound 19/12
+ dir (2, 1) lumpy 3 i [4, 2, 4] E 17/12 -> OPTIMAL V 19/12 bound 19/12
+ dir (1, 2) lumpy 1 i [2] E 5/3 -> OPTIMAL V 5/3 bound 5/3
+ dir (2, -1) lumpy 4 i [4, 3, 2, 4] E 4/3 -> OPTIMAL V 3/2 bound 3/2
+ dir (1, -2) lumpy 2 i [2, 3] E 19/12 -> OPTIMAL V 19/12 bound 19/12
+ dir (3, 1) lumpy 7 i [3, 4, 4, 3, 2, 3, 12] E 1/3 -> OPTIMAL V 4/3 bound 4/3
+ dir (1, 3) lumpy 5 i [4, 4, 2, 3, 4] E 5/6 -> OPTIMAL V 3/2 bound 3/2
+ dir (3, -1) lumpy 7 i [3, 2, 2, 3, 2, 3, 6] E 1/3 -> OPTIMAL V 3/2 bound 3/2
+ dir (1, -3) lumpy 5 i [2, 2, 2, 3, 2] E 5/6 -> OPTIMAL V 5/3 bound 5/3
+ dir (3, 2) lumpy 4 i [6, 3, 3, 3] E 7/6 -> OPTIMAL V 17/12 bound 17/12
+ dir (2, 3) lumpy 3 i [4, 2, 12] E 17/12 -> OPTIMAL V 17/12 bound 17/12
+ dir (3, -2) lumpy 4 i [6, 3, 3, 3] E 7/6 -> OPTIMAL V 17/12 bound 17/12
+ dir (2, -3) lumpy 3 i [4, 2, 12] E 17/12 -> OPTIMAL V 17/12 bound 17/12
+ dir (5, -7) lumpy 4 i [2, 6, 2, 2] E 11/12 -> OPTIMAL V 19/12 bound 19/12
+synthetic 2-D cover: directions with V<1 (false exclusions): 0

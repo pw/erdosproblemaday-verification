@@ -1,0 +1,27 @@
+== cube 11
+c parsing input formula with 16321 variables and 33696 clauses
+c finished parsing, read 1038365 bytes from proof file
+c 1054 of 42741 lemmas in core using 4015 resolution steps
+c 0 RAT lemmas in core; 11 redundant literals in core lemmas
+s VERIFIED
+c verification time: 1.120 seconds
+a669a0e3d94abb10721c458ce8490395c19acf14f0e28eac4685d58114c340a9  cube_q13_c4_11.cnf
+2b9714e77df4ef2122e4df0c77981ce2a6a690a938683fd40230772ef930d046  proofs/cube_q13_c4_11.drat
+== cube 21
+c parsing input formula with 16353 variables and 33749 clauses
+c finished parsing, read 1115243 bytes from proof file
+c 1099 of 43265 lemmas in core using 4210 resolution steps
+c 0 RAT lemmas in core; 10 redundant literals in core lemmas
+s VERIFIED
+c verification time: 1.576 seconds
+e52aa4f7ce15f683afecc4a89f287a6e47684e1090e6ac530d3038680dde4621  cube_q13_c4_21.cnf
+1a8e1ea209cc9ac16c491f0548faaa50e9de392281b80c73513511ccd59ae21b  proofs/cube_q13_c4_21.drat
+== cube 31
+c parsing input formula with 16369 variables and 33781 clauses
+c finished parsing, read 1145773 bytes from proof file
+c 1274 of 47130 lemmas in core using 5030 resolution steps
+c 0 RAT lemmas in core; 11 redundant literals in core lemmas
+s VERIFIED
+c verification time: 0.313 seconds
+af2f9997d6e0b347317b10fcd3f4a3c8249e9817ad3eaea5ecfdf9892fddd1e4  cube_q13_c4_31.cnf
+e567686354e50329a4adeba6e3e5bf37f667d9c7ab97995e846df8283b624e2c  proofs/cube_q13_c4_31.drat

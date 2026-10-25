@@ -1,0 +1,5 @@
+grid det = 64
+random det != 0: True
+random det != 0: True
+random det != 0: True
+diagonal control det = 0

@@ -1,0 +1,7 @@
+seat U:  82 "model":"claude-opus-5-5";
+seat P:  119 "model":"claude-opus-5-5";
+seat L:  219 "model":"claude-opus-5-5";
+seat W:  414 "model":"claude-opus-5-5";
+seat B:  231 "model":"claude-opus-5-5";
+main session:  558 "model":"claude-opus-5-5"; 14 "model":"opus";
+("model":"opus" in the main session = the Agent tool's requested-model argument, not a served model)

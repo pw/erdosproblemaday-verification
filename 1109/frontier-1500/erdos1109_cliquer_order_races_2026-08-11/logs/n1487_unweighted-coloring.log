@@ -1,0 +1,32 @@
+started_utc=2026-08-11T13:02:41Z
+n=1487 target=44 ordering=unweighted-coloring
+d482f5756fff600b4ec646bedeaa9e685b859fc3810be2c7faf078b18ea51d93  /usr/bin/cliquer
+406e15cf7ede415995c1dcbfb512421825723fb319da0cf293ce8e8f664bcd33  erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1487.dimacs
+COMMAND: /usr/bin/cliquer -u -m 44 -M 44 -r unweighted-coloring -q erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1487.dimacs
+Reading graph from erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1487.dimacs...OK
+Searching for a single clique with size exactly 44...
+Command terminated by signal 15
+	Command being timed: "/usr/bin/cliquer -u -m 44 -M 44 -r unweighted-coloring -q erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1487.dimacs"
+	User time (seconds): 552.70
+	System time (seconds): 0.27
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:16.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1900
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 98
+	Voluntary context switches: 2
+	Involuntary context switches: 49479
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+finished_utc=2026-08-11T13:11:57Z

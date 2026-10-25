@@ -1,0 +1,45 @@
+[2026-10-23T09:09:06Z] BEGIN cmp_OstmannComplete
+[2026-10-23T09:09:13Z] END cmp_OstmannComplete rc=0 10391s
+[2026-10-23T09:09:13Z] BEGIN ax_OstmannComplete
+[2026-10-23T09:09:21Z] END ax_OstmannComplete rc=0 10399s
+[2026-10-23T09:09:21Z] BEGIN cmp_OstmannPrimes
+[2026-10-23T09:09:28Z] END cmp_OstmannPrimes rc=0 10406s
+[2026-10-23T09:09:28Z] BEGIN ax_OstmannPrimes
+[2026-10-23T09:09:36Z] END ax_OstmannPrimes rc=0 10414s
+[2026-10-23T09:09:36Z] BEGIN neg
+[2026-10-23T09:09:45Z] END neg rc=0 10423s
+[2026-10-23T09:09:45Z] statement_match: ALL_MATCH_STD_SORRYSEEN OstmannComplete: 7 MATCH / 0 MISMATCH OstmannPrimes: 1 MATCH / 0 MISMATCH 
+[2026-10-23T09:09:55Z] BEGIN verbatim
+[2026-10-23T09:09:55Z] END verbatim rc=0 10444s
+[2026-10-23T09:09:55Z] BEGIN verbatim_mut
+[2026-10-23T09:09:55Z] END verbatim_mut rc=1 10444s
+[2026-10-23T09:09:55Z] BEGIN bridgeC_compile
+[2026-10-23T09:10:04Z] END bridgeC_compile rc=0 10453s
+[2026-10-23T09:10:04Z] BEGIN bridgeC_axioms
+[2026-10-23T09:10:16Z] END bridgeC_axioms rc=0 10465s
+[2026-10-23T09:10:16Z] BEGIN mutC_sorry_compile
+[2026-10-23T09:10:25Z] END mutC_sorry_compile rc=0 10474s
+[2026-10-23T09:10:25Z] BEGIN mutC_sorry_axioms
+[2026-10-23T09:10:33Z] END mutC_sorry_axioms rc=0 10482s
+[2026-10-23T09:10:33Z] BEGIN mutC_nonempty
+[2026-10-23T09:10:41Z] END mutC_nonempty rc=1 10490s
+[2026-10-23T09:10:41Z] BEGIN bridgeM_compile
+[2026-10-23T09:10:52Z] END bridgeM_compile rc=0 10501s
+[2026-10-23T09:10:52Z] BEGIN bridgeM_axioms
+[2026-10-23T09:11:09Z] END bridgeM_axioms rc=0 10518s
+[2026-10-23T09:11:09Z] BEGIN mutM_sorry_compile
+[2026-10-23T09:11:20Z] END mutM_sorry_compile rc=0 10529s
+[2026-10-23T09:11:20Z] BEGIN mutM_sorry_axioms
+[2026-10-23T09:11:29Z] END mutM_sorry_axioms rc=0 10538s
+[2026-10-23T09:11:29Z] BEGIN mutM_nonempty
+[2026-10-23T09:11:41Z] END mutM_nonempty rc=1 10550s
+[2026-10-23T09:11:41Z] BEGIN mutC_dropB
+[2026-10-23T09:11:50Z] END mutC_dropB rc=1 10559s
+[2026-10-23T09:11:50Z] BEGIN both_probe
+[2026-10-23T09:12:00Z] END both_probe rc=0 10569s
+[2026-10-23T09:12:00Z] leanchecker targets: BothProbe
+[2026-10-23T09:12:00Z] BEGIN leanchecker_fresh_BothProbe
+[2026-10-23T10:23:22Z] END leanchecker_fresh_BothProbe rc=0 14851s
+[2026-10-23T10:23:22Z] BEGIN leanchecker_missing_control
+[2026-10-23T10:23:24Z] END leanchecker_missing_control rc=1 14853s
+[2026-10-23T10:23:24Z] LEANCHECKER DONE

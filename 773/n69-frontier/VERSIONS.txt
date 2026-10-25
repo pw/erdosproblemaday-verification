@@ -1,0 +1,15 @@
+Run date: 2026-08-11 UTC
+OS: Linux 6.12.93 x86_64 (Ubuntu userland)
+Python: 3.12.3
+python-sat: 1.9.dev7
+OR-Tools: 9.15.6755
+Kissat: 4.0.4, git 8af8e56f174b778aef3aa45af9f739b2a5f492c2
+Kissat binary SHA-256: cc867d71737c6a79c6cc03d292c971f643bf8782c426a76900a94ca287eebdc5
+CaDiCaL: 3.0.1, git c60730422e758ef1cebe7aeddf2dda31c996bf04
+drat-trim git: 2e3b2dc0ecf938addbd779d42877b6ed69d9a985
+drat-trim binary SHA-256: f8d971dc5956a73fa37e655a44ba8f6d128976acfedff7129f2ed251b234af1a
+CBC: Devel (unstable), build 2026-03-23
+g++: 13.3.0
+DFS source SHA-256: eb21d0f429881f61dd5148ab2a41da3fb6b57d1513ea2db656ae3ae69883e933
+DFS binary SHA-256: e9d471fb6df395f0807c21efc2fffbda64403511cd92b8098bb9100eaaa5655a
+Frozen OEIS b-file SHA-256: dce8e0faa57f6373f1f9fa7e33afe1b1819723cf3a3535b1e4d94ad62d056916

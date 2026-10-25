@@ -1,0 +1,26 @@
+ExtraMutEta.lean:103:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ↑(2 / (45435 * ↑?K + 16))
+in the target expression
+  ∃ P,
+    P.card = n ∧
+      OAI.Problem355.pointsInUnitSquare P ∧
+        OAI.Problem355.triangleAreasAtLeast P (c * (↑n).rpow (-2 + ↑(3 / (45435 * ↑OAI.Problem355.heilbronnK + 16))))
+
+c : ℝ
+hc : 0 < c
+n0 : ℕ
+h :
+  ∀ (n : ℕ),
+    n0 ≤ n →
+      ∃ P,
+        P.card = n ∧
+          OAI.Problem355.pointsInUnitSquare P ∧
+            OAI.Problem355.triangleAreasAtLeast P
+              (c * (↑n).rpow (-2 + 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)))
+n : ℕ
+hn : n0 ≤ n
+⊢ ∃ P,
+    P.card = n ∧
+      OAI.Problem355.pointsInUnitSquare P ∧
+        OAI.Problem355.triangleAreasAtLeast P (c * (↑n).rpow (-2 + ↑(3 / (45435 * ↑OAI.Problem355.heilbronnK + 16))))
+RSSCAP done rc=1 peak_kb=6932544 wall=9s

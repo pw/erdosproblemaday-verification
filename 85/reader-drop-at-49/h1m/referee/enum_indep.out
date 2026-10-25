@@ -1,0 +1,21 @@
+case j=0 E=[2, 1, 2, 1, 2, 1, 2, 1]: |G| brute force 24, menum group 24, equal as sets True
+   w/o  M4: matrices enum 16692 dp 16692  orbits (Burnside) 842
+   with M4: matrices enum 16677 dp 16677  orbits (Burnside) 839
+   classes_all.tsv j=0: rows 839 all-admissible True pairwise-inequivalent True cover-every-orbit True stab/orbit-size correct True sum orbit sizes 16677 (= matrices 16677: True)
+case j=1 E=[2, 2, 2, 1, 2, 1, 2, 1]: |G| brute force 12, menum group 12, equal as sets True
+   w/o  M4: matrices enum 31512 dp 31512  orbits (Burnside) 2700
+   with M4: matrices enum 31458 dp 31458  orbits (Burnside) 2693
+   classes_all.tsv j=1: rows 2693 all-admissible True pairwise-inequivalent True cover-every-orbit True stab/orbit-size correct True sum orbit sizes 31458 (= matrices 31458: True)
+case j=2 E=[2, 2, 2, 2, 2, 1, 2, 1]: |G| brute force 16, menum group 16, equal as sets True
+   w/o  M4: matrices enum 70070 dp 70070  orbits (Burnside) 4801
+   with M4: matrices enum 69321 dp 69321  orbits (Burnside) 4717
+   classes_all.tsv j=2: rows 4717 all-admissible True pairwise-inequivalent True cover-every-orbit True stab/orbit-size correct True sum orbit sizes 69321 (= matrices 69321: True)
+case j=3 E=[2, 2, 2, 2, 2, 2, 2, 1]: |G| brute force 48, menum group 48, equal as sets True
+   w/o  M4: matrices enum 169668 dp 169668  orbits (Burnside) 3662
+   with M4: matrices enum 167748 dp 167748  orbits (Burnside) 3617
+   classes_all.tsv j=3: rows 3617 all-admissible True pairwise-inequivalent True cover-every-orbit True stab/orbit-size correct True sum orbit sizes 167748 (= matrices 167748: True)
+case j=4 E=[2, 2, 2, 2, 2, 2, 2, 2]: |G| brute force 384, menum group 384, equal as sets True
+   w/o  M4: matrices enum 449358 dp 449358  orbits (Burnside) 1536
+   with M4: matrices enum 442518 dp 442518  orbits (Burnside) 1485
+   classes_all.tsv j=4: rows 1485 all-admissible True pairwise-inequivalent True cover-every-orbit True stab/orbit-size correct True sum orbit sizes 442518 (= matrices 442518: True)
+TOTAL orbits without M4 13541, with M4 13351, removed 190

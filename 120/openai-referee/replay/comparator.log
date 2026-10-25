@@ -1,0 +1,46 @@
+Comparator.lean:13:8: warning: declaration uses `sorry`
+'OAI.Problem310.dyadic_affine_avoidance' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}]
+OAI.Problem310.dyadic_affine_avoidance : ∀ (η : Real),
+  @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) η →
+    @LT.lt.{0} Real Real.instLT η (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+      @Exists.{1} (Set.{0} Real) fun (E : Set.{0} Real) =>
+        And
+          (@LE.le.{0} (Set.{0} Real) (@Set.instLE.{0} Real) E
+            (@Set.Icc.{0} Real Real.instPreorder
+              (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))
+          (And
+            (@IsCompact.{0} Real
+              (@UniformSpace.toTopologicalSpace.{0} Real
+                (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace))
+              E)
+            (And
+              (@GT.gt.{0} ENNReal
+                (@Preorder.toLT.{0} ENNReal (@PartialOrder.toPreorder.{0} ENNReal ENNReal.instPartialOrder))
+                (@DFunLike.coe.{1, 1, 1}
+                  (@MeasureTheory.Measure.{0} Real
+                    (@MeasureTheory.MeasureSpace.toMeasurableSpace.{0} Real Real.measureSpace))
+                  (Set.{0} Real) (fun (x : Set.{0} Real) => ENNReal)
+                  (@MeasureTheory.Measure.instFunLike.{0} Real
+                    (@MeasureTheory.MeasureSpace.toMeasurableSpace.{0} Real Real.measureSpace))
+                  (@MeasureTheory.MeasureSpace.volume.{0} Real Real.measureSpace) E)
+                (ENNReal.ofReal
+                  (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) η)))
+              (∀ (x s : Real),
+                @Ne.{1} Real s (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) →
+                  @Exists.{1} Nat fun (n : Nat) =>
+                    And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)
+                      (Not
+                        (@Membership.mem.{0, 0} Real (Set.{0} Real) (@Set.instMembership.{0} Real) E
+                          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) x
+                            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) s
+                              (OAI.Problem310.dyadicPoint n))))))))
+def OAI.Problem310.dyadicPoint : (n : Nat) → Real :=
+fun (n : Nat) =>
+  @HPow.hPow.{0, 0, 0} Real Nat Real
+    (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+    (@Inv.inv.{0} Real Real.instInv
+      (@OfNat.ofNat.{0} Real (nat_lit 2)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast OAI.Problem310.dyadicPoint._proof_1)))
+    n

@@ -1,0 +1,16 @@
+Witness-source search, 2026-08-12 UTC
+
+The public Golomb-ruler table at
+https://en.wikipedia.org/wiki/Golomb_ruler lists the optimal 10-mark ruler
+
+    0 1 6 10 23 26 34 41 53 55
+
+of length 55.  The fetched HTML is frozen as `golomb_ruler_source.html`; its
+matching table row contains the mark string verbatim.  This source is used
+only to locate a candidate.  `verify_witness.py` checks all 45 positive
+differences in the ruler and all 210 unordered pair sums of the resulting
+20-point set from scratch.
+
+Taking B to be that ruler, the first integer T >= 111 found by a direct scan
+for which B union (T-B) meets the definition is T=152.  No optimality is
+inferred from the scan; the separate exhaustive programs address T<=151.

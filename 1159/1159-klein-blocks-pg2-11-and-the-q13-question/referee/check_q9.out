@@ -1,0 +1,5 @@
+galois GF(9) modulus: x^2 + 2x + 2
+author q=9 witness: |S| = 21 spectrum {1: 42, 3: 28, 4: 21}
+Klein (c=5) over this GF(9): |Q|=21 spectrum {1: 42, 3: 28, 4: 21} | collineation-equivalent to author's q=9 witness: True
+Klein (c=6) over this GF(9): |Q|=21 spectrum {1: 42, 3: 28, 4: 21} | collineation-equivalent to author's q=9 witness: True
+|PGammaL(3,9)-stabilizer of author's q=9 witness| = 336

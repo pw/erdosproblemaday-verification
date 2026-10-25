@@ -1,0 +1,4 @@
+Q9_WITNESS=PASS edges=1531 vertices=512 faces=4608 c4=0 cherries=7638 repeated_pairs=0
+degree_histogram={5: 16, 6: 492, 7: 2, 8: 2}
+direction_counts=(170, 170, 172, 170, 170, 171, 168, 170, 170)
+sha256=4592a484fcfa65ef9883843485a60ff7b8d3856e81b4a667ae9cf14536132a5a

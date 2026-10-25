@@ -1,0 +1,3 @@
+Lemma 2.7 constant arithmetic OK
+Lemma 2.6 translation identity max error 2.12e-11 ; |integrand|<=|s| : True
+  control J(s-r)-J(-r): max error 1.382 (expected clearly nonzero)

@@ -1,0 +1,4 @@
+'HeilbronnEighteen.root_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnEighteen.finite_field_polynomials' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnEighteen.prime_field_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1553864 wall=10s

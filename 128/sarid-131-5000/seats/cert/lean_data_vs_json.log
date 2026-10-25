@@ -1,0 +1,4 @@
+Lean terms parsed: 34  JSON terms: 34
+term-by-term identical (block, weight, full vector): 34 / 34  order identical: True
+Lean c4FlagGamma line: 3 / 64 + 1 / 50000000000
+Lean blockKeys == my first-principles coordinate keys: {'s0_root0': True, 's2_root0': True, 's2_root1': True, 'u4_root0': True, 'u4_root1': True, 'u4_root3': True, 'u4_root7': True, 'u4_root12': True, 'u4_root13': True, 'u4_root30': True}

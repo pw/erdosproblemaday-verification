@@ -1,0 +1,8 @@
+def OAI.EuclideanFiveColor.ProperColoring : (k : Nat) → (c : Complex → Fin k) → Prop :=
+fun (k : Nat) (c : Complex → Fin k) =>
+  ∀ (x y : Complex),
+    @Eq.{1} Real
+        (@Norm.norm.{0} Complex Complex.instNorm
+          (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub) x y))
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) →
+      @Ne.{1} (Fin k) (c x) (c y)

@@ -1,0 +1,2 @@
+family: 86 link types (79 nine-vertex), NMAX=41
+  ... 200000 nodes, 22 vertices, v=10, budget={'nine': 2, 'exc': 3, 'def': 2, 'ninesum': -4.0}, 1648s

@@ -1,0 +1,6 @@
+referenced problem numbers found: 585
+PASS exact-number gate: Problem 149 is absent
+PASS exact-result gate: the KMP coefficient 2607/1987 is absent
+DISCLOSURE: ledger Problem 934 cites arXiv:2607.02698
+DISCLOSURE: #934 audits the paper's h_3 / L(G)^3 section, not this L(G)^2 theorem
+LOCAL ABSENCE AUDIT PASSED WITH DISCLOSED SAME-PAPER OVERLAP

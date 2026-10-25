@@ -1,0 +1,5 @@
+MATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+PIN_STD_AXIOMS
+# v3: blocks split at declaration heads (def NAME | 'NAME' depends | NAME :); v1 split on blank lines (none in the solution log between probes — every solution block ran on into the next, prefix-equal); v2 mis-keyed the heads (all None). Neither v1 nor v2 was a verdict about the proof; the instrument failed toward MISMATCH, the direction that gets investigated.

@@ -1,0 +1,82 @@
+./README.md: OK
+./audit_1109_incremental_parallel_cliquer.py: OK
+./audit_1109_incremental_pmc.py: OK
+./check_1109_external_audits.py: OK
+./check_1109_witnesses.py: OK
+./erdos1109_cliquer_certificate_2026-08-11.log: OK
+./erdos1109_cliquer_certificate_build_2026-08-11.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/MANIFEST.sha256: OK
+./erdos1109_cliquer_order_races_2026-08-11/README.md: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1465.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1477.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1483.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1487.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1489.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1491.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1493.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1495.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1497.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/graphs/neighbors_1499.dimacs: OK
+./erdos1109_cliquer_order_races_2026-08-11/input_sha256.txt: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1465_default.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1465_degree.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1465_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1477_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1483_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1487_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1489_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1491_default.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1491_degree.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1491_none.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1491_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1493_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1495_degree.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1495_none.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1495_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1497_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/logs/n1499_unweighted-coloring.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/redundant_cancellations.log: OK
+./erdos1109_cliquer_order_races_2026-08-11/results_launcher_error.txt: OK
+./erdos1109_cliquer_order_races_2026-08-11/results_unweighted-coloring.txt: OK
+./erdos1109_exact_frontier_report.md: OK
+./erdos1109_external_audits_check_2026-08-11.log: OK
+./erdos1109_frontier_compile_2026-08-11.log: OK
+./erdos1109_frontier_run_2026-08-11.log: OK
+./erdos1109_frontier_sanitize_compile_2026-08-11.log: OK
+./erdos1109_frontier_sanitize_run_2026-08-11.log: OK
+./erdos1109_incremental_parallel_reverse_cliquer_2026-08-11.log: OK
+./erdos1109_incremental_pmc_2026-08-11.log: OK
+./erdos1109_pmc_build_2026-08-11.log: OK
+./erdos1109_python_old_frontier_2026-08-11.log: OK
+./erdos1109_sanitizer_comparison_2026-08-11.log: OK
+./erdos1109_site_entry_draft_2026-08-11.md: OK
+./erdos1109_source_provenance_2026-08-11.md: OK
+./erdos1109_witness_check_2026-08-11.log: OK
+./erdos_sarkozy_1987_13.pdf: OK
+./make_1109_cliquer_certificate.py: OK
+./oeis_A392164_bfile_accessed_2026-08-11.txt: OK
+./oeis_A392165_bfile_accessed_2026-08-11.txt: OK
+./pmc_06594a0_compile_compatibility.patch: OK
+./pmc_06594a0_source.tar.gz: OK
+./pmc_1109_audit: OK
+./reproduce_1109.sh: OK
+./run_1109_cliquer_order_races.sh: OK
+./run_1109_cliquer_race_one.sh: OK
+./run_1109_cliquer_race_order.sh: OK
+./verify_1109_frontier: OK
+./verify_1109_frontier.cpp: OK
+./verify_1109_frontier.py: OK
+./verify_1109_frontier_sanitize: OK
+N=1255 size=40 checked_sums=820 all_squarefree=YES
+N=1277 size=41 checked_sums=861 all_squarefree=YES
+N=1293 size=42 checked_sums=903 all_squarefree=YES
+N=1335 size=43 checked_sums=946 all_squarefree=YES
+N=1407 size=44 checked_sums=990 all_squarefree=YES
+witness_sha256=e0dbdd09d85666c5cc57534b7905e8f4d3ad2e9fbb7e0925b7fde9367c363911
+CONCLUSION all five new lower certificates pass direct trial division
+eligible_decisions=163
+cliquer_audit_sha256=6583a40e338f7bddbfe7eb666b3e1996c1c55bf7e325ce4ca9070a4baa856b84
+pmc_audit_sha256=cce1073c81456eb675be5adea58cf4fd2caa08f84bfa344465b38eadd5596dc3
+positive_decisions={1255,1277,1293,1335,1407}
+CONCLUSION external logs, graphs, witnesses, and primary decisions agree
+PASS mode=quick

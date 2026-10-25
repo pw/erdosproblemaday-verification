@@ -1,0 +1,8 @@
+TypeSL.lean:4:28: error: Application type mismatch: The argument
+  hs
+has type
+  5 ≤ s
+but is expected to have type
+  6 ≤ s
+in the application
+  OAI.SharpLogRamsey.main s hs

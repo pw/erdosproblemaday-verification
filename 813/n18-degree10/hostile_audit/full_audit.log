@@ -1,0 +1,18 @@
+MANIFEST files=18 hashes=PASS raw_solver_logs_not_listed=30
+CENSUS n=10 count=9133 sha256=234be06b2b8dbadec010e95ec0f62fffbe936a21207654f521742c063321ff0c definition=PASS distinct=PASS
+CENSUS n=11 count=403 sha256=5c519de3308a947bbdfbda8db4ad02b4f6e9435247204c571730b931a9069e50 definition=PASS distinct=PASS
+CENSUS n=12 count=8 sha256=178c371f2e88e09bfd3462f225496c5e8910eb2e779a6cfcd7ecb001c07e4b0c definition=PASS distinct=PASS
+CENSUS n=13 count=0 sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 definition=PASS distinct=PASS
+DIRECT_N10 count=9133 definitions=PASS distinct=PASS raw_sha256=66c6eb718c18c48e3135254a8d8355a412ba7007c65c89e576c33d09dc688c6f canonical_byte_comparison=PASS
+TRANSITION 9133->403 labelled=3989 canonical_bytes=PASS COMPLETE seconds=37.152
+TRANSITION 403->8 labelled=16 canonical_bytes=PASS COMPLETE seconds=2.379
+TRANSITION 8->0 labelled=0 canonical_bytes=PASS COMPLETE seconds=0.088
+CNF degree=11 cases=403 vars=969 clauses=43728 base_exact_comparison=PASS fixed_units=PASS
+CNF degree=12 cases=8 vars=969 clauses=43739 base_exact_comparison=PASS fixed_units=PASS
+D11_LOGS solver=cadical195 raw_cases=403 table_cases=403 exact_match=PASS all_UNSAT=PASS seconds=2307.669 slow_case=394 slow_seconds=38.498 conflicts=34864416
+D11_LOGS solver=kissat404 raw_cases=403 table_cases=403 exact_match=PASS all_UNSAT=PASS seconds=1621.060 slow_case=197 slow_seconds=26.420 conflicts=unavailable
+D12_LOGS solver=cadical195 cases=8 all_UNSAT=PASS edge_metadata=PASS
+D12_LOGS solver=kissat404 cases=8 all_UNSAT=PASS edge_metadata=PASS
+NEAR n=18 edges=96 triangles=180 K4_count=99 K5_count=0 bad7=9 omega=4 degrees=10^6,11^12 automorphisms=12 repairing_additions=39 min_created_K5=3 PASS
+AUDIT_PASS: finite structure and archived log coverage verified. UNSAT verdicts remain uncertified solver assertions (no DRAT/LRAT proof logs). seconds=72.625
+elapsed=72.73 rss=123316

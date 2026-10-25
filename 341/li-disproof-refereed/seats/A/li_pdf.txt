@@ -1,0 +1,344 @@
+                      Counterexamples to Erdős Problem 341
+                                                    Zhiheng Li
+
+
+                                                   Abstract
+         Erdős problem 341 asks whether the consecutive gap sequence of the pair-sum-avoiding greedy
+      extension of every finite seed set is eventually periodic. We give a negative answer by exhibiting
+      the following counterexample
+                  A = {1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97}.
+      The proof constructs an infinite set S satisfying the exact greedy recurrence t ∈ S ⇐⇒ t ∈
+                                                                                               / S +S
+      for t > 97. We show that S is the greedy extension of the 21-element seed set A, and use a
+      scale-eight sumset controller embedded in three residue classes modulo 49 and a finite modular
+      shield to prove that the consecutive gap sequence of S is not eventually periodic. Motivated
+      by this counterexample, we further obtain an infinite family of counterexamples by a slight
+      modification of the construction.
+
+AI-use disclosure. This proof was developed with assistance from OpenAI’s GPT-5.6 Sol. All
+arguments were checked and verified by the author.
+Formal verification. The results of this paper have been formally verified in Lean 4. The formalization
+is available at https://doi.org/10.5281/zenodo.22030511.
+
+
+1    Introduction and the main theorem
+Write N = {1, 2, 3, . . .} and N0 = {0, 1, 2, . . .}. For X, Y ⊆ N0 and c ∈ N0 , put
+        X + Y = {x + y | x ∈ X, y ∈ Y },                c + X = {c + x | x ∈ X},                X c = N0 \ X.
+Equal summands are allowed in every sumset. For integers a ≤ b, write [a, b]Z = {a, a + 1, . . . , b}.
+   Let A = {a1 < · · · < ak } ⊆ N be a nonempty finite set. For n ≥ k, define
+                  an+1 = min{t ∈ N | t > an , t ∈
+                                                / An + An },                  An = {a1 , . . . , an }.          (1)
+Let dm = am+1 − am denote the consecutive gaps. Erdős and Graham asked whether, for every finite
+initial set A, the resulting gap sequence (dm )m≥1 is eventually periodic. The question appears in
+Erdős and Graham [1, p. 53] and is catalogued as Erdős Problem 341 in Bloom’s online database [2].
+Related periodicity criteria are due to Calkin and Finch [3], while Calkin and Erdős [4] proved that
+a natural class of aperiodic sum-free sets is incomplete. We answer the arbitrary finite-seed question
+negatively.
+Theorem 1.1. Let
+               A = {1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97}.
+For the sequence generated from A by (1),
+                                  ∀K ≥ 1 ∀h ≥ 1 ∃m ≥ K               dm+h ̸= dm .
+Thus its consecutive gap sequence is not eventually periodic.
+
+                                                           1
+Lemma 1.2 (Exact recurrence implies the greedy rule). Let S ⊆ N be infinite, let N ∈ S, and put
+A = S ∩ [1, N ]Z . Suppose that
+
+                                t∈S         ⇐⇒       t∈
+                                                      / S+S           (t > N ).                     (2)
+
+Then the increasing enumeration of S is exactly the greedy extension of A.
+Proof. Scan the integers t > N in order. Inductively, immediately before testing t, the selected set
+is S ∩ [1, t − 1]Z . Since all elements of S are positive, every representation t = u + v with u, v ∈ S
+has u, v < t, and hence
+
+                     t ∈ (S ∩ [1, t − 1]Z ) + (S ∩ [1, t − 1]Z )       ⇐⇒       t ∈ S + S.
+
+Thus (2) makes the rule select exactly the elements of S, completing the induction.
+
+
+2    A scale-eight sumset controller
+We use the standard identity
+
+                         [a, b]Z + [c, d]Z = [a + c, b + d]Z          (a ≤ b, c ≤ d).               (3)
+
+    Define
+                              [
+                         L=       [8k , 4 · 8k − 1]Z                                                (4)
+                              k≥0
+                                       [
+                        Y0 = {0} ∪         [4 · 8k , 8 · 8k − 1]Z ,                                 (5)
+                                     k≥0
+                                           [
+                        Y1 = [1, 3]Z ∪         [16 · 8k − 1, 32 · 8k − 1]Z ,                        (6)
+                                          k≥0
+                                                       [
+                        Y2 = [0, 1]Z ∪ [7, 15]Z ∪          [64 · 8k − 1, 128 · 8k − 1]Z .           (7)
+                                                       k≥0
+
+At each scale, the corresponding blocks of L and Y0 \ {0} partition [8k , 8k+1 − 1]Z . Thus
+
+                                                    Y0 = Lc .                                       (8)
+
+Lemma 2.1 (Controller identities). The sets in (5)–(7) satisfy
+
+                                       Y1 = (Y0 + Y0 )c ,                                           (9)
+                                                              c
+                                       Y2 = (Y1 + Y1 ) ,                                          (10)
+                                                                       c
+                                       Y0 = {0} ∪ 1 + (Y2 + Y2 ) .                                (11)
+
+Proof. A direct interval calculation gives
+                                    [
+                 Y0 + Y0 = {0} ∪        [4 · 8k , 16 · 8k − 2]Z = Y1c ,                           (12)
+                                    k≥0
+                                        [
+                 Y1 + Y1 = [2, 6]Z ∪        [16 · 8k , 64 · 8k − 2]Z = Y2c ,                      (13)
+                                       k≥0
+                                                    [
+                 Y2 + Y2 = [0, 2]Z ∪ [7, 30]Z ∪         [64 · 8k − 1, 256 · 8k − 2]Z = L − 1.     (14)
+                                                    k≥0
+
+Equations (14) and (8) yield (11).
+
+                                                          2
+Lemma 2.2. The membership indicator of Y0 is not ultimately periodic.
+
+Proof. Suppose that there are N ≥ 0 and h ≥ 1 such that
+
+                                   n ∈ Y0 ⇐⇒ n + h ∈ Y0             (n ≥ N ).
+
+Choose a = 8k > max{N, h} and put m = 4a − h. Then N < a ≤ m ≤ 4a − 1. Hence m ∈ L, so
+m∈/ Y0 , whereas m + h = 4a ∈ [4a, 8a − 1]Z ⊆ Y0 . This contradicts the assumed periodicity.
+
+
+3      A finite shield modulo 49
+All residues in this section lie in Z/49Z and are represented in {0, . . . , 48}. Put
+
+    P = {7, 14, 28},      B = {3, 22, 32, 40, 48},        D = {1, 2, 5, 13, 27, 36, 47},   Q = P ∪ B. (15)
+
+Lemma 3.1 (Finite shield). In Z/49Z,
+
+                                         (B + B) ∪ (P + B) ∪ (D + B) = Z/49Z \ Q,                     (16)
+                                                                           
+                       Q ∩ (B + B) ∪ (P + B) ∪ (D + B) ∪ (D + P ) = ∅,                                (17)
+                                                              (P + P ) ∩ Q = P.                       (18)
+
+Moreover, the only ordered pairs in P × P whose sum lies in Q are
+
+                           7 + 7 = 14,       14 + 14 = 28,         28 + 28 = 49 + 7.                  (19)
+
+Proof. All assertions follow by direct computation in Z/49Z.
+
+     We now define the infinite set
+                 S = D ∪ {49q + b | q ∈ N0 , b ∈ B}
+                                                                                                      (20)
+                        ∪ {49q + 7 | q ∈ Y0 } ∪ {49q + 14 | q ∈ Y1 } ∪ {49q + 28 | q ∈ Y2 }.
+
+Hence
+                          S ∩ [1, 97]Z = D ∪ B ∪ (49 + B) ∪ {7, 28, 63, 77} = A.                      (21)
+
+Theorem 3.2. For every t > 97,
+
+                                         t∈S         ⇐⇒     t∈
+                                                             / S + S.                                 (22)
+
+Proof. Write t = 49q + r, with 0 ≤ r < 49. Since t > 97, we have q ≥ 2.
+   First let r ∈ Q = B ∪ P . The six possible pair-sum types are
+
+                         D + D,     D + B,    D + P,       B + B,     B + P,     P + P.
+
+A D + D sum is at most 94 < t. Equation (17) excludes the next four types from Q, while (18)
+and (19) leave only the three diagonal P + P pairs. Hence
+
+                                  49q + 14 ∈ S + S ⇐⇒ q ∈ Y0 + Y0 ,
+                                  49q + 28 ∈ S + S ⇐⇒ q ∈ Y1 + Y1 ,
+                                   49q + 7 ∈ S + S ⇐⇒ q − 1 ∈ Y2 + Y2 .
+
+
+                                                       3
+Indeed, the corresponding representations are
+
+                              (49u + 7) + (49v + 7) = 49(u + v) + 14,
+                            (49u + 14) + (49v + 14) = 49(u + v) + 28,
+                            (49u + 28) + (49v + 28) = 49(u + v + 1) + 7.
+
+The exclusion of every other source type proves the converse implication in each equivalence. The
+controller identities (9)–(11) therefore make every P -rail integer represented exactly when it is
+absent from S. Every B-rail integer belongs to S, and the same exhaustive source analysis shows
+that none is represented. Thus (22) holds for r ∈ Q.
+   Now let r ∈/ Q. Such an integer t is not in S: its residue excludes every infinite rail, and t > 97
+excludes the finite set D. By (16), there exist b ∈ B and x ∈ B ∪ D ∪ P such that x + b ≡ r
+(mod 49). Set
+
+             ex = x    (x ∈ B ∪ D),      e7 = 7,        e14 = 63 = 49 + 14,      e28 = 28.
+
+Every ex belongs to S. Write
+
+                                ex = 49ux + x,          x + b = 49c + r.
+
+Here ux , c ∈ {0, 1}. Since q ≥ 2, the quotient q − ux − c is nonnegative, and
+                                                              
+                               t = ex + 49(q − ux − c) + b ∈ S + S.
+
+The second summand is a positive element of a full B-rail. Both summands are positive and sum to
+t, so each is smaller than t. This completes the proof.
+
+   By (21), Theorem 3.2, and Lemma 1.2, the increasing enumeration of S is exactly the greedy
+extension of the seed A in Theorem 1.1.
+
+
+4    Nonperiodicity of the gaps
+Lemma 4.1. Let T = {t1 < t2 < · · · } ⊆ N be infinite. If the consecutive gaps tm+1 − tm are
+eventually periodic, then the membership indicator of T is ultimately periodic.
+
+Proof. Suppose that the gaps have period h ≥ 1 from index K onward. Let
+                                         h−1
+                                         X
+                                   H=          (tK+j+1 − tK+j ) > 0.
+                                         j=0
+
+Every block of h consecutive gaps in the periodic tail has sum H, so tm+h = tm + H for m ≥ K.
+Since T is infinite, it is unbounded. Thus, given n ≥ tK , there is a unique m ≥ K such that
+tm ≤ n < tm+1 , and
+
+                      tm+h ≤ n + H < tm+h+1 ,           (n + H) − tm+h = n − tm .
+
+Thus n = tm if and only if n + H = tm+h , which proves
+
+                               n ∈ T ⇐⇒ n + H ∈ T              (n ≥ tK ).
+
+This is ultimate periodicity of the membership indicator.
+
+                                                    4
+Proof of Theorem 1.1. The residue-7 rail of S satisfies
+
+                              49q + 7 ∈ S     ⇐⇒        q ∈ Y0       (q ∈ N0 ).                    (23)
+
+Suppose, for contradiction, that membership in S were ultimately periodic with period h ≥ 1. Then
+49h would also be an ultimate period. For all sufficiently large q, equation (23) would give
+
+                q ∈ Y0 ⇐⇒ 49q + 7 ∈ S ⇐⇒ 49(q + h) + 7 ∈ S ⇐⇒ q + h ∈ Y0 ,
+
+contradicting Lemma 2.2. Thus the membership indicator of S is not ultimately periodic. The
+contrapositive of Lemma 4.1 now shows that the consecutive gaps in the increasing enumeration of
+S are not eventually periodic, which is the assertion of the theorem.
+
+
+5    An infinite family of counterexamples
+We further give an infinite family of counterexamples by replacing the finite shield above with a
+parameterized family of finite shields.
+   Fix an integer p ≥ 18, put M = 7p, and work in Z/M Z, represented by {0, . . . , M − 1}. Define
+
+               Pp = {p, 2p, 4p},      Bp = {M − 3, M − 1, 6p + 3},                Qp = Pp ∪ Bp ,
+                                                                                                   (24)
+                      Fp = Qp ∪ (Qp − Bp ) ∪ (Qp − Pp ),            Dp = Z/M Z \ Fp ,
+
+where Qp − Bp = {q − b : q ∈ Qp , b ∈ Bp }, and similarly for Qp − Pp . Set
+
+                        Ap = Dp ∪ Bp ∪ (M + Bp ) ∪ {p, 4p, M + 2p, M + 4p}.                        (25)
+
+Theorem 5.1. For every integer p ≥ 18, the seed Ap in (25) has 7p − 20 elements. For the sequence
+generated from Ap by (1),
+
+                                ∀K ≥ 1 ∀h ≥ 1 ∃m ≥ K             dm+h ̸= dm .
+
+Thus its consecutive-gap sequence is not eventually periodic. In particular, the sets Ap , p ≥ 18, form
+an infinite family of counterexamples.
+    All residues in this section lie in Z/M Z, with the notation of (24).
+Lemma 5.2 (Uniform finite shield). In Z/M Z, for every p ≥ 18,
+
+                                                                    Dp + Bp = Z/M Z \ Qp ,         (26)
+                                                                            
+               Qp ∩ (Bp + Bp ) ∪ (Pp + Bp ) ∪ (Dp + Bp ) ∪ (Dp + Pp ) = ∅,                         (27)
+                                                           (Pp + Pp ) ∩ Qp = Pp .                  (28)
+
+Moreover, the only ordered pairs in Pp × Pp whose sum lies in Qp are
+
+                        p + p = 2p,       2p + 2p = 4p,           4p + 4p = M + p.                 (29)
+
+Proof. Expanding the definition in (24) gives
+
+               Fp = {0, 2, p − 6, p − 4, p, p + 1, p + 3, 2p − 3, 2p, 2p + 1, 2p + 3,
+                      3p − 3, 3p − 1, 3p, 4p, 4p + 1, 4p + 3,
+                                                                                                   (30)
+                      5p − 3, 5p − 1, 5p, 5p + 3,
+                      6p − 3, 6p − 1, 6p, 6p + 3, 6p + 4, 6p + 6, M − 3, M − 2, M − 1}.
+
+                                                    5
+For p ≥ 18, these are 30 distinct representatives in {0, . . . , M − 1}. In particular, |Dp | = M − 30.
+The definition of Fp immediately gives
+                            (Dp + Bp ) ∩ Qp = ∅,        (Dp + Pp ) ∩ Qp = ∅.                       (31)
+   We prove the reverse inclusion in (26). Let r ∈ Z/M Z, and put f = r + 1. If f ∈
+                                                                                  / Fp , then
+f ∈ Dp and
+                                 r = f + (M − 1) ∈ Dp + Bp .
+It remains to consider f ∈ Fp . Put
+  Gp = {0, p + 1, 2p + 1, 4p + 1, 6p + 4, M − 2},        Ep = {p − 6, 3p − 3, 5p − 3, 6p − 3, M − 3}.
+If f ∈ Gp , then direct subtraction shows that r = f − 1 ∈ Qp . If f ∈ Fp \ (Gp ∪ Ep ), comparison
+with (30) shows that f + 2 ∈ / Fp , and hence
+                                  r = (f + 2) + (M − 3) ∈ Dp + Bp .
+For the five values of f in Ep , the corresponding representations are
+               p − 7 = (2p − 10) + (6p + 3),                  3p − 4 = (4p − 7) + (6p + 3),
+              5p − 4 = (6p − 7) + (6p + 3),                   6p − 4 = (M − 7) + (6p + 3),
+             M − 4 = (p − 7) + (6p + 3).
+Thus every residue outside Qp belongs to Dp + Bp , and (31) proves (26).
+    Direct calculation shows that Bp + Bp and Pp + Bp are disjoint from Qp . Together with (31),
+this proves (27). Finally, the three mixed sums of elements of Pp are 3p, 5p, 6p, all outside Qp , while
+the diagonal sums are those in (29). This proves (28) and the ordered-pair assertion.
+
+   We now define the infinite set
+               Sp = Dp ∪ {M q + b | q ∈ N0 , b ∈ Bp }
+                                                                                                   (32)
+                     ∪ {M q + p | q ∈ Y0 } ∪ {M q + 2p | q ∈ Y1 } ∪ {M q + 4p | q ∈ Y2 }.
+The initial controller memberships give
+             Sp ∩ [1, 2M − 1]Z = Dp ∪ Bp ∪ (M + Bp ) ∪ {p, 4p, M + 2p, M + 4p} = Ap .              (33)
+In particular, 2M − 1 = M + (M − 1) ∈ Ap . The four sets in (33) are disjoint, and therefore
+                         |Ap | = (M − 30) + 3 + 3 + 4 = M − 20 = 7p − 20.                          (34)
+Theorem 5.3. For every p ≥ 18 and every t > 2M − 1,
+                                      t ∈ Sp   ⇐⇒       t∈
+                                                         / Sp + Sp .                               (35)
+Proof. Write t = M q + r, with 0 ≤ r < M . Since t > 2M − 1, we have q ≥ 2. The argument
+is the same as in the proof of Theorem 3.2, with M, Qp , Pp , Bp , Dp , Sp replacing 49, Q, P, B, D, S
+respectively, and Lemma 5.2 replacing Lemma 3.1.
+    The only change occurs when r ∈  / Qp . Such t is not in Sp . By (26), there exist d ∈ Dp and
+b ∈ Bp such that
+                                 d + b = Mc + r      (c ∈ {0, 1}).
+Since q ≥ 2, we have q − c ≥ 1, and
+                                                          
+                                  t = d + M (q − c) + b ∈ Sp + Sp .
+This completes the proof.
+
+                                                    6
+   By (33), Theorem 5.3, and Lemma 1.2, the increasing enumeration of Sp is exactly the greedy
+extension of Ap .
+
+Proof of Theorem 5.1. Equation (34) proves the asserted cardinality. The proof of nonperiodicity
+is the same as in Theorem 1.1. Indeed, suppose, for contradiction, that membership in Sp were
+ultimately periodic with period h ≥ 1. Then for all sufficiently large q,
+
+              q ∈ Y0 ⇐⇒ M q + p ∈ Sp ⇐⇒ M (q + h) + p ∈ Sp ⇐⇒ q + h ∈ Y0 ,
+
+contradicting Lemma 2.2. Lemma 4.1 therefore shows that the consecutive gaps in the greedy
+extension of Ap are not eventually periodic.
+
+
+References
+[1] P. Erdős and R. L. Graham, Old and New Problems and Results in Combinatorial Number Theory,
+    Monographies de L’Enseignement Mathématique, no. 28, Université de Genève, L’Enseignement
+    Mathématique, Geneva, 1980.
+
+[2] T. F. Bloom, Erdős Problem #341, Erdős Problems, erdosproblems.com/341, accessed 11
+    August 2026.
+
+[3] N. J. Calkin and S. R. Finch, Conditions on periodicity for sum-free sets, Experiment. Math. 5
+    (1996), no. 2, 131–137; doi:10.1080/10586458.1996.10504584.
+
+[4] N. J. Calkin and P. Erdős, On a class of aperiodic sum-free sets, Math. Proc. Cambridge Philos.
+    Soc. 120 (1996), no. 1, 1–5; doi:10.1017/S0305004100074600.
+
+
+
+
+                                                7
+

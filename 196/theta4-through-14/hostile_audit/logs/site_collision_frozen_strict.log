@@ -1,0 +1,17 @@
+path=/home/exedev/erdos_scratch/fresh9_erdos196_20260811/bundle_ro/provenance/site_index_20260811.js sha256=b7111451218492db6756cc88dde0a8b98700d4c6f47e476171a02950b6d9af8b bytes=413456
+pattern=problemNum count=0
+pattern=n count=0
+pattern=problem count=0
+pattern=erdos_url count=0
+pattern=title_or_prose count=0
+pattern=theta4 count=0
+pattern=monotone4 count=0
+path=/home/exedev/erdos_scratch/fresh9_erdos196_20260811/bundle_ro/provenance/site_ledger_data_20260811.js sha256=9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052 bytes=6421993
+pattern=problemNum count=0
+pattern=n count=0
+pattern=problem count=0
+pattern=erdos_url count=0
+pattern=title_or_prose count=0
+pattern=theta4 count=0
+pattern=monotone4 count=0
+collision_total=0

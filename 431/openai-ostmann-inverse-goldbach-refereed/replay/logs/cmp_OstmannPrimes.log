@@ -1,0 +1,19 @@
+@@@ BEGIN thm OAI.Ostmann.main
+OAI.Ostmann.main : ∀ (A B : Set.{0} Nat),
+  @Set.Nontrivial.{0} Nat A →
+    @Set.Nontrivial.{0} Nat B →
+      @Set.Infinite.{0} Nat
+        (@symmDiff.{0} (Set.{0} Nat)
+          (@SemilatticeSup.toMax.{0} (Set.{0} Nat)
+            (@Lattice.toSemilatticeSup.{0} (Set.{0} Nat)
+              (@ConditionallyCompleteLattice.toLattice.{0} (Set.{0} Nat)
+                (@CompleteLattice.toConditionallyCompleteLattice.{0} (Set.{0} Nat)
+                  (@CompleteBooleanAlgebra.toCompleteLattice.{0} (Set.{0} Nat)
+                    (@CompleteAtomicBooleanAlgebra.toCompleteBooleanAlgebra.{0} (Set.{0} Nat)
+                      (@Set.instCompleteAtomicBooleanAlgebra.{0} Nat)))))))
+          (@Set.instSDiff.{0} Nat)
+          (@HAdd.hAdd.{0, 0, 0} (Set.{0} Nat) (Set.{0} Nat) (Set.{0} Nat)
+            (@instHAdd.{0} (Set.{0} Nat) (@Set.add.{0} Nat instAddNat)) A B)
+          (@Set.ofPred.{0} Nat fun (n : Nat) => Nat.Prime n))
+'OAI.Ostmann.main' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}]
+@@@ END

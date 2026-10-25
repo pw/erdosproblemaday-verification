@@ -1,0 +1,54 @@
+@@@ BEGIN thm OAI.EuclideanRamsey.ramsey_cospherical
+@OAI.EuclideanRamsey.ramsey_cospherical : ∀ {s d : Nat} (a : Fin s → OAI.EuclideanRamsey.Space d)
+  (ha : @Function.Injective.{1, 1} (Fin s) (OAI.EuclideanRamsey.Space d) a) (hR : @OAI.EuclideanRamsey.Ramsey s d a),
+  @EuclideanGeometry.Cospherical.{0} (OAI.EuclideanRamsey.Space d)
+    (@PiLp.instMetricSpace.{0, 0}
+      (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+        (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+          (@AddMonoidWithOne.toNatCast.{0} ENNReal
+            (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+          PiLp.innerProductSpace._proof_1))
+      (Fin d) (fun (x : Fin d) => Real) fact_one_le_two_ennreal (Fin.fintype d) fun (i : Fin d) => Real.metricSpace)
+    (@Set.range.{0, 1} (OAI.EuclideanRamsey.Space d) (Fin s) a)
+'OAI.EuclideanRamsey.ramsey_cospherical' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN def OAI.EuclideanRamsey.Space
+@[reducible] def OAI.EuclideanRamsey.Space : (d : Nat) → Type :=
+fun (d : Nat) => EuclideanSpace.{0, 0} Real (Fin d)
+@@@ BEGIN def OAI.EuclideanRamsey.Congruent
+def OAI.EuclideanRamsey.Congruent : {s d D : Nat} →
+  (a : Fin s → OAI.EuclideanRamsey.Space d) → (b : Fin s → OAI.EuclideanRamsey.Space D) → Prop :=
+fun {s d D : Nat} (a : Fin s → OAI.EuclideanRamsey.Space d) (b : Fin s → OAI.EuclideanRamsey.Space D) =>
+  ∀ (i j : Fin s),
+    @Eq.{1} Real
+      (@Dist.dist.{0} (OAI.EuclideanRamsey.Space D)
+        (@PiLp.instDist.{0, 0}
+          (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+              (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+              PiLp.innerProductSpace._proof_1))
+          (Fin D) (fun (x : Fin D) => Real) (Fin.fintype D) fun (i : Fin D) =>
+          @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+        (b i) (b j))
+      (@Dist.dist.{0} (OAI.EuclideanRamsey.Space d)
+        (@PiLp.instDist.{0, 0}
+          (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+              (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+              PiLp.innerProductSpace._proof_1))
+          (Fin d) (fun (x : Fin d) => Real) (Fin.fintype d) fun (i : Fin d) =>
+          @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+        (a i) (a j))
+@@@ BEGIN def OAI.EuclideanRamsey.Ramsey
+def OAI.EuclideanRamsey.Ramsey : {s d : Nat} → (a : Fin s → OAI.EuclideanRamsey.Space d) → Prop :=
+fun {s d : Nat} (a : Fin s → OAI.EuclideanRamsey.Space d) =>
+  ∀ (r : Nat),
+    @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) r →
+      @Exists.{1} Nat fun (D : Nat) =>
+        And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) D)
+          (∀ (c : OAI.EuclideanRamsey.Space D → Fin r),
+            @Exists.{1} (Fin s → OAI.EuclideanRamsey.Space D) fun (b : Fin s → OAI.EuclideanRamsey.Space D) =>
+              And (@OAI.EuclideanRamsey.Congruent s d D a b)
+                (@Exists.{1} (Fin r) fun (k : Fin r) => ∀ (i : Fin s), @Eq.{1} (Fin r) (c (b i)) k))
+@@@ END

@@ -1,0 +1,122 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Mut_cheb.lean:127:17: error: unsolved goals
+C : ℝ
+hC : 0 < C
+hJ : ∀ (k : ℕ), 0 < k → ∃ m, IsJacobsthalBound k m ∧ ↑m ≤ C * ↑k ^ 2 / Real.log (Real.log (3 * ↑k)) ^ 2
+hcast : Tendsto (fun x => ↑x) atTop atTop
+hcheb : ∀ᶠ (x : ℕ) in atTop, ↑⌊↑x⌋₊.primeCounting ≤ (Real.log 4 + 1 / 2) * ↑x / Real.log ↑x
+hsqrt : ∀ᶠ (x : ℕ) in atTop, ‖Real.log ↑x‖ ≤ 1 * ‖↑x ^ (1 / 2)‖
+hll : ∀ᶠ (x : ℕ) in atTop, 2 * Real.log 2 ≤ (Real.log ∘ Real.log) ↑x
+hge2 : ∀ᶠ (x : ℕ) in atTop, 2 ≤ ↑x
+hlog2 : 0 < Real.log 2
+hlog4 : Real.log 4 + 1 / 2 ≤ 2
+x : ℕ
+t : ℝ := ↑x
+hx1 : ↑⌊t⌋₊.primeCounting ≤ (Real.log 4 + 1 / 2) * t / Real.log t
+hx2 : ‖Real.log t‖ ≤ 1 * ‖t ^ (1 / 2)‖
+hx3 : 2 * Real.log 2 ≤ Real.log (Real.log t)
+hx4 : 2 ≤ t
+ht : t = ↑x
+htpos : 0 < t
+hlogpos : 0 < Real.log t
+a : ℝ := 1 * t / Real.log t
+ha : a = 1 * t / Real.log t
+ha_pos : 0 < a
+K : ℕ := ⌈a⌉₊
+hKdef : K = ⌈a⌉₊
+hKa : a ≤ ↑K
+h0 : ↑x.primeCounting ≤ (Real.log 4 + 1 / 2) * t / Real.log t
+htl : 0 ≤ t / Real.log t
+⊢ t * (Real.log t)⁻¹ * 2 = t * (Real.log t)⁻¹
+Mut_cheb.lean:138:34: error: unsolved goals
+case calc.step
+C : ℝ
+hC : 0 < C
+hJ : ∀ (k : ℕ), 0 < k → ∃ m, IsJacobsthalBound k m ∧ ↑m ≤ C * ↑k ^ 2 / Real.log (Real.log (3 * ↑k)) ^ 2
+hcast : Tendsto (fun x => ↑x) atTop atTop
+hcheb : ∀ᶠ (x : ℕ) in atTop, ↑⌊↑x⌋₊.primeCounting ≤ (Real.log 4 + 1 / 2) * ↑x / Real.log ↑x
+hsqrt : ∀ᶠ (x : ℕ) in atTop, ‖Real.log ↑x‖ ≤ 1 * ‖↑x ^ (1 / 2)‖
+hll : ∀ᶠ (x : ℕ) in atTop, 2 * Real.log 2 ≤ (Real.log ∘ Real.log) ↑x
+hge2 : ∀ᶠ (x : ℕ) in atTop, 2 ≤ ↑x
+hlog2 : 0 < Real.log 2
+hlog4 : Real.log 4 + 1 / 2 ≤ 2
+x : ℕ
+t : ℝ := ↑x
+hx1 : ↑⌊t⌋₊.primeCounting ≤ (Real.log 4 + 1 / 2) * t / Real.log t
+hx2 : ‖Real.log t‖ ≤ 1 * ‖t ^ (1 / 2)‖
+hx3 : 2 * Real.log 2 ≤ Real.log (Real.log t)
+hx4 : 2 ≤ t
+ht : t = ↑x
+htpos : 0 < t
+hlogpos : 0 < Real.log t
+a : ℝ := 1 * t / Real.log t
+ha : a = 1 * t / Real.log t
+ha_pos : 0 < a
+K : ℕ := ⌈a⌉₊
+hKdef : K = ⌈a⌉₊
+hKa : a ≤ ↑K
+hpi : x.primeCounting ≤ K
+hKpos : 0 < K
+m : ℕ
+hm : IsJacobsthalBound K m
+hmb : ↑m ≤ C * ↑K ^ 2 / Real.log (Real.log (3 * ↑K)) ^ 2
+hY : ↑(Y x) ≤ ↑m
+hsq : Real.log t ≤ √t
+hsqrt_pos : 0 < √t
+⊢ 2 * t ≤ 1 * t
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Mut_cheb.lean:164:42: error: unsolved goals
+C : ℝ
+hC : 0 < C
+hJ : ∀ (k : ℕ), 0 < k → ∃ m, IsJacobsthalBound k m ∧ ↑m ≤ C * ↑k ^ 2 / Real.log (Real.log (3 * ↑k)) ^ 2
+hcast : Tendsto (fun x => ↑x) atTop atTop
+hcheb : ∀ᶠ (x : ℕ) in atTop, ↑⌊↑x⌋₊.primeCounting ≤ (Real.log 4 + 1 / 2) * ↑x / Real.log ↑x
+hsqrt : ∀ᶠ (x : ℕ) in atTop, ‖Real.log ↑x‖ ≤ 1 * ‖↑x ^ (1 / 2)‖
+hll : ∀ᶠ (x : ℕ) in atTop, 2 * Real.log 2 ≤ (Real.log ∘ Real.log) ↑x
+hge2 : ∀ᶠ (x : ℕ) in atTop, 2 ≤ ↑x
+hlog2 : 0 < Real.log 2
+hlog4 : Real.log 4 + 1 / 2 ≤ 2
+x : ℕ
+t : ℝ := ↑x
+hx1 : ↑⌊t⌋₊.primeCounting ≤ (Real.log 4 + 1 / 2) * t / Real.log t
+hx2 : ‖Real.log t‖ ≤ 1 * ‖t ^ (1 / 2)‖
+hx3 : 2 * Real.log 2 ≤ Real.log (Real.log t)
+hx4 : 2 ≤ t
+ht : t = ↑x
+htpos : 0 < t
+hlogpos : 0 < Real.log t
+a : ℝ := 1 * t / Real.log t
+ha : a = 1 * t / Real.log t
+ha_pos : 0 < a
+K : ℕ := ⌈a⌉₊
+hKdef : K = ⌈a⌉₊
+hKa : a ≤ ↑K
+hpi : x.primeCounting ≤ K
+hKpos : 0 < K
+m : ℕ
+hm : IsJacobsthalBound K m
+hmb : ↑m ≤ C * ↑K ^ 2 / Real.log (Real.log (3 * ↑K)) ^ 2
+hY : ↑(Y x) ≤ ↑m
+hsq : Real.log t ≤ √t
+hsqrt_pos : 0 < √t
+ha_ge : √t ≤ a
+hK0 : 0 ≤ ↑K
+h3K : √t ≤ 3 * ↑K
+hlog3K : 1 / 2 * Real.log t ≤ Real.log (3 * ↑K)
+hLL : 0 < Real.log (Real.log t)
+hd_pos : 0 < 1 / 2 * Real.log (Real.log t)
+hD : 1 / 2 * Real.log (Real.log t) ≤ Real.log (Real.log (3 * ↑K))
+h1 : ↑K < a + 1
+h2 : 1 ≤ t / Real.log t
+⊢ t * (Real.log t)⁻¹ = t * (Real.log t)⁻¹ * 2
+RSSCAP done rc=1 peak_kb=7220800 wall=12s

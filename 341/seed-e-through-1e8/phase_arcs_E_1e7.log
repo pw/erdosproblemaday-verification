@@ -1,0 +1,18 @@
+window [9000000,10000000) elements 156272 density 0.15627; g=0.28459193622; bins 1000; flat level 6.39; arcs (5): [(0.13, 0.176), (0.364, 0.406), (0.597, 0.641), (0.828, 0.845), (0.936, 0.944)]; total measure 0.1570
+fraction of S with phase inside the arcs: 94.38%
+fraction of NON-elements with phase inside the arcs: 1.13%  (if S were exactly the coding this would be 0; the arcs hold 15.7% of the circle)
+edge bins (between 10% and 90% of the flat level): 62 of 1000 = 6.20% of the circle
+W+W (bin grid) vs complement of W: |W+W| = 0.5870, |complement| = 0.8430, symmetric difference 0.2560 of the circle; W∩(W+W) = 0.0000; uncovered = 0.2560
+
+window [2000000,3000000) elements 156379 density 0.15638; g=0.28459193622; bins 1000; flat level 6.39; arcs (5): [(0.13, 0.175), (0.364, 0.406), (0.597, 0.641), (0.828, 0.844), (0.935, 0.944)]; total measure 0.1560
+fraction of S with phase inside the arcs: 93.06%
+fraction of NON-elements with phase inside the arcs: 1.24%  (if S were exactly the coding this would be 0; the arcs hold 15.6% of the circle)
+edge bins (between 10% and 90% of the flat level): 71 of 1000 = 7.10% of the circle
+W+W (bin grid) vs complement of W: |W+W| = 0.5830, |complement| = 0.8440, symmetric difference 0.2610 of the circle; W∩(W+W) = 0.0000; uncovered = 0.2610
+
+window [5000000,7000000) elements 312817 density 0.15641; g=0.28459193622; bins 1000; flat level 6.39; arcs (5): [(0.129, 0.176), (0.364, 0.406), (0.597, 0.641), (0.828, 0.844), (0.935, 0.944)]; total measure 0.1580
+fraction of S with phase inside the arcs: 94.52%
+fraction of NON-elements with phase inside the arcs: 1.20%  (if S were exactly the coding this would be 0; the arcs hold 15.8% of the circle)
+edge bins (between 10% and 90% of the flat level): 64 of 1000 = 6.40% of the circle
+W+W (bin grid) vs complement of W: |W+W| = 0.5910, |complement| = 0.8420, symmetric difference 0.2510 of the circle; W∩(W+W) = 0.0000; uncovered = 0.2510
+

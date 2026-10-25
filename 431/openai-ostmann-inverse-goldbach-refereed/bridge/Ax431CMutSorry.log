@@ -1,0 +1,2 @@
+'Erdos431.erdos_431' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Erdos431.erdos_431.variants.ostmann' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

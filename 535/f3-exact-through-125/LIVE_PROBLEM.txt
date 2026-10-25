@@ -1,0 +1,85 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/535
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑟 ≥3
+, and let 𝑓𝑟⁡(𝑁)
+ denote the size of the largest subset of {1,…,𝑁}
+ such that no subset of size 𝑟
+ has the same pairwise greatest common divisor between all elements. Estimate 𝑓𝑟⁡(𝑁)
+.
+#535: [Er69][Er70][Er73]
+number theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+Erdős [Er64] proved that
+𝑓𝑟⁡(𝑁)≤𝑁
+3
+4
++𝑜⁡(1),
+and Abbott and Hanson [AbHa70] improved this exponent to 1/2
+. Erdős [Er64] proved the lower bound, for any 𝑟 ≥3
+,
+𝑓𝑟⁡(𝑁)>𝑁
+𝑐𝑟
+log⁡log⁡𝑁
+for some constant 𝑐𝑟 >0
+, and conjectured this should also be an upper bound.
+
+This is intimately connected with the sunflower problem [20]. Indeed, Erdős [Er64] noted that a positive solution to [20] would imply
+𝑓𝑟⁡(𝑁)≤𝑁
+𝐶𝑟
+log⁡log⁡𝑁
+for some constant 𝐶𝑟 >0
+. Using the recent bounds of Alweiss, Lovett, Wu, and Zhang [ALWZ20] for the sunflower problem yields
+𝑓𝑟⁡(𝑁)≤𝑁𝐶𝑟⁢
+log⁡log⁡log⁡𝑁
+log⁡log⁡𝑁
+,
+and in particular 𝑓𝑟⁡(𝑁) ≤𝑁𝑜⁡(1)
+.
+
+An alternative description of the details of these lower and upper bounds was given by Abbott and Hanson [AbHa67]. (A similar detailed calculation is given in the comments by Hrishi.)
+
+See also [536].
+
+View the LaTeX source
+
+This page was last edited 29 April 2026. View history
+
+External data from the database - you can help update this
+Formalised statement? Yes
+Related OEIS sequences: Possible
+
+9 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	None
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+Additional thanks to: Kireet Cheri, Cong, Sourish Kumrawat, and Hrishi Sunder
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #535, https://www.erdosproblems.com/535, accessed 2026-08-12
+Previous
+Next
+
+Page title: 535 | Erdős Problems
+URL: https://www.erdosproblems.com/535

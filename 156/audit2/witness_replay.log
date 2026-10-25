@@ -1,0 +1,3 @@
+witnesses=30 base_difference_pairs=618 forbidden_insertions=2207 enlarged_difference_pairs=60949
+independent_difference_transcript_sha256=35c29abd065c58c2e70f7232adab30edcec97ed616355d3d3ad4d64887b12edb
+DIRECT_WITNESS_REPLAY=PASS

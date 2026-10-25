@@ -1,0 +1,14 @@
+/tmp/oaimath/181/coffey/probe2/WrongShape2.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/tmp/oaimath/181/coffey/probe2/WrongShape2.lean:9:2: error: Type mismatch
+  EGCheck.erdos_184
+has type
+  ∃ (f : ℕ → ℝ),
+    (f =O[atTop] fun n => ↑n) ∧
+      ∀ {V : Type ?u.28} [inst : Fintype V] [DecidableEq V] (G : SimpleGraph V),
+        ∃ D, (∀ H ∈ D, Erdos184.IsCycleOrEdge H.coe) ∧ G.IsDecomposition D ∧ ↑D.card ≤ f (Fintype.card V)
+but is expected to have type
+  ∃ (c : ℝ),
+    ∀ {V : Type} [inst : Fintype V] [DecidableEq V] (G : SimpleGraph V),
+      ∃ D, (∀ H ∈ D, Erdos184.IsCycleOrEdge H.coe) ∧ G.IsDecomposition D ∧ ↑D.card ≤ c

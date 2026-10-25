@@ -1,0 +1,6 @@
+break2 normal form reached: P0,Q1 in image; x=0 and z=0 tangents. image check: (True, {1: 84, 3: 28, 4: 21}, 21)
+points of image on y=x: 4 (expect 4); on y=0: 4 (expect 4)
+cube-normal-form image check: (True, {1: 84, 3: 28, 4: 21}, 21)
+break2 CNF accepts the normal-form Klein set: s SATISFIABLE
+cube (3,3) CNF accepts the cube-normal-form Klein set: s SATISFIABLE
+cube (3,2) CNF on the same set (expect UNSAT: L2 has 3 further points, not 2): s UNSATISFIABLE

@@ -1,0 +1,13 @@
+BridgeMut.lean:19:2: error: Tactic `rfl` failed: The left-hand side
+  SimpleGraph.graphRamsey (SimpleGraph.cycleGraph (k + 1)) (SimpleGraph.completeGraph (Fin n))
+is not definitionally equal to the right-hand side
+  OAI.CycleClique.cycleCliqueRamsey k n
+
+k n : ℕ
+hn : 3 ≤ n
+hnk : n ≤ k
+hne : ¬(n = 3 ∧ k = 3)
+hne' : (k, n) ≠ (3, 3)
+h : OAI.CycleClique.cycleCliqueRamsey k n = (k - 1) * (n - 1) + 1
+⊢ SimpleGraph.graphRamsey (SimpleGraph.cycleGraph (k + 1)) (SimpleGraph.completeGraph (Fin n)) =
+    OAI.CycleClique.cycleCliqueRamsey k n

@@ -1,0 +1,8 @@
+OAI.CliqueFreeLog.logarithmic_independence_bound MATCH | lens 1285 1285
+def OAI.CliqueFreeLog.averageDegree MATCH | lens 833 833
+solution axioms: {'Quot.sound', 'Classical.choice', 'propext'} comparator axioms: {'Quot.sound', 'Classical.choice', 'propext', 'sorryAx'}
+MATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+CliqueFreeIndependence.WeightedGraph.maximum_degree_independence STD_AXIOMS
+CliqueFreeIndependence.WeightedGraph.exists_optimizer_triangle_bound STD_AXIOMS

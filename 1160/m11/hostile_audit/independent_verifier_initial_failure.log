@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/exedev/erdos_scratch/audit_erdos1160_20260811_151917_hostile/independent_verifier.py", line 144, in <module>
+    main()
+  File "/home/exedev/erdos_scratch/audit_erdos1160_20260811_151917_hostile/independent_verifier.py", line 106, in main
+    source_checks()
+  File "/home/exedev/erdos_scratch/audit_erdos1160_20260811_151917_hostile/independent_verifier.py", line 82, in source_checks
+    assert "exact number\n    of groups of order 2048 that have exponent-2 class 2" in conway
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

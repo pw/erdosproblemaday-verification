@@ -1,0 +1,7 @@
+<strong>We were not first.</strong> Three third-party replays ran OpenAI's Comparator on this challenge before us. Two of them also noted that the Lean states less than the paper:</p>
+<ul>
+<li>mathvet/mathvet, 8 October, with Lean's kernel. Its fidelity table calls family 191 "weaker-statement".</li>
+<li>carlostoledo1891/cert-machine (run 38019899278, committed 10 October). Lean's kernel and the independent nanoda kernel both accept; its reading labels 191 "NARROWER — DECLARED".</li>
+<li>nealmcb/openai-math-lean-tooling. Comparator accepted it on 11 October, and both kernels accepted it again on 15 October.</li>
+</ul>
+<p>Ours is a fourth, independent replay. It repeats the statement and definition match by a second method: <code>pp.all</code> text plus a probe of the kernel's records, which clears the one attribute difference that a kernel-level comparison does not see. It adds a scan of the whole closure. One module in OpenAI's folder, <code>MainDigitBadTripleBound.lean</code>, fails in the pinned nanoda according to nealmcb's report. It is not in the closure of <code>Main.lean</code> (our closure has 195 of the folder's 242 files), so it does not bear on either theorem.

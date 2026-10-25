@@ -1,0 +1,39 @@
+{
+ "sorry": [
+  [
+   "repo/lean/ComparatorChallenges/OstmannComplete.lean",
+   2
+  ],
+  [
+   "repo/lean/ComparatorChallenges/OstmannPrimes.lean",
+   1
+  ]
+ ],
+ "admit": [],
+ "axiom": [],
+ "native_decide": [],
+ "decide_unsafe": [],
+ "implemented_by": [],
+ "extern": [],
+ "unsafe": [],
+ "opaque": [],
+ "partial def": [
+  [
+   "ext/PrimeNumberTheoremAnd/PrimeNumberTheoremAnd/Erdos970/Tactic/AdditiveCombination.lean",
+   1
+  ]
+ ],
+ "set_option debug/trust": [],
+ "elab/macro": [
+  [
+   "ext/PrimeNumberTheoremAnd/PrimeNumberTheoremAnd/Erdos970/Tactic/AdditiveCombination.lean",
+   2
+  ]
+ ],
+ "attribute [-instance]": [
+  [
+   "repo/lean/OAI/NumberTheory/Jacobsthal/Siegel/GenericNormalization.lean",
+   1
+  ]
+ ]
+}

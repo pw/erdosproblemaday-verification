@@ -1,0 +1,16 @@
+'OAI.Problem355.EveryN.every_large_n' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.Problem355.EveryN.every_large_n_heilbronnExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.Problem355.EveryN.configuration_at_large_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.Problem355.EveryN.every_large_n_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.Problem355.EveryN.every_large_n : ∃ c,
+  0 < c ∧
+    ∃ n0,
+      3 ≤ n0 ∧
+        ∀ (n : ℕ),
+          n0 ≤ n →
+            ∃ P,
+              P.card = n ∧
+                OAI.Problem355.pointsInUnitSquare P ∧
+                  OAI.Problem355.triangleAreasAtLeast P
+                    (c * (↑n).rpow (-2 + 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)))
+RSSCAP done rc=0 peak_kb=6900708 wall=8s

@@ -1,0 +1,10 @@
+best_K11_s11.npy: start covering radius 41.7921
+  outer 0: active 40 tmax 41.7926 -> covering radius 41.3872 (best 41.3872)
+  outer 1: active 41 tmax 41.3873 -> covering radius 41.3852 (best 41.3852)
+  outer 2: active 42 tmax 41.3852 -> covering radius 41.3852 (best 41.3852)
+  outer 3: active 42 tmax 41.3852 -> covering radius 41.3852 (best 41.3852)
+  outer 4: active 42 tmax 41.3852 -> covering radius 41.3852 (best 41.3852)
+  outer 5: active 42 tmax 41.3852 -> covering radius 41.3852 (best 41.3852)
+  outer 6: active 42 tmax 41.3852 -> covering radius 41.3852 (best 41.3852)
+  outer 7: active 42 tmax 41.3852 -> covering radius 41.3852 (best 41.3852)
+VPOLISHED best_K11_s11.npy: 41.38516 deg

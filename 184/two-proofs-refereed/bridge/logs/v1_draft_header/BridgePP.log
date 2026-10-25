@@ -1,0 +1,84 @@
+'Bridge184.erdos_184' depends on axioms: [propext, Classical.choice, Quot.sound]
+Bridge184.erdos_184.{u_1} : @Exists.{1} (Nat → Real) fun (f : Nat → Real) =>
+  And
+    (@Asymptotics.IsBigO.{0, 0, 0} Nat Real Real Real.norm Real.norm (@Filter.atTop.{0} Nat Nat.instPreorder) f
+      fun (n : Nat) => @Nat.cast.{0} Real Real.instNatCast n)
+    (∀ {V : Type u_1} [inst : Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V),
+      @Exists.{u_1 + 1} (Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G))
+        fun (D : Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G)) =>
+        And
+          (∀ (H : @SimpleGraph.Subgraph.{u_1} V G),
+            @Membership.mem.{u_1, u_1} (@SimpleGraph.Subgraph.{u_1} V G)
+                (Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G))
+                  (@SimpleGraph.Subgraph.{u_1} V G) (@Finset.instSetLike.{u_1} (@SimpleGraph.Subgraph.{u_1} V G)))
+                D H →
+              @Bridge184.IsCycleOrEdge.{u_1} (@Set.Elem.{u_1} V (@SimpleGraph.Subgraph.verts.{u_1} V G H))
+                (@Subtype.fintype.{u_1} V
+                  (@Membership.mem.{u_1, u_1} V (Set.{u_1} V) (@Set.instMembership.{u_1} V)
+                    (@SimpleGraph.Subgraph.verts.{u_1} V G H))
+                  (fun (a : V) =>
+                    Classical.propDecidable
+                      (@Membership.mem.{u_1, u_1} V (Set.{u_1} V) (@Set.instMembership.{u_1} V)
+                        (@SimpleGraph.Subgraph.verts.{u_1} V G H) a))
+                  inst)
+                (@SimpleGraph.Subgraph.coe.{u_1} V G H))
+          (And (@Bridge184.IsDecomposition.{u_1} V G D)
+            (@LE.le.{0} Real Real.instLE
+              (@Nat.cast.{0} Real Real.instNatCast (@Finset.card.{u_1} (@SimpleGraph.Subgraph.{u_1} V G) D))
+              (f (@Fintype.card.{u_1} V inst)))))
+def Bridge184.IsCycleOrEdge.{u_1} : {U : Type u_1} → [Fintype.{u_1} U] → (H : SimpleGraph.{u_1} U) → Prop :=
+fun {U : Type u_1} [inst : Fintype.{u_1} U] (H : SimpleGraph.{u_1} U) =>
+  Or
+    (And (@SimpleGraph.Connected.{u_1} U H)
+      (@SimpleGraph.IsRegularOfDegree.{u_1} U H
+        (fun (v : U) =>
+          @Subtype.fintype.{u_1} U
+            (@Membership.mem.{u_1, u_1} U (Set.{u_1} U) (@Set.instMembership.{u_1} U)
+              (@SimpleGraph.neighborSet.{u_1} U H v))
+            (fun (a : U) =>
+              @SimpleGraph.neighborSet.memDecidable.{u_1} U H v
+                (fun (a b : U) => Classical.propDecidable (@SimpleGraph.Adj.{u_1} U H a b)) a)
+            inst)
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+    (@Eq.{1} Nat
+      (@Finset.card.{u_1} (Sym2.{u_1} U)
+        (@SimpleGraph.edgeFinset.{u_1} U H
+          (@SimpleGraph.fintypeEdgeSet.{u_1} U H (@Sym2.instFintype.{u_1} U inst) fun (a b : U) =>
+            Classical.propDecidable (@SimpleGraph.Adj.{u_1} U H a b))))
+      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+def Bridge184.IsDecomposition.{u_1} : {V : Type u_1} →
+  (G : SimpleGraph.{u_1} V) → (D : Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G)) → Prop :=
+fun {V : Type u_1} (G : SimpleGraph.{u_1} V) (D : Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G)) =>
+  And
+    (@Set.PairwiseDisjoint.{u_1, u_1} (Set.{u_1} (Sym2.{u_1} V)) (@SimpleGraph.Subgraph.{u_1} V G)
+      (@CompletePartialOrder.toPartialOrder.{u_1} (Set.{u_1} (Sym2.{u_1} V))
+        (@CompleteLattice.toCompletePartialOrder.{u_1} (Set.{u_1} (Sym2.{u_1} V))
+          (@CompleteBooleanAlgebra.toCompleteLattice.{u_1} (Set.{u_1} (Sym2.{u_1} V))
+            (@CompleteAtomicBooleanAlgebra.toCompleteBooleanAlgebra.{u_1} (Set.{u_1} (Sym2.{u_1} V))
+              (@Set.instCompleteAtomicBooleanAlgebra.{u_1} (Sym2.{u_1} V))))))
+      (@CompletePartialOrder.toOrderBot.{u_1} (Set.{u_1} (Sym2.{u_1} V))
+        (@CompleteLattice.toCompletePartialOrder.{u_1} (Set.{u_1} (Sym2.{u_1} V))
+          (@CompleteBooleanAlgebra.toCompleteLattice.{u_1} (Set.{u_1} (Sym2.{u_1} V))
+            (@CompleteAtomicBooleanAlgebra.toCompleteBooleanAlgebra.{u_1} (Set.{u_1} (Sym2.{u_1} V))
+              (@Set.instCompleteAtomicBooleanAlgebra.{u_1} (Sym2.{u_1} V))))))
+      (@SetLike.coe.{u_1, u_1} (Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G)) (@SimpleGraph.Subgraph.{u_1} V G)
+        (@Finset.instSetLike.{u_1} (@SimpleGraph.Subgraph.{u_1} V G)) D)
+      fun (H : @SimpleGraph.Subgraph.{u_1} V G) => @SimpleGraph.Subgraph.edgeSet.{u_1} V G H)
+    (@Eq.{u_1 + 1} (Set.{u_1} (Sym2.{u_1} V))
+      (@Set.iUnion.{u_1, u_1 + 1} (Sym2.{u_1} V) (@SimpleGraph.Subgraph.{u_1} V G)
+        fun (H : @SimpleGraph.Subgraph.{u_1} V G) =>
+        @Set.iUnion.{u_1, 0} (Sym2.{u_1} V)
+          (@Membership.mem.{u_1, u_1} (@SimpleGraph.Subgraph.{u_1} V G) (Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G))
+              (@SimpleGraph.Subgraph.{u_1} V G) (@Finset.instSetLike.{u_1} (@SimpleGraph.Subgraph.{u_1} V G)))
+            D H)
+          fun
+            (h :
+              @Membership.mem.{u_1, u_1} (@SimpleGraph.Subgraph.{u_1} V G)
+                (Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (@SimpleGraph.Subgraph.{u_1} V G))
+                  (@SimpleGraph.Subgraph.{u_1} V G) (@Finset.instSetLike.{u_1} (@SimpleGraph.Subgraph.{u_1} V G)))
+                D H) =>
+          @SimpleGraph.Subgraph.edgeSet.{u_1} V G H)
+      (@SimpleGraph.edgeSet.{u_1} V G))

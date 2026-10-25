@@ -1,0 +1,37 @@
+== Prop 8.2: five-cycle, five labels, |P|<=2, (8.1), (5.7), antipodal sign reversal
+  ok   k=5, ell=5: sign triples admitting a consistent orbit = 0 (paper: none)
+   controls (the solver CAN say SAT):
+  ok     drop (5.7): 1000 sign triples admit an orbit (expected >0)
+   OBSERVATION (not a control): allowing any palette size (no Prop 5.6) still gives 0 -- the constraints are monotone (a sub-palette of a solution is a solution), so (5.12) is not needed in Prop 8.2
+  ok     independent signs at the six positions: 100 consistent palette cycles, e.g. [[0, 2], [1, 3], [0, 2], [1, 3], [0, 2], [1, 3]] (expected >0)
+   test (B): same one-orbit model for other (k, ell):
+     k=5, ell=4: sign triples admitting an orbit = 352; e.g. palettes [[4], [1, 3], [0, 2], [4], [1, 3], [0, 2]]
+     k=5, ell=3: sign triples admitting an orbit = 512; e.g. palettes [[3], [4], [3], [4], [3], [4]]
+     k=6, ell=6: sign triples admitting an orbit = 7800; e.g. palettes [[1, 5], [0, 4], [1, 3], [2, 5], [1, 4], [0, 3]]
+     k=6, ell=5: sign triples admitting an orbit = 6280; e.g. palettes [[5], [1, 4], [0, 3], [5], [1, 4], [0, 3]]
+     k=6, ell=4: sign triples admitting an orbit = 4096; e.g. palettes [[4], [5], [4], [5], [4], [5]]
+     k=6, ell=3: sign triples admitting an orbit = 512; e.g. palettes [[3], [4], [3], [4], [3], [4]]
+== Lemma 8.3: 34 valid words (adjacent inequality + antipodal equality) out of 729
+  ok   every valid word contains X
+  ok   mixed-parity words = three-periodic permutation words: ['UVXUVX', 'UXVUXV', 'VUXVUX', 'VXUVXU', 'XUVXUV', 'XVUXVU']
+  ok   mixed-parity words have exactly two X, antipodal
+  ok   isolation of XUVXUV: compatible valid words = ['XUVXUV']
+  ok   XUVXUV != its one-position shift UVXUVX
+  ok   isolation of XVUXVU: compatible valid words = ['XVUXVU']
+  ok   XVUXVU != its one-position shift VUXVUX
+  ok   isolation of UXVUXV: compatible valid words = ['UXVUXV']
+  ok   UXVUXV != its one-position shift XVUXVU
+  ok   isolation of UVXUVX: compatible valid words = ['UVXUVX']
+  ok   UVXUVX != its one-position shift VXUVXU
+  ok   isolation of VXUVXU: compatible valid words = ['VXUVXU']
+  ok   VXUVXU != its one-position shift XUVXUV
+  ok   isolation of VUXVUX: compatible valid words = ['VUXVUX']
+  ok   VUXVUX != its one-position shift UXVUXV
+  ok   28 single-parity valid words; their other-parity positions are all non-X
+== Prop 8.5 word step: cross-compatible valid words with different X-parity
+  ok   4 such ordered pairs; in all, selected entries constant per word and opposite: violations=0
+   controls:
+  ok     drop antipodal equality: X-free words exist e.g. ['UVUVUV', 'VUVUVU'] (expected)
+  ok     without the cross-word restriction XUVXUV is not isolated (33 other valid words)
+  ok     sanity: shift operator behaves (period-2 word fixed by double shift)
+RESULT: ALL CHECKS PASS

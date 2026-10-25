@@ -1,0 +1,316 @@
+
+  ERDŐS #970
+  #970: Jacobsthal's question answered — OpenAI's proof that h(k) ≪ k²/(log log k)², its Lean replayed here and its 83-page paper read by AI seats; and for the $1,000 problem #687, Y(x) ≪ x²/(log x · log log x)² in Lean (ours)
+
+  CLOSEDOCT 23, 2026
+  Community database OPENas of 2025-08-31tags number theoryproblem page · erdosproblems.com/970
+  Newer public claim (6 Oct 2026): OpenAI's internal-model release claims, for this problem, Jacobsthal: h(k) ≪ k²/(log log 3k)², answering Jacobsthal's h(k) ≪ k² — read by three AI referee seats here 23 Oct, see /day/970-openai-jacobsthal-quadratic-refereed — family 21 at github.com/openai/math, OpenAI's own Lean proves Theorem 1.1, h(k) ≤ C·k²/(log log 3k)² for every k ≥ 1 (erdos_970_iterated_log), and the quadratic form (erdos_970_quadratic), by the paper's route through the survivor count of Theorem 1.2. Kernel-replayed on our machine on 23 Oct 2026 — 850 modules, 0 errors, standard axioms, both statements and their definitions matched to the comparator challenges under pp.all, leanchecker --fresh rc 0 — after earlier third-party replays (cert-machine 10 Oct with Lean's kernel and nanoda; 30k30, mathvet, nealmcb). Formal Conjectures' two #970 statements and, for #687, Y(x) ≪ x²/(log x · log log x)² follow in kernel-checked bridges — see our /day entry. Bloom calls these claims, not endorsements.
+
+The problem. Erdős problem #970 [Er65b]. Write j(n) for the least m such that every m consecutive integers include one coprime to n, and h(k) for the largest j(n) over n with at most k distinct prime factors. Equivalently, h(k) − 1 is the longest interval that the multiples of k primes can cover. The page asks for the order of magnitude of h(k), and in particular whether h(k) ≪ k². That question is Jacobsthal's (1960); Erdős recorded it in 1962 [p. 163]. The upper bounds before this release:
+
+ • h(k) ≪ k^C₀ for some absolute C₀, from Brun's sieve (Erdős 1962);
+
+ • j(n) ≪ ω(n)²(log 2ω(n))⁴ (Vaughan 1977);
+
+ • h(k) ≪ k² log² k (Iwaniec 1978), the record for 48 years.
+
+The lower bounds come from primorials and long gaps between primes, where P_k is the product of the first k primes:
+
+ • Ford, Green, Konyagin, Maynard and Tao (2018) give j(P_k) ≫ k(log k)²·log log log k/log log k, by taking x = p_k in their covered-interval bound. The problem page states a weaker form; our July report on #970 (/report/970) made the conversion, and the paper states the same form.
+
+ • An August 2026 claim on #4, credited there to GPT 5.6 Pro, improves the covered-interval bound to Y(x) ≫ x log x/log log log x. That gives j(P_k) ≫ k(log k)²/log log log k. Ben Green wrote that he "became more or less convinced this is correct", and a Lean proof (plby/lean-proofs) contains it as an intermediate theorem. It is unrefereed, and OpenAI's paper does not mention it.
+
+Exact values are known for small k: h(k) = j(P_k) for k ≤ 23 but j(P_24) = 234 < 236 = h(24) (Hajdu–Saradha 2012), and Ziller (2019) computed h(k) through h(43) = 610.
+
+The claim. OpenAI, "A quadratic bound for Jacobsthal's function" (dated 25 September 2026, 83 pages, family 021 of github.com/openai/math). Theorem 1.1: there is an absolute C with
+
+h(k) ≤ C·k²/(log log 3k)²  for every k ≥ 1.
+
+So the answer to the page's particular question, and to Jacobsthal's, is yes, with an extra (log log k)² to spare. The order of magnitude of h(k) is still open. Between k(log k)²/log log log k (or FGKMT's k(log k)²·log₃k/log₂k, if one counts only refereed work) and k²/(log log k)² there is almost a full power of k, and Vaughan suggested j(n) ≪_ε ω(n)^1+ε.
+
+The theorem is deduced from a survivor count, Theorem 1.2. Put L = log z, Y = ⌊z²/L²⌋, w = L/(log L)², B = L/log w and V₀ = ∏_p≤w(1 − 1/p). For every large z and every choice of one residue class a_p mod p at each prime p ≤ z, at least c·YV₀/B² integers in [1, Y] avoid all the classes. By Mertens, YV₀/B² ≍ Y·log log Y/(log Y)².
+
+Why that count is the whole point. At a cutoff of (y/log y)^1/2, Iwaniec's linear sieve already gives at least (4+o(1))·y log log y/(log y)² survivors in [0, y]; Banks, Ford and Tao (2023, (1.12)) record this as the best known lower bound and attribute it to Iwaniec's theory of the linear sieve. Theorem 1.2 keeps that order of magnitude out to a cutoff about √y·log y, which is past sieve parameter 2, where the linear sieve's lower function f vanishes. There the obvious move fails: subtracting the primes in between with Brun–Titchmarsh can remove up to about three times that many. The paper's introduction puts its whole effort in this gap: "positivity of the reference calculation alone does not give a lower bound for the original sieve".
+
+We checked the claim against the one result that could have made it too good. Banks, Ford and Tao show that a uniform y/log y lower bound at their cutoff would rule out exceptional (Siegel) zeros, and that if such zeros exist the minimum can drop below c·y/log y. Our July report on #687 named that as the wall. Theorem 1.2 sits a factor log y/log log y lower, at the level the classical sieve already reaches unconditionally. Their Siegel-zero construction gives y·log q/(log y)², and Siegel's theorem forces log q/log log y → ∞ there. So Theorem 1.2 says nothing about exceptional zeros, and nothing in that direction refutes it.
+
+The argument. The proof is a reference calculation followed by a comparison with the actual classes.
+
+ • §3 sorts discarded integers by the least prime whose forbidden class they hit, iterates, and gets a tree of strictly decreasing prime tuples. Even depths give lower bounds and odd depths upper bounds. An admission rule keeps only progressions long enough for an absolute upper sieve. Replacing each small-prime count by length × V₀ defines a "reference tree".
+
+ • §§4–6 evaluate the reference tree. Its leading term is governed by the linear-sieve functions f and F with the root at parameter 2, where f = 0; what is left is a boundary contribution of size B^−2. Derivative weights of f and F turn the transitions into a probability kernel; regeneration cycles give occupation measures (§4), which are transferred from harmonic integrals to primes (§5). Proposition 6.3 then gives a positive margin after the admission losses and the root's displacement below 2: B²P(r₀,B)/e^γ tends to a limit greater than 0.02.
+
+ • §§7–9 compare with the actual classes. In a long progression the fundamental lemma makes the actual count agree with the reference. At a short progression with a large relative discrepancy, the discrepancy shows on one of the last few edges of its path. Grouping paths into boxes where chosen prime factors vary independently, an inverse estimate (§8) shows that many discrepant edges force alignment with one of finitely many rationals A/D: Da_p ≡ A mod p. It combines polynomial interpolation, Jarník's lattice points on convex arcs and Gallagher's larger sieve. Variance estimates (§9) show such a rational can explain many discrepant endpoints only if its modulus and intercept are small.
+
+ • §10 stops the remaining branches at even nodes. Averaging over one aligned prime that varies over a large subset of its bin gives more survivors than the reference subtree needs; a marked-renewal argument shows almost all of the exceptional mass reaches a stop.
+
+ • §11 adds up the errors, with every constant fixed before the bin width ξ, and ξ before z. Then the deduction: take z = A₀ k log k/log log k. Each of the at most k prime divisors q > z of n hits a progression of length about X = Y/z, and an upper sieve inside that progression removes at most C₁(1 + X/log X) survivors. The ratio of the total loss to the survivor count is 1/A₀ + o(1), so a large fixed A₀ leaves a survivor, and Y ≍ k²/(log log k)². Small k are covered by inclusion–exclusion, with m = (k+1)2^k + 1.
+
+We read §11 ourselves. The deduction is short and we found nothing wrong with it. In particular the "remaining divisor primes" may lie anywhere above z, including above Y, and the translation of the interval is arbitrary.
+
+The Lean, and our replay. OpenAI's two comparator challenges for this family, ComparatorChallenges/Jacobsthal.lean and JacobsthalImproved.lean, state erdos_970_quadratic (h(k) ≤ Ck²) and erdos_970_iterated_log (Theorem 1.1). Both rest on one predicate. IsJacobsthalBound k m says: for every n > 0 with n.primeFactors.card ≤ k and every integer a, some i < m has a + i coprime to n. That is exactly "m ≥ h(k)", with an arbitrary integer translation. The bound reads m ≤ C·k²/(log log (3k))² for every k ≥ 1; log log 3 > 0, so the k = 1 case is not vacuous. The solution, OAI.NumberTheory.Jacobsthal.Main, is 819 modules of OpenAI's own. Its import closure is 850 modules with three vendored dependencies: an Erdős-970 subset of PrimeNumberTheoremAnd (19 modules), of StrongPNT (7) and of AbsorptionCutoff (5).
+
+The 00:00Z seat compiled all 850 from source on our box with Lean v4.34.1 and Mathlib d13f23b7, the repository's pins. It built module by module, with no cache for anything but Mathlib: 850 of 850, 0 errors, three workers, 52 minutes of wall time, peak 7.35 GiB. The checks on the result:
+
+ • #print axioms under --trust=0 gives exactly propext, Classical.choice and Quot.sound for both theorems.
+
+ • The fully elaborated (pp.all) printouts of both theorems and of the definitions they name (IsJacobsthalBound, JacobsthalQuadratic, JacobsthalIteratedLog) match the comparator files character for character after collapsing whitespace: 3 of 3 for each challenge.
+
+ • Our matching script caught all seven mutants we tried: the exponent 2 changed to 3, the 3 inside log log 3k changed to 2, i < m changed to i ≤ m, card ≤ k changed to card < k, an added axiom, the comparator's own sorry removed, and a missing file. The missing file gives exit 2 ("cannot see"); the others give exit 1.
+
+ • A planted sorry surfaces as sorryAx.
+
+ • A scan of all 850 files for sorry, admit, axiom, native_decide, implemented_by, extern, unsafe, opaque and set_option found none. It did find one partial def and one elab_rules, both in PrimeNumberTheoremAnd's additive_combination tactic; that is meta code whose output the kernel checks. It also found one attribute [-instance] … in, which is scoped to a single definition.
+
+ • leanchecker --fresh re-checked the whole environment, Mathlib included, from the stored terms. That covers OpenAI's 850 modules and our Formal Conjectures bridge (below). It exited 0 after 3,703 seconds (peak 8.6 GiB), and its control on a module that does not exist fails as it should.
+
+We were not first. Searching by the challenge names Jacobsthal and JacobsthalImproved, seat W found five earlier checks of this Lean:
+
+ • plasma-ai/erdos (7 October): a build and an axiom check of the quadratic statement;
+
+ • carlostoledo1891/cert-machine (committed 10 October): OpenAI's Comparator on both challenges, accepted by Lean's kernel and by the independent nanoda kernel;
+
+ • HJ van Veen's 30k30/scholia (11 October): Comparator, run with a stub in place of its sandbox;
+
+ • mathvet (12 October): Comparator in its real sandbox;
+
+ • nealmcb/openai-math-lean-tooling: all 416 challenges accepted on 13 October, and a Lean-plus-nanoda sweep on 15 October.
+
+Ours is about the sixth. What it adds is a module-by-module build, the pp.all match of the three definitions (this challenge's configuration lists no definitions for Comparator to compare), the mutation-tested matcher, the source scan, and a leanchecker --fresh pass, which none of the earlier records reports.
+
+The Lean follows the paper's two-step route. In Conclusions/, both theorems come from one survivor estimate, source_root_survivor_lower, at the paper's parameters (sourceY, sourceW, sourceB). That is the analogue of Theorem 1.2. Each theorem is then deduced through a deletion budget for the primes above the cutoff and a finite range of small k, as in §11. A docstring there calls it "Manuscript 293, strengthened Theorem 1.1, revision ad16712e7b45". We did not map the 819 modules onto §§3–10 file by file.
+
+#687, the $1,000 problem: the o(x²) half, and its sharpest form in Lean (ours). Erdős problem #687 asks about Y(x), the longest initial interval [1, y] that one residue class per prime p ≤ x can cover. "Can one prove that Y(x) = o(x²) or even Y(x) ≪ x^1+o(1)?" Erdős offered "the maximum of $1000 dollars and 1/2 my total savings for clearing up of this problem". Iwaniec's bound gives Y(x) ≪ x². By the Chinese remainder theorem Y(x) + 1 = j(P(x)) (FGKMT (1.3)), and P(x) = ∏_p≤xp has π(x) prime factors, so Theorem 1.1 answers the first question. The paper never mentions #687 or Y(x). Others had made the step before us:
+
+ • Plasma AI's wiki made the deduction on 7 October. It read Theorem 1.2 directly, as Y(x) < x²/(log x)², and noted that "the step from h to Y is not formalized".
+
+ • FC issue #6908 (7 October) flagged the same reduction for Green's Problem 46.
+
+ • HJ van Veen's 30k30/scholia (11–16 October) proved in Lean, from OpenAI's theorems:
+
+ • FC's erdos_687.parts.ii, Y(x) = o(x²);
+
+ • Green 46's improve_upper, with answer (x+1)²/(log log 3(x+1))²;
+
+ • the right-hand side of FC's erdos_970.
+
+FC links it as the formal proof of both FC statements. Its README states the sharp answer, Y(x) ≪ x²/((log x)²(log log x)²), but its Lean uses π(x) ≤ x + 1 and so proves the weaker form.
+
+ • AItoBit (18 October) has a conditional Lean transfer to Y(x) = O((x/log x)²), pending a Lean 4.35 port of OpenAI's closure. FC draft PR #7442 proposes it as a new variant, erdos_687.variants.quadratic_log, with no formal proof attached.
+
+Ours is the sharp form, in Lean, unconditional in OpenAI's own environment (label (d)):
+
+Y(x) ≪ x² / (log x · log log x)².
+
+Erdos687.Y_isBigO states it for FC's own Y, whose definitions are copied verbatim from formal-conjectures at c83a94d7 (Bridge687.lean). The proof has two steps.
+
+ • lt_of_covered is the Chinese remainder step, written independently of 30k30's. A cover of [1, y] gives y consecutive integers none of which is coprime to x#, so y < m for any admissible m of OpenAI's IsJacobsthalBound k m with k ≥ π(x).
+
+ • Then apply OpenAI's erdos_970_iterated_log at k = ⌈2x/log x⌉, which is at least π(x) by Mathlib's Chebyshev bound π(x) ≤ (log 4 + ε)x/log x. That avoids any lower bound for π(x). What remains is log x ≤ √x and log log 3k ≥ ½ log log x, eventually.
+
+The corollaries, each statement verbatim:
+
+ • FC's erdos_687.parts.ii, independently of 30k30's proof;
+
+ • FC's erdos_687.variants.iwaniec, Y(x) ≪ x², tagged solved in FC with a sorry and no linked proof;
+
+ • PR #7442's proposed erdos_687.variants.quadratic_log (Bridge687b.lean, checked against the PR's diff at ecd8e11c).
+
+The checks:
+
+ • All five theorems depend only on propext, Classical.choice and Quot.sound under --trust=0.
+
+ • A planted sorry in the CRT step surfaces as sorryAx in all four of the main file's theorems.
+
+ • Asking for (log x · (log log x)²)² in the denominator, a stronger statement, makes the proof fail.
+
+ • Replacing Chebyshev's 2x/log x by x/log x makes it fail at the step that uses the constant.
+
+ • Both verbatim checks pass, and their mutated copies fail.
+
+ • leanchecker --fresh over Mathlib, OpenAI's closure and Bridge687.lean: [[LC687]].
+
+#687 itself stays open. The harder half, Y(x) ≪ x^1+o(1), is untouched, and Maier and Pomerance conjecture Y(x) ≪ x(log x)^2+o(1).
+
+Formal Conjectures' #970 statements. FC tags both erdos_970 (h(k) ≪ k²) and erdos_970.variants.iterated_log research solved. Each links OpenAI's theorem, and each proof body is still sorry. The gap is one step: FC bounds jacobsthalFunction k := sInf {m | IsJacobsthalBound k m}, while OpenAI proves that some admissible m exists below the bound. Our Bridge970.lean proves verbatim copies of both from OpenAI's theorems (verbatim check against FC at 93e94653 and c83a94d7, mutated copy fails, standard axioms, three mutants behave). 30k30's file had already done erdos_970, under a different namespace, on 11 October. So only the iterated_log variant is new here, and it is a one-line step.
+
+Numbers (label (d); they test nothing about an asymptotic theorem with an ineffective constant). The exact values, from Hajdu–Saradha for k ≤ 23 and Ziller's Table 2 for 24 ≤ k ≤ 43:
+
+kh(k)h(k)/k²h(k)·(log log 3k)²/k²
+
+5140.5600.556
+
+10460.4600.689
+
+201740.4350.864
+
+242360.4100.865
+
+303320.3690.834
+
+436100.3300.825
+
+Our July report recomputed h(k) for k ≤ 14 with its own exhaustive checker; the 00:00Z seat recomputed j(P_k) for k ≤ 9. In this range h(k)/k² falls and the iterated-log ratio is flat near 0.85, which is what one would expect from either bound and decides nothing. Seat R3 adds a sharper reason not to read anything into small k. The o(1) in the deduction (§11.2, (11.10)) decays like 2 log M/M with M = log log k. With A₀ = 2C₁/c₀, the paper's choice, the inequality it needs first holds once log k exceeds about 9.5·10³. The theorem has no effective constant and does not claim one.
+
+The reading. Four seats, all Claude Opus 5.5, were each briefed to refute, to quote the sentence they objected to by the paper's printed numbering, and to grade every objection FATAL, GAP, FIXABLE or EXPOSITION. None of them was told the paper's argument held. Their scopes:
+
+ • seat R1: §§2–6, the reference calculation;
+
+ • seat R2: §§7–9, the boxes, the inverse estimate and the variance;
+
+ • seat R3: §§10–11 with both appendices, plus the comparator statements against Theorem 1.1;
+
+ • seat W: the sources and the world.
+
+A panel launched at 00:00 UTC died on a subscription limit before any seat reported. These are the 03:00 UTC relaunch. R1, R2 and R3 each returned HOLDS AS READ, with no FATAL, GAP or FIXABLE objection in its scope, only exposition notes. W found every citation it could open saying what the paper says it says.
+
+ • R1 recomputed the margin of Proposition 6.3 by a different route. The paper bounds the correction integral I by a first-omission series and proves I > 0.14. R1 instead solved the cutoff-2 boundary recursion on a two-dimensional grid and integrated directly, getting I = 0.359344, stable to 4·10^−6 across meshes. The paper's own series, with the exact L₂ and L₃ (equal to its closed forms to 25 digits), gives 0.359348. Moving the admission threshold by ±0.05 moves I to 0.264 or 0.454, so the agreement is not automatic. With M_g = 4.5646 (the paper uses M_g ≤ 4e^γ = 7.124), the limit −a⋆ + 2I/M_g is about 0.147, against the claimed > 0.02.
+
+ • R1 then checked the B^−2 limit end to end in the continuous model, with no renewal theory. Propagating the boundary anomalies directly gives 0.1977, 0.1714, 0.1616 and 0.1584 at B = 10, 20, 40 and 80, which extrapolates to 0.15735 against the predicted 2I/M_g = 0.15745.
+
+ • R1 brute-forced the tree. The even/odd expansion of §3 is a lower bound for every choice of classes, random or greedy-adversarial, at w ≤ 7 and Y ≤ 6000. Moving the admission test to the other parity breaks it in 80 of 80 trials.
+
+ • R2 rebuilt the inverse estimate of §8 step by step and found the three things the brief suspected absent:
+
+ • the list of rationals A/D is defined before any failure set, cell or sample is chosen;
+
+ • its size bound depends only on σ and a⋆, not on z or the bin width ξ;
+
+ • nothing averages over the classes a_p; the only averages are over the box primes and a uniform sample of edge primes.
+
+Jarník's and Gallagher's arguments are reproved in the text rather than cited, and the reproofs are correct. Its numerics included an exact check of the pair factor (9.12) and a faithful toy of §9.1's coordinates on 73 actual primes, with controls that fail.
+
+ • R3 checked the stopping argument (Propositions 10.5–10.6) and the deduction. For a fixed group, every prime of the aligning subset gives a stop with the same labels and tag position. That is the step where an argument over arbitrary classes could quietly lose its average, and it holds. The averaged 0.39 drops to 0.34 after the non-aligning primes are removed, which still beats the 0.33 the reference subtree needs. Lemma A.1 was brute-forced on 60 small cases (worst error 0.0011 of the stated error term).
+
+The exposition notes, for the authors:
+
+ • Every cross-reference to a lemma, proposition or corollary prints as "Theorem" (e.g. "Theorem 7.2" for Proposition 7.2, "By Theorem 8.3" on p. 51).
+
+ • Several letters do double duty: R, H, N, δ, and C₁ in (11.9).
+
+ • Proposition 6.3's "braces … at most 2.14" (p. 34) is a maximum only because the braces decrease in m, which is true but unstated.
+
+ • The o(1) in the root parameter r₀ = 2B − a⋆ + o(1) is about −4 log log L/log L, so at any z one could name, the root sits much further below 2 than a⋆ = 0.01.
+
+ • Lemma 10.4's ".94 − o(1)" approaches from below, and clears 0.94e^−γ only once log P ≳ 65.
+
+ • Lemma 8.3's proof gives D₀³ where D₀⁴ is stated, as the authors note.
+
+The seats name one place where a defect elsewhere would do the most damage. R2's "isolated position" step in Proposition 7.2 needs every regular compact endpoint to carry a singleton-bin factor in [α_minB, α_maxB]. That rests on §4–5's uniform ratio-tail bounds, which R1 checked by hand but which cannot be tested with actual primes. At z = 10^100 one has w ≈ 7.8.
+
+Sources and the world.
+
+ • Citations. Seat W opened each of the following at the cited locator, and each says what the paper says:
+
+ • Iwaniec 1978, p. 226. Its Theorem: an interval of length c∏(1−1/q_i)^−1r² log r holds at least r² integers coprime to q₁⋯q_r. Its Corollary: C(r) ≪ r² log² r.
+
+ • Vaughan 1977, p. 329: the theorem, the explanation of the exponent 2, and the ω(n)^1+ε suggestion.
+
+ • Erdős 1962, p. 163, equations (1)–(3): "Jacobsthal asked (in a letter) if (3) C(r) < c₄r² is true."
+
+ • Hajdu–Saradha, Theorem 1.2.
+
+ • FGKMT §1.1, (1.2)–(1.3).
+
+ • Costello–Watts arXiv v2, Theorem 4.4 and §5.
+
+ • Ziller, §3.
+
+ • Banks–Ford–Tao §§1.3–1.4.
+
+Jacobsthal 1960 and Iwaniec 1971 were not accessed.
+
+ • The problem page's lower bound, h(k) ≫ (log k)(log log log k)/(log log k)²·k "due to [FGKMT18]", is not FGKMT's form. It is Rankin's shape, as Erdős quotes it in 1962, with one factor of log k dropped. It is true but weaker than both FGKMT's form and the August one.
+
+ • The record elsewhere.
+
+ • The problem page has no proof claims, no comments and no mention of OpenAI; comments are suspended. Its OEIS link, A048669, is j(n) for every n; h(k) itself is A395279 (Shallit, April 2026), known through k = 43, and j(P_k) is A048670, known through k = 64 (1110).
+
+ • The teorth database still lists #970 and #687 as open (last update 31 August 2025).
+
+ • Formal Conjectures marked both #970 statements solved in PR #6898 (merged 11 October), linking OpenAI's theorems; the proofs remain sorry.
+
+ • Thomas Bloom's 8 October post lists #970 among the release's 25 Erdős claims, with the disclaimer that he had not looked at the proofs "in any serious way". His one-line summary of #970 contains two slips (it says "divisible by" where it means coprime to, and calls Iwaniec's upper bound "the best previous lower bound"); do not quote it.
+
+ • #970 is on Epoch's FrontierMath list of open Erdős problems.
+
+ • No expert assessment of the 83-page argument, no reported error, no arXiv version and no independent proof turned up. Will Sawin's MathOverflow answer of 9 October lists the result among those that "align with conventional wisdom", without comment on correctness.
+
+ • The paper and its Lean have not changed since release. The only commit touching the preprint, lean/OAI/NumberTheory/Jacobsthal or lean/docs/021.md is the initial one (adc7f124, 6 October), and FC's links point at that commit.
+
+What this entry is. The theorem is OpenAI's, and its proof is OpenAI's model's. What is ours:
+
+ • a kernel replay of the Lean, with its controls. It is not the first; see above.
+
+ • the four readings, and the sanity check against Banks–Ford–Tao;
+
+ • a Lean proof of Y(x) ≪ x²/(log x · log log x)² for Erdős #687, the sharpest form of the $1,000 problem's first half that Theorem 1.1 gives, with FC's erdos_687.variants.iwaniec as a corollary;
+
+ • the one-step Lean proof of FC's erdos_970.variants.iterated_log.
+
+Labels, as used on this site: (a) elementary; (b) rigorous modulo named cited theorems; (c) plausible, unverified; (d) computer-assisted. Theorem 1.1, the quadratic bound and FC's two #970 statements are (d): Lean-verified, kernel-replayed here and before, unrefereed by any human. Our #687 bound is (d) as well: Lean, from OpenAI's theorem and Mathlib's Chebyshev bound. The paper's own argument, read here by AI seats, is (c) as a written proof. The Lean follows it at the top level, but we did not check its internals against §§3–10.
+
+Where to look for a hole. In the formal claim, each of these can be read without trusting the rest:
+
+ • the predicate IsJacobsthalBound and the two target statements in the comparator files. Is "for every n with primeFactors.card ≤ k and every integer a, some i < m has a + i coprime to n" the problem?
+
+ • the kernel: our replay (Mathlib's compiled files came from its cache), the leanchecker --fresh pass, and the earlier third-party replays (one with nanoda too);
+
+ • the vendored dependencies. These are 31 modules of PrimeNumberTheoremAnd, StrongPNT and AbsorptionCutoff carried inside the release, plus one custom tactic, which is meta code;
+
+ • our two bridge files: 49 lines for #970 and 211 for #687, against FC's text.
+
+In the paper, the seats point at:
+
+ • the uniform ratio-tail bounds and the compact-history conversion of §§4–5 (Proposition 5.5, Lemma 4.6), which the isolated-position step of Proposition 7.2 rests on. R1 checked them by hand only; nothing with actual primes can test them;
+
+ • the sign of Proposition 6.3, a B^−2 quantity taken from an alternating tree of much larger mass. R1 recomputed it by a second route and found a large margin;
+
+ • Proposition 10.5's group argument: if any stop condition depended on the tag prime beyond its alignment, the average over arbitrary classes would fail. R3 checked each condition;
+
+ • the cited inputs no seat opened: the dimension-two fundamental lemma (Lemma 2.1, citing Sofos 2023), Heath-Brown's short-interval prime number theorem (Lemma 2.2(iv)), the key renewal theorem in Serfozo's form, and the Kloosterman bound behind Lemma A.1.
+
+ • None of these can sink Theorem 1.1 if the Lean is right. That is the point of replaying it, and the reason the formal list above comes first.
+
+  Sources & verificationerdosproblems.com/970 (read 23 Oct 2026: no proof claims, comments suspended, no mention of OpenAI; its lower bound is Rankin's shape with a log dropped) ↗
+erdosproblems.com/687 — the $1,000 problem on Y(x) (read 23 Oct 2026; still lists Iwaniec's Y(x) ≪ x² as the best upper bound) ↗
+OpenAI, "A quadratic bound for Jacobsthal's function" (family 021, dated 25 Sep 2026, released 6 Oct, 83 pp) ↗
+OpenAI's Lean — OAI/NumberTheory/Jacobsthal (819 modules; Conclusions/QuadraticBound.lean and IteratedLogBound.lean) ↗
+OpenAI's comparator challenges ComparatorChallenges/Jacobsthal.lean and JacobsthalImproved.lean ↗
+Earlier replay: carlostoledo1891/cert-machine — Comparator on both challenges, Lean's kernel and nanoda accept (run 38019899278, committed 10 Oct 2026) ↗
+Earlier replay: nealmcb/openai-math-lean-tooling — all 416 challenges accepted 13 Oct 2026; Lean + nanoda sweep 15 Oct ↗
+HJ van Veen (30k30), scholia/erdos-687 (11–16 Oct 2026) — Lean proofs of FC's erdos_687.parts.ii, green_46.improve_upper and erdos_970's right-hand side from OpenAI's theorems ↗
+Formal Conjectures, Erdős 970 and 687 at commit c83a94d7 (statements our bridges copy) ↗
+Formal Conjectures draft PR #7442 (AItoBit, 18 Oct 2026) — proposes erdos_687.variants.quadratic_log, Y(x) ≪ (x/log x)², no formal proof attached ↗
+Plasma AI wiki, E0687 claim page (7 Oct 2026) — the deduction Y(x) = o(x²), noted as not formalized ↗
+Iwaniec, "On the problem of Jacobsthal", Demonstratio Math. 11 (1978) 225–231 — Theorem and Corollary, p. 226 ↗
+Vaughan, "On the order of magnitude of Jacobsthal's function", Proc. Edinburgh Math. Soc. 20 (1977) 329–331 ↗
+Erdős, "On the integers relatively prime to n and on a number-theoretic function considered by Jacobsthal", Math. Scand. 10 (1962) — p. 163, Jacobsthal's question ↗
+Ford, Green, Konyagin, Maynard, Tao, "Long gaps between primes" (JAMS 2018; arXiv 1412.5029) — §1.1, (1.2)–(1.3) ↗
+Banks, Ford, Tao, "Large prime gaps and probabilistic models" (arXiv 1908.08613) — (1.12) and §9, the exceptional-zero obstruction ↗
+Hajdu and Saradha, "Disproof of a conjecture of Jacobsthal", Math. Comp. 81 (2012) — Theorem 1.2: j(P₂₄) = 234 < 236 = h(24) ↗
+Ziller, "New computational results on a conjecture of Jacobsthal" (arXiv 1903.11973) — Table 2, h(k) through k = 43 ↗
+erdosproblems.com/4 and its proof-claims tab — the August 2026 covering bound Y(x) ≫ x log x/log log log x (GPT 5.6; Lean in plby/lean-proofs; unrefereed) ↗
+OEIS A395279 — h(k) (k ≤ 43); A048670 — j(P_k) (k ≤ 64) ↗
+Our July 2026 report on #970 (the FGKMT conversion; exact h(k) for k ≤ 14) ↗
+Our July 2026 report on #687 (exact Y(x) for x < 43; the interval-sieve wall) ↗
+Our bundle (repository private at the time of writing; files available on request) — the replay (driver, per-module logs, probes, statement match and its mutation test), source scan, both bridges with controls, the referee reports and their scripts ↗
+
+← our attempt log · problem #970 on the board
+
+  The problems are Paul Erdős's, collected by Thomas Bloom at erdosproblems.com — the authoritative wording lives there.
+  Statuses come from the community database teorth/erdosproblems and statements from
+  Google DeepMind's Formal Conjectures, both Apache-2.0.
+
+  Built and kept by Patrick White with Claude (Anthropic). Our own attempts are labelled as ours, everywhere. About · Send an attempt
+
+
+
+=== SUMMARY (shown on cards/feeds) ===
+Let h(k) be the longest run of consecutive integers that the multiples of k primes can need to cover, plus one. Jacobsthal asked in 1960 whether h(k) ≪ k², and the page asks it in particular; the record since 1978 was Iwaniec's k² log² k. OpenAI's preprint of 25 September (83 pages, family 021) proves h(k) ≪ k²/(log log 3k)², by keeping a classical survivor count alive past sieve parameter 2, where the linear sieve's lower function vanishes. Its Lean (850 modules) was replayed on our box with standard axioms, statements matched, and leanchecker --fresh; about the sixth replay, not the first. Three AI referee seats read §§2–11 and found no gap; one recomputed the decisive margin by a second route (0.147 against the claimed 0.02). Ours: a Lean proof of Y(x) ≪ x²/(log x · log log x)² for Erdős #687, the sharpest form of its o(x²) half that the theorem gives, and the Formal Conjectures statements that follow. The theorem is OpenAI's.
+
+=== HEADLINE CARD (front page) ===
+n: 970, kind: "solved", tag: "23 OCT · OPENAI'S CLAIM — THE THEOREM IS NOT OURS · JACOBSTHAL 1960 (ERDŐS 1962): IS h(k) ≪ k²? · CLAIMED: YES, h(k) ≪ k²/(log log k)² — IWANIEC'S k² log² k HAD STOOD SINCE 1978 · LEAN KERNEL-REPLAYED HERE (850 MODULES, STATEMENTS MATCHED; ABOUT THE SIXTH REPLAY) · THREE HOSTILE AI REFEREE SEATS FIND NO GAP · OURS: #687's o(x²) HALF IN ITS SHARPEST FORM, Y(x) ≪ x²/(log x · log log x)², PROVED IN LEAN · UNREVIEWED BY HUMANS",
+    title: "Jacobsthal's function: OpenAI's proof that h(k) ≪ k²/(log log k)² holds as read, and its Lean replays clean",
+    line: "Keep the classical survivor count alive past sieve parameter 2, where the linear sieve's lower function is zero: a boundary term of size B⁻² survives, and a comparison with the actual residue classes shows the discrepancy can't eat it. Three referee seats read §§2–11 and found no gap, one recomputed the margin by another route, and the Lean replays with standard axioms. For Erdős's $1,000 problem #687 it gives Y(x) ≪ x²/(log x · log log x)², which we proved in Lean.",
+    

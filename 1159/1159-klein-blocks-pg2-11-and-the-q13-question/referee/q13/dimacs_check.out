@@ -1,0 +1,158 @@
+######## cube 11
+vars 16321 clauses 33696 | pos units: [(0, 0, 1), (1, 0, 0)] | #neg units: 26 | aux units: 0
+  neg units == line(1, 0, 0) minus pos? False | neg units on (1, 0, 0) : 13
+  neg units == line(0, 0, 1) minus pos? False | neg units on (0, 0, 1) : 13
+  neg units exactly = (x=0 \ P0) U (z=0 \ Q1): True
+pure point clauses: 185 all positive & each a full line: False distinct lines: 185
+aux components: 198
+   183 x  line(any)                    n= 14  <=4
+     1 x  ALL183                       n=183  <=37
+     1 x  ALL183                       n=183  >=20
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 1, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 10, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 11, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 2, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 3, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 4, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 5, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 6, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 7, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 8, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 9, 0)-minus(0, 0, 1) n= 13  <=1
+distinct canonical forms among 14-point components: 1
+component-test time 3.7 s; exhaustive
+######## cube 21
+vars 16353 clauses 33749 | pos units: [(0, 0, 1), (1, 0, 0), (1, 0, 1)] | #neg units: 26 | aux units: 0
+  neg units == line(1, 0, 0) minus pos? False | neg units on (1, 0, 0) : 13
+  neg units == line(0, 0, 1) minus pos? False | neg units on (0, 0, 1) : 13
+  neg units exactly = (x=0 \ P0) U (z=0 \ Q1): True
+pure point clauses: 184 all positive & each a full line: False distinct lines: 184
+aux components: 199
+   183 x  line(any)                    n= 14  <=4
+     1 x  ALL183                       n=183  <=37
+     1 x  ALL183                       n=183  >=20
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  >=2
+     1 x  line(1, 1, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 10, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 11, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 2, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 3, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 4, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 5, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 6, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 7, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 8, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 9, 0)-minus(0, 0, 1) n= 13  <=1
+distinct canonical forms among 14-point components: 1
+component-test time 9.1 s; exhaustive
+######## cube 22
+vars 16495 clauses 33999 | pos units: [(0, 0, 1), (1, 0, 0), (1, 0, 1)] | #neg units: 26 | aux units: 0
+  neg units == line(1, 0, 0) minus pos? False | neg units on (1, 0, 0) : 13
+  neg units == line(0, 0, 1) minus pos? False | neg units on (0, 0, 1) : 13
+  neg units exactly = (x=0 \ P0) U (z=0 \ Q1): True
+pure point clauses: 183 all positive & each a full line: True distinct lines: 183
+aux components: 200
+   183 x  line(any)                    n= 14  <=4
+     1 x  ALL183                       n=183  <=37
+     1 x  ALL183                       n=183  >=20
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  >=2
+     1 x  line(1, 1, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 10, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 11, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  >=2
+     1 x  line(1, 2, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 3, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 4, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 5, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 6, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 7, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 8, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 9, 0)-minus(0, 0, 1) n= 13  <=2
+distinct canonical forms among 14-point components: 1
+component-test time 13.5 s; exhaustive
+######## cube 31
+vars 16369 clauses 33781 | pos units: [(0, 0, 1), (1, 0, 0), (1, 0, 1)] | #neg units: 26 | aux units: 0
+  neg units == line(1, 0, 0) minus pos? False | neg units on (1, 0, 0) : 13
+  neg units == line(0, 0, 1) minus pos? False | neg units on (0, 0, 1) : 13
+  neg units exactly = (x=0 \ P0) U (z=0 \ Q1): True
+pure point clauses: 184 all positive & each a full line: False distinct lines: 184
+aux components: 199
+   183 x  line(any)                    n= 14  <=4
+     1 x  ALL183                       n=183  <=37
+     1 x  ALL183                       n=183  >=20
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  >=3
+     1 x  line(1, 1, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 10, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 11, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 2, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 3, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 4, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 5, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 6, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 7, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 8, 0)-minus(0, 0, 1) n= 13  <=1
+     1 x  line(1, 9, 0)-minus(0, 0, 1) n= 13  <=1
+distinct canonical forms among 14-point components: 1
+component-test time 9.6 s; exhaustive
+######## cube 32
+vars 16511 clauses 34031 | pos units: [(0, 0, 1), (1, 0, 0), (1, 0, 1)] | #neg units: 26 | aux units: 0
+  neg units == line(1, 0, 0) minus pos? False | neg units on (1, 0, 0) : 13
+  neg units == line(0, 0, 1) minus pos? False | neg units on (0, 0, 1) : 13
+  neg units exactly = (x=0 \ P0) U (z=0 \ Q1): True
+pure point clauses: 183 all positive & each a full line: True distinct lines: 183
+aux components: 200
+   183 x  line(any)                    n= 14  <=4
+     1 x  ALL183                       n=183  <=37
+     1 x  ALL183                       n=183  >=20
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  >=3
+     1 x  line(1, 1, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 10, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 11, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  >=2
+     1 x  line(1, 2, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 3, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 4, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 5, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 6, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 7, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 8, 0)-minus(0, 0, 1) n= 13  <=2
+     1 x  line(1, 9, 0)-minus(0, 0, 1) n= 13  <=2
+distinct canonical forms among 14-point components: 1
+component-test time 17.7 s; exhaustive
+######## cube 33
+vars 16615 clauses 34217 | pos units: [(0, 0, 1), (1, 0, 0), (1, 0, 1)] | #neg units: 26 | aux units: 0
+  neg units == line(1, 0, 0) minus pos? False | neg units on (1, 0, 0) : 13
+  neg units == line(0, 0, 1) minus pos? False | neg units on (0, 0, 1) : 13
+  neg units exactly = (x=0 \ P0) U (z=0 \ Q1): True
+pure point clauses: 183 all positive & each a full line: True distinct lines: 183
+aux components: 200
+   183 x  line(any)                    n= 14  <=4
+     1 x  ALL183                       n=183  <=37
+     1 x  ALL183                       n=183  >=20
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(0, 1, 0)-minus(0, 0, 1) n= 13  >=3
+     1 x  line(1, 1, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 10, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 11, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 12, 0)-minus(0, 0, 1) n= 13  >=3
+     1 x  line(1, 2, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 3, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 4, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 5, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 6, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 7, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 8, 0)-minus(0, 0, 1) n= 13  <=3
+     1 x  line(1, 9, 0)-minus(0, 0, 1) n= 13  <=3
+distinct canonical forms among 14-point components: 1
+component-test time 17.4 s; exhaustive

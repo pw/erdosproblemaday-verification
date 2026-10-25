@@ -1,0 +1,6 @@
+WrongShape.lean:6:2: error: Type mismatch
+  uniform_lower_bound
+has type
+  ∃ K, ∀ k ≥ K, ∀ r ≥ 2, ↑k ^ (1 / 100000 * ↑k * ↑(Nat.log 2 r)) < ↑(W r k)
+but is expected to have type
+  ∃ K, ∀ k ≥ K, ∀ r ≥ 2, ↑k ^ (1 * ↑k * ↑(Nat.log 2 r)) < ↑(W r k)

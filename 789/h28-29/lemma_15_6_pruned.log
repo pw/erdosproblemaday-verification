@@ -1,0 +1,2 @@
+(m=15,k=6) engine=z3 patterns=78/231 clauses=5005 disjuncts=390390 -> sat in 233729.6s
+  counterexample candidate [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 18, 19, 23]; every 6-subset bad: True

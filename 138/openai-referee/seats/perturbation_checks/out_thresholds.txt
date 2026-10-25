@@ -1,0 +1,22 @@
+$ python3 thresholds.py
+2c - gamma/80 = -21/200000   (1/50000 - 1/8000 = -21/200000 )
+p < 1/2 iff k > 2^20 = 1048576 ; check p(2^20) = 0.5
+scanned 745 values of k in [2^20, 1e18]: max log R_k bound = -1241.4, max log A_k bound = -128365.3 (need both < log(1/2) = -0.693)
+  k=       1048576: D,M,h0=(4, 1024, 16), log lambda=38.8, logR<=-1298, logA<=-1.291e+05
+  k=      10000000: D,M,h0=(6, 3163, 36), log lambda=81.0, logR<=-1.653e+04, logA<=-1.111e+06
+  k=    1000000000: D,M,h0=(8, 31623, 64), log lambda=165.6, logR<=-2.175e+06, logA<=-8.854e+07
+  k= 1000000000000: D,M,h0=(16, 1000000, 256), log lambda=646.0, logR<=-2.901e+09, logA<=-6.269e+10
+rich bound < 1/2 from about k = 159151
+Section-6 union bounds R_k + A_k < 1 on the whole scanned range: YES
+exit=0
+$ python3 thresholds.py control   # c = 1/10000 > gamma/160
+2c - gamma/80 = 3/40000   (1/50000 - 1/8000 = -21/200000 )
+p < 1/2 iff k > 2^20 = 1048576 ; check p(2^20) = 0.5
+scanned 745 values of k in [2^20, 1e18]: max log R_k bound = 3060524171538492.5, max log A_k bound = -126795.4 (need both < log(1/2) = -0.693)
+  k=       1048576: D,M,h0=(4, 1024, 16), log lambda=38.8, logR<=1318, logA<=-1.271e+05
+  k=      10000000: D,M,h0=(6, 3163, 36), log lambda=81.0, logR<=1.248e+04, logA<=-1.097e+06
+  k=    1000000000: D,M,h0=(8, 31623, 64), log lambda=165.6, logR<=1.555e+06, logA<=-8.714e+07
+  k= 1000000000000: D,M,h0=(16, 1000000, 256), log lambda=646.0, logR<=2.072e+09, logA<=-6.176e+10
+rich bound < 1/2 from about k = never below 1e12
+Section-6 union bounds R_k + A_k < 1 on the whole scanned range: NO
+exit=1

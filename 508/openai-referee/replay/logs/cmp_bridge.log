@@ -1,0 +1,1 @@
+'Cmp.no_proper_five_coloring' depends on axioms: [propext, Classical.choice, Quot.sound]

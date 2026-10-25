@@ -1,0 +1,11 @@
+BridgeMut.lean:55:56: error: Application type mismatch: The argument
+  hsmall i
+has type
+  ediam (c i) ≤ ediam X
+but is expected to have type
+  ediam (c i) < ediam X
+in the application
+  lt_of_le_of_lt (ediam_mono Set.inter_subset_left) (hsmall i)
+'Bridge505.Borsuk.borsuk_conjecture.not_nine' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Bridge505.Borsuk.borsuk_conjecture.not_forall' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Bridge505.Borsuk.borsuk_conjecture' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

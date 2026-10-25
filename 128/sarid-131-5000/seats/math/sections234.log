@@ -1,0 +1,7 @@
+max D2(G)/n^2 over ALL triangle-free graphs on <=10 vertices = 0.040000 (n=5); 2/47 = 0.042553; 1/25 = 0.04
+Lemma 2.2 on 59 graphs (k=2): violations of D2/hom/e scaling or triangle-freeness = 0
+Lemma 2.2 k=3 on 26 graphs: D2 violations = 0
+Lemma 2.1 rounding on 400 random (graph, fractional half): violations = 0
+Lemma 3.2 on 379 graphs (Delta<n/2): identity failures = 0, averaged-bound failures = 0
+Section 4.2 construction on 272 (graph, bipartition) pairs: (13) exact every time; min over pairs of [ (B_i - L mu^3/c^2) - cost(perturbed half) ] = 0.000e+00 (must be >= 0)
+K_6,6 uniform, alpha=0.15: A(alpha)-best = 5.6250000000e-03; 4L mu^3 = 5.6250000000e-03; with 1.01*L the claimed saving 5.6812500000e-03 would FAIL

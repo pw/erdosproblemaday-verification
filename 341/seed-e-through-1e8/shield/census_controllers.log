@@ -1,0 +1,27 @@
+== erdos341q/census (single-wrap carry = the two-rail carry pattern) m=2 strict=0 q0=1 ==
+m=2 strict=0 q0=1 Q=65536 Pmax=8000 ICs=16 aperiodic-to-Q=0
+period histogram (P:count): 1:15 2:1
+== erdos341q/census (single-wrap carry = the two-rail carry pattern) m=2 strict=1 q0=1 ==
+m=2 strict=1 q0=1 Q=65536 Pmax=8000 ICs=16 aperiodic-to-Q=0
+period histogram (P:count): 1:16
+== erdos341q/census (single-wrap carry = the two-rail carry pattern) m=2 strict=0 q0=2 ==
+m=2 strict=0 q0=2 Q=65536 Pmax=8000 ICs=64 aperiodic-to-Q=0
+period histogram (P:count): 1:60 2:3 4:1
+== erdos341q/census (single-wrap carry = the two-rail carry pattern) m=2 strict=1 q0=2 ==
+m=2 strict=1 q0=2 Q=65536 Pmax=8000 ICs=64 aperiodic-to-Q=0
+period histogram (P:count): 1:63 5:1
+== erdos341q/census (single-wrap carry = the two-rail carry pattern) m=2 strict=0 q0=3 ==
+m=2 strict=0 q0=3 Q=65536 Pmax=8000 ICs=256 aperiodic-to-Q=0
+period histogram (P:count): 1:245 2:3 3:2 4:3 5:2 9:1
+== erdos341q/census (single-wrap carry = the two-rail carry pattern) m=2 strict=1 q0=3 ==
+m=2 strict=1 q0=3 Q=65536 Pmax=8000 ICs=256 aperiodic-to-Q=0
+period histogram (P:count): 1:249 2:2 3:2 5:3
+== general-carry census2 on M=6 two rails, q0=3, both rules (dynamics are the same for every M=3k) ==
+ICs tested=225 (every rail nonempty on q<=3) aperiodic-to-Q=0; period histogram: 1:214 2:3 3:2 4:3 5:2 9:1
+ICs tested=225 (every rail nonempty on q<=3) aperiodic-to-Q=0; period histogram: 1:218 2:2 3:2 5:3
+== control: three rails at M=49 (Li) ==
+ICs tested=27 (every rail nonempty on q<=1) aperiodic-to-Q=23; period histogram: 1:2 2:1 4:1
+ICs tested=27 (every rail nonempty on q<=1) aperiodic-to-Q=18; period histogram: 3:1 9:1 11:1 21:1 27:1 28:1 53:1 63:2
+== reference (single-wrap tool): 3 rails q0=1 rule D ==
+m=3 strict=0 q0=1 Q=65536 Pmax=8000 ICs=64 aperiodic-to-Q=60
+period histogram (P:count): 1:2 2:1 4:1

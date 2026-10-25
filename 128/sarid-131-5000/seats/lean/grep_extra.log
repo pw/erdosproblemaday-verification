@@ -1,0 +1,32 @@
+== include
+== variable lines (distinct)
+      2 variable {G : SimpleGraph V} [DecidableRel G.Adj]
+      1 variable {V : Type u}
+      5 variable {V : Type u} [Fintype V]
+     27 variable {V : Type u} [Fintype V] [DecidableEq V]
+== Fact
+== @[simp] on local defs or attribute modifications
+== 'instance' declarations
+Erdos128/FiniteHostClassification.lean:44:instance {n : ℕ} (mask : AdjMask n) : Decidable (IsSimpleMask mask) := by
+Erdos128/FiniteHostClassification.lean:48:instance {n : ℕ} (mask : AdjMask n) :
+Erdos128/FiniteHostClassification.lean:53:instance {n : ℕ} (parent : AdjMask n) (profile : Fin n → Bool) :
+Erdos128/FiniteHostClassification.lean:336:instance {n : ℕ} (certificate : ExtensionCertificate n)
+Erdos128/FiniteHostClassification.lean:516:instance {n : ℕ} (certificate : ExtensionCertificate n) :
+Erdos128/LowDensityConstruction.lean:227:local instance largeVertexFintype (C : OrientedBCLCut G) :
+Erdos128/LowDensityConstruction.lean:231:local instance largeGraphAdjDecidable (C : OrientedBCLCut G) :
+Erdos128/BCLCertificate/Semantics.lean:41:instance {k : ℕ} (cut : RootedCut k) : Decidable cut.IsAdmissible := by
+Erdos128/BalancedBlowup.lean:35:instance balancedBlowup.instDecidableAdj
+Erdos128/C4Certificate/Defs.lean:81:instance (m : Mask) : Decidable (IsTriangleFreeMask m) := by
+== Classical.choice/ Classical.choose explicit uses
+2
+== 'by decide' count / 'decide' tactics
+2698
+== maxHeartbeats 0 files
+506
+== files under C4Certificate/HostCheckpoints with maxHeartbeats 0
+228
+== files under FiniteHostData with maxHeartbeats 0
+240
+== HostChecks with maxHeartbeats 0
+38
+== other files with maxHeartbeats 0

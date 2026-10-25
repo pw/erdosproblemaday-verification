@@ -1,0 +1,21 @@
+OK      2d | scoped[EuclideanGeometry] notation "ℝ²" => EuclideanSpace ℝ (Fin 2)
+OK      2d | open scoped EuclideanGeometry Finset
+OK      2d | noncomputable instance Module.orientedEuclideanSpaceFinTwo : Module.Oriented ℝ ℝ² (Fin 2) := ⟨Basis.orientatio
+OK      2d | instance fact_finrank_euclideanSpace_fin_two : Fact (Module.finrank ℝ ℝ² = 2) := ⟨finrank_euclideanSpace_fin⟩
+OK      2d | namespace EuclideanGeometry
+OK      2d | variable {V P : Type*} {n : ℕ}
+OK      2d | variable [NormedAddCommGroup V] [InnerProductSpace ℝ V] [MetricSpace P] [NormedAddTorsor V P]
+OK      2d | variable [Module.Oriented ℝ V (Fin 2)] [Fact (Module.finrank ℝ V = 2)] {p : Fin n → P}
+OK      2d | noncomputable def triangle_area (a b c : P) : ℝ := positiveOrientation.areaForm (a -ᵥ c) (b -ᵥ c) / 2
+OK      2d | lemma triangle_area_eq_det (a b c : ℝ²) : triangle_area a b c = Matrix.det !![a 0, b 0, c 0; a 1, b 1, c 1; 1,
+OK      2d | end EuclideanGeometry
+OK      asymptotics | notation f " ≫ " g => Asymptotics.IsBigO Filter.atTop (g : ℕ → ℝ) (f : ℕ → ℝ) notation g " ≪ " f => Asymptotic
+OK      507-defs | open Asymptotics Filter Topology open scoped EuclideanGeometry
+OK      507-defs | namespace Erdos507
+OK      507-defs | noncomputable def minTriangleArea (S : Finset ℝ²) : ℝ := sInf {abs (EuclideanGeometry.triangle_area (p 0) (p 1
+MISSING 507-defs | noncomputable def α (n : ℕ) : ℝ := sSup (minTriangleArea '' { S : Finset ℝ² | S.card = n ∧ ↑S ⊆ Metric.closedB
+OK      507-defs | noncomputable def lowerBest (n : ℕ) : ℝ := Real.log n / (n : ℝ) ^ 2
+OK      507-lower | theorem erdos_507.lower: (lowerBest =o[atTop] erdos_507.lower.answer) ∧ (erdos_507.lower.answer ≪ α) := by
+OK      507-kps82 | theorem erdos_507.variants.lower_kps82 : lowerBest ≪ α := by
+OK      507-erdos | theorem erdos_507.variants.lower_erdos : α ≫ (fun n ↦ 1 / (n : ℝ) ^ 2) := by
+20 chunks, 1 missing

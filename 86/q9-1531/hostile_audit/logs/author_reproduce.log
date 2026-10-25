@@ -1,0 +1,13 @@
+[1/6] Verify frozen hashes
+[2/6] Verify the canonical witness in every Python optimization mode
+[3/6] Verify the preserved raw generator output
+[4/6] Run verifier negative controls in every optimization mode
+NEGATIVE_CONTROLS=PASS duplicate=1 nonedge=1 complete_face=1
+NEGATIVE_CONTROLS=PASS duplicate=1 nonedge=1 complete_face=1
+NEGATIVE_CONTROLS=PASS duplicate=1 nonedge=1 complete_face=1
+[5/6] Check canonical/raw identity and predecessor comparisons
+CANONICAL_IDENTITY=PASS edges=1531
+[6/6] Rebuild the heuristic and reproduce its known 1505-to-1506 control
+FOUND 1506 edges; wrote /tmp/tmp.GJDO9L26sU/q9_1506.json
+EDGE_SET_IDENTITY=PASS edges=1506
+PROBLEM 86 Q9=1531 REPRODUCTION PASSED

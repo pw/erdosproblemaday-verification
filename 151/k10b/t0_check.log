@@ -1,0 +1,4 @@
+exhaustive: 976 connected graphs n<=7 (m<=16), 513234 (3,3)-free colourings, violations 0, mutation(red only) fails 283709
+random: 300 graphs n in 8..12 with a (3,3)-free colouring, violations 0
+T0 CONTROLS PASS
+

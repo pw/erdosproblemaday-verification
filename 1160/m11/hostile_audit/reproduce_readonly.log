@@ -1,0 +1,63 @@
+[1/5] Verify frozen-file hashes
+ENVIRONMENT.txt: OK
+PACKAGE_METADATA.txt: OK
+PROVENANCE.md: OK
+REPORT.md: OK
+SITE_SNAPSHOT.txt: OK
+audit_independent.py: OK
+b000001_20260811.txt: OK
+burrell_dissertation_2022.pdf: OK
+burrell_dissertation_2022.txt: OK
+conway_dietrich_obrien_2008.pdf: OK
+conway_dietrich_obrien_2008.txt: OK
+debs/gap-core_4.12.1-2build2_amd64.deb: OK
+debs/gap-gapdoc_1.6.6-1_all.deb: OK
+debs/gap-libs_4.12.1-2build2_all.deb: OK
+debs/gap-smallgrp-extra_1.5.3-1_all.deb: OK
+debs/gap-smallgrp_1.5.3-1_all.deb: OK
+eick_classification_recent.pdf: OK
+eick_classification_recent.txt: OK
+enumerate_gap.g: OK
+gap_available_counts_1_2047.txt: OK
+live_discussion_1160_20260811.txt: OK
+live_oeis_A000001_20260811.txt: OK
+live_problem_1160_20260811.txt: OK
+live_search_exact_sum_20260811.txt: OK
+live_search_g2048_sum_20260811.txt: OK
+live_search_question2218_m11_20260811.txt: OK
+reproduce.sh: OK
+site_index_20260811.js: OK
+site_ledger_data_20260811.js: OK
+verify_erdos1160_m11.py: OK
+[2/5] Compile Python in memory
+compiled verify_erdos1160_m11.py
+compiled audit_independent.py
+[3/5] Run main exact verifier
+m  2^m  sum(n<2^m)  right_hand_side  strong_inequality
+ 0     1              0               1 True
+ 1     2              1               1 True
+ 2     4              3               2 False
+ 3     8              9               5 False
+ 4    16             28              14 False
+ 5    32             93              51 False
+ 6    64            319             267 False
+ 7   128           1268            2328 True
+ 8   256           7012           56092 True
+ 9   512          92804        10494213 True
+10  1024       11759892     49487367289 True
+11  2048    49910538480 >=1774274116992170 True
+strict certified margin below published lower bound: 1774224206453690
+CONCLUSION: sum_{0<=n<2048} g(n) < g(2048).
+Hence g(n) <= g(2048) for every 1 <= n <= 2048.
+ALL EXACT CHECKS PASSED
+[4/5] Run independent reconstruction
+GAP-covered orders: 2034
+appendix-supplied orders: [2002, 2004, 2010, 2016, 2020, 2024, 2025, 2028, 2030, 2034, 2040, 2044, 2046]
+all non-1024 orders from reconstruction: 423171191
+corrected g(1024): 49487367289
+reconstructed sum below 2048: 49910538480
+published lower bound for g(2048): 1774274116992170
+strict margin: 1774224206453690
+INDEPENDENT RECONSTRUCTION PASSED
+[5/5] Regenerate the GAP audit from pinned Ubuntu packages
+REPRODUCTION PASSED

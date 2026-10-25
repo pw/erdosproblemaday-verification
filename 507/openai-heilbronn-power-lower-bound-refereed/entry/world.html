@@ -1,0 +1,26 @@
+Seat W checked the record around the claim, with quotations and dates.</p>
+<ul>
+<li><strong>The belief.</strong> Zakharov's 2026 survey "Small triangles" says that "many believe (including Szemerédi) that it is 'almost' true: Δ(N) ⩽ C<sub>ε</sub>N<sup>−2+ε</sup>" (§3) and calls it "the conjectured Δ(N) ≲ N<sup>−2+o(1)</sup>" (§6). Ben Green's open problem 77 asks the same thing as a question. The paper does not cite Green's list. Formal Conjectures states it as <code>Green77.green_77</code>, still open there. Our <code>Extra507.lean</code> proves its negation, from the every-n theorem through FC's own α. As a control, the same statement with exponent +2 in place of −2 is provable from α(n) ≤ 4, and we prove it. So FC's statement is false because α is large, not because of its form.</li>
+<li><strong>Earlier power claims.</strong> The paper describes Ellmann accurately and Agama in part.
+<ul>
+<li>Ellmann's arXiv 1703.03297 v12 calls its own argument heuristic.</li>
+<li>Agama's arXiv 2006.05269 v13 builds its points from a regular polygon plus its centre. W found the paper's objection to it correct only in part, and too weak. The centre gives a collinear triple only when the polygon has an even number of vertices. The real failure is that three consecutive vertices of a regular m-gon span area of order m<sup>−3</sup>, which W checked numerically, so the claimed bound fails for every large polygon.</li>
+</ul></li>
+<li><strong>After the release.</strong> Two drafts claim much larger exponents by building on OpenAI's construction:
+<ul>
+<li>Ivan Blinov (littleBro/heilbronn-triangle-bounds, from 8 October), "conditional on the pinned manuscript's geometric estimates", up to η = 1/50,893,237;</li>
+<li>Qiuyu Chen (19 October), η = 2/100,866,719, using Blinov's pieces.</li>
+</ul>
+Neither has a complete Lean proof: Chen supplies none, and Blinov's Lean covers some of the finite and algebraic steps. Big O Speedrun's board lists both, and OpenAI's ≈ 3.18·10<sup>−236</sup>, as "Claimed". We have not checked either draft.</li>
+<li><strong>Big O Speedrun's statement.</strong> On 19 October Joshua Cortez proposed a trusted Lean statement for that board in pull request #20, <code>BigOSpeedrun.HeilbronnTriangle.Bound η</code>. It landed on their main branch as commit 079ac7b4 on 21 October. It says: for every large n, n points with every triangle ≥ c·n<sup>−2+η</sup>. Its own README notes that OpenAI's comparator theorem is weaker, a sequence of n only. Our <code>Extra507.lean</code> proves <code>Bound</code> at OpenAI's exponent 2/(45435k+16), statement copied verbatim and checked. Their record for the statement says it "proves no board record". Their gate does not yet take Heilbronn submissions, so nothing has been submitted.</li>
+<li><strong>Citations.</strong> Cohen–Pohoata–Zakharov's two theorems (arXiv 2305.18253 Thm 1.1; arXiv 2409.07658 Thm 1.8, published in Inventiones), KPS 1982's §2 and Roth 1951's appendix say what the paper says they say.</li>
+<li><strong>Silence.</strong> As of 22 October:
+<ul>
+<li>Formal Conjectures still marks <code>erdos_507</code> open, and W's searches of its issues and pull requests found none mentioning OpenAI's proof.</li>
+<li>The teorth database still lists #507 as open (status last updated 31 August 2025).</li>
+<li>Bloom's 8 October post on the release lists 25 Erdős problems, and #507 is not among them.</li>
+<li>W found no expert comment on erdosproblems.com, Tao's blog or Mathstodon, MathOverflow, Hacker News, Reddit or Quanta. X could not be checked (a bot wall).</li>
+</ul></li>
+<li><strong>Our own pages were wrong in three ways, now fixed.</strong> The banner on our July report said "Bloom calls these claims", but #507 is not on Bloom's 8 October list. It stated α(n) ≥ n<sup>−2+η</sup> without the constant, the threshold or the square. And it did not say that the Lean covers only a sequence of n. The Bloom sentence was wrong the same way on the banners for #142, #505 and #978, the other OpenAI families we matched ourselves; all four now say so.</li>
+</ul>
+<p>

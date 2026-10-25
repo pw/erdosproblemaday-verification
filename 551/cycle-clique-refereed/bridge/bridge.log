@@ -1,0 +1,2 @@
+'Bridge551.Erdos551.erdos_551' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge551.Erdos551.erdos_551.variants.sufficiently_large' depends on axioms: [propext, Classical.choice, Quot.sound]

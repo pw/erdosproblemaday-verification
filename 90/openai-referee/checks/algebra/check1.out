@@ -1,0 +1,6 @@
+D(8.1) - [(8.9) LHS-RHS] = 0
+control (A+A'): -2*Ap*chi*g/h + 2*Ap*h/(chi*g)
+control (D chi != 0): residual = dchi*(chi*g - h)*(chi*g + h)/(chi**2*g*h)
+(8.10) R^2 - L(L-4) = 0
+control: R^2 - L(L+4) = 8*lamS - 16 + 8/lamS
+L - [(dx)^2+(dy)^2] = 0

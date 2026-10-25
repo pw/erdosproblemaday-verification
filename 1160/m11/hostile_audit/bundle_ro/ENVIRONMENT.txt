@@ -1,0 +1,9 @@
+Audit date: 2026-08-11 UTC
+Python 3.12.3
+dpkg-deb 1.22.6 (amd64)
+GNU coreutils sha256sum 9.4
+Poppler pdftotext 24.02.0
+Linux portalonce 6.12.93 x86_64
+
+The regenerated GAP audit uses only the frozen Ubuntu packages in `debs/`.
+No network access is required by `reproduce.sh`.

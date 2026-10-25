@@ -1,0 +1,13 @@
+c expecting proof in stdin
+c parsed a formula with 29764 variables and 1329041 clauses
+c FAILED: multiple literals unassigned in hint 1302103: 16447 16454
+c failed while checking clause: 16462 333 523 558 592 625 -16447 0
+c check redundancy res: 0 pivot: 16462 start: 0
+c hint 1302103
+c 16447 16454 0
+c FAILED: multiple literals unassigned in hint 1302103: 16447 16454
+c WARNING: Verification incomplete. Last line checked = 1329042
+c NOT VERIFIED
+c allocated 1024 8971026 297640
+c Added clauses = 1329041.  Deleted clauses = 0.  Max live clauses = 1329041
+c verification time = 14.37 secs

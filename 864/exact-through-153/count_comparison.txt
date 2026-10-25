@@ -1,0 +1,8 @@
+core=20 direct=0 audit=0 MATCH
+core=19 direct=489 audit=489 MATCH
+core=18 direct=240837 audit=240837 MATCH
+core=17 direct=758979 audit=758979 MATCH
+core=16 direct=27176695 audit=27176695 MATCH
+core=15 direct=11169166 audit=11169166 MATCH
+core=14 direct=109972454 audit=109972454 MATCH
+ALL SEVEN VALID-CORE COUNTS MATCH

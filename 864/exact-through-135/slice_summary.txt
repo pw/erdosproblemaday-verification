@@ -1,0 +1,2 @@
+core14_slices=85 centers=49..133 unique_coverage=PASS
+orbit_nodes=53797157 valid_cores=22183488 extension_nodes=59933185 cpu_seconds=1448.755127

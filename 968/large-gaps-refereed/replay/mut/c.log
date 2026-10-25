@@ -1,0 +1,97 @@
+@@@ BEGIN thm OAI.Problem344.large_gaps_and_ratio_density
+OAI.Problem344.large_gaps_and_ratio_density : And
+  (∀ (C : Real),
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C →
+      @Exists.{1} Real fun (c : Real) =>
+        And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c)
+          (@Exists.{1} Nat fun (N₀ : Nat) =>
+            ∀ (N : Nat),
+              @LE.le.{0} Nat instLENat N₀ N →
+                @LE.le.{0} Real Real.instLE
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c
+                    (@Nat.cast.{0} Real Real.instNatCast N))
+                  (@Nat.cast.{0} Real Real.instNatCast
+                    (@Finset.card.{0} Nat (OAI.LargePrimeGaps.largeGapIndices C N)))))
+  (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+    (OAI.Problem344.lowerAsymptoticDensity OAI.Problem344.ratioIncreaseIndices))
+'OAI.Problem344.large_gaps_and_ratio_density' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]
+@@@ BEGIN def OAI.LargePrimeGaps.prime
+def OAI.LargePrimeGaps.prime : (n : Nat) → Nat :=
+fun (n : Nat) =>
+  Nat.nth Nat.Prime
+    (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) n
+      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+@@@ BEGIN def OAI.LargePrimeGaps.largeGapIndices
+def OAI.LargePrimeGaps.largeGapIndices : (C : Real) → (N : Nat) → Finset.{0} Nat :=
+fun (C : Real) (N : Nat) =>
+  @Finset.filter.{0} Nat
+    (fun (n : Nat) =>
+      @LT.lt.{0} Real Real.instLT
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+          (Real.log (@Nat.cast.{0} Real Real.instNatCast (OAI.LargePrimeGaps.prime n))))
+        (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+          (@Nat.cast.{0} Real Real.instNatCast
+            (OAI.LargePrimeGaps.prime
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) n
+                (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+          (@Nat.cast.{0} Real Real.instNatCast (OAI.LargePrimeGaps.prime n))))
+    (fun (a : Nat) =>
+      Real.decidableLT
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+          (Real.log (@Nat.cast.{0} Real Real.instNatCast (OAI.LargePrimeGaps.prime a))))
+        (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+          (@Nat.cast.{0} Real Real.instNatCast
+            (OAI.LargePrimeGaps.prime
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) a
+                (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+          (@Nat.cast.{0} Real Real.instNatCast (OAI.LargePrimeGaps.prime a))))
+    (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) N)
+@@@ BEGIN def OAI.Problem344.primeAt
+def OAI.Problem344.primeAt : (n : Nat) → Nat :=
+fun (n : Nat) =>
+  Nat.nth Nat.Prime
+    (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) n
+      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+@@@ BEGIN def OAI.Problem344.initialCount
+def OAI.Problem344.initialCount : (A : Set.{0} Nat) → (N : Nat) → Nat :=
+fun (A : Set.{0} Nat) (N : Nat) =>
+  @Finset.card.{0} Nat
+    (@Finset.filter.{0} Nat
+      (fun (n : Nat) => @Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) A n)
+      (fun (a : Nat) =>
+        Classical.propDecidable (@Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) A a))
+      (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) N))
+@@@ BEGIN def OAI.Problem344.lowerAsymptoticDensity
+def OAI.Problem344.lowerAsymptoticDensity : (A : Set.{0} Nat) → Real :=
+fun (A : Set.{0} Nat) =>
+  @SupSet.sSup.{0} Real Real.instSupSet
+    (@Set.ofPred.{0} Real fun (d : Real) =>
+      @Exists.{1} Nat fun (N0 : Nat) =>
+        ∀ (N : Nat),
+          @LE.le.{0} Nat instLENat N0 N →
+            @LE.le.{0} Real Real.instLE d
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem344.initialCount A N))
+                (@Nat.cast.{0} Real Real.instNatCast N)))
+@@@ BEGIN def OAI.Problem344.ratioIncreaseIndices
+def OAI.Problem344.ratioIncreaseIndices : Set.{0} Nat :=
+@Set.ofPred.{0} Nat fun (n : Nat) =>
+  And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)
+    (@LT.lt.{0} Real Real.instLT
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem344.primeAt n)) (@Nat.cast.{0} Real Real.instNatCast n))
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@Nat.cast.{0} Real Real.instNatCast
+          (OAI.Problem344.primeAt
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) n
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+        (@Nat.cast.{0} Real Real.instNatCast
+          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) n
+            (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+@@@ END

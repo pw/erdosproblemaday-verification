@@ -1,0 +1,14 @@
+n=1 f1=1 f2=0 f3=0 theta4=1 author=1 match=1 row_sum=1
+n=2 f1=0 f2=2 f3=0 theta4=2 author=2 match=1 row_sum=2
+n=3 f1=0 f2=4 f3=2 theta4=6 author=6 match=1 row_sum=6
+n=4 f1=0 f2=10 f3=12 theta4=22 author=22 match=1 row_sum=24
+n=5 f1=0 f2=20 f3=82 theta4=102 author=102 match=1 row_sum=120
+n=6 f1=0 f2=48 f3=516 theta4=564 author=564 match=1 row_sum=720
+n=7 f1=0 f2=104 f3=3232 theta4=3336 author=3336 match=1 row_sum=5040
+n=8 f1=0 f2=282 f3=21984 theta4=22266 author=22266 match=1 row_sum=40320
+n=9 f1=0 f2=496 f3=168368 theta4=168864 author=168864 match=1 row_sum=362880
+n=10 f1=0 f2=1066 f3=1306404 theta4=1307470 author=1307470 match=1 row_sum=3628800
+n=11 f1=0 f2=2460 f3=11064306 theta4=11066766 author=11066766 match=1 row_sum=39916800
+n=12 f1=0 f2=6128 f3=101355594 theta4=101361722 author=101361722 match=1 row_sum=479001600
+published_prefix_matches_through=12
+search_limited_unpublished_candidates=13,14

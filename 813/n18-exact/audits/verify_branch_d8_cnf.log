@@ -1,0 +1,5 @@
+VERIFIED cnf=/tmp/erdos813_attack2/cnf/branch_d8.cnf
+degree=8 variables=2265 clauses=46283
+natural_clauses=43656 root_units=17
+degree_blocks=18 block_clauses=145 private_aux_per_block=72
+degree_projection=EXACT exhaustive_assignments=131072 method=independent_Horn_closure

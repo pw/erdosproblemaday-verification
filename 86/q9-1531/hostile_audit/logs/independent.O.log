@@ -1,0 +1,16 @@
+FILE_PASS label=candidate1531 rows=1531 unique=1531 sha256=4592a484fcfa65ef9883843485a60ff7b8d3856e81b4a667ae9cf14536132a5a edge_set_sha256=579539ce372adf149f05b7952be793a84948d206086612f945b6b88cd274ac91
+FILE_PASS label=raw1531 rows=1531 unique=1531 sha256=21c7c0ad8c24f2cd5e337722d41e606e3154e4fb3c43b503d4124dba3290bb61 edge_set_sha256=579539ce372adf149f05b7952be793a84948d206086612f945b6b88cd274ac91
+FILE_PASS label=site1506 rows=1506 unique=1506 sha256=883919d0e3c7d571aadd920ad539667338dfdb74efa24e61808fb41754db573c edge_set_sha256=79c072cfefa05136862c1db6d902178744f15dc97118e89a470f301d2c6c7ed2
+FILE_PASS label=public1505 rows=1505 unique=1505 sha256=0994be825ec39d115b65eb1436eace7c1be324448a6ec116d69c8a7e2a75d338 edge_set_sha256=c65e13fdc2914553059cd8f95806a8635f617e65b376d22ac2724663e2b554b3
+CANONICAL_RAW_IDENTITY_PASS edges=1531 row_order_identity=yes only_construction_and_meta_differ=yes edge_set_sha256=579539ce372adf149f05b7952be793a84948d206086612f945b6b88cd274ac91
+GRAPH_PASS label=candidate1531 edges=1531 vertices=512 q9_universe=2304 faces=4608 complete_faces=0 vertex_pairs=130816 max_common=1 cherries=7638 repeated_cherries=0
+DIAGNOSTICS label=candidate1531 directions=0:170,1:170,2:172,3:170,4:170,5:171,6:168,7:170,8:170 degree_histogram=5:16,6:492,7:2,8:2 face_occupancy=0:0,1:784,2:8,3:3816,4:0 common_neighbours=0:123178,1:7638
+GRAPH_PASS label=site1506 edges=1506 vertices=512 q9_universe=2304 faces=4608 complete_faces=0 vertex_pairs=130816 max_common=1 cherries=7426 repeated_cherries=0
+DIAGNOSTICS label=site1506 directions=0:167,1:171,2:168,3:166,4:171,5:166,6:167,7:167,8:163 degree_histogram=4:5,5:91,6:375,7:41 face_occupancy=0:6,1:838,2:82,3:3682,4:0 common_neighbours=0:123390,1:7426
+GRAPH_PASS label=public1505 edges=1505 vertices=512 q9_universe=2304 faces=4608 complete_faces=0 vertex_pairs=130816 max_common=1 cherries=7431 repeated_cherries=0
+DIAGNOSTICS label=public1505 directions=0:167,1:173,2:169,3:173,4:169,5:166,6:169,7:172,8:147 degree_histogram=4:1,5:120,6:331,7:60 face_occupancy=0:0,1:885,2:14,3:3709,4:0 common_neighbours=0:123385,1:7431
+SET_COMPARISON_PASS label=candidate_vs_site newer=1531 older=1506 common=1084 newer_only=447 older_only=422 net=25
+SET_COMPARISON_PASS label=candidate_vs_public newer=1531 older=1505 common=1059 newer_only=472 older_only=446 net=26
+SET_COMPARISON_PASS label=site_vs_public newer=1506 older=1505 common=1313 newer_only=193 older_only=192 net=1
+NEGATIVE_CONTROLS_PASS duplicate_edge=1 non_q9_edge=1 boolean_endpoint=1 duplicate_key=1 nan=1 complete_face=1 repeated_common_neighbours=1
+INDEPENDENT_Q9_AUDIT_PASS lower_bound=1531 exactness_claimed=no optimality_claimed=no

@@ -1,0 +1,2 @@
+C11_PLACEMENT_AUDIT=PASS grids={'t1_forbidden_triples': 10, 't2_t3_feasible_profiles': 8, 't4_adjacent_profiles': 4, 't0_equality_profiles': 3} geometry=(38320, 4) cover_profiles=120 layers=(17, 45, 16384) literals=(((3, 3, 4, 6, 7, 7, 10), 36, 36), ((3, 3, 3, 6, 6, 6, 9), 9, 9))
+STATUS=PLACEMENT_COMPONENT full_c11_integration=SEPARATE_CANDIDATE

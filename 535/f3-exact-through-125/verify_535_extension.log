@@ -1,0 +1,9 @@
+live gate: OPEN; zero claims; no worker/collaborator/formalizer
+records gate: live page assigns no OEIS sequence ('Possible')
+range value upper-target edges DFS-nodes result
+101-107 14 15 71799 4225121 UNSAT; witness=(10, 12, 13, 15, 18, 20, 24, 40, 48, 54, 75, 80, 91, 96)
+108-124 15 16 109838 11638943 UNSAT; witness=(11, 14, 20, 24, 30, 33, 36, 40, 48, 80, 90, 96, 98, 99, 108)
+125-125 16 17 113132 8579402 UNSAT; witness=(14, 20, 21, 24, 25, 30, 36, 40, 48, 63, 80, 90, 96, 98, 108, 125)
+f3(101..125)=[14, 14, 14, 14, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 16]
+sha256(compact JSON table)=c4663eebc814f6a00fd78b590cea0aab34e5542f822759ddd339ddf0733df968
+VERIFIED: exact f_3(N) for every 101 <= N <= 125

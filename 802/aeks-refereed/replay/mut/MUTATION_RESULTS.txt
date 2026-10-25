@@ -1,0 +1,4 @@
+M0_unmutated: MATCH | STD_AXIOMS | CMP_SORRY_SEEN
+M1_changed_def: MISMATCH | STD_AXIOMS | CMP_SORRY_SEEN
+M2_no_sorry_in_challenge: MATCH | STD_AXIOMS | CMP_SORRY_NOT_SEEN
+M3_extra_axiom: MATCH | NONSTD | CMP_SORRY_SEEN

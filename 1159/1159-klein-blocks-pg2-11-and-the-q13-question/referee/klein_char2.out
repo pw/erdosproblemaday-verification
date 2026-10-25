@@ -1,0 +1,2 @@
+q=2 c=0: distinct 'quadruple' points 7 (need 21), 'triple' points 4 (need 28), lines 6 (need 21) -> degenerate
+q=2 c=1: distinct 'quadruple' points 6 (need 21), 'triple' points 4 (need 28), lines 7 (need 21) -> degenerate

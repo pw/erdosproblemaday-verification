@@ -1,0 +1,5 @@
+rule=D limit=1000000 seed_size=21 total_selected=122467 last=999995
+
+real	0m13.104s
+user	0m12.392s
+sys	0m0.041s

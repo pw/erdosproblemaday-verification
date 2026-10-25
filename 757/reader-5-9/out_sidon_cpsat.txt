@@ -1,0 +1,9 @@
+0 11 OPTIMAL max 7 bound 7 claim 7 conflicts 9
+1 20 OPTIMAL max 12 bound 12 claim 12 conflicts 18
+2 29 OPTIMAL max 17 bound 17 claim 17 conflicts 27
+3 38 OPTIMAL max 22 bound 22 claim 22 conflicts 36
+4 47 OPTIMAL max 27 bound 27 claim 27 conflicts 45
+5 56 OPTIMAL max 32 bound 32 claim 32 conflicts 54
+6 65 OPTIMAL max 37 bound 37 claim 37 conflicts 63
+7 74 OPTIMAL max 42 bound 42 claim 42 conflicts 72
+8 83 OPTIMAL max 47 bound 47 claim 47 conflicts 81

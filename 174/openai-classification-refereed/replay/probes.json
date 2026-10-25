@@ -1,0 +1,100 @@
+{
+ "EuclideanRamsey": [
+  "OAI.Combinatorics.EuclideanRamsey.Main",
+  [
+   "OAI.EuclideanRamsey.classification"
+  ],
+  [
+   "OAI.EuclideanRamsey.Space",
+   "OAI.EuclideanRamsey.Congruent",
+   "OAI.EuclideanRamsey.Ramsey",
+   "OAI.EuclideanRamsey.coordinateField",
+   "OAI.EuclideanRamsey.Coeff",
+   "OAI.EuclideanRamsey.TensorRing",
+   "OAI.EuclideanRamsey.coordinate",
+   "OAI.EuclideanRamsey.augmented",
+   "OAI.EuclideanRamsey.multiply",
+   "OAI.EuclideanRamsey.FieldCriterion"
+  ]
+ ],
+ "GrahamSpherical": [
+  "OAI.Combinatorics.SphericalRamsey.Main",
+  [
+   "OAI.GrahamSpherical.full_main"
+  ],
+  [
+   "OAI.GrahamSpherical.Point",
+   "OAI.GrahamSpherical.Label",
+   "OAI.GrahamSpherical.parameter",
+   "OAI.GrahamSpherical.u",
+   "OAI.GrahamSpherical.v",
+   "OAI.GrahamSpherical.squareCoordinate",
+   "OAI.GrahamSpherical.coordinates",
+   "OAI.GrahamSpherical.vertex",
+   "OAI.GrahamSpherical.witness",
+   "OAI.GrahamSpherical.AvoidsCopy",
+   "OAI.GrahamSpherical.EuclideanRamsey",
+   "OAI.GrahamSpherical.Specification.FullAuthoredResult"
+  ]
+ ],
+ "EuclideanRamseyCircle": [
+  "OAI.Combinatorics.EuclideanRamsey.Circle",
+  [
+   "OAI.EuclideanRamsey.CircleConsequence.at_most_five_circle_points_ramsey"
+  ],
+  [
+   "OAI.EuclideanRamsey.Space",
+   "OAI.EuclideanRamsey.Congruent",
+   "OAI.EuclideanRamsey.Ramsey"
+  ]
+ ],
+ "EuclideanRamseyNine": [
+  "OAI.Combinatorics.EuclideanRamsey.NineStatement",
+  [
+   "OAI.EuclideanRamsey.NineStatement.nine_circle_configuration"
+  ],
+  [
+   "OAI.EuclideanRamsey.Space",
+   "OAI.EuclideanRamsey.Congruent",
+   "OAI.EuclideanRamsey.Ramsey",
+   "OAI.EuclideanRamsey.NineStatement.literalCircleConfig"
+  ]
+ ],
+ "EuclideanRamseyQuadratic": [
+  "OAI.Combinatorics.EuclideanRamsey.Quadratic",
+  [
+   "OAI.EuclideanRamsey.spherical_quadraticIndependent_ramsey_all"
+  ],
+  [
+   "OAI.EuclideanRamsey.Space",
+   "OAI.EuclideanRamsey.Congruent",
+   "OAI.EuclideanRamsey.Ramsey",
+   "OAI.EuclideanRamsey.coordinateField",
+   "OAI.EuclideanRamsey.Coeff",
+   "OAI.EuclideanRamsey.coordinate",
+   "OAI.EuclideanRamsey.augmented"
+  ]
+ ],
+ "EuclideanRamseySpherical": [
+  "OAI.Combinatorics.EuclideanRamsey.Spherical",
+  [
+   "OAI.EuclideanRamsey.ramsey_cospherical"
+  ],
+  [
+   "OAI.EuclideanRamsey.Space",
+   "OAI.EuclideanRamsey.Congruent",
+   "OAI.EuclideanRamsey.Ramsey"
+  ]
+ ],
+ "EuclideanRamseyTransitive": [
+  "OAI.Combinatorics.EuclideanRamsey.Transitive",
+  [
+   "OAI.EuclideanRamsey.TransitiveConsequence.subset_of_finite_transitive_ramsey"
+  ],
+  [
+   "OAI.EuclideanRamsey.Space",
+   "OAI.EuclideanRamsey.Congruent",
+   "OAI.EuclideanRamsey.Ramsey"
+  ]
+ ]
+}

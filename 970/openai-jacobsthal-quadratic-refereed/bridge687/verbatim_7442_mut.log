@@ -1,0 +1,3 @@
+PR  : theorem erdos_687.variants.quadratic_log : (fun x : ℕ ↦ (Y x : ℝ)) =O[atTop] (fun x : ℕ ↦ ((x : ℝ) / Real.log (x : ℝ)) ^ 2) := by
+ours: theorem erdos_687.variants.quadratic_log : (fun x : ℕ ↦ (Y x : ℝ)) =O[atTop] (fun x : ℕ ↦ ((x : ℝ) / Real.log (x : ℝ)) ^ 3) := by
+MISMATCH

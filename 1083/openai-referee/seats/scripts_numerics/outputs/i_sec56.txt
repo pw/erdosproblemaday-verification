@@ -1,0 +1,87 @@
+== 5.1 thresholds (5.3): a_K = s^(1/10), a_i = 10 a_{i+1}; claims sum_{r>i} a_r < a_i/9, (5.4) exponent -a_i/2+sum_{r>i}a_r <= -7a_i/18 ==
+  max over K<=39, i of (-a_i/2 + sum_(r>i) a_r)/a_i = -38888888888888888888888888888888888889/100000000000000000000000000000000000000 = -0.388889  vs claimed <= -7/18 = -0.388889: True
+  exact: sum_{r>i} a_r / a_i -> sum_{m>=1} 10^-m = 1/9 (strict for finite K); 1/2 - 1/9 = 7/18 = 7/18
+  sum_i a_i = s^(1/10) (10^K - 1)/9 with K = O(1+sqrt(log s)): log_s of 10^K factor -> 0, so sum = s^(1/10+o(1)):
+    s=1e+02: K=4, sum a_i = 1.761e+03, log(sum)/log(s) = 1.623, sum/s^(1/3) = 3.794e+02
+    s=1e+04: K=5, sum a_i = 2.791e+04, log(sum)/log(s) = 1.111, sum/s^(1/3) = 1.295e+03
+    s=1e+08: K=6, sum a_i = 7.011e+05, log(sum)/log(s) = 0.731, sum/s^(1/3) = 1.510e+03
+    s=1e+16: K=8, sum a_i = 4.423e+08, log(sum)/log(s) = 0.540, sum/s^(1/3) = 2.053e+03
+    s=1e+32: K=10, sum a_i = 1.761e+12, log(sum)/log(s) = 0.383, sum/s^(1/3) = 3.794e+01
+    s=1e+64: K=14, sum a_i = 2.791e+19, log(sum)/log(s) = 0.304, sum/s^(1/3) = 1.295e-02
+  NOTE: o(s^(1/3)) holds asymptotically, but sum/s^(1/3) < 1 only for astronomically large s with this K (between 1e32 and 1e64 above) -- harmless: only the limit is used, no rate is claimed.
+== (5.5) summability over dyadic widths 2^m u, u >= s_*: claims 2^(m/10) >= 1+cm (c = log2/10) and sqrt(log(2^m u)) <= sqrt(log u)+sqrt(m log 2) ==
+  violations over m<400, u in {2,10,1e3,1e9}: 0
+    u=1e+02: sum_m (1+sqrt(log 2^m u)) exp(-(2^m u)^(1/10)/2) = 1.911e+01;  sum_m exp(-(2^m u)^(1/3)) = 1.326e-02  (both -> 0 as u -> oo)
+    u=1e+04: sum_m (1+sqrt(log 2^m u)) exp(-(2^m u)^(1/10)/2) = 1.020e+01;  sum_m exp(-(2^m u)^(1/3)) = 4.416e-10  (both -> 0 as u -> oo)
+    u=1e+06: sum_m (1+sqrt(log 2^m u)) exp(-(2^m u)^(1/10)/2) = 3.961e+00;  sum_m exp(-(2^m u)^(1/3)) = 3.720e-44  (both -> 0 as u -> oo)
+    u=1e+10: sum_m (1+sqrt(log 2^m u)) exp(-(2^m u)^(1/10)/2) = 1.192e-01;  sum_m exp(-(2^m u)^(1/3)) = 0.000e+00  (both -> 0 as u -> oo)
+    u=1e+20: sum_m (1+sqrt(log 2^m u)) exp(-(2^m u)^(1/10)/2) = 1.544e-21;  sum_m exp(-(2^m u)^(1/3)) = 0.000e+00  (both -> 0 as u -> oo)
+== 5.1 lower boundary: N exp(-sqrt(2s)) / (N exp(-sqrt(s) - o(s^(1/3)))) = exp(-(sqrt2-1)sqrt(s)+o(s^(1/3))) ==
+  exponent difference -sqrt(2s)+sqrt(s) = sqrt(s)*(1 - sqrt(2)) ; coefficient sqrt2-1 = 0.41421356237309503 > 0, and s^(1/3) = o(sqrt s)
+== 5.1 core: on entry to the last width s_f in [s_*, 2 s_*], degree B exp((1+o(1)) s_f) <= B exp(3 s_*);  E L^2 = (delta N/A) B^2 exp(6 s_*) ==
+  E*L^2 / N = delta*exp(6*s_star)  -> 0 by the choice delta*exp(6 s_*) -> 0
+  width halving: batches <= exp(sqrt s); union degree exp(sqrt s)*O(B e^{s/2}) = B exp(s/2 + O(sqrt s)) = B exp((1+o(1)) s/2): relative error O(sqrt(s))/(s/2) -> 0
+== (5.6)-(5.7) profiles: sigma(b) = prod_i min(T,D_i) = e_j T^(d-j) on plateau j; b1+b2<0 from sum=0, b1<0<bd, d>=3 ==
+  80000 random admissible profiles (d=3..6): violations of b1+b2<0 or of the sigma plateau identity: 0
+  Figure 2 profile (-0.8,-0.4,0.3,0.9): sum = 0 , b1+b2 = -6/5 , max|b| = 9/10
+== Prop 5.5: omitted nonreal-line fraction e_{d-1} exp(o(s))/n = exp(o(s))/D_d, D_d = B e^{b_d s} >= B since b_d > 0 ==
+  with s <= log B: exp(o(s))/B <= B^{-1+o(1)} -> 0  (exact: e_{d-1}/N = prod_{i<d} D_i / B^d = exp(s*sum_{i<d} b_i)/B = exp(-b_d s)/B)
+== (6.5)-(6.7) common window: initial interval rank T^(2d-1) vs sigma^2 * T/(D1 D2) with sigma = T^d and D1 D2 >= T^2 ==
+  violations of T^(2d-1) >= T^(2d+1)/(D1 D2) on t < b1 (5000 profiles x d=3..5): 0
+  k = d-1 plateau: D1^2 T^(2d-2) min(1, T/(D1 D2)) <= D1 T^(2d-2)  <=>  min(D1, T/D2) <= 1 (true as T <= D2): checked symbolically below
+   D1^2 T^(2d-2) * T/(D1 D2) / (D1 T^(2d-2)) = T/D2  <= 1 iff T <= D2
+  (6.7) margins at T = D_d, sigma = N: log(A/D_d)/s = (log B)/s - b_d; log(A/(D1 D2))/s = -(b1+b2)
+    d=3: non-outermost windows, min over 20000 profiles of min(margin1, margin2) = 0.2559 (> 0 required; margin1 >= 1 always, margin2 = -(b1+b2) > 0)
+    d=4: non-outermost windows, min over 20000 profiles of min(margin1, margin2) = 0.3590 (> 0 required; margin1 >= 1 always, margin2 = -(b1+b2) > 0)
+    d=5: non-outermost windows, min over 20000 profiles of min(margin1, margin2) = 0.2979 (> 0 required; margin1 >= 1 always, margin2 = -(b1+b2) > 0)
+    d=6: non-outermost windows, min over 20000 profiles of min(margin1, margin2) = 0.3680 (> 0 required; margin1 >= 1 always, margin2 = -(b1+b2) > 0)
+  outermost s = log B: margin1 = 1 - b_d, zero iff b_d = 1 (the Sec. 6.2 case)
+== (6.9) outermost endpoint: s = log B, b_d = 1, final open plateau of dim k after j = d-k cuts, cuts j+1..d at time 1 ==
+  d=3: feasible k = [1]; paper's range 1 <= k < d-1 = [1]; e_j = B^(d-2k) >= 1 forces k <= d/2: [1]
+  d=4: feasible k = [1, 2]; paper's range 1 <= k < d-1 = [1, 2]; e_j = B^(d-2k) >= 1 forces k <= d/2: [1, 2]
+  d=5: feasible k = [1, 2]; paper's range 1 <= k < d-1 = [1, 2, 3]; e_j = B^(d-2k) >= 1 forces k <= d/2: [1, 2]
+  d=6: feasible k = [1, 2, 3]; paper's range 1 <= k < d-1 = [1, 2, 3, 4]; e_j = B^(d-2k) >= 1 forces k <= d/2: [1, 2, 3]
+  d=7: feasible k = [1, 2, 3]; paper's range 1 <= k < d-1 = [1, 2, 3, 4, 5]; e_j = B^(d-2k) >= 1 forces k <= d/2: [1, 2, 3]
+  d=8: feasible k = [1, 2, 3, 4]; paper's range 1 <= k < d-1 = [1, 2, 3, 4, 5, 6]; e_j = B^(d-2k) >= 1 forces k <= d/2: [1, 2, 3, 4]
+  identities: e_j * (B^2)^k = B^d  =>  e_j = B^(d-2k), N/e_j = B^(2k) = A^k
+== (6.10)-(6.11), Lemma 6.4 at the outermost endpoint ==
+  t0 > 1+b1+b2 is possible below 1 since b1+b2 < 0; normalized logs of T0/T_s(beta) and T0/(D1 D2): t0-beta and t0-(1+b1+b2):
+    log(T0/(D1 D2))/s = -b1 - b2 + t0 - 1 = t0 - (1+b1+b2)
+    d=4, k=2: deletion mass exponent (d-2k)+(k+1) = 3 < d: True;
+    d=5, k=2: deletion mass exponent (d-2k)+(k+1) = 4 < d: True;    d=5, k=3: deletion mass exponent (d-2k)+(k+1) = 3 < d: True;
+    d=6, k=2: deletion mass exponent (d-2k)+(k+1) = 5 < d: True;    d=6, k=3: deletion mass exponent (d-2k)+(k+1) = 4 < d: True;    d=6, k=4: deletion mass exponent (d-2k)+(k+1) = 3 < d: True;
+    d=7, k=2: deletion mass exponent (d-2k)+(k+1) = 6 < d: True;    d=7, k=3: deletion mass exponent (d-2k)+(k+1) = 5 < d: True;    d=7, k=4: deletion mass exponent (d-2k)+(k+1) = 4 < d: True;    d=7, k=5: deletion mass exponent (d-2k)+(k+1) = 3 < d: True;
+    d=8, k=2: deletion mass exponent (d-2k)+(k+1) = 7 < d: True;    d=8, k=3: deletion mass exponent (d-2k)+(k+1) = 6 < d: True;    d=8, k=4: deletion mass exponent (d-2k)+(k+1) = 5 < d: True;    d=8, k=5: deletion mass exponent (d-2k)+(k+1) = 4 < d: True;    d=8, k=6: deletion mass exponent (d-2k)+(k+1) = 3 < d: True;
+  test degrees T_s(t2) = B^(1+t2) = B^(2-(1-t2)) with t2 < 1: c = (1-t2)/2 works after constants
+  Bezout direction count: C E B^(2-c+o(1))/n with E = delta N/A, n >= N sqrt(delta): = sqrt(delta) * B^(-c+o(1))
+  final row count: E M / n <= sqrt(delta)/B**2 * M  = sqrt(delta) M / A -> 0 (no rate needed)
+  lift degree: deg(gamma)deg(C->gamma) = deg C - mult_p C >= deg C/2 and sum deg(C->gamma) <= 1  =>  sum deg C <= 2 deg(gamma)
+== 6.3 (6.18)-(6.20) and the depth denominators ==
+  (6.19): groups of depth <= R e^{eta s}, t_p deg pi_p Y >= deg Y/2  =>  sum_Z deg Z >= a/(2R e^{eta s})
+  (6.20)/|P_x|: e_j B^(l+1)/N with e_j = B^j exp(s sum_{i<=j} b_i), l = d-j:
+    d=3 j=1: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=3 j=2: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0
+    d=4 j=1: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=4 j=2: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=4 j=3: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0
+    d=5 j=1: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=5 j=2: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=5 j=3: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=5 j=4: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0
+    d=6 j=1: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=6 j=2: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=6 j=3: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=6 j=4: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0;    d=6 j=5: B-exponent j+(l+1)-d = 1 (claim 1); s-exponent sum_(i<=j) b_i = -sum_(i>j) b_i by sum b = 0
+    wider window: B=1e+06, s=0.05*log B: q=B^(1/2)=1.000e+03, r=ceil(B e^(-2s))=2.512e+05, q/r=3.981e-03, r >= ... B^0.900
+    wider window: B=1e+06, s=0.01*log B: q=B^(1/2)=1.000e+03, r=ceil(B e^(-2s))=7.586e+05, q/r=1.318e-03, r >= ... B^0.980
+    wider window: B=1e+12, s=0.05*log B: q=B^(1/2)=1.000e+06, r=ceil(B e^(-2s))=6.310e+10, q/r=1.585e-05, r >= ... B^0.900
+    wider window: B=1e+12, s=0.01*log B: q=B^(1/2)=1.000e+06, r=ceil(B e^(-2s))=5.754e+11, q/r=1.738e-06, r >= ... B^0.980
+    wider window: B=1e+30, s=0.05*log B: q=B^(1/2)=1.000e+15, r=ceil(B e^(-2s))=1.000e+27, q/r=1.000e-12, r >= ... B^0.900
+    wider window: B=1e+30, s=0.01*log B: q=B^(1/2)=1.000e+15, r=ceil(B e^(-2s))=2.512e+29, q/r=3.981e-15, r >= ... B^0.980
+    wider window: B=1e+100, s=0.05*log B: q=B^(1/2)=1.000e+50, r=ceil(B e^(-2s))=1.000e+90, q/r=1.000e-40, r >= ... B^0.900
+    wider window: B=1e+100, s=0.01*log B: q=B^(1/2)=1.000e+50, r=ceil(B e^(-2s))=1.000e+98, q/r=1.000e-48, r >= ... B^0.980
+  r - q - O(1) >= r/2 for large B since q = o(r) (q/r = B^(-1/2+o(1)))
+  multiplicity compression degree O(L^2/r) with L = B e^{O(s)}, r = B^(1+o(1)): = B e^{O(s)}
+== (6.26) strict margins on target plateaux (separated windows), all plateaux j=1..d-1 of random profiles ==
+  NO strict negative margin: d=3 narrow case l=1,b_{j+1}>0 : 9974 plateau instances
+  NO strict negative margin: d=4 narrow case l=1,b_{j+1}>0 : 10022 plateau instances
+  NO strict negative margin: d=5 narrow case l=1,b_{j+1}>0 : 9982 plateau instances
+  NO strict negative margin: d=6 narrow case l=1,b_{j+1}>0 : 9975 plateau instances
+  NO strict negative margin: d=7 narrow case l=1,b_{j+1}>0 : 10109 plateau instances
+  (paper: the only zero-margin case is narrower centres, final one-dimensional plateau l = 1 with b_{j+1} = b_d > 0, handled in 6.5)
+  initial interval ratio A/T^2 = exp(-2 b s): positive margin near b1 < 0
+  (6.25)/(6.27) at the last endpoint: sigma T e^{cs}/A / (C E T) = sigma e^{cs}/(C delta N) >= e^{cs/2 - o(s)}/(C delta) >= delta^-1 e^{cs/3}
+== 6.5: identities on the final narrow curve plateau (j = d-1, R = B exp(-b_d s)) ==
+  R*D_d = B**2 = A ;  e_{d-1}/R = B**(d - 2) = N/A
+  exceptional degree / projected degree: (delta (N/A) e^{-eta s}) / ((N/A) e^{-eps s}) = delta*exp(s*(epsilon - eta))  -> 0 for 0 < eps < eta

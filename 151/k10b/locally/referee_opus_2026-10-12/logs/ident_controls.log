@@ -1,0 +1,5 @@
+K33 answer ≅ K_{3,3,3}: True
+Rook33 answer 16 ≅ complement of K4xK4: True
+Rook33 answer 20 ≅ J(6,3): True
+Q3 answer 15 ≅ complement of K3xK5: True
+Q3 answer 24 ≅ 24-cell (D4 roots, inner product 1): True

@@ -1,0 +1,4 @@
+ratio window [0.15,5]: max D = 0.96031 at (k,a,b,h,t)=(2, 0, 1, 2, 0.15)  -> pass
+ratio window [0.05,5]: max D = 1.60364 at (k,a,b,h,t)=(2, 0, 1, 2, 0.05)  -> FAIL
+ratio window [0.15,20]: max D = 2.05448 at (k,a,b,h,t)=(2, 1, 0, 2, 20.0)  -> FAIL
+ratio window [0.01,100]: max D = 4.90414 at (k,a,b,h,t)=(2, 1, 0, 2, 100.0)  -> FAIL

@@ -1,0 +1,18 @@
+[2026-10-21T03:20:41Z] BEGIN cmpmod
+[2026-10-21T03:20:49Z] END cmpmod rc=0 8s
+[2026-10-21T03:20:49Z] BEGIN smoke
+[2026-10-21T03:20:55Z] END smoke rc=0 14s
+[2026-10-21T03:20:55Z] BEGIN cmp
+[2026-10-21T03:21:01Z] END cmp rc=0 20s
+[2026-10-21T03:21:01Z] BEGIN ax
+[2026-10-21T03:21:07Z] END ax rc=0 26s
+[2026-10-21T03:21:07Z] BEGIN neg
+[2026-10-21T03:21:14Z] END neg rc=0 33s
+[2026-10-21T03:21:14Z] BEGIN typectl
+[2026-10-21T03:21:20Z] END typectl rc=1 39s
+[2026-10-21T03:21:20Z] statement_match: MATCH STD_AXIOMS CMP_SORRY_SEEN CliqueFreeIndependence.WeightedGraph.maximum_degree_independence STD_AXIOMS CliqueFreeIndependence.WeightedGraph.exists_optimizer_triangle_bound STD_AXIOMS 
+[2026-10-21T03:28:17Z] BEGIN leanchecker_fresh
+[2026-10-21T04:25:46Z] END leanchecker_fresh rc=0 3449s
+[2026-10-21T04:25:46Z] BEGIN leanchecker_missing_control
+[2026-10-21T04:25:48Z] END leanchecker_missing_control rc=1 3451s
+[2026-10-21T04:25:48Z] LEANCHECKER DONE

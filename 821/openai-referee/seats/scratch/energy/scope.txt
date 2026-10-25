@@ -1,0 +1,613 @@
+One small mark and the rational character expansion
+
+Choose any small group gs and a designated slot among its tgs = ℓ ≥ 1 ordered marks. The endpoint
+mark weight is independent of the small labels. Whenever no prime of Pgs has its square dividing
+w, removal of the prime in this slot gives the exact identity
+Wtb (w) =
+
+X
+ps ∈Pgs
+ps |w
+
+1
+Wb
+(w/ps ).
+Vgs t−egs
+
+(5.12)
+
+Removing the designated slot is a bijection of the ordered lists; both ωgs and tgs decrease by one.
+There is therefore no extra factorial or damping factor. Both sides, even on the exceptional integers,
+are LO(1) by Equation (5.2) and ωgs (w) = O(L). Since w∗ | w/p2s on a square multiple, the squared
+norm of the error after multiplication by F0 is at most
+LO(1)
+
+X
+
+X
+
+τ (w∗ )4 ≪ Y LO(1)
+
+ps ∈Pgs w≍Y
+p2s |w
+
+X
+
+a
+
+O(1) −L
+p−2
+e
+.
+s ≪YL
+
+ps ∈Pgs
+
+Every Y /p2s is x1+o(1) . Parseval makes this error negligible in Equation (5.11).
+After Equation (5.12), combine the remaining P-part with the residual factor of Equation (5.3).
+The full integer factorization is w = mps pr, with residual coefficient
+b
+cr∗ Wt−e
+(r).
+gs
+
+39
+
+This identity uses that m, p have no group factors. The residual coefficient is a function of r alone
+and is bounded by LO(1) .
+All of m, ps , p are units modulo the arc denominator r0 ≤ LCarc . Separate residual factors by
+d0 = (r, r0 ) and put q0 = r0 /d0 . On units modulo q0 the exact finite character expansion is
+e(uv/q0 ) =
+
+X
+
+cu,q0 (χ)χ(v),
+
+cu,q0 (χ) =
+
+χ mod q0
+
+∗
+X
+1
+e(uv/q0 )χ(v).
+φ(q0 ) v mod q
+0
+
+Each coefficient has modulus at most one. Use this with v = mps p(r/d0 ); the condition (r, r0 ) = d0
+guarantees that v is a unit modulo q0 . The factors χ(r/d0 ) and the gcd restriction are absorbed into
+the residual coefficient. This includes every character modulo the actual quotient, so principal and
+imprimitive components are retained. The number of divisors and characters is a fixed log power,
+and products with χ0 have polylogarithmic modulus.
+It now suffices to prove the local energy bound at zero for sequences
+aw = Ψ1 (w/Y )wiv1
+
+X
+
+αm χm (m)miσ0 bs (ps ) 1p∈Ip , P − (p)>W χp (p)piσ1 dr ,
+
+(5.13)
+
+mps pr=w
+
+where ps ∈ Pgs , |bs | ≪ 1, |dr | ≤ LO(1) , the characters and frequencies have fixed log-power bounds,
+and Ψ1 has the same kind of smooth size support as above. Fixed-order divisor moments give
+P
+2
+O(1) .
+w |aw | ≪ Y L
+
+5.5
+
+From local Fourier energy to a Mellin integral
+
+We record the scale conversion explicitly. Choose a smooth nonnegative K of integral one, supported
+c
+in a sufficiently small fixed neighborhood of zero that |K(ξ)|
+≥ 1/2 for |ξ| ≤ 1, using the Fourier
+convention with e(−ξu). Plancherel on R gives
+Z
+|β|≤1/H
+
+2
+
+b(β)| dβ ≪ H
+|a
+
+−2
+
+2
+
+Z
+
+X
+
+R
+
+aw K((w − v)/H)
+
+dv.
+
+(5.14)
+
+w
+
+Only v ≍ Y contributes. Keep the integral restricted to this range when replacing the kernel by
+K(v log(w/v)/H); no estimate for this logarithmic kernel near v = 0 is used. On the union of
+the two kernels’ supports within this range, |w − v| ≪ H and their arguments differ by O(H/Y ).
+Therefore, by Cauchy–Schwarz over O(H) integers and then integrating the centers allowed for each
+w, the squared norm of the error in Equation (5.14) is
+≪ (H/Y )2
+
+X
+
+|aw |2 .
+
+(5.15)
+
+w
+
+This is smaller than Y L−A for every fixed A, since H = xo(1) and Y = x1+o(1) .
+P
+Set h = H/Y and P (t) = w aw wit . With v = Y eu , logarithmic Fourier inversion gives
+h
+aw K(v log(w/v)/H) =
+2π
+w
+
+X
+
+Z
+
+−u
+c
+e−u K(he
+t/(2π))v −it P (t) dt.
+
+R
+
+Insert a smooth compactly supported function ρ(u) equal to one on the required range. The Fourier
+−u t/(2π)), denoted A(s, t), satisfies, for each fixed j,
+c
+transform in u of ρ(u)e−u K(he
+|A(s, t)| ≪j (1 + |s|)−2 (1 + |ht|)−j .
+40
+
+c is Schwartz and u stays in a fixed compact
+This follows by two integrations by parts in u, since K
+interval. Fourier-expand in u, apply Minkowski’s integral inequality in s, and apply Plancherel in
+u for each s. As dv ≪ Y du, the normalization is H −2 Y h2 = Y −1 . After replacing j by a larger
+integer, we obtain
+Z
+|β|≤1/H
+
+b(β)|2 dβ ≪j Y −1
+|a
+
+Z
+
+(1 + |ht|)−j |P (t)|2 dt + (H/Y )2
+
+X
+
+R
+
+|aw |2 .
+
+(5.16)
+
+w
+
+By Theorem 2.6, for any dyadic time scale T ′ ≥ 1,
+Y −2
+
+Z
+
+|P (t)|2 dt ≪ (1 + T ′ /Y )LC9 .
+
+T ′ ≤|t|≤2T ′
+
+Consequently the portion |t| > L/h in Equation (5.16) is O(Y L−A ) after choosing j large enough.
+For the remaining portion split the four factor variables in Equation (5.13) into dyads. There are
+O(L4 ) boxes and only boxes whose joint size is comparable to Y contribute. Write
+X
+P (t) X 1
+(the four coefficients).
+=
+((w/Y )Ψ1 (w/Y )) wi(t+v1 )
+Y
+w w
+mps pr=w
+
+Fourier-separate the parenthesized cutoff in logarithmic coordinates. Its integral cost is a fixed log
+power; truncate at a fixed log-power frequency with arbitrary saving. The tails are bounded by
+the preceding mean values. The frequency shifts enlarge |t| ≤ L/h only to |t| ≤ 2L/h, because 1/h
+exceeds every fixed log power. We have reduced the assertion to
+Z
+|t|≤2L/h
+
+|Ps (t)Pl (t)R(t)|2 dt ≪ L−A
+
+′
+
+(5.17)
+
+for any prescribed fixed A′ , on each retained box, where
+Ps (t) =
+
+X
+
+bs (ps )p−1+it
+,
+s
+
+ps ≍P
+
+χp (p)p−1+iσ1 +it ,
+
+X
+
+Pl (t) =
+
+p≍P ′ , p∈Ip
+P − (p)>W
+
+
+
+R(t) = 
+
+
+
+αm χm (m)m−1+iσ0 +it  
+
+X
+
+m≍M0
+
+
+X
+
+dr r−1+it  .
+
+r≍R0
+
+Here and below dyads may be intersected with their existing support. We have
+a
+
+b
+
+xτ /2 ≤ P ′ ≤ xη ,
+
+eL /2 ≤ P ≤ eL ,
+
+P M0 P ′ R0 ≍ Y.
+
+For any subproduct of these four polynomials, collapse its coefficients to
+number of convolution factors and Theorem 2.5 give
+X
+
+|cn |2 ≪ LC10 /U.
+
+(5.18)
+
+P
+
+n≍U cn n
+
+it .
+
+A fixed
+
+(5.19)
+
+n
+
+This uses a fixed divisor moment: the number of marked groups has already been absorbed by
+Equation (5.2), not by a growing divisor order. Individually all these polynomials are also LO(1) in
+absolute value by their harmonic sums.
+41
+
+The remaining integral has three regimes. Most times are controlled by the small-prime
+polynomial Ps : where |Ps (t)| is a sufficiently small negative power of L, the ordinary mean square
+of Pl R suffices. We will show that the exceptional times occupy only Y o(1) unit intervals. On these
+intervals at large times, Pl is small by oscillation over its long rough-integer range; a sparse mean
+square for R makes that saving sufficient. For |t| bounded by a fixed power of L, the m factor in
+R is small by the original discrepancy hypothesis. We prove the exceptional-time and long-factor
+estimates first, then choose the discrepancy precision in the completion of the argument.
+
+5.6
+
+Exceptional times and a sparse mean square
+
+The split into ordinary and exceptional times, followed by high prime-polynomial moments and a
+sparse mean-square estimate, is in the spirit of the method of Matomäki and Radziwiłł; compare
+[13, Section 2.1 and Section 4, Lemmas 8–9]. The estimates needed here are proved below; we do
+not invoke their short-interval theorem.
+Fix a large constant As and let E = {t : |t| ≤ 2L/h, |Ps (t)| > L−As }. Outside E, use the
+indicated gain and the mean square of Pl R, of joint size Y /P . Its length exceeds the time range,
+since
+H
+Y /P
+=
+−→ ∞
+2L/h
+2LP
+by b < c and Equations (5.8) and (5.18). Thus this portion of Equation (5.17) is O(L−2As +C11 ).
+The factorial coefficient estimate in the next proof is the standard prime-polynomial moment
+argument; compare [20, Lemma 3 and its proof]. We keep its dependence on the growing power
+explicit.
+Lemma 5.2 (Number of exceptional unit intervals). The set E meets at most
+
+
+
+
+exp O(Lb + L1−a log L) = Y o(1)
+intervals [j, j + 1], uniformly in the bounded coefficients bs .
+Proof. Choose a point of E in each occupied interval, and split the interval indices into three residue
+classes to obtain separated points. Put j0 = ⌊log Y / log(2P )⌋. The polynomial Ps (t)j0 has indices
+at most Y . Its coefficient-square sum is at most
+j0
+
+
+X
+
+j0 ! 
+
+
+|bs (ps )|2 p−2
+s
+
+≤ j0 !(C/P )j0 .
+
+ps ≍P
+
+Indeed an integer has at most j0 ! ordered representations as a product of j0 primes; Cauchy–Schwarz
+on each fiber proves the first inequality even with repeated primes.
+P
+For a polynomial Q(t) = n≤Y cn nit and unit-separated points in [−O(Y ), O(Y )], the unitinterval Sobolev inequality and bounded overlap imply
+X
+j
+
+2
+
+|Q(tj )| ≪
+
+Z O(Y )
+
+(|Q(t)|2 + |Q′ (t)|2 ) dt ≪ Y (log(2Y ))O(1)
+
+−O(Y )
+
+X
+
+|cn |2 .
+
+n
+
+In the last step use Theorem 2.6; differentiation multiplies a coefficient by i log n, so the constants
+here are independent of j0 . The range 2L/h is o(Y ), as required. If NE is the number of occupied
+intervals, it follows that
+NE ≪ Y LO(1) j0 !(CL2As /P )j0 .
+Now j0 = O(L1−a ) and log Y − j0 log P = O(Lb + j0 ) by the definition with 2P . Taking logarithms
+and using log(j0 !) ≤ j0 log j0 proves the asserted estimate.
+42
+
+Lemma 5.3 (Sparse residual mean square). For the occupied unit intervals Ij in Theorem 5.2,
+X
+
+sup |R(t)|2 ≪ LC12 .
+
+j t∈Ij
+
+Proof. The collapsed residual size is
+U ≍ Y /(P P ′ ) ≥ Y 1−η−o(1) > Y 0.6
+for large x, and its coefficient-square sum is LO(1) /U by Equation (5.19). On a containing integer
+interval n ≍ U , the Gram kernel satisfies, uniformly for |z| ≪ Y ,
+X
+
+niz ≪
+
+n≍U
+
+U
++ Y 1/2 .
+1 + |z|
+
+(5.20)
+
+For |z| < 1 this is trivial. For 1 ≤ |z| ≤ cU with small fixed c, the phase z log n/(2π) has monotone
+first derivative of magnitude comparable to |z|/U and less than 1/2; Theorem 2.7 gives O(U/|z|).
+For cU < |z| ≪ Y the second derivative test gives O(|z|1/2 + U |z|−1/2 ) = O(Y 1/2 ).
+Choose a maximum point of |R| in each closed Ij and again split the indices into three residue
+classes. In each class these points are at least unit separated. For R = Y o(1) such points, the
+absolute row sums of their Gram matrix are at most
+C U log(2Y ) + RY 1/2 ≪ U log(2Y ).
+
+
+The first term follows by grouping distances into unit intervals; the second is absorbed by U > Y 0.6 .
+P
+Schur’s bound on this Gram matrix, applied to the map (cn ) 7→ ( n cn nitj )j , now gives
+X
+
+|R(tj )|2 ≪ U log(2Y )
+
+X
+
+|cn |2 ≪ LO(1) .
+
+n
+
+j
+
+Summing the three classes proves the statement, including the suprema over the intervals.
+
+5.7
+
+Cancellation of the long rough-integer factor
+
+The following elementary estimate is the reason for requiring a rough integer factor of positive power
+length in every endpoint.
+Lemma 5.4 (Long rough-integer polynomial). Fix τ > 0, η < 1/4, C > 0, and A > 0. Let
+xτ /2 ≤ P ′ ≤ xη , let J ′ ⊂ [P ′ , 2P ′ ] be an interval, and let χ have modulus at most LC . If |σ| ≤ LC ,
+then, for a sufficiently large fixed B0 , uniformly whenever LB0 ≤ |t| and |t + σ| ≤ x2 ,
+
+X
+
+χ(n)n−1+i(t+σ) ≪ L−A .
+
+n∈J ′
+P − (n)>W
+
+The constant B0 can be chosen after C, A, τ, η.
+√
+Proof. Set hs = 2⌈T 2 ⌉ and D = W 4hs +2 = exp(O( L T 2 )) = xo(1) . By Theorem 2.10, there is a
+polynomial
+X
+U (n) =
+λd ≥ 1P − (n)>W ,
+d|n
+
+43
+
+whose coefficients have modulus at most one, are supported on squarefree d ≤ D with primes at
+most W , and satisfy
+X
+
+U (n) − 1P − (n)>W ≪ P ′ e−hs + D.
+n∈[P ′ ,2P ′ ]
+
+The summand is nonnegative, so restriction to any J ′ preserves this upper bound. Replacing
+roughness by U in the normalized sum therefore costs at most O(e−hs + D/P ′ ), smaller than every
+fixed negative power of L. Also
+X |λd |
+d
+
+d
+
+Y
+
+≤
+
+(1 + 1/p) ≪ log W =
+
+√
+L.
+
+(5.21)
+
+p≤W
+
+Write q ′ for the character modulus. Terms with (d, q ′ ) > 1 vanish. For the other d, split n = dv
+by v = q ′ y + a modulo q ′ . The character is constant on a class. Its y variable ranges over an
+interval at size N = P ′ /(dq ′ ) ≥ xτ /2 for large x. Put u = t + σ. By taking B0 > C + 1 we ensure
+|u| ≥ LB0 /2. We claim, on every subinterval of the allowed y range,
+X
+
+exp(iu log(q ′ y + a)) ≪ N |u|−1 + N −δ
+
+
+
+(5.22)
+
+y
+
+for a fixed δ > 0 depending only on τ .
+If |u| ≤ cN , the monotone first derivative test gives O(N/|u|), since the derivative of u log(q ′ y +
+a)/(2π) stays away from nonzero integers. Otherwise put ε0 = 1/10. The overlapping ranges
+N k−2+ε0 ≤ |u| ≤ N k−ε0 ,
+
+k ≥ 2,
+
+cover cN < |u| ≤ x2 using 2 ≤ k ≤ K = ⌈4/τ ⌉ + 3. The kth derivative of this phase has constant
+sign and magnitude comparable to |u|N −k . For k = 2, the second derivative test directly saves
+a positive power. For k > 2, apply the van der Corput differencing inequality k − 2 times with
+positive integer shifts at most H0 = ⌊N ε0 /(2k) ⌋. After shifts h1 , . . . , hk−2 , the second derivative is an
+iterated integral of the kth derivative, and hence has constant sign and magnitude comparable to
+|u|N −k h1 · · · hk−2 ,
+
+between ck N −2+ε0 and Ck N −ε0 /2 .
+
+On an interval of any length m ≤ CN , the second derivative bound is
+ √
+
+O m λ + λ−1/2 ≪ N 1−ε0 /4 .
+To justify the estimate uniformly for short subintervals, extend each sequence by zero in a containing
+interval of length O(N ). The differencing inequality for its normalized sum has the form Bj2 ≪
+H0−1 + Bj+1 , where Bj+1 bounds the average of the absolute normalized correlations. Their supports
+are intersections of translates of the original interval, and so are again intervals. All shifts are
+o(N ), preserving the derivative bounds. Iterating from the final exponent ε0 /4 proves a bound
+O(N −δk ) for the original normalized sum, with δk = ε0 /(k2k−1 ). Taking δ = ε0 /(K2K−1 ) proves
+Equation (5.22) in every case. The differencing inequality itself follows by averaging H0 translates
+and applying Cauchy–Schwarz; its zero-shift term is precisely the displayed O(H0−1 ).
+Partial summation of 1/[d(q ′ y+a)] costs O(1/P ′ ) times the uniform unweighted bound. Summing
+the at most q ′ classes gives
+
+X
+
+χ(n)n−1+iu ≪
+
+n∈J ′
+d|n
+
+44
+
+
+1
+|u|−1 + x−τ δ/2 .
+d
+
+Finally Equation (5.21) bounds the total by
+O(e−hs + D/P ′ ) + O
+
+√
+
+
+
+L (L−B0 + x−τ δ/2 ) .
+
+Choosing B0 > A + 2 in addition to its previous constraint proves the lemma.
+
+5.8
+
+Completion and order of parameters
+
+We finish Equation (5.17). Outside E its integral is O(L−2As +C11 ), so choose As sufficiently large.
+On the exceptional intervals with |t| ≥ LB0 , Theorem 5.4 gives an arbitrarily strong uniform bound
+for Pl . Its range condition holds since 2L/h = o(Y ) = x1+o(1) < x2 /2; the fixed frequency shift does
+not change this. The polynomial Ps is bounded, and Theorem 5.3 gives
+Z
+E∩{|t|≥LB0 }
+
+|Ps (t)Pl (t)R(t)|2 dt ≪
+
+sup |Pl (t)|2 LO(1) .
+
+
+|t|≥LB0
+
+Here the supremum is restricted to the actual time range, and each occupied interval has length
+one. Choose the saving in the long-polynomial lemma after the exponent in the sparse bound.
+For all remaining |t| ≤ LB0 use Equation (5.4) on the m polynomial in R. The retained dyads
+satisfy P M0 P ′ R0 ≍ Y , so m ≪ Y = x1+o(1) < x2 for large x, also after the smooth cutoff has
+been separated. Its character modulus is a fixed log power, and its frequency is t + σ0 . A single
+sufficiently large B therefore bounds this polynomial by L−B throughout the range. Every other
+factor has absolute value LO(1) , and the length of this time interval is 2LB0 . The resulting integral
+is L−2B+B0 +O(1) , giving the required accuracy. This proves Equation (5.17), then Equation (5.11)
+by Equation (5.16), and then every comparison bound. The residual pairing and the raw identity in
+Equation (5.7) prove Equation (5.5).
+For completeness, the choices occur in the following order. First fix the endpoint bounds, group
+geometry, cutoff derivative bounds, and desired saving D0 . The uniform endpoint norm bound
+fixes the physical transfer target and its required ideal target; the fixed Mellin cutoff fixes the ideal
+frequency range. Next choose the probe count and comparison parameters of Theorem 4.1, then
+choose the fixed J required by transference. All pattern, cell, and absolute norm costs are now
+determined. Choose the separation accuracies, arc exponent, local energy target, and Mellin tail
+precision. Next choose As , the accuracy of the long rough polynomial and its B0 . Finally choose
+one B in Equation (5.4) exceeding all the modulus, frequency, and low-time saving requirements,
+and let x tend to infinity. The residual L2 bounds used before the choice of J depend only on the
+endpoint coefficient bounds and a fixed divisor moment. Increasing later Fourier tail accuracies uses
+more integrations by parts, with no enlargement of the already fixed ideal frequency range. Thus
+none of these choices is circular.
+
+6
+
+A Type II estimate

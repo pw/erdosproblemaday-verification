@@ -1,0 +1,2 @@
+cases=4000 decisions=34102 seed=1109 max_vertices=12
+CONCLUSION exact primary clique solver agrees with brute force

@@ -1,0 +1,23 @@
+	Command being timed: "/home/exedev/.venv/bin/python rerun_scip_independent.py --k 5006 --witness /home/exedev/erdos_scratch/frozen_erdos168_20260811/frontier/independent_k5006.txt --seconds 600 --log solver_runs/independent_scip_k5006.log --result solver_runs/independent_scip_k5006.json"
+	User time (seconds): 257.91
+	System time (seconds): 0.31
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:19.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 152156
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32566
+	Voluntary context switches: 59
+	Involuntary context switches: 11170
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

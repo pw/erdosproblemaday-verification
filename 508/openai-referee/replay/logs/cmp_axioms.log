@@ -1,0 +1,1 @@
+'OAI.EuclideanFiveColor.no_proper_five_coloring' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

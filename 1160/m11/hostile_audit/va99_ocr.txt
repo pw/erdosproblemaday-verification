@@ -1,0 +1,651 @@
+
+===== page-1.jpg =====
+SOME OF PAUL'S FAVORITE PROBLEMS
+
+(rating {rly t= of A airy 0
+
+
+===== page-2.jpg =====
+Lok cyboted Loving the confbeuce
+" Poh Trdby al Avr wsithoustir "
+
+bold be Beslarpor hn pty 1999
+
+SOME OF PAUL’S FAVORITE PROBLEMS
+
+How could one survey the work of Paul Erdés without his problems?
+course, many of his conjectures will be mentioned in the talks, and perha
+solutions to some will be presented. But it will contribute to the right spi
+of an Erdés conference to have this small collection of his most famo
+problems and conjectures in hand.
+
+Many of us will have heard some of these problems, especially the pre
+lems in our own field; the most fortunate of us heard them from Paul Erd
+himself. But it should be interesting for all of us to see the breathtaki
+breadth of topics and idcas in these conjectures.
+
+Paul Erdés presented his problems in his lectures in charming disord:
+and so does this collection. We are, however, working on the collected ai
+annotated problems of Erdés.
+
+Perhaps some of these problems will be solved during the meeting...
+
+1 Number theory
+
+1.1 Primes.
+Let p, denote the é’th prime and let D(a) = maxp, ca (Pe41 — Pe):
+1.1 Is lim D(z)/f(z) = 00, where
+
+f(z) = (log x) (log log x) (log log log z)~? (log log log log x)?
+1,2 Is it true that
+
+max(Pe41 Pk)(Pk — Pk-1) / D(x)* + 0?
+
+1.3 Let 2/2 <y<z. Is it true that
+
+(1+ c)D(z) }
+
+m(y + (1+c)D(z)) — m(y) = (1 + 0(1)) logy
+
+1.4 Let uy < ug <... be the sequence of those numbers that have at mo:
+two prime factors. Is it true that
+
+7 Uk+1 — Uk
+a Sl <P
+um log k
+
+===== page-3.jpg =====
+"1.5 Do there exist infinitely many n such that n— 22? is prime for every
+for which n > 227? (The largest seems to be 199).
+
+"1.6 If (n,k) = 1 and n = 968 then n — k? is prime whenever positive. Is
+968 the largest number with this property?
+
+1.7 The number 105 has the property that 105 — 2” is prime whenever it
+is positive. Is 105 the largest number with this property?
+
+1.8 (Erdés, Selfridge) Let p, < ... < py be primes, and take an interval of
+length ap,. How many multiples must these primes have in this interval at
+least? If a > 2, then Erdés and Selfridge found for 2 < a < 3 the exact
+bound; it is /u/2 if u is of the form 2m?. If a > 3, then very little is known.
+
+1.9 (Additive completion of primes) Let A be such a set that every suffi-
+ciently large integer is of the form a +p, a € A, p prime. How small can
+A(n) = |AN[1,n]| be? Erdés showed that A(n) < (logn)? is possible and
+we have trivially A(n) > logn. Improve these bounds.
+
+1.10 Denote by P(n) the greatest prime factor of n. Is it true that the
+density of the integers for which P(n + 1) > P(n) is 1/2?
+
+1.11 Let, for the sequence of primes p, f(p) be independent random vari-
+ables taking the values f(p) = +1 each with probability 1/2 and let us
+extend the sequence f(p) to a completely multiplicative arithmetic function
+
+f(n) by
+f(n) = f(pi)™ +++ f(pr)**
+
+for n having the prime factorization n = pf! ---p?*. Is it true that
+
+_— es f(n) -
+1 =
+Noo VN
+
+with probability 1?
+
+1.12 Let a; < a2 <... be a sequence of positive integers such that there
+are no i,j witht < j, a;|a;. Conjecture: the sum >>; 1/(a; log a;) is maximal
+if a1, a@2,... is the sequence of primes.
+
+1.2 Egyptian fractions
+
+1.13 (Erdés, Straus) Prove that for every n > 1
+
+4 1 1 1
+n z y z
+
+is solvable in integers «x, y, z.
+
+1.14 What is the maximum number of integers aj <a, <...< a, <n
+that no sum > <, (é; = 0,1) equals 1? Can k be n — o(n)?
+
+1.15 Ifa; < az < -++ < ay are positive integers and Le = 1, th
+max;(aj41 — a;) > 2.
+
+1.3 Additive number theory
+
+1.16 Let A be a set of nonnegative integers, and let r(n) denote the numb
+of pairs a,a’ satisfying a+a' =n, a,a’ € Aja <a’. Suppose that r(n) >
+for large n, that is, A is a basis of order 2.
+
+Can r(n) be bounded? Can it be o(logn)? Can r(n)/logn tend to
+finite nonzero limit?
+
+1.17 (Erdés, Sdrkézy) Let a; < ag <... and b; < bo <... be two infini
+sequences for which a,/b, — 1, and let g(n) denote the number of solutio:
+of n = a; + b;. If g(n) > 0 for all n, then
+
+lim sup g(n) = co. (
+n
+
+1.18 (Sidon sets) Let A and r(n) be as above. Suppose now that r(n) <
+for all n, that is, A is a Sidon set.
+
+a) Write s(n) = max{|A|: A C [1,n]}. Is s(n) = /n+O(1)? (Numeric:
+evidence and heuristic reasoning suggests that s(n) — \/n - oo.)
+
+b) Is there an infinite A = {a, < a2 < ...} satisfying a, = O(n?*)
+(Current record is /2 +1.) Is it possible that lim inf an/n? = 1? (Smalles
+known value is 2.)
+
+1.19 (Essential components) Is the set B = {23"} an essential componen'
+that is, does d(A + B) > d(A) hold for every set A with 0 < d(A) <1?
+
+1.20 (Subset sums) How many can be selected from the first n naturz
+numbers so that all their subset sums are distinct (like powers of 2)? Is thi
+number logy n + O(1)?
+
+1.21 Let @ be an irrational number, say V2 and nj < nz <... the sequenc
+of integers for which n?q is closer to an integer than Bow: Is it true tha
+every large integer is the sum of two n,’s?
+
+1.22 We have a set A of n integers and we want to select a subset BC A
+|B| = k as large as possible, with certain properties. The question is t
+estimate the maximal k.
+
+===== page-4.jpg =====
+a) Avoid 6; + b2 = b3 with b; € B. The maximum of k is somewhere
+between n/3 and n/2.
+
+b) Avoid bg = bo + b3 +... + 0m for any number of distinct b; € B. Is
+k > cn always possible?
+
+c) Avoid b; + bp = a, b; € B, a € A. No decent estimates.
+
+d) Find B so that all 2" subset sums are distinct. Maximum is between
+log; n and log, n.
+
+1.23 Let a; < a2 <.., be an infinite sequence for which all the triple sums
+a; + a; + ay are distinct. Is it then true that limsup ay/n? = co?
+
+1.24 Let a; < ag <... be a sequence of integers with an/an4; 9 1.
+Suppose that for every d, every residue (mod d) is representable as the
+sum of distinct a’s. Is it true that at most a finite number of integers are
+not representable as the sum of distinct a’s?
+
+1.25 Is every sufficiently large number n of the form 2? + y? — 2? with
+a? < n,y? < n,z* <n? (6563 cannot be so expressed, then every number
+up to 1000000 can. Becomes obvious if we relax the bound to n+ 2/n.)
+
+1.26 (Erdés, Szemerédi) If a; < ag... < ap are positive integers, then the
+
+total number of distinct integers of form a; + a; and aja; is greater than
+2—€
+nm .
+
+1.4 Arithmetic progressions
+
+1.27 (Erdés, Turdn) Let ry(n) denote the maximum size of a subset of
+{1,2,...,m} not containing an arithmetic progression of length k. Find the
+order of magnitude of rx(n). [It was proved by Roth for k = 3 and by
+Szemerédi for all k that r4(n) = o(n).]
+
+1.28 Let a, < a2 <... be a sequence of integers satisfying
+
+— 1
+
+Then the a,’s contain arbitrarily long arithmetic progressions.
+
+1.29 (Erdés, Stein) What is the maximum number k = k(x) of nonoverlap-
+ping arithmetic progressions
+
+a; (mod nj),l<nj<ng<...< my <z. Is k = o(n)?
+
+1.30 (Discrepancy of arithmetic progressions) Does there exist a sequence
+{e;} of plus and minus ones such that Dix1 ik is bounded for every k?
+
+Perhaps
+f
+
+>, Ekd
+
+k=1
+
+> clogn.
+
+Max
+l<n/d
+
+1.31 A system of congruences
+a; (mod nj), n1 <n <... <n
+
+is called a covering system if every integer satisfies at least one of the cor
+gruences, Is it true that for every c one can find a covering systein all «
+whose moduli are larger than c?
+
+1.32 Is it true that the product of four or more integers in an arithmeti
+progression is never a power?
+
+1.5 More Number Theory
+
+1.33 lim(aa41 — an) = 00 implies © ga irrational.
+
+1.34 (Moser, Lambck, Erdés) If a > 0, and @ is not an integer, then th
+density of n for which ged (n, [n“]) = 1 is S.
+
+2 Analysis
+
+2.1 Polynomials and interpolation ‘
+
+2.35 Let p(z) be a monic polynomial of degree n with complex coefficients.
+Prove that the length of the boundary of the set En(p) = {2 € C: |p(z)| <
+1} is 2n + O(1). [The best upper bounds so far are 74n? (Pommerenke) and
+O(n) (P. Borwein)]
+
+2.36 Is there an absolute constant ¢ > 0 such that the maximum norm on
+the unit circle of any polynomial of degree n with coefficients +1 is at least
+
+(1+¢)/n?
+2.37 Does there exist for every n a polynomial Pa(z) = DR exz* with
+coefficients €, = +1 such that
+
+avn < |pa(z)|<cavn (\z| = 1)
+
+on the unit circle, where c; and co are positive absolute constants?
+
+===== page-5.jpg =====
+2.38 Let {z,}f2, be a sequence of unimodular complex numbers, and let
+An = maxj,j=1 []g=1 |2 — 2]. Is it true that An > n° or Dp, An > n'*¢
+happens for infinitely many n (with an absolute constant c > 0)? [Wagner
+proved that lim sup,_,o9 An = 00.]
+
+2.39 Can one find an absolute constant g < 1 and for every n complex
+numbers z;, |z;| > 1 (i =1,...,n) such that their power sums satisfy
+
+n
+a
+i=1
+
+max <q"?
+2<kSn+1 i
+
+2.40 Let f be a continuous function on the interval (—1, 1], Xn = {zen} Rey
+a set of n distinct nodes in this interval,
+
+n
+Lif, Xn) = is f (ten) bi (Xn; z)
+k=1
+the corresponding Lagrange interpolation polynomial (where ¢,(X,,2) are
+the so-called fundamental polynomials of interpolation), and
+
+MXn,z) = >> [ee(Xn,2)|
+k=1
+
+the Lebesgue function of interpolation. Is there a point group X, for
+which for every continuous function f there is'at least one zo for which
+lim SUPpsoo A(Xn, Zo) = 00 holds, but limpoo L(f,Xn,; 20) = f(zo)? In
+other words, Lagrange interpolation cannot be completely “bad”, i.e. it can-
+not diverge simultaneously at all points where divergence is possible. [The
+classical results of Griinwald and Marcinkiewicz show that the Chebyshev
+roots do not have this property.]
+
+2.41 Let X, be the set of Chebyshev nodes. Prove that to any closed
+set A C [-1,1] there exists a continuous function f such that the set
+of limit points of L(f,Xn,x) is exactly A. [Erdés proved that if to =
+cos(rp/q), p = q = 1 (mod 2), then there is a continuous function f such
+that limpoo L(f, Xn, 20) = 00.]
+
+2.42 Let X,, be an arbitrary point group, and let €, — 0 as slowly as we
+please. Is it true that there always exists a continuous f for which if py is
+a polynomial of degree < n(1+ én) which satisfies pa(zkn) = f (Zen), k =
+1,...,n, then p, will diverge almost everywhere? [A recent result of Erdés,
+Kroé and Szabados shows that with a fixed ¢ > 0 instead of €,, convergent
+sequences of p, can be constructed.]
+
+2.43 Let X, be an arbitrary point group. Is it true that for almost all
+z € [-1,]]
+
+‘ 2
+lim sup A(Xn,2) > —logn—c
+n—-Co vs
+
+holds with some absolute constant c?
+
+2.44 Let X,, be an arbitrary point group. Prove that for any -1 <a<b<
+i,
+2
+es, A(Xn, 2) > E + o(t) log n.
+
+2.45 Characterize the point group X,, for which
+
+1 7
+/ So (Xn, 2)? da
+~l ey
+
+is minimal. [Erdés conjectured that the minimum is attained for the roots
+of the integral of the Legendre polynomials, but this was disproved by Sza-
+bados.]
+
+2.2 Measure Theory
+
+2.46 Is it true that for every infinite set H C IR there exists a measurable
+set A C R of positive measure such that A does not contain a similar copy
+of H? (We may assume that H is a convergent sequence.)
+
+‘
+
+2.47 Is it true that there is an absolute constant C so that if a set $ C IR?
+has planar measure greater than C' then S$ contains the vertices of a triangle
+of area 1? Is C = 413~3/? true? (This is the area of the circle of radius
+0 373/4,)
+
+2.48 Is it true that for every 0 < a < 1 there is a ring or field of Hausdorff
+dimension a? [Erdés and Volkmann proved the existence of a group of real
+numbers of Hausdorff dimension a.]
+
+3 Graphs and hypergraphs
+3.1 Ramsey theory
+
+Let r(u,v) be the smallest integer for which every graph on r(u, v) vertices
+contains either an independent set on u vertices or a complete graph on v
+vertices. Let R(n) = r(n,n).
+
+===== page-6.jpg =====
+Erdés and Szekeres proved that
+
+2n — 2
+cn 2/2 < Rin) < (7).
+
+3.49 Find a constructive proof of
+
+R(n) > (1 +0)".
+
+3.50 Prove that
+lim R(n)/" =c
+n-?co
+
+exists.
+
+3.51 Prove
+r(4,n) > n8-€,
+
+3.52 (Erdés, Hajnal) If H is any graph and G is a graph of n vertices which
+does not contain H as an induced subgraph, then it must contain a complete
+subgraph or independent set of size n*, where € depends on H only.
+
+3.53 (Erdés, Rényi) Let G(n) be a graph that does not contain a complete
+subgraph or independent set of size of c; logn vertices. Then G contains 2
+induced subgraphs no two of which are isomorphic.
+
+3.54 (Erdés, Faudree, Ordman) Let f(n) be the smallest integer for which if
+we color the edges of K(n) by two colors there are at least f(n) edge disjoint
+monochromatic triangles. Is it true that
+
+f(n) = (1+ 0(1))%?
+
+3.2 Extremal problems
+
+3.55 (Erdés, T. Sés) Let T be a tree on k vertices. If a graph G on n vertices
+contains no copy of T then
+
+e(Gn) < aa.
+
+Let G be a connected graph, and T(n;G) be the smallest integer for
+which every graph of n vertices and T(n; G) edges contains G as a subgraph.
+T(n;G) is called the Turdn number of G, in memory of Turan who started
+this subject.
+
+3.56 Let G bipartite and n be large. How many graphs on n vertices are
+there which do not contain a copy of G? Denote this number by f(n;G).
+Conjecture:
+
+f(n,G) = g(i+o(1)) T(n;@) |
+
+In particular, is it true that for G = C4,
+
+‘ f(n; C4) = g(5+0(1))n8/? »
+
+3.3 Coloring problems
+
+3.57 (Erdés, Faber, Lovdsz) If G is the edge disjoint union of n complete
+graphs of size n, then G' has chromatic number n. [J. Kahn proved that the
+chromatic number of G is less than (1 + 0(1))n.]
+
+Firedi and Erdés conjectured the following generalization: Let G be the
+union of n complete graphs of size n every two of which have at most k
+vertices in common. Then the chromatic number of G is at most kn.
+
+3.58 (Erdés, Hajnal) If G has infinite chromatic number and if ar; +1
+(i =1,2,...) are the sizes of the odd circuits occurring in G, then + 2300
+and perhaps the r; have positive upper density.
+
+3.59 (Erdés, Hajnal) Given natural numbers & and g, for some f(k,g) every
+
+graph of chromatic number at least f(k,g) contains a graph of girth at least
+g and chromatic number k.
+
+3.60 IfG is a critically 4-chromatic graph on n vertices, then the minimum
+degree of G is o(n)?
+
+3.4 Random structures
+
+3.61 (Bollobds, Erdés) Set out from the complete graph and delete edges
+as follows: choose a random triangle in the graph, delete its edges, choose
+a random triangle in the remaining graph, delete its edges, (at each step
+each triangle is chosen with the same probability) and iterate this. Stop
+when there are no triangles in the graph. Describe the typical parameters,
+(structure) of the graph.
+
+This problem was motivated by the task of generating a random triangle-
+free graph.
+
+3.62 It is known that the chromatic number of almost every random graph
+Gp,i/2 is (1+ 0(1)) and that the concentration is considerably higher than
+this. Somewhat surprisingly, it is not known that the chromatic number
+
+===== page-7.jpg =====
+of almost every G,,1/2 is not concentrated on two values, say. In fact, it
+seems unlikely that for some constant c the chromatic number of a random
+graph G,,1/2 is concentrated on at most c values. Perhaps it is also true
+that if w(n) — oo sufficiently slowly then for every function k(n) we have
+P(|x(Gn,1/2) — k(n)| < wn) > 1/2 if n is sufficiently large.
+
+3.5 Set-systems
+
+3.63 (Erddés, Rado) A family of sets Aj, 1 <i < ¢ is called a (strong) A-
+system if the sets A; Aj, 1 <i <j < t, are all identical. Denote by g,(n)
+the smallest integer for which every family of g,(n) sets of size n contains r
+sets which form a A-system. Erdés and Rado proved that
+
+2” < g)(n) < 2nl.
+
+They conjectured that
+gr(n) < CP. (2)
+
+3.64 Find the maximum number of edges in a t-uniform hypergraph in
+which every k vertices span at most r edges. This very difficult question
+contains the existence problem of block designs, the Ruzsa-Szemerédi The-
+orem etc.
+
+3.65 Find a matching lower bound for the hypergraph version of the Kévari-
+T. Sés-Turdn Theorem, Let ex;(n,r) denote the maximum number of edges
+in a t-partite t-uniform hypergraph that does not contain a complete t-
+partite subhypergraph with r vertices in each class. What is
+
+2
+
+sass log ex;(n, r)
+n-0o log n
+
+Is the 1962 bound 1
+
+Pie termes
+
+pel
+
+of Erdés best possible?
+
+4 Geometry
+
+4.66 (Erdés, Szekeres) Determine the minimum f(k) such that in any set
+of f(k) points in the plane (no three on a line) one can find & in a convex
+
+position. The conjectured value is f(&) = 24" + 1. ‘Phere is a constructio
+showing f(k) > 2-2.
+
+4.67 For an arbitrary sct S of m points in Lhe plane, the number of un
+distances between the points of S is O(n'!**),
+
+4.68 (Erdés—Moser) If S is the set of vertices of a convex n-gon, then th
+number of unit distances between the points of S is O(n).
+
+4.69 Let S bea set of n points in the plane; let N(S) denote the number «
+different distances between the points of S, and let f(n) be the least valr:
+that N(S) can have.
+
+Conjecture: f(n) > cn!~£; furthermore, there exists a point p € S suc
+that more than cn!~€ different values occur among the distances pq, q € §
+
+4.70 Let P be a finite projective plane. Does it contain a set S of point
+such that 1 <|SML| < 1000 for every line L?
+
+5 Algebra
+
+5.71 Denote by g(n) the number of groups of order n. Conjecture: |]
+n < 2™ then g(n) < g(2™).
+
+5.72 (Erdés, Turdn) If f;,(n) denotes the number of clements P of S$, fo
+which O(P) = k, for which values of k will f;,(n) be maximal?
+
+5.73 (Erdés, Turdn) Determine the number of all subgroups of S, at leas
+asymptotically. Is there a statistical theorem on their order?
+
+5.74 (Erdés, Turdn) Describe (by statistical means) the arithmetic struc
+ture of the orders of subgroups of Sp.
+
+5.75 Let G be a group. Assume that it has at most n elements which d
+not commute pairwise. Denote by h(n) the smallest integer for which G(n
+can be covered by h(n) Abelian groups. Determine or estimate h(n) as we
+as possible. [Pyber and Isaacs proved that 2""-)/? < h(n) < c” for som
+large constant c.] '
+
+6 Probability
+
+6.1 Random walk
+Let {S,, n =0,1,2,...} be a random walk on Z? and let
+
+€(z,n) = #{k: OS k Sn, S, =2}.
+
+===== page-8.jpg =====
+6.76 (Erdés, Taylor) Let 2, be the largest integer for which
+E(z,n)>0 foreach |lzl|<R, (x € Z?).
+
+Conjecture: Ry is about exp((logn)!/*), Kesten formulated the following
+stronger conjecture:
+
+2
+lim p | Gee tal <a ha1—er™ (A>0, 2 >0).
+
+6.77 (Erdés and Révész) A point 2p € Z? is called a favorite value at the
+moment n if the particle visits x, most often during the first n steps, i.e.
+
+€(2n,n) = max §(ys n).
+
+Let .
+Fy = {a+ &(e,n) = max €(y,n)}.
+Find P{|F,| =r i.o.} (r = 3,4,...).
+6.78 (Erdés, Révész) What can be said on
+n
+U Fl?
+
+k=1
+
+a(n) =
+
+The conjecture is that ,
+a(n) <(logn)*° forsome c>0
+
+a.s. for all but finitely many n.
+
+7 Set theory
+
+7.79 (Erdés, Hajnal, Rado) If r > 2 is finite, \ is an infinite cardinal,and
+Kq are cardinals for a < 7, then A A (Ka)G<y implies 2 A (Ka + ih ad
+
+(here + means cardinal addition, that is, Ka + 1 = Ke if Kg is infinite).
+7.80 (Erdés, Hajnal, Rado) Xy+1 A (Rw41, (3)x0)7 without the assumption
+of GCH.
+
+7.81 Is it consistent that 2%° — [X,]? and 28° = Ng. [The consistency of
+2Xo —+ [Ni]? was established by Shelah, however, in his model 2¥o is a weakly
+inaccessible cardinal.]
+
+7.82 Describe when a > (a, 7)? holds for a < w, and 2 finite. The si
+. . a 3. apa
+unsolved problem is if w” — (w*” ,3)* holds.
+
+7.83 (Erdés, Rado) Prove that w; > (a,n)* holds for a < w; and n
+7.84 Is it true that w? > (ww, (3),)* for every k < w?
+
+7.85 (Erdés, Hajnal) Is it true that w? 4 (w?,3)? ? [Hajnal showc
+this follows from CH.]
+
+7.86 Is it consistent that we —+ (ax)2 holds for every a < we ? [Laver
+the consistency of w, -> (w:2+ 1,a)? for all a < we and more 1
+Foreman and Hajnal showed the consistency of w2 > (w? + 1,a)?
+a < wp] :
+
+7.87 (Erdés, Hajnal) One formulation of the Erdés-Rado partition tl
+(for exponent 2) is that (2")* + (*%*+1)2 holds for every infinite card
+The simplest unsolved related problems are (under GCH): w3 - (w
+w3 > (we + Wi, We +w)*, we > tat + 2,w, + 2)?, and (from CH)
+(wy, +w)3.
+
+7.88 (Erdés, Hajnal) Assume GCH and that f is a set mapping o
+with |f(a) N f(B)| < Xy for a # B. Is it true that there is a free
+cardinal N41?
+
+7.89 Is it true that any two uncountably chromatic graphs have a co
+4-chromatic subgraph ?
+
+7.90 (Erdés, Hajnal) Prove that every uncountably chromatic grap
+tains an No-connected subgraph.
+
+7.91 (Erdés, Hajnal) Is there a K4-free graph X such that every ed
+oring of X with countably many colors contains a monocolored trian
+there a Ky,-free graph X such that every edge coloring of X with cou
+many colors contains a monocolored Ky, ? [Shelah proved that a
+with either property can consistently exist.]
+
+7.92 (Erdés, Hajnal) Does there exist for every uncountable carc
+another cardinal A such that every A-chromatic graph contains a «-chr:
+triangle-free graph? (Shelah proved that a negative answer is consist
+c= A= X1.]
+
+7.93 (Erdés, Galvin, Hajnal) Let X be an Xj-chromatic graph. Is
+
+that one can color the edges with &; colors such that whenever the v
+are decomposed into countably many classes, then there is a class sp.
+all colors. [The consistency of this was shown by Hajnal and Komjat
+
+12
+
+===== page-9.jpg =====
+- 7.94 (Erdés, Galvin, Hajnal) (a) If S$ is a finite triple system and there is
+an uncountably chromatic triple systems omitting S, then there is one with
+: - cardinality at most 22°,
+
+(b) If S,, S2 are finite triple systems and for cach of them there is an
+uncountably chromatic triple system omitting it then there is one omitting
+both.
+
+(c) If, A are uncountable cardinals, S is a finite triple system and there
+is a «-chromatic triple systems omitting S then there is a \-chromatic triple
+system omitting S.
+
+(Collected by B. Bollobds, Z. Fiiredi, A. Hajnal, G. Haldész, G.O.H. Katona,
+P. Komjath, M. Laczkovich, L. Lovdsz, L. Pyber, P. Révész, 1.Z. Ruzsa,
+A, Sdrkézy, M. Simonovits, V.T. Sés, J. Szabados, T. Szényi, K. Veszter-
+gombi, P. Vértesi.)
+
+14
+

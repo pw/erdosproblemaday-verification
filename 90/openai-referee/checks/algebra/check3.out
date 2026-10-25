@@ -1,0 +1,17 @@
+eq of image under A: w*z - w + 2*I*w - z - 2*I*z + 4 | equals f? False
+eq of image under B: w*z - w - 2*I*w - z + 2*I*z + 4 | equals f? True
+  sample real point p=(sqrt(3)/2 + 1,5/2): A-image = (sqrt(3)/2 + 1 - 5*I/2, sqrt(3)/2 + 1 + 5*I/2) point (x,-y); B-image fixes p: True
+real points (of 12) whose A-image stays on the circle: 0 ; B-image: 12
+common points of the circle and its A-image: 2 (bounded, so the A-version of the Bezout step would NOT force equality)
+B-symmetry of (z-u)(w-v)=1 requires coefficient equality: [{v: conjugate(u)}]
+line z-c: B-image equation w - conjugate(c)
+subset [0] odd-exponent factors: ['z - 2', 'z + 2']
+subset [1] odd-exponent factors: ['z - 9', 'z - 5']
+subset [2] odd-exponent factors: ['z - 21', 'z - 17']
+subset [0, 1] odd-exponent factors: ['z - 9', 'z - 5', 'z - 2', 'z + 2']
+subset [0, 2] odd-exponent factors: ['z - 21', 'z - 17', 'z - 2', 'z + 2']
+subset [1, 2] odd-exponent factors: ['z - 21', 'z - 17', 'z - 9', 'z - 5']
+subset [0, 1, 2] odd-exponent factors: ['z - 21', 'z - 17', 'z - 9', 'z - 5', 'z - 2', 'z + 2']
+line case: deg_X of min-poly candidate = 8 ; irreducible factors' X-degrees: [8]
+circle b=1: irreducible factors' X-degrees: [1, 1, 1, 1, 1, 1, 1, 1]
+circle b=2: irreducible factors' X-degrees: [8]

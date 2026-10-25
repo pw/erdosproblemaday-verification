@@ -1,0 +1,4 @@
+SmallGroup(17,1): 2 connection sets -> 1 component(s): {'P17': 1}
+SmallGroup(21,1): 21 connection sets -> 1 component(s): {'G21': 1}
+SmallGroup(34,1): 2 connection sets -> 2 component(s): {'P17': 2}
+SmallGroup(34,2): 2 connection sets -> 2 component(s): {'P17': 2}

@@ -1,0 +1,14 @@
+[2026-10-13T12:10:17Z] BEGIN toolchain :: lean --version
+[2026-10-13T12:11:03Z] END toolchain rc=0
+[2026-10-13T12:11:03Z] BEGIN deps :: lake exe cache get
+[2026-10-13T12:14:02Z] END deps rc=0
+[2026-10-13T12:14:02Z] BEGIN build :: lake build
+[2026-10-13T12:15:10Z] END build rc=0
+[2026-10-13T12:15:10Z] BEGIN trust0 :: lake env lean --trust=0 Erdos12.lean
+[2026-10-13T12:15:15Z] END trust0 rc=0
+[2026-10-13T12:15:15Z] BEGIN axioms :: lake env lean ../Axioms.lean
+[2026-10-13T12:15:20Z] END axioms rc=0
+[2026-10-13T12:15:20Z] BEGIN negcontrol :: lake env lean ../NegControl.lean
+[2026-10-13T12:15:25Z] END negcontrol rc=0
+[2026-10-13T12:15:25Z] BEGIN wrongshape :: lake env lean ../WrongShape.lean
+[2026-10-13T12:15:29Z] END wrongshape rc=1

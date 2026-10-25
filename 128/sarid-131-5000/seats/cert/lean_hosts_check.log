@@ -1,0 +1,3 @@
+Lean reps: 38  all triangle-free: True
+distinct classes among Lean reps: 38  equal to my 38 classes: True
+my verifier on the Lean representative labellings: ok = True  min slack = 0.0  eps needed = 1.991010996973144e-11

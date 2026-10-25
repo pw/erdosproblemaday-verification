@@ -1,0 +1,4 @@
+n=107 target=15 edges=71799 binary_nodes=11898873 result=UNSAT
+n=124 target=16 edges=109838 binary_nodes=37336183 result=UNSAT
+n=125 target=17 edges=113132 binary_nodes=32227421 result=UNSAT
+INDEPENDENT PASS: exact f_3(N) for 101 <= N <= 125

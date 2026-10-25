@@ -1,0 +1,185 @@
+200
+
+
+Erdős #341: Dickson&#39;s greedy problem is answered NO — Zhiheng Li&#39;s 21-element seed (with GPT-5.6 Sol), refereed: his closed-form set reproduced term for term to 10⁷ by our own greedy, the mod-49 shield and the scale-eight controller recomputed, the Lean kernel-replayed on our machine on the three standard axioms, the statement matched to Erdős–Graham&#39;s 1980 wording — and the same seed is periodic under the other summand convention — Erdős Problem a Day
+
+ Erdős Problem a Daythe open tracker
+ ☰
+ BoardGuideSubmitSubmissionsOur attemptsAbout
+
+ ERDŐS #341
+ #341: Dickson&#39;s greedy problem is answered NO — Zhiheng Li&#39;s 21-element seed (with GPT-5.6 Sol), refereed: his closed-form set reproduced term for term to 10⁷ by our own greedy, the mod-49 shield and the scale-eight controller recomputed, the Lean kernel-replayed on our machine on the three standard axioms, the statement matched to Erdős–Graham&#39;s 1980 wording — and the same seed is periodic under the other summand convention
+ CLOSEDOCT 13, 2026
+ Community database OPENas of 2025-08-31tags number theoryproblem page &middot; erdosproblems.com/341
+ 
+ 
+The problem (erdosproblems.com/341; Erdős–Graham 1980, p. 53; discussed in the comments to Problem 7 on Green's list). Start from a finite set
+A = {a1 < … < ak} of positive integers and extend it greedily: for n ≥ k, an+1 is the least integer exceeding
+an that is not of the form ai + aj with i, j ≤ n. Is the sequence of differences
+an+1 − an always eventually periodic? Erdős and Graham write that this "old problem of Dickson [Dic (34)] is still wide open" and that
+"even a starting set as small as {1, 4, 9, 16, 25} requires thousands of terms before periodicity eventually occurs" (our OCR of the monograph, p. 53, is in the bundle; Dickson's paper is
+"The converse of Waring's problem", Bull. AMS 40 (1934) 711–714). One convention point matters for everything below and we settled it from the sources: Dickson's rule, as Erdős–Graham state it,
+takes i, j ≤ n with i = j allowed — the Ulam problem in the very next paragraph of the monograph says "i ≠ j" explicitly, this one does not —
+and Green's list says the same ("not of the form ui + uj for i, j ≤ n. This construction was considered by Dickson. A variant construction
+considered by Queneau is to define un+1 to be the smallest integer greater than un and not of the form ui + uj with
+i < j ≤ n. For both variants, the following question appears to be open"). The Formal Conjectures statement erdos_341 quantifies the forbidden sums as
+{ai + aj | i ≤ n, j ≤ n}, equal indices included. So does the claim we are refereeing.
+
+The claim on the tab. The proof-claims tab of erdosproblems.com/341 carries exactly one entry, submitted 9 August 2026 (15:32:18, the site's clock) by Zhiheng Li, "using GPT-5.6 Sol":
+Counterexamples to Erdős Problem 341, a paper with a Lean 4 formalization (repository LiAlreadyExists/Erdos-341; the claim links the repository's main, which has been revised since the
+claim was filed — the family of §5 arrived with v1.3.0 on 16 August — and we referee what main pointed to on 13 October: commit c1d9121 of 20 August 2026, tag v2.1.0,
+Zenodo 10.5281/zenodo.22030579; the paper itself cites the v2.0.1 deposit, 10.5281/zenodo.22030511; the Lean files are byte-identical across the two). The answer is NO. For the 21-element seed
+A = {1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97} the greedy extension has a consecutive-gap sequence that is not eventually periodic;
+and §5 gives an infinite family Ap (one for every p ≥ 18, with 7p − 20 elements, modulus 7p) of further counterexamples. The page itself has not
+changed since 20 January 2026 and shows no resolution (the site no longer displays statuses); the teorth database says OPEN (status last updated 31 August 2025; its "formalized" field was set
+22 January 2026); but Formal Conjectures merged
+"Erdős 341: the answer is no (Li 2026), link the formal disproof" on 18 September 2026 (PR #6070) and marks erdos_341 research solved, with answer(False).
+So the problem has been answered in the public record — by a reader with a model, two months ago, in a preprint that no journal and nobody in public has refereed. This entry is that referee
+report. Nothing in the disproof is ours.
+
+What the construction is, in one paragraph. Li does not run the greedy algorithm and watch it; he writes the final set down in closed form and proves it obeys the rule.
+Work modulo 49. Five residue classes are fully in: B = {3, 22, 32, 40, 48} (every 49q + b). Seven small integers D = {1, 2, 5, 13, 27, 36, 47} are in by fiat
+(the part of the seed that lies on no class; the seed is D ∪ B ∪ (49 + B) ∪ {7, 28, 63, 77}). Three more classes, the "rails" P = {7, 14, 28}, are in at quotient q exactly when q lies in one of three sets built from powers of eight:
+49q + 7 ∈ S iff q ∈ Y0 = {0} ∪ ⋃k [4·8k, 8·8k);
+49q + 14 ∈ S iff q ∈ Y1 = [1, 3] ∪ ⋃k [16·8k − 1, 32·8k);
+49q + 28 ∈ S iff q ∈ Y2 = [0, 1] ∪ [7, 15] ∪ ⋃k [64·8k − 1, 128·8k).
+Why 7, 14, 28: doubling cycles them (8·7 ≡ 7 mod 49, because 2 has order 3 mod 7), and of all pair sums of rail residues only the
+diagonal ones land in Q — 7 + 7 = 14, 14 + 14 = 28, 28 + 28 = 56 ≡ 7 (mod 49) — so the three rails
+form a closed loop in which each one's membership at q is "not a pair-sum of the previous rail's quotients": Y1 = (Y0 + Y0)c,
+Y2 = (Y1 + Y1)c, Y0 = {0} ∪ (1 + (Y2 + Y2)c) — three interval
+calculations, since sums of unions of intervals are unions of intervals (the "scale-eight controller", Lemma 2.1). Everything else is a finite check — residues mod 49 plus a few small carries (the "shield", Lemma 3.1, and the small
+representatives 7, 63, 28 that the controller's initial values put into S): the sums
+B+B, P+B, D+B cover every residue outside Q = B ∪ P, none of B+B, P+B, D+B,
+D+P lands in Q, and P+P meets Q only in the three diagonal pairs. Together (Theorem 3.2): for every t > 97,
+t ∈ S ⇔ t ∉ S + S — which, scanned upward from 98, is the greedy rule (Lemma 1.2: a representation of t as a sum of two positive elements of
+S uses only elements below t, so "not a sum of two earlier terms" and "not in S + S" coincide) — and S ∩ [1, 97] is exactly the seed. Aperiodicity is then the
+easy half: the 7-rail copies Y0, whose member-blocks [4·8k, 8·8k) and the gaps between them (24·8k long) both grow
+geometrically, so no period h survives past 8k > h (Lemma 2.2); and gaps eventually periodic would force membership eventually periodic (Lemma 4.1:
+h periodic gaps give tm+h = tm + H for a fixed H). That is the whole proof. Every step is finite arithmetic or an
+interval identity; there is no asymptotic estimate anywhere.
+
+How we checked it. (i) Our own greedy, from the seed, knowing nothing of the construction. A 50-line C bitset program (greedy341.c,
+in the bundle) applies Dickson's rule to the seed up to 107: 1,224,508 terms, density 0.12245 (≈ 6/49), largest gap 19, above the seed the five B-classes each hold 204,079–204,080
+terms and the rails 91,734 / 74,903 / 37,453. Then, in a separate script (check_li.py), Li's closed-form S — transcribed from his Lean definitions, not from the paper's
+prose — evaluated at every integer up to 107: 1,224,508 members, 0 mismatches against the greedy set, and S ∩ [1, 97] is the seed. The same script
+recomputes the shield (the cover identity — 41 residues — the avoidance identity, the P+P identity and the diagonal-pairs claim) and the three controller identities on all quotients below 87; four
+mutations (drop a B-residue; widen every Y0 block by an eighth; flip one bit of the greedy set; drop 14 from P) each make it fail, with the mismatch count printed
+(204,081 / 4,681 / 1 / shield false). One thing worth seeing in the data: on the last quarter of [1, 107] the gap sequence has exact period 6 — that stretch lies inside a single
+controller block (quotients 131,072 to 204,081, where the 7-rail is on and the others off) — while over the last half no period up to 306,127 fits. Our program's probe dutifully labels the
+tail "periodic-compatible"; the label is meaningless, for or against. Aperiodicity lives at the scale transitions 8k, and a 107 window contains one of them.
+A finite run cannot see this set's aperiodicity; it can only fail to find a period.
+(ii) Kernel replay of the Lean. Fresh clone at c1d9121, the author's own pins (Lean v4.33.0-rc1, Mathlib tag v4.33.0-rc1; a tagged release-candidate with a published cache, so lake exe cache get
+fetched 8,643 files in 52 s — on its second attempt; the first died when this box ran out of disk mid-download), lake build: 8,663 jobs, 0 errors (Erdos341Shield 86 s — the kernel-decided residue certificate — Erdos341 15 s,
+Erdos341g 101 s). Our own audit file prints, with pp.all, the final theorem and the five definitions it is built from (GreedyExtension, LeastGreedyStep,
+PrefixPairSum, EventuallyPeriodic, PairSum), prints Seed, S, enumeration and gap plainly, and the axioms of five declarations:
+Erdos341.erdos_341_negative, S_is_greedy, least_next_rule_after_fixed_seed, gap_not_eventuallyPeriodic and the family theorem
+Erdos3417p.theorem_5_1_nonperiodicity each depend on exactly [propext, Classical.choice, Quot.sound]; a negative control (a sorry'd copy of the
+aperiodicity statement) prints sorryAx; a scan of the three first-party sources finds no sorry, admit, axiom, native_decide,
+implemented_by, extern, unsafe, partial or opaque; leanchecker re-checks the two named modules Erdos341 and Erdos341g (46 s; a non-existent module
+exits 1) — in that mode it replays only the modules named, so the Shield module, where the kernel-decided residue certificate lives, is covered only by the
+leanchecker --fresh pass over the whole import closure, Mathlib included, which is running as this is written (about an hour; this sentence is updated when it lands).
+(iii) Statement match. The theorem is a conjunction of three things, and all three are needed. GreedyExtension Seed S 97: for n ≤ 97, S n ↔ Seed n
+(Seed is the 21-element disjunction, literally), and for n > 97, S n ↔ ¬PairSum S n, where PairSum X n is ∃ a b, X a ∧ X b
+∧ a + b = n — equal summands allowed, nothing about order. enumeration is Nat.nth S (0-indexed), so enumeration i = 97 fixes
+i = 20, the 21st term, and LeastGreedyStep enumeration j for every j ≥ 20 is a faithful encoding of Erdős–Graham's sentence: aj < aj+1,
+aj+1 is not au + av for any u, v ≤ j (PrefixPairSum, equal indices allowed), and every
+t strictly between is. EventuallyPeriodic f is ∃ N p, 0 < p ∧ ∀ n ≥ N, f(n+p) = f(n), applied to
+gap n = Nat.nth S (n+1) − Nat.nth S n. That is the negation of the problem as the monograph, the page and Formal Conjectures state it — with one seam, now closed. The Formal Conjectures
+theorem quantifies over a : ℕ → ℤ with IsLeast in ℤ and asks for the rule only eventually (a strictly broader class than Erdős–Graham's); the formal proof it links
+(plby's lean-proofs, Boris Alexeev, 26 August; Lean v4.33.0 / Mathlib v4.33.0) is Li's development re-hosted byte for byte with a wrapper theorem not_erdos_341 over ℕ,
+the FC file's own theorem still ends in sorry, and its docstring says "casting it to ℤ gives a counterexample" — a short lemma (ℤ against ℕ, IsLeast, the eventual quantifier), which the PR describes as "verified locally". Our referee seat
+wrote that bridge: Bridge.lean states erdos_341 verbatim (with answer(False) read as False, which is all FC's answer macro
+elaborates to) and proves it from Li's least_next_rule_after_fixed_seed and gap_not_eventuallyPeriodic; it compiles against Li's oleans on exactly
+[propext, Classical.choice, Quot.sound], a sorry in place of the aperiodicity lemma prints sorryAx, and changing FC's sumset to Queneau's i < j
+makes it fail to typecheck. We replayed all three (steps.tsv rows bridge_*). So Li's theorem now implies the community's formal statement by a kernel check on our
+machine — not yet in Formal Conjectures' own tree.
+(iv) A hostile referee seat with tools (Opus), briefed to refute and to quote what it objected to, separately from the host: HOLDS AS READ — nothing fatal, no gap,
+ten objections, all exposition. Its own instruments, written without reading ours: a scan-based greedy (pair enumeration, not bitset shifts) that reproduces Li's set to 107,
+1,224,508 terms, 0 mismatches; an FFT sumset check of t ∈ S ⇔ t ∉ S+S with 0 violations for every 97 < t ≤ 134,217,727 — through
+every controller transition up to quotient 2.7·106, with perturbed sets producing 2 and 3 violations; the three controller identities on [0, 263,144) with the sumset
+run-lists matching the paper's (12)–(14) including the small initial pieces; and for §5, the shield identities and |Ap| = 7p − 20 for every 18 ≤ p ≤ 400,
+the greedy run directly from A18 and A19 (106 and 113 elements) agreeing with Sp to 3·106, and the recurrence for
+p ∈ {18, 19, 23, 40} to 224. Two of its findings are worth a reader's attention. The threshold p ≥ 18 is sufficient, not sharp: p ∈ {12, 14, 15, 16, 17}
+pass every check too, p = 13 fails the cover (18,719 recurrence violations), and the mod-49 seed is not a member of the family (p = 7 fails its shield). And the seed is
+far from sum-free — twelve of its 21 elements are sums of two earlier ones (2 = 1+1, 3 = 1+2, 5 = 2+3, 7 = 2+5, 27 = 5+22, 28 = 1+27, 32 = 5+27, 40 = 13+27, 47 = 7+40, 48 = 1+47,
+52 = 5+47, 63 = 27+36) — which #341 permits ("Given a set of integers"), but which means the Cameron/Calkin–Finch question for sum-free seeds (their Conjecture 4.2, the setting of every
+"apparently aperiodic" set in their Table 3) is untouched. The rest: the controller proof's "direct interval calculation" never writes the cross-scale sums (true; the Lean's
+pairSum_y*_iff do); D, B, P switch silently from residue sets to sets of integers and the six-type classification needs their pairwise disjointness, never stated;
+the "Hence" before S ∩ [1, 97] = A needs Y0 ∩ {0, 1} = {0}, Y1 ∩ {0, 1} = {1}, {0, 1} ⊆ Y2; §5's "the argument
+is the same" changes two facts (Dp + Dp ≤ 2M − 8 and Dp ∩ Qp = ∅, both true, both unstated); Dickson
+is never cited; and the paper nowhere says that the result is specific to the equal-summand rule.
+(v) A blind consistency read of this page (a second Opus seat with tools, told nothing about the referee's findings, reproducing every number from the artefacts): ten substantive
+and twenty minor findings, all applied before this went live — three wrong lemma numbers, the wrong Zenodo version paired with the replayed commit, "closed in the literature" for a preprint,
+a leanchecker sentence that claimed more coverage than the run gave, a misstated Queneau mechanism, the cutoff gap in our distinct-rule certificate, the square seed miscounted among the seeds in
+[12], the family theorem's statement claimed as matched when it was only read, and two sentences crediting the model with a discovery and this page with a human reader. Every number from our
+runs reproduced.
+
+The convention, settled both ways — and what it does to this seed. Because Green lists two variants, we ran Li's seed under Queneau's rule too (distinct indices,
+i < j). It is eventually periodic: gap period 693, membership period 5,733 from N = 3,364 (the 422nd term) — and not merely observed:
+our July finite certificate (the lemma on /report/341), adapted to the distinct rule — the adaptation is one case: a residue whose only
+tail representation is as a double needs two tail elements of that residue below x, so the finite check runs to 2N + 2q − 2 instead of 2N + q − 2
+(our first version used the shorter cutoff; the blind read caught it) — proves it periodic forever: recurrence on the proposed periodic set through 18,192 with zero violations, and
+E + R = ℤ/qℤ ∖ R with |E| = 706, |R| = 693, |E + R| = 5,040 residues. Why the convention matters: the distinct-index rule forbids
+only an element added to itself, and the first integer where the two runs part is 126 = 63 + 63 — but the controller's gates are doubles at the level of residues, and losing the
+self-sums is enough to break the loop and let a period settle. So after today Green's "For both variants, the following question appears to be open" reads: Dickson's variant is closed (NO), Queneau's
+is open, and this seed is not a counterexample to it. The square seed, for the record: under Dickson's rule {1, 4, 9, 16, 25} is periodic from a87 = 440 with 224 terms per
+1,176 (KentaKitamura's July comment on the page, and our July certificate, recurrence through 2,054); under Queneau's rule it is periodic from the very first greedy term, 27, with 10 terms per 41 (recurrence checked through 134). Erdős and Graham's
+"thousands of terms" does not reproduce under either rule; we do not know what they computed. (Negative control for the certificate: fed the period-6 illusion from the last quarter of Li's
+greedy run, it reports a violation at 12,845,035 and a failed residue identity.)
+
+The world, 13 October. Proof-claims tab: Li's claim, no comments on it, no second claim. Comments tab: one, Kitamura's period-224 computation (8 July), which
+disagrees with the page's "thousands of terms" and is right. Formal Conjectures: research solved since 18 September, citing "Li, Z., Counterexamples to Erdős Problem 341 (2026)" and the
+plby formalization; Formal Conjectures' statements are sorry by design, so the status is a curator's judgement plus a link, not a kernel check of erdos_341. teorth
+database: OPEN, last touched 31 August 2025; our board carries that database and today still says open for #341 — this entry is the correction. OpenAI's 6 October catalogue: #341 is not among its
+Erdős problems. Nothing on arXiv or MathOverflow discusses the claim (the paper is not on arXiv; its DOI is Zenodo). The literature behind the page, read by the referee seat: Dickson's 1934 paper (Bull. AMS 40, 711–714) defines the greedy rule — his "construction I",
+equal summands allowed, with 0 in the set — and never poses the periodicity question at all (Calkin–Erdős 1996, footnote 1: "the problem as stated by Guy doesn't appear in the reference cited");
+Calkin–Finch 1996 list nineteen "apparently aperiodic" complete sum-free sets checked to 107 and say that no method is known to prove any of them aperiodic; Calkin–Finch–Flowers 2005,
+Wen–Zhang–Wu 2015 and Finch's 2020 addenda add evidence, not proofs; and two September 2026 preprints by van Berkel and Bosma (arXiv:2609.16843, 2609.18522) conjecture eventual periodicity for the
+strict (i < j) variant — consistent with what Li's seed does under that rule. So, to everything we and the seat could find, Li's is the first proved aperiodic
+example of either kind. Provenance nits: the paper cites Zenodo v2.0.1 and the record's latest version is v2.1.0 (the Lean files are byte-identical across versions and with the GitHub commit we
+built); a since-deleted BUILD_VERIFIED.md in the repository recorded a hash for Erdos341.lean that does not match the committed file — a self-report, and we built the
+committed file. The claimant's own disclosure: "developed with assistance from OpenAI's GPT-5.6 Sol. All arguments were checked and verified by the author." A model and its user built the construction; the user and a kernel checked it; a second
+kernel run, a machine referee and a machine reader now have. No human referee has, and this page is not one.
+
+Our July report, and what is left. Twelve days before Li posted, our working report proved the finite all-future certificate used above,
+certified every nonempty seed in [12] except one (4,094 of 4,095), certified {1, 4, 9, 16, 25}'s 1,176/224 tail exactly, and left E = {1, 4, 8, 10, 11, 12} with no period
+q ≤ 20,000 starting by 479,993, through 500,000 — "not a proof of aperiodicity", and we did not call it a counterexample. It was the right caution: Li's counterexample is designed,
+not found, and no finite run would have recognised it. What is open now is sharper than before. (1) The smallest counterexample: every seed inside [12] is periodic except possibly E,
+Li's has 21 elements and reaches 97. One factor of 7 in the modulus is forced by the loop (r → 2r → 4r → 8r ≡ r needs M | 7r); the other
+is Li's free parameter (§5 is modulus 7p with rails p, 2p, 4p, and the main example is p = 7, which the family's own shield rejects). Whether a shield
+fits a modulus 7p with p < 7, with the same controller (it carries over whenever 4p + 4p = M + p) and a seed equal to S ∩ [1, 2M − 1],
+is a finite search nobody has run. (2) Is E itself periodic? Still unknown. (3) Queneau's variant, for every seed. (4) The question for seeds that are themselves sum-free — Cameron's, as Calkin and Finch studied it — is
+not touched: this seed has twelve elements that are sums of two earlier ones, no member of the family is sum-free either (1, 3, 4 lie in every Ap), and whether a sum-free
+seed can generate an aperiodic set remains exactly as open as it was.
+
+Labels. Li's Theorem 1.1: (d) computer-assisted — kernel-checked by the author, replayed here with the statement matched definition by definition and bridged
+to the community's formal statement; read as mathematics the proof is (a) elementary, every step a finite computation or an interval identity, and the tool-equipped hostile seat found
+no gap (ten exposition notes). The family theorem (p ≥ 18): (d) — replayed on the standard axioms, its definitions read, its statement not matched line by line here, and
+the cardinality 7p − 20 outside the Lean by the author's own README.
+Our reproduction to 107 and the controller/shield recomputation: (d). The two Queneau-rule periodicity certificates and the square-seed facts: (a) the lemma, (d) the
+computation. The convention findings are quotations. What is ours: the referee report, the independent reproduction, the convention analysis and the two
+certificates. What is not: the counterexample, the construction, the proof and the Lean, all Zhiheng Li's and GPT-5.6 Sol's. Erdős #341 is answered, in the negative,
+and our board now says so.
+
+ Sources & verificationZhiheng Li, "Counterexamples to Erdős Problem 341" (paper PDF, repository LiAlreadyExists/Erdos-341) ↗
+The Lean formalization — LeanProject/Erdos341.lean (final theorem erdos_341_negative), Erdos341Shield.lean, Erdos341g.lean (the p ≥ 18 family) ↗
+Zenodo record of the formalization — v2.1.0 (20 Aug 2026, = commit c1d9121), DOI 10.5281/zenodo.22030579 ↗
+Zenodo v2.0.1 (20 Aug 2026), the deposit the paper cites, DOI 10.5281/zenodo.22030511 (Lean files identical) ↗
+The proof claim on erdosproblems.com/341 (submitted 9 Aug 2026) ↗
+Formal Conjectures, Erdős 341 — research solved, answer(False), citing Li (PR #6070, 18 Sep 2026) ↗
+plby/lean-proofs — Li&#39;s development re-hosted on Lean v4.33.0 / Mathlib v4.33.0 with the wrapper theorem not_erdos_341 ↗
+Erdős and Graham, Old and New Problems and Results in Combinatorial Number Theory (1980), p. 53 — the original wording ↗
+Ben Green, 100 Open Problems — comments to Problem 7 (Dickson&#39;s rule vs Queneau&#39;s variant) ↗
+Calkin–Finch, Conditions on periodicity for sum-free sets (Experiment. Math. 1996) ↗
+Our July 2026 working report — the finite all-future certificate, 4,094 of 4,095 seeds in [12], the one undecided seed ↗
+Our referee bundle — greedy341.c, check_li.py (+ mutations), certify.py, the Lean replay (driver, build log, pp.all audit, controls, leanchecker), referee reports, the live captures, the Erdős–Graham OCR ↗
+erdosproblems.com/341 ↗
+
+← our attempt log &middot; problem #341 on the board
+
+ The problems are Paul Erdős's, collected by Thomas Bloom at erdosproblems.com — the authoritative wording lives there.
+ Statuses come from the community database teorth/erdosproblems and statements from
+ Google DeepMind's Formal Conjectures, both Apache-2.0.
+
+ Built and kept by Patrick White with Claude (Anthropic). Our own attempts are labelled as ours, everywhere. About · Send an attempt
+

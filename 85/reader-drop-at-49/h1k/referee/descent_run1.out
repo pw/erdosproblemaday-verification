@@ -1,0 +1,6 @@
+d=2 s=2 N=8 C4 ON: 56 solutions from referee encoder
+  normal forms REJECTED by colleague CNF: 0 / 56   (lex-descent steps total 67); patterns {(1, 1, 1, 1): 16, (1, 0, 1, 0): 32, (0, 0, 0, 0): 8}
+  case-CNF models: 4; not genuine solutions: 0
+  solutions whose full-group orbit misses every case model: 0 / 56 (group order 128)
+d=2 s=3 N=12 C4 ON: 40 solutions from referee encoder
+  normal forms REJECTED by colleague CNF: 0 / 40   (lex-descent steps total 98); patterns {(1, 1, 1, 1): 28, (1, 0, 1, 0): 11, (0, 0, 0, 0): 1}

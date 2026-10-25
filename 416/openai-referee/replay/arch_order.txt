@@ -1,0 +1,9 @@
+Architect.Basic
+Architect.Command
+Architect.Content
+Architect.Attribute
+Architect.CollectUsed
+Architect.Tactic
+Architect.Output
+Architect.Load
+Architect

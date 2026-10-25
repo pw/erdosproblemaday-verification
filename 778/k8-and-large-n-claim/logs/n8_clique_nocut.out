@@ -1,0 +1,2 @@
+n=8 mode=clique edges=28 aliceEdges=10 RESULT: BOB WINS
+nodes=1445647 memo=524339 canonCalls=1442631 orderings=4596824 cutBob=0 cutAlice=0 time=28.4s

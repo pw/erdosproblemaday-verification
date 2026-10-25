@@ -1,0 +1,8 @@
+[identity (real)] |Z2 - conj(Z1)| = 0.000
+   max |(U1(y)-U1(x))(U2(y)-U2(x)) - e^(m1+m2) sigma(t)| over fiber = 4.335559509131367e-16
+   max |U2(y) - Phi(U1(y))| over fiber = 3.1401849173675503e-16
+   CONTROL non-fiber point: |U2(z) - Phi(U1(z))| = 0.5324269382668261
+[c->c*omega (non-real)] |Z2 - conj(Z1)| = 4.184
+   max |(U1(y)-U1(x))(U2(y)-U2(x)) - e^(m1+m2) sigma(t)| over fiber = 7.021666937153402e-16
+   max |U2(y) - Phi(U1(y))| over fiber = 4.965068306494546e-16
+   CONTROL non-fiber point: |U2(z) - Phi(U1(z))| = 0.5324269382668263

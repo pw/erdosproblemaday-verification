@@ -1,0 +1,2 @@
+Bridge431CMutSorry.lean:22:8: warning: declaration uses `sorry`
+Bridge431CMutSorry.lean:36:31: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead

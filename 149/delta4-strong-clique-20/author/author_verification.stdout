@@ -1,0 +1,14 @@
+Erdos Problem 149: Delta=4 strong-clique audit
+================================================
+KMP beta = 620/1987
+KMP strong-clique coefficient = 2607/1987
+Delta=4 rational upper bound = 41712/1987
+distance below 21 = 15/1987
+integer consequence: omega(L(G)^2) <= 20 when Delta(G) <= 4
+C5^(2): |V|=10, Delta=4, |E|=20
+C5^(2) line-graph distance histogram = {1: 60, 2: 130}
+C5^(2) canonical edge SHA256 = 9d5f61bef2514d6298d85f80870b7e78b8ba2353dee57eea74045f2368174dca
+exact consequence: max omega(L(G)^2) over Delta<=4 equals 20
+coloring consequence only: 20 <= max chi(L(G)^2) <= 21
+SOURCE TYPO CONFIRMED: beta-star interval [0,1/4]; fixed-beta proof used
+ALL CHECKS PASSED

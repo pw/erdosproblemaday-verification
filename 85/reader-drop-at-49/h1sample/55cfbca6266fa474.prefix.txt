@@ -1,0 +1,7 @@
+Proofs/Erdos85OneHighV2CnfEmit.lean:33:13: warning: `String.data` has been deprecated: Use `String.toList` instead
+Proofs/Erdos85OneHighV2CnfEmit.lean:94:18: warning: `String.trim` has been deprecated: Use `String.trimAscii` instead
+
+Note: The updated constant has a different type:
+  String → String.Slice
+instead of
+  String → String

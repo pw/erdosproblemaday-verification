@@ -1,0 +1,8 @@
+BridgeWrongShape.lean:11:75: error: Application type mismatch: The argument
+  i
+has type
+  Fin 10
+but is expected to have type
+  Fin 11
+in the application
+  c i

@@ -1,0 +1,11 @@
+MAIN_STATEMENT(alpha-normalised binders) MATCH
+DEF_ProperColoring(alpha-normalised binders) MATCH
+AXIOMS OAI.EuclideanFiveColor.no_proper_five_coloring STD ['Classical.choice', 'Quot.sound', 'propext']
+AXIOMS OAI.EuclideanFiveColor.no_measurable_weak_five_coloring STD ['Classical.choice', 'Quot.sound', 'propext']
+AXIOMS OAI.EuclideanFiveColor.proper_to_borel_weak STD ['Classical.choice', 'Quot.sound', 'propext']
+AXIOMS OAI.EuclideanFiveColor.proper_to_weak STD ['Classical.choice', 'Quot.sound', 'propext']
+CMP_SORRY SEEN ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+CMP main: OAI.EuclideanFiveColor.no_proper_five_coloring : Not (@Exists.{1} (Complex → Fin (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))) fun (c : Complex → Fin (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))) => OAI.EuclideanFiveColor.ProperColoring (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5))) c)
+SOL main: OAI.EuclideanFiveColor.no_proper_five_coloring : Not (@Exists.{1} (Complex → Fin (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))) fun (c : Complex → Fin (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))) => OAI.EuclideanFiveColor.ProperColoring (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5))) c)
+CMP def: def OAI.EuclideanFiveColor.ProperColoring : (k : Nat) → (c : Complex → Fin k) → Prop := fun (k : Nat) (c : Complex → Fin k) => ∀ (x y : Complex), @Eq.{1} Real (@Norm.norm.{0} Complex Complex.instNorm (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub) x y)) (@OfNat.
+SOL def: def OAI.EuclideanFiveColor.ProperColoring : (k : Nat) → (c : Complex → Fin k) → Prop := fun (k : Nat) (c : Complex → Fin k) => ∀ (x y : Complex), @Eq.{1} Real (@Norm.norm.{0} Complex Complex.instNorm (@HSub.hSub.{0, 0, 0} Complex Complex Complex (@instHSub.{0} Complex Complex.instSub) x y)) (@OfNat.

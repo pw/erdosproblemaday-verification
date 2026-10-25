@@ -1,0 +1,11 @@
+/tmp/erdos1800/lean-build/WrongShape.lean:8:2: error: Type mismatch
+  Iff.rfl
+has type
+  ?m.64 ↔ ?m.64
+but is expected to have type
+  Erdos128.FormalConjecturesStatement131_5000 ↔
+    ∀ (V : Type) [inst : Fintype V] (G : SimpleGraph V),
+      (∀ (V' : Set V),
+          2 * V'.ncard + 1 ≥ Fintype.card V →
+            5000 * (SimpleGraph.induce V' G).edgeSet.ncard > 130 * Fintype.card V ^ 2) →
+        ¬G.CliqueFree 3

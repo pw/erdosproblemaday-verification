@@ -1,0 +1,72 @@
+42426 /tmp/e188f.html
+Comments (4) 
+ Proof claims (0) 
+ More information and links 
+This page was last edited 14 October 2025.
+ ( View history ) ( View the LaTeX source ) 
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+T. F. Bloom, Erdős Problem #188, https://www.erdosproblems.com/188, accessed 2026-10-14
+From the external database . (You can
+ help update
+ this.)
+ Formalised statement? 
+ Yes
+ Reactions 
+ Likes
+ None 
+ Open to collaboration
+ None 
+ Currently working on
+ None 
+ Looks difficult
+ None 
+ Looks tractable
+ None 
+ Could be formalisable
+ None 
+ Working on formalising
+ None 
+Order by
+ oldest first or
+ newest first . (The most recent comments are highlighted in a red border.)
+ The upper bound has now been reduced to $6330$, (leaving the problem at $4\leq k\leq6330$) by G. Currier, P. Mody, Z. Xie and J. Zhang in [CMXZ26] . 
+ Alfaiz 
+ — 05:00 on 17 Sep 2026 
+ 👍 
+ 0 
+ 📝 
+ 1 
+ 🤖 
+ 0 
+ UPDATE: I think the problem statement over at the Formal Conjectures project is misformalized . 
+ BorisAlexeev 
+ — 09:15 on 16 Feb 2026 
+ 👍 
+ 1 
+ 📝 
+ 0 
+ 🤖 
+ 0 
+ Related reference: [Conlon, David, and Jacob Fox. "Lines in Euclidean Ramsey theory." Discrete & Computational Geometry 61.1 (2019): 218-225, https://arxiv.org/abs/1705.02166v4]. They study a generalization of this question in $\mathbb{R}^n$, and their Theorem 1.1, applied with $n=2$, yields the bound $k \le 2.15\cdot 10^9$, even though it is likely that one can optimize their proof to deduce a much better upper bound. In the last paragraph of Section 3, they mention another related open problem of Erdos, which is currently not on this website. 
+ ArseniiSagdeev 
+ — 17:01 on 15 Feb 2026 
+ 👍 
+ 0 
+ 📝 
+ 0 
+ 🤖 
+ 0 
+ The 2017 paper "A Euclidean Ramsey result in the plane" of Tsaturian shows $k\geq 6$. (Note that Lemma 2.2 should say side length $3$ instead of $\sqrt{3}$.) Additionally, Theorem 1' in the 1973 paper "Euclidean Ramsey Theorems II" by Erdos-Graham-Montgomery-Rothschild-Spencer-Straus already showed that $k\geq 5$, i.e. any such two-coloring contains either a unit-distance pair of red points or a unit distance 4-AP of blue points. The work of [Ju79] showed that one can replace "unit distance 4-AP of blue points" by "congruent copy of any desired planar 4-point configuration. Also relatedly, (G. Currier, K. Moore & C. H. Yip, "Any two-coloring of the plane contains monochromatic 3-term arithmetic progressions", Combinatorica 44 (2024), 1367–1380) shows that any two-coloring of the plane contains a monochromatic unit length 3-AP. (These references were located by GPT-5.) 
+(The site has been updated to address this comment.)
+ msellke 
+ — 16:25 on 13 Oct 2025 
+ 👍 
+ 0 
+ 📝 
+ 0 
+ 🤖 
+ 0 
+ All comments are the responsibility of the user. Comments appearing on this page are not verified for correctness. Please keep posts mathematical and on topic. 
+The ability to post new comments has been suspended.
+ Back to the forum 
+

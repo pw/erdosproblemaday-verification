@@ -1,0 +1,4 @@
+'HeilbronnFrobenius.patternTerm_rotate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFrobenius.norm_pattern_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFrobenius.averagedCoord_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1528144 wall=9s

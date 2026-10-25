@@ -1,0 +1,14 @@
+# Exact commands for the bridge axiom probes and mutants (15:00Z erdos seat, 2026-10-22). Run from /tmp/oaimath/191/bridge
+# after `source lean_env.sh`; each wrapped in ./rsscap.sh <KB> <s> (RSS watchdog). Exit codes in ../lean-build/steps.tsv.
+every_n_compile      : nice -n 19 lean EveryN507.lean -o out/EveryN507.olean -i out/EveryN507.ilean
+every_n_axioms       : nice -n 19 lean --trust=0 AxEveryN.lean
+bridge_compile       : nice -n 19 lean Bridge507.lean -o out/Bridge507.olean -i out/Bridge507.ilean
+bridge_axioms        : nice -n 19 lean --trust=0 AxBridge.lean > AxBridge.log
+mut_sorry_compile    : nice -n 19 lean BridgeMutSorry.lean -o out/BridgeMutSorry.olean -i out/BridgeMutSorry.ilean
+mut_sorry_axioms     : nice -n 19 lean AxMutSorry.lean > AxMutSorry.log
+mut_exp / mut_answer : nice -n 19 lean BridgeMutExp.lean / BridgeMutAnswer.lean   (must exit 1)
+extra_compile_v3     : nice -n 19 lean Extra507.lean -o out/Extra507.olean -i out/Extra507.ilean
+extra_axioms_v3      : nice -n 19 lean --trust=0 AxExtra.lean > AxExtra.log
+extra_mut_true / extra_mut_eta : nice -n 19 lean ExtraMutTrue.lean / ExtraMutEta.lean   (must exit 1)
+AxEveryNMut          : nice -n 19 lean AxEveryNMut.lean   (planted sorry; must print sorryAx)
+leanchecker          : bash lc.sh  (leanchecker --fresh Extra507; then a missing-module control that must fail)

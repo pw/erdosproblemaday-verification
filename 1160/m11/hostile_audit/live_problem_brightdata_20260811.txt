@@ -1,0 +1,64 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/1160
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑔⁡(𝑛)
+ denote the number of groups of order 𝑛
+. If 𝑛 ≤2𝑚
+ then 𝑔⁡(𝑛) ≤𝑔⁡(2𝑚)
+.
+#1160: [Va99,5.71]
+group theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+This is listed as an open problem (Question 22.16) in [BNV07], which reports it as a 'quite natural conjecture, whose origin we have been unable to trace satisfactorily. We have heard it attributed at various times to various people, such as Paul Erdős and Graham Higman.'
+
+Question 22.18 of [BNV07] suggests the even stronger conjecture
+∑
+𝑛<2𝑚𝑔⁡(𝑛)≤𝑔⁡(2𝑚)
+for all sufficiently large 𝑚
+ (perhaps even as soon as 𝑚 ≥7
+).
+
+Pantelidakis [Pa03] proved that the original conjecture is true if 𝑛
+ is odd and 𝑚 ≥3619
+.
+
+View the LaTeX source
+
+This page was last edited 26 January 2026. View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: A000001
+
+3 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	None
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #1160, https://www.erdosproblems.com/1160, accessed 2026-08-11
+Previous
+Next
+
+Page title: 1160 | Erdős Problems
+URL: https://www.erdosproblems.com/1160

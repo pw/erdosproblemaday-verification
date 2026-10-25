@@ -1,0 +1,22 @@
+== (1) cubic factor nu_p: ABBA-free on [0,p^3) ==
+p=5: ABBA count = 0  palette used = 35 <= 9p=45
+p=7: ABBA count = 0  palette used = 53 <= 9p=63
+p=11: ABBA count = 0  palette used = 91 <= 9p=99
+p=13: ABBA count = 0  palette used = 109 <= 9p=117
+NEG CONTROL norm only (no shield): ABBA count = 436 (must be > 0)
+NEG CONTROL shield only (no norm): ABBA count = 245 (must be > 0)
+NEG CONTROL shield x QUADRATIC form mod p (degree 2 instead of 3), p=7: ABBA count = 49 (must be > 0)
+NEG CONTROL shield x QUADRATIC form mod p (degree 2 instead of 3), p=11: ABBA count = 648 (must be > 0)
+== (2) mod-24 label lambda: no-three-equal and ABAB-free ==
+s=1 P=25 L=2 N=15625: THREE=0 ABAB=0
+s=2 P=49 L=2 N=117649: THREE=0 ABAB=0
+NEG CONTROL (mod-2 carry label, P=26): THREE=16 ABAB=0 (expect >0 somewhere)
+NEG CONTROL (square norm only, no carry label, P=25): THREE=576 ABAB=793 (must be >0)
+== (3) dyadic label mu: AABB-free ==
+B=4 L=3 N=256: AABB=0
+B=8 L=3 N=4096: AABB=0
+B=16 L=2 N=4096: AABB=0
+NEG CONTROL (norm only, B=8): AABB=1287 (must be >0)
+== (4) composition logic, exhaustive over equality patterns of 4 positions ==
+admissible triples=1521, product with <=2 classes = 0 (must be 0)
+NEG CONTROL (lambda may be ABAB): violations = 1 (must be > 0)

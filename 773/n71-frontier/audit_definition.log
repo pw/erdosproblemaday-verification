@@ -1,0 +1,6 @@
+live gate OPEN/0/no worker/no collaborator: PASS
+direct collision supports: 764 (23 triples, 741 quadruples)
+witness size=33 unordered sums=561 all distinct: PASS
+seven cubes cover all top-three assignments exactly once: PASS
+frozen exhaustive counters: {'nodes': 114296406, 'prefix_prunes': 3055888, 'blocked_prunes': 19971, 'color_calls': 111220547, 'color_prunes': 50397403}
+DEFINITION-LEVEL AUDIT PASS

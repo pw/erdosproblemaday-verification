@@ -1,0 +1,15 @@
+grid 2001x2001: max F = 0.0261658103 at a=0.211000 mu=0.105961 (mu/cap=1.0000)
+  88/417 = 0.211031; mu* = 0.105953
+  exact F at grid argmax: 0.026165810311885154  < 131/5000: True
+exact-rational 201x201 grid: max F = 0.02611075302246387 at a = 21/100 mu/cap = 0.995  <131/5000: True
+scipy NM: max F = 0.026170019100 at a=0.21103118 mu/cap=1.00000000
+max |argmax_mu - min(nu,cap)| over 501 a-values: 4.1448626693363355e-07
+a=0.15: mu=<nu : first=0.04277 second=0.01276  first>second? True
+a=0.15: mu=>nu : first=0.00825 second=0.03827  first>second? False
+rho0=0.30000: high H=0.02671875  low M=0.02551074
+rho0=0.31000: high H=0.02644375  low M=0.02587971
+rho0=0.31818: high H=0.02618156  low M=0.02617002
+rho0=0.31840: high H=0.02617411  low M=0.02617762
+rho0=0.32000: high H=0.02611875  low M=0.02623318
+rho0=0.33000: high H=0.02574375  low M=0.02657209
+balancing rho = 0.318349, value = 0.02617585; cost of splitting at 7/22: max(H,M)(7/22) - value = 5.710e-06; cost of stating 131/5000: 2.415e-05

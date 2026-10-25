@@ -1,0 +1,19 @@
+{
+ "JointDickman": [
+  "OAI.NumberTheory.JointDickman.PaperMain",
+  [
+   "OAI.JointDickmanPaper.joint_law",
+   "OAI.JointDickmanPaper.increasing_order",
+   "OAI.JointDickmanPaper.decreasing_order"
+  ],
+  [
+   "OAI.Erdos970.NumberTheoryLean.DelayConstruction.kernel",
+   "OAI.Erdos970.NumberTheoryLean.DelayConstruction.stepApprox",
+   "OAI.Erdos970.NumberTheoryLean.DelayConstruction.delay",
+   "OAI.Erdos970.NumberTheoryLean.Dickman.rho",
+   "OAI.JointDickman.empiricalCount",
+   "OAI.JointDickman.realDensity",
+   "Nat.maxPrimeFac"
+  ]
+ ]
+}

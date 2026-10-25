@@ -1,0 +1,14 @@
+files: 4774   lines: 1122983
+imports outside Mathlib/own tree: 0
+\bsorry\b            0
+\badmit\b            0
+^\s*axiom\b          0
+native_decide        0
+implemented_by       0
+@\[extern            0
+\bunsafe\b           0
+^\s*opaque\b         0
+partial def          0
+maxHeartbeats        0
+maxRecDepth          0
+set_option debug     0

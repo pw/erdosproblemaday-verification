@@ -1,0 +1,3 @@
+== milp N=166320 dir=1,1 Mp=0 09:56:39
+   [1, 1] Mp None CPSAT FEASIBLE 14507/20790 bound 15229/16632 | MILP status 1 V 5809/8316 bound 4825/4158 excludes False
+== milp N=221760 dir=1,1 Mp=0 10:23:49

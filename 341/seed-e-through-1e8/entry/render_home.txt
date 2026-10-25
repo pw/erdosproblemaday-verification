@@ -1,0 +1,54 @@
+ 
+ Erdős Problem a Day — the status of every Erdős problem 
+ Erdős Problem a Day the open tracker 
+ ☰ 
+ Board Guide Submit Submissions Our attempts About 
+ All 1221 problems &middot; community database as of Oct 14, 2026 
+ The status of every Erdős problem, kept in public. 
+ On 6 October 2026 erdosproblems.com stopped showing which of its problems are solved
+ ( here's why ). The
+ community database beside it still records a status for every one.
+ This site shows that record — dated, sourced, and explained — with a page for each problem. 
+ 0){location.href='/problem/'+v;return false}">
+ Problem number # 
+ Go 
+ 1,221 problems 
+ 633 open 
+ 336 proved 
+ 139 disproved 
+ 101 solved otherwise 
+ 317 checked in Lean 
+ Source: teorth/erdosproblems (Apache-2.0), pulled 2026-10-14. A status is what the database records, not our verdict. 
+ What the statuses mean the full board &rarr; 
+ Two questions decide where a problem sits: what people have concluded about it, and whether a machine has checked a solution.
+They don't always agree. Each square is one problem. 
+ What humans have concluded No machine-checked solution Solution checked in Lean 
+ Open No proof or disproof is known. no machine-checked solution 589 list &rarr; solution in Lean 4 list &rarr; A machine has checked a solution. No person has read it yet, so the database still says open. Open — a computer could settle it Falsifiable, verifiable or decidable: the answer would come with a finite certificate. Where your own machine can help . no machine-checked solution 40 list &rarr; solution in Lean 0 Proved True as stated. no machine-checked solution 153 list &rarr; solution in Lean 183 list &rarr; Disproved False as stated — often by an explicit counterexample. no machine-checked solution 42 list &rarr; solution in Lean 97 list &rarr; Solved another way Open-ended or multi-part questions with a settled answer. no machine-checked solution 68 list &rarr; solution in Lean 33 list &rarr; Beyond the usual axioms 3 are independent of ZFC. 9 more can't be proved, or can't be disproved, from ZFC alone — the other direction is still open. no machine-checked solution 12 list &rarr; solution in Lean 0 
+ “Open” in the counts above includes the computable and Lean-checked rows. Hover or tap a square for its number. 
+ Problem of the day &middot; Oct 14, 2026 
+ Erdős Problem #377 
+ OPEN number theory · binomial coefficients 
+ The sum of the inverses of all primes smaller than \(n\), which don't divide the central binom coefficient. Is there some absolute constant \(C > 0\) such that \[ \sum_{p \leq n} 1_{p\nmid {2n \choose n}}\frac{1}{p} \leq C \] for all \(n\)? Statement as formalized in Formal Conjectures (Google DeepMind, Apache-2.0) &middot; their label: research open &middot; 4 further variants / known partial results in the Lean file. The authoritative wording is on erdosproblems.com/377 . 
+ Open the problem How to attack it We've attempted this one: partial 
+ Just changed 
+ #522 OPEN LEAN analysis, polynomials, probability 2026-09-25 #1147 DISPROVED LEAN irrational, additive basis 2026-09-16 #1129 PROVED LEAN analysis, polynomials 2026-09-16 #1019 PROVED LEAN graph theory, planar graphs 2026-09-16 #1018 SOLVED LEAN graph theory, planar graphs 2026-09-16 #994 DISPROVED LEAN analysis, discrepancy 2026-09-16 #803 DISPROVED LEAN graph theory 2026-09-16 #754 PROVED LEAN geometry, distances 2026-09-16 #703 PROVED LEAN combinatorics 2026-09-16 
+ more changes &rarr; 
+ Prizes still on the table all 54 &rarr; 
+ Erdős offered money for solutions and paid it by personal cheque — several recipients framed the cheque instead of cashing it.
+54 open problems still carry one. 
+ Pay to the solver No. 142 $10,000 additive combinatorics, arithmetic progressions P. Erdős Pay to the solver No. 3 $5,000 number theory, additive combinatorics, arithmetic progressions P. Erdős Pay to the solver No. 20 $1,000 sunflower conjecture P. Erdős Pay to the solver No. 30 $1,000 number theory, sidon sets, additive combinatorics P. Erdős Pay to the solver No. 64 $1,000 graph theory, cycles P. Erdős Pay to the solver No. 592 $1,000 set theory, ramsey theory P. Erdős Pay to the solver No. 687 $1,000 number theory P. Erdős Pay to the solver No. 1191 $1,000 additive combinatorics, sidon sets P. Erdős 
+ Work on one 
+ You have an AI subscription. That's most of what it takes to try. 
+ The guide covers picking a problem, briefing a model, making it compute instead of narrate, and checking what comes back.
+ Then send what you found: we read it the way we read our own work and publish it, with your consent, under an honest verdict. 
+ Read the guide Submit an attempt See submissions 
+ From our own attempts the attempt log &rarr; 
+ The site's authors — Patrick White and Claude, an AI — have taken a run at 610 of these problems since July 2026.
+ Every attempt is logged, including the ones that hit a wall. These are our verdicts, not the database's. 
+ 610 attempted 15 closed, checked independently 372 verified partial results 
+ #341 The six-element seed {1,4,8,10,11,12} runs to 10⁸ without repeating — and what it does instead is a coding of one irrational-looking rotation by five arcs, exact except on the arcs&#39; edges, a shape Li&#39;s counterexample machinery cannot produce 15 OCT · OURS · THE LAST SEED IN [12] · NO GAP PERIOD ≤ 3.9·10⁶ TERMS BEFORE 5·10⁷, TWO INSTRUMENTS · A SINGLE-ROTATION CODING WITH FIVE ARCS AND FUZZY EDGES, NOT A SHIELD · NO LI-TYPE SHIELD FOR ≥ 3 RAILS BELOW MODULUS 49 (SAT) · HOSTILE REFEREE: GAP FOUND IN A FIRST DRAFT, FIXED; HOLDS WITH FIXES · UNREVIEWED BY HUMANS #508 The plane cannot be five-coloured — χ(ℝ²) is 6 or 7: OpenAI&#39;s proof, kernel-checked on our box, where de Grey&#39;s five stood since 2018 and no human has publicly refereed the 62 pages 14 OCT · OPENAI&#39;S CLAIM · χ(ℝ²) ≥ 6 · LEAN KERNEL-REPLAYED HERE, STATEMENT PROVED VERBATIM, THE PAGE&#39;S LOWER BOUND COMPILED AS A PROBE · 7 HOSTILE SEATS: NO GAP · THE EXACT VALUE STAYS OPEN · NOT OURS · UNREVIEWED BY HUMANS 
+ The problems are Paul Erdős's, collected by Thomas Bloom at erdosproblems.com — the authoritative wording lives there.
+ Statuses come from the community database teorth/erdosproblems and statements from
+ Google DeepMind's Formal Conjectures , both Apache-2.0. 
+ Built and kept by Patrick White with Claude (Anthropic). Our own attempts are labelled as ours, everywhere. About · Send an attempt 
+ 

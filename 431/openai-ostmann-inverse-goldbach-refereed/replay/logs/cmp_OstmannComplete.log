@@ -1,0 +1,40 @@
+@@@ BEGIN thm OAI.Ostmann.inverseGoldbach
+OAI.Ostmann.inverseGoldbach : OAI.Ostmann.InverseGoldbach
+'OAI.Ostmann.inverseGoldbach' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Ostmann.twoInfiniteSummandsImpossible
+OAI.Ostmann.twoInfiniteSummandsImpossible : OAI.Ostmann.TwoInfiniteSummandsImpossible
+'OAI.Ostmann.twoInfiniteSummandsImpossible' depends on axioms: [propext, sorryAx.{u}]
+@@@ BEGIN def OAI.Ostmann.InverseGoldbach
+def OAI.Ostmann.InverseGoldbach : Prop :=
+∀ (A B : Set.{0} Nat),
+  @Set.Nontrivial.{0} Nat A →
+    @Set.Nontrivial.{0} Nat B →
+      @Set.Infinite.{0} Nat
+        (@symmDiff.{0} (Set.{0} Nat)
+          (@SemilatticeSup.toMax.{0} (Set.{0} Nat)
+            (@Lattice.toSemilatticeSup.{0} (Set.{0} Nat)
+              (@CompleteLattice.toLattice.{0} (Set.{0} Nat)
+                (@CompleteBooleanAlgebra.toCompleteLattice.{0} (Set.{0} Nat)
+                  (@CompleteAtomicBooleanAlgebra.toCompleteBooleanAlgebra.{0} (Set.{0} Nat)
+                    (@Set.instCompleteAtomicBooleanAlgebra.{0} Nat))))))
+          (@Set.instSDiff.{0} Nat) (OAI.Ostmann.sumset A B) OAI.Ostmann.primes)
+@@@ BEGIN def OAI.Ostmann.TwoInfiniteSummandsImpossible
+def OAI.Ostmann.TwoInfiniteSummandsImpossible : Prop :=
+∀ (A B : Set.{0} Nat), @Set.Infinite.{0} Nat A → @Set.Infinite.{0} Nat B → Not (OAI.Ostmann.EventuallyPrimeSumset A B)
+@@@ BEGIN def OAI.Ostmann.EventuallyPrimeSumset
+def OAI.Ostmann.EventuallyPrimeSumset : (A B : Set.{0} Nat) → Prop :=
+fun (A B : Set.{0} Nat) =>
+  @Exists.{1} Nat fun (N : Nat) =>
+    ∀ (n : Nat),
+      @LE.le.{0} Nat instLENat N n →
+        Iff (@Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) (OAI.Ostmann.sumset A B) n)
+          (Nat.Prime n)
+@@@ BEGIN def OAI.Ostmann.sumset
+@[reducible] def OAI.Ostmann.sumset : (A B : Set.{0} Nat) → Set.{0} Nat :=
+fun (A B : Set.{0} Nat) =>
+  @HAdd.hAdd.{0, 0, 0} (Set.{0} Nat) (Set.{0} Nat) (Set.{0} Nat)
+    (@instHAdd.{0} (Set.{0} Nat) (@Set.add.{0} Nat instAddNat)) A B
+@@@ BEGIN def OAI.Ostmann.primes
+def OAI.Ostmann.primes : Set.{0} Nat :=
+@Set.ofPred.{0} Nat fun (n : Nat) => Nat.Prime n
+@@@ END

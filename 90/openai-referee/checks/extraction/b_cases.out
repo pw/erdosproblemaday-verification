@@ -1,0 +1,6 @@
+paper's table (sigma=+1 iff minority bit 1, residual 2(XpXq+I)):  violations = 0
+CONTROL sigma sign flipped:                                       violations = 108
+  7.3-identity FAIL r=0 p=(1, 0) q=(1, 1) Y=1 res=2 bound=0
+  7.3-identity FAIL r=0 p=(1, 0) q=(1, 2) Y=1 res=2 bound=0
+  7.3-identity FAIL r=0 p=(1, 0) q=(2, 0) Y=0 res=1 bound=0
+CONTROL residual without the XpXq term:                           violations = 156

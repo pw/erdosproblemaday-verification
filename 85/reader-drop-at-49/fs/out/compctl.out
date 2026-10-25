@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/exedev/MathDyad/erdos85/fs/compctl.py", line 12, in <module>
+    from pynauty import Graph, certificate
+ModuleNotFoundError: No module named 'pynauty'
+Traceback (most recent call last):
+  File "/home/exedev/MathDyad/erdos85/fs/compctl.py", line 12, in <module>
+    from pynauty import Graph, certificate
+ModuleNotFoundError: No module named 'pynauty'
+d=3 h=1 T=[] base_solutions=0 pipe_solutions=0 orbits_base=0 orbits_pipe=0 EQUAL=True base_all_satisfy_R1R1b=True classes=[4, 4] highperms=0 0.1s
+d=4 h=2 T=[] base_solutions=0 pipe_solutions=0 orbits_base=0 orbits_pipe=0 EQUAL=True base_all_satisfy_R1R1b=True classes=[4, 4, 5] highperms=1 0.1s

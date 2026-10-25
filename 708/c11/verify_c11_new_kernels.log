@@ -1,0 +1,2 @@
+C11_NEW_KERNELS_AUDIT=PASS frozen_classes=22 enumeration={(2, 4, 5): (13560, 11), (3, 3, 5): (390, 3), (3, 4, 4): (2304, 8)} progression_pairs=(1173153, 1892121)
+STATUS=NEW_KERNEL_COMPONENT full_c11_integration=SEPARATE_CANDIDATE

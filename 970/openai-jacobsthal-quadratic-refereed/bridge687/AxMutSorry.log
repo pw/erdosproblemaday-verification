@@ -1,0 +1,5 @@
+'Erdos687.lt_of_covered' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Erdos687.Y_isBigO' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Erdos687.erdos_687.parts.ii' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Erdos687.erdos_687.variants.iwaniec' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=7161608 wall=6s

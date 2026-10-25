@@ -1,0 +1,14 @@
+window [9000000,10000000) g=0.28459193622 bins=1000: core 0.1100 of the circle, deep complement 0.7950, edge 0.0950; density of S 0.15627
+  integers with phase in a CORE bin: 110000, of which NOT in S: 34
+  integers with phase in a DEEP bin: 795003, of which IN S: 42
+  integers with phase in an EDGE bin: 94997, of which in S: 46264 (48.7%)
+  edge zones (phase interval, width, membership %): [('0.126-0.139', 13, 62.3), ('0.173-0.179', 6, 45.8), ('0.360-0.367', 7, 42.1), ('0.403-0.412', 9, 44.4), ('0.595-0.599', 4, 48.3), ('0.637-0.644', 7, 54.2), ('0.825-0.832', 7, 50.2), ('0.834-0.854', 20, 55.0), ('0.925-0.947', 22, 37.5)]
+  core arcs: 
+  core arcs: ['0.139-0.173', '0.367-0.403', '0.599-0.637', '0.832-0.834']
+window [2000000,3000000) g=0.28459193622 bins=1000: core 0.1020 of the circle, deep complement 0.7880, edge 0.1100; density of S 0.15638
+  integers with phase in a CORE bin: 102001, of which NOT in S: 24
+  integers with phase in a DEEP bin: 787999, of which IN S: 58
+  integers with phase in an EDGE bin: 110000, of which in S: 54344 (49.4%)
+  edge zones (phase interval, width, membership %): [('0.125-0.140', 15, 63.4), ('0.171-0.179', 8, 55.1), ('0.359-0.367', 8, 40.1), ('0.402-0.412', 10, 46.5), ('0.594-0.600', 6, 54.0), ('0.636-0.644', 8, 56.7), ('0.824-0.855', 31, 51.0), ('0.923-0.947', 24, 37.4)]
+  core arcs: 
+  core arcs: ['0.140-0.171', '0.367-0.402', '0.600-0.636']

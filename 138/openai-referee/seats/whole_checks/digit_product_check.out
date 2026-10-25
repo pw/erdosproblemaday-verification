@@ -1,0 +1,31 @@
+EXTERNAL CONTROL (W_2(3)=9): cyclic 3-AP-free 2-colourings of Z/NZ, N=3..12:
+  N=3: some
+  N=4: some
+  N=5: none
+  N=6: none
+  N=7: none
+  N=8: none
+  N=9: none
+  N=10: none
+  N=11: none
+  N=12: none
+N=3,k=3,C=010,m=1: interval [0,3) with 2^1 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=3,k=3,C=010,m=2: interval [0,9) with 2^2 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=3,k=3,C=010,m=3: interval [0,27) with 2^3 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=3,k=3,C=010,m=4: interval [0,81) with 2^4 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=3,k=3,C=010,m=5: interval [0,243) with 2^5 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=4,k=3,C=0110,m=1: interval [0,4) with 2^1 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=4,k=3,C=0110,m=2: interval [0,16) with 2^2 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=4,k=3,C=0110,m=3: interval [0,64) with 2^3 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=4,k=3,C=0110,m=4: interval [0,256) with 2^4 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=11,k=4,C=01110100100,m=1: interval [0,11) with 2^1 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=11,k=4,C=01110100100,m=2: interval [0,121) with 2^2 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+N=11,k=4,C=01110100100,m=3: interval [0,1331) with 2^3 colours: NO mono k-AP (W_{2^m}(k) > N^m)
+
+CONTROL A: colourings avoiding all NON-wrapping k-APs on {0..N-1} but not cyclically:
+  N=8,k=3,C=01011010,m=2: digit product has mono k-AP (a,d)=(0, 21)  [control FAILS as it must]
+  N=16,k=4,C=0010110101001000,m=2: digit product has mono k-AP (a,d)=(0, 8)  [control FAILS as it must]
+
+Identity (transfer:division): floor((a+jd)/N^i) == floor(a/N^i) + j*d/N^i
+  N^i | d: 20000/20000 hold
+  CONTROL B (N^i does not divide d): identity fails in 16340 random cases [must be > 0]

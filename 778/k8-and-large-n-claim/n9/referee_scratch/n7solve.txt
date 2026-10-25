@@ -1,0 +1,1 @@
+n=7 m=21 A=7: BOB wins (classes A=1598 B=2388)

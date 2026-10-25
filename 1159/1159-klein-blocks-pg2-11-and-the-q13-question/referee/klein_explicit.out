@@ -1,0 +1,28 @@
+q=7 c=3: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,7): {0: 8, 3: 28, 4: 21}  blocking=False  21q-98=49, lines met=49
+q=9 c=4: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,9): {1: 42, 3: 28, 4: 21}  blocking=True  21q-98=91, lines met=91
+q=9 c=7: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,9): {1: 42, 3: 28, 4: 21}  blocking=True  21q-98=91, lines met=91
+q=11 c=4: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,11): {1: 84, 3: 28, 4: 21}  blocking=True  21q-98=133, lines met=133
+q=11 c=6: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,11): {1: 84, 3: 28, 4: 21}  blocking=True  21q-98=133, lines met=133
+q=23 c=9: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,23): {0: 168, 1: 336, 3: 28, 4: 21}  blocking=False  21q-98=385, lines met=385
+q=23 c=13: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,23): {0: 168, 1: 336, 3: 28, 4: 21}  blocking=False  21q-98=385, lines met=385
+q=29 c=7: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,29): {0: 360, 1: 462, 3: 28, 4: 21}  blocking=False  21q-98=511, lines met=511
+q=29 c=21: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,29): {0: 360, 1: 462, 3: 28, 4: 21}  blocking=False  21q-98=511, lines met=511
+q=37 c=8: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,37): {0: 728, 1: 630, 3: 28, 4: 21}  blocking=False  21q-98=679, lines met=679
+q=37 c=28: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,37): {0: 728, 1: 630, 3: 28, 4: 21}  blocking=False  21q-98=679, lines met=679
+q=43 c=18: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,43): {0: 1088, 1: 756, 3: 28, 4: 21}  blocking=False  21q-98=805, lines met=805
+q=43 c=24: |Q|=21 |T|=28 |Q&T|=0 |lines|=21; Q-points per listed line {4: 21}, T-points per listed line {4: 21}; listed lines == 4-secants of Q: True
+      spectrum of Q (21 quadruple points) in PG(2,43): {0: 1088, 1: 756, 3: 28, 4: 21}  blocking=False  21q-98=805, lines met=805
+q=11, c=4: projectivities mapping our cadical witness onto Seceleanu's 21 Klein quadruple points: 168
+q=11, c=6: projectivities mapping our cadical witness onto Seceleanu's 21 Klein quadruple points: 168

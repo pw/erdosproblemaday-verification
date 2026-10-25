@@ -1,0 +1,13 @@
+clone 0 9
+copy_toolchain 0 152
+relaunch 2026-10-11T18:02:19Z 0 0
+copy_packages 0 549
+patches 0 1
+cache_get 0 196
+build 0 18514
+verify 0 129
+axioms_copy 0 0
+audit_probes 0 27
+audit_restatement 0 28
+leanchecker_fresh 0 7773
+leanchecker_fresh_172 127 0

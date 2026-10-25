@@ -1,0 +1,31 @@
+== k5_j0_full.cnf k=5 j=0 c4=1 der=1 sb=1 --mutate-sb
+A. header (1758, 8940), parsed 8940 clauses, edge vars 108
+   MUTATION: flipped lex clause -> [-1681, 1, -13]
+B. pure-edge clauses 5718: block(<=1/block) 216, C4 5502, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 2751; C4 clauses (distinct) 2751; missing 0; extra 0
+D. pool 157 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=17, ('2sw', 'c4', False)=5, ('flip', 'deg', False)=15, ('model', 'c4', False)=15, ('pi', 'c4', False)=60, ('rand-g', 'c4', False)=45
+   residual transpositions (mine, brute force): 6
+== k5_j0_full.cnf k=5 j=0 c4=1 der=1 sb=1 --mutate-extra
+A. header (1758, 8940), parsed 8940 clauses, edge vars 108
+   MUTATION: added [-1,-108]
+B. pure-edge clauses 5719: block(<=1/block) 216, C4 5502, with positive lits 0, NOT IMPLIED 1 [[-1, -108]]
+C. potential 4-cycles 2751; C4 clauses (distinct) 2751; missing 0; extra 0
+D. pool 157 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=17, ('2sw', 'c4', False)=5, ('flip', 'deg', False)=15, ('model', 'c4', False)=15, ('pi', 'c4', False)=60, ('rand-g', 'c4', False)=45
+   residual transpositions (mine, brute force): 6
+== k5_j0_full.cnf k=5 j=0 c4=1 der=1 sb=1 --mutate-dropc4
+A. header (1758, 8940), parsed 8940 clauses, edge vars 108
+   MUTATION: dropped all 2 copies of [-1, -13, -2, -14]
+B. pure-edge clauses 5716: block(<=1/block) 216, C4 5500, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 2751; C4 clauses (distinct) 2750; missing 1; extra 0
+D. pool 157 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=17, ('2sw', 'c4', False)=5, ('flip', 'deg', False)=15, ('model', 'c4', False)=15, ('pi', 'c4', False)=60, ('rand-g', 'c4', False)=45
+   residual transpositions (mine, brute force): 6
+== k5_j0_noc4.cnf k=5 j=0 c4=0 der=1 sb=1 --mutate-sb
+A. header (1758, 3438), parsed 3438 clauses, edge vars 108
+   MUTATION: flipped lex clause -> [-1681, 1, -13]
+B. pure-edge clauses 216: block(<=1/block) 216, C4 0, with positive lits 0, NOT IMPLIED 0 []
+D. pool 157 assignments; mismatches 4 [('model', 'ok', False), ('model', 'ok', False), ('model', 'ok', False), ('model', 'ok', False)]
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=17, ('2sw', 'lex', False)=4, ('2sw', 'ok', True)=1, ('flip', 'deg', False)=15, ('model', 'lex', False)=4, ('model', 'ok', False)=4, ('model', 'ok', True)=7, ('pi', 'lex', False)=60, ('rand-g', 'lex', False)=43, ('rand-g', 'ok', True)=2
+   residual transpositions (mine, brute force): 6

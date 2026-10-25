@@ -1,0 +1,5 @@
+  SWEEP-D disk R=3 (inradius 2.5), m<=2, mesh<=2.5: cells=88 h=0.5 m<=2 mesh<=2.5 clauses=24220 -> UNSAT (0.3s)
+  SWEEP-D disk R=3 (inradius 2.5), m<=2, mesh<=3.0: cells=88 h=0.5 m<=2 mesh<=3.0 clauses=42024 -> UNSAT (4.9s)
+  SWEEP-D disk R=3 (inradius 2.5), m<=2, mesh<=3.5: cells=88 h=0.5 m<=2 mesh<=3.5 clauses=62908 -> TIMEOUT (15.3s)
+  SWEEP-D disk R=3 (inradius 2.5), m<=2, mesh<=4.0: cells=88 h=0.5 m<=2 mesh<=4.0 clauses=89610 -> TIMEOUT (15.5s)
+  SWEEP-D disk R=3 (inradius 2.5), m<=2, mesh<=5.0: cells=88 h=0.5 m<=2 mesh<=5.0 clauses=132908 -> SAT (0.9s)  pieces=7 independent-checker violations=0

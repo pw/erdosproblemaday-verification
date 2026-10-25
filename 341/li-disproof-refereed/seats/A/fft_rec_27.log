@@ -1,0 +1,4 @@
+Li S: N=134217727 |S|=16434845 max FFT rounding err=4.19e-09 violations of (t in S <=> t not in S+S) for t>97: 0 first=[]
+control: drop 49*4*8^6+7: N=134217727 |S|=16434844 max FFT rounding err=4.19e-09 violations of (t in S <=> t not in S+S) for t>97: 2 first=[51380231, 51380238]
+control: add 49*16+28: N=134217727 |S|=16434846 max FFT rounding err=4.19e-09 violations of (t in S <=> t not in S+S) for t>97: 3 first=[812, 1575, 1624]
+VERDICT: PASS

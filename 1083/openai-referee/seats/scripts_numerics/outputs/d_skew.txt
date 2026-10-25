@@ -1,0 +1,30 @@
+===== d=3, s0=3 (d(d-1)/2=3), ambient skew forms on C^4: dim 6 = d(d+1)/2 = 6
+  (2.7) Omega v == y on F_pq: max residual over 200 random points 8.88e-16;  v0.Z v0 = 0: max 5.28e-16
+  evaluation system Omega v = y: rank of all d+1 rows = 3, rank of first d rows = 3 -> flat dim = 3 (claimed s0=3)
+  last (d+1)-th coordinate equation implied by first d: True  (uses v.Omega v = 0 and v.y = 0: v.y = 0.00e+00)
+  distinct random pairs give distinct flats (200 trials): True;  (p,q) vs (p,q') same flat? False
+  (2.8) intersection of neighbouring flats satisfies Z(u+w)=u-w: max residual 1.06e-13; intersection dim = 1 = s0-(d-1) = 1
+  {Z skew: Z x = y}, x=u+w, y=u-w:
+    |u|=|w|  : rank[Z->Zx] = 2, rank augmented = 2 -> NONEMPTY, codim in Z-space = 2  (x.y = |u|^2-|w|^2 = +1.783e-18)
+    |u|!=|w| : rank[Z->Zx] = 2, rank augmented = 3 -> EMPTY, codim in Z-space = -  (x.y = |u|^2-|w|^2 = -9.440e-01)
+    u+w=0    : rank[Z->Zx] = 0, rank augmented = 1 -> EMPTY, codim in Z-space = -  (x.y = |u|^2-|w|^2 = +0.000e+00)
+  exact rank of Z->Zx for x=[1, 2, -3]: 2 (claimed d-1=2)
+  non-proportional x give different direction spaces (200 trials): True; proportional x give same: True
+  global polarization: B(X,X') = -(v0-v0').(y0-y0') = -(|p-p'|^2-|q-q'|^2)/4 : max err 1.11e-15
+  local polarization: (ui-wi).(uj+wj)+(uj-wj).(ui+wi) = 2(ui.uj - wi.wj) = B([ui+wi:ui-wi],[uj+wj:uj-wj]): max err 3.55e-15
+  Prop 2.2 identity |q-z_i|^2-|q-z_j|^2 = -2(q-p).(z_i-z_j) on a radius class: max err 1.42e-14
+===== d=4, s0=6 (d(d-1)/2=6), ambient skew forms on C^5: dim 10 = d(d+1)/2 = 10
+  (2.7) Omega v == y on F_pq: max residual over 200 random points 8.88e-16;  v0.Z v0 = 0: max 7.49e-16
+  evaluation system Omega v = y: rank of all d+1 rows = 4, rank of first d rows = 4 -> flat dim = 6 (claimed s0=6)
+  last (d+1)-th coordinate equation implied by first d: True  (uses v.Omega v = 0 and v.y = 0: v.y = 0.00e+00)
+  distinct random pairs give distinct flats (200 trials): True;  (p,q) vs (p,q') same flat? False
+  (2.8) intersection of neighbouring flats satisfies Z(u+w)=u-w: max residual 3.42e-14; intersection dim = 3 = s0-(d-1) = 3
+  {Z skew: Z x = y}, x=u+w, y=u-w:
+    |u|=|w|  : rank[Z->Zx] = 3, rank augmented = 3 -> NONEMPTY, codim in Z-space = 3  (x.y = |u|^2-|w|^2 = -6.342e-17)
+    |u|!=|w| : rank[Z->Zx] = 3, rank augmented = 4 -> EMPTY, codim in Z-space = -  (x.y = |u|^2-|w|^2 = -6.797e-01)
+    u+w=0    : rank[Z->Zx] = 0, rank augmented = 1 -> EMPTY, codim in Z-space = -  (x.y = |u|^2-|w|^2 = +0.000e+00)
+  exact rank of Z->Zx for x=[1, 2, -3, 5]: 3 (claimed d-1=3)
+  non-proportional x give different direction spaces (200 trials): True; proportional x give same: True
+  global polarization: B(X,X') = -(v0-v0').(y0-y0') = -(|p-p'|^2-|q-q'|^2)/4 : max err 1.78e-15
+  local polarization: (ui-wi).(uj+wj)+(uj-wj).(ui+wi) = 2(ui.uj - wi.wj) = B([ui+wi:ui-wi],[uj+wj:uj-wj]): max err 3.55e-15
+  Prop 2.2 identity |q-z_i|^2-|q-z_j|^2 = -2(q-p).(z_i-z_j) on a radius class: max err 1.42e-14

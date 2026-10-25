@@ -1,0 +1,13 @@
+build 0 348/348 failed=
+cmpmod_ShortEgyptianFractions 0 7
+cmpmod_EgyptianFractions 0 8
+cmpSE 0 7
+cmpEF 0 7
+axSE 0 6
+axEF 0 7
+neg 0 7
+typectl 1 6
+statement_match 0 0
+bridgeall 0 6
+leanchecker_fresh 0 3543
+leanchecker_missing_control 1 2

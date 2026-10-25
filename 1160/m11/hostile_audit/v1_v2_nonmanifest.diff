@@ -1,0 +1,70 @@
+diff -ru '--exclude=SHA256SUMS' /home/exedev/erdos_scratch/erdos1160_m11_20260811/PROVENANCE.md /home/exedev/erdos_scratch/erdos1160_m11_20260811_v2/PROVENANCE.md
+--- /home/exedev/erdos_scratch/erdos1160_m11_20260811/PROVENANCE.md	2026-08-11 15:15:44.662471327 +0000
++++ /home/exedev/erdos_scratch/erdos1160_m11_20260811_v2/PROVENANCE.md	2026-08-11 15:34:46.079047469 +0000
+@@ -45,6 +45,10 @@
+    groups of order 1024," Communications in Algebra 50 (2022), 2408-2410,
+    DOI <https://doi.org/10.1080/00927872.2021.2006680>.
+ 
++   Caveat: the dissertation's printed Table 3-3 margins have opposing
++   one-unit inconsistencies. The bundle relies on Theorem 3.2.1 and the
++   explicit correction narrative, not those marginal totals.
++
+ 3. Bettina Eick, "Classification of Finite Groups: Recent Developments and
+    Open Problems," Foundations of Computational Mathematics (2024), DOI
+    <https://doi.org/10.1007/s10208-024-09688-1>. Repository PDF:
+@@ -86,3 +90,15 @@
+ other problems; no file in that repository was changed for this result.
+ `SITE_SNAPSHOT.txt` records the snapshot hashes, Git state, exact token rule,
+ and upstream problem-data commit.
++
++## Hostile audit
++
++A separate agent independently audited the frozen v1 result rather than
++importing either supplied Python verifier. It parsed all 2047 positive-order
++cells from the 2008 appendix, found the expected sole stale cell at 1024,
++used GAP 4.14/SmallGrp 1.5.4 for 2043 cells, and checked the remaining four
++against the appendix. It also checked the current OEIS file, source semantics,
++live problem/LaTeX/forum state, and local source-token gate. Its mathematical
++verdict was PASS. The v1 cosmetic output error it identified is corrected in
++this v2 bundle; the arithmetic assertions and report claim were already in
++the correct direction.
+diff -ru '--exclude=SHA256SUMS' /home/exedev/erdos_scratch/erdos1160_m11_20260811/REPORT.md /home/exedev/erdos_scratch/erdos1160_m11_20260811_v2/REPORT.md
+--- /home/exedev/erdos_scratch/erdos1160_m11_20260811/REPORT.md	2026-08-11 15:16:27.639461801 +0000
++++ /home/exedev/erdos_scratch/erdos1160_m11_20260811_v2/REPORT.md	2026-08-11 15:34:46.079047469 +0000
+@@ -44,6 +44,12 @@
+   = 49,910,538,480.
+ ```
+ 
++Burrell's printed Table 3-3 has a separate one-unit marginal-total blemish:
++its displayed row margins sum to one below the theorem total, while its
++displayed column margins sum to one above. Neither set of printed margins is
++used here. The theorem, the explicit `933 -> 2800` correction, the GAP count,
++and Eick's later survey all agree on `g(1024) = 49,487,367,289`.
++
+ Eick's 2024 survey gives the exact number
+ 
+ ```text
+@@ -107,5 +113,8 @@
+ audits, recreates the GAP runtime from pinned packages, regenerates all 2034
+ available counts, and byte-compares them with the frozen output.
+ 
+-Status at freeze time: proof-level finite result, awaiting hostile external
+-audit. No PASS or absolute novelty claim is made in this bundle.
++Status at v2 freeze time: proof-level finite result with a mathematical PASS
++from a hostile independent audit. That audit separately parsed every cell of
++the 2008 appendix, checked the sole stale cell at 1024, regenerated 2043 of
++2047 positive-order counts with GAP 4.14/SmallGrp 1.5.4, and checked the source
++semantics and live LaTeX statement. No absolute novelty claim is made.
+diff -ru '--exclude=SHA256SUMS' /home/exedev/erdos_scratch/erdos1160_m11_20260811/verify_erdos1160_m11.py /home/exedev/erdos_scratch/erdos1160_m11_20260811_v2/verify_erdos1160_m11.py
+--- /home/exedev/erdos_scratch/erdos1160_m11_20260811/verify_erdos1160_m11.py	2026-08-11 15:15:44.666471420 +0000
++++ /home/exedev/erdos_scratch/erdos1160_m11_20260811_v2/verify_erdos1160_m11.py	2026-08-11 15:31:33.396040428 +0000
+@@ -163,7 +163,8 @@
+     assert margin == 1_774_224_206_453_690
+     assert total < LOWER_BOUND_G2048
+     print(
+-        f"11  2048 {total:14d} >={LOWER_BOUND_G2048:15d} True"
++        "m=11 certified chain: "
++        f"{total} < f_2(2048) = {LOWER_BOUND_G2048} <= g(2048)"
+     )
+     print(f"strict certified margin below published lower bound: {margin}")
+     print("CONCLUSION: sum_{0<=n<2048} g(n) < g(2048).")

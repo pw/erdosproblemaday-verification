@@ -1,0 +1,6 @@
+Shipped 2026-10-14 ~01:26Z from worktree seat-0014: commit ac2fd0a, wrangler version 6d6f525d-69f6-4d6e-b215-230bed117fba, zone purged,
+/day/188-cmxz-6330-refereed-and-finite-certificates live on the custom domain (3/3 fetches, marker present).
+CORRECTION TO THE COMMIT MESSAGE OF ac2fd0a (written before the two referee rounds, not updated): the shipped entry and README say
+k <= 4917 (not 4920); certificates of 15 and 69 points (the 111-point core is the first encoding's, also shipped); coordinates in
+Q(sqrt3, sqrt11) (not Q(sqrt-3, sqrt11)); and the l_6 search is reported as UNDECIDED (none found, nothing refuted), not as a wall.
+The artefacts are authoritative; the message of ac2fd0a is not.

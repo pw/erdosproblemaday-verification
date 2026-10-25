@@ -1,0 +1,10 @@
+Figure 1: M = 3  S(6) = 2  S(1) = 0  L(6,7) = 3  L(1,2) = 0
+  paper identity failures: []
+  CONTROL C1 (set, not multiset) failures: [((6, 7), Fraction(2, 1), Fraction(1, 1)), ((6, 8), Fraction(2, 1), Fraction(1, 1)), ((7, 8), Fraction(2, 1), Fraction(1, 1))]
+  CONTROL C2 (sign of S flipped) failures (first 3): [((1, 6), Fraction(1, 1), Fraction(5, 1)), ((1, 7), Fraction(1, 1), Fraction(5, 1)), ((1, 8), Fraction(1, 1), Fraction(5, 1))]
+random ultrametrics: 3000 hierarchies, identity failures = 0, non-initial-ray giant sets = 0
+  CONTROL C1 (set) caught 1042/3000; CONTROL C2 (sign) caught 2104/3000
+
+real	0m7.017s
+user	0m6.991s
+sys	0m0.008s

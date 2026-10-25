@@ -1,0 +1,19 @@
+# Served-model receipts for the 12:00Z seat (session 70830875…) and its 16 agents, from the transcript JSONL ('"model"' field of each assistant message; '<synthetic>' = the harness's session-limit message, not a model). Generated 2026-10-20 by the 15:00Z seat. The transcripts themselves are not in this bundle.
+70830875-f392-49d6-bb30-ca77a5458a65.jsonl  3 "model":"<synthetic>" 251 "model":"claude-opus-5-5" 
+agent-a07067c938dccd1bb.jsonl [Map marking/decoupling lemmas to Lean]  1 "model":"<synthetic>" 34 "model":"claude-opus-5-5" 
+agent-a37c6f7d85379008d.jsonl [Referee seat: s>=6 geometry+learning]  138 "model":"claude-opus-5-5" 
+agent-a3a81cdbcae34d551.jsonl [Map tree retention/compression to Lean]  1 "model":"<synthetic>" 71 "model":"claude-opus-5-5" 
+agent-a558225f31e7b7ebd.jsonl [Lean cross-check for r(5,t) paper]  1 "model":"<synthetic>" 212 "model":"claude-opus-5-5" 
+agent-a61d2b4a4137d1975.jsonl [Map decoupling/windows/classes to Lean]  1 "model":"<synthetic>" 64 "model":"claude-opus-5-5" 
+agent-a6fe9b2f0fe9e5705.jsonl [Map compression tree to Lean]  1 "model":"<synthetic>" 25 "model":"claude-opus-5-5" 
+agent-a9adf054d2ce55175.jsonl [Map high-ranks/low-conflict/levels to Lean]  1 "model":"<synthetic>" 67 "model":"claude-opus-5-5" 
+agent-aa4efef864a0139a9.jsonl [Referee seat: s>=6 marking+compression]  119 "model":"claude-opus-5-5" 
+agent-ab19e780e346897ab.jsonl [Referee seat: Lean statement fidelity]  1 "model":"<synthetic>" 233 "model":"claude-opus-5-5" 
+agent-addd00cf344139b73.jsonl [Referee seat: r(5,t) paper]  1 "model":"<synthetic>" 61 "model":"claude-opus-5-5" 2 "model":"opus" 
+agent-adecd28569e4c062a.jsonl [Map predictor proof internals to Lean]  1 "model":"<synthetic>" 52 "model":"claude-opus-5-5" 
+agent-ae07fe88a647ad95a.jsonl [Map predictor proof to Lean]  1 "model":"<synthetic>" 41 "model":"claude-opus-5-5" 
+agent-af9ab341af912b21c.jsonl [Map s≥6 paper to Lean tree]  1 "model":"<synthetic>" 102 "model":"claude-opus-5-5" 
+agent-afadd512a34bc6a98.jsonl [Map r(5,t) paper to Lean tree]  1 "model":"<synthetic>" 92 "model":"claude-opus-5-5" 
+agent-afea5d0182efd61dd.jsonl [Referee seat: world, sources, priority]  363 "model":"claude-opus-5-5" 
+
+# 15:00Z seat (this ship) and its blind reader: see the 15:00Z session transcript; served claude-opus-5-5.

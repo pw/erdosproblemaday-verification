@@ -1,0 +1,59 @@
+model C: k=1056 D=3 M=33 h0=9 lambda=2116800 (formula 2116800) q=100000000000000003 alpha=1.0e-68 m=173830343 |V|=347660686 H_x=1/2360519884800 flags=['--longer']
+  progressions                                                                                    checked=   300 FAIL=0
+  cut-crossing small-step progressions: all labels distinct                                       checked=   124 FAIL=0
+  case (i): >= delta k light (nothing to check without c_*)                                       checked=   208 FAIL=0
+  heavy case (< delta k light)                                                                    checked=    92 FAIL=0
+  drift: 1<=h<=2M                                                                                 checked=  1178 FAIL=0
+  drift: |u_i|,|v_i| bounds                                                                       checked=  1178 FAIL=0
+  drift: v == lambda u (real)                                                                     checked=  1178 FAIL=0
+  path: t' integral                                                                               checked=  1178 FAIL=0
+  path: both path equations, all j                                                                checked=  1178 FAIL=0
+  path: gcd(t,h)=1                                                                                checked=  1178 FAIL=0
+  path: each label in one residue class mod h                                                     checked=  1178 FAIL=0
+  heavy-width at every heavy index                                                                checked=  1178 FAIL=0
+  diag: chosen heavy label has h=13                                                               checked=   172 FAIL=0
+  longer: rotating s_i > h0                                                                       checked=  1728 FAIL=0
+  longer: every full block has >= h/2 regular positions                                           checked= 52388 FAIL=0
+  longer: labels in a full block pairwise distinct                                                checked= 52388 FAIL=0
+  diag: used blocks with >=1 rotating coordinate                                                  checked= 34554 FAIL=0
+  longer: elig (ii) |u_i|<=H_x all i, |v_i|<=H rotating                                           checked= 52388 FAIL=0
+  longer: elig (iii) stationary |v_i| <= |V(Y_z,i)| at every position                             checked= 52388 FAIL=0
+  longer: used full blocks cover >= 4k/5                                                          checked=   931 FAIL=0
+  diag(control): heavy-width inequality evaluated at a LIGHT index                                checked= 35273 FAIL=14905
+  diag: chosen heavy label has h=18                                                               checked=    18 FAIL=0
+  diag: used block whose stationary coord has min width/|v_i| < 100 (stress)                      checked=  1044 FAIL=0
+  diag: used blocks with >=1 stationary coordinate                                                checked= 17834 FAIL=0
+  diag: chosen heavy label has h=11                                                               checked=    49 FAIL=0
+  diag: chosen heavy label has h=31                                                               checked=   147 FAIL=0
+  diag: chosen heavy label has h=23                                                               checked=    66 FAIL=0
+  diag: chosen heavy label has h=1                                                                checked=   132 FAIL=0
+  short: h | lambda                                                                               checked=   247 FAIL=0
+  short: w_i in q^{-i}Z                                                                           checked=   247 FAIL=0
+  short: k|w_i| < 1/2                                                                             checked=   247 FAIL=0
+  SHORT-PERIOD CONCLUSION (ii): ytilde(n_j)=ytilde(n_0)+j w for ALL j                             checked=   247 FAIL=0
+  diag: short-period heavy case with some rho < 1e-6 (near cut, no crossing)                      checked=    49 FAIL=0
+  diag: chosen heavy label has h=2                                                                checked=    16 FAIL=0
+  diag: short-period heavy case with t != 0 (genuine rational step)                               checked=   115 FAIL=0
+  diag: chosen heavy label has h=15                                                               checked=    30 FAIL=0
+  diag: chosen heavy label has h=21                                                               checked=    63 FAIL=0
+  diag: chosen heavy label has h=8                                                                checked=     8 FAIL=0
+  diag: chosen heavy label has h=5                                                                checked=    15 FAIL=0
+  diag: chosen heavy label has h=3                                                                checked=    18 FAIL=0
+  diag: chosen heavy label has h=17                                                               checked=    96 FAIL=0
+  diag: chosen heavy label has h=16                                                               checked=    32 FAIL=0
+  diag: chosen heavy label has h=29                                                               checked=    28 FAIL=0
+  diag: chosen heavy label has h=4                                                                checked=     4 FAIL=0
+  diag: chosen heavy label has h=7                                                                checked=    21 FAIL=0
+  diag: chosen heavy label has h=19                                                               checked=    18 FAIL=0
+  diag: chosen heavy label has h=32                                                               checked=    32 FAIL=0
+  diag: chosen heavy label has h=14                                                               checked=    28 FAIL=0
+  diag: chosen heavy label has h=20                                                               checked=    40 FAIL=0
+  diag: chosen heavy label has h=24                                                               checked=    24 FAIL=0
+  diag: chosen heavy label has h=30                                                               checked=    60 FAIL=0
+  diag: chosen heavy label has h=9                                                                checked=    27 FAIL=0
+  diag: chosen heavy label has h=28                                                               checked=    28 FAIL=0
+  diag: chosen heavy label has h=6                                                                checked=     6 FAIL=0
+  mesh exact-fallbacks: 11
+  min over heavy indices of (2M/k)|V|/|v_i| (lemma says >= 1): 2.072
+  min over used blocks, stationary coords, positions of |V|/|v_i|: 83.67
+  total failures recorded: 0

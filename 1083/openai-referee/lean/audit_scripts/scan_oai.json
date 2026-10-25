@@ -1,0 +1,653 @@
+{
+"decide": [
+[
+"Algebra/AlgebraicObstruction/FiniteCoefficients.lean",
+149,
+"MvPolynomial.coeff_sum,MvPolynomial.coeff_C_mul,MvPolynomial.coeff_X,Finsupp.single_left_inj (by decide : (1:\u2115) \u2260 0),"
+],
+[
+"Algebra/AlgebraicObstruction/FiniteCoefficients.lean",
+171,
+"Finsupp.single_left_inj (by decide : (1:\u2115) \u2260 0)]"
+],
+[
+"Algebra/AlgebraicObstruction/FiniteCoefficients.lean",
+174,
+"Finsupp.single_left_inj (by decide : (1:\u2115) \u2260 0),h1]"
+],
+[
+"Algebra/Determinantal/BorderPolars.lean",
+276,
+"exact ((contDiff_mvPolynomial_eval ((affinePolarOperators w e j) P)).differentiable (by decide)).differentiableAt"
+],
+[
+"Algebra/Determinantal/Gates.lean",
+121,
+"| .inr (g,.inl b) => .inr (g,b.castLE (by decide))"
+],
+[
+"Algebra/Determinantal/Gates.lean",
+172,
+"X (g, Sum.inr (x.castLE (by decide))))) *"
+],
+[
+"Algebra/Determinantal/Model.lean",
+109,
+"(CI.normalized (hypersurfacePolars w f) l j))).differentiable (by decide)) _"
+],
+[
+"Algebra/Determinantal/Monogenic.lean",
+127,
+"have h := congrArg (Ideal.Quotient.factor (Ideal.pow_le_self (by decide : 2 \u2260 0))) (hu i)"
+],
+[
+"Algebra/Determinantal/PlaneHilbert.lean",
+35,
+"have hh : (1 : Fin 2) \u2260 0 := by decide"
+],
+[
+"Algebra/Determinantal/PlaneHilbert.lean",
+46,
+"simp only [show (1 : Fin 2) \u2260 0 by decide, \u2193reduceIte]"
+],
+[
+"Algebra/Determinantal/PlaneHilbert.lean",
+112,
+"rw [mul_comm (X 1), degreeOf_mul_X_of_ne _ (by decide : (0 : Fin 2) \u2260 1),"
+],
+[
+"Algebra/Determinantal/PointBounds.lean",
+269,
+"exact (hF.continuous_fderiv (by decide)).clm_comp continuous_const"
+],
+[
+"Algebra/Determinantal/PointBounds.lean",
+278,
+"let \u03c8 := hf.implicitFunction (by decide) hs"
+],
+[
+"Algebra/Determinantal/PointBounds.lean",
+280,
+"hf.hasStrictFDerivAt (by decide) |>.tendsto_implicitFunctionOfProdDomain hs"
+],
+[
+"Algebra/Determinantal/PointBounds.lean",
+282,
+"have hz' := hf.eventually_apply_implicitFunction (by decide) hs"
+],
+[
+"Algebra/Determinantal/PointBounds.lean",
+325,
+"exact ((hF.differentiable (by decide) (c,x)).hasFDerivAt.comp x hi).fderiv"
+],
+[
+"Algebra/Determinantal/Selector.lean",
+381,
+"have h01 : (0 : Fin 3) \u2260 1 := by decide"
+],
+[
+"Algebra/Determinantal/Selector.lean",
+382,
+"have h02 : (0 : Fin 3) \u2260 2 := by decide"
+],
+[
+"Algebra/Determinantal/Selector.lean",
+383,
+"have h12 : (1 : Fin 3) \u2260 2 := by decide"
+],
+[
+"Algebra/Determinantal/SmoothSlices.lean",
+67,
+"exact ((hF.differentiable (by decide) (t,x)).hasFDerivAt.comp x hi).fderiv"
+],
+[
+"Algebra/Determinantal/SmoothSlices.lean",
+139,
+"refine \u27e8fderiv \u2102 S z.val, hc.hasStrictFDerivAt (by decide), ?_\u27e9"
+],
+[
+"Algebra/FrobeniusObstruction/LiftProducts.lean",
+24,
+"split_ifs <;> simp only [\u2190 pow_two, s_sq, zero_pow (by decide : 2 \u2260 0)]"
+],
+[
+"AlgebraicGeometry/PlaneCurves/Automorphic.lean",
+155,
+"@[simp] theorem triangular_zero : triangular 0 = 0 := by decide"
+],
+[
+"AlgebraicGeometry/PlaneCurves/Automorphic.lean",
+231,
+"\u00b7 decide"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicGeometry.lean",
+28,
+"exact zero_pow (by decide)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicGeometry.lean",
+353,
+"(show (0 : \u2124) < 9 by decide) (pow_ne_zero 3 h\u03b3)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicGeometry.lean",
+355,
+"exact (actualPositiveSection_finrank h\u03c4 h\u03c4one (show (0 : \u2124) < 9 by decide)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicGeometry.lean",
+387,
+"simp only [he, ne_eq, mul_eq_zero, pow_eq_zero_iff (by decide : 2 \u2260 0), hu,"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicMap.lean",
+510,
+"(show (0 : \u2124) < 3 by decide) h\u03b3"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicMap.lean",
+517,
+"(fun _ hd => actualPositiveSection_finrank h\u03c4 h\u03c4one (by decide) hd)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicMap.lean",
+524,
+"(fun _ hd => actualPositiveSection_finrank h\u03c4 h\u03c4one (by decide) hd)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicMap.lean",
+531,
+"(actualPositiveSection_finrank h\u03c4 h\u03c4one (show (0 : \u2124) < 3 by decide) h\u03b3)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicMap.lean",
+552,
+"exact actualPositiveSection_finrank h\u03c4 h\u03c4one (by decide) h\u03b4"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicRelations.lean",
+35,
+"simpa only [Fintype.card_fin] using (lt_of_le_of_lt hdim (by decide : 9 < 10))"
+],
+[
+"AlgebraicGeometry/PlaneCurves/CubicRelations.lean",
+77,
+"decide"
+],
+[
+"AlgebraicGeometry/PlaneCurves/ExponentSets.lean",
+106,
+"rw [Int.le_ediv_iff_mul_le (show (0 : \u2124) < 3 by decide)]"
+],
+[
+"AlgebraicGeometry/PlaneCurves/ExponentSets.lean",
+138,
+"apply (Int.le_ediv_iff_mul_le (show (0 : \u2124) < 3 by decide)).mpr"
+],
+[
+"AlgebraicGeometry/PlaneCurves/LineRestriction.lean",
+340,
+"Fin.insertNth_apply_below (show (0 : Fin 3) < 2 from by decide),"
+],
+[
+"AlgebraicGeometry/PlaneCurves/LineRestriction.lean",
+341,
+"Fin.insertNth_apply_below (show (1 : Fin 3) < 2 from by decide),"
+],
+[
+"AlgebraicGeometry/PlaneCurves/LineRestriction.lean",
+386,
+"Fin.insertNth_apply_below (show (0 : Fin 3) < 2 from by decide),"
+],
+[
+"AlgebraicGeometry/PlaneCurves/LineRestriction.lean",
+387,
+"Fin.insertNth_apply_below (show (1 : Fin 3) < 2 from by decide)]"
+],
+[
+"AlgebraicGeometry/PlaneCurves/Parameters.lean",
+102,
+"(Int.le_ediv_iff_mul_le (by decide : (0 : \u2124) < 3)).mpr (by linarith)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/Parameters.lean",
+111,
+"have hprod := (Int.le_ediv_iff_mul_le (by decide : (0 : \u2124) < 3)).mp hj"
+],
+[
+"AlgebraicGeometry/PlaneCurves/Parameters.lean",
+316,
+"have hu0 : M \u2264 D / 3 := (Nat.le_div_iff_mul_le (by decide)).2 (by"
+],
+[
+"AlgebraicGeometry/PlaneCurves/Parameters.lean",
+327,
+"have hr9 : 9 \u2264 r := le_trans (by decide : 9 \u2264 10) hr"
+],
+[
+"AlgebraicGeometry/PlaneCurves/Parameters.lean",
+328,
+"have hq : 0 < r - 9 := Nat.sub_pos_iff_lt.mpr (lt_of_lt_of_le (by decide : 9 < 10) hr)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/PolynomialJets.lean",
+69,
+"decide"
+],
+[
+"AlgebraicGeometry/PlaneCurves/TaylorMultiplicity.lean",
+320,
+"simpa [Nagata.Workers.W30.exponentPair] using hf 0 0 (by decide)"
+],
+[
+"AlgebraicGeometry/PlaneCurves/ThetaEvaluation.lean",
+222,
+"zero_pow (by decide : 2 \u2260 0),"
+],
+[
+"AlgebraicGeometry/PlaneCurves/ThetaEvaluation.lean",
+223,
+"zero_pow (by decide : 2 - 1 \u2260 0), mul_zero, zero_mul, add_zero, zero_add] using hd.deriv"
+],
+[
+"Combinatorics/Distances/PolynomialIsolation.lean",
+125,
+"exact_mod_cast lt_of_lt_of_le (by decide : 0 < 2) (hP k)"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/MatrixKernel.lean",
+28,
+"rw [matrix_abs_action_norm_sq, hx, norm_zero, zero_pow (by decide : 2 \u2260 0)]"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/SymmetricCoordinates.lean",
+61,
+"lemma upperTriangle_four_card : Fintype.card (UpperTriangle (Fin 4)) = 10 := by decide"
+],
+[
+"Geometry/Borsuk/Simplicial/F2.lean",
+122,
+"\u00b7 simpa [hc] using (show (2 : F\u2082) = 0 by decide)"
+],
+[
+"Geometry/Borsuk/Simplicial/MaxIndex.lean",
+48,
+"((peakIndex y).val, decide (y (peakIndex y) < 0))"
+],
+[
+"Geometry/Borsuk/Simplicial/MaxIndex.lean",
+81,
+"change decide (y (peakIndex y) < 0) = decide (z (peakIndex z) < 0)"
+],
+[
+"NumberTheory/Jacobsthal/Siegel/CoefficientSubspaceEquiv.lean",
+387,
+"leadingCoeff_comp (by rw [natDegree_add_C, natDegree_X]; decide),"
+],
+[
+"NumberTheory/PiExponent/LocalAlgebra/RegularPairExtObstruction.lean",
+40,
+"(hv 0 (by decide)) (hv 1 (by decide)) (hv 2 (by decide))"
+],
+[
+"NumberTheory/PowerFree/CurveAlternatives.lean",
+105,
+"have prim := hp.isPrimitive (by rw [hpd]; decide)"
+],
+[
+"NumberTheory/PowerFree/CurveAlternatives.lean",
+136,
+"Finsupp.single_eq_of_ne (show (0:Fin 2) \u2260 1 by decide),"
+],
+[
+"NumberTheory/PowerFree/CurveAlternatives.lean",
+137,
+"Finsupp.single_eq_of_ne (show (1:Fin 2) \u2260 0 by decide),add_zero,zero_add] at h0 h1"
+],
+[
+"NumberTheory/PowerFree/CurveAlternatives.lean",
+162,
+"Finsupp.single_eq_of_ne (show (0:Fin 2) \u2260 1 by decide),add_zero]"
+],
+[
+"NumberTheory/PowerFree/HighDegree.lean",
+57,
+"exact Polynomial.not_isUnit_of_natDegree_pos _ (by rw [Polynomial.natDegree_X_sub_C]; decide)"
+],
+[
+"NumberTheory/PowerFree/PairAlgebras.lean",
+430,
+"MvPolynomial.eval_C, show (0 : Fin 3) \u2260 2 by decide,"
+],
+[
+"NumberTheory/PowerFree/PairAlgebras.lean",
+431,
+"show (1 : Fin 3) \u2260 2 by decide, ite_false, ite_true, one_pow, one_mul,"
+],
+[
+"NumberTheory/PowerFree/PairBoundaries.lean",
+60,
+"have hj : (0 : Fin 1).succ = (1 : Fin 2) := by decide"
+],
+[
+"NumberTheory/PowerFree/PairCuts.lean",
+430,
+"eraseVariable_C, show (0:Fin 3) \u2260 2 by decide, show (1:Fin 3) \u2260 2 by decide,"
+],
+[
+"NumberTheory/PowerFree/PatchBounds.lean",
+251,
+"exact (L.find? (fun C => decide (PatchPieceCovers C z))).getD s"
+],
+[
+"NumberTheory/PowerFree/PatchBounds.lean",
+260,
+"cases hh : L.find? (fun C => decide (PatchPieceCovers C z)) with"
+],
+[
+"NumberTheory/PowerFree/PatchBounds.lean",
+267,
+"have hc : decide (PatchPieceCovers C z) = true :="
+],
+[
+"NumberTheory/PowerFree/PatchBounds.lean",
+268,
+"List.find?_some (p := fun C => decide (PatchPieceCovers C z)) hh"
+],
+[
+"NumberTheory/PowerFree/PrimePools.lean",
+290,
+"exact Nat.mul_le_mul_right M (Nat.pow_le_pow_right (by decide) (Nat.le_succ N))"
+],
+[
+"NumberTheory/PowerFree/ProjectionDegrees.lean",
+181,
+"Polynomial.coeff_C,ite_eq_right (by decide : (1:\u2115) \u2260 0),"
+],
+[
+"RingTheory/Multiplicity/HomogeneousRegradeIdentity.lean",
+408,
+"(map_mem (gradedHom I n z hz) hg) rfl (by decide)"
+],
+[
+"RingTheory/Multiplicity/LechHomogeneousEval.lean",
+138,
+"(Overlap R n k g) := Away.isLocalization_mul (isHomogeneous_X R k) hg rfl (by decide)"
+],
+[
+"RingTheory/Multiplicity/PrincipalCoverRegularRegularMap.lean",
+246,
+"def badVertex (m : Fin n \u2192 \u2124) (e : Exponent n) : Chart n := fun i => decide (m i<e i)"
+],
+[
+"RingTheory/Multiplicity/PrincipalCoverRegularRegularMap.lean",
+311,
+"toFun x := x.filter (fun e => decide (0\u2264e j)=b)"
+],
+[
+"RingTheory/Multiplicity/PrincipalCoverRegularRegularMap.lean",
+316,
+"endpointProjector R n j b x e=if decide (0\u2264e j)=b then x e else 0 := Finsupp.filter_apply _ _ _"
+],
+[
+"RingTheory/Multiplicity/PrincipalCoverRegularRegularMap.lean",
+321,
+"rw [Finset.sum_eq_single (decide (0\u2264e j))]"
+],
+[
+"RingTheory/Multiplicity/PrincipalCoverRegularRegularMap.lean",
+327,
+"(s : Finset (Chart n)) (b : Bool) (e : Exponent n) (hb : decide (0\u2264e j)=b)"
+],
+[
+"RingTheory/Multiplicity/PrincipalCoverRegularRegularMap.lean",
+427,
+"exact if h : \u2203 i,outlier n m e i then some (Classical.choose h,decide (0 \u2264 e (Classical.choose h))) else none"
+],
+[
+"RingTheory/Multiplicity/PrincipalCoverRegularRegularMap.lean",
+429,
+"(h : chosenOutlier n m e=some (j,b)) : outlier n m e j \u2227 decide (0 \u2264 e j)=b := by"
+],
+[
+"RingTheory/Multiplicity/PrincipalCoverRegularRegularMap.lean",
+435,
+"have hb : decide (0 \u2264 e (Classical.choose ho)) = b := congrArg Prod.snd he"
+]
+],
+"notation": [
+[
+"Algebra/Determinantal/BranchConductor.lean",
+224,
+"local notation \"f\" => \u220f i, p i"
+],
+[
+"Algebra/Determinantal/BranchConductor.lean",
+225,
+"local notation \"pQ\" => fun i => Polynomial.map (algebraMap S Q) (p i)"
+],
+[
+"Algebra/Determinantal/BranchConductor.lean",
+375,
+"local notation \"Q\" => FractionRing S"
+],
+[
+"Algebra/Determinantal/BranchConductor.lean",
+429,
+"local notation \"Q\" => FractionRing S"
+],
+[
+"Algebra/Determinantal/ConductorLocalization.lean",
+391,
+"local notation \"R\" => integralClosure S (AdjoinRoot (f.map (algebraMap S Q)))"
+],
+[
+"Algebra/Determinantal/GenericPolars.lean",
+221,
+"local notation \"P\" => (Option \u03c4 \u00d7 PolarVars \u03c4)"
+],
+[
+"Algebra/Determinantal/GenericPolars.lean",
+222,
+"local notation \"E\" => GenericField K P"
+],
+[
+"Algebra/Determinantal/LocalDerivations.lean",
+9,
+"local notation \"v\" => addVal B"
+],
+[
+"Algebra/Determinantal/LocalDerivations.lean",
+231,
+"local notation \"v\" => addVal B"
+],
+[
+"Algebra/Determinantal/Normalization.lean",
+81,
+"local notation \"R\" => integralClosure S (AdjoinRoot (f.map (algebraMap S Q)))"
+],
+[
+"Algebra/Determinantal/RankTransfer.lean",
+170,
+"local notation \"P\" => (Option \u03c4 \u00d7 PolarVars \u03c4)"
+],
+[
+"Algebra/Determinantal/RankTransfer.lean",
+171,
+"local notation \"E\" => GenericField K P"
+],
+[
+"Algebra/FrobeniusObstruction/BlockTensor.lean",
+107,
+"local notation \"PV\" => (P (k := k) (A := A) (K := K))"
+],
+[
+"Algebra/FrobeniusObstruction/BlockTensor.lean",
+215,
+"local notation \"PV\" => (P (k := k) (A := A) (K := K))"
+],
+[
+"Algebra/FrobeniusObstruction/BlockTensor.lean",
+268,
+"local notation \"PV\" => (P (k := k) (A := A) (K := K))"
+],
+[
+"Algebra/FrobeniusObstruction/BlockTensor.lean",
+269,
+"local notation \"\u03a9\" => (V (k := k) A K)"
+],
+[
+"Algebra/FrobeniusObstruction/BlockTensor.lean",
+270,
+"local notation \"\u03b4t\" => (differential \u03a9 PV (delta pd q))"
+],
+[
+"Algebra/FrobeniusObstruction/BlockTensor.lean",
+271,
+"local notation \"Dt\" => (differential \u03a9 PV (D pd))"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/MatrixKernel.lean",
+16,
+"local notation \"Ek\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/MatrixKernel.lean",
+17,
+"local notation \"op\" => Matrix.toEuclideanCLM (n := \u03bd) (\ud835\udd5c := \u211d)"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/MatrixKernel.lean",
+54,
+"local notation \"E\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/MatrixKernel.lean",
+55,
+"local notation \"op\" => Matrix.toEuclideanCLM (n := \u03bd) (\ud835\udd5c := \u211d)"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/MatrixNorm.lean",
+14,
+"local notation \"E\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/MatrixNorm.lean",
+41,
+"local notation \"E\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/MatrixNorm.lean",
+42,
+"local notation \"op\" => Matrix.toEuclideanCLM (n := \u03bd) (\ud835\udd5c := \u211d)"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/SignedExtension.lean",
+14,
+"local notation \"E\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/MatrixGeometry/SignedExtension.lean",
+15,
+"local notation \"op\" => Matrix.toEuclideanCLM (n := \u03bd) (\ud835\udd5c := \u211d)"
+],
+[
+"Geometry/Borsuk/SphereGeometry/IntegralLift.lean",
+14,
+"local notation \"E\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/SphereGeometry/OddSphereMap.lean",
+15,
+"local notation \"E\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/SphereGeometry/SphereExtension.lean",
+14,
+"local notation \"E\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/SphereGeometry/SphereMoments.lean",
+13,
+"local notation \"E\" => EuclideanSpace \u211d \u03b9"
+],
+[
+"Geometry/Borsuk/Support/FullSupport.lean",
+14,
+"local notation \"E\" => EuclideanSpace \u211d \u03bd"
+],
+[
+"Geometry/Borsuk/Support/FullSupport.lean",
+15,
+"local notation \"op\" => Matrix.toEuclideanCLM (n := \u03bd) (\ud835\udd5c := \u211d)"
+],
+[
+"NumberTheory/Jacobsthal/Siegel/DegreeMap.lean",
+348,
+"local notation \"HR\" => fun S : PowerSeries R \u21a6"
+]
+],
+"import Lean": [
+[
+"AlgebraicGeometry/PlaneCurves/AnalyticTaylor.lean",
+1,
+"import Lean.Elab.Tactic.Omega"
+],
+[
+"AlgebraicGeometry/PlaneCurves/Automorphic.lean",
+1,
+"import Lean.Elab.Tactic.Omega"
+],
+[
+"AlgebraicGeometry/PlaneCurves/FrechetMultiplicity.lean",
+1,
+"import Lean.Elab.Tactic.Omega"
+],
+[
+"AlgebraicGeometry/PlaneCurves/PolynomialJets.lean",
+1,
+"import Lean"
+],
+[
+"AlgebraicGeometry/PlaneCurves/SquareLinear.lean",
+1,
+"import Lean"
+],
+[
+"NumberTheory/PiExponent/LocalAlgebra/ColonHilbertStep.lean",
+1,
+"import Lean.Elab.Tactic.Omega"
+],
+[
+"NumberTheory/PiExponent/LocalAlgebra/IsolatedIntersectionSteps.lean",
+1,
+"import Lean.Elab.Tactic.Omega"
+],
+[
+"NumberTheory/PiExponent/Polynomials/HilbertPolynomialBase.lean",
+1,
+"import Lean.Elab.Tactic.Omega"
+]
+],
+"sorry": [],
+"admit": [],
+"axiom-decl": [],
+"native_decide": [],
+"ofReduceBool": [],
+"implemented_by": [],
+"extern": [],
+"unsafe": [],
+"opaque": [],
+"partial": [],
+"csimp": [],
+"set_option": [],
+"skipKernelTC": [],
+"elab": [],
+"macro": [],
+"syntax": [],
+"run_cmd/#eval": [],
+"addDecl": [],
+"instance-dist": [],
+"Classical.choice-axiom-name": []
+}

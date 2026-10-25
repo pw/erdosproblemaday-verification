@@ -1,0 +1,46 @@
+PATTERN [sorry]: 0 lines in 0 files
+PATTERN [admit]: 0 lines in 0 files
+PATTERN [^\s*axiom\b|\baxiom\s]: 0 lines in 0 files
+PATTERN [native_decide]: 0 lines in 0 files
+PATTERN [implemented_by]: 0 lines in 0 files
+PATTERN [@\[extern]: 0 lines in 0 files
+PATTERN [extern]: 6 lines in 3 files
+PATTERN [\bunsafe\b]: 0 lines in 0 files
+PATTERN [\bopaque\b]: 1 lines in 1 files
+PATTERN [\bpartial\b]: 0 lines in 0 files
+PATTERN [decide := true]: 0 lines in 0 files
+PATTERN [ofReduceBool]: 0 lines in 0 files
+PATTERN [reduceBool]: 0 lines in 0 files
+PATTERN [trustCompiler]: 0 lines in 0 files
+PATTERN [\btrust\b]: 1 lines in 1 files
+PATTERN [instance.*Decidable]: 5 lines in 5 files
+PATTERN [Decidable]: 311 lines in 36 files
+PATTERN [maxHeartbeats]: 582 lines in 506 files
+PATTERN [maxRecDepth]: 640 lines in 564 files
+PATTERN [debug.skipKernelTC]: 0 lines in 0 files
+PATTERN [skipKernel]: 0 lines in 0 files
+PATTERN [set_option]: 1541 lines in 631 files
+PATTERN [macro\b]: 0 lines in 0 files
+PATTERN [elab\b]: 0 lines in 0 files
+PATTERN [syntax\b]: 0 lines in 0 files
+PATTERN [@\[csimp]: 0 lines in 0 files
+PATTERN [csimp]: 0 lines in 0 files
+PATTERN [local instance]: 2 lines in 1 files
+PATTERN [attribute \[instance]: 0 lines in 0 files
+PATTERN [attribute \[-]: 0 lines in 0 files
+PATTERN [Lean\.]: 257 lines in 257 files
+PATTERN [run_cmd]: 0 lines in 0 files
+PATTERN [run_tac]: 0 lines in 0 files
+PATTERN [#eval]: 0 lines in 0 files
+PATTERN [unsafeCast]: 0 lines in 0 files
+PATTERN [lcProof]: 0 lines in 0 files
+PATTERN [sorryAx]: 0 lines in 0 files
+PATTERN [Classical.ofNonempty]: 0 lines in 0 files
+PATTERN [noncomputable]: 29 lines in 29 files
+PATTERN [irreducible_def]: 0 lines in 0 files
+PATTERN [@\[irreducible]: 0 lines in 0 files
+PATTERN [decide\b]: 2448 lines in 274 files
+PATTERN [Nat.decEq]: 0 lines in 0 files
+PATTERN [by rfl]: 51 lines in 46 files
+PATTERN [Decidable.decide]: 0 lines in 0 files
+PATTERN [axioms]: 8 lines in 3 files

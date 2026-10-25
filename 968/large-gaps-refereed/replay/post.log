@@ -1,0 +1,18 @@
+[2026-10-21T06:22:05Z] BEGIN cmpmod
+[2026-10-21T06:22:12Z] END cmpmod rc=0 7s
+[2026-10-21T06:22:12Z] BEGIN smoke
+[2026-10-21T06:22:18Z] END smoke rc=0 13s
+[2026-10-21T06:22:18Z] BEGIN cmp
+[2026-10-21T06:22:24Z] END cmp rc=0 19s
+[2026-10-21T06:22:24Z] BEGIN ax
+[2026-10-21T06:22:30Z] END ax rc=0 25s
+[2026-10-21T06:22:30Z] BEGIN neg
+[2026-10-21T06:22:37Z] END neg rc=0 32s
+[2026-10-21T06:22:37Z] BEGIN typectl
+[2026-10-21T06:22:43Z] END typectl rc=1 38s
+[2026-10-21T06:22:43Z] statement_match: MATCH STD_AXIOMS CMP_SORRY_SEEN OAI.LargePrimeGaps.main STD_AXIOMS OAI.LargePrimeGaps.bombieriVinogradov STD_AXIOMS OAI.LargePrimeGaps.siegelWalfisz STD_AXIOMS OAI.Problem344.positive_lower_density_prime_ratio_increases STD_AXIOMS 
+[2026-10-21T06:24:05Z] BEGIN leanchecker_fresh
+[2026-10-21T07:21:41Z] END leanchecker_fresh rc=0 3456s
+[2026-10-21T07:21:41Z] BEGIN leanchecker_missing_control
+[2026-10-21T07:21:43Z] END leanchecker_missing_control rc=1 3458s
+[2026-10-21T07:21:43Z] LEANCHECKER DONE

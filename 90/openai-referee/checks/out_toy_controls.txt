@@ -1,0 +1,22 @@
+== control swapN (args: seed 7, grid 300, 6 shifts, 4 units)
+  violation: Q (3/5+4/5i) (4/5+3/5i) na 2 s=-4.3176 b=0.0000 b'=0.0000 T=0.3466
+  violation: Q (3/5+4/5i) (4/5+3/5i) na 2 s=-4.2886 b=0.0000 b'=0.0000 T=0.3466
+MODE swapN pairs 24 (5.14) exact failures 0 product-formula sum!=0: 0
+positive-eligible (s,place,shift) samples 444417 outside (5.15): 417570 max T_v 2.087
+Lemma 4.5 nonarch consistency failures: 0
+== control nolog2 (args: seed 7, grid 300, 6 shifts, 4 units)
+  violation: Q (3/5+4/5i) (4/5+3/5i) arch id s=1.2982 b=0.0000 b'=0.0000 T=1.2629
+  violation: Q (3/5+4/5i) (4/5+3/5i) arch id s=1.2631 b=0.0000 b'=0.0000 T=1.2629
+MODE nolog2 pairs 24 (5.14) exact failures 0 product-formula sum!=0: 0
+positive-eligible (s,place,shift) samples 10081 outside (5.15): 169 max T_v 1.946
+Lemma 4.5 nonarch consistency failures: 0
+== control halflog2 (args: seed 7, grid 300, 6 shifts, 4 units)
+MODE halflog2 pairs 24 (5.14) exact failures 0 product-formula sum!=0: 0
+positive-eligible (s,place,shift) samples 9670 outside (5.15): 0 max T_v 1.946
+Lemma 4.5 nonarch consistency failures: 0
+== control wrongscale (args: seed 7, grid 300, 6 shifts, 4 units)
+  violation: Q (3/5+4/5i) (4/5+3/5i) na 2 s=-4.3466 b=0.0000 b'=0.0000 T=0.3466
+  violation: Q (3/5+4/5i) (4/5+3/5i) na 2 s=-4.3176 b=0.0000 b'=0.0000 T=0.3466
+  violation: Q (3/5+4/5i) (4/5+3/5i) na 2 s=-4.2886 b=0.0000 b'=0.0000 T=0.3466
+MODE wrongscale pairs 24 (5.14) exact failures 0 product-formula sum!=0: 0
+positive-eligible (s,place,shift) samples 224379 outside (5.15): 206270 max T_v 2.087

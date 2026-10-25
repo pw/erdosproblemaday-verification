@@ -1,0 +1,24 @@
+[2026-10-23T09:14:48Z] builds: build 0 7582/7582 failed= 
+[2026-10-23T09:14:48Z] BEGIN depprobe_compile
+[2026-10-23T09:14:59Z] END depprobe_compile rc=1 11s
+[2026-10-23T09:14:59Z] BEGIN siegel_stmt
+[2026-10-23T09:15:11Z] END siegel_stmt rc=0 23s
+[2026-10-23T09:15:12Z] BEGIN siegel_mut_loglog
+[2026-10-23T09:15:21Z] END siegel_mut_loglog rc=1 33s
+[2026-10-23T09:15:21Z] BEGIN siegel_mut_nozero
+[2026-10-23T09:15:32Z] END siegel_mut_nozero rc=1 44s
+[2026-10-23T09:15:32Z] BEGIN probeM
+[2026-10-23T09:15:35Z] END probeM rc=1 47s
+[2026-10-23T09:15:35Z] BEGIN probeC
+[2026-10-23T09:15:37Z] END probeC rc=1 49s
+[2026-10-23T09:15:37Z] DONE
+[2026-10-23T09:16:03Z] BEGIN depprobe_compile_fixed
+[2026-10-23T09:16:12Z] END depprobe_compile_fixed rc=0 9s
+[2026-10-23T09:16:12Z] BEGIN probeM
+[2026-10-23T09:17:43Z] END probeM rc=0 100s
+[2026-10-23T09:17:43Z] BEGIN probeC
+[2026-10-23T09:18:37Z] END probeC rc=0 154s
+[2026-10-23T09:41:18Z] build970: build970 0 850/850 failed=
+[2026-10-23T09:41:18Z] BEGIN probe970
+[2026-10-23T09:42:24Z] END probe970 rc=0 1656s
+[2026-10-23T09:42:24Z] DONE

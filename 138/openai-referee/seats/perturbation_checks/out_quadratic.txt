@@ -1,0 +1,9 @@
+$ python3 quadratic_identity.py paper 3000 11
+mode=paper: 48910 (j, data) instances, identity mismatches=0, floor-recovery mismatches=0
+exit=0
+$ python3 quadratic_identity.py control_no2 3000 11
+mode=control_no2: 48910 (j, data) instances, identity mismatches=45892, floor-recovery mismatches=3106
+exit=1
+$ python3 quadratic_identity.py control_scale 3000 11
+mode=control_scale: 48910 (j, data) instances, identity mismatches=45892, floor-recovery mismatches=19
+exit=1

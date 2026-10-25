@@ -1,0 +1,7 @@
+	Command being timed: "/tmp/erdos352_19_21_hostile/audit_352_upper 24 48 /tmp/erdos352_19_21_hostile/cpp_n24_producer_stream.jsonl"
+	User time (seconds): 42.14
+	System time (seconds): 0.23
+	Percent of CPU this job got: 87%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:48.31
+	Maximum resident set size (kbytes): 3896
+	Exit status: 0

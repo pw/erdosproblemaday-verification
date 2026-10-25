@@ -1,0 +1,5 @@
+m=    49: positions/class ~102041; classes with fill 0:   0.0%  fill<=5%:   0.0%  fill>=95%:   0.0%  (fill = fraction of the class's integers in [N/2,N] that are in S; random set: ~0% at both ends)
+m=   328: positions/class ~15244; classes with fill 0:   0.0%  fill<=5%:   0.0%  fill>=95%:   0.0%  (fill = fraction of the class's integers in [N/2,N] that are in S; random set: ~0% at both ends)
+m=  9547: positions/class ~524; classes with fill 0:   0.0%  fill<=5%:   1.9%  fill>=95%:   0.0%  (fill = fraction of the class's integers in [N/2,N] that are in S; random set: ~0% at both ends)
+m= 27875: positions/class ~179; classes with fill 0:  62.1%  fill<=5%:  66.0%  fill>=95%:   2.3%  (fill = fraction of the class's integers in [N/2,N] that are in S; random set: ~0% at both ends)
+m= 31821: positions/class ~157; classes with fill 0:  78.9%  fill<=5%:  80.4%  fill>=95%:  11.6%  (fill = fraction of the class's integers in [N/2,N] that are in S; random set: ~0% at both ends)

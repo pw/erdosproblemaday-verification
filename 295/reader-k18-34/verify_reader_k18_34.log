@@ -1,0 +1,17 @@
+positive checks
+  [PASS] submitted 34-set: 34 terms (len=34)
+  [PASS] submitted 34-set: distinct 
+  [PASS] submitted 34-set: strictly increasing 
+  [PASS] submitted 34-set: every denominator >= 18 (min=18)
+  [PASS] submitted 34-set: route 1: exact rational sum == 1 (sum=1)
+  [PASS] submitted 34-set: route 2: integer LCM sum (L=6209352774424800, sum L/d=6209352774424800)
+  [PASS] claimed LCM 6209352774424800 matches
+surgery against our 35-term identity
+  [PASS] our 35-set sums to 1
+  [PASS] removed five == added four (577164227639/22744881957600 vs 577164227639/22744881957600)
+  [PASS] removed five all lie in our 35-set
+  [PASS] added four absent from our 35-set
+  [PASS] (ours minus removed) plus added == submitted set
+negative control (must FAIL)
+  [PASS] perturbed set (last denominator +1) rejected by both routes (sum=109357570155027745055/109357570155027745056)
+RESULT: VERIFIED k(18) <= 34

@@ -1,0 +1,5 @@
+(1) mine prime+quad (his algorithm, from lemma text), N=18 t=32: nodes 814918, two-term 648193 all quadratic-pruned, 0 candidates, prime prunes 134999, failed 31726, memo hits 0  [= his Python/C#/C++ logs]
+(2) mine quad-only, no memo:  nodes 14678224, two-term 11753049 (all quadratic-pruned, 0 candidates)  [= our 32-term state counts]
+(3) mine plain (no prime, no quad, no memo): nodes 14678224, two-term 11753049, scanned x 114603091, exhausted [= our published counters exactly]
+(4) mine prime+quad, audit: every one of the 648193 quadratic-pruned terminal states fully re-scanned: 19527066 candidates, 0 solutions
+(5) N=18 t=31: prime+quad 38 nodes / 18 prime prunes / 20 failed [= his C# record]; plain 20293 / 13139 / 69727 [= ours]

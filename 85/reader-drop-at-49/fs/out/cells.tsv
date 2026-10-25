@@ -1,0 +1,20 @@
+h3_t1_rep0_r1b_all	kissat	UNSAT	176.2	bba31f7e4afde651	1035	997094	n0=24 pairs=0 singles=21 classes=[7, 7, 7, 24]	
+h5_t1_rep0_r1b_all	kissat	UNSAT	111.6	a2c26f8de02d3ee3	946	760298	n0=13 pairs=7 singles=23 classes=[5, 5, 5, 4, 4, 13]	
+h5_t2_rep0_r1b_all	kissat	UNSAT	67.7	ba58872d20d4b40b	946	760422	n0=12 pairs=4 singles=26 classes=[6, 5, 5, 5, 5, 12]	
+h3_t0_rep0_r1b_all	kissat	UNSAT	377.3	4d7f800858cbc4ce	1035	997874	n0=25 pairs=3 singles=18 classes=[6, 6, 6, 25]	
+h5_t0_rep0_r1b_all	kissat	UNSAT	621.7	1cea7eb188e00169	946	760422	n0=14 pairs=10 singles=20 classes=[4, 4, 4, 4, 4, 14]	
+h7_t2_rep0_r1b_all	kissat	UNSAT	391.2	30ecf168a24a9597	861	571758	n0=5 pairs=15 singles=20 classes=[4, 3, 3, 3, 3, 2, 2, 5]	
+h7_t3_rep0_r1b_all	kissat	UNSAT	67.5	2a6a91eafde7f3c4	861	572230	n0=4 pairs=12 singles=23 classes=[5, 3, 3, 3, 3, 3, 3, 4]	
+h7_t3_rep2_r1b_all	kissat	UNSAT	101.1	8407f588d747766e	861	572112	n0=4 pairs=12 singles=23 classes=[4, 4, 3, 3, 3, 3, 3, 4]	
+h7_t4_rep1_r1b_all	kissat	UNSAT	37.4	43b16b090578766b	861	572938	n0=3 pairs=9 singles=26 classes=[4, 4, 4, 4, 4, 4, 2, 3]	
+h7_t5_rep0_r1b_all	kissat	UNSAT	31.8	4ca048f19d47f30e	861	573882	n0=2 pairs=6 singles=29 classes=[5, 5, 3, 4, 4, 4, 4, 2]	
+h7_t6_rep0_r1b_all	kissat	UNSAT	29.5	c755d02a576c8fb2	861	575062	n0=1 pairs=3 singles=32 classes=[5, 5, 4, 5, 4, 4, 5]	
+h7_t1_rep0_r1b_all	kissat	UNKNOWN	1331.3	11fcfd29d2f37709	861	571522	n0=6 pairs=18 singles=17 classes=[3, 3, 3, 2, 2, 2, 2, 6]	
+LANE DONE 3:-:0:0 5:-:0:0 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:2:0 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:3:0 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:3:2 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:4:1 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:5:0 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:6:0
+h7_t2_rep1_r1b_all	kissat	UNSAT	318.8	fbe3494fcd0302dc	861	571640	n0=5 pairs=15 singles=20 classes=[3, 3, 3, 3, 3, 3, 2, 5] highperms=0	
+h7_t3_rep1_r1b_all	kissat	UNSAT	63.2	84362f7bc4b0f7a9	861	572230	n0=4 pairs=12 singles=23 classes=[4, 4, 3, 4, 3, 3, 2, 4] highperms=0	
+h7_t4_rep0_r1b_all	kissat	UNSAT	40.0	bc75e24a4d0d5be8	861	572938	n0=3 pairs=9 singles=26 classes=[5, 4, 3, 4, 3, 4, 3, 3] highperms=0	
+h7_t4_rep2_r1b_all	kissat	UNSAT	39.1	658009bb6cf916c8	861	572820	n0=3 pairs=9 singles=26 classes=[4, 4, 4, 4, 4, 3, 3, 3] highperms=0	
+h7_t5_rep1_r1b_all	kissat	UNSAT	30.8	91e7f487ea3a2ec1	861	573764	n0=2 pairs=6 singles=29 classes=[5, 4, 4, 4, 4, 4, 4, 2] highperms=0	
+h7_t7_rep0_r1b_all	kissat	UNSAT	26.1	93f6e8d695f691bf	861	576478	n0=0 pairs=0 singles=35 classes=[5, 5, 5, 5, 5, 5, 5] highperms=0	
+LANE DONE 3:-:1:0 5:-:1:0 5:-:2:0 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:1:0 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:2:1 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:3:1 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:4:0 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:4:2 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:5:1 7:/home/exedev/MathDyad/erdos85/h9/reps7.json:7:0

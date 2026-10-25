@@ -1,0 +1,19 @@
+PASS A: sum_{m=m0+1}^N 2(m-1) == A_N - B_N for 2<=N<=3000
+PASS A control: sum from m0 is NOT A_N-B_N (control rejected)
+   N=10: B_N/A_N = 0.222222
+   N=100: B_N/A_N = 0.247475
+   N=1000: B_N/A_N = 0.249750
+   N=1000000: B_N/A_N = 0.250000
+PASS B: excess >= eta(A-B) - t*A on 200000 exact random instances (and the factorisation identity)
+PASS B control: with 1/log N dropped from t_N the excess inequality is FALSE (lhs < eta(A-B)-t*A)
+  [grid12+56 random] N=200 stop n=114 (m0=100) E0=10424 |E|=7634 deletions=86 fiber_cost=422 vertex_cost=2368: all invariants hold
+  [grid12+56 random b] N=200 stop n=144 (m0=100) E0=10424 |E|=10424 deletions=56 fiber_cost=0 vertex_cost=0: all invariants hold
+  [grid14 hi] N=196 stop n=136 (m0=98) E0=3944 |E|=2824 deletions=60 fiber_cost=420 vertex_cost=700: all invariants hold
+     [grid14 collapsing] m0-snapshot (first time vertex count = m0, after cleanup): |E|=1344 >= E0 - a(A-B) - cost = 360.3
+  [grid14 collapsing] N=196 stop n=1 (m0=98) E0=20448 |E|=0 deletions=195 fiber_cost=17622 vertex_cost=2826: all invariants hold
+     [two grids collapsing] m0-snapshot (first time vertex count = m0, after cleanup): |E|=95 >= E0 - a(A-B) - cost = -232.3
+  [two grids collapsing] N=136 stop n=1 (m0=68) E0=7036 |E|=0 deletions=135 fiber_cost=6224 vertex_cost=812: all invariants hold
+PASS C: all invariants on 5 concrete runs
+  [CONTROL skip-cleanup] N=196 stop n=156 (m0=98) E0=3944 |E|=3468 deletions=40 fiber_cost=0 vertex_cost=476: VIOLATIONS: ['all surviving fibers have >= K edges', "every final edge has k_P'(x,y) >= K", '(2.4) counting identity + k_C >= |F_e∩C| >= lam*K on 60 random subsets']
+PASS C control: skip-cleanup run is REJECTED by the invariant checker
+OVERALL: ALL CHECKS PASS, ALL CONTROLS FAIL

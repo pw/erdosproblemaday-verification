@@ -1,0 +1,9 @@
+case=0 neighbourhood_edges=35 result=False conflicts=16141 seconds=0.661
+case=1 neighbourhood_edges=34 result=False conflicts=17215 seconds=0.618
+case=2 neighbourhood_edges=33 result=False conflicts=13205 seconds=0.468
+case=3 neighbourhood_edges=32 result=False conflicts=13788 seconds=0.471
+case=4 neighbourhood_edges=33 result=False conflicts=14616 seconds=0.542
+case=5 neighbourhood_edges=31 result=False conflicts=16198 seconds=0.560
+case=6 neighbourhood_edges=30 result=False conflicts=11876 seconds=0.386
+case=7 neighbourhood_edges=36 result=False conflicts=15713 seconds=0.600
+VERIFIED: all 8 order-12 neighbourhood types are UNSAT; cases=8 conflicts=118752 seconds=4.315

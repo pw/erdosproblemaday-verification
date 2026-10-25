@@ -1,0 +1,9 @@
+GRAPH_PASS label=candidate1506 n=9 edges=1506 vertices=512 degree_min=4 degree_max=7 degree_sum=3012 squares=4608 complete_squares=0 cherries=7426 repeated_endpoint_pairs=0
+DIAGNOSTICS label=candidate1506 directions=0:167,1:171,2:168,3:166,4:171,5:166,6:167,7:167,8:163 degree_histogram=4:5,5:91,6:375,7:41 square_occupancy=0:6,1:838,2:82,3:3682,4:0
+GRAPH_PASS label=public1505 n=9 edges=1505 vertices=512 degree_min=4 degree_max=7 degree_sum=3010 squares=4608 complete_squares=0 cherries=7431 repeated_endpoint_pairs=0
+DIAGNOSTICS label=public1505 directions=0:167,1:173,2:169,3:173,4:169,5:166,6:169,7:172,8:147 degree_histogram=4:1,5:120,6:331,7:60 square_occupancy=0:0,1:885,2:14,3:3709,4:0
+GRAPH_PASS label=reproduced1506 n=9 edges=1506 vertices=512 degree_min=4 degree_max=7 degree_sum=3012 squares=4608 complete_squares=0 cherries=7428 repeated_endpoint_pairs=0
+DIAGNOSTICS label=reproduced1506 directions=0:168,1:169,2:167,3:169,4:169,5:168,6:171,7:162,8:163 degree_histogram=4:1,5:105,6:359,7:47 square_occupancy=0:5,1:841,2:79,3:3683,4:0
+COMPARISON_PASS public_edges=1505 candidate_edges=1506 intersection=1313 added=193 removed=192 improvement=1
+REPRODUCTION_PASS generator_produced_distinct_valid_1506=yes candidate_reproduced_intersection=1325
+INDEPENDENT_Q9_AUDIT_PASS lower_bound=1506 exactness_claimed=no

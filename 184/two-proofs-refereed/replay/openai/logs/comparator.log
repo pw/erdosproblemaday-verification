@@ -1,0 +1,44 @@
+'OAI.ErdosGallai.erdos_gallai' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}]
+OAI.ErdosGallai.erdos_gallai : OAI.ErdosGallai.MainStatement
+def OAI.ErdosGallai.MainStatement : Prop :=
+@Exists.{1} Real fun (C : Real) =>
+  And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C)
+    (∀ (n : Nat) (G : SimpleGraph.{0} (Fin n)),
+      @Exists.{1} Nat fun (k : Nat) =>
+        And (@OAI.ErdosGallai.EdgeDecomposition (Fin n) G k)
+          (@LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast k)
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+              (@Nat.cast.{0} Real Real.instNatCast n))))
+def OAI.ErdosGallai.EdgeDecomposition : {V : Type} → (G : SimpleGraph.{0} V) → (k : Nat) → Prop :=
+fun {V : Type} (G : SimpleGraph.{0} V) (k : Nat) =>
+  @Exists.{1} (Fin k → Set.{0} (Sym2.{0} V)) fun (parts : Fin k → Set.{0} (Sym2.{0} V)) =>
+    And (∀ (i : Fin k), @OAI.ErdosGallai.CycleOrSingleEdge V G (parts i))
+      (And
+        (@Pairwise.{0} (Fin k) fun (i j : Fin k) =>
+          @Disjoint.{0} (Set.{0} (Sym2.{0} V))
+            (@CompletePartialOrder.toPartialOrder.{0} (Set.{0} (Sym2.{0} V))
+              (@CompleteLattice.toCompletePartialOrder.{0} (Set.{0} (Sym2.{0} V))
+                (@CompleteBooleanAlgebra.toCompleteLattice.{0} (Set.{0} (Sym2.{0} V))
+                  (@CompleteAtomicBooleanAlgebra.toCompleteBooleanAlgebra.{0} (Set.{0} (Sym2.{0} V))
+                    (@Set.instCompleteAtomicBooleanAlgebra.{0} (Sym2.{0} V))))))
+            (@CompletePartialOrder.toOrderBot.{0} (Set.{0} (Sym2.{0} V))
+              (@CompleteLattice.toCompletePartialOrder.{0} (Set.{0} (Sym2.{0} V))
+                (@CompleteBooleanAlgebra.toCompleteLattice.{0} (Set.{0} (Sym2.{0} V))
+                  (@CompleteAtomicBooleanAlgebra.toCompleteBooleanAlgebra.{0} (Set.{0} (Sym2.{0} V))
+                    (@Set.instCompleteAtomicBooleanAlgebra.{0} (Sym2.{0} V))))))
+            (parts i) (parts j))
+        (@Eq.{1} (Set.{0} (Sym2.{0} V)) (@Set.iUnion.{0, 1} (Sym2.{0} V) (Fin k) fun (i : Fin k) => parts i)
+          (@SimpleGraph.edgeSet.{0} V G)))
+def OAI.ErdosGallai.CycleOrSingleEdge : {V : Type} → (G : SimpleGraph.{0} V) → (s : Set.{0} (Sym2.{0} V)) → Prop :=
+fun {V : Type} (G : SimpleGraph.{0} V) (s : Set.{0} (Sym2.{0} V)) =>
+  Or
+    (@Exists.{1} V fun (v : V) =>
+      @Exists.{1} (@SimpleGraph.Walk.{0} V G v v) fun (p : @SimpleGraph.Walk.{0} V G v v) =>
+        And (@SimpleGraph.Walk.IsCycle.{0} V G v p)
+          (@Eq.{1} (Set.{0} (Sym2.{0} V)) s (@SimpleGraph.Walk.edgeSet.{0} V G v v p)))
+    (@Exists.{1} (Sym2.{0} V) fun (e : Sym2.{0} V) =>
+      And
+        (@Membership.mem.{0, 0} (Sym2.{0} V) (Set.{0} (Sym2.{0} V)) (@Set.instMembership.{0} (Sym2.{0} V))
+          (@SimpleGraph.edgeSet.{0} V G) e)
+        (@Eq.{1} (Set.{0} (Sym2.{0} V)) s
+          (@Singleton.singleton.{0, 0} (Sym2.{0} V) (Set.{0} (Sym2.{0} V)) (@Set.instSingletonSet.{0} (Sym2.{0} V)) e)))

@@ -1,0 +1,6 @@
+BridgeMutValue.lean:288:2: error: Type mismatch
+  erdos_371_of_increasingOrderLaw OAI.JointDickman.increasingOrderLaw_unconditional
+has type
+  {n | (n + 1).maxPrimeFac > n.maxPrimeFac}.HasDensity (1 / 2)
+but is expected to have type
+  {n | (n + 1).maxPrimeFac > n.maxPrimeFac}.HasDensity (1 / 3)

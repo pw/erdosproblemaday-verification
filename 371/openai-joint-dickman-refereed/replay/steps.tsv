@@ -1,0 +1,10 @@
+build 1 1576/1834 failed=PrimeNumberTheoremAnd.Fourier
+build 0 1837/1837 failed=
+cmpmod_JointDickman 0 7
+cmp_JointDickman 0 6
+ax_JointDickman 0 7
+neg 0 7
+statement_match 0 0
+leanchecker_missing_control 1 2
+deps 0 95
+leanchecker_fresh 0 3629

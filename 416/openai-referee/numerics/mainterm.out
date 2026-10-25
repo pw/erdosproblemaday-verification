@@ -1,0 +1,67 @@
+rho  = 0.5425985860984710219593846  (last series term 6.81e-1062 )
+lam  = 0.61138548455047034571
+C0   = 0.81781464008363223153
+gamma= 0.32345753419138067657
+D0   = 2.1769687435594103217
+g_n rho^n at n=10,100,500,1000,1499: ['0.323455443324732', '0.323457534191381', '0.323457534191381', '0.323457534191381', '0.323457534191381']
+log10 B=   1.00 m=    2 theta=0.4020  logG_m - Ford = -1.101808
+log10 B=   1.25 m=    2 theta=0.9786  logG_m - Ford = -1.919645
+log10 B=   1.50 m=    3 theta=0.6219  logG_m - Ford = -1.472437
+log10 B=   1.75 m=    4 theta=0.3113  logG_m - Ford = -1.181603
+log10 B=   2.00 m=    5 theta=0.0345  logG_m - Ford = -0.990918
+log10 B=   2.25 m=    5 theta=0.7833  logG_m - Ford = -1.719734
+log10 B=   2.50 m=    6 theta=0.5526  logG_m - Ford = -1.460333
+log10 B=   2.75 m=    7 theta=0.3382  logG_m - Ford = -1.261209
+log10 B=   3.00 m=    8 theta=0.1374  logG_m - Ford = -1.109258
+log10 B=   3.25 m=    8 theta=0.9481  logG_m - Ford = -1.907716
+log10 B=   3.50 m=    9 theta=0.7684  logG_m - Ford = -1.683990
+log10 B=   3.75 m=   10 theta=0.5971  logG_m - Ford = -1.496665
+log10 B=   5.00 m=   14 theta=0.8343  logG_m - Ford = -1.710811
+log10 B=   5.25 m=   15 theta=0.6960  logG_m - Ford = -1.558224
+log10 B=   5.50 m=   16 theta=0.5615  logG_m - Ford = -1.424238
+log10 B=   5.75 m=   17 theta=0.4303  logG_m - Ford = -1.307106
+log10 B=   8.00 m=   25 theta=0.3640  logG_m - Ford = -1.218272
+log10 B=   8.25 m=   26 theta=0.2553  logG_m - Ford = -1.140362
+log10 B=   8.50 m=   27 theta=0.1480  logG_m - Ford = -1.071781
+log10 B=   8.75 m=   28 theta=0.0421  logG_m - Ford = -1.012068
+log10 B=  12.00 m=   39 theta=0.7656  logG_m - Ford = -1.489768
+log10 B=  12.25 m=   40 theta=0.6734  logG_m - Ford = -1.403087
+log10 B=  12.50 m=   41 theta=0.5819  logG_m - Ford = -1.322811
+log10 B=  12.75 m=   42 theta=0.4910  logG_m - Ford = -1.248761
+log10 B=  20.00 m=   69 theta=0.0594  logG_m - Ford = -0.934800
+log10 B=  20.25 m=   69 theta=0.9807  logG_m - Ford = -1.610778
+log10 B=  20.50 m=   70 theta=0.9021  logG_m - Ford = -1.530375
+log10 B=  20.75 m=   71 theta=0.8239  logG_m - Ford = -1.454225
+log10 B=  30.00 m=  106 theta=0.0580  logG_m - Ford = -0.893119
+log10 B=  30.25 m=  106 theta=0.9860  logG_m - Ford = -1.554116
+log10 B=  30.50 m=  107 theta=0.9141  logG_m - Ford = -1.482580
+log10 B=  30.75 m=  108 theta=0.8422  logG_m - Ford = -1.414430
+log10 B=  50.00 m=  180 theta=0.5460  logG_m - Ford = -1.119290
+log10 B=  50.25 m=  181 theta=0.4794  logG_m - Ford = -1.073082
+log10 B=  50.50 m=  182 theta=0.4128  logG_m - Ford = -1.029663
+log10 B=  50.75 m=  183 theta=0.3463  logG_m - Ford = -0.989026
+log10 B=  80.00 m=  292 theta=0.7625  logG_m - Ford = -1.243058
+log10 B=  80.25 m=  293 theta=0.6989  logG_m - Ford = -1.191499
+log10 B=  80.50 m=  294 theta=0.6354  logG_m - Ford = -1.142446
+log10 B=  80.75 m=  295 theta=0.5719  logG_m - Ford = -1.095897
+log10 B= 120.00 m=  442 theta=0.7463  logG_m - Ford = -1.199999
+log10 B= 120.25 m=  443 theta=0.6845  logG_m - Ford = -1.151033
+log10 B= 120.50 m=  444 theta=0.6226  logG_m - Ford = -1.104425
+log10 B= 120.75 m=  445 theta=0.5608  logG_m - Ford = -1.060175
+log10 B= 200.00 m=  743 theta=0.2049  logG_m - Ford = -0.827256
+log10 B= 200.25 m=  744 theta=0.1444  logG_m - Ford = -0.799937
+log10 B= 200.50 m=  745 theta=0.0839  logG_m - Ford = -0.774864
+log10 B= 200.75 m=  746 theta=0.0234  logG_m - Ford = -0.752036
+log10 B= 300.00 m= 1119 theta=0.1592  logG_m - Ford = -0.791486
+log10 B= 300.25 m= 1120 theta=0.0994  logG_m - Ford = -0.766382
+log10 B= 300.50 m= 1121 theta=0.0396  logG_m - Ford = -0.743471
+log10 B= 300.75 m= 1121 theta=0.9798  logG_m - Ford = -1.356523
+log10 B= 400.00 m= 1495 theta=0.3063  logG_m - Ford = -0.853539
+log10 B= 400.25 m= 1496 theta=0.2468  logG_m - Ford = -0.823347
+log10 B= 400.50 m= 1497 theta=0.1873  logG_m - Ford = -0.795322
+log10 B= 400.75 m= 1498 theta=0.1278  logG_m - Ford = -0.769462
+log10 B= 500.00 m= 1871 theta=0.5588  logG_m - Ford = -0.999622
+log10 B= 500.25 m= 1872 theta=0.4996  logG_m - Ford = -0.960449
+log10 B= 500.50 m= 1873 theta=0.4403  logG_m - Ford = -0.923426
+log10 B= 500.75 m= 1874 theta=0.3810  logG_m - Ford = -0.888554
+range of logG_m - Ford for log10 B >= 20: -1.6107779220476963 -0.7434705980706415

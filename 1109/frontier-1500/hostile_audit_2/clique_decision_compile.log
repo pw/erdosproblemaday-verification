@@ -1,0 +1,5 @@
+In file included from test_clique_decision.cpp:2:
+/home/exedev/erdos_scratch/erdos1109_exact_frontier_2026-08-11/verify_1109_frontier.cpp: In function ‘int erdos1109_frozen_program_main(int, char**)’:
+/home/exedev/erdos_scratch/erdos1109_exact_frontier_2026-08-11/verify_1109_frontier.cpp:232:1: warning: control reaches end of non-void function [-Wreturn-type]
+  232 | }
+      | ^

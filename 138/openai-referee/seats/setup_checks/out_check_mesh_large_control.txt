@@ -1,0 +1,6 @@
+CONTROL wrong growth k=1025: viol=802 (must be > 0), ratio max=1025.5
+alpha'=1e-3 k=1025: viol=0 (expected 0: widths/neighbours hold for ANY alpha<=1/4)
+CONTROL wrong growth k=1000000: viol=802 (must be > 0), ratio max=1.0e+6
+alpha'=1e-3 k=1000000: viol=0 (expected 0: widths/neighbours hold for ANY alpha<=1/4)
+[check_mesh_large_control: 1.37s, maxrss 47948kB]
+exit=0

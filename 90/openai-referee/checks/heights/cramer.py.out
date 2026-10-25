@@ -1,0 +1,5 @@
+Cramer: 96000 systems, violations=0, max |dZ|/(64B^5tau/r^3) = 0.0589
+three-equation: max |dZ| r^3/(B^4 max|E_j|) = 2.3603  (paper's implication needs <= 8)
+8B*tau: max |ab-1|/(B tau) = 2.9534 (needs <= 8; analytic sup 4*sqrt2 + 2tau/B <= 6.66)
+CONTROL (4.12) violated (tau=50x limit): max |dZ| = 0.3634  vs r/2 = 0.25  -> exceeds: True
+CONTROL (4.14) violated (|D_j-D_l|~1e-4): |dZ| = 0.5, max|E_j| = 1.667e-04 -> an |E|<=8B*tau configuration with |dZ|>=r exists for tau = 1.04e-05 < r^4/(128B^5) = 1.53e-05: True

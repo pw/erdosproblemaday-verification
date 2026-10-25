@@ -1,0 +1,16 @@
+threads=16
+n=1 oriented_words=0 theta4=1 seconds=2.82e-07
+n=2 oriented_words=0 theta4=2 seconds=3.42e-07
+n=3 oriented_words=0 theta4=6 seconds=0.00882313
+n=4 oriented_words=2 theta4=22 seconds=0.00757716
+n=5 oriented_words=4 theta4=102 seconds=0.00523173
+n=6 oriented_words=6 theta4=564 seconds=0.00669954
+n=7 oriented_words=10 theta4=3336 seconds=0.00788899
+n=8 oriented_words=14 theta4=22266 seconds=0.00604376
+n=9 oriented_words=18 theta4=168864 seconds=0.00998332
+n=10 oriented_words=24 theta4=1307470 seconds=0.0660115
+n=11 oriented_words=30 theta4=11066766 seconds=0.561706
+n=12 oriented_words=36 theta4=101361722 seconds=5.34024
+n=13 oriented_words=44 theta4=949812334 seconds=62.307
+n=14 oriented_words=52 theta4=9471574188 seconds=626.988
+wall_seconds=695.32 user_seconds=7219.60 max_rss_kb=4280 exit_status=0

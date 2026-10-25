@@ -1,0 +1,8 @@
+TypeCtl.lean:3:61: error: Application type mismatch: The argument
+  lt_irrefl 0
+has type
+  ¬0 < 0
+but is expected to have type
+  0 < 0
+in the application
+  OAI.Problem344.large_gaps_and_ratio_density.left 0 (lt_irrefl 0)

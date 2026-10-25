@@ -1,0 +1,428 @@
+{
+  "problem": {
+    "definition": "maximum corner-free subset of first k 3-smooth numbers",
+    "corner": "(a,b),(a+1,b),(a,b+1)",
+    "oeis_bfile": "/home/exedev/erdos_scratch/fresh3_erdos168_20260811/b004059.txt",
+    "oeis_bfile_sha256": "bba41cd187052c20e638c539893f16f73d23956f9900caa882e06778256b15ea",
+    "published_endpoint": {
+      "k": 5000,
+      "f": 3335
+    }
+  },
+  "runtime": {
+    "python": "3.12.3",
+    "pyscipopt": "6.2.1",
+    "one_worker": true,
+    "seconds_per_flat_limit": 900.0,
+    "wall_seconds": 1275.4333928939886
+  },
+  "solved_prefixes": [
+    5000,
+    5001,
+    5004,
+    5006,
+    5009,
+    5011,
+    5013,
+    5016,
+    5020
+  ],
+  "rows": [
+    {
+      "k": 5000,
+      "smooth_value": "32336712126522742145318853512074887168",
+      "exponents": [
+        104,
+        13
+      ],
+      "corners": 4875,
+      "f": 3335,
+      "increment": null,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3335,
+      "witness": "independent_k5000.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1665,
+        "dual_bound": 1665.0,
+        "gap": 0.0,
+        "nodes": 3,
+        "lp_iterations": 14275,
+        "seconds": 45.560857536969706,
+        "log": "scip_k5000.log"
+      }
+    },
+    {
+      "k": 5001,
+      "smooth_value": "32404306009923374140013298899777224704",
+      "exponents": [
+        20,
+        66
+      ],
+      "corners": 4876,
+      "f": 3335,
+      "increment": 0,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3335,
+      "witness": "independent_k5001.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1666,
+        "dual_bound": 1666.0,
+        "gap": 0.0,
+        "nodes": 23,
+        "lp_iterations": 15677,
+        "seconds": 145.06234580813907,
+        "log": "scip_k5001.log"
+      }
+    },
+    {
+      "k": 5002,
+      "smooth_value": "32777890451872582642460626276608638976",
+      "exponents": [
+        85,
+        25
+      ],
+      "corners": 4877,
+      "f": 3336,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3336,
+      "witness": "independent_k5002.txt",
+      "solver": null
+    },
+    {
+      "k": 5003,
+      "smooth_value": "32846406536521316292462935601418510578",
+      "exponents": [
+        1,
+        78
+      ],
+      "corners": 4878,
+      "f": 3337,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3337,
+      "witness": "independent_k5003.txt",
+      "solver": null
+    },
+    {
+      "k": 5004,
+      "smooth_value": "33225087889926180252250514391073554432",
+      "exponents": [
+        66,
+        37
+      ],
+      "corners": 4879,
+      "f": 3337,
+      "increment": 0,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3337,
+      "witness": "independent_k5004.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1667,
+        "dual_bound": 1667.0,
+        "gap": 0.0,
+        "nodes": 11,
+        "lp_iterations": 14810,
+        "seconds": 99.48452066094615,
+        "log": "scip_k5004.log"
+      }
+    },
+    {
+      "k": 5005,
+      "smooth_value": "33678386561031835860130816685689012224",
+      "exponents": [
+        47,
+        49
+      ],
+      "corners": 4880,
+      "f": 3338,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3338,
+      "witness": "independent_k5005.txt",
+      "solver": null
+    },
+    {
+      "k": 5006,
+      "smooth_value": "34066659688847004070788586416013049856",
+      "exponents": [
+        112,
+        8
+      ],
+      "corners": 4881,
+      "f": 3338,
+      "increment": 0,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3338,
+      "witness": "independent_k5006.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1668,
+        "dual_bound": 1668.0,
+        "gap": 0.0,
+        "nodes": 41,
+        "lp_iterations": 17275,
+        "seconds": 193.94429898192175,
+        "log": "scip_k5006.log"
+      }
+    },
+    {
+      "k": 5007,
+      "smooth_value": "34137869705927505266845286083715923968",
+      "exponents": [
+        28,
+        61
+      ],
+      "corners": 4882,
+      "f": 3339,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3339,
+      "witness": "independent_k5007.txt",
+      "solver": null
+    },
+    {
+      "k": 5008,
+      "smooth_value": "34531440146828729038970865542435438592",
+      "exponents": [
+        93,
+        20
+      ],
+      "corners": 4883,
+      "f": 3340,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3340,
+      "witness": "independent_k5008.txt",
+      "solver": null
+    },
+    {
+      "k": 5009,
+      "smooth_value": "34603621701026571896586467135650776576",
+      "exponents": [
+        9,
+        73
+      ],
+      "corners": 4884,
+      "f": 3340,
+      "increment": 0,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3340,
+      "witness": "independent_k5009.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1669,
+        "dual_bound": 1669.0,
+        "gap": 0.0,
+        "nodes": 15,
+        "lp_iterations": 15289,
+        "seconds": 89.32349255308509,
+        "log": "scip_k5009.log"
+      }
+    },
+    {
+      "k": 5010,
+      "smooth_value": "35002561727658856562041694173312057344",
+      "exponents": [
+        74,
+        32
+      ],
+      "corners": 4885,
+      "f": 3341,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3341,
+      "witness": "independent_k5010.txt",
+      "solver": null
+    },
+    {
+      "k": 5011,
+      "smooth_value": "35480110944955349712730407701795831808",
+      "exponents": [
+        55,
+        44
+      ],
+      "corners": 4886,
+      "f": 3341,
+      "increment": 0,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3341,
+      "witness": "independent_k5011.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1670,
+        "dual_bound": 1670.0,
+        "gap": 0.0,
+        "nodes": 43,
+        "lp_iterations": 17129,
+        "seconds": 198.26013056584634,
+        "log": "scip_k5011.log"
+      }
+    },
+    {
+      "k": 5012,
+      "smooth_value": "35889155886192728568402790627569303552",
+      "exponents": [
+        120,
+        3
+      ],
+      "corners": 4887,
+      "f": 3342,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3342,
+      "witness": "independent_k5012.txt",
+      "solver": null
+    },
+    {
+      "k": 5013,
+      "smooth_value": "35964175492664367688528367232227475456",
+      "exponents": [
+        36,
+        56
+      ],
+      "corners": 4888,
+      "f": 3342,
+      "increment": 0,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3342,
+      "witness": "independent_k5013.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1671,
+        "dual_bound": 1671.0,
+        "gap": 0.0,
+        "nodes": 43,
+        "lp_iterations": 18060,
+        "seconds": 206.16212760214694,
+        "log": "scip_k5013.log"
+      }
+    },
+    {
+      "k": 5014,
+      "smooth_value": "36378801142338084913483710201084248064",
+      "exponents": [
+        101,
+        15
+      ],
+      "corners": 4889,
+      "f": 3343,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3343,
+      "witness": "independent_k5014.txt",
+      "solver": null
+    },
+    {
+      "k": 5015,
+      "smooth_value": "36454844261163795907514961262249377792",
+      "exponents": [
+        17,
+        68
+      ],
+      "corners": 4890,
+      "f": 3344,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3344,
+      "witness": "independent_k5015.txt",
+      "solver": null
+    },
+    {
+      "k": 5016,
+      "smooth_value": "36875126758356655472768204561184718848",
+      "exponents": [
+        82,
+        27
+      ],
+      "corners": 4891,
+      "f": 3344,
+      "increment": 0,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3344,
+      "witness": "independent_k5016.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1672,
+        "dual_bound": 1672.0,
+        "gap": 0.0,
+        "nodes": 43,
+        "lp_iterations": 16926,
+        "seconds": 186.22501694806851,
+        "log": "scip_k5016.log"
+      }
+    },
+    {
+      "k": 5017,
+      "smooth_value": "37378223876166952783781828689957748736",
+      "exponents": [
+        63,
+        39
+      ],
+      "corners": 4892,
+      "f": 3345,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3345,
+      "witness": "independent_k5017.txt",
+      "solver": null
+    },
+    {
+      "k": 5018,
+      "smooth_value": "37888184881160815342647168771400138752",
+      "exponents": [
+        44,
+        51
+      ],
+      "corners": 4893,
+      "f": 3346,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3346,
+      "witness": "independent_k5018.txt",
+      "solver": null
+    },
+    {
+      "k": 5019,
+      "smooth_value": "38324992149952879579637159718014681088",
+      "exponents": [
+        109,
+        10
+      ],
+      "corners": 4894,
+      "f": 3347,
+      "increment": 1,
+      "method": "witness plus f(k)<=f(k-1)+1",
+      "constructive_lower_bound": 3347,
+      "witness": "independent_k5019.txt",
+      "solver": null
+    },
+    {
+      "k": 5020,
+      "smooth_value": "38405103419168443425200946844180414464",
+      "exponents": [
+        25,
+        63
+      ],
+      "corners": 4895,
+      "f": 3347,
+      "increment": 0,
+      "method": "SCIP optimal minimum vertex cover",
+      "constructive_lower_bound": 3347,
+      "witness": "independent_k5020.txt",
+      "solver": {
+        "status": "optimal",
+        "objective": 1673,
+        "dual_bound": 1673.0,
+        "gap": 0.0,
+        "nodes": 15,
+        "lp_iterations": 16146,
+        "seconds": 108.19660493498668,
+        "log": "scip_k5020.log"
+      }
+    }
+  ]
+}

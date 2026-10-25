@@ -1,0 +1,7 @@
+SCANNER_HARNESS_PASS represented_endpoint_cases=35 arbitrary_boundary_cases=1
+COUNTS_GAPS_BOUNDARIES_PASS methods=primary,independent truth=SPF_factor_criterion
+SCOPED_DIAGNOSTIC primary_FIRST_is_0_when_first_chunk_empty
+SCOPED_DIAGNOSTIC independent_NONREPRESENTED_RUN_underflows_on_empty_global_interval
+CLAIM_IMPACT none: both frozen scans have represented LO and HI and many marks
+
+elapsed=0:02.27 maxrss=71320KB

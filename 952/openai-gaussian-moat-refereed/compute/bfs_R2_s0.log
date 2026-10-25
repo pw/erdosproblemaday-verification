@@ -1,0 +1,59 @@
+sets 154
+2 2501 (41, 61) INFINITE (-2501, 0)
+2 2561 (13, 197) INFINITE (-2561, 0)
+2 2669 (17, 157) INFINITE (-2669, 0)
+2 2929 (29, 101) INFINITE (-2929, 0)
+2 2993 (41, 73) INFINITE (-2993, 0)
+2 3133 (13, 241) INFINITE (-3133, 0)
+2 3233 (53, 61) INFINITE (-3233, 0)
+2 3293 (37, 89) INFINITE (-3293, 0)
+2 3445 (5, 13, 53) INFINITE (-3445, 0)
+2 3589 (37, 97) INFINITE (-3589, 0)
+2 3653 (13, 281) INFINITE (-3653, 0)
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 56, in apport_excepthook
+    if not enabled():
+           ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 24, in enabled
+    import re
+  File "/usr/lib/python3.12/re/__init__.py", line 124, in <module>
+    import enum
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1087, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1187, in get_data
+MemoryError
+
+Original exception was:
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError

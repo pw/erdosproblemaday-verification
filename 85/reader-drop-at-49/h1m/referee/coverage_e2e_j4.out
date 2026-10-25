@@ -1,0 +1,7 @@
+j=4 seed 0: M sym True rowsums True M4 True class-in-tsv True rep-cell SAT other-cell UNSAT -> OK
+j=4 seed 1: M sym True rowsums True M4 True class-in-tsv True rep-cell SAT other-cell UNSAT -> OK
+j=4 seed 2: M sym True rowsums True M4 True class-in-tsv True rep-cell SAT other-cell UNSAT -> OK
+j=4 seed 3: M sym True rowsums True M4 True class-in-tsv True rep-cell SAT other-cell UNSAT -> OK
+j=4 seed 4: M sym True rowsums True M4 True class-in-tsv True rep-cell SAT other-cell UNSAT -> OK
+j=4 seed 5: M sym True rowsums True M4 True class-in-tsv True rep-cell SAT other-cell UNSAT -> OK
+j=4: 6 OK, 0 FAIL, distinct classes hit 6

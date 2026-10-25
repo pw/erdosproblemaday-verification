@@ -1,0 +1,12 @@
+IsCoveredByResidues MATCH
+   FC  : def IsCoveredByResidues (x y : ℕ) : Prop := ∃ a : ℕ → ℕ, ∀ m ∈ Finset.Icc 1 y, ∃ p ≤ x, p.Prime ∧ m ≡ a p [MOD p]
+   ours: def IsCoveredByResidues (x y : ℕ) : Prop := ∃ a : ℕ → ℕ, ∀ m ∈ Finset.Icc 1 y, ∃ p ≤ x, p.Prime ∧ m ≡ a p [MOD p]
+Y MATCH
+   FC  : noncomputable def Y (x : ℕ) : ℕ := sSup {y : ℕ | Green46.IsCoveredByResidues x y}
+   ours: noncomputable def Y (x : ℕ) : ℕ := sSup {y : ℕ | Green46.IsCoveredByResidues x y}
+erdos_687.parts.ii MATCH
+   FC  : theorem erdos_687.parts.ii : (fun x : ℕ ↦ (Y x : ℝ)) =o[atTop] (fun x : ℕ ↦ (x : ℝ) ^ 2) := by
+   ours: theorem erdos_687.parts.ii : (fun x : ℕ ↦ (Y x : ℝ)) =o[atTop] (fun x : ℕ ↦ (x : ℝ) ^ 2) := by
+erdos_687.variants.iwaniec MATCH
+   FC  : theorem erdos_687.variants.iwaniec : (fun x : ℕ ↦ (Y x : ℝ)) =O[atTop] (fun x : ℕ ↦ (x : ℝ) ^ 2) := by
+   ours: theorem erdos_687.variants.iwaniec : (fun x : ℕ ↦ (Y x : ℝ)) =O[atTop] (fun x : ℕ ↦ (x : ℝ) ^ 2) := by

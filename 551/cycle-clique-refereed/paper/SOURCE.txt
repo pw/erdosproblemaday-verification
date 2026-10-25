@@ -1,0 +1,5 @@
+OpenAI, "Cycle–clique Ramsey numbers", 41 pp, dated 2026-09-25
+https://github.com/openai/math/blob/1581d4cb/preprints/Cycle-clique-Ramsey-numbers-September-25-2026/Cycle-clique-Ramsey-numbers-September-25-2026.pdf
+sha256 366fc1d94b08e498183f475b170db56c72c7c898a24f3d3f1106e637ef42209b
+first public: openai/math adc7f124 (2026-10-06T21:58:50Z), unchanged at 1581d4cb
+(not redistributed here)

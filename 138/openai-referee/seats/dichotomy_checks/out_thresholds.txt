@@ -1,0 +1,20 @@
+I1  m*-1 >= k/(2M)  [via k/M - 1 >= k/(2M), i.e. k >= 2M]                | drift proof l.1                    | last failure k <= 20000: 5
+I2  2kH < 1                                                              | affinity hyp. as used in drift     | last failure k <= 20000: None
+I3  6MH/k < 1                                                            | drift: |v-lam u|                   | last failure k <= 20000: None
+I4  (1-2MH)/(2M) > H                                                     | path: incongruent=>distinct        | last failure k <= 20000: None
+I4' (1-2MH_x)/(2M) > H_x (first system only, H_x<=H; checked as 4MH<1)   | path (sharp form)                  | last failure k <= 20000: None
+I5  2H + 4MH/h < 1 for all h>=1                                          | heavy-width                        | last failure k <= 20000: 3
+I6  4MH/h < 1/2 for all h>=1                                             | short-motion                       | last failure k <= 20000: 4
+I7  2H(k+1) < 1                                                          | short: width < |w_i|               | last failure k <= 20000: None
+I8  4MH/k < eta                                                          | longer: drift < eta                | last failure k <= 20000: 38
+I9  D(4 eta + 1/h0) < 1/2                                                | regular-fraction                   | last failure k <= 20000: 1024
+I10 2MH_x/k <= H_x and 4MH/k <= H (k >= 4M)                              | longer: eligibility (ii)           | last failure k <= 20000: 19
+I11 2M/k <= 1/16                                                         | longer: eligibility (iii)          | last failure k <= 20000: 1055
+I12 k - 2M - k/10 >= 4k/5 (worst h=2M)                                   | longer: covering count             | last failure k <= 20000: 419
+I13 h0 < 2M < k                                                          | setup (used: dilation lemma needs h<=2M) | last failure k <= 20000: 6
+I14 heavy => m*>=2 (k/M >= 1)                                            | drift: h well defined              | last failure k <= 20000: None
+k=10^6: D=4 M=1000 failures=[]
+k=10^8: D=7 M=10000 failures=[]
+k=10^12: D=16 M=1000000 failures=[]
+k=10^20: D=100 M=10000000000 failures=[]
+k=10^40: D=10000 M=100000000000000000000 failures=[]

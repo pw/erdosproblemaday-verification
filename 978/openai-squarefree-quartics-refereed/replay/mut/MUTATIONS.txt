@@ -1,0 +1,10 @@
+unmodified rc=0 want=0 OK
+def_powerfree_dvd rc=1 want=1 OK
+count_Icc rc=1 want=1 OK
+density_littleO rc=1 want=1 OK
+thm_degree rc=1 want=1 OK
+extra_axiom rc=1 want=1 OK
+cmp_no_sorry rc=1 want=1 OK
+missing_block rc=2 want=2 OK
+missing_log rc=2 want=2 OK
+refusal_guard_control REFUSED (mutation did not apply)

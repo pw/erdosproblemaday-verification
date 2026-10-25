@@ -1,0 +1,14 @@
+OAI.Erdos970.WeightedTorusJets.dirichlet_real_zero_bound : ∃ c,
+  0 < c ∧
+    ∀ (q : ℕ) [inst : NeZero q],
+      3 ≤ q →
+        ∀ (χ : DirichletCharacter ℂ q),
+          χ.IsPrimitive →
+            χ ≠ 1 →
+              (∀ (a : ZMod q), (χ a).im = 0) →
+                ∀ (β : ℝ), 0 < β ∧ β < 1 ∧ DirichletCharacter.LFunction χ ↑β = 0 → c ≤ (1 - β) * Real.log ↑q
+'ours_no_landau_siegel_zeros' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.Erdos970.WeightedTorusJets.dirichlet_real_zero_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+def DirichletCharacter.LFunction : {N : ℕ} → [NeZero N] → DirichletCharacter ℂ N → ℂ → ℂ :=
+fun {N} [NeZero N] χ s => ZMod.LFunction (⇑χ) s
+maxrss_kb=6919656 wall_s=12.18

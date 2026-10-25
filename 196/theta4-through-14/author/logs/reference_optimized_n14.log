@@ -1,0 +1,17 @@
+threads=16
+theta4(1)=1 fast_seconds=6.4e-08 direct=1
+theta4(2)=2 fast_seconds=0.0130629 direct=2
+theta4(3)=6 fast_seconds=0.00924855 direct=6
+theta4(4)=22 fast_seconds=0.00613181 direct=22
+theta4(5)=102 fast_seconds=0.00719765 direct=102
+theta4(6)=564 fast_seconds=0.00689134 direct=564
+theta4(7)=3336 fast_seconds=0.00872123 direct=3336
+theta4(8)=22266 fast_seconds=0.00910938 direct=22266
+theta4(9)=168864 fast_seconds=0.00801443 direct=168864
+theta4(10)=1307470 fast_seconds=0.0221728 direct=1307470
+theta4(11)=11066766 fast_seconds=0.146011
+theta4(12)=101361722 fast_seconds=1.1258
+theta4(13)=949812334 fast_seconds=10.8983
+theta4(14)=9471574188 fast_seconds=153.529
+crosscheck_mismatches=0
+wall_seconds=166.09 max_rss_kb=4212 exit_status=0

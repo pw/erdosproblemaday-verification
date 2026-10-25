@@ -1,0 +1,6 @@
+Frozen bundle: /home/exedev/erdos_scratch/frozen_erdos168_20260811
+Observed: 2026-08-11 UTC
+
+0413b3d8db1c89ec3bb2f8303087dd4779d52a55e32ce422adb61a4140720bd7  SHA256SUMS
+3b8bfc9036933bfadb161ded4bad3d95549dcb72c96963554ae445af0d9f5b55  README.md
+20c35c99a935ba688a0e894cb7b4f9f6125d460be6208133d356710d27503e65  frontier/results.json

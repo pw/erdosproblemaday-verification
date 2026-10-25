@@ -1,0 +1,7 @@
+== N=166320 09:31:01
+   [1, 1] E=0.5009 M=27720 FEASIBLE 29041/41580 (0.6984) bound 10883/11880 180s EXCLUDED by bound (proven max ≤ 0.9161 < 1; best found 0.6984)
+== N=221760 09:34:07
+   [1, 1] E=0.4972 M=55440 FEASIBLE 37907/55440 (0.6837) bound 197957/221760 180s EXCLUDED by bound (proven max ≤ 0.8927 < 1; best found 0.6837)
+== N=332640 09:37:22
+   [1, 1] E=0.5127 M=27720 FEASIBLE 1475/2079 (0.7095) bound 45847/47520 180s EXCLUDED by bound (proven max ≤ 0.9648 < 1; best found 0.7095)
+== N=720720 09:40:30

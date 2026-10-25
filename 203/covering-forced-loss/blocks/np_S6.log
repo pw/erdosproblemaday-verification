@@ -1,0 +1,2 @@
+numpy: n=6 T=720 enumerated=c0=0 MAX=294900 density=0.568866 loss=0.149190 #opt=4320 witness=(0, 0, 0, 1, 3, 3)
+witness re-check: [0, 1, 1, 0, 0, 1] covers 294900

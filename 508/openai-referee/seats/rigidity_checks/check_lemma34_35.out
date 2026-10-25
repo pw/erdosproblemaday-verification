@@ -1,0 +1,5 @@
+Lemma 3.4, N=Q(sqrt2,i), d0=4: |S|=9, all elements in K (u*ubar=1): True, every 4-subset a Q-basis: True (126 subsets)
+  control (S with -S[0] added): every 4-subset a Q-basis: False (expected False)
+Lemma 3.4 rational analogue N=Q(i), d0=2: |S|=12, every 2-subset a Q-basis: True  -> Lemma 3.4 itself does NOT separate F(i) from Q(i)
+Lemma 3.5: 596 (inputs, combination) cases, all satisfy w(z)<=4MH; max w(z)/(MH)=2.000 at ([166, 193, 600], (0, 2, 0), 386, 4, 2)
+  control: the stronger claim w(z)<=1*MH FAILS in 109 cases (so the check can fail; constant >1 is needed)

@@ -1,0 +1,9 @@
+== 2026-10-12T03:48:51Z rerun by the 03:00Z seat: exhaust.py 7 ==
+6 {'graphs': 208, 'T1': 1020, 'T2': 5774, 'T3': 3865, 'T4': 21956, 'T5': 3270, 'DeltaBeta': 208, 'K4free_col': 0}
+7 {'graphs': 1252, 'T1': 10737, 'T2': 63145, 'T3': 31304, 'T4': 254666, 'T5': 25144, 'DeltaBeta': 1252, 'K4free_col': 0}
+ALL EXHAUSTIVE CHECKS PASS {'graphs': 1252, 'T1': 10737, 'T2': 63145, 'T3': 31304, 'T4': 254666, 'T5': 25144, 'DeltaBeta': 1252, 'K4free_col': 0}
+== exhaust.py 6 T2 (mutation must fail) ==
+6 {'graphs': 208, 'T1': 1020, 'T2': 129570, 'T3': 3865, 'T4': 21956, 'T5': 3270, 'DeltaBeta': 208, 'K4free_col': 0}
+MUTATION T2 fails: {'T2': 50296}
+== exhaust.py 6 T5 (mutation must fail) ==
+MUTATION T5 fails: {'T5': 736}

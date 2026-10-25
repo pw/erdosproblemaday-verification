@@ -1,0 +1,16 @@
+[2026-10-22T06:53:51Z] build not clean — stopping
+[2026-10-22T06:54:38Z] closure parser bug (comment header before imports in patched PNT files) missed 3 modules: Sobolev, SmoothExistence, Mathlib.Analysis.Asymptotics.Asymptotics; all_order.txt regenerated (1,837); rerunning drive.py (resumes from modules.tsv)
+[2026-10-22T07:05:08Z] BEGIN cmpmod_JointDickman
+[2026-10-22T07:05:15Z] END cmpmod_JointDickman rc=0 7s
+[2026-10-22T07:05:15Z] BEGIN cmp_JointDickman
+[2026-10-22T07:05:21Z] END cmp_JointDickman rc=0 13s
+[2026-10-22T07:05:21Z] BEGIN ax_JointDickman
+[2026-10-22T07:05:28Z] END ax_JointDickman rc=0 20s
+[2026-10-22T07:05:28Z] BEGIN neg
+[2026-10-22T07:05:35Z] END neg rc=0 27s
+[2026-10-22T07:05:35Z] statement_match: ALL_MATCH_STD_SORRYSEEN JointDickman: 10 MATCH / 0 MISMATCH 
+[2026-10-22T07:06:57Z] BEGIN leanchecker_missing_control
+[2026-10-22T07:06:59Z] END leanchecker_missing_control rc=1 2s
+[2026-10-22T07:06:59Z] BEGIN leanchecker_fresh
+[2026-10-22T08:07:28Z] END leanchecker_fresh rc=0 3631s
+[2026-10-22T08:07:28Z] LEANCHECKER DONE

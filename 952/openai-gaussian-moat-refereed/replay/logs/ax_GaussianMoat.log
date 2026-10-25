@@ -1,0 +1,176 @@
+@@@ BEGIN thm OAI.GaussianMoat.fullMain
+OAI.GaussianMoat.fullMain : And OAI.GaussianMoat.MainEndpoint OAI.GaussianMoat.UniformEndpoint
+'OAI.GaussianMoat.fullMain' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN def OAI.GaussianMoat.PrimeVertex
+@[reducible] def OAI.GaussianMoat.PrimeVertex : Type :=
+@Subtype.{1} GaussianInt fun (z : GaussianInt) =>
+  @Irreducible.{0} GaussianInt
+    (@Zsqrtd.instMonoid (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))) z
+@@@ BEGIN def OAI.GaussianMoat.primeGraph
+def OAI.GaussianMoat.primeGraph : (D : Real) → SimpleGraph.{0} OAI.GaussianMoat.PrimeVertex :=
+fun (D : Real) =>
+  @SimpleGraph.mk.{0} OAI.GaussianMoat.PrimeVertex
+    (fun (p q : OAI.GaussianMoat.PrimeVertex) =>
+      And (@Ne.{1} OAI.GaussianMoat.PrimeVertex p q)
+        (@LE.le.{0} Real Real.instLE
+          (@Dist.dist.{0} Complex
+            (@PseudoMetricSpace.toDist.{0} Complex
+              (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+                (@SeminormedCommRing.toSeminormedRing.{0} Complex
+                  (@NormedCommRing.toSeminormedCommRing.{0} Complex
+                    (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex)))))
+            (@DFunLike.coe.{1, 1, 1}
+              (@RingHom.{0, 0} GaussianInt Complex
+                (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                  (@Zsqrtd.instSemiring
+                    (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+              GaussianInt (fun (x : GaussianInt) => Complex)
+              (@RingHom.instFunLike.{0, 0} GaussianInt Complex
+                (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                  (@Zsqrtd.instSemiring
+                    (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+              GaussianInt.toComplex
+              (@Subtype.val.{1} GaussianInt
+                (fun (z : GaussianInt) =>
+                  @Irreducible.{0} GaussianInt
+                    (@Zsqrtd.instMonoid
+                      (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1)))))
+                    z)
+                p))
+            (@DFunLike.coe.{1, 1, 1}
+              (@RingHom.{0, 0} GaussianInt Complex
+                (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                  (@Zsqrtd.instSemiring
+                    (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+              GaussianInt (fun (x : GaussianInt) => Complex)
+              (@RingHom.instFunLike.{0, 0} GaussianInt Complex
+                (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                  (@Zsqrtd.instSemiring
+                    (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+              GaussianInt.toComplex
+              (@Subtype.val.{1} GaussianInt
+                (fun (z : GaussianInt) =>
+                  @Irreducible.{0} GaussianInt
+                    (@Zsqrtd.instMonoid
+                      (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1)))))
+                    z)
+                q)))
+          D))
+    (OAI.GaussianMoat.primeGraph._proof_1 D) (OAI.GaussianMoat.primeGraph._proof_2 D)
+@@@ BEGIN def OAI.GaussianMoat.component
+def OAI.GaussianMoat.component : (D : Real) →
+  (p : OAI.GaussianMoat.PrimeVertex) → Set.{0} OAI.GaussianMoat.PrimeVertex :=
+fun (D : Real) (p : OAI.GaussianMoat.PrimeVertex) =>
+  @Set.ofPred.{0} OAI.GaussianMoat.PrimeVertex fun (q : OAI.GaussianMoat.PrimeVertex) =>
+    @SimpleGraph.Reachable.{0} OAI.GaussianMoat.PrimeVertex (OAI.GaussianMoat.primeGraph D) p q
+@@@ BEGIN def OAI.GaussianMoat.MainEndpoint
+def OAI.GaussianMoat.MainEndpoint : Prop :=
+∀ (D : Real) (z : Nat → GaussianInt),
+  (∀ (t : Nat),
+      @Irreducible.{0} GaussianInt
+        (@Zsqrtd.instMonoid
+          (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1)))))
+        (z t)) →
+    @Function.Injective.{1, 1} Nat GaussianInt z →
+      (∀ (t : Nat),
+          @LE.le.{0} Real Real.instLE
+            (@Dist.dist.{0} Complex
+              (@PseudoMetricSpace.toDist.{0} Complex
+                (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+                  (@SeminormedCommRing.toSeminormedRing.{0} Complex
+                    (@NormedCommRing.toSeminormedCommRing.{0} Complex
+                      (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex)))))
+              (@DFunLike.coe.{1, 1, 1}
+                (@RingHom.{0, 0} GaussianInt Complex
+                  (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                    (@Zsqrtd.instSemiring
+                      (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                  (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                GaussianInt (fun (x : GaussianInt) => Complex)
+                (@RingHom.instFunLike.{0, 0} GaussianInt Complex
+                  (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                    (@Zsqrtd.instSemiring
+                      (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                  (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                GaussianInt.toComplex
+                (z
+                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) t
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+              (@DFunLike.coe.{1, 1, 1}
+                (@RingHom.{0, 0} GaussianInt Complex
+                  (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                    (@Zsqrtd.instSemiring
+                      (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                  (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                GaussianInt (fun (x : GaussianInt) => Complex)
+                (@RingHom.instFunLike.{0, 0} GaussianInt Complex
+                  (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                    (@Zsqrtd.instSemiring
+                      (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                  (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                GaussianInt.toComplex (z t)))
+            D) →
+        False
+@@@ BEGIN def OAI.GaussianMoat.UniformEndpoint
+def OAI.GaussianMoat.UniformEndpoint : Prop :=
+∀ (D : Real),
+  @Exists.{1} Nat fun (B : Nat) =>
+    And
+      (∀ (p : OAI.GaussianMoat.PrimeVertex),
+        And (@Set.Finite.{0} OAI.GaussianMoat.PrimeVertex (OAI.GaussianMoat.component D p))
+          (@LE.le.{0} Nat instLENat (@Set.ncard.{0} OAI.GaussianMoat.PrimeVertex (OAI.GaussianMoat.component D p)) B))
+      (∀ (n : Nat) (z : Fin n → GaussianInt),
+        (∀ (i : Fin n),
+            @Irreducible.{0} GaussianInt
+              (@Zsqrtd.instMonoid
+                (@Neg.neg.{0} Int Int.instNegInt (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1)))))
+              (z i)) →
+          @Function.Injective.{1, 1} (Fin n) GaussianInt z →
+            (∀ (i j : Fin n),
+                @Eq.{1} Nat (@Fin.val n j)
+                    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (@Fin.val n i)
+                      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →
+                  @LE.le.{0} Real Real.instLE
+                    (@Dist.dist.{0} Complex
+                      (@PseudoMetricSpace.toDist.{0} Complex
+                        (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+                          (@SeminormedCommRing.toSeminormedRing.{0} Complex
+                            (@NormedCommRing.toSeminormedCommRing.{0} Complex
+                              (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex)))))
+                      (@DFunLike.coe.{1, 1, 1}
+                        (@RingHom.{0, 0} GaussianInt Complex
+                          (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                            (@Zsqrtd.instSemiring
+                              (@Neg.neg.{0} Int Int.instNegInt
+                                (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                          (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                        GaussianInt (fun (x : GaussianInt) => Complex)
+                        (@RingHom.instFunLike.{0, 0} GaussianInt Complex
+                          (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                            (@Zsqrtd.instSemiring
+                              (@Neg.neg.{0} Int Int.instNegInt
+                                (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                          (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                        GaussianInt.toComplex (z j))
+                      (@DFunLike.coe.{1, 1, 1}
+                        (@RingHom.{0, 0} GaussianInt Complex
+                          (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                            (@Zsqrtd.instSemiring
+                              (@Neg.neg.{0} Int Int.instNegInt
+                                (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                          (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                        GaussianInt (fun (x : GaussianInt) => Complex)
+                        (@RingHom.instFunLike.{0, 0} GaussianInt Complex
+                          (@Semiring.toNonAssocSemiring.{0} GaussianInt
+                            (@Zsqrtd.instSemiring
+                              (@Neg.neg.{0} Int Int.instNegInt
+                                (@OfNat.ofNat.{0} Int (nat_lit 1) (@instOfNat (nat_lit 1))))))
+                          (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring))
+                        GaussianInt.toComplex (z i)))
+                    D) →
+              @LE.le.{0} Nat instLENat n B)
+@@@ END

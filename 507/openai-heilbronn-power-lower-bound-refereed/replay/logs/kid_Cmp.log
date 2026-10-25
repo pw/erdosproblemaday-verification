@@ -1,0 +1,4 @@
+@@KID OAI.Problem355.heilbronnK kernel_hints=regular 7 value_hash=3603132665 type_hash=421340980 safety=Lean.DefinitionSafety.safe elab_status=Lean.ReducibilityStatus.semireducible
+@@KID OAI.Problem355.heilbronnT kernel_hints=regular 6 value_hash=451902060 type_hash=421340980 safety=Lean.DefinitionSafety.safe elab_status=Lean.ReducibilityStatus.semireducible
+@@KID OAI.Problem355.heilbronnM kernel_hints=regular 5 value_hash=433088066 type_hash=421340980 safety=Lean.DefinitionSafety.safe elab_status=Lean.ReducibilityStatus.semireducible
+@@KID OAI.Problem355.heilbronnExponent kernel_hints=regular 26 value_hash=3407805991 type_hash=4024430794 safety=Lean.DefinitionSafety.safe elab_status=Lean.ReducibilityStatus.semireducible

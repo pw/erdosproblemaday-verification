@@ -1,0 +1,3 @@
+For every set A of n >= 5 distinct points in the Euclidean plane such that every point of A is a vertex of conv(A), there is a distance d strictly smaller than the diameter of A for which between 1 and n unordered pairs of points of A are at distance d.
+
+No assertion is made here for arbitrary planar point sets, for the number of qualifying distances as n tends to infinity, or for any unaudited claim in the live discussion thread.  Full unrestricted Erdos Problem 132 remains OPEN/GAP.

@@ -1,0 +1,3 @@
+'Erdos507.erdos_507.variants.lower_kps82' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Erdos507.erdos_507.lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=6903540 wall=8s

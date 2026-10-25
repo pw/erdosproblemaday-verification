@@ -1,0 +1,4 @@
+DEGREES_7_10 unique_indices=2185817 all_UNSAT=YES shards_done=17 hashes=PASS
+DEGREES_11_12 cadical_and_kissat_exact_case_coverage=411/411 all_UNSAT=YES
+DEGREE_13_PLUS complete_neighbourhood_census_empty=YES
+VERIFIED GAP-FREE DEGREE COVERAGE d=7..12; d>=13 census empty

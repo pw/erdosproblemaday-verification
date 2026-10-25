@@ -1,0 +1,9 @@
+pairs: 42 total patterns: 3099 matches Table 1: True
+brute vs generator t=3 B=2: 4 4 OK
+brute vs generator t=4 B=2: 5 5 OK
+brute vs generator t=5 B=2: 5 5 OK
+brute vs generator t=4 B=4: 16 16 OK
+brute vs generator t=5 B=3: 10 10 OK
+brute vs generator t=6 B=2: 5 5 OK
+brute vs generator t=5 B=5: 35 35 OK
+brute vs generator t=6 B=3: 11 11 OK

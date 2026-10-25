@@ -1,0 +1,4 @@
+unpacked frame 1405625860 bytes
+decoded binary LRAT 2680553030 bytes
+MUTATION: dropped LAST hint 6898352 (of 85) of the final empty clause id 10975255
+actions: add=9646214 del=4686205 total=14332419 empty_adds=1 rat_adds=0 last_id=10975255

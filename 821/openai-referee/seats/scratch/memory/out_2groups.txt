@@ -1,0 +1,13 @@
+[EQUAL] two big groups [[5, 7, 17], [11, 19, 23]] N=2 q=1/2 rho=9/10 theta=1/8 k=1: nonzero physical paths=144  (8.5s)
+    LHS = (47838947920237520898775/17049841958960727688328)
+    RHS = (47838947920237520898775/17049841958960727688328)
+    LHS ~ 2.805829405+0j
+[EQUAL] two big groups [[5, 7, 17], [11, 13, 19]] N=2 q=1/4 rho=3/4 theta=3/8 k=2: nonzero physical paths=144  (9.1s)
+    LHS = (112496611438713532815785/60486908118762618754704)
+    RHS = (112496611438713532815785/60486908118762618754704)
+    LHS ~ 1.859850585+0j
+[EQUAL] two big groups [[5, 7, 17], [11, 13, 19]] N=2 q=4/9 rho=5/6 theta=1/8 k=3: nonzero physical paths=144  (9.8s)
+    LHS = (16559539870364223377645/20162302706254206251568)
+    RHS = (16559539870364223377645/20162302706254206251568)
+    LHS ~ 0.821311936+0j
+control own_D (group-g memory translated by k*s_g instead of k*D): equal=False  RHS-LHS ~ -0.209881+0j

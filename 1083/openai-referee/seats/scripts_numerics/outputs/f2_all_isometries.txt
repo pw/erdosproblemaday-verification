@@ -1,0 +1,7 @@
+  raw (u1,u2,w1,w2,sign) candidates: 721152
+t=3: N=27, A=9.00; distinct orthogonal S mapping two independent difference vectors to difference vectors: 13392
+  of which signed permutations (lattice S): 48 (expected 48)
+  match-count distribution over all (S,h) with k>=4: {4: 17280, 5: 1152, 6: 7680, 8: 384, 9: 480, 12: 576, 18: 288, 27: 48}
+  C_rich=0.5: #motions with k >= 4.5: 10608, sum k^2 = 579984, / N^(10/3) = 9.8221
+  C_rich=1.0: #motions with k >= 9.0: 1392, sum k^2 = 250128, / N^(10/3) = 4.2359
+  C_rich=2.0: #motions with k >= 18.0: 336, sum k^2 = 128304, / N^(10/3) = 2.1728

@@ -1,0 +1,31 @@
+BridgeFCMutDef.lean:45:25: error: Function expected at
+  hd
+but this term has type
+  d = 1 ∧
+    ∀ (c : EuclideanSpace ℝ (Fin d) → Fin r),
+      ∃ p, Congruent (fun a => ↑a) p ∧ ∃ i, ∀ (a : ↑OAI.GrahamSpherical.witness), c (p a) = i
+
+Note: Expected a function because this term is being applied to the argument
+  (fun _ => ⟨0, hr⟩)
+BridgeFCMutDef.lean:45:9: error: Tactic `rcases` failed: `x✝ : ?m.68` is not an inductive datatype
+BridgeFCMutDef.lean:52:55: warning: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+BridgeFCMutDef.lean:53:9: warning: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+BridgeFCMutDef.lean:83:29: error: Function expected at
+  hd
+but this term has type
+  d = 1 ∧ ∀ (c : EuclideanSpace ℝ (Fin d) → Fin r), ∃ p, Congruent (fun a => ↑a) p ∧ ∃ i, ∀ (a : ↑A), c (p a) = i
+
+Note: Expected a function because this term is being applied to the argument
+  (fun _ => ⟨0, by omega⟩)
+BridgeFCMutDef.lean:83:13: error: Tactic `rcases` failed: `x✝ : ?m.220` is not an inductive datatype
+BridgeFCMutDef rc=1 (must be nonzero)

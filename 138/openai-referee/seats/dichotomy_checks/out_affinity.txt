@@ -1,0 +1,9 @@
+k=  12 paper: W=2H, 2kH<1           trials with |J|>=3:    51   non-affine: 0
+k=  12 edge: W=(1-1/k^3)/(k-1)      trials with |J|>=3:   406   non-affine: 0
+k=  12 CONTROL: W=1.5/(k-1)         trials with |J|>=3:   775   non-affine: 45
+k=  40 paper: W=2H, 2kH<1           trials with |J|>=3:    15   non-affine: 0
+k=  40 edge: W=(1-1/k^3)/(k-1)      trials with |J|>=3:   254   non-affine: 0
+k=  40 CONTROL: W=1.5/(k-1)         trials with |J|>=3:   449   non-affine: 34
+k= 100 paper: W=2H, 2kH<1           trials with |J|>=3:     2   non-affine: 0
+k= 100 edge: W=(1-1/k^3)/(k-1)      trials with |J|>=3:   168   non-affine: 0
+k= 100 CONTROL: W=1.5/(k-1)         trials with |J|>=3:   323   non-affine: 25

@@ -1,0 +1,4 @@
+bigint: n=4 T=60 MAX=1765 density=0.490278 loss=0.109722 #opt(c0=0)=180 witness=(0, 0, 0, 1) wall=0s
+bigint: n=5 T=240 MAX=30580 density=0.530903 loss=0.131597 #opt(c0=0)=720 witness=(0, 0, 0, 1, 3) wall=1s
+bigint: n=6 T=720 MAX=294900 density=0.568866 loss=0.149190 #opt(c0=0)=4320 witness=(0, 0, 0, 1, 3, 3) wall=95s
+bigint: n=7 T=720 MAX=303336 density=0.585139 loss=0.166250 #opt(c0=0)=64800 witness=(0, 0, 0, 1, 3, 3, 1) wall=1527s

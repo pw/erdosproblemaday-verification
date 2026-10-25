@@ -1,0 +1,454 @@
+/home/exedev/MathDyad/erdos778/certs/n6_clique.cert||0|same|ACCEPT :: ACCEPT winner=bob n=6 mode=cli
+NEG_D_solver_n6_R4.cert||0|same|REJECT :: terminal lost at R=4135 B=2863
+NEG_A_n6_R4.cert||0|same|REJECT :: terminal lost at R=5641 B=2712
+/home/exedev/MathDyad/erdos778/certs/n7_clique_nocut.cert||0|same|ACCEPT :: ACCEPT winner=bob n=7 mode=cli
+NEG_B_n6_R3.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+NEG_E_solver_n6_R3.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+NEG_C_n6_R2.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+/home/exedev/MathDyad/erdos778/certs/n7_clique.cert||0|same|ACCEPT :: ACCEPT winner=bob n=7 mode=cli
+NEG_A_n6_R4.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=5641 B=2712
+/home/exedev/MathDyad/erdos778/certs/n6_clique.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+NEG_D_solver_n6_R4.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+NEG_B_n6_R3.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=7681 B=2508
+NEG_E_solver_n6_R3.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+/home/exedev/MathDyad/erdos778/certs/n7_clique_nocut.cert|--no-cutoff|0|same|ACCEPT :: ACCEPT winner=bob n=7 mode=cli
+NEG_C_n6_R2.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=4745 B=2802
+ref_n3.cert||0|same|REJECT :: terminal lost at R=1 B=6
+/home/exedev/MathDyad/erdos778/certs/n7_clique.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=17
+ref_n4.cert||0|same|ACCEPT :: ACCEPT winner=bob n=4 mode=cli
+NEG_F_solver_n7_R5.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+NEG_G_solver_n7_R4.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_1.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+ref_n3.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=1 B=6
+ref_n5.cert||0|same|ACCEPT :: ACCEPT winner=bob n=5 mode=cli
+sweep5/neg_10.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+ref_n6.cert||0|same|ACCEPT :: ACCEPT winner=bob n=6 mode=cli
+ref_n4.cert|--no-cutoff|0|same|ACCEPT :: ACCEPT winner=bob n=4 mode=cli
+NEG_F_solver_n7_R5.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=17
+NEG_G_solver_n7_R4.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=17
+sweep5/neg_1.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_11.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_10.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=201 B=822
+ref_n6.cert|--no-cutoff|0|same|ACCEPT :: ACCEPT winner=bob n=6 mode=cli
+ref_n5.cert|--no-cutoff|0|same|ACCEPT :: ACCEPT winner=bob n=5 mode=cli
+sweep5/neg_12.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_13.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_14.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_15.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_11.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_16.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_17.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_18.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_12.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_13.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_14.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=329 B=694
+sweep5/neg_15.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_19.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_16.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_18.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_17.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=329 B=694
+sweep5/neg_2.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_22.cert||0|same|REJECT :: terminal lost at R=337 B=686
+sweep5/neg_19.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=329 B=694
+sweep5/neg_21.cert||0|same|REJECT :: terminal lost at R=337 B=686
+sweep5/neg_20.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_23.cert||0|same|REJECT :: terminal lost at R=897 B=126
+sweep5/neg_3.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_24.cert||0|same|REJECT :: terminal lost at R=897 B=126
+sweep5/neg_2.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_22.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=337 B=686
+sweep5/neg_20.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=201 B=822
+sweep5/neg_21.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=337 B=686
+sweep5/neg_4.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_23.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=897 B=126
+sweep5/neg_3.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_24.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=897 B=126
+sweep5/neg_6.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_8.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_7.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_5.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_4.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=329 B=694
+sweep5/neg_9.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_10.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_6.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_5.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep6/neg_1.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep5/neg_7.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=329 B=694
+sweep5/neg_8.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=585 B=438
+sweep5/neg_9.cert|--no-cutoff|0|same|REJECT :: terminal lost at R=329 B=694
+sweep6/neg_100.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_10.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_102.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_101.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_1.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_104.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_103.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_106.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_102.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_100.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_105.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_101.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_107.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_104.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_106.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_108.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_109.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_103.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_105.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_11.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_111.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_107.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_110.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_109.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_113.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_108.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_11.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_112.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_111.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_110.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_114.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_115.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_113.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_112.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_118.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_116.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_119.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_117.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_114.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_115.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_12.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_120.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_119.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_118.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_117.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_116.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_121.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_122.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_12.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_120.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_123.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_121.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_126.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_124.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_125.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_122.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_127.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_123.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_128.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_129.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_124.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_126.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_125.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_13.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_127.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_130.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_129.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_132.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_128.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_131.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_133.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_134.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_13.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_130.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_132.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_136.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_135.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_133.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_131.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_137.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_134.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_136.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_138.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_139.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_135.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_14.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_137.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_140.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_141.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_142.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_138.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_143.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_144.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_14.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_139.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_140.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_141.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_142.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_145.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_143.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_147.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_150.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_148.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_144.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_15.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_146.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_147.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_145.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_149.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_148.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_150.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_15.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_146.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_151.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_152.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_149.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_153.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_155.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_157.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_151.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_154.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_156.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_152.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_153.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_158.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_155.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_157.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_154.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_156.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_159.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_16.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_160.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_158.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_161.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_162.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_164.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_163.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_16.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_159.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_160.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_165.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_161.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_162.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_164.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_166.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_163.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_167.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_165.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_169.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_17.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_168.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_170.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_171.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_167.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_166.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_172.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_169.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_17.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_168.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_171.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_174.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_172.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_173.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_170.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_176.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_175.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_178.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_174.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_177.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_173.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_179.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_18.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_176.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_175.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_180.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_178.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_177.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_181.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_179.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_18.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_180.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_183.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_182.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_184.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_187.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_186.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_181.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_185.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_188.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_184.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_182.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_183.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_187.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_185.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_186.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_189.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_188.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_19.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_190.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_191.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_192.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_189.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_194.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_193.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_195.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_19.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_192.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_190.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_191.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_193.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_196.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_194.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_197.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_195.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_199.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_198.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_2.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_200.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_20.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_196.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_197.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_198.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_2.cert|--no-cutoff|0|DIFF|
+sweep6/neg_199.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_201.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_200.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_202.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_20.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_205.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_203.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_204.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_201.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_206.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_207.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_208.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_203.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_202.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_209.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_204.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_206.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_205.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_207.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_210.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_208.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_21.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_209.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_212.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_213.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_211.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_214.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_210.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_21.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_215.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_216.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_212.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_213.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_211.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_214.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_218.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_217.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_216.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_215.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_219.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_22.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_220.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_223.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_221.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_217.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_218.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_22.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_219.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_220.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_222.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_221.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_223.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_226.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_225.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_224.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_227.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_222.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_226.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_228.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_229.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_23.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_225.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_228.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_227.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_231.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_224.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_229.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_230.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_23.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_232.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_233.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_231.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_234.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_236.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_235.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_232.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_230.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_234.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_233.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_237.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_238.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_239.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_236.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_24.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_235.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_240.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_241.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_237.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_243.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_238.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_239.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_24.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_241.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_242.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_240.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_244.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_246.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_245.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_243.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_247.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_248.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_249.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_242.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_245.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_244.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_246.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_25.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_248.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_249.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_247.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_252.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_251.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_250.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_253.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_25.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_255.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_254.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_252.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_256.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_251.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_250.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_253.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_255.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_258.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_256.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_257.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_254.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_259.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_26.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_260.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_262.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_257.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_261.cert||0|same|REJECT :: terminal lost at R=9237 B=2353
+sweep6/neg_263.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_259.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_258.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_26.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=53
+sweep6/neg_260.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_262.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_261.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_265.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_264.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_266.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_263.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_267.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_27.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_269.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_268.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_264.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_270.cert||0|same|REJECT :: alice cutoff holds inside Bob'
+sweep6/neg_266.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_267.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10
+sweep6/neg_265.cert|--no-cutoff|0|same|REJECT :: no Bob reply recorded for R=10

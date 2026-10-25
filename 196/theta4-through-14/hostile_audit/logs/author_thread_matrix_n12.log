@@ -1,0 +1,95 @@
++ for t in 1 2 3 7 16
++ echo THREAD_CASE=1
+THREAD_CASE=1
++ OMP_NUM_THREADS=1
++ /home/exedev/erdos_scratch/audit_196_20260811/bin/author_rebuilt_strict 12 0
+threads=1
+theta4(1)=1 fast_seconds=9.6e-08
+theta4(2)=2 fast_seconds=1.9346e-05
+theta4(3)=6 fast_seconds=4.602e-06
+theta4(4)=22 fast_seconds=3.17e-06
+theta4(5)=102 fast_seconds=7.802e-06
+theta4(6)=564 fast_seconds=2.5297e-05
+theta4(7)=3336 fast_seconds=0.00014974
+theta4(8)=22266 fast_seconds=0.00107791
+theta4(9)=168864 fast_seconds=0.0084986
+theta4(10)=1307470 fast_seconds=0.0776915
+theta4(11)=11066766 fast_seconds=0.805488
+theta4(12)=101361722 fast_seconds=8.20012
+crosscheck_mismatches=0
++ for t in 1 2 3 7 16
++ echo THREAD_CASE=2
+THREAD_CASE=2
++ OMP_NUM_THREADS=2
++ /home/exedev/erdos_scratch/audit_196_20260811/bin/author_rebuilt_strict 12 0
+threads=2
+theta4(1)=1 fast_seconds=7.8e-08
+theta4(2)=2 fast_seconds=7.3317e-05
+theta4(3)=6 fast_seconds=3.1952e-05
+theta4(4)=22 fast_seconds=3.096e-06
+theta4(5)=102 fast_seconds=7.691e-06
+theta4(6)=564 fast_seconds=1.5409e-05
+theta4(7)=3336 fast_seconds=8.2477e-05
+theta4(8)=22266 fast_seconds=0.00055948
+theta4(9)=168864 fast_seconds=0.00412086
+theta4(10)=1307470 fast_seconds=0.0379629
+theta4(11)=11066766 fast_seconds=0.402616
+theta4(12)=101361722 fast_seconds=4.10488
+crosscheck_mismatches=0
++ for t in 1 2 3 7 16
++ echo THREAD_CASE=3
+THREAD_CASE=3
++ OMP_NUM_THREADS=3
++ /home/exedev/erdos_scratch/audit_196_20260811/bin/author_rebuilt_strict 12 0
+threads=3
+theta4(1)=1 fast_seconds=1.06e-07
+theta4(2)=2 fast_seconds=0.000117622
+theta4(3)=6 fast_seconds=7.0287e-05
+theta4(4)=22 fast_seconds=3.637e-06
+theta4(5)=102 fast_seconds=5.194e-06
+theta4(6)=564 fast_seconds=1.361e-05
+theta4(7)=3336 fast_seconds=6.5151e-05
+theta4(8)=22266 fast_seconds=0.000406263
+theta4(9)=168864 fast_seconds=0.00285463
+theta4(10)=1307470 fast_seconds=0.0265708
+theta4(11)=11066766 fast_seconds=0.273239
+theta4(12)=101361722 fast_seconds=2.81525
+crosscheck_mismatches=0
++ for t in 1 2 3 7 16
++ echo THREAD_CASE=7
+THREAD_CASE=7
++ OMP_NUM_THREADS=7
++ /home/exedev/erdos_scratch/audit_196_20260811/bin/author_rebuilt_strict 12 0
+threads=7
+theta4(1)=1 fast_seconds=1.63e-07
+theta4(2)=2 fast_seconds=0.000299652
+theta4(3)=6 fast_seconds=3.6538e-05
+theta4(4)=22 fast_seconds=0.000151352
+theta4(5)=102 fast_seconds=6.566e-06
+theta4(6)=564 fast_seconds=1.028e-05
+theta4(7)=3336 fast_seconds=3.7711e-05
+theta4(8)=22266 fast_seconds=0.000202896
+theta4(9)=168864 fast_seconds=0.00149903
+theta4(10)=1307470 fast_seconds=0.0121595
+theta4(11)=11066766 fast_seconds=0.129016
+theta4(12)=101361722 fast_seconds=1.29317
+crosscheck_mismatches=0
++ for t in 1 2 3 7 16
++ echo THREAD_CASE=16
+THREAD_CASE=16
++ OMP_NUM_THREADS=16
++ /home/exedev/erdos_scratch/audit_196_20260811/bin/author_rebuilt_strict 12 0
+threads=16
+theta4(1)=1 fast_seconds=9.8e-08
+theta4(2)=2 fast_seconds=0.00399622
+theta4(3)=6 fast_seconds=0.00392302
+theta4(4)=22 fast_seconds=0.0064953
+theta4(5)=102 fast_seconds=0.00400005
+theta4(6)=564 fast_seconds=0.00167607
+theta4(7)=3336 fast_seconds=0.00394552
+theta4(8)=22266 fast_seconds=0.00410764
+theta4(9)=168864 fast_seconds=0.00625637
+theta4(10)=1307470 fast_seconds=0.0160002
+theta4(11)=11066766 fast_seconds=0.125286
+theta4(12)=101361722 fast_seconds=0.852078
+crosscheck_mismatches=0

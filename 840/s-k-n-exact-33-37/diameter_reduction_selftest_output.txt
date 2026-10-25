@@ -1,0 +1,4 @@
+minimum-zero sum/difference sets checked: 8191
+nonprimitive scaling checks: 235
+fixed-diameter reflection-clause checks: 8190
+DIAMETER REDUCTION SELF-TEST PASSED

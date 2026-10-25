@@ -1,0 +1,15 @@
+== N=35280 09:59:33
+  dirs 16 excluded 16 maxbound 0.9372 minV 0.5362
+== N=39600 10:01:21
+  dirs 16 excluded 16 maxbound 0.9867 minV 0.5919
+== N=41580 10:03:54
+  dirs 16 excluded 16 maxbound 0.9183 minV 0.5084
+== N=46800 10:09:37
+  dirs 16 excluded 16 maxbound 0.9214 minV 0.5306
+== N=50400 10:10:43
+  dirs 16 excluded 13 maxbound 1.0756 minV 0.5909
+== N=55440 10:18:58
+  dirs 16 excluded 7 maxbound 1.1768 minV 0.6672
+== N=63360 10:33:13
+  dirs 16 excluded 16 maxbound 0.9479 minV 0.5821
+BATCH small2 DONE 10:34:24

@@ -1,0 +1,30 @@
+Bridge293MutStmt.lean:212:33: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ‖↑k‖
+in the target expression
+  log (log ↑(OAI.Problem337.v k)) ≤ 2 * ‖↑k ^ 2‖
+
+k0 : ℕ
+h : ∀ (k : ℕ), k0 ≤ k → rexp (rexp (↑k / 600)) ≤ ↑(OAI.Problem337.v k) ∧ OAI.Problem337.v k ≤ 1 + k ^ 2 ^ (k - 1)
+hlow : ∀ (k : ℕ), k0 ≤ k → ↑k / 600 ≤ log (log ↑(OAI.Problem337.v k))
+hnat : ∀ (k : ℕ), 1 ≤ k → 1 + k ^ 2 ^ (k - 1) ≤ 2 ^ 4 ^ k
+hup : ∀ (k : ℕ), max k0 1 ≤ k → log (log ↑(OAI.Problem337.v k)) ≤ 2 * ↑k
+k : ℕ
+hk : max k0 1 ≤ k
+hk0 : k0 ≤ k
+hLL : 0 ≤ log (log ↑(OAI.Problem337.v k))
+⊢ log (log ↑(OAI.Problem337.v k)) ≤ 2 * ‖↑k ^ 2‖
+Bridge293MutStmt.lean:216:33: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ‖↑k‖
+in the target expression
+  ‖↑k ^ 2‖ ≤ 600 * log (log ↑(OAI.Problem337.v k))
+
+k0 : ℕ
+h : ∀ (k : ℕ), k0 ≤ k → rexp (rexp (↑k / 600)) ≤ ↑(OAI.Problem337.v k) ∧ OAI.Problem337.v k ≤ 1 + k ^ 2 ^ (k - 1)
+hlow : ∀ (k : ℕ), k0 ≤ k → ↑k / 600 ≤ log (log ↑(OAI.Problem337.v k))
+hnat : ∀ (k : ℕ), 1 ≤ k → 1 + k ^ 2 ^ (k - 1) ≤ 2 ^ 4 ^ k
+hup : ∀ (k : ℕ), max k0 1 ≤ k → log (log ↑(OAI.Problem337.v k)) ≤ 2 * ↑k
+k : ℕ
+hk : k0 ≤ k
+hLL : 0 ≤ log (log ↑(OAI.Problem337.v k))
+⊢ ‖↑k ^ 2‖ ≤ 600 * log (log ↑(OAI.Problem337.v k))
+Bridge293MutStmt rc=1 (must be nonzero)

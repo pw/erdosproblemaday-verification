@@ -1,0 +1,6 @@
+points 15061 unit pairs (geometry) 96228 instance says 96228
+unit-step 6-runs (geometry) 24600 instance says 24600
+origin index 1860 red? True | blue tag 
+red density 0.2043
+VIOLATIONS: red unit pairs 0 | all-blue 6-runs 0
+VERDICT: VALID l6-free colouring

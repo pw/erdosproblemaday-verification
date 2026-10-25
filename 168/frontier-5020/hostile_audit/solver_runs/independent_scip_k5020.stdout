@@ -1,0 +1,61 @@
+1/1 feasible solution given by solution candidate storage, new primal bound 3.347000e+03
+
+permute transformed problem using random seed 271828
+presolving:
+(round 1, exhaustive) 0 del vars, 0 del conss, 0 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 4895 upgd conss, 0 impls, 0 clqs, 0 implints
+(round 2, fast)       47 del vars, 0 del conss, 0 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 4895 upgd conss, 0 impls, 0 clqs, 0 implints
+   (0.1s) probing: 51/4971 (1.0%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.1s) probing aborted: 50/50 successive totally useless probings
+   (0.1s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.1s) no symmetry present (symcode time: 0.00)
+presolving (3 rounds: 3 fast, 2 medium, 2 exhaustive):
+ 49 deleted vars, 1 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 48 changed coefficients
+ 0 implications, 46 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 4971 variables (4971 bin, 0 int, 0 cont) and 4894 constraints
+   4894 constraints of type <logicor>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 0.10
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  4.9s|     1 |     0 | 10994 |     - |    47M |   0 |4971 |4894 |4893 |   0 |  0 |   0 |   0 | 3.356493e+03 | 3.347000e+03 |   0.28%| unknown
+  8.4s|     1 |     0 | 11126 |     - |    62M |   0 |4971 |4894 |4908 |  15 |  1 |   0 |   0 | 3.355237e+03 | 3.347000e+03 |   0.25%| unknown
+ 10.8s|     1 |     0 | 11423 |     - |    64M |   0 |4971 |4894 |4927 |  34 |  2 |   0 |   0 | 3.353817e+03 | 3.347000e+03 |   0.20%| unknown
+ 13.3s|     1 |     0 | 11629 |     - |    67M |   0 |4971 |4894 |4939 |  46 |  3 |   0 |   0 | 3.352958e+03 | 3.347000e+03 |   0.18%| unknown
+ 15.9s|     1 |     0 | 11810 |     - |    72M |   0 |4971 |4894 |4951 |  58 |  4 |   0 |   0 | 3.351903e+03 | 3.347000e+03 |   0.15%| unknown
+ 18.5s|     1 |     0 | 12094 |     - |    72M |   0 |4971 |4894 |4958 |  65 |  5 |   0 |   0 | 3.351408e+03 | 3.347000e+03 |   0.13%| unknown
+ 20.9s|     1 |     0 | 12261 |     - |    74M |   0 |4971 |4894 |4963 |  70 |  6 |   0 |   0 | 3.351231e+03 | 3.347000e+03 |   0.13%| unknown
+ 23.3s|     1 |     0 | 12308 |     - |    74M |   0 |4971 |4894 |4969 |  76 |  7 |   0 |   0 | 3.351004e+03 | 3.347000e+03 |   0.12%| unknown
+ 25.6s|     1 |     0 | 12332 |     - |    75M |   0 |4971 |4894 |4972 |  79 |  8 |   0 |   0 | 3.350904e+03 | 3.347000e+03 |   0.12%| unknown
+ 27.9s|     1 |     0 | 12372 |     - |    75M |   0 |4971 |4894 |4976 |  83 |  9 |   0 |   0 | 3.350672e+03 | 3.347000e+03 |   0.11%| unknown
+ 30.3s|     1 |     0 | 12417 |     - |    77M |   0 |4971 |4894 |4984 |  91 | 10 |   0 |   0 | 3.350508e+03 | 3.347000e+03 |   0.10%| unknown
+ 31.5s|     1 |     0 | 12579 |     - |    77M |   0 |4971 |4894 |4991 |  98 | 11 |   0 |   0 | 3.350184e+03 | 3.347000e+03 |   0.10%| unknown
+ 32.7s|     1 |     0 | 12699 |     - |    78M |   0 |4971 |4894 |5001 | 108 | 12 |   0 |   0 | 3.349934e+03 | 3.347000e+03 |   0.09%| unknown
+ 33.9s|     1 |     0 | 12794 |     - |    79M |   0 |4971 |4894 |5006 | 113 | 13 |   0 |   0 | 3.349842e+03 | 3.347000e+03 |   0.08%| unknown
+ 35.1s|     1 |     0 | 12897 |     - |    79M |   0 |4971 |4894 |5013 | 120 | 14 |   0 |   0 | 3.349610e+03 | 3.347000e+03 |   0.08%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+ 36.2s|     1 |     0 | 12972 |     - |    80M |   0 |4971 |4894 |5017 | 124 | 15 |   0 |   0 | 3.349511e+03 | 3.347000e+03 |   0.08%| unknown
+ 45.5s|     1 |     2 | 12974 |     - |    84M |   0 |4971 |4894 |5017 | 124 | 15 |   0 |  26 | 3.349265e+03 | 3.347000e+03 |   0.07%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 122.04
+Solving Nodes      : 15
+Primal Bound       : +3.34700000000000e+03 (327 solutions)
+Dual Bound         : +3.34700000000000e+03
+Gap                : 0.00 %
+{
+  "k": 5020,
+  "points": 5020,
+  "edges": 4895,
+  "start_size": 3347,
+  "status": "optimal",
+  "objective": 3347.0,
+  "dual_bound": 3347.0,
+  "gap": 0.0,
+  "nodes": 15,
+  "lp_iterations": 15104,
+  "elapsed": 122.04063864098862,
+  "pyscipopt": "6.2.1",
+  "scip": "10.0.2",
+  "floating_mip": true,
+  "exact_mode": false
+}

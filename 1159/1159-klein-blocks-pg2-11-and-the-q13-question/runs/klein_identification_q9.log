@@ -1,0 +1,4 @@
+stabilizer order 168
+element orders {1: 1, 2: 21, 3: 56, 4: 42, 7: 48}
+normal closures by element order {2: 168, 4: 168, 3: 168, 7: 168} -> SIMPLE: True
+PSL(2,7) census: True

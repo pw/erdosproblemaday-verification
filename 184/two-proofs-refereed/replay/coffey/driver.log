@@ -1,0 +1,51 @@
+[2026-10-20T03:13:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:15:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:17:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:19:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:21:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:23:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:25:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:27:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:29:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:31:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:33:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:35:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:37:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:39:48Z] waiting(#85 t1_rep0 pid 2058325)
+[2026-10-20T03:41:48Z] waiting(OpenAI build done + GO)
+[2026-10-20T03:43:48Z] waiting(OpenAI build done + GO)
+[2026-10-20T03:45:48Z] waiting(OpenAI build done + GO)
+[2026-10-20T03:47:48Z] waiting(OpenAI build done + GO)
+[2026-10-20T03:49:48Z] waiting(OpenAI build done + GO)
+Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+[2026-10-20T03:51:48Z] repo HEAD: a11bb45847101e0d1595089bc390c59f82ad1135
+[2026-10-20T03:51:48Z] BEGIN build :: bash -c cd /tmp/oaimath/181/coffey/ws/formal && nice -n 19 ionice -c2 -n7 lake build EG EGTest EGCheck EGCheck.Final > /tmp/oaimath/181/coffey/logs/build.log 2>&1
+[2026-10-20T04:21:03Z] END build rc=0 elapsed=1755s
+[2026-10-20T04:21:03Z] BEGIN ourcheck :: bash -c cd /tmp/oaimath/181/coffey/ws/formal && nice -n 19 lake env lean --trust=0 /tmp/oaimath/181/coffey/probe/OurCheck.lean > /tmp/oaimath/181/coffey/logs/ourcheck.log 2>&1
+[2026-10-20T04:21:13Z] END ourcheck rc=0 elapsed=10s
+[2026-10-20T04:21:13Z] BEGIN wrongshape :: bash -c cd /tmp/oaimath/181/coffey/ws/formal && nice -n 19 lake env lean /tmp/oaimath/181/coffey/probe/WrongShape.lean > /tmp/oaimath/181/coffey/logs/wrongshape.log 2>&1
+[2026-10-20T04:21:22Z] END wrongshape rc=1 elapsed=9s
+[2026-10-20T04:21:22Z] BEGIN negcontrol :: bash -c cd /tmp/oaimath/181/coffey/ws/formal && nice -n 19 lake env lean /tmp/oaimath/181/coffey/probe/NegControl.lean > /tmp/oaimath/181/coffey/logs/negcontrol.log 2>&1
+[2026-10-20T04:21:31Z] END negcontrol rc=0 elapsed=9s
+[2026-10-20T04:21:31Z] wrongshape rc must be NONZERO: wrongshape 1 9; ours axioms: 'ours184' depends on axioms: [propext, Classical.choice, Quot.sound]
+[2026-10-20T04:21:31Z] waiting(other leanchecker)
+[2026-10-20T04:23:32Z] waiting(other leanchecker)
+[2026-10-20T04:25:32Z] waiting(other leanchecker)
+[2026-10-20T04:27:32Z] waiting(other leanchecker)
+[2026-10-20T04:29:32Z] waiting(other leanchecker)
+[2026-10-20T04:31:32Z] waiting(other leanchecker)
+[2026-10-20T04:33:32Z] waiting(other leanchecker)
+[2026-10-20T04:35:32Z] waiting(other leanchecker)
+[2026-10-20T04:37:32Z] waiting(other leanchecker)
+[2026-10-20T04:39:32Z] waiting(other leanchecker)
+[2026-10-20T04:41:32Z] waiting(other leanchecker)
+[2026-10-20T04:43:32Z] waiting(other leanchecker)
+[2026-10-20T04:45:32Z] waiting(other leanchecker)
+[2026-10-20T04:47:32Z] waiting(other leanchecker)
+[2026-10-20T04:49:32Z] waiting(other leanchecker)
+[2026-10-20T04:51:32Z] waiting(other leanchecker)
+[2026-10-20T04:53:32Z] BEGIN leanchecker_fresh :: bash -c cd /tmp/oaimath/181/coffey/ws/formal && nice -n 19 lake env leanchecker --fresh EGCheck.Final > /tmp/oaimath/181/coffey/logs/leanchecker_fresh.log 2>&1
+[2026-10-20T05:54:45Z] END leanchecker_fresh rc=0 elapsed=3673s
+[2026-10-20T05:54:45Z] BEGIN leanchecker_missing_control :: bash -c cd /tmp/oaimath/181/coffey/ws/formal && nice -n 19 lake env leanchecker --fresh EGCheck.DoesNotExist > /tmp/oaimath/181/coffey/logs/leanchecker_missing.log 2>&1
+[2026-10-20T05:54:51Z] END leanchecker_missing_control rc=1 elapsed=6s
+[2026-10-20T05:54:51Z] DONE — bank into verification/184/; then rm -rf /tmp/oaimath/181/coffey/ws/formal/.lake + /tmp/oaimath/181/coffey/home per the disk guard

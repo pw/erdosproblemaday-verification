@@ -1,0 +1,143 @@
+<p><strong>The problem</strong> (<a href="https://www.erdosproblems.com/341">erdosproblems.com/341</a>; Erdős–Graham 1980, "an old
+problem of Dickson"): start from a finite set <em>A</em> of positive integers and keep appending the least integer exceeding the last
+term that is not a sum <em>a<sub>i</sub></em> + <em>a<sub>j</sub></em> of two earlier terms (equal indices allowed). Is the sequence of
+gaps always eventually periodic? Zhiheng Li answered <em>no</em> in August 2026 with a 21-element seed inside [97]
+(<a href="/day/341-li-disproof-refereed">refereed here on 13 October</a>); <a href="/day/341-queneau-variant-not-periodic-either">a
+sibling seed answers Queneau's variant the same way</a>. Both counterexamples are engineered: a <em>shield</em> — a set of residue
+classes modulo 49 that are permanently in or permanently out — leaves three residue classes ("rails") whose content is governed by a
+self-similar controller, and the controller is what never repeats. <a href="/report/341">Our July working report</a> went the other way:
+an elementary finite certificate (check the recurrence through 2<em>N</em>+<em>q</em>−2 and one identity in ℤ/<em>q</em>) turned
+detected periods into proofs for <strong>4,094 of the 4,095 nonempty seeds inside [12]</strong>, and left exactly one,
+<strong><em>E</em> = {1, 4, 8, 10, 11, 12}</strong>, with a bounded wall: no period <em>q</em> ≤ 20,000 begins at or before 479,993. This entry is about that seed. Labels, as on every entry here: (a) elementary proof · (b) rigorous modulo a named theorem · (c) plausible, unverified · (d) computer-assisted. Everything below for <em>E</em> is under the equal-indices rule of the statement, as is the census; "both rules" means that rule and Queneau's distinct-indices variant. (The community database's chip still reads OPEN as of 2025-08-31; Li's disproof is a proof claim on the problem's page, not yet a database status.)</p>
+
+<p><strong>The wall, moved.</strong> A second bitset implementation of the greedy (carry-form shift-or, inner loop truncated
+at <em>N</em>−<em>t</em>; 50 s to 10⁷ where the 13 October binary took 26 min) is byte-identical to the old one on four runs (<em>E</em> to 2·10⁶ and to 10⁷; Li's seed to 10⁷ under each rule), reproduces the
+July report's SHA-256 of the membership bits through 500,000 (<code>3a045efe…</code>, computed by that report's pure-Python big-integer
+generator), and agrees with a set-based Python greedy the referee wrote from the
+statement on nine seeds under both rules. Run to 10⁸ it returns 15,621,235 elements (density 0.1562, largest gap 23). The gap word is
+then tested for exact periodicity with a border array (the smallest period of a suffix, in C and again in Python; a July-certified seed
+and a synthetic word periodic from a known index are the controls): <strong>with gap <em>i</em> = <em>a</em><sub><em>i</em>+1</sub> − <em>a<sub>i</sub></em> indexed from 0, the suffix of the gap word from gap 7,810,617 (its last 7,810,617 gaps) has no period of 3,905,308 or fewer, so no gap period of at most 3,905,308 terms begins at or before term 7,810,617, i.e. at or before <em>a</em><sub>7,810,617</sub> = 49,993,396</strong>. That is the exact scope — a
+period of at most 3,905,308 terms with an earlier onset would appear in the suffix — and it says nothing about longer periods or
+later onsets. A membership period <em>q</em> beginning at <em>x</em>₀ ≤ <em>a</em><sub>7,810,617</sub> would induce a gap period
+of |<em>S</em> ∩ [<em>x</em>₀, <em>x</em>₀+<em>q</em>)| ≤ 0.1562<em>q</em> + 3,074 terms (1,537 bounds the deviation of the count from
+0.1562<em>x</em> over every <em>x</em> ≤ 10⁸, transient included), so every membership period up to 2.49·10⁷ with onset at or before
+49,993,396 is excluded; July's bound was 20,000 and 479,993. The defining recurrence
+<em>x</em> ∈ <em>S</em> ⟺ <em>x</em> ∉ <em>S</em>+<em>S</em> was re-checked from scratch on windows of the 10⁸ output by a program that
+iterates over summands rather than positions (windows of 200,000 at the start, at 5·10⁷ and at the end; 0 violations; flipping one membership bit inside a window is caught,
+and the equal/distinct flag is exercised on the seed {1, 2}, where the two rules part at 4). Membership SHA-256 through 10⁸:
+<code>2f601a42d88bdcc4d2f9c52399775a75386522769c29e4c5e2feb576cbad0517</code>. All of this is computation, label (d); none of it is a proof of aperiodicity, and the entry does not claim one.</p>
+
+<p><strong>What the sequence does instead: a rotation, five arcs, and fuzzy edges.</strong> Two thirds of the gaps are 7
+(through 10⁷: 1,062,394 sevens among 1,562,162 gaps, then 260,680 twos, 75,728 sixes, 70,609 fives, 46,567 thirteens, 34,892 fifteens,
+10,574 nines). (All of this paragraph and the next is measurement, label (d), except where a reading is named.) Over [5·10⁶, 10⁷] every residue
+class modulo every <em>m</em> ≤ 400 holds between 0.83 and 1.18 of the average (worst at <em>m</em> = 328), and over [10⁷, 10⁸] no class modulo any <em>m</em> ≤ 10,000 is empty (the most depleted is 0.44 of the mean at <em>m</em> = 8,528, the fullest 1.67 at <em>m</em> = 8,528 — the same modulus, a convergent denominator of <em>g</em>, see below): nothing is permanently in or out at any small modulus, which is the first thing Li's
+construction needs. The autocorrelation of the indicator on [2·10⁶, 10⁷] has record peaks at shifts 130, 253, 636, 889, 1,655, 9,547 and
+27,875 (exact agreement 96.2%, 96.7%, 97.1%, 97.8%, 98.2%, 98.7%, 98.8%); on [2·10⁷, 10⁸] the same ladder recurs with 7,892 added,
+and the exact agreement at the strongest candidates there is 98.90% at 27,875, 98.89% at 37,422, 98.85% at 57,405 — no shift up to
+4·10⁷ does better. What these numbers are the shadow of is the <strong>Fourier transform</strong>. The power spectrum
+on [2·10⁶, 10⁷] is concentrated on sharp peaks — the 40 largest carry 85% of the variance where a random set of the same density would put
+0.007% there — and the two largest, <em>f</em>₁ = 0.438672574 and <em>f</em>₂ = 0.138367745, satisfy <strong>4<em>f</em>₁ + 9<em>f</em>₂ ≡ 0
+(mod 1)</strong> to 0.015 of a frequency bin (the hostile referee's catch — a first draft of this entry had read them as independent and
+called the set a two-frequency quasicrystal; the chance of a relation that close is about 3·10⁻⁶). So the module the peaks span is
+<em>cyclic</em>: with <em>g</em> = −<em>f</em>₁ − 2<em>f</em>₂ ≈ <strong>0.284591936</strong> (0.28459193622 from the referee's exact peak locations), every one of the 24 largest peaks and 36 of
+the 40 largest is an integer multiple <em>m·g</em> mod 1 (a separate one-generator fit with |<em>m</em>| ≤ 100; the multiples used reach
+82, residuals ≤ 0.013 bin; the other four are three window sidelobes and one stray), and about 81–83% of the whole variance sits on ℤ<em>g</em>; 17–19% does not. The near-periods include the convergent
+denominators of <em>g</em> = [0; 3, 1, 1, 17, 1, 1, 1, 1, 2, 1, 2, 1, …] (later partial quotients are beyond the data's precision): those
+denominators are 3, 4, 7, 123, 130, 253, 383, 636, 1,655, 2,291, 6,237, 8,528, 23,293, 31,821 — the 7 that two thirds of the gaps hit, and
+130, 253, 636, 1,655 from the ladder. The ladder does not simply track ‖<em>qg</em>‖: 889 = 253 + 636 is a record at ‖889<em>g</em>‖ = 0.0022
+while 383 (0.0013), 2,291 (0.00013) and 6,237 (0.00009) are better approximations and not records, and 9,547 (0.0008) and 27,875
+(0.0002) are not convergents at all — agreement at a shift is set by the rotation and by the edge zones described next, and the second
+is no function of ‖<em>qg</em>‖. At the largest convergent denominator in range the residue census does look like a shield: modulo 31,821
+(‖31,821<em>g</em>‖ ≈ 2.5·10⁻⁶) four fifths of the classes are empty in each of three disjoint windows of 3·10⁷, with about 3% of them
+changing from one window to the next — not because they are forbidden but because the rotation has barely moved through them; that is
+the opposite of a shield, and the SAT census below does not cover such moduli.</p>
+
+<p>The rotation is not a metaphor. Plot each integer <em>x</em> of a window at its phase <em>t</em>(<em>x</em>) = {<em>xg</em>} on the
+circle. On [9·10⁶, 10⁷], at a resolution of 1,000 bins, the circle splits into three kinds of phase: <strong>four flat cores</strong>
+(0.139–0.173, 0.367–0.403, 0.599–0.637 and a sliver at 0.832–0.834; together 11.0% of the circle) on which all but 34 of the 110,000
+integers are in <em>S</em>; a <strong>deep complement</strong> (79.5% of the circle) on which all but 42 of the 795,003 integers are out;
+and <strong>edge zones</strong> around the cores (9.5% of the circle, including a fifth, entirely fuzzy arc at 0.925–0.947) where membership
+is about one half (48.7%; between 37% and 62% zone by zone). The same three-way split, with the same arcs, appears on [2·10⁶, 3·10⁶] and
+on three windows of the 10⁸ run (at 2·10⁷, 5·10⁷ and 9.9·10⁷: 16–35 core exceptions, 39–43 deep ones, edge membership 49–51%). In other
+words: to within those few dozen exceptions in a million, away from the edges of the arcs <em>E</em>'s extension is the coding
+{<em>x</em> : {<em>xg</em>} ∈ <em>W</em>} of a single irrational-looking rotation by a window <em>W</em> of five arcs (four with flat cores,
+the fifth all edge), and the greedy arithmetic decides membership only inside the edge zones. The arcs are sum-free
+on the circle (no sum of two core phases lands on a core), which is the sum-free half of the greedy; but the sumset of the cores covers only
+59% of the circle — two thirds of the 89% that lies outside the cores — and it is the edge elements, pairs of them and pairs with core
+elements, that cover the rest, which the data confirm directly: on the window the phases of <em>S</em>+<em>S</em> fill the deep complement
+at uniform density (and about half of each edge zone) and the recurrence has 0 violations. Calkin and Erdős showed the simplest instance of
+why a clean coding cannot do this alone: the interval codings {<em>n</em> : {<em>nα</em>} ∈
+(1/3, 2/3)} are aperiodic sum-free sets that are never complete, hence never greedy extensions ("Unfortunately there is currently no way to
+show that these sets are aperiodic", they wrote of two computed greedy sets). <em>E</em> is a greedy extension that is a rotation coding
+except on edge zones a tenth of the circle wide — the price of completeness, and the place where any proof has to work. Two more
+measurements fit the picture, one of them with a twist: the counting function's deviation from its density line, measured after the
+transient with the density refitted, is 215 on [2·10⁶, 10⁷] where three random sets of the same density give 480–1,060, and 1,064 on
+[2·10⁷, 10⁸] where random sets give 2,174–3,482 — a third to a half of random, but growing, which is not the bounded discrepancy of a pure rotation
+coding and is about what a random-walk-like contribution from the edge zones would produce; and the factor complexity of the gap word is
+sample-limited at every scale we have (<em>p</em>(100) on the second half of the 10⁸ word is 630,455, 8% of the available windows) and
+supports no exponent. Our conjecture, label
+(c): the greedy from <em>E</em> is an irrational rotation coding with a five-arc window plus a residual concentrated on the arcs' edges;
+it is not eventually periodic. Under this reading the periodicity question and the irrationality of <em>g</em> are the same question —
+a rational <em>g</em> = <em>p</em>/<em>q</em> with <em>q</em> beyond the present precision would give an identical spectrum and a period of
+at least that <em>q</em>, which is why the border-array bound and not the spectrum is the rigorous statement. If the conjecture is true,
+<em>E</em> is the smallest counterexample by largest element (every seed inside [11] certifies); if {3, 5, 8, 10, 13} below is aperiodic
+too, it is the smallest by number of elements among seeds inside [14], five against <em>E</em>'s six. And <em>E</em> is not alone: the census below turned up {3, 5, 8, 10, 13}, whose extension has gaps mostly 11 (33%), density 0.1189, no rail
+at any <em>m</em> ≤ 400, a near-period ladder 110, 1,393, 1,503 = 110 + 1,393, 2,896 = 1,393 + 1,503, 43,093 with agreement never above
+98.5% for shifts up to 3.3·10⁶ on data through 10⁷, no gap period ≤ 297,128 terms from term 594,256, and a spectrum on a module of rank two (generators 0.4637413 and 0.0545564 — the referee found an integer relation among a first draft's three candidates; holding 26 of its 40 largest peaks and 67% of its variance, so less of it is explained by two frequencies than of <em>E</em> by one) — but a post-transient discrepancy of
+3,234 against ~800 for a random set, so it is a different animal, not <em>E</em> with other constants. Four more came out of the same census with the same coarse signature (no rail, a sharp spectrum, an unclosed ladder): {2, 4, 6, 9, 10, 11, 13} (gaps mostly 8 (43%) and 7 (31%), density 0.1252, no rail at any <em>m</em> ≤ 400, near-period ladder 23, 644, 3,515, 7,674, 22,401 with exact agreement never above 97.6%, a rank-two module of generators 0.2608812 and 0.1288779 holding 36 of its 40 largest peaks and 75% of the variance); {2, 6, 8, 9, 10, 11, 14} (gaps 1 (38%), 3 (25%) and 16, 12, 15 at about a tenth each, density 0.1646, ladder 145, 560, 705 = 145 + 560, 1,934, 2,639 = 705 + 1,934, 10,411 with agreement never above 99.3%, rank two, generators 0.2481987 and 0.0553261, 38 of 40 peaks, 81%); {3, 6, 8, 9, 12, 14} (gaps 2 (32%), 13 (27%), 5 (19%), density 0.1255, ladder 652, 1,539, 10,404, 21,460, 31,864 with agreement never above 98.0%, rank two, generators 0.3957130 and 0.4554984, 32 of 40 peaks, 75%; its census mod 229 has classes at a third of the mean but a different class in each window — a near-period seen through a window, not a rail); and {4, 6, 8, 9, 10, 13, 14} (gaps 2 (29%), 15 (28%), 1 (20%), 3 (16%), density 0.1480, exact agreement 99.5% at shift 83,313 and never higher for shifts up to 3.3·10⁶ on data through 10⁷, post-transient discrepancy 234 against 484–855 for random sets, rank two, generators 0.0526088 and 0.3381585, 30 of 40 peaks, 80%). None of the other five is a rotation coding in the near-exact sense <em>E</em> is on its cores; whether each has its own window on a torus of the module's rank is the obvious next measurement.</p>
+
+<p><strong>Why Li's shield is not what <em>E</em> is doing, and why no Li-type seed is smaller (within the diagonal-gate design).</strong> Li's argument needs two things: a
+<em>shield</em> — residue classes mod <em>M</em> that the seed makes permanently in (<em>B</em>) or permanently out (<em>D</em>, the
+seed-only classes), arranged so that every sum landing on a rail comes from the diagonal of the <em>preceding</em> rail (7 + 7 lands on 14)
+— and a doubling cycle of rails <em>x</em>, 2<em>x</em>, 4<em>x</em>, … ≡ <em>x</em> (mod <em>M</em>) on which the forced dynamics
+<em>Y</em><sub><em>i</em>+1</sub>[<em>q</em>] = [<em>q</em> ∉ <em>Y<sub>i</sub></em> + <em>Y<sub>i</sub></em>] never repeat.
+<em>E</em> has no shield at any modulus ≤ 10,000 by measurement (no empty class on [10⁷, 10⁸], none above 1.67 times the mean), and at
+the one large convergent denominator in range where its census does look shielded, 31,821, the emptiness is the rotation, not a rule. The second ingredient we settled as a finite question in its own
+right. There are 94 pure doubling cycles at moduli below Li's 49 (lengths 2 to 36; for instance the eight-cycle {1, 2, 4, 8, 16, 15, 13, 9}
+mod 17 and the 23-cycle mod 47). For each we encoded his Lemma 3.1 conditions — cover: every non-rail, non-permanent residue is a sum of a
+permanent class with a permanent, rail or seed-only class; avoid: no such sum, and no seed-only-plus-rail sum, lands on a rail or a
+permanent class; only diagonal rail pairs reach a rail — as SAT and ran CaDiCaL. <strong>Seventy-nine of the 94 are infeasible</strong>:
+50 because a mixed rail sum already lands on a rail (every cycle of length 8 or more — 36 of them — and fourteen of the twenty-four four- and six-cycles, at
+<em>M</em> = 5, 9, 10, 15, 18, 20, 25, 27, 30, 35, 36, 40, 45), 29 by the solver: all twelve three-rail cycles at <em>M</em> = 7, 14, 21, 28, 35,
+42, all six five-rail cycles at <em>M</em> = 31, the other ten four- and six-cycles (<em>M</em> = 15, 21, 30, 42, 45) and the two-rail cycle
+at <em>M</em> = 3. The 15 that are satisfiable are the two-rail cycles {<em>M</em>/3, 2<em>M</em>/3}
+for 6 ≤ <em>M</em> ≤ 48 (the sixteenth, <em>M</em> = 3, is infeasible), and a two-rail controller has the same forced dynamics at every such
+<em>M</em> (carry 0 on the first rail, 1 on the second): from every initial rail content on <em>q</em> ≤ 1, 2 and 3 (16, 64 and 256 contents,
+both rules) it showed a period of at most 9 on [2¹⁵, 2¹⁶) — detected, not certified, but the aperiodic three-rail contents at <em>M</em> = 49
+show no period at all on the same test. The positive control at <em>M</em> = 49 is SAT, admits Li's own <em>B</em> = {3, 22, 32, 40, 48},
+<em>D</em> = {1, 2, 5, 13, 27, 36, 47} when they are forced, is UNSAT when permanent classes are forbidden, and its three-rail dynamics are
+aperiodic from 23 of the 27 initial contents with every rail nonempty on <em>q</em> ≤ 1 (Lemma 5's hypothesis; 3³ = 27), reproducing
+the 13 and 14 October findings. The referee pushed two steps further with an
+encoder written independently from Li's paper: the same 50/29/15 on all 94 cycles; <strong>no shield for any union of two or more
+doubling cycles containing a cycle of length ≥ 3, at any modulus below 49</strong> (320 instances: 316 fail on a mixed sum, 4 are UNSAT);
+and a MaxSAT minimisation at <em>M</em> = 49 showing that both three-cycles need |<em>D</em>| + 2|<em>B</em>| ≥ 17 — Li's own 7 + 2·5 — so
+within the model seed = <em>D</em> ∪ <em>B</em> ∪ (<em>M</em>+<em>B</em>) ∪ rails, with his four rail elements (7, 28, 56, 63), his 21 elements
+are the fewest the architecture can produce with that rail content. So for every cycle of length three or more, 49 is the least modulus,
+and since a Li-type seed contains the elements <em>M</em> + <em>B</em>, every seed inside [49] is out of Li's reach. Label (d): a
+finite census of one mechanism (diagonal-only gates), not a theorem about all mechanisms — a controller fed by mixed rail sums is an
+architecture nobody has tried.</p>
+
+<p><strong>One step up.</strong> (The machinery is (d); each certificate it accepts is a proof by the July lemma, (a).) The July machinery (greedy to 2·10⁵, then 2·10⁶, border-array period detection, finite certificate)
+was run over every seed with largest element 13 and every seed with largest element 14 — 4,096 and 8,192 seeds, with
+{1, 2, 7, 8, 10, 11, 12} (membership period 2,039 — gap period 204 — from 95,787) as the late-certifying positive control and <em>E</em> as the negative one.
+Of the 4,096 seeds with largest element 13, <strong>4,094 certify</strong> — every one at the first stage (greedy to 2·10⁵), the longest membership period 743 ({1, 2, 6, 9, 10, 11, 13}) and the latest onset 1,653 ({2, 5, 7, 11, 12, 13}) — and two resist: {3, 5, 8, 10, 13} and {2, 4, 6, 9, 10, 11, 13}. Of the 8,192 seeds with largest element 14, <strong>8,188 certify</strong> — two of them only at the second stage, with the largest certificates in the whole census: {1, 2, 4, 9, 10, 12, 13, 14} has membership period 18,673 from 586,748, and {1, 4, 5, 7, 10, 12, 13, 14} period 87,921 from 677,409 (the finite certificate was checked through 2·677,409 + 87,921 − 2) — and four seeds resist: {2, 6, 8, 9, 10, 11, 14}, {3, 6, 8, 9, 12, 14}, {4, 6, 8, 9, 10, 13, 14}, and {3, 5, 8, 10, 13, 14}, which is not new (14 is the greedy's own next term after {3, 5, 8, 10, 13}, so the two seeds generate one sequence). Together with July's [12] that is 16,376 of 16,383 nonempty seeds inside [14] with an all-future certificate (zero tool errors in the final, fixed run); the other seven seeds, generating <strong>six distinct resisting sequences</strong>, resist — every one with no gap period through 10⁷ at the border-array scope, no residue rail at any <em>m</em> ≤ 400, a sharp-peaked spectrum on a frequency module of rank one or two, and a near-period ladder that never closes. No seed anywhere in the census sat between the two behaviours for long: it certifies by 2·10⁶ or it belongs to the class. What these six seeds have in common beyond that, we do not know; nothing in their elements announces it, and which seeds do this is open.</p>
+
+<p><strong>Controls and what is not claimed.</strong> Generator: four byte-identical runs against the 13 October binary, the
+July SHA, and the referee's own set-based Python greedy on nine seeds. Period test: C and Python border arrays agree; a periodic control
+(the July-certified {1, 2, 7, 8, 10, 11, 12}, gap period 204, membership period 2,039) and a synthetic word periodic from a known index are
+detected from the right suffixes and not from the wrong ones. Recurrence: window checks at the start, middle and end of the 10⁸ output, with bit-flip and rule-flag
+negative controls. Spectrum: peak frequencies evaluated exactly by direct sums over the elements rather than read off the FFT grid, sidelobes excluded
+from the generator search (three remain among the 40 largest raw peaks), integer relations among candidate generators searched to
+coefficients 50 — the test that a first draft lacked. Phase picture: the same arcs on two disjoint
+windows. Shield SAT: Li's instance recovered with his sets forced, UNSAT when permanent classes are forbidden, reproduced by the referee's
+encoder. Controller census: reproduces the 23-of-27 aperiodic three-rail contents at <em>M</em> = 49, and the model's rail contents match
+the real greedy from seeds of the form <em>D</em> ∪ <em>B</em> ∪ (<em>M</em>+<em>B</em>) ∪ rails for 1,500 blocks at <em>M</em> = 6 and 49. Seed census: a seed whose certificate fell inside its own
+range crashed <code>certify.py</code>, and the first census driver read the crash as "unresolved" — the direction that invents a finding
+({2, 3, 5, 9, 13}, which is 4-periodic from its third term, was a false survivor for twenty minutes); the fix the referee required is in
+place — a crash now exits with its own code and the driver accepts only a clean "NOT CERTIFIED" as a failure — and every survivor was
+re-run through the standalone path, where none ever reached the certificate stage (no candidate period exists at 2·10⁶). The hostile
+referee's report, with every objection and what was done about it, is in the bundle. <em>Not claimed:</em> that <em>E</em> is aperiodic
+(conjectured, (c)); that <em>g</em> is irrational (part of the same conjecture — a rational <em>g</em> with a denominator beyond the data's
+precision is indistinguishable from the spectrum, and any finite-window statistic is also the statistic of a periodic set with period at
+least the window); that no other mechanism, for instance a controller fed by mixed rail sums, could produce or prove <em>E</em>'s behaviour; anything about the problem's status, which Li settled. Artefacts:
+<a href="https://github.com/pw/ErdosProblemADay.com/tree/main/verification/341/seed-e-through-1e8">verification/341/seed-e-through-1e8</a>.</p>

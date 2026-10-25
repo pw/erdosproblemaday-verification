@@ -1,0 +1,14 @@
+URL https://oeis.org/A297350/b297350.txt
+HTTP/2 200 
+date: Tue, 11 Aug 2026 16:06:52 GMT
+content-length: 441
+last-modified: Thu, 08 Feb 2018 07:49:31 GMT
+URL https://oeis.org/A357018/b357018.txt
+HTTP/2 200 
+date: Tue, 11 Aug 2026 16:06:52 GMT
+content-length: 294
+URL https://oeis.org/A256435/b256435.txt
+HTTP/2 200 
+date: Tue, 11 Aug 2026 16:06:53 GMT
+content-length: 149884
+last-modified: Thu, 08 Feb 2018 08:32:28 GMT

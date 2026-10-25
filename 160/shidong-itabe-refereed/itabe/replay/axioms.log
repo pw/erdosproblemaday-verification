@@ -1,0 +1,118 @@
+ErdosProblems.E160.siteH_le_rpow_oneThird_add_epsilon_eventually : ∀ (ε : Real)
+  (hε : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ε),
+  @Filter.Eventually.{0} Nat
+    (fun (N : Nat) =>
+      @LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast (ErdosProblems.E160.siteH N))
+        (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+          (@Nat.cast.{0} Real Real.instNatCast N)
+          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+              (@OfNat.ofNat.{0} Real (nat_lit 3)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))))
+            ε)))
+    (@Filter.atTop.{0} Nat Nat.instPreorder)
+ErdosProblems.E160.siteH_oneThirdPlusEpsilon_unified_isBigO : ∀ (ε : Real)
+  (hε : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ε),
+  @Asymptotics.IsBigO.{0, 0, 0} Nat Real Real Real.norm Real.norm (@Filter.atTop.{0} Nat Nat.instPreorder)
+    (fun (n : Nat) => @Nat.cast.{0} Real Real.instNatCast (ErdosProblems.E160.siteH n)) fun (n : Nat) =>
+    @HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+      (@Nat.cast.{0} Real Real.instNatCast n)
+      (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+          (@OfNat.ofNat.{0} Real (nat_lit 3)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))))
+        ε)
+def ErdosProblems.E160.siteH : (n : Nat) → Nat :=
+fun (n : Nat) =>
+  @InfSet.sInf.{0} Nat Nat.instInfSet
+    (@setOf.{0} Nat fun (k : Nat) =>
+      @Exists.{1}
+        ((@Subtype.{1} Nat fun (x : Nat) =>
+            @Membership.mem.{0, 0} Nat (Finset.{0} Nat)
+              (@SetLike.instMembership.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat))
+              (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+                (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)
+              x) →
+          Fin k)
+        fun
+          (colouring :
+            (@Subtype.{1} Nat fun (x : Nat) =>
+                @Membership.mem.{0, 0} Nat (Finset.{0} Nat)
+                  (@SetLike.instMembership.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat))
+                  (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)
+                  x) →
+              Fin k) =>
+        ∀ (progression : Set.{0} Nat),
+          And
+              (@HasSubset.Subset.{0} (Set.{0} Nat) (@Set.instHasSubset.{0} Nat) progression
+                (@SetLike.coe.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat)
+                  (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)))
+              (ErdosProblems.E160.IsFourTermAP progression) →
+            @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+              (@Set.ncard.{0} (Fin k)
+                (@Set.image.{0, 0}
+                  (@Subtype.{1} Nat fun (x : Nat) =>
+                    @Membership.mem.{0, 0} Nat (Finset.{0} Nat)
+                      (@SetLike.instMembership.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat))
+                      (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+                        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)
+                      x)
+                  (Fin k) colouring
+                  (@setOf.{0}
+                    (@Subtype.{1} Nat fun (x : Nat) =>
+                      @Membership.mem.{0, 0} Nat (Finset.{0} Nat)
+                        (@SetLike.instMembership.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat))
+                        (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+                          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)
+                        x)
+                    fun
+                      (x :
+                        @Subtype.{1} Nat fun (x : Nat) =>
+                          @Membership.mem.{0, 0} Nat (Finset.{0} Nat)
+                            (@SetLike.instMembership.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat))
+                            (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+                              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)
+                            x) =>
+                    @Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) progression
+                      (@Subtype.val.{1} Nat
+                        (fun (x : Nat) =>
+                          @Membership.mem.{0, 0} Nat (Finset.{0} Nat)
+                            (@SetLike.instMembership.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat))
+                            (@Finset.Icc.{0} Nat Nat.instPreorder Nat.instLocallyFiniteOrder
+                              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n)
+                            x)
+                        x)))))
+def ErdosProblems.E160.IsFourTermAP : (progression : Set.{0} Nat) → Prop :=
+fun (progression : Set.{0} Nat) =>
+  @Exists.{1} Nat fun (a : Nat) =>
+    @Exists.{1} Nat fun (d : Nat) =>
+      And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) d)
+        (@Eq.{1} (Set.{0} Nat) progression
+          (@setOf.{0} Nat fun (x : Nat) =>
+            @Exists.{1} Nat fun (i : Nat) =>
+              And (@LT.lt.{0} Nat instLTNat i (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+                (@Eq.{1} Nat x
+                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) a
+                    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) i d)))))
+'ErdosProblems.E160.siteH_le_rpow_oneThird_add_epsilon_eventually' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'ErdosProblems.E160.siteH_oneThirdPlusEpsilon_unified_isBigO' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'ErdosProblems.E160.siteH_oneThirdPlusSubpower_unified_displayed' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'ErdosProblems.E160.natCubicColour_abba_free' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'ErdosProblems.E160.siteH_eq_sourceSurjectiveOriginalH_add_one' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]

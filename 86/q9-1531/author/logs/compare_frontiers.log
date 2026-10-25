@@ -1,0 +1,4 @@
+FRONTIER_COMPARISON=PASS public=1505 site=1506 new=1531 vs_site_common=1084 add=447 remove=422 vs_public_common=1059 add=472 remove=446
+public_sha256=0994be825ec39d115b65eb1436eace7c1be324448a6ec116d69c8a7e2a75d338
+site_sha256=883919d0e3c7d571aadd920ad539667338dfdb74efa24e61808fb41754db573c
+new_sha256=4592a484fcfa65ef9883843485a60ff7b8d3856e81b4a667ae9cf14536132a5a

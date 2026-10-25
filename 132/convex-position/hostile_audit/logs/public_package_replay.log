@@ -1,0 +1,24 @@
+Lean public-package hostile replay, 2026-08-11 UTC
+
+path=/home/exedev/erdos_scratch/erdos132_convex_public_20260811
+manifest_sha256=9af6dabf0ffcf8d86ee3176c9bd7d875e18f9b341fda6e1aa126f04cfbd43db5
+archive_extract_comparison=byte-identical
+
+MANIFEST_PASS files=7
+CONVEX_PROOF_PASS pair_counts=9996 regular_models=496 deleted_models=247 hexagon_vectors=2
+TAMPER_TESTS_PASS rejected=4 weakened_pair_count=detected
+PROBLEM 132 CONVEX-POSITION PACKAGE PASSED
+
+optimization_modes=normal,-O,-OO outputs identical
+independent_all_deleted_models=2585
+independent_huge_parity_cases=4
+n5_boundary=PASS
+n6_boundary=PASS
+changed_byte=REJECTED
+extra_file=REJECTED
+missing_file=REJECTED
+symlink=REJECTED
+fifo=REJECTED
+empty_directory=REJECTED
+third_party_or_site_bytes=ABSENT
+final_verdict=PASS_NARROW_CONVEX_THEOREM__OPEN_GAP_UNRESTRICTED

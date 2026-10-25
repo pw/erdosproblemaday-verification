@@ -1,0 +1,12 @@
+cube_q11_c4hi20_22: no verdict at bundle time (solver running) — not copied
+cube_q11_c4hi20_32: no verdict at bundle time (solver running) — not copied
+cube_q11_c4hi20_33: no verdict at bundle time (solver running) — not copied
+cube_q13_c4_22: no verdict at bundle time (solver running) — not copied
+cube_q13_c4_22_long: no verdict at bundle time (solver running) — not copied
+cube_q13_c4_32: no verdict at bundle time (solver running) — not copied
+cube_q13_c4_32_long: no verdict at bundle time (solver running) — not copied
+cube_q13_c4_33: no verdict at bundle time (solver running) — not copied
+cube_q13_c4_33_long: no verdict at bundle time (solver running) — not copied
+kissat_cube_q13_c4_22: no verdict at bundle time (solver running) — not copied
+kissat_cube_q13_c4_32: no verdict at bundle time (solver running) — not copied
+kissat_cube_q13_c4_33: no verdict at bundle time (solver running) — not copied

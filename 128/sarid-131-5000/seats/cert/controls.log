@@ -1,0 +1,33 @@
+[baseline] ok=True min_slack=0.000e+00 need=1.991011e-11   (2.3s)
+
+=== (i) mutation controls (each must FAIL) ===
+  gamma = 3/64 - 1e-6                                     -> FAIL  (min slack -6.000e-07 at host 37)
+  epsilon = 0 (sharp gamma = 3/64)                        -> FAIL  (min slack -3.982e-12 at host 23)
+  epsilon = 1.9910e-11 (just below needed)                -> FAIL  (min slack -2.199e-17 at host 23)
+  epsilon = 1.9911e-11 (just above needed) [must PASS]    -> pass  (min slack 0.000e+00 at host 0)
+  weight x1.01, one term at a time: 34/34 FAIL; still passing: []
+  weight x0.99, one term at a time: 34/34 FAIL (no monotonicity: a square's HOST coefficients can be negative, so shrinking a weight can lower the slack; all-fail in both directions = the certificate is a near-identity, slack ~1e-11)
+  one nonzero vector entry x1.001, one term at a time: 34/34 FAIL
+  reverse one vector's coordinate order: 34/34 FAIL
+  weight of term 0 negated                                -> FAIL  (min slack -2.242e-02 at host 18)
+  host census: dropping a host is caught by the 38-class assertion in myverify.main (two routes).
+
+=== (ii) expansion controls on step graphons, exact ===
+  C5 (uniform): t(C4) direct=6/125 via hosts=6/125 OK; rho direct=2/5 via hosts=2/5 OK; rho^3 OK
+     34 averaged squares: direct == host-expansion for 34/34; all direct values >= 0;  g(W)=2.750000e-03  sum w*E[f^2]=2.750000e-03  g - sos = 7.729791e-12  (1s)
+  Petersen (uniform): t(C4) direct=3/200 via hosts=3/200 OK; rho direct=3/10 via hosts=3/10 OK; rho^3 OK
+     34 averaged squares: direct == host-expansion for 34/34; all direct values >= 0;  g(W)=2.062500e-03  sum w*E[f^2]=2.062500e-03  g - sos = 5.763889e-12  (21s)
+  Clebsch (uniform): t(C4) direct=65/4096 via hosts=65/4096 OK; rho direct=5/16 via hosts=5/16 OK; rho^3 OK
+     34 averaged squares: direct == host-expansion for 34/34; all direct values >= 0;  g(W)=6.250000e-12  sum w*E[f^2]=2.542581e-13  g - sos = 5.995742e-12  (162s)
+  Clebsch: t(C4)=65/4096, rho=5/16 reproduced; g = eps*rho exactly? True
+  random weighted tf graph n=5 w=[4, 5, 4, 3, 3]: t(C4) direct=7328/130321 via hosts=7328/130321 OK; rho direct=136/361 via hosts=136/361 OK; rho^3 OK
+     34 averaged squares: direct == host-expansion for 34/34; all direct values >= 0;  g(W)=2.042152e-02  sum w*E[f^2]=2.042152e-02  g - sos = 7.471398e-12  (4s)
+  random weighted tf graph n=5 w=[4, 2, 3, 2, 4]: t(C4) direct=1184/50625 via hosts=1184/50625 OK; rho direct=56/225 via hosts=56/225 OK; rho^3 OK
+     34 averaged squares: direct == host-expansion for 34/34; all direct values >= 0;  g(W)=1.963673e-02  sum w*E[f^2]=1.963673e-02  g - sos = 5.103262e-12  (2s)
+  random weighted tf graph n=6 w=[6, 3, 6, 5, 6, 4]: t(C4) direct=37/1875 via hosts=37/1875 OK; rho direct=4/15 via hosts=4/15 OK; rho^3 OK
+     34 averaged squares: direct == host-expansion for 34/34; all direct values >= 0;  g(W)=1.327037e-02  sum w*E[f^2]=1.255304e-02  g - sos = 7.173304e-04  (3s)
+  random weighted tf graph n=5 w=[3, 5, 2, 5, 3]: t(C4) direct=1105/13122 via hosts=1105/13122 OK; rho direct=35/81 via hosts=35/81 OK; rho^3 OK
+     34 averaged squares: direct == host-expansion for 34/34; all direct values >= 0;  g(W)=2.378748e-02  sum w*E[f^2]=2.378748e-02  g - sos = 8.540674e-12  (2s)
+
+ALL CONTROLS COMPLETE (232s)
+rc=0

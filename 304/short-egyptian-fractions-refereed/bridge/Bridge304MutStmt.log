@@ -1,0 +1,21 @@
+Bridge304MutStmt.lean:93:43: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ‖Real.log (Real.log ↑b)‖
+in the target expression
+  ↑(smallestCollectionTo b) ≤ c₂ * ‖Real.log (Real.log (Real.log ↑b))‖
+
+c₁ c₂ : ℝ
+b₀ : ℕ
+h :
+  ∀ (b : ℕ),
+    b₀ ≤ b →
+      c₁ * Real.log (Real.log ↑b) ≤ ↑(OAI.ShortEgyptian.maxMinLength b) ∧
+        ↑(OAI.ShortEgyptian.maxMinLength b) ≤ c₂ * Real.log (Real.log ↑b)
+b : ℕ
+hb : max b₀ 3 ≤ b
+hbb : b₀ ≤ b
+h3 : 3 ≤ ↑b
+hb0 : 0 < ↑b
+hlog1 : 1 ≤ Real.log ↑b
+hll : 0 ≤ Real.log (Real.log ↑b)
+⊢ ↑(smallestCollectionTo b) ≤ c₂ * ‖Real.log (Real.log (Real.log ↑b))‖
+Bridge304MutStmt rc=1 (must be nonzero)

@@ -1,0 +1,32 @@
+Problem 156 exact finite frontier verifier
+N=95, normalized diameter range 0..94
+k=1 raw_total=1 pruned_before_endpoint=0 endpoint_tests=1 endpoint_rejects=0 golomb=1 hull_covered=1 placements_N=0 digest=0xa1f838d9c1089e22 best_run=1 best_marks={0} best_interval=[0,0]
+k=2 raw_total=94 pruned_before_endpoint=0 endpoint_tests=94 endpoint_rejects=0 golomb=94 hull_covered=2 placements_N=0 digest=0x593411ecfd3dddc2 best_run=4 best_marks={0,1} best_interval=[-1,2]
+k=3 raw_total=4371 pruned_before_endpoint=0 endpoint_tests=4371 endpoint_rejects=47 golomb=4324 hull_covered=8 placements_N=0 digest=0xa71ff52a8bc3679a best_run=10 best_marks={0,1,3} best_interval=[-3,6]
+k=4 raw_total=134044 pruned_before_endpoint=2162 endpoint_tests=131882 endpoint_rejects=6378 golomb=125504 hull_covered=76 placements_N=0 digest=0xe6531119bc269f8b best_run=22 best_marks={0,1,5,7} best_interval=[-7,14]
+k=5 raw_total=3049501 pruned_before_endpoint=257715 endpoint_tests=2791786 endpoint_rejects=357080 golomb=2434706 hull_covered=1102 placements_N=0 digest=0xb6be4d4faab92021 best_run=42 best_marks={0,5,11,12,20} best_interval=[-12,29]
+k=6 raw_total=54891018 pruned_before_endpoint=13553378 endpoint_tests=41337640 endpoint_rejects=10743340 golomb=30594300 hull_covered=20166 placements_N=0 digest=0x639b07fbf86d9f13 best_run=67 best_marks={0,7,19,22,28,39} best_interval=[-15,51]
+CONCLUSION no maximal Sidon set of size <=6 in [1,n] for 68<=n<=95: CERTIFIED
+	Command being timed: "./verify_156_n95_differences"
+	User time (seconds): 21.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 139
+	Voluntary context switches: 1
+	Involuntary context switches: 137
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

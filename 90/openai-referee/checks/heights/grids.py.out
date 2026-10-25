@@ -1,0 +1,14 @@
+L4.3: max exact P(diff cell)/min(1,sqrt2 a e^-s) = 1.0000 (<=1 required)
+  a=0.01: int = 0.0141 <= (1+log sqrt2)(1+log+ a) = 1.3466
+  a=0.5: int = 0.7071 <= (1+log sqrt2)(1+log+ a) = 1.3466
+  a=0.707107: int = 1.0000 <= (1+log sqrt2)(1+log+ a) = 1.3466
+  a=1: int = 1.3466 <= (1+log sqrt2)(1+log+ a) = 1.3466
+  a=10: int = 3.6492 <= (1+log sqrt2)(1+log+ a) = 4.4472
+  a=1e+06: int = 15.1621 <= (1+log sqrt2)(1+log+ a) = 19.9502
+  point pair a=0.3: log+a=0.0000 <= 0.3466: True
+  point pair a=1: log+a=0.0000 <= 0.3466: True
+  point pair a=1.41421: log+a=0.3466 <= 0.3466: True
+  point pair a=5: log+a=1.6094 <= 1.6094: True
+  point pair a=100000: log+a=11.5129 <= 11.5129: True
+L4.5: mean over edges/shifts of int_R inconsistency = 2.214 <= log2 + 2sqrt2 = 3.522; max(MC P(incons) - pointwise bound) = 0.0051 (<= ~0 up to MC noise)
+CONTROL (jumps d, d^2 instead of d, 1/d): mean int over s in [-20,20] of inconsistency = 5.20 (per-edge value grows linearly in |n_e|, see parabola_ctrl.py; random n_e in [-3,3] here)

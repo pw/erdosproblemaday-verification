@@ -1,0 +1,18 @@
+HeilbronnTriangle OAI.Problem355.heilbronn_power_lower_bound MATCH | lens 1206 1206
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+HeilbronnTriangle OAI.Problem355.almost_n_minus_two_refuted MATCH | lens 1039 1039
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+HeilbronnTriangle OAI.Problem355.Point MATCH | lens 56 56
+HeilbronnTriangle OAI.Problem355.triangleArea MATCH | lens 1155 1155
+HeilbronnTriangle OAI.Problem355.pointInUnitSquare MATCH | lens 669 669
+HeilbronnTriangle OAI.Problem355.pointsInUnitSquare MATCH | lens 416 416
+HeilbronnTriangle OAI.Problem355.triangleAreasAtLeast MATCH | lens 1076 1076
+HeilbronnTriangle OAI.Problem355.hasTriangleAreaAtMost MATCH | lens 1224 1224
+HeilbronnTriangle OAI.Problem355.heilbronnD MATCH | lens 100 100
+HeilbronnTriangle OAI.Problem355.heilbronnM MATCH | lens 357 357
+HeilbronnTriangle OAI.Problem355.heilbronnT MATCH | lens 137 137
+HeilbronnTriangle OAI.Problem355.heilbronnK MISMATCH | lens 391 376
+HeilbronnTriangle OAI.Problem355.heilbronnExponent MATCH | lens 515 515
+HeilbronnTriangle OAI.Problem355.eventualAlmostUpperBound MATCH | lens 964 964
+FAIL
+HeilbronnTriangle: 13 MATCH / 1 MISMATCH

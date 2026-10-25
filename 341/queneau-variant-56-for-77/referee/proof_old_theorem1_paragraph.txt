@@ -1,0 +1,5 @@
+**Proof of Theorem 1.** 49q + 7 ∈ S ⟺ q ∈ Y0. Y0 contains the blocks I_k = [8^k+1, 2·8^k] (8^k consecutive members)
+separated by [2·8^k + 1, 8^{k+1}] (6·8^k consecutive non-members). If the indicator of S were ultimately periodic
+with period h, then 49h would be an ultimate period of the indicator of Y0; a run of ≥ 49h consecutive non-members
+inside the periodic tail forces that tail to be identically 0, contradicting the later blocks. So the indicator of S
+is not ultimately periodic, and by Lemma 4 the gap sequence is not eventually periodic. ∎

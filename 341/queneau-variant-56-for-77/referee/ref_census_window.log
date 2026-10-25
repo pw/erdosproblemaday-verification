@@ -1,0 +1,4 @@
+controller Q: window [16384,32768): smallest period <= 8192 = none; distinct rail patterns in window = [2, 6]; positions where W changes: [16385]
+controller Q: window [16385,32768): smallest period <= 8192 = 1; distinct rail patterns in window = [2]; positions where W changes: []
+controller D: window [16384,32768): smallest period <= 8192 = none; distinct rail patterns in window = [4, 6]; positions where W changes: [32767]
+controller D: window [16385,32768): smallest period <= 8192 = none; distinct rail patterns in window = [4, 6]; positions where W changes: [32767]

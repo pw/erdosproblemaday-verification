@@ -1,0 +1,17 @@
+Bridge431C.lean erdos_431 MATCH
+   FC  : theorem erdos_431 : ¬ ∃ A B : Set ℕ, A.Infinite ∧ B.Infinite ∧ (A + B : Set ℕ) =ᶠ[Filter.cofinite] {n | n.Prime} := by
+   ours: theorem erdos_431 : ¬ ∃ A B : Set ℕ, A.Infinite ∧ B.Infinite ∧ (A + B : Set ℕ) =ᶠ[Filter.cofinite] {n | n.Prime} := by
+Bridge431C.lean erdos_431.variants.ostmann MISMATCH
+   FC  : theorem erdos_431.variants.ostmann : ∀ A B : Set ℕ, A.Nontrivial → B.Nontrivial → ((A + B) ∆ {n | n.Prime}).Infinite := by
+   ours: theorem erdos_431.variants.ostmann : ∀ A B : Set ℕ, A.Nontrivial → B.Nontrivial → ((A + B) ∆ {n | n.Prime}).Finite := by
+Bridge431M.lean erdos_431 MATCH
+   FC  : theorem erdos_431 : ¬ ∃ A B : Set ℕ, A.Infinite ∧ B.Infinite ∧ (A + B : Set ℕ) =ᶠ[Filter.cofinite] {n | n.Prime} := by
+   ours: theorem erdos_431 : ¬ ∃ A B : Set ℕ, A.Infinite ∧ B.Infinite ∧ (A + B : Set ℕ) =ᶠ[Filter.cofinite] {n | n.Prime} := by
+Bridge431M.lean erdos_431.variants.ostmann MISMATCH
+   FC  : theorem erdos_431.variants.ostmann : ∀ A B : Set ℕ, A.Nontrivial → B.Nontrivial → ((A + B) ∆ {n | n.Prime}).Infinite := by
+   ours: theorem erdos_431.variants.ostmann : ∀ A B : Set ℕ, A.Nontrivial → B.Nontrivial → ((A + B) ∆ {n | n.Prime}).Finite := by
+Bridge431C.lean 'open scoped Pointwise' PRESENT IN BOTH
+Bridge431C.lean 'open scoped symmDiff' PRESENT IN BOTH
+Bridge431M.lean 'open scoped Pointwise' PRESENT IN BOTH
+Bridge431M.lean 'open scoped symmDiff' PRESENT IN BOTH
+FC theorems: ['erdos_431', 'erdos_431.variants.ostmann']

@@ -1,0 +1,110 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+[2026-10-14T03:24:13Z] openai/math rev: 1581d4cbdd69a0faf34b2089614fe2a814316a6a
+[2026-10-14T03:24:13Z] mathlib rev: d13f23b723b8a846827a245b89c10fc7d3f11612
+[2026-10-14T03:24:13Z] BEGIN smoke :: bash -c cd /tmp/erdos0300/lean/probe && nice -n 19 lean Smoke.lean > /tmp/erdos0300/lean/logs/smoke.log 2>&1
+[2026-10-14T03:24:29Z] END smoke rc=0 elapsed=16s
+[2026-10-14T03:24:50Z] built 1/75 OAI.MeasureTheory.DyadicAvoidance.Model (21s)
+[2026-10-14T03:25:00Z] built 2/75 OAI.MeasureTheory.DyadicAvoidance.PeriodicBasic (10s)
+[2026-10-14T03:25:14Z] built 3/75 OAI.MeasureTheory.DyadicAvoidance.AdaptiveLabels (14s)
+[2026-10-14T03:25:26Z] built 4/75 OAI.MeasureTheory.DyadicAvoidance.AddressInjectivity (12s)
+[2026-10-14T03:25:37Z] built 5/75 OAI.MeasureTheory.DyadicAvoidance.CenterExposure (11s)
+[2026-10-14T03:25:53Z] built 6/75 OAI.MeasureTheory.DyadicAvoidance.GridSeparation (16s)
+[2026-10-14T03:26:05Z] built 7/75 OAI.MeasureTheory.DyadicAvoidance.FiniteTableModel (12s)
+[2026-10-14T03:26:15Z] built 8/75 OAI.MeasureTheory.DyadicAvoidance.OrderedRouting (10s)
+[2026-10-14T03:26:26Z] built 9/75 OAI.MeasureTheory.DyadicAvoidance.RoutingPath (11s)
+[2026-10-14T03:26:37Z] built 10/75 OAI.MeasureTheory.DyadicAvoidance.CenterRouteExposure (11s)
+[2026-10-14T03:26:47Z] built 11/75 OAI.MeasureTheory.DyadicAvoidance.ExposureUnionBound (10s)
+[2026-10-14T03:27:00Z] built 12/75 OAI.MeasureTheory.DyadicAvoidance.ExceptionalCenters (13s)
+[2026-10-14T03:27:11Z] built 13/75 OAI.MeasureTheory.DyadicAvoidance.CenterFailureBound (11s)
+[2026-10-14T03:27:25Z] built 14/75 OAI.MeasureTheory.DyadicAvoidance.FirstDefault (14s)
+[2026-10-14T03:27:36Z] built 15/75 OAI.MeasureTheory.DyadicAvoidance.FiniteTableFirstDefault (11s)
+[2026-10-14T03:27:49Z] built 16/75 OAI.MeasureTheory.DyadicAvoidance.ConcreteLabelMeasures (13s)
+[2026-10-14T03:28:02Z] built 17/75 OAI.MeasureTheory.DyadicAvoidance.CenterFirstDefault (13s)
+[2026-10-14T03:28:15Z] built 18/75 OAI.MeasureTheory.DyadicAvoidance.ExceptionalExpectation (13s)
+[2026-10-14T03:28:28Z] built 19/75 OAI.MeasureTheory.DyadicAvoidance.RandomSetDensity (13s)
+[2026-10-14T03:28:40Z] built 20/75 OAI.MeasureTheory.DyadicAvoidance.RoutedSetDensity (11s)
+[2026-10-14T03:28:50Z] built 21/75 OAI.MeasureTheory.DyadicAvoidance.RoutedExposure (10s)
+[2026-10-14T03:29:03Z] built 22/75 OAI.MeasureTheory.DyadicAvoidance.FirstDefaultSelection (13s)
+[2026-10-14T03:29:17Z] built 23/75 OAI.MeasureTheory.DyadicAvoidance.RoutedFirstDefault (14s)
+[2026-10-14T03:29:31Z] built 24/75 OAI.MeasureTheory.DyadicAvoidance.CenterNoDefaultMass (14s)
+[2026-10-14T03:29:49Z] built 25/75 OAI.MeasureTheory.DyadicAvoidance.ChildDistribution (18s)
+[2026-10-14T03:30:02Z] built 26/75 OAI.MeasureTheory.DyadicAvoidance.LocalPredicateFactor (13s)
+[2026-10-14T03:30:17Z] built 27/75 OAI.MeasureTheory.DyadicAvoidance.FiniteLocalPredicate (15s)
+[2026-10-14T03:30:29Z] built 28/75 OAI.MeasureTheory.DyadicAvoidance.WindowData (12s)
+[2026-10-14T03:30:41Z] built 29/75 OAI.MeasureTheory.DyadicAvoidance.WindowTableModel (12s)
+[2026-10-14T03:30:53Z] built 30/75 OAI.MeasureTheory.DyadicAvoidance.MonotoneRepresentatives (12s)
+[2026-10-14T03:31:05Z] built 31/75 OAI.MeasureTheory.DyadicAvoidance.WindowLocalFactor (12s)
+[2026-10-14T03:31:16Z] built 32/75 OAI.MeasureTheory.DyadicAvoidance.StableRoutingBridge (11s)
+[2026-10-14T03:31:27Z] built 33/75 OAI.MeasureTheory.DyadicAvoidance.WindowLocalHit (11s)
+[2026-10-14T03:31:38Z] built 34/75 OAI.MeasureTheory.DyadicAvoidance.FiniteLocalHit (11s)
+[2026-10-14T03:31:49Z] built 35/75 OAI.MeasureTheory.DyadicAvoidance.WindowExceptionalTransfer (11s)
+[2026-10-14T03:31:59Z] built 36/75 OAI.MeasureTheory.DyadicAvoidance.TrialAddresses (10s)
+[2026-10-14T03:32:11Z] built 37/75 OAI.MeasureTheory.DyadicAvoidance.WindowTrialAddresses (12s)
+[2026-10-14T03:32:20Z] built 38/75 OAI.MeasureTheory.DyadicAvoidance.ExposureMoments (9s)
+[2026-10-14T03:32:30Z] built 39/75 OAI.MeasureTheory.DyadicAvoidance.SelectorMoment (10s)
+[2026-10-14T03:32:39Z] built 40/75 OAI.MeasureTheory.DyadicAvoidance.FixedScaleProbability (9s)
+[2026-10-14T03:32:48Z] built 41/75 OAI.MeasureTheory.DyadicAvoidance.WindowFixedScale (9s)
+[2026-10-14T03:32:57Z] built 42/75 OAI.MeasureTheory.DyadicAvoidance.ConcreteWindowAtom (9s)
+[2026-10-14T03:33:05Z] built 43/75 OAI.MeasureTheory.DyadicAvoidance.ExpectedRepair (8s)
+[2026-10-14T03:33:13Z] built 44/75 OAI.MeasureTheory.DyadicAvoidance.PeriodicEnlargement (8s)
+[2026-10-14T03:33:23Z] built 45/75 OAI.MeasureTheory.DyadicAvoidance.PeriodicEnvelope (10s)
+[2026-10-14T03:33:32Z] built 46/75 OAI.MeasureTheory.DyadicAvoidance.RawRepair (9s)
+[2026-10-14T03:33:41Z] built 47/75 OAI.MeasureTheory.DyadicAvoidance.WindowBudgets (9s)
+[2026-10-14T03:33:51Z] built 48/75 OAI.MeasureTheory.DyadicAvoidance.RoutingBudget (10s)
+[2026-10-14T03:33:59Z] built 49/75 OAI.MeasureTheory.DyadicAvoidance.Construction (8s)
+[2026-10-14T03:34:08Z] built 50/75 OAI.MeasureTheory.DyadicAvoidance.DyadicRoutedAddresses (9s)
+[2026-10-14T03:34:18Z] built 51/75 OAI.MeasureTheory.DyadicAvoidance.PeriodicMeasure (10s)
+[2026-10-14T03:34:28Z] built 52/75 OAI.MeasureTheory.DyadicAvoidance.GlobalFromPeriodic (10s)
+[2026-10-14T03:34:39Z] built 53/75 OAI.MeasureTheory.DyadicAvoidance.GridGeometry (11s)
+[2026-10-14T03:34:49Z] built 54/75 OAI.MeasureTheory.DyadicAvoidance.GridMeasure (10s)
+[2026-10-14T03:34:59Z] built 55/75 OAI.MeasureTheory.DyadicAvoidance.GridStability (10s)
+[2026-10-14T03:35:09Z] built 56/75 OAI.MeasureTheory.DyadicAvoidance.GridStabilityFin (10s)
+[2026-10-14T03:35:17Z] built 57/75 OAI.MeasureTheory.DyadicAvoidance.GridModelStability (8s)
+[2026-10-14T03:35:27Z] built 58/75 OAI.MeasureTheory.DyadicAvoidance.WindowPlacement (10s)
+[2026-10-14T03:35:36Z] built 59/75 OAI.MeasureTheory.DyadicAvoidance.GridWindowStability (9s)
+[2026-10-14T03:35:47Z] built 60/75 OAI.MeasureTheory.DyadicAvoidance.OrderedRoutePreservation (11s)
+[2026-10-14T03:35:55Z] built 61/75 OAI.MeasureTheory.DyadicAvoidance.WindowRecursion (8s)
+[2026-10-14T03:36:04Z] built 62/75 OAI.MeasureTheory.DyadicAvoidance.PackedWindowSpan (9s)
+[2026-10-14T03:36:14Z] built 63/75 OAI.MeasureTheory.DyadicAvoidance.TreePreorder (10s)
+[2026-10-14T03:36:27Z] built 64/75 OAI.MeasureTheory.DyadicAvoidance.TreePreorderRank (13s)
+[2026-10-14T03:36:36Z] built 65/75 OAI.MeasureTheory.DyadicAvoidance.PreorderIndex (9s)
+[2026-10-14T03:36:45Z] built 66/75 OAI.MeasureTheory.DyadicAvoidance.RepresentativeFailure (9s)
+[2026-10-14T03:36:53Z] built 67/75 OAI.MeasureTheory.DyadicAvoidance.RoutedAddressInjectivity (8s)
+[2026-10-14T03:37:01Z] built 68/75 OAI.MeasureTheory.DyadicAvoidance.SelectedCoordinateLaw (8s)
+[2026-10-14T03:37:10Z] built 69/75 OAI.MeasureTheory.DyadicAvoidance.StableKeyRouting (9s)
+[2026-10-14T03:37:22Z] built 70/75 OAI.MeasureTheory.DyadicAvoidance.WindowSpanSum (12s)
+[2026-10-14T03:37:32Z] built 71/75 OAI.MeasureTheory.DyadicAvoidance.TreeSpanBridge (10s)
+[2026-10-14T03:37:40Z] built 72/75 OAI.MeasureTheory.DyadicAvoidance.WindowDataExistence (8s)
+[2026-10-14T03:37:49Z] built 73/75 OAI.MeasureTheory.DyadicAvoidance.WindowDataStability (9s)
+[2026-10-14T03:37:58Z] built 74/75 OAI.MeasureTheory.DyadicAvoidance.WindowMetadata (9s)
+[2026-10-14T03:38:07Z] built 75/75 OAI.MeasureTheory.DyadicAvoidance.Main (9s)
+[2026-10-14T03:38:07Z] all 75 modules built; oleans: 75
+[2026-10-14T03:38:07Z] BEGIN axioms :: bash -c cd /tmp/erdos0300/lean/probe && nice -n 19 lean --trust=0 -DautoImplicit=false Axioms120.lean > /tmp/erdos0300/lean/logs/axioms.log 2>&1
+[2026-10-14T03:38:14Z] END axioms rc=0 elapsed=7s
+[2026-10-14T03:38:14Z] BEGIN comparator :: bash -c cd /tmp/erdos0300/lean/probe && nice -n 19 lean -DautoImplicit=false Comparator.lean > /tmp/erdos0300/lean/logs/comparator.log 2>&1
+[2026-10-14T03:38:21Z] END comparator rc=0 elapsed=7s
+[2026-10-14T03:38:21Z] BEGIN negcontrol :: bash -c cd /tmp/erdos0300/lean/probe && nice -n 19 lean -DautoImplicit=false NegControl.lean > /tmp/erdos0300/lean/logs/negcontrol.log 2>&1
+[2026-10-14T03:38:28Z] END negcontrol rc=0 elapsed=7s
+MAIN statement: None
+CMP  statement: None
+MAIN dyadicPoint: def OAI.Problem310.dyadicPoint : (n : Nat) → Real := fun (n : Nat) => @HPow.hPow.{0, 0, 0} Real Nat Real (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid))) (@Inv.inv.{0} Real Real.instInv (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast OAI.Problem310.dyadicPoint._proof_1))) n
+CMP  dyadicPoint: def OAI.Problem310.dyadicPoint : (n : Nat) → Real := fun (n : Nat) => @HPow.hPow.{0, 0, 0} Real Nat Real (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid))) (@Inv.inv.{0} Real Real.instInv (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast OAI.Problem310.dyadicPoint._proof_1))) n
+MAIN axioms: 'OAI.Problem310.dyadic_affine_avoidance' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}] 'OAI.Problem310.periodic_hitting_set' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}] OAI.Problem310.dyadic_affine_avoidance : ∀ (η : Real), @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) η → @LT.lt.{0} Real Real.instLT η (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) → @Exists.{1} (Set.{0} Real) fun (E : Set.{0} Real) => And (@LE.le.{0} (Set.{0} Real) (@Set.instLE.{0} Real) E (@Set.Icc.{0} Real Real.instPreorder (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))) (And (@IsCompact.{0} Real (@UniformSpace.toTopologicalSpace.{0} Real (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace)) E) (And (@GT.gt.{0} ENNReal (@Preorder.toLT.{0} ENNReal (@PartialOrder.toPreorder.{0} ENNReal ENNReal.instPartialOrder)) (@DFunLike.coe.{1, 1, 1} (@MeasureTheory.Measure.{0} Real (@MeasureTheory.MeasureSpace.toMeasurableSpace.{0} Real Real.measureSpace)) (Set.{0} Real) (fun (x : Set.{0} Real) => ENNReal) (@MeasureTheory.Measure.instFunLike.{0} Real (@MeasureTheory.MeasureSpace.toMeasurableSpace.{0} Real Real.measureSpace)) (@MeasureTheory.MeasureSpace.volume.{0} Real Real.measureSpace) E) (ENNReal.ofReal (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) η))) (∀ (x s : Real), @Ne.{1} Real s (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) → @Exists.{1} Nat fun (n : Nat) => And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n) (Not (@Membership.mem.{0, 0} Real (Set.{0} Real) (@Set.instMembership.{0} Real) E (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) x (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) s (OAI.Problem310.dyadicPoint n)))))))) def OAI.Problem310.dyadicPoint : (n : Nat) → Real := fun (n : Nat) => @HPow.hPow.{0, 0, 0} Real Nat Real (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid))) (@Inv.inv.{0} Real Real.instInv (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast OAI.Problem310.dyadicPoint._proof_1))) n
+CMP axioms (must mention sorryAx): 'OAI.Problem310.dyadic_affine_avoidance' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}] OAI.Problem310.dyadic_affine_avoidance : ∀ (η : Real), @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) η → @LT.lt.{0} Real Real.instLT η (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) → @Exists.{1} (Set.{0} Real) fun (E : Set.{0} Real) => And (@LE.le.{0} (Set.{0} Real) (@Set.instLE.{0} Real) E (@Set.Icc.{0} Real Real.instPreorder (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))) (And (@IsCompact.{0} Real (@UniformSpace.toTopologicalSpace.{0} Real (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace)) E) (And (@GT.gt.{0} ENNReal (@Preorder.toLT.{0} ENNReal (@PartialOrder.toPreorder.{0} ENNReal ENNReal.instPartialOrder)) (@DFunLike.coe.{1, 1, 1} (@MeasureTheory.Measure.{0} Real (@MeasureTheory.MeasureSpace.toMeasurableSpace.{0} Real Real.measureSpace)) (Set.{0} Real) (fun (x : Set.{0} Real) => ENNReal) (@MeasureTheory.Measure.instFunLike.{0} Real (@MeasureTheory.MeasureSpace.toMeasurableSpace.{0} Real Real.measureSpace)) (@MeasureTheory.MeasureSpace.volume.{0} Real Real.measureSpace) E) (ENNReal.ofReal (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) η))) (∀ (x s : Real), @Ne.{1} Real s (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) → @Exists.{1} Nat fun (n : Nat) => And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n) (Not (@Membership.mem.{0, 0} Real (Set.{0} Real) (@Set.instMembership.{0} Real) E (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) x (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) s (OAI.Problem310.dyadicPoint n)))))))) def OAI.Problem310.dyadicPoint : (n : Nat) → Real := fun (n : Nat) => @HPow.hPow.{0, 0, 0} Real Nat Real (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid))) (@Inv.inv.{0} Real Real.instInv (@OfNat.ofNat.{0} Real (nat_lit 2) (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast OAI.Problem310.dyadicPoint._proof_1))) n
+STATEMENT MATCH: False | MAIN standard axioms: False | comparator shows sorryAx: True
+[2026-10-14T03:38:28Z] negcontrol log head: NegControl.lean:2:8: warning: declaration uses `sorry` 'oai_negcontrol_false' depends on axioms: [sorryAx] 
+[2026-10-14T03:38:28Z] BEGIN leanchecker_fresh :: bash -c cd /tmp/erdos0300/lean/probe && nice -n 19 leanchecker --fresh OAI.MeasureTheory.DyadicAvoidance.Main > /tmp/erdos0300/lean/logs/leanchecker_fresh.log 2>&1
+[2026-10-14T04:42:37Z] END leanchecker_fresh rc=0 elapsed=3849s
+[2026-10-14T04:42:37Z] leanchecker tail: 
+[2026-10-14T04:42:47Z] DONE
+launch 2026-10-14T03:24:13Z 0 0
+smoke 0 16
+build 0 818
+axioms 0 7
+comparator 0 7
+negcontrol 0 7
+statement_match 1 0
+statement_match_v2 0 0
+wrongshape 1 0
+rightshape 0 0
+leanchecker_fresh 0 3849

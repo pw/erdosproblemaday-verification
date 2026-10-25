@@ -1,0 +1,9 @@
+audit_environment_utc=2026-08-11T18:21:48Z
+Linux portalonce 6.12.93 #1 SMP Wed Jul 22 19:44:49 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Python 3.12.3
+ortools=9.15.6755
+c83925b18b75c2ba8f909503eae7e30b930c19e3ee5f123bdd9c49873b1a04e5  verify_1109_frontier.cpp
+cd1525ec401080dd2c687a7b02757e3a6db1519a8a8f9a854cc98c8ed0fc3027  primary_exact_rebuild
+b3ceb997a035f83b5f617209004088feb7086ab6380841eeb6198c1f1aff4b8c  audit_1109_1501_2000_pmc.py
+e64c831e961bd18242e3cdd8b167dafc3322d667c3d90907eafc75720493f62d  pmc_1109_audit

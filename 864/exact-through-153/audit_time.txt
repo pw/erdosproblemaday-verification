@@ -1,0 +1,9 @@
+Observed run timing (read from `ps` without interrupting the process):
+
+  approximately 91 minutes elapsed wall time
+  approximately 84 minutes accumulated CPU time
+  peak resident memory below 0.1% of the host (small fixed arrays/vectors)
+
+The audit was launched as `./audit20_lowerhalf`; its exact counters and exit-0
+conclusion are frozen in `audit_output.txt`.  These timings are deliberately
+labelled approximate because `/usr/bin/time` was not wrapped around the run.

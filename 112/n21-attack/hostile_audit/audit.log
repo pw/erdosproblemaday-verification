@@ -1,0 +1,11 @@
+PROFILES [(7, 6, 7), (7, 7, 6), (8, 5, 7), (8, 6, 6), (8, 7, 5), (8, 8, 4)]
+NEAR arcs=137 nonedges=73 independent=[(5, 13, 16)] transitive4=0 profile_histogram={(6, 6, 8): 3, (6, 7, 7): 7, (7, 6, 7): 7, (7, 7, 6): 4} sha256=6be5046ca0dc52cbea5a6127f6f7ea8879831b7b5e325fe03b9a7955838cfa6f
+NONEXTENDABLE C=(1, 2, 4, 14, 15, 17) base=(arcs=120,I3=0,L4=0,profile=6/6/7) constraints=250 transitive_old_triples=180 csp_nodes=81 rejected_values=760
+NONEXTENDABLE C=(1, 2, 6, 12, 13, 15) base=(arcs=120,I3=0,L4=0,profile=6/6/7) constraints=250 transitive_old_triples=180 csp_nodes=66 rejected_values=567
+NONEXTENDABLE C=(2, 3, 5, 6, 11, 12) base=(arcs=120,I3=0,L4=0,profile=6/6/7) constraints=250 transitive_old_triples=180 csp_nodes=81 rejected_values=716
+NONEXTENDABLE C=(2, 4, 5, 7, 11, 14) base=(arcs=120,I3=0,L4=0,profile=6/6/7) constraints=250 transitive_old_triples=180 csp_nodes=67 rejected_values=585
+NONEXTENDABLE C=(3, 5, 6, 16, 18, 19) base=(arcs=120,I3=0,L4=0,profile=6/6/7) constraints=250 transitive_old_triples=180 csp_nodes=81 rejected_values=760
+NONEXTENDABLE C=(5, 7, 8, 14, 18, 19) base=(arcs=120,I3=0,L4=0,profile=6/6/7) constraints=250 transitive_old_triples=180 csp_nodes=66 rejected_values=567
+NONEXTENDABLE C=(6, 9, 13, 15, 16, 18) base=(arcs=120,I3=0,L4=0,profile=6/6/7) constraints=250 transitive_old_triples=180 csp_nodes=67 rejected_values=585
+NONEXTENDABLE C=(8, 9, 14, 15, 17, 18) base=(arcs=120,I3=0,L4=0,profile=6/6/7) constraints=250 transitive_old_triples=180 csp_nodes=81 rejected_values=716
+HOSTILE AUDIT PASSED

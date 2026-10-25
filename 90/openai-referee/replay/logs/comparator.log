@@ -1,0 +1,88 @@
+'OAI.PlanarUnitDistances.main' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}]
+OAI.PlanarUnitDistances.main : @Exists.{1} Real fun (C : Real) =>
+  @Exists.{1} Real fun (β : Real) =>
+    And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C)
+      (And (@LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) β)
+        (And
+          (@LT.lt.{0} Real Real.instLT β
+            (@HDiv.hDiv.{0, 0, 0} Real Real Real
+              (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+              (@OfNat.ofNat.{0} Real (nat_lit 4)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+              (@OfNat.ofNat.{0} Real (nat_lit 3)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 3) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))))
+          (∀ (n : Nat),
+            @LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast (OAI.PlanarUnitDistances.u n))
+              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+                (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                  (@Nat.cast.{0} Real Real.instNatCast n) β)))))
+def OAI.PlanarUnitDistances.u : (n : Nat) → Nat :=
+fun (n : Nat) =>
+  @SupSet.sSup.{0} Nat Nat.instSupSet
+    (@Set.ofPred.{0} Nat fun (m : Nat) =>
+      @Exists.{1} (Finset.{0} OAI.PlanarUnitDistances.Plane) fun (X : Finset.{0} OAI.PlanarUnitDistances.Plane) =>
+        And (@Eq.{1} Nat (@Finset.card.{0} OAI.PlanarUnitDistances.Plane X) n)
+          (@Eq.{1} Nat (OAI.PlanarUnitDistances.unitPairCount X) m))
+def OAI.PlanarUnitDistances.unitPairCount : (X : Finset.{0} OAI.PlanarUnitDistances.Plane) → Nat :=
+fun (X : Finset.{0} OAI.PlanarUnitDistances.Plane) =>
+  @Finset.card.{0} (Sym2.{0} OAI.PlanarUnitDistances.Plane)
+    (@Finset.filter.{0} (Sym2.{0} OAI.PlanarUnitDistances.Plane) OAI.PlanarUnitDistances.IsUnitPair
+      (fun (a : Sym2.{0} OAI.PlanarUnitDistances.Plane) =>
+        Classical.propDecidable (OAI.PlanarUnitDistances.IsUnitPair a))
+      (@Finset.sym2.{0} OAI.PlanarUnitDistances.Plane X))
+def OAI.PlanarUnitDistances.IsUnitPair : Sym2.{0} OAI.PlanarUnitDistances.Plane → Prop :=
+@DFunLike.coe.{1, 1, 1}
+  (Equiv.{1, 1}
+    (@Subtype.{1} (OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop)
+      fun (f : OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop) =>
+      ∀ (a₁ a₂ : OAI.PlanarUnitDistances.Plane), @Eq.{1} Prop (f a₁ a₂) (f a₂ a₁))
+    (Sym2.{0} OAI.PlanarUnitDistances.Plane → Prop))
+  (@Subtype.{1} (OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop)
+    fun (f : OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop) =>
+    ∀ (a₁ a₂ : OAI.PlanarUnitDistances.Plane), @Eq.{1} Prop (f a₁ a₂) (f a₂ a₁))
+  (fun
+      (x :
+        @Subtype.{1} (OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop)
+          fun (f : OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop) =>
+          ∀ (a₁ a₂ : OAI.PlanarUnitDistances.Plane), @Eq.{1} Prop (f a₁ a₂) (f a₂ a₁)) =>
+    Sym2.{0} OAI.PlanarUnitDistances.Plane → Prop)
+  (@EquivLike.toFunLike.{1, 1, 1}
+    (Equiv.{1, 1}
+      (@Subtype.{1} (OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop)
+        fun (f : OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop) =>
+        ∀ (a₁ a₂ : OAI.PlanarUnitDistances.Plane), @Eq.{1} Prop (f a₁ a₂) (f a₂ a₁))
+      (Sym2.{0} OAI.PlanarUnitDistances.Plane → Prop))
+    (@Subtype.{1} (OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop)
+      fun (f : OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop) =>
+      ∀ (a₁ a₂ : OAI.PlanarUnitDistances.Plane), @Eq.{1} Prop (f a₁ a₂) (f a₂ a₁))
+    (Sym2.{0} OAI.PlanarUnitDistances.Plane → Prop)
+    (@Equiv.instEquivLike.{1, 1}
+      (@Subtype.{1} (OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop)
+        fun (f : OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop) =>
+        ∀ (a₁ a₂ : OAI.PlanarUnitDistances.Plane), @Eq.{1} Prop (f a₁ a₂) (f a₂ a₁))
+      (Sym2.{0} OAI.PlanarUnitDistances.Plane → Prop)))
+  (@Sym2.lift.{0, 0} OAI.PlanarUnitDistances.Plane Prop)
+  (@Subtype.mk.{1} (OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop)
+    (fun (f : OAI.PlanarUnitDistances.Plane → OAI.PlanarUnitDistances.Plane → Prop) =>
+      ∀ (a₁ a₂ : OAI.PlanarUnitDistances.Plane), @Eq.{1} Prop (f a₁ a₂) (f a₂ a₁))
+    (fun (x y : OAI.PlanarUnitDistances.Plane) =>
+      @Eq.{1} Real
+        (@Dist.dist.{0} OAI.PlanarUnitDistances.Plane
+          (@PiLp.instDist.{0, 0}
+            (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                  (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                PiLp.innerProductSpace._proof_1))
+            (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real)
+            (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            fun (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) =>
+            @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+          x y)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+    OAI.PlanarUnitDistances.IsUnitPair._proof_1)

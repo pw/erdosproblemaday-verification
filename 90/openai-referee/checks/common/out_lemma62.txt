@@ -1,0 +1,14 @@
+PAPER hypothesis, 600 random instances x 5 etas: violations of <= 8 eta: 0 ; max P/eta = 0 None
+hand-made eta=0.05: P(G,X notin U)=0.0075 (= mu-mass of odd states 0.0075); 8eta=0.40
+hand-made eta=0.1: P(G,X notin U)=0.0300 (= mu-mass of odd states 0.0300); 8eta=0.80
+structured eta=0.05 per=20: P(G,X notin U)=0.0390 = 0.779 eta  (lemma: <= 8 eta)
+structured eta=0.05 per=40: P(G,X notin U)=0.0390 = 0.779 eta  (lemma: <= 8 eta)
+structured eta=0.05 per=100: P(G,X notin U)=0.0390 = 0.779 eta  (lemma: <= 8 eta)
+structured eta=0.1 per=20: P(G,X notin U)=0.0811 = 0.811 eta  (lemma: <= 8 eta)
+structured eta=0.1 per=40: P(G,X notin U)=0.0811 = 0.811 eta  (lemma: <= 8 eta)
+structured eta=0.1 per=100: P(G,X notin U)=0.0811 = 0.811 eta  (lemma: <= 8 eta)
+max P/eta over structured family + 300 random parameter draws: 0.811 (lemma: 8)
+CONTROL 1 (mass >= 1/2 only): P=0.9999999999999998 vs 8eta=0.4 -> conclusion FAILS: True; paper hypothesis on same instance: P=0.0
+CONTROL 2 (arbitrary U): P=1.0000000000000007 vs 8eta=0.4 -> FAILS: True; restricted types: P=0.0
+CONTROL 3 (row-subsets): P=1.0000000000000007 -> FAILS: True; full rows: P=0.0
+exit=0

@@ -1,0 +1,10 @@
+n=11 feasible vertices (up to sign)=42  M = max|v|^2 = 0.888221984161
+CERTIFIED: every line is within angle rho of some centre, cos^2(rho) >= 1/(2M) = 0.562922342518, rho <= 41.385231 deg
+each cap {x : <x,c_i>^2 >= 1/(2M)} has Frobenius diameter^2 <= 2 - 2(1/M - 1)^2 = 1.968326230496 < 2
+rc=0
+n=10 M=1.011725009783604 exact_den_digits=56 cos^2(rho)=1/(2M)=0.494205436422832 rho=45.332011 deg
+n=10 M=1.011725018421803 exact_den_digits=56 cos^2(rho)=1/(2M)=0.494205432203262 rho=45.332012 deg
+n=10 M=1.011725055492425 exact_den_digits=55 cos^2(rho)=1/(2M)=0.494205414095078 rho=45.332013 deg
+certified bound 1/(2M) = 0.5629223425; sampled min over 1e7 lines = 0.5646508682; min over hull deep holes = 0.5629223425
+AGREES
+rc=0

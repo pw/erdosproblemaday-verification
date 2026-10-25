@@ -1,0 +1,7 @@
+14:OPEN
+16: be the sequence of integers which are the sum of two squares. Explore the behaviour of (i.e. find good upper and lower bounds for) the consecutive differences 𝑛𝑘+1 −𝑛𝑘
+40:The differences are listed at A256435 on the OEIS.
+48:Related OEIS sequences: A001481 A256435
+50:0 comments on this problem
+52:0 claimed proofs for this problem
+56:Currently working on this problem	None

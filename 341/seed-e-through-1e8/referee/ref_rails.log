@@ -1,0 +1,5 @@
+M=6 rails [2, 4] seed=[2, 3, 4, 9, 10]: greedy rail content == simulated dynamics: True; non-shield residues after 2M-1: 0; B rails full: True; simulated suffix period on [Q/2,Q): 1
+M=6 rails [2, 4] seed=[2, 3, 4, 8, 9]: greedy rail content == simulated dynamics: True; non-shield residues after 2M-1: 0; B rails full: True; simulated suffix period on [Q/2,Q): 1
+M=6 rails [2, 4] seed=[2, 3, 4, 8, 9, 10]: greedy rail content == simulated dynamics: True; non-shield residues after 2M-1: 0; B rails full: True; simulated suffix period on [Q/2,Q): 1
+M=49 rails [7, 14, 28] seed=[1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97]: greedy rail content == simulated dynamics: True; non-shield residues after 2M-1: 0; B rails full: True; simulated suffix period on [Q/2,Q): None
+M=49 rails [7, 14, 28] seed=[1, 2, 3, 5, 7, 13, 14, 22, 27, 28, 32, 36, 40, 47, 48, 52, 56, 71, 81, 89, 97]: greedy rail content == simulated dynamics: True; non-shield residues after 2M-1: 0; B rails full: True; simulated suffix period on [Q/2,Q): None

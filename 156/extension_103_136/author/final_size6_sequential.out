@@ -1,0 +1,9 @@
+Independent pair-sum frontier audit
+all normalized sets with maximum mark <= 135
+k=1 raw_total=1 sidon_by_sums=1 hull_covered=1 digest=0x9384da337a00c582 best_run=1 best_marks={0} best_interval=[0,0]
+k=2 raw_total=135 sidon_by_sums=135 hull_covered=2 digest=0xd9a22c237c9821ed best_run=4 best_marks={0,1} best_interval=[-1,2]
+k=3 raw_total=9045 sidon_by_sums=8978 hull_covered=8 digest=0x0cfe3c713e10eaf5 best_run=10 best_marks={0,1,3} best_interval=[-3,6]
+k=4 raw_total=400995 sidon_by_sums=383262 hull_covered=76 digest=0xeb807b62e3bdf6b9 best_run=22 best_marks={0,1,5,7} best_interval=[-7,14]
+k=5 raw_total=13232835 sidon_by_sums=11347918 hull_covered=1102 digest=0x44196e4e853a5cdb best_run=42 best_marks={0,5,11,12,20} best_interval=[-12,29]
+k=6 raw_total=346700277 sidon_by_sums=233716482 hull_covered=20166 digest=0xab958b3183d364ff best_run=67 best_marks={0,7,19,22,28,39} best_interval=[-15,51]
+CONCLUSION no maximal Sidon set of size <=6 in [1,n] for 68<=n<=136: CERTIFIED

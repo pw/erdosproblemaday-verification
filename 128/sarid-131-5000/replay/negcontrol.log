@@ -1,0 +1,2 @@
+/tmp/erdos1800/lean-build/NegControl.lean:3:8: warning: declaration uses `sorry`
+'host_neg_control' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

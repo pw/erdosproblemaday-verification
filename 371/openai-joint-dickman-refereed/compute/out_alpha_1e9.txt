@@ -1,0 +1,7 @@
+ALPHA X=1000000000 alpha=0.00 up=499992457 (P(n+1)>P(n)n^a) down=500007542 (P(n)>P(n+1)n^a) up/X=0.4999925 down/X=0.5000075
+ALPHA X=1000000000 alpha=0.05 up=432396429 (P(n+1)>P(n)n^a) down=432400539 (P(n)>P(n+1)n^a) up/X=0.4323964 down/X=0.4324005
+ALPHA X=1000000000 alpha=0.10 up=367713145 (P(n+1)>P(n)n^a) down=367700420 (P(n)>P(n+1)n^a) up/X=0.3677131 down/X=0.3677004
+ALPHA X=1000000000 alpha=0.20 up=251343071 (P(n+1)>P(n)n^a) down=251341042 (P(n)>P(n+1)n^a) up/X=0.2513431 down/X=0.2513410
+ALPHA X=1000000000 alpha=0.30 up=157920808 (P(n+1)>P(n)n^a) down=157921988 (P(n)>P(n+1)n^a) up/X=0.1579208 down/X=0.1579220
+ALPHA X=1000000000 alpha=0.50 up=39950358 (P(n+1)>P(n)n^a) down=39954327 (P(n)>P(n+1)n^a) up/X=0.0399504 down/X=0.0399543
+NEAR_TIES 0

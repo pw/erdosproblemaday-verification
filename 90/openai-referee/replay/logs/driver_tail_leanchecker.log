@@ -1,0 +1,4 @@
+[2026-10-14T14:09:12Z] END leanchecker_fresh rc=0 elapsed=4057s
+[2026-10-14T14:09:12Z] BEGIN leanchecker_missing_control :: bash -c cd /tmp/oaimath/167/lean-build/probe && nice -n 19 leanchecker --fresh OAI.Geometry.UnitDistances.DoesNotExist > /tmp/oaimath/167/lean-build/logs/leanchecker_missing.log 2>&1
+[2026-10-14T14:09:14Z] END leanchecker_missing_control rc=1 elapsed=2s
+[2026-10-14T14:09:14Z] DONE — next erdos tick: read steps.tsv (build 0 + axioms 0 + statement_match 0 + rightshape 0 + wrongshape ≠ 0 + leanchecker_fresh 0 ⇒ (d) label; bank logs into verification/90/openai-referee/replay/, then rm -rf /tmp/erdos0300/lean/mathlib4/.lake per the disk guard)

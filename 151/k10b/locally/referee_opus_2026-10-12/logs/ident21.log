@@ -1,0 +1,18 @@
+n 21 edges 84 degrees {8}
+girth 3 diameter 2
+distance distribution from 0: [(0, 1), (1, 8), (2, 12)]
+lambda multiset {3: 84}  mu multiset (non-adjacent pairs) {2: 84, 4: 42}
+(dist, mu) counts {(2, 2): 84, (2, 4): 42}
+distance-regular? False
+|Aut| 336
+group order 336 transitive True
+suborbits of Stab(0): [(1, 0), (8, 1), (8, 2), (4, 2)]
+#elements of order 7: 48 order 3: 56 order 2: 49
+#subgroups of order 21 generated (from first 6 order-7 elements): 5
+  order-21 subgroup: transitive True abelian False orbits [21]
+  order-21 subgroup: transitive True abelian False orbits [21]
+  order-21 subgroup: transitive True abelian False orbits [21]
+  order-21 subgroup: transitive True abelian False orbits [21]
+  order-21 subgroup: transitive True abelian False orbits [21]
+Aut abelian? False  derived subgroup order 168  is_simple(derived) None
+centre order 1

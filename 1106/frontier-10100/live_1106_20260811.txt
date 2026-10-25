@@ -1,0 +1,67 @@
+URL: https://www.erdosproblems.com/1106
+TITLE: 1106 | Erdős Problems
+FETCHED: 2026-08-11 UTC
+
+Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑝⁡(𝑛)
+ denote the partition function of 𝑛
+ and let 𝐹⁡(𝑛)
+ count the number of distinct prime factors of
+∏
+1≤𝑘≤𝑛𝑝⁡(𝑘).
+Does 𝐹⁡(𝑛) →∞
+ with 𝑛
+? Is 𝐹⁡(𝑛) >𝑛
+ for all sufficiently large 𝑛
+?
+#1106: [Ob1]
+number theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+Asked by Erdős at Oberwolfach in 1986. Schinzel noted in the Oberwolfach problem book that 𝐹⁡(𝑛) →∞
+ follows from the asymptotic formula for 𝑝⁡(𝑛)
+ and a result of Tijdeman [Ti73]. This is not obvious; details are given in a paper of Erdős and Ivić (see page 69 of [ErIv90]).
+
+Schinzel and Wirsing [ScWi87] have proved 𝐹⁡(𝑛) ≫log⁡𝑛
+.
+
+Ono [On00] has proved that every prime divides 𝑝⁡(𝑛)
+ for some 𝑛 ≥1
+ (indeed this holds, for any fixed prime, for a positive density set of 𝑛
+).
+
+View the LaTeX source
+
+This page was last edited 16 November 2025. View history
+
+External data from the database - you can help update this
+Formalised statement? Yes
+Related OEIS sequences: A194259 A194260
+
+0 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	None
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #1106, https://www.erdosproblems.com/1106, accessed 2026-08-11
+Previous
+Next

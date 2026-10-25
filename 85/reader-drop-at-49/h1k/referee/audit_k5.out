@@ -1,0 +1,13 @@
+== k5_j0_noc4.cnf k=5 j=0 c4=0 der=1 sb=1 
+A. header (1758, 3438), parsed 3438 clauses, edge vars 108
+B. pure-edge clauses 216: block(<=1/block) 216, C4 0, with positive lits 0, NOT IMPLIED 0 []
+D. pool 116 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=24, ('2sw', 'lex', False)=2, ('flip', 'deg', False)=15, ('model', 'lex', False)=4, ('model', 'ok', True)=11, ('pi', 'lex', False)=60
+   residual transpositions (mine, brute force): 6
+== k5_j0_full.cnf k=5 j=0 c4=1 der=1 sb=1 
+A. header (1758, 8940), parsed 8940 clauses, edge vars 108
+B. pure-edge clauses 5718: block(<=1/block) 216, C4 5502, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 2751; C4 clauses (distinct) 2751; missing 0; extra 0
+D. pool 116 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=24, ('2sw', 'c4', False)=2, ('flip', 'deg', False)=15, ('model', 'c4', False)=15, ('pi', 'c4', False)=60
+   residual transpositions (mine, brute force): 6

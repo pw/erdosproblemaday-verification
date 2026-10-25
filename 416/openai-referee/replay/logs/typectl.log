@@ -1,0 +1,8 @@
+TypeCtl.lean:3:63: error: Application type mismatch: The argument
+  le_refl 0
+has type
+  0 ≤ 0
+but is expected to have type
+  1 ≤ 0
+in the application
+  OAI.TotientAsymptotic.weighted_totient_asymptotic 0 (le_refl 0)

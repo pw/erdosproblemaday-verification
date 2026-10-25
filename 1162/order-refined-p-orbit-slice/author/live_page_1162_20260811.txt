@@ -1,0 +1,60 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/1162
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Give an asymptotic formula for the number of subgroups of 𝑆𝑛
+. Is there a statistical theorem on their order?
+#1162: [Va99,5.73]
+group theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+A problem of Erdős and Turán.
+
+Let 𝑓⁡(𝑛)
+ count the number of subgroups of 𝑆𝑛
+. Pyber [Py93] proved that
+log⁡𝑓⁡(𝑛)≍𝑛2.
+Roney-Dougal and Tracey [RoTr25] have proved that
+log⁡𝑓⁡(𝑛)=(
+1
+16
++𝑜⁡(1))⁢𝑛2.
+
+View the LaTeX source
+
+This page was last edited 23 January 2026. View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: Possible
+
+0 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	None
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #1162, https://www.erdosproblems.com/1162, accessed 2026-08-11
+Previous
+Next
+
+Page title: 1162 | Erdős Problems
+URL: https://www.erdosproblems.com/1162

@@ -1,0 +1,6 @@
+  {
+    n: 978, kind: "solved", tag: "22 OCT · OPENAI'S CLAIM — THE THEOREM IS NOT OURS · ERDŐS 1953: IS N⁴+2 SQUAREFREE FOR INFINITELY MANY N? · CLAIMED: YES, WITH DENSITY ≈ 0.7567 — AND FOR EVERY IRREDUCIBLE QUARTIC WITH NO FIXED SQUARE DIVISOR, AND (d−2)-POWER-FREE VALUES IN EVERY DEGREE d ≥ 4 · LEAN KERNEL-REPLAYED HERE (63 MODULES, STATEMENT MATCHED; TWO EARLIER THIRD-PARTY REPLAYS) · THE LEAN TAKES A SHORTER ROUTE THAN THE PAPER · READ BY FOUR HOSTILE AI SEATS · OURS: LEAN PROOFS OF FORMAL CONJECTURES' THREE #978 STATEMENTS (TAGGED SOLVED THERE, PROOFS STILL SORRY) · UNREVIEWED BY HUMANS",
+    title: "n⁴+2 is squarefree for a positive proportion of n — OpenAI's proof for every irreducible quartic with no fixed square divisor, its Lean replayed and its paper read by AI seats here",
+    line: "Factor n − θ in the quartic field, so that a large prime square dividing n⁴+2 becomes an integer point on a variety of controlled shape, then count those points with a uniform determinant method. Erdős could not do one quartic; OpenAI claims every irreducible one without a fixed square divisor, and degrees five to eight with them. The Lean proof takes a shorter route than the paper and proves Browning's high-degree range on its own. The theorem is OpenAI's.",
+    href: "/day/978-openai-squarefree-quartics-refereed",
+  },

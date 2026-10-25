@@ -1,0 +1,6 @@
+R2=2: BFS covered 154/154 sets, finite=0, disagreements with sieve_perc=0 [] missing=[]
+R2=4: BFS covered 154/154 sets, finite=0, disagreements with sieve_perc=0 [] missing=[]
+
+
+Mutation test of bfs_summary.py (scratch copies): (1) one BFS line flipped INFINITE->FINITE for (5,13) at R2=2 -> "disagreements=1 [(65, (5, 13))]", rc 1; (2) the R2=4 line for (5,) deleted (mut_del/) -> "covered 153/154 ... missing=[(5, (5,))]", rc 1.
+The C program over all 416 split-prime sets with Q <= 4000 (not only p < 400): scan_all416.log.

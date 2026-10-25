@@ -1,0 +1,37 @@
+BridgeMutStmt.lean:154:2: error: Type mismatch
+  this
+has type
+  c * (log (OAI.CliqueFreeLog.averageDegree G) / OAI.CliqueFreeLog.averageDegree G) * ↑n ≤ ↑G.indepNum
+but is expected to have type
+  c * (log (OAI.CliqueFreeLog.averageDegree G) / OAI.CliqueFreeLog.averageDegree G) * ↑n * ↑n ≤ ↑G.indepNum
+BridgeMutStmt.lean:175:4: error: Tactic `apply` failed: could not unify the type of `mul_le_mul_of_nonneg_left ?m.124 (LT.lt.le hc)`
+  c * ?m.121 ≤ c * ?m.122
+with the goal
+  c * (log (log (↑G.averageDegree + 1)) / ↑G.averageDegree) ≤ c * (log ↑G.averageDegree / ↑G.averageDegree) * ↑n
+
+r : ℕ
+c : ℝ
+hc : c > 0
+h :
+  ∀ (n : ℕ) (G : SimpleGraph (Fin n)),
+    G.CliqueFree r → c * (log ↑G.averageDegree / ↑G.averageDegree) * ↑n * ↑n ≤ ↑G.indepNum
+n : ℕ
+G : SimpleGraph (Fin n)
+hG : G.CliqueFree r
+ht : 0 ≤ ↑G.averageDegree
+hpos : 0 < ↑G.averageDegree
+⊢ c * (log (log (↑G.averageDegree + 1)) / ↑G.averageDegree) ≤ c * (log ↑G.averageDegree / ↑G.averageDegree) * ↑n
+BridgeMutStmt.lean:192:2: error: Type mismatch
+  erdos_802 3
+has type
+  ∃ c > 0,
+    ∀ (n : ℕ) (G : SimpleGraph (Fin n)),
+      G.CliqueFree 3 → c * (log ↑G.averageDegree / ↑G.averageDegree) * ↑n * ↑n ≤ ↑G.indepNum
+but is expected to have type
+  ∃ c > 0,
+    ∀ (n : ℕ) (G : SimpleGraph (Fin n)),
+      G.CliqueFree 3 → c * (log ↑G.averageDegree / ↑G.averageDegree) * ↑n ≤ ↑G.indepNum
+'Bridge802.core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge802.Erdos802.erdos_802' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Bridge802.Erdos802.erdos_802.variants.aeks' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Bridge802.Erdos802.erdos_802.variants.r_eq_three' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

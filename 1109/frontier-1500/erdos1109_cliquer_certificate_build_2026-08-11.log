@@ -1,0 +1,8 @@
+Python 3.12.3
+5b71a67182bc3eaa87a35a57e46be9133dd80af9fbe50eadbd78c282e68b8d7d  make_1109_cliquer_certificate.py
+COMMAND: python3 make_1109_cliquer_certificate.py
+records=163
+positive_decisions=(1255, 1277, 1293, 1335, 1407)
+audit_sha256=6583a40e338f7bddbfe7eb666b3e1996c1c55bf7e325ce4ca9070a4baa856b84
+certificate_sha256=30047bb3157b037a8122c56162e6fb89367f261aa7234604bb30fadb2aefd5ba
+CONCLUSION normalized certificate exactly matches the completed raw log

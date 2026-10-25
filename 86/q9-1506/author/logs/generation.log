@@ -1,0 +1,9 @@
+2026-08-11T16:22:24+00:00
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+command: g++ -O3 -fopenmp -std=c++20 generator/q9_min_conflicts.cpp -o /tmp/q9_min_conflicts_reproduce
+command: /tmp/q9_min_conflicts_reproduce q9_upstream/q9_edges_repair_from1503_iter2.json /tmp/q9_reproduced.json 1 1000000 1
+FOUND 1506 edges; wrote /tmp/q9_reproduced.json
+elapsed=0:00.01 maxrss=5156KB exit=0
+883919d0e3c7d571aadd920ad539667338dfdb74efa24e61808fb41754db573c  q9_edges_1506.json
+883919d0e3c7d571aadd920ad539667338dfdb74efa24e61808fb41754db573c  /tmp/q9_reproduced.json
+cmp_exit=0 (0 means byte-identical)

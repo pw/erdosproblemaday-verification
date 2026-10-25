@@ -1,0 +1,7 @@
+# CONTROL positive (must be ≥ 1):
+{"label": "control_pos_{2,3,4,8,12,24}", "dir": [0, 1], "Mp": null, "E": "0", "E_f": 0.0, "density": "4/3", "density_f": 1.3333333333333333, "lumpy": 6, "M": 24, "prod_i": 55296, "pp": 0, "fixed_lumps": [], "cpsat": {"status": "OPTIMAL", "V": "1", "V_f": 1.0, "bound": "1", "t": [0, 2, 3, 5, 9, 1], "wall": 0.010282937, "recount": "1", "recount_ok": true}, "brute": {"V": "1", "t": [0, 0, 1, 3, 7, 23], "recount": "1", "agrees_cpsat": true}, "milp": {"status": 0, "V": "1", "t": [0, 1, 1, 3, 3, 23], "bound": "1", "recount": "1", "agrees_cpsat": true, "excludes": false}, "verdict": "not excluded (witness t found, re-counted)", "excluded": false}
+# CONTROL negative (an uncovered point exists ⇒ V must be exactly 0):
+{"label": "control_neg_{2,3,4,8}", "dir": [0, 1], "Mp": null, "E": "0", "E_f": 0.0, "density": "29/24", "density_f": 1.2083333333333333, "lumpy": 4, "M": 24, "prod_i": 192, "pp": 0, "fixed_lumps": [], "cpsat": {"status": "OPTIMAL", "V": "0", "V_f": 0.0, "bound": "0", "t": [0, 2, 3, 1], "wall": 0.004078219, "recount": "0", "recount_ok": true}, "brute": {"V": "0", "t": [0, 0, 0, 0], "recount": "0", "agrees_cpsat": true}, "milp": {"status": 0, "V": "0", "t": [0, 2, 2, 1], "bound": "0", "recount": "0", "agrees_cpsat": true, "excludes": true}, "verdict": "EXCLUDED", "excluded": true}
+# CONTROL E-shift (V must move by exactly the shift): 1/7 expected 1/7
+CONTROLS PASS
+exit 0

@@ -1,0 +1,14 @@
+OpenAI, "Positive lower density of large prime gaps" (25 Sep 2026, 19 pp), family 26 of github.com/openai/math
+openai/math commit: 1581d4cbdd69a0faf34b2089614fe2a814316a6a (2026-10-12 14:55:24 -0700)
+path: preprints/Positive-lower-density-of-large-prime-gaps-September-25-2026/
+not redistributed here (OpenAI's file); sha256 of what we read:
+7a4a37fa92b30f4e9749ed16a6e8d715eb98ab0c0332cc5061ac6b2a067009ed  main.pdf
+d798e41a83066a3914c8e2feb28f0067673515f51bf517cf33660fe0966b29be  build/main.tex
+6371c27169af673ed160f22cebd90c793490851a88eaee6b24eca7f9e7eb592e  build/references.bib
+e13e3666cb9af5043ec1397b039b96b53d4b47275bbfc4f1d11b469e38c7daf8  build/sections/01-introduction.tex
+1ad98fd00888ded797e0c3ad05e1f4d6938e43ee703482a405d2e4af6ccc2b0d  build/sections/02-counting.tex
+d66affa914fa4e7af84c17cc3fddd1e5c373fc5d8733fbc0e46f1343d5cdd6eb  build/sections/03-moments.tex
+ea2c3d7eb0d3669f157e0171e3ffd097e81e9b7bc95924658049fc020d692063  build/sections/04-weights.tex
+81f9db254f8e5915c455c4eb053e3ace510f0fc488602e85aabe58e8bdd83635  build/sections/05-cancellation.tex
+
+Printed section order (main.tex \input order): §1 01-introduction, §2 02-counting, §3 04-weights, §4 05-cancellation, §5 03-moments.

@@ -1,0 +1,32 @@
+=== check_lemma62.py ===
+Z = S^14 (Z dominates powers of S): (60, 0)
+negative control Z = S^1.2-ish (Z = S*10): (0, 60)
+=== check_cor12_lemma62.py ===
+=== check_513.py ===
+Traceback (most recent call last):
+  File "/home/exedev/ErdosProblemADay-main/verification/172/openai-referee/referee_checks/check_513.py", line 3, in <module>
+    import numpy as np, itertools
+ModuleNotFoundError: No module named 'numpy'
+=== check_scales2.py ===
+(8.2) n=6 (target,pair) checks=180 nonpositive-lambda=0
+(8.2) n=7 (target,pair) checks=1260 nonpositive-lambda=0
+(8.2) n=8 (target,pair) checks=7491 nonpositive-lambda=0
+(8.2) n=9 (target,pair) checks=40377 nonpositive-lambda=0
+Lemma 3.3 N=4 adding pairs=1 bad=0
+Lemma 3.3 N=5 adding pairs=7 bad=0
+Lemma 3.3 N=6 adding pairs=30 bad=0
+Lemma 3.3 N=7 adding pairs=102 bad=0
+Lemma 3.3 N=8 adding pairs=303 bad=0
+Lemma 3.3 N=9 adding pairs=825 bad=0
+Lemma 3.3 N=10 adding pairs=2116 bad=0
+Lemma 2.5 / Lemma 3.3 chain checks: 5000 random chains OK
+=== check_scales.py ===
+=== check_513.py (re-run with ~/.venv/bin/python -I; system python3 lacks numpy) ===
+max ratio |cube| / (||psi||_2 ||h||_{U^3}^4) over 25 trials: 0.6333 (<= 1 expected)
+=== check_scales2.py (full, incl. n=4,5 lines cut by tail above) ===
+(8.2) n=4 (target,pair) checks=1 nonpositive-lambda=0
+(8.2) n=5 (target,pair) checks=19 nonpositive-lambda=0
+(8.2) n=6 (target,pair) checks=180 nonpositive-lambda=0
+(8.2) n=7 (target,pair) checks=1260 nonpositive-lambda=0
+(8.2) n=8 (target,pair) checks=7491 nonpositive-lambda=0
+(8.2) n=9 (target,pair) checks=40377 nonpositive-lambda=0

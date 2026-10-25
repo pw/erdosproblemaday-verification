@@ -1,0 +1,7 @@
+eligible_total=811 extension_decisions=201
+positive_decisions=1509,1535,1595,1707,1735,1779,1835,1919,1991,1999
+checked_positive_sums=12540
+slowest_pmc_seconds=144.495
+audit_sha256=aaaeea014ef1cc96993416d05f49e692359166b6f17e7be24211779353a3a549
+intervals=1501-1508:44;1509-1534:45;1535-1594:46;1595-1706:47;1707-1734:48;1735-1778:49;1779-1834:50;1835-1918:51;1919-1990:52;1991-1998:53;1999-2000:54
+CONCLUSION cold graph/hash/witness/quantifier audit passed; f(2000)=54 modulo exact PMC negatives

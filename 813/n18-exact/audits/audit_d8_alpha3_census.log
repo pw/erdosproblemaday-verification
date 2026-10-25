@@ -1,0 +1,1 @@
+VERIFIED census=/tmp/erdos813_attack2/census_n8_alpha3.g6 logs=2 shard_done=2 unique_cases=1829 expected=1829 all_UNSAT=YES

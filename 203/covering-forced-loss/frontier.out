@@ -1,0 +1,6 @@
+N values with data: 30012 ; contiguous from 1 to 30000 ; pending subsets: [] 0
+maxU_alg(S6) = 0.586296   alg threshold for full S6 block: density < 1.08062
+PURE covering NOT excluded (N, density, union bound): [(110880, 1.1777, 1.0114, 'complete'), (166320, 1.1913, 1.025, 'complete'), (221760, 1.1826, 1.0163, 'complete'), (332640, 1.2064, 1.0402, 'complete'), (720720, 1.249, 1.0827, 'complete')]
+ALGEBRAIC variant NOT excluded: [(55440, 1.163, 1.0824, 'complete', 'exact:algsweep_5_7_11_13_17_19.json', 0.0511), (65520, 1.1035, 1.0229, 'complete', 'exact:algsweep_5_7_11_13_17_19.json', 0.0511), (110880, 1.1777, 1.097, 'complete', 'exact:algsweep_5_7_11_13_17_19.json', 0.0511), (166320, 1.1913, 1.1107, 'complete', 'exact:algsweep_5_7_11_13_17_19.json', 0.0511), (221760, 1.1826, 1.102, 'complete', 'exact:algsweep_5_7_11_13_17_19.json', 0.0511), (332640, 1.2064, 1.1258, 'complete', 'exact:algsweep_5_7_11_13_17_19.json', 0.0511), (720720, 1.249, 1.1683, 'complete', 'exact:algsweep_5_7_11_13_17_19.json', 0.0511)]
+pure: every N <= 30000 excluded
+alg : every N <= 30000 excluded

@@ -1,0 +1,4 @@
+R2=1 P=5,13 Q=65 density=0.5453 steps=4 FINITE max_component=580
+R2=1 P=[5, 13] Q=65 FINITE max_component=580
+R2=1 P=5,13,17 Q=1105 density=0.4831 steps=4 FINITE max_component=80
+R2=1 P=[5, 13, 17] Q=1105 FINITE max_component=80

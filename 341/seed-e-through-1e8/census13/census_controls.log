@@ -1,0 +1,10 @@
+# census driver-path controls (fast341 -> border array -> certify.py)
+POSITIVE late certifier {1,2,7,8,10,11,12} @2e5 (July: q=2039 from 95787): rc=0: CERTIFIED
+POSITIVE square seed {1,4,9,16,25} @2e5 (July: q=1176 from 426): rc=0: CERTIFIED
+POSITIVE the false survivor of run 1, {2,3,5,9,13} (4-periodic from term 3) after the certify.py edge-case fix: rc=0: CERTIFIED
+NEGATIVE E @2e5: no period seen -> escalate/unresolved
+NEGATIVE E @2e6: no period seen -> escalate/unresolved
+{3 5 8 10 13}: suffix from gap index 215438 (len 23938): smallest period 23938 (no period <= half the suffix)
+{2 4 6 9 10 11 13}: suffix from gap index 225162 (len 25018): smallest period 25017 (no period <= half the suffix)
+{2 6 8 9 10 11 14}: suffix from gap index 298707 (len 33190): smallest period 33189 (no period <= half the suffix)
+{3 6 8 9 12 14}: suffix from gap index 225191 (len 25022): smallest period 25018 (no period <= half the suffix)

@@ -1,0 +1,10 @@
+solver_runs/baseline_k5000_maximum.lp
+solver_runs/baseline_k5000.mipstart
+solver_runs/flat_k5001_counterexample.lp
+solver_runs/flat_k5004_counterexample.lp
+solver_runs/flat_k5006_counterexample.lp
+solver_runs/flat_k5009_counterexample.lp
+solver_runs/flat_k5011_counterexample.lp
+solver_runs/flat_k5013_counterexample.lp
+solver_runs/flat_k5016_counterexample.lp
+solver_runs/flat_k5020_counterexample.lp

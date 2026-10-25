@@ -1,0 +1,5 @@
+audit counts/final status: PASS
+target-18 frozen-count regression: PASS
+sanitizer/debug positive and negative controls: PASS
+live gate OPEN/0/no worker/no collaborator: PASS
+inclusive even-core endpoint source guard: PASS

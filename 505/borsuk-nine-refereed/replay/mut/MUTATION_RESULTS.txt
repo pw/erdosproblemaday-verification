@@ -1,0 +1,14 @@
+Mutation test of statement_match.py (each mutation must flip exactly its verdict line):
+== M1:comparator-HasTenSmallCover-numeral-10->11
+def OAI.BorsukNine.HasTenSmallCover MISMATCH | lens 2219 2219
+MISMATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+== M2:comparator-sorryAx-removed
+MATCH
+STD_AXIOMS
+CMP_SORRY_NOT_SEEN
+== M3:solution-extra-axiom-Lean.ofReduceBool
+MATCH
+NONSTD
+CMP_SORRY_SEEN

@@ -1,0 +1,2 @@
+square + rectangle (census FAILS): solution space dim 0; energy on it = 0
+three squares (Prop 7.7, certificate expected): solution space dim 3; energy on it = 8*(-l11 - l9)/(t**4 + 2*t**2 + 1)

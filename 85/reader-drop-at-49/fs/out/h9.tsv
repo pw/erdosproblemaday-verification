@@ -1,0 +1,21 @@
+h9_t0_rep0_r1b_all	kissat	UNSAT	23.3	f6fad29176c5c631	780	419432	n0=4 pairs=36 singles=0 classes=[4] highperms=0	
+h9_t1_rep0_r1b_all	kissat	UNSAT	27.8	81ef1d0f0804a415	780	419096	n0=3 pairs=33 singles=3 classes=[3] highperms=0	
+h9_t2_rep0_r1b_all	kissat	UNSAT	36.4	06c5677ff1eaca45	780	418984	n0=2 pairs=30 singles=6 classes=[2, 2] highperms=0	
+h9_t2_rep1_r1b_all	kissat	UNSAT	26.3	8ccf073b5e3b2b17	780	418872	n0=2 pairs=30 singles=6 classes=[2] highperms=0	
+h9_t3_rep0_r1b_all	kissat	UNSAT	32.3	9bfd393fa138a2a3	780	419096	n0=1 pairs=27 singles=9 classes=[3] highperms=0	
+h9_t3_rep1_r1b_all	kissat	UNSAT	28.9	ffec041044be24fd	780	419096	n0=1 pairs=27 singles=9 classes=[2, 2, 2] highperms=0	
+h9_t3_rep2_r1b_all	kissat	UNSAT	29.6	6bd6e4c4ffaf296e	780	418984	n0=1 pairs=27 singles=9 classes=[2, 2] highperms=0	
+h9_t3_rep3_r1b_all	kissat	UNSAT	30.3	ccd03fd1e2cdb71d	780	418872	n0=1 pairs=27 singles=9 classes=[2] highperms=0	
+h9_t3_rep4_r1b_all	kissat	UNSAT	31.6	299a972d1e91e748	780	418760	n0=1 pairs=27 singles=9 classes=[] highperms=0	
+h9_t4_rep0_r1b_all	kissat	UNSAT	52.0	b955d797b9866862	780	419432	n0=0 pairs=24 singles=12 classes=[4] highperms=0	
+h9_t4_rep1_r1b_all	kissat	UNSAT	43.6	2a61832df54d51bf	780	419432	n0=0 pairs=24 singles=12 classes=[3, 2, 2, 2] highperms=0	
+h9_t4_rep2_r1b_all	kissat	UNSAT	33.4	5feb848a6371a4ee	780	419320	n0=0 pairs=24 singles=12 classes=[3, 2, 2] highperms=0	
+h9_t4_rep3_r1b_all	kissat	UNSAT	34.2	d7e7e25e0200c8b4	780	419208	n0=0 pairs=24 singles=12 classes=[3, 2] highperms=0	
+h9_t4_rep4_r1b_all	kissat	UNSAT	32.6	11f73493b00f53af	780	419432	n0=0 pairs=24 singles=12 classes=[2, 2, 2, 2, 2, 2] highperms=0	
+h9_t4_rep5_r1b_all	kissat	UNSAT	32.7	37b9163305716902	780	419320	n0=0 pairs=24 singles=12 classes=[2, 2, 2, 2, 2] highperms=0	
+h9_t4_rep6_r1b_all	kissat	UNSAT	34.3	ef4a85333fa2ac87	780	419208	n0=0 pairs=24 singles=12 classes=[2, 2, 2, 2] highperms=0	
+h9_t4_rep7_r1b_all	kissat	UNSAT	34.4	149f2a6e0f7e420c	780	419096	n0=0 pairs=24 singles=12 classes=[2, 2, 2] highperms=0	
+h9_t4_rep8_r1b_all	kissat	UNSAT	32.6	a48d4890c1f3fafd	780	419096	n0=0 pairs=24 singles=12 classes=[2, 2, 2] highperms=0	
+h9_t4_rep9_r1b_all	kissat	UNSAT	30.1	857ed5c0ee10a079	780	419208	n0=0 pairs=24 singles=12 classes=[2, 2, 2, 2] highperms=0	
+h9_t4_rep10_r1b_all	kissat	UNSAT	33.5	07ce6cc2fa5e6308	780	419096	n0=0 pairs=24 singles=12 classes=[2, 2, 2] highperms=0	
+LANE DONE 9:/home/exedev/MathDyad/erdos85/h9/reps.json:0:0 9:/home/exedev/MathDyad/erdos85/h9/reps.json:1:0 9:/home/exedev/MathDyad/erdos85/h9/reps.json:2:0 9:/home/exedev/MathDyad/erdos85/h9/reps.json:2:1 9:/home/exedev/MathDyad/erdos85/h9/reps.json:3:0 9:/home/exedev/MathDyad/erdos85/h9/reps.json:3:1 9:/home/exedev/MathDyad/erdos85/h9/reps.json:3:2 9:/home/exedev/MathDyad/erdos85/h9/reps.json:3:3 9:/home/exedev/MathDyad/erdos85/h9/reps.json:3:4 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:0 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:1 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:2 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:3 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:4 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:5 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:6 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:7 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:8 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:9 9:/home/exedev/MathDyad/erdos85/h9/reps.json:4:10

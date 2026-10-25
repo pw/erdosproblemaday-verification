@@ -1,0 +1,2 @@
+slot clauses implied by base: 840 confirmed UNSAT(base & not C), 0 SAT (NOT implied!), 0 undecided; 7.3s
+negative control (v misses only its own slot; must NOT be refuted): undecided

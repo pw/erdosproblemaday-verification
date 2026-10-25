@@ -1,0 +1,7 @@
+00 20 status=UNSATISFIABLE nodes=2 seconds=1.2111e-05 prefix_prunes=1 blocked_prunes=0 color_calls=1 color_prunes=0 color_slack=33 cube=00
+010 20 status=UNSATISFIABLE nodes=2 seconds=1.2042e-05 prefix_prunes=1 blocked_prunes=0 color_calls=1 color_prunes=0 color_slack=33 cube=010
+011 20 status=UNSATISFIABLE nodes=2 seconds=1.2269e-05 prefix_prunes=1 blocked_prunes=0 color_calls=1 color_prunes=0 color_slack=33 cube=011
+100 20 status=UNSATISFIABLE nodes=14391515 seconds=45.1944 prefix_prunes=457087 blocked_prunes=2832 color_calls=13931596 color_prunes=6276915 color_slack=33 cube=100
+101 20 status=UNSATISFIABLE nodes=40004795 seconds=121.443 prefix_prunes=1143913 blocked_prunes=9389 color_calls=38851493 color_prunes=17652449 color_slack=33 cube=101
+110 20 status=UNSATISFIABLE nodes=26162953 seconds=84.9261 prefix_prunes=695538 blocked_prunes=2924 color_calls=25464491 color_prunes=11493240 color_slack=33 cube=110
+111 20 status=UNSATISFIABLE nodes=33737137 seconds=103.204 prefix_prunes=759347 blocked_prunes=4826 color_calls=32972964 color_prunes=14974799 color_slack=33 cube=111

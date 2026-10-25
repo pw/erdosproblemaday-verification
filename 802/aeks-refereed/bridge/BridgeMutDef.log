@@ -1,0 +1,11 @@
+BridgeMutDef.lean:124:71: error: unsolved goals
+V : Type
+inst✝² : Fintype V
+inst✝¹ : DecidableEq V
+G : SimpleGraph V
+inst✝ : DecidableRel G.Adj
+⊢ 2 * ∑ x, ↑(G.degree x) = ∑ v, ↑(G.degree v)
+'Bridge802.core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge802.Erdos802.erdos_802' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Bridge802.Erdos802.erdos_802.variants.aeks' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Bridge802.Erdos802.erdos_802.variants.r_eq_three' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

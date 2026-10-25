@@ -1,0 +1,4 @@
+n=10 H(n)=4: 3547 graphs, 6 with alpha<H checked, counterexamples: 0 []
+n=11 H(n)=4: 10946 graphs, 1 with alpha<H checked, counterexamples: 0 []
+n=12 H(n)=4: 36327 graphs, 1 with alpha<H checked, counterexamples: 0 []
+n=13 H(n)=4: 124380 graphs, 0 with alpha<H checked, counterexamples: 0 []

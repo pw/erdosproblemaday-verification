@@ -1,0 +1,336 @@
+@@@ BEGIN thm OAI.Problem337.egyptian_length_is_minimum
+OAI.Problem337.egyptian_length_is_minimum : ∀ (a b : Nat),
+  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) a →
+    @LT.lt.{0} Nat instLTNat a b →
+      And
+        (@Exists.{1} (Fin (OAI.Problem337.egyptianLength a b) → Nat)
+          fun (n : Fin (OAI.Problem337.egyptianLength a b) → Nat) =>
+          @OAI.Problem337.IsEgyptianExpansion (OAI.Problem337.egyptianLength a b)
+            (@HDiv.hDiv.{0, 0, 0} Rat Rat Rat (@instHDiv.{0} Rat Rat.instDiv) (@Nat.cast.{0} Rat Rat.instNatCast a)
+              (@Nat.cast.{0} Rat Rat.instNatCast b))
+            n)
+        (∀ (k : Nat),
+          (@Exists.{1} (Fin k → Nat) fun (n : Fin k → Nat) =>
+              @OAI.Problem337.IsEgyptianExpansion k
+                (@HDiv.hDiv.{0, 0, 0} Rat Rat Rat (@instHDiv.{0} Rat Rat.instDiv) (@Nat.cast.{0} Rat Rat.instNatCast a)
+                  (@Nat.cast.{0} Rat Rat.instNatCast b))
+                n) →
+            @LE.le.{0} Nat instLENat (OAI.Problem337.egyptianLength a b) k)
+'OAI.Problem337.egyptian_length_is_minimum' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem337.main_double_log_order
+OAI.Problem337.main_double_log_order : @Exists.{1} Real fun (c1 : Real) =>
+  @Exists.{1} Real fun (c2 : Real) =>
+    And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c1)
+      (And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c2)
+        (@Exists.{1} Nat fun (b0 : Nat) =>
+          ∀ (b : Nat),
+            @LE.le.{0} Nat instLENat b0 b →
+              And
+                (@LE.le.{0} Real Real.instLE
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c1
+                    (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast b))))
+                  (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem337.maxEgyptianLength b)))
+                (@LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem337.maxEgyptianLength b))
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c2
+                    (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast b)))))))
+'OAI.Problem337.main_double_log_order' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem337.one_expansions_finite_and_bounded
+OAI.Problem337.one_expansions_finite_and_bounded : And
+  (∀ (k : Nat),
+    And (@Set.Finite.{0} (Fin k → Nat) (OAI.Problem337.OneExpansions k))
+      (@LE.le.{0} Nat instLENat (OAI.Problem337.F k)
+        (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+          (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) k
+          (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+            (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+              (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid)))
+              (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) k)
+            (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+  (∀ (k : Nat) (n : Fin k → Nat),
+    @OAI.Problem337.IsOneExpansion k n →
+      ∀ (i : Fin k),
+        @LE.le.{0} Nat instLENat (n i)
+          (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+            (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) k
+            (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+              (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid)))
+              (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) (@Fin.val k i))))
+'OAI.Problem337.one_expansions_finite_and_bounded' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem337.counting_double_log_order
+OAI.Problem337.counting_double_log_order : @Exists.{1} Real fun (c : Real) =>
+  @Exists.{1} Real fun (C : Real) =>
+    And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c)
+      (And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C)
+        (@Exists.{1} Nat fun (k0 : Nat) =>
+          ∀ (k : Nat),
+            @LE.le.{0} Nat instLENat k0 k →
+              And
+                (@LE.le.{0} Real Real.instLE
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c
+                    (@Nat.cast.{0} Real Real.instNatCast k))
+                  (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem337.F k)))))
+                (@LE.le.{0} Real Real.instLE
+                  (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem337.F k))))
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+                    (@Nat.cast.{0} Real Real.instNatCast k)))))
+'OAI.Problem337.counting_double_log_order' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem337.exact_marker_padding
+OAI.Problem337.exact_marker_padding : ∀ (r : Nat),
+  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) r →
+    ∀ (n : Fin r → Nat),
+      @OAI.Problem337.IsOneExpansion r n →
+        ∀ (m : Nat),
+          (@Exists.{1} (Fin r) fun (i : Fin r) => @Eq.{1} Nat (n i) m) →
+            @Exists.{1}
+              (Fin
+                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) r
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →
+                Nat)
+              fun
+                (n' :
+                  Fin
+                      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) r
+                        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →
+                    Nat) =>
+              And
+                (@OAI.Problem337.IsOneExpansion
+                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) r
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                  n')
+                (@Exists.{1}
+                  (Fin
+                    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) r
+                      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))
+                  fun
+                    (i :
+                      Fin
+                        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) r
+                          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))) =>
+                  @Eq.{1} Nat (n' i) m)
+'OAI.Problem337.exact_marker_padding' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem337.every_exact_marker_occurs
+OAI.Problem337.every_exact_marker_occurs : ∀ (m : Nat),
+  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) m →
+    @Exists.{1} Nat fun (k : Nat) =>
+      @Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) (OAI.Problem337.D k) m
+'OAI.Problem337.every_exact_marker_occurs' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem337.quantitative_marked_length
+OAI.Problem337.quantitative_marked_length : ∀ (ε : Real),
+  @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ε →
+    @Exists.{1} Nat fun (mε : Nat) =>
+      And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) mε)
+        (∀ (m : Nat),
+          @LE.le.{0} Nat instLENat mε m →
+            @Exists.{1} Nat fun (k : Nat) =>
+              @Exists.{1} (Fin k → Nat) fun (n : Fin k → Nat) =>
+                And (@OAI.Problem337.IsOneExpansion k n)
+                  (And (@Exists.{1} (Fin k) fun (i : Fin k) => @Eq.{1} Nat (n i) m)
+                    (@LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast k)
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                          (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                            (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                            (@OfNat.ofNat.{0} Real (nat_lit 257)
+                              (@instOfNatAtLeastTwo.{0} Real (nat_lit 257) Real.instNatCast
+                                (@Nat.instAtLeastTwoHAddOfNat
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 256) (instOfNatNat (nat_lit 256)))
+                                  (@Nat.instNeZeroSucc
+                                    (@OfNat.ofNat.{0} Nat (nat_lit 255) (instOfNatNat (nat_lit 255)))))))
+                            (Real.log
+                              (@OfNat.ofNat.{0} Real (nat_lit 2)
+                                (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                                  (@Nat.instAtLeastTwoHAddOfNat
+                                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                                    (@Nat.instNeZeroSucc
+                                      (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))))
+                          ε)
+                        (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast m)))))))
+'OAI.Problem337.quantitative_marked_length' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem337.missing_denominator_semantics
+OAI.Problem337.missing_denominator_semantics : ∀ (k : Nat),
+  And (@Set.Finite.{0} Nat (OAI.Problem337.D k))
+    (And
+      (@Exists.{1} Nat fun (m : Nat) =>
+        @Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) (OAI.Problem337.missingDenominators k) m)
+      (And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) (OAI.Problem337.v k))
+        (And
+          (Not
+            (@Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) (OAI.Problem337.D k)
+              (OAI.Problem337.v k)))
+          (And
+            (∀ (m : Nat),
+              @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) m →
+                @LT.lt.{0} Nat instLTNat m (OAI.Problem337.v k) →
+                  @Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) (OAI.Problem337.D k) m)
+            (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) k →
+              @LE.le.{0} Nat instLENat (OAI.Problem337.v k)
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                  (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+                    (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) k
+                    (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+                      (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid)))
+                      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                      (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) k
+                        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))))))))
+'OAI.Problem337.missing_denominator_semantics' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem337.prescribed_denominator_corollary
+OAI.Problem337.prescribed_denominator_corollary : And
+  (@Exists.{1} Nat fun (k0 : Nat) =>
+    ∀ (k : Nat),
+      @LE.le.{0} Nat instLENat k0 k →
+        And
+          (@LE.le.{0} Real Real.instLE
+            (Real.exp
+              (Real.exp
+                (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                  (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                  (@Nat.cast.{0} Real Real.instNatCast k)
+                  (@OfNat.ofNat.{0} Real (nat_lit 600)
+                    (@instOfNatAtLeastTwo.{0} Real (nat_lit 600) Real.instNatCast
+                      (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 599) (instOfNatNat (nat_lit 599)))
+                        (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 598) (instOfNatNat (nat_lit 598))))))))))
+            (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem337.v k)))
+          (@LE.le.{0} Nat instLENat (OAI.Problem337.v k)
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+              (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+                (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) k
+                (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+                  (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid)))
+                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                  (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) k
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))))
+  (And
+    (And
+      (@LE.le.{0} Real Real.instLE
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (Real.log
+            (@OfNat.ofNat.{0} Real (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))
+          (@OfNat.ofNat.{0} Real (nat_lit 257)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 257) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 256) (instOfNatNat (nat_lit 256)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 255) (instOfNatNat (nat_lit 255))))))))
+        (@Filter.liminf.{0, 0} Real Nat
+          (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Real
+            Real.instConditionallyCompleteLinearOrder)
+          OAI.Problem337.prescribedSlope (@Filter.atTop.{0} Nat Nat.instPreorder)))
+      (And
+        (@LE.le.{0} Real Real.instLE
+          (@Filter.liminf.{0, 0} Real Nat
+            (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Real
+              Real.instConditionallyCompleteLinearOrder)
+            OAI.Problem337.prescribedSlope (@Filter.atTop.{0} Nat Nat.instPreorder))
+          (@Filter.limsup.{0, 0} Real Nat
+            (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Real
+              Real.instConditionallyCompleteLinearOrder)
+            OAI.Problem337.prescribedSlope (@Filter.atTop.{0} Nat Nat.instPreorder)))
+        (@LE.le.{0} Real Real.instLE
+          (@Filter.limsup.{0, 0} Real Nat
+            (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Real
+              Real.instConditionallyCompleteLinearOrder)
+            OAI.Problem337.prescribedSlope (@Filter.atTop.{0} Nat Nat.instPreorder))
+          (Real.log
+            (@OfNat.ofNat.{0} Real (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))))))
+    (∀ (c : Real),
+      @LT.lt.{0} Real Real.instLT c
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (Real.log
+              (@OfNat.ofNat.{0} Real (nat_lit 2)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))
+            (@OfNat.ofNat.{0} Real (nat_lit 257)
+              (@instOfNatAtLeastTwo.{0} Real (nat_lit 257) Real.instNatCast
+                (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 256) (instOfNatNat (nat_lit 256)))
+                  (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 255) (instOfNatNat (nat_lit 255)))))))) →
+        @Exists.{1} Nat fun (k0 : Nat) =>
+          ∀ (k : Nat),
+            @LE.le.{0} Nat instLENat k0 k →
+              @LE.le.{0} Real Real.instLE
+                (Real.exp
+                  (Real.exp
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c
+                      (@Nat.cast.{0} Real Real.instNatCast k))))
+                (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem337.v k))))
+'OAI.Problem337.prescribed_denominator_corollary' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN def OAI.Problem337.IsEgyptianExpansion
+def OAI.Problem337.IsEgyptianExpansion : {k : Nat} → (x : Rat) → (n : Fin k → Nat) → Prop :=
+fun {k : Nat} (x : Rat) (n : Fin k → Nat) =>
+  And (∀ (i : Fin k), @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) (n i))
+    (And
+      (@StrictMono.{0, 0} (Fin k) Nat (@PartialOrder.toPreorder.{0} (Fin k) (@Fin.instPartialOrder k)) Nat.instPreorder
+        n)
+      (@Eq.{1} Rat
+        (@Finset.sum.{0, 0} (Fin k) Rat Rat.addCommMonoid (@Finset.univ.{0} (Fin k) (Fin.fintype k)) fun (i : Fin k) =>
+          @HDiv.hDiv.{0, 0, 0} Rat Rat Rat (@instHDiv.{0} Rat Rat.instDiv)
+            (@OfNat.ofNat.{0} Rat (nat_lit 1) (@Rat.instOfNat (nat_lit 1))) (@Nat.cast.{0} Rat Rat.instNatCast (n i)))
+        x))
+@@@ BEGIN def OAI.Problem337.egyptianLengths
+def OAI.Problem337.egyptianLengths : (a b : Nat) → Set.{0} Nat :=
+fun (a b : Nat) =>
+  @Set.ofPred.{0} Nat fun (k : Nat) =>
+    @Exists.{1} (Fin k → Nat) fun (n : Fin k → Nat) =>
+      @OAI.Problem337.IsEgyptianExpansion k
+        (@HDiv.hDiv.{0, 0, 0} Rat Rat Rat (@instHDiv.{0} Rat Rat.instDiv) (@Nat.cast.{0} Rat Rat.instNatCast a)
+          (@Nat.cast.{0} Rat Rat.instNatCast b))
+        n
+@@@ BEGIN def OAI.Problem337.egyptianLength
+def OAI.Problem337.egyptianLength : (a b : Nat) → Nat :=
+fun (a b : Nat) => @InfSet.sInf.{0} Nat Nat.instInfSet (OAI.Problem337.egyptianLengths a b)
+@@@ BEGIN def OAI.Problem337.maxEgyptianLength
+def OAI.Problem337.maxEgyptianLength : (b : Nat) → Nat :=
+fun (b : Nat) =>
+  @Finset.sup.{0, 0} Nat Nat (@Lattice.toSemilatticeSup.{0} Nat Nat.instLattice) Nat.instOrderBot (Finset.range b)
+    fun (a : Nat) =>
+    @ite.{1} Nat (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) a)
+      (Nat.decLe (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) a) (OAI.Problem337.egyptianLength a b)
+      (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+@@@ BEGIN def OAI.Problem337.IsOneExpansion
+def OAI.Problem337.IsOneExpansion : {k : Nat} → (n : Fin k → Nat) → Prop :=
+fun {k : Nat} (n : Fin k → Nat) =>
+  And (∀ (i : Fin k), @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) (n i))
+    (And
+      (@StrictMono.{0, 0} (Fin k) Nat (@PartialOrder.toPreorder.{0} (Fin k) (@Fin.instPartialOrder k)) Nat.instPreorder
+        n)
+      (@Eq.{1} Rat
+        (@Finset.sum.{0, 0} (Fin k) Rat Rat.addCommMonoid (@Finset.univ.{0} (Fin k) (Fin.fintype k)) fun (i : Fin k) =>
+          @HDiv.hDiv.{0, 0, 0} Rat Rat Rat (@instHDiv.{0} Rat Rat.instDiv)
+            (@OfNat.ofNat.{0} Rat (nat_lit 1) (@Rat.instOfNat (nat_lit 1))) (@Nat.cast.{0} Rat Rat.instNatCast (n i)))
+        (@OfNat.ofNat.{0} Rat (nat_lit 1) (@Rat.instOfNat (nat_lit 1)))))
+@@@ BEGIN def OAI.Problem337.OneExpansions
+def OAI.Problem337.OneExpansions : (k : Nat) → Set.{0} (Fin k → Nat) :=
+fun (k : Nat) => @Set.ofPred.{0} (Fin k → Nat) fun (n : Fin k → Nat) => @OAI.Problem337.IsOneExpansion k n
+@@@ BEGIN def OAI.Problem337.F
+def OAI.Problem337.F : (k : Nat) → Nat :=
+fun (k : Nat) => @Set.ncard.{0} (Fin k → Nat) (OAI.Problem337.OneExpansions k)
+@@@ BEGIN def OAI.Problem337.D
+def OAI.Problem337.D : (k : Nat) → Set.{0} Nat :=
+fun (k : Nat) =>
+  @Set.ofPred.{0} Nat fun (m : Nat) =>
+    And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) m)
+      (@Exists.{1} (Fin k → Nat) fun (n : Fin k → Nat) =>
+        And (@OAI.Problem337.IsOneExpansion k n) (@Exists.{1} (Fin k) fun (i : Fin k) => @Eq.{1} Nat (n i) m))
+@@@ BEGIN def OAI.Problem337.missingDenominators
+def OAI.Problem337.missingDenominators : (k : Nat) → Set.{0} Nat :=
+fun (k : Nat) =>
+  @SDiff.sdiff.{0} (Set.{0} Nat) (@Set.instSDiff.{0} Nat)
+    (@Set.ofPred.{0} Nat fun (m : Nat) =>
+      @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) m)
+    (OAI.Problem337.D k)
+@@@ BEGIN def OAI.Problem337.v
+def OAI.Problem337.v : (k : Nat) → Nat :=
+fun (k : Nat) => @InfSet.sInf.{0} Nat Nat.instInfSet (OAI.Problem337.missingDenominators k)
+@@@ BEGIN def OAI.Problem337.prescribedSlope
+def OAI.Problem337.prescribedSlope : (k : Nat) → Real :=
+fun (k : Nat) =>
+  @HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+    (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast (OAI.Problem337.v k))))
+    (@Nat.cast.{0} Real Real.instNatCast k)
+@@@ END

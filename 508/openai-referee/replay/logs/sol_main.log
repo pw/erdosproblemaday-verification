@@ -1,0 +1,4 @@
+OAI.EuclideanFiveColor.no_proper_five_coloring : Not
+  (@Exists.{1} (Complex → Fin (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5))))
+    fun (c : Complex → Fin (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))) =>
+    OAI.EuclideanFiveColor.ProperColoring (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5))) c)

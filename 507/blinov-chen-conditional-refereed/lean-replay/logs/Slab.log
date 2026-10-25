@@ -1,0 +1,8 @@
+'HeilbronnSlab.slab_width_bound' depends on axioms: [propext, Quot.sound]
+'HeilbronnSlab.slab_size_bound' depends on axioms: [propext, Quot.sound]
+'HeilbronnSlab.cap_modulus' depends on axioms: [propext, Quot.sound]
+'HeilbronnSlab.zero_case_bounds' depends on axioms: [propext, Quot.sound]
+'HeilbronnSlab.alteration_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnSlab.exponent_identity' depends on axioms: [propext, Quot.sound]
+'HeilbronnSlab.slab_gain' does not depend on any axioms
+RSSCAP done rc=0 peak_kb=561576 wall=2s

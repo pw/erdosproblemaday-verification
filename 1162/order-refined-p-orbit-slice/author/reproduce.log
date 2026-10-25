@@ -1,0 +1,99 @@
+/home/exedev/ErdosProblemADay/src/index.js
+  sha256=6c7ddccf530abe791889adf864bcf420e88752b65de5a54103e56cbf0b4e6ffe
+  standalone_1162_hits=0
+  phrase['number of subgroups']=0
+  phrase['subgroups of s_n']=0
+  phrase['subgroups of the symmetric group']=0
+  phrase['roney-dougal']=0
+  phrase['gareth tracey']=0
+/home/exedev/ErdosProblemADay/src/ledger_data.js
+  sha256=9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052
+  standalone_1162_hits=0
+  phrase['number of subgroups']=0
+  phrase['subgroups of s_n']=0
+  phrase['subgroups of the symmetric group']=0
+  phrase['roney-dougal']=0
+  phrase['gareth tracey']=0
+LOCAL SITE GATE PASSED
+Gaussian-binomial recurrence: PASS
+direct RREF audit p=2, m=6: 1330 full-support subspaces
+direct RREF audit p=3, m=4: 129 full-support subspaces
+direct RREF audit p=5, m=3: 45 full-support subspaces
+
+fixed-order slice for p=2, n even, r=floor(n/4)
+n	r	full_support_spaces	pairings	exact_subgroups	log2(count)
+4	1	1	3	3	1.584962500721
+6	1	1	15	15	3.906890595609
+8	2	13	105	1365	10.414685235807
+10	2	40	945	37800	15.206098613996
+12	3	670	10395	6964650	22.731619423091
+14	3	4811	135135	650134485	29.276162939969
+16	4	122861	2027025	249042318525	37.857599956892
+18	4	1876956	34459425	64678824510300	45.878358692672
+20	5	80189094	654729075	52502131339708050	55.543225508802
+22	5	2514255634	13749310575	34569281576809529550	64.906124424501
+24	6	191467330714	316234143225	60548507283919517512650	75.680509480792
+26	6	12140811344376	7905853580625	95983476838627619556315000	86.310988445365
+28	7	1721026866650520	213458046676875	367367033233642624447990725000	98.213136919488
+30	7	219337719059636463	6190283353629375	1357762631117904088073859137900625	110.064858415842
+32	8	59546788896602477613	191898783962510625	11426956378130345286331356082837138125	123.103780697157
+34	8	15212335474903647344836	6332659870762850625	96334546402504459282014908123107733122500	136.145177049285
+36	9	8051953156564494657274366	221643095476699771875	1784659822254338395831735506250116581485256250	150.322413375268
+38	9	4118430755450003625719674094	8200794532637891559375	33774404422342131149954039967556980772438450331250	164.530406978780
+40	10	4296294797725523713719072795542	319830986772877770815625	1374088204623735552758022063540169932100285650203943750	179.842591739638
+
+p=2 asymptotic residual log2(count)-[n^2/16+(n/2)log2(n)-(n/2)log2(e)]
+n=192: 2.291290658902
+n=194: 2.041297114139
+n=196: 2.291303437639
+n=198: 2.041309633393
+n=200: 2.291315705234
+
+ALL CHECKS PASSED
+S_7, p=2, m=3: frameworks=105, rank_counts={1: 105, 2: 420, 3: 105}
+S_8, p=2, m=4: frameworks=105, rank_counts={1: 105, 2: 1365, 3: 1155, 4: 105}
+S_8, p=3, m=2: frameworks=280, rank_counts={1: 560, 2: 280}
+S_9, p=3, m=3: frameworks=280, rank_counts={1: 1120, 2: 2800, 3: 280}
+PERMUTATION-LEVEL COLLISION AUDIT PASSED
+exact log2 residuals after all displayed terms in equation (2):
+  p=2: m=40: 2.290356286, m=41: 2.040392248, m=80: 2.291165428, m=81: 2.041174704
+  p=3: m=40: 1.626654048, m=41: 1.230462290, m=80: 1.627655883, m=81: 1.231427627
+  p=5: m=40: 1.553856692, m=41: 0.973433310, m=80: 1.555058883, m=81: 0.974591702
+finite middle-rank ratios versus limiting theta weights:
+  p=2, m=40: max ratio error=1.9311559417e-05
+  p=2, m=41: max ratio error=1.95505285792e-05
+  p=3, m=30: max ratio error=1.409318652e-06
+  p=3, m=31: max ratio error=1.44029663796e-06
+ASYMPTOTIC SIGNS AND TERMS AUDIT PASSED
+ASYMPTOTIC_AUDIT.md: OK
+PROVENANCE.md: OK
+REPORT.md: OK
+arxiv_2503.05416_metadata.xml: OK
+arxiv_2503.05416_source.tar: OK
+arxiv_2606.17488.pdf: OK
+audit_asymptotics.log: OK
+audit_asymptotics.py: OK
+audit_asymptotics.time: OK
+audit_permutation_collision.log: OK
+audit_permutation_collision.py: OK
+audit_permutation_collision.time: OK
+audit_site_gate.py: OK
+environment.txt: OK
+holt_2010_enumerating_subgroups.pdf: OK
+holt_2010_enumerating_subgroups.txt: OK
+live_page_1162_20260811.txt: OK
+oeis_A000019_20260811.seq: OK
+oeis_A000638_20260811.seq: OK
+oeis_A005432_20260811.seq: OK
+oeis_A005432_commit_metadata_20260811.json: OK
+oeis_A116655_20260811.seq: OK
+oeis_A116693_20260811.seq: OK
+parallel_sn_19.tar.xz: OK
+reproduce.sh: OK
+roney_dougal_tracey_2025.pdf: OK
+roney_dougal_tracey_2025.tex: OK
+roney_dougal_tracey_2025.txt: OK
+site_absence_audit_20260811.log: OK
+verify_order_slice.log: OK
+verify_order_slice.py: OK
+verify_order_slice.time: OK

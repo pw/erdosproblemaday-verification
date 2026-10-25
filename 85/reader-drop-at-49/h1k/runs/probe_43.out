@@ -1,0 +1,6 @@
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] vars=600 clauses=246188 c4=211884 derived=24 sb=16
+UNKNOWN (cap 600)
+  case 4 wall 602 s
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] vars=600 clauses=245274 c4=210636 derived=24 sb=18
+Terminated
+  case 3 wall 9 s

@@ -1,0 +1,2 @@
+PASS: 32 indices in [1,69] produce 528 distinct unordered two-square sums
+PASS: 33 indices in [1,70] produce 561 distinct unordered two-square sums

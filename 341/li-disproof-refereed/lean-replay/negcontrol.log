@@ -1,0 +1,2 @@
+/tmp/erdos2100/scripts/NegControl341.lean:2:8: warning: declaration uses `sorry`
+'erdos341_neg_control' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

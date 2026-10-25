@@ -1,0 +1,20 @@
+(7.13) exact: True  |p-r|^2 = (36/493 + 0*i)
+number of place entries: 12  total weight 6
+product formula sum* log|lam|_v = 0.000e+00 ; 2h(lam) = 6.200509174043 ; sum*|log|lam|_v| = 6.200509174043
+h(lam) = 3.100255 ;  ||n_pq - n_rq||_1 = 6.200509
+sum* -log|(d-d')(1/d-1/d')|_v = -3.331e-16 (product formula)
+  u=(3/7 + 4/7*i)                2h=3.8918202981  sum*|log|=3.8918202981  h(1/u)=1.9459101491
+  u=(1 + 1*i)                    2h=0.6931471806  sum*|log|=0.6931471806  h(1/u)=0.3465735903
+  u=(46/13 + 9/13*i)             2h=5.1298987149  sum*|log|=5.1298987149  h(1/u)=2.5649493575
+  u=(459001/243049 + 291002/243049*i) 2h=14.0104562605  sum*|log|=14.0104562605  h(1/u)=7.0052281303
+  u=(100/221 + 0*i)              2h=10.7963254030  sum*|log|=10.7963254030  h(1/u)=5.3981627015
+TOTAL FAILURES: 0
+
+CONTROL 1: sign-flipped identity log|lam|_v = n_pq - n_rq : 4 places disagree (expect >0)
+CONTROL 2: archimedean weights 1 each -> product formula sum = 2.1972 (expect !=0)
+CONTROL 3: 'h = (1/4) sum*|log|' -> 1.550127 vs h = 3.100255 (expect unequal)
+
+Mahler cross-check: min poly 493 x^2 - 950 x + 493 ; (1/2)log M = 3.100254587021 vs place-sum h = 3.100254587021
+NOTE: a first version of relevant_primes() took primes of the NORM only; it silently dropped the
+places above 17 and 29 (norm-1 elements), still passed the product formula and 2h=sum|log| checks,
+and reported h(lam)=1.4166 instead of 3.1003. The Mahler cross-check above is what catches that class.

@@ -1,0 +1,15 @@
+min over grid of 2t-(e^t-1) on [0,1] = 0.0  | chord slope e-1 = 1.7182818 < 2
+min over grid of (1-e^-t)-t/2 on [0,1] = 0.0  | chord slope 1-1/e = 0.63212056 > 1/2
+CONTROL t=1.3: e^t-1 <= 2t ? False (e^1.3-1 = 2.6693)
+CONTROL t=1.6: 1-e^-t >= t/2 ? False (1-e^-1.6 = 0.798103)
+e^t-1<=2t holds exactly on [0, 1.2564312];  1-e^-t >= t/2 holds exactly on [0, 1.5936243]
+
+explicit thresholds for the in-section 'large k' assumptions (checked k = 1..10^5 exactly; each is monotone after):
+  h0 < 2M < k (l.21)                                         fails for k in [1, 2, 3, 4, 5, 6] -> holds for all k >= 7
+  H = k^-2 <= 1/8 (mesh:neighbors)                           fails for k in [1, 2] -> holds for all k >= 3
+  4H < 1 and 3*(2H) < 1 (arcs)                               fails for k in [1, 2] -> holds for all k >= 3
+  alpha <= 1/4, R >= 1 given q >= P >= k+1 (mesh:width)      fails for k in [] -> holds for all k >= 1
+  prime lemma 4^(k^2)>(2k^2+1)(2k^2)^k [exact k<60 here; 3..400+tail in check_prime.py] fails for k in [1, 2] -> holds for all k >= 3
+  h0 < k (so h0 < k < P, gcd(lambda,q)=1)                    fails for k in [1, 2, 3, 4] -> holds for all k >= 5
+[check_elementary: 2.74s, maxrss 15472kB]
+exit=0

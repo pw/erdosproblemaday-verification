@@ -1,0 +1,45 @@
+32a33,36
+> - [OAI26a] OpenAI, *A linear cycle-and-edge decomposition of every graph*. OpenAI Math Release
+>   preprint (2026).
+>   https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-linear-cycle-and-edge-decomposition-of-every-graph-September-24-2026/main.pdf
+> - [Py85] Pyber, L., An Erdős-Gallai conjecture. Combinatorica (1985), 67-79.
+50a55,57
+> 
+> This was proved by an internal OpenAI model in September 2026 [OAI26a]; see the linked Lean
+> proof.
+52c59,60
+< @[category research open, AMS 5]
+---
+> @[category research solved, AMS 5, formal_proof using lean4 at
+>   "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/CycleDecomposition/Main.lean#L207"]
+83c91
+< @[category research solved, AMS 5]
+---
+> @[category research solved, AMS 5, formal_proof using lean4 at "https://github.com/anatoliiohorodnyk/lean-fc-proofs/blob/394ec1c1ff92bdf2fa10f30d62ae9d0455d3ce20/Proofs/T_Erdos184_erdos_184_variants_lower_bound.lean#L285"]
+96c104
+< require them to be edge-disjoint.
+---
+> require them to be edge-disjoint. Pyber [Py85] proved this.
+98c106
+< @[category research open, AMS 5]
+---
+> @[category research solved, question, AMS 5]
+100,105c108,112
+<     answer(sorry) ↔
+<       ∀ {V : Type} [Fintype V] [DecidableEq V] [Nonempty V] (G : SimpleGraph V),
+<       ∃ (D : Finset G.Subgraph),
+<         (∀ H ∈ D, IsCycleOrEdge H.coe) ∧
+<         (⋃ H ∈ D, H.edgeSet) = G.edgeSet ∧
+<         (D.card : ℝ) ≤ (Fintype.card V : ℝ) - 1 := by
+---
+>     ∀ {V : Type} [Fintype V] [DecidableEq V] [Nonempty V] (G : SimpleGraph V),
+>     ∃ (D : Finset G.Subgraph),
+>       (∀ H ∈ D, IsCycleOrEdge H.coe) ∧
+>       (⋃ H ∈ D, H.edgeSet) = G.edgeSet ∧
+>       (D.card : ℝ) ≤ (Fintype.card V : ℝ) - 1 := by
+110,111c117,118
+< The best bound available is due to Bucić and Montgomery [BM22], who prove that $O(n\log^* n)$ many
+< cycles and edges suffice, where $\log^*$ is the iterated logarithm function.
+---
+> Before [OAI26a], the best bound was due to Bucić and Montgomery [BM22], who prove that
+> $O(n\log^* n)$ many cycles and edges suffice, where $\log^*$ is the iterated logarithm function.

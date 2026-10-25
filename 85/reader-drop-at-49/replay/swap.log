@@ -1,0 +1,10 @@
+2026-10-19T09:46:52Z swapped to patched driver
+2026-10-19T15:06:34Z 15Z seat: drive.py (pid 1077021) TERMed, drive2.py (critical-path order, adopt, dynamic reservation, FLOOR 12) takes over
+2026-10-19T16:49:21Z 15Z seat: drive2 (pid 1443010) TERMed for the retire-before-ready + critical extra-slot fix; drive2 relaunched
+2026-10-19T18:00:21Z post-tick fix: drive2 (pid 1552749) TERMed; relaunched with HOLD-ALL for t1_rep0 (small certificates were starving it)
+2026-10-19T18:49:21Z post-tick: drive2 (pid 1625440) TERMed; relaunched with reservations recalibrated from measured certificate peaks (t1_rep0 capped 15 GB)
+2026-10-19T18:54:17Z post-tick: drive2 (pid 1675374) TERMed; reservation floor 3.0→1.5 GB, hold_small only for certs > 5 GB
+21:05:34Z restart #5 (21:0xZ seat): watchdog spares BIG (t1_rep0 at 23.3 GB anon > 15 GB reservation), killed small jobs re-queued, 2 GB growth margin on BIG; t1_rep0 oom_score_adj 0
+22:10:34Z restart #6 (21Z seat): BIG relaunches with NO Lean --memory cap (authors ran it uncapped; ours at 23.5 GiB of a 29.3 GiB cap and growing) + preexec_big (oom adj 0)
+22:17:55Z restart #7 (21Z seat): t1_rep0 STOPPED at RSS 26.20 GiB (doomed under the 30000 MB cap); driver now runs BIG last + alone + uncapped (BIG_ALONE_GB 36); watchdog never shoots a lone BIG
+2026-10-20T00:02:45Z restart #8 by the 00:00Z 10-20 seat: T0CanonicalCnfSatisfaction hit OUR --memory=16000 (kernel 'excessive memory consumption', 482 s; authors uncapped 296 s) -> driver FAILED 23:42Z; drive2 now re-runs a memcap failure ONCE uncapped (reservation 24 GB). Backup drive2.py.bak-0000.

@@ -1,0 +1,34 @@
+cube_F6_t14: N=893 rows=894 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F6_t15: N=893 rows=894 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F6_t16: N=9442 rows=9443 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F6_t17: N=9442 rows=9443 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F6_t18: N=9442 rows=9443 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F6_t5: N=3456 rows=3457 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F6_t8: N=20225 rows=20226 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t0: N=32538 rows=32539 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t10: N=50772 rows=50773 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t11: N=20225 rows=20226 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t13: N=20225 rows=20226 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t14: N=9442 rows=9443 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t2: N=11025 rows=11026 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t3: N=11025 rows=11026 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t4: N=11025 rows=11026 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t5: N=3456 rows=3457 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t6: N=3456 rows=3457 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t8: N=3456 rows=3457 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F7_t9: N=3456 rows=3457 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F8_t0: N=32538 rows=32539 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F8_t1: N=11025 rows=11026 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F8_t2: N=11025 rows=11026 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F8_t3: N=11025 rows=11026 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F8_t4: N=11025 rows=11026 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F8_t5: N=3456 rows=3457 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F8_t6: N=20225 rows=20226 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F9_t0: N=32538 rows=32539 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+cube_F9_t1: N=11025 rows=11026 covers=1 cover_hash_ok=True missing=[] extra=[] dups=0
+split rows 257 Counter({('249', 'subleaf'): 256, ('249', 'subcover'): 1}) distinct subleaf idx 256
+split specs 1 [('cube_F9_t0', 249, 256, '8c1588febdf1')]
+split sha used by receipts ['8c1588febdf1']
+subleaf clause strings match spec: True n 256
+vars in split 49
+cubes with problems: 0

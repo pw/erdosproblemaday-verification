@@ -1,0 +1,4 @@
+'Bridge174.algebraic_spherical_fieldCriterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge174.algebraic_spherical_ramsey' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge174.algebraic_ramsey_iff_cospherical' depends on axioms: [propext, Classical.choice, Quot.sound]
+AxBridge rc=0

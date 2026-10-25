@@ -1,0 +1,4 @@
+OAI.Problem344.large_gaps_and_ratio_density : (∀ (C : ℝ),
+    0 < C → ∃ c, 0 < c ∧ ∃ N₀, ∀ (N : ℕ), N₀ ≤ N → c * ↑N ≤ ↑(OAI.LargePrimeGaps.largeGapIndices C N).card) ∧
+  0 < OAI.Problem344.lowerAsymptoticDensity OAI.Problem344.ratioIncreaseIndices
+OAI.LargePrimeGaps.bombieriVinogradov : OAI.LargePrimeGaps.BombieriVinogradov

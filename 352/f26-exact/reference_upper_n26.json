@@ -1,0 +1,3428 @@
+{
+  "N": 26,
+  "case_count": 285,
+  "max_case_upper_total": 52,
+  "cases_with_high": 243,
+  "cases": [
+    {
+      "B": [
+        1,
+        0
+      ],
+      "diameter_squared": 1,
+      "low": 0,
+      "high": 0,
+      "no_high_upper_total": 2,
+      "high_side_upper_total": 2,
+      "case_upper_total": 2
+    },
+    {
+      "B": [
+        1,
+        1
+      ],
+      "diameter_squared": 2,
+      "low": 2,
+      "high": 0,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 2,
+      "case_upper_total": 4
+    },
+    {
+      "B": [
+        2,
+        0
+      ],
+      "diameter_squared": 4,
+      "low": 3,
+      "high": 0,
+      "no_high_upper_total": 5,
+      "high_side_upper_total": 2,
+      "case_upper_total": 5
+    },
+    {
+      "B": [
+        2,
+        1
+      ],
+      "diameter_squared": 5,
+      "low": 8,
+      "high": 0,
+      "no_high_upper_total": 7,
+      "high_side_upper_total": 2,
+      "case_upper_total": 7
+    },
+    {
+      "B": [
+        2,
+        2
+      ],
+      "diameter_squared": 8,
+      "low": 7,
+      "high": 0,
+      "no_high_upper_total": 9,
+      "high_side_upper_total": 2,
+      "case_upper_total": 9
+    },
+    {
+      "B": [
+        3,
+        0
+      ],
+      "diameter_squared": 9,
+      "low": 10,
+      "high": 0,
+      "no_high_upper_total": 8,
+      "high_side_upper_total": 2,
+      "case_upper_total": 8
+    },
+    {
+      "B": [
+        3,
+        1
+      ],
+      "diameter_squared": 10,
+      "low": 14,
+      "high": 0,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 2,
+      "case_upper_total": 12
+    },
+    {
+      "B": [
+        3,
+        2
+      ],
+      "diameter_squared": 13,
+      "low": 16,
+      "high": 0,
+      "no_high_upper_total": 14,
+      "high_side_upper_total": 2,
+      "case_upper_total": 14
+    },
+    {
+      "B": [
+        4,
+        0
+      ],
+      "diameter_squared": 16,
+      "low": 17,
+      "high": 0,
+      "no_high_upper_total": 15,
+      "high_side_upper_total": 2,
+      "case_upper_total": 15
+    },
+    {
+      "B": [
+        4,
+        1
+      ],
+      "diameter_squared": 17,
+      "low": 20,
+      "high": 0,
+      "no_high_upper_total": 17,
+      "high_side_upper_total": 2,
+      "case_upper_total": 17
+    },
+    {
+      "B": [
+        3,
+        3
+      ],
+      "diameter_squared": 18,
+      "low": 24,
+      "high": 0,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 2,
+      "case_upper_total": 18
+    },
+    {
+      "B": [
+        4,
+        2
+      ],
+      "diameter_squared": 20,
+      "low": 27,
+      "high": 0,
+      "no_high_upper_total": 21,
+      "high_side_upper_total": 2,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        4,
+        3
+      ],
+      "diameter_squared": 25,
+      "low": 30,
+      "high": 0,
+      "no_high_upper_total": 23,
+      "high_side_upper_total": 2,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        5,
+        0
+      ],
+      "diameter_squared": 25,
+      "low": 32,
+      "high": 0,
+      "no_high_upper_total": 22,
+      "high_side_upper_total": 2,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        5,
+        1
+      ],
+      "diameter_squared": 26,
+      "low": 34,
+      "high": 0,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 2,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        5,
+        2
+      ],
+      "diameter_squared": 29,
+      "low": 38,
+      "high": 0,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 2,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        4,
+        4
+      ],
+      "diameter_squared": 32,
+      "low": 37,
+      "high": 0,
+      "no_high_upper_total": 29,
+      "high_side_upper_total": 2,
+      "case_upper_total": 29
+    },
+    {
+      "B": [
+        5,
+        3
+      ],
+      "diameter_squared": 34,
+      "low": 40,
+      "high": 0,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 2,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        6,
+        0
+      ],
+      "diameter_squared": 36,
+      "low": 43,
+      "high": 0,
+      "no_high_upper_total": 31,
+      "high_side_upper_total": 2,
+      "case_upper_total": 31
+    },
+    {
+      "B": [
+        6,
+        1
+      ],
+      "diameter_squared": 37,
+      "low": 46,
+      "high": 0,
+      "no_high_upper_total": 33,
+      "high_side_upper_total": 2,
+      "case_upper_total": 33
+    },
+    {
+      "B": [
+        6,
+        2
+      ],
+      "diameter_squared": 40,
+      "low": 49,
+      "high": 0,
+      "no_high_upper_total": 37,
+      "high_side_upper_total": 2,
+      "case_upper_total": 37
+    },
+    {
+      "B": [
+        5,
+        4
+      ],
+      "diameter_squared": 41,
+      "low": 54,
+      "high": 0,
+      "no_high_upper_total": 37,
+      "high_side_upper_total": 2,
+      "case_upper_total": 37
+    },
+    {
+      "B": [
+        6,
+        3
+      ],
+      "diameter_squared": 45,
+      "low": 56,
+      "high": 0,
+      "no_high_upper_total": 41,
+      "high_side_upper_total": 2,
+      "case_upper_total": 41
+    },
+    {
+      "B": [
+        7,
+        0
+      ],
+      "diameter_squared": 49,
+      "low": 54,
+      "high": 0,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 2,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        5,
+        5
+      ],
+      "diameter_squared": 50,
+      "low": 60,
+      "high": 0,
+      "no_high_upper_total": 44,
+      "high_side_upper_total": 2,
+      "case_upper_total": 44
+    },
+    {
+      "B": [
+        7,
+        1
+      ],
+      "diameter_squared": 50,
+      "low": 58,
+      "high": 0,
+      "no_high_upper_total": 44,
+      "high_side_upper_total": 2,
+      "case_upper_total": 44
+    },
+    {
+      "B": [
+        6,
+        4
+      ],
+      "diameter_squared": 52,
+      "low": 61,
+      "high": 0,
+      "no_high_upper_total": 45,
+      "high_side_upper_total": 2,
+      "case_upper_total": 45
+    },
+    {
+      "B": [
+        7,
+        2
+      ],
+      "diameter_squared": 53,
+      "low": 64,
+      "high": 0,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 2,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        7,
+        3
+      ],
+      "diameter_squared": 58,
+      "low": 62,
+      "high": 0,
+      "no_high_upper_total": 52,
+      "high_side_upper_total": 2,
+      "case_upper_total": 52
+    },
+    {
+      "B": [
+        6,
+        5
+      ],
+      "diameter_squared": 61,
+      "low": 64,
+      "high": 0,
+      "no_high_upper_total": 51,
+      "high_side_upper_total": 2,
+      "case_upper_total": 51
+    },
+    {
+      "B": [
+        8,
+        0
+      ],
+      "diameter_squared": 64,
+      "low": 59,
+      "high": 0,
+      "no_high_upper_total": 49,
+      "high_side_upper_total": 2,
+      "case_upper_total": 49
+    },
+    {
+      "B": [
+        7,
+        4
+      ],
+      "diameter_squared": 65,
+      "low": 66,
+      "high": 0,
+      "no_high_upper_total": 52,
+      "high_side_upper_total": 2,
+      "case_upper_total": 52
+    },
+    {
+      "B": [
+        8,
+        1
+      ],
+      "diameter_squared": 65,
+      "low": 64,
+      "high": 0,
+      "no_high_upper_total": 50,
+      "high_side_upper_total": 2,
+      "case_upper_total": 50
+    },
+    {
+      "B": [
+        8,
+        2
+      ],
+      "diameter_squared": 68,
+      "low": 65,
+      "high": 0,
+      "no_high_upper_total": 52,
+      "high_side_upper_total": 2,
+      "case_upper_total": 52
+    },
+    {
+      "B": [
+        6,
+        6
+      ],
+      "diameter_squared": 72,
+      "low": 57,
+      "high": 0,
+      "no_high_upper_total": 49,
+      "high_side_upper_total": 2,
+      "case_upper_total": 49
+    },
+    {
+      "B": [
+        8,
+        3
+      ],
+      "diameter_squared": 73,
+      "low": 64,
+      "high": 0,
+      "no_high_upper_total": 52,
+      "high_side_upper_total": 2,
+      "case_upper_total": 52
+    },
+    {
+      "B": [
+        7,
+        5
+      ],
+      "diameter_squared": 74,
+      "low": 66,
+      "high": 0,
+      "no_high_upper_total": 50,
+      "high_side_upper_total": 2,
+      "case_upper_total": 50
+    },
+    {
+      "B": [
+        8,
+        4
+      ],
+      "diameter_squared": 80,
+      "low": 61,
+      "high": 0,
+      "no_high_upper_total": 49,
+      "high_side_upper_total": 2,
+      "case_upper_total": 49
+    },
+    {
+      "B": [
+        9,
+        0
+      ],
+      "diameter_squared": 81,
+      "low": 56,
+      "high": 0,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 2,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        9,
+        1
+      ],
+      "diameter_squared": 82,
+      "low": 64,
+      "high": 0,
+      "no_high_upper_total": 50,
+      "high_side_upper_total": 2,
+      "case_upper_total": 50
+    },
+    {
+      "B": [
+        7,
+        6
+      ],
+      "diameter_squared": 85,
+      "low": 62,
+      "high": 0,
+      "no_high_upper_total": 49,
+      "high_side_upper_total": 2,
+      "case_upper_total": 49
+    },
+    {
+      "B": [
+        9,
+        2
+      ],
+      "diameter_squared": 85,
+      "low": 64,
+      "high": 0,
+      "no_high_upper_total": 50,
+      "high_side_upper_total": 2,
+      "case_upper_total": 50
+    },
+    {
+      "B": [
+        8,
+        5
+      ],
+      "diameter_squared": 89,
+      "low": 64,
+      "high": 2,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 8,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        9,
+        3
+      ],
+      "diameter_squared": 90,
+      "low": 66,
+      "high": 4,
+      "no_high_upper_total": 50,
+      "high_side_upper_total": 9,
+      "case_upper_total": 50
+    },
+    {
+      "B": [
+        9,
+        4
+      ],
+      "diameter_squared": 97,
+      "low": 60,
+      "high": 6,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 9,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        7,
+        7
+      ],
+      "diameter_squared": 98,
+      "low": 58,
+      "high": 2,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 8,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        8,
+        6
+      ],
+      "diameter_squared": 100,
+      "low": 61,
+      "high": 4,
+      "no_high_upper_total": 49,
+      "high_side_upper_total": 9,
+      "case_upper_total": 49
+    },
+    {
+      "B": [
+        10,
+        0
+      ],
+      "diameter_squared": 100,
+      "low": 63,
+      "high": 6,
+      "no_high_upper_total": 47,
+      "high_side_upper_total": 9,
+      "case_upper_total": 47
+    },
+    {
+      "B": [
+        10,
+        1
+      ],
+      "diameter_squared": 101,
+      "low": 60,
+      "high": 10,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 10,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        10,
+        2
+      ],
+      "diameter_squared": 104,
+      "low": 61,
+      "high": 8,
+      "no_high_upper_total": 49,
+      "high_side_upper_total": 9,
+      "case_upper_total": 49
+    },
+    {
+      "B": [
+        9,
+        5
+      ],
+      "diameter_squared": 106,
+      "low": 60,
+      "high": 10,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 10,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        10,
+        3
+      ],
+      "diameter_squared": 109,
+      "low": 62,
+      "high": 14,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 11,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        8,
+        7
+      ],
+      "diameter_squared": 113,
+      "low": 58,
+      "high": 12,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 10,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        10,
+        4
+      ],
+      "diameter_squared": 116,
+      "low": 59,
+      "high": 18,
+      "no_high_upper_total": 47,
+      "high_side_upper_total": 12,
+      "case_upper_total": 47
+    },
+    {
+      "B": [
+        9,
+        6
+      ],
+      "diameter_squared": 117,
+      "low": 62,
+      "high": 16,
+      "no_high_upper_total": 47,
+      "high_side_upper_total": 12,
+      "case_upper_total": 47
+    },
+    {
+      "B": [
+        11,
+        0
+      ],
+      "diameter_squared": 121,
+      "low": 50,
+      "high": 24,
+      "no_high_upper_total": 44,
+      "high_side_upper_total": 14,
+      "case_upper_total": 44
+    },
+    {
+      "B": [
+        11,
+        1
+      ],
+      "diameter_squared": 122,
+      "low": 58,
+      "high": 18,
+      "no_high_upper_total": 46,
+      "high_side_upper_total": 14,
+      "case_upper_total": 46
+    },
+    {
+      "B": [
+        10,
+        5
+      ],
+      "diameter_squared": 125,
+      "low": 52,
+      "high": 30,
+      "no_high_upper_total": 44,
+      "high_side_upper_total": 16,
+      "case_upper_total": 44
+    },
+    {
+      "B": [
+        11,
+        2
+      ],
+      "diameter_squared": 125,
+      "low": 58,
+      "high": 24,
+      "no_high_upper_total": 48,
+      "high_side_upper_total": 16,
+      "case_upper_total": 48
+    },
+    {
+      "B": [
+        8,
+        8
+      ],
+      "diameter_squared": 128,
+      "low": 53,
+      "high": 28,
+      "no_high_upper_total": 45,
+      "high_side_upper_total": 16,
+      "case_upper_total": 45
+    },
+    {
+      "B": [
+        9,
+        7
+      ],
+      "diameter_squared": 130,
+      "low": 58,
+      "high": 32,
+      "no_high_upper_total": 46,
+      "high_side_upper_total": 18,
+      "case_upper_total": 46
+    },
+    {
+      "B": [
+        11,
+        3
+      ],
+      "diameter_squared": 130,
+      "low": 58,
+      "high": 30,
+      "no_high_upper_total": 46,
+      "high_side_upper_total": 18,
+      "case_upper_total": 46
+    },
+    {
+      "B": [
+        10,
+        6
+      ],
+      "diameter_squared": 136,
+      "low": 55,
+      "high": 32,
+      "no_high_upper_total": 43,
+      "high_side_upper_total": 19,
+      "case_upper_total": 43
+    },
+    {
+      "B": [
+        11,
+        4
+      ],
+      "diameter_squared": 137,
+      "low": 56,
+      "high": 38,
+      "no_high_upper_total": 46,
+      "high_side_upper_total": 20,
+      "case_upper_total": 46
+    },
+    {
+      "B": [
+        12,
+        0
+      ],
+      "diameter_squared": 144,
+      "low": 55,
+      "high": 32,
+      "no_high_upper_total": 44,
+      "high_side_upper_total": 19,
+      "case_upper_total": 44
+    },
+    {
+      "B": [
+        9,
+        8
+      ],
+      "diameter_squared": 145,
+      "low": 54,
+      "high": 42,
+      "no_high_upper_total": 44,
+      "high_side_upper_total": 22,
+      "case_upper_total": 44
+    },
+    {
+      "B": [
+        12,
+        1
+      ],
+      "diameter_squared": 145,
+      "low": 54,
+      "high": 44,
+      "no_high_upper_total": 44,
+      "high_side_upper_total": 22,
+      "case_upper_total": 44
+    },
+    {
+      "B": [
+        11,
+        5
+      ],
+      "diameter_squared": 146,
+      "low": 52,
+      "high": 42,
+      "no_high_upper_total": 44,
+      "high_side_upper_total": 21,
+      "case_upper_total": 44
+    },
+    {
+      "B": [
+        12,
+        2
+      ],
+      "diameter_squared": 148,
+      "low": 53,
+      "high": 46,
+      "no_high_upper_total": 45,
+      "high_side_upper_total": 22,
+      "case_upper_total": 45
+    },
+    {
+      "B": [
+        10,
+        7
+      ],
+      "diameter_squared": 149,
+      "low": 54,
+      "high": 48,
+      "no_high_upper_total": 42,
+      "high_side_upper_total": 22,
+      "case_upper_total": 42
+    },
+    {
+      "B": [
+        12,
+        3
+      ],
+      "diameter_squared": 153,
+      "low": 56,
+      "high": 48,
+      "no_high_upper_total": 43,
+      "high_side_upper_total": 22,
+      "case_upper_total": 43
+    },
+    {
+      "B": [
+        11,
+        6
+      ],
+      "diameter_squared": 157,
+      "low": 52,
+      "high": 52,
+      "no_high_upper_total": 42,
+      "high_side_upper_total": 23,
+      "case_upper_total": 42
+    },
+    {
+      "B": [
+        12,
+        4
+      ],
+      "diameter_squared": 160,
+      "low": 51,
+      "high": 56,
+      "no_high_upper_total": 42,
+      "high_side_upper_total": 24,
+      "case_upper_total": 42
+    },
+    {
+      "B": [
+        9,
+        9
+      ],
+      "diameter_squared": 162,
+      "low": 42,
+      "high": 56,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 23,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        10,
+        8
+      ],
+      "diameter_squared": 164,
+      "low": 53,
+      "high": 56,
+      "no_high_upper_total": 41,
+      "high_side_upper_total": 24,
+      "case_upper_total": 41
+    },
+    {
+      "B": [
+        12,
+        5
+      ],
+      "diameter_squared": 169,
+      "low": 50,
+      "high": 62,
+      "no_high_upper_total": 42,
+      "high_side_upper_total": 24,
+      "case_upper_total": 42
+    },
+    {
+      "B": [
+        13,
+        0
+      ],
+      "diameter_squared": 169,
+      "low": 36,
+      "high": 52,
+      "no_high_upper_total": 38,
+      "high_side_upper_total": 22,
+      "case_upper_total": 38
+    },
+    {
+      "B": [
+        11,
+        7
+      ],
+      "diameter_squared": 170,
+      "low": 50,
+      "high": 68,
+      "no_high_upper_total": 42,
+      "high_side_upper_total": 24,
+      "case_upper_total": 42
+    },
+    {
+      "B": [
+        13,
+        1
+      ],
+      "diameter_squared": 170,
+      "low": 50,
+      "high": 68,
+      "no_high_upper_total": 42,
+      "high_side_upper_total": 23,
+      "case_upper_total": 42
+    },
+    {
+      "B": [
+        13,
+        2
+      ],
+      "diameter_squared": 173,
+      "low": 50,
+      "high": 68,
+      "no_high_upper_total": 42,
+      "high_side_upper_total": 24,
+      "case_upper_total": 42
+    },
+    {
+      "B": [
+        13,
+        3
+      ],
+      "diameter_squared": 178,
+      "low": 50,
+      "high": 68,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 23,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        12,
+        6
+      ],
+      "diameter_squared": 180,
+      "low": 53,
+      "high": 74,
+      "no_high_upper_total": 42,
+      "high_side_upper_total": 24,
+      "case_upper_total": 42
+    },
+    {
+      "B": [
+        10,
+        9
+      ],
+      "diameter_squared": 181,
+      "low": 50,
+      "high": 80,
+      "no_high_upper_total": 41,
+      "high_side_upper_total": 24,
+      "case_upper_total": 41
+    },
+    {
+      "B": [
+        11,
+        8
+      ],
+      "diameter_squared": 185,
+      "low": 48,
+      "high": 82,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 24,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        13,
+        4
+      ],
+      "diameter_squared": 185,
+      "low": 48,
+      "high": 84,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 25,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        12,
+        7
+      ],
+      "diameter_squared": 193,
+      "low": 48,
+      "high": 82,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 24,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        13,
+        5
+      ],
+      "diameter_squared": 194,
+      "low": 48,
+      "high": 90,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 25,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        14,
+        0
+      ],
+      "diameter_squared": 196,
+      "low": 39,
+      "high": 94,
+      "no_high_upper_total": 39,
+      "high_side_upper_total": 21,
+      "case_upper_total": 39
+    },
+    {
+      "B": [
+        14,
+        1
+      ],
+      "diameter_squared": 197,
+      "low": 46,
+      "high": 88,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 23,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        10,
+        10
+      ],
+      "diameter_squared": 200,
+      "low": 47,
+      "high": 92,
+      "no_high_upper_total": 39,
+      "high_side_upper_total": 23,
+      "case_upper_total": 39
+    },
+    {
+      "B": [
+        14,
+        2
+      ],
+      "diameter_squared": 200,
+      "low": 45,
+      "high": 90,
+      "no_high_upper_total": 39,
+      "high_side_upper_total": 23,
+      "case_upper_total": 39
+    },
+    {
+      "B": [
+        11,
+        9
+      ],
+      "diameter_squared": 202,
+      "low": 46,
+      "high": 100,
+      "no_high_upper_total": 38,
+      "high_side_upper_total": 24,
+      "case_upper_total": 38
+    },
+    {
+      "B": [
+        13,
+        6
+      ],
+      "diameter_squared": 205,
+      "low": 46,
+      "high": 104,
+      "no_high_upper_total": 40,
+      "high_side_upper_total": 24,
+      "case_upper_total": 40
+    },
+    {
+      "B": [
+        14,
+        3
+      ],
+      "diameter_squared": 205,
+      "low": 46,
+      "high": 104,
+      "no_high_upper_total": 38,
+      "high_side_upper_total": 23,
+      "case_upper_total": 38
+    },
+    {
+      "B": [
+        12,
+        8
+      ],
+      "diameter_squared": 208,
+      "low": 43,
+      "high": 104,
+      "no_high_upper_total": 37,
+      "high_side_upper_total": 24,
+      "case_upper_total": 37
+    },
+    {
+      "B": [
+        14,
+        4
+      ],
+      "diameter_squared": 212,
+      "low": 45,
+      "high": 110,
+      "no_high_upper_total": 39,
+      "high_side_upper_total": 23,
+      "case_upper_total": 39
+    },
+    {
+      "B": [
+        13,
+        7
+      ],
+      "diameter_squared": 218,
+      "low": 44,
+      "high": 112,
+      "no_high_upper_total": 38,
+      "high_side_upper_total": 24,
+      "case_upper_total": 38
+    },
+    {
+      "B": [
+        11,
+        10
+      ],
+      "diameter_squared": 221,
+      "low": 44,
+      "high": 112,
+      "no_high_upper_total": 38,
+      "high_side_upper_total": 24,
+      "case_upper_total": 38
+    },
+    {
+      "B": [
+        14,
+        5
+      ],
+      "diameter_squared": 221,
+      "low": 44,
+      "high": 120,
+      "no_high_upper_total": 38,
+      "high_side_upper_total": 24,
+      "case_upper_total": 38
+    },
+    {
+      "B": [
+        12,
+        9
+      ],
+      "diameter_squared": 225,
+      "low": 44,
+      "high": 114,
+      "no_high_upper_total": 36,
+      "high_side_upper_total": 24,
+      "case_upper_total": 36
+    },
+    {
+      "B": [
+        15,
+        0
+      ],
+      "diameter_squared": 225,
+      "low": 42,
+      "high": 124,
+      "no_high_upper_total": 38,
+      "high_side_upper_total": 22,
+      "case_upper_total": 38
+    },
+    {
+      "B": [
+        15,
+        1
+      ],
+      "diameter_squared": 226,
+      "low": 42,
+      "high": 126,
+      "no_high_upper_total": 36,
+      "high_side_upper_total": 24,
+      "case_upper_total": 36
+    },
+    {
+      "B": [
+        15,
+        2
+      ],
+      "diameter_squared": 229,
+      "low": 42,
+      "high": 124,
+      "no_high_upper_total": 36,
+      "high_side_upper_total": 24,
+      "case_upper_total": 36
+    },
+    {
+      "B": [
+        14,
+        6
+      ],
+      "diameter_squared": 232,
+      "low": 41,
+      "high": 128,
+      "no_high_upper_total": 37,
+      "high_side_upper_total": 23,
+      "case_upper_total": 37
+    },
+    {
+      "B": [
+        13,
+        8
+      ],
+      "diameter_squared": 233,
+      "low": 42,
+      "high": 134,
+      "no_high_upper_total": 35,
+      "high_side_upper_total": 22,
+      "case_upper_total": 35
+    },
+    {
+      "B": [
+        15,
+        3
+      ],
+      "diameter_squared": 234,
+      "low": 44,
+      "high": 134,
+      "no_high_upper_total": 36,
+      "high_side_upper_total": 24,
+      "case_upper_total": 36
+    },
+    {
+      "B": [
+        15,
+        4
+      ],
+      "diameter_squared": 241,
+      "low": 40,
+      "high": 134,
+      "no_high_upper_total": 36,
+      "high_side_upper_total": 24,
+      "case_upper_total": 36
+    },
+    {
+      "B": [
+        11,
+        11
+      ],
+      "diameter_squared": 242,
+      "low": 32,
+      "high": 144,
+      "no_high_upper_total": 34,
+      "high_side_upper_total": 24,
+      "case_upper_total": 34
+    },
+    {
+      "B": [
+        12,
+        10
+      ],
+      "diameter_squared": 244,
+      "low": 41,
+      "high": 140,
+      "no_high_upper_total": 35,
+      "high_side_upper_total": 24,
+      "case_upper_total": 35
+    },
+    {
+      "B": [
+        14,
+        7
+      ],
+      "diameter_squared": 245,
+      "low": 34,
+      "high": 148,
+      "no_high_upper_total": 34,
+      "high_side_upper_total": 22,
+      "case_upper_total": 34
+    },
+    {
+      "B": [
+        13,
+        9
+      ],
+      "diameter_squared": 250,
+      "low": 40,
+      "high": 146,
+      "no_high_upper_total": 34,
+      "high_side_upper_total": 22,
+      "case_upper_total": 34
+    },
+    {
+      "B": [
+        15,
+        5
+      ],
+      "diameter_squared": 250,
+      "low": 44,
+      "high": 154,
+      "no_high_upper_total": 36,
+      "high_side_upper_total": 22,
+      "case_upper_total": 36
+    },
+    {
+      "B": [
+        16,
+        0
+      ],
+      "diameter_squared": 256,
+      "low": 45,
+      "high": 144,
+      "no_high_upper_total": 37,
+      "high_side_upper_total": 23,
+      "case_upper_total": 37
+    },
+    {
+      "B": [
+        16,
+        1
+      ],
+      "diameter_squared": 257,
+      "low": 38,
+      "high": 152,
+      "no_high_upper_total": 34,
+      "high_side_upper_total": 24,
+      "case_upper_total": 34
+    },
+    {
+      "B": [
+        14,
+        8
+      ],
+      "diameter_squared": 260,
+      "low": 37,
+      "high": 160,
+      "no_high_upper_total": 33,
+      "high_side_upper_total": 22,
+      "case_upper_total": 33
+    },
+    {
+      "B": [
+        16,
+        2
+      ],
+      "diameter_squared": 260,
+      "low": 37,
+      "high": 156,
+      "no_high_upper_total": 33,
+      "high_side_upper_total": 25,
+      "case_upper_total": 33
+    },
+    {
+      "B": [
+        15,
+        6
+      ],
+      "diameter_squared": 261,
+      "low": 38,
+      "high": 158,
+      "no_high_upper_total": 34,
+      "high_side_upper_total": 23,
+      "case_upper_total": 34
+    },
+    {
+      "B": [
+        12,
+        11
+      ],
+      "diameter_squared": 265,
+      "low": 38,
+      "high": 172,
+      "no_high_upper_total": 34,
+      "high_side_upper_total": 23,
+      "case_upper_total": 34
+    },
+    {
+      "B": [
+        16,
+        3
+      ],
+      "diameter_squared": 265,
+      "low": 38,
+      "high": 168,
+      "no_high_upper_total": 34,
+      "high_side_upper_total": 24,
+      "case_upper_total": 34
+    },
+    {
+      "B": [
+        13,
+        10
+      ],
+      "diameter_squared": 269,
+      "low": 38,
+      "high": 170,
+      "no_high_upper_total": 34,
+      "high_side_upper_total": 24,
+      "case_upper_total": 34
+    },
+    {
+      "B": [
+        16,
+        4
+      ],
+      "diameter_squared": 272,
+      "low": 35,
+      "high": 170,
+      "no_high_upper_total": 33,
+      "high_side_upper_total": 24,
+      "case_upper_total": 33
+    },
+    {
+      "B": [
+        15,
+        7
+      ],
+      "diameter_squared": 274,
+      "low": 36,
+      "high": 174,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 23,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        14,
+        9
+      ],
+      "diameter_squared": 277,
+      "low": 36,
+      "high": 178,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 23,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        16,
+        5
+      ],
+      "diameter_squared": 281,
+      "low": 36,
+      "high": 182,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 23,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        12,
+        12
+      ],
+      "diameter_squared": 288,
+      "low": 35,
+      "high": 170,
+      "no_high_upper_total": 33,
+      "high_side_upper_total": 24,
+      "case_upper_total": 33
+    },
+    {
+      "B": [
+        15,
+        8
+      ],
+      "diameter_squared": 289,
+      "low": 34,
+      "high": 182,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 24,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        17,
+        0
+      ],
+      "diameter_squared": 289,
+      "low": 48,
+      "high": 172,
+      "no_high_upper_total": 36,
+      "high_side_upper_total": 24,
+      "case_upper_total": 36
+    },
+    {
+      "B": [
+        13,
+        11
+      ],
+      "diameter_squared": 290,
+      "low": 34,
+      "high": 190,
+      "no_high_upper_total": 30,
+      "high_side_upper_total": 24,
+      "case_upper_total": 30
+    },
+    {
+      "B": [
+        17,
+        1
+      ],
+      "diameter_squared": 290,
+      "low": 34,
+      "high": 196,
+      "no_high_upper_total": 36,
+      "high_side_upper_total": 25,
+      "case_upper_total": 36
+    },
+    {
+      "B": [
+        16,
+        6
+      ],
+      "diameter_squared": 292,
+      "low": 33,
+      "high": 194,
+      "no_high_upper_total": 31,
+      "high_side_upper_total": 24,
+      "case_upper_total": 31
+    },
+    {
+      "B": [
+        17,
+        2
+      ],
+      "diameter_squared": 293,
+      "low": 34,
+      "high": 196,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 25,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        14,
+        10
+      ],
+      "diameter_squared": 296,
+      "low": 33,
+      "high": 200,
+      "no_high_upper_total": 31,
+      "high_side_upper_total": 24,
+      "case_upper_total": 31
+    },
+    {
+      "B": [
+        17,
+        3
+      ],
+      "diameter_squared": 298,
+      "low": 34,
+      "high": 202,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 24,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        16,
+        7
+      ],
+      "diameter_squared": 305,
+      "low": 34,
+      "high": 210,
+      "no_high_upper_total": 30,
+      "high_side_upper_total": 24,
+      "case_upper_total": 30
+    },
+    {
+      "B": [
+        17,
+        4
+      ],
+      "diameter_squared": 305,
+      "low": 34,
+      "high": 206,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 25,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        15,
+        9
+      ],
+      "diameter_squared": 306,
+      "low": 32,
+      "high": 216,
+      "no_high_upper_total": 30,
+      "high_side_upper_total": 24,
+      "case_upper_total": 30
+    },
+    {
+      "B": [
+        13,
+        12
+      ],
+      "diameter_squared": 313,
+      "low": 32,
+      "high": 210,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 25,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        17,
+        5
+      ],
+      "diameter_squared": 314,
+      "low": 32,
+      "high": 216,
+      "no_high_upper_total": 30,
+      "high_side_upper_total": 23,
+      "case_upper_total": 30
+    },
+    {
+      "B": [
+        14,
+        11
+      ],
+      "diameter_squared": 317,
+      "low": 32,
+      "high": 214,
+      "no_high_upper_total": 30,
+      "high_side_upper_total": 24,
+      "case_upper_total": 30
+    },
+    {
+      "B": [
+        16,
+        8
+      ],
+      "diameter_squared": 320,
+      "low": 39,
+      "high": 228,
+      "no_high_upper_total": 31,
+      "high_side_upper_total": 24,
+      "case_upper_total": 31
+    },
+    {
+      "B": [
+        18,
+        0
+      ],
+      "diameter_squared": 324,
+      "low": 17,
+      "high": 238,
+      "no_high_upper_total": 19,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        15,
+        10
+      ],
+      "diameter_squared": 325,
+      "low": 34,
+      "high": 234,
+      "no_high_upper_total": 30,
+      "high_side_upper_total": 24,
+      "case_upper_total": 30
+    },
+    {
+      "B": [
+        17,
+        6
+      ],
+      "diameter_squared": 325,
+      "low": 30,
+      "high": 234,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 24,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        18,
+        1
+      ],
+      "diameter_squared": 325,
+      "low": 30,
+      "high": 234,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 22,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        18,
+        2
+      ],
+      "diameter_squared": 328,
+      "low": 29,
+      "high": 230,
+      "no_high_upper_total": 29,
+      "high_side_upper_total": 23,
+      "case_upper_total": 29
+    },
+    {
+      "B": [
+        18,
+        3
+      ],
+      "diameter_squared": 333,
+      "low": 32,
+      "high": 232,
+      "no_high_upper_total": 30,
+      "high_side_upper_total": 23,
+      "case_upper_total": 30
+    },
+    {
+      "B": [
+        16,
+        9
+      ],
+      "diameter_squared": 337,
+      "low": 30,
+      "high": 242,
+      "no_high_upper_total": 26,
+      "high_side_upper_total": 24,
+      "case_upper_total": 26
+    },
+    {
+      "B": [
+        13,
+        13
+      ],
+      "diameter_squared": 338,
+      "low": 38,
+      "high": 256,
+      "no_high_upper_total": 32,
+      "high_side_upper_total": 25,
+      "case_upper_total": 32
+    },
+    {
+      "B": [
+        17,
+        7
+      ],
+      "diameter_squared": 338,
+      "low": 30,
+      "high": 246,
+      "no_high_upper_total": 26,
+      "high_side_upper_total": 24,
+      "case_upper_total": 26
+    },
+    {
+      "B": [
+        14,
+        12
+      ],
+      "diameter_squared": 340,
+      "low": 29,
+      "high": 252,
+      "no_high_upper_total": 27,
+      "high_side_upper_total": 24,
+      "case_upper_total": 27
+    },
+    {
+      "B": [
+        18,
+        4
+      ],
+      "diameter_squared": 340,
+      "low": 29,
+      "high": 252,
+      "no_high_upper_total": 29,
+      "high_side_upper_total": 24,
+      "case_upper_total": 29
+    },
+    {
+      "B": [
+        15,
+        11
+      ],
+      "diameter_squared": 346,
+      "low": 28,
+      "high": 250,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 23,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        18,
+        5
+      ],
+      "diameter_squared": 349,
+      "low": 28,
+      "high": 256,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 23,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        17,
+        8
+      ],
+      "diameter_squared": 353,
+      "low": 28,
+      "high": 258,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 23,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        16,
+        10
+      ],
+      "diameter_squared": 356,
+      "low": 29,
+      "high": 260,
+      "no_high_upper_total": 27,
+      "high_side_upper_total": 24,
+      "case_upper_total": 27
+    },
+    {
+      "B": [
+        18,
+        6
+      ],
+      "diameter_squared": 360,
+      "low": 29,
+      "high": 270,
+      "no_high_upper_total": 25,
+      "high_side_upper_total": 23,
+      "case_upper_total": 25
+    },
+    {
+      "B": [
+        19,
+        0
+      ],
+      "diameter_squared": 361,
+      "low": 18,
+      "high": 276,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        19,
+        1
+      ],
+      "diameter_squared": 362,
+      "low": 26,
+      "high": 264,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 23,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        14,
+        13
+      ],
+      "diameter_squared": 365,
+      "low": 26,
+      "high": 276,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 25,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        19,
+        2
+      ],
+      "diameter_squared": 365,
+      "low": 26,
+      "high": 270,
+      "no_high_upper_total": 28,
+      "high_side_upper_total": 23,
+      "case_upper_total": 28
+    },
+    {
+      "B": [
+        15,
+        12
+      ],
+      "diameter_squared": 369,
+      "low": 26,
+      "high": 274,
+      "no_high_upper_total": 26,
+      "high_side_upper_total": 23,
+      "case_upper_total": 26
+    },
+    {
+      "B": [
+        17,
+        9
+      ],
+      "diameter_squared": 370,
+      "low": 26,
+      "high": 286,
+      "no_high_upper_total": 26,
+      "high_side_upper_total": 23,
+      "case_upper_total": 26
+    },
+    {
+      "B": [
+        19,
+        3
+      ],
+      "diameter_squared": 370,
+      "low": 26,
+      "high": 284,
+      "no_high_upper_total": 26,
+      "high_side_upper_total": 23,
+      "case_upper_total": 26
+    },
+    {
+      "B": [
+        18,
+        7
+      ],
+      "diameter_squared": 373,
+      "low": 26,
+      "high": 288,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        16,
+        11
+      ],
+      "diameter_squared": 377,
+      "low": 26,
+      "high": 294,
+      "no_high_upper_total": 26,
+      "high_side_upper_total": 23,
+      "case_upper_total": 26
+    },
+    {
+      "B": [
+        19,
+        4
+      ],
+      "diameter_squared": 377,
+      "low": 26,
+      "high": 294,
+      "no_high_upper_total": 26,
+      "high_side_upper_total": 24,
+      "case_upper_total": 26
+    },
+    {
+      "B": [
+        19,
+        5
+      ],
+      "diameter_squared": 386,
+      "low": 24,
+      "high": 290,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        18,
+        8
+      ],
+      "diameter_squared": 388,
+      "low": 25,
+      "high": 298,
+      "no_high_upper_total": 23,
+      "high_side_upper_total": 22,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        17,
+        10
+      ],
+      "diameter_squared": 389,
+      "low": 24,
+      "high": 300,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        14,
+        14
+      ],
+      "diameter_squared": 392,
+      "low": 13,
+      "high": 302,
+      "no_high_upper_total": 15,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        15,
+        13
+      ],
+      "diameter_squared": 394,
+      "low": 24,
+      "high": 298,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        19,
+        6
+      ],
+      "diameter_squared": 397,
+      "low": 24,
+      "high": 308,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        16,
+        12
+      ],
+      "diameter_squared": 400,
+      "low": 19,
+      "high": 302,
+      "no_high_upper_total": 21,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        20,
+        0
+      ],
+      "diameter_squared": 400,
+      "low": 19,
+      "high": 322,
+      "no_high_upper_total": 21,
+      "high_side_upper_total": 24,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        20,
+        1
+      ],
+      "diameter_squared": 401,
+      "low": 22,
+      "high": 316,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        20,
+        2
+      ],
+      "diameter_squared": 404,
+      "low": 21,
+      "high": 312,
+      "no_high_upper_total": 23,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        18,
+        9
+      ],
+      "diameter_squared": 405,
+      "low": 26,
+      "high": 316,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        20,
+        3
+      ],
+      "diameter_squared": 409,
+      "low": 22,
+      "high": 320,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        17,
+        11
+      ],
+      "diameter_squared": 410,
+      "low": 22,
+      "high": 332,
+      "no_high_upper_total": 22,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        19,
+        7
+      ],
+      "diameter_squared": 410,
+      "low": 22,
+      "high": 330,
+      "no_high_upper_total": 22,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        20,
+        4
+      ],
+      "diameter_squared": 416,
+      "low": 19,
+      "high": 326,
+      "no_high_upper_total": 21,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        15,
+        14
+      ],
+      "diameter_squared": 421,
+      "low": 20,
+      "high": 334,
+      "no_high_upper_total": 22,
+      "high_side_upper_total": 21,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        18,
+        10
+      ],
+      "diameter_squared": 424,
+      "low": 21,
+      "high": 338,
+      "no_high_upper_total": 21,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        16,
+        13
+      ],
+      "diameter_squared": 425,
+      "low": 20,
+      "high": 344,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        19,
+        8
+      ],
+      "diameter_squared": 425,
+      "low": 20,
+      "high": 348,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        20,
+        5
+      ],
+      "diameter_squared": 425,
+      "low": 24,
+      "high": 350,
+      "no_high_upper_total": 22,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        17,
+        12
+      ],
+      "diameter_squared": 433,
+      "low": 20,
+      "high": 344,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        20,
+        6
+      ],
+      "diameter_squared": 436,
+      "low": 21,
+      "high": 354,
+      "no_high_upper_total": 19,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        21,
+        0
+      ],
+      "diameter_squared": 441,
+      "low": 20,
+      "high": 352,
+      "no_high_upper_total": 22,
+      "high_side_upper_total": 24,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        19,
+        9
+      ],
+      "diameter_squared": 442,
+      "low": 18,
+      "high": 356,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        21,
+        1
+      ],
+      "diameter_squared": 442,
+      "low": 18,
+      "high": 356,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        18,
+        11
+      ],
+      "diameter_squared": 445,
+      "low": 18,
+      "high": 366,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        21,
+        2
+      ],
+      "diameter_squared": 445,
+      "low": 18,
+      "high": 360,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        20,
+        7
+      ],
+      "diameter_squared": 449,
+      "low": 18,
+      "high": 368,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        15,
+        15
+      ],
+      "diameter_squared": 450,
+      "low": 14,
+      "high": 372,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        21,
+        3
+      ],
+      "diameter_squared": 450,
+      "low": 20,
+      "high": 368,
+      "no_high_upper_total": 22,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        16,
+        14
+      ],
+      "diameter_squared": 452,
+      "low": 17,
+      "high": 376,
+      "no_high_upper_total": 19,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        21,
+        4
+      ],
+      "diameter_squared": 457,
+      "low": 18,
+      "high": 376,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        17,
+        13
+      ],
+      "diameter_squared": 458,
+      "low": 18,
+      "high": 382,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        19,
+        10
+      ],
+      "diameter_squared": 461,
+      "low": 18,
+      "high": 384,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        20,
+        8
+      ],
+      "diameter_squared": 464,
+      "low": 19,
+      "high": 388,
+      "no_high_upper_total": 19,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        21,
+        5
+      ],
+      "diameter_squared": 466,
+      "low": 16,
+      "high": 388,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        18,
+        12
+      ],
+      "diameter_squared": 468,
+      "low": 17,
+      "high": 396,
+      "no_high_upper_total": 19,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        21,
+        6
+      ],
+      "diameter_squared": 477,
+      "low": 14,
+      "high": 394,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        16,
+        15
+      ],
+      "diameter_squared": 481,
+      "low": 16,
+      "high": 396,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        20,
+        9
+      ],
+      "diameter_squared": 481,
+      "low": 16,
+      "high": 398,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        19,
+        11
+      ],
+      "diameter_squared": 482,
+      "low": 16,
+      "high": 400,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        22,
+        0
+      ],
+      "diameter_squared": 484,
+      "low": 21,
+      "high": 402,
+      "no_high_upper_total": 23,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        17,
+        14
+      ],
+      "diameter_squared": 485,
+      "low": 14,
+      "high": 406,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        22,
+        1
+      ],
+      "diameter_squared": 485,
+      "low": 14,
+      "high": 414,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 23,
+      "case_upper_total": 23
+    },
+    {
+      "B": [
+        22,
+        2
+      ],
+      "diameter_squared": 488,
+      "low": 13,
+      "high": 410,
+      "no_high_upper_total": 15,
+      "high_side_upper_total": 24,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        21,
+        7
+      ],
+      "diameter_squared": 490,
+      "low": 20,
+      "high": 422,
+      "no_high_upper_total": 20,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        18,
+        13
+      ],
+      "diameter_squared": 493,
+      "low": 14,
+      "high": 426,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        22,
+        3
+      ],
+      "diameter_squared": 493,
+      "low": 14,
+      "high": 422,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 24,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        20,
+        10
+      ],
+      "diameter_squared": 500,
+      "low": 9,
+      "high": 432,
+      "no_high_upper_total": 11,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        22,
+        4
+      ],
+      "diameter_squared": 500,
+      "low": 13,
+      "high": 426,
+      "no_high_upper_total": 15,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        19,
+        12
+      ],
+      "diameter_squared": 505,
+      "low": 14,
+      "high": 436,
+      "no_high_upper_total": 14,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        21,
+        8
+      ],
+      "diameter_squared": 505,
+      "low": 14,
+      "high": 436,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        22,
+        5
+      ],
+      "diameter_squared": 509,
+      "low": 12,
+      "high": 434,
+      "no_high_upper_total": 14,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        16,
+        16
+      ],
+      "diameter_squared": 512,
+      "low": 15,
+      "high": 428,
+      "no_high_upper_total": 17,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        17,
+        15
+      ],
+      "diameter_squared": 514,
+      "low": 12,
+      "high": 438,
+      "no_high_upper_total": 14,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        18,
+        14
+      ],
+      "diameter_squared": 520,
+      "low": 13,
+      "high": 444,
+      "no_high_upper_total": 15,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        22,
+        6
+      ],
+      "diameter_squared": 520,
+      "low": 13,
+      "high": 448,
+      "no_high_upper_total": 13,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        20,
+        11
+      ],
+      "diameter_squared": 521,
+      "low": 12,
+      "high": 448,
+      "no_high_upper_total": 14,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        21,
+        9
+      ],
+      "diameter_squared": 522,
+      "low": 14,
+      "high": 452,
+      "no_high_upper_total": 16,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        23,
+        0
+      ],
+      "diameter_squared": 529,
+      "low": 22,
+      "high": 444,
+      "no_high_upper_total": 24,
+      "high_side_upper_total": 23,
+      "case_upper_total": 24
+    },
+    {
+      "B": [
+        19,
+        13
+      ],
+      "diameter_squared": 530,
+      "low": 10,
+      "high": 458,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        23,
+        1
+      ],
+      "diameter_squared": 530,
+      "low": 10,
+      "high": 462,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        22,
+        7
+      ],
+      "diameter_squared": 533,
+      "low": 10,
+      "high": 468,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        23,
+        2
+      ],
+      "diameter_squared": 533,
+      "low": 10,
+      "high": 462,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        23,
+        3
+      ],
+      "diameter_squared": 538,
+      "low": 10,
+      "high": 462,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        21,
+        10
+      ],
+      "diameter_squared": 541,
+      "low": 10,
+      "high": 470,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        20,
+        12
+      ],
+      "diameter_squared": 544,
+      "low": 11,
+      "high": 474,
+      "no_high_upper_total": 13,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        17,
+        16
+      ],
+      "diameter_squared": 545,
+      "low": 10,
+      "high": 484,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        23,
+        4
+      ],
+      "diameter_squared": 545,
+      "low": 10,
+      "high": 482,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        22,
+        8
+      ],
+      "diameter_squared": 548,
+      "low": 9,
+      "high": 482,
+      "no_high_upper_total": 11,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        18,
+        15
+      ],
+      "diameter_squared": 549,
+      "low": 8,
+      "high": 490,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        23,
+        5
+      ],
+      "diameter_squared": 554,
+      "low": 8,
+      "high": 488,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        19,
+        14
+      ],
+      "diameter_squared": 557,
+      "low": 8,
+      "high": 490,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        21,
+        11
+      ],
+      "diameter_squared": 562,
+      "low": 8,
+      "high": 492,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        22,
+        9
+      ],
+      "diameter_squared": 565,
+      "low": 8,
+      "high": 500,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        23,
+        6
+      ],
+      "diameter_squared": 565,
+      "low": 8,
+      "high": 500,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        20,
+        13
+      ],
+      "diameter_squared": 569,
+      "low": 8,
+      "high": 500,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        24,
+        0
+      ],
+      "diameter_squared": 576,
+      "low": 23,
+      "high": 488,
+      "no_high_upper_total": 25,
+      "high_side_upper_total": 22,
+      "case_upper_total": 25
+    },
+    {
+      "B": [
+        24,
+        1
+      ],
+      "diameter_squared": 577,
+      "low": 6,
+      "high": 502,
+      "no_high_upper_total": 8,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        17,
+        17
+      ],
+      "diameter_squared": 578,
+      "low": 16,
+      "high": 524,
+      "no_high_upper_total": 18,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        23,
+        7
+      ],
+      "diameter_squared": 578,
+      "low": 6,
+      "high": 510,
+      "no_high_upper_total": 8,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        18,
+        16
+      ],
+      "diameter_squared": 580,
+      "low": 5,
+      "high": 516,
+      "no_high_upper_total": 7,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        24,
+        2
+      ],
+      "diameter_squared": 580,
+      "low": 5,
+      "high": 514,
+      "no_high_upper_total": 7,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        22,
+        10
+      ],
+      "diameter_squared": 584,
+      "low": 5,
+      "high": 516,
+      "no_high_upper_total": 7,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        21,
+        12
+      ],
+      "diameter_squared": 585,
+      "low": 8,
+      "high": 530,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        24,
+        3
+      ],
+      "diameter_squared": 585,
+      "low": 8,
+      "high": 526,
+      "no_high_upper_total": 10,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        19,
+        15
+      ],
+      "diameter_squared": 586,
+      "low": 6,
+      "high": 532,
+      "no_high_upper_total": 8,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        24,
+        4
+      ],
+      "diameter_squared": 592,
+      "low": 3,
+      "high": 530,
+      "no_high_upper_total": 5,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        23,
+        8
+      ],
+      "diameter_squared": 593,
+      "low": 6,
+      "high": 536,
+      "no_high_upper_total": 8,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        20,
+        14
+      ],
+      "diameter_squared": 596,
+      "low": 5,
+      "high": 540,
+      "no_high_upper_total": 7,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        24,
+        5
+      ],
+      "diameter_squared": 601,
+      "low": 4,
+      "high": 538,
+      "no_high_upper_total": 6,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        22,
+        11
+      ],
+      "diameter_squared": 605,
+      "low": 10,
+      "high": 536,
+      "no_high_upper_total": 12,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        21,
+        13
+      ],
+      "diameter_squared": 610,
+      "low": 4,
+      "high": 548,
+      "no_high_upper_total": 6,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        23,
+        9
+      ],
+      "diameter_squared": 610,
+      "low": 4,
+      "high": 550,
+      "no_high_upper_total": 6,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        24,
+        6
+      ],
+      "diameter_squared": 612,
+      "low": 5,
+      "high": 554,
+      "no_high_upper_total": 7,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        18,
+        17
+      ],
+      "diameter_squared": 613,
+      "low": 4,
+      "high": 554,
+      "no_high_upper_total": 6,
+      "high_side_upper_total": 22,
+      "case_upper_total": 22
+    },
+    {
+      "B": [
+        19,
+        16
+      ],
+      "diameter_squared": 617,
+      "low": 4,
+      "high": 552,
+      "no_high_upper_total": 6,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        20,
+        15
+      ],
+      "diameter_squared": 625,
+      "low": 4,
+      "high": 560,
+      "no_high_upper_total": 6,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        24,
+        7
+      ],
+      "diameter_squared": 625,
+      "low": 2,
+      "high": 564,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        25,
+        0
+      ],
+      "diameter_squared": 625,
+      "low": 24,
+      "high": 552,
+      "no_high_upper_total": 26,
+      "high_side_upper_total": 21,
+      "case_upper_total": 26
+    },
+    {
+      "B": [
+        25,
+        1
+      ],
+      "diameter_squared": 626,
+      "low": 2,
+      "high": 570,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        22,
+        12
+      ],
+      "diameter_squared": 628,
+      "low": 1,
+      "high": 568,
+      "no_high_upper_total": 3,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        23,
+        10
+      ],
+      "diameter_squared": 629,
+      "low": 2,
+      "high": 576,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        25,
+        2
+      ],
+      "diameter_squared": 629,
+      "low": 2,
+      "high": 578,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        25,
+        3
+      ],
+      "diameter_squared": 634,
+      "low": 2,
+      "high": 578,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        21,
+        14
+      ],
+      "diameter_squared": 637,
+      "low": 6,
+      "high": 586,
+      "no_high_upper_total": 8,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        24,
+        8
+      ],
+      "diameter_squared": 640,
+      "low": 7,
+      "high": 592,
+      "no_high_upper_total": 9,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        25,
+        4
+      ],
+      "diameter_squared": 641,
+      "low": 2,
+      "high": 586,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        18,
+        18
+      ],
+      "diameter_squared": 648,
+      "low": 17,
+      "high": 598,
+      "no_high_upper_total": 19,
+      "high_side_upper_total": 21,
+      "case_upper_total": 21
+    },
+    {
+      "B": [
+        19,
+        17
+      ],
+      "diameter_squared": 650,
+      "low": 2,
+      "high": 602,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        23,
+        11
+      ],
+      "diameter_squared": 650,
+      "low": 2,
+      "high": 602,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        25,
+        5
+      ],
+      "diameter_squared": 650,
+      "low": 4,
+      "high": 600,
+      "no_high_upper_total": 6,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        22,
+        13
+      ],
+      "diameter_squared": 653,
+      "low": 0,
+      "high": 602,
+      "no_high_upper_total": 2,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        20,
+        16
+      ],
+      "diameter_squared": 656,
+      "low": 3,
+      "high": 604,
+      "no_high_upper_total": 5,
+      "high_side_upper_total": 20,
+      "case_upper_total": 20
+    },
+    {
+      "B": [
+        24,
+        9
+      ],
+      "diameter_squared": 657,
+      "low": 2,
+      "high": 610,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        25,
+        6
+      ],
+      "diameter_squared": 661,
+      "low": 0,
+      "high": 610,
+      "no_high_upper_total": 2,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        21,
+        15
+      ],
+      "diameter_squared": 666,
+      "low": 2,
+      "high": 610,
+      "no_high_upper_total": 4,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        23,
+        12
+      ],
+      "diameter_squared": 673,
+      "low": 0,
+      "high": 612,
+      "no_high_upper_total": 2,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    },
+    {
+      "B": [
+        25,
+        7
+      ],
+      "diameter_squared": 674,
+      "low": 0,
+      "high": 618,
+      "no_high_upper_total": 2,
+      "high_side_upper_total": 19,
+      "case_upper_total": 19
+    }
+  ]
+}

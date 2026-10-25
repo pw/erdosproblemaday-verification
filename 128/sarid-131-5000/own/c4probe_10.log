@@ -1,0 +1,8 @@
+checked 14651 triangle-free graphs on 1..10 vertices: all g >= 0
+min g = 0 = 0.000000e+00 at n=1 graph6=@
+C5             rho=2/5 t(C4)=6/125 g=343750001/125000000000 (2.750e-03)
+Petersen       rho=3/10 t(C4)=3/200 g=1031250003/500000000000 (2.063e-03)
+Clebsch        rho=5/16 t(C4)=65/4096 g=1/160000000000 (6.250e-12)
+K_{8,8}        rho=1/2 t(C4)=1/8 g=2343750001/100000000000 (2.344e-02)
+C5 blow-up x3  rho=2/5 t(C4)=6/125 g=343750001/125000000000 (2.750e-03)
+mutation control (gamma=3/64-1/1000) on Clebsch: -1/3200 VIOLATES

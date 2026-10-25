@@ -1,0 +1,8 @@
+Probe986.main4 : And (OAI.SharpLogRamsey.MainBounds (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+  (OAI.SharpLogRamsey.MainLimit (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+'Probe986.main_ge4' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Probe986.main4' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Probe986.main5' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'OAI.SharpLogRamsey.LowerTransfer.actual_prime_construction' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]

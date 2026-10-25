@@ -1,0 +1,7 @@
+'HeilbronnFive.first_differing_tag' depends on axioms: [propext, Quot.sound]
+'HeilbronnFive.tagged_minor_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.eval_first_valuation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.DigitModel.minorExponent_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.DigitModel.minorExponent_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.DigitModel.actual_uniform_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1199968 wall=3s

@@ -1,0 +1,14 @@
+k=5 j=0 relax=False sub01=False |W'|=64 |P|=48 |H|=3072 trans-in-H=6/6 pairsb clauses=14594 mut=None
+RESULT: samples 53 (raw sample violating SB: 53), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 0
+k=5 j=0 relax=True sub01=False |W'|=64 |P|=48 |H|=3072 trans-in-H=6/6 pairsb clauses=17618 mut=None
+RESULT: samples 54 (raw sample violating SB: 54), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 0
+k=5 j=0 relax=False sub01=False |W'|=64 |P|=48 |H|=3072 trans-in-H=6/6 pairsb clauses=14594 mut=None
+RESULT: samples 12 (raw sample violating SB: 12), lexmin-not-a-base-model 0, orbits with NO member passing SB 0
+k=5 j=0 relax=False sub01=False |W'|=64 |P|=48 |H|=3072 trans-in-H=6/6 pairsb clauses=14594 mut=flip
+RESULT: samples 12 (raw sample violating SB: 12), lexmin-not-a-base-model 0, orbits with NO member passing SB 10
+k=5 j=0 relax=False sub01=False |W'|=64 |P|=48 |H|=3072 trans-in-H=6/6 pairsb clauses=14594 mut=revorder
+RESULT: samples 12 (raw sample violating SB: 12), lexmin-not-a-base-model 0, orbits with NO member passing SB 2
+k=5 j=0 relax=False sub01=False |W'|=64 |P|=48 |H|=3072 trans-in-H=6/6 pairsb clauses=14594 mut=flip
+RESULT: samples 53 (raw sample violating SB: 53), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 53
+k=5 j=0 relax=False sub01=False |W'|=64 |P|=48 |H|=3072 trans-in-H=6/6 pairsb clauses=14594 mut=revorder
+RESULT: samples 53 (raw sample violating SB: 53), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 53

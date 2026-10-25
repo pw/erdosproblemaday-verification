@@ -1,0 +1,20 @@
+BridgeMutDensityDef.lean:103:28: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ({n | P n} ∩ Set.univ ∩ Set.Iio b).ncard
+in the target expression
+  ↑({n | P n} ∩ Set.univ ∩ Set.Iic b).ncard / ↑(Set.univ ∩ Set.Iio b).ncard = ↑A / ↑b
+
+P : ℕ → Prop
+b : ℕ
+hb : 1 ≤ b
+hbR : 0 < ↑b
+hden : (Set.univ ∩ Set.Iio b).ncard = b
+hfl : ⌊↑b⌋₊ = b
+A : ℕ := (Finset.filter P (Finset.range b)).card
+hnum : ({n | P n} ∩ Set.univ ∩ Set.Iio b).ncard = A
+hA : A = (Finset.filter P (Finset.range b)).card
+E : ℕ := (Finset.filter P (Finset.Icc 2 b)).card
+hE : E = (Finset.filter P (Finset.Icc 2 b)).card
+hE' : empiricalCount P ⌊↑b⌋₊ = E
+h1 : A ≤ E + 2
+h2 : E ≤ A + 1
+⊢ ↑({n | P n} ∩ Set.univ ∩ Set.Iic b).ncard / ↑(Set.univ ∩ Set.Iio b).ncard = ↑A / ↑b

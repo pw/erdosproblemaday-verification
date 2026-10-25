@@ -1,0 +1,5 @@
+5733 == 49*117: True
+membership period 5733 holds on [3364, 1e6]: True
+... and fails from 3363? False
+elements per period window: 693
+smallest p<=20000 with ind(t)=ind(t+p) on [3364,1e6]: 5733

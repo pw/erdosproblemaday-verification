@@ -1,0 +1,4 @@
+h7_t1_rep0_r1_all	kissat	UNKNOWN	109.0	13bbe4ae3b05c261	861	571284	n0=6 pairs=18 singles=17 classes=[3, 3, 3, 2, 2, 2, 2, 6]	
+h5_t2_rep0_r1_all	kissat	UNKNOWN	100.6	1c0a1a0a9d71734b	946	760242	n0=12 pairs=4 singles=26 classes=[6, 5, 5, 5, 5, 12]	
+h5_t2_rep0_r1b_all	kissat	UNSAT	69.0	ba58872d20d4b40b	946	760422	n0=12 pairs=4 singles=26 classes=[6, 5, 5, 5, 5, 12]	
+h7_t1_rep0_r1b_all	kissat	UNSAT	2625.3	11fcfd29d2f37709	861	571522	n0=6 pairs=18 singles=17 classes=[3, 3, 3, 2, 2, 2, 2, 6]	

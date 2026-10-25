@@ -1,0 +1,29 @@
+{
+  "problem": 149,
+  "access_date": "2026-08-11",
+  "outcome": "PARTIAL",
+  "provenance": "literature corollary, not our discovery",
+  "live_gate": {
+    "status": "OPEN",
+    "claimed_proofs": 0,
+    "current_worker": null
+  },
+  "claims": [
+    {
+      "statement": "For every finite simple graph G with maximum degree at most 4, omega(L(G)^2) is at most 20, and equality occurs.",
+      "classification": "rigorous modulo Kumar-Mohar-Pragada Corollary 1.7, with independently checked exact rounding and construction"
+    },
+    {
+      "statement": "The maximum strong chromatic index over graphs of maximum degree at most 4 lies between 20 and 21 inclusive.",
+      "classification": "rigorous modulo Huang-Santana-Yu Theorem 2 for the upper bound; elementary explicit construction for the lower bound"
+    },
+    {
+      "statement": "The Erdos-Nesetril strong chromatic index conjecture remains open at Delta=4 and in general.",
+      "classification": "scope boundary"
+    }
+  ],
+  "disclosures": [
+    "The arXiv v1 proof has an auxiliary beta-star interval typo; the audit reconstructs the lemma with beta fixed at 620/1987.",
+    "Local ledger Problem 934 cites the same paper for its different h_3 / L(G)^3 section. The Delta=4 L(G)^2 result and coefficient were not treated locally."
+  ]
+}

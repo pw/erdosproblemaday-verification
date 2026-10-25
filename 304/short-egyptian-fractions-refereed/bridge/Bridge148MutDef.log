@@ -1,0 +1,15 @@
+Bridge148MutDef.lean:63:4: error: Type mismatch
+  EgyptianBridge.image_of_oneExpansion n hn
+has type
+  (Finset.image n Finset.univ).card = k ∧ 0 ∉ Finset.image n Finset.univ ∧ ∑ x ∈ Finset.image n Finset.univ, 1 / ↑x = 1
+but is expected to have type
+  Finset.image n Finset.univ ∈ {S | S.card = k ∧ 1 ∉ S ∧ ∑ n ∈ S, 1 / ↑n = 1}
+Bridge148MutDef.lean:76:80: error: Application type mismatch: The argument
+  h0
+has type
+  1 ∉ S
+but is expected to have type
+  0 ∉ S
+in the application
+  EgyptianBridge.oneExpansion_of_finset S hcard h0
+Bridge148MutDef rc=1 (must be nonzero)

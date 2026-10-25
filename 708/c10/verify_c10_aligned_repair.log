@@ -1,0 +1,31 @@
+no-core nine-edge graphs: 96
+no-core graph/exceptional-matching pairs: 3888
+no-core exceptional matching sizes: {0: 96, 1: 864, 2: 1944, 3: 984}
+K_3,3 exceptional matchings: 34 {0: 1, 1: 9, 2: 18, 3: 6}
+hard-core nonexceptional-complement checks: 96
+corrected injection graph/label/exceptional cases: (5049, 252450, 2468)
+strict aligned multiple counts checked: 2835855
+ALL ALIGNED-REPAIR CHECKS PASSED
+	Command being timed: "python3 verify_c10_aligned_repair.py"
+	User time (seconds): 3.42
+	System time (seconds): 0.01
+	Percent of CPU this job got: 90%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11704
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1386
+	Voluntary context switches: 1
+	Involuntary context switches: 832
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

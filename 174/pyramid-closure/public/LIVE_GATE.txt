@@ -1,0 +1,33 @@
+Rendered-page transcription, Bright Data, 2026-08-11 UTC
+
+URL: https://www.erdosproblems.com/174
+Final redirected discussion URL: https://www.erdosproblems.com/forum/thread/174
+
+Main-page markers:
+OPEN
+Problem number: 174
+Page last edited: 16 October 2025
+4 comments on this problem
+0 claimed proofs for this problem
+Interested in collaborating: None
+Currently working on this problem: None
+I am working on formalising the results on this problem: None
+No Related OEIS sequences line was rendered.
+
+Discussion comments, newest first:
+1. ArseniiSagdeev, 15 February 2026: cites Natalie Behague,
+   "Nearly all known Euclidean Ramsey sets are subsoluble",
+   arXiv:2510.15677 (2025), then Theorems 1.4 and 1.5 in that version.
+2. Alfaiz, 5 December 2025: says triangles are Ramsey by Frankl--Rodl.
+3. Vjeko_Kovac, 5 December 2025: notes triangles are simplices and are already
+   covered by the page text.
+4. Alfaiz, 5 December 2025: acknowledges the correction.
+
+No rendered comment mentioned Kenneth Moore, "A pyramid with a Ramsey base is
+Ramsey", or arXiv:2608.09649.
+
+Private custody screenshots (not distributed in this public package):
+- erdos174_live.png
+  SHA-256: 98f2e7fcf07fe8004a8b2646d55bbfa8f383ca0c4f01996a25e19a9b1f2c68a3
+- erdos174_thread_live.png
+  SHA-256: f9911c644d635366a422f97713151a8e79582665626be514006c2be84e4f89af

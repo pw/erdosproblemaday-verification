@@ -1,0 +1,3 @@
+cell j=4 M=0,0,0,0,2,2,0,0,0,0,2,2,2,2,0,0,2,2,0,0,0,0,0,0 (|stab|=128), flags --pairsb --slots --ph --edgeswap, C4 ON, cnf sha256 prefix d8067ad24e249f07
+kissat 4.0.4: s UNSATISFIABLE kissat 36.64 s
+cadical: s UNSATISFIABLE cadical 18.95 s

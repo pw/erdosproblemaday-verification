@@ -1,0 +1,7 @@
+d=   1 gcd-constrained allowed counts [1, 6, 12] F=0.0000 configs=72 U_d=0.430556
+d=   2 gcd-constrained allowed counts [2, 3, 6] F=0.0000 configs=36 U_d=0.423611
+d=   3 gcd-constrained allowed counts [4, 2, 4] F=0.1111 configs=32 U_d=0.458333
+d=   4 gcd-constrained allowed counts [1, 3, 3] F=0.0625 configs=9 U_d=0.423611
+d=   6 gcd-constrained allowed counts [2, 1, 2] F=0.1111 configs=4 U_d=0.458333
+d=  12 gcd-constrained allowed counts [1, 1, 1] F=0.1667 configs=1 U_d=0.458333
+max U_d over d: 0.458333 at d = 3

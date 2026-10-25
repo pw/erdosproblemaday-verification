@@ -1,0 +1,5 @@
+tag=F_E_eq_1e8 N=100000000 distinct=0 seed_k=6 max_seed=12 count=15621235 density=0.156212
+gaps=15621234 maxgap=23 last8: 99999943 99999950 99999957 99999964 99999971 99999978 99999993 100000000
+suffix from gap index 7810617 (len 7810617): smallest period 7810615 (no period <= half the suffix)
+suffix from gap index 11715925 (len 3905309): smallest period 3905309 (no period <= half the suffix)
+suffix from gap index 14059110 (len 1562124): smallest period 1562124 (no period <= half the suffix)

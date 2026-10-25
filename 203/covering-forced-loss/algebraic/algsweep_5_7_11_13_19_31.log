@@ -1,0 +1,19 @@
+d=   1 gcd-constrained allowed counts [1, 6, 10, 12, 18, 30] F=0.0000 configs=388800 U_d=0.550185
+d=   2 gcd-constrained allowed counts [2, 3, 5, 6, 9, 15] F=0.0000 configs=24300 U_d=0.544722
+d=   3 gcd-constrained allowed counts [4, 2, 10, 4, 6, 10] F=0.1111 configs=19200 U_d=0.559074
+d=   4 gcd-constrained allowed counts [1, 3, 5, 3, 9, 15] F=0.0625 configs=6075 U_d=0.544722
+d=   5 gcd-constrained allowed counts [4, 6, 2, 12, 18, 6] F=0.0400 configs=62208 U_d=0.557778
+d=   6 gcd-constrained allowed counts [2, 1, 5, 2, 3, 5] F=0.1111 configs=300 U_d=0.559074
+d=   9 gcd-constrained allowed counts [4, 2, 10, 4, 2, 10] F=0.1111 configs=6400 U_d=0.559074
+d=  10 gcd-constrained allowed counts [2, 3, 1, 6, 9, 3] F=0.0400 configs=972 U_d=0.551852
+d=  12 gcd-constrained allowed counts [1, 1, 5, 1, 3, 5] F=0.1667 configs=75 U_d=0.559074
+d=  15 gcd-constrained allowed counts [4, 2, 2, 4, 6, 2] F=0.1467 configs=768 U_d=0.565926
+d=  18 gcd-constrained allowed counts [2, 1, 5, 2, 1, 5] F=0.1111 configs=100 U_d=0.559074
+d=  20 gcd-constrained allowed counts [1, 3, 1, 3, 9, 3] F=0.1000 configs=243 U_d=0.551852
+d=  30 gcd-constrained allowed counts [2, 1, 1, 2, 3, 1] F=0.1467 configs=12 U_d=0.565926
+d=  36 gcd-constrained allowed counts [1, 1, 5, 1, 1, 5] F=0.1667 configs=25 U_d=0.559074
+d=  45 gcd-constrained allowed counts [4, 2, 2, 4, 2, 2] F=0.1467 configs=256 U_d=0.565926
+d=  60 gcd-constrained allowed counts [1, 1, 1, 1, 3, 1] F=0.2000 configs=3 U_d=0.565926
+d=  90 gcd-constrained allowed counts [2, 1, 1, 2, 1, 1] F=0.1467 configs=4 U_d=0.565926
+d= 180 gcd-constrained allowed counts [1, 1, 1, 1, 1, 1] F=0.2000 configs=1 U_d=0.565926
+max U_d over d: 0.565926 at d = 15

@@ -1,0 +1,18 @@
+BridgeMutDef.lean:37:29: error: Application type mismatch: The argument
+  hm
+has type
+  m.totient = n + 1
+but is expected to have type
+  m.totient = n
+in the application
+  ⟨?m.64, hm⟩
+BridgeMutDef.lean:40:6: error: No goals to be solved
+BridgeMutDef.lean:43:24: error: Application type mismatch: The argument
+  hm
+has type
+  m.totient = n
+but is expected to have type
+  m.totient = n + 1
+in the application
+  Exists.intro m hm
+BridgeMutDef rc=1 (must be nonzero)

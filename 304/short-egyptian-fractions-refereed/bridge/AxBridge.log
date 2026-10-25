@@ -1,0 +1,9 @@
+'Erdos304.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos304.erdos_304.variants.lower_1950' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos304.smallestCollectionTo_eq_maxMinLength' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos148.F_eq_oai' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos148.erdos_148.variants.double_log_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos293.v_eq_oai' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos293.erdos_293.variants.explicit_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos293.erdos_293.variants.double_log_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+AxBridge rc=0

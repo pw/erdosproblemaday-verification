@@ -1,0 +1,1473 @@
+✔ [922/929] Built EG.Defs.Objects (9.0s)
+✔ [924/929] Built EG.Defs.Graph (9.4s)
+✔ [1412/1452] Built EG.Defs.Orient (1.7s)
+✔ [2018/2035] Built EG.Defs.Chain.Cluster (1.8s)
+✔ [2025/2062] Built EG.Defs.Constants (1.5s)
+✔ [2031/2062] Built EG.Defs.Walk (1.6s)
+✔ [2032/2062] Built EG.Defs.Chain.EqLpt (1.5s)
+✔ [2036/2062] Built EG.Defs.Fnum (1.4s)
+✔ [2037/2062] Built EG.Defs.Prob.FinDist (3.8s)
+✔ [2038/2062] Built EG.Defs.Chain.HCCP (1.8s)
+✔ [2039/2062] Built EG.Defs.Expander (6.7s)
+✔ [2040/2062] Built EG.Defs.Vortex (6.3s)
+✔ [2042/2062] Built EG.Defs.Gamma.Core (2.0s)
+✔ [2043/2062] Built EG.Defs.Log (1.0s)
+✔ [2047/2065] Built EG.Defs.Components (1.6s)
+✔ [2198/2233] Built EG.Defs.HB.Witness (2.4s)
+✔ [2199/2233] Built EG.Defs.PathDecomp (1.4s)
+✔ [2200/2233] Built EG.Defs.Link.HBFamily (1.3s)
+✔ [2201/2233] Built EG.Defs.Vortex.PVData (2.1s)
+✔ [2202/2233] Built EG.Defs.Link.Star (2.2s)
+✔ [2203/2233] Built EG.Defs.Probe.P2E.Par (1.4s)
+✔ [2206/2234] Built EG.Defs.Probe.P2J.PreSystem (1.5s)
+✔ [2207/2234] Built EG.Defs.Probe.P3B.TowerFns (2.2s)
+✔ [2208/2234] Built EG.Defs.HB.SplitTree (2.6s)
+✔ [2212/2235] Built EG.Defs.Probe.P4A.PVHyp (2.2s)
+✔ [2213/2235] Built EG.Defs.HB.Round (2.8s)
+✔ [2215/2238] Built EG.Defs.HB.Run (3.1s)
+✔ [2216/2238] Built EG.Defs.Lend.COLTable (4.8s)
+✔ [2217/2238] Built EG.Defs.Probe.P3B.Origin (2.5s)
+✔ [2218/2238] Built EG.Defs.Chain.Constants (2.6s)
+✔ [2219/2238] Built EG.Defs.Stage1.Pool (2.6s)
+✔ [2220/2241] Built EG.Defs.Stage1.COL (3.6s)
+✔ [2222/2241] Built EG.Defs.Chain.Design (2.4s)
+✔ [2223/2243] Built EG.Defs.Gamma.Full (2.4s)
+✔ [2224/2243] Built EG.Defs.Light.Constants (2.1s)
+✔ [2226/2245] Built EG.Defs.Stage1.Zones (2.5s)
+✔ [2230/2246] Built EG.Defs.Chain.Lending (2.3s)
+✔ [2233/2246] Built EG.Defs.Stage1.Law (2.9s)
+✔ [2234/2246] Built EG.Defs.Quot.Cand (2.2s)
+✔ [2238/2246] Built EG.Defs.Chain.JSet (2.5s)
+✔ [2239/2246] Built EG.Defs.Chain.StageInst (2.4s)
+✔ [2240/2247] Built EG.Defs.Quot.Constants (2.2s)
+✔ [2242/2249] Built EG.Defs.Light.Stages (2.6s)
+✔ [2243/2292] Built EG.Defs.Chain.JConsumer (2.5s)
+✔ [2247/2292] Built EG.Defs.Main.Gamma (2.3s)
+✔ [2249/2292] Built EG.Defs.Probe.S4.TPV (2.2s)
+✔ [2250/2292] Built EG.Defs.Probe.S5.KRED (2.2s)
+✔ [2251/2292] Built EG.Defs.Quot.Schedule (1.6s)
+✔ [2252/2292] Built EG.Defs.Quot.Xprime (2.1s)
+✔ [2253/2292] Built EG.Lib.Chain.PairUp (2.2s)
+✔ [2254/2292] Built EG.Lib.Found.Graph (5.3s)
+✔ [2255/2292] Built EG.Lib.Found.Orient (3.9s)
+✔ [2257/2292] Built EG.Lib.Chain.EqLpt (1.5s)
+✔ [2259/2322] Built EG.Lib.Chain.Constants (2.6s)
+✔ [2260/2323] Built EG.Defs.Main.GammaCond (2.7s)
+✔ [2261/2323] Built EG.Lib.Prob.Basic (4.2s)
+✔ [2262/2323] Built EG.Lib.HB.SplitTree (3.7s)
+✔ [2263/2323] Built EG.Defs.Quot.Round (4.5s)
+✔ [2264/2328] Built EG.Lib.Chain.Cluster (1.8s)
+✔ [2266/2328] Built EG.Lib.Found.Components (2.5s)
+✔ [2268/2328] Built EG.Lib.Chain.EqLptProof (1.8s)
+✔ [2269/2328] Built EG.Lib.Found.Constants (1.4s)
+✔ [2270/2328] Built EG.Lib.Vortex.Params (3.6s)
+✔ [2271/2328] Built EG.Lib.Lend.COLTable (4.4s)
+✔ [2272/2328] Built EG.Spec.Chain.JSLC (2.3s)
+✔ [2273/2328] Built EG.Spec.Vortex.TPV (1.9s)
+✔ [2274/2328] Built EG.Spec.HB.StructureHY (2.4s)
+✔ [2275/2328] Built EG.Lib.Found.Fnum (3.1s)
+✔ [2276/2328] Built EG.Spec.Light.KRED (2.2s)
+✔ [2277/2328] Built EG.Spec.HB.Parentless (2.1s)
+✔ [2278/2328] Built EG.Spec.HB.TowerA (2.1s)
+✔ [2279/2328] Built EG.Spec.HB.TowerB (2.0s)
+✔ [2280/2328] Built EG.Spec.HB.TowerBM (2.1s)
+✔ [2281/2328] Built EG.Spec.HB.TowerBLate (2.0s)
+✔ [2282/2328] Built EG.Spec.HB.TowerC (2.1s)
+✔ [2283/2328] Built EG.Lib.Prob.Named (2.5s)
+✔ [2284/2328] Built EG.Defs.Probe.S7b.Outcome (2.3s)
+✔ [2285/2328] Built EG.Lib.HB.Run (3.7s)
+✔ [2286/2328] Built EG.Lib.Chain.MedExc (1.8s)
+✔ [2289/2328] Built EG.Lib.Chain.HCCP (2.9s)
+✔ [2291/2328] Built EG.Lib.Chain.Cherry (2.9s)
+✔ [2292/2328] Built EG.Spec.HB.Tower (2.3s)
+✔ [2293/2328] Built EG.Lib.Found.ColourClass (2.6s)
+✔ [2294/2328] Built EG.Lib.Prob.Indep (2.0s)
+✔ [2295/2328] Built EG.Spec.Chain.MixC (2.6s)
+✔ [2296/2328] Built EG.Lib.Chain.Design (3.1s)
+✔ [2297/2328] Built EG.Lib.Chain.MedOrient (2.5s)
+✔ [2298/2328] Built EG.Lib.Chain.ParTJoin (2.0s)
+✔ [2299/2328] Built EG.Lib.Chain.HccpEnds (2.6s)
+✔ [2300/2328] Built EG.Defs.Probe.P4B.Trail (2.3s)
+✔ [2301/2328] Built EG.Lib.Found.Log (3.0s)
+⚠ [2302/2328] Built EG.Lib.Chain.CherrySystem (3.4s)
+warning: EG/Lib/Chain/CherrySystem.lean:156:80: This simp argument is unused:
+  hc.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [outDeg, inDeg, orient, Finset.filter_insert, Finset.filter_singleton, hc.2.1, hc.2.2, Ne.symm hc.1,
+    Ne.symm hc.2.1, Ne.symm hc.2.2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Chain/CherrySystem.lean:156:86: This simp argument is unused:
+  hc.2.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [outDeg, inDeg, orient, Finset.filter_insert, Finset.filter_singleton, hc.1, hc.2.2, Ne.symm hc.1,
+    Ne.symm hc.2.1, Ne.symm hc.2.2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Chain/CherrySystem.lean:156:94: This simp argument is unused:
+  hc.2.2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [outDeg, inDeg, orient, Finset.filter_insert, Finset.filter_singleton, hc.1, hc.2.1, Ne.symm hc.1,
+    Ne.symm hc.2.1, Ne.symm hc.2.2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Chain/CherrySystem.lean:156:132: This simp argument is unused:
+  Ne.symm hc.2.2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [outDeg, inDeg, orient, Finset.filter_insert, Finset.filter_singleton, hc.1, hc.2.1, hc.2.2,
+    Ne.symm hc.1, Ne.symm hc.2.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [2303/2328] Built EG.Lib.Stage1.Pool (2.6s)
+✔ [2304/2328] Built EG.Lib.Stage1.COL (4.4s)
+✔ [2305/2328] Built EG.Lib.Chain.Lending (3.5s)
+✔ [2306/2328] Built EG.Lib.Chain.ParComp (3.2s)
+⚠ [2307/2328] Built EG.Lib.Chain.HccpPaths (3.4s)
+warning: EG/Lib/Chain/HccpPaths.lean:75:10: This simp argument is unused:
+  true_or
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h1, h2, h3, if_true, if_false, decide_true, decide_false, List.mem_cons, or_true, or_false,
+    false_or, Bool.false_eq_true] at ih ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Chain/HccpPaths.lean:75:38: This simp argument is unused:
+  false_or
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h1, h2, h3, if_true, if_false, decide_true, decide_false, List.mem_cons, true_or, or_true,
+    or_false, Bool.false_eq_true] at ih ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Chain/HccpPaths.lean:101:38: This simp argument is unused:
+  false_or
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h1, h2, h3, if_true, if_false, decide_true, decide_false, List.mem_cons, true_or, or_true,
+    or_false, Bool.false_eq_true] at ih ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [2308/2331] Built EG.Lib.Stage1.Zones (2.8s)
+✔ [2309/2331] Built EG.Lib.Found.Gamma (4.0s)
+✔ [2310/2331] Built EG.Lib.Chain.ParMain (3.0s)
+✔ [2311/2331] Built EG.Lib.Chain.JSet (3.5s)
+✔ [2312/2331] Built EG.Lib.Chain.ParExist (2.7s)
+✔ [2313/2332] Built EG.Lib.Chain.HccpAux (2.9s)
+✔ [2315/2332] Built EG.Lib.Gamma.Full (2.9s)
+⚠ [2316/2332] Built EG.Lib.HB.Params (8.2s)
+warning: EG/Lib/HB/Params.lean:122:0: automatically included section variable(s) unused in theorem `EG.HB.ParamHyp.M_pos`:
+  h
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit h in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/HB/Params.lean:124:0: automatically included section variable(s) unused in theorem `EG.HB.ParamHyp.M_le_max_add_one`:
+  h
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit h in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/HB/Params.lean:175:0: automatically included section variable(s) unused in theorem `EG.HB.ParamHyp.forty_le_Lam`:
+  h
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit h in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2317/2335] Built EG.Lib.Chain.JConsumer (2.4s)
+✔ [2318/2335] Built EG.Lib.Chain.JslcPairs (2.4s)
+✔ [2319/2335] Built EG.Lib.Chain.HccpPot (3.3s)
+✔ [2322/2335] Built EG.Lib.Stage1.Law (20s)
+✔ [2323/2335] Built EG.Lib.Lend.Standing (2.9s)
+✔ [2326/2337] Built EG.Lib.HB.TowerRun (2.4s)
+✔ [2328/2337] Built EG.Lib.Chain.StageInst (4.5s)
+✔ [2329/2391] Built EG.Lib.Chain.LostAux (4.7s)
+✔ [2361/2391] Built EG.Lib.Chain.MixCTPV (2.6s)
+✔ [2362/2391] Built EG.Lib.Ext.BMProp12 (5.1s)
+✔ [2363/2391] Built EG.Lib.Ext.BMProp8 (4.9s)
+✔ [2364/2391] Built EG.Lib.Found.PathDecomp (2.4s)
+✔ [2365/2391] Built EG.Spec.Ext.Lovasz (1.4s)
+✔ [2366/2391] Built EG.Spec.Ext.Cor22 (1.5s)
+✔ [2367/2391] Built EG.Lib.Ext.DFS (2.9s)
+✔ [2368/2391] Built EG.Lib.Found.EulerMulti (3.4s)
+✔ [2369/2391] Built EG.Spec.Main (1.5s)
+✔ [2370/2391] Built EG.Lib.Found.FGraphFnum (2.6s)
+✔ [2371/2391] Built EG.Lib.Found.NbrSetDeg (2.3s)
+✔ [2373/2391] Built EG.Lib.Found.LogMono (3.1s)
+⚠ [2374/2391] Built EG.Lib.Chain.MixCRound (3.9s)
+warning: EG/Lib/Chain/MixCRound.lean:235:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+✔ [2375/2391] Built EG.Lib.Ext.Cor22 (4.7s)
+✔ [2376/2391] Built EG.Lib.Gamma.Col3 (9.0s)
+✔ [2378/2434] Built EG.Lib.Found.FnumMain (2.7s)
+✔ [2379/2434] Built EG.Lib.Ext.DFSCycle (4.0s)
+✔ [2380/2434] Built EG.Lib.Chain.MixCSets (2.9s)
+✔ [2382/2434] Built EG.Lib.Ext.LovaszLists (2.6s)
+✔ [2383/2434] Built EG.Lib.HB.Split (3.3s)
+✔ [2384/2434] Built EG.Lib.HB.CapAux (3.4s)
+✔ [2385/2434] Built EG.Lib.HB.StructureAux (2.3s)
+✔ [2386/2434] Built EG.Spec.HB.HS (2.4s)
+✔ [2387/2434] Built EG.Spec.HB.LacunaryGeom (1.5s)
+✔ [2388/2434] Built EG.Spec.HB.DegRec (2.6s)
+✔ [2389/2434] Built EG.Lib.Lend.GeomQuarter (2.6s)
+✔ [2390/2434] Built EG.Lib.Light.Trail (2.7s)
+✔ [2391/2434] Built EG.Lib.Lend.COLJVev (8.8s)
+✔ [2392/2434] Built EG.Spec.Found.Chernoff (2.4s)
+✔ [2393/2434] Built EG.Lib.Light.EqZpAux (3.9s)
+✔ [2394/2434] Built EG.Lib.Light.ExpectAux (4.2s)
+⚠ [2395/2434] Built EG.Lib.Light.ParentData (1.6s)
+warning: EG/Lib/Light/ParentData.lean:38:0: automatically included section variable(s) unused in theorem `EG.PData.arcAt_eq`:
+  [DecidableEq P]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq P] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2397/2435] Built EG.Lib.Light.Stages (3.9s)
+✔ [2399/2435] Built EG.Lib.Light.PlParentless (2.7s)
+✔ [2400/2435] Built EG.Lib.Ext.LovaszCons (4.3s)
+✔ [2401/2435] Built EG.Lib.HB.Address (2.0s)
+✔ [2402/2435] Built EG.Lib.HB.HS (4.4s)
+⚠ [2403/2435] Built EG.Lib.Chain.MixCAssembly (12s)
+warning: EG/Lib/Chain/MixCAssembly.lean:44:0: automatically included section variable(s) unused in theorem `EG.Chain.MixCA.isDecomp_congr_finset`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2404/2435] Built EG.Lib.Light.VisitCap (3.0s)
+warning: EG/Lib/Light/VisitCap.lean:103:27: This simp argument is unused:
+  List.countP_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx, hs0.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [2405/2435] Built EG.Lib.HB.Lacunary (4.4s)
+⚠ [2406/2435] Built EG.Lib.Light.Euler (3.0s)
+warning: EG/Lib/Light/Euler.lean:39:0: automatically included section variable(s) unused in theorem `EG.MTrail.mdeg_eq_zero_of_notMem`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Light/Euler.lean:48:0: automatically included section variable(s) unused in theorem `EG.MTrail.sum_mdeg`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2407/2435] Built EG.Lib.Light.ChainAux (4.4s)
+warning: EG/Lib/Light/ChainAux.lean:41:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [2408/2435] Built EG.Lib.Light.KREDAux (3.2s)
+✔ [2412/2435] Built EG.Lib.Light.E1Aux (5.2s)
+✔ [2413/2435] Built EG.Lib.HB.SEP (3.4s)
+✔ [2414/2435] Built EG.Lib.Ext.LovaszThm (4.7s)
+✔ [2415/2435] Built EG.Lib.HB.TowerDeg (4.6s)
+✔ [2416/2435] Built EG.Lib.HB.OVPotential (9.6s)
+✔ [2417/2435] Built EG.Lib.HB.LacunaryRun (4.7s)
+✔ [2420/2435] Built EG.Lib.HB.GC (3.3s)
+✔ [2421/2435] Built EG.Lib.Light.KREDStep (8.9s)
+✔ [2423/2435] Built EG.Lib.HB.OVRound (2.9s)
+✔ [2424/2435] Built EG.Lib.HB.Fresh (2.6s)
+✔ [2425/2435] Built EG.Lib.HB.DegRecAux (2.9s)
+✔ [2426/2435] Built EG.Lib.HB.Lemma14 (16s)
+✔ [2427/2435] Built EG.Lib.HB.Partition (5.8s)
+✔ [2428/2435] Built EG.Lib.HB.Psi (3.4s)
+✔ [2429/2435] Built EG.Lib.Light.Constants (4.3s)
+✔ [2430/2435] Built EG.Lib.HB.Lemma14Ind (9.8s)
+⚠ [2431/2435] Built EG.Lib.HB.LacunaryEx (10s)
+warning: EG/Lib/HB/LacunaryEx.lean:87:0: automatically included section variable(s) unused in theorem `EG.HB.LacX.le_logb_of_le`:
+  h
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit h in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/HB/LacunaryEx.lean:183:6: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2432/2435] Built EG.Lib.Gamma.Eps (4.4s)
+✔ [2433/2466] Built EG.Lib.Chain.TowerFacts (31s)
+✔ [2529/2683] Built EG.Lib.HB.Exists (4.1s)
+⚠ [2532/2683] Built EG.Lib.Link.L17sReach (2.9s)
+warning: EG/Lib/Link/L17sReach.lean:37:0: automatically included section variable(s) unused in theorem `EG.L17sProof.mem_reach`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2533/2683] Built EG.Lib.Link.Star (3.1s)
+✔ [2534/2683] Built EG.Spec.Found.BBD (2.1s)
+✔ [2535/2683] Built EG.Spec.Link.P13s (2.3s)
+✔ [2536/2683] Built EG.Spec.Num.L17s (2.8s)
+✔ [2537/2683] Built EG.Spec.Link.Star (2.8s)
+✔ [2538/2683] Built EG.Spec.Link.L17s (2.2s)
+✔ [2539/2683] Built EG.Spec.Link.L9rho (2.3s)
+✔ [2540/2683] Built EG.Spec.Ext.Haxell (1.3s)
+✔ [2541/2683] Built EG.Spec.Ext.BMProp8 (2.2s)
+✔ [2542/2683] Built EG.Spec.Link.Multiset (1.4s)
+✔ [2543/2700] Built EG.Spec.Ext.BMProp12 (2.1s)
+✔ [2545/2700] Built EG.Spec.Link.P18s (2.1s)
+✔ [2546/2700] Built EG.Spec.Link.T16s (2.2s)
+✔ [2547/2700] Built EG.Spec.Link.T16sForced (2.1s)
+✔ [2548/2700] Built EG.Spec.Link.L15 (2.3s)
+✔ [2549/2700] Built EG.Lib.Main.Constants (3.0s)
+✔ [2550/2700] Built EG.Lib.Prob.PiCond (3.4s)
+✔ [2551/2700] Built EG.Lib.Prob.Chernoff (5.4s)
+✔ [2552/2700] Built EG.Lib.Prob.Uniform (1.0s)
+✔ [2553/2700] Built EG.Lib.Prob.TotalExp (1.7s)
+✔ [2554/2700] Built EG.Lib.Prob.UnionRSubset (2.3s)
+✔ [2555/2700] Built EG.Lib.Quot.Cand (2.8s)
+✔ [2556/2700] Built EG.Lib.Quot.Schedule (1.9s)
+✔ [2557/2700] Built EG.Lib.Stage1.PoolLaw (3.2s)
+✔ [2558/2700] Built EG.Lib.Quot.Constants (2.5s)
+✔ [2560/2700] Built EG.Lib.Quot.ConstNonneg (3.4s)
+✔ [2561/2700] Built EG.Spec.Num.WellDef (2.2s)
+✔ [2562/2700] Built EG.Spec.Quot.MULT (2.0s)
+✔ [2563/2700] Built EG.Spec.Num.CC (2.1s)
+✔ [2564/2700] Built EG.Spec.Quot.CC (2.3s)
+✔ [2565/2700] Built EG.Spec.Quot.Ultra (2.3s)
+✔ [2566/2700] Built EG.Spec.Quot.Cand (2.5s)
+✔ [2567/2700] Built EG.Spec.HB.CapRound (2.4s)
+✔ [2568/2700] Built EG.Spec.Lend.COLJVCount (2.8s)
+✔ [2569/2700] Built EG.Spec.HB.Cap (2.4s)
+✔ [2570/2700] Built EG.Spec.Ext.BMLemma25 (2.3s)
+✔ [2571/2700] Built EG.Spec.HB.OVRunK (2.0s)
+✔ [2572/2700] Built EG.Spec.HB.Lemma14Tau (2.5s)
+✔ [2573/2700] Built EG.Spec.HB.ThinCut (2.2s)
+✔ [2574/2700] Built EG.Spec.HB.Overlap (2.3s)
+✔ [2575/2700] Built EG.Spec.HB.HBtpFacts (2.5s)
+✔ [2576/2700] Built EG.Spec.HB.CapPrePart (2.2s)
+✔ [2577/2700] Built EG.Spec.HB.StructureLight (2.3s)
+✔ [2578/2700] Built EG.Proof.Todo.HSCor (2.6s)
+✔ [2579/2700] Built EG.Proof.HB.StructureHY (2.4s)
+✔ [2580/2700] Built EG.Spec.Quot.Lift (2.3s)
+✔ [2581/2700] Built EG.Lib.Quot.Xprime (2.2s)
+✔ [2582/2700] Built EG.Lib.Quot.Det (4.4s)
+✔ [2583/2700] Built EG.Spec.Stage1.COLa (2.1s)
+✔ [2584/2700] Built EG.Spec.Lend.COLJVRows (2.5s)
+✔ [2585/2700] Built EG.Spec.Stage1.COLc (2.5s)
+✔ [2586/2700] Built EG.Lib.Vortex.PVAux (2.7s)
+✔ [2587/2700] Built EG.Proof.Todo.Lovasz (2.2s)
+✔ [2589/2700] Built EG.Spec.Vortex.PVCore (2.6s)
+✔ [2590/2700] Built EG.Lib.Vortex.Trail (16s)
+⚠ [2591/2700] Built EG.Lib.Link.L17sStep2 (19s)
+warning: EG/Lib/Link/L17sStep2.lean:93:55: Variable name `hσ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hσ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Link/L17sStep2.lean:190:43: Variable name `hHv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hHv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Link/L17sStep2.lean:213:18: Variable name `hXW` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hXW
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Link/L17sStep2.lean:213:42: Variable name `hHv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hHv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2592/2700] Built EG.Lib.Link.L9rho (22s)
+✔ [2594/2700] Built EG.Spec.Num.StarInputs (2.3s)
+✔ [2595/2700] Built EG.Proof.Todo.BMProp12 (2.3s)
+✔ [2596/2700] Built EG.Proof.Todo.StarP13sParams (2.5s)
+✔ [2597/2700] Built EG.Proof.Todo.StarS6 (2.8s)
+✔ [2598/2700] Built EG.Lib.Link.P13s (26s)
+✔ [2599/2700] Built EG.Proof.Found.BBD (6.7s)
+✔ [2600/2972] Built EG.Proof.Todo.BMProp8 (2.3s)
+✔ [2601/2972] Built EG.Proof.Todo.MultisetCount (2.1s)
+✔ [2602/2972] Built EG.Proof.Todo.ChernoffGen (2.3s)
+✔ [2603/2972] Built EG.Lib.Vortex.TPVLaws (3.0s)
+⚠ [2604/2972] Built EG.Lib.Link.P18s (10s)
+warning: EG/Lib/Link/P18s.lean:29:70: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Link/P18s.lean:30:5: Variable name `hvU` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hvU
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Link/P18s.lean:232:0: automatically included section variable(s) unused in theorem `EG.P18sProof.union_sum_le`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2605/2972] Built EG.Lib.Prob.RankOrder (2.2s)
+warning: EG/Lib/Prob/RankOrder.lean:39:0: automatically included section variable(s) unused in theorem `EG.FinDist.rankList_def`:
+  [Fintype W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Prob/RankOrder.lean:44:0: automatically included section variable(s) unused in theorem `EG.FinDist.mem_rankList`:
+  [Fintype W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Prob/RankOrder.lean:53:0: automatically included section variable(s) unused in theorem `EG.FinDist.nodup_rankList`:
+  [Fintype W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Prob/RankOrder.lean:69:0: automatically included section variable(s) unused in theorem `EG.FinDist.rankList_trans`:
+  [Fintype W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Prob/RankOrder.lean:75:64: This simp argument is unused:
+  Equiv.symm_trans_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Prob/RankOrder.lean:84:0: automatically included section variable(s) unused in theorem `EG.FinDist.prob_trans_preimage`:
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Prob/RankOrder.lean:125:0: automatically included section variable(s) unused in theorem `EG.FinDist.embList_injective`:
+  [Fintype W]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Prob/RankOrder.lean:132:0: automatically included section variable(s) unused in theorem `EG.FinDist.map_embList`:
+  [Fintype W]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Prob/RankOrder.lean:137:0: automatically included section variable(s) unused in theorem `EG.FinDist.exists_embList`:
+  [Fintype W]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Prob/RankOrder.lean:162:0: automatically included section variable(s) unused in theorem `EG.FinDist.sum_ite_take_eq`:
+  [Nonempty (W ≃ Fin n)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty (W ≃ Fin n)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2606/2972] Built EG.Proof.Todo.StarUnionLaw (2.6s)
+✔ [2607/2972] Built EG.Lib.Prob.MaxLoad (11s)
+✔ [2609/2972] Built EG.Lib.Quot.Round (5.3s)
+✔ [2610/2972] Built EG.Lib.Stage1.PoolExpect (2.6s)
+✔ [2611/2972] Built EG.Proof.Num.CC (8.0s)
+✔ [2612/2972] Built EG.Proof.Num.WellDef (11s)
+✔ [2613/2972] Built EG.Spec.HB.OVRun (2.4s)
+✔ [2614/2972] Built EG.Proof.HB.ThinCut (2.3s)
+✔ [2615/2972] Built EG.Proof.HB.Overlap (5.2s)
+✔ [2616/2972] Built EG.Proof.Todo.HBTwoLevel (2.5s)
+✔ [2617/2972] Built EG.Spec.HB.Structure (2.5s)
+✔ [2618/2972] Built EG.Lib.Quot.Xpool (3.3s)
+✔ [2619/2972] Built EG.Spec.Lend.COLJV (4.4s)
+✔ [2620/2972] Built EG.Spec.Stage1.COL (2.9s)
+✔ [2621/2972] Built EG.Proof.Ext.Cor22 (2.4s)
+✔ [2622/2972] Built EG.Proof.Ext.BMLemma25 (31s)
+✔ [2623/2972] Built EG.Lib.Vortex.Ends (3.3s)
+⚠ [2624/2972] Built EG.Lib.Link.L17sMain (21s)
+warning: EG/Lib/Link/L17sMain.lean:110:28: Variable name `hℓ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hℓ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Link/L17sMain.lean:200:35: Variable name `h0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Link/L17sMain.lean:212:0: automatically included section variable(s) unused in theorem `EG.L17sProof.rsubset_congr`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Link/L17sMain.lean:217:0: automatically included section variable(s) unused in theorem `EG.L17sProof.layLaw_isRSubset`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2625/2972] Built EG.Lib.Link.T16sProof (27s)
+✔ [2626/2972] Built EG.Proof.Link.L15 (5.6s)
+✔ [2627/2972] Built EG.Proof.Todo.P13s (2.3s)
+✔ [2629/2972] Built EG.Proof.Num.StarInputs (5.2s)
+✔ [2630/2972] Built EG.Proof.Todo.T16sForced (5.1s)
+✔ [2631/2972] Built EG.Spec.Found.EG0 (2.4s)
+✔ [2632/2972] Built EG.Spec.Link.HB (2.2s)
+✔ [2633/2972] Built EG.Lib.Vortex.Size (3.6s)
+✔ [2634/2972] Built EG.Spec.Chain.CONC (2.6s)
+✔ [2635/2972] Built EG.Spec.HB.Origin (2.4s)
+✔ [2636/2972] Built EG.Spec.Chain.CONCL (2.4s)
+✔ [2637/2972] Built EG.Spec.Chain.ConcTower (2.4s)
+✔ [2638/2972] Built EG.Proof.HB.LacunaryGeom (2.3s)
+✔ [2639/2972] Built EG.Spec.Chain.EngineMult (1.7s)
+✔ [2640/2972] Built EG.Proof.HB.TowerC (6.0s)
+✔ [2641/2972] Built EG.Spec.Chain.EqLpt (1.7s)
+✔ [2642/2972] Built EG.Spec.Chain.Gate (1.6s)
+✔ [2643/2972] Built EG.Spec.Chain.HCCP (1.8s)
+✔ [2644/2972] Built EG.Spec.Chain.JPlus (2.4s)
+✔ [2645/2972] Built EG.Spec.Chain.PAR (1.7s)
+✔ [2646/2972] Built EG.Spec.Chain.JSLCSteps (2.6s)
+✔ [2647/2972] Built EG.Spec.HB.EL (2.4s)
+✔ [2648/2972] Built EG.Spec.Chain.MED (1.5s)
+✔ [2649/2972] Built EG.Spec.Chain.JSLCRouting (2.5s)
+✔ [2650/2972] Built EG.Spec.Found.EulerMulti (2.7s)
+✔ [2651/2972] Built EG.Spec.Found.EulerTreeTJoin (1.9s)
+✔ [2652/2972] Built EG.Spec.Gamma.N0 (2.5s)
+✔ [2653/2972] Built EG.Spec.Gamma.Sat (2.5s)
+✔ [2654/2972] Built EG.Spec.HB.GC (2.3s)
+✔ [2655/2972] Built EG.Spec.HB.SEP (2.4s)
+✔ [2656/2972] Built EG.Spec.HB.TauRules (2.7s)
+✔ [2657/2972] Built EG.Spec.Light.ParentSteps (2.6s)
+✔ [2658/2972] Built EG.Spec.Light.Child (2.5s)
+✔ [2659/2972] Built EG.Spec.Vortex.PV (2.5s)
+✔ [2660/2972] Built EG.Spec.Light.Stages (2.5s)
+✔ [2661/2972] Built EG.Spec.Light.ParentRun (2.6s)
+✔ [2662/2972] Built EG.Spec.Light.Parent (2.5s)
+✔ [2663/2972] Built EG.Spec.Light.Setting (2.5s)
+✔ [2664/2972] Built EG.Spec.Quot.HI (1.7s)
+✔ [2665/2972] Built EG.Spec.Light.Zones (2.8s)
+✔ [2666/2972] Built EG.Spec.Quot.JVps (2.6s)
+✔ [2667/2972] Built EG.Spec.Quot.OneOutcome (2.5s)
+✔ [2668/2972] Built EG.Spec.Quot.Cost (2.4s)
+✔ [2669/2972] Built EG.Spec.Light.Demoted (2.5s)
+✔ [2670/2972] Built EG.Spec.Vortex.VX (2.5s)
+✔ [2671/2972] Built EG.Proof.Todo.HBStep1 (2.7s)
+✔ [2672/2972] Built EG.Spec.HB.Lacunary (2.8s)
+✔ [2673/2972] Built EG.Spec.Quot.Pay (2.9s)
+✔ [2674/2972] Built EG.Spec.Quot.UHsplit (2.8s)
+✔ [2675/2972] Built EG.Spec.Quot.EXprime (2.6s)
+✔ [2676/2972] Built EG.Spec.Chain.Lost (2.7s)
+✔ [2677/2972] Built EG.Spec.Light.E1 (2.5s)
+✔ [2678/2972] Built EG.Spec.Light.Expect (2.4s)
+✔ [2679/2972] Built EG.Spec.Quot.Vstar (2.6s)
+✔ [2680/2972] Built EG.Spec.HB.Exists (2.4s)
+✔ [2681/2972] Built EG.Spec.Num.OV (2.3s)
+✔ [2682/2972] Built EG.Spec.Quot.WellDef (2.3s)
+✔ [2683/2972] Built EG.Spec.Quot.Simple (2.6s)
+✔ [2684/2972] Built EG.Proof.Todo.AncestorFacts (2.6s)
+✔ [2685/2972] Built EG.Spec.Lend.COLJVev (2.5s)
+✔ [2686/2972] Built EG.Spec.Quot.CandDef (2.4s)
+✔ [2687/2972] Built EG.Proof.Todo.ChernoffBinomial (2.6s)
+✔ [2688/2972] Built EG.Proof.Todo.ChernoffGenMean (2.5s)
+✔ [2689/2972] Built EG.Proof.Todo.ChernoffGenTail (2.6s)
+✔ [2690/2972] Built EG.Spec.Main.CorJVpsEG (2.6s)
+✔ [2691/2972] Built EG.Spec.Ext.BMDef11 (2.6s)
+✔ [2692/2972] Built EG.Spec.Found.FactAdd (1.9s)
+✔ [2693/2972] Built EG.Spec.Gamma.Cond (2.8s)
+✔ [2694/2972] Built EG.Proof.Todo.HBMCeil (2.6s)
+✔ [2695/2972] Built EG.Proof.Todo.HBStd (2.3s)
+✔ [2696/2972] Built EG.Proof.Todo.HS (2.7s)
+✔ [2697/2972] Built EG.Spec.Found.Hall (1.3s)
+✔ [2698/2972] Built EG.Spec.Chain.JPlusV (2.1s)
+✔ [2699/2972] Built EG.Spec.Found.Markov (1.6s)
+✔ [2700/2972] Built EG.Spec.Link.Monotone (2.3s)
+✔ [2701/2972] Built EG.Spec.Stage1.Pool (2.5s)
+✔ [2702/2972] Built EG.Spec.Quot.RoundStep (2.7s)
+✔ [2703/2972] Built EG.Proof.Todo.StarS1 (2.5s)
+✔ [2704/2972] Built EG.Spec.Vortex.Observations (1.6s)
+✔ [2705/2972] Built EG.Proof.Todo.StarS2P (2.5s)
+✔ [2706/2972] Built EG.Lib.Quot.RoundExist (2.6s)
+✔ [2707/2972] Built EG.Lib.Quot.ListsLaw (4.4s)
+⚠ [2710/2972] Built EG.Lib.Quot.ListAux (3.7s)
+warning: EG/Lib/Quot/ListAux.lean:147:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2711/2972] Built EG.Lib.Quot.UltraAux (4.0s)
+warning: EG/Lib/Quot/UltraAux.lean:51:72: Variable name `he0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _he0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2712/2972] Built EG.Lib.Quot.CandCount (3.4s)
+✔ [2713/2972] Built EG.Proof.HB.Lemma14Tau (4.9s)
+✔ [2714/2972] Built EG.Proof.HB.Structure (3.1s)
+✔ [2715/2972] Built EG.Proof.Todo.StructureExp (3.5s)
+✔ [2716/2972] Built EG.Proof.Todo.COLJVRow13 (2.6s)
+✔ [2717/2972] Built EG.Lib.Stage1.COLa (6.5s)
+✔ [2718/2972] Built EG.Proof.Todo.COLJVCol3 (2.5s)
+✔ [2719/2972] Built EG.Proof.HB.Cap (3.8s)
+✔ [2720/2972] Built EG.Lib.Vortex.StepPhase (3.5s)
+✔ [2721/2972] Built EG.Lib.Vortex.Strip (3.3s)
+✔ [2723/2972] Built EG.Lib.Stage1.COLb (12s)
+✔ [2724/2972] Built EG.Proof.Todo.StarS4 (16s)
+✔ [2725/2972] Built EG.Proof.Found.EG0 (8.1s)
+✔ [2726/2972] Built EG.Proof.HB.Origin (3.0s)
+✔ [2727/2972] Built EG.Proof.Num.L17s (30s)
+✔ [2728/2972] Built EG.Proof.Chain.EpsCONC (2.4s)
+✔ [2729/2972] Built EG.Proof.Chain.HccpEndMult (2.1s)
+✔ [2730/2972] Built EG.Proof.Chain.EngineMult (2.3s)
+✔ [2731/2972] Built EG.Proof.Todo.COLJVRow1 (2.3s)
+✔ [2732/2972] Built EG.Proof.Chain.EqLpt (1.5s)
+✔ [2733/2972] Built EG.Proof.Chain.HCCUnion (1.4s)
+✔ [2734/2972] Built EG.Proof.Chain.Gate (1.6s)
+✔ [2735/2972] Built EG.Proof.Chain.PAR (2.3s)
+✔ [2736/2972] Built EG.Proof.Chain.JPlus (2.5s)
+✔ [2737/2972] Built EG.Proof.Chain.JSLCStep7 (2.5s)
+✔ [2738/2972] Built EG.Proof.HB.EL (2.6s)
+✔ [2739/2972] Built EG.Proof.Chain.MED (1.5s)
+✔ [2740/2972] Built EG.Proof.Chain.JSLCRouting (2.6s)
+✔ [2741/2972] Built EG.Proof.Found.EulerMulti (2.2s)
+✔ [2742/2972] Built EG.Proof.Found.EulerTreeTJoin (2.5s)
+✔ [2743/2972] Built EG.Proof.Gamma.N0 (2.5s)
+✔ [2744/2972] Built EG.Proof.Todo.Col3Eventually (2.3s)
+✔ [2745/2972] Built EG.Proof.HB.GC (2.7s)
+✔ [2746/2972] Built EG.Proof.HB.SEP (2.4s)
+✔ [2747/2972] Built EG.Proof.HB.TauRules (2.7s)
+⚠ [2748/2972] Built EG.Proof.Light.ParentSteps (2.6s)
+warning: EG/Proof/Light/ParentSteps.lean:146:19: This simp argument is unused:
+  hE
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [oTgt_qEnds, decide_eq_true_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [2749/2972] Built EG.Proof.Light.ConnectorCycle (3.3s)
+✔ [2750/2972] Built EG.Proof.Todo.LemParentLimit (2.4s)
+✔ [2751/2972] Built EG.Proof.Light.EtaHalving (6.8s)
+✔ [2752/2972] Built EG.Proof.Light.ParentAvail (2.6s)
+✔ [2753/2972] Built EG.Proof.Todo.OneOutcomeStage1 (2.3s)
+✔ [2754/2972] Built EG.Proof.Todo.CostC0 (2.5s)
+✔ [2755/2972] Built EG.Proof.Quot.HI (5.9s)
+✔ [2756/2972] Built EG.Proof.Todo.LacunarySeq (2.2s)
+✔ [2757/2972] Built EG.Proof.Todo.StructurePartition (4.7s)
+✔ [2758/2972] Built EG.Proof.Todo.LacunaryMono (2.6s)
+✔ [2759/2972] Built EG.Proof.Todo.LacunaryExamples (2.8s)
+✔ [2760/2972] Built EG.Proof.Todo.LemExpectLimit (2.5s)
+✔ [2761/2972] Built EG.Proof.Todo.RoundSteps (2.4s)
+✔ [2762/2972] Built EG.Proof.Num.OV (3.7s)
+✔ [2763/2972] Built EG.Proof.Todo.COLJVevEventuallyRow (2.4s)
+✔ [2764/2972] Built EG.Proof.Todo.COLJVevRows (2.3s)
+✔ [2765/2972] Built EG.Proof.Todo.COLJVevTypeE (2.4s)
+✔ [2766/2972] Built EG.Proof.Todo.CandSubset (2.8s)
+✔ [2767/2972] Built EG.Proof.Todo.ExpanderMinDeg (2.6s)
+✔ [2768/2972] Built EG.Proof.Todo.ExpanderEpsZero (2.2s)
+✔ [2769/2972] Built EG.Proof.Todo.FactAddDMono (1.5s)
+✔ [2770/2972] Built EG.Proof.Todo.FactAddD (1.6s)
+✔ [2771/2972] Built EG.Proof.Todo.FactAddC (2.2s)
+✔ [2772/2972] Built EG.Proof.Todo.FactAddB (1.4s)
+✔ [2773/2972] Built EG.Proof.Todo.FactAddA (1.5s)
+✔ [2774/2972] Built EG.Proof.Todo.Gamma2aOfGamma1 (2.4s)
+✔ [2775/2972] Built EG.Proof.Todo.Gamma1dOfAB (2.6s)
+✔ [2776/2972] Built EG.Proof.Todo.Gamma1Upward (2.3s)
+✔ [2777/2972] Built EG.Proof.Todo.Gamma1Transfer (2.9s)
+✔ [2778/2972] Built EG.Proof.Todo.Gamma1Logb (2.9s)
+✔ [2779/2972] Built EG.Proof.Todo.JplusV (2.4s)
+✔ [2780/2972] Built EG.Proof.Todo.MarkovCond (1.6s)
+✔ [2781/2972] Built EG.Proof.Todo.MarkovB (1.6s)
+✔ [2782/2972] Built EG.Proof.Todo.MarkovA (1.5s)
+✔ [2783/2972] Built EG.Proof.Todo.Markov (1.6s)
+✔ [2784/2972] Built EG.Proof.Todo.Monotone (2.2s)
+✔ [2785/2972] Built EG.Proof.Todo.RoundRulesExist (2.3s)
+✔ [2786/2972] Built EG.Proof.Todo.RoundMarkov (2.3s)
+✔ [2788/2972] Built EG.Proof.Vortex.Observations (2.4s)
+⚠ [2789/2972] Built EG.Lib.Quot.Items (3.6s)
+warning: EG/Lib/Quot/Items.lean:35:22: This simp argument is unused:
+  or_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [RoundInput.J]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Quot/Items.lean:92:56: Variable name `hx'` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx'
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Quot/Items.lean:92:77: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Quot/Items.lean:99:56: Variable name `hh'` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hh'
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Quot/Items.lean:99:76: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Quot/Items.lean:132:0: automatically included section variable(s) unused in theorem `EG.Quot.RoundInput.hubItems_live`:
+  hI
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hI in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Quot/Items.lean:229:0: automatically included section variable(s) unused in theorem `EG.Quot.Rules.mk_out`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Quot/Items.lean:237:0: automatically included section variable(s) unused in theorem `EG.Quot.Rules.cherry_facts`:
+  hI
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hI in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2790/2972] Built EG.Proof.HB.StructureLight (2.7s)
+✔ [2791/2972] Built EG.Proof.Todo.Fresh (3.6s)
+✔ [2792/2972] Built EG.Proof.Todo.ParentlessCount (4.9s)
+✔ [2793/2972] Built EG.Proof.Todo.RoundTauTerm (2.8s)
+✔ [2794/2972] Built EG.Proof.Todo.CapRound (2.6s)
+⚠ [2795/2972] Built EG.Lib.Vortex.StepCount (3.7s)
+warning: EG/Lib/Vortex/StepCount.lean:52:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [2796/2972] Built EG.Proof.Ext.Haxell (4.1s)
+✔ [2797/2972] Built EG.Proof.Chain.CONC (2.5s)
+✔ [2798/2972] Built EG.Proof.Todo.L17s (2.7s)
+✔ [2799/2972] Built EG.Proof.Chain.EngineMultTJS (2.3s)
+✔ [2800/2972] Built EG.Proof.Chain.HCCP (4.1s)
+⚠ [2801/2972] Built EG.Proof.Chain.JSLCStep2Par (3.1s)
+warning: EG/Proof/Chain/JSLCStep2Par.lean:52:0: automatically included section variable(s) unused in theorem `EG.Chain.cl_mem_of_map_eq`:
+  [DecidableEq V]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2802/2972] Built EG.Proof.Chain.JSLCTypes (2.5s)
+⚠ [2803/2972] Built EG.Proof.Light.ArcClassEuler (3.2s)
+warning: EG/Proof/Light/ArcClassEuler.lean:43:0: automatically included section variable(s) unused in theorem `EG.ArcEulerAux.mem_comp`:
+  [DecidableEq ι]
+  [DecidableEq β]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] [DecidableEq β] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ArcClassEuler.lean:56:0: automatically included section variable(s) unused in theorem `EG.ArcEulerAux.reachable_ends`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ArcClassEuler.lean:67:17: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2804/2972] Built EG.Proof.Gamma.Sat (2.7s)
+✔ [2805/2972] Built EG.Proof.Todo.N0Eventually (2.4s)
+✔ [2806/2972] Built EG.Proof.Todo.StarS5 (28s)
+✔ [2807/2972] Built EG.Proof.Todo.N0Exists (2.4s)
+✔ [2808/2972] Built EG.Proof.Todo.VortexEventuallySize (2.4s)
+✔ [2809/2972] Built EG.Proof.Todo.VisitCap (2.2s)
+✔ [2810/2972] Built EG.Proof.Todo.HI (2.4s)
+✔ [2812/2972] Built EG.Proof.Quot.HIMain (2.6s)
+✔ [2813/2972] Built EG.Proof.Todo.COLJVev (2.3s)
+✔ [2814/2972] Built EG.Proof.Todo.RoundListsLaw (3.7s)
+✔ [2815/2972] Built EG.Lib.Quot.Colour (2.8s)
+✔ [2816/2972] Built EG.Proof.Todo.EqPl (2.5s)
+✔ [2817/2972] Built EG.Proof.Todo.RoundExists (2.5s)
+✔ [2818/2972] Built EG.Proof.Todo.CapRunTau (2.6s)
+✔ [2819/2972] Built EG.Proof.HB.CapPrePart (2.7s)
+✔ [2820/2972] Built EG.Lib.Vortex.Finish (2.8s)
+⚠ [2821/2972] Built EG.Lib.Vortex.StepAssemble (3.4s)
+warning: EG/Lib/Vortex/StepAssemble.lean:84:34: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2822/2972] Built EG.Proof.Todo.L9rho (2.4s)
+✔ [2823/2972] Built EG.Proof.Chain.CONCL (3.2s)
+✔ [2824/2972] Built EG.Proof.Todo.P18s (2.8s)
+✔ [2825/2972] Built EG.Proof.Chain.HCCGlob (2.4s)
+✔ [2826/2972] Built EG.Proof.Chain.JSLCStep2Defs (3.0s)
+✔ [2827/2972] Built EG.Proof.Todo.OVRound (33s)
+✔ [2828/2972] Built EG.Proof.Todo.ArcClassEuler (2.6s)
+✔ [2829/2972] Built EG.Proof.Todo.GammaCondExists (2.6s)
+✔ [2830/2972] Built EG.Proof.Todo.GammaSat (2.6s)
+✔ [2831/2972] Built EG.Proof.Todo.GammaSatEps (2.6s)
+✔ [2833/2972] Built EG.Proof.Todo.GammaSatItems (2.4s)
+⚠ [2834/2972] Built EG.Proof.Light.ParentEngine (22s)
+warning: EG/Proof/Light/ParentEngine.lean:39:0: automatically included section variable(s) unused in theorem `EG.PEngine.mem_arcEdgeSet`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ParentEngine.lean:44:0: automatically included section variable(s) unused in theorem `EG.PEngine.ends_ne`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ParentEngine.lean:51:0: automatically included section variable(s) unused in theorem `EG.PEngine.mem_of_head?`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ParentEngine.lean:54:0: automatically included section variable(s) unused in theorem `EG.PEngine.mem_of_getLast?`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ParentEngine.lean:57:0: automatically included section variable(s) unused in theorem `EG.PEngine.two_le_of_head_last`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ParentEngine.lean:66:0: automatically included section variable(s) unused in theorem `EG.PEngine.nodup_interior`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ParentEngine.lean:69:0: automatically included section variable(s) unused in theorem `EG.PEngine.mem_of_mem_interior`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ParentEngine.lean:72:0: automatically included section variable(s) unused in theorem `EG.PEngine.flatMap_map_edge`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/ParentEngine.lean:83:0: automatically included section variable(s) unused in theorem `EG.PEngine.length_flatMap_transitions`:
+  [DecidableEq V]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2835/2972] Built EG.Lib.Quot.Junction (5.5s)
+warning: EG/Lib/Quot/Junction.lean:221:13: Variable name `st` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _st
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Quot/Junction.lean:245:0: automatically included section variable(s) unused in theorem `EG.Quot.Rules.e1Items_sub`:
+  hI
+  hR
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hI hR in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2836/2972] Built EG.Proof.HB.TowerB (2.8s)
+✔ [2837/2972] Built EG.Lib.Vortex.FinishCore (3.9s)
+✔ [2838/2972] Built EG.Lib.Vortex.StepOutput (3.3s)
+✔ [2839/2972] Built EG.Proof.Link.T16s (2.5s)
+⚠ [2840/2972] Built EG.Proof.Chain.JSLCStep2Facts (3.5s)
+warning: EG/Proof/Chain/JSLCStep2Facts.lean:49:0: automatically included section variable(s) unused in theorem `EG.Chain.Step2.Step2Hyp.qs_classed`:
+  H
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit H in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Chain/JSLCStep2Facts.lean:73:0: automatically included section variable(s) unused in theorem `EG.Chain.Step2.Step2Hyp.Epp_map`:
+  H
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit H in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2841/2972] Built EG.Proof.Todo.OVRun (2.6s)
+✔ [2843/2972] Built EG.Proof.Todo.DegRecKindsRound (4.9s)
+✔ [2844/2972] Built EG.Proof.HB.OVRunK (2.6s)
+✔ [2845/2972] Built EG.Lib.Quot.E2 (4.3s)
+✔ [2846/2972] Built EG.Proof.Vortex.PVFinish (3.0s)
+✔ [2847/2972] Built EG.Proof.Chain.JSLCStep2JPlus (3.2s)
+✔ [2848/2972] Built EG.Lib.Vortex.StepCost (4.4s)
+✔ [2849/2972] Built EG.Proof.Todo.DegRecKinds (2.6s)
+⚠ [2850/2972] Built EG.Lib.Quot.Cuckoo (4.8s)
+warning: EG/Lib/Quot/Cuckoo.lean:129:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: EG/Lib/Quot/Cuckoo.lean:160:0: automatically included section variable(s) unused in theorem `EG.Quot.card_zeta_of_w`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2851/2972] Built EG.Proof.Todo.Hall (1.8s)
+✔ [2852/2972] Built EG.Proof.Todo.DegRecRound (11s)
+⚠ [2853/2972] Built EG.Lib.Link.HBLemma (5.3s)
+warning: EG/Lib/Link/HBLemma.lean:51:0: automatically included section variable(s) unused in theorem `EG.HBLemma.exists_subset_half`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2854/2972] Built EG.Lib.Quot.Quotient (2.8s)
+warning: EG/Lib/Quot/Quotient.lean:27:86: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Quot/Quotient.lean:27:88: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2855/2972] Built EG.Lib.Quot.Injection (3.2s)
+warning: EG/Lib/Quot/Injection.lean:41:10: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Quot/Injection.lean:41:13: This simp argument is unused:
+  h'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Quot/Injection.lean:43:10: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Quot/Injection.lean:43:13: This simp argument is unused:
+  h'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Quot/Injection.lean:117:45: Variable name `w` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _w
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Quot/Injection.lean:270:0: automatically included section variable(s) unused in theorem `EG.Quot.Rules.endJunc_isSome`:
+  hI
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hI in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2856/2972] Built EG.Proof.Chain.JSLCStep2Count (3.4s)
+✔ [2857/2972] Built EG.Proof.Vortex.PVCore (3.0s)
+✔ [2858/2972] Built EG.Lib.Vortex.TPVPhase (2.0s)
+✔ [2859/2972] Built EG.Proof.Todo.ExistsRun (3.7s)
+✔ [2860/2972] Built EG.Proof.Todo.RunTerminates (3.7s)
+✔ [2861/2972] Built EG.Proof.Todo.DegRec (2.5s)
+✔ [2862/2972] Built EG.Proof.Todo.HB (2.5s)
+✔ [2863/2972] Built EG.Proof.Quot.Simple (2.9s)
+✔ [2864/2972] Built EG.Proof.Quot.WellDef (3.4s)
+✔ [2865/2972] Built EG.Proof.Quot.MULT (2.9s)
+⚠ [2866/2972] Built EG.Lib.Quot.Lift (5.3s)
+warning: EG/Lib/Quot/Lift.lean:44:0: automatically included section variable(s) unused in theorem `EG.Quot.leEnds_inj`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Quot/Lift.lean:245:5: Variable name `hu'` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu'
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Lib/Quot/Lift.lean:334:19: This simp argument is unused:
+  or_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [paidEdges]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Quot/Lift.lean:338:26: This simp argument is unused:
+  or_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [RoundInput.paidA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Quot/Lift.lean:465:70: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.mem_cons, List.mem_append, Option.mem_toList, List.not_mem_nil, or_false] at hv
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: EG/Lib/Quot/Lift.lean:590:22: `List.getLast?_eq_getLast` has been deprecated: Use `List.getLast?_eq_some_getLast` instead
+warning: EG/Lib/Quot/Lift.lean:586:0: automatically included section variable(s) unused in theorem `EG.Quot.Rules.walkEdges_cons_append`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Quot/Lift.lean:595:0: automatically included section variable(s) unused in theorem `EG.Quot.Rules.mem_walkEdges_par`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Lib/Quot/Lift.lean:675:0: automatically included section variable(s) unused in theorem `EG.Quot.Rules.mem_zip_fst`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2867/2972] Built EG.Lib.Quot.Pay (5.8s)
+✔ [2868/2972] Built EG.Proof.Todo.RoundInjection (2.5s)
+✔ [2869/2972] Built EG.Proof.Todo.UltraIndep (3.4s)
+✔ [2870/2972] Built EG.Proof.Chain.JSLCStep2 (2.8s)
+✔ [2871/2972] Built EG.Lib.Vortex.TPVClose (7.5s)
+✔ [2872/2972] Built EG.Proof.Todo.LacunaryRun (3.0s)
+✔ [2873/2972] Built EG.Proof.HB.TowerBLate (3.5s)
+✔ [2874/2972] Built EG.Proof.Todo.TowerBRest (5.1s)
+✔ [2875/2972] Built EG.Proof.HB.TowerBM (2.0s)
+✔ [2876/2972] Built EG.Proof.HB.TowerA (3.1s)
+✔ [2877/2972] Built EG.Proof.Todo.CCPartner (31s)
+✔ [2878/2972] Built EG.Proof.Quot.Cuckoo (2.6s)
+✔ [2879/2972] Built EG.Lib.Quot.MultUniv (2.7s)
+⚠ [2880/2972] Built EG.Proof.Quot.Lift (3.2s)
+warning: EG/Proof/Quot/Lift.lean:33:0: automatically included section variable(s) unused in theorem `EG.Quot.layerItems_eq`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2881/2972] Built EG.Proof.Todo.UltraMax (3.1s)
+✔ [2882/2972] Built EG.Lib.Vortex.TPVStep (2.8s)
+✔ [2883/2972] Built EG.Proof.Todo.LacunaryII (2.0s)
+✔ [2884/2972] Built EG.Proof.Chain.JSLCCtx (3.9s)
+✔ [2885/2972] Built EG.Proof.Todo.TowerE (6.0s)
+✔ [2886/2972] Built EG.Proof.Todo.COLJVRow2 (2.8s)
+✔ [2887/2972] Built EG.Proof.Todo.PoolLaw (3.1s)
+✔ [2888/2972] Built EG.Proof.Todo.AdmissibleParent (3.5s)
+✔ [2889/2972] Built EG.Proof.Todo.COLJVRow11 (2.0s)
+✔ [2890/2972] Built EG.Proof.Todo.Vstar (4.8s)
+✔ [2891/2972] Built EG.Proof.Todo.COLJVRow12 (2.6s)
+✔ [2892/2972] Built EG.Proof.Light.ParentRun (2.7s)
+✔ [2893/2972] Built EG.Proof.Chain.ConcTower (21s)
+✔ [2894/2972] Built EG.Proof.Todo.TowerD (2.7s)
+✔ [2895/2972] Built EG.Proof.Lend.COLJVCount (24s)
+⚠ [2896/2972] Built EG.Proof.Todo.CCMax (3.0s)
+warning: EG/Proof/Todo/CCMax.lean:33:69: Variable name `hI` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hI
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EG/Proof/Todo/CCMax.lean:34:5: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2897/2972] Built EG.Lib.Quot.LiftUniv (2.9s)
+⚠ [2898/2972] Built EG.Proof.Todo.UltraCopies (4.1s)
+warning: EG/Proof/Todo/UltraCopies.lean:70:15: This simp argument is unused:
+  hF
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coe_filter, Set.mem_ofPred_eq] at hq hq'
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [2899/2972] Built EG.Lib.Vortex.TPVStepMain (5.3s)
+✔ [2900/2972] Built EG.Proof.Todo.Lacunary (2.4s)
+✔ [2901/2972] Built EG.Lib.Vortex.PVRunStep (7.0s)
+⚠ [2902/2972] Built EG.Proof.Chain.JSLCGroups (3.5s)
+warning: EG/Proof/Chain/JSLCGroups.lean:206:5: Variable name `hg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2903/2972] Built EG.Proof.Chain.ConcSums (8.8s)
+✔ [2904/2972] Built EG.Proof.Todo.UHsplitDet (10s)
+✔ [2905/2972] Built EG.Proof.Todo.Tower (2.6s)
+✔ [2906/2972] Built EG.Proof.Light.Setting (4.9s)
+✔ [2907/2972] Built EG.Proof.Light.Stages (13s)
+✔ [2908/2972] Built EG.Proof.Lend.COLJVRows (13s)
+✔ [2909/2972] Built EG.Proof.Todo.COLJVRow9 (2.0s)
+✔ [2910/2972] Built EG.Proof.Todo.CandCount (7.4s)
+✔ [2911/2972] Built EG.Proof.Todo.CCCopies (4.2s)
+✔ [2912/2972] Built EG.Proof.Todo.UltraSum (5.0s)
+✔ [2913/2972] Built EG.Lib.Vortex.VXStep (4.2s)
+✔ [2914/2972] Built EG.Lib.Vortex.TPVRun (2.9s)
+✔ [2915/2972] Built EG.Lib.Vortex.PVRunMain (3.7s)
+✔ [2916/2972] Built EG.Lib.Vortex.PVProbEvents (7.0s)
+✔ [2917/2972] Built EG.Proof.Chain.JSLCSystems (3.2s)
+✔ [2918/2972] Built EG.Proof.Todo.MixCConc (2.7s)
+✔ [2919/2972] Built EG.Proof.Todo.EqZp (4.2s)
+✔ [2920/2972] Built EG.Proof.Todo.COLJVRow5 (4.5s)
+✔ [2921/2972] Built EG.Proof.Todo.COLJVRow3 (7.9s)
+✔ [2922/2972] Built EG.Lib.Quot.OfPastValid (3.4s)
+✔ [2923/2972] Built EG.Proof.Todo.COLJVRow6 (7.5s)
+✔ [2924/2972] Built EG.Lib.Quot.Copies (9.6s)
+✔ [2925/2972] Built EG.Lib.Vortex.VXStepMain (8.5s)
+✔ [2926/2972] Built EG.Lib.Vortex.TPVProbG2 (7.0s)
+✔ [2927/2972] Built EG.Lib.Vortex.PVProb (9.2s)
+✔ [2928/2972] Built EG.Proof.Chain.JSLCAssembly (4.2s)
+✔ [2929/2972] Built EG.Proof.Stage1.COLa (2.5s)
+✔ [2930/2972] Built EG.Proof.Light.Zones (5.0s)
+✔ [2931/2972] Built EG.Lib.Quot.PayRun (3.1s)
+✔ [2932/2972] Built EG.Proof.Todo.COLJV (2.5s)
+✔ [2933/2972] Built EG.Proof.Todo.UHsplitRound (2.9s)
+✔ [2934/2972] Built EG.Lib.Vortex.VXRun (4.8s)
+✔ [2935/2972] Built EG.Lib.Vortex.TPVProbG4 (6.2s)
+✔ [2936/2972] Built EG.Proof.Vortex.PV (2.6s)
+✔ [2937/2972] Built EG.Proof.Chain.JSLCBound (4.8s)
+⚠ [2938/2972] Built EG.Proof.Stage1.COLc (6.0s)
+warning: EG/Proof/Stage1/COLc.lean:218:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: EG/Proof/Stage1/COLc.lean:237:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+✔ [2939/2972] Built EG.Lib.Quot.CostRound (3.5s)
+✔ [2940/2972] Built EG.Proof.Todo.UHsplitSum (2.9s)
+✔ [2941/2972] Built EG.Proof.Todo.Pay (11s)
+✔ [2942/2972] Built EG.Proof.Chain.JSLC (5.7s)
+✔ [2943/2972] Built EG.Proof.Light.Child (3.3s)
+⚠ [2944/2972] Built EG.Proof.Todo.COL (3.3s)
+warning: EG/Proof/Todo/COL.lean:59:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: EG/Proof/Todo/COL.lean:76:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+✔ [2945/2972] Built EG.Proof.Light.ParentSum (11s)
+✔ [2946/2972] Built EG.Proof.Light.ParentBadProb (2.6s)
+✔ [2947/2972] Built EG.Proof.Todo.OneOutcomeRound (2.6s)
+✔ [2948/2972] Built EG.Proof.Todo.PayGlobal (3.5s)
+✔ [2949/2972] Built EG.Proof.Todo.COLLemma (2.5s)
+✔ [2950/2972] Built EG.Proof.Todo.MixCTPVApplicable (3.3s)
+⚠ [2951/2972] Built EG.Proof.Light.Parent (9.8s)
+warning: EG/Proof/Light/Parent.lean:45:0: automatically included section variable(s) unused in theorem `EG.ParentAux.head?_eq_headD`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EG/Proof/Light/Parent.lean:48:0: automatically included section variable(s) unused in theorem `EG.ParentAux.getLast?_eq_getLastD`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2952/2972] Built EG.Proof.Todo.LemE1 (6.5s)
+✔ [2953/2972] Built EG.Lib.Vortex.TPVProb (59s)
+✔ [2954/2972] Built EG.Proof.Todo.LemParent (2.4s)
+✔ [2955/2972] Built EG.Proof.Todo.TPV (2.5s)
+✔ [2956/2972] Built EG.Proof.Todo.LemExpect (5.3s)
+✔ [2957/2972] Built EG.Lib.Vortex.VXProbEvents (5.4s)
+✔ [2958/2972] Built EG.Proof.Todo.Lost (5.3s)
+✔ [2959/3011] Built EG.Proof.Todo.EXprime (25s)
+✔ [2960/3011] Built EG.Proof.Todo.UHsplitTheta (3.6s)
+✔ [2961/3011] Built EGTest.Cap (27s)
+✔ [2962/3011] Built EGTest.Chain (5.3s)
+✔ [2963/3011] Built EGTest.Chernoff (4.8s)
+✔ [2964/3011] Built EGTest.Defs2 (7.6s)
+✔ [2965/3011] Built EGTest.HB (18s)
+✔ [2966/3011] Built EGTest.Fnum (8.9s)
+✔ [2967/3011] Built EGTest.Found (6.7s)
+✔ [2968/3011] Built EGTest.GammaFull (2.9s)
+✔ [2969/3011] Built EGTest.Gate (3.3s)
+✔ [2970/3011] Built EGTest.Objects (2.0s)
+✔ [2971/3011] Built EGTest.Params (7.0s)
+✔ [2972/3011] Built EGTest.Prob (4.6s)
+✔ [2973/3011] Built EGTest.ProbeGAMMA (4.2s)
+✔ [2974/3011] Built EGTest.ProbeNUM (3.5s)
+✔ [2975/3011] Built EGTest.Quot (6.4s)
+✔ [2976/3011] Built EGTest.ProbeP4A (5.0s)
+✔ [2977/3011] Built EGTest.ProbeP4B (5.2s)
+✔ [2978/3011] Built EGTest.Spec_s1 (5.1s)
+✔ [2979/3011] Built EG.Lib.Vortex.VXProb (162s)
+✔ [2980/3011] Built EGTest.Spec_s3a (3.0s)
+✔ [2981/3011] Built EGTest.Spec_s3b (3.8s)
+✔ [2982/3011] Built EGTest.Spec_s4 (5.2s)
+✔ [2983/3011] Built EGTest.Spec_s5 (3.9s)
+✔ [2984/3011] Built EGTest.Spec_s6b (3.0s)
+✔ [2985/3011] Built EGTest.Spec_s7b (4.8s)
+✔ [2986/3011] Built EGTest.ProbeP2E (4.5s)
+✔ [2987/3011] Built EGTest.ProbeP2J (4.6s)
+✔ [2988/3011] Built EGTest.Stage1 (3.9s)
+✔ [2989/3011] Built EGTest.Spec_s2b (3.1s)
+✔ [2990/3011] Built EGTest.ProbeP3B (4.1s)
+✔ [2991/3011] Built EGTest.ProbeP3A (5.3s)
+✔ [2992/3011] Built EGTest.Light (4.9s)
+✔ [2993/3011] Built EGTest.Spec_s2a (5.1s)
+✔ [2994/3011] Built EGTest.Design (9.5s)
+✔ [2995/3011] Built EGTest.Spec_s6a (3.5s)
+✔ [2996/3011] Built EGTest.ProbeP1 (3.4s)
+✔ [2997/3012] Built EGTest.Spec_s7a (4.0s)
+✔ [2998/3012] Built EG.Proof.Todo.VX (3.2s)
+✔ [3000/3015] Built EGTest.StageInst (3.4s)
+✔ [3001/3015] Built EG.Proof.Todo.LemDemoted (3.7s)
+✔ [3002/3015] Built EGTest (3.1s)
+✔ [3004/3015] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Decomposition (1.5s)
+✔ [3005/3015] Built EGCheck.BridgeLemmas (1.0s)
+✔ [3006/3049] Built EGCheck.BridgeCore (2.0s)
+✔ [3800/3869] Built EG.Proof.Todo.LemKRED (6.6s)
+✔ [5155/5216] Built EG.Proof.Todo.MixC (2.8s)
+✔ [8831/8869] Built EG.Proof.Todo.Cost (10s)
+✔ [9324/9333] Built EG.Proof.Todo.JVps (3.1s)
+✔ [9327/9335] Built EG.Proof.Main (3.1s)
+✔ [9331/9349] Built EG.Proof.Todo.CorJVpsEG (3.1s)
+✔ [9349/9354] Built FormalConjecturesForMathlib.Algebra.GCDMonoid.Finset (1.4s)
+✔ [9350/9354] Built EG (2.4s)
+✔ [9352/9357] Built FormalConjecturesForMathlib.Algebra.GradedMonoid (1.3s)
+✔ [9353/9358] Built FormalConjecturesForMathlib.Algebra.Group.Action.Pointwise.Set.Basic (1.2s)
+✔ [9354/9359] Built FormalConjecturesForMathlib.Order.Filter.atTopBot.Finset (1.4s)
+✔ [9355/9359] Built FormalConjecturesForMathlib.Algebra.Group.Indicator (1.2s)
+✔ [9356/9360] Built FormalConjecturesForMathlib.Algebra.Homology.DerivedCategory.Ext.GradedAlgebra (7.5s)
+✔ [9357/9361] Built FormalConjecturesForMathlib.Algebra.Group.GrowthFunction (7.9s)
+✔ [9358/9362] Built FormalConjecturesForMathlib.Algebra.MvPolynomial.PoissonBracket (2.3s)
+✔ [9359/9363] Built FormalConjecturesForMathlib.Algebra.MvPolynomial.RegularFunction (2.1s)
+✔ [9360/9364] Built FormalConjecturesForMathlib.Algebra.Polynomial.Algebra (2.6s)
+✔ [9361/9365] Built FormalConjecturesForMathlib.Algebra.Order.Group.Pointwise.Interval (3.8s)
+✔ [9362/9366] Built FormalConjecturesForMathlib.Algebra.Polynomial.Basic (1.8s)
+✔ [9363/9367] Built FormalConjecturesForMathlib.Algebra.Polynomial.HasseDeriv (1.9s)
+✔ [9364/9368] Built FormalConjecturesForMathlib.Algebra.Powerfree (1.9s)
+✔ [9365/9369] Built FormalConjecturesForMathlib.Algebra.QuadraticAlgebra.Instances (3.2s)
+✔ [9366/9370] Built FormalConjecturesForMathlib.AlgebraicGeometry.EllipticCurve.GlobalPeriod (3.7s)
+✔ [9367/9371] Built FormalConjecturesForMathlib.AlgebraicGeometry.EllipticCurve.MinimalDiscriminant (3.6s)
+✔ [9368/9372] Built FormalConjecturesForMathlib.AlgebraicGeometry.EllipticCurve.Regulator (2.9s)
+✔ [9369/9373] Built FormalConjecturesForMathlib.AlgebraicGeometry.ProjectiveSpace (4.1s)
+✔ [9370/9374] Built FormalConjecturesForMathlib.AlgebraicGeometry.VectorBundle (3.3s)
+✔ [9371/9374] Built FormalConjecturesForMathlib.Analysis.Asymptotics.Basic (2.3s)
+✔ [9372/9377] Built FormalConjecturesForMathlib.Analysis.Equidistribution.ModOne (1.9s)
+✔ [9373/9378] Built FormalConjecturesForMathlib.Topology.Algebra.InfiniteSum.Group (2.1s)
+✔ [9374/9379] Built FormalConjecturesForMathlib.Analysis.Fourier.SpectralSets (3.7s)
+✔ [9375/9380] Built FormalConjecturesForMathlib.Topology.Algebra.InfiniteSum.Order (2.1s)
+✔ [9376/9380] Built FormalConjecturesForMathlib.Analysis.Real.Cardinality (2.2s)
+✔ [9377/9381] Built FormalConjecturesForMathlib.Analysis.Matrix.Spectrum (2.9s)
+✔ [9378/9382] Built FormalConjecturesForMathlib.Analysis.SpecialFunctions.AdditiveCharacter (2.4s)
+✔ [9379/9383] Built FormalConjecturesForMathlib.Analysis.HasGaps (3.3s)
+✔ [9380/9383] Built FormalConjecturesForMathlib.Analysis.SpecialFunctions.NthRoot (2.8s)
+✔ [9381/9385] Built FormalConjecturesForMathlib.Analysis.SpecialFunctions.Log.Basic (3.6s)
+✔ [9382/9387] Built FormalConjecturesForMathlib.Order.Filter.Cofinite (1.6s)
+✔ [9383/9387] Built FormalConjecturesForMathlib.Combinatorics.AP.Basic (2.4s)
+✔ [9384/9388] Built FormalConjecturesForMathlib.Combinatorics.Additive.Convolution (2.3s)
+✔ [9385/9389] Built FormalConjecturesForMathlib.Combinatorics.Additive.Basis (3.0s)
+✔ [9386/9389] Built FormalConjecturesForMathlib.Combinatorics.Additive.DifferenceBasis (1.7s)
+✔ [9387/9392] Built FormalConjecturesForMathlib.Combinatorics.Additive.RestrictedSumset (1.5s)
+✔ [9388/9393] Built FormalConjecturesForMathlib.Combinatorics.SetFamily.VCDim (1.8s)
+✔ [9389/9394] Built FormalConjecturesForMathlib.Combinatorics.Basic (8.6s)
+✔ [9390/9394] Built FormalConjecturesForMathlib.Combinatorics.Additive.Coset (19s)
+✔ [9391/9395] Built FormalConjecturesForMathlib.Combinatorics.Additive.VCDim (4.1s)
+✔ [9392/9396] Built FormalConjecturesForMathlib.Combinatorics.Digraph.Tournament (1.7s)
+✔ [9393/9397] Built FormalConjecturesForMathlib.Combinatorics.Hypergraph.ThreeUniform (1.6s)
+✔ [9394/9399] Built FormalConjecturesForMathlib.Combinatorics.LatinSquare (1.6s)
+✔ [9395/9400] Built FormalConjecturesForMathlib.Combinatorics.Ramsey (1.5s)
+✔ [9396/9401] Built FormalConjecturesForMathlib.Combinatorics.LimitObjects.Graphon (3.0s)
+✔ [9397/9401] Built FormalConjecturesForMathlib.Combinatorics.SetFamily.PropertyB (1.3s)
+✔ [9398/9401] Built FormalConjecturesForMathlib.Combinatorics.Ramsey.Diagonal (2.1s)
+✔ [9399/9404] Built FormalConjecturesForMathlib.Combinatorics.SetFamily.Sunflower (1.5s)
+✔ [9400/9404] Built FormalConjecturesForMathlib.Combinatorics.LimitObjects.Tournamenton (3.0s)
+✔ [9401/9406] Built FormalConjecturesForMathlib.Data.Set.Triplewise (1.8s)
+✔ [9402/9407] Built FormalConjecturesForMathlib.Combinatorics.SetTheory.PartitionRelation (1.5s)
+✔ [9403/9408] Built FormalConjecturesForMathlib.Combinatorics.SetFamily.UnionFree (1.5s)
+✔ [9404/9409] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Balanced (1.8s)
+✔ [9405/9410] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Degrees (2.0s)
+✔ [9406/9410] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Circumference (1.4s)
+✔ [9407/9411] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Clique (1.0s)
+✔ [9408/9412] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.AnnihilationNumber (1.8s)
+✔ [9409/9413] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.CompleteGraphEdgeCount (1.5s)
+✔ [9410/9414] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Coloring.Vertex (3.3s)
+✔ [9411/9415] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Connectivity (1.9s)
+✔ [9412/9416] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Cvetkovic (1.9s)
+✔ [9413/9417] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Cycle (1.6s)
+✔ [9414/9418] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.CycleRank (1.5s)
+✔ [9415/9418] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Degeneracy (1.4s)
+✔ [9416/9421] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.DiamExtra (1.4s)
+✔ [9417/9422] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Domination (1.8s)
+✔ [9418/9423] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.EdgeColouring (1.7s)
+✔ [9419/9424] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.VertexDistance (3.0s)
+✔ [9420/9424] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.FractionalAlpha (1.5s)
+✔ [9421/9425] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.HarmonicIndex (1.4s)
+✔ [9422/9426] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Eccentricity (2.2s)
+✔ [9423/9427] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.HomDensity (2.2s)
+✔ [9424/9427] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Hypercube (1.4s)
+✔ [9425/9429] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Independence (1.6s)
+✔ [9426/9432] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Induced (1.8s)
+✔ [9427/9433] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.LargestInducedTree (2.4s)
+✔ [9428/9434] Built FormalConjecturesForMathlib.Data.Finset.Card (1.4s)
+✔ [9429/9434] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.InducedTreeNeighborhood (2.8s)
+✔ [9430/9435] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.LovaszTheta (3.9s)
+✔ [9431/9435] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Matching (2.2s)
+✔ [9432/9436] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Johnson (1.8s)
+✔ [9433/9437] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.PathCover (1.5s)
+✔ [9434/9438] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Prod (1.5s)
+✔ [9435/9439] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.QuasiLineGraph (1.6s)
+✔ [9436/9440] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Ramsey (1.7s)
+✔ [9437/9441] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Residue (1.6s)
+✔ [9438/9442] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Saturation (1.9s)
+✔ [9439/9443] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.SizeRamsey (1.5s)
+✔ [9440/9444] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.SpanningTree (1.7s)
+✔ [9441/9444] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.SubgraphIsomorphism (1.6s)
+✔ [9442/9447] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.Temperature (1.4s)
+✔ [9443/9448] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.SzegedIndex (2.3s)
+✔ [9444/9449] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.WellTotallyDominated (1.6s)
+✔ [9445/9450] Built FormalConjecturesForMathlib.Geometry.Euclidean (2.6s)
+✔ [9446/9450] Built FormalConjecturesForMathlib.Combinatorics.YoungDiagram (1.4s)
+✔ [9447/9451] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.WienerIndex (2.5s)
+✔ [9448/9452] Built FormalConjecturesForMathlib.Computability.BitstringEncoding (2.1s)
+✔ [9449/9453] Built FormalConjecturesForMathlib.Combinatorics.SimpleGraph.UnitDistancePlaneGraph (2.7s)
+✔ [9450/9453] Built FormalConjecturesForMathlib.Computability.DFA (1.5s)
+✔ [9451/9456] Built FormalConjecturesForMathlib.Computability.Complexity (1.8s)
+✔ [9452/9458] Built FormalConjecturesForMathlib.Computability.Primrec (1.5s)
+✔ [9453/9459] Built FormalConjecturesForMathlib.Computability.TuringMachine.PostTuringMachine (1.7s)
+✔ [9454/9460] Built FormalConjecturesForMathlib.Data.Bool.Basic (861ms)
+✔ [9455/9460] Built FormalConjecturesForMathlib.Data.Finset.Powerset (1.6s)
+✔ [9456/9461] Built FormalConjecturesForMathlib.Computability.TuringMachine.BusyBeavers (2.2s)
+✔ [9457/9461] Built FormalConjecturesForMathlib.Data.Finset.ReciprocalSum (1.5s)
+✔ [9458/9462] Built FormalConjecturesForMathlib.Data.Int.IntermediateValue (1.1s)
+✔ [9459/9463] Built FormalConjecturesForMathlib.Data.Int.Order.Basic (1.1s)
+✔ [9460/9464] Built FormalConjecturesForMathlib.Data.Nat.Factorization.Basic (2.3s)
+✔ [9461/9465] Built FormalConjecturesForMathlib.Computability.TuringMachine.Notation (4.4s)
+✔ [9462/9466] Built FormalConjecturesForMathlib.Data.Nat.Init (1.1s)
+✔ [9463/9467] Built FormalConjecturesForMathlib.Data.Nat.Full (2.2s)
+✔ [9464/9468] Built FormalConjecturesForMathlib.Data.Nat.MaxPrimeFac (1.7s)
+✔ [9465/9469] Built FormalConjecturesForMathlib.Data.Nat.Prime.Composite (1.2s)
+✔ [9466/9470] Built FormalConjecturesForMathlib.Data.Nat.Prime.Defs (1.3s)
+✔ [9467/9471] Built FormalConjecturesForMathlib.Data.Nat.PerfectPower (3.6s)
+✔ [9468/9472] Built FormalConjecturesForMathlib.Data.Nat.Prime.Finset (1.4s)
+✔ [9469/9473] Built FormalConjecturesForMathlib.Data.Nat.Prime.Infinite (1.4s)
+✔ [9470/9473] Built FormalConjecturesForMathlib.Data.Real.Constants (2.5s)
+✔ [9471/9475] Built FormalConjecturesForMathlib.Data.Nat.Squarefree (3.2s)
+✔ [9472/9477] Built FormalConjecturesForMathlib.Data.Real.NearestInt (1.6s)
+✔ [9473/9478] Built FormalConjecturesForMathlib.Data.Set.Interval (1.4s)
+✔ [9474/9479] Built FormalConjecturesForMathlib.Order.Interval.Finset.Basic (1.6s)
+✔ [9475/9480] Built FormalConjecturesForMathlib.Order.Interval.Finset.Nat (1.7s)
+✔ [9476/9480] Built FormalConjecturesForMathlib.Data.Sym.Sym2 (1.4s)
+✔ [9477/9481] Built FormalConjecturesForMathlib.Data.ZMod.Fp (1.6s)
+✔ [9478/9482] Built FormalConjecturesForMathlib.Data.ZMod.PerfectDifferenceSet (1.6s)
+✔ [9479/9483] Built FormalConjecturesForMathlib.Data.Set.Density (4.6s)
+✔ [9480/9484] Built FormalConjecturesForMathlib.Dynamics.SymbolicDynamics.BlockComplexity (2.8s)
+✔ [9481/9485] Built FormalConjecturesForMathlib.FieldTheory.MvRatFunc.Defs (1.0s)
+✔ [9482/9485] Built FormalConjecturesForMathlib.FieldTheory.MilnorKTheory (3.2s)
+✔ [9483/9488] Built FormalConjecturesForMathlib.Geometry.Metric (1.9s)
+✔ [9484/9489] Built FormalConjecturesForMathlib.Geometry.Manifold.LieGroupPresentation (3.0s)
+✔ [9485/9490] Built FormalConjecturesForMathlib.Logic.Equiv.Fin.Rotate (1.4s)
+✔ [9486/9491] Built FormalConjecturesForMathlib.Geometry.«3d» (2.8s)
+✔ [9487/9491] Built FormalConjecturesForMathlib.GroupTheory.Torsion (1.8s)
+✔ [9488/9492] Built FormalConjecturesForMathlib.Lean.Elab.InfoTree.Util (644ms)
+✔ [9489/9493] Built FormalConjecturesForMathlib.LinearAlgebra.AffineSpace.Simplex.Basic (1.8s)
+✔ [9490/9493] Built FormalConjecturesForMathlib.LinearAlgebra.GeneralLinearGroup (2.5s)
+✔ [9491/9496] Built FormalConjecturesForMathlib.Geometry.«2d» (5.7s)
+✔ [9492/9498] Built FormalConjecturesForMathlib.LinearAlgebra.SpecialLinearGroup (2.0s)
+✔ [9493/9499] Built FormalConjecturesForMathlib.ModelTheory.Encoding (1.8s)
+✔ [9494/9499] Built FormalConjecturesForMathlib.NumberTheory.AdditiveComplement (1.2s)
+✔ [9495/9500] Built FormalConjecturesForMathlib.NumberTheory.AdditionChain (1.8s)
+✔ [9496/9500] Built FormalConjecturesForMathlib.ModelTheory.Decidability (1.8s)
+✔ [9497/9501] Built FormalConjecturesForMathlib.ModelTheory.Real (2.5s)
+✔ [9498/9501] Built FormalConjecturesForMathlib.NumberTheory.AlmostPrime (1.6s)
+✔ [9499/9505] Built FormalConjecturesForMathlib.NumberTheory.AdditivelyComplete (2.4s)
+✔ [9500/9506] Built FormalConjecturesForMathlib.NumberTheory.Amicable (1.7s)
+✔ [9501/9507] Built FormalConjecturesForMathlib.NumberTheory.AutomorphicForm.BorelJacquet.Subgroups (6.7s)
+✔ [9502/9508] Built FormalConjecturesForMathlib.NumberTheory.AutomorphicForm.BorelJacquet.LieDeriv (8.5s)
+✔ [9503/9508] Built FormalConjecturesForMathlib.NumberTheory.BeurlingPrimes (1.6s)
+✔ [9504/9509] Built FormalConjecturesForMathlib.NumberTheory.Carmichael (5.3s)
+✔ [9505/9510] Built FormalConjecturesForMathlib.NumberTheory.CoveringSystem (1.5s)
+✔ [9506/9511] Built FormalConjecturesForMathlib.NumberTheory.DiophantineApproximation.ZNumber (1.5s)
+✔ [9507/9511] Built FormalConjecturesForMathlib.NumberTheory.DirichletCharacter.Basic (1.6s)
+✔ [9508/9514] Built FormalConjecturesForMathlib.NumberTheory.Divisors (1.6s)
+✔ [9509/9515] Built FormalConjecturesForMathlib.NumberTheory.NormalNumber (1.8s)
+✔ [9510/9515] Built FormalConjecturesForMathlib.NumberTheory.Harmonic (1.7s)
+✔ [9511/9516] Built FormalConjecturesForMathlib.NumberTheory.ExpansionEntropy (2.3s)
+✔ [9512/9517] Built FormalConjecturesForMathlib.NumberTheory.Lacunary (2.2s)
+✔ [9513/9518] Built FormalConjecturesForMathlib.NumberTheory.AutomorphicForm.BorelJacquet.CenterAction (19s)
+✔ [9514/9518] Built FormalConjecturesForMathlib.NumberTheory.LegendreSymbol.Basic (2.1s)
+✔ [9515/9519] Built FormalConjecturesForMathlib.NumberTheory.NumberField.FundamentalDiscriminant (1.8s)
+✔ [9516/9520] Built FormalConjecturesForMathlib.NumberTheory.NumberField.Quadratic (2.3s)
+✔ [9517/9521] Built FormalConjecturesForMathlib.NumberTheory.AutomorphicForm.BorelJacquet (6.7s)
+✔ [9518/9522] Built FormalConjecturesForMathlib.NumberTheory.PisotNumber (3.1s)
+✔ [9519/9524] Built FormalConjecturesForMathlib.NumberTheory.PracticalNumbers (1.5s)
+✔ [9520/9524] Built FormalConjecturesForMathlib.NumberTheory.PrimeGap (1.4s)
+✔ [9521/9525] Built FormalConjecturesForMathlib.NumberTheory.SierpinskiNumber (1.1s)
+✔ [9522/9526] Built FormalConjecturesForMathlib.NumberTheory.Primitive (1.7s)
+✔ [9523/9527] Built FormalConjecturesForMathlib.NumberTheory.SmoothScale (2.2s)
+✔ [9524/9528] Built FormalConjecturesForMathlib.NumberTheory.WallSunSunPrimes (3.1s)
+✔ [9525/9529] Built FormalConjecturesForMathlib.NumberTheory.WieferichPrime (1.5s)
+✔ [9526/9530] Built FormalConjecturesForMathlib.Order.Bounds.Basic (1.2s)
+✔ [9527/9530] Built FormalConjecturesForMathlib.Order.Nat (1.1s)
+✔ [9528/9532] Built FormalConjecturesForMathlib.Order.Unimodular (1.3s)
+✔ [9529/9535] Built FormalConjecturesForMathlib.Probability.FiniteMethod (1.5s)
+✔ [9530/9536] Built FormalConjecturesForMathlib.RingTheory.Ideal.Defs (1.2s)
+✔ [9531/9537] Built FormalConjecturesForMathlib.RingTheory.Bialgebra.TrivialModule (2.3s)
+✔ [9532/9537] Built FormalConjecturesForMathlib.RingTheory.Ideal.Basic (1.5s)
+✔ [9533/9538] Built FormalConjecturesForMathlib.RingTheory.IntersectionMultiplicity (2.4s)
+✔ [9534/9538] Built FormalConjecturesForMathlib.RingTheory.Bialgebra.Cohomology (3.8s)
+✔ [9535/9539] Built FormalConjecturesForMathlib.RingTheory.MvPolynomial.LexPlusPowers (2.1s)
+✔ [9536/9540] Built FormalConjecturesForMathlib.RingTheory.Ideal.Maximal (2.0s)
+✔ [9537/9541] Built FormalConjecturesForMathlib.RingTheory.Noetherian.Defs (1.0s)
+✔ [9538/9542] Built FormalConjecturesForMathlib.SetTheory.Cardinal.Arithmetic (1.7s)
+✔ [9539/9543] Built FormalConjecturesForMathlib.RingTheory.Valuation.LocalUniformization (3.0s)
+✔ [9540/9544] Built FormalConjecturesForMathlib.SetTheory.Cardinal.Continuum (1.6s)
+✔ [9541/9545] Built FormalConjecturesForMathlib.Tactic.Linter.Term (797ms)
+✔ [9542/9546] Built FormalConjecturesForMathlib.SetTheory.Cardinal.SimpleGraph (1.5s)
+✔ [9543/9547] Built FormalConjecturesForMathlib.Topology.AbsoluteNeighborhoodRetract (1.5s)
+✔ [9544/9548] Built FormalConjecturesForMathlib.Topology.Algebra.InfiniteSum.Real (1.9s)
+✔ [9545/9549] Built FormalConjecturesForMathlib.Topology.Discrete (1.5s)
+✔ [9546/9551] Built FormalConjecturesForMathlib.Topology.GDelta (1.6s)
+✔ [9547/9551] Built FormalConjecturesForMathlib.Topology.Homogeneous (1.3s)
+✔ [9548/9553] Built FormalConjecturesForMathlib.Topology.LebesgueCoveringDimension (1.4s)
+✔ [9549/9556] Built FormalConjecturesForMathlib.Topology.MetricSpace.MetricSeparated (1.6s)
+✔ [9550/9556] Built FormalConjecturesUtil.Answer.Syntax (447ms)
+✔ [9551/9557] Built FormalConjecturesUtil.Answer (1.1s)
+✔ [9552/9558] Built FormalConjecturesUtil.Attributes.AMS (4.5s)
+✔ [9553/9562] Built FormalConjecturesForMathlib (6.5s)
+✔ [9554/9563] Built FormalConjecturesUtil.Linters.CopyrightLinter (857ms)
+✔ [9555/9565] Built FormalConjecturesUtil.Linters.ExistsImplicationLinter (841ms)
+✔ [9556/9566] Built FormalConjecturesUtil.Linters.ImportLinter (894ms)
+✔ [9557/9573] Built FormalConjecturesUtil.Attributes.Basic (4.7s)
+✔ [9558/9573] Built FormalConjecturesUtil.Linters.LatexDocstringLinter (1.2s)
+✔ [9559/9573] Built FormalConjecturesUtil.Linters.ModuleDocstringLinter (1.1s)
+✔ [9560/9573] Built FormalConjecturesUtil.Linters.FormalProofLinter (1.9s)
+✔ [9561/9573] Built FormalConjecturesUtil.Linters.CategoryLinter (2.0s)
+✔ [9562/9573] Built FormalConjecturesUtil.Linters.CategoryDocstringLinter (1.6s)
+✔ [9563/9573] Built FormalConjecturesUtil.Linters.CategoryAnswerLinter (1.6s)
+✔ [9564/9573] Built FormalConjecturesUtil.Linters.AnswerLinter (1.8s)
+✔ [9566/9574] Built FormalConjecturesUtil.Linters.NamespaceLinter (784ms)
+✔ [9567/9574] Built FormalConjecturesUtil.Linters.AMSLinter (2.3s)
+✔ [9568/9574] Built FormalConjecturesUtil.Linters.StubLinter (932ms)
+✔ [9569/9574] Built FormalConjecturesUtil (6.1s)
+✔ [9570/9574] Built FormalConjectures.ErdosProblems.«184» (6.0s)
+✔ [9571/9574] Built EGCheck.Bridge (35s)
+✔ [9572/9574] Built EGCheck (7.7s)
+✔ [9574/9574] Built EGCheck.Final (8.5s)
+Build completed successfully (9574 jobs).

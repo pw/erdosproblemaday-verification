@@ -1,0 +1,3 @@
+'HeilbronnFive.bilinear_interpolation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.bilinear_determinant_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1505672 wall=5s

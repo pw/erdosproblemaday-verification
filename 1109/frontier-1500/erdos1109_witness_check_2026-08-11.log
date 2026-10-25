@@ -1,0 +1,32 @@
+Python 3.12.3
+COMMAND: python3 check_1109_witnesses.py
+N=1255 size=40 checked_sums=820 all_squarefree=YES
+N=1277 size=41 checked_sums=861 all_squarefree=YES
+N=1293 size=42 checked_sums=903 all_squarefree=YES
+N=1335 size=43 checked_sums=946 all_squarefree=YES
+N=1407 size=44 checked_sums=990 all_squarefree=YES
+witness_sha256=e0dbdd09d85666c5cc57534b7905e8f4d3ad2e9fbb7e0925b7fde9367c363911
+CONCLUSION all five new lower certificates pass direct trial division
+	Command being timed: "python3 check_1109_witnesses.py"
+	User time (seconds): 0.04
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1385
+	Voluntary context switches: 1
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

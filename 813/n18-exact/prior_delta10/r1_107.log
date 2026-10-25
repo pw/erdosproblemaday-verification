@@ -1,0 +1,20 @@
+# seed=107 P=10 hard=0 gls=1 init=random tmin=7 tspan=17 stag=4000 kick=10 start tf=557 k5=17
+FEAS tf=49 iter=24 t=0.0 1756e 19745 2b65b 159d5 278ec 2bf51 203bf 37758 3a2eb 0e9e6 3e0a7 3d238 1a8bf 257b5 1ae99 35f26 2dd8b 1adf4
+FEAS tf=47 iter=25 t=0.0 1756e 19755 2b65b 159d5 278ee 2bf51 203bf 37758 3a2eb 0e9e6 3e0a7 3d238 1a8bf 257b5 1ae99 35f26 2dd8b 1adf4
+FEAS tf=45 iter=27 t=0.0 1756e 19755 2b65b 15ad5 278ee 2bf51 203bf 37758 3a2e3 0e9ee 3e0a7 3d238 1a8bf 257b5 1ae99 35f26 2dd8b 1adf4
+FEAS tf=44 iter=29 t=0.0 1756e 19755 2b65b 15ad5 278ce 2bf41 20bbf 37758 3a2e3 0e9ee 3e0a7 3d278 1a8bf 257b5 1ae99 35f26 2dd8b 1adf4
+FEAS tf=42 iter=30 t=0.0 1756e 19755 2b65b 15ad5 278ce 2bf41 20bbf 37758 3a2e3 0e9ee 3e0a7 3f278 1a8bf 25fb5 1ae99 35f26 2dd8b 1adf4
+FEAS tf=37 iter=32 t=0.0 1756e 19755 2b65b 15af5 278ce 2bf49 203bf 37758 3a2e3 0e9ee 3e0a7 3f238 1a8bf 25fb5 1ae99 35f26 2dd8b 1adf4
+FEAS tf=35 iter=34 t=0.0 1756e 19755 2b65b 15af5 278ce 2bf49 203bf 37758 3e2e3 0c9ee 3e0a7 3f238 1a8bf 25db5 1af99 35f26 2dd8b 1adf4
+FEAS tf=32 iter=44 t=0.0 1772e 19755 27653 15ef1 2f8ce 2bf49 207be 36758 3e2e3 0c9ef 3a0ef 3f238 1a83f 25db5 1ab9d 35f32 2dd8b 1adf4
+FEAS tf=30 iter=46 t=0.0 17726 1975d 27653 15ef2 2f8ce 2bf49 207be 36758 3e2e3 0c9ef 3a0ef 3f238 1a83f 25db5 1ab9d 35f32 2dd8b 1adf4
+FEAS tf=28 iter=138 t=0.1 17f70 0bb5c 3655a 35e96 2b0ef 2ced1 3c937 2f738 0f6c7 371ab 279ad 3b46b 18f9b 38f97 187ed 179f2 2fa4d 12efc
+FEAS tf=27 iter=149 t=0.1 16f62 09b5d 3755a 3d696 2e0ee 2ded1 3c937 2f738 0f6c7 371ab 279ad 3b463 18fae 38f95 107fd 139fa 2fa4d 12efc
+FEAS tf=23 iter=151 t=0.1 16f62 09f5d 3655a 3d696 2e0ee 2ded1 3c937 2f738 0f6c7 371ab 279af 3b463 18faa 38f95 107fd 139fa 2fa4d 12efc
+FEAS tf=21 iter=386 t=0.3 3c752 3dd29 3bcc8 2aeb6 2e3e9 1e95a 1ceb5 0f55c 1b6b3 32d59 05bcf 3666e 3e586 15bbc 23cf3 211ff 23b67 1da1f
+FEAS tf=20 iter=387 t=0.3 3c756 3dd29 3bcc9 2aeb6 2e3e9 1e95a 1ceb5 0f55c 1b6b3 32d59 05bcf 3666e 3e586 15bbc 23cf3 211ff 23b67 1da1f
+FEAS tf=17 iter=391 t=0.3 3c756 3dd29 3b4e9 2aeb6 2e3e9 1e95e 1ceb5 0f55c 1b6b3 32d59 05bcf 3666a 3e586 15bbc 23cf3 211ff 23b67 1da1f
+FEAS tf=15 iter=17649 t=14.2 2577c 3c53c 30fe3 1df83 3ee43 3e8c7 17b35 37e2c 0bc4f 398dd 2699f 0a7fc 2e3c9 2ddf0 134fb 33b3a 0c2fe 0b6b7
+FEAS tf=9 iter=17654 t=14.2 2575c 3c53c 30fe3 1df83 3ee43 3e1c6 17b35 37e2c 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b3a 0c8fe 0b6b7
+END best_feas_tf=9 iters=103936 commits=103936 kicks=25 restarts=5 bumps=16034 t=90.0
+BESTFEAS 2575c 3c53c 30fe3 1df83 3ee43 3e1c6 17b35 37e2c 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b3a 0c8fe 0b6b7

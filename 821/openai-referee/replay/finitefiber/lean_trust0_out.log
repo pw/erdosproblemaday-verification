@@ -1,0 +1,7 @@
+'OAI.TotientFibers.finite_large_fiber_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.TotientFibers.finite_large_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.TotientFibers.fiber_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+real	1m55.506s
+user	0m38.423s
+sys	0m19.794s

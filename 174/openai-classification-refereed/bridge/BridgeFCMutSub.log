@@ -1,0 +1,46 @@
+BridgeFCMutSub.lean:52:55: warning: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+BridgeFCMutSub.lean:53:9: warning: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+BridgeFCMutSub.lean:68:12: error: typeclass instance problem is stuck
+  Nonempty ?m.59
+
+Note: Lean will not try to resolve this typeclass instance problem because the type argument to `Nonempty` is a metavariable. This argument must be fully determined before Lean will try to resolve the typeclass.
+
+Hint: Adding type annotations and supplying implicit arguments to functions can give Lean more information for typeclass resolution. For example, if you have a variable `x` that you intend to be a `Nat`, but Lean reports it as having an unresolved type like `?m`, replacing `x` with `(x : Nat)` can get typeclass resolution un-stuck.
+BridgeFCMutSub.lean:69:6: error: Type mismatch
+  EuclideanGeometry.cospherical_singleton x
+has type
+  EuclideanGeometry.Cospherical {x}
+but is expected to have type
+  {x}.Subsingleton
+BridgeFCMutSub.lean:91:4: error: Tactic `assumption` failed
+
+case neg
+n : ℕ
+A : Set (EuclideanSpace ℝ (Fin n))
+hA : IsRamsey A
+hfin : A.Finite
+hsub : ¬A.Subsingleton
+x : EuclideanSpace ℝ (Fin n)
+hx : x ∈ A
+y : EuclideanSpace ℝ (Fin n)
+hy : y ∈ A
+hxy : x ≠ y
+this✝ : Finite ↑A
+e : Fin (Nat.card ↑A) ≃ ↑A := (Finite.equivFin ↑A).symm
+a : Fin (Nat.card ↑A) → OAI.EuclideanRamsey.Space n := fun i => ↑(e i)
+ha : Function.Injective a
+hrange : Set.range a = A
+hR : OAI.EuclideanRamsey.Ramsey a
+this : EuclideanGeometry.Cospherical A
+⊢ A.Subsingleton
+BridgeFCMutSub rc=1 (must be nonzero)

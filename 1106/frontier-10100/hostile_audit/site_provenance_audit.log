@@ -1,0 +1,26 @@
+LOCAL SITE ABSENCE AUDIT 2026-08-11 UTC
+repo HEAD: 12e8711057bf0e40f3163ed796745e5a5b048da1
+worktree status:
+ M src/ledger_data.js
+0a00cf6ddf2d2c1f156f1a9c9a8d98a71c8188441d77ffa0e3dd3e0dddbb53b3  /home/exedev/ErdosProblemADay/src/index.js
+9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052  /home/exedev/ErdosProblemADay/src/ledger_data.js
+strict raw-reference patterns: #1106, erdosproblems.com/1106, problemNum:1106, {n:1106, A194259, A194260, A194261
+RESULT: NO MATCHES IN EITHER FILE
+Upstream erdosproblems data snapshot:
+6929b78952e18c11d5cb28fe9438081ee1d49448 2026-08-11T10:37:48+00:00 chore: regenerate derived fields and README [skip ci]
+- number: "1106"
+  prize: "no"
+  informal_status:
+    state: "open"
+    last_update: "2025-11-17"
+  formal_status:
+    state: "unformalized"
+  status:
+    state: "open"
+    last_update: "2025-11-17"
+  formalized:
+    state: "yes"
+    last_update: "2025-12-10"
+  oeis: ["A194259", "A194260"]
+  tags: ["number theory"]
+

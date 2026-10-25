@@ -1,0 +1,2 @@
+[indep] M8 NMAX=41: completions 3, nodes 9364, max vertices ever in a state 21, new-vertex branches refused by the cap 0
+[locally.py] M8 NMAX=41: found [21, 17], nodes 17950, max vertices ever in a state 23, new-vertex branches refused by the cap 0

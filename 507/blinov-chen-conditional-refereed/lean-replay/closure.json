@@ -1,0 +1,225 @@
+{
+ "order": [
+  "NormExpansion",
+  "FrobeniusOrbits",
+  "NormDescent",
+  "NormAlgebra",
+  "NormPolynomials",
+  "BilinearDescent",
+  "NormVandermonde",
+  "BilinearNorm",
+  "FrobeniusNorm",
+  "RankFiveExpansion",
+  "PairedExpansion",
+  "EighteenForms",
+  "EighteenBlocks0",
+  "EighteenBlocks1",
+  "EighteenBlocks2",
+  "EighteenExpansion",
+  "FiveDescent",
+  "FiveNorm",
+  "EighteenNorm",
+  "EighteenPolynomials",
+  "FivePolynomials",
+  "FiveCollision",
+  "FiveProbability",
+  "FiveDigits",
+  "FiveJointTail",
+  "FiveTags",
+  "FiveMoment",
+  "FiveCarry",
+  "FiveCoefficientBounds",
+  "FiveLabels",
+  "FiveTagged",
+  "FiveReindex",
+  "FiveFiniteTheorem",
+  "Sphere",
+  "Tuned",
+  "Slab",
+  "RowDigits",
+  "FiveScales",
+  "MixedSphere",
+  "MixedLayerData",
+  "MixedLayerCounting",
+  "IntervalCounting",
+  "ReservedLayerData",
+  "ReservedLayer",
+  "ReservedPacking",
+  "FiveLayerData",
+  "FiveLayer",
+  "FivePacking"
+ ],
+ "deps": {
+  "NormExpansion": [],
+  "FrobeniusOrbits": [
+   "NormExpansion"
+  ],
+  "NormDescent": [
+   "NormExpansion"
+  ],
+  "NormAlgebra": [
+   "NormDescent"
+  ],
+  "NormPolynomials": [
+   "NormAlgebra"
+  ],
+  "BilinearDescent": [
+   "NormPolynomials"
+  ],
+  "NormVandermonde": [
+   "NormAlgebra"
+  ],
+  "BilinearNorm": [
+   "BilinearDescent",
+   "NormVandermonde"
+  ],
+  "FrobeniusNorm": [
+   "FrobeniusOrbits",
+   "BilinearNorm"
+  ],
+  "RankFiveExpansion": [
+   "FrobeniusNorm"
+  ],
+  "PairedExpansion": [
+   "RankFiveExpansion"
+  ],
+  "EighteenForms": [
+   "PairedExpansion"
+  ],
+  "EighteenBlocks0": [
+   "EighteenForms"
+  ],
+  "EighteenBlocks1": [
+   "EighteenForms"
+  ],
+  "EighteenBlocks2": [
+   "EighteenForms"
+  ],
+  "EighteenExpansion": [
+   "EighteenBlocks0",
+   "EighteenBlocks1",
+   "EighteenBlocks2"
+  ],
+  "FiveDescent": [
+   "NormPolynomials"
+  ],
+  "FiveNorm": [
+   "EighteenExpansion",
+   "BilinearNorm",
+   "FiveDescent"
+  ],
+  "EighteenNorm": [
+   "EighteenExpansion",
+   "BilinearNorm"
+  ],
+  "EighteenPolynomials": [
+   "EighteenNorm"
+  ],
+  "FivePolynomials": [
+   "FiveNorm",
+   "EighteenPolynomials"
+  ],
+  "FiveCollision": [],
+  "FiveProbability": [],
+  "FiveDigits": [
+   "FiveProbability"
+  ],
+  "FiveJointTail": [
+   "FiveDigits"
+  ],
+  "FiveTags": [
+   "FiveJointTail"
+  ],
+  "FiveMoment": [
+   "FiveTags",
+   "FiveCollision"
+  ],
+  "FiveCarry": [
+   "FiveTags"
+  ],
+  "FiveCoefficientBounds": [
+   "FiveMoment",
+   "FiveCarry"
+  ],
+  "FiveLabels": [
+   "FiveProbability"
+  ],
+  "FiveTagged": [
+   "FiveCoefficientBounds",
+   "FiveLabels"
+  ],
+  "FiveReindex": [
+   "FiveTagged"
+  ],
+  "FiveFiniteTheorem": [
+   "FiveReindex"
+  ],
+  "Sphere": [],
+  "Tuned": [
+   "Sphere"
+  ],
+  "Slab": [
+   "Tuned"
+  ],
+  "RowDigits": [
+   "Slab"
+  ],
+  "FiveScales": [
+   "RowDigits"
+  ],
+  "MixedSphere": [
+   "Sphere"
+  ],
+  "MixedLayerData": [],
+  "MixedLayerCounting": [
+   "MixedSphere",
+   "MixedLayerData"
+  ],
+  "IntervalCounting": [
+   "MixedLayerCounting"
+  ],
+  "ReservedLayerData": [],
+  "ReservedLayer": [
+   "IntervalCounting",
+   "ReservedLayerData"
+  ],
+  "ReservedPacking": [
+   "ReservedLayer",
+   "FiveScales"
+  ],
+  "FiveLayerData": [],
+  "FiveLayer": [
+   "MixedLayerCounting",
+   "FiveLayerData"
+  ],
+  "FivePacking": [
+   "FiveLayer"
+  ]
+ },
+ "external": [
+  "Lean",
+  "Mathlib.Algebra.BigOperators.Ring",
+  "Mathlib.Algebra.GeomSum",
+  "Mathlib.Algebra.Polynomial.BigOperators",
+  "Mathlib.Algebra.Polynomial.Coeff",
+  "Mathlib.Algebra.Polynomial.Div",
+  "Mathlib.Algebra.Polynomial.Eval",
+  "Mathlib.Data.Fintype.BigOperators",
+  "Mathlib.Data.Nat.Find",
+  "Mathlib.Data.Nat.ModEq",
+  "Mathlib.FieldTheory.Finite.GaloisField",
+  "Mathlib.GroupTheory.GroupAction.Quotient",
+  "Mathlib.LinearAlgebra.Lagrange",
+  "Mathlib.LinearAlgebra.Matrix.Determinant.Basic",
+  "Mathlib.LinearAlgebra.Vandermonde",
+  "Mathlib.RingTheory.MvPolynomial.Homogeneous",
+  "Mathlib.RingTheory.Norm.Basic",
+  "Mathlib.RingTheory.PowerBasis",
+  "Mathlib.Tactic.FieldSimp",
+  "Mathlib.Tactic.FinCases",
+  "Mathlib.Tactic.Group",
+  "Mathlib.Tactic.Linarith",
+  "Mathlib.Tactic.NormNum",
+  "Mathlib.Tactic.Ring"
+ ]
+}

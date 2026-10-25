@@ -1,0 +1,13 @@
++ g++ -O3 -march=native -fopenmp -std=c++20 -Wall -Wextra -Wconversion -Wshadow -Werror /home/exedev/erdos_scratch/audit_196_20260811/code/automaton_count.cpp -o /tmp/audit196_automaton_strict
++ g++ -O3 -march=native -fopenmp -std=c++20 -Wall -Wextra -Wconversion -Wshadow -Werror /home/exedev/erdos_scratch/audit_196_20260811/code/insertion_count.cpp -o /tmp/audit196_insertion_strict
++ sha256sum /tmp/audit196_automaton_strict /home/exedev/erdos_scratch/audit_196_20260811/bin/automaton_count /tmp/audit196_insertion_strict /home/exedev/erdos_scratch/audit_196_20260811/bin/insertion_count
+797cf2da36a76339240f7cd1f3be49cc033b31e16e04f0aacf029a07046406ae  /tmp/audit196_automaton_strict
+797cf2da36a76339240f7cd1f3be49cc033b31e16e04f0aacf029a07046406ae  /home/exedev/erdos_scratch/audit_196_20260811/bin/automaton_count
+99859ced5c1769d570f6c3f311e38764da13f18083703c86b86da733e24ee2c2  /tmp/audit196_insertion_strict
+99859ced5c1769d570f6c3f311e38764da13f18083703c86b86da733e24ee2c2  /home/exedev/erdos_scratch/audit_196_20260811/bin/insertion_count
++ cmp -s /tmp/audit196_automaton_strict /home/exedev/erdos_scratch/audit_196_20260811/bin/automaton_count
++ echo automaton_byte_identical=0
+automaton_byte_identical=0
++ cmp -s /tmp/audit196_insertion_strict /home/exedev/erdos_scratch/audit_196_20260811/bin/insertion_count
++ echo insertion_byte_identical=0
+insertion_byte_identical=0

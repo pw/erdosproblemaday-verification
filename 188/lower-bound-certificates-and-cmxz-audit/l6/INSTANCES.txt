@@ -1,0 +1,5 @@
+l6_c3_b6 {'blue': '6,0', 'rot_radius': 4.0, 'n_points': 9373, 'n_unit_pairs': 56364, 'n_runs': 11304} centres 37
+l6_c4_b5 {'blue': '5,0', 'rot_radius': 4.0, 'n_points': 15061, 'n_unit_pairs': 96228, 'n_runs': 24600} centres 61
+l6_c6_b5 {'blue': '5,0', 'rot_radius': 4.0, 'n_points': 30625, 'n_unit_pairs': 208056, 'n_runs': 69924} centres 127
+l6_c6_b6 {'blue': '6,0', 'rot_radius': 4.0, 'n_points': 30625, 'n_unit_pairs': 208056, 'n_runs': 69924} centres 127
+l6_c8_b6 {'blue': '6,0', 'rot_radius': 4.0, 'n_points': 57469, 'n_unit_pairs': 403692, 'n_runs': 152640} centres 241

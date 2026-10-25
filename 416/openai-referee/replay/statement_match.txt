@@ -1,0 +1,12 @@
+ALL_MATCH_STD_SORRYSEEN
+TotientAsymptotic: 36 MATCH / 0 MISMATCH
+TotientCompanionZero: 23 MATCH / 0 MISMATCH
+OAI.TotientAsymptotic.rho_mem STD_AXIOMS
+OAI.TotientAsymptotic.seeds_one_two STD_AXIOMS
+OAI.TotientAsymptotic.seed_least_preimage STD_AXIOMS
+OAI.TotientAsymptotic.extractedStructureInput STD_AXIOMS
+OAI.TotientAsymptotic.fordLemma26Input STD_AXIOMS
+OAI.TotientAsymptotic.primeNumberTheoremInput STD_AXIOMS
+OAI.TotientAsymptotic.ford_scale_lower STD_AXIOMS
+OAI.TotientAsymptotic.ford_scale_upper STD_AXIOMS
+OAI.TotientAsymptotic.fordScaleBounds STD_AXIOMS

@@ -1,0 +1,4 @@
+Lemma 3.1: light graphs 376, (G,b) pairs tested 2923, violations 0; negative control (non-light G with circumference(F)>=2b^1.5 found): 3
+Lemma 3.2: 300 random instances, failures 0
+Lemma 3.2 negative control (B_u truncated to distance <= 0): detected failures in 100/100
+OVERALL: PASS

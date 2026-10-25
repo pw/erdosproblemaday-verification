@@ -1,0 +1,8 @@
+[cadical] nauty, colours (S | other points | lines): |Aut| = 168
+[cadical] nauty, colours (S u 4-secants | rest): |Aut| = 336 ; generators swapping points<->lines: 1
+[cadical] abstract (21_4) Levi graph: |Aut| = 672 (incl. dualities), 336 (points->points)
+[cadical] abstract 21 points + 49 lines (3- and 4-secants): |Aut| = 336
+[cpsat] nauty, colours (S | other points | lines): |Aut| = 168
+[cpsat] nauty, colours (S u 4-secants | rest): |Aut| = 336 ; generators swapping points<->lines: 1
+[cpsat] abstract (21_4) Levi graph: |Aut| = 672 (incl. dualities), 336 (points->points)
+[cpsat] abstract 21 points + 49 lines (3- and 4-secants): |Aut| = 336

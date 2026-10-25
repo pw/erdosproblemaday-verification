@@ -1,0 +1,13 @@
+Controls on gaps.c (2026-10-21, 06:00Z erdos seat). Predicate: (n+1)*p_n < n*p_{n+1} in 128-bit.
+.: diff vs OEIS A387591 b-file (10,000 terms) rc=0
+mut: diff vs OEIS A387591 b-file (10,000 terms) rc=0
+mut2: diff vs OEIS A387591 b-file (10,000 terms) rc=1
+mut3: diff vs OEIS A387591 b-file (10,000 terms) rc=1
+  . = gaps.c as run (rc 0 = all 10,000 terms identical)
+  mut  = '<' replaced by '<=' : rc 0, EQUIVALENT mutant — (n+1)p_n = n p_{n+1} forces n | p_n (gcd(n,n+1)=1), so n = p_n for n >= 2, which never happens; n = 1 gives 4 != 3
+  mut2 = inequality reversed : rc 1 (caught)
+  mut3 = index shifted (n+2, n+1) : rc 1 (caught)
+p_N positive control: run_2.3e10.log p_N at N=1e6,1e7,1e8,1e9 = 15485863, 179424673, 2038074743, 22801763489 (the known values)
+independent recount: recount.py (numpy) vs gaps_raw.c raw counts at N=1e6 and 1e7: identical (inc, gt1, gt2, gt3)
+gaps_raw.c at N=1e6:  660042 379450 210224 109945 31946 8931 2420 620 (C=0.5 1 1.5 2 3 4 5 6)
+gaps_raw.c at N=1e7: 6700165 3754391 2147620 1157844 344593 98589 27944 8067

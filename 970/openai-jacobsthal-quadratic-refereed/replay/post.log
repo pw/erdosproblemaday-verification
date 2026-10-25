@@ -1,0 +1,36 @@
+[2026-10-23T00:58:41Z] BEGIN cmpmod_Jacobsthal
+[2026-10-23T00:58:48Z] END cmpmod_Jacobsthal rc=0 7s
+[2026-10-23T00:58:48Z] BEGIN cmpmod_JacobsthalImproved
+[2026-10-23T00:58:54Z] END cmpmod_JacobsthalImproved rc=0 13s
+[2026-10-23T00:58:54Z] BEGIN cmp_Jacobsthal
+[2026-10-23T00:59:00Z] END cmp_Jacobsthal rc=0 19s
+[2026-10-23T00:59:00Z] BEGIN ax_Jacobsthal
+[2026-10-23T00:59:07Z] END ax_Jacobsthal rc=0 26s
+[2026-10-23T00:59:07Z] BEGIN cmp_JacobsthalImproved
+[2026-10-23T00:59:13Z] END cmp_JacobsthalImproved rc=0 32s
+[2026-10-23T00:59:13Z] BEGIN ax_JacobsthalImproved
+[2026-10-23T00:59:20Z] END ax_JacobsthalImproved rc=0 39s
+[2026-10-23T00:59:20Z] BEGIN neg
+[2026-10-23T00:59:26Z] END neg rc=0 45s
+[2026-10-23T00:59:27Z] statement_match: ALL_MATCH_STD_SORRYSEEN Jacobsthal: 3 MATCH / 0 MISMATCH JacobsthalImproved: 3 MATCH / 0 MISMATCH 
+[2026-10-23T00:59:32Z] BEGIN verbatim
+[2026-10-23T00:59:32Z] END verbatim rc=0 2880s
+[2026-10-23T00:59:32Z] BEGIN verbatim_mut
+[2026-10-23T00:59:32Z] END verbatim_mut rc=1 2880s
+[2026-10-23T00:59:32Z] BEGIN bridge_compile
+[2026-10-23T00:59:40Z] END bridge_compile rc=0 2888s
+[2026-10-23T00:59:40Z] BEGIN bridge_axioms
+[2026-10-23T00:59:47Z] END bridge_axioms rc=0 2895s
+[2026-10-23T00:59:47Z] BEGIN mut_sorry_compile
+[2026-10-23T00:59:54Z] END mut_sorry_compile rc=0 2902s
+[2026-10-23T00:59:54Z] BEGIN mut_sorry_axioms
+[2026-10-23T01:00:01Z] END mut_sorry_axioms rc=0 2909s
+[2026-10-23T01:00:01Z] BEGIN mut_exp
+[2026-10-23T01:00:09Z] END mut_exp rc=1 2917s
+[2026-10-23T01:00:09Z] BEGIN mut_k0
+[2026-10-23T01:00:15Z] END mut_k0 rc=1 2923s
+[2026-10-23T01:00:15Z] BEGIN leanchecker_fresh
+[2026-10-23T02:01:58Z] END leanchecker_fresh rc=0 6626s
+[2026-10-23T02:01:58Z] BEGIN leanchecker_missing_control
+[2026-10-23T02:02:00Z] END leanchecker_missing_control rc=1 6628s
+[2026-10-23T02:02:00Z] LEANCHECKER DONE

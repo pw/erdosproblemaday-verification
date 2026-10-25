@@ -1,0 +1,9 @@
+== j=0 M=0,0,0,1,2,1,0,1,1,0,0,0,2,0,1,1,1,0,0,0,0,0,1,0
+k=7 case j=0 e=[2, 1, 2, 1, 2, 1, 2, 1] M=000121011000201110000010 mcard=24 vars=600 clauses=62504 c4=0 derived=24 sb=24 slots=456 ph=280 edgeswap=1432 cov=0 mu=- mucl=0 trans_sb=24 DROP-C4 CONTROL
+SAT  recheck: 0 structural violations [], max codegree 3, lex violations 0, PH violations 0, pair-perm lex violations 0/0
+== j=2 M=0,0,1,0,2,1,1,2,0,0,0,1,0,2,1,0,2,0,0,0,1,0,0,0
+k=7 case j=2 e=[2, 2, 2, 2, 2, 1, 2, 1] M=001021120001021020001000 mcard=24 vars=600 clauses=62444 c4=0 derived=24 sb=20 slots=492 ph=280 edgeswap=2148 cov=0 mu=- mucl=0 trans_sb=20 DROP-C4 CONTROL
+SAT  recheck: 0 structural violations [], max codegree 5, lex violations 0, PH violations 0, pair-perm lex violations 0/0
+== j=4 M=0,0,0,1,0,3,0,2,2,0,0,0,1,0,3,0,0,2,0,0,0,1,1,0
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] M=000103022000103002000110 mcard=24 vars=600 clauses=64128 c4=0 derived=24 sb=16 slots=528 ph=280 edgeswap=2864 cov=0 mu=- mucl=0 trans_sb=16 DROP-C4 CONTROL
+SAT  recheck: 0 structural violations [], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 0/1

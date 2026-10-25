@@ -1,0 +1,4 @@
+'HeilbronnInterval.digit_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnInterval.below_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnInterval.interval_partition' depends on axioms: [propext, Quot.sound]
+RSSCAP done rc=0 peak_kb=566844 wall=3s

@@ -1,0 +1,4 @@
+intact  kissat UNSAT 
+intact  cadical UNSAT 
+mutated kissat SAT degrees [4] max codegree 3 -> graph check FAILS (C4 present)
+mutated cadical SAT degrees [4] max codegree 3 -> graph check FAILS (C4 present)

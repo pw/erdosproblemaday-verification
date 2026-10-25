@@ -1,0 +1,16 @@
+{
+  "name": "Kreisel-Kurz diameter-22270 integral heptagon",
+  "source": "T. Kreisel and S. Kurz, There are integral heptagons, no three points on a line, no four on a circle, Discrete & Computational Geometry 39 (2008), 786-790",
+  "source_url": "https://d-nb.info/994732597/34",
+  "characteristic": 2002,
+  "diameter": 22270,
+  "distance_matrix": [
+    [0, 22270, 22098, 16637, 9248, 8908, 8636],
+    [22270, 0, 21488, 11397, 15138, 20698, 13746],
+    [22098, 21488, 0, 10795, 14450, 13430, 20066],
+    [16637, 11397, 10795, 0, 7395, 11135, 11049],
+    [9248, 15138, 14450, 7395, 0, 5780, 5916],
+    [8908, 20698, 13430, 11135, 5780, 0, 10744],
+    [8636, 13746, 20066, 11049, 5916, 10744, 0]
+  ]
+}

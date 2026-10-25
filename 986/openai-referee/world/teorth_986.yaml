@@ -1,0 +1,16 @@
+- number: "986"
+  prize: "no"
+  informal_status:
+    state: "proved"
+    last_update: "2026-06-21"
+  formal_status:
+    state: "unformalized"
+  status:
+    state: "proved"
+    last_update: "2026-06-21"
+  oeis: ["A000791", "A059442"]
+  formalized:
+    state: "yes"
+    last_update: "2026-09-09"
+  tags: ["graph theory", "ramsey theory"]
+

@@ -1,0 +1,17 @@
+labels ((2, 3), (2, 3), (2, 4)) row3=zero B=400009: J=>F_(k-1)=0 violations 0; P(J)=3/16 a=1 b_max=1 | P(b>=1,J)=1/16 <= 1/8 | E[D1_J]=2.5e+04 <= 5e+04 OK
+labels ((2, 3), (2, 3), (4, 3)) row3=zero B=400009: J=>F_(k-1)=0 violations 0; P(J)=3/16 a=0 b_max=0 | E[D1_J]=0.1875 <= 0.5 OK
+labels ((0, 0), (0, 0), (0, 1)) row3=zero B=400009: J=>F_(k-1)=0 violations 0; P(J)=1/8 a=1 b_max=1 | P(b>=1,J)=1/16 <= 1/8 | E[D1_J]=2.5e+04 <= 5e+04 OK
+labels ((1, 2), (1, 2), (1, 2)) row3=zero B=400009: J=>F_(k-1)=0 violations 0; P(J)=1 OK
+labels ((2, 3), (2, 3), (2, 4)) row3=random B=400009: J=>F_(k-1)=0 violations 0; P(J)=3/16 a=1 b_max=0 | P(b>=1,J)=0 <= 1/8 | E[D1_J]=0.1875 <= 5e+04 OK
+labels ((2, 3), (2, 3), (4, 3)) row3=random B=400009: J=>F_(k-1)=0 violations 0; P(J)=3/16 a=0 b_max=0 | E[D1_J]=0.1875 <= 0.5 OK
+labels ((0, 0), (0, 0), (0, 1)) row3=random B=400009: J=>F_(k-1)=0 violations 0; P(J)=1/8 a=1 b_max=0 | P(b>=1,J)=0 <= 1/8 | E[D1_J]=0.125 <= 5e+04 OK
+labels ((1, 2), (1, 2), (1, 2)) row3=random B=400009: J=>F_(k-1)=0 violations 0; P(J)=1 OK
+labels ((2, 3), (2, 3), (2, 4)) row3=zero B=600011: J=>F_(k-1)=0 violations 0; P(J)=19/243 a=1 b_max=1 | P(b>=1,J)=1/81 <= 1/27 | E[D1_J]=7408 <= 2.222e+04 OK
+labels ((2, 3), (2, 3), (4, 3)) row3=zero B=600011: J=>F_(k-1)=0 violations 0; P(J)=19/243 a=0 b_max=0 | E[D1_J]=0.07819 <= 0.3333 OK
+labels ((0, 0), (0, 0), (0, 1)) row3=zero B=600011: J=>F_(k-1)=0 violations 0; P(J)=1/27 a=1 b_max=1 | P(b>=1,J)=1/81 <= 1/27 | E[D1_J]=7408 <= 2.222e+04 OK
+labels ((1, 2), (1, 2), (1, 2)) row3=zero B=600011: J=>F_(k-1)=0 violations 0; P(J)=1 OK
+labels ((2, 3), (2, 3), (2, 4)) row3=random B=600011: J=>F_(k-1)=0 violations 0; P(J)=19/243 a=1 b_max=0 | P(b>=1,J)=0 <= 1/27 | E[D1_J]=0.07819 <= 2.222e+04 OK
+labels ((2, 3), (2, 3), (4, 3)) row3=random B=600011: J=>F_(k-1)=0 violations 0; P(J)=19/243 a=0 b_max=0 | E[D1_J]=0.07819 <= 0.3333 OK
+labels ((0, 0), (0, 0), (0, 1)) row3=random B=600011: J=>F_(k-1)=0 violations 0; P(J)=1/27 a=1 b_max=0 | P(b>=1,J)=0 <= 1/27 | E[D1_J]=0.03704 <= 2.222e+04 OK
+labels ((1, 2), (1, 2), (1, 2)) row3=random B=600011: J=>F_(k-1)=0 violations 0; P(J)=1 OK
+ALL OK

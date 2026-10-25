@@ -1,0 +1,25 @@
+# check778c v2 (asserted) control runs, 2026-10-13T16:03:13Z
+certs/n6_clique.cert: ACCEPT :: ACCEPT winner=bob n=6 mode=clique: 70 Alice-to-move positions explored, 3 terminal leaves, 59 cutoff leaves, 100 certificate entries (100 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 4, 0 s]
+certs/n7_clique.cert: ACCEPT :: ACCEPT winner=bob n=7 mode=clique: 2068 Alice-to-move positions explored, 24 terminal leaves, 1483 cutoff leaves, 4198 certificate entries (4198 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 4, 1 s]
+certs/n7_triangle.cert: ACCEPT :: ACCEPT winner=bob n=7 mode=triangle: 1236 Alice-to-move positions explored, 0 terminal leaves, 1975 cutoff leaves, 2677 certificate entries (2677 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 4, 1 s]
+certs/n8_clique.cert: ACCEPT :: ACCEPT winner=bob n=8 mode=clique: 122288 Alice-to-move positions explored, 0 terminal leaves, 57512 cutoff leaves, 210325 certificate entries (210325 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 4, 5 s]
+certs/n8_clique_nocut.cert --no-cutoff: ACCEPT :: ACCEPT winner=bob n=8 mode=clique: 145749 Alice-to-move positions explored, 2719 terminal leaves, 0 cutoff leaves, 336027 certificate entries (336027 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 4, 7 s]
+n3_fake.cert: REJECT :: terminal lost at R=1 B=6
+n7_del.cert: REJECT :: no Bob reply recorded for R=4739 B=1163572
+n7_flip.cert: CANNOT SEE :: this checker handles winner=bob certificates only (got alice)
+n7_swap.cert: ACCEPT :: ACCEPT winner=bob n=7 mode=clique: 2068 Alice-to-move positions explored, 24 terminal leaves, 1484 cutoff leaves, 4198 certificate entries (4198 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 2, 1 s]
+n7_swap30.cert: REJECT :: no Bob reply recorded for R=36867 B=84368
+NEG_A_n6_R4.cert: REJECT :: terminal lost at R=5641 B=27126
+NEG_B_n6_R3.cert: REJECT :: alice cutoff holds inside Bob's tree at R=5633 B=510
+NEG_C_n6_R2.cert: REJECT :: alice cutoff holds inside Bob's tree at R=649 B=3446
+NEG_D_solver_n6_R4.cert: REJECT :: terminal lost at R=4135 B=28632
+NEG_E_solver_n6_R3.cert: REJECT :: alice cutoff holds inside Bob's tree at R=4131 B=17372
+NEG_F_solver_n7_R5.cert: REJECT :: alice cutoff holds inside Bob's tree at R=589899 B=1195956
+NEG_G_solver_n7_R4.cert: REJECT :: alice cutoff holds inside Bob's tree at R=1081411 B=22460
+ref_n3.cert: REJECT :: terminal lost at R=1 B=6
+ref_n4.cert: ACCEPT :: ACCEPT winner=bob n=4 mode=clique: 3 Alice-to-move positions explored, 1 terminal leaves, 0 cutoff leaves, 4 certificate entries (4 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 2, 0 s]
+ref_n5.cert: ACCEPT :: ACCEPT winner=bob n=5 mode=clique: 10 Alice-to-move positions explored, 0 terminal leaves, 5 cutoff leaves, 16 certificate entries (16 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 2, 0 s]
+ref_n6.cert: ACCEPT :: ACCEPT winner=bob n=6 mode=clique: 26 Alice-to-move positions explored, 1 terminal leaves, 15 cutoff leaves, 62 certificate entries (62 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 2, 0 s]
+ref_n5 --no-cutoff: ACCEPT :: ACCEPT winner=bob n=5 mode=clique: 10 Alice-to-move positions explored, 5 terminal leaves, 0 cutoff leaves, 16 certificate entries (16 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 1, 0 s]
+flag typo --nocutoff: CANNOT SEE :: unknown flag --nocutoff
+threads last: CANNOT SEE :: --threads needs a value

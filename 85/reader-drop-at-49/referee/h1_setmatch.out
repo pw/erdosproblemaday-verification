@@ -1,0 +1,10 @@
+raw rows 13541
+capacity rows 13351 removed 190
+per profile [(0, 1485), (1, 3617), (2, 4717), (3, 2693), (4, 839)]
+evidence tags 13351 Counter({'bank': 12094, 'census': 1160, 'historical': 96, 'hardest': 1})
+tags with >1 evidence rows 0 []
+evidence - capacity: 0 []
+capacity - evidence: 0 []
+evidence tags in raw inventory but capacity-removed: 0
+profile disagreements: 1 [('0051c0f06f824a2e', 'bank', set(), 0)]
+bank tags w/o manifest: 0

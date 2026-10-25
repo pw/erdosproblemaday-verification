@@ -1,0 +1,17 @@
+Bridge431CMutNonempty.lean:25:43: error: Application type mismatch: The argument
+  hB
+has type
+  B.Nonempty
+but is expected to have type
+  B.Nontrivial
+in the application
+  OAI.Ostmann.inverseGoldbach A B hA hB
+Bridge431CMutNonempty.lean:31:53: error: Application type mismatch: The argument
+  Set.Infinite.nontrivial hB
+has type
+  B.Nontrivial
+but is expected to have type
+  B.Nonempty
+in the application
+  erdos_431.variants.ostmann A B (Set.Infinite.nontrivial hA) (Set.Infinite.nontrivial hB)
+Bridge431CMutNonempty.lean:36:31: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead

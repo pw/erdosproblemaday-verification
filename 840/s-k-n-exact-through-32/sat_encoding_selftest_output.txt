@@ -1,0 +1,2 @@
+minimum-zero definition/CNF instances checked: 94
+SAT ENCODING SELF-TEST PASSED

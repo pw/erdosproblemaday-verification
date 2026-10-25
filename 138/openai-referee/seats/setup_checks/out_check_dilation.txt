@@ -1,0 +1,20 @@
+k=7        D=2 M=3 h0=4 2M=6 lambda=12 log(lambda)=2.48 <= h0*log(2M)=7.17: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=11)=1: True
+k=100      D=2 M=10 h0=4 2M=20 lambda=144 log(lambda)=4.97 <= h0*log(2M)=11.98: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=101)=1: True
+k=1024     D=2 M=32 h0=4 2M=64 lambda=1728 log(lambda)=7.45 <= h0*log(2M)=16.64: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=1031)=1: True
+k=1025     D=3 M=33 h0=9 2M=66 lambda=2116800 log(lambda)=14.57 <= h0*log(2M)=37.71: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=1031)=1: True
+k=10000    D=3 M=100 h0=9 2M=200 lambda=63504000 log(lambda)=17.97 <= h0*log(2M)=47.68: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=10007)=1: True
+k=59049    D=3 M=243 h0=9 2M=486 lambda=2667168000 log(lambda)=21.70 <= h0*log(2M)=55.68: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=59051)=1: True
+k=59050    D=4 M=244 h0=16 2M=488 lambda=54540918432000 log(lambda)=31.63 <= h0*log(2M)=99.05: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=59051)=1: True
+k=100000   D=4 M=317 h0=16 2M=634 lambda=545409184320000 log(lambda)=33.93 <= h0*log(2M)=103.23: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=100003)=1: True
+k=1000000  D=4 M=1000 h0=16 2M=2000 lambda=35997006165120000 log(lambda)=38.12 <= h0*log(2M)=121.61: True | primary-part viol=0  h|lam viol(h<=h0)=0  s-viol=0  | gcd(lambda,P=1000003)=1: True
+PAPER lambda: all checks pass for k in [7, 100, 1024, 1025, 10000, 59049, 59050, 100000, 1000000] : True
+
+CONTROL lambda_bad = lcm(1..h0):
+k=100      D=2 M=10 h0=4 2M=20 lambda=12 log(lambda)=2.48 <= h0*log(2M)=11.98: True | primary-part viol=4  h|lam viol(h<=h0)=0  s-viol=34 first (8, 1, 2) | gcd(lambda,P=101)=1: True
+k=10000    D=3 M=100 h0=9 2M=200 lambda=2520 log(lambda)=7.83 <= h0*log(2M)=47.68: True | primary-part viol=31  h|lam viol(h<=h0)=0  s-viol=2322 first (16, 1, 2) | gcd(lambda,P=10007)=1: True
+k=1000000  D=4 M=1000 h0=16 2M=2000 lambda=720720 log(lambda)=13.49 <= h0*log(2M)=121.61: True | primary-part viol=283  h|lam viol(h<=h0)=0  s-viol=117266 first (25, 1, 5) | gcd(lambda,P=1000003)=1: True
+
+h0 < 2M < k fails for k in [1, 2, 3, 4, 5, 6] ... (max failing k = 6 ) over 1..10^6
+tail: 4*k**0.2 < 2*k**0.5 and 2*k**0.5+2 < k at k=1e6: True True
+[check_dilation: 4.93s, maxrss 47772kB]
+exit=0

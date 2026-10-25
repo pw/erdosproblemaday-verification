@@ -1,0 +1,10 @@
+@@@ C OAI.Ostmann.inverseGoldbach: reachable constants under OAI.Erdos970: 0 (of 99798)
+@@@ C OAI.Ostmann.inverseGoldbach: reachable constants under Erdos970: 0 (of 99798)
+@@@ C OAI.Ostmann.inverseGoldbach: reachable constants under OAI.LargePrimeGaps: 113 (of 99798)
+@@@ C OAI.Ostmann.twoInfiniteSummandsImpossible: reachable constants under OAI.Erdos970: 0 (of 99655)
+@@@ C OAI.Ostmann.twoInfiniteSummandsImpossible: reachable constants under Erdos970: 0 (of 99655)
+@@@ C OAI.Ostmann.twoInfiniteSummandsImpossible: reachable constants under OAI.LargePrimeGaps: 113 (of 99655)
+@@@ C POSITIVE CONTROL inverseGoldbach -> publishedComplexZeroDensity: REACHED (visited 18) path length 2:
+    OAI.Ostmann.inverseGoldbach
+    OAI.Ostmann.publishedComplexZeroDensity
+maxrss_kb=7741952 wall_s=53.78

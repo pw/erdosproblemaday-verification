@@ -1,0 +1,5 @@
+'HeilbronnFrobenius.fixed_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFrobenius.orbit_size' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFrobenius.class_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFrobenius.invariant_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1219180 wall=6s

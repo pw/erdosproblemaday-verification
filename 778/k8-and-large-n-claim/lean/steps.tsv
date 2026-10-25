@@ -1,0 +1,12 @@
+launch	2026-10-13T12:10:17Z	0	mem_avail=40G
+toolchain	2026-10-13T12:11:03Z	0	46s
+deps	2026-10-13T12:14:02Z	0	179s
+build	2026-10-13T12:15:10Z	0	68s
+trust0	2026-10-13T12:15:15Z	0	5s
+axioms	2026-10-13T12:15:20Z	0	5s
+negcontrol	2026-10-13T12:15:25Z	0	5s
+negcontrol_sorryAx_seen	2026-10-13T12:15:25Z	0	ok
+wrongshape	2026-10-13T12:15:29Z	1	4s
+wrongshape_rejected	2026-10-13T12:15:29Z	0	ok
+done	2026-10-13T12:15:29Z	0	ok
+leanchecker_fresh	2026-10-13T12:20:12Z	2	NOT-RUN: toolchain v4.24.0 ships no leanchecker binary (bin: cadical clang lake ld.lld lean leanc leanmake llvm-ar); lean --trust=0 on the root file is the available recheck

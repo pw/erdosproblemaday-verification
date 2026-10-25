@@ -1,0 +1,23 @@
+launch 2026-10-14T21:09:29Z 0 0
+cache_get 0 119
+cache_ready 0 0
+smoke 0 6
+comparator_module 0 20
+cmp_main 0 8
+cmp_def 0 8
+cmp_axioms 0 7
+build 0 1263
+axioms 0 8
+sol_main 0 7
+sol_def 0 8
+rightshape 1 8
+wrongshape 1 8
+negcontrol 0 8
+statement_match 1 0
+cmp_bridge 0 11
+cmp_bridge_wrong 1 9
+rightshape_v2 0 8
+statement_match_v2 1 0
+statement_match_v3 0 0
+leanchecker_fresh 0 3765
+leanchecker_missing_control 1 2

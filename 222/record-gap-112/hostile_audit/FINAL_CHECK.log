@@ -1,0 +1,15 @@
+2026-08-11T16:32:38+00:00
+COLD_FULL_SCAN_PASS range=0..200000000000 chunks=2723 width=73456789
+represented=30700929089 max_gap=112 endpoints=133858454292,133858454404
+reported_ge_108=2 overlap_count_identity=PASS
+SCANNER_HARNESS_PASS represented_endpoint_cases=35 arbitrary_boundary_cases=1
+COUNTS_GAPS_BOUNDARIES_PASS methods=primary,independent truth=SPF_factor_criterion
+SCOPED_DIAGNOSTIC primary_FIRST_is_0_when_first_chunk_empty
+SCOPED_DIAGNOSTIC independent_NONREPRESENTED_RUN_underflows_on_empty_global_interval
+CLAIM_IMPACT none: both frozen scans have represented LO and HI and many marks
+certificate_cmp=PASS
+author_manifest=PASS
+oeis_refetches=PASS
+81bc3d95793c84e75bf6f049e7c2a8ad06326b25316dd2dfc85081bc28a991ab  live_page_refetch.txt
+81bc3d95793c84e75bf6f049e7c2a8ad06326b25316dd2dfc85081bc28a991ab  /home/exedev/erdos_scratch/fresh6_erdos222_20260811/live_page_20260811.txt
+FINAL_AUDIT_PASS

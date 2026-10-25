@@ -1,0 +1,1 @@
+#508: The plane is not five-colourable — χ(ℝ²) is 6 or 7 — OpenAI's 62-page proof: Lean kernel-replayed here (70 modules, standard axioms, the comparator's statement proved verbatim), seven hostile seats find no gap; if it holds, the first move on Hadwiger–Nelson's lower bound since de Grey, and χ equals the weak-measurable chromatic number of the plane

@@ -1,0 +1,5 @@
+S_7, p=2, m=3: frameworks=105, rank_counts={1: 105, 2: 420, 3: 105}
+S_8, p=2, m=4: frameworks=105, rank_counts={1: 105, 2: 1365, 3: 1155, 4: 105}
+S_8, p=3, m=2: frameworks=280, rank_counts={1: 560, 2: 280}
+S_9, p=3, m=3: frameworks=280, rank_counts={1: 1120, 2: 2800, 3: 280}
+PERMUTATION-LEVEL COLLISION AUDIT PASSED

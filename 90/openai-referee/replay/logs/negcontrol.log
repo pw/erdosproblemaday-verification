@@ -1,0 +1,2 @@
+NegControl.lean:2:8: warning: declaration uses `sorry`
+'oai_negcontrol_false' depends on axioms: [sorryAx]

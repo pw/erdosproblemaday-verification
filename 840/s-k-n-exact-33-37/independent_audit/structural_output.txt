@@ -1,0 +1,13 @@
+primary transcript, direct witnesses, monotonicity, caps: PASS
+rows 27..32 exactly match published frozen checkpoint: PASS
+sum/difference deficit implication exhaustive on 131,071 sets: PASS
+300,000 actual-diameter reflection/scaling attacks: PASS
+clean-room clause equality: generic k=10, 3620 vars, 8494 clauses: PASS
+clean-room clause equality: generic k=11, 3044 vars, 7358 clauses: PASS
+clean-room clause equality: generic k=12, 2684 vars, 6648 clauses: PASS
+clean-room clause equality: generic k=13, 2324 vars, 5938 clauses: PASS
+clean-room clause equality: k=9,d=34, 4196 vars, 10172 clauses: PASS
+clean-room clause equality: k=9,d=35, 4196 vars, 10204 clauses: PASS
+clean-room clause equality: k=9,d=36, 4196 vars, 10237 clauses: PASS
+closed manifest and seven uncompressed proof hashes: PASS (51 files)
+HOSTILE STRUCTURAL AUDIT PASS

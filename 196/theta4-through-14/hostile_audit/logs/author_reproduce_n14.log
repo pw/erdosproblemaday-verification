@@ -1,0 +1,57 @@
+manifest_discrepancies=0
+reproduction_directory=/tmp/erdos196-repro.8TfCjE
+snapshot=site_index_20260811.js sha256=b7111451218492db6756cc88dde0a8b98700d4c6f47e476171a02950b6d9af8b digest_match=1 distinct_structured_numbers=72 exact_196_count=0
+snapshot=site_index_20260811.js phrase='monotone arithmetic progression' count=0
+snapshot=site_index_20260811.js phrase='monotone 4-term' count=0
+snapshot=site_index_20260811.js phrase='monotone 3-term' count=0
+snapshot=site_index_20260811.js phrase='monotone ap' count=0
+snapshot=site_index_20260811.js phrase='permutation avoiding' count=0
+snapshot=site_index_20260811.js phrase='permutations avoiding' count=0
+snapshot=site_index_20260811.js phrase='4-ap-free permutation' count=0
+snapshot=site_index_20260811.js phrase='3-ap-free permutation' count=0
+snapshot=site_index_20260811.js phrase='HasMonotoneAP' count=0
+snapshot=site_ledger_data_20260811.js sha256=9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052 digest_match=1 distinct_structured_numbers=532 exact_196_count=0
+snapshot=site_ledger_data_20260811.js phrase='monotone arithmetic progression' count=0
+snapshot=site_ledger_data_20260811.js phrase='monotone 4-term' count=0
+snapshot=site_ledger_data_20260811.js phrase='monotone 3-term' count=0
+snapshot=site_ledger_data_20260811.js phrase='monotone ap' count=0
+snapshot=site_ledger_data_20260811.js phrase='permutation avoiding' count=0
+snapshot=site_ledger_data_20260811.js phrase='permutations avoiding' count=0
+snapshot=site_ledger_data_20260811.js phrase='4-ap-free permutation' count=0
+snapshot=site_ledger_data_20260811.js phrase='3-ap-free permutation' count=0
+snapshot=site_ledger_data_20260811.js phrase='HasMonotoneAP' count=0
+exact_196_total=0
+framework_phrase_total=0
+audit_discrepancies=0
+threads=16
+theta4(1)=1 fast_seconds=1.52e-07 direct=1
+theta4(2)=2 fast_seconds=0.00531571 direct=2
+theta4(3)=6 fast_seconds=0.00170491 direct=6
+theta4(4)=22 fast_seconds=0.00480542 direct=22
+theta4(5)=102 fast_seconds=0.00162388 direct=102
+theta4(6)=564 fast_seconds=0.00330611 direct=564
+theta4(7)=3336 fast_seconds=0.00320719 direct=3336
+theta4(8)=22266 fast_seconds=0.00328064 direct=22266
+theta4(9)=168864 fast_seconds=0.0043044 direct=168864
+theta4(10)=1307470 fast_seconds=0.0106432 direct=1307470
+theta4(11)=11066766 fast_seconds=0.0819545
+theta4(12)=101361722 fast_seconds=0.802424
+theta4(13)=949812334 fast_seconds=8.30849
+theta4(14)=9471574188 fast_seconds=96.031
+crosscheck_mismatches=0
+wall_seconds=105.54 max_rss_kb=4364 exit_status=0
+n=1 theta4=1 four_aps=0 incidence_total=0
+n=2 theta4=2 four_aps=0 incidence_total=0
+n=3 theta4=6 four_aps=0 incidence_total=0
+n=4 theta4=22 four_aps=1 incidence_total=2
+n=5 theta4=102 four_aps=2 incidence_total=20
+n=6 theta4=564 four_aps=3 incidence_total=180
+n=7 theta4=3336 four_aps=5 incidence_total=2100
+n=8 theta4=22266 four_aps=7 incidence_total=23520
+n=9 theta4=168864 four_aps=9 incidence_total=272160
+verification_mismatches=0
+wall_seconds=1.00 max_rss_kb=10788 exit_status=0
+counts_compared=14
+count_discrepancies=0
+reproduction_discrepancies=0
+outer_wall_seconds=109.43 outer_user_seconds=1248.18 outer_max_rss_kb=179716 outer_exit_status=0

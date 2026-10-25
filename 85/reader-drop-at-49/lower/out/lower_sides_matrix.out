@@ -1,0 +1,4 @@
+Erdos85Boza48Witness.lean boza48Edges edges 168 sym True 0/1 True diag0 True mindeg 7 maxdeg 7 max codegree 1
+  control: add non-edge (0, 2) at distance 2 -> max codegree 2
+Erdos85OrderFortyNineDegreeSixWitness.lean orderFortyNineDegreeSixEdges edges 168 sym True 0/1 True diag0 True mindeg 6 maxdeg 7 max codegree 1
+  control: add non-edge (0, 1) at distance 2 -> max codegree 2

@@ -1,0 +1,4 @@
+N=12 k=3: SAT  witness verified=True  002120120211
+N=13 k=3: UNSAT  (vars=263 clauses=935)
+N=22 k=4: SAT  witness verified=True  0201332120133212010322
+N=23 k=4: UNSAT  (vars=1067 clauses=4016)

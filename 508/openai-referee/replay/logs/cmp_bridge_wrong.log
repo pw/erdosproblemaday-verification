@@ -1,0 +1,6 @@
+CmpBridgeWrong.lean:7:2: error: Type mismatch
+  OAI.EuclideanFiveColor.no_proper_five_coloring
+has type
+  ¬∃ c, OAI.EuclideanFiveColor.ProperColoring 5 c
+but is expected to have type
+  ¬∃ coloring, ProperColoring 5 coloring

@@ -1,0 +1,126 @@
+M=3 x=1 L=2 P=[1, 2] strict=True: UNSAT
+NOTE: mixed rail sum lands on a rail: 1
+NOTE: mixed rail sum lands on a rail: 2
+NOTE: mixed rail sum lands on a rail: 3
+NOTE: mixed rail sum lands on a rail: 4
+M=5 x=1 L=4 P=[1, 2, 4, 3] strict=True: UNSAT
+M=6 x=2 L=2 P=[2, 4] strict=True: SAT  B=[3] D=[]
+M=7 x=1 L=3 P=[1, 2, 4] strict=True: UNSAT
+M=7 x=3 L=3 P=[3, 6, 5] strict=True: UNSAT
+M=9 x=3 L=2 P=[3, 6] strict=True: SAT  B=[1, 8] D=[]
+NOTE: mixed rail sum lands on a rail: 1
+NOTE: mixed rail sum lands on a rail: 2
+NOTE: mixed rail sum lands on a rail: 4
+NOTE: mixed rail sum lands on a rail: 5
+NOTE: mixed rail sum lands on a rail: 7
+NOTE: mixed rail sum lands on a rail: 8
+M=9 x=1 L=6 P=[1, 2, 4, 8, 7, 5] strict=True: UNSAT
+NOTE: mixed rail sum lands on a rail: 2
+NOTE: mixed rail sum lands on a rail: 4
+NOTE: mixed rail sum lands on a rail: 6
+NOTE: mixed rail sum lands on a rail: 8
+M=10 x=2 L=4 P=[2, 4, 8, 6] strict=True: SAT  B=[5] D=[]
+M=12 x=4 L=2 P=[4, 8] strict=True: SAT  B=[1, 6, 11] D=[]
+M=14 x=2 L=3 P=[2, 4, 8] strict=True: UNSAT
+M=14 x=6 L=3 P=[6, 12, 10] strict=True: UNSAT
+M=15 x=5 L=2 P=[5, 10] strict=True: SAT  B=[6, 7, 8, 9] D=[]
+M=15 x=1 L=4 P=[1, 2, 4, 8] strict=True: UNSAT
+NOTE: mixed rail sum lands on a rail: 3
+NOTE: mixed rail sum lands on a rail: 6
+NOTE: mixed rail sum lands on a rail: 9
+NOTE: mixed rail sum lands on a rail: 12
+M=15 x=3 L=4 P=[3, 6, 12, 9] strict=True: SAT  B=[1, 14] D=[]
+M=15 x=7 L=4 P=[7, 14, 13, 11] strict=True: UNSAT
+M=18 x=6 L=2 P=[6, 12] strict=True: SAT  B=[2, 5, 9, 13, 16] D=[]
+NOTE: mixed rail sum lands on a rail: 2
+NOTE: mixed rail sum lands on a rail: 4
+NOTE: mixed rail sum lands on a rail: 8
+NOTE: mixed rail sum lands on a rail: 10
+NOTE: mixed rail sum lands on a rail: 14
+NOTE: mixed rail sum lands on a rail: 16
+M=18 x=2 L=6 P=[2, 4, 8, 16, 14, 10] strict=True: SAT  B=[3, 9, 15] D=[]
+NOTE: mixed rail sum lands on a rail: 4
+NOTE: mixed rail sum lands on a rail: 8
+NOTE: mixed rail sum lands on a rail: 12
+NOTE: mixed rail sum lands on a rail: 16
+M=20 x=4 L=4 P=[4, 8, 16, 12] strict=True: SAT  B=[1, 10, 19] D=[]
+M=21 x=7 L=2 P=[7, 14] strict=True: SAT  B=[1, 3, 5, 16, 18, 20] D=[]
+M=21 x=3 L=3 P=[3, 6, 12] strict=True: UNSAT
+M=21 x=9 L=3 P=[9, 18, 15] strict=True: UNSAT
+M=21 x=1 L=6 P=[1, 2, 4, 8, 16, 11] strict=True: UNSAT
+M=21 x=5 L=6 P=[5, 10, 20, 19, 17, 13] strict=True: UNSAT
+M=24 x=8 L=2 P=[8, 16] strict=True: SAT  B=[7, 11, 12, 13, 17] D=[]
+NOTE: mixed rail sum lands on a rail: 5
+NOTE: mixed rail sum lands on a rail: 10
+NOTE: mixed rail sum lands on a rail: 15
+NOTE: mixed rail sum lands on a rail: 20
+M=25 x=5 L=4 P=[5, 10, 20, 15] strict=True: SAT  B=[1, 7, 18, 24] D=[]
+M=27 x=9 L=2 P=[9, 18] strict=True: SAT  B=[3, 4, 10, 11, 16, 17, 23, 24] D=[]
+NOTE: mixed rail sum lands on a rail: 3
+NOTE: mixed rail sum lands on a rail: 6
+NOTE: mixed rail sum lands on a rail: 12
+NOTE: mixed rail sum lands on a rail: 15
+NOTE: mixed rail sum lands on a rail: 21
+NOTE: mixed rail sum lands on a rail: 24
+M=27 x=3 L=6 P=[3, 6, 12, 24, 21, 15] strict=True: SAT  B=[1, 8, 10, 17, 19, 26] D=[]
+M=28 x=4 L=3 P=[4, 8, 16] strict=True: UNSAT
+M=28 x=12 L=3 P=[12, 24, 20] strict=True: UNSAT
+M=30 x=10 L=2 P=[10, 20] strict=True: SAT  B=[1, 6, 8, 13, 15, 17, 22, 24, 29] D=[]
+M=30 x=2 L=4 P=[2, 4, 8, 16] strict=True: UNSAT
+NOTE: mixed rail sum lands on a rail: 6
+NOTE: mixed rail sum lands on a rail: 12
+NOTE: mixed rail sum lands on a rail: 18
+NOTE: mixed rail sum lands on a rail: 24
+M=30 x=6 L=4 P=[6, 12, 24, 18] strict=True: SAT  B=[5, 8, 15, 22, 25] D=[]
+M=30 x=14 L=4 P=[14, 28, 26, 22] strict=True: UNSAT
+M=31 x=1 L=5 P=[1, 2, 4, 8, 16] strict=True: UNSAT
+M=31 x=3 L=5 P=[3, 6, 12, 24, 17] strict=True: UNSAT
+M=31 x=5 L=5 P=[5, 10, 20, 9, 18] strict=True: UNSAT
+M=31 x=7 L=5 P=[7, 14, 28, 25, 19] strict=True: UNSAT
+M=31 x=11 L=5 P=[11, 22, 13, 26, 21] strict=True: UNSAT
+M=31 x=15 L=5 P=[15, 30, 29, 27, 23] strict=True: UNSAT
+M=33 x=11 L=2 P=[11, 22] strict=True: SAT  B=[4, 9, 14, 16, 17, 19, 24, 29] D=[]
+M=35 x=5 L=3 P=[5, 10, 20] strict=True: UNSAT
+M=35 x=15 L=3 P=[15, 30, 25] strict=True: UNSAT
+NOTE: mixed rail sum lands on a rail: 7
+NOTE: mixed rail sum lands on a rail: 14
+NOTE: mixed rail sum lands on a rail: 21
+NOTE: mixed rail sum lands on a rail: 28
+M=35 x=7 L=4 P=[7, 14, 28, 21] strict=True: SAT  B=[1, 3, 5, 30, 32, 34] D=[]
+M=36 x=12 L=2 P=[12, 24] strict=True: SAT  B=[4, 9, 10, 11, 25, 26, 27, 32] D=[]
+NOTE: mixed rail sum lands on a rail: 32
+NOTE: mixed rail sum lands on a rail: 4
+NOTE: mixed rail sum lands on a rail: 8
+NOTE: mixed rail sum lands on a rail: 16
+NOTE: mixed rail sum lands on a rail: 20
+NOTE: mixed rail sum lands on a rail: 28
+M=36 x=4 L=6 P=[4, 8, 16, 32, 28, 20] strict=True: SAT  B=[1, 6, 11, 13, 18, 23, 25, 30, 35] D=[]
+M=39 x=13 L=2 P=[13, 26] strict=True: SAT  B=[2, 6, 9, 10, 14, 25, 29, 30, 33, 37] D=[]
+NOTE: mixed rail sum lands on a rail: 32
+NOTE: mixed rail sum lands on a rail: 8
+NOTE: mixed rail sum lands on a rail: 16
+NOTE: mixed rail sum lands on a rail: 24
+M=40 x=8 L=4 P=[8, 16, 32, 24] strict=True: SAT  B=[1, 6, 11, 20, 29, 34, 39] D=[]
+M=42 x=14 L=2 P=[14, 28] strict=True: SAT  B=[1, 3, 8, 10, 12, 19, 21, 23, 30, 32, 34, 39, 41] D=[]
+M=42 x=6 L=3 P=[6, 12, 24] strict=True: UNSAT
+M=42 x=18 L=3 P=[18, 36, 30] strict=True: UNSAT
+M=42 x=2 L=6 P=[2, 4, 8, 16, 32, 22] strict=True: UNSAT
+M=42 x=10 L=6 P=[10, 20, 40, 38, 34, 26] strict=True: UNSAT
+M=45 x=15 L=2 P=[15, 30] strict=True: SAT  B=[1, 4, 12, 17, 33, 35, 38, 41, 44] D=[10]
+M=45 x=3 L=4 P=[3, 6, 12, 24] strict=True: UNSAT
+NOTE: mixed rail sum lands on a rail: 36
+NOTE: mixed rail sum lands on a rail: 9
+NOTE: mixed rail sum lands on a rail: 18
+NOTE: mixed rail sum lands on a rail: 27
+M=45 x=9 L=4 P=[9, 18, 36, 27] strict=True: SAT  B=[6, 8, 11, 13, 32, 34, 37, 39] D=[]
+M=45 x=21 L=4 P=[21, 42, 39, 33] strict=True: UNSAT
+NOTE: mixed rail sum lands on a rail: 35
+NOTE: mixed rail sum lands on a rail: 5
+NOTE: mixed rail sum lands on a rail: 40
+NOTE: mixed rail sum lands on a rail: 10
+NOTE: mixed rail sum lands on a rail: 20
+NOTE: mixed rail sum lands on a rail: 25
+M=45 x=5 L=6 P=[5, 10, 20, 40, 35, 25] strict=True: SAT  B=[2, 6, 9, 13, 17, 21, 24, 28, 32, 36, 39, 43] D=[]
+M=48 x=16 L=2 P=[16, 32] strict=True: SAT  B=[2, 3, 7, 11, 15, 20, 24, 28, 33, 37, 41, 45, 46] D=[]
+M=49 x=7 L=3 P=[7, 14, 28] strict=True: UNSAT
+M=49 x=21 L=3 P=[21, 42, 35] strict=True: UNSAT

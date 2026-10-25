@@ -1,0 +1,24 @@
+== 5 0 30 kissat --drop-c4
+SAT  recheck: 0 structural violations [], max codegree 3, lex violations 0, PH violations 8
+== 5 0 30 kissat --drop-c4 --ph
+SAT  recheck: 0 structural violations [], max codegree 3, lex violations 0, PH violations 0
+== 5 0 30 kissat --drop-c4 --ph --pairsb
+pair-level SB: 47 permutations, 14594 clauses
+SAT  recheck: 0 structural violations [], max codegree 3, lex violations 0, PH violations 0, pair-perm lex violations 0/47
+== 5 0 30 kissat --drop-c4 --ph --pairsb --check-only
+pair-level SB: 47 permutations, 0 clauses
+SAT  recheck: 0 structural violations [], max codegree 3, lex violations 0, PH violations 0, pair-perm lex violations 5/47
+== 5 0 30 kissat --relax-pairs --drop-c4 --ph --pairsb
+pair-level SB: 47 permutations, 17618 clauses
+SAT  recheck: 18 structural violations ['partner edge 0', 'partner edge 1', 'partner edge 2'], max codegree 3, lex violations 0, PH violations 0, pair-perm lex violations 0/47
+== 7 0 60 kissat --drop-c4
+SAT  recheck: 0 structural violations [], max codegree 4, lex violations 0, PH violations 12
+== 7 0 60 kissat --drop-c4 --ph --pairsb --slots
+pair-level SB: 23 permutations, 39194 clauses
+SAT  recheck: 0 structural violations [], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 0/23
+== 7 4 60 kissat --drop-c4 --ph --pairsb --check-only
+pair-level SB: 383 permutations, 0 clauses
+SAT  recheck: 0 structural violations [], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 217/383
+== 7 3 60 kissat --relax-pairs --drop-c4 --ph --pairsb
+pair-level SB: 47 permutations, 85586 clauses
+SAT  recheck: 26 structural violations ['partner edge 4', 'partner edge 8', 'partner edge 10'], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 0/47

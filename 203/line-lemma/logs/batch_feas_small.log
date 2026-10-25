@@ -1,0 +1,53 @@
+== feas N=5040 10:25:15
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 16  witnesses(≥1) 0  undecided 0
+== feas N=7920 10:29:42
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 16  witnesses(≥1) 0  undecided 0
+== feas N=10080 10:32:15
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 16  witnesses(≥1) 0  undecided 0
+== feas N=15120 10:38:04
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 15  witnesses(≥1) 0  undecided 0
+== feas N=15840 10:50:43
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 15  witnesses(≥1) 0  undecided 0
+== feas N=18480 10:58:28
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 12  witnesses(≥1) 0  undecided 0
+== feas N=20160 11:12:58
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 15  witnesses(≥1) 0  undecided 0
+== feas N=23760 11:23:52
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 14  witnesses(≥1) 0  undecided 0
+== feas N=25200 11:34:06
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 13  witnesses(≥1) 0  undecided 0
+== feas N=27720 11:48:54
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 12  witnesses(≥1) 0  undecided 0
+== feas N=30240 12:04:54
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 14  witnesses(≥1) 0  undecided 0
+== feas N=31680 12:19:40
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 15  witnesses(≥1) 0  undecided 0
+== feas N=35280 12:29:32
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 14  witnesses(≥1) 0  undecided 0
+== feas N=36960 12:38:57
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 11  witnesses(≥1) 0  undecided 0
+== feas N=39600 12:57:41
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 13  witnesses(≥1) 0  undecided 0
+== feas N=40320 13:11:38
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 14  witnesses(≥1) 0  undecided 0
+== feas N=41580 13:21:57
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 15  witnesses(≥1) 0  undecided 0
+== feas N=45360 13:30:41
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 14  witnesses(≥1) 0  undecided 0
+== feas N=46800 13:43:16
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 14  witnesses(≥1) 0  undecided 0
+== feas N=47520 13:50:47
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 14  witnesses(≥1) 0  undecided 0
+== feas N=50400 14:01:24
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 13  witnesses(≥1) 0  undecided 0
+== feas N=51480 14:17:17
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 14  witnesses(≥1) 0  undecided 0
+== feas N=55440 14:26:10
+  dirs 16  CP-SAT INFEASIBLE 13  HiGHS INFEASIBLE 4  witnesses(≥1) 3  undecided 0
+== feas N=60480 14:56:56
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 13  witnesses(≥1) 0  undecided 0
+== feas N=63360 15:10:56
+  dirs 16  CP-SAT INFEASIBLE 16  HiGHS INFEASIBLE 15  witnesses(≥1) 0  undecided 0
+== feas N=65520 15:18:20
+  dirs 16  CP-SAT INFEASIBLE 15  HiGHS INFEASIBLE 6  witnesses(≥1) 1  undecided 0
+BATCH feas-small DONE 15:49:47

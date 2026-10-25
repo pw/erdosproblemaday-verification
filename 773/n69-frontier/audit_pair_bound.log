@@ -1,0 +1,4 @@
+PASS bfile_sha256=dce8e0faa57f6373f1f9fa7e33afe1b1819723cf3a3535b1e4d94ad62d056916
+PASS supports=712 triples=21 quadruples=691
+PASS random_states=200 direct_pair_graph_equivalence
+PASS exact_independence_graphs=60 clique_cover_upper_bound

@@ -1,0 +1,27 @@
+k=7 j=0 relax=False sub01=True |W'|=4096 |P|=24 |H|=98304 trans-in-H=12/24 pairsb clauses=39194 mut=None
+RESULT: samples 23 (raw sample violating SB: 23), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 0
+27.93 s 719556 KB
+k=7 j=2 relax=False sub01=True |W'|=256 |P|=16 |H|=4096 trans-in-H=8/20 pairsb clauses=23010 mut=None
+RESULT: samples 23 (raw sample violating SB: 23), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 0
+6.03 s 145588 KB
+k=7 j=4 relax=False sub01=True |W'|=256 |P|=384 |H|=98304 trans-in-H=8/16 pairsb clauses=673154 mut=None
+RESULT: samples 15 (raw sample violating SB: 15), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 0
+26.60 s 820884 KB
+k=7 j=0 relax=False sub01=True |W'|=1296 |P|=24 |H|=31104 trans-in-H=12/24 pairsb clauses=39194 mut=None
+RESULT: samples 20 (raw sample violating SB: 20), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 0
+10.23 s 295388 KB
+k=7 j=3 relax=False sub01=True |W'|=1536 |P|=48 |H|=73728 trans-in-H=11/18 pairsb clauses=76946 mut=None
+RESULT: samples 20 (raw sample violating SB: 20), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 0
+19.89 s 569628 KB
+k=7 j=1 relax=False sub01=True |W'|=216 |P|=12 |H|=2592 trans-in-H=9/22 pairsb clauses=17798 mut=None
+RESULT: samples 20 (raw sample violating SB: 20), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 0
+5.93 s 138256 KB
+k=7 j=2 relax=False sub01=True |W'|=256 |P|=16 |H|=4096 trans-in-H=8/20 pairsb clauses=23010 mut=flip
+RESULT: samples 10 (raw sample violating SB: 10), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 10
+4.01 s
+k=7 j=2 relax=False sub01=True |W'|=256 |P|=16 |H|=4096 trans-in-H=8/20 pairsb clauses=23010 mut=revorder
+RESULT: samples 10 (raw sample violating SB: 10), lexmin-not-a-base-model 0, lexmin violating emitted SB clauses 10
+3.69 s
+k=7 j=2 relax=False sub01=True |W'|=256 |P|=16 |H|=4096 trans-in-H=8/20 pairsb clauses=23010 mut=flip
+RESULT: samples 4 (raw sample violating SB: 4), lexmin-not-a-base-model 0, orbits with NO member passing SB 3
+11.70 s

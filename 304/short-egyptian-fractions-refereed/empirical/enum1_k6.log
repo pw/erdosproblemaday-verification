@@ -1,0 +1,6 @@
+k=1 F=1 v=2 |D|=0 max_n_by_pos=[1] lean_bound_ok=True F<=k^(2^k-1):True v<=1+k^(2^(k-1)):True max_nk=1 sylvester_s_k-1=1 ok=True
+k=2 F=0 v=2 |D|=0 max_n_by_pos=[0, 0] lean_bound_ok=True F<=k^(2^k-1):True v<=1+k^(2^(k-1)):True max_nk=0 sylvester_s_k-1=2 ok=True
+k=3 F=1 v=4 |D|=3 max_n_by_pos=[2, 3, 6] lean_bound_ok=True F<=k^(2^k-1):True v<=1+k^(2^(k-1)):True max_nk=6 sylvester_s_k-1=6 ok=True
+k=4 F=6 v=11 |D|=15 max_n_by_pos=[2, 4, 10, 42] lean_bound_ok=True F<=k^(2^k-1):True v<=1+k^(2^(k-1)):True max_nk=42 sylvester_s_k-1=42 ok=True
+k=5 F=72 v=17 |D|=77 max_n_by_pos=[3, 5, 14, 78, 1806] lean_bound_ok=True F<=k^(2^k-1):True v<=1+k^(2^(k-1)):True max_nk=1806 sylvester_s_k-1=1806 ok=True
+k=6 F=2320 v=103 |D|=1152 max_n_by_pos=[3, 6, 20, 112, 3570, 3263442] lean_bound_ok=True F<=k^(2^k-1):True v<=1+k^(2^(k-1)):True max_nk=3263442 sylvester_s_k-1=3263442 ok=True

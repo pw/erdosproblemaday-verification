@@ -1,0 +1,25 @@
+source Golomb ruler: 10 marks, 45 distinct positive differences, PASS
+normalized witness: 0 1 6 10 23 26 34 41 53 55 97 99 111 118 126 129 142 146 151 152
+unordered pairs with diagonal: 210
+only repeated sum: 152, representations: 10
+translated witness lies in [1,153], only repeated sum: 154
+prior 19-point witness: diameter 134, only repeated sum 134 (10 reps), PASS
+direct-search positive control at diameter 152: sole repeat 152 (10 reps), PASS
+ALL WITNESS CHECKS PASSED
+first center=152
+witness=0 1 6 10 23 26 34 41 53 55 97 99 111 118 126 129 142 146 151 152
+repeated={152: 10}
+CASE 16 centers=88 found=0 orbit_nodes=211708354 complete_cores=27176695 valid_cores=27176695 extension_nodes=32545628
+CASE 15 centers=48 found=0 orbit_nodes=31521053 complete_cores=11169166 valid_cores=11169166 extension_nodes=26205666
+CASE 14 centers=103 found=0 orbit_nodes=196785814 complete_cores=109972454 valid_cores=109972454 extension_nodes=697583479
+CASE 17..20 whole-log coverage PASS
+DIRECT LOG COVERAGE PASSED
+core=20 direct=0 audit=0 MATCH
+core=19 direct=489 audit=489 MATCH
+core=18 direct=240837 audit=240837 MATCH
+core=17 direct=758979 audit=758979 MATCH
+core=16 direct=27176695 audit=27176695 MATCH
+core=15 direct=11169166 audit=11169166 MATCH
+core=14 direct=109972454 audit=109972454 MATCH
+ALL SEVEN VALID-CORE COUNTS MATCH
+ALL REPLAY CHECKS PASSED

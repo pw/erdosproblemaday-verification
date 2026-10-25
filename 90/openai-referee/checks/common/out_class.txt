@@ -1,0 +1,4 @@
+errors in paper's claims: 0 []
+CONTROL (union instead of intersection): violating pairs = 48 (must be > 0)
+tau-bound violations (paper's four bounds must be 0; CONTROL must be > 0): {'single': 0, 'row': 0, 'third': 0, 'corner': 0, 'CTRL single>=-4z': 19901}
+exit=0

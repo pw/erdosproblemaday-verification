@@ -1,0 +1,5 @@
+# erdos778 certificate n=4 mode=clique winner=bob aliceEdges=2 edges=6 edgeorder=lex(i<j) [ref778, no cutoffs]
+1 0 1 5
+5 34 3 4
+9 34 2 4
+17 34 2 3

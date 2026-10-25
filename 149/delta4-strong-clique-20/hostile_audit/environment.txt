@@ -1,0 +1,11 @@
+Audit timestamp: 2026-08-11T18:06:32Z
+Python: 3.12.3
+SymPy: 1.14.0
+NetworkX: 3.6.1
+sha256sum: GNU coreutils 9.4
+Platform: Linux x86_64, kernel 6.12.93
+
+Live page and forum were independently refetched through Bright Data.
+Fresh KMP, Faron-Postle, and Huang-Santana-Yu downloads were byte-identical to
+the reviewed bundle copies; the exact source hashes are recorded in the report
+and manifest.

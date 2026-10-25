@@ -1,0 +1,9 @@
+t2 rep0 masks.size=49 clauses=1329041 top=29764 same_as_lean_cnf=true | c VERIFIED | actions: add=1766381 del=870277 total=2636658 empty_adds=1 rat_adds=0 last_id=3095422 | header_actions=lrat_actions=2636658
+t2 rep1 masks.size=49 clauses=1329041 top=29764 same_as_lean_cnf=true | c VERIFIED | actions: add=2109217 del=1046584 total=3155801 empty_adds=1 rat_adds=0 last_id=3438258 | header_actions=lrat_actions=3155801
+t3 rep0 masks.size=49 clauses=1329041 top=29764 same_as_lean_cnf=true | c VERIFIED | actions: add=282553 del=152642 total=435195 empty_adds=1 rat_adds=0 last_id=1611594 | header_actions=lrat_actions=435195
+t3 rep1 masks.size=49 clauses=1329041 top=29764 same_as_lean_cnf=true | c VERIFIED | actions: add=437878 del=227217 total=665095 empty_adds=1 rat_adds=0 last_id=1766919 | header_actions=lrat_actions=665095
+t3 rep2 masks.size=49 clauses=1329041 top=29764 same_as_lean_cnf=true | c VERIFIED | actions: add=1078358 del=541313 total=1619671 empty_adds=1 rat_adds=0 last_id=2407399 | header_actions=lrat_actions=1619671
+t4 rep0 masks.size=49 clauses=1329041 top=29764 same_as_lean_cnf=true | c VERIFIED | actions: add=205019 del=111043 total=316062 empty_adds=1 rat_adds=0 last_id=1534060 | header_actions=lrat_actions=316062
+t4 rep1 masks.size=49 clauses=1329041 top=29764 same_as_lean_cnf=true | c VERIFIED | actions: add=671713 del=335996 total=1007709 empty_adds=1 rat_adds=0 last_id=2000754 | header_actions=lrat_actions=1007709
+t4 rep2 masks.size=49 clauses=1329041 top=29764 same_as_lean_cnf=true | c VERIFIED | actions: add=387823 del=204539 total=592362 empty_adds=1 rat_adds=0 last_id=1716864 | header_actions=lrat_actions=592362
+DONE

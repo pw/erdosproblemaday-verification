@@ -1,0 +1,13 @@
+IsJacobsthalBound MATCH
+   FC  : def IsJacobsthalBound (k m : ℕ) : Prop := ∀ n : ℕ, 0 < n → n.primeFactors.card ≤ k → ∀ a : ℤ, ∃ i : ℕ, i < m ∧ (a + i).natAbs.Coprime n
+   ours: def IsJacobsthalBound (k m : ℕ) : Prop := ∀ n : ℕ, 0 < n → n.primeFactors.card ≤ k → ∀ a : ℤ, ∃ i : ℕ, i < m ∧ (a + i).natAbs.Coprime n
+jacobsthalFunction MATCH
+   FC  : noncomputable def jacobsthalFunction (k : ℕ) : ℕ := sInf {m : ℕ | IsJacobsthalBound k m}
+   ours: noncomputable def jacobsthalFunction (k : ℕ) : ℕ := sInf {m : ℕ | IsJacobsthalBound k m}
+erdos_970 MATCH
+   FC  : theorem erdos_970 : ∃ C > (0 : ℝ), ∀ k : ℕ, 0 < k → (jacobsthalFunction k : ℝ) ≤ C * k ^ 2 := by
+   ours: theorem erdos_970 : ∃ C > (0 : ℝ), ∀ k : ℕ, 0 < k → (jacobsthalFunction k : ℝ) ≤ C * k ^ 2 := by
+erdos_970.variants.iterated_log MISMATCH
+   FC  : theorem erdos_970.variants.iterated_log : ∃ C > (0 : ℝ), ∀ k : ℕ, 0 < k → (jacobsthalFunction k : ℝ) ≤ C * k ^ 2 / (Real.log (Real.log (3 * k))) ^ 2 := by
+   ours: theorem erdos_970.variants.iterated_log : ∃ C > (0 : ℝ), ∀ k : ℕ, 0 < k → (jacobsthalFunction k : ℝ) ≤ C * k ^ 2 / (Real.log (Real.log (2 * k))) ^ 2 := by
+FC theorems: ['erdos_970', 'erdos_970.variants.iterated_log']

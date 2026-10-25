@@ -1,0 +1,2 @@
+/tmp/erdos160/itabe/lean-build/NegControl.lean:3:8: warning: declaration uses `sorry`
+'ErdosProblems.E160.negControl' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

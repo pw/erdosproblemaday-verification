@@ -1,0 +1,6 @@
+'Erdos507.erdos_507.lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos507.erdos_507.variants.lower_kps82' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos507.erdos_507.variants.lower_erdos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos507Bridge.eventually_alpha_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.Problem355.EveryN.every_large_n' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=6903312 wall=7s

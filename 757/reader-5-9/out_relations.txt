@@ -1,0 +1,20 @@
+K 0 points 11 relations 9 expected 9 cross-copy 0
+   [0, 49, 98]
+   [49, 75, 101]
+   [49, 83, 117]
+   [49, 159, 269]
+   [75, 98, 121]
+   [75, 117, 159]
+   [83, 101, 119]
+   [83, 121, 159]
+   [117, 119, 121]
+K 1 points 20 relations 18 expected 18 cross-copy 0
+  control: injected point creates 2 cross-copy relations (detected)
+K 3 points 38 relations 36 expected 36 cross-copy 0
+  control: injected point creates 2 cross-copy relations (detected)
+K 6 points 65 relations 63 expected 63 cross-copy 0
+  control: injected point creates 2 cross-copy relations (detected)
+K 10 points 101 relations 99 expected 99 cross-copy 0
+  control: injected point creates 2 cross-copy relations (detected)
+K 12 points 119 relations 117 expected 117 cross-copy 0
+  control: injected point creates 2 cross-copy relations (detected)

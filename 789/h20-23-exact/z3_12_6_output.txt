@@ -1,0 +1,2 @@
+(m=12,k=6) clauses=924 disjuncts=213444 -> sat in 11251.5s
+  counterexample candidate [1, 3, 4, 5, 6, 8, 9, 10, 12, 14, 15, 17]; every 6-subset bad: True

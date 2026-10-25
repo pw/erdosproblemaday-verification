@@ -1,0 +1,5 @@
+Hoffman-Singleton: n=50, degrees=[7], girth=5, C4-free=True
+encoding for (n,k,m)=(50,7,0): 18501 vars, 715680 clauses
+hard-coded layout entries contradicting H: 0
+CNF satisfied by the Hoffman-Singleton assignment: True
+ENCODING SOUND at full scale: it accepts a genuine 7-regular C4-free graph on 50 vertices.

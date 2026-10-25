@@ -1,0 +1,7 @@
+core=19 valid_cores=0
+core=18 valid_cores=1297
+core=17 valid_cores=22271
+core=16 valid_cores=1920748
+core=15 valid_cores=1565022
+core=14 valid_cores=22183488
+DIRECT/AUDIT VALID-CORE COUNTS: MATCH

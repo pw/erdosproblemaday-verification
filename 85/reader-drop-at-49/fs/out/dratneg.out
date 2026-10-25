@@ -1,0 +1,4 @@
+s UNSATISFIABLE
+dropped 220 clauses
+full formula:     s VERIFIED
+weakened formula: c WARNING: RAT check on proof pivot failed : [1854411] 190 -246 167 5 0 c RAT check failed on all possible pivots 

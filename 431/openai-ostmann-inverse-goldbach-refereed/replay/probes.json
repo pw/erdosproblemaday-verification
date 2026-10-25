@@ -1,0 +1,2 @@
+{"OstmannComplete": ["OAI.NumberTheory.Ostmann.Complete", ["OAI.Ostmann.inverseGoldbach", "OAI.Ostmann.twoInfiniteSummandsImpossible"], ["OAI.Ostmann.InverseGoldbach", "OAI.Ostmann.TwoInfiniteSummandsImpossible", "OAI.Ostmann.EventuallyPrimeSumset", "OAI.Ostmann.sumset", "OAI.Ostmann.primes"]],
+ "OstmannPrimes": ["OAI.NumberTheory.Ostmann.Main", ["OAI.Ostmann.main"], []]}

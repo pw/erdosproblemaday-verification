@@ -1,0 +1,9 @@
+posctl our35 5->4: (46, 275, 14143068, 10457416992)
+posctl 2->1 {18,19}? (expect None: 1/18+1/19 not unit) None
+posctl 2->1 {20,30} -> 1/12: None
+posctl 3->2 {30,45,63}: None
+r=6 fixed=[14143068, 10457416992] family=35960 sampled=35960 witnesses=0
+
+real	6m7.205s
+user	4m36.061s
+sys	0m1.420s

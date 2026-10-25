@@ -1,0 +1,3 @@
+tests: 62  max of h(u) - [sum h(a_r) + log m] = 0.0 (must be <= 0)
+control: bound WITHOUT the log m term is violated in 0 tests
+control x^2-x-1: h(phi)=0.2406, sum h(a_r)=0, +log 2 = 0.6931

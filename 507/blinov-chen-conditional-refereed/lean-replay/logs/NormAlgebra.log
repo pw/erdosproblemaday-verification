@@ -1,0 +1,4 @@
+'HeilbronnNorm.norm_orbit_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnNorm.norm_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnNorm.finite_field_norm_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1506048 wall=11s

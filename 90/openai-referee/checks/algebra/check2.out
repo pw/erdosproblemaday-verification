@@ -1,0 +1,11 @@
+det - (-4)(R1 m23 - R2 m13 + R3 m12) = 0
+control (wrong sign on R2 term): True
+collinear det = -2*(-R1*s2 + R2*s1)  (paper: 2(s2 R1 - s1 R2))
+L_l in zeta: -b*(zeta - 1)**2/zeta | minus paper's -b(zeta-1)^2/zeta: 0
+numerator of L-4 (up to sign): -b*zeta**2 + 2*b*zeta - b - 4*zeta | paper: b z^2+(4-2b)z+b -> 0
+discriminant: -16*(b - 1)
+control discriminant of b z^2+(4+2b)z+b: 16*(b + 1)
+b=1: L(L-4) - ((zeta^2-1)/zeta)^2 = 0
+b=2: is L(L-4) a square in Q(zeta)?  sqf: 4*(zeta - 1)**2*(zeta**2 + 1)/zeta**2
+L_m(s_l) - paper formula: 0
+line case L_l - e(z-a_l)^2 = 0

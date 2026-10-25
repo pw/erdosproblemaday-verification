@@ -1,0 +1,87 @@
+file=F_S36891214_eq_1e7_elems.u32 window=[1999999,9999998] L=8000000 bin width=1.25e-07  (peaks: 40 largest local maxima, sidelobes within 8 bins excluded, located exactly)
+  f=0.39571301727  1/f=2.5271   16.76%
+  f=0.45549844724  1/f=2.1954    9.75%
+  f=0.14878853549  1/f=6.7209    7.84%
+  f=0.05978542997  1/f=16.7265    5.52%
+  f=0.08900310563  1/f=11.2356    3.99%
+  f=0.20857396541  1/f=4.7945    2.79%
+  f=0.48471612278  1/f=2.0631    2.36%
+  f=0.24692448172  1/f=4.0498    1.51%
+  f=0.30670991154  1/f=3.2604    1.03%
+  f=0.33592758743  1/f=2.9768    0.98%
+  f=0.44636560449  1/f=2.2403    0.84%
+  f=0.15792137618  1/f=6.3323    0.73%
+  f=0.27614215755  1/f=3.6213    0.65%
+  f=0.17935628916  1/f=5.5755    0.51%
+  f=0.32814482475  1/f=3.0474    0.27%
+  f=0.09813594820  1/f=10.1899    0.25%
+  f=0.36649534239  1/f=2.7285    0.24%
+  f=0.12735362168  1/f=7.8522    0.24%
+  f=0.05065258398  1/f=19.7423    0.24%
+  f=0.36514526300  1/f=2.7386    0.20%
+  f=0.43406353470  1/f=2.3038    0.17%
+  f=0.21635672847  1/f=4.6220    0.15%
+  f=0.00913284195  1/f=109.4949    0.15%
+  f=0.28066146634  1/f=3.5630    0.15%
+  f=0.38658018077  1/f=2.5868    0.14%
+  f=0.31449266968  1/f=3.1797    0.13%
+  f=0.00778276116  1/f=128.4891    0.13%
+  f=0.29892715073  1/f=3.3453    0.12%
+  f=0.17483698290  1/f=5.7196    0.12%
+  f=0.25470723880  1/f=3.9261    0.12%
+  f=0.28527500487  1/f=3.5054    0.12%
+  f=0.01691560218  1/f=59.1170    0.11%
+  f=0.15657129837  1/f=6.3869    0.11%
+  f=0.17022344547  1/f=5.8746    0.11%
+  f=0.03056775393  1/f=32.7142    0.11%
+  f=0.26835939598  1/f=3.7263    0.11%
+  f=0.16570414068  1/f=6.0349    0.11%
+  f=0.41262861553  1/f=2.4235    0.11%
+  f=0.08765301408  1/f=11.4086    0.11%
+  f=0.49384896771  1/f=2.0249    0.10%
+variance in the 40 peaks (±3 bins): 77.64%  (random set of this density: ~0.0070%)
+  candidate generator f=0.45549844724 (nearest combination with |c|<=50: (34,), 10046.9 bins away)
+  peak f=0.14878853549 is on the module of the earlier generators: (-1, -1)·gens, residual 0.000 bin — NOT a new generator
+  peak f=0.05978542997 is on the module of the earlier generators: (-1, 1)·gens, residual 0.000 bin — NOT a new generator
+  peak f=0.08900310563 is on the module of the earlier generators: (0, -2)·gens, residual 0.001 bin — NOT a new generator
+  peak f=0.20857396541 is on the module of the earlier generators: (-2, 0)·gens, residual 0.000 bin — NOT a new generator
+  peak f=0.48471612278 is on the module of the earlier generators: (1, -2)·gens, residual 0.000 bin — NOT a new generator
+  peak f=0.24692448172 is on the module of the earlier generators: (2, 1)·gens, residual 0.001 bin — NOT a new generator
+  peak f=0.30670991154 is on the module of the earlier generators: (1, 2)·gens, residual 0.002 bin — NOT a new generator
+  peak f=0.33592758743 is on the module of the earlier generators: (2, -1)·gens, residual 0.001 bin — NOT a new generator
+  peak f=0.44636560449 is on the module of the earlier generators: (-3, -3)·gens, residual 0.016 bin — NOT a new generator
+  peak f=0.15792137618 is on the module of the earlier generators: (2, 3)·gens, residual 0.001 bin — NOT a new generator
+  peak f=0.27614215755 is on the module of the earlier generators: (3, -2)·gens, residual 0.002 bin — NOT a new generator
+  peak f=0.17935628916 is on the module of the earlier generators: (-3, 3)·gens, residual 0.006 bin — NOT a new generator
+  peak f=0.32814482475 is on the module of the earlier generators: (-4, 2)·gens, residual 0.005 bin — NOT a new generator
+  peak f=0.09813594820 is on the module of the earlier generators: (3, 2)·gens, residual 0.015 bin — NOT a new generator
+  peak f=0.36649534239 is on the module of the earlier generators: (0, 3)·gens, residual 0.005 bin — NOT a new generator
+  peak f=0.12735362168 is on the module of the earlier generators: (4, -1)·gens, residual 0.001 bin — NOT a new generator
+  peak f=0.05065258398 is on the module of the earlier generators: (-4, -3)·gens, residual 0.042 bin — NOT a new generator
+  peak f=0.36514526300 is on the module of the earlier generators: (3, -4)·gens, residual 0.001 bin — NOT a new generator
+  peak f=0.43406353470 is on the module of the earlier generators: (5, 1)·gens, residual 0.009 bin — NOT a new generator
+  peak f=0.21635672847 is on the module of the earlier generators: (4, -3)·gens, residual 0.009 bin — NOT a new generator
+  peak f=0.00913284195 is on the module of the earlier generators: (3, 4)·gens, residual 0.010 bin — NOT a new generator
+  peak f=0.28066146634 is on the module of the earlier generators: (-11, -3)·gens, residual 0.016 bin — NOT a new generator
+  peak f=0.38658018077 is on the module of the earlier generators: (-2, -4)·gens, residual 0.034 bin — NOT a new generator
+  peak f=0.31449266968 is on the module of the earlier generators: (7, -1)·gens, residual 0.032 bin — NOT a new generator
+  peak f=0.00778276116 is on the module of the earlier generators: (6, -3)·gens, residual 0.006 bin — NOT a new generator
+  peak f=0.29892715073 is on the module of the earlier generators: (-5, 5)·gens, residual 0.007 bin — NOT a new generator
+  peak f=0.17483698290 is on the module of the earlier generators: (11, 4)·gens, residual 0.032 bin — NOT a new generator
+  peak f=0.25470723880 is on the module of the earlier generators: (8, -2)·gens, residual 0.039 bin — NOT a new generator
+  peak f=0.28527500487 is on the module of the earlier generators: (6, 2)·gens, residual 0.054 bin — NOT a new generator
+  peak f=0.01691560218 is on the module of the earlier generators: (9, 1)·gens, residual 0.004 bin — NOT a new generator
+  peak f=0.15657129837 is on the module of the earlier generators: (5, -4)·gens, residual 0.008 bin — NOT a new generator
+  peak f=0.17022344547 is on the module of the earlier generators: (-6, -1)·gens, residual 0.029 bin — NOT a new generator
+  peak f=0.03056775393 is on the module of the earlier generators: (-2, 4)·gens, residual 0.004 bin — NOT a new generator
+  peak f=0.26835939598 is on the module of the earlier generators: (-3, 1)·gens, residual 0.004 bin — NOT a new generator
+  peak f=0.16570414068 is on the module of the earlier generators: (8, 0)·gens, residual 0.020 bin — NOT a new generator
+  peak f=0.41262861553 is on the module of the earlier generators: (10, 1)·gens, residual 0.035 bin — NOT a new generator
+  peak f=0.08765301408 is on the module of the earlier generators: (3, -9)·gens, residual 0.101 bin — NOT a new generator
+  peak f=0.49384896771 is on the module of the earlier generators: (4, 2)·gens, residual 0.033 bin — NOT a new generator
+  smallest integer relations among the candidates (bins, coefficients): [(753.751, (-31, -6)), (753.751, (31, 6)), (2541.689, (-24, 45))]
+Z-rank (relations scanned to |c|<=50): 2; generators [0.39571301727, 0.45549844724]
+peaks on the rank-2 module with |coef|<=6: 32/40 within 1 bin, 32/40 within 2 bins (chance per peak for one random frequency, 2 bins: 8.4e-05)
+  off-module peaks (f, bins away, nearest coefficients): [(0.28066147, 25353.84, (0, 5)), (0.31449267, 10800.66, (4, 6)), (0.17483698, 25353.83, (0, -4)), (0.25470724, 10800.67, (5, 5)), (0.0169156, 36154.49, (-5, 0)), (0.16570414, 36154.47, (-6, -1)), (0.41262862, 36154.52, (-4, 0)), (0.08765301, 10800.73, (0, -2))]
+variance within ±1 bin of the 84 distinct module points with |coef|<=6: 74.64%  (random: ~0.006%); off the module: 25.4%
+NOTE: a finite window cannot distinguish an irrational generator from a rational p/q with q beyond ~1/bin; and any statistic here is also the statistic of a periodic set of period >= the window.

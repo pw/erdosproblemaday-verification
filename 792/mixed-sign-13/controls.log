@@ -1,0 +1,7 @@
+RESULT n=13 k=0 t=6 engine=z3 prune=1 atoms=364 clauses=1716 status=unsat secs=51.6
+RESULT n=13 k=0 t=7 engine=z3 prune=1 atoms=364 clauses=1716 status=sat secs=5.4
+WITNESS k=0 ints=[60, 120, 124, 125, 127, 180, 240, 248, 250, 254, 300, 360, 480] sorted_nonzero_k_ok=True every_7_subset_covered=True alpha=6 => VALID COUNTEREXAMPLE (alpha<=6)
+RESULT n=13 k=3 t=7 engine=cvc5 prune=0 atoms=1014 clauses=1716 status=sat secs=260.7
+WITNESS k=3 ints=[-73, -72, -36, 4, 8, 12, 16, 20, 24, 32, 36, 40, 72] sorted_nonzero_k_ok=True every_7_subset_covered=True alpha=6 => VALID COUNTEREXAMPLE (alpha<=6)
+RESULT n=13 k=3 t=7 engine=z3 prune=1 atoms=334 clauses=1716 status=sat secs=27.5
+WITNESS k=3 ints=[-205, -164, -82, 30, 41, 60, 82, 90, 120, 123, 164, 246, 328] sorted_nonzero_k_ok=True every_7_subset_covered=True alpha=6 => VALID COUNTEREXAMPLE (alpha<=6)

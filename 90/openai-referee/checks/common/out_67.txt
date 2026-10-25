@@ -1,0 +1,9 @@
+PAPER (delta=1/100, lam=delta^2/2): min over 200010 exact rationals = 2.500000e-05 at rho=0.500000000000; lambda/2 = 2.500000e-05; holds=True
+value at rho=1/2 (exact): 1/40000  = lam/2 = 1/40000
+just outside interval: 0.000374990000079998  4delta^2-lam = 0.00035
+10 delta^2 < 1/4: True   margin lam/4 - 10delta^2 lam = 1.245e-05
+Prop 5.5 constant 4d^2 lam/(2(1/4-d^2)) <= 10 d^2 lam: True
+CONTROL c=1 inside: min over 200010 exact rationals = 0.000000e+00 at rho=0.500000000000; lambda/2 = 2.500000e-05; holds=False
+CONTROL lam=4delta^2: min over 200010 exact rationals = 1.999200e-04 at rho=0.489999999999; lambda/2 = 2.000000e-04; holds=False
+controls rejected: True
+exit=0

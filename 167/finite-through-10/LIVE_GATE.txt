@@ -1,0 +1,24 @@
+Erdos problem 167 live gate
+Accessed: 2026-08-12 UTC
+Transport: Bright Data cloud browser
+
+Problem URL: https://www.erdosproblems.com/167
+Discussion URL: https://www.erdosproblems.com/forum/thread/167?order=oldest
+
+Observed page state:
+- Open status; displayed classification: FALSIFIABLE
+- 1 comment on this problem
+- 0 claimed proofs for this problem
+- Interested in collaborating: None
+- Currently working on this problem: None
+- I am working on formalising the results on this problem: None
+
+The sole comment (msellke, 2025-10-12) notes Haxell's 1999 bound of
+(66/23)k < 2.87k. The page says it was updated to address that comment.
+There is no competing solution or current worker in the thread.
+
+Local collision scan on 2026-08-12:
+No integrated erdos167 run report, problemNum:167 site entry, or {n:167 ledger
+row was present. One old scratch-directory name occurred in an unrelated
+archived collision-scan JSON, but the directory no longer exists and no result
+from it was banked.

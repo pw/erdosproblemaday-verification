@@ -1,0 +1,9 @@
+factor complexity of E's gap word vs amount of data (suffixes ending at 1e7, i.e. same regime):
+  last   195271 gaps: p(10)=538, p(20)=2563, p(50)=20424, p(100)=101527   slope(10->100)=2.276   p(100)/#windows=0.520
+  last   390541 gaps: p(10)=612, p(20)=3352, p(50)=31490, p(100)=179749   slope(10->100)=2.468   p(100)/#windows=0.460
+  last   781081 gaps: p(10)=671, p(20)=3908, p(50)=42540, p(100)=296467   slope(10->100)=2.645   p(100)/#windows=0.380
+  last  1562162 gaps: p(10)=1774, p(20)=9442, p(50)=92639, p(100)=599636   slope(10->100)=2.529   p(100)/#windows=0.384
+random set density 0.156216 on [1,1e+07], fitted-density max|D| = 831
+random set density 0.156216 on [1,1e+07], fitted-density max|D| = 1406
+random set density 0.156216 on [1,1e+07], fitted-density max|D| = 904
+expected for Brownian bridge: 0.8687*sqrt(N p(1-p)) = {10000000: 997, 100000000: 3154}

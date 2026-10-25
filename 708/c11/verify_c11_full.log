@@ -1,0 +1,19 @@
+C11_FULL_AUDIT=PASS robust_representatives=18 exceptional_matchings=954 max_requirement_sum=228 k25_grid_profiles=107 k25_layer_cases=608 thresholds={(2, 2): 10, (3, 2): 9, (3, 3): 10}
+ROBUST K2,4 3 21 7
+ROBUST K3,3-e 7 27 6
+ROBUST q2-e9-balanced 5 40 9
+ROBUST q2-e9-unbalanced 12 42 7
+ROBUST q2-e10-3x5-a 57 55 13
+ROBUST q2-e10-3x5-b 57 56 13
+ROBUST q2-e10-3x5-c 135 59 9
+ROBUST q2-e10-4x4-a 89 67 13
+ROBUST q2-e10-4x4-b 45 64 14
+ROBUST q2-e10-4x4-c 103 67 12
+ROBUST q2-e10-4x4-d 145 70 12
+ROBUST q2-e10-4x4-e 177 71 11
+ROBUST q2-e10-4x4-f 197 69 10
+ROBUST q2-e10-4x4-g 231 68 9
+ROBUST K3,3 6 34 13
+ROBUST q3-e10-same-row 34 47 24
+ROBUST q3-e10-disjoint 45 50 21
+ROBUST q3-e10-same-column 6 47 25

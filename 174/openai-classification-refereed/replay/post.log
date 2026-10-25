@@ -1,0 +1,56 @@
+[2026-10-21T21:11:14Z] BEGIN cmpmod_EuclideanRamsey
+[2026-10-21T21:11:22Z] END cmpmod_EuclideanRamsey rc=0 8s
+[2026-10-21T21:11:22Z] BEGIN cmpmod_GrahamSpherical
+[2026-10-21T21:11:25Z] END cmpmod_GrahamSpherical rc=0 11s
+[2026-10-21T21:11:25Z] BEGIN cmpmod_EuclideanRamseyCircle
+[2026-10-21T21:11:33Z] END cmpmod_EuclideanRamseyCircle rc=0 19s
+[2026-10-21T21:11:33Z] BEGIN cmpmod_EuclideanRamseyNine
+[2026-10-21T21:11:40Z] END cmpmod_EuclideanRamseyNine rc=0 26s
+[2026-10-21T21:11:40Z] BEGIN cmpmod_EuclideanRamseyQuadratic
+[2026-10-21T21:11:48Z] END cmpmod_EuclideanRamseyQuadratic rc=0 34s
+[2026-10-21T21:11:48Z] BEGIN cmpmod_EuclideanRamseySpherical
+[2026-10-21T21:11:56Z] END cmpmod_EuclideanRamseySpherical rc=0 42s
+[2026-10-21T21:11:56Z] BEGIN cmpmod_EuclideanRamseyTransitive
+[2026-10-21T21:12:03Z] END cmpmod_EuclideanRamseyTransitive rc=0 49s
+[2026-10-21T21:12:03Z] BEGIN cmp_EuclideanRamsey
+[2026-10-21T21:12:10Z] END cmp_EuclideanRamsey rc=0 56s
+[2026-10-21T21:12:10Z] BEGIN ax_EuclideanRamsey
+[2026-10-21T21:12:17Z] END ax_EuclideanRamsey rc=0 63s
+[2026-10-21T21:12:17Z] BEGIN cmp_GrahamSpherical
+[2026-10-21T21:12:21Z] END cmp_GrahamSpherical rc=0 67s
+[2026-10-21T21:12:21Z] BEGIN ax_GrahamSpherical
+[2026-10-21T21:12:24Z] END ax_GrahamSpherical rc=0 70s
+[2026-10-21T21:12:24Z] BEGIN cmp_EuclideanRamseyCircle
+[2026-10-21T21:12:30Z] END cmp_EuclideanRamseyCircle rc=0 76s
+[2026-10-21T21:12:30Z] BEGIN ax_EuclideanRamseyCircle
+[2026-10-21T21:12:36Z] END ax_EuclideanRamseyCircle rc=0 82s
+[2026-10-21T21:12:36Z] BEGIN cmp_EuclideanRamseyNine
+[2026-10-21T21:12:43Z] END cmp_EuclideanRamseyNine rc=0 89s
+[2026-10-21T21:12:43Z] BEGIN ax_EuclideanRamseyNine
+[2026-10-21T21:12:50Z] END ax_EuclideanRamseyNine rc=0 96s
+[2026-10-21T21:12:50Z] BEGIN cmp_EuclideanRamseyQuadratic
+[2026-10-21T21:12:57Z] END cmp_EuclideanRamseyQuadratic rc=0 103s
+[2026-10-21T21:12:57Z] BEGIN ax_EuclideanRamseyQuadratic
+[2026-10-21T21:13:04Z] END ax_EuclideanRamseyQuadratic rc=0 110s
+[2026-10-21T21:13:04Z] BEGIN cmp_EuclideanRamseySpherical
+[2026-10-21T21:13:10Z] END cmp_EuclideanRamseySpherical rc=0 116s
+[2026-10-21T21:13:10Z] BEGIN ax_EuclideanRamseySpherical
+[2026-10-21T21:13:17Z] END ax_EuclideanRamseySpherical rc=0 123s
+[2026-10-21T21:13:17Z] BEGIN cmp_EuclideanRamseyTransitive
+[2026-10-21T21:13:23Z] END cmp_EuclideanRamseyTransitive rc=0 129s
+[2026-10-21T21:13:23Z] BEGIN ax_EuclideanRamseyTransitive
+[2026-10-21T21:13:30Z] END ax_EuclideanRamseyTransitive rc=0 136s
+[2026-10-21T21:13:30Z] BEGIN neg
+[2026-10-21T21:13:36Z] END neg rc=0 142s
+[2026-10-21T21:13:36Z] statement_match: ALL_MATCH_STD_SORRYSEEN EuclideanRamsey: 11 MATCH / 0 MISMATCH GrahamSpherical: 13 MATCH / 0 MISMATCH EuclideanRamseyCircle: 4 MATCH / 0 MISMATCH EuclideanRamseyNine: 5 MATCH / 0 MISMATCH EuclideanRamseyQuadratic: 8 MATCH / 0 MISMATCH EuclideanRamseySpherical: 4 MATCH / 0 MISMATCH EuclideanRamseyTransitive: 4 MATCH / 0 MISMATCH 
+[2026-10-21T21:17:14Z] BEGIN lcall_compile
+[2026-10-21T21:17:21Z] END lcall_compile rc=0 7s
+[2026-10-21T21:17:21Z] BEGIN leanchecker_fresh
+[2026-10-21T21:30:31Z] BEGIN leanchecker_fresh_fc
+[2026-10-21T21:43:37Z] BEGIN leanchecker_fresh_fc
+[2026-10-21T22:17:24Z] END leanchecker_fresh rc=0 3610s
+[2026-10-21T22:17:24Z] BEGIN leanchecker_missing_control
+[2026-10-21T22:17:25Z] END leanchecker_missing_control rc=1 3611s
+[2026-10-21T22:17:25Z] LEANCHECKER DONE
+[2026-10-21T22:42:53Z] END leanchecker_fresh_fc rc=0 3556s
+[2026-10-21T22:42:53Z] LEANCHECKER FC DONE

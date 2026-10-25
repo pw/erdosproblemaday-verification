@@ -1,0 +1,45 @@
+[2026-10-22T12:22:34Z] BEGIN cmpmod_PowerFreeValues
+[2026-10-22T12:22:40Z] END cmpmod_PowerFreeValues rc=0 6s
+[2026-10-22T12:22:40Z] BEGIN cmp_PowerFreeValues
+[2026-10-22T12:22:48Z] END cmp_PowerFreeValues rc=0 14s
+[2026-10-22T12:22:48Z] BEGIN ax_PowerFreeValues
+[2026-10-22T12:22:54Z] END ax_PowerFreeValues rc=0 20s
+[2026-10-22T12:22:54Z] BEGIN neg
+[2026-10-22T12:23:00Z] END neg rc=0 26s
+[2026-10-22T12:23:00Z] statement_match: ALL_MATCH_STD_SORRYSEEN PowerFreeValues: 8 MATCH / 0 MISMATCH 
+[2026-10-22T12:23:07Z] BEGIN bridge_compile
+[2026-10-22T12:23:14Z] END bridge_compile rc=1 608s
+[2026-10-22T12:23:14Z] BEGIN bridge_axioms
+[2026-10-22T12:23:14Z] END bridge_axioms rc=1 608s
+[2026-10-22T12:23:14Z] BEGIN mut_sorry_compile
+[2026-10-22T12:23:22Z] END mut_sorry_compile rc=1 616s
+[2026-10-22T12:23:22Z] BEGIN mut_sorry_axioms
+[2026-10-22T12:23:22Z] END mut_sorry_axioms rc=1 616s
+[2026-10-22T12:23:22Z] BEGIN mut_exp
+[2026-10-22T12:23:22Z] END mut_exp rc=1 616s
+[2026-10-22T12:23:22Z] BEGIN mut_nolocal
+[2026-10-22T12:23:22Z] END mut_nolocal rc=1 616s
+[2026-10-22T12:23:22Z] BEGIN leanchecker_fresh
+[2026-10-22T12:23:24Z] END leanchecker_fresh rc=1 618s
+[2026-10-22T12:23:24Z] BEGIN leanchecker_missing_control
+[2026-10-22T12:23:26Z] END leanchecker_missing_control rc=1 620s
+[2026-10-22T12:23:26Z] LEANCHECKER DONE
+[2026-10-22T12:24:01Z] NOTE first bridge pass void: Bridge978.lean failed to compile (Nat.Prime vs Prime; missing open) — mutants and leanchecker in that pass ran against a missing olean; fixed and re-run
+[2026-10-22T12:24:01Z] BEGIN bridge_compile
+[2026-10-22T12:24:10Z] END bridge_compile rc=0 9s
+[2026-10-22T12:24:10Z] BEGIN bridge_axioms
+[2026-10-22T12:24:17Z] END bridge_axioms rc=0 16s
+[2026-10-22T12:24:17Z] BEGIN mut_sorry_compile
+[2026-10-22T12:24:25Z] END mut_sorry_compile rc=1 24s
+[2026-10-22T12:24:25Z] BEGIN mut_sorry_axioms
+[2026-10-22T12:24:25Z] END mut_sorry_axioms rc=1 24s
+[2026-10-22T12:24:25Z] BEGIN mut_exp
+[2026-10-22T12:24:32Z] END mut_exp rc=1 31s
+[2026-10-22T12:24:32Z] BEGIN mut_nolocal
+[2026-10-22T12:24:38Z] END mut_nolocal rc=1 37s
+[2026-10-22T12:24:38Z] BEGIN leanchecker_fresh
+[2026-10-22T12:25:07Z] mut_sorry re-run by hand on the fixed bridge (first copy was generated pre-fix): compile rc=0 axioms rc=0
+[2026-10-22T13:23:00Z] END leanchecker_fresh rc=0 3539s
+[2026-10-22T13:23:00Z] BEGIN leanchecker_missing_control
+[2026-10-22T13:23:01Z] END leanchecker_missing_control rc=1 3540s
+[2026-10-22T13:23:01Z] LEANCHECKER DONE

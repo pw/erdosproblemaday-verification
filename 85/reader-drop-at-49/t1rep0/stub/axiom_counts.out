@@ -1,0 +1,3 @@
+Erdos85.not_c4FreeMinDegreeWitness_fortyNine_seven_of_h1_h7Evidence total 601 native_decide 597 other ['Classical.choice', 'Erdos85.erdos85_t1rep0_cnf_unsat_checked_externally', 'Quot.sound', 'propext'] False
+Erdos85.minDegreeForC4_fortyEight_fortyNine_exact_of_h1_h7Evidence total 607 native_decide 603 other ['Classical.choice', 'Erdos85.erdos85_t1rep0_cnf_unsat_checked_externally', 'Quot.sound', 'propext'] False
+Erdos85.minDegreeForC4_fortyNine_lt_fortyEight_of_h1_h7Evidence total 604 native_decide 600 other ['Classical.choice', 'Erdos85.erdos85_t1rep0_cnf_unsat_checked_externally', 'Quot.sound', 'propext'] False

@@ -1,0 +1,15 @@
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveCoefficientBounds.lean:10:18: warning: unused variable `hK`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveCoefficientBounds.lean:37:9: warning: unused variable `hcast`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveCoefficientBounds.lean:42:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveCoefficientBounds.lean:67:9: warning: unused variable `hk`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveCoefficientBounds.lean:74:68: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveCoefficientBounds.lean:82:7: warning: unused variable `hb`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+'HeilbronnFive.determinant_coefficient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.determinant_balanced_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1289212 wall=6s

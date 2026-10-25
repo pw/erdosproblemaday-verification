@@ -1,0 +1,1 @@
+10:2xZ: first 2 emissions read MISMATCH because lean --run printed 340 bytes of deprecation warnings to stdout before the header (our instrument); stripped → both MATCH (67a6f4128d101b8c 162b06e6…, b953a73b0e372480 07d61f0f…). Harness patched to strip and keep the prefix in <tag>.prefix.txt.

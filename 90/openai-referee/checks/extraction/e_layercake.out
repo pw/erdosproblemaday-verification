@@ -1,0 +1,5 @@
+layer cake:  E_E[min 1_T] = 481/343  int P_E(F_u,G_u) du = 481/343  equal: True
+int mu(F_u) = 59/7 = A_t = 59/7 : True  ; int kappa(G_u) = 1342/343 = E_kappa H_q = 1342/343 : True
+int sqrt(h_P h_Q) du = 3.9208 <= sqrt(A E_k H_q) = 5.7426 : True
+P(q != q' | p) = 16/17 = 1 - 1/d(p) = 16/17 : True
+CONTROL F_u={H_p>u} (no tail restriction): 620/343 != lhs: True

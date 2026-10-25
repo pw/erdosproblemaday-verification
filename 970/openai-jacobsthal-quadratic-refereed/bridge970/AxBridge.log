@@ -1,0 +1,2 @@
+'Erdos970.erdos_970' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos970.erdos_970.variants.iterated_log' depends on axioms: [propext, Classical.choice, Quot.sound]

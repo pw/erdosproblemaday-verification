@@ -1,0 +1,1 @@
+{"n": 8, "metric": "clique", "batches": "1:2", "winner": "Bob", "states": 547700, "canonical_inputs": 7401327, "children": 10122086, "bound_true": 101757, "bound_false": 10142, "seconds": 2490.717244935222, "symmetry": true, "elapsed_s": 2490.7, "maxrss_kib": 2402104}

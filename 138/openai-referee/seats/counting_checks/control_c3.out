@@ -1,0 +1,1 @@
+C3: s=10 planes in R^3: exact realized=1161 (generic-position formula 1161); misapplied e=2 bound 9(s+1)^2=1089 -> violated=True; correct e=3 bound (e+1)^2(s+1)^e=21296 holds=True   [14.6s]

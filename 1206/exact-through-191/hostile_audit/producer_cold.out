@@ -1,0 +1,51 @@
+N=132..133: tau=21, upper witness at 133 checked; pairs=8911, groups=8844, collision_edges=67, retained=112
+N=134..137: tau=22, upper witness at 137 checked; pairs=9453, groups=9381, collision_edges=72, retained=115
+N=138..143: tau=23, upper witness at 143 checked; pairs=10296, groups=10220, collision_edges=76, retained=120
+N=144..155: tau=24, upper witness at 155 checked; pairs=12090, groups=12005, collision_edges=85, retained=131
+N=156..160: tau=25, upper witness at 160 checked; pairs=12880, groups=12788, collision_edges=92, retained=135
+N=161..164: tau=26, upper witness at 164 checked; pairs=13530, groups=13434, collision_edges=96, retained=138
+N=165..165: tau=27, upper witness at 165 checked; pairs=13695, groups=13595, collision_edges=100, retained=138
+N=166..171: tau=28, upper witness at 171 checked; pairs=14706, groups=14601, collision_edges=105, retained=143
+N=172..173: tau=29, upper witness at 173 checked; pairs=15051, groups=14943, collision_edges=108, retained=144
+N=174..179: tau=30, upper witness at 179 checked; pairs=16110, groups=15995, collision_edges=115, retained=149
+N=180..185: tau=31, upper witness at 185 checked; pairs=17205, groups=17085, collision_edges=120, retained=154
+N=186..191: tau=32, upper witness at 191 checked; pairs=18336, groups=18212, collision_edges=124, retained=159
+N=191 canonical edge audit: pairs=18336, sums=18212, collision_groups=124, edges=124, active_vertices=164, digest=644dadc2aa52bddd902f03811acff745e129add6406fac5a09be5099852fb081
+ARITHMETIC AND UPPER-CERTIFICATE AUDIT PASSED
+N=132..133 tau=21 g3(N)=N-21 lower_edges=67 upper_edges=67 exhaustive_calls=18375 seconds=0.15072
+N=134..137 tau=22 g3(N)=N-22 lower_edges=69 upper_edges=72 exhaustive_calls=43410 seconds=0.353259
+N=138..143 tau=23 g3(N)=N-23 lower_edges=73 upper_edges=76 exhaustive_calls=482943 seconds=3.72109
+N=144..155 tau=24 g3(N)=N-24 lower_edges=78 upper_edges=85 exhaustive_calls=1674290 seconds=12.8027
+N=156..160 tau=25 g3(N)=N-25 lower_edges=88 upper_edges=92 exhaustive_calls=245340 seconds=2.35469
+N=161..164 tau=26 g3(N)=N-26 lower_edges=93 upper_edges=96 exhaustive_calls=887999 seconds=8.55807
+N=165..165 tau=27 g3(N)=N-27 lower_edges=100 upper_edges=100 exhaustive_calls=1296314 seconds=13.6149
+N=166..171 tau=28 g3(N)=N-28 lower_edges=101 upper_edges=105 exhaustive_calls=2617110 seconds=28.7441
+N=172..173 tau=29 g3(N)=N-29 lower_edges=108 upper_edges=108 exhaustive_calls=1019912 seconds=14.1893
+N=174..179 tau=30 g3(N)=N-30 lower_edges=110 upper_edges=115 exhaustive_calls=1456024 seconds=21.2785
+N=180..185 tau=31 g3(N)=N-31 lower_edges=118 upper_edges=120 exhaustive_calls=956841 seconds=15.9495
+N=186..191 tau=32 g3(N)=N-32 lower_edges=122 upper_edges=124 exhaustive_calls=2194933 seconds=37.8014
+FINAL N=191 pairs=18336 sums=18212 collision_groups=124 edges=124 max_representations=2
+ALL CHECKS PASSED; exact table g3(N) for 132<=N<=191; exhaustive_calls=12893491 seconds=164.247
+	Command being timed: "./verify.sh"
+	User time (seconds): 166.40
+	System time (seconds): 0.47
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:47.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 183580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 105503
+	Voluntary context switches: 26
+	Involuntary context switches: 3068
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 584
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,18 @@
+build 0 41/41 failed=
+cmpmod_GaussianMoat 0 7
+cmp_GaussianMoat 0 6
+ax_GaussianMoat 0 6
+neg 0 6
+statement_match 0 0
+bridge_compile 0 8
+bridge_axioms 0 6
+mut_sorry_compile 1 6
+mut_sorry_axioms 1 0
+mut_step 1 7
+mut_noinj 1 6
+mut_sorry_compile_v2 0 10
+mut_sorry_axioms_v2 0 6
+mut_step_v2 1 7
+mut_noinj_v2 1 6
+leanchecker_fresh 0 3479
+leanchecker_missing_control 1 2

@@ -1,0 +1,13 @@
+build 0 182/182 failed=
+cmpmod 0 7
+smoke 0 1
+cmp 0 7
+ax 0 6
+neg 0 6
+typectl 1 6
+pos44 0 6
+bridge 0 7
+bridge_wrongshape 1 6
+bridge_mut 1 6
+leanchecker_fresh 0 11486
+leanchecker_missing_control 1 2

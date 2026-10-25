@@ -1,0 +1,10 @@
+(a) triangle: every admissible palette (|P|<=2) meets the outside pair: True
+    four-cycle: admissible palette contains X or is exactly a diagonal: True
+    five-cycle: admissible palettes == the five diagonals: True
+    D_i ∩ D_j = ∅  <=>  j = i±1: True
+    label outside D_i ∪ D_{i+1} is unique (= i+4): True
+(b) five-cycle lists with constraints of Sec 6.3.4 + Lemma 6.7 bans: #(S0,S3) admitting a full assignment = 0
+    CONTROL without Lemma 6.7 bans: #(S0,S3) admitting a full assignment = 40 ; example (S0..S5): ([0, 1], [2, 4], [0, 3], [1, 2], [0, 3], [2, 4])
+(c) max |finite-difference velocity - V_H formula| = 4.78e-09;  CONTROL sign-flipped formula: 9.66
+(d) SIX labels: complement of a palette triple has size 3 (Prop 5.6 needs 2); triangle outside set has size 3 ; admissible |P|<=2 palettes all meet ONE fixed pair? False
+[wall 0.50 s, maxRSS 34612 kB]

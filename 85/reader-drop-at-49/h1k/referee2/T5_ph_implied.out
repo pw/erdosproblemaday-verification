@@ -1,0 +1,11 @@
+k=5 j=0 relax=False codegree-premise=True negation=indep: SAT in 0 of 90 (w,Y)
+k=5 j=0 relax=False codegree-premise=True negation=theirs: SAT in 0 of 90 (w,Y)
+k=5 j=0 relax=False codegree-premise=False negation=indep: SAT in 78 of 90 (w,Y)
+k=5 j=0 relax=False codegree-premise=False negation=theirs: SAT in 78 of 90 (w,Y)
+1.24 s
+Command exited with non-zero status 124
+115.00 s
+Command exited with non-zero status 124
+115.01 s
+Command exited with non-zero status 124
+115.05 s

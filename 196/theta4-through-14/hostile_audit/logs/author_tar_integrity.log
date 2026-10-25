@@ -1,0 +1,23 @@
++ set -euo pipefail
+++ mktemp -d -t audit196-tar.XXXXXX
++ tmp=/tmp/audit196-tar.AOXuS3
++ tar -xzf /home/exedev/erdos_scratch/fresh9_erdos196_20260811/erdos196_finite_frontier_bundle_20260811.tar.gz -C /tmp/audit196-tar.AOXuS3
++ diff -qr /home/exedev/erdos_scratch/fresh9_erdos196_20260811/bundle_ro /tmp/audit196-tar.AOXuS3/bundle_ro
++ echo tar_vs_bundle_diff_exit=0
+tar_vs_bundle_diff_exit=0
++ cd /tmp/audit196-tar.AOXuS3/bundle_ro
++ sha256sum --quiet -c MANIFEST.sha256
++ echo extracted_manifest_exit=0
+extracted_manifest_exit=0
+++ find /tmp/audit196-tar.AOXuS3/bundle_ro -type l
+++ wc -l
++ echo extracted_symlink_count=0
+extracted_symlink_count=0
+++ find /tmp/audit196-tar.AOXuS3/bundle_ro -type f
+++ wc -l
++ echo extracted_regular_count=38
+extracted_regular_count=38
++ chmod -R u+w /tmp/audit196-tar.AOXuS3
++ find /tmp/audit196-tar.AOXuS3 -depth -delete
++ echo cleanup_after_readonly_extract=PASS
+cleanup_after_readonly_extract=PASS

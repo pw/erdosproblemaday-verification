@@ -1,0 +1,7 @@
+L = 8^4 = 4096
+[Q-controller, own rule distinct] Lemma2 (S0,S1,S2) exact on [0,L): [True, True, True]; gate violations q in [2,L): [0, 0, 0]
+[Q-controller, WRONG rule] gate violations: [4, 4, 3], first offending q: [4, 2, 9]
+[D-controller, own rule equal-allowed] Lemma2' (S0,S1,S2) exact on [0,L): [True, True, True]; gate violations q in [2,L): [0, 0, 0]
+[D-controller, WRONG rule] gate violations: [4, 4, 3], first offending q: [6, 2, 15]
+[Q] one-endpoint mutations (Y0..Y2, k=0..3, lo/hi, +-1): 48 tried, 3 survive all three gates: [(0, 0, 'lo', -1), (1, 3, 'hi', -1), (1, 3, 'hi', 1)]
+[D] one-endpoint mutations (Y0..Y2, k=0..3, lo/hi, +-1): 44 tried, 2 survive all three gates: [(0, 0, 'lo', -1), (2, 3, 'hi', 1)]

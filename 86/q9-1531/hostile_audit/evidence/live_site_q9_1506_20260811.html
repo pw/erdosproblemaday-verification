@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Erdős #86: a 1,506-edge C4-free subgraph of Q9 — Erdős Problem a Day</title>
+<meta name="description" content="An explicit subgraph of the 9-dimensional cube has 1,506 edges and no 4-cycle, proving ex(Q9,C4)&gt;=1,506. Exhaustive face and common-neighbour checks certify the graph, which improves the identified public 1,505-edge certificate by one. This is a finite lower bound, not an exact value or asymptotic result.">
+<link rel="canonical" href="https://erdosproblemaday.com/day/86-hypercube-q9-1506">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:title" content="Erdős #86: a 1,506-edge C4-free subgraph of Q9 — Erdős Problem a Day">
+<meta property="og:description" content="An explicit subgraph of the 9-dimensional cube has 1,506 edges and no 4-cycle, proving ex(Q9,C4)&gt;=1,506. Exhaustive face and common-neighbour checks certify the graph, which improves the identified public 1,505-edge certificate by one. This is a finite lower bound, not an exact value or asymptotic result.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://erdosproblemaday.com/day/86-hypercube-q9-1506">
+<meta property="og:image" content="https://erdosproblemaday.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://erdosproblemaday.com/og-image.jpg">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DTKRWBYKMH"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-DTKRWBYKMH');
+</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Teko:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+  --bg-base: #050507; --bg-panel: #111216; --bg-panel-hover: #18191e;
+  --border-dim: #2a2d36;
+  --text-main: #d1d5db; --text-muted: #8b92a5; --text-bright: #ffffff;
+  --gold: #ffb703; --gold-glow: rgba(255, 183, 3, 0.6);
+  --blue: #00f0ff; --blue-glow: rgba(0, 240, 255, 0.6);
+  --green: #39ff88; --green-glow: rgba(57, 255, 136, 0.5);
+  --red: #ff0055; --red-glow: rgba(255, 0, 85, 0.5);
+  --gray: #6b7280;
+  --amber: #ff8a33; --amber-glow: rgba(255,138,51,.5);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; font-family: 'Rajdhani', sans-serif;
+  background-color: var(--bg-base); color: var(--text-main); line-height: 1.55;
+  background-image:
+    linear-gradient(rgba(17,18,22,.8) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17,18,22,.8) 1px, transparent 1px);
+  background-size: 40px 40px; background-position: center top; background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, .font-display { font-family: 'Teko', sans-serif; text-transform: uppercase; line-height: 1; color: var(--text-bright); font-weight: 600; }
+.mono { font-family: 'JetBrains Mono', monospace; }
+a { color: var(--gold); }
+.wrap { max-width: 900px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+
+header.site { display: flex; align-items: center; justify-content: space-between; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-dim); margin-bottom: 2.5rem; flex-wrap: wrap; gap: .75rem; }
+header.site .mark { font-family: 'Teko', sans-serif; font-size: 1.8rem; font-weight: 600; letter-spacing: 1px; text-decoration: none; color: var(--text-bright); text-transform: uppercase; }
+header.site .mark .gold { color: var(--gold); text-shadow: 0 0 12px var(--gold-glow); }
+header.site nav a { font-family: 'Rajdhani',sans-serif; color: var(--text-muted); text-decoration: none; margin-left: 1.5rem; font-size: .95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+header.site nav a:hover { color: var(--blue); }
+header.site .nav-toggle {
+  display: none; background: none; border: 1px solid var(--border-dim); color: var(--text-bright);
+  font-size: 1.3rem; line-height: 1; padding: .3rem .65rem; border-radius: 4px; cursor: pointer;
+}
+header.site .nav-toggle:hover { color: var(--blue); border-color: var(--blue); }
+
+.hero { text-align: left; margin-bottom: 2.5rem; }
+.kicker { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--blue); border: 1px solid var(--blue); background: rgba(0,240,255,.06); padding: .3rem .7rem; border-radius: 2px; margin-bottom: 1.2rem; }
+h1.hero-h1 { font-size: clamp(2.6rem, 7vw, 4.2rem); letter-spacing: -.5px; margin: 0 0 1.1rem; }
+h1.hero-h1 .gold { color: var(--gold); text-shadow: 0 0 20px var(--gold-glow), 0 0 40px var(--gold); }
+.hero-sub { font-family: 'Rajdhani', sans-serif; font-size: 1.15rem; font-weight: 500; color: var(--text-muted); max-width: 62ch; margin: 0 0 1.5rem; }
+.hero-links { display: flex; gap: 1.5rem; flex-wrap: wrap; font-family: 'Rajdhani',sans-serif; font-weight: 700; font-size: .95rem; text-transform: uppercase; letter-spacing: .5px; }
+.hero-links a { text-decoration: none; color: var(--gold); }
+.hero-links a:hover { text-decoration: underline; }
+
+.stats-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px,1fr)); gap: 2px; background: var(--border-dim); border: 1px solid var(--border-dim); margin: 2rem 0; transform: skewX(-5deg); }
+.stat-box { background: var(--bg-panel); padding: 1.5rem 1rem; text-align: center; transform: skewX(5deg); }
+.stat-value { font-family: 'Teko', sans-serif; font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 600; color: var(--text-bright); line-height: 1; }
+.stat-label { font-family: 'JetBrains Mono', monospace; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--text-muted); margin-top: .3rem; }
+.stat-closed .stat-value { color: var(--gold); text-shadow: 0 0 15px var(--gold-glow); }
+.stat-closedbyus .stat-value { color: var(--gold); text-shadow: 0 0 15px var(--gold-glow); }
+.stat-closedbyus .stat-label { color: var(--text-muted); }
+.stat-confirmed .stat-value { color: var(--green); text-shadow: 0 0 15px var(--green-glow); }
+.stat-refuted .stat-value { color: var(--red); text-shadow: 0 0 15px var(--red-glow); }
+.stat-noproof .stat-value { color: var(--gray); }
+.stat-live { position: relative; overflow: hidden; }
+.stat-live::before { content: ''; position: absolute; top:0; left:0; right:0; height:2px; background: var(--blue); box-shadow: 0 0 10px var(--blue); }
+.stat-live .stat-value { color: var(--blue); text-shadow: 0 0 15px var(--blue-glow); animation: pulse-text 2s infinite; }
+.stat-live .stat-label { color: var(--text-bright); }
+.stat-box { cursor: pointer; }
+.stat-box:hover { background: var(--bg-panel-hover); }
+.stat-box:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+.stat-box.active { outline: 2px solid var(--gold); outline-offset: -3px; background: var(--bg-panel-hover); box-shadow: inset 0 0 26px rgba(255,183,3,.10); }
+.stat-box.active .stat-label { color: var(--text-bright); }
+.stat-partial .stat-value { color: var(--amber); text-shadow: 0 0 15px var(--amber-glow); }
+.stat-partial { position: relative; overflow: hidden; }
+.stat-partial::before { content: ''; position: absolute; top:0; left:0; right:0; height:2px; background: var(--amber); box-shadow: 0 0 10px var(--amber); }
+.stat-tackled .stat-value { color: var(--text-bright); }
+.filter-hint { font-family: 'JetBrains Mono', monospace; font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; color: var(--text-muted); text-align: center; margin: -1.1rem 0 1.7rem; transform: skewX(-5deg); opacity: .85; }
+.filter-bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; font-family: 'JetBrains Mono', monospace; font-size: .76rem; letter-spacing: .08em; text-transform: uppercase; color: var(--amber); border: 1px solid var(--amber); background: rgba(255,138,51,.07); padding: .6rem 1rem; margin: 0 0 1.1rem; transform: skewX(-5deg); box-shadow: 0 0 18px rgba(255,138,51,.12); }
+.filter-bar[hidden] { display: none; }
+.filter-bar > * { transform: skewX(5deg); }
+.filter-bar #filterBarText { color: var(--amber); text-shadow: 0 0 10px var(--amber-glow); }
+.filter-bar button { background: none; border: 1px solid var(--border-dim); color: var(--text-muted); font: inherit; cursor: pointer; padding: .25rem .7rem; letter-spacing: .06em; }
+.filter-bar button:hover { color: var(--blue); border-color: var(--blue); }
+
+.pulse-dot { display: inline-block; width: 8px; height: 8px; background: var(--blue); border-radius: 50%; margin-right: 6px; box-shadow: 0 0 8px var(--blue); animation: pulse-dot-anim 1.5s infinite; vertical-align: middle; }
+
+.section-header { display: flex; align-items: center; gap: 1rem; margin: 2.75rem 0 1.25rem; }
+.section-header h2 { font-size: 1.9rem; letter-spacing: 1px; white-space: nowrap; }
+.section-header .line { flex-grow: 1; height: 1px; background: linear-gradient(90deg, var(--border-dim), transparent); }
+
+.target-card { background: var(--bg-panel); border: 1px solid var(--border-dim); border-left: 4px solid var(--blue); padding: 1.75rem 2rem; position: relative; margin-bottom: 1rem; box-shadow: inset 0 0 50px rgba(0,240,255,.05); }
+.target-card::after { content: ''; position: absolute; top:-1px; left:-1px; width:26px; height:26px; border-top: 2px solid var(--blue); border-left: 2px solid var(--blue); }
+.target-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: .8rem; font-family: 'JetBrains Mono', monospace; font-size: .8rem; font-weight: 700; color: var(--text-muted); letter-spacing: 1px; text-transform: uppercase; flex-wrap: wrap; gap: .5rem; }
+.target-card h3 { font-size: 2.1rem; margin: 0 0 .6rem; font-weight: 600; }
+.target-card h3 a { color: var(--text-bright); text-decoration: none; }
+.target-card h3 a:hover { color: var(--blue); }
+.target-card .summary { font-family: 'Rajdhani',sans-serif; font-size: 1.05rem; color: var(--text-main); margin: 0 0 1.1rem; }
+.target-card .cta { display: inline-block; border: 1px solid var(--blue); color: var(--blue); font-family:'Rajdhani',sans-serif; padding: .55rem 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; text-decoration: none; box-shadow: 0 0 10px rgba(0,240,255,.2); }
+.target-card .cta:hover { background: var(--blue); color: #000; box-shadow: 0 0 20px rgba(0,240,255,.6); }
+.headlines { display: grid; gap: 1rem; }
+.headline-card { background: var(--bg-panel); border: 1px solid var(--border-dim); border-left: 4px solid var(--blue); padding: 1.4rem 1.6rem; position: relative; box-shadow: inset 0 0 40px rgba(0,240,255,.04); transition: all .15s ease; }
+.headline-card:hover { background: var(--bg-panel-hover); transform: translateX(4px); }
+.headline-card .hl-tag { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; border: 1px solid; padding: .25rem .6rem; border-radius: 2px; margin-bottom: .7rem; }
+.headline-card .hl-meta { font-family: 'JetBrains Mono', monospace; font-size: .72rem; color: var(--text-muted); letter-spacing: .5px; margin-bottom: .3rem; }
+.headline-card h3 { font-size: 1.55rem; margin: 0 0 .5rem; font-weight: 600; }
+.headline-card h3 a { color: var(--text-bright); text-decoration: none; }
+.headline-card h3 a:hover { color: var(--gold); }
+.headline-card .summary { font-family: 'Rajdhani', sans-serif; color: var(--text-main); font-size: 1.02rem; margin: 0 0 1rem; line-height: 1.45; }
+.headline-card .cta { display: inline-block; border: 1px solid; padding: .45rem 1.1rem; font-family: 'Rajdhani', sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; text-decoration: none; font-size: .85rem; }
+
+.record-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 1rem; }
+.record-item { background: var(--bg-panel); border: 1px solid var(--border-dim); padding: 1.1rem 1.4rem; transition: all .15s ease; }
+.record-item:hover { background: var(--bg-panel-hover); border-color: #3b404d; transform: translateX(4px); }
+.record-item .meta { font-family: 'JetBrains Mono', monospace; font-size: .75rem; color: var(--text-muted); letter-spacing: .5px; margin-bottom: .4rem; }
+.record-item h3 { font-size: 1.5rem; font-weight: 600; margin: 0 0 .4rem; }
+.record-item h3 a { color: var(--text-bright); text-decoration: none; }
+.record-item h3 a:hover { color: var(--gold); }
+.record-item .summary { font-family: 'Rajdhani',sans-serif; color: var(--text-muted); margin: 0 0 .7rem; font-size: .98rem; }
+
+.badge { display: inline-flex; align-items: center; font-family: 'JetBrains Mono', monospace; padding: .25rem .7rem; font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; border-radius: 2px; }
+.badge-closed { background: rgba(255,183,3,.1); color: var(--gold); border: 1px solid var(--gold); }
+.badge-confirmed { background: rgba(57,255,136,.1); color: var(--green); border: 1px solid var(--green); }
+.badge-live { background: rgba(0,240,255,.1); color: var(--blue); border: 1px solid var(--blue); animation: border-pulse 2s infinite; }
+.badge-refuted { background: rgba(255,0,85,.1); color: var(--red); border: 1px solid var(--red); }
+.badge-noproof { background: rgba(107,114,128,.1); color: var(--gray); border: 1px solid var(--gray); }
+
+.problem-num { font-family: 'JetBrains Mono', monospace; color: var(--text-muted); font-size: .85rem; letter-spacing: .5px; }
+article h1 { font-size: clamp(2rem, 5vw, 2.8rem); margin: .4rem 0 1rem; text-transform: none; }
+article .meta-row { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
+article .meta-row .date { font-family: 'JetBrains Mono', monospace; color: var(--text-muted); font-size: .85rem; }
+article .body-content { font-family: 'Rajdhani', sans-serif; font-size: 1.08rem; }
+article .body-content p { margin: 0 0 1.1rem; }
+article .body-content strong { color: var(--text-bright); }
+article .body-content em { color: var(--gold); font-style: normal; }
+.links-list { font-family: 'Rajdhani',sans-serif; font-size: .95rem; margin-top: 1.5rem; padding-top: 1.2rem; border-top: 1px solid var(--border-dim); }
+.links-list a { display: block; margin: .35rem 0; font-weight: 700; text-decoration: none; }
+.links-list a:hover { text-decoration: underline; }
+.links-heading { font-family: 'JetBrains Mono', monospace; font-size: .66rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin-bottom: .5rem; }
+.lh-receipt { color: var(--gold); }
+.lh-source { color: var(--text-muted); }
+.links-list + .links-list { margin-top: 1.1rem; padding-top: 0; border-top: none; }
+
+footer.site { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border-dim); font-family: 'Rajdhani',sans-serif; font-size: .85rem; color: var(--text-muted); }
+footer.site a { color: var(--text-muted); font-weight: 700; }
+footer.site a:hover { color: var(--gold); }
+
+.about-block { font-family: 'Rajdhani', sans-serif; font-size: 1.02rem; }
+.status-def { margin-bottom: 1rem; display: flex; gap: 1rem; align-items: baseline; }
+.status-def .badge { flex-shrink: 0; }
+.also-queued { font-family: 'Rajdhani',sans-serif; font-size: .92rem; color: var(--text-muted); margin-top: .5rem; }
+.also-queued a { font-weight: 700; }
+
+.ledger-note { font-family: 'Rajdhani', sans-serif; color: var(--text-muted); font-size: .95rem; margin: 0 0 1.25rem; max-width: 72ch; }
+.ledger-row { display: grid; grid-template-columns: 74px 1fr auto; gap: 1.1rem; align-items: center; background: var(--bg-panel); border: 1px solid var(--border-dim); padding: .85rem 1.25rem; margin-bottom: 6px; transition: all .15s ease; }
+.ledger-row:hover { background: var(--bg-panel-hover); transform: translateX(4px); }
+.ledger-row.st-closed { border-left: 4px solid var(--gold); }
+.ledger-row.st-partial { border-left: 4px solid var(--amber); }
+.ledger-row.st-wall { border-left: 4px solid var(--gray); }
+.ledger-row.st-open { border-left: 4px solid var(--blue); }
+.ledger-row.st-refuted { border-left: 4px solid var(--red); }
+.ledger-num { font-family: 'Teko', sans-serif; font-size: 2rem; font-weight: 600; color: var(--text-bright); line-height: .9; text-align: center; }
+.ledger-num .hash { color: var(--text-muted); font-size: 1.2rem; }
+.ledger-num .sub { display: block; font-family: 'JetBrains Mono', monospace; font-size: .58rem; font-weight: 700; color: var(--text-muted); letter-spacing: .12em; margin-top: .25rem; }
+.ledger-main h3 { font-family: 'Rajdhani', sans-serif; text-transform: none; letter-spacing: 0; line-height: 1.3; font-size: 1.02rem; font-weight: 700; color: var(--text-bright); margin: 0 0 .2rem; }
+.ledger-main h3 a { color: var(--text-bright); text-decoration: none; }
+.ledger-main h3 a:hover { color: var(--gold); }
+.ledger-main .outcome { font-family: 'Rajdhani', sans-serif; color: var(--text-muted); font-size: .92rem; margin: 0 0 .4rem; }
+.ledger-tags { display: flex; gap: .4rem; flex-wrap: wrap; align-items: center; }
+.chip { font-family: 'JetBrains Mono', monospace; font-size: .6rem; font-weight: 700; letter-spacing: .08em; padding: .13rem .5rem; border: 1px solid var(--border-dim); color: var(--text-muted); border-radius: 2px; white-space: nowrap; }
+.chip-pro { border-color: var(--gold); color: var(--gold); }
+.chip-codex { border-color: var(--blue); color: var(--blue); }
+.chip-grok { border-color: var(--green); color: var(--green); }
+.chip-rounds { border-style: dashed; }
+.ledger-side { display: flex; flex-direction: column; gap: .4rem; align-items: flex-end; }
+.ledger-date { font-family: 'JetBrains Mono', monospace; font-size: .68rem; color: var(--text-muted); letter-spacing: .05em; }
+.badge-partial { background: rgba(255,138,51,.10); color: var(--amber); border: 1px solid var(--amber); }
+.badge-wall { background: rgba(107,114,128,.12); color: var(--gray); border: 1px solid var(--gray); }
+.badge-open { background: rgba(0,240,255,.08); color: var(--blue); border: 1px solid var(--blue); }
+.tag-writeup { display: inline-flex; align-items: center; font-family: 'JetBrains Mono', monospace; padding: .25rem .7rem; font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; border-radius: 2px; margin-left: .5rem; background: rgba(255,255,255,.05); color: var(--text-bright); border: 1px solid #565d6e; }
+.seat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 8px; margin-bottom: 1.25rem; }
+.seat-card { background: var(--bg-panel); border: 1px solid var(--border-dim); padding: 1rem 1.15rem; }
+.seat-card h4 { font-family: 'JetBrains Mono', monospace; font-size: .75rem; font-weight: 700; letter-spacing: .1em; margin: 0 0 .45rem; text-transform: uppercase; }
+.seat-card.seat-pro h4 { color: var(--gold); }
+.seat-card.seat-codex h4 { color: var(--blue); }
+.seat-card.seat-grok h4 { color: var(--green); }
+.seat-card.seat-claude h4 { color: var(--red); }
+.seat-card p { font-family: 'Rajdhani', sans-serif; font-size: .88rem; color: var(--text-muted); margin: 0; line-height: 1.45; }
+@media (max-width: 640px) {
+  .ledger-row { grid-template-columns: 58px 1fr; }
+  .ledger-side { grid-column: 2; flex-direction: row; align-items: center; gap: .75rem; }
+  .ledger-num { font-size: 1.7rem; }
+}
+
+@keyframes pulse-text { 0%,100% { opacity:1; text-shadow: 0 0 15px var(--blue-glow); } 50% { opacity:.8; text-shadow: 0 0 5px rgba(0,240,255,.3); } }
+@keyframes pulse-dot-anim { 0% { transform: scale(.95); box-shadow: 0 0 0 0 rgba(0,240,255,.7); } 70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(0,240,255,0); } 100% { transform: scale(.95); box-shadow: 0 0 0 0 rgba(0,240,255,0); } }
+@keyframes border-pulse { 0%,100% { border-color: rgba(0,240,255,1); box-shadow: 0 0 8px rgba(0,240,255,.4); } 50% { border-color: rgba(0,240,255,.3); box-shadow: none; } }
+
+@media (max-width: 640px) {
+  .stats-strip { grid-template-columns: repeat(2,1fr); transform: none; }
+  .stat-box { transform: none; border-bottom: 1px solid var(--border-dim); border-right: 1px solid var(--border-dim); }
+  .target-card { padding: 1.4rem; }
+
+  header.site .nav-toggle { display: block; }
+  header.site nav {
+    display: none; order: 3; width: 100%; flex-direction: column; gap: 0;
+    margin-top: .5rem; border-top: 1px solid var(--border-dim);
+  }
+  header.site.nav-open { padding-bottom: 0; }
+  header.site.nav-open nav { display: flex; }
+  header.site nav a { margin-left: 0; padding: .75rem 0; border-bottom: 1px solid var(--border-dim); }
+  header.site nav a:last-child { border-bottom: none; padding-bottom: 1.5rem; }
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  if (typeof renderMathInElement === 'function') {
+    var B = String.fromCharCode(92);
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: B + '[', right: B + ']', display: true },
+        { left: B + '(', right: B + ')', display: false }
+      ],
+      throwOnError: false
+    });
+  }
+});
+</script>
+<style>
+.body-content{max-width:46rem;margin:1.5rem auto 0;font-family:'Rajdhani',system-ui,sans-serif;font-size:1.12rem;line-height:1.72;color:var(--text-main)}
+.body-content h2,.body-content h3,.body-content h4{font-family:'Teko','Rajdhani',sans-serif;letter-spacing:.4px;color:var(--text-bright);line-height:1.08;margin:1.9rem 0 .55rem}
+.body-content h2{font-size:2rem;border-bottom:1px solid var(--border-dim);padding-bottom:.3rem}
+.body-content h3{font-size:1.5rem}
+.body-content h4{font-size:1.18rem;text-transform:uppercase;letter-spacing:1px;color:var(--blue)}
+.body-content p{margin:0 0 1.05rem}
+.body-content ul,.body-content ol{margin:0 0 1.1rem;padding-left:1.5rem}
+.body-content li{margin:.3rem 0}
+.body-content a{color:var(--blue);text-decoration:none;border-bottom:1px solid rgba(0,240,255,.35)}
+.body-content a:hover{color:var(--gold);border-color:var(--gold)}
+.body-content code{font-family:'JetBrains Mono',monospace;font-size:.9em;background:rgba(255,255,255,.07);padding:.12em .4em;border-radius:4px}
+.body-content pre{background:rgba(0,0,0,.4);border:1px solid var(--border-dim);border-radius:8px;padding:1rem 1.1rem;overflow-x:auto;margin:0 0 1.3rem}
+.body-content pre code{background:none;padding:0}
+.body-content .math-block{margin:1.3rem 0;overflow-x:auto;overflow-y:hidden;padding:.2rem 0}
+.body-content .katex-display{margin:1.1rem 0}
+.body-content .katex{color:var(--text-bright)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+  <a class="mark" href="/">ERDŐS/DAILY <span class="gold">▸</span></a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+  <nav><a href="/">The Ledger</a><a href="/friends">Friends We Made</a><a href="/scouting">How We Pick</a><a href="/about">About</a></nav>
+</header>
+
+<article>
+  <div class="problem-num">ERDŐS #86</div>
+  <h1>#86: a 1,506-edge C4-free subgraph of Q9</h1>
+  <div class="meta-row"><span class="badge badge-partial">PARTIAL</span><span class="date">AUG 11, 2026</span></div>
+  <div class="body-content">
+<p><strong>The target</strong> (<a href="https://www.erdosproblems.com/86">erdosproblems.com/86</a>,
+OPEN). The n-dimensional hypercube Q<sub>n</sub> has the binary strings of
+length n as vertices, with edges between strings differing in one coordinate.
+If f(n) is the largest number of edges in a C<sub>4</sub>-free subgraph of
+Q<sub>n</sub>, Erdős asked whether</p>
+
+<p style="text-align:center"><strong>
+f(n)&le;(1/2+o(1))n&middot;2<sup>n&minus;1</sup>.
+</strong></p>
+
+<p>We do not resolve that asymptotic question. We improve one explicit finite
+lower bound:</p>
+
+<p style="text-align:center;font-size:1.2em"><strong>
+f(9)&ge;1,506.
+</strong></p>
+
+<p><strong>The certificate.</strong> The public graph lists 1,506 distinct
+pairs of vertices in {0,...,511}. Every pair differs in exactly one bit, so
+every row is an edge of Q<sub>9</sub>. A four-cycle in a hypercube must
+alternate two coordinate directions and is therefore one of its square
+2-faces. Q<sub>9</sub> has</p>
+
+<p style="text-align:center"><strong>
+C(9,2)&middot;2<sup>7</sup>=4,608
+</strong></p>
+
+<p>such faces. Exhaustive verification finds zero faces containing all four
+boundary edges. A second checker builds adjacency from scratch and examines
+all 7,426 length-two paths: no unordered endpoint pair has two distinct common
+neighbours. Either check proves that the graph has no C<sub>4</sub>.</p>
+
+<p><strong>One edge beyond the identified public frontier.</strong> A May 2026
+forum post supplied a 1,505-edge Q<sub>9</sub> certificate. The fixed current
+repository version and graph hash are frozen in the verification package. The
+new graph shares 1,313 edges with it, adds 193, and removes 192, for a net gain
+of one. The public 1,505-edge graph also passes the independent checker.</p>
+
+<p><strong>Generation and hostile audit.</strong> A deterministic min-conflicts
+search starting from the public graph found the certificate; the heuristic is
+provenance, not proof. Its one-thread seed-1 rerun reproduces the canonical
+JSON byte for byte. The hostile audit used a strict clean-room parser,
+enumerated every face and common-neighbour pair independently, and confirmed
+that a controlled mutation completing one square is rejected. A decorrelated
+12-thread rerun found a different valid 1,506-edge graph as well.</p>
+
+<p><strong>Scope.</strong> This proves only f(9)&ge;1,506. It does not establish
+f(9) exactly, prove optimality, or move the asymptotic bounds. The live problem
+page had no claimed proof or current worker, and the current paper, forum,
+OEIS, repository, and exact-code searches exposed no 1,506-edge construction
+on 2026-08-11. That supports comparison with the identified public 1,505-edge
+certificate, but cannot rule out private or unindexed prior work.</p>
+</div>
+  <div class="links-list"><div class="links-heading lh-source">Sources & verification</div><a href="https://www.erdosproblems.com/86" target="_blank" rel="noopener">erdosproblems.com/86 ↗</a>
+<a href="https://github.com/rafalwronapl/erdos86-hypercube-c4" target="_blank" rel="noopener">Public Q9=1505 certificate ↗</a>
+<a href="https://arxiv.org/abs/2603.29127" target="_blank" rel="noopener">Minamoto&#39;s 2026 Q6-Q8 constructions ↗</a>
+<a href="https://oeis.org/A245762" target="_blank" rel="noopener">OEIS A245762 ↗</a>
+<a href="https://github.com/pw/ErdosProblemADay.com/tree/main/verification/86/q9-1506" target="_blank" rel="noopener">Q9=1506 graph, generator, checks, and hostile audit ↗</a></div>
+</article>
+<p style="margin-top:2rem;font-family:'Rajdhani',sans-serif"><a href="/" style="font-weight:700;text-decoration:none">← back to the ledger</a></p>
+
+<footer class="site">
+  Patrick White + Claude (Anthropic), in public — AI-disclosed on every entry.
+  Problems from <a href="https://www.erdosproblems.com" target="_blank" rel="noopener">T. F. Bloom's erdosproblems.com</a>,
+  full credit, no competing list — we only post there once a result clears its own bar. ·
+  <a href="https://pwhite.org/vibe-mathing" target="_blank" rel="noopener">The full vibe-mathing story</a> ·
+  <a href="/about">How this works</a>
+</footer>
+</div>
+<script>
+(function() {
+  var btn = document.querySelector('.nav-toggle');
+  var header = document.querySelector('header.site');
+  if (!btn || !header) return;
+  btn.addEventListener('click', function() {
+    var open = header.classList.toggle('nav-open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
+<script>
+(function(){
+  var list = document.getElementById('recordList');
+  if (!list) return;
+  var items = Array.prototype.slice.call(list.querySelectorAll('.record-item'));
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.stat-box[data-filter]'));
+  var bar = document.getElementById('filterBar');
+  var barText = document.getElementById('filterBarText');
+  var clearBtn = document.getElementById('filterClear');
+  var today = Array.prototype.slice.call(document.querySelectorAll('.js-today'));
+  var current = 'all';
+  function boxFor(k){ for (var i=0;i<boxes.length;i++){ if (boxes[i].getAttribute('data-filter')===k) return boxes[i]; } return null; }
+  function labelFor(k){ var b = boxFor(k); return b ? b.getAttribute('data-label') : k; }
+  function matches(it, k){ if (k==='all') return !it.classList.contains('is-today') && !it.classList.contains('is-headline') && it.getAttribute('data-verdict')!=='SKIP'; if (k==='closedbyus') return it.getAttribute('data-cb')==='1'; return it.getAttribute('data-status')===k; }
+  function setView(k){
+    current = k;
+    var filtering = (k !== 'all');
+    document.body.classList.toggle('filtering', filtering);
+    today.forEach(function(el){ el.style.display = filtering ? 'none' : ''; });
+    if (bar) bar.hidden = !filtering;
+    var n = 0;
+    items.forEach(function(it){ var show = matches(it, k); if (show) n++; it.style.display = show ? '' : 'none'; });
+    if (barText) barText.textContent = filtering ? ('SHOWING ' + labelFor(k) + '  ·  ' + n + (n===1?' ENTRY':' ENTRIES')) : '';
+    boxes.forEach(function(b){ var on = b.getAttribute('data-filter')===k; b.classList.toggle('active', on); b.setAttribute('aria-pressed', on?'true':'false'); });
+  }
+  function handler(b){ return function(ev){ if (ev.type==='keydown'){ if (ev.key!=='Enter' && ev.key!==' ' && ev.keyCode!==13 && ev.keyCode!==32) return; ev.preventDefault(); } var k = b.getAttribute('data-filter'); setView((current===k && k!=='all') ? 'all' : k); }; }
+  boxes.forEach(function(b){ b.addEventListener('click', handler(b)); b.addEventListener('keydown', handler(b)); });
+  if (clearBtn) clearBtn.addEventListener('click', function(){ setView('all'); });
+  setView('all');
+})();
+</script>
+</body>
+</html>

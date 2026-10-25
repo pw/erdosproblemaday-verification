@@ -1,0 +1,23 @@
+	Command being timed: "python3 audit_1109_1501_2000_pmc.py --jobs 8 --start-n 1501 --max-n 2000 --transitions 1509,1535,1595,1707,1735,1779,1835,1919,1991,1999"
+	User time (seconds): 2577.59
+	System time (seconds): 3.91
+	Percent of CPU this job got: 461%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:19.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 59112
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 171834
+	Voluntary context switches: 5765
+	Involuntary context switches: 938823
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 92120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

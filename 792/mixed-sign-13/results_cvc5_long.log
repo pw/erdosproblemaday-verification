@@ -1,0 +1,5 @@
+RESULT n=13 k=5 t=6 engine=cvc5 prune=1 atoms=324 clauses=1716 status=unsat secs=29968.3
+RESULT n=13 k=4 t=6 engine=cvc5 prune=1 atoms=328 clauses=1716 status=unsat secs=31622.4
+RESULT n=13 k=2 t=6 engine=cvc5 prune=1 atoms=342 clauses=1716 status=unsat secs=33980.3
+RESULT n=13 k=6 t=6 engine=cvc5 prune=1 atoms=322 clauses=1716 status=unsat secs=34038.9
+ALL 4 cvc5 LONG JOBS DONE at 2026-10-12T07:02:07Z

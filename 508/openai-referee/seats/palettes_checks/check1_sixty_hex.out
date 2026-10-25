@@ -1,0 +1,13 @@
+kappa=pi/3 (paper): max|Rf+R^-1f-f|=3.46e-16  max||Rf-f|-1|=3.33e-16  |sin(angle(Rf,R^-1f))|=0.866
+CONTROL kappa=50deg: max|Rf+R^-1f-f|=2.86e-01  max||Rf-f|-1|=1.55e-01  |sin(angle(Rf,R^-1f))|=0.985
+proper  r=2/5 eps=0.01: frac f with P(f)∩P(Rf)≠∅ = 0.00000;  frac |P(f)|>=3 = 0.00146
+proper  r=2/5 eps=0.001: frac f with P(f)∩P(Rf)≠∅ = 0.00000;  frac |P(f)|>=3 = 0.00001
+CONTROL r=0.6 (hexagon diameter 1.2>1, improper) eps=0.01: frac f with P(f)∩P(Rf)≠∅ = 0.04190;  frac |P(f)|>=3 = 0.00078
+CONTROL r=0.6 (hexagon diameter 1.2>1, improper) eps=0.001: frac f with P(f)∩P(Rf)≠∅ = 0.02849;  frac |P(f)|>=3 = 0.00000
+Lemma 6.4: 1-2*sin^2(g/2) with sin(g/2)=1/(2sqrt3): 5/6 == 5/6: True
+|1-e^{ig}|^2 = 2-2cos g = 1/3 (need 1/3);  triangle side^2 = 3*(1/3) = 1
+2cos g = 5/3 not an integer -> g/pi irrational (Niven-type argument)
+  side lengths: [np.float64(1.0), np.float64(1.0), np.float64(1.0)]  |sin(pi+g)|= 0.5528
+  side lengths: [np.float64(1.0), np.float64(1.0), np.float64(1.0)]  |sin(pi+g)|= 0.5528
+  side lengths: [np.float64(1.0), np.float64(1.0), np.float64(1.0)]  |sin(pi+g)|= 0.5528
+[wall 13.06 s, maxRSS 38028 kB]

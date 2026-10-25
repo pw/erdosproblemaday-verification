@@ -1,0 +1,16 @@
+threads=16
+n=1 theta4=1 seconds=0
+n=2 theta4=2 seconds=0.0100334
+n=3 theta4=6 seconds=0.00488738
+n=4 theta4=22 seconds=0.00504315
+n=5 theta4=102 seconds=0.00242029
+n=6 theta4=564 seconds=0.00358579
+n=7 theta4=3336 seconds=0.00396347
+n=8 theta4=22266 seconds=0.00663994
+n=9 theta4=168864 seconds=0.00734821
+n=10 theta4=1307470 seconds=0.00951149
+n=11 theta4=11066766 seconds=0.041878
+n=12 theta4=101361722 seconds=0.367417
+n=13 theta4=949812334 seconds=3.05485
+n=14 theta4=9471574188 seconds=31.7989
+wall_seconds=35.32 user_seconds=470.91 max_rss_kb=6060 exit_status=0

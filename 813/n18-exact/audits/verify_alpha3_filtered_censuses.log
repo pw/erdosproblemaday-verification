@@ -1,0 +1,3 @@
+VERIFIED order=7 base=578 filtered=353 removed=225 K4_free_base=YES exact_ordered_alpha_at_most_3_subset=YES
+VERIFIED order=8 base=3128 filtered=1829 removed=1299 K4_free_base=YES exact_ordered_alpha_at_most_3_subset=YES
+VERIFIED order=9 base=11005 filtered=8753 removed=2252 K4_free_base=YES exact_ordered_alpha_at_most_3_subset=YES

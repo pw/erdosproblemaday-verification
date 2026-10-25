@@ -1,0 +1,1 @@
+status=UNSATISFIABLE nodes=40004795 seconds=121.443 prefix_prunes=1143913 blocked_prunes=9389 color_calls=38851493 color_prunes=17652449 color_slack=33 cube=101

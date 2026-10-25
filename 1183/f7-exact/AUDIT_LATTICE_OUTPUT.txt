@@ -1,0 +1,3 @@
+blue five-seeds 2118760 monochromatic closures 0
+red five-seeds 21111090 monochromatic closures 0
+DIRECT FIVE-SEED CLOSURE AUDIT PASS

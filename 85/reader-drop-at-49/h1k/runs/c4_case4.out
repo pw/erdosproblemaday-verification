@@ -1,0 +1,4 @@
+pair-level SB: 383 permutations, 673154 clauses
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] vars=600 clauses=936030 c4=211884 derived=24 sb=16 slots=528 ph=280
+UNKNOWN (cap 7200)
+  case 4 wall 7209 s

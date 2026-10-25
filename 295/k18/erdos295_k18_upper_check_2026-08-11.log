@@ -1,0 +1,40 @@
+command=python3 check_k18_upper.py
+k17_source_count=32
+k17_source_minimum=17
+k17_source_strictly_increasing=True
+k17_source_sum=1/1
+k18_upper_count=35
+k18_upper_minimum=18
+k18_upper_strictly_increasing=True
+k18_upper_sum=1/1
+replacement_sum=1/17
+replacement_equals_1_over_17=True
+harmonic_18_through_47=442017301628992345493/442720643463713815200
+harmonic_18_through_47_lt_1=True
+harmonic_18_through_48=451240648367819716643/442720643463713815200
+harmonic_18_through_48_gt_1=True
+all_checks=PASS
+	Command being timed: "python3 check_k18_upper.py"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1364
+	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+program_exit_status=0

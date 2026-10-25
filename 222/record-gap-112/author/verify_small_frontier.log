@@ -1,0 +1,1 @@
+SMALL_FRONTIER_PASS method=spf_factor_criterion range=0..1000000 represented=216342 max_gap=35 endpoints=685541,685576 scanners=2

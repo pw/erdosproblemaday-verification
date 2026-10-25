@@ -1,0 +1,10 @@
+audit_utc=2026-08-11T20:20:02Z
+head=1703f9d90d653de3f6fd31fb2a1ea982cb543ddf
+origin_main=1703f9d90d653de3f6fd31fb2a1ea982cb543ddf
+index_sha256=08e988d080d5317adf768ba827b4f21397699b30d28cc749807616b6753a3b76
+published_1506_sha256=883919d0e3c7d571aadd920ad539667338dfdb74efa24e61808fb41754db573c
+problem86_slug_count=1
+problem86_entry_count=1
+ledger_record86_count=0
+git_status_selected:
+ M src/ledger_data.js

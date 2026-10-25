@@ -1,0 +1,12 @@
+559cff717b1a05784724253714f9b82e4868627fa8935b86b9e4e2b3946bb758  ../erdos1109_exact_frontier_2026-08-11/pmc_06594a0_source.tar.gz
+a85d9a81fe4cd3927177cc710d3da660253a9b2b3e94aedebef9250396df94e2  ../erdos1109_exact_frontier_2026-08-11/pmc_06594a0_compile_compatibility.patch
+make: Entering directory '/tmp/erdos1109_pmc_rebuild_fresh10'
+rm -rf *.o pmc libpmc.so
+make: Leaving directory '/tmp/erdos1109_pmc_rebuild_fresh10'
+make: Entering directory '/tmp/erdos1109_pmc_rebuild_fresh10'
+g++ -O3 -fPIC -c pmc_driver.cpp
+g++ -O3 -fPIC -o pmc pmc_driver.o pmc_utils.cpp pmc_graph.cpp pmc_clique_utils.cpp pmc_heu.cpp pmc_maxclique.cpp pmcx_maxclique.cpp pmcx_maxclique_basic.cpp pmc_cores.cpp  -fopenmp
+make: Leaving directory '/tmp/erdos1109_pmc_rebuild_fresh10'
+e64c831e961bd18242e3cdd8b167dafc3322d667c3d90907eafc75720493f62d  /tmp/erdos1109_pmc_rebuild_fresh10/pmc
+e64c831e961bd18242e3cdd8b167dafc3322d667c3d90907eafc75720493f62d  ../erdos1109_frontier_2000_work/pmc_1109_audit
+binary_cmp_exit=0

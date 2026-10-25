@@ -1,0 +1,85 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/840
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑓⁡(𝑁)
+ be the size of the largest quasi-Sidon subset 𝐴 ⊂{1,…,𝑁}
+, where we say that 𝐴
+ is quasi-Sidon if
+|𝐴+𝐴|=(1+𝑜⁡(1))⁢(
+|𝐴|
+2
+).
+How does 𝑓⁡(𝑁)
+ grow?
+#840: [Er81h,p.175][ErFr91][Er92c]
+additive combinatorics | sidon sets
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+Considered by Erdős and Freud [ErFr91], who proved
+(
+2
+√3
++𝑜⁡(1))⁢𝑁1/2≤𝑓⁡(𝑁)≤(2+𝑜⁡(1))⁢𝑁1/2.
+(Although both bounds were already given by Erdős in [Er81h].) Note that 2/√3 =1.15⋯
+. The lower bound is taking a genuine Sidon set 𝐵 ⊂[1,𝑁/3]
+ of size  ∼𝑁1/2/√3
+ and taking the union with {𝑁 −𝑏 :𝑏 ∈𝐵}
+. The upper bound was improved by Pikhurko [Pi06] to
+𝑓⁡(𝑁)≤((
+1
+4
++
+1
+(𝜋+2)2
+)−1/2+𝑜⁡(1))⁢𝑁1/2
+(the constant here is  =1.863⋯
+).
+
+The analogous question with 𝐴 −𝐴
+ in place of 𝐴 +𝐴
+ is simpler, and there the maximal size is  ∼𝑁1/2
+, as proved by Cilleruelo.
+
+
+See also [30], [819], and [864].
+
+View the LaTeX source
+
+This page was last edited 19 October 2025. View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+
+0 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	KStar, LaiC
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+Additional thanks to: Terence Tao
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #840, https://www.erdosproblems.com/840, accessed 2026-08-12
+Previous
+Next
+
+Page title: 840 | Erdős Problems
+URL: https://www.erdosproblems.com/840

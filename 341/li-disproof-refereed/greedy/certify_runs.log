@@ -1,0 +1,23 @@
+=== distinct li_dist_1e7_elems.u32 693 1 2 3 5 7 13 22 27 28 32 36 40 47 48 52 63 71 77 81 89 97
+rule=distinct seed=[1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97] proposed: gap period 693, membership period q=5733, onset term index 421 (0-based), N=3364
+recurrence on (97,18192]: violations=0 first=[]
+E+R = Z_q \ R : True  (|E|=706 |R|=693 |E+R|=5040)
+CERTIFIED
+=== equal sq_eq_2e6_elems.u32 224 1 4 9 16 25
+rule=equal seed=[1, 4, 9, 16, 25] proposed: gap period 224, membership period q=1176, onset term index 86 (0-based), N=440
+recurrence on (25,2054]: violations=0 first=[]
+E+R = Z_q \ R : True  (|E|=233 |R|=224 |E+R|=952)
+CERTIFIED
+=== distinct sq_dist_2e6_elems.u32 10 1 4 9 16 25
+rule=distinct seed=[1, 4, 9, 16, 25] proposed: gap period 10, membership period q=41, onset term index 5 (0-based), N=27
+recurrence on (25,134]: violations=0 first=[]
+E+R = Z_q \ R : True  (|E|=12 |R|=10 |E+R|=31)
+CERTIFIED
+=== negative control
+rule=equal seed=[1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97] proposed: gap period 6, membership period q=49, onset term index 786447 (0-based), N=6422501
+recurrence on (97,12845049]: violations=1 first=[12845035]
+E+R = Z_q \ R : False  (|E|=15 |R|=6 |E+R|=42)
+NOT CERTIFIED
+recurrence on (97,19999980]: violations=1207999 first=[9999999, 10000003, 10000007, 10000011, 10000017]
+E+R = Z_q \ R : False  (|E|=5723 |R|=692 |E+R|=5723)
+NOT CERTIFIED

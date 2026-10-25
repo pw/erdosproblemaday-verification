@@ -1,0 +1,6 @@
+runs/l6_c4_b0 points=15061 isometries=245 unit_pairs=96228 l6_runs=24600 -> runs/l6_c4_b0.cnf :: s SATISFIABLE Command exited with non-zero status 10 981.35s 100480KB 
+runs/l6_c3_b6 points=9373 isometries=149 unit_pairs=56364 l6_runs=11304 -> runs/l6_c3_b6.cnf :: TIMEOUT Command exited with non-zero status 124 1200.01s 82096KB 
+runs/l6_c4_b6 points=15061 isometries=245 unit_pairs=96228 l6_runs=24600 -> runs/l6_c4_b6.cnf :: TIMEOUT Command exited with non-zero status 124 1200.01s 98240KB 
+runs/l6_c4_b5 points=15061 isometries=245 unit_pairs=96228 l6_runs=24600 -> runs/l6_c4_b5.cnf :: TIMEOUT Command exited with non-zero status 124 1200.01s 95928KB 
+DONE
+runs/l6_c3_b6 LONG :: s SATISFIABLE Command exited with non-zero status 10 5438.87s 178284KB 

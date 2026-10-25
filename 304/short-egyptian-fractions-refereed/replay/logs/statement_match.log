@@ -1,0 +1,37 @@
+ShortEgyptianFractions OAI.ShortEgyptian.main MATCH | lens 1223 1223
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+ShortEgyptianFractions OAI.ShortEgyptian.IsExpansion MATCH | lens 1115 1115
+ShortEgyptianFractions OAI.ShortEgyptian.minLength MATCH | lens 287 287
+ShortEgyptianFractions OAI.ShortEgyptian.maxMinLength MATCH | lens 347 347
+EgyptianFractions OAI.Problem337.egyptian_length_is_minimum MATCH | lens 838 838
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.main_double_log_order MATCH | lens 907 907
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.one_expansions_finite_and_bounded MATCH | lens 1071 1071
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.counting_double_log_order MATCH | lens 873 873
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.exact_marker_padding MATCH | lens 1071 1071
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.every_exact_marker_occurs MATCH | lens 273 273
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.quantitative_marked_length MATCH | lens 1495 1495
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.missing_denominator_semantics MATCH | lens 1467 1467
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.prescribed_denominator_corollary MATCH | lens 4306 4306
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EgyptianFractions OAI.Problem337.IsEgyptianExpansion MATCH | lens 674 674
+EgyptianFractions OAI.Problem337.egyptianLengths MATCH | lens 355 355
+EgyptianFractions OAI.Problem337.egyptianLength MATCH | lens 148 148
+EgyptianFractions OAI.Problem337.maxEgyptianLength MATCH | lens 482 482
+EgyptianFractions OAI.Problem337.IsOneExpansion MATCH | lens 709 709
+EgyptianFractions OAI.Problem337.OneExpansions MATCH | lens 178 178
+EgyptianFractions OAI.Problem337.F MATCH | lens 120 120
+EgyptianFractions OAI.Problem337.D MATCH | lens 353 353
+EgyptianFractions OAI.Problem337.missingDenominators MATCH | lens 289 289
+EgyptianFractions OAI.Problem337.v MATCH | lens 133 133
+EgyptianFractions OAI.Problem337.prescribedSlope MATCH | lens 304 304
+ALL_MATCH_STD_SORRYSEEN
+ShortEgyptianFractions: 4 MATCH / 0 MISMATCH
+EgyptianFractions: 20 MATCH / 0 MISMATCH

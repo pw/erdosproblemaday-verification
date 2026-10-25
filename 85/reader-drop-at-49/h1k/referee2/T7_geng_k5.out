@@ -1,0 +1,9 @@
+graph 29: 1 block partitions, e-patterns [(0, 0, 1, 1, 1, 1)], all-e=1: 0, pairable: 0
+graph 31: 2 block partitions, e-patterns [(0, 1, 1, 1, 1, 1)], all-e=1: 0, pairable: 0
+graph 34: 1 block partitions, e-patterns [(0, 0, 0, 1, 1, 1)], all-e=1: 0, pairable: 0
+graph 43: 3 block partitions, e-patterns [(0, 0, 0, 0, 0, 0)], all-e=1: 0, pairable: 0
+TOTAL over 64 graphs: partitions 7, with e==1 on every block 0, pairable (no paired-block edges) 0, pairable AND e==1 0
+
+real	0m0.976s
+user	0m0.741s
+sys	0m0.131s

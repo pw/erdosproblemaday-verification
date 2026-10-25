@@ -1,0 +1,6 @@
+Neg_defmut.lean:8:13: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+Neg_defmut.lean:10:2: error: unsolved goals
+case refine_1
+s k n : ℕ
+C : SimpleGraph (Fin n)
+⊢ (∃ x, C.IsNClique (s + 1) x) ↔ ∃ A, C.IsNClique s A

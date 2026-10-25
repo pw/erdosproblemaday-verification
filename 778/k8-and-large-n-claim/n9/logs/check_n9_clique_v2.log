@@ -1,0 +1,1 @@
+ACCEPT :: ACCEPT winner=bob n=9 mode=clique: 12844621 Alice-to-move positions explored, 2174 terminal leaves, 7618841 cutoff leaves, 20802845 certificate entries (20802845 rows, 0 duplicate rows, 0 duplicates with a different reply) [check778c v2 asserted, nauty 2.9.1 (64 bits), threads 6, 543 s]

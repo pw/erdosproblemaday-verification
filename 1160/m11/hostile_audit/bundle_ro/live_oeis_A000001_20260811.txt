@@ -1,0 +1,156 @@
+URL: https://oeis.org/A000001
+TITLE: A000001 - OEIS
+FETCHED: 2026-08-11 UTC
+
+login
+The OEIS is supported by the many generous donors to the OEIS Foundation.
+Hints
+(Greetings from The On-Line Encyclopedia of Integer Sequences!)
+A000001
+Number of groups of order n.
+(Formerly M0098 N0035)
+176
+0, 1, 1, 1, 2, 1, 2, 1, 5, 2, 2, 1, 5, 1, 2, 1, 14, 1, 5, 1, 5, 2, 2, 1, 15, 2, 2, 5, 4, 1, 4, 1, 51, 1, 2, 1, 14, 1, 2, 2, 14, 1, 6, 1, 4, 2, 2, 1, 52, 2, 5, 1, 5, 1, 15, 2, 13, 2, 2, 1, 13, 1, 2, 4, 267, 1, 4, 1, 5, 1, 4, 1, 50, 1, 2, 3, 4, 1, 6, 1, 52, 15, 2, 1, 15, 1, 2, 1, 12, 1, 10, 1, 4, 2
+(list; graph; refs; listen; history; text; internal format)
+OFFSET
+0,5
+COMMENTS
+Also, number of nonisomorphic subgroups of order n in symmetric group S_n. - Lekraj Beedassy, Dec 16 2004
+Also, number of nonisomorphic primitives (antiderivatives) of the combinatorial species Lin[n-1], or X^{n-1}; see Rajan, Summary item (i). - Nicolae Boicu, Apr 29 2011
+In (J. H. Conway, Heiko Dietrich and E. A. O'Brien, 2008), a(n) is called the "group number of n", denoted by gnu(n), and the first occurrence of k is called the "minimal order attaining k", denoted by moa(k) (see A046057). - Daniel Forgues, Feb 15 2017
+It is conjectured in (J. H. Conway, Heiko Dietrich and E. A. O'Brien, 2008) that the sequence n -> a(n) -> a(a(n)) = a^2(n) -> a(a(a(n))) = a^3(n) -> ... -> consists ultimately of 1s, where a(n), denoted by gnu(n), is called the "group number of n". - Muniru A Asiru, Nov 19 2017
+MacHale (2020) shows that there are infinitely many values of n for which there are more groups than rings of that order (cf. A027623). He gives n = 36355 as an example. It would be nice to have enough values of n to create an OEIS entry for them. - N. J. A. Sloane, Jan 02 2021
+I conjecture that a(i) * a(j) <= a(i*j) for all nonnegative integers i and j. - Jorge R. F. F. Lopes, Apr 21 2024
+REFERENCES
+S. R. Blackburn, P. M. Neumann, and G. Venkataraman, Enumeration of Finite Groups, Cambridge, 2007.
+L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 302, #35.
+J. H. Conway et al., The Symmetries of Things, Peters, 2008, p. 209.
+H. S. M. Coxeter and W. O. J. Moser, Generators and Relations for Discrete Groups, 4th ed., Springer-Verlag, NY, reprinted 1984, p. 134.
+CRC Standard Mathematical Tables and Formulae, 30th ed. 1996, p. 150.
+John Derbyshire, Unknown Quantity: A Real and Imaginary History of Algebra. Washington, DC: Joseph Henry Press (2006): 213.
+R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics, A Foundation for Computer Science, Addison-Wesley Publ. Co., Reading, MA, 1989, Section 6.6 'Fibonacci Numbers' pp. 281-283.
+M. Hall, Jr. and J. K. Senior, The Groups of Order 2^n (n <= 6). Macmillan, NY, 1964.
+D. Joyner, 'Adventures in Group Theory', Johns Hopkins Press. Pp. 169-172 has table of groups of orders < 26.
+D. S. Mitrinovic et al., Handbook of Number Theory, Kluwer, Section XIII.24, p. 481.
+M. F. Newman and E. A. O'Brien, A CAYLEY library for the groups of order dividing 128. Group theory (Singapore, 1987), 437-442, de Gruyter, Berlin-New York, 1989.
+N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+LINKS
+H. U. Besche and Ivan Panchenko, Table of n, a(n) for n = 0..2047 [Terms 1 through 2015 copied from Small Groups Library mentioned below. Terms 2016 - 2047 added by Ivan Panchenko, Aug 29 2009. 0 prepended by Ray Chandler, Sep 16 2015. a(1024) corrected by Benjamin Przybocki, Jan 06 2022]
+H. A. Bender, A determination of the groups of order p^5, Ann. of Math. (2) 29, pp. 61-72 (1927).
+Hans Ulrich Besche and Bettina Eick, Construction of finite groups, Journal of Symbolic Computation, Vol. 27, No. 4, Apr 15 1999, pp. 387-404.
+Hans Ulrich Besche and Bettina Eick, The groups of order at most 1000 except 512 and 768, Journal of Symbolic Computation, Vol. 27, No. 4, Apr 15 1999, pp. 405-413.
+H. U. Besche, B. Eick and E. A. O'Brien, The groups of order at most 2000, Electron. Res. Announc. Amer. Math. Soc. 7 (2001), 1-4.
+H. U. Besche, B. Eick, E. A. O'Brien and Max Horn, The Small Groups Library
+H. U. Besche, B. Eick and E. A. O'Brien, Number of isomorphism types of finite groups of given order [gives incorrect a(1024)]
+H. U. Besche, B. Eick and E. A. O'Brien, A Millennium Project: Constructing Small Groups, Internat. J. Algebra and Computation, 12 (2002), 623-644.
+Henry Bottomley, Illustration of initial terms
+David Burrell, On the number of groups of order 1024, Communications in Algebra, 2021, 1-3.
+J. H. Conway, Heiko Dietrich and E. A. O'Brien, Counting groups: gnus, moas and other exotica, Math. Intell., Vol. 30, No. 2, Spring 2008.
+Marek Dančo, Mikoláš Janota, Michael Codish, and João Jorge Araújo, Complete Symmetry Breaking for Finite Models, arXiv:2502.10155 [cs.LO], 2025. See p. 7. Mentions this sequence.
+Yang-Hui He and Minhyong Kim, Learning Algebraic Structures: Preliminary Investigations, arXiv:1905.02263 [cs.LG], 2019.
+Otto Hölder, Die Gruppen der Ordnungen p^3, pq^2, pqr, p^4, Math. Ann. 43 pp. 301-412 (1893).
+Max Horn, Numbers of isomorphism types of finite groups of given order
+Rodney James, The groups of order p^6 (p an odd prime), Math. Comp. 34 (1980), 613-637.
+Rodney James and John Cannon, Computation of isomorphism classes of p-groups, Mathematics of Computation 23.105 (1969): 135-140.
+Olexandr Konovalov, Crowdsourcing project for the database of numbers of isomorphism types of finite groups, Github (a list of gnu(n) for many n < 50000).
+Desmond MacHale, Are There More Finite Rings than Finite Groups?, Amer. Math. Monthly (2020) Vol. 127, Issue 10, 936-938.
+Mehdi Makhul, Josef Schicho, and Audie Warren, On Galois groups of type-1 minimally rigid graphs, arXiv:2306.04392 [math.CO], 2023.
+G. A. Miller, Determination of all the groups of order 64, Amer. J. Math., 52 (1930), 617-634.
+László Németh and László Szalay, Sequences Involving Square Zig-Zag Shapes, J. Int. Seq., Vol. 24 (2021), Article 21.5.2.
+Ed Pegg, Jr., Sequence Pictures, Math Games column, Dec 08 2003.
+Ed Pegg, Jr., Sequence Pictures, Math Games column, Dec 08 2003 [Cached copy, with permission (pdf only)]
+Dayanand S. Rajan, The equations D^kY=X^n in combinatorial species, Discrete Mathematics 118 (1993) 197-206 North-Holland.
+E. Rodemich, The groups of order 128, J. Algebra 67 (1980), no. 1, 129-142.
+Gordon Royle, Combinatorial Catalogues. See subpage "Generators of small groups" for explicit generators for most groups of even order < 1000. [broken link]
+D. Rusin, Asymptotics [Cached copy of lost web page]
+Ruud H.G. van Tol, gnu50000.gp.txt
+Eric Weisstein's World of Mathematics, Finite Group
+Wikipedia, Finite group
+M. Wild, The groups of order sixteen made easy, Amer. Math. Monthly, 112 (No. 1, 2005), 20-31.
+Gang Xiao, SmallGroup
+Index entries for sequences related to groups
+Index entries for "core" sequences
+FORMULA
+From Mitch Harris, Oct 25 2006: (Start)
+For p, q, r primes:
+a(p) = 1, a(p^2) = 2, a(p^3) = 5, a(p^4) = 14, if p = 2, otherwise 15.
+a(p^5) = 61 + 2*p + 2*gcd(p-1,3) + gcd(p-1,4), p >= 5, a(2^5)=51, a(3^5)=67.
+a(p^e) ~ p^((2/27)e^3 + O(e^(8/3))).
+a(p*q) = 1 if gcd(p,q-1) = 1, 2 if gcd(p,q-1) = p. (p < q)
+a(p*q^2) is one of the following:
+   ---------------------------------------------------------------------------
+  | a(p*q^2) |            p*q^2 of the form             |  Sequences (p*q^2)  |
+   ---------- ------------------------------------------ ---------------------
+  | (p+9)/2  |          q == 1 (mod p), p odd           |      A350638        |
+  |    5     |         p=3, q=2 =>  p*q^2 = 12          |Special case with A_4|
+  |    5     |               p=2, q odd                 |      A143928        |
+  |    5     |             p == 1 (mod q^2)             |      A350115        |
+  |    4     | p == 1 (mod q), p > 3, p !== 1 (mod q^2) |      A349495        |
+  |    3     |       q == -1 (mod p), p and q odd       |      A350245        |
+  |    2     |  q !== +-1 (mod p) and p !== 1 (mod q)   |      A350422        |
+   ---------------------------------------------------------------------------
+[Table from Bernard Schott, Jan 18 2022]
+a(p*q*r) (p < q < r) is one of the following:
+  q == 1 (mod p)  r == 1 (mod p)  r == 1 (mod q)  a(p*q*r)
+  --------------  --------------  --------------  --------
+        No              No              No            1
+        No              No              Yes           2
+        No              Yes             No            2
+        No              Yes             Yes           4
+        Yes             No              No            2
+        Yes             No              Yes           3
+        Yes             Yes             No           p+2
+        Yes             Yes             Yes          p+4
+[table from Derek Holt].
+(End)
+a(n) = A000688(n) + A060689(n). - R. J. Mathar, Mar 14 2015
+EXAMPLE
+Groups of orders 1 through 10 (C_n = cyclic, D_n = dihedral of order n, Q_8 = quaternion, S_n = symmetric):
+1: C_1
+2: C_2
+3: C_3
+4: C_4, C_2 X C_2
+5: C_5
+6: C_6, S_3=D_6
+7: C_7
+8: C_8, C_4 X C_2, C_2 X C_2 X C_2, D_8, Q_8
+9: C_9, C_3 X C_3
+10: C_10, D_10
+MAPLE
+GroupTheory:-NumGroups(n); # with(GroupTheory); loads this command - N. J. A. Sloane, Dec 28 2017
+MATHEMATICA
+FiniteGroupCount[Range[100]] (* Harvey P. Dale, Jan 29 2013 *)
+(* Alternative: *)
+a[ n_] := If[ n < 1, 0, FiniteGroupCount @ n]; (* Michael Somos, May 28 2014 *)
+PROG
+(Magma) D:=SmallGroupDatabase(); [ NumberOfSmallGroups(D, n) : n in [1..1000] ]; // John Cannon, Dec 23 2006
+(GAP) A000001 := Concatenation([0], List([1..500], n -> NumberSmallGroups(n))); # Muniru A Asiru, Oct 15 2017
+(Python)
+from sympy.combinatorics.group_numbers import groups_count
+def a(n): return 0 if n == 0 else groups_count(n)  # Tyler Busby, Jan 14 2026
+(PARI) first(nn)= vector(nn, i, if(i>1, galoisgetgroup(i-1), 0)); \\ depends on pari-galpol; nn <= 144 - Ruud H.G. van Tol, Jan 24 2026
+(PARI) a(n)= galoisnbpol(n) \\ see links for gnu50000.gp.txt - Ruud H.G. van Tol, Jan 25 2026
+CROSSREFS
+The main sequences concerned with group theory are A000001 (this one), A000679, A001034, A001228, A005180, A000019, A000637, A000638, A002106, A005432, A000688, A060689, A051532.
+Cf. A046058, A046059, A023675, A023676.
+A003277 gives n for which A000001(n) = 1, A063756 (partial sums).
+A046057 gives first occurrence of each k.
+A027623 gives the number of rings of order n.
+Sequence in context: A394617 A201733 A394618 * A172133 A146002 A109087
+Adjacent sequences:  * A000002 A000003 A000004 A000005 A000006 A000007
+KEYWORD
+nonn,core,nice,hard
+AUTHOR
+N. J. A. Sloane
+EXTENSIONS
+More terms from Michael Somos
+Typo in b-file description fixed by David Applegate, Sep 05 2009
+STATUS
+approved
+
+Lookup Welcome Wiki Register Music Plot 2 Demos Index WebCam Contribute Format Style Sheet Transforms Superseeker Recents
+The OEIS Community
+Maintained by The OEIS Foundation Inc.
+Last modified August 11 11:07 EDT 2026. Contains 398211 sequences.
+License Agreements, Terms of Use, Privacy Policy

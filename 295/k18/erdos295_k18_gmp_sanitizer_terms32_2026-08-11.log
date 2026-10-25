@@ -1,0 +1,9 @@
+compile_command=g++ -O1 -g -std=c++17 -pthread -fsanitize=address,undefined -fno-omit-frame-pointer verify_k18_gmp.cpp -lgmpxx -lgmp -o /tmp/verify_k18_gmp_san
+run_command=ASAN_OPTIONS=detect_leaks=1:halt_on_error=1 UBSAN_OPTIONS=halt_on_error=1 /tmp/verify_k18_gmp_san 18 32 4 20
+frontier_depth=20 tasks=868 prefix_states=1565
+min=18 terms=32 found=false
+states=14678224 two_states=11753049 scan_candidates=114603091
+factored_states=0 divisor_states=0 divisor_candidates=0
+seconds=130.513
+program_exit_status=20
+asan_ubsan_diagnostics=none

@@ -1,0 +1,6 @@
+S_extra=0: integers 8..2e4 passing: 0
+   log grid: first pass ln n = 37.18 (n ~ 10^16.15), t=0.645, a=63
+S_extra=1: integers 8..2e4 passing: 6 (first 8)
+   log grid: first pass ln n = 34.90 (n ~ 10^15.16), t=0.645, a=59
+S_extra=3: integers 8..2e4 passing: 81 (first 8)
+   log grid: first pass ln n = 29.81 (n ~ 10^12.95), t=0.64, a=50

@@ -1,0 +1,16 @@
+# check778c — build and run (exe.dev, 2026-10-13 15:00Z seat)
+g++ -O2 -fopenmp -I$HOME/.local/share/mamba/envs/sage/include/nauty check778c.cpp $HOME/.local/share/mamba/envs/sage/lib/libnauty.a -o check778c
+#   nauty 2.9.1 (conda-forge build, USE_TLS defined → densenauty is thread-safe; options/stats/graph arrays are locals)
+g++ -O2 -I$HOME/.local/share/mamba/envs/sage/include/nauty nautytest.cpp $HOME/.local/share/mamba/envs/sage/lib/libnauty.a -o nautytest
+./nautytest                                                   # convention test + brute-force isomorphism oracle
+./check778c ../certs/n8_clique.cert --threads 4               # must print 122288 / 0 / 57512 / 210325 (the Python checker's counts)
+./check778c ../certs/n8_clique_nocut.cert --no-cutoff --threads 4   # 145749 / 2719 / 0 / 336027
+nice -n 19 ./check778c certs/n9_clique.cert --threads 6       # v1 (unasserted): ACCEPT in 208 s, 3.1 GB RSS (logs/check_n9_clique.{log,err});
+#                                                              # v2 (asserted, this source): ACCEPT, identical counts, 0 ASSERT lines, 543 s on a load-20 box (logs/check_n9_clique_v2.{log,err})
+# check778c.cpp here is v2 with the referee's dead line removed; the rebuilt binary is byte-identical (cmp) to the one that produced the v2 run.
+# The n = 9 certificate (597,122,601 bytes, sha256 in logs/n9_clique.cert.sha256) is not in the repository; regenerate with
+#   ./solve778 --n 9 --mode clique --cert certs/n9_clique.cert     (4,612.7 s of search on one core, 2.9 GB, plus ~16 min writing the certificate — ~93 min in all; logs/n9_clique.{out,err})
+
+# Cutoff-free run (17:28Z): ./solve778 --n 9 --mode clique --nocut --cert certs/n9_clique_nocut.cert  → BOB WINS, 527,214,892 nodes, 5,397.9 s; 50,497,888 entries, 1,452,393,868 bytes,
+#   sha256 4580b1ec20aeaa77f0f8025b2f5e7d59dcb9bc9ea276ea72e5a510ec0b015cb6 (not in git); walked by  nice -n 19 ./check778c certs/n9_clique_nocut.cert --no-cutoff --threads 6
+#   → ACCEPT, 19,621,099 positions, 5,616 full boards, 0 cutoff leaves, 466 s, 0 ASSERT (logs/check_n9_clique_nocut.{log,err}).

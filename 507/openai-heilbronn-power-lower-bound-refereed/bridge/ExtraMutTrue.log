@@ -1,0 +1,32 @@
+ExtraMutTrue.lean:51:32: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ‖↑n ^ (-2 + o n)‖
+in the target expression
+  α n ≤ C * ‖↑n ^ (2 + o n)‖
+
+o : ℕ → ℝ
+ho : Tendsto o atTop (𝓝 0)
+hbig : α =O[atTop] fun n => ↑n ^ (2 + o n)
+c : ℝ
+hc : 0 < c
+hlow : ∀ᶠ (n : ℕ) in atTop, c * erdos_507.lower.answer n ≤ α n
+e : ℝ := 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)
+he : e = 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK)
+hepos : 0 < e
+C : ℝ
+hC : ∀ᶠ (x : ℕ) in atTop, ‖α x‖ ≤ C * ‖↑x ^ (2 + o x)‖
+ho' : ∀ᶠ (n : ℕ) in atTop, o n < e / 2
+hgrow : Tendsto (fun n => ↑n ^ (e / 2)) atTop atTop
+hbigN : ∀ᶠ (n : ℕ) in atTop, (|C| + 1) / c < ↑n ^ (e / 2)
+n : ℕ
+hn1 : c * ↑n ^ (-2 + e) ≤ α n
+hn2 : α n ≤ C * ‖↑n ^ (2 + o n)‖
+hn3 : o n < e / 2
+hn4 : (|C| + 1) / c < ↑n ^ (e / 2)
+hn5 : 0 < n
+hnR : 0 < ↑n
+hn1' : 1 ≤ ↑n
+hans : erdos_507.lower.answer n = ↑n ^ (-2 + e)
+hpos1 : 0 < ↑n ^ (-2 + o n)
+hαnn : 0 ≤ α n
+⊢ False
+RSSCAP done rc=1 peak_kb=6928000 wall=7s

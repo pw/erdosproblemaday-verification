@@ -1,0 +1,8 @@
+(i) monochromatic unit pairs among 400000 random pairs: 0
+    control s=0.55 (hexagon diameter > 1): monochromatic unit pairs = 1224 (must be > 0)
+(ii) edges (label pairs) at x: [(2, 3), (0, 2), (3, 0)]; triangle labels [0, 2, 3]; outsiders [1, 4, 5, 6]
+    Lemma 8.1 strip conclusion on this colouring: violations = 0 (expect 0)
+(iii) colours met just outside / inside the unit circle about x: [1, 4, 5, 6] / [1, 4, 5, 6]
+     With k=7 the two-of-three-edges strip uses the FOUR outsiders, not two: the binary state s(e) of Sec. 8.4,
+     the two-colour alternation of Lemma 8.6, and the 3-label region of Lemma 8.8 all depend on k=5 (two outsiders).
+RESULT: OK

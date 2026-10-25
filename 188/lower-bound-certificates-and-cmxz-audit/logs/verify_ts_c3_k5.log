@@ -1,0 +1,9 @@
+pairs exact-unit: 95 checked
+runs exact (collinear, unit-spaced, length 5): 29 checked
+blue WLOG point: lattice point (5,0) = (5, 0), |P|^2 = 25 (W2 applies for any |P| > 1/2: its theta_|P| partner is at distance exactly 1)
+coverage: all 126 core clauses were geometrically checked
+minisat22 on core: UNSAT
+minimality: 126/126 single deletions SAT
+negative control (i): with the wrong rotation angle 29/95 pair clauses fail the unit test (need >= 1)
+negative control (ii): corrupted run still reads as a run? False
+RESULT: PASS

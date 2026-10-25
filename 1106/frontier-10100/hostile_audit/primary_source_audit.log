@@ -1,0 +1,56 @@
+PRIMARY SOURCE AUDIT 2026-08-11 UTC
+8b024d28598743742a6aba1cba365e95ff838a7fde596eb967c30279fd9ff854  /home/exedev/erdos_scratch/erdos1106_frontier_10100_20260811/sources/schinzel_wirsing_1987.pdf
+f41322fe0d22c0a1097c5b220adedb063cbb6c59b8b2b083006b04644701fab1  /home/exedev/erdos_scratch/erdos1106_frontier_10100_20260811/sources/cilleruelo_luca_2012.pdf
+526143faa97d835992463d9e9e72e2ece2ea19baf9462beb40fcc7a30d245459  /home/exedev/erdos_scratch/erdos1106_frontier_10100_20260811/sources/ono_2000.pdf
+Cilleruelo-Luca introduction, lines 18-39:
+number of ways of writing n = λ1 + · · · + λk , where k ≥ 1 and 1 ≤ λ1 ≤ · · ·
+· · · ≤ λk are integers. There is a huge literature on this function, dealing with
+its size, congruence properties, recurrence relations, and so on. Let P (m) be
+the largest prime factor of the positive integer m with the convention that
+P (1) = 1, and let ω(m) be the number of distinct prime factors of m. In re-
+sponse to a question of Erdős and Ivić, Schinzel showed that ω( N
+                                                                      Q
+                                                                        m=1 p(m))
+tends to infinity with N (Lemma 2 in [2]). His method used lower bounds
+for nonzero linear forms in logarithms of algebraic numbers. Later, Schinzel
+and Wirsing [6] proved the effective result
+                       N
+                      Y                     log N
+(1.1)             ω            p(m) ≥ (1 − ε)              if N > N0 (ε),
+                                               log 2
+                         m=1
+
+valid for all ε > 0, without using linear forms in logarithms.
+    Here, we revisit Schinzel’s original argument to prove the following result.
+    Theorem 1. The set of n for which
+                                    P (p(n)) > log log n
+is of asymptotic density 1.
+Ono theorem/corollary, lines 69-96:
+the direction of Erdös’ stronger conjecture. They have shown that the number
+of primes m < X for which Erdös’ conjecture is true is ≫ log log X.
+     Here we present a uniform and systematic approach which settles the
+debate regarding the existence of further congruences, and yields Erdös’ con-
+jecture as an immediate corollary.
+
+     Theorem 1. Let m ≥ 5 be prime and let k be a positive integer. A
+positive proportion of the primes ℓ have the property that
+                           k 3       
+                            m ℓ n+1
+                        p               ≡ 0 (mod m)
+                               24
+for every nonnegative integer n coprime to ℓ.
+
+     In view of work of S. Ahlgren [A], J.-L. Nicolas, I. Z. Ruzsa, A. Sárközy
+[Ni-R-Sa] and J-P. Serre [S] for m = 2, the fact that p(3) = 3, and Theorem 1,
+we obtain:
+
+    Corollary 2. Erdös’ conjecture is true for every prime m. Moreover, if
+m 6= 3 is prime, then
+                                                √
+                                                    X       if m = 2,
+      #{0 ≤ n ≤ X : p(n) ≡ 0 (mod m)} ≫m
+                                                   X        if m ≥ 5.
+
+    Surprisingly, it is not known whether there are infinitely many n for which
+p(n) ≡ 0 (mod 3).
+    As an example, we shall see that ℓ = 59 satisfies the conclusion of Theorem

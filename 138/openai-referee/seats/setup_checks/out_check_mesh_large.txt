@@ -1,0 +1,6 @@
+k=1025           D=3   e=1       m=2.843e+7 theta/H=0.99999999 | 905 cells: viol=0, |I|/(H(rho+a)) in [1.0,1.0], max#endpoints(N(I))=4, min|J|/w=0.999998 | densest 4H-arc of V_eta: 11933 breakpoints vs 16004D=48012 (ratio 0.249)
+k=1000000        D=4   e=3       m=2.065e+14 theta/H=1.0 | 905 cells: viol=0, |I|/(H(rho+a)) in [1.0,1.0], max#endpoints(N(I))=4, min|J|/w=1.0 | densest 4H-arc of V_eta: 16001 breakpoints vs 16004D=64016 (ratio 0.250)
+k=1000000000     D=8   e=1250    m=2.331e+23 theta/H=1.0 | 905 cells: viol=0, |I|/(H(rho+a)) in [1.0,1.0], max#endpoints(N(I))=4, min|J|/w=1.0 | densest 4H-arc of V_eta: 32001 breakpoints vs 16004D=128032 (ratio 0.250)
+k=1000000000000  D=16  e=625000  m=2.936e+32 theta/H=1.0 | 905 cells: viol=0, |I|/(H(rho+a)) in [1.0,1.0], max#endpoints(N(I))=4, min|J|/w=1.0 | densest 4H-arc of V_eta: 64001 breakpoints vs 16004D=256064 (ratio 0.250)
+[check_mesh_large: 2.41s, maxrss 48416kB]
+exit=0

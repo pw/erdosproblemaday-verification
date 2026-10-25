@@ -1,0 +1,29 @@
+inequality                                             last failing k on grid (k=3..2e4 exact, then 10^4.3..10^300 step 10^0.01)
+S1 h0<2M<k (sec2 l.21)                                 6
+S2 prime: k^2 log4 - log(2k^2+1) > k log(2k^2)         never fails (k>=3)
+S3 h0<k (gcd(lambda,q)=1)                              4
+S4 alpha<=1/4, R>=1, H<=1 (mesh:width)                 never fails (k>=3)
+S6 H<=1/8 and 3w<=6H<1 (mesh:neighbors)                never fails (k>=3)
+C2 6H<1, 4H<1 (count:local ranges)                     never fails (k>=3)
+O1+O4 incident weight <= 1/500                         ~10^44.65
+O1 first-family total kTglob e^{-(dM-1)/32} <= 1/1000  ~10^22.70
+O3 6 log(C D^3)/D <= 1/128 (summand <= e^{-h/128})     ~10^44.65
+O4 sum_{h>D^2} e^{-h/128} <= 1/1000                    ~10^15.78
+O5 l(E)>=100: dM-1>=100 and (D^2+1)/2>=100             ~10^11.46
+O2 log(CDh)/h decreasing for h>=D^2 (CD^3>e)           never fails (k>=3)
+D1 2kH<1 (affinity)                                    never fails (k>=3)
+D2 m*-1>=k/(2M) (needs k>=2M)                          5
+D3 6MH/k<1 (v=lambda u)                                never fails (k>=3)
+D4 4MH<1 ((1-2MH)/2M > H)                              never fails (k>=3)
+D5 2H+4MH<1 (heavy-width)                              3
+D7 4MH < 1/2 (short-motion, h>=1)                      4
+D8 2H(k+1)<1 (short width)                             never fails (k>=3)
+D10 4MH/k < eta (long, drift<eta)                      38
+D11 D(4eta+1/h0)<1/2                                   1024
+D12 2M<=k and 4M<=k (|u|<=Hx,|v|<=H)                   19
+D13 2M/k<=1/16                                         1055
+D14 k-h-dk>=4k/5 (h<=2M<=k/10)                         419
+P1 p<1/2 (k^{1/20}>2)                                  1047128
+P2r rich: log R_k < log(1/2)                           154881
+P2a affine: log A_k < log(1/2)                         7238
+O3 threshold: k ~ 10^44.655, D = 29210, C = 1321.0

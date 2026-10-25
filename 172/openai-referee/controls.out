@@ -1,0 +1,4 @@
+control (8.2) lambda_e>0: checked 37133 violations 0
+Corollary 1.2 positive control: {'ok': 3000}
+negative control (unseparated): {'ok': 1729, 'FS∩FP != A': 101, 'sum collision': 1100, 'prod collision': 70}
+CONTROLS PASS

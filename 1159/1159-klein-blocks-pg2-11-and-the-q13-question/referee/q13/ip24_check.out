@@ -1,0 +1,9 @@
+|S| = 24  line-intersection spectrum {i: #lines}: {1: 117, 2: 9, 3: 33, 4: 18, 5: 6}
+blocking (no 0-line): True  max intersection: 5  contains a line: False
+identities: True True True
+points with a tangent: 24 of 24
+planar difference set: True
+i+j offset 0 {1: 117, 2: 9, 3: 33, 4: 18, 5: 6}
+i+j offset 1 {1: 117, 2: 9, 3: 33, 4: 18, 5: 6}
+j-i offset 0 {1: 117, 2: 9, 3: 33, 4: 18, 5: 6}
+j-i offset 1 {1: 117, 2: 9, 3: 33, 4: 18, 5: 6}

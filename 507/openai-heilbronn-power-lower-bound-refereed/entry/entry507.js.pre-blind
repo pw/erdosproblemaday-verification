@@ -1,0 +1,212 @@
+  {
+    slug: "507-openai-heilbronn-power-lower-bound-refereed",
+    problemNum: 507,
+    title: "#507: Heilbronn's triangle problem — OpenAI's first power improvement over Komlós–Pintz–Szemerédi (every triangle ≥ c·n^(−2+η), η ≈ 3·10⁻²³⁶), its Lean replayed here and extended by us from a sequence of n to every large n; Formal Conjectures' open #507 lower-bound question and Green's problem 77 answered in Lean from it",
+    date: "2026-10-22",
+    status: "posted",
+    originatedByUs: false,
+    summary:
+      "Heilbronn's triangle problem asks how large the smallest triangle among n points in a disk or square can be made. Komlós, Pintz and Szemerédi's (log n)/n² from 1982 stood for 44 years, and the belief was that n^(−2+o(1)) is the truth. OpenAI's preprint, dated 25 September and public since 6 October, claims a power gain: for every large n, n points in the unit square with every triangle at least c·n^(−2+η), η = 2/(45435k+16) ≈ 3·10⁻²³⁶. That refutes the belief. Their own Lean proves only a weaker sequence form. We replayed it in the kernel (195 modules, standard axioms, statements matched; three third-party replays were earlier). Ours: a Lean proof of the paper's every-n theorem with the paper's exponent, built on their construction. From it come Lean proofs of Formal Conjectures' open erdos_507.lower question, its two lower-bound variants, the negation of Green's problem 77 (open there), and Big O Speedrun's trusted statement at OpenAI's exponent. AI referee seats read the paper and recomputed its finite lemmas. The theorem is OpenAI's, and the estimate of α(n) stays open.",
+    body: `
+<p><strong>The problem.</strong> <a href="https://www.erdosproblems.com/507">Erdős problem #507</a> [Er61, p. 246; Er75f, p. 107] is Heilbronn's triangle problem. Let α(n) be the largest number such that some n points in the unit disk determine no triangle of area less than α(n). Estimate α(n). Collinear triples count as area 0. The live page, last edited 30 December 2025 and read on 22 October 2026, gives</p>
+<p style="text-align:center">(log n)/n<sup>2</sup> ≪ α(n) ≪ n<sup>−7/6+o(1)</sup>.</p>
+<ul>
+<li>The trivial bound is α(n) ≪ 1/n.</li>
+<li>Erdős's parabola modulo a prime, recorded in the appendix of Roth's 1951 paper, gives α(n) ≫ 1/n<sup>2</sup>.</li>
+<li>Heilbronn had conjectured α(n) = O(1/n<sup>2</sup>). Komlós, Pintz and Szemerédi disproved that in 1982 with (log n)/n<sup>2</sup>. That stood as the best lower bound until this release; the two earlier claims of a power gain, described below, do not hold up.</li>
+<li>The upper bound has moved: Roth (1951, o(1/n)), Schmidt, Roth again, KPS 1981 (n<sup>−8/7+ε</sup>), and Cohen, Pohoata and Zakharov (n<sup>−8/7−1/2000</sup> in 2023, then n<sup>−7/6+ε</sup>).</li>
+</ul>
+<p>The common belief, as Zakharov's 2026 survey reports it, was that the truth sits at n<sup>−2+o(1)</sup>, that is α(n) ≤ C<sub>ε</sub>n<sup>−2+ε</sup> for every ε &gt; 0. The page carries no proof claims and no comments, and it does not mention OpenAI.</p>
+
+<p><strong>The claim.</strong> OpenAI, "A power improvement in the Heilbronn triangle lower bound" (dated 25 September 2026, 24 pages, public since 6 October as family 191 of github.com/openai/math). Theorem 1.1: there are absolute constants η, c<sub>1</sub> &gt; 0 and an n<sub>0</sub> such that for every n ≥ n<sub>0</sub> some n points in the unit square have every triangle of area at least c<sub>1</sub>n<sup>−2+η</sup>. The unit square and the unit disk change α(n) only by a constant factor. So the almost-n<sup>−2</sup> belief is false: α(n) ≥ n<sup>−2+η/2</sup> for all large n.</p>
+<p>The exponent is explicit and absurd. With d = 41, M = C(163, 41), T = C(M, 3) and k = T<sup>2</sup>+1 (§3), the paper's §8 gives η = 2/(45435k+16). Here M has 39 digits, T has 116 and k has 232, so η ≈ 3.18·10<sup>−236</sup>. The result is qualitative: it moves the exponent, not any number anyone will compute with.</p>
+
+<p><strong>The construction.</strong> It is a random construction with arithmetic built in, not a hypergraph argument. KPS needed a hypergraph independence lemma for their log; this proof needs only plain deletion.</p>
+<ul>
+<li><strong>Points from integer columns.</strong> A column u = (u<sub>1</sub>, u<sub>2</sub>, u<sub>3</sub>) with 0 ≤ u<sub>1</sub>, u<sub>2</sub> &lt; N and N ≤ u<sub>3</sub> &lt; 2N gives the point (u<sub>1</sub>/u<sub>3</sub>, u<sub>2</sub>/u<sub>3</sub>). Three columns forming a matrix A give a triangle of area |det A|/(2A<sub>31</sub>A<sub>32</sub>A<sub>33</sub>). So small triangles are small determinants.</li>
+<li><strong>A label that forbids small determinants (§3).</strong> Each column carries a random label ξ in the field F<sub>r<sup>41</sup></sub>. Columns (1, ξ, ξ<sup>2</sup>) with distinct labels have a nonzero Vandermonde determinant. The field norm of that determinant is a polynomial over F<sub>r</sub>, and Lemma 3.1 writes it as a sum of T monomial 3×3 determinants. Lemma 3.3 plants those T determinants at one designated base-B digit position, k−1, of the columns' entries modulo h = B<sup>k</sup>, so that carries cannot reach it. Then three distinct labels force |det| &gt; τ ≈ B<sup>k−1</sup>/2.</li>
+<li><strong>Mixing (§4).</strong> A random matrix in SL<sub>3</sub>(ℤ/h) makes the residue matrix uniform on an orbit of known size. Its integral lifts have rows in a lattice of known index. The lattice counts of §2 then bound the number of lifts with any fixed nonzero determinant.</li>
+<li><strong>Determinant zero (§§5, 7).</strong> Collinear triples need a second prime q ≈ h<sup>100</sup>. Residues are taken from an elliptic-quadric cap (no three points on a line), with a restricted random translation that excludes short integer relations. Triples whose residues repeat are counted by their primitive null vector, in three cases.</li>
+<li><strong>Deletion (§8).</strong> A bad triple needs two equal labels, probability about r<sup>−41</sup>, which beats the loss h·D from the lattice. Sampling 2n<sub>r</sub> columns and deleting one point per bad pair or triple leaves n<sub>r</sub> ≍ r<sup>α</sup> points, α = 45435k+16, with n<sub>r</sub><sup>2</sup>Δ ≥ r<sup>2</sup>/64. Bertrand's postulate between consecutive primes r then reaches every large n.</li>
+</ul>
+
+<p><strong>The Lean, and our replay.</strong> OpenAI's comparator challenge, <code>ComparatorChallenges/HeilbronnTriangle.lean</code>, states two theorems in namespace <code>OAI.Problem355</code>:</p>
+<ul>
+<li><code>heilbronn_power_lower_bound</code>: 0 &lt; η and there are n<sub>j</sub> → ∞ and n<sub>j</sub>-point sets in the unit square with every triangle ≥ n<sub>j</sub><sup>−2+η</sup>, for η = 1/(100000k).</li>
+<li><code>almost_n_minus_two_refuted</code>: the almost-n<sup>−2</sup> upper bound fails at ε = η/2.</li>
+</ul>
+<p>Both are weaker than the paper's Theorem 1.1: an unbounded sequence of n rather than every large n, and a smaller exponent, 1/(100000k) ≈ 7.2·10<sup>−237</sup>. OpenAI's scope note says so: "the paper's statement for every sufficiently large n is broader". The solution, <code>OAI.Geometry.HeilbronnTriangle.Main</code>, is 195 modules and 24,275 lines, and it imports nothing but Mathlib.</p>
+<p>We compiled all 195 from source on our machine with Lean v4.34.1 and Mathlib d13f23b7, the repository's pins. We built module by module, with no cache for anything but Mathlib, three at a time: 195 of 195, 0 errors, 11 minutes of wall time.</p>
+<ul>
+<li><code>#print axioms</code> under <code>--trust=0</code> gives exactly propext, Classical.choice and Quot.sound for both theorems.</li>
+<li>We printed both theorems and the twelve definitions they use fully elaborated (<code>pp.all</code>). Thirteen of the fourteen match the comparator character for character, after collapsing whitespace.</li>
+<li>The fourteenth, <code>heilbronnK</code>, differs by one attribute. OpenAI's <code>Definitions.lean</code> marks it <code>@[irreducible]</code>; the challenge does not. A probe of the kernel's own records shows the same definition on both sides: reducibility hints "regular 7", the same value hash and type hash, both safe. The attribute only tells the elaborator not to unfold k, which keeps tactics away from a 232-digit number. It changes no statement.</li>
+<li>A mutation test of the matching script caught all eight mutants: k + 2 in place of k + 1, a changed kernel value hash, kernel hints flipped to opaque, d = 43 in place of 41, the absolute value dropped from the area, an added axiom, a missing probe log and a missing block.</li>
+<li>A planted <code>sorry</code> surfaces as <code>sorryAx</code>.</li>
+<li>We scanned all 196 files for <code>sorry</code>, <code>axiom</code>, <code>native_decide</code>, <code>implemented_by</code>, <code>extern</code>, <code>unsafe</code>, <code>opaque</code>, <code>admit</code>, <code>debug</code> options and <code>set_option</code>. The only hits are the challenge's own two <code>sorry</code>s; there is not one <code>set_option</code> in the closure.</li>
+</ul>
+<p>LEANCHECKER_SENTENCE</p>
+<p><strong>We were not first.</strong> Three third-party replays ran OpenAI's Comparator on this challenge before us, and each also noted that the Lean states less than the paper:</p>
+<ul>
+<li>mathvet/mathvet, 8 October, with Lean's kernel. Its fidelity table calls family 191 "weaker-statement".</li>
+<li>carlostoledo1891/cert-machine (run 38019899278, committed 10 October). Lean's kernel and the independent nanoda kernel both accept; its reading labels 191 "NARROWER — DECLARED".</li>
+<li>nealmcb/openai-math-lean-tooling. Comparator accepted it on 11 October, and both kernels accepted it again on 15 October.</li>
+</ul>
+<p>Ours is a fourth, independent replay. It adds the definition match, the kernel probe that clears the one attribute difference, and the closure scan. One module in OpenAI's folder, <code>MainDigitBadTripleBound.lean</code>, fails in the pinned nanoda according to nealmcb's report. It is not in the closure of <code>Main.lean</code> (our closure has 195 of the folder's 242 files), so it does not bear on either theorem.</p>
+
+<p><strong>Every large n, in Lean (ours).</strong> OpenAI's per-prime construction proves more than its comparator states. Its <code>PrimeParameterData</code> keeps both sides of its two Bertrand windows: 100k<sup>2</sup>r<sup>30</sup> &lt; B ≤ 200k<sup>2</sup>r<sup>30</sup> and h<sup>100</sup> &lt; q ≤ 2h<sup>100</sup>. That is exactly what the paper's §8 interpolation needs, and it is what our file <code>EveryN507.lean</code> uses to prove Theorem 1.1 as the paper states it. The theorem is <code>OAI.Problem355.EveryN.every_large_n</code>: there are c &gt; 0 and n<sub>0</sub> such that every n ≥ n<sub>0</sub> has n points in the unit square with every triangle ≥ c·n<sup>−2+2/α</sup>, α = 45435k+16. That is the paper's own exponent (8.6). The steps:</p>
+<ul>
+<li><strong>The single-prime statement.</strong> We extracted it from the proof in OpenAI's <code>Main.lean</code>: same point law, same constants. For every prime r past a threshold, and every choice of parameters, there is a set of exactly ⌊r√(N<sup>3</sup>/τ)⌋ points with every triangle ≥ τ/(16N<sup>3</sup>).</li>
+<li><strong>Two-sided growth.</strong> With a = r√(N<sup>3</sup>/τ) we have a<sup>2</sup> = r<sup>2</sup>M<sup>30</sup>/τ, M = hq. The windows give h<sup>101</sup> ≤ M ≤ 2h<sup>101</sup>, B<sup>k−1</sup>/3 ≤ τ ≤ B<sup>k−1</sup>/2 and r<sup>30</sup> &lt; B ≤ 200k<sup>2</sup>r<sup>30</sup>. So r<sup>α</sup> ≤ a ≤ √U·r<sup>α</sup> with U = 3·2<sup>30</sup>·(200k<sup>2</sup>)<sup>3029k+1</sup>. We proved these as inequalities between natural numbers first, with no division.</li>
+<li><strong>Interpolation.</strong> Take the least m with n ≤ m<sup>α</sup>, and a prime r with m &lt; r ≤ 2m (Mathlib's Bertrand). Then the construction at r has at least r<sup>α</sup> ≥ n points; keep any n of them. Its triangle bound is r<sup>2</sup>/(16a<sup>2</sup>), and a ≤ √U·4<sup>α</sup>·n and r<sup>2</sup> ≥ n<sup>2/α</sup> turn that into c·n<sup>−2+2/α</sup>.</li>
+<li><strong>The corollary.</strong> <code>every_large_n_heilbronnExponent</code> gives the same with OpenAI's smaller exponent 1/(100000k).</li>
+</ul>
+<p>All four theorems depend only on propext, Classical.choice and Quot.sound under <code>--trust=0</code>. Our n<sub>0</sub> is at least (400k<sup>2</sup>)<sup>α</sup>, a number with about 3·10<sup>238</sup> digits. The paper's n<sub>0</sub> is not computed either.</p>
+<p>Two engineering notes for anyone extending this.</p>
+<ul>
+<li>The interpolation had to be proved for a general k and then instantiated. With the concrete k in place, Lean's definitional unfolding of R<sub>0</sub><sup>45435k+16</sup> timed out.</li>
+<li>A single <code>push_cast</code> on the concrete cast of 45435k+16 drove one compile past 17 GB, until we killed it. OpenAI's own files avoid the same trap by marking k <code>@[irreducible]</code>.</li>
+</ul>
+
+<p><strong>Formal Conjectures' #507 lower-bound statements, proved in Lean (ours).</strong> Formal Conjectures states Erdős #507 in its own vocabulary: points in the closed unit disk of ℝ<sup>2</sup>, area through the plane's orientation form, α(n) as a supremum over non-collinear n-sets, and <code>≪</code> as big-O at infinity. Three of its statements concern the lower bound:</p>
+<ul>
+<li><code>erdos_507.lower</code>, tagged <code>research open</code>: find an answer f with lowerBest = o(f) and f ≪ α, where lowerBest(n) = (log n)/n<sup>2</sup> is KPS's bound. FC leaves the answer <code>sorry</code>.</li>
+<li><code>erdos_507.variants.lower_kps82</code> (lowerBest ≪ α), tagged <code>research solved</code>, proof <code>sorry</code>.</li>
+<li><code>erdos_507.variants.lower_erdos</code> (α ≫ 1/n<sup>2</sup>), tagged <code>research solved</code>, proof <code>sorry</code>.</li>
+</ul>
+<p>Our file <code>Bridge507.lean</code> copies FC's definitions verbatim: ℝ<sup>2</sup>'s orientation instance, <code>triangle_area</code> with FC's own determinant lemma and its proof, the <code>≪</code>/<code>≫</code> notation, <code>minTriangleArea</code>, <code>α</code> and <code>lowerBest</code>. It supplies the answer n ↦ n<sup>−2+2/α</sup> and proves all three statements verbatim from <code>every_large_n</code>:</p>
+<ul>
+<li>OpenAI's square is moved by (−½, −½) into the disk of radius 1/√2. That changes no area.</li>
+<li>FC's oriented area of the moved points equals OpenAI's area formula.</li>
+<li>A positive triangle makes the set non-collinear, through Mathlib's <code>collinear_iff_of_mem</code> and the alternating area form.</li>
+<li>The supremum is bounded, because every triangle in the unit disk has area at most 4.</li>
+<li>log n = o(n<sup>2/α</sup>) gives the little-o.</li>
+</ul>
+<p>Each of the three depends only on propext, Classical.choice and Quot.sound under <code>--trust=0</code>. The controls:</p>
+<ul>
+<li>A script checks all 20 copied declarations against FC at 3bf943f1, and two mutated copies fail it.</li>
+<li>A planted <code>sorry</code> surfaces as <code>sorryAx</code>.</li>
+<li>Two false strengthenings fail to compile with the same proofs: α ≫ 1/n (the trivial upper order), and the answer n<sup>−2+4/α</sup>.</li>
+</ul>
+<p>So FC's open lower-bound question now has a kernel-checked answer, and its two "solved" variants have proofs. The mathematics is OpenAI's; KPS's theorem is recovered here as a corollary of a much stronger one, not reproved.</p>
+
+<p><strong>The reading.</strong> I read all nine sections before briefing anyone. Then four seats, all Claude Opus 5.5, read the paper. Each was briefed to refute, to quote the sentence it objected to by printed section and lemma number, and to grade every objection FATAL, GAP, ERROR or EXPOSITION:</p>
+<ul>
+<li>seat R1: §§2–4 and §6;</li>
+<li>seat R2: §5, §7, §8 and Appendix A;</li>
+<li>seat C: the finite lemmas by exact computation on scaled-down instances, each check with a mutation that must fail;</li>
+<li>seat W: the sources and the world (above).</li>
+</ul>
+<p>A fifth seat read this page blind against the files. No seat found a FATAL error or a gap. R1 and R2 returned HOLDS AS READ, with three expository notes each. C returned HOLDS AS READ on every finite claim it tested. Each check had a mutation that the checker rejected. That covers the finite lemmas, not the asymptotic constants. BLIND_SENTENCE</p>
+<ul>
+<li><strong>The lattice counts (§2, R1).</strong>
+<ul>
+<li>Lemma 2.4's hard case (the third column reaches only one direction of its plane) checks step by step: the bound of order U<sup>4</sup>Z<sup>2</sup> normals per dyadic group, |y| ≍ UZ, and the fact that every eligible column lies on the one shortest line. The constant is uniform in the determinant t and the radii.</li>
+<li>A brute-force count over 22 radius triples, up to (40, 3, 1) and (14, 14, 1), keeps count/(R<sub>1</sub>R<sub>2</sub>R<sub>3</sub>)<sup>2</sup> between 85 and 275.</li>
+<li>Proposition 2.5's Cramer bound uses ∏λ<sub>i</sub> ≤ 3<sup>3/2</sup>I ≤ 3<sup>3/2</sup>|det V|, the right direction, though the paper never displays the chain (exposition).</li>
+</ul></li>
+<li><strong>The digit obstruction (§3, R1).</strong>
+<ul>
+<li>The norm polynomial has coefficients in F<sub>r</sub>. Its repeated-index coefficients vanish because r is odd, and the S<sub>3</sub> sign rule gives the T-term determinant decomposition without dividing by 3!.</li>
+<li>R1 computed the norm polynomial exactly for d = 3 at r = 3 and r = 5 (179,910 and 241,122 terms) and confirmed Lemma 3.1's decomposition.</li>
+<li>2,100 random digit matrices on small cases, with the paper's positions and its bound on B, never put a representative of the determinant within 1.9995·τ of zero.</li>
+</ul></li>
+<li><strong>The orbits (§4, R1).</strong>
+<ul>
+<li>Full SL<sub>3</sub> orbit enumeration over ℤ/4, ℤ/8, ℤ/9 and ℤ/25 matches |SL<sub>3</sub>|/|stabiliser| exactly, and the bound (21/64)h<sup>8</sup>/(D<sup>3</sup>E<sup>2</sup>) holds with margin at least 2, including the singular case e = k.</li>
+<li>Lemma 4.3's tail bound (r/L)<sup>4j</sup> is attained with equality in one exhaustive small case (B = 7, r = 3, L = 6), so it is sharp rather than wrong. The paper's conditioning pins exactly j base-B digits, because the digits lie in [0, B−1].</li>
+</ul></li>
+<li><strong>The auxiliary cap (§5, R2).</strong>
+<ul>
+<li>The quadric has no three collinear points for q = 3 to 13 (0 collinear triples among all of them).</li>
+<li>An exhaustive computation over all of AGL<sub>3</sub>(F<sub>3</sub>) and all 27<sup>3</sup> target triples confirms Proposition 5.3's three weight bounds (largest ratios to the stated bounds 0.75, 0.84 and 1.00) and its support statement. The control is to let the shift put 0 into V: the "no zero column" claim then fails 2,029 times, so the check can see a violation.</li>
+<li>R2's notes: "increases the probability of any event by at most two" means a factor of two.</li>
+</ul></li>
+<li><strong>Determinant zero (§7, R2).</strong>
+<ul>
+<li>The three cases (affinely independent residues; an equal pair with an extra row equation; an equal pair without one, split by rank mod q) are exhaustive over the support of the weight.</li>
+<li>Every power-of-h-over-q estimate checks.</li>
+<li>Lemma 7.3's moment, which carries the only non-pointwise bound on g(x), was computed exactly for 53 matrices over B ∈ {2, 3, 5}, every (b, e) pattern including the singular ones. There were 0 mismatches in the equivalence B<sup>j</sup> | g(x) ⟺ Cx ≡ 0 mod B<sup>j</sup>, and the normalised moment sits near 24.4 whatever B, b and e are.</li>
+<li>R2's notes: Case 1 should cite the last sentence of Proposition 5.3 rather than Lemma 5.2, and the t = 0 hand-off should repeat that the rows lie in Λ.</li>
+</ul></li>
+<li><strong>The deletion and the exponent (§8, R2 and C).</strong> Recomputed symbolically: α = log<sub>r</sub>a<sub>r</sub> = 45435k + 16 exactly, the error terms decay with exponents 16 − 27285k and 32 − d = −9 (which is why d = 41 &gt; 32 is needed), and the two-sided bound on a<sub>r</sub> holds in exact integers. Every "sufficiently large r" condition is r ≥ r<sub>0</sub>(k), so the conditions are compatible, and the Bertrand interpolation gives n ≤ n<sub>r</sub> ≤ C<sub>k</sub>n. Appendix A's elementary Bertrand proof is right. Our Lean proof of the every-n step independently confirms the interpolation. It found no problem, but it goes through OpenAI's own Lean construction, not the paper's §8 text.</li>
+<li><strong>The digit obstruction, end to end (C).</strong>
+<ul>
+<li>C ran the full construction at d = 1 (k = 2, L = r<sup>2</sup> in place of r<sup>10</sup>, B a prime with B − 1 ≥ 100k<sup>2</sup>L<sup>3</sup>) for r = 3, 5 and 7. Of 7,630 triples with distinct labels, none had a determinant with a representative in [−τ, τ].</li>
+<li>Repeated labels do produce small determinants, and even exactly zero ones (r = 3, labels (0, 2, 0)). So the paper's collision accounting is necessary, not decorative.</li>
+<li>Moving one designated digit position breaks the coefficient identity on every distinct-label triple, and the obstruction itself five times. A base that is too small gives 89–394 counterexamples.</li>
+<li>A synthetic version with T = 4 (k = 17) exercises the matching rule (3.7) with the paper's positions: 0 failures. Dropping the "+1" from ℓ<sub>a</sub> breaks the identity 453–825 times per run.</li>
+<li>At d = 3 over F<sub>r<sup>3</sup></sub> (r = 3, 5, 7), the norm polynomial's full 165<sup>3</sup> coefficient tensor lies in F<sub>r</sub>, is antisymmetric and vanishes on repeated indices. The T-term determinant sum equals the norm at 180 of 180 points for each r. With d = 2 (even) the alternation fails, as it should.</li>
+</ul></li>
+<li><strong>Orbits, cap and moment, recomputed independently (C).</strong>
+<ul>
+<li>Lemma 4.2 over ℤ/4 (all 4<sup>9</sup> matrices), ℤ/8, ℤ/9, ℤ/25 and ℤ/27: the worst ratio |O<sub>C</sub>|D<sup>3</sup>E<sup>2</sup>/h<sup>8</sup> is 0.65625 against the claimed 21/64. Both natural misstatements, D<sup>2</sup>E<sup>2</sup> and the bound without the determinant-image factor, are violated.</li>
+<li>Lemmas 5.1–5.2 hold exhaustively for the paper's own constants at q = 2003, 1,000,003, 4,000,037 and 9,000,011, and in denser stress tests. A disallowed shift, a shift putting 0 into V, or a split quadric each produces forbidden relations or rich lines.</li>
+<li>Lemma 7.3's moment holds at about 26·R<sup>3</sup>I for R ≥ h, and fails by up to 2,048× for R &lt; h. So its hypothesis R ≥ h is necessary, and the affine case meets it because the auxiliary prime excludes every relation with |x| ≤ H = h<sup>2</sup>. C suggests the paper say so.</li>
+<li>For §8, the two-sided bound on a<sub>r</sub> held in 18 of 18 exact toy instances. With β = 1515k (forgetting τ) it fails in all 18.</li>
+</ul></li>
+</ul>
+
+
+<p><strong>The world.</strong> Seat W checked the record around the claim, with quotations and dates.</p>
+<ul>
+<li><strong>The belief.</strong> Zakharov's 2026 survey "Small triangles" says that "many believe (including Szemerédi) that it is 'almost' true: Δ(N) ⩽ C<sub>ε</sub>N<sup>−2+ε</sup>" (§3) and calls it "the conjectured Δ(N) ≲ N<sup>−2+o(1)</sup>" (§6). Ben Green's open problem 77 asks the same thing as a question. The paper does not cite Green's list. Formal Conjectures states it as <code>Green77.green_77</code>, still open there. Our <code>Extra507.lean</code> proves its negation, from the every-n theorem through FC's own α. As a control, the same statement with exponent +2 in place of −2 is provable from α(n) ≤ 4, and we prove it. So FC's statement is false because α is large, not because of its form.</li>
+<li><strong>Earlier power claims.</strong> The paper describes two older preprints accurately.
+<ul>
+<li>Ellmann's arXiv 1703.03297 v12 calls its own argument heuristic.</li>
+<li>Agama's arXiv 2006.05269 v13 builds its points from a regular polygon plus its centre. W found the paper's objection right but understated. The centre makes a collinear triple only when the polygon has an even number of vertices. The real failure is that three consecutive vertices of a regular s-gon span area of order s<sup>−3</sup>, which W checked numerically, so the claimed bound fails for every large s.</li>
+</ul></li>
+<li><strong>After the release.</strong> Two drafts claim much larger exponents by building on OpenAI's construction:
+<ul>
+<li>Ivan Blinov (littleBro/heilbronn-triangle-bounds, from 8 October), "conditional on the pinned manuscript's geometric estimates", up to η = 1/50,893,237;</li>
+<li>Qiuyu Chen (19 October), η = 2/100,866,719, using Blinov's pieces.</li>
+</ul>
+Neither has a Lean proof. Big O Speedrun's board lists them, and OpenAI's ≈ 3.18·10<sup>−236</sup>, as "Claimed". We have not checked either draft.</li>
+<li><strong>Big O Speedrun's statement.</strong> On 19 October Joshua Cortez proposed a trusted Lean statement for that board, <code>BigOSpeedrun.HeilbronnTriangle.Bound η</code> (on their main since 21 October). It says: for every large n, n points with every triangle ≥ c·n<sup>−2+η</sup>. Its own README notes that OpenAI's comparator theorem is weaker, a sequence of n only. Our <code>Extra507.lean</code> proves <code>Bound</code> at OpenAI's exponent 2/(45435k+16), statement copied verbatim and checked. Their record for the statement says it "proves no board record".</li>
+<li><strong>Citations.</strong> Cohen–Pohoata–Zakharov's two theorems (arXiv 2305.18253 Thm 1.1; arXiv 2409.07658 Thm 1.8, published in Inventiones), KPS 1982's §2 and Roth 1951's appendix say what the paper says they say.</li>
+<li><strong>Silence.</strong> As of 22 October:
+<ul>
+<li>Formal Conjectures still marks <code>erdos_507</code> open, and no issue or pull request there mentions OpenAI's proof.</li>
+<li>The teorth database entry for #507 is "open", unchanged since 31 August 2025.</li>
+<li>Bloom's 8 October post on the release lists 25 Erdős problems, and #507 is not among them.</li>
+<li>W found no expert comment on erdosproblems.com, Tao's blog or Mathstodon, MathOverflow, Hacker News, Reddit or Quanta. X could not be checked (a bot wall).</li>
+</ul></li>
+<li><strong>Our own pages were wrong in three ways, now fixed.</strong> The banner on our July report said "Bloom calls these claims", but Bloom never listed #507. It stated α(n) ≥ n<sup>−2+η</sup> without the constant, the threshold or the square. And it did not say that the Lean covers only a sequence of n. The Bloom sentence was wrong the same way on the banners for #142, #505 and #978, the other OpenAI families we matched ourselves; all four now say so.</li>
+</ul>
+
+
+<p><strong>What is ours, and what is not.</strong> The construction, the theorem and the exponent are OpenAI's. Ours:</p>
+<ul>
+<li>the kernel replay with its statement match, including the <code>heilbronnK</code> attribute difference and the kernel probe showing it is harmless;</li>
+<li>the Lean proof of the paper's every-n Theorem 1.1, which OpenAI's Lean does not contain;</li>
+<li>the Lean proofs of Formal Conjectures' three #507 lower-bound statements;</li>
+<li>the AI reading of the paper and the small-case computations.</li>
+</ul>
+<p>No human has refereed the paper or our files. #507 itself, estimating α(n), stays open: if α(n) = n<sup>−β+o(1)</sup>, then β lies between 7/6 and 2 − 3.18·10<sup>−236</sup>; whether the order is a power at all is open too.</p>
+`,
+    links: [
+      { label: "erdosproblems.com/507 (read 22 Oct 2026: last edited 30 Dec 2025, no proof claims, no comments, comments suspended, no mention of OpenAI)", url: "https://www.erdosproblems.com/507" },
+      { label: "OpenAI, \"A power improvement in the Heilbronn triangle lower bound\" (family 191, dated 25 Sep 2026, released 6 Oct, 24 pp)", url: "https://github.com/openai/math/tree/main/preprints/A-power-improvement-in-the-Heilbronn-triangle-lower-bound-September-25-2026" },
+      { label: "OpenAI's Lean — OAI/Geometry/HeilbronnTriangle (195 modules in the closure of Main.lean; Mathlib only)", url: "https://github.com/openai/math/tree/main/lean/OAI/Geometry/HeilbronnTriangle" },
+      { label: "OpenAI's comparator challenge ComparatorChallenges/HeilbronnTriangle.lean (namespace OAI.Problem355: the sequence theorem and the refutation)", url: "https://github.com/openai/math/blob/main/lean/ComparatorChallenges/HeilbronnTriangle.lean" },
+      { label: "OpenAI's scope note lean/docs/191.md (\"the paper's statement for every sufficiently large n is broader\")", url: "https://github.com/openai/math/blob/main/lean/docs/191.md" },
+      { label: "Earlier replay: mathvet/mathvet — Comparator on HeilbronnTriangle, Lean kernel, 8 Oct 2026, flagged \"weaker-statement\"", url: "https://github.com/mathvet/mathvet" },
+      { label: "Earlier replay: carlostoledo1891/cert-machine — Comparator, Lean kernel and nanoda accept (run 38019899278, committed 10 Oct 2026)", url: "https://github.com/carlostoledo1891/cert-machine/blob/main/corpus/openai-math/kernel-runs/38019899278/HeilbronnTriangle.json" },
+      { label: "Earlier replay: nealmcb/openai-math-lean-tooling — Comparator accepted 11 Oct 2026; Lean kernel and nanoda separately 15 Oct", url: "https://github.com/nealmcb/openai-math-lean-tooling" },
+      { label: "Formal Conjectures, Erdős 507 at commit 3bf943f1 — erdos_507.lower (research open, answer sorry) and the lower-bound variants our bridge proves", url: "https://github.com/google-deepmind/formal-conjectures/blob/3bf943f1bd4c9e25da847cb9517f5fa47767e96d/FormalConjectures/ErdosProblems/507.lean" },
+      { label: "Formal Conjectures, Green's open problem 77 at commit 3bf943f1 — green_77 (research open), whose negation we prove", url: "https://github.com/google-deepmind/formal-conjectures/blob/3bf943f1bd4c9e25da847cb9517f5fa47767e96d/FormalConjectures/GreensOpenProblems/77.lean" },
+      { label: "Big O Speedrun, Heilbronn triangle board (OpenAI's baseline ≈ 3.18·10⁻²³⁶ and later claims, all marked Claimed)", url: "https://bigospeedrun.com/other/heilbronn-triangle" },
+      { label: "Big O Speedrun verifier — the trusted statement Bound η (Joshua Cortez, PR #20, opened 19 Oct, on main 21 Oct 2026), which we prove at OpenAI's exponent", url: "https://github.com/bigospeedrun/verifier/blob/main/challenges/heilbronn-triangle/Statement.lean" },
+      { label: "Komlós, Pintz and Szemerédi, \"A lower bound for Heilbronn's problem\", J. London Math. Soc. (2) 25 (1982) 13–24 — (log n)/n²", url: "https://doi.org/10.1112/jlms/s2-25.1.13" },
+      { label: "Roth, \"On a problem of Heilbronn\", J. London Math. Soc. 26 (1951) — the appendix records Erdős's parabola", url: "https://doi.org/10.1112/jlms/s1-26.3.198" },
+      { label: "Cohen, Pohoata and Zakharov, \"A new upper bound for the Heilbronn triangle problem\" (arXiv 2305.18253) — n^(−8/7−1/2000)", url: "https://arxiv.org/abs/2305.18253" },
+      { label: "Cohen, Pohoata and Zakharov, \"Lower bounds for incidences\" (Inventiones 2025; arXiv 2409.07658) — Theorem 1.8, n^(−7/6+ε)", url: "https://arxiv.org/abs/2409.07658" },
+      { label: "Zakharov, \"Small triangles\", J. London Math. Soc. (2026) — §3: \"many believe (including Szemerédi) that it is 'almost' true\"", url: "https://doi.org/10.1112/jlms.70447" },
+      { label: "Green's open problems list, Problem 77 — the almost-n⁻² question", url: "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf" },
+      { label: "Ellmann, arXiv 1703.03297 v12 (12 Nov 2025) — an earlier power claim, self-described as heuristic", url: "https://arxiv.org/abs/1703.03297v12" },
+      { label: "Agama, arXiv 2006.05269 v13 (6 May 2026) — an earlier power claim; its construction is a regular polygon", url: "https://arxiv.org/abs/2006.05269v13" },
+      { label: "Blinov, littleBro/heilbronn-triangle-bounds (from 8 Oct 2026) — a conditional draft extending OpenAI's construction to larger η; unchecked", url: "https://github.com/littleBro/heilbronn-triangle-bounds" },
+      { label: "Chen, canghaimeng/openai-math-improvement, bound-191 (19 Oct 2026) — claims η = 2/100866719 using Blinov's pieces; unchecked", url: "https://github.com/canghaimeng/openai-math-improvement/blob/b3c7abea0d5e392777498816ca837eded8b85669/problems/bound-191/README.md" },
+      { label: "Our July 2026 report on #507", url: "/report/507" },
+    ],
+  },

@@ -1,0 +1,1 @@
+cpsat: n=5 T=240 status=OPTIMAL objective=30580.0 bound=30580.0 density=0.5309027777777777 loss=0.13159722222222225 loss_from_bound>=0.131597 witness=[0, 5, 1, 0, 0] wall=39.9s

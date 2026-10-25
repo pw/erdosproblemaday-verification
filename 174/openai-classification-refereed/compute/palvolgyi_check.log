@@ -1,0 +1,4 @@
+on circle (x-r)^2+y^2=r^2: True
+sum w p p^T == 0: True
+sum w D(p) p^T == 0: True
+sum w |D(p)|^2 = -12/(4*r**3 - 16*r**2 + 19*r - 6) ; times R = -24 (paper: -24)

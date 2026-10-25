@@ -1,0 +1,31 @@
+n=66 size=6 witness=(21, 25, 31, 40, 43, 60) collision_sha256=0e193e1b40e7e7f6758de32edffea684e3e090cc554be858d7bc264a555e6019
+n=67 size=6 witness=(16, 23, 35, 38, 44, 55) collision_sha256=0856054bb2e981b075c61e16dbb1d0141d4cf050cdcf597c9228a2d01d51887b
+n=68 size=7 witness=(16, 23, 35, 38, 44, 55, 68) collision_sha256=b830ec8cb67a02217450b8d510e4686b43bb42da063b1214045b192ebbc16717
+n=69 size=7 witness=(13, 24, 30, 33, 45, 52, 68) collision_sha256=8b85dfe9a18aecac570b07059489c687cc4d6455ec04abfd1284a40bf36ff632
+n=70 size=7 witness=(6, 32, 34, 37, 38, 47, 54) collision_sha256=2ab843f6a976439445185605d6a282b81b7b72e4d7897f5753b8a8eda985ecb6
+n=71 size=7 witness=(14, 16, 30, 38, 43, 47, 53) collision_sha256=8b84a0d4112208b920c34aed9b45563d1fec14a0a8082513e2a254086193173e
+n=72 size=7 witness=(18, 30, 32, 33, 40, 49, 53) collision_sha256=e3c2fcfd1d19bff6f3694770088b5059d4166866f9f76bff89a67e8909c9ef97
+n=73 size=7 witness=(5, 30, 41, 42, 60, 64, 69) collision_sha256=6c45541462862adeed71ba3623e2b6c3a59a001e80766a181f0331f84c5e61de
+n=74 size=7 witness=(9, 12, 23, 35, 40, 42, 62) collision_sha256=ce15233ba97265ce1452043623fbe0048f16c184b67a9e4b1b847c706b4cca1f
+n=75 size=7 witness=(9, 12, 28, 30, 39, 40, 63) collision_sha256=f117cb3ec746ac44df3a0cf6b776007efc884d41a3d3abe9fd062e5d3c04f7e1
+n=76 size=7 witness=(4, 12, 30, 31, 33, 47, 53) collision_sha256=a7a44ecabf12641ca836fb979f5b0365f66c1881aa51cc43d1e07de0ecf46bc7
+n=77 size=7 witness=(19, 27, 31, 34, 52, 63, 65) collision_sha256=8276d4983c305838b8e67e16f5a4e97735adc21e7abb485c34c386a5bea48b94
+n=78 size=7 witness=(15, 25, 36, 37, 40, 42, 72) collision_sha256=85faf0b79dc18724d49d0370423fd1e59f4f44c023329f4d2f9c0ed7838af8e0
+n=79 size=7 witness=(15, 26, 33, 45, 49, 55, 58) collision_sha256=f349c18ab8f1dcf4024e12a74b37d5227898fcf86dab5c5e647b341f02624d76
+n=80 size=7 witness=(30, 35, 38, 44, 45, 69, 71) collision_sha256=d56e0e4a4a70fdde18371ade0428a7b28d447942fa23c0f7521471bc3a7445ff
+n=81 size=7 witness=(22, 30, 31, 37, 51, 53, 56) collision_sha256=790f7ee4c7e352bb2fb800a9c7a8212855b34812a6d0198887a3d200190b0c09
+n=82 size=7 witness=(22, 34, 38, 39, 41, 64, 75) collision_sha256=542f09b14fefda7ebe873133d26fef03b490cb807802fa6eba2130d6c553205e
+n=83 size=7 witness=(20, 29, 35, 46, 48, 60, 64) collision_sha256=0512942bb69bc8d0cbb844538490ce3efdfccb58751bd8ff6d2a8ce2d92dc615
+n=84 size=7 witness=(7, 29, 39, 53, 56, 60, 62) collision_sha256=6e449271dbdf8d6952e8392b3310512783be4d08c5edef3b30abcc7ed0d162cf
+n=85 size=7 witness=(25, 28, 30, 48, 49, 55, 63) collision_sha256=05549318106f4f8ad21dae37bb0dbf102b014e456bc33812d56aef7a4941296d
+n=86 size=7 witness=(12, 34, 42, 45, 47, 63, 73) collision_sha256=ff621f6662e583dc16dcb000bac18653195db0066512c95dfab2d9b9c0bd26c7
+n=87 size=7 witness=(18, 42, 43, 45, 49, 59, 81) collision_sha256=f0cac99b910d12fdc7816cc875827c7820ee1c2d1e842a5c7caad9176fb0cba2
+n=88 size=7 witness=(22, 24, 35, 42, 45, 59, 64) collision_sha256=0f79f87ce17c023ac067b28a862661164ce65c28951bc87706a082549e1ba355
+n=89 size=7 witness=(27, 35, 38, 52, 56, 58, 82) collision_sha256=58098b4d61f2a3ebf1c6168b8ab0d63bf9e5461b0305ff8bedb63d13bfb1fcac
+n=90 size=7 witness=(29, 32, 34, 51, 55, 64, 84) collision_sha256=5f0423db2736c9ba07c7c60a5306ca206965ad3024a530ac5943edd3b2fd898a
+n=91 size=7 witness=(11, 27, 30, 34, 48, 58, 59) collision_sha256=93a959dda568365ffaae079278b7c3e03eee32f88c2f9ebba4a9effc8703c9b1
+n=92 size=7 witness=(11, 35, 43, 45, 49, 54, 80) collision_sha256=daa1596219ced9bbeea567722e1e71271ce8e47d13136ad08d1e5b2513c4dd61
+n=93 size=7 witness=(18, 39, 42, 50, 54, 56, 87) collision_sha256=f0dbefc9896380fa1ce2458522c4aed57719ce81378e91ea568578946fc1de72
+n=94 size=7 witness=(12, 37, 45, 47, 51, 58, 81) collision_sha256=bf413bebcc3305638a0175d6d04efe2a246c137482b138964c652f4ebd5b1bfa
+n=95 size=7 witness=(30, 31, 33, 48, 55, 59, 93) collision_sha256=e86e0c296001da4d11bd46b56b6d1a2869ee157562d5679dac7fbad82f7ad4e3
+CONCLUSION all upper-bound witnesses for n=66..95 pass direct pair-sum checks

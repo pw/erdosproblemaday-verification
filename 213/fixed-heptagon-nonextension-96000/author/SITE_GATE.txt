@@ -1,0 +1,25 @@
+Site repository: /home/exedev/ErdosProblemADay
+Gate checked: 2026-08-11 UTC
+HEAD at final gate check: b62cecd6841040478c5626c102145a8ba8bdaf96
+Worktree state: src/ledger_data.js modified by another concurrent agent
+
+Exact-reference regular expression:
+(#213\b|problemNum:\s*213\b|n:\s*213\b|problem\s+#?213\b)
+
+Files scanned:
+src/index.js
+src/ledger_data.js
+
+Exact-reference matches: 0
+
+Case-insensitive literal semantic counts:
+
+                                      index.js  ledger_data.js
+integer distance                           0              0
+integral distance                          0              0
+integral point set                         0              0
+all pairwise distances ... integer         0              0
+
+The broader semantic inspection and the live page's #130 cross-reference are
+recorded in LIVE_GATE.md. This file claims no semantic independence from the
+mathematical literature; it records absence from the local site work product.

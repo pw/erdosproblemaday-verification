@@ -1,0 +1,9 @@
+live |B-B| histogram: {11: 144, 13: 1221}
+quadruples: 1365
+ten-subsets checked: 3003
+Sidon ten-subsets (sum/distance): 0 0
+predicate disagreements: 0
+explicit Sidon nine-set: (0, 136, 200, 243, 246, 298, 323, 528, 1057)
+distinct-element pair sums: 105
+AP triples: ((0, 136, 272), (0, 200, 400), (0, 298, 596), (0, 528, 1056), (136, 596, 1056), (200, 243, 286), (200, 249, 298), (243, 246, 249), (246, 272, 298), (246, 323, 400), (249, 286, 323), (272, 400, 528))
+INDEPENDENT AUDIT PASSED: h(A)=9 and A satisfies live (4,5) predicate

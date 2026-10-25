@@ -1,0 +1,11 @@
+int_0^inf P(Delta>=u) du = 0.00033111270311328667   int_0^inf P(Delta<-u) du = 1.4575153413632442   kappa = -1.4571842286601309
+u=1: P(Delta<-u)=0.582533  e^u*P = 1.58349   (asymptote (4/pi)/ln2 = 1.83690)
+u=2: P(Delta<-u)=0.235981  e^u*P = 1.74367   (asymptote (4/pi)/ln2 = 1.83690)
+u=4: P(Delta<-u)=0.033413  e^u*P = 1.82428   (asymptote (4/pi)/ln2 = 1.83690)
+u=6: P(Delta<-u)=0.004549  e^u*P = 1.83519   (asymptote (4/pi)/ln2 = 1.83690)
+u=10: P(Delta<-u)=0.000083  e^u*P = 1.83687   (asymptote (4/pi)/ln2 = 1.83690)
+P(Delta >= 0) = 0.0050123562956067135   P(Delta >= 0.3) = 1.4413730359144479e-06  P(Delta >= log sqrt2 - 1e-9) = 0.0
+
+real	0m2.012s
+user	0m2.934s
+sys	0m0.575s

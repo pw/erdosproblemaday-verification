@@ -1,0 +1,9 @@
+[indep] K33 NMAX=40: 1 graphs, orders [9], nodes 9, 0.0s
+[locally.py] K33 NMAX=40: 1 graphs, orders [9], nodes 28, 0.2s
+AGREE
+    9 H}q|r|}
+[indep] Rook33 NMAX=40: 2 graphs, orders [16, 20], nodes 48, 0.3s
+[locally.py] Rook33 NMAX=40: 2 graphs, orders [16, 20], nodes 44, 0.8s
+AGREE
+    16 O}zTdMYbY^KvUu[\fqpzR
+    20 S~rLTMYdW?LPXRUJIbXatKjSNM?XrGFo{

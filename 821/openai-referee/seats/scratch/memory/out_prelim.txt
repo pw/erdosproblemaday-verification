@@ -1,0 +1,32 @@
+brute-force residue average == per-prime shortcut: True (1.3853815782219703+0j)
+raw N=2 P={5,7,11} q=1/4 rho=3/4 th=1/8 k=1: paths=96  LHS=(19395804505/14000333778)
+   RHS=(19395804505/14000333778)
+   equal=True  LHS~1.38538+0j RHS~1.38538+0j  (0.1s)
+raw+cmp N=2 P={5,7,11} q=1/2 rho=9/10 th=1/8 k=(1,1): paths=384 memo=54
+   LHS=(15501578015/14000333778)
+   RHS=(15501578015/14000333778)
+   equal=True  LHS~1.10723+0j RHS~1.10723+0j  (0.2s)
+raw+cmp N=2 P={5,7,11} q=1/4 rho=3/4 th=3/8 k=(2,3): paths=384 memo=46
+   LHS=(31032830675/74668446816)*sqrt2 + (-27791446375/74668446816)*i*sqrt2
+   RHS=(31032830675/74668446816)*sqrt2 + (-27791446375/74668446816)*i*sqrt2
+   equal=True  LHS~0.587759-0.526367j RHS~0.587759-0.526367j  (0.3s)
+raw N=4 P={5,7,11} q=1/2 rho=9/10 th=1/8 k=(1,1,1,1): paths=1536 memo=102
+   LHS=(2118059699100083585/22212568674681856)
+   RHS=(2118059699100083585/22212568674681856)
+   equal=True  LHS~95.3541+0j RHS~95.3541+0j  (0.9s)
+raw+cmp N=4 P={5,7,11} q=1/2 rho=9/10 th=1/8 k=(1,2,3,1): paths=24576 memo=50
+   LHS=0
+   RHS=0
+   equal=True  LHS~0+0j RHS~0+0j  (13.9s)
+raw+cmp N=4 P={5,7,11} q=1/2 th=0 k=(1,2,3,1): paths=24576 memo=50 equal=True sqrt2-part-present=False LHS~0+0j (13.7s)
+   LHS=0
+   RHS=0
+raw+cmp N=4 P={5,7,11} q=1/2 th=1/8 k=(1,1,1,1): paths=24576 memo=102 equal=True sqrt2-part-present=False LHS~115.239+0j (13.2s)
+   LHS=(809923156956213685/7028195557223556)
+   RHS=(809923156956213685/7028195557223556)
+raw+cmp N=2 P={5,7,11,13} q=1/2 th=1/8 k=(1,1): paths=10800 memo=468 equal=True sqrt2-part-present=False LHS~3.55371+0j (8.2s)
+   LHS=(2730219303857045/768273587900928)
+   RHS=(2730219303857045/768273587900928)
+raw N=4 P={5,7,11,13} q=1/2 th=1/8 k=(1,1,1,1): paths=15552 memo=1332 equal=True sqrt2-part-present=False LHS~259.479+0j (10.6s)
+   LHS=(12002802039802802054979527375/46257277455034833256316928)
+   RHS=(12002802039802802054979527375/46257277455034833256316928)

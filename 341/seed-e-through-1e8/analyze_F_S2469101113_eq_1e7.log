@@ -1,0 +1,17 @@
+file=F_S2469101113_eq_1e7_elems.u32 elements=1251839 last=9999995 density=0.125184
+maxgap 23 gap histogram [(1, 127270), (2, 3), (3, 11395), (5, 606), (7, 389803), (8, 542819), (12, 10001), (14, 2), (15, 140107), (16, 8037), (18, 17), (19, 21777), (23, 1)]
+gap suffix from term 625919 (len 625919): smallest period 625919 -> no period <= half the suffix (0s)
+gap suffix from term 938878 (len 312960): smallest period 312960 -> no period <= half the suffix (0s)
+gap suffix from term 1126654 (len 125184): smallest period 125184 -> no period <= half the suffix (0s)
+max|count(x)-density*x| for x<=100000: 34.5  (sqrt X = 316)
+max|count(x)-density*x| for x<=1000000: 200.1  (sqrt X = 1000)
+max|count(x)-density*x| for x<=9999995: 514.0  (sqrt X = 3162)
+membership sha256 through 500000: e38886c15f438172abbb50fadc8406ed54c72549cb661888d9d0f7938cc6b03f (July 2026 report: 3a045efefd9edd5c74813c40d09c592abb8bea461daba7da9f4f156a94d60aa9)
+membership sha256 through 9999995: 5367a3596d400f0c8d711aebac0d4651693506c5d18190bd2f31dd9795f9c221
+residue census m<=400 on [N/2,N]: most depleted class (min/mean, m): [(np.float64(0.867), 290), (np.float64(0.937), 312), (np.float64(0.944), 320)] most over-full (max/mean, m): [(np.float64(1.135), 290), (np.float64(1.069), 312), (np.float64(1.061), 320)]
+autocorrelation on [1999999,9999995], shifts <= 3333331: record chain [(23, 0.801), (644, 0.8454), (3515, 0.8713), (7674, 0.8866), (22401, 0.8872)]
+top peaks: [(22401, 0.8872), (7674, 0.8866), (30075, 0.8865), (78392, 0.8828), (52476, 0.8826), (55991, 0.8806), (25916, 0.8796), (108467, 0.8785), (48317, 0.8754), (130868, 0.8748), (82551, 0.8729), (100793, 0.8718)]
+best shift 22401: agreement fraction 0.9758 (mismatch 0.0242)
+agreement at 889, 9547, 27875: [(889, 0.7732), (9547, 0.7496), (27875, 0.7628)]
+factor complexity p(k) of the gap word: [(10, 2495), (20, 14069), (30, 29204), (50, 75229), (100, 323116)]
+log-log slope p(100)/p(10): 2.112

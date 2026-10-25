@@ -1,0 +1,4 @@
+runs/ts_c2_k5 points=39733 isometries=77 unit_pairs=239112 l5_runs=99399 -> runs/ts_c2_k5.cnf :: s SATISFIABLE Command exited with non-zero status 10 2.03s 51928KB 
+runs/ts_c3_k5 points=76861 isometries=149 unit_pairs=519756 l5_runs=227151 -> runs/ts_c3_k5.cnf :: s UNSATISFIABLE Command exited with non-zero status 20 1.33s 98624KB 
+UNSAT at cr=3
+DONE

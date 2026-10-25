@@ -1,0 +1,3 @@
+n=7 T=720 points=518400 configs=6220800 sum1/e=0.751389 (=389520.0 pts)
+MAX covered=303336 density=0.585139  forced loss=0.166250  (#optimal choices 64800)
+witness cosets: 0 1 1 0 0 1 0

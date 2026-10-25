@@ -1,0 +1,4 @@
+total Erdos128 files 681
+transitive closure of ModuloBCL (incl itself) 681
+not reached: []
+external imports: ['Mathlib', 'Mathlib.Data.Fintype.Basic']

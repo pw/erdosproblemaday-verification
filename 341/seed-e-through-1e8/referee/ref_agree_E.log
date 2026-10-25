@@ -1,0 +1,19 @@
+shift 130: agreement 0.9625  analyze.py ac=0.8580  local max of ac within +-20: True  ac>0.8: True
+shift 253: agreement 0.9672  analyze.py ac=0.8756  local max of ac within +-20: True  ac>0.8: True
+shift 636: agreement 0.9711  analyze.py ac=0.8903  local max of ac within +-20: True  ac>0.8: True
+shift 766: agreement 0.9703  analyze.py ac=0.8874  local max of ac within +-20: True  ac>0.8: True
+shift 889: agreement 0.9780  analyze.py ac=0.9165  local max of ac within +-20: True  ac>0.8: True
+shift 1655: agreement 0.9822  analyze.py ac=0.9323  local max of ac within +-20: True  ac>0.8: True
+shift 2544: agreement 0.9740  analyze.py ac=0.9010  local max of ac within +-20: True  ac>0.8: True
+shift 4199: agreement 0.9715  analyze.py ac=0.8916  local max of ac within +-20: True  ac>0.8: True
+shift 9547: agreement 0.9871  analyze.py ac=0.9498  local max of ac within +-20: True  ac>0.8: True
+shift 10436: agreement 0.9828  analyze.py ac=0.9335  local max of ac within +-20: True  ac>0.8: True
+shift 27875: agreement 0.9880  analyze.py ac=0.9512  local max of ac within +-20: True  ac>0.8: True
+largest exact agreement over 21<=q<=3333331: [(27875, 0.98799), (37422, 0.98786), (47858, 0.98737), (9547, 0.98706), (57405, 0.98636), (85280, 0.98572), (19983, 0.98467), (29530, 0.98458), (114810, 0.98453), (94827, 0.9844), (65297, 0.98393), (152232, 0.98391), (66952, 0.98382), (142685, 0.9836), (75733, 0.98359)]
+  best exact agreement for q<=30000: q=27875 A=0.98799; analyze.py's ac at that q=0.9512 (bias factor (n-q)/n=0.9965)
+  best exact agreement for q<=100000: q=27875 A=0.98799; analyze.py's ac at that q=0.9512 (bias factor (n-q)/n=0.9965)
+  best exact agreement for q<=300000: q=27875 A=0.98799; analyze.py's ac at that q=0.9512 (bias factor (n-q)/n=0.9965)
+  best exact agreement for q<=1000000: q=27875 A=0.98799; analyze.py's ac at that q=0.9512 (bias factor (n-q)/n=0.9965)
+  best exact agreement for q<=3333331: q=27875 A=0.98799; analyze.py's ac at that q=0.9512 (bias factor (n-q)/n=0.9965)
+analyze.py candidate threshold ac>0.8 is unreachable (even at true correlation 1) for q > 1600000
+analyze.py cannot record a new best above 0.9512 for q > 390400

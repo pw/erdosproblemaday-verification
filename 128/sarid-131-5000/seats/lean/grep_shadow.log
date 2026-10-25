@@ -1,0 +1,19 @@
+== namespace declarations (distinct)
+     18 namespace Erdos128
+      2 namespace Erdos128.BCLCertificate
+    400 namespace Erdos128.C4Certificate
+    259 namespace Erdos128.FiniteHostClassification
+      1 namespace Erdos128.LowDensity
+      1 namespace Erdos128.ModuloBCL
+      2 namespace OrientedBCLCut
+== defs named like mathlib roots (SimpleGraph./Finset./Fintype./Nat./Set./Matrix.)
+== notation/infix/prefix/macro_rules
+== export/open ... renaming/hiding
+== redefinitions of the endpoint-type names
+HasSparseHalf: Erdos128/GraphBasics.lean:62:def HasSparseHalf (G : SimpleGraph V) [DecidableRel G.Adj] (B : ℚ) : Prop := 
+edgeCountOn: Erdos128/GraphBasics.lean:24:def edgeCountOn (G : SimpleGraph V) [DecidableRel G.Adj] (S : Finset V) : ℕ := 
+BCLEventual: Erdos128/ModuloBCL.lean:30:def BCLEventual : Prop := 
+BCLCutCertificate: Erdos128/ExternalInputs.lean:25:def BCLCutCertificate (G : SimpleGraph V) [DecidableRel G.Adj] : Prop := 
+FormalConjecturesStatement: Erdos128/DeepMindTarget.lean:24:def FormalConjecturesStatement (numerator denominator : ℕ) : Prop := 
+FormalConjecturesStatement131_5000: Erdos128/DeepMindTarget.lean:33:abbrev FormalConjecturesStatement131_5000 : Prop := 
+BCLCutCertificateProvider: Erdos128/IntegratedBound.lean:102:def BCLCutCertificateProvider : Prop := 

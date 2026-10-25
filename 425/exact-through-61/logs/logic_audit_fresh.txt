@@ -1,0 +1,4 @@
+Sinz counter exhaustive truth-table cases=4096 OK
+edge generators agree for every n<=20 OK
+full-CNF/direct-definition cases=54, F(1..9)=[1, 2, 3, 4, 5, 5, 6, 6, 7] OK
+OFF-BY-ONE AND COMPLETENESS AUDIT PASSED

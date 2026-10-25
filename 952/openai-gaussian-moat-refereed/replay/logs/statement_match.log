@@ -1,0 +1,9 @@
+GaussianMoat OAI.GaussianMoat.fullMain MATCH | lens 94 94
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+GaussianMoat OAI.GaussianMoat.PrimeVertex MATCH | lens 238 238
+GaussianMoat OAI.GaussianMoat.primeGraph MATCH | lens 2352 2352
+GaussianMoat OAI.GaussianMoat.component MATCH | lens 354 354
+GaussianMoat OAI.GaussianMoat.MainEndpoint MATCH | lens 2060 2060
+GaussianMoat OAI.GaussianMoat.UniformEndpoint MATCH | lens 2426 2426
+ALL_MATCH_STD_SORRYSEEN
+GaussianMoat: 6 MATCH / 0 MISMATCH

@@ -1,0 +1,7 @@
+BridgeMutStmt.lean:57:2: error: Type mismatch
+  variants.regularly_varying 2 two_pos
+has type
+  Tendsto (fun x => V (2 * x) / V x) atTop (𝓝 2)
+but is expected to have type
+  Tendsto (fun x => V (2 * x) / V x) atTop (𝓝 3)
+BridgeMutStmt rc=1 (must be nonzero)

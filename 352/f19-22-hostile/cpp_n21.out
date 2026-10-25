@@ -1,0 +1,2 @@
+{"N":21,"target":41,"raw_vectors":1368,"diameter_directions":188,"directions_with_high":153,"fixed_high_branches":26250,"all_branches":26438,"pool_memberships":1764968,"producer_same_color_pairs":14588044,"independent_same_color_pairs":15163559,"max_pool":219,"dsatur_worse_branches":458,"fast_full_same_pair_checks":20819634,"global_upper":41,"producer_global_upper":41,"tight":[[5,5],[6,4]],"producer_tight":[[5,5],[6,4]]}
+HOSTILE_CPP_UPPER_PASS

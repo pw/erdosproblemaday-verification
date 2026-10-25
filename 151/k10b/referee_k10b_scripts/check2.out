@@ -1,0 +1,23 @@
+/home/exedev/.venv/lib/python3.12/site-packages/networkx/algorithms/graph_hashing.py:211: UserWarning: The hashes produced for graphs without node or edge attributes changed in v3.5 due to a bugfix (see documentation).
+  node_labels = _init_node_labels(G, edge_attr, node_attr)
+containment poset (row i is spanning subgraph of col j), note numbering:
+ N8.1: [2, 3]
+ N8.2: [3]
+ N8.3: []
+ N8.4: [6, 7]
+ N8.5: [6, 7]
+ N8.6: [7]
+ N8.7: []
+triangle-free 8-vertex graphs: 410 ; containing some N8.i spanning: 7 ; all among the seven: True
+marked triangle-free 8-vertex graphs: 7 ; same set as note: True
+9-vertex triangle-free graphs: 1897
+ max edges overall: 20
+ max edges non-bipartite: 17
+ max edges alpha<=4: 17  alpha<=5: 20
+ max edges alpha<=6 (Bikov 2.7, d-3=6): 20
+  e=20: non-bipartite no-isolated triangle-free 0, marked 0 []  (0s)
+  e=19: non-bipartite no-isolated triangle-free 0, marked 0 []  (0s)
+  e=18: non-bipartite no-isolated triangle-free 0, marked 0 []  (0s)
+  e=17: non-bipartite no-isolated triangle-free 2, marked 0 []  (1s)
+  e=16: non-bipartite no-isolated triangle-free 6, marked 1 ['H?rF`zo']  (2s)
+max edges of a 9-vertex triangle-free graph whose vertex set is marked: 16

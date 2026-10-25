@@ -1,0 +1,10 @@
+S3 pairs    {'n': 11, 'group': 12, 'classes': [2], 'perm_clauses': 116, 'solutions': 0, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+S3 pairs d3 {'n': 11, 'group': 12, 'classes': [2], 'perm_clauses': 116, 'solutions': 0, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+S2 swap d2  {'n': 9, 'group': 16, 'classes': [2, 2, 2], 'perm_clauses': 46, 'solutions': 16, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+S2 swap d3  {'n': 9, 'group': 16, 'classes': [2, 2, 2], 'perm_clauses': 46, 'solutions': 0, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+MUTATED     {'n': 11, 'group': 12, 'classes': [2], 'perm_clauses': 116, 'solutions': 0, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+S3 pairs+sing+4e d3 {'n': 13, 'group': 144, 'classes': [4], 'perm_clauses': 164, 'solutions': 0, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+S3 pairs+3e d2 {'n': 9, 'group': 36, 'classes': [3], 'perm_clauses': 44, 'solutions': 1, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+S3 sing x2 + 3e d2 {'n': 12, 'group': 288, 'classes': [2, 2, 2, 3], 'perm_clauses': 140, 'solutions': 765, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+S2 + 4e d3 {'n': 9, 'group': 48, 'classes': [4], 'perm_clauses': 28, 'solutions': 0, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 0}
+MUTATED S3 sing x2 + 3e d2 {'n': 12, 'group': 288, 'classes': [2, 2, 2, 3], 'perm_clauses': 140, 'solutions': 765, 'orbits': None, 'lost_orbits': 0, 'leader_rejected': 3}

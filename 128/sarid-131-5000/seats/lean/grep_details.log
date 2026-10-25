@@ -1,0 +1,44 @@
+== extern
+Erdos128/IntegratedBound.lean:28:strictly below `131 / 5000`, assuming the two external graph certificates. -/
+Erdos128/IntegratedBound.lean:67:theorem sparse_half_131_5000_of_external_certificates
+Erdos128/IntegratedBound.lean:123:    sparse_half_131_5000_of_external_certificates G htri
+Erdos128/ModuloBCL.lean:10:exactly one external result, and in the form in which its authors state it:
+Erdos128/ModuloBCL.lean:56:  sparse_half_131_5000_of_external_certificates G htri
+Erdos128/C4Certificate/Defs.lean:239:/-- Coordinate keys, in exactly the order used by the external verifier. -/
+== opaque
+Erdos128/C4Certificate/Defs.lean:214:kernel checks instead of an optimized opaque search routine. -/
+== trust
+Erdos128/SimpleBound.lean:81:`SimplifiedCertificate` is the precise trust boundary of this formalization.
+== instance.*Decidable
+Erdos128/BCLCertificate/Semantics.lean:41:instance {k : ℕ} (cut : RootedCut k) : Decidable cut.IsAdmissible := by
+Erdos128/LowDensityConstruction.lean:231:local instance largeGraphAdjDecidable (C : OrientedBCLCut G) :
+Erdos128/FiniteHostClassification.lean:44:instance {n : ℕ} (mask : AdjMask n) : Decidable (IsSimpleMask mask) := by
+Erdos128/BalancedBlowup.lean:35:instance balancedBlowup.instDecidableAdj
+Erdos128/C4Certificate/Defs.lean:81:instance (m : Mask) : Decidable (IsTriangleFreeMask m) := by
+== local instance
+Erdos128/LowDensityConstruction.lean:227:local instance largeVertexFintype (C : OrientedBCLCut G) :
+Erdos128/LowDensityConstruction.lean:231:local instance largeGraphAdjDecidable (C : OrientedBCLCut G) :
+== axioms
+AxiomAudit.lean:7:`[propext, Classical.choice, Quot.sound]`, Lean's three standard axioms.
+AxiomAudit.lean:12:#print axioms Erdos128.ModuloBCL.provider_of_eventual
+AxiomAudit.lean:13:#print axioms Erdos128.ModuloBCL.sparse_half_131_5000
+AxiomAudit.lean:14:#print axioms Erdos128.ModuloBCL.formalConjectures_131_5000
+AxiomAudit.lean:15:#print axioms Erdos128.C4Certificate.checkedC4FlagCertificateProvider
+AxiomAudit.lean:16:#print axioms Erdos128.C4Certificate.certificate_all_triangleFree_masks
+Erdos128/ExternalInputs.lean:10:finite graph, not axioms: later theorems must receive proofs of them as
+Erdos128/ModuloBCL.lean:19:the audit in `AxiomAudit.lean` reports only the three standard Lean axioms, and
+== Lean. (distinct)
+    257 Lean.
+== set_option distinct
+    308 set_option linter.style.header false
+      1 set_option linter.style.whitespace false
+      1 set_option linter.unnecessarySeqFocus false
+      2 set_option linter.unusedDecidableInType false
+      1 set_option linter.unusedFintypeInType false
+      2 set_option linter.unusedSectionVars false
+      2 set_option linter.unusedSimpArgs false
+      1 set_option linter.unusedTactic false
+      1 set_option linter.unusedVariables false
+    582 set_option maxHeartbeats 0
+      7 set_option maxRecDepth 100000
+    633 set_option maxRecDepth 1000000

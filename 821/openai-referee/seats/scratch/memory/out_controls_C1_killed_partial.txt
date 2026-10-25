@@ -1,0 +1,4 @@
+case C1: paths=15552 stats={'nonzero': 636, 'hN_nonzero': 228, 'cmp_edge': 0, 'multirun': 636, 'endpoint_hit': 256, 'pending_hit': 80, 'ghost_needed': 336, 'orphan_possible': 80, 'two_orphans_possible': 0}
+  LHS = (167047058786631979736402711915/3044844103186717240530567168) + (-131709697146489965111525/1321546919785901580091392)*sqrt2
+  LHS ~ 54.721324674+0j; unperturbed RHS equal: True
+  control no_bfact                : RHS ~ 54.721324674+0j   equal=True   RHS-LHS ~ 0+0j

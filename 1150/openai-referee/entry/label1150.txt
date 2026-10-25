@@ -1,0 +1,1 @@
+OpenAI's own Lean proves Theorem 1.1 — real Littlewood polynomials with max ≤ (1+η)√N at every large length — which implies the negation of #1150; our kernel replay on 12 Oct 2026 printed only propext/Classical.choice/Quot.sound on a statement matched to the challenge; the two-sided ultraflat headline is paper-only — see our /day entry

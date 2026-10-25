@@ -1,0 +1,12 @@
+records=274668 admissible=65249
+frontier=0,18,21,27,28,30,32,36
+k=0 best=0 witness_graph6=H??????
+k=1 best=18 witness_graph6=HEhbtjK
+k=2 best=21 witness_graph6=HCp`f~}
+k=3 best=27 witness_graph6=HFzf~z{
+k=4 best=28 witness_graph6=HUzrv~}
+k=5 best=30 witness_graph6=HFz~v~}
+k=6 best=32 witness_graph6=H]~v~z~
+k=7 best=36 witness_graph6=H~~~~~~
+exact_book_counts=1,14,1387,13466,25335,18227,5775,1044
+edge_hist=0:1,3:1,5:1,6:3,7:2,8:5,9:12,10:20,11:39,12:85,13:178,14:377,15:808,16:1612,17:3010,18:5080,19:7488,20:9468,21:10176,22:9245,23:7169,24:4814,25:2836,26:1503,27:731,28:333,29:144,30:63,31:25,32:11,33:5,34:2,35:1,36:1

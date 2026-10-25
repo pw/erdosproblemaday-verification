@@ -1,0 +1,12 @@
+t=3 N= 27 A=  9.0 N^(10/3)=5.905e+04 | lattice: max k=27 | C_rich=1: #motions=1200, sum k^2=234576, /N^(10/3)=3.9726 | C_rich=2: #motions=336, sum k^2=128304, /N^(10/3)=2.1728
+      + 11600 rational-rotation motions (quaternion norm <= 50): max k = 9, #with k>=A: 192, #with k>=4: 24000
+t=4 N= 64 A= 16.0 N^(10/3)=1.049e+06 | lattice: max k=64 | C_rich=1: #motions=4752, sum k^2=3439488, /N^(10/3)=3.2802 | C_rich=2: #motions=1200, sum k^2=1901568, /N^(10/3)=1.8135
+      + 4368 rational-rotation motions (quaternion norm <= 30): max k = 18, #with k>=A: 2016, #with k>=4: 657408
+t=5 N=125 A= 25.0 N^(10/3)=9.766e+06 | lattice: max k=125 | C_rich=1: #motions=10032, sum k^2=25209648, /N^(10/3)=2.5815 | C_rich=2: #motions=3024, sum k^2=15376464, /N^(10/3)=1.5745
+t=6 N=216 A= 36.0 N^(10/3)=6.047e+07 | lattice: max k=216 | C_rich=1: #motions=23568, sum k^2=137188992, /N^(10/3)=2.2689 | C_rich=2: #motions=9648, sum k^2=103928064, /N^(10/3)=1.7188
+t=7 N=343 A= 49.0 N^(10/3)=2.825e+08 | lattice: max k=343 | C_rich=1: #motions=39792, sum k^2=549335184, /N^(10/3)=1.9447 | C_rich=2: #motions=17808, sum k^2=435394224, /N^(10/3)=1.5414
+t=3: sum over all lattice motions of k^2 = 329232;  /N^3 = 16.73;  /N^(10/3) = 5.5756
+t=4: sum over all lattice motions of k^2 = 4088832;  /N^3 = 15.60;  /N^(10/3) = 3.8994
+t=5: sum over all lattice motions of k^2 = 29478000;  /N^3 = 15.09;  /N^(10/3) = 3.0185
+t=6: sum over all lattice motions of k^2 = 149382528;  /N^3 = 14.82;  /N^(10/3) = 2.4705
+t=7: sum over all lattice motions of k^2 = 591666768;  /N^3 = 14.66;  /N^(10/3) = 2.0946

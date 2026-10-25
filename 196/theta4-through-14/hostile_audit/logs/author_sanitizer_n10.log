@@ -1,0 +1,12 @@
+threads=1
+theta4(1)=1 fast_seconds=4.61e-07 direct=1
+theta4(2)=2 fast_seconds=0.000107799 direct=2
+theta4(3)=6 fast_seconds=2.3854e-05 direct=6
+theta4(4)=22 fast_seconds=0.000164384 direct=22
+theta4(5)=102 fast_seconds=0.000375446 direct=102
+theta4(6)=564 fast_seconds=0.00526295 direct=564
+theta4(7)=3336 fast_seconds=0.0101904 direct=3336
+theta4(8)=22266 fast_seconds=0.0534023 direct=22266
+theta4(9)=168864 fast_seconds=0.478918 direct=168864
+theta4(10)=1307470 fast_seconds=4.72788 direct=1307470
+crosscheck_mismatches=0

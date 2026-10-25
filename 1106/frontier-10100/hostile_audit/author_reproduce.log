@@ -1,0 +1,34 @@
+./PROVENANCE.md: OK
+./REPORT.md: OK
+./REPRODUCE.md: OK
+./b194259_20260811.txt: OK
+./b194261_20260811.txt: OK
+./environment.txt: OK
+./extension_partitions_10001_10100.txt: OK
+./extension_witnesses_10001_10100.tsv: OK
+./factordb_extension_10001_10100.jsonl: OK
+./final_verification.log: OK
+./live_1106_20260811.txt: OK
+./oeis_A194259_20260811.txt: OK
+./oeis_A194261_20260811.txt: OK
+./reproduce.sh: OK
+./sources/cilleruelo_luca_2012.pdf: OK
+./sources/cilleruelo_luca_2012.txt: OK
+./sources/ias_schinzel_wirsing_record_20260811.txt: OK
+./sources/ono_2000.pdf: OK
+./sources/ono_2000.txt: OK
+./sources/schinzel_wirsing_1987.pdf: OK
+./sources/schinzel_wirsing_1987.txt: OK
+./verify_erdos1106_frontier.py: OK
+./verify_run.log: OK
+PARI_ISPRIME_PROVED 9984
+GP/PARI CALCULATOR Version 2.15.4 (released)
+exact F(115) = 115
+exact F(116) = 117
+certified lower bound F(n) >= n+1 for every 116 <= n <= 10100
+distinct witness primes at n=10100: 10101
+partition-array SHA-256: b03896a62abd65ba378acc464f1a4215e39ccc079ad3e2b78f2e613b25f7c7d1
+witness-pairs SHA-256: 8be6ca45b91f080164c979e8b60654c01820a24276a0f4ec683e340483683f93
+ALL CHECKS PASSED
+TIME 19.73 sec MAXRSS 69580 KB
+TIME 19.74 sec MAXRSS 69580 KB

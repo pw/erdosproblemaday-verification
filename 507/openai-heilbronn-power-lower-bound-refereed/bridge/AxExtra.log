@@ -1,0 +1,6 @@
+'Green77.green_77_negated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Extra507.bound_openai_baseline' depends on axioms: [propext, Classical.choice, Quot.sound]
+Green77.green_77_negated : ¬∃ o,
+    Filter.Tendsto o Filter.atTop (nhds 0) ∧ Erdos507.α =O[Filter.atTop] fun n => ↑n ^ (-2 + o n)
+'Green77.green_77_shape_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=6903564 wall=6s

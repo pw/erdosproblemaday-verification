@@ -1,0 +1,5 @@
+'HeilbronnFiveScales.fresh_position' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFiveScales.alteration_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFiveScales.exponent_identity' depends on axioms: [propext, Quot.sound]
+'HeilbronnFiveScales.exact_exponent' does not depend on any axioms
+RSSCAP done rc=0 peak_kb=560916 wall=1s

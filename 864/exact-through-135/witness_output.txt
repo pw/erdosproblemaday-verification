@@ -1,0 +1,2 @@
+WITNESS 0 4 5 7 17 33 44 52 58 67 76 82 90 101 117 127 129 130 134
+size=19 diameter=134 repeated_sums={134: 10} PASS

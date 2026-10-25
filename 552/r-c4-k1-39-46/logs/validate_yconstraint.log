@@ -1,0 +1,8 @@
+Hoffman-Singleton triangle-free-edge counts (direct): [7]
+  encoder with 'exactly 7' -> True   (expected True)   OK
+  encoder with 'exactly 6' -> False   (expected False)   OK
+  encoder with 'exactly 1' -> False   (expected False)   OK
+
+34-vertex 6-regular C4-free graph, counts (direct): [0, 2]
+  encoder with the true per-vertex counts -> True (expected True) OK
+  encoder with one count perturbed        -> False (expected False) OK

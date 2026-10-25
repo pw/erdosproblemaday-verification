@@ -1,0 +1,7 @@
+count:
+680
+sha256 (LC_ALL=C sort, cat):
+a2f966e79e4b4c7839566eb558ecd5e2f7bace4439f155bb6498bb0ab731265a  -
+expected: a2f966e79e4b4c7839566eb558ecd5e2f7bace4439f155bb6498bb0ab731265a
+default-locale sort sha:
+a2f966e79e4b4c7839566eb558ecd5e2f7bace4439f155bb6498bb0ab731265a  -

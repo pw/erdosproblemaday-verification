@@ -1,0 +1,7 @@
+manifest_payload_files=70
+manifest_sha256=cbd71d674a96c46a40b1a2a2a6b3ac7d9a18e05d255f4c8033b5233894bda7e9
+eligible_vertices=610 external_decisions=163
+transitions=1255,1277,1293,1335,1407
+cliquer_digest=6583a40e338f7bddbfe7eb666b3e1996c1c55bf7e325ce4ca9070a4baa856b84
+pmc_digest=cce1073c81456eb675be5adea58cf4fd2caa08f84bfa344465b38eadd5596dc3
+PASS independent manifest, arithmetic, graph, log, digest, induction, and witness checks

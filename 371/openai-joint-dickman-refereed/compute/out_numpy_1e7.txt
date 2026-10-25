@@ -1,0 +1,35 @@
+CP X=10 inc=6 dec=3
+CP X=20 inc=10 dec=9
+CP X=50 inc=26 dec=23
+CP X=100 inc=52 dec=47
+CP X=200 inc=104 dec=95
+CP X=500 inc=255 dec=244
+CP X=1000 inc=510 dec=489
+CP X=2000 inc=1007 dec=992
+CP X=5000 inc=2509 dec=2490
+CP X=10000 inc=5008 dec=4991
+CP X=20000 inc=10034 dec=9965
+CP X=50000 inc=25106 dec=24893
+CP X=100000 inc=50079 dec=49920
+CP X=200000 inc=100059 dec=99940
+CP X=500000 inc=250192 dec=249807
+CP X=1000000 inc=500148 dec=499851
+CP X=2000000 inc=1000307 dec=999692
+CP X=5000000 inc=2500002 dec=2499997
+CP X=10000000 inc=4999950 dec=5000049
+JOINT X=10000000 a=0.2 b=0.2 count=1 near_boundary=9
+JOINT X=10000000 a=0.2 b=0.3 count=96 near_boundary=9
+JOINT X=10000000 a=0.2 b=0.5 count=2426 near_boundary=9
+JOINT X=10000000 a=0.2 b=0.7 count=6912 near_boundary=9
+JOINT X=10000000 a=0.3 b=0.2 count=132 near_boundary=0
+JOINT X=10000000 a=0.3 b=0.3 count=2585 near_boundary=0
+JOINT X=10000000 a=0.3 b=0.5 count=49361 near_boundary=0
+JOINT X=10000000 a=0.3 b=0.7 count=126861 near_boundary=0
+JOINT X=10000000 a=0.5 b=0.2 count=2572 near_boundary=446
+JOINT X=10000000 a=0.5 b=0.3 count=49709 near_boundary=446
+JOINT X=10000000 a=0.5 b=0.5 count=675991 near_boundary=446
+JOINT X=10000000 a=0.5 b=0.7 count=1584436 near_boundary=446
+JOINT X=10000000 a=0.7 b=0.2 count=6987 near_boundary=0
+JOINT X=10000000 a=0.7 b=0.3 count=126588 near_boundary=0
+JOINT X=10000000 a=0.7 b=0.5 count=1583668 near_boundary=0
+JOINT X=10000000 a=0.7 b=0.7 count=3606156 near_boundary=0

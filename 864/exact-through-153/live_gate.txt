@@ -1,0 +1,72 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/864
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝐴 ⊆{1,…𝑁}
+ be a set such that there exists at most one 𝑛
+ with more than one solution to 𝑛 =𝑎 +𝑏
+ (with 𝑎 ≤𝑏 ∈𝐴
+). Estimate the maximal possible size of |𝐴|
+ - in particular, is it true that
+|𝐴|≤(1+𝑜⁡(1))⁢
+2
+√3
+⁢𝑁1/2?
+#864: [ErFr91][Er92c]
+number theory | sidon sets | additive combinatorics
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+A problem of Erdős and Freud, who prove that
+|𝐴|≥(1+𝑜⁡(1))⁢
+2
+√3
+⁢𝑁1/2.
+This is shown by taking a genuine Sidon set 𝐵 ⊂[1,𝑁/3]
+ of size  ∼𝑁1/2/√3
+ and taking the union with {𝑁 −𝑏 :𝑏 ∈𝐵}
+.
+
+For the analogous question with 𝑛 =𝑎 −𝑏
+ they prove that |𝐴| ∼𝑁1/2
+.
+
+This is a weaker form of [840].
+
+View the LaTeX source
+
+View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: A389182
+
+2 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	None
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #864, https://www.erdosproblems.com/864, accessed 2026-08-12
+Previous
+Next
+
+Page title: 864 | Erdős Problems
+URL: https://www.erdosproblems.com/864

@@ -1,0 +1,5 @@
+[scip_exact.c:161] ERROR: SCIP was compiled without exact solve support: cannot enable exact solving mode.
+PySCIPOpt 6.2.1
+SCIP 10.0.2
+Exception: 'SCIP: unspecified error!'
+python_exit=0

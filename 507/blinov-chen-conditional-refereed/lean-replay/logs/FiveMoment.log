@@ -1,0 +1,4 @@
+'HeilbronnFive.DigitModel.weighted_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.DigitModel.tagged_pair_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.DigitModel.tagged_pair_moment_from_tags' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1286792 wall=14s

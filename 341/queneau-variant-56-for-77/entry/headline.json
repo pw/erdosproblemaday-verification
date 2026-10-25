@@ -1,0 +1,7 @@
+{
+  "n": 341, "kind": "solved",
+  "tag": "14 OCT · OURS · QUENEAU'S i<j VARIANT ALSO FAILS · LI'S SEED WITH 77 → 56 · CONTROLLER = POWERS OF TWO · HAND PROOF + GREEDY MATCH TO 10⁷ · HOSTILE REFEREE: HOLDS WITH FIXES, APPLIED · BLIND READ 22 FIXES APPLIED · UNREVIEWED BY HUMANS",
+  "title": "Queneau's variant of #341 — two distinct earlier terms — is not always periodic either: swap one element of Li's seed and the gaps never settle, under either rule",
+  "line": "Green's list (comments to Problem 7) poses Dickson's greedy question for both rules and marks both open; Li's August seed settles the equal-summand one and is periodic under the other. Replace 77 by 56 — A = {1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 56, 63, 71, 81, 89, 97} — and the greedy extension has no eventual period under Queneau's rule, nor under Dickson's: Li's shield mod 49 with a new three-rail controller switched by the blocks [8^k+1, 2·8^k], [4·8^k, 8·8^k], [2·8^k, 4·8^k], every identity proved by hand. Nothing was designed — the greedy computes its own controller once the seed's rail content is fixed, and 18 of the 27 seeds of this shape show no period in the window tested. An independent greedy on the integers matches the closed form at every integer to 10⁷.",
+  "href": "/day/341-queneau-variant-not-periodic-either"
+}

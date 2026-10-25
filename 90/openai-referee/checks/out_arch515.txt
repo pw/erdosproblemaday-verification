@@ -1,0 +1,3 @@
+c_v=log2      positive-eligible samples=263853 outside flanks=0 (cases with T<0: 0)
+c_v=halflog2  positive-eligible samples=276792 outside flanks=0 (cases with T<0: 632)
+c_v=zero      positive-eligible samples=290056 outside flanks=301 (cases with T<0: 1353)

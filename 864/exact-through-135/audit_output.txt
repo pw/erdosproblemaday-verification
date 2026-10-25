@@ -1,0 +1,11 @@
+WITNESS 17 diameter=106 exceptional=106 reps=9 PASS
+WITNESS 18 diameter=116 exceptional=116 reps=9 PASS
+WITNESS 19 diameter=134 exceptional=134 reps=10 PASS
+CASE REDUCTION core sizes 14,15,16,17,18,19 PASS
+CASE 19 outliers=0 lower_halves=1816422 core_candidates=4158788 valid_cores=0 extension_nodes=0 digest_xor=0000000000000000 digest_sum=0000000000000000
+CASE 18 outliers=1 lower_halves=1816422 core_candidates=10133998 valid_cores=1297 extension_nodes=1297 digest_xor=2526294444443f3c digest_sum=bbf5fad8c00f4854
+CASE 17 outliers=2 lower_halves=13014892 core_candidates=51701290 valid_cores=22271 extension_nodes=22275 digest_xor=ac788e165237fb63 digest_sum=78fc0bc98f185bc3
+CASE 16 outliers=3 lower_halves=13014892 core_candidates=116417476 valid_cores=1920748 extension_nodes=1955252 digest_xor=a7cafb3636865c61 digest_sum=665ffe899923eaf5
+CASE 15 outliers=4 lower_halves=12586664 core_candidates=75685308 valid_cores=1565022 extension_nodes=2073894 digest_xor=dc52ff5f0f388a64 digest_sum=f5e2a710d44cf078
+CASE 14 outliers=5 lower_halves=12586664 core_candidates=163957348 valid_cores=22183488 extension_nodes=63239114 digest_xor=3a47d4493f532301 digest_sum=6c950b7d21852fa9
+EXHAUSTED: no valid 19-set has diameter <= 133

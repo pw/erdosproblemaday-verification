@@ -1,0 +1,18 @@
+(1) triangle-free 9-vertex graphs: 1897; min alpha = 4  (must be >= 4; R(3,4)=9)
+    triangle-free 8-vertex graphs: 410; with alpha<=3: 3 ['GCQb`o', 'GCR`r_', 'GCrb`o']
+(4) Mantel on 9 vertices: max edges over triangle-free 9-vertex graphs = 20 (must be 20)
+(2) N8.1 G?`F`w: edges=10 degs=[2, 2, 2, 2, 2, 2, 4, 4] alpha=4 deficit=2
+(2) N8.2 G?bF`w: edges=11 degs=[2, 2, 2, 2, 3, 3, 4, 4] alpha=4 deficit=1
+(2) N8.3 G?rF`w: edges=12 degs=[2, 2, 3, 3, 3, 3, 4, 4] alpha=4 deficit=0
+(2) N8.4 G?q`qg: edges=10 degs=[2, 2, 2, 2, 3, 3, 3, 3] alpha=4 deficit=2
+(2) N8.5 GCQb`o: edges=10 degs=[2, 2, 2, 2, 3, 3, 3, 3] alpha=3 deficit=2
+(2) N8.6 GCR`r_: edges=11 degs=[2, 2, 3, 3, 3, 3, 3, 3] alpha=3 deficit=1
+(2) N8.7 GCrb`o: edges=12 degs=[3, 3, 3, 3, 3, 3, 3, 3] alpha=3 deficit=0
+(3) n=6: minimal (3,3)-Ramsey E~~w: edges=15 triangles=20  T7 OK  (arrowing confirmed by CP-SAT)
+(3) n=6: 112 connected graphs scanned, 1 minimal (3,3)-Ramsey
+(3) n=7: 853 connected graphs scanned, 0 minimal (3,3)-Ramsey
+(3) n=8: minimal (3,3)-Ramsey GUZ~~{: edges=23 triangles=31  T7 OK  (arrowing confirmed by CP-SAT)
+(3) n=8: 11117 connected graphs scanned, 1 minimal (3,3)-Ramsey
+(3) n=9: minimal (3,3)-Ramsey HQjuv~~: edges=27 triangles=36  T7 OK  (arrowing confirmed by CP-SAT)
+(3) n=9: 261080 connected graphs scanned, 1 minimal (3,3)-Ramsey
+ALL CONTROLS PASS

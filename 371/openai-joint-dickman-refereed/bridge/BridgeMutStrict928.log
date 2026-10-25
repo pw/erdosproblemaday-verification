@@ -1,0 +1,13 @@
+BridgeMutStrict928.lean:301:2: error: Type mismatch
+  erdos_928_of_jointLaw OAI.JointDickman.jointDickmanLaw_unconditional hα hα1 hβ hβ1
+has type
+  {n | ↑n.maxPrimeFac < ↑n ^ α ∧ ↑(n + 1).maxPrimeFac < ↑(n + 1) ^ β}.HasDensity
+    (OAI.Erdos970.NumberTheoryLean.Dickman.rho (1 / α) * OAI.Erdos970.NumberTheoryLean.Dickman.rho (1 / β))
+but is expected to have type
+  {n | ↑n.maxPrimeFac < ↑n ^ α ∧ ↑(n + 1).maxPrimeFac < ↑(n + 1) ^ (β / 2)}.HasDensity
+    (OAI.Erdos970.NumberTheoryLean.Dickman.rho (1 / α) * OAI.Erdos970.NumberTheoryLean.Dickman.rho (1 / β))
+BridgeMutStrict928.lean:303:0: error: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

@@ -1,0 +1,9 @@
+BridgeEdgesOnly.lean:198:24: error: Type mismatch
+  hcyc H hH ?m.107 ?m.108
+has type
+  H.coe.Connected ∧ H.coe.IsRegularOfDegree 2 ∨ H.coe.edgeFinset.card = 1
+but is expected to have type
+  IsCycleOrEdge H.coe
+'Bridge184.erdos_184' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+Command exited with non-zero status 1
+maxrss_kb=6563728 wall_s=10.80

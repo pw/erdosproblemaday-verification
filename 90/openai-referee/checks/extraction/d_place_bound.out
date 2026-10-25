@@ -1,0 +1,2 @@
+paper's bound (c_v = log 2): trials=400 violations=0 max(score-bound)=-0.1045 interval-claim failures=0
+CONTROL c_v = 0 at the archimedean entry: violations=35 max(score-bound)=1.2154 (expect >0)

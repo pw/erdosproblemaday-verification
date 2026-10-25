@@ -1,0 +1,10 @@
+d=4 s=3 b=6 N=18 c4=off: 30 instance(s)
+  lemma failures: 0   reduction-equivalence mismatches: 0 {}
+d=6 s=5 b=8 N=40 c4=off: 30 instance(s)
+  lemma failures: 0   reduction-equivalence mismatches: 0 {}
+d=4 s=4 b=6 N=24 c4=ON: 10 instance(s)
+  lemma failures: 0   reduction-equivalence mismatches: 0 {'both': 102, 'neither': 198}
+d=4 s=5 b=6 N=30 c4=ON: 10 instance(s)
+  lemma failures: 0   reduction-equivalence mismatches: 0 {'both': 84, 'neither': 216}
+d=4 s=6 b=6 N=36 c4=ON: 10 instance(s)
+  lemma failures: 0   reduction-equivalence mismatches: 0 {'both': 88, 'neither': 212}

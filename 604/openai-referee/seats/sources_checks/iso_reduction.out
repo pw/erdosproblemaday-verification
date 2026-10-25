@@ -1,0 +1,6 @@
+claimed bound rich*(T-1) <= 2A: 0/121 cases violate
+  CONTROL rich*(T-1) <= 0.2A (wrong) VIOLATION grid5 n=25 T=2 rich=524 A=516
+  CONTROL rich*(T-1) <= 0.2A (wrong) VIOLATION grid5 n=25 T=3 rich=268 A=516
+  CONTROL rich*(T-1) <= 0.2A (wrong) VIOLATION grid5 n=25 T=4 rich=160 A=516
+CONTROL rich*(T-1) <= 0.2A (wrong): 53/121 cases violate
+RESULT: PASS

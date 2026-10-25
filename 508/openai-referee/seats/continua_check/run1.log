@@ -1,0 +1,19 @@
+disk R=3.0 h=0.5: union of cells contains the disk of radius 2.500 about the origin
+  MAIN   disk R=3.0: cells=88 h=0.5 m<=2 mesh<=2.0 clauses=8676 -> UNSAT  [expected UNSAT: OK]
+  CTRL-a disk R=3.0, multiplicity<=3 allowed: cells=88 h=0.5 m<=3 mesh<=2.0 clauses=8401 -> SAT  pieces=25 independent-checker violations=0  [expected SAT: OK]
+disk R=2.75 h=0.25: union of cells contains the disk of radius 2.462 about the origin
+  MAIN   disk R=2.75: cells=332 h=0.25 m<=2 mesh<=2.0 clauses=678778 -> TIMEOUT  [expected UNSAT: MISMATCH]
+  CTRL-a disk R=2.75, multiplicity<=3 allowed: cells=332 h=0.25 m<=3 mesh<=2.0 clauses=676839 -> SAT  pieces=68 independent-checker violations=0  [expected SAT: OK]
+  CTRL-b thin rectangle 6 x 1.5 (no disk of radius >2 inside): cells=36 h=0.5 m<=2 mesh<=2.0 clauses=2127 -> SAT  pieces=8 independent-checker violations=0  [expected SAT: OK]
+  witness slabs on strip: checker violations (m<=2): []
+  CTRL-c strip + forced slab witness: cells=36 h=0.5 m<=2 mesh<=2.0 clauses=2127 -> SAT  pieces=6 independent-checker violations=0  [expected SAT: OK]
+  witness brick wall on disk: checker m<=2 violations=28 (e.g. [('multiplicity', (-4, -2), 3), ('multiplicity', (-4, 0), 3)]), m<=3 violations=7
+  CTRL-d disk + forced brick witness, m<=3: cells=88 h=0.5 m<=3 mesh<=2.0 clauses=8401 -> UNSAT(assumption outside candidate set: piece too wide)  [expected SAT: MISMATCH]
+  CTRL-e disk + forced brick witness, m<=2 (must reject: T-junctions): cells=88 h=0.5 m<=2 mesh<=2.0 clauses=8676 -> UNSAT(assumption outside candidate set: piece too wide)  [expected UNSAT: OK]
+  checker negative control (whole disk as one piece): [('diameter', 0, 11.661903789690601)]
+  SWEEP  disk R=1.0 (inradius 0.707): cells=32 h=0.25 m<=2 mesh<=2.0 clauses=8970 -> SAT  pieces=1 independent-checker violations=0
+  SWEEP  disk R=1.5 (inradius 1.250): cells=88 h=0.25 m<=2 mesh<=2.0 clauses=89610 -> TIMEOUT
+  SWEEP  disk R=1.75 (inradius 1.414): cells=120 h=0.25 m<=2 mesh<=2.0 clauses=154764 -> TIMEOUT
+  SWEEP  disk R=2.0 (inradius 1.677): cells=164 h=0.25 m<=2 mesh<=2.0 clauses=253454 -> TIMEOUT
+  SWEEP  disk R=2.25 (inradius 1.953): cells=216 h=0.25 m<=2 mesh<=2.0 clauses=379052 -> TIMEOUT
+  SWEEP  disk R=2.5 (inradius 2.236): cells=276 h=0.25 m<=2 mesh<=2.0 clauses=531240 -> TIMEOUT

@@ -1,0 +1,9 @@
+transition_box=PASS states=197505
+random_unreduced=PASS transitions=25000
+direct_both_signs=PASS cases=24 sha256=b726e55b89e80d53b864e3fe23f8c4177be6a0df351c6c25b5efaa681d0ad172
+future_product_replay=PASS L=512,h=-1,p=521,c1=9,digits(P)=1184,trace_sha256=da75b73e30625eeb0491e091c655730d9bfc6f0e9608b172d63f3810427d8b3f
+future_product_replay=PASS L=512,h=1,p=521,c1=1033,digits(P)=1476,trace_sha256=edbbc5310c794a5e3d3fa73c2c99326f88664a05e8ac7dbb23d4b7603c67412c
+future_product_replay=PASS L=1000,h=-1,p=1001003,c1=1000003,digits(P)=6001,trace_sha256=a3d84a850b9ec1eebe4ccb5cf67ceaa27cfaa6d46a0edf510e84c7ff1c58222d
+eta_delta=PASS cases=54
+c_to_infinity_inequality=PASS states=4851
+HOSTILE AUDIT PASSED

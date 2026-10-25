@@ -1,0 +1,404 @@
+finished n=1509 target=44 exists=True seconds=0.095
+finished n=1515 target=45 exists=False seconds=0.791
+finished n=1513 target=45 exists=False seconds=1.095
+finished n=1501 target=44 exists=False seconds=1.211
+finished n=1507 target=44 exists=False seconds=1.918
+finished n=1505 target=44 exists=False seconds=2.234
+finished n=1527 target=45 exists=False seconds=1.465
+finished n=1511 target=45 exists=False seconds=2.441
+finished n=1531 target=45 exists=False seconds=1.260
+finished n=1533 target=45 exists=False seconds=0.851
+finished n=1517 target=45 exists=False seconds=2.903
+finished n=1537 target=46 exists=False seconds=0.742
+finished n=1535 target=45 exists=True seconds=0.840
+finished n=1523 target=45 exists=False seconds=2.928
+finished n=1543 target=46 exists=False seconds=0.795
+finished n=1529 target=45 exists=False seconds=2.323
+finished n=1549 target=46 exists=False seconds=0.769
+finished n=1551 target=46 exists=False seconds=0.802
+finished n=1541 target=46 exists=False seconds=1.582
+finished n=1545 target=46 exists=False seconds=1.467
+finished n=1555 target=46 exists=False seconds=1.050
+finished n=1547 target=46 exists=False seconds=1.464
+finished n=1561 target=46 exists=False seconds=1.085
+finished n=1569 target=46 exists=False seconds=0.711
+finished n=1559 target=46 exists=False seconds=1.818
+finished n=1553 target=46 exists=False seconds=2.248
+finished n=1567 target=46 exists=False seconds=1.449
+finished n=1577 target=46 exists=False seconds=1.774
+finished n=1565 target=46 exists=False seconds=2.923
+finished n=1563 target=46 exists=False seconds=3.197
+finished n=1579 target=46 exists=False seconds=2.018
+finished n=1585 target=46 exists=False seconds=1.553
+finished n=1583 target=46 exists=False seconds=2.089
+finished n=1571 target=46 exists=False seconds=3.070
+finished n=1581 target=46 exists=False seconds=2.561
+finished n=1597 target=47 exists=False seconds=1.006
+finished n=1595 target=46 exists=True seconds=1.370
+finished n=1591 target=46 exists=False seconds=1.637
+finished n=1605 target=47 exists=False seconds=0.925
+finished n=1601 target=47 exists=False seconds=1.595
+finished n=1603 target=47 exists=False seconds=2.057
+finished n=1609 target=47 exists=False seconds=1.190
+finished n=1599 target=47 exists=False seconds=2.459
+finished n=1589 target=46 exists=False seconds=3.930
+finished n=1613 target=47 exists=False seconds=2.102
+finished n=1623 target=47 exists=False seconds=1.106
+finished n=1615 target=47 exists=False seconds=2.243
+finished n=1621 target=47 exists=False seconds=1.870
+finished n=1619 target=47 exists=False seconds=2.376
+finished n=1607 target=47 exists=False seconds=3.623
+finished n=1627 target=47 exists=False seconds=2.464
+finished n=1633 target=47 exists=False seconds=1.848
+finished n=1641 target=47 exists=False seconds=1.616
+finished n=1637 target=47 exists=False seconds=2.321
+finished n=1631 target=47 exists=False seconds=2.976
+finished n=1645 target=47 exists=False seconds=1.423
+finished n=1639 target=47 exists=False seconds=2.600
+finished n=1649 target=47 exists=False seconds=2.097
+finished n=1635 target=47 exists=False seconds=4.373
+finished n=1651 target=47 exists=False seconds=2.484
+finished n=1659 target=47 exists=False seconds=1.777
+finished n=1657 target=47 exists=False seconds=2.459
+finished n=1653 target=47 exists=False seconds=3.855
+finished n=1643 target=47 exists=False seconds=5.477
+finished n=1655 target=47 exists=False seconds=4.247
+finished n=1669 target=47 exists=False seconds=2.809
+finished n=1677 target=47 exists=False seconds=2.333
+finished n=1661 target=47 exists=False seconds=5.492
+finished n=1663 target=47 exists=False seconds=5.320
+finished n=1673 target=47 exists=False seconds=3.692
+finished n=1667 target=47 exists=False seconds=6.440
+finished n=1671 target=47 exists=False seconds=8.405
+finished n=1685 target=47 exists=False seconds=6.281
+finished n=1693 target=47 exists=False seconds=4.522
+finished n=1679 target=47 exists=False seconds=8.172
+finished n=1689 target=47 exists=False seconds=5.942
+finished n=1687 target=47 exists=False seconds=6.831
+finished n=1695 target=47 exists=False seconds=5.402
+finished n=1707 target=47 exists=True seconds=1.866
+finished n=1705 target=47 exists=False seconds=3.917
+finished n=1691 target=47 exists=False seconds=10.954
+finished n=1699 target=47 exists=False seconds=7.310
+finished n=1717 target=48 exists=False seconds=2.753
+finished n=1713 target=48 exists=False seconds=5.334
+finished n=1709 target=48 exists=False seconds=7.138
+finished n=1711 target=48 exists=False seconds=7.256
+finished n=1731 target=48 exists=False seconds=2.946
+finished n=1723 target=48 exists=False seconds=5.200
+finished n=1697 target=47 exists=False seconds=13.000
+finished n=1703 target=47 exists=False seconds=12.450
+finished n=1729 target=48 exists=False seconds=4.679
+finished n=1721 target=48 exists=False seconds=7.387
+finished n=1727 target=48 exists=False seconds=7.653
+finished n=1735 target=48 exists=True seconds=4.513
+finished n=1741 target=49 exists=False seconds=3.897
+finished n=1745 target=49 exists=False seconds=4.025
+finished n=1733 target=48 exists=False seconds=10.495
+finished n=1739 target=49 exists=False seconds=8.492
+finished n=1749 target=49 exists=False seconds=5.758
+finished n=1743 target=49 exists=False seconds=8.355
+finished n=1747 target=49 exists=False seconds=7.678
+finished n=1753 target=49 exists=False seconds=5.399
+finished n=1757 target=49 exists=False seconds=9.333
+finished n=1765 target=49 exists=False seconds=6.516
+finished n=1767 target=49 exists=False seconds=7.040
+finished n=1759 target=49 exists=False seconds=9.643
+finished n=1761 target=49 exists=False seconds=9.329
+finished n=1751 target=49 exists=False seconds=19.265
+finished n=1781 target=50 exists=False seconds=7.475
+finished n=1777 target=49 exists=False seconds=9.540
+finished n=1769 target=49 exists=False seconds=15.630
+finished n=1779 target=49 exists=True seconds=9.177
+finished n=1763 target=49 exists=False seconds=21.651
+finished n=1793 target=50 exists=False seconds=6.539
+finished n=1789 target=50 exists=False seconds=8.019
+finished n=1785 target=50 exists=False seconds=10.466
+finished n=1783 target=50 exists=False seconds=22.672
+finished n=1795 target=50 exists=False seconds=15.876
+finished n=1797 target=50 exists=False seconds=12.974
+finished n=1803 target=50 exists=False seconds=12.363
+finished n=1771 target=49 exists=False seconds=32.251
+finished n=1801 target=50 exists=False seconds=14.793
+finished n=1787 target=50 exists=False seconds=24.870
+finished n=1799 target=50 exists=False seconds=27.884
+finished n=1819 target=50 exists=False seconds=17.686
+finished n=1817 target=50 exists=False seconds=24.814
+finished n=1811 target=50 exists=False seconds=28.602
+finished n=1829 target=50 exists=False seconds=21.707
+finished n=1821 target=50 exists=False seconds=28.215
+finished n=1839 target=51 exists=False seconds=5.599
+finished n=1831 target=50 exists=False seconds=17.819
+finished n=1807 target=50 exists=False seconds=39.993
+finished n=1833 target=50 exists=False seconds=17.450
+finished n=1823 target=50 exists=False seconds=34.250
+finished n=1835 target=50 exists=True seconds=18.262
+finished n=1837 target=51 exists=False seconds=22.312
+finished n=1841 target=51 exists=False seconds=18.169
+finished n=1853 target=51 exists=False seconds=11.732
+finished n=1843 target=51 exists=False seconds=21.088
+finished n=1861 target=51 exists=False seconds=10.384
+finished n=1855 target=51 exists=False seconds=21.373
+finished n=1847 target=51 exists=False seconds=26.365
+finished n=1857 target=51 exists=False seconds=18.644
+finished n=1865 target=51 exists=False seconds=16.396
+finished n=1869 target=51 exists=False seconds=12.158
+finished n=1851 target=51 exists=False seconds=30.283
+finished n=1867 target=51 exists=False seconds=22.915
+finished n=1877 target=51 exists=False seconds=14.974
+finished n=1885 target=51 exists=False seconds=14.566
+finished n=1873 target=51 exists=False seconds=28.022
+finished n=1887 target=51 exists=False seconds=37.966
+finished n=1889 target=51 exists=False seconds=35.570
+finished n=1871 target=51 exists=False seconds=52.424
+finished n=1883 target=51 exists=False seconds=47.768
+finished n=1893 target=51 exists=False seconds=33.055
+finished n=1879 target=51 exists=False seconds=62.698
+finished n=1891 target=51 exists=False seconds=52.367
+finished n=1897 target=51 exists=False seconds=27.260
+finished n=1903 target=51 exists=False seconds=33.304
+finished n=1895 target=51 exists=False seconds=73.260
+finished n=1901 target=51 exists=False seconds=53.990
+finished n=1919 target=51 exists=True seconds=18.539
+finished n=1905 target=51 exists=False seconds=52.850
+finished n=1909 target=51 exists=False seconds=42.719
+finished n=1907 target=51 exists=False seconds=53.298
+finished n=1921 target=52 exists=False seconds=13.632
+finished n=1929 target=52 exists=False seconds=22.498
+finished n=1933 target=52 exists=False seconds=24.028
+finished n=1915 target=51 exists=False seconds=62.506
+finished n=1913 target=51 exists=False seconds=69.928
+finished n=1939 target=52 exists=False seconds=24.002
+finished n=1927 target=52 exists=False seconds=50.650
+finished n=1931 target=52 exists=False seconds=49.390
+finished n=1937 target=52 exists=False seconds=55.820
+finished n=1947 target=52 exists=False seconds=21.865
+finished n=1923 target=52 exists=False seconds=74.385
+finished n=1941 target=52 exists=False seconds=45.219
+finished n=1943 target=52 exists=False seconds=48.389
+finished n=1945 target=52 exists=False seconds=49.559
+finished n=1957 target=52 exists=False seconds=18.153
+finished n=1949 target=52 exists=False seconds=60.022
+finished n=1955 target=52 exists=False seconds=48.879
+finished n=1961 target=52 exists=False seconds=47.201
+finished n=1965 target=52 exists=False seconds=43.703
+finished n=1963 target=52 exists=False seconds=64.729
+finished n=1959 target=52 exists=False seconds=94.505
+finished n=1951 target=52 exists=False seconds=115.746
+finished n=1969 target=52 exists=False seconds=58.936
+finished n=1967 target=52 exists=False seconds=83.598
+finished n=1973 target=52 exists=False seconds=79.584
+finished n=1981 target=52 exists=False seconds=58.438
+finished n=1977 target=52 exists=False seconds=88.958
+finished n=1983 target=52 exists=False seconds=52.303
+finished n=1993 target=53 exists=False seconds=24.142
+finished n=1979 target=52 exists=False seconds=97.371
+finished n=1991 target=52 exists=True seconds=74.240
+finished n=1999 target=53 exists=True seconds=42.075
+finished n=1997 target=53 exists=False seconds=64.240
+finished n=1985 target=52 exists=False seconds=111.917
+finished n=1995 target=53 exists=False seconds=108.428
+finished n=1987 target=52 exists=False seconds=144.495
+n=1501 target=44 neighbors=244 edges=23552 exists=False graph_sha256=23caadc30b58a73bd6b6ed11067bda66af80006d581a38ef750e1265fc08544b witness={}
+n=1505 target=44 neighbors=246 edges=24017 exists=False graph_sha256=52a34241003b3a34c1c0d6091676812364fe3afff53e3d95b60d6ad98970c604 witness={}
+n=1507 target=44 neighbors=243 edges=23446 exists=False graph_sha256=7f61134428896ce12461c54570466cf2c65380840b736afb678855959e4043c8 witness={}
+n=1509 target=44 neighbors=243 edges=23551 exists=True graph_sha256=c500ae193c88056b1c6b17f388fd0bc539c586139b488c9982ef22325c248fcd witness={17,65,77,137,149,161,209,269,293,317,365,377,437,449,465,497,509,521,617,665,677,737,749,797,861,905,965,969,977,1037,1097,1109,1121,1149,1205,1221,1265,1293,1337,1361,1409,1437,1469,1493,1509}
+n=1511 target=45 neighbors=246 edges=24033 exists=False graph_sha256=e7983da0c742a970fcba7084493e1ed57c79899d146385830943a128d22868bc witness={}
+n=1513 target=45 neighbors=245 edges=23803 exists=False graph_sha256=091a9fceb22e63fcdd505bf705a4b1fca7bb88c3fe223488852ff445d0e61dd4 witness={}
+n=1515 target=45 neighbors=245 edges=23645 exists=False graph_sha256=ba734245678b4d2e25e5425e1f1b9b3c64f4c5b8d5fc809ff14c2188b3f8d13a witness={}
+n=1517 target=45 neighbors=245 edges=23915 exists=False graph_sha256=a0d3cdf76b946cdbbacb41b74c40f2b393b19ffc2ce83f06412a104ad9791581 witness={}
+n=1523 target=45 neighbors=245 edges=23944 exists=False graph_sha256=4a3ffe58f27d02a72408f896d6210707540f547ba53a95311e10e09076c3bf4a witness={}
+n=1527 target=45 neighbors=249 edges=24651 exists=False graph_sha256=4f8ccae3d23e8b2d1f83c6252af6632bb6a3202c7d2daf3504bf1b061f5c9fe8 witness={}
+n=1529 target=45 neighbors=249 edges=24599 exists=False graph_sha256=aeecc629503dbbe30313605dc258fe1cf0e751afce6d4311f5d3ed69e823d6db witness={}
+n=1531 target=45 neighbors=247 edges=24190 exists=False graph_sha256=fa6e90eeea7b9d8e75f4f4b77b6c973536b0d74e7391f52cf4c499280b75a21d witness={}
+n=1533 target=45 neighbors=241 edges=23028 exists=False graph_sha256=4d08e09f2e55fb4cd0bca1bce4db3284629b4923e5bc0a7bcc66044ad2beacea witness={}
+n=1535 target=45 neighbors=250 edges=24877 exists=True graph_sha256=814a8b9fa5bfd56701175c99fee1c815e26c50c46668a4e97992400c1110cbc6 witness={11,23,35,71,83,95,107,119,183,191,251,291,311,323,335,491,551,611,623,635,647,671,683,695,707,791,795,851,863,911,923,935,947,1119,1151,1163,1223,1235,1271,1283,1295,1335,1407,1451,1523,1535}
+n=1537 target=46 neighbors=247 edges=24119 exists=False graph_sha256=82b2b3c482f4d38eab3f84099efb588c6c71da780ea8332402214178687c4d38 witness={}
+n=1541 target=46 neighbors=250 edges=24791 exists=False graph_sha256=6ada89535bcf54a7a8916162efe11ac802ddec440a79d4ff4d821744c05f4657 witness={}
+n=1543 target=46 neighbors=247 edges=24149 exists=False graph_sha256=e21a942237380a6dbc41ece4a1b3876026d206afb2cda679ee24ca30abff3bfc witness={}
+n=1545 target=46 neighbors=248 edges=24521 exists=False graph_sha256=b46bf221876c7cc41d41b52fab0f054e103e029f58a12d098ceb841968eed4d0 witness={}
+n=1547 target=46 neighbors=251 edges=24945 exists=False graph_sha256=d813093e50f025b50a7b641a8cb0524f48df98191c07ad2fcedbfd33ab2301b9 witness={}
+n=1549 target=46 neighbors=246 edges=23995 exists=False graph_sha256=1faed181d655cf343e3aa120761d148680c6c314837c6d997efe1e2194923faf witness={}
+n=1551 target=46 neighbors=249 edges=24483 exists=False graph_sha256=241b1db2ae1522ca9f6431349d6bb7240789410fa684cb87b2a89a0b27a2f925 witness={}
+n=1553 target=46 neighbors=250 edges=24860 exists=False graph_sha256=eb5147b4785edb3f709a57e16a86c8ca025e818a777672cb6f588d06361063bc witness={}
+n=1555 target=46 neighbors=252 edges=25220 exists=False graph_sha256=6a64a2b241ccd0d2c45e0c77ff6fa493fc5db1e38b24e3808646a2f3fa4b1719 witness={}
+n=1559 target=46 neighbors=253 edges=25462 exists=False graph_sha256=9f4d77ddc867f997cf7ca04c8df1e31df69ade1da1f52c138e374640a992e271 witness={}
+n=1561 target=46 neighbors=251 edges=24950 exists=False graph_sha256=49b9270a3943ae65f775e6a79ec847117f5ca284bea76fec6c6c9c9bab171ad2 witness={}
+n=1563 target=46 neighbors=259 edges=26681 exists=False graph_sha256=6700574b8d94e59fcd05149d97660947d41a4d1d083935d9afad08ce279bdeb0 witness={}
+n=1565 target=46 neighbors=255 edges=25813 exists=False graph_sha256=f9ab89420193f47f9f52bfa1a9684273522c99590f21d0549b8c6af48ad7c9fe witness={}
+n=1567 target=46 neighbors=257 edges=26212 exists=False graph_sha256=14fb7bb3642d542f69e95020ccfc250204fc35be6c960099f065a9858ee5f78f witness={}
+n=1569 target=46 neighbors=249 edges=24557 exists=False graph_sha256=52fa0b2b7cb78e05bcace98a1be4c13f809d59fd2a7d11bc4b2391ea839daa35 witness={}
+n=1571 target=46 neighbors=256 edges=26097 exists=False graph_sha256=a1803725b1d23aa7912e36a48202dffde403e401e9e8da5b4ec30a575e049ad4 witness={}
+n=1577 target=46 neighbors=253 edges=25411 exists=False graph_sha256=7303eb7bf028c295a722c87ac5a64b5e5e7d7bfcf9555e956a34fb018d0d8e3b witness={}
+n=1579 target=46 neighbors=254 edges=25552 exists=False graph_sha256=1cb7116cd6424e54101612b374086bd8022e5575aa361218fe2d2e83bf68e4fa witness={}
+n=1581 target=46 neighbors=254 edges=25744 exists=False graph_sha256=cb28f701836299aae878577e76175405fbf573589c20c284810d5f43623ee8dd witness={}
+n=1583 target=46 neighbors=258 edges=26341 exists=False graph_sha256=4b6dbe76cbfa78553bfedeed65923bad03e40b4b29b319491273c2312119dfff witness={}
+n=1585 target=46 neighbors=252 edges=25216 exists=False graph_sha256=1fe7604b116cb05de6dd038a9f7b5585f2c809fc45ff925bdeb47434e92ecdbf witness={}
+n=1589 target=46 neighbors=257 edges=26289 exists=False graph_sha256=5607183cb6999c631e45dd1ac9ddcffdc785f5c855f708e40f9f4385a7ab3d54 witness={}
+n=1591 target=46 neighbors=258 edges=26415 exists=False graph_sha256=17e15616afda6134ef4d001462c551437bca06c8ab6f347c5c1afbb445ab11bb witness={}
+n=1595 target=46 neighbors=254 edges=25713 exists=True graph_sha256=19619b46c9205c885ab9ca64f08a5a2d0887af2589b9f8df7b61ec8dd3030c47 witness={11,23,35,59,83,107,195,311,323,335,347,371,395,419,483,551,611,623,635,647,671,695,719,807,851,911,923,935,959,983,1007,1095,1163,1223,1235,1259,1283,1307,1419,1451,1463,1511,1523,1547,1563,1571,1595}
+n=1597 target=47 neighbors=252 edges=25164 exists=False graph_sha256=c0513807565f56a2f8c4bc0c7b04014e152e248992bde0270808fd731b31ca28 witness={}
+n=1599 target=47 neighbors=263 edges=27535 exists=False graph_sha256=0b24c493ddd699bc388224532eb7a6da9ca69a9c77333edfd1f1ac1a45b2dc63 witness={}
+n=1601 target=47 neighbors=258 edges=26405 exists=False graph_sha256=4cd8d2dc7c4bfb29dcd648cfcaf79e4791fcc2c957ed34861a61aa9276d71171 witness={}
+n=1603 target=47 neighbors=260 edges=26913 exists=False graph_sha256=07795259957cbdf5d00114d3d548fef637a33c2894762c8058c89d88cea5f619 witness={}
+n=1605 target=47 neighbors=254 edges=25564 exists=False graph_sha256=17735737404607e4c9e49b2b92d6c0ce301c603eacdc4721c722352bda2399bb witness={}
+n=1607 target=47 neighbors=263 edges=27561 exists=False graph_sha256=09730f5fefaa52e20235fe93a899d7532119eccf9f818fc306db4677af4dd165 witness={}
+n=1609 target=47 neighbors=260 edges=26672 exists=False graph_sha256=91248203a1d894885ec20053579e13a4dca31982b11f81e2c87be6c0924850c4 witness={}
+n=1613 target=47 neighbors=261 edges=27039 exists=False graph_sha256=5943a4ad121d63bfb5376127dab4cfda3a8ccb756f4245379ffcb7649f7c23a9 witness={}
+n=1615 target=47 neighbors=260 edges=26812 exists=False graph_sha256=dbadd2f24ba6c846e96a9a23b36a7d4919e6be1f0011252a6a6c94a42f4389d2 witness={}
+n=1619 target=47 neighbors=263 edges=27444 exists=False graph_sha256=452cf179f72e61943dd786871295c721042823d877574f4cd1ac2dbd2fceacfa witness={}
+n=1621 target=47 neighbors=259 edges=26623 exists=False graph_sha256=0ff917575f38b131201b34176bbd9e70c5be4338f123773514113d56f688198d witness={}
+n=1623 target=47 neighbors=260 edges=26629 exists=False graph_sha256=543ae23c712bfcc73f5aeb698fc134c9d125f7a6b657706bffe9fbe3ee98e299 witness={}
+n=1627 target=47 neighbors=262 edges=27298 exists=False graph_sha256=eb2e628d873637ac48adb97f1f16e02ade5fd9afe1fe0d40db3d4c0eb2a9d0da witness={}
+n=1631 target=47 neighbors=260 edges=26917 exists=False graph_sha256=7013998aa5620f191016bcd2b301a0c46f8161d83690a5b2b66730d56521c36f witness={}
+n=1633 target=47 neighbors=260 edges=26787 exists=False graph_sha256=7b3850fd36a52c74c78ecd3dffaee04f3605bd540010d123fc3c523dbc75c22e witness={}
+n=1635 target=47 neighbors=268 edges=28564 exists=False graph_sha256=c04077d175b6ecf0a69a28e13190263d8febc20d1b854958fc6bec8c2c361b65 witness={}
+n=1637 target=47 neighbors=261 edges=27061 exists=False graph_sha256=4a7075221a737127dba4114426befd22f0c2e84bed401beb5ce1dbe298c96833 witness={}
+n=1639 target=47 neighbors=264 edges=27729 exists=False graph_sha256=35d2fdbfac3975131cc1be63e4614a28542c4265e8d730cf81e9897f1c8a8ee8 witness={}
+n=1641 target=47 neighbors=260 edges=26799 exists=False graph_sha256=b329edff767acd2f05abe71ce7dbd9ca3679b7c65958916c6626c91940fa451b witness={}
+n=1643 target=47 neighbors=267 edges=28367 exists=False graph_sha256=7c6e684917f0f2e0c72f9b7a3e9ab3c308caa8de1b75572a9419380d857d9753 witness={}
+n=1645 target=47 neighbors=262 edges=27088 exists=False graph_sha256=9d86801ab53654302e689eda14cd48c2c80c0e67ad26ee04826727b71cfcf547 witness={}
+n=1649 target=47 neighbors=264 edges=27727 exists=False graph_sha256=44cacead8948c14a05af3f73bc2b4348b2d5dd4365422b8902941447cd9f561a witness={}
+n=1651 target=47 neighbors=263 edges=27423 exists=False graph_sha256=a238460d8bb6f6fcbd56f45fd4ac1802a94f5ad4d439476b523acaa88afd78e2 witness={}
+n=1653 target=47 neighbors=263 edges=27605 exists=False graph_sha256=72381c87ca1754e07a0b19d55771e30b455cfb13b90e1fd28b18f085afa02501 witness={}
+n=1655 target=47 neighbors=269 edges=28686 exists=False graph_sha256=27d8be92d4395e2957de16900d48793d882ed363dc50f78306892b9bc390056b witness={}
+n=1657 target=47 neighbors=264 edges=27696 exists=False graph_sha256=c77c2b10438349ed2b20a919a6d387403f65da2b53385e7967d14ee6fa89f47b witness={}
+n=1659 target=47 neighbors=268 edges=28334 exists=False graph_sha256=7e9b1652e4d7afded79a9a1c08ba8b3312dec61dc460bbf093efbcbc6bf8895c witness={}
+n=1661 target=47 neighbors=268 edges=28508 exists=False graph_sha256=fbaf42f4302ec503cc66a071b3df45d6fcc22d2831b3cfb846614b6354a30a0c witness={}
+n=1663 target=47 neighbors=271 edges=29170 exists=False graph_sha256=4aea17236de7cef74d7683ed44063fca78467f27c21b89265b267409cf176b65 witness={}
+n=1667 target=47 neighbors=271 edges=29202 exists=False graph_sha256=988084952513aa5a6935d15473730f9fd8fc116c27aef49c4b4fb65166bee8ac witness={}
+n=1669 target=47 neighbors=266 edges=28021 exists=False graph_sha256=36ce39cc14efc53b23b2ec23ab0497795a9ccdea5cca8a225c5839350bfa6509 witness={}
+n=1671 target=47 neighbors=278 edges=30737 exists=False graph_sha256=255f7cab1097a3ce6d2a89dee48f0efbba8f5f165bced9d05b46a8d4d5307531 witness={}
+n=1673 target=47 neighbors=268 edges=28505 exists=False graph_sha256=0b8692923b69d37693ab086168624b1a6718a017c9ec904124a17121027ee4f3 witness={}
+n=1677 target=47 neighbors=265 edges=27839 exists=False graph_sha256=262d0d764ac66fa0c0a76463838c2fa33a9b3a1f39bba9d7099e4b691f59ca19 witness={}
+n=1679 target=47 neighbors=274 edges=29912 exists=False graph_sha256=b66878ac0f780a0001f53a45b0d5da99624354fb606389a71aa56796f9038a32 witness={}
+n=1685 target=47 neighbors=272 edges=29371 exists=False graph_sha256=27b833c1ac6db2d0cc62323cd46131c589e518742f08aa2194895f4d71ee25fe witness={}
+n=1687 target=47 neighbors=273 edges=29597 exists=False graph_sha256=4c7e64a22560acc9155b542b65aa27fee8730a2731540a5f6a4c13fd8c61e5fd witness={}
+n=1689 target=47 neighbors=271 edges=29300 exists=False graph_sha256=e022f353302f5648d904e136a4615f81ea48cc3aac5dc0052fb12df15cbdcbb6 witness={}
+n=1691 target=47 neighbors=275 edges=30032 exists=False graph_sha256=5b73fb1b06230f64940586b75c1533837934f7b07b0cf7f6179c113d725a2054 witness={}
+n=1693 target=47 neighbors=270 edges=28929 exists=False graph_sha256=378b0fe8508b84af7694c686f2c8e43be939e1e0c970109a0ae5814fec1688be witness={}
+n=1695 target=47 neighbors=274 edges=29618 exists=False graph_sha256=923d52395f1c23ec5a6ddbc8bf99499a1f9f5ab8092e69c15d69cfd6b5c9e594 witness={}
+n=1697 target=47 neighbors=276 edges=30297 exists=False graph_sha256=c971376f1a1b9d0660d5ced919d29ceaa3fee98ab06adb28aeba2cc8db0dbe8f witness={}
+n=1699 target=47 neighbors=276 edges=30236 exists=False graph_sha256=aadac9626c4445f9973a3cb5bd38c29d5cd3d447f750e8da7bb189c684a70c95 witness={}
+n=1703 target=47 neighbors=277 edges=30574 exists=False graph_sha256=978f071f4e3889fb04d3d91f76f583c30f719bf33f4758718a9b4de56cd4c821 witness={}
+n=1705 target=47 neighbors=273 edges=29569 exists=False graph_sha256=476b66bc2d610454d8fc70816f516714c7bb5a5193f304045c3abfba2621b431 witness={}
+n=1707 target=47 neighbors=287 edges=32802 exists=True graph_sha256=eb3b5fe1d5a2ff15a95d41f725252d678e0bd4f1ef02db1d179eb5f2737784a5 witness={35,95,151,167,223,251,295,311,347,367,419,447,491,563,635,663,707,779,851,879,923,935,951,995,1007,1067,1079,1095,1151,1167,1195,1223,1267,1295,1311,1391,1411,1419,1447,1463,1491,1535,1563,1607,1635,1663,1679,1707}
+n=1709 target=48 neighbors=278 edges=30695 exists=False graph_sha256=db7db373e55e073acc40b30ff7b4e0dba875b1aedc54aa3fc7ed49780ff83db5 witness={}
+n=1711 target=48 neighbors=279 edges=30922 exists=False graph_sha256=713332d888b48191e2843a1c1342f982323858002b1bb0d78123f65e02bf1baf witness={}
+n=1713 target=48 neighbors=274 edges=29779 exists=False graph_sha256=9ff028b2fd23668607bfab33c4b3bc192082cae9d3eeab1d80c179e961ae0c3f witness={}
+n=1717 target=48 neighbors=276 edges=30015 exists=False graph_sha256=44516ace4e8e01cbcd93240ff9f7bbaaf5516f30fa2b133fe7fa965f3e422356 witness={}
+n=1721 target=48 neighbors=280 edges=31096 exists=False graph_sha256=757a24bc013cfade32608de2862b0f9ce30e0e31a52c7013c7ae14a9fee9a357 witness={}
+n=1723 target=48 neighbors=278 edges=30670 exists=False graph_sha256=a081fee4bd83c0e57c09e4f1b979cd7b63706747917d98cf3ccea81764c147a5 witness={}
+n=1727 target=48 neighbors=279 edges=30934 exists=False graph_sha256=5ed50b12eda9a09766f57056e466d11ff109f1136a37cc5b38f4e109032601b0 witness={}
+n=1729 target=48 neighbors=279 edges=30892 exists=False graph_sha256=05adc7073b46767c5da9408686aa364354a6e44bc29433f458227a2f01b0df2f witness={}
+n=1731 target=48 neighbors=280 edges=30875 exists=False graph_sha256=ef0f9ca1715cc1503821f91d4be93b64f00732d3ee3c51204248b29c8c7b0437 witness={}
+n=1733 target=48 neighbors=281 edges=31361 exists=False graph_sha256=388aa5f9981d604885d2d30ac76e59ec86786ae1384c99944481245286a1e857 witness={}
+n=1735 target=48 neighbors=281 edges=31332 exists=True graph_sha256=10413a471267514e200b7712bbf45632436728da9faca3955492674f40c1628b witness={23,95,151,167,223,239,295,347,367,419,491,563,635,707,779,807,851,879,923,935,951,995,1007,1023,1067,1079,1095,1139,1151,1167,1195,1223,1239,1267,1295,1339,1391,1419,1463,1491,1535,1563,1591,1607,1635,1663,1679,1707,1735}
+n=1739 target=49 neighbors=280 edges=31247 exists=False graph_sha256=7736b42db500e6589d29d706bda81994e8ebf564cbfd070ca10899140669ebee witness={}
+n=1741 target=49 neighbors=279 edges=30977 exists=False graph_sha256=f2b3e050f313d9c7cf86ef92ea6af1bf1d6d4332b2fe121e2251afd753e54469 witness={}
+n=1743 target=49 neighbors=288 edges=33002 exists=False graph_sha256=bff6d242fd00efa88215af54cb5e4c8573cf85210dfa0db6e3393ad31647a2a0 witness={}
+n=1745 target=49 neighbors=281 edges=31369 exists=False graph_sha256=6fe62e677f8755971cc8eb5ce003fe2051107c229cf4b5a9fbd5a46432a6da91 witness={}
+n=1747 target=49 neighbors=287 edges=32696 exists=False graph_sha256=eb9a2a858125b7c7b155183ef597c9272b62bb06e7970e36987d0d2679c32901 witness={}
+n=1749 target=49 neighbors=280 edges=31169 exists=False graph_sha256=6a4bbd6855dcd12ae5dcd0bc56186f78c221bbc6fdd54c3ab24b062e6646a8c4 witness={}
+n=1751 target=49 neighbors=289 edges=33217 exists=False graph_sha256=46de54c3d7c2b3b62866c7aaf34392e4e8ff630a5c186f0b172c3f53532fdd7b witness={}
+n=1753 target=49 neighbors=284 edges=31848 exists=False graph_sha256=e40324e504881e1d85fc652a9bc668338bcdc558d1fb27ebf0a1f879c254543e witness={}
+n=1757 target=49 neighbors=285 edges=32332 exists=False graph_sha256=92f39b6a6375133256737ddf0b75f099b228a58cfec93019ee57c69a0e6fe642 witness={}
+n=1759 target=49 neighbors=286 edges=32446 exists=False graph_sha256=4860b02252656dcf28c56b58d69cc43a9aa3d1ff27c4351649cde6b3a6213050 witness={}
+n=1761 target=49 neighbors=285 edges=32312 exists=False graph_sha256=a16170428dead2eb89deb18f18a6d8ea8355f3a4e63d6036ec4be663ebe10d57 witness={}
+n=1763 target=49 neighbors=292 edges=33849 exists=False graph_sha256=147f6c99e3b7b12599ea1568dfc09c9bd5558fede8d6c24dd0e7a0113e77a4c3 witness={}
+n=1765 target=49 neighbors=284 edges=32070 exists=False graph_sha256=cb6935cc18cddffc64a0a02a916b1ada988ee3694228a52034314b1670df5c2a witness={}
+n=1767 target=49 neighbors=290 edges=33215 exists=False graph_sha256=f128917a50bd6e9ce0787a4d5e2cccb63875ee3b0e6b4729e5fd9ecf1798966f witness={}
+n=1769 target=49 neighbors=290 edges=33398 exists=False graph_sha256=3f4629f11d69ba0a57942b69ec8810e40b45d940d379775e2ec26c4e1d9ca0bc witness={}
+n=1771 target=49 neighbors=289 edges=33206 exists=False graph_sha256=592f478fa3223d44f2c903c9b6cec33346cdd5c7cad0c715576f4e9a1b6a0580 witness={}
+n=1777 target=49 neighbors=286 edges=32508 exists=False graph_sha256=ca8761aaeea2aaf5e3568fa9d794632e9b82feff7868edcf55922ef62f9e307f witness={}
+n=1779 target=49 neighbors=295 edges=34646 exists=True graph_sha256=6c2d091d0578db3077e1cebe94449047c24593bbf13d6eebf317a7cbbd16cf2c witness={23,95,151,167,195,239,267,347,367,439,563,635,763,779,807,851,879,923,935,951,979,995,1023,1051,1067,1095,1139,1151,1167,1195,1223,1239,1247,1267,1339,1391,1419,1463,1535,1547,1563,1591,1607,1635,1663,1679,1707,1735,1763,1779}
+n=1781 target=50 neighbors=287 edges=32754 exists=False graph_sha256=cc5223c568b0b5849c452e0c42547d90fd9824c676aa4b4ec636e5feec980904 witness={}
+n=1783 target=50 neighbors=293 edges=34086 exists=False graph_sha256=f52495f1d0a105876b0f648dc692f99f45f9c7c80f5624c6f64b7976906107bf witness={}
+n=1785 target=50 neighbors=285 edges=32278 exists=False graph_sha256=16f10e53ce5c736ab5cacd155bf5aa8c7bd538b59705013cc817fea13aafa797 witness={}
+n=1787 target=50 neighbors=297 edges=35072 exists=False graph_sha256=86963b368c80973a3843594c758a758726f7d0ab2a1901b0d4aa251a8a20a477 witness={}
+n=1789 target=50 neighbors=292 edges=33729 exists=False graph_sha256=3e9a3c2450c75cc06089ee2d7f1190eea6319b986fe1e7cc25c8df498b8542c8 witness={}
+n=1793 target=50 neighbors=291 edges=33693 exists=False graph_sha256=406f1b7c3d33ed3fae2105e6b8993dadcbc0e2e68539e92e03309c2e58593c59 witness={}
+n=1795 target=50 neighbors=291 edges=33651 exists=False graph_sha256=92c2446fd1d4967ca06e0815dd577818c9f879be9ace4e14c461b74e0329d490 witness={}
+n=1797 target=50 neighbors=290 edges=33528 exists=False graph_sha256=e75d14a105bce4b901b092b4c38a8907472ecb822d6393ef11819377b1dc0f69 witness={}
+n=1799 target=50 neighbors=294 edges=34379 exists=False graph_sha256=f26205d8c723b5fcc39d0ea608193b30755f26a6bf607e6b299fd86c6a7e1ce8 witness={}
+n=1801 target=50 neighbors=292 edges=33916 exists=False graph_sha256=b2acf52c374e78246cef67311ca6508e21b7fdcc223f938e3221e5900a4e29ca witness={}
+n=1803 target=50 neighbors=295 edges=34468 exists=False graph_sha256=f05b860b510a8143ffcbef871a3d300ee27c4d195dee18d7be438c38cb6d5fea witness={}
+n=1807 target=50 neighbors=296 edges=34836 exists=False graph_sha256=acff755b9377f3763734adf5e054257b35f060d58fed772dc3b6360e0d3aeff9 witness={}
+n=1811 target=50 neighbors=293 edges=34234 exists=False graph_sha256=66422554647307577f52aa223f0dd456f2d8a2a3d65acc4c91506f206c4e71af witness={}
+n=1817 target=50 neighbors=293 edges=34232 exists=False graph_sha256=f8146e1bbdd09a4e1761a2bca70a1a7dcef91ce023ef31418d919e1c4201146c witness={}
+n=1819 target=50 neighbors=296 edges=34839 exists=False graph_sha256=f9273e835245a947fb316bb3d91ba61a67509908af09c0c90030e205f84553a4 witness={}
+n=1821 target=50 neighbors=293 edges=34131 exists=False graph_sha256=e0f856aa2ee6d1eceaeb2b30f59276a289e3d9ed0e2e25fd305873f8705d4c40 witness={}
+n=1823 target=50 neighbors=299 edges=35575 exists=False graph_sha256=78966711674b3d54d20525af62f3d02b7a7231cabbd5603ddbbb60b5f3653a7f witness={}
+n=1829 target=50 neighbors=296 edges=34889 exists=False graph_sha256=6dc14974369f8afc72dca51557a1a9a7cdccea08a1f27b3fc032124384dc5e14 witness={}
+n=1831 target=50 neighbors=293 edges=34069 exists=False graph_sha256=a348d373b8f1b1d5e94f89b764b8aed2e9ad85fa238414b83e234f600be43eab witness={}
+n=1833 target=50 neighbors=290 edges=33556 exists=False graph_sha256=48baf83b73067bc8e1f13f9c55d7ed6e8dee92061e97e431ab36c55f88066469 witness={}
+n=1835 target=50 neighbors=299 edges=35577 exists=True graph_sha256=1c95e7b802699d48fa0a3a7db43a050ae5c5dbc287489bdd7f765bf2f0bf8673 witness={23,95,151,167,195,239,267,347,367,439,563,635,763,779,807,851,879,923,935,951,979,995,1023,1051,1067,1095,1139,1151,1167,1195,1223,1239,1247,1267,1391,1419,1463,1535,1547,1563,1591,1607,1635,1663,1679,1707,1735,1763,1779,1807,1835}
+n=1837 target=51 neighbors=296 edges=34852 exists=False graph_sha256=84203498558acf584ae9cb6f0d4c6c77e13181f77cf44af38fa64f7ec42d9c18 witness={}
+n=1839 target=51 neighbors=296 edges=34654 exists=False graph_sha256=454bafce68fb3620f0ad9aa748cd1e7d623738d963cd0829aeb7294c8168c5e2 witness={}
+n=1841 target=51 neighbors=298 edges=35296 exists=False graph_sha256=5d0ccb940f7cdb8bf91b2abb1bbd200f424a52c253a939a020808fc3467b6133 witness={}
+n=1843 target=51 neighbors=300 edges=35769 exists=False graph_sha256=dc3965a3ea98d0aba39fcd1b4f3a6ea8c53805d90512c55d4996c1c7b0b8f23c witness={}
+n=1847 target=51 neighbors=296 edges=34924 exists=False graph_sha256=3842edcead46ea8cfcca86d8dfdf85aec5cbe5a09ae6cedba0e5aa70c93f772c witness={}
+n=1851 target=51 neighbors=304 edges=36769 exists=False graph_sha256=dd60945a4a360cca9250a03adcd7bd1019d9102bdb7dddbff8ceeb50fe45bf3f witness={}
+n=1853 target=51 neighbors=294 edges=34449 exists=False graph_sha256=71c7168654f3698a06c1328467b62202066696a275cce0ffc524452ee0ea549a witness={}
+n=1855 target=51 neighbors=303 edges=36525 exists=False graph_sha256=c0c02a9673cd3abb1453f3bf4102d10e3ce96279ab9825e1ef2f8f4a8114bef7 witness={}
+n=1857 target=51 neighbors=293 edges=34166 exists=False graph_sha256=472717e5721de9dcc4942b30ee323c5fbfc038bd6e83507af31637fd87e7de1f witness={}
+n=1861 target=51 neighbors=295 edges=34363 exists=False graph_sha256=aed7b2c73b1c6c4cf90e33d1b0dd32a408fc667e685c3ab4e41b91ee67d738ea witness={}
+n=1865 target=51 neighbors=300 edges=35815 exists=False graph_sha256=3679b97bba945c1526b2737ea09ef7633f569e5f9d77b9613b8a91d96ba439aa witness={}
+n=1867 target=51 neighbors=302 edges=36219 exists=False graph_sha256=6bf441c717c454b63f1e5078732ed854761b1fed5f061190b80fe220a99b1933 witness={}
+n=1869 target=51 neighbors=297 edges=35133 exists=False graph_sha256=ea027b5b0eac5800fc61f6274c4841c2483ca0ef61aaa2e37699f9d0500c6e51 witness={}
+n=1871 target=51 neighbors=304 edges=36772 exists=False graph_sha256=c55644e6006ace20dc106d5e035290bda34f1c9c8c1c914545f31a6d0957665b witness={}
+n=1873 target=51 neighbors=300 edges=35816 exists=False graph_sha256=47684d6848619aecf0d04390d73580e5acfb2ba22a9a5afcf8d679ef8cff0ae2 witness={}
+n=1877 target=51 neighbors=303 edges=36453 exists=False graph_sha256=8e3474318d0eececadbca062cd40106d9928047e5d667bd6d7f0cc6dac56ee42 witness={}
+n=1879 target=51 neighbors=301 edges=36075 exists=False graph_sha256=b5ad4dc9a6ca0681a94213349ff98f3778b52ad66c302c934c57f5806fe962d3 witness={}
+n=1883 target=51 neighbors=302 edges=36344 exists=False graph_sha256=fc668c0838662881eac81836a036215c2e8c619e800784f335b6c6becffa8b40 witness={}
+n=1885 target=51 neighbors=298 edges=35271 exists=False graph_sha256=e1978e4c22ad5e6372a62134b1e94051f91d040fe64fbcf9deaa637efc0f7f9e witness={}
+n=1887 target=51 neighbors=311 edges=38489 exists=False graph_sha256=9c9305247b4a2f16a9d42b842e930c024f3ded3ec0a3db2a923d7798816b8e4e witness={}
+n=1889 target=51 neighbors=301 edges=36102 exists=False graph_sha256=7dce1b75e7b2afc2fe454fb16837410233a42b9a4a160f394c7db97d3ca74d76 witness={}
+n=1891 target=51 neighbors=311 edges=38537 exists=False graph_sha256=9c4d69fcba60a43831682fb0c035a1bc3fd09b81cbdd6d54bec530e1807ae060 witness={}
+n=1893 target=51 neighbors=302 edges=36259 exists=False graph_sha256=69cb92f2129d68a0f625425f682e04437c3c8a221f72938cd8c116c2f08b3232 witness={}
+n=1895 target=51 neighbors=308 edges=37744 exists=False graph_sha256=f3ebf44cf0cc45f06054f18f0b633d276b05bfeb790faa214f53356db92cf0b7 witness={}
+n=1897 target=51 neighbors=302 edges=36101 exists=False graph_sha256=14616badb67c97ffbc8d933f2ea3cc6743c1f4e1b4735651f2ef489db240b851 witness={}
+n=1901 target=51 neighbors=307 edges=37526 exists=False graph_sha256=7d1b15f7f5cc766b4cd6d592c710ad837bedc6a2249f2fa03622a67342d17c40 witness={}
+n=1903 target=51 neighbors=308 edges=37687 exists=False graph_sha256=51b8e42a4b5a80cac24cd45189bf47f6b733a91e87f0dd95cdde41bd5587713b witness={}
+n=1905 target=51 neighbors=309 edges=38075 exists=False graph_sha256=d9b181c9b474d43ccaf208f7786889b03ce1225b4bd8f4c21f1fd89ce5970325 witness={}
+n=1907 target=51 neighbors=307 edges=37552 exists=False graph_sha256=69cc24456d6a1122965a30e551d851c0d740ab9defd1bc85f0d59f543d2be963 witness={}
+n=1909 target=51 neighbors=306 edges=37276 exists=False graph_sha256=bdc16cff9c906636620878b3d748d48560d0da0eb8ca4f7e8dd24a7b91ac1b9f witness={}
+n=1913 target=51 neighbors=310 edges=38177 exists=False graph_sha256=5bb8d3341a6ea17a27962cd9fddbfaa1054a75ff3a35d313e012d6879ebe3c2b witness={}
+n=1915 target=51 neighbors=308 edges=37758 exists=False graph_sha256=c625ef29f665df9c39af82e0f6e8099bb8a88a92706269a025cefa836a43c33a witness={}
+n=1919 target=51 neighbors=306 edges=37366 exists=True graph_sha256=08986e396ff3c06989cfc6925c9c1b020b81a66d9537fed6d22e9333f1f9a190 witness={15,19,103,123,299,303,391,411,499,519,523,587,591,595,607,803,807,823,895,915,919,983,987,991,1019,1023,1111,1199,1203,1207,1219,1307,1311,1415,1419,1487,1491,1495,1507,1523,1595,1599,1603,1615,1703,1723,1783,1795,1811,1883,1891,1919}
+n=1921 target=52 neighbors=306 edges=37111 exists=False graph_sha256=d4e722dbce38ce61b9a1bcf5b6bb24affe5044c4a79246c9bc0adec3888a6109 witness={}
+n=1923 target=52 neighbors=319 edges=40465 exists=False graph_sha256=def6b3eb8f2db850fe730807db4a109e9c376511bae88365378326813f4a1637 witness={}
+n=1927 target=52 neighbors=312 edges=38772 exists=False graph_sha256=cd1ad1f1c87c74b7e0af7e10d0e200cfb0b80182a8a36d32c600b58f26c6a92a witness={}
+n=1929 target=52 neighbors=308 edges=37640 exists=False graph_sha256=e773291813d41ac97ab9f3a8bfafaf6f1def8cf37006ae17097479e1abd28161 witness={}
+n=1931 target=52 neighbors=312 edges=38686 exists=False graph_sha256=e93f939788319e87ab8fe44277b817019eaefb7c3b109f5ab37ea5eea814e66c witness={}
+n=1933 target=52 neighbors=308 edges=37540 exists=False graph_sha256=3f81fd386c638da2b8d1044afa935e92add77d768777911bebbf3dc21e377f45 witness={}
+n=1937 target=52 neighbors=313 edges=39021 exists=False graph_sha256=fdbfa67a9a2543aa939be88c8f620432a42fc4a9e398556e4f340f12a7a6180a witness={}
+n=1939 target=52 neighbors=310 edges=38207 exists=False graph_sha256=4013ed0632aa120f276e8f514fd65cc180f20ce8c1d349d55ddab76113b8d134 witness={}
+n=1941 target=52 neighbors=310 edges=38338 exists=False graph_sha256=38677f90fac4242ac64799cca6e000a6c2fee43d02cd64d3a7348188ba869277 witness={}
+n=1943 target=52 neighbors=314 edges=39228 exists=False graph_sha256=1e90ee1365f0846ee811d122128cc93ae90c0ceef12fb97cd9e21aae1530bf87 witness={}
+n=1945 target=52 neighbors=313 edges=39013 exists=False graph_sha256=f0da23a074e8d62a9f8ae069d18e07e879a2a37d844945fc3897dd59448189db witness={}
+n=1947 target=52 neighbors=313 edges=38655 exists=False graph_sha256=bd21417bfb75edf53c8114341965f8044b159ee6a776639afb12e1358e30ba28 witness={}
+n=1949 target=52 neighbors=314 edges=39173 exists=False graph_sha256=b8a246a722ec41a8e5c3ddbfc9dd5cf5dcc3815cce31313f3ad4c8cc5c67b416 witness={}
+n=1951 target=52 neighbors=315 edges=39545 exists=False graph_sha256=d432dfabc8d6f59ff73ac96ac81c7c0acd8c5ca6c880e980905025f35fa9ae0e witness={}
+n=1955 target=52 neighbors=315 edges=39566 exists=False graph_sha256=3ee9781171a9c08474c7c92c86d27e02becb2bdc33e2d52c764a4881a65903a2 witness={}
+n=1957 target=52 neighbors=309 edges=37893 exists=False graph_sha256=f29badd7612a049e53b3e5d14c09dc054ad55be4852cf9db9ea6ced51cef89c7 witness={}
+n=1959 target=52 neighbors=325 edges=42031 exists=False graph_sha256=a2b0580b2cea801343ce9c8eb881b94b30b0f49331f7b7cefb15a175287ca72f witness={}
+n=1961 target=52 neighbors=312 edges=38713 exists=False graph_sha256=1e9aafeb32d39e1ae8abf03b0c2c63739b9203f0b261bfd00ef017384bd4edce witness={}
+n=1963 target=52 neighbors=324 edges=41779 exists=False graph_sha256=86ef3609915f45ca9147490550aeff714d231c3ccf1d5af9a262e9a5f7968f1c witness={}
+n=1965 target=52 neighbors=313 edges=38959 exists=False graph_sha256=bde04ed8467852174e5d2ac66cca5b5f5507b881ff71c655dc065fe00539fb31 witness={}
+n=1967 target=52 neighbors=321 edges=40931 exists=False graph_sha256=bf80ed648bef8a2c225fa043c6e4842a3b07d27b96395235545b5ae4b18304ed witness={}
+n=1969 target=52 neighbors=315 edges=39295 exists=False graph_sha256=d4353ae4b6351f5fb502447b708570500a193bb63301ee6be2bdc8a2087808f2 witness={}
+n=1973 target=52 neighbors=319 edges=40538 exists=False graph_sha256=cb723ba586b506ccbea81629d2f19354254d8ac3e227c0b88d013ccce616dade witness={}
+n=1977 target=52 neighbors=315 edges=39619 exists=False graph_sha256=51b8f1a50ebe30250d4fe90e39b9e1b970d3ba66fde90774dfb0641fe9c32545 witness={}
+n=1979 target=52 neighbors=320 edges=40750 exists=False graph_sha256=437f396a793fd6fdf65cd16dba386f4626fe668f87a2dd8233e03d2fa53a9d52 witness={}
+n=1981 target=52 neighbors=319 edges=40550 exists=False graph_sha256=efe7b18453857322694627c18feb952d0f88c12bd3a621d42947faf32b43cd7b witness={}
+n=1983 target=52 neighbors=321 edges=40739 exists=False graph_sha256=2e3e1584e8834905d1e29fb6918f4593161655819776533d88ecadc5b7b3b92a witness={}
+n=1985 target=52 neighbors=321 edges=41026 exists=False graph_sha256=3165bd971856bc5265977cf147d703da97802fb6418a7d6158d817ac78b23e64 witness={}
+n=1987 target=52 neighbors=321 edges=41116 exists=False graph_sha256=abe0a46f2f33b10cec66972d6f97e7e8c48dffbbb6c25a87800af17aab25dcfc witness={}
+n=1991 target=52 neighbors=321 edges=41148 exists=True graph_sha256=d394e95411206cc945e089125c988806fe20a2e69c69be28d623042b8252d7c9 witness={15,19,103,123,299,303,391,411,415,499,519,523,587,591,595,607,787,803,807,823,915,983,987,991,1003,1019,1023,1111,1199,1203,1207,1219,1307,1311,1415,1419,1487,1491,1495,1523,1595,1599,1603,1615,1703,1723,1783,1795,1811,1883,1891,1919,1991}
+n=1993 target=53 neighbors=318 edges=40106 exists=False graph_sha256=7fde21a74ca38c09940cf44ade054b9597f54d868709bcde101470eb5b27e021 witness={}
+n=1995 target=53 neighbors=329 edges=43119 exists=False graph_sha256=5a27b27580206cba245d2d95b99705bda9ab05748c192ff5227a13bfb08af4db witness={}
+n=1997 target=53 neighbors=322 edges=41285 exists=False graph_sha256=5f8fbf286e1a8d15c518baf3827a39e75263e4b8fd26680ec4a74ef144c5aa88 witness={}
+n=1999 target=53 neighbors=325 edges=42082 exists=True graph_sha256=cabad6ca1916548b2495048febf62c5d67198b6701abdd421db6c8681d54545b witness={15,19,103,123,299,391,499,519,523,587,595,607,695,803,807,823,895,915,983,991,1003,1019,1023,1091,1111,1199,1203,1207,1219,1279,1307,1311,1387,1415,1419,1487,1491,1495,1507,1523,1595,1599,1603,1615,1703,1723,1783,1795,1811,1883,1891,1919,1991,1999}
+audit_sha256=aaaeea014ef1cc96993416d05f49e692359166b6f17e7be24211779353a3a549
+CONCLUSION external exact PMC certifies every eligible last-vertex decision for 1501<=N<=2000

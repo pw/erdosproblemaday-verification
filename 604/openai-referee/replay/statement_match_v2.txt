@@ -1,0 +1,5 @@
+MISMATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+PIN_STD_AXIOMS
+# v2 splitter keyed on declaration heads; v1 (statement_match.txt) split on blank lines, which the solution log lacks between the extra probes

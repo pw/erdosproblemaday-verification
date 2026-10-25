@@ -1,0 +1,2794 @@
+{
+"files": {
+"/tmp/oaimath/181/coffey/repo/formal/EG.lean": {
+"lines": 606,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/Cluster.lean": {
+"lines": 167,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/Constants.lean": {
+"lines": 51,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/Design.lean": {
+"lines": 132,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/EqLpt.lean": {
+"lines": 56,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/HCCP.lean": {
+"lines": 190,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/JConsumer.lean": {
+"lines": 76,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/JSet.lean": {
+"lines": 156,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/Lending.lean": {
+"lines": 147,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Chain/StageInst.lean": {
+"lines": 131,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Components.lean": {
+"lines": 100,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Constants.lean": {
+"lines": 52,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Expander.lean": {
+"lines": 73,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Fnum.lean": {
+"lines": 73,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Gamma/Core.lean": {
+"lines": 96,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Gamma/Full.lean": {
+"lines": 108,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Graph.lean": {
+"lines": 198,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/HB/Round.lean": {
+"lines": 331,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/HB/Run.lean": {
+"lines": 385,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/HB/SplitTree.lean": {
+"lines": 246,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/HB/Witness.lean": {
+"lines": 130,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Lend/COLTable.lean": {
+"lines": 160,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Light/Constants.lean": {
+"lines": 39,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Light/Stages.lean": {
+"lines": 296,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Link/HBFamily.lean": {
+"lines": 37,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Link/Star.lean": {
+"lines": 106,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Log.lean": {
+"lines": 55,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Main/Gamma.lean": {
+"lines": 36,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Main/GammaCond.lean": {
+"lines": 37,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Objects.lean": {
+"lines": 68,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Orient.lean": {
+"lines": 108,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/PathDecomp.lean": {
+"lines": 83,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Prob/FinDist.lean": {
+"lines": 311,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/P2E/Par.lean": {
+"lines": 54,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/P2J/PreSystem.lean": {
+"lines": 97,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/P3B/Origin.lean": {
+"lines": 59,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/P3B/TowerFns.lean": {
+"lines": 45,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/P4A/PVHyp.lean": {
+"lines": 90,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/P4B/Trail.lean": {
+"lines": 105,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/S4/TPV.lean": {
+"lines": 84,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/S5/KRED.lean": {
+"lines": 58,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Probe/S7b/Outcome.lean": {
+"lines": 71,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Quot/Cand.lean": {
+"lines": 80,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Quot/Constants.lean": {
+"lines": 66,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Quot/Round.lean": {
+"lines": 835,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Quot/Schedule.lean": {
+"lines": 125,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Quot/Xprime.lean": {
+"lines": 76,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Stage1/COL.lean": {
+"lines": 422,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Stage1/Law.lean": {
+"lines": 136,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Stage1/Pool.lean": {
+"lines": 137,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Stage1/Zones.lean": {
+"lines": 201,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Vortex.lean": {
+"lines": 117,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Vortex/PVData.lean": {
+"lines": 71,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Defs/Walk.lean": {
+"lines": 79,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/Cherry.lean": {
+"lines": 293,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/CherrySystem.lean": {
+"lines": 365,
+"counts": {
+"set_option": 4
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/Cluster.lean": {
+"lines": 134,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/Constants.lean": {
+"lines": 47,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/Design.lean": {
+"lines": 363,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/EqLpt.lean": {
+"lines": 42,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/EqLptProof.lean": {
+"lines": 199,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/HCCP.lean": {
+"lines": 251,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/HccpAux.lean": {
+"lines": 224,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/HccpEnds.lean": {
+"lines": 106,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/HccpPaths.lean": {
+"lines": 328,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/HccpPot.lean": {
+"lines": 254,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/JConsumer.lean": {
+"lines": 72,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/JSet.lean": {
+"lines": 418,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/JslcPairs.lean": {
+"lines": 79,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/Lending.lean": {
+"lines": 288,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/LostAux.lean": {
+"lines": 207,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/MedExc.lean": {
+"lines": 194,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/MedOrient.lean": {
+"lines": 339,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/MixCAssembly.lean": {
+"lines": 518,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/MixCRound.lean": {
+"lines": 305,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/MixCSets.lean": {
+"lines": 157,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/MixCTPV.lean": {
+"lines": 100,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/PairUp.lean": {
+"lines": 242,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/ParComp.lean": {
+"lines": 286,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/ParExist.lean": {
+"lines": 194,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/ParMain.lean": {
+"lines": 212,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/ParTJoin.lean": {
+"lines": 200,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/StageInst.lean": {
+"lines": 328,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/TowerFacts.lean": {
+"lines": 216,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/BMProp12.lean": {
+"lines": 104,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/BMProp8.lean": {
+"lines": 392,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/Cor22.lean": {
+"lines": 646,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/DFS.lean": {
+"lines": 216,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/DFSCycle.lean": {
+"lines": 294,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/LovaszCons.lean": {
+"lines": 773,
+"counts": {
+"set_option": 2
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/LovaszLists.lean": {
+"lines": 206,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/LovaszThm.lean": {
+"lines": 700,
+"counts": {
+"set_option": 2
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/ColourClass.lean": {
+"lines": 107,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/Components.lean": {
+"lines": 217,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/Constants.lean": {
+"lines": 35,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/EulerMulti.lean": {
+"lines": 318,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/FGraphFnum.lean": {
+"lines": 186,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/Fnum.lean": {
+"lines": 1012,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/FnumMain.lean": {
+"lines": 91,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/Gamma.lean": {
+"lines": 215,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/Graph.lean": {
+"lines": 973,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/Log.lean": {
+"lines": 286,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/LogMono.lean": {
+"lines": 84,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/NbrSetDeg.lean": {
+"lines": 83,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/Orient.lean": {
+"lines": 1088,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Found/PathDecomp.lean": {
+"lines": 96,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Gamma/Col3.lean": {
+"lines": 203,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Gamma/Eps.lean": {
+"lines": 194,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Gamma/Full.lean": {
+"lines": 136,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Address.lean": {
+"lines": 343,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/CapAux.lean": {
+"lines": 131,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/DegRecAux.lean": {
+"lines": 206,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Exists.lean": {
+"lines": 310,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Fresh.lean": {
+"lines": 119,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/GC.lean": {
+"lines": 132,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/HS.lean": {
+"lines": 135,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Lacunary.lean": {
+"lines": 163,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/LacunaryEx.lean": {
+"lines": 561,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/LacunaryRun.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Lemma14.lean": {
+"lines": 349,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Lemma14Ind.lean": {
+"lines": 260,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/OVPotential.lean": {
+"lines": 553,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/OVRound.lean": {
+"lines": 296,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Params.lean": {
+"lines": 392,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Partition.lean": {
+"lines": 179,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Psi.lean": {
+"lines": 79,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Run.lean": {
+"lines": 746,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/SEP.lean": {
+"lines": 316,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/Split.lean": {
+"lines": 340,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/SplitTree.lean": {
+"lines": 682,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/StructureAux.lean": {
+"lines": 75,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/TowerDeg.lean": {
+"lines": 168,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/HB/TowerRun.lean": {
+"lines": 48,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Lend/COLJVev.lean": {
+"lines": 271,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Lend/COLTable.lean": {
+"lines": 123,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Lend/GeomQuarter.lean": {
+"lines": 55,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Lend/Standing.lean": {
+"lines": 137,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/ChainAux.lean": {
+"lines": 183,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/Constants.lean": {
+"lines": 117,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/E1Aux.lean": {
+"lines": 205,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/EqZpAux.lean": {
+"lines": 101,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/Euler.lean": {
+"lines": 176,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/ExpectAux.lean": {
+"lines": 123,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/KREDAux.lean": {
+"lines": 238,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/KREDStep.lean": {
+"lines": 484,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/ParentData.lean": {
+"lines": 82,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/PlParentless.lean": {
+"lines": 44,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/Stages.lean": {
+"lines": 413,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/Trail.lean": {
+"lines": 139,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Light/VisitCap.lean": {
+"lines": 450,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/HBLemma.lean": {
+"lines": 353,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/L17sMain.lean": {
+"lines": 542,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/L17sReach.lean": {
+"lines": 144,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/L17sStep2.lean": {
+"lines": 456,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/L9rho.lean": {
+"lines": 450,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/P13s.lean": {
+"lines": 598,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/P18s.lean": {
+"lines": 440,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/Star.lean": {
+"lines": 217,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Link/T16sProof.lean": {
+"lines": 323,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Main/Constants.lean": {
+"lines": 109,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/Basic.lean": {
+"lines": 1231,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/Chernoff.lean": {
+"lines": 1042,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/Indep.lean": {
+"lines": 354,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/MaxLoad.lean": {
+"lines": 466,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/Named.lean": {
+"lines": 457,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/PiCond.lean": {
+"lines": 122,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/RankOrder.lean": {
+"lines": 294,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/TotalExp.lean": {
+"lines": 65,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/Uniform.lean": {
+"lines": 219,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Prob/UnionRSubset.lean": {
+"lines": 127,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Cand.lean": {
+"lines": 75,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/CandCount.lean": {
+"lines": 283,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Colour.lean": {
+"lines": 247,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/ConstNonneg.lean": {
+"lines": 86,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Constants.lean": {
+"lines": 47,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Copies.lean": {
+"lines": 276,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/CostRound.lean": {
+"lines": 108,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Cuckoo.lean": {
+"lines": 380,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Det.lean": {
+"lines": 121,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/E2.lean": {
+"lines": 285,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Injection.lean": {
+"lines": 285,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Items.lean": {
+"lines": 439,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Junction.lean": {
+"lines": 415,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Lift.lean": {
+"lines": 912,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/LiftUniv.lean": {
+"lines": 137,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/ListAux.lean": {
+"lines": 318,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/ListsLaw.lean": {
+"lines": 257,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/MultUniv.lean": {
+"lines": 131,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/OfPastValid.lean": {
+"lines": 224,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Pay.lean": {
+"lines": 379,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/PayRun.lean": {
+"lines": 137,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Quotient.lean": {
+"lines": 165,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Round.lean": {
+"lines": 425,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/RoundExist.lean": {
+"lines": 81,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Schedule.lean": {
+"lines": 84,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/UltraAux.lean": {
+"lines": 138,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Xpool.lean": {
+"lines": 108,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Quot/Xprime.lean": {
+"lines": 51,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Stage1/COL.lean": {
+"lines": 714,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Stage1/COLa.lean": {
+"lines": 543,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Stage1/COLb.lean": {
+"lines": 235,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Stage1/Law.lean": {
+"lines": 518,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Stage1/Pool.lean": {
+"lines": 168,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Stage1/PoolExpect.lean": {
+"lines": 115,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Stage1/PoolLaw.lean": {
+"lines": 137,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Stage1/Zones.lean": {
+"lines": 213,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/Ends.lean": {
+"lines": 287,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/Finish.lean": {
+"lines": 65,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/FinishCore.lean": {
+"lines": 289,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/PVAux.lean": {
+"lines": 119,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/PVProb.lean": {
+"lines": 173,
+"counts": {
+"set_option": 1
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/PVProbEvents.lean": {
+"lines": 408,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/PVRunMain.lean": {
+"lines": 218,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/PVRunStep.lean": {
+"lines": 629,
+"counts": {
+"set_option": 1
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/Params.lean": {
+"lines": 190,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/Size.lean": {
+"lines": 193,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/StepAssemble.lean": {
+"lines": 278,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/StepCost.lean": {
+"lines": 162,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/StepCount.lean": {
+"lines": 343,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/StepOutput.lean": {
+"lines": 230,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/StepPhase.lean": {
+"lines": 363,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/Strip.lean": {
+"lines": 157,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVClose.lean": {
+"lines": 212,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVLaws.lean": {
+"lines": 251,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVPhase.lean": {
+"lines": 153,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVProb.lean": {
+"lines": 350,
+"counts": {
+"set_option": 1
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVProbG2.lean": {
+"lines": 289,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVProbG4.lean": {
+"lines": 169,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVRun.lean": {
+"lines": 155,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVStep.lean": {
+"lines": 151,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVStepMain.lean": {
+"lines": 382,
+"counts": {
+"set_option": 1
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/Trail.lean": {
+"lines": 306,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/VXProb.lean": {
+"lines": 467,
+"counts": {
+"set_option": 1
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/VXProbEvents.lean": {
+"lines": 240,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/VXRun.lean": {
+"lines": 190,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/VXStep.lean": {
+"lines": 138,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/VXStepMain.lean": {
+"lines": 560,
+"counts": {
+"set_option": 1
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/CONC.lean": {
+"lines": 123,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/CONCL.lean": {
+"lines": 221,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/ConcSums.lean": {
+"lines": 567,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/ConcTower.lean": {
+"lines": 198,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/EngineMult.lean": {
+"lines": 52,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/EngineMultTJS.lean": {
+"lines": 40,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/EpsCONC.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/EqLpt.lean": {
+"lines": 35,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/Gate.lean": {
+"lines": 120,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/HCCGlob.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/HCCP.lean": {
+"lines": 253,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/HCCUnion.lean": {
+"lines": 31,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/HccpEndMult.lean": {
+"lines": 33,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JPlus.lean": {
+"lines": 41,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLC.lean": {
+"lines": 88,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCAssembly.lean": {
+"lines": 218,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCBound.lean": {
+"lines": 150,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCCtx.lean": {
+"lines": 290,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCGroups.lean": {
+"lines": 280,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCRouting.lean": {
+"lines": 131,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCStep2.lean": {
+"lines": 66,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCStep2Count.lean": {
+"lines": 300,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCStep2Defs.lean": {
+"lines": 190,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCStep2Facts.lean": {
+"lines": 335,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCStep2JPlus.lean": {
+"lines": 284,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCStep2Par.lean": {
+"lines": 170,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCStep7.lean": {
+"lines": 44,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCSystems.lean": {
+"lines": 173,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/JSLCTypes.lean": {
+"lines": 59,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/MED.lean": {
+"lines": 37,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Chain/PAR.lean": {
+"lines": 54,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Ext/BMLemma25.lean": {
+"lines": 238,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Ext/Cor22.lean": {
+"lines": 26,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Ext/Haxell.lean": {
+"lines": 665,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Found/BBD.lean": {
+"lines": 436,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Found/EG0.lean": {
+"lines": 524,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Found/EulerMulti.lean": {
+"lines": 24,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Found/EulerTreeTJoin.lean": {
+"lines": 53,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Gamma/N0.lean": {
+"lines": 60,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Gamma/Sat.lean": {
+"lines": 109,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/Cap.lean": {
+"lines": 199,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/CapPrePart.lean": {
+"lines": 39,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/EL.lean": {
+"lines": 44,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/GC.lean": {
+"lines": 83,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/LacunaryGeom.lean": {
+"lines": 26,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/Lemma14Tau.lean": {
+"lines": 156,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/OVRunK.lean": {
+"lines": 72,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/Origin.lean": {
+"lines": 322,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/Overlap.lean": {
+"lines": 188,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/SEP.lean": {
+"lines": 101,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/Structure.lean": {
+"lines": 93,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/StructureHY.lean": {
+"lines": 151,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/StructureLight.lean": {
+"lines": 66,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/TauRules.lean": {
+"lines": 136,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/ThinCut.lean": {
+"lines": 57,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/TowerA.lean": {
+"lines": 78,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/TowerB.lean": {
+"lines": 47,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/TowerBLate.lean": {
+"lines": 60,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/TowerBM.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/HB/TowerC.lean": {
+"lines": 87,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Lend/COLJVCount.lean": {
+"lines": 164,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Lend/COLJVRows.lean": {
+"lines": 310,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/ArcClassEuler.lean": {
+"lines": 207,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/Child.lean": {
+"lines": 143,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/ConnectorCycle.lean": {
+"lines": 146,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/EtaHalving.lean": {
+"lines": 150,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/Parent.lean": {
+"lines": 503,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/ParentAvail.lean": {
+"lines": 63,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/ParentBadProb.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/ParentEngine.lean": {
+"lines": 683,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/ParentRun.lean": {
+"lines": 117,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/ParentSteps.lean": {
+"lines": 155,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/ParentSum.lean": {
+"lines": 347,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/Setting.lean": {
+"lines": 81,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/Stages.lean": {
+"lines": 124,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Light/Zones.lean": {
+"lines": 97,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Link/L15.lean": {
+"lines": 417,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Link/T16s.lean": {
+"lines": 33,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Main.lean": {
+"lines": 81,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Num/CC.lean": {
+"lines": 93,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Num/L17s.lean": {
+"lines": 400,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Num/OV.lean": {
+"lines": 135,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Num/StarInputs.lean": {
+"lines": 110,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Num/WellDef.lean": {
+"lines": 457,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Quot/Cuckoo.lean": {
+"lines": 43,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Quot/HI.lean": {
+"lines": 233,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Quot/HIMain.lean": {
+"lines": 80,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Quot/Lift.lean": {
+"lines": 319,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Quot/MULT.lean": {
+"lines": 329,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Quot/Simple.lean": {
+"lines": 73,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Quot/WellDef.lean": {
+"lines": 85,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Stage1/COLa.lean": {
+"lines": 30,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Stage1/COLc.lean": {
+"lines": 244,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/AdmissibleParent.lean": {
+"lines": 66,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/AncestorFacts.lean": {
+"lines": 28,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ArcClassEuler.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/BMProp12.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/BMProp8.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CCCopies.lean": {
+"lines": 298,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CCMax.lean": {
+"lines": 135,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CCPartner.lean": {
+"lines": 247,
+"counts": {
+"set_option": 1
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COL.lean": {
+"lines": 88,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJV.lean": {
+"lines": 32,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVCol3.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow1.lean": {
+"lines": 28,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow11.lean": {
+"lines": 37,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow12.lean": {
+"lines": 28,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow13.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow2.lean": {
+"lines": 25,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow3.lean": {
+"lines": 64,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow5.lean": {
+"lines": 66,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow6.lean": {
+"lines": 141,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVRow9.lean": {
+"lines": 29,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVev.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVevEventuallyRow.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVevRows.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLJVevTypeE.lean": {
+"lines": 24,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/COLLemma.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CandCount.lean": {
+"lines": 201,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CandSubset.lean": {
+"lines": 45,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CapRound.lean": {
+"lines": 73,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CapRunTau.lean": {
+"lines": 29,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ChernoffBinomial.lean": {
+"lines": 33,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ChernoffGen.lean": {
+"lines": 24,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ChernoffGenMean.lean": {
+"lines": 31,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ChernoffGenTail.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Col3Eventually.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CorJVpsEG.lean": {
+"lines": 73,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Cost.lean": {
+"lines": 172,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CostC0.lean": {
+"lines": 28,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/DegRec.lean": {
+"lines": 31,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/DegRecKinds.lean": {
+"lines": 34,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/DegRecKindsRound.lean": {
+"lines": 180,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/DegRecRound.lean": {
+"lines": 124,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/EXprime.lean": {
+"lines": 217,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/EqPl.lean": {
+"lines": 45,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/EqZp.lean": {
+"lines": 107,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ExistsRun.lean": {
+"lines": 57,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ExpanderEpsZero.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ExpanderMinDeg.lean": {
+"lines": 25,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/FactAddA.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/FactAddB.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/FactAddC.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/FactAddD.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/FactAddDMono.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Fresh.lean": {
+"lines": 126,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Gamma1Logb.lean": {
+"lines": 25,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Gamma1Transfer.lean": {
+"lines": 33,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Gamma1Upward.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Gamma1dOfAB.lean": {
+"lines": 38,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Gamma2aOfGamma1.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/GammaCondExists.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/GammaSat.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/GammaSatEps.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/GammaSatItems.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/HB.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/HBMCeil.lean": {
+"lines": 24,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/HBStd.lean": {
+"lines": 30,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/HBStep1.lean": {
+"lines": 41,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/HBTwoLevel.lean": {
+"lines": 56,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/HI.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/HS.lean": {
+"lines": 28,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/HSCor.lean": {
+"lines": 30,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Hall.lean": {
+"lines": 33,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/JVps.lean": {
+"lines": 58,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/JplusV.lean": {
+"lines": 29,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/L17s.lean": {
+"lines": 31,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/L9rho.lean": {
+"lines": 27,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Lacunary.lean": {
+"lines": 28,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LacunaryExamples.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LacunaryII.lean": {
+"lines": 40,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LacunaryMono.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LacunaryRun.lean": {
+"lines": 31,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LacunarySeq.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LemDemoted.lean": {
+"lines": 81,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LemE1.lean": {
+"lines": 203,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LemExpect.lean": {
+"lines": 151,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LemExpectLimit.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LemKRED.lean": {
+"lines": 234,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LemParent.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/LemParentLimit.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Lost.lean": {
+"lines": 158,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Lovasz.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Markov.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/MarkovA.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/MarkovB.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/MarkovCond.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/MixC.lean": {
+"lines": 40,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/MixCConc.lean": {
+"lines": 26,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/MixCTPVApplicable.lean": {
+"lines": 70,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Monotone.lean": {
+"lines": 33,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/MultisetCount.lean": {
+"lines": 67,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/N0Eventually.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/N0Exists.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/OVRound.lean": {
+"lines": 177,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/OVRun.lean": {
+"lines": 49,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/OneOutcomeRound.lean": {
+"lines": 37,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/OneOutcomeStage1.lean": {
+"lines": 33,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/P13s.lean": {
+"lines": 22,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/P18s.lean": {
+"lines": 34,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/ParentlessCount.lean": {
+"lines": 157,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Pay.lean": {
+"lines": 124,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/PayGlobal.lean": {
+"lines": 69,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/PoolLaw.lean": {
+"lines": 62,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/RoundExists.lean": {
+"lines": 63,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/RoundInjection.lean": {
+"lines": 33,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/RoundListsLaw.lean": {
+"lines": 94,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/RoundMarkov.lean": {
+"lines": 36,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/RoundRulesExist.lean": {
+"lines": 31,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/RoundSteps.lean": {
+"lines": 26,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/RoundTauTerm.lean": {
+"lines": 57,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/RunTerminates.lean": {
+"lines": 68,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StarP13sParams.lean": {
+"lines": 36,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StarS1.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StarS2P.lean": {
+"lines": 26,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StarS4.lean": {
+"lines": 83,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StarS5.lean": {
+"lines": 137,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StarS6.lean": {
+"lines": 44,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StarUnionLaw.lean": {
+"lines": 36,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StructureExp.lean": {
+"lines": 110,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/StructurePartition.lean": {
+"lines": 194,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/T16sForced.lean": {
+"lines": 67,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/TPV.lean": {
+"lines": 29,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Tower.lean": {
+"lines": 30,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/TowerBRest.lean": {
+"lines": 94,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/TowerD.lean": {
+"lines": 29,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/TowerE.lean": {
+"lines": 114,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/UHsplitDet.lean": {
+"lines": 131,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/UHsplitRound.lean": {
+"lines": 48,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/UHsplitSum.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/UHsplitTheta.lean": {
+"lines": 41,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/UltraCopies.lean": {
+"lines": 176,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/UltraIndep.lean": {
+"lines": 121,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/UltraMax.lean": {
+"lines": 78,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/UltraSum.lean": {
+"lines": 122,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/VX.lean": {
+"lines": 38,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/VisitCap.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/VortexEventuallySize.lean": {
+"lines": 21,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/Vstar.lean": {
+"lines": 150,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Vortex/Observations.lean": {
+"lines": 51,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Vortex/PV.lean": {
+"lines": 34,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Vortex/PVCore.lean": {
+"lines": 76,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Vortex/PVFinish.lean": {
+"lines": 59,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/CONC.lean": {
+"lines": 125,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/CONCL.lean": {
+"lines": 160,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/ConcTower.lean": {
+"lines": 88,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/EngineMult.lean": {
+"lines": 102,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/EqLpt.lean": {
+"lines": 61,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/Gate.lean": {
+"lines": 61,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/HCCP.lean": {
+"lines": 123,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/JPlus.lean": {
+"lines": 79,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/JPlusV.lean": {
+"lines": 47,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/JSLC.lean": {
+"lines": 130,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/JSLCRouting.lean": {
+"lines": 175,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/JSLCSteps.lean": {
+"lines": 148,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/Lost.lean": {
+"lines": 90,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/MED.lean": {
+"lines": 64,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/MixC.lean": {
+"lines": 164,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Chain/PAR.lean": {
+"lines": 73,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Ext/BMDef11.lean": {
+"lines": 49,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Ext/BMLemma25.lean": {
+"lines": 57,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Ext/BMProp12.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Ext/BMProp8.lean": {
+"lines": 62,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Ext/Cor22.lean": {
+"lines": 45,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Ext/Haxell.lean": {
+"lines": 84,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Ext/Lovasz.lean": {
+"lines": 47,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Found/BBD.lean": {
+"lines": 91,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Found/Chernoff.lean": {
+"lines": 95,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Found/EG0.lean": {
+"lines": 78,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Found/EulerMulti.lean": {
+"lines": 51,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Found/EulerTreeTJoin.lean": {
+"lines": 58,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Found/FactAdd.lean": {
+"lines": 71,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Found/Hall.lean": {
+"lines": 45,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Found/Markov.lean": {
+"lines": 67,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Gamma/Cond.lean": {
+"lines": 77,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Gamma/N0.lean": {
+"lines": 48,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Gamma/Sat.lean": {
+"lines": 84,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Cap.lean": {
+"lines": 74,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/CapPrePart.lean": {
+"lines": 61,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/CapRound.lean": {
+"lines": 101,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/DegRec.lean": {
+"lines": 183,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/EL.lean": {
+"lines": 45,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Exists.lean": {
+"lines": 171,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/GC.lean": {
+"lines": 91,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/HBtpFacts.lean": {
+"lines": 122,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/HS.lean": {
+"lines": 65,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Lacunary.lean": {
+"lines": 184,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/LacunaryGeom.lean": {
+"lines": 45,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Lemma14Tau.lean": {
+"lines": 185,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/OVRun.lean": {
+"lines": 156,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/OVRunK.lean": {
+"lines": 81,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Origin.lean": {
+"lines": 131,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Overlap.lean": {
+"lines": 113,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Parentless.lean": {
+"lines": 128,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/SEP.lean": {
+"lines": 128,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Structure.lean": {
+"lines": 171,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/StructureHY.lean": {
+"lines": 61,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/StructureLight.lean": {
+"lines": 52,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/TauRules.lean": {
+"lines": 124,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/ThinCut.lean": {
+"lines": 69,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/Tower.lean": {
+"lines": 116,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/TowerA.lean": {
+"lines": 60,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/TowerB.lean": {
+"lines": 66,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/TowerBLate.lean": {
+"lines": 57,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/TowerBM.lean": {
+"lines": 52,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/HB/TowerC.lean": {
+"lines": 56,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Lend/COLJV.lean": {
+"lines": 199,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Lend/COLJVCount.lean": {
+"lines": 74,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Lend/COLJVRows.lean": {
+"lines": 97,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Lend/COLJVev.lean": {
+"lines": 76,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/Child.lean": {
+"lines": 76,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/Demoted.lean": {
+"lines": 55,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/E1.lean": {
+"lines": 51,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/Expect.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/KRED.lean": {
+"lines": 70,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/Parent.lean": {
+"lines": 132,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/ParentRun.lean": {
+"lines": 91,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/ParentSteps.lean": {
+"lines": 155,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/Setting.lean": {
+"lines": 66,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/Stages.lean": {
+"lines": 70,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Light/Zones.lean": {
+"lines": 71,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/HB.lean": {
+"lines": 50,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/L15.lean": {
+"lines": 69,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/L17s.lean": {
+"lines": 68,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/L9rho.lean": {
+"lines": 63,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/Monotone.lean": {
+"lines": 100,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/Multiset.lean": {
+"lines": 63,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/P13s.lean": {
+"lines": 76,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/P18s.lean": {
+"lines": 68,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/Star.lean": {
+"lines": 151,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/T16s.lean": {
+"lines": 61,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Link/T16sForced.lean": {
+"lines": 54,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Main.lean": {
+"lines": 23,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Main/CorJVpsEG.lean": {
+"lines": 51,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Num/CC.lean": {
+"lines": 60,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Num/L17s.lean": {
+"lines": 206,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Num/OV.lean": {
+"lines": 104,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Num/StarInputs.lean": {
+"lines": 63,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Num/WellDef.lean": {
+"lines": 92,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/CC.lean": {
+"lines": 166,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/Cand.lean": {
+"lines": 115,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/CandDef.lean": {
+"lines": 66,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/Cost.lean": {
+"lines": 77,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/EXprime.lean": {
+"lines": 60,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/HI.lean": {
+"lines": 72,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/JVps.lean": {
+"lines": 68,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/Lift.lean": {
+"lines": 235,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/MULT.lean": {
+"lines": 110,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/OneOutcome.lean": {
+"lines": 91,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/Pay.lean": {
+"lines": 141,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/RoundStep.lean": {
+"lines": 137,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/Simple.lean": {
+"lines": 91,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/UHsplit.lean": {
+"lines": 120,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/Ultra.lean": {
+"lines": 126,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/Vstar.lean": {
+"lines": 56,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Quot/WellDef.lean": {
+"lines": 116,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Stage1/COL.lean": {
+"lines": 124,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Stage1/COLa.lean": {
+"lines": 53,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Stage1/COLc.lean": {
+"lines": 104,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Stage1/Pool.lean": {
+"lines": 93,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Vortex/Observations.lean": {
+"lines": 100,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Vortex/PV.lean": {
+"lines": 82,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Vortex/PVCore.lean": {
+"lines": 200,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Vortex/TPV.lean": {
+"lines": 79,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EG/Spec/Vortex/VX.lean": {
+"lines": 84,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGCheck.lean": {
+"lines": 7,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGCheck/Bridge.lean": {
+"lines": 35,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGCheck/BridgeCore.lean": {
+"lines": 63,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGCheck/BridgeLemmas.lean": {
+"lines": 365,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGCheck/Final.lean": {
+"lines": 69,
+"counts": {
+"run_cmd": 1,
+"open Lean": 1
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest.lean": {
+"lines": 40,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Cap.lean": {
+"lines": 142,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Chain.lean": {
+"lines": 292,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Chernoff.lean": {
+"lines": 240,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Defs2.lean": {
+"lines": 311,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Design.lean": {
+"lines": 423,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Fnum.lean": {
+"lines": 342,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Found.lean": {
+"lines": 427,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/GammaFull.lean": {
+"lines": 44,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Gate.lean": {
+"lines": 225,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/HB.lean": {
+"lines": 1014,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Light.lean": {
+"lines": 263,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Objects.lean": {
+"lines": 14,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Params.lean": {
+"lines": 403,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Prob.lean": {
+"lines": 305,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeGAMMA.lean": {
+"lines": 157,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeNUM.lean": {
+"lines": 116,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeP1.lean": {
+"lines": 100,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeP2E.lean": {
+"lines": 284,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeP2J.lean": {
+"lines": 242,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeP3A.lean": {
+"lines": 519,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeP3B.lean": {
+"lines": 248,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeP4A.lean": {
+"lines": 278,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/ProbeP4B.lean": {
+"lines": 188,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Quot.lean": {
+"lines": 932,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s1.lean": {
+"lines": 187,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s2a.lean": {
+"lines": 91,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s2b.lean": {
+"lines": 101,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s3a.lean": {
+"lines": 230,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s3b.lean": {
+"lines": 156,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s4.lean": {
+"lines": 244,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s5.lean": {
+"lines": 82,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s6a.lean": {
+"lines": 208,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s6b.lean": {
+"lines": 86,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s7a.lean": {
+"lines": 500,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Spec_s7b.lean": {
+"lines": 165,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/Stage1.lean": {
+"lines": 302,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/EGTest/StageInst.lean": {
+"lines": 161,
+"counts": {}
+},
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Challenge.lean": {
+"lines": 142,
+"counts": {
+"sorry": 7
+}
+},
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Solution.lean": {
+"lines": 76,
+"counts": {}
+}
+},
+"totals": {
+"sorry": 7,
+"admit": 0,
+"axiom": 0,
+"native_decide": 0,
+"decide_true": 0,
+"Decidable.decide_kernel": 0,
+"implemented_by": 0,
+"extern": 0,
+"unsafe": 0,
+"csimp": 0,
+"opaque": 0,
+"partial": 0,
+"macro": 0,
+"elab": 0,
+"syntax": 0,
+"initialize": 0,
+"notation_decl": 0,
+"set_option": 15,
+"skipKernelTC": 0,
+"Lean.Elab/Meta import": 0,
+"run_cmd": 1,
+"#eval": 0,
+"addDecl": 0,
+"attribute_global": 0,
+"instance_prio": 0,
+"export": 0,
+"open Lean": 1,
+"#exit": 0,
+"Classical_axiom_like": 0
+},
+"hits": [
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/CherrySystem.lean",
+85,
+"set_option",
+"set_option linter.unusedSimpArgs false in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/CherrySystem.lean",
+89,
+"set_option",
+"set_option linter.unusedSimpArgs false in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/CherrySystem.lean",
+93,
+"set_option",
+"set_option linter.unusedSimpArgs false in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Chain/CherrySystem.lean",
+97,
+"set_option",
+"set_option linter.unusedSimpArgs false in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/LovaszCons.lean",
+31,
+"set_option",
+"set_option linter.unusedSectionVars false"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/LovaszCons.lean",
+32,
+"set_option",
+"set_option linter.unusedVariables false"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/LovaszThm.lean",
+25,
+"set_option",
+"set_option linter.unusedSectionVars false"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Ext/LovaszThm.lean",
+26,
+"set_option",
+"set_option linter.unusedVariables false"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/PVProb.lean",
+28,
+"set_option",
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/PVRunStep.lean",
+92,
+"set_option",
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVProb.lean",
+101,
+"set_option",
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/TPVStepMain.lean",
+32,
+"set_option",
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/VXProb.lean",
+176,
+"set_option",
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Lib/Vortex/VXStepMain.lean",
+29,
+"set_option",
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EG/Proof/Todo/CCPartner.lean",
+41,
+"set_option",
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EGCheck/Final.lean",
+45,
+"run_cmd",
+"run_cmd do"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/EGCheck/Final.lean",
+44,
+"open Lean",
+"open Lean Elab Command in"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Challenge.lean",
+61,
+"sorry",
+"sorry"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Challenge.lean",
+76,
+"sorry",
+"sorry"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Challenge.lean",
+91,
+"sorry",
+"sorry"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Challenge.lean",
+100,
+"sorry",
+"answer(sorry) \u2194"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Challenge.lean",
+106,
+"sorry",
+"sorry"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Challenge.lean",
+122,
+"sorry",
+"sorry"
+],
+[
+"/tmp/oaimath/181/coffey/repo/formal/comparator/Challenge.lean",
+139,
+"sorry",
+"sorry"
+]
+]
+}

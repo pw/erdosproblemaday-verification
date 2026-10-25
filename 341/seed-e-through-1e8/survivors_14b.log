@@ -1,0 +1,35 @@
+tag=F_S358101314_eq_1e7 N=10000000 distinct=0 seed_k=6 max_seed=14 count=1188514 density=0.118851
+gaps=1188513 maxgap=22 last8: 9999948 9999950 9999965 9999966 9999972 9999983 9999989 10000000
+suffix from gap index 594256 (len 594257): smallest period 594257 (no period <= half the suffix)
+suffix from gap index 891384 (len 297129): smallest period 297129 (no period <= half the suffix)
+suffix from gap index 1069661 (len 118852): smallest period 118852 (no period <= half the suffix)
+maxgap 22 gap histogram [(1, 131577), (2, 93783), (3, 2), (4, 170477), (6, 158840), (7, 5941), (9, 6270), (11, 397775), (12, 8), (15, 84169), (16, 69089), (17, 69467), (18, 20), (19, 3), (21, 1077), (22, 15)]
+gap suffix from term 594256 (len 594257): smallest period 594257 -> no period <= half the suffix (0s)
+gap suffix from term 891384 (len 297129): smallest period 297129 -> no period <= half the suffix (0s)
+gap suffix from term 1069661 (len 118852): smallest period 118852 -> no period <= half the suffix (0s)
+residue census m<=400 on [N/2,N]: most depleted class (min/mean, m): [(np.float64(0.742), 362), (np.float64(0.919), 181), (np.float64(0.933), 399)] most over-full (max/mean, m): [(np.float64(1.259), 362), (np.float64(1.0
+exact (overlap-normalised) agreement at the 60 strongest candidates: best 43093 at 0.98519; next [(173765, 0.9845), (45989, 0.98386), (86186, 0.98378), (130672, 0.98378), (216858, 0.98333)]
+post-transient discrepancy on [2000000,10000000] (density refitted 0.118642): max|.| = 3234
+   random set, same count/window, trial 0: 627
+   random set, same count/window, trial 1: 627
+  RELATION (-1, -2, 2)·gens ≡ 0 (mod 1) to 0.024 bin ⇒ rank ≤ 2; testing which pair of candidates spans all three:
+Z-rank (relations scanned to |c|<=50): 2; generators [0.46374126266, 0.05455644556]
+peaks on the rank-2 module with |coef|<=6: 26/40 within 1 bin, 26/40 within 2 bins (chance per peak for one random frequency, 2 bins: 8.4e-05)
+variance within ±1 bin of the 84 distinct module points with |coef|<=6: 66.73%  (random: ~0.006%); off the module: 33.3%
+tag=F_S4689101314_eq_1e7 N=10000000 distinct=0 seed_k=7 max_seed=14 count=1479935 density=0.147994
+gaps=1479934 maxgap=18 last8: 9999944 9999946 9999964 9999967 9999982 9999984 9999985 10000000
+suffix from gap index 739967 (len 739967): smallest period 739966 (no period <= half the suffix)
+suffix from gap index 1109950 (len 369984): smallest period 369980 (no period <= half the suffix)
+suffix from gap index 1331940 (len 147994): smallest period 147993 (no period <= half the suffix)
+maxgap 18 gap histogram [(1, 291069), (2, 433299), (3, 229476), (5, 2), (11, 2), (12, 1), (15, 417761), (16, 19956), (17, 22478), (18, 65890)]
+gap suffix from term 739967 (len 739967): smallest period 739966 -> no period <= half the suffix (0s)
+gap suffix from term 1109950 (len 369984): smallest period 369980 -> no period <= half the suffix (0s)
+gap suffix from term 1331940 (len 147994): smallest period 147993 -> no period <= half the suffix (0s)
+residue census m<=400 on [N/2,N]: most depleted class (min/mean, m): [(np.float64(0.959), 349), (np.float64(0.961), 325), (np.float64(0.971), 357)] most over-full (max/mean, m): [(np.float64(1.048), 349), (np.float64(1.0
+exact (overlap-normalised) agreement at the 60 strongest candidates: best 83313 at 0.99456; next [(330762, 0.99404), (497388, 0.99401), (414075, 0.99334), (1589429, 0.99243), (166626, 0.992)]
+post-transient discrepancy on [2000000,10000000] (density refitted 0.147945): max|.| = 234
+   random set, same count/window, trial 0: 484
+   random set, same count/window, trial 1: 855
+Z-rank (relations scanned to |c|<=50): 2; generators [0.05260883009, 0.33815854359]
+peaks on the rank-2 module with |coef|<=6: 30/40 within 1 bin, 30/40 within 2 bins (chance per peak for one random frequency, 2 bins: 8.4e-05)
+variance within ±1 bin of the 84 distinct module points with |coef|<=6: 79.59%  (random: ~0.006%); off the module: 20.4%

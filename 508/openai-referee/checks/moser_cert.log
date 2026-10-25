@@ -1,0 +1,25 @@
+|u|^2 = 1  |mult|^2 = 1
+edge 0-A: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge 0-B: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge A-B: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge A-T: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge B-T: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge 0-uA: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge 0-uB: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge uA-uB: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge uA-uT: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge uB-uT: |g-h|^2 = 1, placed |z-w|^2 = 1
+edge T-uT: |g-h|^2 = 1, placed |z-w|^2 = 1
+vertex  0: xi=-1.2905945945945945946 up=0.18756756756756756757 l=1.7008160000000000000 0<l:True l<4:True P=0.86612441935515460035 P'=1.3889728356487871392 P<P':True
+vertex  A: xi=-0.63354353696066614495 up=0.94141364447062875030 l=1.2876370632201023395 0<l:True l<4:True P=0.089550318986363535071 P'=0.11977271894431255596 P<P':True
+vertex  B: xi=-0.30921921263634182063 up=-0.0045323014753171956442 l=0.095637063220102339508 0<l:True l<4:True P=0.0000016899885663797210708 P'=0.00069831986365649942326 P<P':True
+vertex  T: xi=0.34783184499758662901 up=0.74931377542774398709 l=0.68245812644020467902 0<l:True l<4:True P=0.022125490055065818286 P'=0.026581926707560473981 P<P':True
+vertex uA: xi=-1.1597561443611302078 up=1.1789712693664388345 l=2.7350075683749067673 0<l:True l<4:True P=9.7252412566376955056 P'=19.476292147012558717 P<P':True
+vertex uB: xi=-0.36659457831410770908 up=0.56995999677303702454 l=0.45924598277081882564 0<l:True l<4:True P=0.0019926823006323156049 P'=0.025070983568767584758 P<P':True
+vertex uT: xi=-0.23575612808064332230 up=1.5613636985719082915 l=2.4934375511457255929 0<l:True l<4:True P=12.574361060486883272 P'=13.022572028747255720 P<P':True
+CONTROL z = i/2 (P = 1/64 > P' = 27/3276.8): (True, True, False) -> expected a False: True
+CONTROL z = 1 (radius one, P' = 0): (True, True, False) -> expected a False: True
+NOTE uT shifted by +1/2 stays inside: (True, True, True) (not a control)
+CONTROL non-edge 0-T squared length: 3 -> expected ≠ 1: True
+CONTROL literal rotate·g+shift reading: vertices outside the region = ['0', 'uB', 'uT'] -> expected non-empty: True
+CERTIFICATE PASS | CONTROLS FAIL-AS-EXPECTED

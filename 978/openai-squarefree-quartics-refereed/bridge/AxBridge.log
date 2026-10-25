@@ -1,0 +1,7 @@
+'Erdos978.erdos_978.parts.ii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos978.erdos_978.parts.iii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos978.erdos_978.variants.sub_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos978.erdos_978.parts.ii_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos978Bridge.parts_ii_without_extra_hypotheses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos978Bridge.hasDensity_of_densityStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos978Bridge.irreducible_X4_add_2' depends on axioms: [propext, Classical.choice, Quot.sound]

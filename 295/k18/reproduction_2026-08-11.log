@@ -1,0 +1,35 @@
+command=./reproduce.sh
+frontier_depth=20 tasks=34 prefix_states=106
+min=18 terms=31 found=false
+states=20293 two_states=13139 scan_candidates=69727
+factored_states=0 divisor_states=0 divisor_candidates=0
+seconds=0.034
+frontier_depth=20 tasks=868 prefix_states=1565
+min=18 terms=32 found=false
+states=14678224 two_states=11753049 scan_candidates=114603091
+factored_states=0 divisor_states=0 divisor_candidates=0
+seconds=20.357
+tasks=1 top_states=2
+min=18 terms=31 found=False
+recursive_states=20293 two_term_states=13139 two_term_candidates=69727
+seconds=0.4
+tasks=3 top_states=3
+min=18 terms=32 found=False
+recursive_states=14678224 two_term_states=11753049 two_term_candidates=114603091
+seconds=167.9
+k17_source_count=32
+k17_source_minimum=17
+k17_source_strictly_increasing=True
+k17_source_sum=1/1
+k18_upper_count=35
+k18_upper_minimum=18
+k18_upper_strictly_increasing=True
+k18_upper_sum=1/1
+replacement_sum=1/17
+replacement_equals_1_over_17=True
+harmonic_18_through_47=442017301628992345493/442720643463713815200
+harmonic_18_through_47_lt_1=True
+harmonic_18_through_48=451240648367819716643/442720643463713815200
+harmonic_18_through_48_gt_1=True
+all_checks=PASS
+reproduction=PASS

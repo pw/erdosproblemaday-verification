@@ -1,0 +1,10 @@
+seat W:  308 "model":"claude-opus-5-5";
+seat A:  119 "model":"claude-opus-5-5";
+seat R:  131 "model":"claude-opus-5-5";
+seat L:  303 "model":"claude-opus-5-5";
+main session:  1 "model":"<synthetic>"; 640 "model":"claude-opus-5-5"; 13 "model":"opus";
+(<synthetic> = harness-generated messages; "opus" in the main session = the requested-model parameter of an Agent call, not a served model)
+
+09:00Z erdos seat (2026-10-22, picked up after the 06:00Z seat's session limit):
+seat B:  302 "model":"claude-opus-5-5";
+main session:  188 "model":"claude-opus-5-5"; 2 "model":"opus";

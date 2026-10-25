@@ -1,0 +1,31 @@
+== (A) algebra: -log|Phi(z)-b'| = log(|z-a|/|z-a'|) - log|b'-b| ==
+  max |lhs-rhs| = 7.549516567451064e-14
+  CONTROL (product kernel) max |lhs-wrong| = 13.252726418973628
+== (B) (7.8) as an identity of J-values for one Mobius map (beta_2 := Phi_* beta_1) ==
+  J_left = 2.1674384786822207  J_right = 2.16743847868222  diff = 8.881784197001252e-16
+  CONTROL J(product kernel) = 2.201410900563607  (differs from J_right by 0.03397242188138705 )
+== (C) Lemma 7.1 mechanism: LHS of (7.8) -> 0 as a_k -> a' (beta_1 nonatomic, a' in supp) ==
+  k= 0 |a_k-a'|=5.00e-01  J_l(X_k)=1.32097
+  k= 2 |a_k-a'|=1.25e-01  J_l(X_k)=0.45825
+  k= 4 |a_k-a'|=3.13e-02  J_l(X_k)=0.11588
+  k= 6 |a_k-a'|=7.81e-03  J_l(X_k)=0.02899
+  k= 8 |a_k-a'|=1.95e-03  J_l(X_k)=0.00724
+  k=10 |a_k-a'|=4.88e-04  J_l(X_k)=0.00182
+  k=12 |a_k-a'|=1.22e-04  J_l(X_k)=0.00045
+  RHS of (7.8) for beta_2=Unif(disk(1,2)), b'=1.5+0.5i: J_l(-log|W-b'|) = 1.475962026342176
+== (D) CONTROL 1: beta_1 with an ATOM at a' (mass 0.3): X_k = +inf on the atom ==
+  k= 0  J truncated to |u|<=U: {10: 10.266, 100: 100.266, 1000: 1000.266}
+  k= 6  J truncated to |u|<=U: {10: 10.012, 100: 100.012, 1000: 1000.012}
+  k=12  J truncated to |u|<=U: {10: 10.0, 100: 100.0, 1000: 1000.0}
+  (grows linearly in U: J = +inf, does NOT tend to 0)
+== (E) CONTROL 2: near-atom (mass 0.3 uniform on disk radius 1e-9 about a') ==
+  k= 0 |a_k-a'|=5.00e-01  J_l(X_k)=20.9932
+  k= 4 |a_k-a'|=3.13e-02  J_l(X_k)=18.0029
+  k= 8 |a_k-a'|=1.95e-03  J_l(X_k)=15.1851
+  k=12 |a_k-a'|=1.22e-04  J_l(X_k)=12.4097
+  k=16 |a_k-a'|=7.63e-06  J_l(X_k)=9.6369
+  k=20 |a_k-a'|=4.77e-07  J_l(X_k)=6.8643
+  k=24 |a_k-a'|=2.98e-08  J_l(X_k)=4.0920
+== (F) CONTROL 3: a' NOT in supp beta_1 (a'=2.0, beta_1=Unif(unit disk)) ==
+  min over a in supp of J_l(log|Z-a|/|Z-a'|) = 0.7565517885919112  (bounded away from 0: no a_k -> a')
+MAXRSS_KB=94024 ELAPSED=1.75

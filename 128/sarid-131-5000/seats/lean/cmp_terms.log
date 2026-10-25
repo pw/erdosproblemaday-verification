@@ -1,0 +1,4 @@
+json term[0] sample: {'block': 's0_root0', 'weight': '8621/384539', 'vector': ['0', '-5/6', '1']}
+json block names: ['s0_root0', 's2_root0', 's2_root1', 'u4_root0', 'u4_root1', 'u4_root12', 'u4_root13', 'u4_root3', 'u4_root30', 'u4_root7']
+block name correspondence: {'s0': ['s0_root0'], 's2 false': ['s2_root0'], 's2 true': ['s2_root1'], 'u4 0': ['u4_root0'], 'u4 1': ['u4_root1'], 'u4 3': ['u4_root3'], 'u4 7': ['u4_root7'], 'u4 12': ['u4_root12'], 'u4 13': ['u4_root13'], 'u4 30': ['u4_root30']}
+term-by-term (in file order) weight+vector mismatches: 0

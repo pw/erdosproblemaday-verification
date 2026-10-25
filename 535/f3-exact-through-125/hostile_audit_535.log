@@ -1,0 +1,8 @@
+live gate: OPEN; 0 claims; no worker/collaborator/formalizer; 9 comments visible
+definition: 317750 distinct triples checked; endpoint edges={107: 71799, 124: 109838, 125: 113132}
+witness 101..107: size=14 triples=364 sha256=395a7c7c91c413ef75cbdba8833a060fc5506170a3616d2dd3c05645034b7664
+witness 108..124: size=15 triples=455 sha256=3b495bace2acdf7c1a50026af89d98afe9eb0e9ad796c60c48590f4e978acd89
+witness 125..125: size=16 triples=560 sha256=97e4e75786ef57e0b226819626037550467b4145b2e010461d9c4263d0a979c0
+interval logic: contiguous 101..125; left witnesses pair with right target+1 UNSAT
+third formulation: all subsets exhausted for every n<=18: [1, 2, 2, 3, 3, 3, 3, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 7]
+HOSTILE AUDIT PASS

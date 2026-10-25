@@ -1,0 +1,191 @@
+            An Asymptotic Solution to the (1 ∶ 2)-Biased Erdős
+                        Clique-Building Game
+                                      M. A. Didin                    Mark Pimenov
+                                                      4 August 2026
+
+                                                           Abstract
+         In the (1 ∶ 2)-biased clique-building game on 𝐾𝑛 , Bella moves first and claims one free edge per turn, while
+      Chingiz claims two. Chingiz wins if his final graph has strictly larger clique number than Bella’s. We prove that
+      he wins for all sufficiently large 𝑛, giving an asymptotic affirmative answer to the 1 ∶ 2 question attributed to
+      Erdős. The proof uses one greedy rule and two elementary weight functions and yields
+                                            log 𝑛                                 2 log 𝑛
+                               𝜔(𝐺𝐶 ) ≥            − 𝑂(log log 𝑛),     𝜔(𝐺𝐵 ) ≤           + 𝑂(1).
+                                          log(5/3)                                 log 3
+      The comparison of the leading constants reduces to 27 > 25.
+2020 Mathematics Subject Classification. 05C57, 91A46.
+Keywords. Clique-building game, biased positional game, potential method.
+
+
+1     The game
+Bella and Chingiz alternately claim previously unclaimed edges of 𝐾𝑛 . Bella moves first and claims one edge on
+each turn; Chingiz claims two, or all remaining edges if fewer than two remain. Let 𝐺𝐵 and 𝐺𝐶 be their final graphs,
+and let 𝜔(𝐺) denote the size of a largest clique in 𝐺. Chingiz wins if
+
+                                                       𝜔(𝐺𝐶 ) > 𝜔(𝐺𝐵 ).
+
+   In a 1983 problem list, Guy recorded the following question, attributed to Erdős: does the two-edge player win
+for every 𝑛 ≥ 4? [1] Malekshahian and Spiro proved the corresponding asymptotic result for bias 1 ∶ 4 [2], and
+Cambie and Provoost for bias 1 ∶ 3 [3]. We prove the 1 ∶ 2 case for all sufficiently large 𝑛.
+Theorem 1. For every sufficiently large 𝑛, Chingiz has a strategy such that 𝜔(𝐺𝐶 ) > 𝜔(𝐺𝐵 ).
+  After Bella’s opening move, a round consists of Chingiz claiming two edges successively and Bella claiming
+one. Throughout, log denotes the natural logarithm.
+
+
+2     The strategy
+Set
+                                                                             𝑎
+                                              𝑎 = ⌈2 log3 𝑛⌉ + 2,       ℎ = ( ).
+                                                                             2
+Also set
+                                       4 3/5 5             4 3 5 5 6250
+                                 𝜃=( )         ,    𝜃5 = ( ) ( ) =      < 1.
+                                       3     6             3   6   6561
+Let 𝜂 = − log 𝜃 > 0, choose a constant 𝐶 with 𝐶𝜂 > 2, and put
+
+                                                                           ℓ
+                                                ℓ = ⌈𝐶 log 𝑛⌉,        𝐻 = ( ).
+                                                                           2
+
+All weights below are initialized immediately after Bella’s opening move.
+   For each 𝑎-vertex set 𝐴, let 𝑓𝐴 be the number of free edges inside 𝐴, and put
+
+                                                          𝑄𝐴 = 3−𝑓𝐴
+
+if 𝐴 contains no Chingiz edge; otherwise put 𝑄𝐴 = 0. Thus a Chingiz edge inside 𝐴 sets 𝑄𝐴 to zero, while a Bella
+edge triples it.
+
+
+                                                                 1
+   For each ℓ-vertex set 𝑈 , let 𝑥𝑈 and 𝑓𝑈 be the numbers of Chingiz edges and free edges inside 𝑈 . While 𝑥𝑈 < 3𝐻 /5,
+put
+                                                      4 3𝐻 /5−𝑥𝑈 5 𝑓𝑈
+                                                𝑃𝑈 = ( )         ( ) ;
+                                                      3           6
+once 𝑥𝑈 ≥ 3𝐻 /5, put 𝑃𝑈 = 0. If a chosen edge lies in the relevant set, the weights change as follows:
+
+                                                      Chingiz            Bella
+                                          𝑄𝐴          𝑄𝐴 ↦ 0           𝑄𝐴 ↦ 3𝑄𝐴
+                                                           9
+                                          𝑃𝑈    𝑃𝑈 ↦ 𝑃𝑈′ ≤ 10 𝑃𝑈       𝑃𝑈 ↦ 56 𝑃𝑈 .
+
+Let
+                                                  Φ = ∑ 𝑄𝐴 + ∑ 𝑃𝑈 .
+                                                        𝐴          𝑈
+
+For a free edge 𝑒, define its danger
+                                                                 1
+                                               𝑑(𝑒) = ∑ 𝑄𝐴 +        ∑𝑃 .
+                                                       𝐴⊃𝑒       10 𝑈 ⊃𝑒 𝑈
+On his turn, Chingiz chooses his two edges successively, each time taking a free edge of maximum current danger.
+Lemma 1. After Bella’s opening move, Φ does not increase during any round.
+Proof. A Chingiz edge 𝑒 decreases Φ by at least 𝑑(𝑒). Let 𝑧 be Bella’s edge at the end of a round, and let 𝑑 ∗ (𝑧) be
+its danger immediately before she claims it. During both choices of Chingiz, 𝑧 was free and its danger could only
+decrease. Hence each chosen edge had danger at least 𝑑 ∗ (𝑧), so together the two choices decreased Φ by at least
+2𝑑 ∗ (𝑧).
+    Bella’s edge triples every relevant 𝑄𝐴 , adding 2𝑄𝐴 , and multiplies every relevant 𝑃𝑈 by 6/5, adding 𝑃𝑈 /5. Her
+total increase is therefore exactly 2𝑑 ∗ (𝑧). If the game ends on Chingiz’s turn, Φ only decreases.
+   We now estimate the initial weight. Bella’s opening edge can increase a weight 𝑄𝐴 by at most a factor of 3, so
+
+                                                        𝑛
+                                               ∑ 𝑄𝐴 ≤ 3( )3−ℎ ≤ 3𝑛𝑎 3−ℎ .
+                                               𝐴        𝑎
+
+Since 𝑎 ≥ 2 log3 𝑛 + 2,
+                                                       𝑎                    𝑎
+                                         ℎ − 𝑎 log3 𝑛 = (𝑎 − 1 − 2 log3 𝑛) ≥ ,
+                                                       2                    2
+and hence
+                                                 ∑ 𝑄𝐴 ≤ 31−𝑎/2 = 𝑜(1).
+                                                  𝐴
+
+Similarly, Bella’s opening edge can increase a weight 𝑃𝑈 by at most 6/5, so
+
+                                             6 𝑛      6             ℓ
+                                       ∑ 𝑃𝑈 ≤ ( )𝜃 𝐻 ≤ (𝑛𝜃 (ℓ−1)/2 ) = 𝑜(1),
+                                       𝑈     5 ℓ      5
+
+because
+                                                             𝐶𝜂
+                                  log (𝑛𝜃 (ℓ−1)/2 ) ≤ (1 −      ) log 𝑛 + 𝑂(1) ⟶ −∞.
+                                                             2
+Thus Φ < 1 initially for all sufficiently large 𝑛, and Lemma 1 keeps it below 1. Consequently, at the end of the
+game,
+                                     every 𝑎-vertex set contains a Chingiz edge;
+                                                3 ℓ                                                                (1)
+                                       𝑒𝐶 (𝑈 ) ≥ ( )    for every ℓ-vertex set 𝑈 .
+                                                5 2
+Indeed, a violation of the first statement would give 𝑓𝐴 = 0 and 𝑄𝐴 = 1. A violation of the second would give
+𝑓𝑈 = 0 and
+                                                     4 3𝐻 /5−𝑥𝑈
+                                              𝑃𝑈 = ( )          > 1.
+                                                     3
+Either case contradicts Φ < 1.
+
+
+
+                                                             2
+3    The clique comparison
+First, every 𝑠-vertex set 𝑆 with 𝑠 ≥ ℓ spans at least 35 (2𝑠 ) Chingiz edges. Indeed,
+
+                                          𝑠−2                  𝑠 3 ℓ   3 𝑠 𝑠−2
+                                𝑒𝐶 (𝑆)(       ) = ∑ 𝑒𝐶 (𝑈 ) ≥ ( ) ( ) = ( )(   ).
+                                          ℓ−2     𝑈 ⊆𝑆         ℓ 5 2   5 2 ℓ−2
+                                                  |𝑈 |=ℓ
+
+Lemma 2. Every set of 𝑚 ≥ ℓ vertices contains a Chingiz clique of size at least
+
+                                                                    𝑚 + 3/2
+                                              𝑅(𝑚) = 1 + ⌊log5/3            ⌋.
+                                                                    ℓ + 3/2
+
+Proof. Start with an arbitrary 𝑚-vertex set 𝑉0 . In 𝐺𝐶 [𝑉𝑖 ], choose a vertex 𝑣𝑖 of at least average degree and let 𝑉𝑖+1
+be its neighborhood inside 𝑉𝑖 . Writing 𝑚𝑖 = |𝑉𝑖 |, whenever 𝑚𝑖 ≥ ℓ we have
+                                          3                             3 3     3
+                                    𝑚𝑖+1 ≥ (𝑚𝑖 − 1),           𝑚𝑖+1 +    ≥ (𝑚𝑖 + ) .
+                                          5                             2 5     2
+Hence
+                                                     3    3 𝑖       3
+                                                 𝑚𝑖 +  ≥ ( ) (𝑚 + ) .
+                                                     2    5         2
+For every 0 ≤ 𝑖 < 𝑅(𝑚), the right-hand side is at least ℓ + 3/2; hence 𝑚𝑖 ≥ ℓ and 𝑣𝑖 can be chosen. The resulting
+vertices form a clique, since every later vertex is chosen in the common 𝐺𝐶 -neighborhood of all earlier ones.
+
+    Because the final graphs are complementary, every Bella clique contains no Chingiz edge. The first statement
+in (1) therefore gives
+                                                         2 log 𝑛
+                                        𝜔(𝐺𝐵 ) ≤ 𝑎 − 1 =         + 𝑂(1).
+                                                          log 3
+Lemma 2, applied with 𝑚 = 𝑛, gives
+
+                                                              log 𝑛
+                                          𝜔(𝐺𝐶 ) ≥ 𝑅(𝑛) =            − 𝑂(log log 𝑛).
+                                                            log(5/3)
+
+Finally,
+                                    1      2                      5 2
+                                        >                  ⟺   3>( )        ⟺     27 > 25.
+                                log(5/3) log 3                    3
+The gap between the main terms is of order log 𝑛, while the error is only 𝑂(log log 𝑛). Thus 𝜔(𝐺𝐶 ) > 𝜔(𝐺𝐵 ) for
+every sufficiently large 𝑛, proving Theorem 1.
+
+
+Research provenance and contributions
+The project began with Mark Pimenov’s question about the analogous game for chromatic number. OpenAI GPT-
+5.6 Pro solved that problem in an interactive dialogue with M. A. Didin. Didin then asked whether the method
+transfers to the 1 ∶ 2 clique-building game, and GPT-5.6 Pro generated the main result, winning strategy, and math-
+ematical proof presented here. Didin directed successive simplifications and prepared the manuscript; Pimenov
+independently checked the final proof. The human authors take responsibility for the manuscript.
+
+
+References
+[1] R. K. Guy, A Miscellany of Erdős Problems, Amer. Math. Monthly 90 (1983), no. 2, 118–120.
+
+[2] A. Malekshahian and S. Spiro, On a clique-building game of Erdős, arXiv:2410.18304v2, 2026.
+
+[3] S. Cambie and M. Provoost, On edge-colouring-games by Erdős, and Bensmail and Mc Inerney, arXiv:2505.03497v2, 2025.
+
+
+
+
+                                                               3
+

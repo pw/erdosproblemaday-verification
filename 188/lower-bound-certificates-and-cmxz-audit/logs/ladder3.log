@@ -1,0 +1,2 @@
+runs/ts3_c6_k5 points=30625 isometries=509 unit_pairs=208056 l5_runs=94077 -> runs/ts3_c6_k5.cnf :: s UNSATISFIABLE Command exited with non-zero status 20 0.41s 42988KB 
+k5 UNSAT at cr=6

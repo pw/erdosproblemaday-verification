@@ -1,0 +1,4 @@
+Compare primary and ASan+UBSan frontier records:
+MATCH: all transition witnesses identical
+Sanitizer diagnostics:
+NONE

@@ -1,0 +1,6 @@
+p=5: f=T^3+4T^2+4T+4  M=625  palette=123 (<=27p=135: yes)  symmetric 4-APs=0
+   controls: no-Q -> 1   isotropic form -> 1   drop tau(x1) -> 1   (each must be >0)
+p=7: f=T^3+6T^2+6T+4  M=2401  palette=189 (<=27p=189: yes)  symmetric 4-APs=0
+   controls: no-Q -> 1   isotropic form -> 1   drop tau(x1) -> 1   (each must be >0)
+p=11: f=T^3+10T^2+10T+8  M=14641  palette=297 (<=27p=297: yes)  symmetric 4-APs=0
+   controls: no-Q -> 1   isotropic form -> 1   drop tau(x1) -> 1   (each must be >0)

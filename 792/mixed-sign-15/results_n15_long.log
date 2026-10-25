@@ -1,0 +1,5 @@
+RESULT n=15 k=4 t=7 engine=z3 prune=1 atoms=516 clauses=6435 status=unsat secs=52386.4
+RESULT n=15 k=5 t=7 engine=z3 prune=1 atoms=510 clauses=6435 status=unsat secs=80895.0
+RESULT n=15 k=6 t=7 engine=z3 prune=1 atoms=506 clauses=6435 status=unsat secs=86658.1
+ALL n=15 LONG JOBS DONE at 2026-10-13T10:38:22Z
+RESULT n=15 k=7 t=7 engine=z3 prune=1 atoms=504 clauses=6435 status=unsat secs=84154.8

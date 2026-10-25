@@ -1,0 +1,12 @@
+#968 empirical table — second instrument (09:00Z erdos seat, 2026-10-21)
+recount2.py: numpy segmented sieve over odd numbers (Python/numpy, not C), increase predicate in the REARRANGED form
+n*(p_{n+1}-p_n) > p_n (int64; gaps.c uses (n+1)*p_n < n*p_{n+1} in 128-bit), gap predicate g > C*log(p_n) in float64.
+Run to 22,801,764,000 (log recount2_1e9.log, ~5 min wall, nice 19). gaps_raw.c (the first instrument with exact counts printed)
+re-run to the same limit (gaps_raw_1e9.log).
+Exact agreement at every checkpoint:
+ N        p_N             increases     gap>1·log p   gap>2·log p   gap>3·log p   gap>6·log p
+ 10^6     15,485,863      406,140       379,450       109,945       31,946        620
+ 10^7     179,424,673     4,212,774     3,754,391     1,157,844     344,593       8,067
+ 10^8     2,038,074,743   39,728,387    37,645,991    11,742,653    3,596,168     92,675
+ 10^9     22,801,763,489  397,737,673   386,645,693   120,861,061   37,365,515    1,032,888
+(gaps_raw raw: columns are C = 0.5,1,1.5,2,3,4,5,6; the C = 1,2,3,6 columns are the ones compared.)

@@ -1,0 +1,18 @@
+d = (3/5+4/5i)  d' = (5/13+12/13i)  d-d' = (14/65+-8/65i)  1/d-1/d' = (14/65+8/65i)
+  2|(1+1i)       wt=1  b=+0.0000 b'=+0.0000 u=+0.6931 alpha=+0.6931 T=+0.6931  (5.14) lhs==rhs: True  [2*log2]
+  5|(1+2i)       wt=1/2  b=-1.6094 b'=+0.0000 u=-1.6094 alpha=+0.0000 T=+0.0000  (5.14) lhs==rhs: True  [-1*log5]
+  5|(1+-2i)      wt=1/2  b=+0.0000 b'=+1.6094 u=+0.0000 alpha=+0.0000 T=+0.0000  (5.14) lhs==rhs: True  [-1*log5]
+  13|(2+3i)      wt=1/2  b=-2.5649 b'=+0.0000 u=-2.5649 alpha=+0.0000 T=+0.0000  (5.14) lhs==rhs: True  [-1*log13]
+  13|(2+-3i)     wt=1/2  b=+0.0000 b'=+2.5649 u=+0.0000 alpha=+0.0000 T=+0.0000  (5.14) lhs==rhs: True  [-1*log13]
+  arch id        wt=1/2  b=+0.0000 b'=+0.0000 u=+1.3940 alpha=+1.3940 T=+2.0872  (5.14) lhs==rhs: True  [-2*log2 + 1*log5 + 1*log13]
+  arch conj      wt=1/2  b=+0.0000 b'=+0.0000 u=+1.3940 alpha=+1.3940 T=+2.0872  (5.14) lhs==rhs: True  [-2*log2 + 1*log5 + 1*log13]
+  Sum* of (5.14) lhs = 0 (product formula: must be 0)
+  Sum*(b'-b) = 1*log5 + 1*log13  2 Sum* T_v - 2 log2 = 1*log5 + 1*log13  equal: True
+d = (3/5+4/5i)  d' = (4/5+3/5i)  d-d' = (-1/5+1/5i)  1/d-1/d' = (-1/5+-1/5i)
+  2|(1+1i)       wt=1  b=+0.0000 b'=+0.0000 u=+0.3466 alpha=+0.3466 T=+0.3466  (5.14) lhs==rhs: True  [1*log2]
+  5|(1+2i)       wt=1/2  b=-1.6094 b'=+1.6094 u=-1.6094 alpha=+0.0000 T=+0.0000  (5.14) lhs==rhs: True  [-2*log5]
+  5|(1+-2i)      wt=1/2  b=-1.6094 b'=+1.6094 u=-1.6094 alpha=+0.0000 T=+0.0000  (5.14) lhs==rhs: True  [-2*log5]
+  arch id        wt=1/2  b=+0.0000 b'=+0.0000 u=+1.2629 alpha=+1.2629 T=+1.9560  (5.14) lhs==rhs: True  [-1*log2 + 2*log5]
+  arch conj      wt=1/2  b=+0.0000 b'=+0.0000 u=+1.2629 alpha=+1.2629 T=+1.9560  (5.14) lhs==rhs: True  [-1*log2 + 2*log5]
+  Sum* of (5.14) lhs = 0 (product formula: must be 0)
+  Sum*(b'-b) = 2*log5  2 Sum* T_v - 2 log2 = 2*log5  equal: True

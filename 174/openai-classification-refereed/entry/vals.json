@@ -1,0 +1,5 @@
+{
+ "RANDOM_SENTENCE": "all 40 of the six-point configurations we drew and all 40 of the seven-point ones.",
+ "LEANCHECKER_SENTENCE": "An independent kernel re-check, <code>leanchecker --fresh</code> over the whole closure plus our algebraic-coordinates bridge, exited with code 0 after 3,603 s (peak memory 8.2 GiB); a missing-module control exits 1.",
+ "LEANCHECKER_FC_SENTENCE": "A separate <code>leanchecker --fresh</code> over <code>Bridge174Main</code>, which contains the main-statement bridge and imports the other two FC results and OpenAI's closure, exited with code 0 after 3,556 s (peak memory 8.2 GiB)."
+}

@@ -1,0 +1,16 @@
+# cake_lpr runs (verdict = the printed line; the exit code is cake_lpr's own, shown to document that it is 0 on rejection too)
+== POSITIVE: cake_lpr cnf/ten_lean.cnf runs/ten_lean.lrat
+s VERIFIED UNSAT
+cake_lpr exit=0
+== POSITIVE: cake_lpr cnf/ten_paper.cnf runs/ten_paper.lrat
+s VERIFIED UNSAT
+cake_lpr exit=0
+== POSITIVE: cake_lpr cnf/core_min.cnf runs/core_min.lrat
+s VERIFIED UNSAT
+cake_lpr exit=0
+== NEG:empty-clause-step-last-hint-dropped: cake_lpr cnf/ten_lean.cnf runs/ten_lean.MUT_dropemptyhint.lrat
+c Checking failed at line: 1098. Reason: pivot must be non-zero
+cake_lpr exit=0
+== NEG:nonempty-unit-neutralised-index-preserving(SAT): cake_lpr cnf/ten_lean.MUT_nonempty_taut.cnf runs/ten_lean.lrat
+c Checking failed at line: 1. Reason: clause not empty or singleton after reduction
+cake_lpr exit=0

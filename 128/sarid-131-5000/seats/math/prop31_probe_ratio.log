@@ -1,0 +1,31 @@
+n=2: 2 graphs, min g/rho = +4.687500e-02 at rho=0.5000
+n=3: 3 graphs, min g/rho = +4.687500e-02 at rho=0.5000
+n=4: 7 graphs, min g/rho = +4.277276e-02 at rho=0.4682
+n=5: 14 graphs, min g/rho = +6.875000e-03 at rho=0.4000
+n=6: 38 graphs, min g/rho = +6.875000e-03 at rho=0.4000
+n=7: 107 graphs, min g/rho = +6.852833e-03 at rho=0.3993
+n=8: 410 graphs, min g/rho = +5.208333e-03 at rho=0.3750
+n=9: 1897 graphs, min g/rho = +5.096472e-03 at rho=0.3399
+n=10 connected: 9832 graphs, min g/rho = +3.694043e-03 at rho=0.3445
+C5                     n= 5: uniform g=+2.750e-03 (rho=0.4000);  min over weights g/rho=+6.875e-03 at rho=0.4000
+Petersen               n=10: uniform g=+2.062e-03 (rho=0.3000);  min over weights g/rho=+6.875e-03 at rho=0.3000
+Clebsch                n=16: uniform g=+0.000e+00 (rho=0.3125);  min over weights g/rho=+0.000e+00 at rho=0.3125
+MobiusKantor           n=16: uniform g=+5.859e-03 (rho=0.1875);  min over weights g/rho=+1.910e-02 at rho=0.3333
+Andrasfai2             n= 5: uniform g=+2.750e-03 (rho=0.4000);  min over weights g/rho=+6.875e-03 at rho=0.4000
+Andrasfai3             n= 8: uniform g=+1.953e-03 (rho=0.3750);  min over weights g/rho=+5.208e-03 at rho=0.3750
+Andrasfai4             n=11: uniform g=+2.019e-03 (rho=0.3636);  min over weights g/rho=+5.208e-03 at rho=0.3750
+Andrasfai5             n=14: uniform g=+2.164e-03 (rho=0.3571);  min over weights g/rho=+5.208e-03 at rho=0.3750
+Andrasfai6             n=17: uniform g=+2.296e-03 (rho=0.3529);  min over weights g/rho=+5.208e-03 at rho=0.3750
+Andrasfai7             n=20: uniform g=+2.406e-03 (rho=0.3500);  min over weights g/rho=+5.553e-03 at rho=0.3636
+Andrasfai8             n=23: uniform g=+2.497e-03 (rho=0.3478);  min over weights g/rho=+5.553e-03 at rho=0.3636
+C7                     n= 7: uniform g=+7.562e-03 (rho=0.2857);  min over weights g/rho=+2.647e-02 at rho=0.2857
+C9                     n= 9: uniform g=+7.673e-03 (rho=0.2222);  min over weights g/rho=+3.453e-02 at rho=0.2222
+C11                    n=11: uniform g=+7.020e-03 (rho=0.1818);  min over weights g/rho=+3.800e-02 at rho=0.2734
+Clebsch-minus-vertex   n=15: uniform g=+8.659e-04 (rho=0.3111);  min over weights g/rho=+6.603e-04 at rho=0.3196
+Clebsch-minus-edge     n=16: uniform g=+8.588e-04 (rho=0.3047);  min over weights g/rho=+6.603e-04 at rho=0.3196
+Clebsch weight perturbation along theta=+1, eps=+1e-03: rho-5/16=+3.906e-09, g=+3.510e-10
+Clebsch weight perturbation along theta=+1, eps=-1e-03: rho-5/16=+3.906e-09, g=+3.509e-10
+Clebsch weight perturbation along theta=+1, eps=+1e-02: rho-5/16=+3.906e-07, g=+3.514e-08
+Clebsch weight perturbation along theta=-3, eps=+1e-03: rho-5/16=-1.172e-08, g=+1.511e-09
+Clebsch weight perturbation along theta=-3, eps=-1e-03: rho-5/16=-1.172e-08, g=+1.511e-09
+Clebsch weight perturbation along theta=-3, eps=+1e-02: rho-5/16=-1.172e-06, g=+1.511e-07

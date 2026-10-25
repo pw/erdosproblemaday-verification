@@ -1,0 +1,19 @@
+[PASS] Lemma 6.5: >2m edges => loop/parallel/cycle <= 2log m+3 (20000 multigraphs, 0 violations)
+[PASS] Lemma 6.5 negative control (bound 2 instead of 2log m+3 fails sometimes) (11576 failures)
+[PASS] Lemma 6.6: groups <= |A|+2d, each <= d vertex-disjoint cherries (3000 instances, max groups/(|A|+2d) = 0.385)
+[PASS] Lemma 6.6 negative control (bound |A| without +2d fails sometimes) (775 failures)
+[PASS] Lemma 6.3 (small regime): |D|<=2|F|/s and core connected for all |Q|<=s/2 (95 expander instances, 0 violations)
+[PASS] Lemma 6.3 negative control (non-expanders: |D| bound fails sometimes) (7 failures among non-expanders)
+     log2 n >= 7.245e+07: |Z|<=n/lambda^3: 8 ell n^{-a} <= ell^-900
+     log2 n >= 4.592e+04: Claim6.8: s>=64 h log m (n^{2a} >= 64 n^{a/2} ell)
+     log2 n >= 6163: Claim6.8: s/(2h)>=n^a
+     log2 n >= 7.245e+07: pieces: 4n(lam+2)^2 lam^3/s <= n
+     log2 n >= 3.709e+07: 2nd kind: 2 lam^3 j* <= n (4 lam^3/s<=1)
+     log2 n >= 7.245e+07: routing: n^a >= 24 r lam^3
+     log2 n >= 2.764e+08: failed: 128 r lam^9 n^{1-a} <= n
+     log2 n >= 2: |W|: (3n/lam^2)(6+lam)<=n
+     log2 n >= 2: B_odd: 64 n ell/lam <= n
+     log2 n >= 2: |Y_C| (1st kind): (2ell+3)(lam+2)<=4 lam^3
+     log2 n >= 2: |Y_C| (3rd kind): 1.5(lam+2^12 ell^3)<=4 lam^3
+[PASS] Section 6.3 polylog-vs-poly inequalities all hold for large n (eps=1/1000) (binding threshold log2 n ~ 2.76e+08, i.e. n_0 ~ 2^2.76e+08)
+OVERALL: PASS

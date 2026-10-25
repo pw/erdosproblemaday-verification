@@ -1,0 +1,11 @@
+# OEIS terms search, 2026-10-13, from the Hetzner box
+## q=3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6,6,6
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+Search: seq:3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6,6,6
+No results.
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE
+## q=seq:3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,6
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+Search: seq:3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,6
+No results.
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

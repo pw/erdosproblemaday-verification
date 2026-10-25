@@ -1,0 +1,1 @@
+{"N": 18, "t": 32, "kw": {"prime": false, "quad": true, "enum_all": false, "audit_two": false}, "witness": false, "nsols": 0, "first": null, "counters": {"nodes": 14651866, "two_nodes": 11726988, "two_prunes": 11726988, "two_candidates": 0, "pprunes": 0, "hprunes": 0, "mhits": 5800, "audit_two_solutions_in_pruned": 0, "two_full_candidates": 0}, "failed": 200000, "sec": 118.5}

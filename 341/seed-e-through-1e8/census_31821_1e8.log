@@ -1,0 +1,12 @@
+m=31821 [10000000,40000000): empty classes 24799 (77.9%)
+m=31821 [40000000,70000000): empty classes 24794 (77.9%)
+m=31821 [70000000,100000000): empty classes 24803 (77.9%)
+m=31821: empty in all three windows 23837; union 25765; pairwise symmetric differences 973, 955
+m=8528 [10000000,40000000): empty classes 2382 (27.9%)
+m=8528 [40000000,70000000): empty classes 2366 (27.7%)
+m=8528 [70000000,100000000): empty classes 2395 (28.1%)
+m=8528: empty in all three windows 0; union 5474; pairwise symmetric differences 4748, 4761
+m=27875 [10000000,40000000): empty classes 0 (0.0%)
+m=27875 [40000000,70000000): empty classes 0 (0.0%)
+m=27875 [70000000,100000000): empty classes 0 (0.0%)
+m=27875: empty in all three windows 0; union 0; pairwise symmetric differences 0, 0

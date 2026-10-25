@@ -1,0 +1,4 @@
+sum l p p^T (augmented) zero: True
+mixed moment: [[0, 0, 0], [0, 16*t*(t**2 - 1)/(t**2 + 1)**3, 0], [0, 0, -16*t*(t**2 - 1)/(t**2 + 1)**3]]
+symmetric: True
+energy: 16/(t**2 + 1)**2

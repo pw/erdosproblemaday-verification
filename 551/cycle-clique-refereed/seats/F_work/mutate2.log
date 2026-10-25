@@ -1,0 +1,27 @@
+W2_ext_lower_always_plus1 rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 8 out1 3028 out2 63 DIFFERS 87s
+W3_ext_upper_minus1 rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 2907 out2 192 DIFFERS 58s
+W4_ext_E_empty_only rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13] out0 190 out1 38 out2 608 DIFFERS 300s
+W5_ext_E_all_rest_only rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 8 out1 950 out2 2141 DIFFERS 210s
+W6_no_required_path_rule rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 50 out1 3049 out2 0 DIFFERS 60s
+W7_no_strengthening rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 46 out1 3049 out2 4 DIFFERS 23s
+W8_no_d0_trials rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 18 out1 3049 out2 32 DIFFERS 36s
+W9_no_d1_trials rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 17 out1 3049 out2 33 DIFFERS 41s
+W10_no_exception_9_11 rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 4 out1 3042 out2 53 DIFFERS 61s
+W11_no_size_test_triple rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13] out0 103 out1 570 out2 163 DIFFERS 300s
+W12_u0_no_clique_pair rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 14 out1 3046 out2 39 DIFFERS 56s
+W13_no_Tr_excluded_neighbours rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12] out0 499 out1 26 out2 0 DIFFERS 300s
+W14_no_singletons rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 5 out1 3048 out2 46 DIFFERS 54s
+W15_no_radius2 rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13] out0 77 out1 587 out2 172 DIFFERS 300s
+W16_no_radius1or2 rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12] out0 521 out1 4 out2 0 DIFFERS 300s
+W17_no_ball_bound_growth_term rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12] out0 521 out1 4 out2 0 DIFFERS 300s
+W18_no_clique_pair_rule_in_balls rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12] out0 517 out1 8 out2 0 DIFFERS 300s
+W19_no_size_test_and_no_exception rc 124 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13] out0 107 out1 560 out2 169 DIFFERS 300s
+V1_inplace_updates rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3049 out2 50 identical 49s
+S1_ext_drop_indicator rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3087 out2 12 DIFFERS 24s
+S2_ext_upper_plus1 rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3083 out2 16 DIFFERS 26s
+S3_compat_one_less rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3070 out2 29 DIFFERS 32s
+S4_size_test_ge rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3051 out2 48 DIFFERS 49s
+S5_no_reach_test rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3067 out2 32 DIFFERS 44s
+S6_no_degree_test rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3049 out2 50 identical 45s
+S7_reqpath_plus1 rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 3 out1 3049 out2 47 DIFFERS 25s
+S8_u0_strict_gt_replaced_ge_tminus1 rc 0 ks_done [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] out0 0 out1 3052 out2 47 DIFFERS 56s

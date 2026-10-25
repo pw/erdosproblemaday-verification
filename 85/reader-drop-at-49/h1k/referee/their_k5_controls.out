@@ -1,0 +1,8 @@
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=8940 c4=5502 derived=12 sb=6
+UNSAT
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=3438 c4=0 derived=12 sb=6 DROP-C4 CONTROL
+SAT  recheck: 0 structural violations [], max codegree 3, lex violations 0
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=8718 c4=5502 derived=12 sb=0
+UNSAT
+k=5 case j=0 e=[1, 1, 1, 1, 1, 1] vars=108 clauses=8004 c4=5502 derived=0 sb=6
+UNSAT

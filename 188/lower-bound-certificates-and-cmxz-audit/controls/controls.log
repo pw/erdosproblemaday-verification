@@ -1,0 +1,24 @@
+# controls — 2026-10-14T01:02:18Z
+noT3 R=8: points=241 unit_pairs=666 l5_runs=495 T3=386 -> s UNSATISFIABLE
+noT3 R=10: points=367 unit_pairs=1032 l5_runs=825 T3=614 -> s UNSATISFIABLE
+noT3 R=12: points=517 unit_pairs=1470 l5_runs=1227 T3=890 -> s UNSATISFIABLE
+# bare lattice (no rotations), k=5, R=10: s SATISFIABLE  [and for every k>=3: red = one class of the proper 3-colouring of Z[w] has no red l_2 and no blue l_3 on any lattice line]
+# t0_k4: p cnf 2563 13518 :: s SATISFIABLE
+# t0_k5: p cnf 2563 13035 :: s SATISFIABLE
+# t0_k6: p cnf 2563 12552 :: s SATISFIABLE
+# t0_k4_o: p cnf 2563 13519 :: s UNSATISFIABLE
+# t0_k5_o: p cnf 2563 13036 :: s SATISFIABLE
+# t0_k6_o: p cnf 2563 12553 :: s SATISFIABLE
+# egmrss_k4: p cnf 1099 5791 :: s UNSATISFIABLE
+# ladder1 c3_k5 (ds sqrt3,3,5; centres<=3; origin red; NO W2): s UNSATISFIABLE
+# second solvers on the full UNSAT instances (pysat):
+  egmrss_k4 minisat22: UNSAT (0.0s)
+  egmrss_k4 glucose4: UNSAT (0.0s)
+  ts_c3_k5 minisat22: UNSAT (2.0s)
+  ts_c3_k5 glucose4: UNSAT (1.3s)
+  ts3_c6_k5 minisat22: UNSAT (0.5s)
+  ts3_c6_k5 glucose4: UNSAT (0.4s)
+# drat-trim on cadical proofs:
+  egmrss_k4: s VERIFIED (252 bytes)
+  ts_c3_k5: s VERIFIED (2459 bytes)
+  ts3_c6_k5: s VERIFIED (4654 bytes)

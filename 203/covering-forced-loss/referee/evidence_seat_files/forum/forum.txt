@@ -1,0 +1,543 @@
+ 69464 /tmp/t203.html
+ 37069 /tmp/t203pc.html
+106533 total
+
+ 203 Discussion Thread | Erdős Problems 
+
+ Forum 
+ Inbox 
+ Favourites 
+ Tags 
+
+ More 
+
+ FAQ 
+ Prizes 
+ Problem Lists 
+ Definitions 
+ Links 
+
+ Forum 
+
+ Menu 
+
+ Inbox 
+ Favourites 
+ Tags 
+ FAQ 
+ Prizes 
+ Problem Lists 
+ Definitions 
+ Links 
+
+ Go 
+
+ Go 
+
+ Random 
+
+Is there an integer $m\geq 1$ with $(m,6)=1$ such that none of $2^k3^\ell m+1$ are prime, for any $k,\ell\geq 0$?
+
+ #203 : [ErGr80,p.27] 
+
+ primes | 
+
+ covering systems 
+
+Positive odd integers $m$ such that none of $2^km+1$ are prime are called Sierpinski numbers - see [1113] for more details.
+
+Erdős and Graham also ask more generally about $p_1^{k_1}\cdots p_r^{k_r}m+1$ for distinct primes $p_i$, or $q_1\cdots q_rm+1$ where the $q_i$ are primes congruent to $1\pmod{4}$. (Dogmachine has noted in the comments this latter question has the trivial answer $m=1$ - perhaps some condition such as $m$ even is meant.)
+
+ Additional thanks to : Dogmachine and Wouter van Doorn
+
+ Proof expositions (0) 
+
+If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. 
+
+ No proof expositions yet.
+
+ Comments (15) 
+
+ Proof claims (0) 
+
+ More information and links 
+
+This page was last edited 20 January 2026.
+ ( View history ) ( View the LaTeX source ) 
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #203, https://www.erdosproblems.com/203, accessed 2026-10-12
+
+From the external database . (You can
+
+ help update
+ this.)
+
+ Formalised statement? 
+
+ Yes
+
+ Reactions 
+
+ Likes
+
+ None 
+
+ Open to collaboration
+
+ None 
+
+ Currently working on
+
+ uona , 
+
+ AnimishSharma 
+
+ Looks difficult
+
+ Dogmachine 
+
+ Looks tractable
+
+ None 
+
+ Could be formalisable
+
+ None 
+
+ Working on formalising
+
+ epassports 
+
+Order by
+ oldest first or
+ newest first . (The most recent comments are highlighted in a red border.)
+
+ I made a computational attempt at the natural constructive route: a set of primes $p$ whose "killed" sets ${(k,l) : p \mid 2^k 3^l m + 1}$ cover all $(k,l)$. Each such set is one coset of a lattice of index $e_p = |\langle 2,3\rangle \bmod p|$, so this is a 2D covering problem.
+
+Results (code and data at https://github.com/veljjanoski/erdos203 ):
+
+Complete prime pools. If $\mathrm{ord}p 2 = a$ and $\mathrm{ord}p 3 = b$ then $p$ divides $\gcd(\Phi_a(2), \Phi_b(3))$, which gives all primes of any size with $e_p \le E$. For $E = 2000$ there are $442$ such primes with $\sum 1/e_p = 1.97$; for $E = 5000$, $1006$ primes with $\sum 1/e_p = 2.15$. So the density condition $\sum 1/e_p \ge 1$ is not the obstacle.
+
+Searches. Greedy plus iterated local search over the coset choices on the torus $\mathbb{Z}_N^2$ reaches $71.7%$ coverage at $N = 5040$ ($31$ primes, matching the $71$–$72%$ reported above) and $76.0%$ at $N = 55440$ ($55$ primes). Taking $m$ to be a perfect power (cube, or $12$th power for the extra $4Y^4+1$ factorisation) does not help: $74%$ and $70%$. All plateaus sit a few percent below the random-choice value $1 - \exp(-\sum 1/e_p)$.
+
+A structured family. After $k' = k + Jl$, the primes with $(3 \cdot 2^{-J})^d \equiv 1 \pmod p$ give cosets depending on $l$ only mod $d$, so the problem reduces to a strip $\mathbb{Z}N \times \mathbb{Z}d$ where the lattices nest like 1D moduli. The maximal admissible density is computable exactly. For $N = 720720$ and the $99$ primes $p \le 10^7$ with $e_p \mid N$ it is below $1$ for every $J$ and every strip height $d < 720$, so no covering of this kind exists there; at $d = 720$ it is $1.05$ and the search still leaves $28%$ uncovered.
+
+Structure. Among the $442$ primes with $e_p \le 2000$ all lattices are distinct, only $77$ pairs are nested, all with index ratio $\ge 12$, and the only primes with $e_p$ a power of $2$ are $5, 17, 257$, none nested in another. The chains that make 1D Sierpiński coverings work ($2 \mid 4 \mid 8 \mid \cdots \mid 64$) have no analogue here.
+
+None of this is a proof of nonexistence. It is evidence that a covering system for this problem, if one exists, needs primes of far larger order than anything searched so far.
+
+AI-usage disclosure: Claude (Anthropic) was used as a coding assistant.
+
+ veljjanoski 
+
+ — 09:43 on 15 Sep 2026 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ I have been studying the \(r=2\) case of this problem: whether there exists
+ \(m\geq 1\), with \(\gcd(m,6)=1\), such that\[
+ 2^k3^\ell m+1
+ \]is composite for every \(k,\ell\geq 0\).
+
+ I am not claiming a solution. The existence question remains open. My claim is a
+ partial result: a general density obstruction for finite 2D covering sets, plus
+ some computationally bounded exclusions.
+
+ For each prime \(p\nmid 6\), define\[
+ H_p=\langle 2,3\rangle\subseteq(\mathbb Z/p\mathbb Z)^\times .
+ \]I prove\[
+ |H_p|=\operatorname{lcm}(\operatorname{ord}_p(2),\operatorname{ord}_p(3)).
+ \]It follows that if a finite set of primes \(P\) gives a covering proof for some
+ \(m\), i.e. if for every \(k,\ell\geq 0\) some \(p\in P\) divides\[
+ 2^k3^\ell m+1,
+ \]then necessarily\[
+ \sum_{p\in P}\frac{1}{|H_p|}\geq 1.
+ \]Using this density condition, I rule out several possible covering regimes,
+ including the four-prime set \(\{5,11,23,13\}\), all linear primes with
+ \(\operatorname{ord}_p(2)\leq 60\), and linear-prime coverings with\[
+ \operatorname{lcm}(\operatorname{ord}_p(2))\leq 720720.
+ \]The strongest current computational exclusion is: among primes
+ \(p\leq 50{,}000{,}000\), no covering set \(P\) with\[
+ \operatorname{lcm}(|H_p|:p\in P)<5040
+ \]can exist, since the corresponding density sum is still \(<1\). This is a
+ computational theorem within that prime bound, not an unconditional theorem over
+ all primes.
+
+ I also checked natural candidate families at moduli \(5040\) and \(10080\). No
+ covering was found; the best coverage stayed around \(71\%-72\%\). This is
+ computational evidence only, not a proof of nonexistence.
+
+ A useful structural observation is that any such 2D Sierpiński number would also
+ be a classical 1D Sierpiński number, by setting \(\ell=0\). The natural candidate
+ \(m=78557\) does not work, since\[
+ 2^1\cdot 3^2\cdot 78557+1=1414027
+ \]is prime.
+
+ So the exact status is:
+
+ - Proved: the subgroup formula for \(|H_p|\).
+ - Proved: the density necessary condition for finite 2D covering sets.
+ - Proved/computed within scope: no covering with \(\operatorname{lcm}(|H_p|)<5040\) using primes \(p\leq 50{,}000{,}000\).
+ - Not proved: existence of \(m\).
+ - Not proved: nonexistence of \(m\).
+ - Therefore the original \(r=2\) problem remains open.
+
+ The WIT file is written in a semi-formal proof language:
+ sierpinski-generalized-v2.wit 
+
+ The PDF report is here:
+ PDF report 
+
+ AnimishSharma 
+
+ — 07:36 on 21 Jun 2026 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ Any such number, If It exists, would have to be massive. It is all but confirmed that It has to be at least ten billion, a humble lower bound.
+
+ Dogmachine 
+
+ — 18:45 on 28 Aug 2025 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ I agree with it having to be massive, but how do you know its confirmed to be at least ten billion? Anything helps, but if it was just heuristics/computation that's okay, too.
+
+ uona 
+
+ — 02:46 on 07 Jan 2026 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ Heuristics. The smallest Sierpinski number has five digits, and any number sought here should satisfy at least double the ammount of constraints, meaning I expect a number with at least double the number of digits of 78557 would be required and in fact even more than that, so at least $10^{10}$, or ten billion. Does this makes some Sense?
+
+ Dogmachine 
+
+ — 23:35 on 25 Jan 2026 
+
+ 👍 
+ 1 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ Note that the question regarding the primes $q$ is equivalent to asking for an even positive integer $m$ such that the quadratic form $g(x,y)=mx^2+my^2+1$ is free of primes whenever $x,y$ are coprime positive integers and $x+y$ odd. If we remove such restrictions and simply allows any Integers as $x,y$, such $m$ does not exist by classical results of Iwaniec (see H. Iwaniec, Primes representes by quadratic polynomials in two variables, Acta Arith. 24 (1974), 435-459), since the form $g$ obeys some caveats, including being genuinely a function of two variables, that force It to contain primes. Perhaps someone well acquainted with the analytic theory can prove such $g$ will have primes even with the aforementioned restrictions on $x,y$?
+
+ Dogmachine 
+
+ — 19:04 on 25 Jan 2026 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ I have been trying at this although most sieving methods aren't very helpful. My intuition tells me such an m shouldn't exist, as it would be crt frankenstein. How would I go about uploading progress/proof to the website that I am able to get - if any?
+
+ uona 
+
+ — 03:42 on 31 Dec 2025 
+
+ 👍 
+ 1 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ This site isn't suitable for hosting full preprints, the comment section is intended for informal discussions. If you have a full proof I suggest writing it up as a paper in the traditional fashion, which can be uploaded to arxiv, and you can share a link here.
+
+If you have some partial progress or relevant data you can share this here in a comment.
+
+ Thomas Bloom 
+
+ — 07:14 on 31 Dec 2025 
+
+ 👍 
+ 1 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ If someone could explain what is meant in the problem with the primes $q$, that would be appreciated. As It stands, $m=1$ is a trivial solution.
+
+ Dogmachine 
+
+ — 18:01 on 29 Dec 2025 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ This seems to be how the question was literally posed in [ ErGr80, p. 27 ], but perhaps requiring $m$ to be even here would exclude the trivial examples?
+
+ TerenceTao 
+
+ — 18:15 on 29 Dec 2025 
+
+ 👍 
+ 1 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ The belief Dogmachine alludes to was made explicit in this paper by Filaseta, Finch and Kozek. They conjecture the following:
+
+ Conjecture. If $m$ is such that $2^km + 1$ is composite for all $k \ge 1$, then either $m$ is a perfect power, or the smallest prime factor of $2^km + 1$ remains bounded as $k$ tends to infinity.
+
+They furthermore show the following result, which is somewhat related to the problem at hand:
+
+ Theorem. For every $l \in \mathbb{N}$ there is an $m$ such that $2^km^i+1$ is composite for all $1 \le i \le l$ and all $k \in \mathbb{N}$.
+
+(The site has been updated to address this comment.)
+
+ Woett 
+
+ — 16:28 on 24 Nov 2025 
+
+ 👍 
+ 0 
+
+ 📝 
+ 1 
+
+ 🤖 
+ 0 
+
+ On further reflection, the separate problem about Sierpinski numbers and covering systems is worthy of a separate entry, now at [1113] , which includes these remarks.
+
+ Thomas Bloom 
+
+ — 09:21 on 28 Dec 2025 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ Did a shallow search from 10 billion to 100 billion - No matches ¯\_(ツ)_/¯
+
+ emil467q 
+
+ — 18:55 on 30 Nov 2025 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ For what it is worth, neither Gemini nor ChatGPT found any new references on this problem, although ChatGPT provided some links to work on Sierpinski numbers and their relation to covering congruences, while also relying heavily on this very web page as an authoritative source.
+
+Gemini hallucinated that they could solve this question with covering congruences, but then failed (twice) to construct such a system, admitting defeat halfway through in each instance when it found that the congruences it stated did not, in fact, cover all integers, but without amending the previous portion of the report (perhaps an artefact of the next token prediction architecture). My understanding is that for various technical reasons, Gemini DeepResearch is not able to use powerful models such as Gemini DeepThink, and so seems to be tripped up by hallucinations a little more often than some other models.
+
+ TerenceTao 
+
+ — 20:45 on 19 Oct 2025 
+
+ 👍 
+ 0 
+
+ 📝 
+ 0 
+
+ 🤖 
+ 0 
+
+ The remark about Sierpinski numbers became outdated in 1993. In a note on Sierpinski numbers, Anatoly Isotov gave examples that do not entirely use coverings. Nowadays, It is believed that all Sierpinski numbers either come from covering systems, or are perfect powers.
+
+(The site has been updated to address this comment.)
+
+ Dogmachine 
+
+ — 19:16 on 28 Aug 2025 
+
+ 👍 
+ 0 
+
+ 📝 
+ 1 
+
+ 🤖 
+ 0 
+
+ Show 5 more comments
+
+ All comments are the responsibility of the user. Comments appearing on this page are not verified for correctness. Please keep posts mathematical and on topic. 
+
+The ability to post new comments has been suspended.
+
+ Back to the forum 
+
+=====PC=====
+
+ Erdős Problems 
+
+ Forum 
+ Inbox 
+ Favourites 
+ Tags 
+
+ More 
+
+ FAQ 
+ Prizes 
+ Problem Lists 
+ Definitions 
+ Links 
+
+ Forum 
+
+ Menu 
+
+ Inbox 
+ Favourites 
+ Tags 
+ FAQ 
+ Prizes 
+ Problem Lists 
+ Definitions 
+ Links 
+
+ Go 
+
+ Go 
+
+ Random 
+
+Is there an integer $m\geq 1$ with $(m,6)=1$ such that none of $2^k3^\ell m+1$ are prime, for any $k,\ell\geq 0$?
+
+ #203 : [ErGr80,p.27] 
+
+ primes | 
+
+ covering systems 
+
+Positive odd integers $m$ such that none of $2^km+1$ are prime are called Sierpinski numbers - see [1113] for more details.
+
+Erdős and Graham also ask more generally about $p_1^{k_1}\cdots p_r^{k_r}m+1$ for distinct primes $p_i$, or $q_1\cdots q_rm+1$ where the $q_i$ are primes congruent to $1\pmod{4}$. (Dogmachine has noted in the comments this latter question has the trivial answer $m=1$ - perhaps some condition such as $m$ even is meant.)
+
+ Additional thanks to : Dogmachine and Wouter van Doorn
+
+ Proof expositions (0) 
+
+If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. 
+
+ No proof expositions yet.
+
+ Comments (15) 
+
+ Proof claims (0) 
+
+ More information and links 
+
+This page was last edited 20 January 2026.
+ ( View history ) ( View the LaTeX source ) 
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #203, https://www.erdosproblems.com/203, accessed 2026-10-12
+
+From the external database . (You can
+
+ help update
+ this.)
+
+ Formalised statement? 
+
+ Yes
+
+ Reactions 
+
+ Likes
+
+ None 
+
+ Open to collaboration
+
+ None 
+
+ Currently working on
+
+ uona , 
+
+ AnimishSharma 
+
+ Looks difficult
+
+ Dogmachine 
+
+ Looks tractable
+
+ None 
+
+ Could be formalisable
+
+ None 
+
+ Working on formalising
+
+ epassports 
+
+ No proof claims have been submitted yet.
+
+ Submit your own proof claim
+

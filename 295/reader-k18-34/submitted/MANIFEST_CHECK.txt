@@ -1,0 +1,6 @@
+2026-10-11 15:3xZ — the release files in this directory were fetched from
+https://raw.githubusercontent.com/qorud02/erdos-295-k18/v1.0.0/<file>; every fetched file matches the
+sha256 in the author's own manifest-sha256.json (22 match, 0 mismatch; not fetched: .gitattributes,
+.github/workflows/verify.yml, .gitignore, CITATION.cff, LICENSE). Zenodo record 23297810
+(created 2026-10-11T12:07:51Z, DOI 10.5281/zenodo.23297810) saved as zenodo-record-23297810.json.
+These are the submitter's files, kept for the record; nothing in them was executed on our side.

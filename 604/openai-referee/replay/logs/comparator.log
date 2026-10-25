@@ -1,0 +1,164 @@
+'OAI.WeakPinned.main' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}]
+OAI.WeakPinned.main : ∀ (s : Real)
+  (hs : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) s),
+  @Filter.Tendsto.{0, 0} Nat Real (fun (n : Nat) => OAI.WeakPinned.F n s) (@Filter.atTop.{0} Nat Nat.instPreorder)
+    (@nhds.{0} Real
+      (@UniformSpace.toTopologicalSpace.{0} Real (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace))
+      (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)))
+def OAI.WeakPinned.F : (n : Nat) → (s : Real) → Real :=
+fun (n : Nat) (s : Real) =>
+  @ite.{1} Real (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) n)
+    (Nat.decLe (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) n)
+    (@SupSet.sSup.{0} Real Real.instSupSet
+      (@Set.ofPred.{0} Real fun (a : Real) =>
+        @Exists.{1} (Finset.{0} OAI.WeakPinned.Plane) fun (P : Finset.{0} OAI.WeakPinned.Plane) =>
+          And (@Eq.{1} Nat (@Finset.card.{0} OAI.WeakPinned.Plane P) n)
+            (@Eq.{1} Real a (OAI.WeakPinned.pairFraction P s))))
+    (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+def OAI.WeakPinned.pairFraction : (P : Finset.{0} OAI.WeakPinned.Plane) → (s : Real) → Real :=
+fun (P : Finset.{0} OAI.WeakPinned.Plane) (s : Real) =>
+  @HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+    (@Nat.cast.{0} Real Real.instNatCast
+      (@Finset.card.{0} (Prod.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane) (OAI.WeakPinned.richPairs P s)))
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@Nat.cast.{0} Real Real.instNatCast (@Finset.card.{0} OAI.WeakPinned.Plane P))
+      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+        (@Nat.cast.{0} Real Real.instNatCast (@Finset.card.{0} OAI.WeakPinned.Plane P))
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))
+def OAI.WeakPinned.richPairs : (P : Finset.{0} OAI.WeakPinned.Plane) →
+  (s : Real) → Finset.{0} (Prod.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane) :=
+fun (P : Finset.{0} OAI.WeakPinned.Plane) (s : Real) =>
+  @Finset.filter.{0} (Prod.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane)
+    (fun (xy : Prod.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane) =>
+      And
+        (@Ne.{1} OAI.WeakPinned.Plane (@Prod.fst.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane xy)
+          (@Prod.snd.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane xy))
+        (@LE.le.{0} Real Real.instLE
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+            (@Nat.cast.{0} Real Real.instNatCast (@Finset.card.{0} OAI.WeakPinned.Plane P)) s)
+          (@Nat.cast.{0} Real Real.instNatCast
+            (OAI.WeakPinned.k P (@Prod.fst.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane xy)
+              (@Prod.snd.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane xy)))))
+    (fun (a : Prod.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane) =>
+      @instDecidableAnd
+        (@Ne.{1} OAI.WeakPinned.Plane (@Prod.fst.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a)
+          (@Prod.snd.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a))
+        (@LE.le.{0} Real Real.instLE
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+            (@Nat.cast.{0} Real Real.instNatCast (@Finset.card.{0} OAI.WeakPinned.Plane P)) s)
+          (@Nat.cast.{0} Real Real.instNatCast
+            (OAI.WeakPinned.k P (@Prod.fst.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a)
+              (@Prod.snd.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a))))
+        (@instDecidableNot
+          (@Eq.{1} OAI.WeakPinned.Plane (@Prod.fst.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a)
+            (@Prod.snd.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a))
+          (@WithLp.instDecidableEq.{0}
+            (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                  (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                PiLp.innerProductSpace._proof_1))
+            ((i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →
+              (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real) i)
+            (fun
+                (a b :
+                  (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →
+                    (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real) i) =>
+              @Fintype.decidablePiFintype.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real)
+                (fun (a : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real.decidableEq)
+                (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) a b)
+            (@Prod.fst.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a)
+            (@Prod.snd.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a)))
+        (Real.decidableLE
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+            (@Nat.cast.{0} Real Real.instNatCast (@Finset.card.{0} OAI.WeakPinned.Plane P)) s)
+          (@Nat.cast.{0} Real Real.instNatCast
+            (OAI.WeakPinned.k P (@Prod.fst.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a)
+              (@Prod.snd.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane a)))))
+    (@SProd.sprod.{0, 0, 0} (Finset.{0} OAI.WeakPinned.Plane) (Finset.{0} OAI.WeakPinned.Plane)
+      (Finset.{0} (Prod.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane))
+      (@Finset.instSProd.{0, 0} OAI.WeakPinned.Plane OAI.WeakPinned.Plane) P P)
+def OAI.WeakPinned.k : (P : Finset.{0} OAI.WeakPinned.Plane) → (x y : OAI.WeakPinned.Plane) → Nat :=
+fun (P : Finset.{0} OAI.WeakPinned.Plane) (x y : OAI.WeakPinned.Plane) =>
+  @Finset.card.{0} OAI.WeakPinned.Plane (OAI.WeakPinned.distanceFiber P x y)
+def OAI.WeakPinned.distanceFiber : (P : Finset.{0} OAI.WeakPinned.Plane) →
+  (x y : OAI.WeakPinned.Plane) → Finset.{0} OAI.WeakPinned.Plane :=
+fun (P : Finset.{0} OAI.WeakPinned.Plane) (x y : OAI.WeakPinned.Plane) =>
+  @Finset.filter.{0} OAI.WeakPinned.Plane
+    (fun (z : OAI.WeakPinned.Plane) =>
+      @Eq.{1} Real
+        (@Dist.dist.{0} OAI.WeakPinned.Plane
+          (@PiLp.instDist.{0, 0}
+            (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                  (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                PiLp.innerProductSpace._proof_1))
+            (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real)
+            (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            fun (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) =>
+            @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+          z x)
+        (@Dist.dist.{0} OAI.WeakPinned.Plane
+          (@PiLp.instDist.{0, 0}
+            (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                  (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                PiLp.innerProductSpace._proof_1))
+            (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real)
+            (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            fun (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) =>
+            @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+          y x))
+    (fun (a : OAI.WeakPinned.Plane) =>
+      Real.decidableEq
+        (@Dist.dist.{0} OAI.WeakPinned.Plane
+          (@PiLp.instDist.{0, 0}
+            (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                  (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                PiLp.innerProductSpace._proof_1))
+            (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real)
+            (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            fun (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) =>
+            @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+          a x)
+        (@Dist.dist.{0} OAI.WeakPinned.Plane
+          (@PiLp.instDist.{0, 0}
+            (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                  (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                PiLp.innerProductSpace._proof_1))
+            (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real)
+            (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            fun (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) =>
+            @PseudoMetricSpace.toDist.{0} Real Real.pseudoMetricSpace)
+          y x))
+    (@Finset.erase.{0} OAI.WeakPinned.Plane
+      (fun (a b : OAI.WeakPinned.Plane) =>
+        @WithLp.instDecidableEq.{0}
+          (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+              (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+              PiLp.innerProductSpace._proof_1))
+          ((i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →
+            (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real) i)
+          (fun
+              (a b :
+                (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →
+                  (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real) i) =>
+            @Fintype.decidablePiFintype.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real)
+              (fun (a : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real.decidableEq)
+              (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) a b)
+          a b)
+      P x)

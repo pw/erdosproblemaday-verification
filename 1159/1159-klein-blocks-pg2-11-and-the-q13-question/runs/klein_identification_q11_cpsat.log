@@ -1,0 +1,6 @@
+stabilizer order 168
+element orders {1: 1, 2: 21, 3: 56, 4: 42, 7: 48}
+involutions 21 distinct centres 21 centres ⊆ S: True centres == S: True
+points of S on each involution axis: {4: 21}
+orbit of one point of S under G has size 21 (transitive on S: True )
+PSL(2,7) census (1,21,56,42,48) matches: True

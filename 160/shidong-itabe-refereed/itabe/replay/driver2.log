@@ -1,0 +1,46 @@
+[2026-10-13T18:17:55Z] check_release row: their_check_release 0 174
+[2026-10-13T18:17:55Z] oleans built: 20 of 21
+[2026-10-13T18:17:55Z] BEGIN build2 :: nice -n 19 lake build ErdosProblems
+Build completed successfully (8496 jobs).
+[2026-10-13T18:18:06Z] END build2 rc=0 elapsed=11s
+[2026-10-13T18:18:06Z] BEGIN their_audit2 :: bash -c nice -n 19 lake env lean --trust=0 AxiomAudit.lean > /tmp/erdos160/itabe/lean-build/their_axioms.log 2>&1
+[2026-10-13T18:18:14Z] END their_audit2 rc=0 elapsed=8s
+[2026-10-13T18:18:14Z] BEGIN our_audit2 :: bash -c nice -n 19 lake env lean --trust=0 /tmp/erdos160/itabe/lean-build/Axioms160.lean > /tmp/erdos160/itabe/lean-build/axioms.log 2>&1
+[2026-10-13T18:18:22Z] END our_audit2 rc=0 elapsed=8s
+[2026-10-13T18:18:22Z] BEGIN negcontrol2 :: bash -c nice -n 19 lake env lean /tmp/erdos160/itabe/lean-build/NegControl.lean > /tmp/erdos160/itabe/lean-build/negcontrol.log 2>&1
+[2026-10-13T18:18:30Z] END negcontrol2 rc=0 elapsed=8s
+[2026-10-13T18:18:30Z] their_axioms.log:
+'ErdosProblems.E160.siteH_oneThirdPlusSubpower_unified_explicit_rational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ErdosProblems.E160.explicitUnifiedOneThirdThreshold_eq_displayed' depends on axioms: [propext, Quot.sound]
+'ErdosProblems.E160.siteH_oneThirdPlusSubpower_unified_displayed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ErdosProblems.E160.sourceSurjectiveOriginalH_oneThirdPlusSubpower_unified_explicit_rational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ErdosProblems.E160.siteH_oneThirdPlusEpsilon_unified_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblems.E160.siteH_le_rpow_oneThird_add_epsilon_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ErdosProblems.E160.sourceSurjectiveOriginalH_add_one_oneThirdPlusEpsilon_unified_isBigO' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ErdosProblems.E160.betterThanTensorUpper_unified_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblems.E160.sourceSurjectiveOriginalH_literal_distinct_two_characterization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[2026-10-13T18:18:30Z] axioms.log tail:
+ Quot.sound.{u}]
+'ErdosProblems.E160.siteH_oneThirdPlusSubpower_unified_displayed' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'ErdosProblems.E160.natCubicColour_abba_free' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'ErdosProblems.E160.siteH_eq_sourceSurjectiveOriginalH_add_one' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+[2026-10-13T18:18:30Z] negcontrol.log:
+/tmp/erdos160/itabe/lean-build/NegControl.lean:3:8: warning: declaration uses `sorry`
+'ErdosProblems.E160.negControl' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+[2026-10-13T18:18:30Z] DONE2

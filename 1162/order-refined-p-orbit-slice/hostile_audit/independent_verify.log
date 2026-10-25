@@ -1,0 +1,17 @@
+additive subspaces F_2^6: total=2825, full_by_rank={1: 1, 2: 121, 3: 670, 4: 480, 5: 57, 6: 1}
+additive subspaces F_3^4: total=212, full_by_rank={1: 8, 2: 84, 3: 36, 4: 1}
+additive subspaces F_5^3: total=64, full_by_rank={1: 16, 2: 28, 3: 1}
+complete S_5 lattice p=2: slice_counts={(1, 1): 10, (2, 1): 15, (2, 2): 15}
+complete S_5 lattice p=3: slice_counts={(1, 1): 10}
+complete S_5 lattice p=5: slice_counts={(1, 1): 6}
+collision audit S_8, p=2: frameworks=105, groups_by_rank={1: 105, 2: 1365, 3: 1155, 4: 105}
+collision audit S_9, p=3: frameworks=280, groups_by_rank={1: 1120, 2: 2800, 3: 280}
+exact p=2 middle slice at n=20: 52502131339708050
+bounded equation-(2) residuals p=2: 2.290356286, 2.040392248, 2.291165428, 2.041174704
+bounded equation-(2) residuals p=3: 1.626654048, 1.230462290, 1.627655883, 1.231427627
+bounded equation-(2) residuals p=5: 1.553856692, 0.973433310, 1.555058883, 0.974591702
+theta-ratio audit p=2, m=40: max_error=1.9311559417e-05
+theta-ratio audit p=2, m=41: max_error=1.95505285792e-05
+theta-ratio audit p=3, m=30: max_error=1.409318652e-06
+theta-ratio audit p=3, m=31: max_error=1.44029663796e-06
+INDEPENDENT PROBLEM 1162 FINITE AUDIT PASSED

@@ -1,0 +1,1 @@
+n=40 threshold=509 witness=PASS below=UNSAT nodes=1715

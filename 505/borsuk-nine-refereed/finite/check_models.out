@@ -1,0 +1,6 @@
+ten_lean_drop_nonempty.kissat.out             |Q|=  0 |T|=  0 violates=['nonempty']  OK
+ten_lean_drop_pair_count.kissat.out           |Q|= 10 |T|= 20 violates=['pair_count']  OK
+ten_lean_drop_pure.kissat.out                 |Q|=  5 |T|= 40 violates=['pure']  OK
+ten_lean_drop_nonempty.cadical.out            |Q|=  0 |T|=  0 violates=['nonempty']  OK
+ten_lean_drop_pair_count.cadical.out          |Q|= 64 |T|= 82 violates=['parity', 'pair_count']  OK
+ten_lean_drop_pure.cadical.out                |Q|=  5 |T|= 40 violates=['pure']  OK

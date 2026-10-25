@@ -1,0 +1,9 @@
+[2026-10-22T15:16:43Z] BEGIN cmpmod_HeilbronnTriangle
+[2026-10-22T15:16:49Z] END cmpmod_HeilbronnTriangle rc=0 6s
+[2026-10-22T15:16:49Z] BEGIN cmp_HeilbronnTriangle
+[2026-10-22T15:16:56Z] END cmp_HeilbronnTriangle rc=0 13s
+[2026-10-22T15:16:56Z] BEGIN ax_HeilbronnTriangle
+[2026-10-22T15:17:02Z] END ax_HeilbronnTriangle rc=0 19s
+[2026-10-22T15:17:02Z] BEGIN neg
+[2026-10-22T15:17:09Z] END neg rc=0 26s
+[2026-10-22T15:17:09Z] statement_match: FAIL HeilbronnTriangle: 13 MATCH / 1 MISMATCH 

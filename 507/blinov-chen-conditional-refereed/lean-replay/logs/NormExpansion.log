@@ -1,0 +1,3 @@
+'HeilbronnNorm.determinant_product_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnNorm.orbit_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1203288 wall=3s

@@ -1,0 +1,11 @@
+# seed=203 P=100 hard=1 gls=1 init=file tmin=12 tspan=24 stag=4000 kick=10 start tf=143 k5=0
+FEAS tf=78 iter=1 t=0.0 257d4 3c53c 30fe3 1dfc2 36e43 3e1c6 17b3d 17e2d 0bc6f 298dd 2699f 1a7dc 063c9 2ddf0 134fb 32b2a 0c8fe 0a637
+FEAS tf=52 iter=2 t=0.0 257d4 3c53c 30fe3 1dfc2 36e43 3e1c6 17b3d 17e2d 0bc6f 298dd 2699f 1a7dc 0e3c9 2ddf0 134fb 33b2a 0c8fe 0a637
+FEAS tf=35 iter=3 t=0.0 257d4 3c53c 30fe3 1dfc2 36e43 3e1c6 17b3d 17e2d 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b2a 0c8fe 0b637
+FEAS tf=28 iter=4 t=0.0 257d4 3c53c 30fe3 1dfc2 3ee43 3e1c6 17b3d 17e2d 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b3a 0c8fe 0b637
+FEAS tf=25 iter=3729 t=4.1 3dc4e 1bd15 307f3 2ef61 0bee6 35d5c 31a3d 2f714 1ecae 2e8dc 2a1bf 1837b 3e0f3 1579a 3b3a9 05f9b 07967 056ed
+FEAS tf=22 iter=3730 t=4.1 3dc4e 1bd15 307f3 2ef61 0bee6 35d5c 33a3d 2f714 1ecae 2e8dc 2a1bf 1837b 3e0f3 157da 3b3a9 05f9b 07967 056ed
+FEAS tf=21 iter=3731 t=4.1 3dc4e 1bd15 307f3 2ef61 0bee6 35d5c 33a3d 2f714 1ecae 3e8dc 2a1bf 1837b 3e0f3 157da 3b3a9 05f9b 07b67 056ed
+FEAS tf=18 iter=11997 t=14.2 3af90 3b4ec 2e96a 25756 1cf69 1d8d6 1723e 0ff23 25c9d 134d9 2939b 2e1b5 067ea 35ac7 039fc 30cb7 2a273 1ad0f
+END best_feas_tf=18 iters=113152 commits=113152 kicks=27 restarts=0 bumps=55943 t=150.0
+BESTFEAS 3af90 3b4ec 2e96a 25756 1cf69 1d8d6 1723e 0ff23 25c9d 134d9 2939b 2e1b5 067ea 35ac7 039fc 30cb7 2a273 1ad0f

@@ -1,0 +1,16 @@
+1/8 - 1/32 - 2/500 = 359/4000 = 0.08975 ; times 100 = 359/40
+certificate 1 + 100*margin = 399/40 > 2 : True   (e^x >= 1+x)
+l=100: exp(-(1/32+2/500)l) = 0.0294518073691 ; 2e^{-l/8} = 7.45330634416e-6 ; ratio = 3951.50903628
+criterion holds for every integer l in [100, 20000] (monotone in l)
+smallest l at which the second inequality holds: 8
+log(1-z) >= -2z on 10001-point grid of [0,1/2] incl. endpoints: True; at z=1/2: -0.6931471806 >= -1
+z_E at l=100 = e^{-100/32} = 0.04393693362 < 1/2: True
+  l=100: worst-case z_E*prod = 0.035810047  vs  paper lower bound 0.029451807  vs  2e^{-l/8} = 7.4533063e-6
+  l=101: worst-case z_E*prod = 0.034637372  vs  paper lower bound 0.028431716  vs  2e^{-l/8} = 6.5775198e-6
+  l=150: worst-case z_E*prod = 0.0067765295  vs  paper lower bound 0.0050543804  vs  2e^{-l/8} = 1.4388266e-8
+  l=1000: worst-case z_E*prod = 3.4677589e-15  vs  paper lower bound 4.9104299e-16  vs  2e^{-l/8} = 1.0332841e-54
+--- CONTROLS (each must FAIL) ---
+CONTROL l=7 (below lmin): False
+CONTROL per-label incident weight 1/20 instead of 1/500: margin = -1/160 ; criterion at l=100: False ; at l=10^6: False
+CONTROL log(1-z) >= -2z at z=0.8: False
+[wall 0.85 s, maxrss 18528 KB, exit 0]

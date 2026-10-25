@@ -1,0 +1,2 @@
+# Preserve the frozen auditor-authored README byte for byte.
+README.md whitespace=-blank-at-eof

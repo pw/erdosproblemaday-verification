@@ -1,0 +1,82 @@
+Erdos341.erdos_341_negative : And
+  (Erdos341.GreedyExtension Erdos341.Seed Erdos341.S (@OfNat.ofNat.{0} Nat (nat_lit 97) (instOfNatNat (nat_lit 97))))
+  (And
+    (@Exists.{1} Nat fun (i : Nat) =>
+      And (@Eq.{1} Nat (Erdos341.enumeration i) (@OfNat.ofNat.{0} Nat (nat_lit 97) (instOfNatNat (nat_lit 97))))
+        (∀ (j : Nat), @LE.le.{0} Nat instLENat i j → Erdos341.LeastGreedyStep Erdos341.enumeration j))
+    (Not (@Erdos341.EventuallyPeriodic Nat Erdos341.gap)))
+def Erdos341.GreedyExtension : (A X : Nat → Prop) → (N : Nat) → Prop :=
+fun (A X : Nat → Prop) (N : Nat) =>
+  And (∀ (n : Nat), @LE.le.{0} Nat instLENat n N → Iff (X n) (A n))
+    (∀ (n : Nat), @LT.lt.{0} Nat instLTNat N n → Iff (X n) (Not (Erdos341.PairSum X n)))
+def Erdos341.LeastGreedyStep : (a : Nat → Nat) → (i : Nat) → Prop :=
+fun (a : Nat → Nat) (i : Nat) =>
+  And
+    (@LT.lt.{0} Nat instLTNat (a i)
+      (a
+        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) i
+          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+    (And
+      (Not
+        (Erdos341.PrefixPairSum a i
+          (a
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) i
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+      (∀ (t : Nat),
+        @LT.lt.{0} Nat instLTNat (a i) t →
+          @LT.lt.{0} Nat instLTNat t
+              (a
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) i
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))) →
+            Erdos341.PrefixPairSum a i t))
+def Erdos341.PrefixPairSum : (a : Nat → Nat) → (i t : Nat) → Prop :=
+fun (a : Nat → Nat) (i t : Nat) =>
+  @Exists.{1} Nat fun (j : Nat) =>
+    And (@LE.le.{0} Nat instLENat j i)
+      (@Exists.{1} Nat fun (k : Nat) =>
+        And (@LE.le.{0} Nat instLENat k i)
+          (@Eq.{1} Nat (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (a j) (a k)) t))
+def Erdos341.EventuallyPeriodic : {α : Type} → (f : Nat → α) → Prop :=
+fun {α : Type} (f : Nat → α) =>
+  @Exists.{1} Nat fun (N : Nat) =>
+    @Exists.{1} Nat fun (p : Nat) =>
+      And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) p)
+        (∀ (n : Nat),
+          @LE.le.{0} Nat instLENat N n →
+            @Eq.{1} α (f (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) n p)) (f n))
+def Erdos341.PairSum : (X : Nat → Prop) → (n : Nat) → Prop :=
+fun (X : Nat → Prop) (n : Nat) =>
+  @Exists.{1} Nat fun (a : Nat) =>
+    @Exists.{1} Nat fun (b : Nat) =>
+      And (X a) (And (X b) (@Eq.{1} Nat (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) a b) n))
+def Erdos341.Seed : ℕ → Prop :=
+fun n =>
+  n = 1 ∨
+    n = 2 ∨
+      n = 3 ∨
+        n = 5 ∨
+          n = 7 ∨
+            n = 13 ∨
+              n = 22 ∨
+                n = 27 ∨
+                  n = 28 ∨
+                    n = 32 ∨
+                      n = 36 ∨ n = 40 ∨ n = 47 ∨ n = 48 ∨ n = 52 ∨ n = 63 ∨ n = 71 ∨ n = 77 ∨ n = 81 ∨ n = 89 ∨ n = 97
+def Erdos341.S : ℕ → Prop :=
+fun n =>
+  Erdos341.D n ∨
+    Erdos341.B (Erdos341.residue n) ∨
+      n % 49 = 7 ∧ Erdos341.Y0 (n / 49) ∨ n % 49 = 14 ∧ Erdos341.Y1 (n / 49) ∨ n % 49 = 28 ∧ Erdos341.Y2 (n / 49)
+def Erdos341.enumeration : ℕ → ℕ :=
+fun n => Erdos341.enumOf Erdos341.S n
+def Erdos341.gap : ℕ → ℕ :=
+fun n => Erdos341.gapOf Erdos341.S n
+def Erdos341.enumOf : (ℕ → Prop) → ℕ → ℕ :=
+fun X n => Nat.nth X n
+def Erdos341.gapOf : (ℕ → Prop) → ℕ → ℕ :=
+fun X n => Erdos341.enumOf X (n + 1) - Erdos341.enumOf X n
+'Erdos341.erdos_341_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos341.S_is_greedy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos341.least_next_rule_after_fixed_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos341.gap_not_eventuallyPeriodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos3417p.theorem_5_1_nonperiodicity' depends on axioms: [propext, Classical.choice, Quot.sound]

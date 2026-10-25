@@ -1,0 +1,9 @@
+locally K3 (k=3, |Aut X|=6), NMAX=30
+  FOUND locally-X graph on 4 vertices, 6 edges  (search nodes 4, 0s)  graph6 C~
+DONE: 1 graph(s) up to isomorphism: [(4, 6)]; search nodes 4; 0.0s
+locally C4 (k=4, |Aut X|=8), NMAX=30
+  FOUND locally-X graph on 6 vertices, 12 edges  (search nodes 6, 0s)  graph6 E|tw
+DONE: 1 graph(s) up to isomorphism: [(6, 12)]; search nodes 6; 0.0s
+locally C5 (k=5, |Aut X|=10), NMAX=30
+  FOUND locally-X graph on 12 vertices, 30 edges  (search nodes 13, 0s)  graph6 K|fJAKqEGY_^
+DONE: 1 graph(s) up to isomorphism: [(12, 30)]; search nodes 13; 0.0s

@@ -1,0 +1,24 @@
+snapshot=site_index_20260811.js sha256=b7111451218492db6756cc88dde0a8b98700d4c6f47e476171a02950b6d9af8b digest_match=1 distinct_structured_numbers=72 exact_196_count=0
+snapshot=site_index_20260811.js phrase='monotone arithmetic progression' count=0
+snapshot=site_index_20260811.js phrase='monotone 4-term' count=0
+snapshot=site_index_20260811.js phrase='monotone 3-term' count=0
+snapshot=site_index_20260811.js phrase='monotone ap' count=0
+snapshot=site_index_20260811.js phrase='permutation avoiding' count=0
+snapshot=site_index_20260811.js phrase='permutations avoiding' count=0
+snapshot=site_index_20260811.js phrase='4-ap-free permutation' count=0
+snapshot=site_index_20260811.js phrase='3-ap-free permutation' count=0
+snapshot=site_index_20260811.js phrase='HasMonotoneAP' count=0
+snapshot=site_ledger_data_20260811.js sha256=9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052 digest_match=1 distinct_structured_numbers=532 exact_196_count=0
+snapshot=site_ledger_data_20260811.js phrase='monotone arithmetic progression' count=0
+snapshot=site_ledger_data_20260811.js phrase='monotone 4-term' count=0
+snapshot=site_ledger_data_20260811.js phrase='monotone 3-term' count=0
+snapshot=site_ledger_data_20260811.js phrase='monotone ap' count=0
+snapshot=site_ledger_data_20260811.js phrase='permutation avoiding' count=0
+snapshot=site_ledger_data_20260811.js phrase='permutations avoiding' count=0
+snapshot=site_ledger_data_20260811.js phrase='4-ap-free permutation' count=0
+snapshot=site_ledger_data_20260811.js phrase='3-ap-free permutation' count=0
+snapshot=site_ledger_data_20260811.js phrase='HasMonotoneAP' count=0
+exact_196_total=0
+framework_phrase_total=0
+audit_discrepancies=0
+wall_seconds=0.58 max_rss_kb=36308 exit_status=0

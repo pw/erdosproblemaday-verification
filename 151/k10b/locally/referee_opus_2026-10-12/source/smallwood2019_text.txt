@@ -1,0 +1,2163 @@
+University of Alabama in Huntsville
+LOUIS
+
+Theses                                                             UAH Electronic Theses and Dissertations
+
+
+2019
+
+Classification of graphs that are locally Mobius ladder
+Colton W. Smallwood
+
+
+
+
+Follow this and additional works at: https://louis.uah.edu/uah-theses
+
+
+Recommended Citation
+Smallwood, Colton W., "Classification of graphs that are locally Mobius ladder" (2019). Theses. 296.
+https://louis.uah.edu/uah-theses/296
+
+
+This Thesis is brought to you for free and open access by the UAH Electronic Theses and Dissertations at LOUIS. It
+has been accepted for inclusion in Theses by an authorized administrator of LOUIS.
+CLASSIFICATION OF GRAPHS THAT ARE LOCALLY
+                  MOBIUS LADDER
+
+
+
+
+                           by
+
+
+
+
+              COLTON W. SMALLWOOD
+
+
+
+
+                       A THESIS
+
+
+
+
+   Submitted in partial fulfillment of the requirements
+          for the degree of Masters of Science
+                             in
+            The Department of Mathematics
+                             to
+            The School of Graduate Studies
+                             of
+       The University of Alabama in Huntsville
+
+
+
+
+              HUNTSVILLE, ALABAMA
+
+                          2019
+                       ACKNOWLEDGEMENTS
+
+        To the greatest extent, I owe a debt of thanks to my advisor Dr. Guo-Hui Zhang
+
+who always remains patient when my work falls short, offers guidance when the path is
+
+unclear, and shows genuine concern for my growth as a mathematician. From start to
+
+finish, this thesis would not have been possible without your help.
+
+
+
+       To the department of Mathematical Sciences that has become my home away
+
+from home, I would like to thank the lecturers and students that have supported my
+
+work. In particular, I owe a special thanks to Dr. Boris Kunin and Dr. Shangbing Ai
+
+for serving on my thesis committee and for offering constructive questions, comments,
+
+and concerns.
+
+
+
+       To my parents and extended family, I am beyond privileged to have role models
+
+who support my education and who live as embodiments of strength, wisdom, and love.
+
+My success will forever be a result of everything that you have sacrificed.
+
+
+
+       To my dear friends whose company lifts me out of the darkest times, thank you
+
+for your continual kindness and support. The world is a brighter place with you in it.
+
+
+
+
+                                           v
+                         TABLE OF CONTENTS
+
+                                                                                    PAGE
+
+LIST OF FIGURES                                                                             viii
+
+
+LIST OF SYMBOLS                                                                              ix
+
+
+1 INTRODUCTION TO LOCAL GRAPHS                                                                1
+  1.1   General Concepts and Notations . . . . . . . . . . . . . . . . . . . . . .            1
+
+  1.2   Definition of Local Graph . . . . . . . . . . . . . . . . . . . . . . . . . .         3
+
+  1.3   Additional Comments . . . . . . . . . . . . . . . . . . . . . . . . . . . .           3
+
+
+2 SURVEY OF LOCAL GRAPHS                                                                      5
+  2.1   Locally Kn and Locally Tetrahedron . . . . . . . . . . . . . . . . . . . .            5
+
+  2.2   Locally Cube . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        6
+
+  2.3   Locally Dodecahedron . . . . . . . . . . . . . . . . . . . . . . . . . . . .          7
+
+  2.4   Locally Icosehedron     . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     8
+
+  2.5   Locally Cnk   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     8
+
+  2.6   Locally Grid and Locally Grid Complement . . . . . . . . . . . . . . . .              9
+
+  2.7   Locally Petersen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       10
+
+  2.8   Locally Petersen or K3,3 . . . . . . . . . . . . . . . . . . . . . . . . . . .       11
+
+  2.9   Other Results: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       12
+
+
+3 THE MOBIUS LADDER                                                                         14
+  3.1   Definition of (Z17 , Q) . . . . . . . . . . . . . . . . . . . . . . . . . . . .      15
+
+  3.2   Properties of M8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       16
+
+
+4 LOCALLY M8 GRAPHS                                                                         17
+
+5 CONCLUSION                                                                                31
+
+REFERENCES                                                                                   32
+
+
+APPENDIX A                                                                                   34
+
+
+                                             vi
+APPENDIX B         35
+
+
+APPENDIX C         36
+
+
+
+
+             vii
+                   LIST OF FIGURES
+
+
+
+
+Figure                                           Page
+
+
+
+Paths and Cycles                                 2
+
+
+
+Fano Plane and Subgraph with Edge Deletion       4
+
+
+
+Complete Graph                                   5
+
+
+
+24-Cell and (3.5)-Grid Compliment                7
+
+
+
+Powers of C12                                    9
+
+
+
+Petersen Graph                                   11
+
+
+
+Mobius Ladder with 8 Vertices                    14
+
+
+
+Mobius Ladder Induced by the Neighborhood of 0   15
+
+
+
+Three Types of P4 Subgraphs                      20
+
+
+
+Graph Representations of an Icosehedron          23
+
+
+
+
+                                viii
+         LIST OF SYMBOLS
+
+
+
+
+Symbol     Definition
+
+
+
+Gc         Complement of G
+
+
+
+Di (x)     Set of all vertices distance i from x
+
+
+
+d(x)       Degree of x
+
+
+
+d(x,y)     Distance between x and y
+
+
+
+E(G)       Edge Set of G
+
+
+
+Gx,y       Graph Induced by the Shared Neighborhood
+
+
+
+Gx|y       Graph Induced by the Exclusive Neighborhood
+
+
+
+Kn         Complete Graph with n Vertices
+
+
+
+N[x]       Closed Neighborhood of x
+
+
+
+N(x)       Open Neighborhood of x
+
+
+
+N(x,y)     Shared Neighborhood of x and y
+
+
+
+
+                   ix
+N(x|y)   Exclusive Neighborhood of x to y
+
+
+
+V(G)     Vertex Set of G
+
+
+
+<S>      Graph Induced by Set of Vertices S
+
+
+
+
+                 x
+                  1    INTRODUCTION TO LOCAL GRAPHS
+
+           The following definitions and notations will be employed throughout the chap-
+
+ters as a means of clarifying the propositions and proof strategies developed for local
+
+graphs. Any terms which are confined to a single paragraph or chapter will therein be
+
+defined.
+
+
+
+1.1   General Concepts and Notations
+
+           Using conventional definitions, a graph consists of a finite set of elements called
+
+”vertices” and a set of unordered pairs of these elements called ”edges.” We say that two
+
+vertices x and y are adjacent when {x,y} is an edge in the graph. We denote adjacent
+
+and nonadjacent vertices as x ~ y and x 6∼ y respectively. For this thesis, all graphs
+
+will be assumed to be simple, undirected graphs containing no loops nor multiedges.
+
+
+
+       Let G be a graph. A graph H is a subgraph of G when V(H) ⊆ V(G) and
+
+E(H) ⊆ E(G). Given a subset of vertices S ⊆ V(G), we denote the graph induced by
+
+the vertices of S as <S>. Two graphs G and H are isomorphic graphs, denoted G = H,
+
+when there exists a bijective mapping f such that {x,y} ∈ E(G) if and only if {f(x),f(y)}
+
+∈ E(H). For any two graphs G and H, we say that a graph G is H-free when G contains
+
+no subgraph isomorphic to H. It is important to note that claiming two graphs are
+
+equivalent would require the vertex sets and edge sets to be equivalent; however, unless
+
+otherwise stated, the relation ”=” will refer to isomorphisms between the two graphs
+
+rather than the equality of the graphs.
+
+
+
+       For any vertex x, the neighborhood N(x) is the set of all vertices in V(G) adjacent
+
+to x. More generally, for any graph H containing x as a vertex, NH (x) denotes the set
+
+of vertices in H adjacent to x.      Thus, we often refer to a vertex adjacent to x as a
+
+”neighbor” of x. Using set operations, we define the following values, sets, and graphs.
+
+The degree of x with respect to graph H, denoted dH (x), is the cardinality of NH (x).
+
+
+                                               1
+The closed neighborhood of x is N[x] = N(x)∪{x}; otherwise, we assume any use ”neigh-
+
+borhood” to refer to the open neighborhood N(x). For any two vertices x and y, the
+
+shared neighborhood N(x,y) denotes the set N(x)∪N(y).         In contrast, the exclusive
+
+neighborhood of x with respect to y is N(x|y) = N(x)/N[y]. Finally, we have the two
+
+induced graphs Gx,y = <N(x,y)> and Gx|y = <N(x|y)>.
+
+
+
+        We denote paths and cycles containing n vertices as Pn and Cn respectively. For
+
+Pn and Cn , we call the integer n the ”length” of the path or cycle, and we often refer
+
+to a cycle of length 3 as a triangle. Given two vertices x,y ∈ V(G), the distance from
+
+x to y in the graph G is defined as the path of shortest length, only containing vertices
+
+in V(G), which connects x to y. We denote this minimum length with respect to G as
+
+dG (x,y).
+
+
+
+
+                               Figure 1.1 Paths and Cycles
+
+
+
+
+        Let S be a subset of V(G). The set S is an independent set of G when no two
+
+vertices in S are adjacent. The set S is a dominating set of G when every vertex in
+
+V(G) is either an element in S or adjacent to an element in S. The domination number
+
+of a graph G refers to the minimum cardinality among all dominating sets of G. If the
+
+vertices of a graph G can be partitioned into k sets of independent vertices, then we say
+
+that G is a k-partite graph.
+
+
+
+        Since adjacency is a binary relationship, the complement of a graph is easily
+
+defined. For a graph G, we define the complement of G as Gc such that V(Gc ) = V(G)
+
+and an edge {x,y} is in E(Gc ) if and only if {x,y} is not in E(G). Thus, G and Gc have
+
+the same vertices but opposite edge relations.
+
+
+
+                                           2
+       A graph T is called a tree when T is connected and does not contain any cycle
+
+subgraphs. The 3-Claw graph, also known as the star graph with 4 vertices, is a graph
+
+that appears in a few of the chapters. A star graph with n vertices is a tree where one
+
+vertex is adjacent to all other n-1 vertices. Thus, the 3-Claw is a tree with 4 vertices
+
+such that one central vertex is adjacent to the other 3 vertices.
+
+
+
+
+1.2   Definition of Local Graph
+
+        A graph G is a local graph when for all vertices x,y ∈ V(G), <N(x)> = <N(y)>.
+
+For a particular graph H, G is an H-Local graph when <N(x)> = H for every vertex x
+
+∈ V(G). In other words, if G is an H-local graph and x is any vertex in V(G), then the
+
+neighborhood N(x) induces a subgraph isomorphic to H.
+
+
+
+       Although this thesis will only use the term ”local” or ”H-local”, a range of terms
+
+have been used by other authors to refer to the same topic. Some authors, such as Hell
+
+[10] or Topp and Volkmann [12], refer to local graphs as realizable graphs or neighbor-
+
+hood graphs. For a general graph H, the existence for H-local graphs is still an open
+
+question. This existence problem is sometimes referred to as the ”Trahtenbrot-Zykov
+
+Problem” [4].
+
+
+
+       The Trahtenbrot-Zykov problem is considerably difficult when H is a compli-
+
+cated graph. For example, Bugata [4] has shown that if H is 3-regular, triangle-free,
+
+and Hamiltonian, then the construction of an H-local graph is NP-complete. For sim-
+
+pler graphs, like trees, the construction is significantly easier. For a given tree T, there
+
+exists a polynomial-time algorithm for determining if a T-local graph exists [4].
+
+
+
+
+1.3   Additional Comments
+
+        To avoid obvious or degenerate cases for H-local graphs, we will only consider
+
+local graphs that are connected. Clearly, if G is an H-local graph, then we can construct
+
+another H-local graph G’ that consists of two disconnected G components. We are not
+
+
+
+
+                                             3
+interested in these infinite classes of disconnected graphs.   To avoid vacuous cases,
+
+we also assume that G and H each contain at least one vertex.
+
+
+
+       Let H be some proper subgraph of G. Unless stated otherwise, we assume that
+
+the only edges removed from the subgraph H were edges containing vertices in
+
+V(G)-V(H). In Figure 2, although the graph on the right is a subgraph of the Fano
+
+plane (on the left), we will not be considering these types of subgraphs. Edge deletions
+
+in a subgraph will only occur when at least one of the vertices in the edge is deleted
+
+(unless stated otherwise).
+
+
+
+
+               Figure 1.2 Fano Plane and Subgraph with Edge Deletion
+
+
+
+
+       In chapter 2, a survey of local graphs is given which contains many references
+
+to geometric structures.     Although these terms normally refer to a figure containing
+
+infinitely many points in geometric space, the uses of the terms in this thesis refer to
+
+finite graph representations of those figures. Each of these geometric terms, such as
+
+”cube” or ”hyperoctahedron”, is intended to be considered as a graph G with finite sets
+
+V(G) and E(G). The vertices of these graphs denote the points of the geometric figures,
+
+and the graph edges correspond to the geometric edges.
+
+
+
+
+                                            4
+                      2    SURVEY OF LOCAL GRAPHS
+
+         For each example given in this chapter, let G and H be graphs such that G is an
+
+H-local graph. This chapter of the thesis offers a survey of results in the field of local
+
+graphs. Although most of the survey consists of results involving constructions of G
+
+from H, a few comments will be given for finding a graph H from a chosen local graph G.
+
+
+
+2.1     Locally Kn and Locally Tetrahedron
+
+          A complete graph, denoted Kn , is a graph with n vertices such that any two
+
+distinct vertices are adjacent. In terms of set theory, the set of edges E(G) consists of
+
+all   n
+      2 unordered pairs of elements from V(G).   Thus, complete graphs are graphs with
+
+maximum connectedness.
+
+
+
+
+                              Figure 2.1 Complete Graphs
+
+
+
+
+         In terms of existence and uniqueness, complete graphs are very simple examples
+
+of local graphs.   Consider a vertex x in the graph Kn .      Since Kn is complete, the
+
+neighborhood N(x) contains all other n-1 vertices. Note that any two distinct vertices
+
+from the n-1 neighbors of x are adjacent, thus <N(x)> = Kn-1 . So, we have a very nice
+
+relation among the complete graphs. For every nonnegative integer n, Kn+1 is the only
+
+Kn -local graph.
+
+
+
+
+                                            5
+        Since tetrahedron can be represented as the complete graph K4 , we know that
+
+K5 is the unique tetrahedron-local graph. As we will see in the next few sections, the
+
+platonic solids are closely tied to local graphs. Unfortunately, these connections are not
+
+as obvious as the tetrahedron case.
+
+
+
+        As a final note on locally complete graphs, we can easily extend the results of
+
+Kn -local graphs to Kn,n -local graph, where Kn,n denotes a complete bipartite graph.
+
+Using similar reasoning, we can see that the complete tripartite Kn,n,n is the only Kn,n -
+
+local graph. Likewise, this can also be extended to k-partite graphs such as Kn,n,...,n .
+
+
+
+
+2.2    Locally Cube
+
+         Although the structures known as ”polytopes” requires a great deal of explana-
+
+tion, this thesis only needs the structure of an n-cell in order to survey Buset’s results
+
+concerning cube-local graphs. An n-cell is a polytope containing n distinct tetrahedron
+
+(or n distinct K4 subgraphs). In paritcular, Buset considers the 24-cell which can also
+
+be defined from the standard basis of R4 [5]. For more details regarding polytopes and
+
+cells, see Coxeter’s text [7].
+
+
+
+        In addition to n-cells, we define a (n,m)-Grid to be the graph constructed by the
+
+Cartesian Product Kn Km . We now have all necessary definitions for stating Buset’s
+
+primary theorem concerning cube-local graphs; a graph is cube-local if and only if G is
+
+isomorphic to the 24-Cell or the complement of the (3,5)-Grid [5].
+
+
+
+
+                                            6
+                    Figure 2.2 24-Cell and (3,5)-Grid complement
+
+
+
+
+2.3   Locally Dodecahedron
+
+        In her article concerning dodecahedron-local graphs, Cruyce gives her own short
+
+survey concerning graphs which are locally polyhedron (specifically the platonic solids).
+
+For example, she records that the graph representation of the four-dimensional hyper-
+
+octahedron is the only octahedron-local graph [8].     She also includes our previously
+
+mentioned results concerning tetrahedra and cubes.
+
+
+
+       Interestingly, the case for dodecahedron-local graphs has shown itself to be the
+
+most diverse among the platonic solids. In fact, when H is isomorphic to one of the
+
+other platonic solids, there is finite number of H-local graphs. For dodecahedron case,
+
+there exist infinitely many graphs which are dodecahedron-local. Cruyce’s results [8]
+
+are concerned with constructions of a specific class of these dodecahedron-local graphs.
+
+
+
+       In order to construct the graphs, Cruyce begins with the projected geometry
+
+PG(1,29) and subgroups corresponding to conjugacies of the alternating group A5 on
+
+five elements. Using the computer program CAYLEY, a group of automorphisms G
+
+is shown to be isomorphic to the projected special linear group PSL(2,29). She then
+
+shows that the graph representation of G is dodecahedron-local [8].
+
+
+
+
+                                           7
+2.4    Locally Icosehedron
+
+        As both an impressive and satisfying result in the area of local graphs, a full
+
+classification of icosahedron-local graphs was found by Blokhuis, Brouwer, Cohen, and
+
+Buset. In their shared paper [3], it was shown that there exist only three icosehedron-
+
+local graphs. Also, it is shown that all three of these graphs are constructed from the
+
+600-Cell. If G is a icosahedron-local graph, then G is isomorphic to the 600-Cell, the
+
+600-Cell quotient with 60 vertices, or the 600-Cell quotient with 40 vertices.
+
+
+
+        Similar to Cruyce’s use of automorphisms in the dodecahedron-local construc-
+
+tion [8] (which was published only a few months earlier), a group of automorphisms Q
+
+is used to reduce the size of known icosahedron graphs. Beginning with the 600-Cell,
+
+the vertices can be partitioned then regrouped using elements of Q (and a few other de-
+
+signs) to construct smaller icosehedron graphs. This decrease in the number of vertices
+
+is reflected in the three cases of the mentioned result.
+
+
+
+
+2.5    Locally Cnk
+
+        Thanks to a collection of researchers [6], the family of graphs which have
+
+local properties related to cycles is well known. Earlier we addressed the graphs which
+
+were locally polytopes: tetrahedron, octahedron, etc. Now we will look at some local
+
+properties of these polytopic graphs. For example, the tetrahedron is the only C3 -local
+
+graph. This result is just a restating of the Kn results since a tetrahedron is K4 and C3
+
+= K3 . In addition, the octahedron is the only C4 -local graph, and the icosahedron is
+
+the only C5 -local graph. Finally, for n ≥ 6, there exist infinitely many Cn -local graphs
+
+[6].
+
+
+
+        Although the class of cycle-local graphs has been fully determined, Buset’s work
+
+with graph powers generalizes the result. For any graph G, let Gk denote a graph with
+
+the same set of vertices and edges as G with added edges {x,y} for every pair of vertices
+
+x,y ∈ V(G) such that dG (x,y) ≤ k. In other words, the graph Gk is a direct construc-
+
+tion from G by joining any vertices whose distance is k or less. As a trivial example, any
+
+
+
+                                            8
+graph G is isomorphic to G1 . Also, for any pair of integers n ≤ m, the set of edges
+
+E(Gn ) will be a subset of E(Gm ).
+
+
+
+        Let k and n be integers such that 2 ≤ k < n. Using these powers of graphs,
+
+Buset proves that if G is Cnk -local graph, then G is isomorphic to Kn+1 when k+1 ≤ n,
+
+or G is isomorphic to the complete (k+2)-partitite graph when n = 2k+2. When n ≥
+
+2k+3, no Cnk -local graph exists [6].
+
+
+
+
+                                 Figure 2.3 Powers of C12
+
+
+
+
+2.6   Locally Grid and Locally Grid Complement
+
+        When discussing graphs which are locally (n,m)-Grids, it is crucial to discuss
+
+a problem concerning Johnson Graphs. As addressed by Blokhuis and Brouwer [2], it
+
+is still an open question as to whether or not there exists a general method for finding
+
+grid-local graphs that are not Johnson graphs.     Their summary of the problem and
+
+results concerning grids and Johnson graphs are given below.
+
+
+
+        As mentioned in the section on cube-local graphs, the (n,m)-Grid graph is the
+
+Cartesian product Kn Km . The Johnson graph JG nk is a graph such that the vertex
+                                                       
+
+
+set is the set of all k-sized subsets of n elements, and two vertices are adjacent if and
+
+only if the subsets differ by exactly one element. Two powerful relations between grids
+
+and Johnson graphs have already been found [2]. First, every Johnson graph JG nk
+                                                                                        
+
+
+is a (n,n-k)-Grid-local graph.    Secondly, if G is a (2,m)-Grid-local graph, then G is
+
+isomorphic to JG m+2
+                  2 .
+                       
+
+
+
+
+                                            9
+       In order to study this open problem, Blokhuis and Brouwer consider (n,m)-Grid-
+
+local graphs with the additional property that for any pair of vertices x,y such that d(x,y)
+
+= 2, the graph induced by their shared neighborhoods <N(x,y)> is isomorphic to C4 .
+
+Let G be a (k,n-k)-Grid-local graph such that <N(x,y)> = C4 for any pair of distance
+
+2 vertices x,y. Then G = JG nk , or n = 2k and G is constructed from JG nk =JG 2k
+                                                                                        
+                                                                               k
+
+using a permutation σ on the n elements.
+
+
+
+       The final conclusion of their paper concerns (4,4)-Grid-local graph, and this re-
+
+sult does not require the C4 assumptions mentioned previously. Let G be a (4,4)-Grid-
+
+local graph. Then G is isomorphic to JG 84 , G is isomorphic to the quotient-Johnson
+                                              
+
+
+graph 12 JG 84 , or G is one of two graphs constructed by Blokhuis and Brouwer [2], each
+                
+
+
+containing 40 vertices.
+
+
+
+       As a final comment to her paper [5], Buset shares a result communicated to her
+
+by Brouwer concerning graphs which are locally the complement of the (n,m)-Grid. Let
+
+(n, m) denote the complement of (n,m)-Grid. In the section on cube-local graphs, Buset
+
+proved that the complement of (3,3)-Grid is a cube-local graph; however, we are now
+
+considering the graphs which are locally (n, m) rather than the local properties of (n, m).
+
+
+
+       The theorem given by Buset states that there are only three types of (n, m)-
+
+local graphs. If graph G is (n, m)-local, then G is isomorphic to (n + 1, m + 1), G is
+
+isomorphic to the 24-Cell where n = 4 and m = 2, or G is isomorphic to the Johnson
+
+graph JG 63 with 20 vertices where n = m = 3. Thus, unlike the locally grid graphs,
+            
+
+
+the graphs which are locally grid complement have been fully classified [5].
+
+
+
+
+2.7   Locally Petersen
+
+        In one of the most well known results in the area of local graphs, Hall shows
+
+that there exist exactly three graphs which are Petersen-local [9]. To mirror a definition
+
+used by Hall [9] and separately by West [14], the vertices of the Petersen graph are the
+
+ten unordered pairs of elements chosen from {1,2,3,4,5} where {u,v} ~ {x,y} if and only
+
+if {u,v} and {x,y} are disjoint.
+
+
+                                            10
+                               Figure 2.4 Petersen Graph
+
+
+
+       For a few proofs, Hall also gives two other definitions of the Petersen graph
+
+involving line graphs and triangular graphs. Let G be a graph. Then L is the line
+
+graph of G when V(L) is the set of unordered pairs in E(G) and two of these pairs are
+
+adjacent if and only if they share a vertex component. We define triangular graphs Tn
+
+as the line graphs of Kn . Interestingly enough, the Petersen graph can be defined using
+
+triangular graphs in two ways: the Petersen graph is isomorphic to the complement of
+
+T5 , and for any vertex x in the complement of T7 , the Petersen graph is isomorphic to
+
+the induced graph <N(x)> [9].
+
+
+
+       Thus, we have found the first (and simplest) of the Petersen-local graphs. Hall
+
+also notes that the Petersen graph can be constructed from the alternating group A7 us-
+
+ing automorphisms from the Galois Field GF(25). Hall refers to the complement of T7
+
+as Γ(1) [9]. A similar construction is performed to define Γ(2) and Γ(3) ; however, the con-
+
+structions are significantly more complicated. For Γ(2) , he uses the threefold cover of the
+
+alternating group A7 . For Γ(3) , he uses the projected special linear group PSL(2,25). In
+
+conclusion, Hall shows that these three constructions are the only Petersen-local graphs
+
+[9].
+
+
+
+
+2.8    Locally Petersen or K3,3
+
+         After the classification of Petersen local graphs was resolved, Hall proposed
+
+a question [1] that introduces a new class graphs with localized properties. Define a
+
+graph G to be {A,B}-local when for every vertex x ∈ V(G), <N(x)> = A or <N(x)> = B.
+
+
+
+                                            11
+Hall asked whether or not there exists a {T5c , K3,3 }-local graph, where the Petersen
+
+graph is represented as the complement of T5 .
+
+
+
+       For a set of six elements {1,2,3,4,5,6}, let A be the set of fifteen unordered pairs.
+
+For the same set, let B be the subset of partitions that consist of disjoint unordered
+
+3-tuples {{i,j,k},{l,m,n}}. For example, {{1,2,3},{4,5,6}} from B would be the same
+
+partition as {{2,3,1},{4,6,5}} and counted separately from {{1,3,5},{2,4,6}} since the
+
+two sets have been altered. To construct the graph G, let V(G) = A∪B. Two vertices
+
+from A are adjacent in G if and only if they are disjoint, and vertex a ∈ A is adjacent
+
+to vertex b ∈ B if and only if a is contained in one of the two sets of b. Call this graph
+
+G(25) due to the graph containing 25 vertices [1].
+
+
+
+       For any two graphs A and B, let G=A⊕B denote the graph constructed from A
+
+and B where V(G) is the disjoint union of V(A) and V(B) and {a,b} ∈ E(G) for all a
+
+∈ V(A) and all b ∈ V(B). Let G(13) denote the graph constructed by K3c ⊕ T5c . Let
+
+G denote some {Petersen, K3,3 }-local graph. If a neighborhood of x induces the Pe-
+
+tersen graph, we will say that x is a P-point. Otherwise, we will say that x is a K-point.
+
+
+
+       With these definitions, Blokhuis and Brouwer fully classify graphs which are
+
+{Petersen, K3,3 }-local. Then there is are only two possible graphs for G. If G contains
+
+4 K-points, then G = G(25). If G contains 10 K-points, then G = G(13).
+
+
+
+
+2.9   Other Results:
+
+        For graphs G1 and G2 , Hell showed that the Cartesian produce G1 G2 , the
+
+tensor product G1 ∧G2 , and the Lexicographic product G1 ♦G2 will preserves the local
+
+natures of the two graphs.     Let G1 and G2 be graphs which are locally H1 and H2
+
+respectively. Then G1 G2 is locally H1 H2 , G1 ∧G2 is locally H1 ∧H2 , and G1 ♦G2 is
+
+locally H2 +H1 ♦G2 [10]. In other words, if we seek to find a graph G that is H-local
+
+where H can be constructed from a product of H1 and H2 , then we can easily find the
+
+larger graph G from G1 and G2 . In addition to these product constructions, Hell also
+
+
+
+
+                                            12
+offers numerous existence theorems and inequality theorems concerning the properties
+
+of local graphs [10].
+
+
+
+        Using the structure of algebraic groups, Vince proves a relation between auto-
+
+morphic graphs and local graphs. Let Γ be a group with subgroups A and B as well as
+
+subset T = T-1 . Let G(Γ,A,B,T) denote a graph such that V(G) is the set of cosets gA,
+
+Ag, gB, and Bg for all g in Γ, and two vertices x,y are adjacent if and only if (x-1 y)∩T is
+
+empty. Vince then proves that a graph G is automorphic if and only if G = G(Γ,A,B,T)
+
+for some Γ, A, B, and T [13].
+
+
+
+
+                                            13
+                         3    THE MOBIUS LADDER
+
+       Suppose there exists a party such that every pair of attendees are either friends
+
+or strangers. Suppose also that every attendee has exactly 8 friends at the party such
+
+that these 8 friends can be seated around a table with the following properties: each
+
+person is friends with the person to his/her left and the person to his/her right, each
+
+person is friends with the person directly across the table from their seat, and each
+
+person is strangers with everyone else at the table. Using the party guests as vertices
+
+and assigning adjacencies if and only if the two guests are friends, we can study the
+
+structure of the party as a graph.
+
+
+
+       The purpose of of this section is to answer the following two questions concerning
+
+this party. How many people are attending the party? What structure does this party
+
+have? It is clear that the graph G is 8-regular; moreover, G is a local graph due to the
+
+neighborhood of a vertex corresponding to the seating of the 8 friends. For a vertex
+
+x ∈ V(G), the induced graph <N(x)> is isomorphic to the Mobius ladder containing 8
+
+vertices. Let this Mobius ladder be denoted M8 .
+
+
+
+
+                      Figure 3.1 Mobius Ladder with 8 Vertices
+
+
+
+
+                                          14
+3.1   Definition of (Z17 , Q)
+
+        Let Z17 denote the set of integers modulo 17. It’s clear that the set Z17 -{0}
+
+forms a group under multiplication. Since the element 3 generates the set Z17 -{0},
+
+
+
+          3n = {3, 9, 10, 13, 5, 15, 11, 16, 14, 8, 7, 4, 12, 2, 6, 1} = Z17 -{0},
+
+
+
+then we can easily find the set of quadratics Q of the multiplicative group,
+
+
+
+                          Q = 32n = {9, 13, 15, 16, 8, 4, 2, 1}.
+
+
+
+Let G = (Z17 , Q) be a graph such that V(G) = Z17 and two vertices x and y are
+
+adjacent if and only if (x-y) modulo 17 is a quadratic element. Now, it will be shown
+
+that G is a M8 -local graph.
+
+
+
+Proposition 3.1: The graph (Z17 , Q) is M8 -local.
+
+
+
+Proof. Note that for any quadratic element q ∈ Q, (q - 0) is still quadratic. Thus, the
+
+neighborhood of 0 is the set of quadratic elements. Also, for any element n ∈ Z17 , if 0 ~
+
+q, then n ~ (q + n) modulo 17. So, to prove that (Z17 , Q) is M8 -local, it is sufficient to
+
+show that <N(0)> = M8 . In other words, we simply need to show that the quadratic
+
+elements Q form a Mobius ladder. 
+
+
+
+
+             Figure 3.2 Mobius Ladder Induced by the Neighborhood of 0
+
+
+
+
+                                            15
+3.2   Properties of M8
+
+        For the proofs in chapter 4, the following properties of Lemma 3.1 will be fre-
+
+quently used.   Although no proof is given for any of the properties, they are easily
+
+confirmed. There are many interesting and useful properties for M8 ; however, only the
+
+seven properties used in chapter 4 have been listed in following lemma.
+
+
+
+Lemma 3.1:
+
+(i) The graph M8 is triangle-free and 3-regular.
+
+(ii) For any vertex x in M8 , the graph induced by N(x) is a 3-Claw.
+
+(iii) For any vertex x in M8 , the subgraph induced by the vertices not in the closed
+
+neighborhood of x is isomorphic to P4 .
+
+(iv) Let V(M8 ) = {a , b , c , d , e , f , g , h}. If the set {a , b , c , d} induces a C4
+
+subgraph, then the set {e , f , g , h} also induces a C4 subgraph.
+
+(v) For any nonadjacent vertices x and y in M8 , 1 ≤ N(x,y) ≤ 2.
+
+(vi) The domination number of M8 is 3.        In addition, for any vertex x in M8 , N(x)
+
+dominates the vertices of M8 .
+
+(vii) Let x and y be vertices in M8 such that N(x) = {x1 , x2 , x3 } and N(y) = {y1 , y2 ,
+
+y3 }. If x1 = y1 and x2 = y2 , then x3 is adjacent to y3 .
+
+
+
+
+                                            16
+                          4    LOCALLY M8 GRAPHS
+
+         The following lemmas, corollaries, and theorems will consist of three general
+
+groups: results concerning adjacent vertices, results concerning vertices with distance 2,
+
+and results concerning possible constructions for Gx,y . Since we have already seen that
+
+(Z17 , Q) is a M8 -local graph, we now want to show that it is unique. The approach for
+
+removing other possibilities is explained in more detail following L4.4.
+
+
+
+Lemma 4.1: For any pair of adjacent vertices x and y in G, (i) the shared neighborhood
+
+forms an independent set of three vertices, and (ii) the exclusive neighborhoods induce
+
+a P4 .
+
+
+
+Proof.
+
+(i) Let H = <N(x)>. Since y ~ x, dH (y) = 3 by L3.1(i). Then x and y share three
+
+neighbors since |V(Gx,y )| = |N(x,y)| = dH (y) = 3. By L3.1(ii), the graph induced by
+
+NH [y] is a 3-Claw. By removing the vertex y, the remaining subgraph Gx,y is K3 c . 
+
+
+
+(ii) By L3.1(iii), Gx|y = <N(x|y)> = <V(H) - N[y]> = P4 . 
+
+
+
+Lemma 4.2: Let x and y be adjacent vertices in G. Then (i) for any vertex z in
+
+N(x,y), there exists a unique pair of nonadjacent vertices u and v in N(x,z) nonadjacent
+
+to y, and (ii) for any pair of nonadjacent vertices u and v in N(x|y), there exists a
+
+unique vertex z in N(x,y) adjacent to u and v. In other words, there is a one-to-one
+
+correspondence between vertices in N(x,y) and pairs of nonadjacent vertices in N(x|y).
+
+
+
+Proof.
+
+(i) Using L4.1(i), let N(x,z) = {y, u, v} where u, v, and y are nonadjacent vertices.
+
+Clearly, {u, v} ⊆ N(z)∩N(x|y). If N(z)∩N(x|y) contained a vertex w distinct from
+
+
+
+
+                                           17
+u and v, then N(x,z) would contain more than three vertices: y, u, v, and w. So,
+
+N(z)∩N(x|y) = {u,v}. 
+
+
+
+(ii) Let N(x|y) = {x1 , x2 , x3 , x4 }.    Let N(x,y) = {z1 , z2 , z3 }.     Since Gx|y is P4 ,
+
+there are only three distinct pairs of nonadjacent vertices. By L4.2(i), each vertex in
+
+N(x,y) is adjacent to the vertices in one of these Gx|y pairs. Suppose vertices z1 and z2
+
+in N(x,y) are both adjacent to vertices x1 and x2 in N(x|y). Since the set {z1 , z2 , x1 ,
+
+x2 } induces a C4 , then {y, z3 , x3 , x4 } also induces a C4 by L3.1(iv). Since y 6∼ x3 x4 ,
+
+this is not possible. 
+
+
+
+Corollary 4.3: Let x ~ y. Every vertex z in N(x|y) is adjacent to at least one vertex
+
+in N(x,y).
+
+
+
+Proof. Every vertex in <N(x|y)> has degree at most 2. Since <N(x)> is 3-regular,
+
+every vertex in N(x|y) has at least one neighbor in N(x,y). 
+
+
+
+Lemma 4.4: There exist two nonadjacent vertices u and v in G such that the
+
+induced subgraph Gu,v contains a P4 subgraph (with possible edge deletion).
+
+
+
+Proof. Let N(x,y) = {a, b, c}, let N(x|y) = {x1 , x2 , x3 , x4 } with respective order-
+
+ing in the P4 , and let N(y|x) = {y1 , y2 , y3 , y4 } with respective ordering in the P4 .
+
+Then let a ~ x1 x3 , let b ~ x1 x4 , and let c ~ x2 x4 . By L4.2(ii), there is a vertex in N(x,y)
+
+adjacent to y2 and y4 . Without loss of generality, let c ~ y2 y4 . Then a and b are both
+
+adjacent to y1 . Thus, the vertex set {x1 , x, y, y1 } forms (at least) a P4 subgraph of
+
+Ga,b . 
+
+
+
+Now we are only concerned with graphs containing two vertices as mentioned in L4.4.
+
+With the following lemmas and corollaries, C4.7 will show that the graph Gx,y from
+
+L4.4 must be isomorphic to P4 , P5 , 2P2 , C4 , or C5 . Thus, we need to find the cases that
+
+construct (Z17 , Q) and show all other cases to be impossible.
+
+
+
+
+                                              18
+Lemma 4.5: Let u and v be vertices in G such that d(u,v) = 2. Then
+
+1 ≤ dGu,v (w) ≤ 2 for every vertex w in N(u,v).
+
+
+
+Proof. Let u and v be vertices such that u 6∼ v and w ∈ N(u,v). Let H = <N(w)>.
+
+Since u and v are nonadjacent vertices in N(w), we know 1 ≤ NH (u,v) ≤ 2 by L3.1(v).
+
+So we have 1 ≤ dGu,v (w) ≤ 2 since dGu,v (w) = NH (u,v). 
+
+
+
+        To clarification the proof of L4.5, note that there are multiple ways of represent-
+
+ing the number of common neighbors of u, v, and w. Two representations are used in
+
+the proof: dGu,v (w) and |NH (u,v)|. The former counts the neighbors of w in N(u,v); the
+
+latter counts the common neighbors of u and v in N(w). The proof takes advantage of
+
+these two representations being the same set.
+
+
+
+Lemma 4.6: Let u and v be vertices in G such that d(u,v) = 2. Then 2 ≤ |N(u,v)| ≤ 5.
+
+
+
+Proof. Let H = <N(u)>.           By L4.5, 2 ≤ |N(u,v)|.      For any w in N(u,v), dH (w) =
+
+3 and dGu,v (w) ≤ 2. This means that w is adjacent to some vertex in N(u|v). Thus,
+
+N(u|v) is a dominating set for <N(u)>. By L3.1(vi), |N(u|v)| ≥ 3. Since
+
+|N(u,v)| + |N(u|v)| = |N(u)| = 8, |N(u,v)| ≤ 5. 
+
+
+
+Corollary 4.7: Let u and v be vertices in G such that d(u,v) = 2.                Then Gu,v is
+
+isomorphic to P2 , P3 , 2P2 , P4 , P5 , or C5 .
+
+
+
+Proof. From L4.5, Gu,v must be composed of paths and cycles.                 Then Gu,v must
+
+be P2 , P3 , C3 , 2P2 , P4 , P2 UP3 , P5 , or C5 . Since M8 is triangle-free, Gu,v 6= C3 . Since
+
+Gu,v is a subgraph of M8 without edge deletion, Gu,v 6= P2 UP3 . 
+
+
+
+Lemma 4.8: Let u and v be vertices in G such that d(u,v) = 2. Then Gu,v 6= P5 .
+
+
+
+Proof. Suppose Gu,v = P5 for a contradiction.            Let N(u,v) = {1, 2, 3, 4, 5} with
+
+respective adjacencies in the path. Then there exists a vertex u1 in N(u|v) adjacent to
+
+1, 3, and 5. Likewise, there exists v1 in N(v|u) adjacent to 1, 3, and 5. Since N3 (u)
+
+
+                                                  19
+= {2, 4, u1 } and N3 (v) = {2, 4, v1 }, u1 ~ v1 by L3.1(vii). Let H = <N(u1 )>. Then
+
+NH (u,v1 ) = {1, 3, 5} which contradicts L3.1(v). 
+
+
+
+Corollary 4.9: If |N(u,v)| = 5, then every vertex in N(u,v) has degree 2.
+
+
+
+Proof. If |N(u,v)| = 5, then Gu,v = C5 . 
+
+
+
+       For two vertices u,v such that Gu,v = P4 , there are three possibilities for Gu|v .
+
+There are two cases such that Gu|v = P4 and a third case where Gu|v is a 3-Claw. To
+
+distinguish the P4 cases, cycling vertices will be introduced.     Let P be a path with
+
+corresponding vertices p1 , p2 , ... , pn . Let x ∈
+                                                  / V(P). We say that the vertex x cycles
+
+the path P when x ~ p1 pn and x 6∼ p2 p3 ...pn-1 . In other words, the vertices V(P)∪{x}
+
+induce Cn+1 .
+
+
+
+       For the remaining proofs in this chapter, let Gu,v = P4 be a Type I subgraph
+
+when one vertex in N(u|v) cycles Gu,v and Gu|v = P4 . Secondly, let Gu,v = P4 be a
+
+Type II subgraph when two vertices in N(u|v) cycles Gu,v . Lastly, let Gu,v = P4 be a
+
+Type III subgraph when one vertex in N(u|v) cycles Gu,v and Gu|v = P4 . Also, let the
+
+vertices of N(u,v) be denoted by positive consecutive integers. For any n ∈ N(u,v), let
+
+u(n) and v(n) denote vertices in N(u|v) or N(v|u) adjacent to n.
+
+
+
+
+                       Figure 4.1 Three Types of P4 Subgraphs
+
+
+
+
+Lemma 4.10: Let u and v be vertices in G such that Gu,v = P4 . Then Gu,v is Type I
+
+in both <N(u)> and <N(v)>.
+
+
+                                           20
+Proof. First, it will be shown that Type III subgraphs are not possible. There will be
+
+three cases for the Type III proof. Then it will be shown that Type II subgraphs are
+
+also not possible. For the first part, let Gu,v be a Type III subgraph of <N(u)>.
+
+
+
+Case 1: Let Gu,v be a Type III subgraph of <N(v)>.
+
+
+
+        Let {u* ,u1 ,u2 ,u3 } and {v* ,v1 ,v2 ,v3 } denote the vertices of the 3-Claw subgraphs
+
+such that u* ~ u1 ,u2 ,u3 and v* ~ v1 ,v2 ,v3 . Since N(2|1) = {3,y,u2 ,v2 } induces P4 ,
+
+u2 ~ v2 . Likewise, u3 ~ v3 from N(3|4). Also note that u* 6∼ v2 ,v3 and v* 6∼ u2 ,u3
+
+because u,v already share two neighbors in N(u2 ,v2 ) and N(u3 ,v3 ).
+
+
+
+        If u1 6∼ v1 , then N(u1 ) = {u,u* , 1, 4, x, z, v2 , v3 }. Since u* 6∼ v2 v3 , u* ~ xz.
+
+Then the set {u, u* , 1, 4, x, z} cannot be a subgraph of M8 . So, u1 ~ v1 . Furthermore,
+
+u* 6∼ v1 and v* 6∼ u1 . Note that either u1 ~ x or v1 ~ x. Without loss of generality, u1
+~ x. From N(1), v1 ~ u3 and v3 ~ x. Let N(1) = {v, v* , 1, 4, u1 , u3 , α, β} such that
+
+v* ~ αβ. Since u3 ~ αβ, then u2 6∼ v1 . So, z=β and z ~ v1 . Then u1 ~ v2 and u2 ~ z
+
+from N(4). Note that N(u1 ,v1 ) = {1, 4, α} and α ~ u* v* . From N(u1 ) and N(v1 ),
+
+α ~ v2 v3 and z ~ v* u3 . Since {u, 3, z, v1 , 1} induce a C5 in N(u3 ), α ~ v3 . Since
+
+{u* , u1 , v2 , v* , v3 , u3 } induces C6 in N(α), the eighth neighbor of α is adjacent to v1 ;
+
+however, v1 already has three neighbors in N(α) which gives us a contradiction.
+
+
+
+Case 2: Let Gu,v be a Type II subgraph of <N(v)>.
+
+
+
+        Let 1 ~ u1 u3 v1 v4 and 4 ~ u1 u2 v1 v4 . Then N(1,4) = {u, u1 , v, v1 , v4 } cannot
+
+induce C5 . So, we only have one more Type III case to disprove.
+
+
+
+Case 3: Let Gu,v be a Type I subgraph of <N(v)>.
+
+
+
+        Let 1 ~ u1 u3 v1 v4 , 2 ~ u2 v2 , 3 ~ u3 v4 , and 4 ~ u1 u3 v1 v3 . From N(2|1),
+
+u2 ~ v2 . Since N(4|1) is either P4 and 2P2 , u2 ~ v3 . Since N(v,u2 ) = {2, v2 , v3 , 4}
+
+
+
+
+                                              21
+induces P4 , N(v|u2 ) = {1, 3, v2 , v4 } is either P4 or 3-Claw which are both impossi-
+
+ble for the vertices listed.
+
+
+
+        Thus, for any Gu,v = P4 , Gu,v is never a Type III subgraphs of <N(u)> nor
+
+<N(v)>. Now, let Gu,v be a Type II subgraph of <N(u)>. Since N(1,4) cannot contain
+
+6 vertices, Gu,v must be Type I in <N(v)>. Then N(1,4) = {u, v, u1 , u4 , v1 }. Since
+
+v is only adjacent to v1 , we have a contradiction with C4.9. Thus, for any Gu,v = P4 ,
+
+Gu,v is a Type I subgraph of <N(u)> and <N(v)>. 
+
+
+
+Lemma 4.11: Let u and v be vertices in G such that Gu,v = P4 .               If the path’s
+
+end vertices (1 and 4) are adjacent to u1 and v1 , then u1 ~ v1 .
+
+
+
+Proof. Let 1 ~ u1 u4 v1 , 2 ~ u2 , 3 ~ u4 , and 4 ~ u1 u3 v1 . Since 1 ~ 2, they share a
+
+third vertex x which is nonadjacent to u and v. Likewise, we know that 2 and 3 share a
+
+third vertex y, and vertices 3 and 4 share a third vertex z. If x = y, then N(1,3) would
+
+contain five vertices such that u only has one neighbor which contradicts C4.9. Thus,
+
+xyz are distinct vertices. Since y is in N(2|1) and N(3|4), then y ~ xz by C4.3.
+
+
+
+        Suppose u1 6∼ v1 . Then G1,4 = G1|4 = G4|1 = 2P2 . Since <N(1)> and <N(4)>
+
+are 3-regular, u1 ~ xzv(1) v(4) and v1 ~ xzu3 u4 .   In other words, u1 ~ v3 v4 .    Since
+
+(v,4,z,u4 ) ⊆ N(3,v1 ), u4 ~ z by L4.5 and L4.8. Likewise from {v, 1, x, u2 } ⊆ N(2,v1 ),
+
+u2 ~ x. Since N(u,z) = {3, 4, u1 , u4 } induces P4 , then N(z|u) induces P4 .
+
+
+
+        Since v1 ~ 4u4 and y ~ 3, then x ∈ N(z|u). Since (u,u2 ,x,1) induces C4 in N(u1 ),
+
+z ~ v(1) . Since N(z) is 3-regular, v(1) ~ u1 u4 y and v(1) 6∼ 3. Thus, v2 ~ 3, v3 ~ 1, and
+
+v4 ~ 24. From N(1), N(3), and N(1|3), then u4 ~ v1 v2 v3 . Finally, N(v,u4 ) = {1, 3, v1 ,
+
+v2 , v3 } does not induce C5 . Thus, u1 ~ v1 . 
+
+
+
+        The three theorems found in this chapter involve arguments with Γx,y notation.
+
+Given vertices x and y from graph G, Γx,y redefines the vertices of G with respect to x
+
+and y. So, the graphs Γx,y and Γu,v both denote the same graph G; however, all vertices
+
+are defined according to the subscript vertices. For example, Figure 9 depicts Γ1,4 and
+
+
+                                            22
+Γ8,11 when G is the icosehedron. Between the two arrangements, we can see that vertex
+
+6 in Γ1,4 corresponds to vertex 2 in Γ8,11 . In other words, there exists an isomorphism
+
+between 1,4 and 8,11 which retains the structure of the shared neighborhood, exclusive
+
+neighborhoods, and the edges between these sets.
+
+
+
+
+                 Figure 4.2 Graph Representations of an Icosehedron
+
+
+
+
+       Theorem 4.12: Let u and v be vertices in G such that d(u,v) = 2 and
+
+Gu,v = P4 . Then G is isomorphic to the graph (Z17 , Q).
+
+
+
+Proof. Let u,v be vertices as seen in L4.11. So, u1 ~ v1 .
+
+
+
+Case 1: Let 1,4 be vertices of N(u,v) such that 1 cycles N(u|v) and 4 cycles N(v|u).
+
+
+
+       So, 1 ~ u1 u4 v1 v3 , 2 ~ u2 v4 , 3 ~ u4 v2 , and 4 ~ u1 u3 v1 v4 . Note that the structure
+
+of the graph guarantees that an edge between N(u,v) and N(u|v) implies a symmetric
+
+edge between N(u,v) and N(v|u). More generally, we have the function S
+
+
+
+
+                                              23
+                                          
+                                            n         if γ = 5 − n
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                                      if γ = w5 - n
+                                          
+                                            wn
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                                      if γ = un
+                                          
+                                            vn
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                 S(γ) =     un        if γ = v n
+                                          
+                                          
+                                          
+                                          
+                                          
+                                                      if γ = x
+                                          
+                                          z
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                            x         if γ = z
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                                      if γ = y
+                                          
+                                          y
+                                          
+
+
+
+
+such that α ~ β if and only if S(α) ~ S(β). For example, G1|4 = P4 implies u4 ~ v3 . By
+
+symmetry, u3 ~ v4 . Since {u, 1, v, 3} induces C4 in N(2), then u2 ~ v3 . By symme-
+
+try, u3 ~ v4 . Note that v ∈ N(1,3) cycles N(3|1). So, y ~ u2 v2 . By symmetry, y ~ u2 v2 .
+
+
+
+        By considering the possibilities for N(1|3), x ~ u4 v1 and u1 ~ v3 . By symmetry, z
+~ u1 v4 and v1 ~ u3 . Since u4 ∈ N(1,3) cycles N(1|3) and v4 ∈ N(1,3) cycles N(3|1), then
+
+each edge in Γu,v implies an edge in Γ1,3 . These constructions are shown in Appendix
+
+A. Repeating this process shows that G is isomorphic to ( Z17 , Q ). A full description
+
+of the process can be found in Appendix B.
+
+
+
+Case 2: For any pair of nonadjacent vertices u,v such that Gu,v = P4 , there exists
+
+a vertex 1 ∈ N(u,v) which cycles both N(u|v) and N(v|u).
+
+
+
+        So, 1 ~ u1 u4 v1 v4 , 2 ~ u2 v2 , 3 ~ u4 v4 , and 4 ~ u1 u3 v1 v3 . As seen in Case 1, u2
+~ v2 and u4 ~ v4 . Consider Γ1,4 . Suppose that v cycles N(1|4) and N(4|1). Note that
+
+v1 6∼ u4 from N(1). Since v1 6∼ u4 in Γu,v , then 3 6∼ v4 in Γ1,4 which is a contradiction.
+
+So, u cycles both N(1|4) and N(4|1). Then u1 ~ xz , v1 ~ u3 u4 , x ~ v4 , and z ~ v3 .
+
+Since u2 ~ v2 in Γu,v , then x ~ z in Γ1,4 .
+
+
+
+        Let N(u1 ) = {u, u2 , 1, 4, v1 , x, z, α} such that v1 ~ α.         Since <N(u1 )> is
+
+triangle-free, α 6= y. Then α is a new vertex distance 2 from u and v. From N(u1 |v1 )
+
+and N(v1 |u1 ), α ~ u2 u3 v2 by C4.3. Note that {u1 , u3 , v2 , α} ⊆ N(u1 ,v1 ), but {u1 , u3 ,
+
+                                                 24
+v2 , α} induces a 3-Claw which isn’t possible. 
+
+
+
+Theorem 4.13: Let u and v be vertices in G such that d(u,v) = 2. Then
+
+Gu,v 6= C5 .
+
+
+
+Proof. Suppose Gu,v = C5 for a contradiction.           Let N(u,v) = {1, 2, 3, 4, 5} and
+
+let N(u|v) = {u1 , u2 , u3 } such that u1 ~ 14, u2 ~ 3, and u3 ~ 25. Let N(v|u) = {v1 ,
+
+v2 , v3 }. For each vertex z in N(u,v), there exists two neighbors of z that are distance 2
+
+from u and v. Pick vertex 1 arbitrarily. Let w1 and w2 be the vertices in N(1) distance
+
+2 from u and v. By L4.1, vertex 2 is adjacent to w1 or w2 . Let 2 be adjacent to w2 .
+
+Note that by L3.1(v), 5 is not adjacent to w2 since <N(1)> is triangle-free. So, 5 is
+
+adjacent to w1 . Since N(1,2) = {u, v, w2 }, w1 must be adjacent to w2 by C4.3.
+
+
+
+        Since 1 was chosen arbitrarily, for any vertex z in N(u,v), there exists wz and
+
+wz+1 mod 5 in N(z) which are distance 2 from u and v. The set of these w-vertices {w1 ,
+
+w2 , w3 , w4 } also induce a C5 with respective ordering. Again, vertex 1 is adjacent to
+
+u1 and some v(1) in N(v|u). Since {u, v, 2, 5} form a C4 subgraph of N(1), then {u1 ,
+
+v(1) , w1 , w2 } also forms a C4 . Since w1 is adjacent to w2 , then u1 is adjacent to v(1) ,
+
+u1 is adjacent to a w-vertex in N(1), and v(1) is adjacent to the other w-vertex.
+
+
+
+        Let σ be the number of edges between the vertices of N(u|v) and vertices of
+
+N(v|u). If u1 ~ v1 v2 v3 , then |N(u1 )| = 9. If v1 is only adjacent to one vertex v(*) in
+
+N(v|u), then N(1,4) = {u, u1 , v(*) , v} would induces a P4 . So, u1 u3 each contribute
+
+exactly two edges to the value of σ. Furthermore, no two vertices in N(u,v) can share
+
+both un ∈N(u|v) and vm ∈N(v|u). If u2 ~ v1 v2 v3 , then v2 ~ u1 u2 u3 which contradicts
+
+|N(u2 ,v2 )| = 3. Thus, 5 ≤ σ ≤ 6.
+
+
+
+        Suppose σ = 5.     First, we will show that the two cases when σ = 5 are not
+
+possible. Then we will repeat our reasoning with minor changes when σ = 6, and we
+
+will have shown that Gu,v = C5 is not possible.
+
+
+
+Case 1: Let u2 ~ v2 .
+
+
+                                             25
+        Then u1 ~ v1 v3 and u3 ~ v1 v3 . Without loss of generality, let 1 ~ v1 . Then
+
+either 2 ~ v1 or 5 ~ v1 . Both of these options induce a C3 in N(v).
+
+
+
+Case 2: Let u2 ~ v1 .
+
+
+
+        Then v1 ~ u1 13 , v2 ~ u3 5 , and v3 ~ u1 u3 24. From N(1), either u1 ~ w1 and u2
+~ w2 . If u1 ~ w1 , then N(u1 |1) = {v3 , 4, w(4) , u2 } and v3 ~ w1 . But this would imply
+
+that 2 ∈ N(u1 |v3 ) has no neighbor in N(u1 ,v3 ) = {4, v2 , w1 } by C4.3. So, we have u1
+~ w2 and v1 ~ w1 from N(1). From N(u1 |u) = {v3 , 1, w2 , u2 }, u2 ~ w2 . Then N(2,u1 )
+
+= (u,1,w2 ,v3 ) induces P4 which is a contradiction from T4.12. Thus, σ = 6.
+
+
+
+Case 3: Let u2 ~ v1 v3 .
+
+
+
+        Without loss of generality, let 3 ~ v1 . Then v3 ~ 25 which is a contradiction
+
+since 2 and 5 cannot share the same un and vm .
+
+
+
+Case 4: Let u2 ~ v1 v2
+
+
+
+        Then u1 ~ v2 v3 and u3 ~ v1 v3 . If v1 ~ 2, then v2 ~ 34 which induces C3 in N(v).
+
+So, v1 ~ 35 , v2 ~ 1 , and v3 ~ 24. Let N(u3 |2) = {5, v1 , u2 , w(5) }. Since N(u3 ,2) =
+
+{u, v3 , w(2) }, u2 is adjacent to v1 and two vertices in N(u3 ,2). So, w(2) ~ v1 u2 which
+
+induces C3 in N(u2 ). 
+
+
+
+Lemma 4.14: Let u and v be vertices in G such that d(u,v) = 2. Then
+
+Gu,v 6= 2P2 .
+
+
+
+Proof. Let u,v be vertices in G such that Gu,v = 2P2 .         Note that for any distinct
+
+vertices n,m in N(u,v), n and m share at most one neighbor in N(v). Let N(1) = {u, v,
+
+w, 2, u1 , u2 , v1 , v2 } such that u1 u2 ∈ N(u|v), v1 v2 ∈ N(v|u), and N(1,2) = {u, v, w}.
+
+
+
+        Since N(u) and N(v) are triangle-free, u1 6∼ u2 and v1 6∼ v2 . By L4.1(ii) and
+
+
+                                            26
+N(1|2) = {u1 , u2 , v1 , v2 }, let u1 ~ v1 v2 . Also, let u1 ~ 3. Then N(v,u1 ) = {1, 3, v1 ,
+
+v2 } and Gv,u1 must be isomorphic to P4 , C4 , or C5 . By T4.12 and T4.13, Gv,u1 6= P4
+
+and Gv,u1 6= C5 . Since 1 and 3 cannot share v1 and v3 , then Gv,u1 6= C4 . Thus, we
+
+have reached a contradiction. 
+
+
+
+Lemma 4.15: Let u be a fixed vertex in G. Let p2 be the number of vertices α ∈
+
+Du (2) such that Gu,α = P2 , let p3 be the number of vertices β ∈ Du (2) such that Gu,α
+
+= P3 , and let c4 be the number of vertices γ ∈ Du (2) such that Gu,α = C4 . Then the
+
+ordered triple (p2 ,p3 ,c4 ) has one of the following values: (8,0,4), (4,4,3), or (0,8,2).
+
+
+
+Proof. Using counting arguments, a system of linear equations will be constructed
+
+and shown to have only three integer solutions. Let σ the number of edges between
+
+Du (1) and Du (2). Each vertex in Du (1) is adjacent to four vertices in Du (2), so σ =
+
+(8)(4) = 32. By considering vertices in Du (2), σ = 2p2 + 3p3 + 4c4 . Together, we
+
+have the equation
+
+                                    32 = 3p3 + 4p2 + 4c4 .                                (4.1)
+
+Let τ be the number of vertices in Du (2) adjacent to two adjacent vertices in Du (1).
+
+By L2, each pair of adjacent vertices in Du (1) share three neighbors; u is one of these
+
+neighbors. Since N(u) is triangle-free, the other two neighbors must be in Du (2). Thus,
+
+τ = (12)(2) = 24. By considering the vertices in Du (2) again, we have τ = p2 + 2p3 +
+
+4c4 . So,
+
+                                    24 = p2 + 2p3 + 4c4 .                                 (4.2)
+
+We can rewrite Equation (1) and Equation (2) as the linear combination
+
+
+                                        16 = p3 + 4c4 .                                   (4.3)
+
+
+Solving this system of equations, we find that there only three integer solutions: (8,0,4),
+
+(4,4,3), and (0,8,2). Thus, the lemma has been proven. 
+
+
+
+
+                                              27
+Lemma 4.16: Let Gu,v = Gu,w = C4 . Then we have three results regarding the shared
+
+neighborhood of u, v, and w. (i) If w 6= v, then |N(u,v,w)| ≤ 2, (ii) if N(u,v,w) = {x,y},
+
+then x ~ y, and (iii) if |N(u,v,w)| 6= 2, then |N(u,v,w)| = 0.
+
+
+
+Proof.
+
+(i) Let N(u,v,w) = {1, 2, 3} such that 1 ~ 23. Then 2 and 3 share u, v, and w in N(1)
+
+which contradicts L3.1(v). As an application of this part of the lemma, if w 6= v, then
+
+N(u,w) 6= N(u,v). 
+
+
+
+(ii) Since uvw ∈ N(1,2), then 1 ~ 2 by C4.9(ii). 
+
+
+
+(iii) For any two distinct C4 subgraphs of M8 , the cycles are either disjoint or they
+
+share exactly two vertices. 
+
+
+
+         In the proof of T4.17, two vertices u and v such thatGu,v = C4 will be fixed
+
+in order to construct Γu,v . Then for the vertex u, we will consider the cases for the
+
+ordered triple (p2 ,p3 ,c4 ) from L4.15. By removing (8,0,4) and (4,4,3), we can assume
+
+that the solution (p2 ,p3 ,c4 ) = (0,8,2) holds for all vertices. In addition, the results of
+
+L4.16 of will be used in T4.17; however, they will not be explicitly stated. The parts of
+
+L4.16 give us insight into the C4 subgraphs of <N(u)>. The graph <N(u)> contains 4
+
+distinct C4 subgraphs, and each of these subgraphs can be contained by (at most) one
+
+other vertex neighborhood.
+
+
+
+Theorem 4.17: Let u and v be vertices in G such that d(u,v) = 2. Then
+
+Gu,v 6= C4 . Furthermore, (Z17 , Q) is the only Mobius ladder local graph.
+
+
+
+Proof: Let Gu,v = C4 for a contradiction.           Let N(u,v) = {1, 2, 3, 4} and N(u|v)
+
+= {u1 , u2 , u3 , u4 }. Similarly to T2, there exist four vertices {w1 , w2 , w3 , w4 } ∈ Du (2).
+
+Let 1 ~ u1 w1 w2 , 2 ~ u2 w2 w3 , 3 ~ u4 w3 w4 , and 4 ~ u3 w1 w4 .
+
+
+
+         Note that each vertex in N(v|u) is adjacent to exactly one vertex in N(u,v), and
+
+each vertex in N(u,v) is adjacent to exactly one vertex in N(u|v). Thus, the vertices in
+
+
+                                               28
+N(v|u) cannot be c4 -vertices. For each of the following cases, v is one of the c4 -vertices.
+
+
+
+Case 1: Let (p2 ,p3 ,c4 ) = (8,0,4).
+
+
+
+        There exist three more vertices in Du (2); call them x, y, and z. Note that {v1 ,
+
+v2 , v3 , v4 , w1 , w3 } are all p2 -vertices. The three remaining c4 -vertices are from {w2 ,
+
+w4 , x, y, z}. By L4.16(i) the c4 -vertices must be v, x, w2 , and w4 . Let y ~ u2 u3 and z
+~ u2 u3 . Also, w2 ~ u1 u2 and w4 ~ u3 u4 . From N(u1 ) and N(u2 ), v(1) ~ xz and v(2) ~xy.
+
+Since N(v(1) ) = {v, vn , vm , 1, u1 , x, z, w2 } and N(v(2) ) = {v, vn ’, vm ’, 2, u2 , x, y, w2 },
+
+then v(1) ~ v(2) . Thus, v1 ~ 1w1 and v3 ~ 4w1 . This is a contradiction since N(v,w1 )
+
+= {1,4,v1 ,v3 } induces a P4 .
+
+
+
+Case 2: Let (p2 ,p3 ,c4 ) = (4,4,3).
+
+
+
+        Let x and y be new vertices in Du (2); however, they are not both c4 -vertices for
+
+u by L11. Without loss of generality, let w2 be a c4 -vertex such that w2 ~ u1 u2 . If x
+
+(a vertex nonadjacent to every vertex in the N(u,v) neighborhood) is a c4 -vertex of u,
+
+call (u,v) a Type I pair. Otherwise, call (u,v) a Type II pair. Suppose (u,v) is Type I
+
+such that x ~ u1 u2 u3 u4 and consider Γu,x . Since u1 ∈ N(u,x) and 1 ∈ N(u|x), then v(1)
+
+∈ N(x|u). Likewise, v(2) ∈ N(x|u). Like w1 and w3 in Γu,v , there exist α,β ∈ {v(3) , v(4) ,
+
+w1 , w3 , w4 , y} such that w2 ~ α β, α ~ u1 u4 , and β ~ u2 u3 . This comparison between
+
+Γu,v and Γu,x can be seen in Appendix C.
+
+
+
+        First, w2 6∼ v(3) v(4) because N(v,w2 ) = {1, 2, v(3) , v(4) } would induce 2P2 . Next,
+
+α β 6= w1 w3 w4 because Gu,wn = P4 for all wn ∈ {w1 ,w2 ,w3 }. Finally, α and β are dis-
+
+tinct vertices and thus cannot both be vertex y. Thus, every pair (u,v) is Type II. In
+
+other words, if Gu,v = Gu,w = C4 , then Gu,v and Gu,w are not disjoint. So, w4 ~ u3 u4
+
+since (u,v) is Type II. Consider Γu,w2 . Then (u,w2 ) is Type I since w4 is not adjacent
+
+to any vertex in N(u,w2 ) = {1, 2, u1 , u2 } which we just showed was impossible.
+
+
+
+Case 3: Let (p2 ,p3 ,c4 ) = (0,8,2).
+
+
+
+
+                                                29
+        Let x be the new vertex in Du (2). Likewise, let y be the new vertex in Dv (2).
+
+If w2 ~ u1 u2 , then w1 ~ u3 and w3 ~ u4 . Either w4 ~ u3 which induces C3 in N(4) or
+
+w4 ~ u4 which induces C3 in N(3). So, x is a c4 -vertex to u and y is a c4 -vertex to v
+
+such that x ~ u1 u2 u3 u4 and y ~ v1 v2 v3 v4 . Since <N(x)> and <N(y)> are 3-regular,
+
+w1 w2 w3 w4 ∈ N(x,y). Let u1 ~ v1 v4 , u2 ~ v1 v2 , u3 ~ v2 v3 , and u4 ~ v3 v4 . Note that
+
+either u1 ~ w1 or u1 ~ w2 .
+
+
+
+        Suppose u1 ~ w1 . Then w2 ~ u2 , w3 ~ u4 , and w4 ~ u3 . By considering N(w4 )
+
+= {3, 4, w1 , w3 , x, y, u3 , v(3) }, v(3) = 3 since v(3) ~ u3 u4 . Then v1 ~ 2w2 , v2 ~ 4w1 , v3
+~ 3w4 , and v4 ~ 1w2 . So, N(u2 ) = {u, u2 , u3 , 2, v1 , v2 , x, w2 } does not induce M8 .
+
+
+
+        The same argument can be given for u1 ~ w2 to show that N(u2 ) does not induce
+
+a M8 . So, for any vertices u and v such that d(u,v) = 2, the induced graph Gu,v 6= C4 .
+
+Thus, it has been shown that (Z17 , Q) is the only M8 -local graph.
+
+
+
+
+                                               30
+                                5     CONCLUSION
+
+                Although many local graphs, and even families of local graphs, have
+
+been determined, studied, and constructed, there still exist open questions concerning
+
+the existence of local graphs as well as questions regarding the NP-completeness of their
+
+constructions [10]. In addition to these H-local questions, new types of local properties,
+
+such as the {A,B}-local graphs defined by Blokhuis and Brouwer [1] or the antineighbor-
+
+hood graphs defined by Topp and Volkmann [13], have yet to be thoroughly explored.
+
+Lastly, I feel that Vince’s relationship [12] between automorphic graphs and local graphs
+
+(possibly with the extended definition of antineighborhoods or distance-regularity) should
+
+be studied and categorized further.
+
+
+
+       Concerning future work, the existence of {Cube,M8 }-local graphs is a natural
+
+development from the proofs and constructions given in chapter 4. If a {Cube,M8 }-local
+
+graph exists and x is some vertex in the graph, then the induced graph <N(x)> would
+
+contain exactly 8 vertices and 12 edges regardless as to whether N(x) induces a Mobius
+
+ladder or a cube. This is in contrast with the {T5c , K3,3 }-local graph constructed by
+
+Blokhuis and Brouwer [1] where the number of vertices and number of edges in <N(x)>
+
+depends upon the x chosen. My suspicion is that if some {Cube,M8 }-local graph exists,
+
+then the fixed number of vertices and edges in the induced-neighborhood graph will
+
+produce variable symmetries.
+
+
+
+
+                                           31
+                                   References
+
+
+[1] Blokhuis, A. and A.E. Brouwer, Locally K3,3 or Petersen Graphs. Discrete Mathe-
+
+  matics 106/107 (1992) 53-60
+
+[2] Blokhuis, A. and A.E. Brouwer, Locally 4-by-4 Grid Graphs. Journal of Graph The-
+
+  ory, Vol. 13. 229-244 John Wiley Sons, Inc. (1989)
+
+[3] Blokhuis, A. and A.E. Brouwer, A.M. Cohen, and D. Buset, The Locally Icosahedral
+
+  Graphs. Presented at Finite Geometries Conference, Wimmipeg (1984). Lecture Notes
+
+  in Pure and Applied Mathematics, Vol. 103., New York.
+
+[4] Bugata, Peter. Trahtenbrot-Zykov Problem and NP-Completeness. Elsevier Science
+
+  Publishers. (1992)
+
+[5] Buset, Dominique. Graphs which are Locally a Cube. Elsevier Science Publishers
+
+  B.V., North-Holland (1983).
+
+[6] Buset, Dominique. Locally Cnk Graphs. Universite Libre De Bruxelles, Belgium
+
+  (1993). Communicated by J. Doyen (1995).
+
+[7] Coxeter, H.S.M. Regular Polytopes. Dover Publications, Inc. New York. (1973).
+
+[8] Cruyce, P.V. A Finite Graph which is Locally a Dodecahedron. Universite Libre De
+
+  Bruxelles, Belgium. Communicated by J. Doyen (1984).
+
+[9] Hall, J.I. Locally Petersen Graphs. Journal of Graph Theory, Vol. 4. John Wiley
+
+  Sons, Inc. (1980).
+
+[10] Hell, Pavol. Graphs with Given Neighborhoods I. Colloques Internationaux C.N.R.S.
+
+  Problemes Combinatoires et Theorie des Graphes, Orsay. (1976)
+
+[11] Ravindra, G. and K.R. Parthasarathy. Perfect Product Graphs. Discrete Mathe-
+
+  matics 20 177-186. North-Holland Publishing Company (1977)
+
+
+
+                                         32
+[12] Topp, Jerzy and Lutz Volkmann. Antineighborhood Graphs. Mathematica Slovada,
+
+  No. 2. Mathematical Institute Slovak Acadaemy of Science. (1992)
+
+[13] Vince, Andrew. Locally Homogeneous Graphs from Groups. Journal of Graph The-
+
+  ory, Vol. 5. John Wiley Sons, Inc. (1981).
+
+[14] West, Douglas. Introduction to Graph Theory, 2nd Ed. Prentice-Hall, Inc.
+
+  (2001,1996).
+
+
+
+
+                                        33
+         APPENDIX A
+
+T4.12 Construction of Γu,v and Γ1,3
+
+
+
+
+                34
+                                      APPENDIX B
+
+                                  T4.12 Proof Extension
+
+
+
+
+        To find the remaining edges of (Z17 , Q), we will repetitiously employ a three
+
+step process. First, we will consider a particular edge {p, q} in Γu,v . Next, we show
+
+that {p, q} in Γu,v implies an edge {p’, q’} in Γ1,3 . After adding edge {p’, q’}, the we
+
+can use the symmetry of G to show that edge {S(p’), S(q’)} is also an edge. Note that
+
+each iteration of this process finds one or two new edges in G. So, we will repeat this
+
+process five times in order to find all remaining edges of G = (Z17 , Q).
+
+
+
+        Choose the edge {u1 , v3 } in Γu,v . Then {v3 , z} is an edge of Γ1,3 . By symmetry,
+
+{S(v3 ), S(z)} = {u3 , x} is also an edge. Thus, v3 ~ z and u3 ~ x.
+
+
+
+        Choose the edge {v1 , x} in Γu,v . Then {v2 , u3 } is an edge of Γ1,3 . By symmetry,
+
+{S(v2 ), S(u3 )} = {u2 , v3 } is also an edge. Thus, v2 ~ u3 and u2 ~ v3 .
+
+
+
+        Choose the edge {u4 , v3 } in Γu,v . Then {x, z} is an edge of Γ1,3 . By symmetry,
+
+{S(x), S(z)} = {z, x} is an edge; however, this is a redundancy. Thus, x ~ z.
+
+
+
+        Choose the edge {u3 , v2 } in Γu,v . Then {v1 , y} is an edge of Γ1,3 . By symmetry,
+
+{S(v1 ), S(y)} = {u1 , y} is also an edge. Thus, y ~ u1 v1 .
+
+
+
+        Choose the edge {v1 , y} in Γu,v . Then {v2 , u2 } is an edge of Γ1,3 . By sym-
+
+metry, {S(v2 ), S(u2 )} = {u2 , v2 } is an edge; however this is a redundancy. Thus, u2 ~ v2 .
+
+
+
+
+                                             35
+         APPENDIX C
+
+T4.17 Construction of Γu,v and Γu,x
+
+
+
+
+                36
+

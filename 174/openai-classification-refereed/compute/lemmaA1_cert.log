@@ -1,0 +1,3 @@
+square + rectangle: dim 1; energy 16*l7/(t**2 + 1)**2; M = [[16*l7*t*(t**2 - 1)/(t**2 + 1)**3, 0], [0, -16*l7*t*(t**2 - 1)/(t**2 + 1)**3]]
+two squares (transitive control: must be dim 0 or energy 0): dim 0; energy 0; M = [[0, 0], [0, 0]]
+a passing 7-subset (0,1,4,8,9,10,11) control: dim 0; energy 0; M = [[0, 0], [0, 0]]

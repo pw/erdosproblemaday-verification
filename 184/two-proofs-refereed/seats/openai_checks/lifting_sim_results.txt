@@ -1,0 +1,27 @@
+args: 7 3000 2 2
+instances completed=3000/3000  lifted quotient cycles=43209  switch paths=1404  route sampling failures (skipped, not a proof failure)=0  max |E_err|/sum m_i=0.250
+ALL ASSERTIONS PASSED
+args: 11 3000 2 2
+instances completed=3000/3000  lifted quotient cycles=42752  switch paths=1596  route sampling failures (skipped, not a proof failure)=0  max |E_err|/sum m_i=0.250
+ALL ASSERTIONS PASSED
+args: 3 2000 3 1
+instances completed=2000/2000  lifted quotient cycles=10239  switch paths=7604  route sampling failures (skipped, not a proof failure)=0  max |E_err|/sum m_i=0.222
+ALL ASSERTIONS PASSED
+args: 5 2000 4 2
+instances completed=2000/2000  lifted quotient cycles=28996  switch paths=1299  route sampling failures (skipped, not a proof failure)=0  max |E_err|/sum m_i=0.278
+ALL ASSERTIONS PASSED
+args: 9 1500 5 2
+instances completed=1500/1500  lifted quotient cycles=21089  switch paths=134  route sampling failures (skipped, not a proof failure)=0  max |E_err|/sum m_i=0.148
+ALL ASSERTIONS PASSED
+args: 13 1500 3 3
+instances completed=1500/1500  lifted quotient cycles=38255  switch paths=1128  route sampling failures (skipped, not a proof failure)=0  max |E_err|/sum m_i=0.222
+ALL ASSERTIONS PASSED
+args: 21 3000 3 1
+instances completed=3000/3000  lifted quotient cycles=15552  switch paths=11261  route sampling failures (skipped, not a proof failure)=0  max |E_err|/sum m_i=0.333
+ALL ASSERTIONS PASSED
+== negative control noZ (expect AssertionError)
+AssertionError: repeated vertex in lifted cycle
+== negative control noteam (expect AssertionError)
+AssertionError: repeated vertex in lifted cycle
+== negative control noedge (expect AssertionError)
+AssertionError: edge used twice

@@ -1,0 +1,19 @@
+h7_t1_rep0.cnf	render_roundtrip=same	moved=307	firstuse_sha=6699c73daa88c391	match=True
+h7_t2_rep0.cnf	render_roundtrip=same	moved=307	firstuse_sha=c70e7d20d0770510	match=True
+h7_t2_rep1.cnf	render_roundtrip=same	moved=307	firstuse_sha=12498caa61c8a62f	match=True
+h7_t3_rep0.cnf	render_roundtrip=same	moved=307	firstuse_sha=2f189eae275291b2	match=True
+h7_t3_rep1.cnf	render_roundtrip=same	moved=307	firstuse_sha=ccf36d58acb43047	match=True
+h7_t3_rep2.cnf	render_roundtrip=same	moved=307	firstuse_sha=06d60da77f9bc80d	match=True
+h7_t4_rep0.cnf	render_roundtrip=same	moved=307	firstuse_sha=f14d3eb5faad3605	match=True
+h7_t4_rep1.cnf	render_roundtrip=same	moved=307	firstuse_sha=5bbd6a69f22e6ba5	match=True
+h7_t4_rep2.cnf	render_roundtrip=same	moved=307	firstuse_sha=9fa93084d09800cd	match=True
+h7_t5_rep0.cnf	render_roundtrip=same	moved=307	firstuse_sha=c79b3293d51914c5	match=True
+h7_t5_rep1.cnf	render_roundtrip=same	moved=307	firstuse_sha=999d879a94dced8f	match=True
+h7_t6_rep0.cnf	render_roundtrip=same	moved=307	firstuse_sha=16825dda98f4945f	match=True
+h7_t7_rep0.cnf	render_roundtrip=same	moved=307	firstuse_sha=a2a409bc957ffe39	match=True
+
+NEGATIVE CONTROL (mutated CNF):
+h7_t1_rep0_cnfmut.cnf	render_roundtrip=same	moved=307	firstuse_sha=71c7a57b23204023	match=False
+h7_t1_rep0.cnf	render_roundtrip=same	moved=307	firstuse_sha=6699c73daa88c391	match=False
+
+[exited with code 0]

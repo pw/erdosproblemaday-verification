@@ -1,0 +1,17 @@
+ℹ [8659/8663] Built LeanProject.Erdos341Shield (86s)
+info: LeanProject/Erdos341Shield.lean:641:0: 'Erdos341Shield.garbage_covered' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanProject/Erdos341Shield.lean:642:0: 'Erdos341Shield.selected_not_pairSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanProject/Erdos341Shield.lean:643:0: 'Erdos341Shield.exact_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanProject/Erdos341Shield.lean:644:0: 'Erdos341Shield.selected_is_greedy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanProject/Erdos341Shield.lean:646:0: 'Erdos341Shield.residue_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanProject/Erdos341Shield.lean:647:0: 'Erdos341Shield.residue_avoid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanProject/Erdos341Shield.lean:648:0: 'Erdos341Shield.controller_diagonals' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanProject/Erdos341Shield.lean:649:0: 'Erdos341Shield.seed_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8660/8663] Built LeanProject.Erdos341 (15s)
+info: LeanProject/Erdos341.lean:845:0: 'Erdos341.erdos_341_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8661/8663] Built LeanProject.Erdos341g (101s)
+info: LeanProject/Erdos341g.lean:882:0: 'Erdos3417p.theorem_5_1_nonperiodicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8662/8663] Built LeanProject (8.0s)
+info: LeanProject.lean:4:0: 'Erdos341.erdos_341_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanProject.lean:5:0: 'Erdos3417p.theorem_5_1_nonperiodicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8663 jobs).

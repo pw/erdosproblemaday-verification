@@ -1,0 +1,6 @@
+witness_q11_c4_b2.json  : empty
+witness_q11_c4_orbit_perm.json  |S|=21 equivalent to cadical witness: True
+witness_q11_c4_orbit_singer7.json  |S|=21 equivalent to cadical witness: True
+witness_q11_type134_n21.json  |S|=21 equivalent to cadical witness: True
+witnesses_q11_c4.json cadical |S|=21 equivalent to cadical witness: True
+witnesses_q11_c4.json cpsat |S|=21 equivalent to cadical witness: True

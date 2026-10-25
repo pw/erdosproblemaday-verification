@@ -1,0 +1,36 @@
+v1 manifest SHA-256: 2289951ca13d7a86e9878ac22b9f9d1d4185589545dca689e5ef1b403221525f  /home/exedev/erdos_scratch/erdos1160_m11_20260811/SHA256SUMS
+v2 manifest SHA-256: 8cb5c802c759c3a2dc12fd3e203e00abb991bfaae5376e44ebaa71e48da6dd90  /home/exedev/erdos_scratch/erdos1160_m11_20260811_v2/SHA256SUMS
+v2 non-manifest file count: 30
+v2 manifest entry count: 30
+v2 writable path count: 0
+v2 manifest check:
+ENVIRONMENT.txt: OK
+PACKAGE_METADATA.txt: OK
+PROVENANCE.md: OK
+REPORT.md: OK
+SITE_SNAPSHOT.txt: OK
+audit_independent.py: OK
+b000001_20260811.txt: OK
+burrell_dissertation_2022.pdf: OK
+burrell_dissertation_2022.txt: OK
+conway_dietrich_obrien_2008.pdf: OK
+conway_dietrich_obrien_2008.txt: OK
+debs/gap-core_4.12.1-2build2_amd64.deb: OK
+debs/gap-gapdoc_1.6.6-1_all.deb: OK
+debs/gap-libs_4.12.1-2build2_all.deb: OK
+debs/gap-smallgrp-extra_1.5.3-1_all.deb: OK
+debs/gap-smallgrp_1.5.3-1_all.deb: OK
+eick_classification_recent.pdf: OK
+eick_classification_recent.txt: OK
+enumerate_gap.g: OK
+gap_available_counts_1_2047.txt: OK
+live_discussion_1160_20260811.txt: OK
+live_oeis_A000001_20260811.txt: OK
+live_problem_1160_20260811.txt: OK
+live_search_exact_sum_20260811.txt: OK
+live_search_g2048_sum_20260811.txt: OK
+live_search_question2218_m11_20260811.txt: OK
+reproduce.sh: OK
+site_index_20260811.js: OK
+site_ledger_data_20260811.js: OK
+verify_erdos1160_m11.py: OK

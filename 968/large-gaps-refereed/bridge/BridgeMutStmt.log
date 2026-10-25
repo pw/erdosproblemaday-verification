@@ -1,0 +1,17 @@
+BridgeMutStmt.lean:128:28: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ({n | u n < u (n + 1)} ∩ Set.univ ∩ Set.Iio ?b).ncard
+in the target expression
+  d ≤ ↑({n | u n > u (n + 1)} ∩ Set.univ ∩ Set.Iio b).ncard / ↑(Set.univ ∩ Set.Iio b).ncard
+
+hpos :
+  0 < sSup {d | ∃ N0, ∀ (N : ℕ), N0 ≤ N → d ≤ ↑(OAI.Problem344.initialCount OAI.Problem344.ratioIncreaseIndices N) / ↑N}
+hne :
+  {d | ∃ N0, ∀ (N : ℕ), N0 ≤ N → d ≤ ↑(OAI.Problem344.initialCount OAI.Problem344.ratioIncreaseIndices N) / ↑N}.Nonempty
+d : ℝ
+hd : 0 < d
+N0 : ℕ
+hN0 : ∀ (N : ℕ), N0 ≤ N → d ≤ ↑(OAI.Problem344.initialCount OAI.Problem344.ratioIncreaseIndices N) / ↑N
+b : ℕ
+hb : N0 ≤ b
+⊢ d ≤ ↑({n | u n > u (n + 1)} ∩ Set.univ ∩ Set.Iio b).ncard / ↑(Set.univ ∩ Set.Iio b).ncard
+BridgeMutStmt rc=1 (must be nonzero)

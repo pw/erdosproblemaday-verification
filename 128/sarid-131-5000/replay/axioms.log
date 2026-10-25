@@ -1,0 +1,5 @@
+'Erdos128.ModuloBCL.provider_of_eventual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.ModuloBCL.sparse_half_131_5000' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.ModuloBCL.formalConjectures_131_5000' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.C4Certificate.checkedC4FlagCertificateProvider' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.C4Certificate.certificate_all_triangleFree_masks' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+independent rows 32..37, cardinalities 1..13: exact match
+all 2,241,812,648 relevant translated sets exhausted: PASS

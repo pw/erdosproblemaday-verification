@@ -1,0 +1,12 @@
+quick checks: PASS
+16-witness: [0, 2, 3, 10, 16, 28, 33, 37, 48, 52, 57, 69, 75, 82, 83, 85] {85: 8}
+17-witness: [0, 1, 3, 7, 15, 24, 35, 40, 53, 66, 71, 82, 91, 99, 103, 105, 106] {106: 9}
+18-witness: [0, 1, 3, 11, 15, 20, 36, 43, 49, 67, 73, 80, 96, 101, 105, 113, 115, 116] {116: 9}
+CASE 18 outliers=0 lower_halves=51140 core_candidates=190268 valid_cores=0 extension_nodes=0 fnv64=14650fb0739d0383
+CASE 17 outliers=1 lower_halves=1697946 core_candidates=4813064 valid_cores=105 extension_nodes=105 fnv64=c3c83e2f6b8342a9
+CASE 16 outliers=2 lower_halves=1697946 core_candidates=11324078 valid_cores=43399 extension_nodes=43405 fnv64=a39619526e20f512
+CASE 15 outliers=3 lower_halves=3367288 core_candidates=15775280 valid_cores=114112 extension_nodes=116930 fnv64=a0d101d950b97b11
+CASE 14 outliers=4 lower_halves=3367288 core_candidates=34917916 valid_cores=2837087 extension_nodes=3816277 fnv64=02e0d02be7877dda
+EXHAUSTED: no 18-element near-Sidon set has diameter <= 115
+elapsed_seconds: 52.091558
+CONCLUSION: F(107)=...=F(116)=17 and F(117)=18

@@ -1,0 +1,38 @@
+Problem 156 exact finite frontier verifier
+N=66, normalized diameter range 0..65
+k=1 raw_total=1 pruned_before_endpoint=0 endpoint_tests=1 endpoint_rejects=0 golomb=1 hull_covered=1 placements_N=0 digest=0x31984d35d4c04482 best_run=1 best_marks={0} best_interval=[0,0]
+k=2 raw_total=65 pruned_before_endpoint=0 endpoint_tests=65 endpoint_rejects=0 golomb=65 hull_covered=2 placements_N=0 digest=0x28f8f2205604af44 best_run=4 best_marks={0,1} best_interval=[-1,2]
+k=3 raw_total=2080 pruned_before_endpoint=0 endpoint_tests=2080 endpoint_rejects=32 golomb=2048 hull_covered=8 placements_N=0 digest=0xc058fa53147d98e1 best_run=10 best_marks={0,1,3} best_interval=[-3,6]
+k=4 raw_total=43680 pruned_before_endpoint=1024 endpoint_tests=42656 endpoint_rejects=2966 golomb=39690 hull_covered=76 placements_N=0 digest=0x992a6ecd96500e6f best_run=22 best_marks={0,1,5,7} best_interval=[-7,14]
+k=5 raw_total=677040 pruned_before_endpoint=82480 endpoint_tests=594560 endpoint_rejects=109208 golomb=485352 hull_covered=1102 placements_N=0 digest=0x25961f75585e8f0d best_run=42 best_marks={0,5,11,12,20} best_interval=[-12,29]
+k=6 raw_total=8259888 pruned_before_endpoint=2848548 endpoint_tests=5411340 endpoint_rejects=1995444 golomb=3415896 hull_covered=20166 placements_N=6 digest=0x44c30eaca078b8e3 best_run=67 best_marks={0,7,19,22,28,39} best_interval=[-15,51] first_witness_in_[1,N]={21,25,31,40,43,60}
+  witness_1={21,25,31,40,43,60}
+  witness_2={15,22,34,37,43,54}
+  witness_3={16,23,35,38,44,55}
+  witness_4={12,23,29,32,44,51}
+  witness_5={13,24,30,33,45,52}
+  witness_6={7,24,27,36,42,46}
+CONCLUSION a(66)=6
+	Command being timed: "./verify_156_a66"
+	User time (seconds): 2.25
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 140
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

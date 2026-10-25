@@ -1,0 +1,8 @@
+ASSERT d=7 solver=CaDiCaL logs=1 cases=353 unique_complete=PASS logset_sha=1168621c00c9c851a8754b9c8c399e407cd8d52431c641bbdf62f665238bac72
+ASSERT d=8 solver=CaDiCaL logs=2 cases=1829 unique_complete=PASS logset_sha=5fadedef9496394a152be4023b7dd132be42b5e28d95d33ac1e84a6e4cbcd728
+ASSERT d=9 solver=CaDiCaL logs=7 M=179 H=8753 pairs=1566787 unique_complete=PASS logset_sha=bdf8b12a71f2589e5b4aa2045d2474ec7fbeb3901fe042eed747e657f07b9e30
+ASSERT d=10 solver=CaDiCaL logs=7 M=71 H=8688 pairs=616848 unique_complete=PASS logset_sha=593d5dca4b6f6dc9188cfa428ca03f0713334f6960b897e759c9af37c209f06d
+ASSERT d=11 solver=Kissat logs=12 cases=403 unique_complete=PASS logset_sha=4a9e2a606aadbc51e10e3b635384a9e155febc6c1da207af146ce2b53b443432
+ASSERT d=12 solver=Kissat logs=1 cases=8 unique_complete=PASS logset_sha=93c0f184b0523078aad8537b74b259083693b574eb8991b213fb9f880ac04aa8
+ASSERT d=11 solver=CaDiCaL logs=18 cases=403 unique_complete=PASS logset_sha=77a408c7d4894b159ffc54559d223c2f7136885aedbbb7d4f1078923bd4e43d1
+ASSERT d=12 solver=CaDiCaL logs=1 cases=8 unique_complete=PASS log_sha=94d0cdac0817c7bd1a02b9ed3addf3ba7b4fc7c106a4d13256999a5a5996d14b

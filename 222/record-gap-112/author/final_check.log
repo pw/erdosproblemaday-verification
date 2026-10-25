@@ -1,0 +1,15 @@
+FINAL_CHECK_UTC 2026-08-11T16:18:02Z
+FROZEN_OUTPUTS_PASS baseline=0..99951600400 post_anchor_scanners=3 represented=15137795993 max_gap=112 endpoints=133858454292,133858454404 oeis_anchor_start=99951600293 oeis_anchor_gap=107
+SMALL_FRONTIER_PASS method=spf_factor_criterion range=0..1000000 represented=216342 max_gap=35 endpoints=685541,685576 scanners=2
+PYTHON_CERTIFICATE_PASS rows=111 endpoints=133858454292,133858454404 gap=112
+PARI_CERTIFICATE_PASS rows=111 endpoints=133858454292,133858454404 gap=112
+SITE_GATE_PASS direct_problem_or_sequence_references=0 same_result_or_endpoint_references=0 broad_incidental_problems=661,723,955
+SANITIZER_SMOKE_PASS asan=clean ubsan=clean scanners=2 range=0..1000000
+STATIC_BUILD_PASS python_scripts=5 cpp_sources=2 warnings=0
+SITE_CURRENT_AND_SNAPSHOT_HASHES
+db71798c7a063a92767ebf970543a2190aa066bd7134dac51716daa5d3ac969c  /home/exedev/ErdosProblemADay/src/index.js
+9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052  /home/exedev/ErdosProblemADay/src/ledger_data.js
+db71798c7a063a92767ebf970543a2190aa066bd7134dac51716daa5d3ac969c  site_snapshot/index.js
+9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052  site_snapshot/ledger_data.js
+SITE_GIT_STATUS_PREEXISTING_DIRTY_WORKTREE
+ M src/ledger_data.js

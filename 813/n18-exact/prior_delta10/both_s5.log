@@ -1,0 +1,7 @@
+# both seed=305 base7=1 base5=6 start tf=9 k5=0
+RAW tf=4 k5=4 sum=8 iter=12018 t=14.7
+RAW tf=2 k5=5 sum=7 iter=20035 t=22.1
+RAW tf=0 k5=5 sum=5 iter=54762 t=55.3
+END best_sum=5 best_feas_tf=9 iter=232448 bumps=39927 kicks=57 t=280.2
+BESTRAW 23d4e 16761 286f9 19f35 0fecc 3cd8e 32697 3d574 0f4ab 3685e 109ff 3d639 3a999 2d353 1abb2 279bc 25eea 1bae5
+BESTFEAS 2575c 3c53c 30fe3 1df83 3ee43 3e1c6 17b35 37e2c 0bc6f 298dd 2699f 1a7dc 2e3c9 2ddf0 134fb 33b3a 0c8fe 0b6b7

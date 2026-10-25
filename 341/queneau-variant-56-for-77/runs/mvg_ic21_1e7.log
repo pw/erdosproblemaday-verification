@@ -1,0 +1,4 @@
+ic=21 seed(20)=[1, 2, 3, 5, 7, 13, 14, 22, 27, 28, 32, 36, 40, 47, 48, 52, 71, 81, 89, 97]
+tag=ic21_strict N=10000000 distinct=1 seed_k=20 max_seed=97 count=1224400 density=0.122440
+suffix from gap index 1101959 (len 122440): smallest period 6 (a period of THIS SUFFIX only; says nothing about the infinite sequence)
+model vs greedy on [1,10000000]: 0 mismatches; first: []  (greedy count 1224400, model count 1224400)

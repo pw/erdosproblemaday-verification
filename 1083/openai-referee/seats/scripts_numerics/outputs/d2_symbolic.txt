@@ -1,0 +1,8 @@
+d=3: Omega v - y on F_pq  == [0, 0, 0, 0]  ; v0.Z v0 = 0
+  B(X,X') + (v0-v0').(y0-y0') = 0;  (v0-v0').(y0-y0') - (|p-p'|^2-|q-q'|^2)/4 = 0
+  (Zv0 - y0) - (Zv0' - y0') + (1/2)(Z(u+w) - (u-w)) = [0, 0, 0]
+  local: L - 2(ui.uj - wi.wj) = 0;  x.Zx for skew Z: 0
+d=4: Omega v - y on F_pq  == [0, 0, 0, 0, 0]  ; v0.Z v0 = 0
+  B(X,X') + (v0-v0').(y0-y0') = 0;  (v0-v0').(y0-y0') - (|p-p'|^2-|q-q'|^2)/4 = 0
+  (Zv0 - y0) - (Zv0' - y0') + (1/2)(Z(u+w) - (u-w)) = [0, 0, 0, 0]
+  local: L - 2(ui.uj - wi.wj) = 0;  x.Zx for skew Z: 0

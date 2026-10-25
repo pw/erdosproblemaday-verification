@@ -1,0 +1,11 @@
+openai/math @ 1581d4cbdd69a0faf34b2089614fe2a814316a6a, preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026/ (Apache-2.0; not redistributed here)
+0900061bb0c703ae6d96506a7861a78089ddd83bf2496fd969fe9a5379283daa  paper.pdf
+5aa25c37a0a223371ae485582de3e7763566a38180f177ae10d7ee9742d25d61  build/main.tex
+55d8307a438125cdb32df616286fc2676da1abef7dda4c2532ae952935eb3e3b  build/sections/01-introduction.tex
+6934aa417635d67741f7268dcd091672ec79aa51ed9b53d2cb5fb244c1b6920c  build/sections/02-tensors.tex
+20c099095842040a47b171ace07907461bf01ddb173c3a98f17b5739cc3304f4  build/sections/03-stencil.tex
+c3f8012afe9bcb9f03af1b3350ad4637432eb7b2ba848dd5c5c4787f3efbad31  build/sections/04-pairs.tex
+50410f080de4ba2c51a02442f4102a62a66dddc05be9e56f6496298833b0c3c6  build/sections/05-paths.tex
+06f4c4e4893bbbd0a1bc5a4bfd8543df8440ebc9c06eeb3c16b3d163e9723573  build/sections/06-groups.tex
+2245320e89bfe30bdf8fdb5aa451dad3d48e8df926a813d57f5478b7139bbe44  build/sections/07-consequences.tex
+0ab483e489a5614c2bc4251f39a994a3245ea54cfaae3b1f40f785314ef3b905  build/refs.bib

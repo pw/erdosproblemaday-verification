@@ -1,0 +1,64 @@
+EuclideanRamsey OAI.EuclideanRamsey.classification MATCH | lens 65535 65535
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EuclideanRamsey OAI.EuclideanRamsey.Space MATCH | lens 103 103
+EuclideanRamsey OAI.EuclideanRamsey.Congruent MATCH | lens 1198 1198
+EuclideanRamsey OAI.EuclideanRamsey.Ramsey MATCH | lens 668 668
+EuclideanRamsey OAI.EuclideanRamsey.coordinateField MATCH | lens 1176 1176
+EuclideanRamsey OAI.EuclideanRamsey.Coeff MATCH | lens 832 832
+EuclideanRamsey OAI.EuclideanRamsey.TensorRing MATCH | lens 3383 3383
+EuclideanRamsey OAI.EuclideanRamsey.coordinate MATCH | lens 1294 1294
+EuclideanRamsey OAI.EuclideanRamsey.augmented MATCH | lens 1058 1058
+EuclideanRamsey OAI.EuclideanRamsey.multiply MATCH | lens 14562 14562
+EuclideanRamsey OAI.EuclideanRamsey.FieldCriterion MATCH | lens 76551 76551
+GrahamSpherical OAI.GrahamSpherical.full_main MATCH | lens 84 84
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+GrahamSpherical OAI.GrahamSpherical.Point MATCH | lens 103 103
+GrahamSpherical OAI.GrahamSpherical.Label MATCH | lens 187 187
+GrahamSpherical OAI.GrahamSpherical.parameter MATCH | lens 857 857
+GrahamSpherical OAI.GrahamSpherical.u MATCH | lens 881 881
+GrahamSpherical OAI.GrahamSpherical.v MATCH | lens 743 743
+GrahamSpherical OAI.GrahamSpherical.squareCoordinate MATCH | lens 3928 3928
+GrahamSpherical OAI.GrahamSpherical.coordinates MATCH | lens 5877 5877
+GrahamSpherical OAI.GrahamSpherical.vertex MATCH | lens 660 660
+GrahamSpherical OAI.GrahamSpherical.witness MATCH | lens 295 295
+GrahamSpherical OAI.GrahamSpherical.AvoidsCopy MATCH | lens 1902 1902
+GrahamSpherical OAI.GrahamSpherical.EuclideanRamsey MATCH | lens 2082 2082
+GrahamSpherical OAI.GrahamSpherical.Specification.FullAuthoredResult MATCH | lens 3641 3641
+EuclideanRamseyCircle OAI.EuclideanRamsey.CircleConsequence.at_most_five_circle_points_ramsey MATCH | lens 1644 1644
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EuclideanRamseyCircle OAI.EuclideanRamsey.Space MATCH | lens 103 103
+EuclideanRamseyCircle OAI.EuclideanRamsey.Congruent MATCH | lens 1198 1198
+EuclideanRamseyCircle OAI.EuclideanRamsey.Ramsey MATCH | lens 668 668
+EuclideanRamseyNine OAI.EuclideanRamsey.NineStatement.nine_circle_configuration MATCH | lens 3627 3627
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EuclideanRamseyNine OAI.EuclideanRamsey.Space MATCH | lens 103 103
+EuclideanRamseyNine OAI.EuclideanRamsey.Congruent MATCH | lens 1198 1198
+EuclideanRamseyNine OAI.EuclideanRamsey.Ramsey MATCH | lens 668 668
+EuclideanRamseyNine OAI.EuclideanRamsey.NineStatement.literalCircleConfig MATCH | lens 2623 2623
+EuclideanRamseyQuadratic OAI.EuclideanRamsey.spherical_quadraticIndependent_ramsey_all MATCH | lens 77813 77813
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EuclideanRamseyQuadratic OAI.EuclideanRamsey.Space MATCH | lens 103 103
+EuclideanRamseyQuadratic OAI.EuclideanRamsey.Congruent MATCH | lens 1198 1198
+EuclideanRamseyQuadratic OAI.EuclideanRamsey.Ramsey MATCH | lens 668 668
+EuclideanRamseyQuadratic OAI.EuclideanRamsey.coordinateField MATCH | lens 1176 1176
+EuclideanRamseyQuadratic OAI.EuclideanRamsey.Coeff MATCH | lens 832 832
+EuclideanRamseyQuadratic OAI.EuclideanRamsey.coordinate MATCH | lens 1294 1294
+EuclideanRamseyQuadratic OAI.EuclideanRamsey.augmented MATCH | lens 1058 1058
+EuclideanRamseySpherical OAI.EuclideanRamsey.ramsey_cospherical MATCH | lens 727 727
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EuclideanRamseySpherical OAI.EuclideanRamsey.Space MATCH | lens 103 103
+EuclideanRamseySpherical OAI.EuclideanRamsey.Congruent MATCH | lens 1198 1198
+EuclideanRamseySpherical OAI.EuclideanRamsey.Ramsey MATCH | lens 668 668
+EuclideanRamseyTransitive OAI.EuclideanRamsey.TransitiveConsequence.subset_of_finite_transitive_ramsey MATCH | lens 2386 2386
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+EuclideanRamseyTransitive OAI.EuclideanRamsey.Space MATCH | lens 103 103
+EuclideanRamseyTransitive OAI.EuclideanRamsey.Congruent MATCH | lens 1198 1198
+EuclideanRamseyTransitive OAI.EuclideanRamsey.Ramsey MATCH | lens 668 668
+ALL_MATCH_STD_SORRYSEEN
+EuclideanRamsey: 11 MATCH / 0 MISMATCH
+GrahamSpherical: 13 MATCH / 0 MISMATCH
+EuclideanRamseyCircle: 4 MATCH / 0 MISMATCH
+EuclideanRamseyNine: 5 MATCH / 0 MISMATCH
+EuclideanRamseyQuadratic: 8 MATCH / 0 MISMATCH
+EuclideanRamseySpherical: 4 MATCH / 0 MISMATCH
+EuclideanRamseyTransitive: 4 MATCH / 0 MISMATCH

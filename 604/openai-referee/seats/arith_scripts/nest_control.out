@@ -1,0 +1,6 @@
+nested=True: nesting violated in 0/2000 grids; first-share depth not an ultrametric in 0/2000
+nested=False: nesting violated in 1866/2000 grids; first-share depth not an ultrametric in 1598/2000
+
+real	0m4.518s
+user	0m5.466s
+sys	0m0.074s

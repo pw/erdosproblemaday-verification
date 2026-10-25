@@ -1,0 +1,7 @@
+MAIN_STATEMENT(alpha-normalised binders) MATCH
+DEF_ProperColoring(alpha-normalised binders) MATCH
+AXIOMS OAI.EuclideanFiveColor.no_proper_five_coloring STD ['Classical.choice', 'Quot.sound', 'propext']
+AXIOMS OAI.EuclideanFiveColor.no_measurable_weak_five_coloring STD ['Classical.choice', 'Quot.sound', 'propext']
+AXIOMS OAI.EuclideanFiveColor.proper_to_borel_weak STD ['Classical.choice', 'Quot.sound', 'propext']
+AXIOMS OAI.EuclideanFiveColor.proper_to_weak STD ['Classical.choice', 'Quot.sound', 'propext']
+CMP_SORRY SEEN ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']

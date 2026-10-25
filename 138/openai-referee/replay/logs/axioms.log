@@ -1,0 +1,115 @@
+'OAI.QuantitativeVanDerWaerden.uniform_lower_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'OAI.QuantitativeVanDerWaerden.uniform_lower_bound_floor' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'OAI.QuantitativeVanDerWaerden.exists_uniform_lower_bound' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'OAI.QuantitativeVanDerWaerden.kthRoot_tendsto' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'OAI.QuantitativeVanDerWaerden.length_rate_tendsto' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'OAI.QuantitativeVanDerWaerden.exists_cyclic_coloring' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+OAI.QuantitativeVanDerWaerden.uniform_lower_bound : @Exists.{1} Nat fun (K : Nat) =>
+  ∀ (k : Nat),
+    @GE.ge.{0} Nat instLENat k K →
+      ∀ (r : Nat),
+        @GE.ge.{0} Nat instLENat r (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) →
+          @LT.lt.{0} Real Real.instLT
+            (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+              (@Nat.cast.{0} Real Real.instNatCast k)
+              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                    (@OfNat.ofNat.{0} Real (nat_lit 100000)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 100000) Real.instNatCast
+                        (@Nat.instAtLeastTwoHAddOfNat
+                          (@OfNat.ofNat.{0} Nat (nat_lit 99999) (instOfNatNat (nat_lit 99999)))
+                          (@Nat.instNeZeroSucc
+                            (@OfNat.ofNat.{0} Nat (nat_lit 99998) (instOfNatNat (nat_lit 99998))))))))
+                  (@Nat.cast.{0} Real Real.instNatCast k))
+                (@Nat.cast.{0} Real Real.instNatCast
+                  (Nat.log (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) r))))
+            (@Nat.cast.{0} Real Real.instNatCast (OAI.QuantitativeVanDerWaerden.W r k))
+@OAI.QuantitativeVanDerWaerden.kthRoot_tendsto : ∀ {r : Nat}
+  (hr : @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) r),
+  @Filter.Tendsto.{0, 0} Nat Real
+    (fun (k : Nat) =>
+      @HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+        (@Nat.cast.{0} Real Real.instNatCast (OAI.QuantitativeVanDerWaerden.W r k))
+        (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+          (@Nat.cast.{0} Real Real.instNatCast k)))
+    (@Filter.atTop.{0} Nat Nat.instPreorder) (@Filter.atTop.{0} Real Real.instPreorder)
+OAI.QuantitativeVanDerWaerden.exists_cyclic_coloring : @Exists.{1} Nat fun (K : Nat) =>
+  ∀ (k : Nat),
+    @GE.ge.{0} Nat instLENat k K →
+      @Exists.{1} Nat fun (N : Nat) =>
+        And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) N)
+          (And
+            (@LE.le.{0} Real Real.instLE
+              (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                (@Nat.cast.{0} Real Real.instNatCast k)
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                    (@OfNat.ofNat.{0} Real (nat_lit 100000)
+                      (@instOfNatAtLeastTwo.{0} Real (nat_lit 100000) Real.instNatCast
+                        (@Nat.instAtLeastTwoHAddOfNat
+                          (@OfNat.ofNat.{0} Nat (nat_lit 99999) (instOfNatNat (nat_lit 99999)))
+                          (@Nat.instNeZeroSucc
+                            (@OfNat.ofNat.{0} Nat (nat_lit 99998) (instOfNatNat (nat_lit 99998))))))))
+                  (@Nat.cast.{0} Real Real.instNatCast k)))
+              (@Nat.cast.{0} Real Real.instNatCast N))
+            (@Exists.{1} (ZMod N → Bool) fun (C : ZMod N → Bool) =>
+              @OAI.QuantitativeVanDerWaerden.CyclicAvoids.{0} N Bool C k))
+def OAI.QuantitativeVanDerWaerden.W : (r k : Nat) → Nat :=
+fun (r k : Nat) =>
+  @InfSet.sInf.{0} Nat Nat.instInfSet
+    (@Set.ofPred.{0} Nat fun (N : Nat) =>
+      And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) N)
+        (OAI.QuantitativeVanDerWaerden.IsRamsey.{0} (Fin r) k N))
+def OAI.QuantitativeVanDerWaerden.IsRamsey.{u} : (α : Type u) → (k N : Nat) → Prop :=
+fun (α : Type u) (k N : Nat) => ∀ (c : Nat → α), @OAI.QuantitativeVanDerWaerden.HasMonoAP.{u} α c k N
+def OAI.QuantitativeVanDerWaerden.HasMonoAP.{u} : {α : Type u} → (c : Nat → α) → (k N : Nat) → Prop :=
+fun {α : Type u} (c : Nat → α) (k N : Nat) =>
+  @Exists.{1} Nat fun (a : Nat) =>
+    @Exists.{1} Nat fun (d : Nat) =>
+      And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) d)
+        (And
+          (@LT.lt.{0} Nat instLTNat
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) a
+              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) k
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                d))
+            N)
+          (@OAI.QuantitativeVanDerWaerden.MonoAP.{u} α c k a d))
+def OAI.QuantitativeVanDerWaerden.MonoAP.{u} : {α : Type u} → (c : Nat → α) → (k a d : Nat) → Prop :=
+fun {α : Type u} (c : Nat → α) (k a d : Nat) =>
+  ∀ (j : Nat),
+    @LT.lt.{0} Nat instLTNat j k →
+      @Eq.{u + 1} α
+        (c
+          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) a
+            (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) j d)))
+        (c a)
+def OAI.QuantitativeVanDerWaerden.CyclicLowerBound : (c : Real) → Prop :=
+fun (c : Real) =>
+  @Exists.{1} Nat fun (K : Nat) =>
+    ∀ (k : Nat),
+      @GE.ge.{0} Nat instLENat k K →
+        @Exists.{1} Nat fun (N : Nat) =>
+          And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) N)
+            (And
+              (@LE.le.{0} Real Real.instLE
+                (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                  (@Nat.cast.{0} Real Real.instNatCast k)
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c
+                    (@Nat.cast.{0} Real Real.instNatCast k)))
+                (@Nat.cast.{0} Real Real.instNatCast N))
+              (@Exists.{1} (ZMod N → Bool) fun (C : ZMod N → Bool) =>
+                @OAI.QuantitativeVanDerWaerden.CyclicAvoids.{0} N Bool C k))

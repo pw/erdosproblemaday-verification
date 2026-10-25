@@ -1,0 +1,12 @@
+capture_date_utc=2026-08-11
+host=portalonce
+kernel=Linux 6.12.93 x86_64
+logical_processors=16
+compiler=g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+python=Python 3.12.3
+glibc=2.39
+coreutils_sha256sum=9.4
+pdftotext=24.02.0
+tesseract=5.3.4
+openmp_threads_used=16
+compile_flags=-O3 -march=native -fopenmp -std=c++20 -Wall -Wextra

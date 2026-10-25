@@ -1,0 +1,14 @@
+build 0 63/63 failed=
+cmpmod_PowerFreeValues 0 6
+cmp_PowerFreeValues 0 8
+ax_PowerFreeValues 0 6
+neg 0 6
+statement_match 0 0
+bridge_compile 0 9
+bridge_axioms 0 7
+mut_exp 1 7
+mut_nolocal 1 6
+mut_sorry_compile 0 10
+mut_sorry_axioms 0 0
+leanchecker_fresh 0 3502
+leanchecker_missing_control 1 1

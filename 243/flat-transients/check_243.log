@@ -1,0 +1,6 @@
+random_direct_vs_modular=PASS trials=1000 steps=8
+finite_transition_box=PASS states=320760
+construction_grid=PASS cases=80
+eta_delta_grid=PASS cases=72
+large_certificate: L=1000 h=-1 p=1001003 c0=1000003 digits(P)=6001 trace_sha256=54814b022d6fa9ae977a7e40937296ddeaf03804dbfa706dbbf93605b32a8481
+ALL EXACT CHECKS PASSED

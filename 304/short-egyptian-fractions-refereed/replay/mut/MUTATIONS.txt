@@ -1,0 +1,7 @@
+statement_match.py mutation tests (2026-10-21, 18:00Z erdos seat, family 25). Each mutant = the real logs with one edit (asserted to change the input).
+unmodified         rc=0  ShortEgyptianFractions OAI.ShortEgyptian (want 0)
+numeral_in_def     rc=1  ShortEgyptianFractions OAI.ShortEgyptian (want 1)
+theorem_type       rc=1  ShortEgyptianFractions OAI.ShortEgyptian (want 1)
+cmp_no_sorry       rc=1  ShortEgyptianFractions OAI.ShortEgyptian (want 1)
+sol_extra_axiom    rc=1  ShortEgyptianFractions OAI.ShortEgyptian (want 1)
+missing_block      rc=2  ShortEgyptianFractions OAI.ShortEgyptian (want 2)

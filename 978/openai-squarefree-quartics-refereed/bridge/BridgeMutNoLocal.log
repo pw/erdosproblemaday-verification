@@ -1,0 +1,7 @@
+BridgeMutNoLocal.lean:11:57: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 1
+  a ≥ 4
+where
+ a := ↑f.natDegree
+ b := f.leadingCoeff

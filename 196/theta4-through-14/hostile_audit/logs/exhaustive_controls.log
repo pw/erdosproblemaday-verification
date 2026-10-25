@@ -1,0 +1,20 @@
+n=1 theta4=1 oriented_words=0 incidence=0 rc_fixed=1 first_counts=1
+n=2 theta4=2 oriented_words=0 incidence=0 rc_fixed=2 first_counts=1,1
+n=3 theta4=6 oriented_words=0 incidence=0 rc_fixed=2 first_counts=2,2,2
+n=4 theta4=22 oriented_words=2 incidence=2 rc_fixed=6 first_counts=5,6,6,5
+n=5 theta4=102 oriented_words=4 incidence=20 rc_fixed=6 first_counts=19,20,24,20,19
+n=6 theta4=564 oriented_words=6 incidence=180 rc_fixed=36 first_counts=87,95,100,100,95,87
+n=7 theta4=3336 oriented_words=10 incidence=2100 rc_fixed=28 first_counts=398,474,570,452,570,474,398
+n=8 theta4=22266 oriented_words=14 incidence=23520 rc_fixed=234 first_counts=2303,2517,3318,2995,2995,3318,2517,2303
+n=9 theta4=168864 oriented_words=18 incidence=272160 rc_fixed=140 first_counts=15942,16838,20136,20177,22678,20177,20136,16838,15942
+prefix_transition_n=1 visited_avoiding_prefixes=2
+prefix_transition_n=2 visited_avoiding_prefixes=5
+prefix_transition_n=3 visited_avoiding_prefixes=16
+prefix_transition_n=4 visited_avoiding_prefixes=63
+prefix_transition_n=5 visited_avoiding_prefixes=304
+prefix_transition_n=6 visited_avoiding_prefixes=1739
+prefix_transition_n=7 visited_avoiding_prefixes=11030
+prefix_transition_n=8 visited_avoiding_prefixes=78725
+negative_control_ascending_only_n4=23 expected_full=22
+all_exhaustive_controls_passed=1
+wall_seconds=42.79 user_seconds=25.44 max_rss_kb=45688 exit_status=0

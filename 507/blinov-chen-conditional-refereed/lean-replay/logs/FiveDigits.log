@@ -1,0 +1,8 @@
+'HeilbronnFive.radix_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.tag_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.residueAlphabet_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.residueAlphabet_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.residueAlphabet_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.DigitModel.schur_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.linear_fresh_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1177776 wall=5s

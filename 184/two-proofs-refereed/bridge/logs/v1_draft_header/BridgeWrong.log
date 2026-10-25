@@ -1,0 +1,9 @@
+BridgeWrong.lean:191:35: error: Application type mismatch: The argument
+  Asymptotics.IsBigO.const_mul_left (Asymptotics.isBigO_refl ?m.65 ?m.66) C
+has type
+  (fun x => C * ?m.65 x) =O[?m.66] ?m.65
+but is expected to have type
+  (fun n => C * ↑n) =O[atTop] fun _n => 1
+in the application
+  And.intro (Asymptotics.IsBigO.const_mul_left (Asymptotics.isBigO_refl ?m.65 ?m.66) C)
+'Bridge184.erdos_184' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

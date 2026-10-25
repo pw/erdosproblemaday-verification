@@ -1,0 +1,18 @@
+rational units with denominator <= 2000: 2556
+(1) all units in Z_(2)[i]: True | all residues 1: True
+(2) improper unit edges, c = rho: 0
+(3) K_Q-invariance violations of (H, rho): 0
+(4) Z[K_Q] sampled words all in Z_(2)[i]: True
+(5) sqrt((3+4i)/5) rational?  x^2 = 4/5 square? False
+(6) |u|^2 = 1 | 15/16 rational square? False
+(7) rho along z0+1/(2n+1): [0, 0, 0, 0, 0]  along z0+2/(2n+1): [1, 1, 1, 1, 1]  both -> z0 = (Fraction(3, 1), Fraction(0, 1))
+--- controls that must FAIL ---
+(C1) improper edges for displacement 2 (non-unit): 300
+(C2) improper unit edges, c = floor(Re z) mod 2: 866
+(C3) rho((1+i) z) != rho(z) count: 159
+(C4) (1+i)/2 in H? False
+--- (8) discontinuity inside the unit-step group G (sums of rational units only) ---
+Q=    10  |odd|=1.16e-01 rho(z0+odd)=0   |even|=0.00e+00 rho(z0+even)=1
+Q=   100  |odd|=3.91e-03 rho(z0+odd)=0   |even|=1.17e-02 rho(z0+even)=1
+Q=  1000  |odd|=2.49e-04 rho(z0+odd)=0   |even|=1.17e-03 rho(z0+even)=1
+Q= 10000  |odd|=8.69e-05 rho(z0+odd)=0   |even|=1.76e-04 rho(z0+even)=1

@@ -1,0 +1,9 @@
+BridgeMutK0.lean:37:17: error: Application type mismatch: The argument
+  fun k hk => ?m.64
+has type
+  (k : ℕ) → (hk : ?m.65 k) → ?m.66 k hk
+but is expected to have type
+  ∀ (k : ℕ), ↑(jacobsthalFunction k) ≤ C * ↑k ^ 2
+in the application
+  ⟨hC, fun k hk => ?m.64⟩
+BridgeMutK0.lean:38:2: error: No goals to be solved

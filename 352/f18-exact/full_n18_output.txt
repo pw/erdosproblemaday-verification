@@ -1,0 +1,25 @@
+{"N":18,"cases_with_high":108,"certificate_sha256":"b761add523bbe8a4f1d8f822268ddc28a893e9a1318ebc73807822d7ca09fea8","certificates":12734,"diameter_cases":140,"f(N)":34,"high_branches":12594,"max_branch_pool":129,"pool_memberships":446938,"same_color_pairs_audited":3011741,"seconds":216.13410898507573,"tight_cover_audit":{"bad_triples":4,"candidate_cap":32,"endpoint_choices":512,"incompatible_edges":57,"matching_size":9,"pool_size":42,"surviving_covers":2},"tight_vectors":[[5,4],[6,3],[5,5],[7,1],[7,2]],"witness_min_gap":21,"witness_triples":7140}
+ALL CHECKS PASSED for N=18..18; exact table=[34]; total_seconds=216.134
+	Command being timed: "python3 runs/erdos352_wavew041_reverify.py --min-n 18 --max-n 18 --json"
+	User time (seconds): 216.01
+	System time (seconds): 0.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:36.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 20940
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3000
+	Voluntary context switches: 2
+	Involuntary context switches: 3286
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

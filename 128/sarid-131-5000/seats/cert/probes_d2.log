@@ -1,0 +1,9 @@
+  Grotzsch               n= 11: uniform h=-0.039034219;  min g found= 3.191e-18;  min h found=-0.044678851  (margin to -gamma  2.196e-03); max|w - uniform| at min h = 4.06e-02  [4s]
+  Andrasfai(3)           n=  8: uniform h=-0.041666667;  min g found= 2.589e-19;  min h found=-0.041666667  (margin to -gamma  5.208e-03); max|w - uniform| at min h = 3.53e-09  [8s]
+  Andrasfai(4)           n= 11: uniform h=-0.041322314;  min g found= 2.315e-18;  min h found=-0.041666667  (margin to -gamma  5.208e-03); max|w - uniform| at min h = 9.09e-02  [12s]
+  Andrasfai(5)           n= 14: uniform h=-0.040816327;  min g found= 3.227e-18;  min h found=-0.041666667  (margin to -gamma  5.208e-03); max|w - uniform| at min h = 7.14e-02  [19s]
+  Mobius-Kantor GP(8,3)  n= 16: uniform h=-0.015625000;  min g found= 1.223e-18;  min h found=-0.027777778  (margin to -gamma  1.910e-02); max|w - uniform| at min h = 1.04e-01  [27s]
+  Kneser(7,3)            n= 35: uniform h=-0.007346939;  min g found= 5.134e-19;  min h found=-0.013967905  (margin to -gamma  3.291e-02); max|w - uniform| at min h = 7.13e-02  [109s]
+  Kneser(8,3)            n= 56: uniform h=-0.020089286;  min g found= 6.633e-18;  min h found=-0.040000000  (margin to -gamma  6.875e-03); max|w - uniform| at min h = 8.21e-02  [460s]
+(Higman-Sims weighted probe stopped by seat after ~30 min, not completed; exact uniform value is in probes.log (b))
+rc=143

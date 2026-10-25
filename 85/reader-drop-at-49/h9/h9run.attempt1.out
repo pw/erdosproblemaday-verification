@@ -1,0 +1,4 @@
+ctl_petersen_free_deg3	kissat	SAT	0.01	45	1980	SAT	model: free degrees ok=True, max codegree=1
+ctl_petersen_free_deg3	cadical	SAT	0.01	45	1980	SAT	model: free degrees ok=True, max codegree=1
+ctl_n10_deg4	kissat	UNSAT	0.29	45	2060	UNSAT	
+ctl_n10_deg4	cadical	UNSAT	0.17	45	2060	UNSAT	

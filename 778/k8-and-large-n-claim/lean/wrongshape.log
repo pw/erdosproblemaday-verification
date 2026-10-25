@@ -1,0 +1,6 @@
+../WrongShape.lean:2:82: error: Type mismatch
+  Erdos12.erdos_one_two_main
+has type
+  ∃ N, ∀ (n : ℕ), N ≤ n → ∃ σ, Erdos12.WinningStrategy σ
+but is expected to have type
+  ∀ (n : ℕ), 4 ≤ n → ∃ σ, Erdos12.WinningStrategy σ

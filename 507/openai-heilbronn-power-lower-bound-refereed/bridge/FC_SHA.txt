@@ -1,0 +1,2 @@
+google-deepmind/formal-conjectures@3bf943f1bd4c9e25da847cb9517f5fa47767e96d (main, 2026-10-22T14:00:09Z): FormalConjectures/ErdosProblems/507.lean, FormalConjecturesForMathlib/Geometry/2d.lean, FormalConjecturesForMathlib/Analysis/Asymptotics/Basic.lean
+FormalConjectures/GreensOpenProblems/77.lean @3bf943f1

@@ -1,0 +1,6 @@
+path3 delta=0.40  delta_hyp=0.400  LHS/L=2.7200e-01  LHS/(delta L)=0.680
+   uniform star k=5 delta_hyp=0.400 LHS/L=1.2800e-01 LHS/(delta_hyp L)=0.320
+path3 delta=0.10  delta_hyp=0.100  LHS/L=9.0500e-02  LHS/(delta L)=0.905
+   uniform star k=20 delta_hyp=0.100 LHS/L=9.5000e-03 LHS/(delta_hyp L)=0.095
+path3 delta=0.01  delta_hyp=0.010  LHS/L=9.9005e-03  LHS/(delta L)=0.990
+   uniform star k=200 delta_hyp=0.010 LHS/L=9.9500e-05 LHS/(delta_hyp L)=0.010

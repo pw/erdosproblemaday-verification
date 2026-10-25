@@ -1,0 +1,19 @@
+(1) x in Q, is x = k+k' with k,k' in K_Q ? {'1/2': False, '1/3': False, '1/5': False, '2/3': False, '3/4': False, '1/7': False, '6/5': True, '8/5': True, '24/25': False}
+    among the 1101 reduced rationals in (0,1) with denominator <= 60, only 5 are sums of two rational unit vectors
+    largest M with jt decomposable for all j=1..M (t=n/d, d<400, |Mt|<1): 1  (the proof needs M >= 2 with 0.9M/L > 10m^2, i.e. M huge)
+(2) 1632 primitive Pythagorean triples: hypotenuses with a prime factor not = 1 mod 4: 0
+    => K_Q subset Z[i][1/p : p=1 mod 4]; so EVERY integer combination of elements of K_Q has no 2 or 3 in its denominator;
+       x=1/3 or 1/2 is not a Z-combination of rational unit vectors of ANY length.
+(3) sample |K_Q| = 1260 ; min 3-adic valuation of coordinates: 0 ; min 2-adic: 0
+    |image of sample of K_Q in (Z/3^1)[i]| = 4
+    |image of sample of K_Q in (Z/3^2)[i]| = 12
+    |image of sample of K_Q in (Z/3^3)[i]| = 36
+    |image of sample of K_Q in (Z/3^4)[i]| = 104
+    |image of sample of K_Q in (Z/3^5)[i]| = 304
+    => nu_3 := Haar on G_3 = closure of K_Q.1 in Z_3[i]^x (embedded in D_Q as characters trivial on Z_(3)[i]) is K_Q-invariant,
+       ergodic (minimal isometric rotation), gives C measure 0 (C meets that compact subgroup only in 0, and 0 is not in G_3),
+       and has Fourier coefficient f(1)=1 (1 in Z_(3)[i]); it is NOT Haar on D_Q.  Rational Theorem 2.3 is FALSE.
+(4) every sampled rational unit vector (x,y) has x+y a 2-adic UNIT (odd/odd): True  => colour(x,y)=(x+y mod 2) flips on every rational unit step
+    control: non-unit step (3/5,1/5): x+y = 4/5 odd/odd? False (expected False -> the test can fail)
+(5) Lemma 3.3 needs L=sqrt(AB) in the base field: A=1,B=2 -> AB square in Q? False ; p.21 "every t in [-1,1] is Re of an element of K": t=1/2 -> 1-t^2 square in Q? False
+    p.18 "radii lie in F_{>=0}": |1+i| = sqrt2 rational? False

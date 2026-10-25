@@ -1,0 +1,7 @@
+SANITIZER NEGATIVE CONTROL: cap133 core14 centers49..80
+RESULT cap=133 core=14 t_range=49..80 found=0 orbit_nodes=450225 complete_cores=1928 valid_cores=1928 extension_nodes=6903 seconds=29.0852
+negative_rc=0
+SANITIZER POSITIVE CONTROL: cap134 core19 center134
+RESULT cap=134 core=19 t_range=134..134 found=1 orbit_nodes=443629 complete_cores=1 valid_cores=1 extension_nodes=0 seconds=45.879
+WITNESS 0 4 5 7 17 33 44 52 58 67 76 82 90 101 117 127 129 130 134
+positive_rc=2

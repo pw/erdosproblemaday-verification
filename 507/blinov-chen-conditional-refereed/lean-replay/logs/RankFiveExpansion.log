@@ -1,0 +1,3 @@
+'HeilbronnRankFive.rank_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnRankFive.antisymmetrized_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1510848 wall=5s

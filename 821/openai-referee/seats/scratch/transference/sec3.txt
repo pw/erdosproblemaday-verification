@@ -1,0 +1,1492 @@
+Transference for dilation graphs
+
+We transfer a norm estimate for independent prime labels to an averaged moment of a dilation graph
+whose labels must divide the integer at their vertex. Averaging a required divisibility condition
+supplies a factor 1/p, which explains the reciprocal-prime law in the independent model. A prime
+used at several vertices pays this cost only once. The main problem is to retain that dependence
+while using the independent-model norm on most edges. The resulting moment will control pairings
+in which one endpoint is constant on all mark lists at its integer position. Signed closed walks and
+repeated prime labels also occur in the divisibility-graph arguments of Helfgott and Radziwiłł [11,
+Section 1.5] and Pilatte [18, Sections 3 and 5]. The operators and ranges here differ; the memory
+identity and transference estimate below are proved for the present model.
+
+3.1
+
+Prime groups and the two operators
+
+Definition 3.1 (Prime groups). Fix constants
+0 < a < b < c < d < 0.47,
+
+c0 , C0 , v− , v+ > 0,
+
+0 < q < 1,
+
+ℓ ∈ N.
+
+For each sufficiently large x, let the finite, pairwise disjoint sets of primes Pg be indexed by the
+disjoint sets S and B, where
+c0 T ≤ |S|, |B| ≤ C0 T.
+
+10
+
+The small and big groups, respectively, satisfy
+exp(La ) ≤ p ≤ exp(Lb )
+c
+
+(p ∈ Pg , g ∈ S),
+
+d
+
+exp(L ) ≤ p ≤ exp(L ) (p ∈ Pg , g ∈ B),
+X 1
+1
+v− ≤ Vg :=
+≤ v+ ,
+µg (p) :=
+.
+p
+Vg p
+p∈P
+
+(3.1)
+
+g
+
+Write s = |S| + |B| and
+ωg (n) =
+
+X
+
+1p|n ,
+
+ω(n) =
+
+X
+
+ωg (n)
+
+(n ∈ Z).
+
+g
+
+p∈Pg
+
+Thus divisibility at n = 0 has its usual meaning. We call primes in
+
+S
+
+g Pg group primes.
+
+Let J be a sufficiently large fixed integer and put M = J + ℓ. An ordered label list has M slots
+in each group. A pattern ν specifies sets Cg ⊆ {1, . . . , J}, with
+Cg = ∅
+
+(g ∈ S),
+
+|Cg | ≤ m,
+
+tg = ℓ + |Cg |.
+
+The slots in {1, . . . , J} \ Cg are shared; their labels are copied from the source list to the target list.
+The other tg slots in each endpoint list are unshared. To form D, use the shared labels and, in the
+Cg slots, independent labels of law µg . Thus D has J prime factors from each group, counted with
+multiplicity. Write D = DS DB .
+For each pattern there is a complex coefficient Kν , depending only on the ordered big-group
+source labels, target labels, and the auxiliary free labels used in DB . The finite pattern family may
+depend on x and J, but
+X
+sup |Kν | ≤ LC1 ,
+(3.2)
+ν
+
+where m, C1 are fixed independently of J. In every operator below, symmetrization means averaging
+all M ! slot permutations independently in each relevant group. This is an orthogonal projection
+because the measures are invariant under these permutations. Our convention is that a row operator
+integrates a function at the target and returns a function at the source.
+Definition 3.2 (Ideal operator). On the space
+
+2
+
+Hid = L
+
+
+Y
+
+PgM ,
+
+g∈B
+
+O
+
+,
+µ⊗M
+g
+
+g∈B
+
+repetitions of prime values are allowed. For a real ζ, the unsymmetrized ideal row operation for ν
+retains shared labels, samples all unshared target labels independently with laws µg , and samples
+the auxiliary labels of DB independently with the same laws. Its multiplier is
+Kν DBiζ e(ΘDB ) .
+The sum over ν, composed on both sides with big-group symmetrization, is denoted T (Θ).
+Definition 3.3 (Physical operator). A physical state (n, p) consists of n ∈ Z and an ordered list
+p = (pg,i )g,1≤i≤M such that, within each group, the labels are distinct and divide n. Give every
+Q
+state at n mass g Vg−M and use counting measure in n. This defines Hph .
+Fix an integer k with 0 < |k| ≤ LC2 . For pattern ν, sample the auxiliary labels forming D as
+above and move from n to n′ = n + kD. Sum over physical target states at n′ with the prescribed
+11
+
+−t
+
+shared labels, with coefficient g Vg g for each target. Forbid every auxiliary free label of D from
+both endpoint lists. Auxiliary free labels may equal one another. Multiply this row action by
+Q
+
+′
+
+Kν Diζ q (ω(n)−M s)/2 q (ω(n )−M s)/2 .
+
+(3.3)
+
+The sum over patterns, symmetrized in all groups on both sides, is A.
+For clarity, the adjoint moves by −kD, interchanges source and target labels in the coefficient,
+and conjugates the multiplier. Indeed, after both lists and the auxiliary labels have been fixed, the
+shared product and hence D are unchanged on reversal. The joint measure of the two lists in group
+g has normalization
+Vg−M −tg
+(3.4)
+in either direction. The auxiliary-label probability is also unchanged. This proves the assertion
+before symmetrization, and the symmetrizing projections are self-adjoint.
+Lemma 3.4 (Absolute physical bounds). Replace the coefficients of each row transition of A
+by their absolute values before adding patterns or averaging permutations. The resulting operator
+and its adjoint have row sums at most LCabs , where Cabs may depend on m, C1 and the fixed data
+in Theorem 3.1, but is independent of J. The same assertion holds if the position is replaced by
+independent uniform residues at all group primes.
+Proof. If the target has y ≥ M divisors from group g, then, after the M − tg distinct shared labels
+have been fixed, there are (y − M + tg )tg possible ordered unshared target lists. Hence their sum,
+with their endpoint damping, is at most
+sup Vg−tg (z + tg )tg q z/2 ≤ C.
+
+(3.5)
+
+z≥0
+
+Here tg ≤ ℓ + m, so C is independent of J. The source damping is at most one. Free-label
+probabilities have total mass one, and restrictions can only decrease an absolute sum. Taking
+the product over s = O(T ) groups and using Equation (3.2) gives the row bound. The reversed
+normalization in Equation (3.4) gives the identical argument for columns. Neither argument used
+any property of integer positions beyond divisibility and translation.
+In particular all these operators are bounded on their stated Hilbert spaces, including the
+physical space with unrestricted integer position.
+Theorem 3.5 (Local transference). For every fixed E > 0 there is Eid > 0, depending only on E
+and the fixed data in Theorem 3.1, with the following property. Assume
+sup ∥T (Θ)∥ ≤ L−Eid .
+
+(3.6)
+
+Θ∈R
+
+Then, for every sufficiently large fixed J, where the lower bound on J may also depend on m, C1 , put
+R = ⌈L0.52 ⌉,
+
+N = 2R.
+
+For every fixed γ > 0 and I = [X, 2X) with xγ ≤ X ≤ x1/γ , one has
+X
+1
+⟨un , (AA∗ )R un ⟩ ≤ L−EN ,
+|I ∩ Z| n∈I∩Z
+
+(3.7)
+
+for all sufficiently large x. Here un is one on every physical state at position n and zero elsewhere.
+The threshold for x may depend on all fixed parameters, including J, C2 , γ, and the bound is uniform
+subject to these parameters and Equation (3.6). No bound on ζ is needed apart from the assumed
+ideal estimate.
+12
+
+The vector un is the constant function on the mark lists at n; it is not normalized. Thus the
+moment in Equation (3.7) sums paths whose final integer position returns to n, with arbitrary
+initial and final mark lists. Theorem 3.11 will turn precisely this estimate into cancellation against
+a mark-independent first endpoint. Those are the endpoints supplied in Section 5.
+Here is the structure of the proof. First replace the integer root by independent residues and
+expand each big prime’s contribution over intervals containing all its active visits. A memory records
+its congruence between active uses. The small-prime residues remain physical: the many choices of
+omitted small marks make transfers between memory and active lists rare. On an edge with no
+such transfer, Fourier transformation of the residue coordinates leaves the ideal big-label operator.
+We first allow different lifespans to use the same prime, and then exclude such coincidences by
+inclusion–exclusion organized by the number of independent equalities. Only the rare-transfer
+estimate needs the complexity-dependent choice of J; the ideal accuracy is fixed beforehand.
+
+3.2
+
+Replacing the root by independent residues
+
+Expand the left side of Equation (3.7) into paths with N alternating forward and backward edges.
+Fix the patterns, all endpoint permutations, the auxiliary labels, and the active lists at visits
+0, . . . , N . These choices fix offsets h0 = 0, h1 , . . . , hN , with
+hi+1 − hi = σi kDi ,
+
+σi ∈ {1, −1},
+
+hN = 0.
+
+Only return to the position is imposed; the last ordered list need not be the first one. Let Λi be the
+√
+set of active labels at visit i. Put q0 = qN = q and qi = q for 0 < i < N . The dependence on the
+initial integer n is precisely the nonnegative factor
+N
+Y
+
+
+
+
+Y
+
+
+i=0
+
+1n+hi ≡0
+
+(mod p)
+
+/ i , n+hi ≡0 (mod p)}
+ q #{p a group prime:p∈Λ
+.
+i
+
+(3.8)
+
+p∈Λi
+
+The label normalization is initially g Vg−M and at each edge
+probabilities. All remaining factors are independent of n.
+Q
+
+−tg
+, in addition to the free-label
+g Vg
+
+Q
+
+Lemma 3.6 (Uniform residue replacement). For each compatible fixed path and every fixed A > 0,
+the average of Equation (3.8) over I ∩ Z equals its expectation under independent uniform residues
+at all group primes, multiplied by 1 + O(exp(−AN T )). Incompatible active congruences give zero in
+both models.
+Proof. Let Qact be the product of the distinct active primes over all visits. There are at most
+(N + 1)M s of them, so
+log Qact = OJ (N T Ld ) = o(L).
+(3.9)
+Compatibility fixes one congruence modulo Qact . All damping factors belonging to these primes
+are then deterministic; factor them out in both models. This step permits a relative estimate even
+when these deterministic factors are very small.
+For a remaining prime, collect repeated offsets into distinct residues. Its factor has the form
+1 − Xp (n),
+
+Xp (n) =
+
+X
+
+cp,r 1n≡r
+
+(mod p) ,
+
+0 ≤ cp,r ≤ 1,
+
+r
+
+with at most N + 1 residues and 0 ≤ Xp ≤ 1. In the independent model,
+λ :=
+
+X
+p
+
+EXp ≤ (N + 1)
+
+X1
+p
+
+p
+
+= O(N T ),
+
+Y
+
+(1 − EXp ) ≥ exp(−O(N T )),
+
+p
+
+13
+
+since maxp EXp = o(1). Bonferroni inequalities for numbers in [0, 1] bracket p (1 − Xp ) by
+consecutive truncations of its elementary-symmetric expansion. At degree h, the independent
+expectation of the difference is at most λh /h!. Choose h of order N T , with its fixed constant
+sufficiently large after A. Stirling’s lower bound h! ≥ (h/e)h makes the difference smaller than
+exp(−(A + C)N T ) for any required fixed C.
+Each truncated term specifies one residue at each of at most h additional primes. Its CRT
+count on I differs from its independent density by O(|I ∩ Z|−1 ), also when the active congruence is
+imposed. The number of such terms is at most
+Q
+
+exp O(h(Ld + log N + log s)) = exp(o(L)),
+
+
+and their moduli, including Qact , have product exp(o(L)). Here 0.52 + d < 1. Thus the total
+counting error is exp(−γL+o(L)). By Equation (3.9), this is negligible relative to Q−1
+act exp(−O(N T )).
+Restoring the factored deterministic damping proves the stated relative estimate.
+This replacement may be summed over paths with absolute coefficients. Indeed retain the full
+vector of residues as a position, with its Haar probability measure, and translate it by σi kDi on an
+edge. The expected total mass of all initial lists is at most one: in group g it is
+X
+1
+Vg−M
+≤ 1.
+(3.10)
+p
+·
+·
+· pM
+1
+p ,...,p ∈P
+1
+
+g
+
+M
+
+distinct
+
+By Theorem 3.4, the absolute mass of all length N paths, even without a return condition, is LO(N ) .
+′
+Taking A sufficiently large in Theorem 3.6 makes the summed error smaller than L−A N for any
+desired fixed A′ . We may therefore use the independent residue model. The return condition is now
+imposed by the exact identity
+Z
+1
+
+e(θhN ) dθ.
+
+1hN =0 =
+
+(3.11)
+
+0
+
+It suffices to bound the unrestricted signed path expression uniformly in θ. Small-prime residues
+will remain actual Haar coordinates throughout the argument.
+
+3.3
+
+The exact expansion for one big prime
+
+Put ηi = 1 − qi , P∗ := exp(Lc ), and, for each big prime,
+bp = 1 −
+
+N
+1X
+ηi > 0,
+p i=0
+
+eg (p) =
+µ
+
+1
+.
+Vg pbp
+
+(3.12)
+
+eg (p)/µg (p) is 1 + O(N/P∗ ), uniformly in big groups. We extract the common baseline
+The ratio µ
+Q
+p big bp ≤ 1 from every path sum.
+Suppose first that p is active at some visits. Incompatible active offsets give zero. Otherwise let
+their common residue be cp , let ap , zp be the first and last active visits, and put Hi = 1hi ≡cp (mod p) .
+Its residue expectation is
+1 Y
+(1 − ηi Hi ).
+p i: p∈Λ
+/
+i
+
+The two exact telescoping identities
+Y
+
+(1 − ηi Hi ) = 1 −
+
+i<ap
+
+Y
+i>zp
+
+X
+
+ηj Hj
+
+j<ap
+
+(1 − ηi Hi ) = 1 −
+
+X
+j>zp
+
+14
+
+Y
+
+(1 − ηi Hi ),
+
+j<i<ap
+
+ηj Hj
+
+Y
+zp <i<j
+
+(1 − ηi Hi )
+
+(3.13)
+
+follow by subtracting consecutive partial products. Thus, in addition to its active uses, the prime
+either starts at ap or has an earlier ghost birth at a hit j < ap , with coefficient −ηj ; it either ends at
+zp or has a later ghost termination at a hit j > zp , again with coefficient −ηj . At strictly internal
+unmarked hits it receives qi .
+If p is never active, expand its full product and group each term of degree at least two by its
+earliest and latest indices. This gives
+bp +
+
+1X
+ηj ηi 1hj ≡hi
+p j<i
+
+Y 
+(mod p)
+
+1 − ηt 1ht ≡hj
+
+
+(mod p)
+
+.
+
+(3.14)
+
+j<t<i
+
+The empty and singleton terms give bp ; the interior product is the sum over every possible further
+chosen index. Relative to the baseline, the prime is either absent or has an orphan interval from j
+to i, j < i, of cost (pbp )−1 (−ηj )(−ηi ) and the indicated internal damping.
+Consequently each represented big prime has exactly one lifespan: an interval containing all
+its active visits, possibly containing none. Its endpoints and all its active visits have equal offsets
+modulo p. It pays (pbp )−1 once, the ghost endpoint coefficients if present, and qi at each strictly
+internal unmarked hit. No offset outside the lifespan occurs in its weight.
+There are two useful consequences of physical compatibility. For large x every group prime
+exceeds |k|. If a prime is active at both ends of an edge, then it divides kD, hence D. It cannot be
+an auxiliary free label, by the ban, so it must be a prescribed shared label. Conversely, a prime at
+an unshared entry or exit cannot divide D: it would either duplicate a shared label in that state or
+violate the free-label ban. Thus the original mark normalization assigns Vg−1 to each maximal run
+of activity, and no additional factor at shared continuation. In particular, a lifespan with r active
+runs requires total label weight
+Vg−r
+.
+pbp
+The memory construction must therefore charge the reciprocal prime once, at the first appearance,
+and charge Vg−1 once for each active run. Later congruence tests must not introduce further
+reciprocal-prime costs. These requirements guide the choice of measures and transfer coefficients
+below; the memory identity will verify them.
+
+3.4
+
+A Hilbert space which remembers lifespans
+
+Let YS = p small Z/pZ, with Haar probability measure. A small state at y ∈ YS is an ordered
+Q
+list of M distinct zero coordinates in each small group, with mass g∈S Vg−M . Write HS for the
+resulting L2 space. For a big group set
+Q
+
+Zg = {(p, r) : p ∈ Pg , r ∈ Z/pZ},
+
+eg (p) d count(r).
+dλg (p, r) = µ
+
+Define its memory space by
+Fg =
+
+M
+j≥0
+
+
+
+L2sym Zgj ,
+
+1 ⊗j
+λ
+,
+j! g
+
+
+
+
+H = HS ⊗ L2 
+
+
+Y
+
+g∈B
+
+PgM ,
+
+O
+g∈B
+
+⊗
+e⊗M
+µ
+g
+
+O
+
+Fg .
+
+(3.15)
+
+g∈B
+
+Here “symmetric” means invariant under permutations of the j particle indices, including when their
+numerical values coincide. The j = 0 summand is C. A pending particle (p, r) records displacement
+from its required hit, modulo p. The residue measure in λg is counting measure: requiring r = 0
+selects one point and incurs no factor 1/p. The boundary vector 1∅ is one when every memory is
+empty and zero otherwise; it is independent of all other coordinates.
+15
+
+We next specify row actions. The factorial measure in Equation (3.15) is used for inner products
+and adjoints, not inserted anew in every row transition. All operations are first understood on finite
+memory truncations; the absolute bounds below justify the unrestricted sums.
+Separate the evolution into an operation Gi at each visit 0 ≤ i ≤ N and an operation Ei across
+the following edge for i < N . The visit operation handles ghost endpoints and unmarked hits. The
+edge operation moves residues and transfers particles between active lists and memory: a store
+keeps a departing active label pending, and a promotion returns a pending particle to an active slot.
+Thus Gi acts after arrival and promotion at visit i, and before storage and departure.
+√
+To make both operations bounded, choose ρ ∈ (0, 1) with ρ2 > q. At a strictly internal
+unmarked hit, split the required damping as
+qi = ρ (qi /ρ2 ) ρ.
+The adjacent edges supply the two factors ρ, and the visit operation supplies the middle factor.
+The edge factors will control the number of possible promotions, while qi /ρ2 < 1 damps the visit
+operation. The ghost endpoint factor is similarly split as −ηi = (−ηi /ρ)ρ; the birth normalization
+is specified below. The definitions implement these local factorizations, including the initial and
+terminal visits.
+For a group memory z = ((ph , rh ))jh=1 , write Z(z) = {h : rh = 0}. At visit i the ghost operation
+Gi is the product over big groups of the following row action, leaving every other coordinate fixed:
+(Gi,g F )(z) =
+
+X  ηi |A|  qi |Z(z)|−|A| X 1  ηi Vg b
+
+−
+
+A⊆Z(z)
+
+·
+
+ρ
+
+Z
+Pgb
+
+ρ2
+
+b≥0
+
+−
+
+b!
+
+F z \ A, (p′1 , 0), . . . , (p′b , 0)
+
+
+
+ρ
+
+b
+Y
+
+eg (p′h ).
+dµ
+
+(3.16)
+
+h=1
+
+Thus selected old zeros terminate, continuing zeros are damped, and a new unordered batch is born
+at zero. Termination precedes birth; an orphan cannot be born and terminate at the same visit.
+The edge operation Ei , 0 ≤ i < N , sums the given patterns in orientation σi , with independent
+source and target symmetrizations in all active lists. Between these permutations its row action is
+as follows.
+(i) Form D from shared source labels and the independent free draws. Retain the ban of free
+labels from both endpoint active lists. Multiply by the oriented coefficient Kν Diζ , or its
+conjugate with roles interchanged, and by e(θσi kD).
+(ii) Multiply by ρ for every old pending zero, before storing any active particle. In each big group
+select any subset of its tg unshared source slots to store, appending their particles at residue
+zero; drop the other unshared source particles. Shared particles remain active.
+(iii) Translate y and all pending residues, including the newly stored ones, by ∆ = σi kD. Choose
+any subset of the tg unshared big target slots and an injection of those ordered slots into
+distinct old pending particle indices of that group whose translated residue is zero. Promote
+the selected particles into those slots, remove them from memory, and multiply by Vg−1 per
+promotion. Newly stored particles cannot be promoted across this edge. Require p ∤ D for
+every stored or promoted particle. Fill the other unshared target slots by independent fresh
+eg .
+integrations against µ
+(iv) Multiply by ρ for every pending zero remaining after promotions. In the small groups use the
+physical target sum, with normalization Vg−ℓ , and the two small endpoint factors q (ωg −M )/2 .
+These counts concern small states at y and y + ∆.
+16
+
+Selections of promotion slots and injections are summed without a factorial divisor. All choices of
+source or target slots refer to their canonical order between the sampled endpoint permutations. No
+big endpoint damping is included apart from the pending-particle factors specified above. Auxiliary
+free draws of D are not particle births.
+For the moment impose, in the complete path sum, the rule that all prime values assigned at
+different births are distinct. Births comprise initial active slots, fresh active target slots, and ghost
+births. This is a global rule, even if two births occur far apart. Apart from it, place no distinctness
+restriction on big active lists or memories.
+Lemma 3.7 (Exact memory identity). With the distinct-birth rule, the independent-residue path
+expression with the phase in Equation (3.11) equals
+
+
+
+Y
+
+
+
+bp  ⟨1∅ , G0 E0 G1 · · · EN −1 GN 1∅ ⟩distinct .
+
+(3.17)
+
+p big
+
+The subscript means that the indicator is inserted in the expanded path integral, not that each local
+operator separately enforces it.
+Proof. A particle born active begins with its required hit at that visit. When it leaves an active run,
+storing it at zero and then translating records subsequent displacement from that hit. Promotion
+checks displacement zero. A later store resets the anchor at a congruent offset, so it changes no
+congruence requirement. A ghost birth sets the anchor at an unmarked hit, and a ghost termination
+also checks zero. Shared continuation automatically respects the congruence.
+The ρ factors cancel locally. At an internal visit a continuing pending zero pays ρ(qi /ρ2 )ρ = qi .
+A ghost birth pays (−ηi /ρ)ρ = −ηi , and a ghost termination pays ρ(−ηi /ρ) = −ηi . An active
+particle pays none of these factors: promotion occurs before output damping and storage after input
+damping. At visit zero memory starts empty, and at visit N it must end empty, so there is no
+√
+missing boundary factor. The values q0 = qN = q are therefore treated exactly.
+For a prime with r active runs, a first active birth costs 1/(Vg pbp ) and each of its r − 1 later
+promotions costs 1/Vg . A first ghost birth costs 1/(pbp ) and its r promotions cost Vg−r . Both give
+Vg−r
+.
+pbp
+An orphan has r = 0. These are precisely the baseline-relative costs in Equations (3.13) and (3.14),
+including all original mark normalizations.
+Conversely, fix an original compatible path and a chosen lifespan term for every represented big
+prime. Its active visits determine exactly when it is shared, stored, promoted, or dropped; its ghost
+endpoints determine its birth and termination. Between these uses it must remain pending. The
+exclusions p ∤ D follow from unshared entries and exits as proved above, and immediate promotion
+of a newly stored particle is impossible for the same reason. A numerical prime occupies at most one
+active slot or pending particle, because it has only one birth. Distinct ghost births in an unordered
+batch are counted once by its factorial divisor. Thus these constructions are mutually inverse and
+preserve all coefficients. This proves Equation (3.17).
+Figure 2 illustrates an admissible lifespan with two runs of activity and ghost endpoints.
+
+17
+
+pending: r ← r + ∆
+unmarked zero pays qt
+
+ghost birth at j
+
+active
+
+active
+
+−ηj
+1/(pbp ) once
+
+promote store
+1/Vg r = 0
+
+promote store
+1/Vg
+
+terminate at i
+visit
+−ηi
+
+Figure 2: One possible lifespan. Solid segments denote shared activity; dashed segments denote
+memory. Every marked use and ghost endpoint has the same offset modulo p. The reciprocal prime
+factor is charged only at birth; ηt = 1 − qt at visit t.
+
+3.5
+
+Absolute bounds, including the adjoint measures
+
+The memory identity is exact with the global distinct-birth rule. We now allow different births
+to have equal prime values, so that each operation acts locally on H. We will restore the global
+rule after estimating this enlarged evolution. The absolute bounds proved here justify the memory
+truncation and remain available when equality constraints later modify individual operations. Their
+column bounds require the factorial adjoint measures explicitly.
+For a positive row kernel K, if a positive function w satisfies Kw ≤ Rw and K ∗ w ≤ Cw, then
+√
+(3.18)
+∥K∥2→2 ≤ RC.
+Indeed, Cauchy’s inequality in each row bounds |Kf |2 by (Kw)K(|f |2 /w); integration and the
+column inequality prove Equation (3.18). We apply this to absolute kernels, with
+w(state) = v jtot ,
+
+jtot =
+
+X
+
+jg ,
+
+g∈B
+
+where v > 1 is a fixed constant chosen below.
+Here is a direct verification of the measures in the ghost adjoint. In one group abbreviate
+Ai =
+
+qi
+,
+ρ2
+
+Di = −
+
+ηi
+,
+ρ
+
+Ci = Vg Di ,
+
+eg ,
+ν=µ
+
+and let z(u) count zero residues in a memory list. For test functions f, h, the joint integral from
+Equation (3.16) is
+1
+⟨f, Gi,g h⟩ =
+k!t!b!
+k,t,b≥0
+X
+
+Z
+
+z(u)
+
+Ai
+
+Dit Cib f (u, α0 )h(u, β 0 )
+
+⊗t
+⊗b
+· dλ⊗k
+g (u)dν (α)dν (β).
+
+(3.19)
+
+Here α0 means that all its residues are zero. The identity follows by selecting t old zero indices
+from a list of size k + t:
+!
+1
+k+t
+1
+=
+.
+(k + t)!
+t
+k!t!
+Swapping (t, α) with (b, β) and conjugating shows that the adjoint has the same row formula with
+birth coefficient Di and termination coefficient Ci . In particular, reversal moves the factor Vg from
+births to terminations; it does not create any factor p or 1/p.
+For the absolute ghost kernel the weighted row ratio is exactly
+
+
+|Di |
+Ai +
+v
+
+
+
+exp |Ci |vν(Pg )
+
+18
+
+z(z)
+
+,
+
+(3.20)
+
+and its column ratio has Ci , Di interchanged. Choose v large enough that, for both possible qi ,
+2 max(1, v+ )ηi
+qi
++
+< 1.
+ρ2
+ρv
+
+(3.21)
+
+√
+This is possible since qi ≤ q < ρ2 . The same choice works when every original ghost birth receives
+an extra factor two. Since ν(Pg ) = 1 + o(1), the exponential factor in Equation (3.20) is bounded
+by a fixed constant per group. Thus for some fixed Cv ,
+|Gi |w ≤ LCv w,
+
+|Gi |∗ w ≤ LCv w,
+
+∥Gi ∥ ≤ LCv .
+
+(3.22)
+
+The exponent Cv is independent of m, C1 , J. All these assertions include the version with doubled
+ghost births.
+We verify the edge adjoint just as explicitly. Fix one big group, a pattern, endpoint permutations,
+free labels, and the chosen transfer subsets. Suppose a target slots are promotions and b source
+slots are stores, so a, b ≤ tg . Let the source memory have size j, and write u for its j − a surviving
+particles. Let p1 , . . . , pa be the promoted prime labels and s1 , . . . , sb the stored labels. For step ∆,
+the endpoint memories are
+X = u ⊔ ((ph , −∆ mod ph ))h≤a ,
+
+Y = T∆ u ⊔ ((sh , ∆ mod sh ))h≤b ,
+
+(3.23)
+
+where T∆ translates every residue. The joint measure on these variables is
+⊗(j−a)
+
+Y
+dλg
+(u) Y
+eg (ph )
+eg (sh ),
+dµ
+dµ
+(j − a)! h≤a
+h≤b
+
+(3.24)
+
+eg integration for every shared active label, dropped source label, and fresh target
+along with one µ
+label. The transfer coefficient is Vg−a , and the damping is ρz(X)+z(Y ) . The factorial accounting is
+
+(j)a
+1
+(j − a + b)b
+=
+=
+.
+j!
+(j − a)!
+(j − a + b)!
+
+(3.25)
+
+The first equality selects old memory indices into the a specified ordered target slots. The second
+selects b indices of the output memory into the original source slots on reversal. Each required
+residue in Equation (3.23) selects exactly one point of counting measure. Translation preserves that
+measure.
+It follows that the reversed row operation retrieves the original stores and stores the original
+promotions; the coefficient Vg−a remains unchanged. If it is expressed using the forward convention
+that charges Vg−b for its reversed promotions, its additional factor is Vgb−a . This is bounded uniformly
+for a, b ≤ ℓ + m. Fixing shared and free D-labels fixes ∆ independently of which memory indices
+are retrieved, as required for this change of variables. In small groups Haar translation and the
+joint normalization Vg−M −ℓ are invariant on reversal.
+The identities above continue to hold with numerical coincidences. For example, a memory
+Q
+multiset with multiplicities nz has mass z λg (z)nz /nz !. Subset deletions and ordered retrievals
+retain their index multiplicities. No passage from indices to distinct numerical values was made in
+Equation (3.19) or Equation (3.25).
+Lemma 3.8 (Absolute memory bounds). There is Ca , allowed to depend on m, C1 but independent
+of J, such that every absolute edge has weighted row and column bounds LCa . These bounds and
+Equation (3.22) persist under arbitrary multipliers of modulus at most one on individual local
+transition choices, and under memory-size projections.
+19
+
+Proof. For a row, fix a pattern, free labels, permutations, and transfer-slot subsets of sizes ag , bg ≤ tg .
+If Z ′ old pending particles have zero translated residue in a group, their ordered promotions and
+the remaining output damping cost at most
+′
+
+(Z ′ )ag ρZ −ag ≤ sup (z)ag ρz−ag < ∞.
+
+(3.26)
+
+z≥ag
+
+Damping of stored particles can be discarded for this upper bound. The Schur weight contributes
+−a
+eg (Pg )tg −ag ≤ 2tg
+v bg −ag , promotion coefficients contribute Vg g , and fresh integrations have mass µ
+t
+for large x. There are at most 4 g choices of transfer subsets. Each cost is bounded by a constant
+per group, independent of J. Small transitions satisfy Equation (3.5). Multiplying over groups,
+averaging permutations and free labels, and summing Equation (3.2) proves the row bound.
+For the column, use Equations (3.23) and (3.25) in reverse. Original stores are now ordered
+retrievals. Their count is controlled by the original input ρ factors after reversed translation, in
+b −a
+exactly the form in Equation (3.26). The remaining factor Vg g g is bounded per group. This
+proves the column bound. Restrictions and local multipliers of modulus at most one are dominated
+by these absolute kernels.
+We now restrict the total memory size to
+B = ⌈L2 ⌉
+
+(3.27)
+
+before and after every operation, writing the projections implicitly. At most (ℓ + m)|B|N particles
+can be supplied by stores. Thus a path violating this restriction has at least B − O((ℓ + m)sN )
+ghost births. Multiply every ghost birth by two in the absolute path sum and use the preceding
+bounds. The total omitted mass, even with the distinct-birth indicator, is at most
+2−B+O((ℓ+m)sN ) LO(N ) = exp(−Ω(L2 )) = o(L−AN )
+
+(3.28)
+
+for every fixed A. The empty-memory boundary vector has bounded norm: the small part has mass
+at most one by Equation (3.10), and the big part has mass
+Y
+
+eg (Pg )M = 1 + OJ (sN/P∗ ) = 1 + o(1).
+µ
+
+g∈B
+
+These estimates also prove absolute summability before truncation, for instance by first restricting
+all batch sizes and then applying monotone convergence to absolute kernels.
+
+3.6
+
+Rare transfers and the role of the small groups
+
+It remains to obtain a small signed edge norm and then restore the omitted distinct-birth rule.
+Decompose each edge as Ei = Ei,clean + Ei,dirty : a term is dirty if it has at least one store or promotion,
+and clean otherwise. Dirty terms connect memory to the active lists; we suppress them by averaging
+the omitted small labels. Clean terms only translate memory residues and refresh unshared active
+labels; the next subsection will reduce their norm to the ideal estimate. Define
+M
+ℓ
+
+D=
+
+!|S|
+
+.
+
+(3.29)
+
+Lemma 3.9 (Rare transfer). With the memory truncation in Equation (3.27), the aggregate of all
+dirty terms of any edge has norm at most
+B
+2L
+D
+after enlarging Ca independently of J if necessary.
+Ca
+
+
+
+20
+
+1/2
+
+,
+
+(3.30)
+
+Proof. First consider the positive sum of terms with a promotion. Fix its source, pattern, big-group
+permutations and shared choices, and free D-labels. For some one of its at most B old pending
+particles (p, r), promotion requires
+r + σi kDB DS ≡ 0
+
+(mod p),
+
+p ∤ D.
+
+(3.31)
+
+In each small group the source symmetrization omits an independent uniformly chosen ℓ-subset of
+its M distinct labels. If F is the full product of all small source labels and U the product of the
+omitted labels, then DS = F/U . Unique factorization and disjointness of groups show that the D
+choices give distinct positive integers U . Moreover,
+U ≤ exp(ℓ|S|Lb ) < exp(Lc ) ≤ p
+for sufficiently large x. They are therefore distinct modulo p. The quantities F, k, DB are invertible
+modulo every p eligible in Equation (3.31). Hence each pending particle allows at most one omission
+choice. At most B of the D equally likely choices allow any promotion.
+Conditional on every omission choice, the remaining weighted row costs are uniformly bounded
+by the proof of Theorem 3.8. Thus the promotion part improves its row bound to LCa B/D, while
+its column bound remains LCa . Schur’s test gives the first half of Equation (3.30). Terms with
+stores and no promotion have the same improvement in their column bound by reversing the edge:
+a stored particle becomes a retrieval from output memory. The exclusion p ∤ D is retained under
+reversal, even when numerical coincidences have been allowed. Add these two bounds.
+The coefficient restriction to big labels is used here: conditioning on all such labels does not
+bias the small omission choices. In particular,
+2LCa
+
+q
+
+J+ℓ
+
+B/D ≪ LCa +1−(c0 /2) log ( ℓ ) .
+
+(3.32)
+
+An arbitrarily strong fixed saving is obtained by increasing J, without changing the ideal norm
+target.
+
+3.7
+
+Clean edges and Fourier reduction
+
+Lemma 3.10 (Clean norm). There is Cs , depending only on the fixed data in Theorem 3.1, such
+that the clean part of every edge satisfies
+∥Ei,clean ∥ ≤ 2L−Eid +Cs
+
+(3.33)
+
+for all sufficiently large x, under Equation (3.6). In particular Cs is independent of m, C1 , J.
+Proof. A clean edge leaves all memory prime lists and sizes unchanged, translates their residues,
+drops every unshared big source slot, and fills every unshared big target slot freshly. Its input
+and output ρ factors and its memory projections are contractions. They commute with active-list
+symmetrizations. Absorb these factors and the symmetrizations into the two test vectors w1 , w2 .
+These vectors remain symmetric in the big active lists.
+Fix an ordered tuple d of J shared labels in each small group and let d′ denote their joint
+product. Define a map to unrestricted small residue functions by
+
+
+(Pd w)(y) = 
+
+
+Y
+
+1
+
+Vg−J/2−ℓ  q 2
+
+P
+g∈S
+
+(ωg (y)−M )
+
+g∈S
+
+X
+R: (d,R) a small state at y
+
+21
+
+w(y, (d, R)).
+
+(3.34)
+
+All other coordinates are left untouched. The map is zero when the displayed list is not a small
+state, so the damping is used only where ωg (y) ≥ M . The two endpoint factors in Equation (3.34)
+give Vg−J−2ℓ = Vg−M −ℓ , exactly the physical joint normalization.
+By Cauchy’s inequality in R, followed by summation over d, one has
+X
+
+∥Pd w∥2 ≤ LCs ∥w∥2 .
+
+(3.35)
+
+d
+
+To see the independence of J, the multiplier relative to the original small state measure in group g
+is bounded by
+(z − M + ℓ)ℓ
+sup q z−M
+,
+Vgℓ
+z≥M
+a constant depending only on q, ℓ, v− . Taking products over O(T ) groups proves Equation (3.35).
+The clean bilinear form is now exactly
+⟨Pd w1 , Td′ Pd w2 ⟩.
+
+X
+
+(3.36)
+
+d
+
+The operator between these maps uses the big-list transitions and translates all unrestricted small
+and memory residues by σi kd′ DB . Fix the memory sizes and their prime lists. Fourier transformation
+on the finite abelian group consisting of the small residue torus and the pending residue coordinates
+diagonalizes these translations. Counting measure on pending residues and Haar measure on the
+small torus each have the usual unitary finite Fourier transform. One can first use ordered memory
+representatives; restriction to symmetric functions preserves the bound. Big active-list symmetry is
+unaffected.
+At any fixed Fourier frequency, translation and the closure factor contribute
+e(σi ΘDB )
+for a real Θ depending on d, the memory prime list, the frequency, and θ, but independent of the
+variable big active labels. The scalar factor (d′ )σi iζ has modulus one. Consequently the remaining
+operator, on symmetric big active tests, is T (Θ) or its adjoint, with two changes only: the measures
+eg in place of µg , and the free/active collision ban
+of active labels and fresh target integrations are µ
+remains in force.
+Both changes are negligible in operator norm. Across the M |B| active coordinates, the product
+density changes by
+1 + OJ (sN/P∗ ).
+The corresponding square-root density identification is unitary between the two L2 spaces and
+commutes with symmetrization. Fresh integration densities obey the same bound. The ideal absolute
+row and column sums are at most LC1 before these changes, since all its unrestricted fresh laws are
+probabilities. Schur’s test therefore bounds the density perturbation by OJ (LC1 sN/P∗ ).
+For the ban, in either row direction condition on the fixed active state. Each free auxiliary draw
+has maximal atom O(1/P∗ ); its chance to match a fixed active label is bounded by that quantity. A
+match to a fresh opposite unshared label has the same bound by independence. There are OJ,m (s)
+possible comparisons. Reversal has the same estimate. Thus removing the banned transitions
+costs OJ,m (LC1 s/P∗ ) in norm. These estimates are o(L−A ) for every fixed A. They do not require
+exclusion of coincidences with pending labels: such labels are fixed in the Fourier decomposition
+and are already accounted for by translation.
+It follows uniformly in d that the between-map norm is at most 2L−Eid for large x. Apply
+Cauchy’s inequality to Equation (3.36) and then Equation (3.35); this proves Equation (3.33).
+22
+
+Choose, in this order,
+G > E + Cv + 3,
+
+Eid > G + Cs + 2,
+
+(3.37)
+
+and finally choose the fixed integer J so large that Equation (3.32) is smaller than 12 L−G for large
+x. For example it suffices that
+!
+
+J +ℓ
+c0
+log
+2
+ℓ
+
+> Ca + G + 3.
+
+The clean estimate supplies the other half. Hence the whole signed truncated edge, with birth
+distinctness still omitted, satisfies
+∥Ei ∥ ≤ L−G .
+(3.38)
+Only this final choice of J needs to depend on m, C1 . This establishes the required quantifier order,
+but a further argument is necessary to impose distinct births without losing the signed contraction
+on every edge.
+
+3.8
+
+Restoring distinct births by equality rank
+
+A single absolute collision estimate cannot finish the proof: one reciprocal-prime saving P∗−1 does
+not absorb a length-N absolute path cost LO(N ) . Instead, expand the global distinctness condition
+by equalities between birth values. Many independent equalities yield many point-mass savings.
+A small number of independent equalities can be imposed by phases at their birth operations,
+preserving the signed contraction on all the other edges.
+In the truncated evolution allocate potential birth addresses as follows: initial big slots; every
+possible big target slot at every edge, in its canonical order before final symmetrization; and indices
+1, . . . , B in each group’s ordered ghost batch at each visit. A target slot is performed as an address
+precisely when it is a fresh birth rather than shared or promoted. A ghost address is performed
+precisely when its batch is at least that large. These are conditions on the choices made in their
+single local operation. The number A∗ of potential addresses satisfies
+A∗ ≤ M |B|(N + 1) + (N + 1)|B|B = LO(1) .
+
+(3.39)
+
+The implied exponent can be taken independent of J once x is sufficiently large for fixed J.
+We use the following elementary form of distinctness inclusion-exclusion. Sum over collections π
+of disjoint blocks of potential addresses, every block having size at least two. Let Cπ require that all
+addresses in those blocks be performed and that the prime values within each block be equal. Set
+µ(π) =
+
+Y
+
+′
+
+(−1)|B |−1 (|B ′ | − 1)!,
+
+r(π) =
+
+B ′ ∈π
+
+X
+
+(|B ′ | − 1).
+
+(3.40)
+
+B ′ ∈π
+
+For a fixed realized path,
+1distinct performed birth values =
+
+X
+
+µ(π)1Cπ .
+
+(3.41)
+
+π
+
+To verify this, interpret a block of size h as a cycle on its h addresses: there are (h − 1)! such
+cycles, each with sign (−1)h−1 . The right side is the sum of signs of permutations of the performed
+addresses which preserve their numerical prime values. It factors over equal-value classes. The sign
+sum is one for a singleton class and zero for any class of size at least two, by pairing permutations
+with their product by a fixed transposition.
+23
+
+A rank-r collection involves at most 2r addresses. More precisely its total absolute coefficient,
+summed over all collections of rank r, obeys
+′
+
+X
+
+C r
+|µ(π)| ≤ A2r
+.
+∗ ≤L
+
+(3.42)
+
+r(π)=r
+∗ −1
+For instance the unsigned cycle generating polynomial on A∗ addresses is A
+j=0 (1 + jt), where the
+power of t is the sum of cycle lengths minus the number of cycles. Its coefficient of tr is at most
+P
+( j j)r /r! ≤ A2r
+∗ .
+
+Q
+
+Large rank: chronological fresh integrations. Fix π. Order birth addresses chronologically,
+using canonical slot order inside an edge or batch, and call the first address in each block its pivot.
+Every other address is a dependent birth. When such an address is performed, its fresh prime
+integration is constrained to the already determined pivot value. Since
+sup
+g∈B,p∈Pg
+
+eg (p) ≪ P∗−1 ,
+µ
+
+(3.43)
+
+this improves the weighted absolute row bound by O(P∗−1 ) per dependent birth.
+Here the chronological assertion uses genuinely fresh integrations. At an edge choose stores,
+promotions, and the step first, and then fill fresh target slots in canonical order. The step, promotion
+count, and memory weight do not depend on these new prime values; the coefficient is bounded
+by its supremum and exclusions may be discarded. In the proof of Theorem 3.8, replace the total
+fresh mass in each constrained slot by its single-point bound. For a ghost operation keep its ordered
+batch integral and factorial divisor; constraining indicated fresh coordinates replaces their mass
+factors by the same single-point bound. The birth coefficient Vg and the memory weight only give
+fixed constants per constrained coordinate. Initial active slots satisfy the same product estimate.
+Pivots and dependents within one operation are handled in their prescribed integration order.
+For completeness, these conditional row bounds can be iterated although a pivot may have
+died before its dependent birth. Retain all pivot values in the conditioning. Bound the remaining
+terminal sum by backward induction using the uniform weighted row bounds for every possible
+conditioning, beginning with 1∅ ≤ w. Whenever a dependent birth is reached, the preceding
+point-mass improvement is uniform in its retained pivot value. At the initial boundary w = 1, and
+the remaining integrated boundary mass is bounded. Thus the total absolute contribution for this
+fixed collection is at most
+LCh (N +1) (C/P∗ )r(π) ,
+(3.44)
+for fixed Ch , C; both may depend on m, C1 .
+Choose a sufficiently large fixed C ′′ , after these constants and C ′ , and set
+r0 =
+
+
+ ′′
+C NT
+
+log P∗
+
+.
+
+By Equation (3.42) and Equation (3.44), the sum over r ≥ r0 is bounded by
+LCh (N +1)
+
+X
+
+′
+
+(CLC /P∗ )r = o(L−EN ).
+
+r≥r0
+
+Indeed log P∗ = Lc ≫ T , and increasing C ′′ beats the fixed exponent Ch + E.
+
+24
+
+(3.45)
+
+Small rank: phases only at the affected births. For a block with pivot β0 and other addresses
+β1 , . . . , βh−1 , equality of the integer prime values has the exact representation
+
+
+h−1
+X
+
+Z
+
+1pβ =pβ0 (1≤j<h) =
+j
+
+[0,1]h−1
+
+e
+
+
+
+τj (pβj − pβ0 ) dτ ,
+
+(3.46)
+
+j=1
+
+on paths performing all these addresses. For fixed Fourier parameters, collect the factors by their
+birth operation. Each affected operation is multiplied, on its individual local choices, by
+
+
+1designated local births are performed e
+
+
+X
+
+cβ pβ  ,
+
+β local
+
+of modulus at most one. Initial-slot factors merely modify the initial boundary vector by such a
+multiplier. An affected edge can lose its signed norm saving, but Theorem 3.8 bounds its new norm
+by LCa . Unaffected edges retain their complete signed pattern sum and both symmetrizations, so
+Equation (3.38) still applies.
+The ordered indices in a ghost batch do not require ordered-memory functions. For a batch of size
+b, insert its local multiplier ϕb (p1 , . . . , pb ) inside the existing 1/b! product integral in Equation (3.16).
+The rest of that integral is symmetric in its fresh variables, so its value is unchanged on replacing
+ϕb by
+1 X
+ϕb (pσ(1) , . . . , pσ(b) ).
+b! σ∈S
+b
+
+This average has modulus at most one, also on numerical diagonals. The resulting operator acts on
+symmetric memories, and its reversed multiplier is the conjugate on the corresponding deleted batch
+in Equation (3.19). Its absolute row and column bounds remain Equation (3.22). In particular
+no phase has to follow a particle through later storage, propagation, or promotion: equality was
+encoded entirely at its two birth addresses.
+At most 2r edges are affected by a rank-r collection. The boundary norms are bounded, and all
+N + 1 ghost operations cost at most LCv . Therefore its Fourier-integrated contribution is at most
+
+
+
+
+O L(−G+Cv )N +Cv +2r(G+Ca ) .
+
+(3.47)
+
+Since
+
+r0
+= O(T /Lc ) + O(N −1 ) = o(1),
+N
+the sum over r < r0 , with the coefficient bound Equation (3.42), is
+L(−G+Cv +o(1))N = o(L−EN )
+
+by Equation (3.37).
+Thus the high-rank terms are controlled by their fresh-label costs, while the low-rank terms
+retain signed contraction on N − o(N ) edges. Together they bound the expansion with distinct
+births, which is the expression required by Theorem 3.7.
+Completion of Theorem 3.5. Apply Equation (3.41) in the truncated memory identity. The largeand small-rank estimates bound it by o(L−EN ), uniformly in θ. Restore the tail Equation (3.28);
+multiply by the baseline, which is at most one; and integrate Equation (3.11). Finally restore the
+uniform residue-replacement error, choosing its precision after the absolute path bound. The result
+is o(L−EN ), and therefore Equation (3.7) for sufficiently large x. The choice of Eid in Equation (3.37)
+depends only on E, Cv , Cs , and the dependence of these constants was stated above. This completes
+the proof with the asserted quantifiers.
+25
+
+3.9
+
+The endpoint pairing consequence
+
+We now convert the root moment into the pairing estimate used in Section 5. Constancy on a mark
+fiber is needed only at the first endpoint; the second endpoint can be any vector with the stated
+norm.
+Corollary 3.11. Under the hypotheses and choices of Theorem 3.5, let f ∈ Hph be supported on
+positions I = [X, 2X) and independent of the chosen marks, with value fn at position n. Suppose
+√
+sup |fn | ≤ exp(O( L)),
+∥f ∥, ∥g∥ ≤ X 1/2 LC3 .
+n∈I
+
+Then
+|⟨f, Ag⟩| ≪ XL−E+2C3 .
+
+(3.48)
+
+Only the first endpoint must be independent of its mark list.
+Proof. Let H ≥ 1 bound every displacement |kD|. Since D has Js factors, all at most exp(Ld ),
+log H = OJ (T Ld ).
+
+(3.49)
+
+Partition I into consecutive intervals Ij of length ⌈H⌉, except possibly the last. Put fj = 1Ij f and
+restrict g to the H-neighborhood of Ij to obtain gj . These neighborhoods have bounded overlap,
+and
+X
+X
+⟨f, Ag⟩ =
+⟨fj , Agj ⟩,
+∥gj ∥2 ≪ ∥g∥2 .
+j
+
+j
+
+For B0 = AA∗ ≥ 0, spectral Hölder gives
+|⟨fj , Agj ⟩| ≤ ∥gj ∥∥fj ∥1−1/R ⟨fj , B0R fj ⟩1/(2R) .
+The finite matrix (⟨un , B0R um ⟩)n,m∈Ij ∩Z is positive semidefinite. Its largest eigenvalue is at most its
+trace, so mark independence implies
+
+
+⟨fj , B0R fj ⟩ ≤ 
+
+
+X
+
+|fn |2  dj ,
+
+dj :=
+
+n∈Ij ∩Z
+
+X
+
+⟨un , B0R un ⟩.
+
+n∈Ij ∩Z
+
+There is no assertion here that the un have equal norm, or that ordered lists return to their starting
+values. By Equation (3.49),
+√ !!
+
+1/(2R)
+T Ld + L
+2
+O(H) sup |fn |
+= exp OJ
+= O(1).
+L0.52
+Sum the resulting block bounds by Hölder with exponents 2, 2R/(R − 1), and 2R. This gives
+
+1/(2R)
+X
+|⟨f, Ag⟩| ≪ ∥g∥ ∥f ∥1−1/R  dj 
+.
+j
+
+The theorem bounds the last sum by |I ∩ Z|L−2RE ≪ XL−2RE . Substitution of the two endpoint
+norm bounds proves Equation (3.48); the extra factor L−C3 /R is bounded for fixed C3 .
+
+26
+
+4
+

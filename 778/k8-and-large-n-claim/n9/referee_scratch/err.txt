@@ -1,0 +1,6 @@
+[0s] loaded 4296 rows -> 4285 canonical classes (11 duplicate rows, 1 with a different reply; duplicates keep the first)
+[0s] level 0 (|R|=0): 1 positions explored, 21 children generated, 1 new at level 1; leaves so far 0, cutoffs 0, seen 1
+[0s] level 1 (|R|=1): 1 positions explored, 18 children generated, 5 new at level 2; leaves so far 0, cutoffs 0, seen 6
+[0s] level 2 (|R|=2): 5 positions explored, 75 children generated, 29 new at level 3; leaves so far 0, cutoffs 0, seen 35
+[0s] level 3 (|R|=3): 29 positions explored, 348 children generated, 209 new at level 4; leaves so far 0, cutoffs 0, seen 244
+[0s] level 4 (|R|=4): 209 positions explored, 1868 children generated, 909 new at level 5; leaves so far 0, cutoffs 5, seen 1153

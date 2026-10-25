@@ -1,0 +1,26 @@
+== verify_cover.py control_D4_12.json
+n=12 feasible vertices (up to sign)=96  M = max|v|^2 = 1.000001494154
+NOT CERTIFIED: covering radius >= 45 deg for this configuration (M >= 1)
+rc=1
+== verify_cover.py control_D4_minus1.json
+n=11 feasible vertices (up to sign)=88  M = max|v|^2 = 2.000000618900
+NOT CERTIFIED: covering radius >= 45 deg for this configuration (M >= 1)
+rc=1
+== verify_cover.py cover_n11_seed99.json
+n=11 feasible vertices (up to sign)=41  M = max|v|^2 = 0.903616716779
+CERTIFIED: every line is within angle rho of some centre, cos^2(rho) >= 1/(2M) = 0.553331950057, rho <= 41.938480 deg
+each cap {x : <x,c_i>^2 >= 1/(2M)} has Frobenius diameter^2 <= 2 - 2(1/M - 1)^2 = 1.977245624825 < 2
+rc=0
+== verify_cover.py cover_n11_seed11.json
+n=11 feasible vertices (up to sign)=44  M = max|v|^2 = 0.897209996327
+CERTIFIED: every line is within angle rho of some centre, cos^2(rho) >= 1/(2M) = 0.557283135550, rho <= 41.710696 deg
+each cap {x : <x,c_i>^2 >= 1/(2M)} has Frobenius diameter^2 <= 2 - 2(1/M - 1)^2 = 1.973749139052 < 2
+rc=0
+== verify_cover.py cover_n10_seed10.json
+n=10 feasible vertices (up to sign)=36  M = max|v|^2 = 1.023242665632
+NOT CERTIFIED: covering radius >= 45 deg for this configuration (M >= 1)
+rc=1
+== sample_cover.py cover_n11_seed11.cert.json 7
+certified bound 1/(2M) = 0.5572831356; sampled min over 1e7 lines = 0.5599562213; min over hull deep holes = 0.5572831356
+AGREES
+rc=0

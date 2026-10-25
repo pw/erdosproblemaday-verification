@@ -1,0 +1,8 @@
+Lemma 8.1 counterexamples to the 'all amounts >= j+2' contradiction, t=9..70: [] 0
+  (control) t=8 solutions exist: [(8, 15, 5, 2), (8, 16, 5, 2), (8, 17, 1, 4)] 4
+Lemma 8.2: unexplained survivors: [] 0
+  Alt 2 survivors: [(2, 9, 18, 3, 3, 6, 2), (2, 9, 19, 3, 3, 6, 2), (2, 11, 23, 3, 4, 8, 2)]
+  Alt 3 survivors: [(3, 9, 19, 5, 2, 4, 2)]
+  Alt1 survivors with a < t-v: []
+Lemma 8.3 Alt1 one-chain bound fails for t: []
+Prop 8.4 packing failures: [] 0

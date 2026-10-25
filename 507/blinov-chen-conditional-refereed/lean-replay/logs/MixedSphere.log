@@ -1,0 +1,3 @@
+'HeilbronnMixedSphere.norm_energy' depends on axioms: [propext, Quot.sound]
+'HeilbronnMixedSphere.sphere_matching' depends on axioms: [propext, Quot.sound]
+RSSCAP done rc=0 peak_kb=579380 wall=3s

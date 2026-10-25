@@ -1,0 +1,12 @@
+INTSEARCH N=17 m=14 k=6 SAT witness=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 16] every_6_subset_bad=True secs=2.5
+INTSEARCH N=17 m=15 k=6 UNSAT secs=1.9
+CEILING N=17: largest positive witness m=14
+INTSEARCH N=20 m=14 k=6 SAT witness=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 18] every_6_subset_bad=True secs=6.6
+INTSEARCH N=20 m=15 k=6 UNSAT secs=6.5
+CEILING N=20: largest positive witness m=14
+INTSEARCH N=24 m=14 k=6 SAT witness=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 18] every_6_subset_bad=True secs=24.2
+INTSEARCH N=24 m=15 k=6 SAT witness=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 18, 19, 23] every_6_subset_bad=True secs=23.0
+INTSEARCH N=24 m=16 k=6 UNSAT secs=24.0
+CEILING N=24: largest positive witness m=15
+INTSEARCH N=28 m=14 k=6 SAT witness=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 18, 27] every_6_subset_bad=True secs=69.0
+INTSEARCH N=28 m=15 k=6 SAT witness=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 18, 27] every_6_subset_bad=True secs=88.3

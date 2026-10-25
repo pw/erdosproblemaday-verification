@@ -1,0 +1,4 @@
+[control] Li IC, EQUAL rule, Q=32768: mismatches vs closed form Y0/Y1/Y2 = [0, 0, 0] -> PASS
+[control] equal-rule classify: None (expected None = aperiodic to Q)
+[control] Li IC, STRICT rule: classify = (69, 117) (expected periodic with P | 117)
+[control] mutated IC (Y0[1]=1), equal rule: mismatches = [23405, 27961, 14077] (expected nonzero)

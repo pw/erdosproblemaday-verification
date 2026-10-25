@@ -1,0 +1,14 @@
+seat	agent	claude-opus-5-5 msgs	other model strings	synthetic (harness) msgs
+L_lean_06Z	abc22b76	159	0	0
+O_06Z_died	a09b7d71	50	0	1
+T_06Z_died	a817404f	54	0	1
+W_06Z_died	aabd68f2	270	0	1
+W_06Z_agentA	a3f6f56c	275	0	0
+W_06Z_agentB_died	a8ae3099	316	0	1
+O_09Z	ac837b7a	155	0	0
+T_09Z	abf5790c	58	0	0
+W_09Z	a00c9cf9	247	0	0
+blind_09Z	a9997008	123	0	0
+main_09Z	80cf1b4e	369	0	-
+main_06Z	d7d10d2c	453	0	-
+# "<synthetic>" = harness-inserted message (the 06Z seats died on "You have hit your session limit"); "model":"opus" strings are Agent-tool parameters, not served-model fields.

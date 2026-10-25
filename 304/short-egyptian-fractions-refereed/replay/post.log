@@ -1,0 +1,24 @@
+[2026-10-21T18:24:43Z] BEGIN cmpmod_ShortEgyptianFractions
+[2026-10-21T18:24:50Z] END cmpmod_ShortEgyptianFractions rc=0 7s
+[2026-10-21T18:24:50Z] BEGIN cmpmod_EgyptianFractions
+[2026-10-21T18:24:58Z] END cmpmod_EgyptianFractions rc=0 15s
+[2026-10-21T18:24:58Z] BEGIN cmpSE
+[2026-10-21T18:25:05Z] END cmpSE rc=0 22s
+[2026-10-21T18:25:05Z] BEGIN cmpEF
+[2026-10-21T18:25:12Z] END cmpEF rc=0 29s
+[2026-10-21T18:25:12Z] BEGIN axSE
+[2026-10-21T18:25:18Z] END axSE rc=0 35s
+[2026-10-21T18:25:18Z] BEGIN axEF
+[2026-10-21T18:25:25Z] END axEF rc=0 42s
+[2026-10-21T18:25:25Z] BEGIN neg
+[2026-10-21T18:25:32Z] END neg rc=0 49s
+[2026-10-21T18:25:32Z] BEGIN typectl
+[2026-10-21T18:25:38Z] END typectl rc=1 55s
+[2026-10-21T18:25:38Z] statement_match: ALL_MATCH_STD_SORRYSEEN ShortEgyptianFractions: 4 MATCH / 0 MISMATCH EgyptianFractions: 20 MATCH / 0 MISMATCH 
+[2026-10-21T18:26:33Z] BEGIN bridgeall
+[2026-10-21T18:26:39Z] END bridgeall rc=0 6s
+[2026-10-21T18:26:39Z] BEGIN leanchecker_fresh
+[2026-10-21T19:25:42Z] END leanchecker_fresh rc=0 3549s
+[2026-10-21T19:25:42Z] BEGIN leanchecker_missing_control
+[2026-10-21T19:25:44Z] END leanchecker_missing_control rc=1 3551s
+[2026-10-21T19:25:44Z] LEANCHECKER DONE

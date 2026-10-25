@@ -1,0 +1,19 @@
+SITE_SNAPSHOT_AUDIT date=2026-08-11
+SHA256 db71798c7a063a92767ebf970543a2190aa066bd7134dac51716daa5d3ac969c site_snapshot/index.js
+SHA256 9ad7647dcd9ee51b2e08233e77d0a0c21b1321033b923c13ac50a563c6a9c052 site_snapshot/ledger_data.js
+GATE_PATTERN problem_number_field count=0
+GATE_PATTERN hash_reference count=0
+GATE_PATTERN problem_phrase count=0
+GATE_PATTERN problem_url count=0
+GATE_PATTERN A297350 count=0
+GATE_PATTERN A357018 count=0
+GATE_PATTERN A256435 count=0
+GATE_PATTERN record_gap_phrase count=0
+GATE_PATTERN consecutive_difference_phrase count=0
+GATE_PATTERN new_endpoint_left count=0
+GATE_PATTERN new_endpoint_right count=0
+BROAD_PHRASE_CONTEXTS
+BROAD_HIT file=ledger_data.js line=267 problem=661 count=2
+BROAD_HIT file=ledger_data.js line=301 problem=723 count=1
+BROAD_HIT file=ledger_data.js line=411 problem=955 count=2
+SITE_GATE_PASS direct_problem_or_sequence_references=0 same_result_or_endpoint_references=0 broad_incidental_problems=661,723,955

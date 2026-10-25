@@ -1,0 +1,2 @@
+dropped tangentless (1, 11, 7) -> |S| 33 max 5 blocking True
+minimal |S|= 33 max 5 | normalisations performed (all choices): 17340 | every one passed every re-check | cubes hit: [(4, 3), (4, 4)]

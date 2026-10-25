@@ -1,0 +1,5 @@
+/tmp/oaimath/021/seats/R1_work/ratio_checks.py:11: RuntimeWarning: invalid value encountered in multiply
+  pe = s*(a + np.interp(s-1, s, c)); po = s*(c + np.where(s-1 <= 2, 1.0, np.interp(np.maximum(s-1,0), s, a)))
+a/c0 in [0.2807,0.5615], c/c0 in [0.4385,0.7193] on s in [1,8]
+phi_e min 4.1513861464004265e-05 max increase step -6.282430696132599e-09 | phi_o min 4.159493370980982e-05 max increase step 8.881784197001252e-16
+rho(u)/rho(u-1) * u in 0.29485914019036913 0.6137056385676047  ; *4u^2 min 4.909645108540838

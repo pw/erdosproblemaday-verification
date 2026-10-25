@@ -1,0 +1,10 @@
+# check778.py controls, 2026-10-13 12:1xZ (pynauty 2.8.8.1, /home/exedev/.venv)
+certs/n6_clique.cert      ACCEPT winner=bob n=6: 70 Alice-to-move positions explored, 3 terminal leaves, 59 cutoff leaves, 100 certificate entries
+certs/n7_clique.cert      ACCEPT winner=bob n=7: 2068 Alice-to-move positions, 24 terminal leaves, 1483 cutoff leaves, 4198 entries
+certs/n7_triangle.cert    ACCEPT winner=bob n=7 mode=triangle: 1236 positions, 0 terminal leaves, 1975 cutoff leaves, 2677 entries
+certs/n3_clique.cert      ACCEPT winner=alice n=3: 1 position, 1 cutoff leaf, 1 entry   (the Alice branch of the checker)
+mut1 n7 line 1000 deleted                 REJECT :: no Bob reply recorded for R=4739 B=1163572
+mut2 n7 line 1000 reply (9,13)->(2,4)     ACCEPT  (a second valid certificate: the alternative reply also wins; every position it reaches was already covered)
+mut3 n7 header winner=bob -> alice        REJECT :: no Alice move recorded for R=0 B=0
+mut4 fabricated n=3 'winner=bob' cert     REJECT :: terminal lost at R=1 B=6
+mut5 n7, 30 random replies swapped        REJECT :: no Bob reply recorded for R=200707 B=52628

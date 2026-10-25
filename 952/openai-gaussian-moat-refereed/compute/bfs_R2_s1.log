@@ -1,0 +1,52 @@
+sets 154
+2 2509 (13, 193) INFINITE (-2509, 0)
+2 2581 (29, 89) INFINITE (-2581, 0)
+2 2701 (37, 73) INFINITE (-2701, 0)
+2 2941 (17, 173) INFINITE (-2941, 0)
+2 3029 (13, 233) INFINITE (-3029, 0)
+2 3145 (5, 17, 37) INFINITE (-3145, 0)
+2 3277 (29, 113) INFINITE (-3277, 0)
+2 3341 (13, 257) INFINITE (-3341, 0)
+2 3485 (5, 17, 41) INFINITE (-3485, 0)
+2 3601 (13, 277) INFINITE (-3601, 0)
+2 3737 (37, 101) INFINITE (-3737, 0)
+2 3893 (17, 229) INFINITE (-3893, 0)
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 56, in apport_excepthook
+    if not enabled():
+           ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 24, in enabled
+    import re
+  File "/usr/lib/python3.12/re/__init__.py", line 124, in <module>
+    import enum
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1087, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1187, in get_data
+MemoryError
+
+Original exception was:
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError

@@ -1,0 +1,4 @@
+PASS off-diagonal atoms <= 2/(|E| d_min,Q) on codegree<=2 graphs (12 seeds)
+PASS Lemma 2.7 inequality D <= 2H(p) - (1-P(p=r)) log(1/M_t) (12 seeds) e.g. D=0.501 bound=1.765 P(p=r)=0.200
+PASS CONTROL: a graph with codegree up to 36 VIOLATES the atom bound 2/(|E| d_min,Q) (expect PASS = violation found; (2.16) needs codegree <= 2)
+SUMMARY-B: 3 PASS / 0 FAIL

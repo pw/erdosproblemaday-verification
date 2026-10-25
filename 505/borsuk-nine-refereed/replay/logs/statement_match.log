@@ -1,0 +1,15 @@
+OAI.BorsukNine.main_theorem MATCH | lens 2664 2664
+def OAI.BorsukNine.projector MATCH | lens 3096 3096
+def OAI.BorsukNine.projectorSet MATCH | lens 953 953
+def OAI.BorsukNine.traceOneSymmetric MATCH | lens 3277 3277
+def OAI.BorsukNine.HasTenSmallCover MATCH | lens 2219 2219
+def OAI.BorsukNine.Vector4 MATCH | lens 131 131
+def OAI.BorsukNine.Matrix4 MATCH | lens 213 213
+solution axioms: {'Classical.choice', 'propext', 'Quot.sound'} comparator axioms: {'sorryAx', 'Classical.choice', 'propext', 'Quot.sound'}
+MATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+euclidean_nine_counterexample STD_AXIOMS
+no_admissible_ten STD_AXIOMS
+cover_to_admissible STD_AXIOMS
+FiniteObstruction.no_ten_system STD_AXIOMS

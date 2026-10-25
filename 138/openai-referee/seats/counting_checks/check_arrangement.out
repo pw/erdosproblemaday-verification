@@ -1,0 +1,30 @@
+random arrangements tested: 690  (FM oracle; e=2 also vs face-enumeration and Zaslavsky; e=1 vs 2r+1)
+  e=1 s=1: max realized=   3  B1=    3  B2=(e+1)^2(s+1)^e=     8
+  e=1 s=2: max realized=   5  B1=    5  B2=(e+1)^2(s+1)^e=    12
+  e=1 s=3: max realized=   7  B1=    7  B2=(e+1)^2(s+1)^e=    16
+  e=1 s=4: max realized=   9  B1=    9  B2=(e+1)^2(s+1)^e=    20
+  e=1 s=5: max realized=  11  B1=   11  B2=(e+1)^2(s+1)^e=    24
+  e=1 s=6: max realized=  13  B1=   13  B2=(e+1)^2(s+1)^e=    28
+  e=1 s=7: max realized=  13  B1=   15  B2=(e+1)^2(s+1)^e=    32
+  e=1 s=8: max realized=  13  B1=   17  B2=(e+1)^2(s+1)^e=    36
+  e=2 s=1: max realized=   3  B1=    4  B2=(e+1)^2(s+1)^e=    36
+  e=2 s=2: max realized=   9  B1=   11  B2=(e+1)^2(s+1)^e=    81
+  e=2 s=3: max realized=  19  B1=   22  B2=(e+1)^2(s+1)^e=   144
+  e=2 s=4: max realized=  33  B1=   37  B2=(e+1)^2(s+1)^e=   225
+  e=2 s=5: max realized=  51  B1=   56  B2=(e+1)^2(s+1)^e=   324
+  e=2 s=6: max realized=  73  B1=   79  B2=(e+1)^2(s+1)^e=   441
+  e=2 s=7: max realized=  85  B1=  106  B2=(e+1)^2(s+1)^e=   576
+  e=3 s=1: max realized=   3  B1=    4  B2=(e+1)^2(s+1)^e=   128
+  e=3 s=2: max realized=   9  B1=   15  B2=(e+1)^2(s+1)^e=   432
+  e=3 s=3: max realized=  27  B1=   42  B2=(e+1)^2(s+1)^e=  1024
+  e=3 s=4: max realized=  65  B1=   93  B2=(e+1)^2(s+1)^e=  2000
+  e=3 s=5: max realized= 131  B1=  176  B2=(e+1)^2(s+1)^e=  3456
+  e=3 s=6: max realized= 211  B1=  299  B2=(e+1)^2(s+1)^e=  5488
+general position: {(2, 4): (33, 37, 225), (2, 6): (73, 79, 441), (3, 4): (65, 93, 2000), (3, 5): (131, 176, 3456)}
+restriction to [0,1)^2: 20 cases, restricted <= unrestricted <= B1: OK
+
+CONTROLS (each line must show a VIOLATION):
+ C1 strict-only bound sum_j<=e C(s,j)=22 vs ternary count 73: violated=True
+ C2 (s+1)^e=49 vs ternary count 73: violated=True
+ C3 e=2 count B1(2,8)=137 vs 8 generic planes in R^3: 577: violated=True;  correct e=3 bound B1(3,8)=697: holds=True
+time 6.0s

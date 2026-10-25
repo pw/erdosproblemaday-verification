@@ -1,0 +1,13 @@
+rational units with denominator <= 3000 : 3820
+  even denominators: 0 | a+b even: 0 | denominator with a prime !=1 mod 4: 0
+  pi(u)=1 (chi(u)=-1) for all 3820 units: OK
+  homomorphism pi(z+w)=pi(z)+pi(w): 20000 /20000 ; rotation invariance pi(uz)=pi(z): 20000 /20000
+  relations among 7 smallest units, coeffs in [-2,2]: 72 found; with ODD coefficient sum: 0
+CONTROL (algebraic K): 1+w+w^2 = (0, 0) ; norms 1 1 1 ; coefficient sum 3 is odd -> a character d with d(u)=-1 on all of K would give d(0)=(-1)^3=-1, but d(0)=1: the set S is EMPTY over F(i)
+(2) over F(i): |(1+2sqrt2 i)/3|^2 = 1 ; 1-(u+conj u) = 1/3
+(3) x=p/q in (0,2), q<=60: 2203 values; sums of two rational units: 16 e.g. ['18/41', '14/25', '24/37', '10/13', '16/17', '56/53']
+    positive control: 6/5 = 2Re((3+4i)/5) detected: True | negative control 1 (needs sqrt3/2): False
+    t=p/q in (0,1), q<=400 with t,2t,3t ALL sums of two rational units: 0
+    over F (real algebraic): every |x|<2 qualifies (sqrt(1-x^2/4) in F)
+(4) rational units u (den<=3000) with u^2=(3+4i)/5: 0 | CONTROL: u with u^2 = (-7+24i)/25: 2
+(5) is 1*2 a rational square? False

@@ -1,0 +1,3 @@
+'HeilbronnNorm.polynomial_norm_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnNorm.finite_field_polynomial_norm_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1519664 wall=10s

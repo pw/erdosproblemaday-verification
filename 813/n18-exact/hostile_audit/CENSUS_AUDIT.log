@@ -1,0 +1,6 @@
+H n=7 all_unlabeled=1044 valid=578 alpha3=353 exact_line_sets=PASS
+M n=7 valid=71 exact_canonical_iso_set=PASS
+H n=8 all_unlabeled=12346 valid=3128 alpha3=1829 exact_line_sets=PASS
+M n=8 valid=179 exact_canonical_iso_set=PASS
+H n=9 all_unlabeled=274668 valid=11005 alpha3=8753 exact_line_sets=PASS
+H n=10 base=9133 alpha3=8688 direct_parent_byte_match=PASS exact_line_set=PASS

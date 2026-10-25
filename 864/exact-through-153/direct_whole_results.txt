@@ -1,0 +1,11 @@
+RESULT cap=151 core=20 t_range=100..151 found=0 orbit_nodes=183614845 complete_cores=0 valid_cores=0 extension_nodes=0 seconds=627.18
+TIME core=20 rc=0 elapsed=627.18 user=616.67 rss_kb=4036
+RESULT cap=151 core=19 t_range=90..151 found=0 orbit_nodes=28900400 complete_cores=489 valid_cores=489 extension_nodes=489 seconds=117.99
+TIME core=19 rc=0 elapsed=117.99 user=116.76 rss_kb=4000
+RESULT cap=151 core=18 t_range=81..151 found=0 orbit_nodes=198349004 complete_cores=240837 valid_cores=240837 extension_nodes=240851 seconds=720.842
+TIME core=18 rc=0 elapsed=720.84 user=686.05 rss_kb=3952
+RESULT cap=151 core=17 t_range=72..151 found=0 orbit_nodes=30638892 complete_cores=758979 valid_cores=758979 extension_nodes=770944 seconds=157.199
+TIME core=17 rc=0 elapsed=157.20 user=154.93 rss_kb=3868
+
+These lines were copied verbatim from the completed stdout records, with the
+selected `/usr/bin/time -v` fields compacted into one TIME line per run.

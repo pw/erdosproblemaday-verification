@@ -1,0 +1,5 @@
+seat	agent	claude-opus-5-5 msgs	other model strings
+T_topology	affd0526	68	0
+F_formal	aa1fc540	163	0
+W_world	af12d58f	386	0
+blind_read	acfd7940	193	0

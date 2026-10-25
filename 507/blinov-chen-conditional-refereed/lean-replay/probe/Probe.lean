@@ -1,0 +1,27 @@
+import FiveNorm
+import FivePolynomials
+import FiveCollision
+import FiveTagged
+import FiveReindex
+import FiveFiniteTheorem
+import FiveTags
+import FiveScales
+import ReservedLayer
+import ReservedPacking
+#print axioms HeilbronnFive.norm_expansion
+#print axioms HeilbronnFive.finite_field_norm
+#print axioms HeilbronnFive.finite_field_polynomials
+#print axioms HeilbronnFive.prime_field_labels
+#print axioms HeilbronnFive.repeated_top_factorization
+#print axioms HeilbronnFive.five_probability_scale
+#print axioms HeilbronnFive.DigitModel.tagged_small_residue_moment
+#print axioms HeilbronnFive.DigitModel.smallMoment_permute
+#print axioms HeilbronnFive.total_small_residue_moment
+#print axioms HeilbronnFive.DigitModel.actual_uniform_moment
+#print axioms HeilbronnFiveScales.fresh_position
+#print axioms HeilbronnReservedLayer.below_lower
+#print axioms HeilbronnReservedLayer.below_upper
+#print axioms HeilbronnReservedPacking.reserved_packing
+#print axioms HeilbronnReservedPacking.sparse_tag_distinction
+#print axioms HeilbronnReservedPacking.fresh_position
+#print axioms HeilbronnReservedPacking.gain_from_five

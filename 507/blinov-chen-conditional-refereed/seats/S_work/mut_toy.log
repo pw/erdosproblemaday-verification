@@ -1,0 +1,37 @@
+seed=6 K=1 labels=1 mut=bigL: B=11 k=2 h=121 M=12 L3=24 q=7 s=21 N=847 cap=True 0inV=False |supp c|=121
+  Pr(alpha)=0.00936 (M^-k=0.00694)  Pr(beta)=0.04762 (2/s=0.09524)  Pr(prop)=4.4551e-04  Pr(u=v)=4.4551e-04  bound=6.6138e-04  truth/bound=0.674  maxcount=1  distinct-outcome proportional lift pairs=0
+  FAIL:
+    (alpha) Pr=97/10368 > M^-k=1/144
+rc=1
+seed=7 K=1 labels=4 mut=stale: B=11 k=2 h=121 M=4 L3=8 q=7 s=21 N=847 cap=True 0inV=False |supp c|=4
+  Pr(alpha)=0.25000 (M^-k=0.06250)  Pr(beta)=0.07029 (2/s=0.09524)  Pr(prop)=1.1905e-02  Pr(u=v)=1.1905e-02  bound=5.9524e-03  truth/bound=2.000  maxcount=1  distinct-outcome proportional lift pairs=0
+  FAIL:
+    (alpha) Pr=1/4 > M^-k=1/16
+    FINAL: Pr(prop)=1.1905e-02 > bound=5.9524e-03
+rc=1
+seed=8 K=1 labels=4 mut=noncap: B=11 k=2 h=121 M=4 L3=8 q=7 s=21 N=847 cap=False 0inV=False |supp c|=64
+  Pr(alpha)=0.02002 (M^-k=0.06250)  Pr(beta)=0.14286 (2/s=0.09524)  Pr(prop)=7.4405e-04  Pr(u=v)=7.4405e-04  bound=5.9524e-03  truth/bound=0.125  maxcount=1  distinct-outcome proportional lift pairs=0
+  FAIL:
+    (beta) Pr=1/7 > 2/s=2/21
+rc=1
+seed=9 K=1 labels=4 mut=zeroinV: B=11 k=2 h=121 M=4 L3=8 q=7 s=21 N=847 cap=False 0inV=True |supp c|=64
+  Pr(alpha)=0.02002 (M^-k=0.06250)  Pr(beta)=0.15193 (2/s=0.09524)  Pr(prop)=7.4405e-04  Pr(u=v)=7.4405e-04  bound=5.9524e-03  truth/bound=0.125  maxcount=1  distinct-outcome proportional lift pairs=0
+  FAIL:
+    (beta) Pr=67/441 > 2/s=2/21
+rc=1
+seed=10 K=1 labels=1 mut=tightclaim: B=11 k=2 h=121 M=4 L3=8 q=7 s=21 N=847 cap=True 0inV=False |supp c|=16
+  Pr(alpha)=0.06250 (M^-k=0.01562)  Pr(beta)=0.06122 (2/s=0.09524)  Pr(prop)=2.9762e-03  Pr(u=v)=2.9762e-03  bound=1.4881e-03  truth/bound=2.000  maxcount=1  distinct-outcome proportional lift pairs=0
+  FAIL:
+    (alpha) Pr=1/16 > M^-k=1/64
+    FINAL: Pr(prop)=2.9762e-03 > bound=1.4881e-03
+rc=1
+seed=11 K=2 labels=1 mut=tightclaim: B=11 k=2 h=121 M=4 L3=8 q=7 s=21 N=1694 cap=True 0inV=False |supp c|=16
+  Pr(alpha)=0.06250 (M^-k=0.01562)  Pr(beta)=0.04762 (2/s=0.09524)  Pr(prop)=3.7202e-04  Pr(u=v)=3.7202e-04  bound=1.8601e-04  truth/bound=2.000  maxcount=8  distinct-outcome proportional lift pairs=0
+  FAIL:
+    (alpha) Pr=1/16 > M^-k=1/64
+    FINAL: Pr(prop)=3.7202e-04 > bound=1.8601e-04
+rc=1
+seed=12 K=1 labels=4 mut=wrongalpha: B=11 k=2 h=121 M=4 L3=8 q=7 s=21 N=847 cap=True 0inV=False |supp c|=64
+  Pr(alpha)=0.02344 (M^-k=0.06250)  Pr(beta)=0.04762 (2/s=0.09524)  Pr(prop)=7.4405e-04  Pr(u=v)=7.4405e-04  bound=5.9524e-03  truth/bound=0.125  maxcount=1  distinct-outcome proportional lift pairs=0
+  PASS
+rc=0

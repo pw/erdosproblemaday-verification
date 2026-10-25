@@ -1,0 +1,6 @@
+R^3 grid k= 6 n=  216: distinct sq-distances per pin in [18,44]  vs n^(2/3)=36  n^0.9=126
+R^3 grid k=10 n= 1000: distinct sq-distances per pin in [44,144]  vs n^(2/3)=100  n^0.9=501
+R^3 grid k=14 n= 2744: distinct sq-distances per pin in [87,299]  vs n^(2/3)=196  n^0.9=1243
+R^2 grid k=20 n=  400: distinct sq-distances per pin in [60,179]  vs n/sqrt(log n)=163
+R^2 grid k=40 n= 1600: distinct sq-distances per pin in [197,652]  vs n/sqrt(log n)=589
+R^2 grid k=60 n= 3600: distinct sq-distances per pin in [407,1396]  vs n/sqrt(log n)=1258

@@ -1,0 +1,9 @@
+Erdos304.unitFractionExpressible MATCH 135 135
+Erdos304.smallestCollection MATCH 88 88
+Erdos304.smallestCollectionTo MATCH 104 104
+Erdos304.upper_bound (statement) MATCH 118 118
+Erdos304.erdos_304.variants.lower_1950 (statement) MATCH 132 132
+Erdos148.F MISMATCH 103 103
+open line 'open Asymptotics Filter' MATCH
+open line 'open Filter Real' MATCH
+verbatim --mutate148 rc=1 (must be 1)

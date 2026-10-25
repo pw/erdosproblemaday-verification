@@ -1,0 +1,41 @@
+s=7 trial 0 ts=['-1', '3*(1 - tau)/(tau - 3)', '(1 - 3*tau)/(-2*tau - 3)', '0', '1/2', '3', '2*(tau + 1)/(tau - 3)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 1 ts=['-3/(-2*tau - 3)', '(2*tau + 1)/2', '(tau - 1)/(tau + 3)', '(1 - 3*tau)/(tau + 2)', '-5', '(tau - 2)/2', '3*tau - 1']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 2 ts=['(-tau - 1)/(3 - 2*tau)', '3', '-1/2', '2*tau/(1 - tau)', '(3*tau - 1)/2', '2*tau/3', '3*(1 - tau)/(tau + 1)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 3 ts=['(3*tau - 1)/(2 - tau)', '1/(3*tau)', '-5/3', '(2*tau - 3)/(2 - 3*tau)', '(2*tau + 1)/(2*tau + 3)', '2*tau/(2*tau - 1)', '1/3']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 4 ts=['-5/4', '2', '-3/4', '3*tau/(-3*tau - 2)', '(tau - 1)/(3 - 2*tau)', '(tau - 1)/(2*tau)', 'tau/(-tau - 1)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 5 ts=['tau', '-5/2', '(-3*tau - 1)/(tau - 3)', '3/2', '(1 - tau)/(3*(-tau - 1))', 'tau/(2*(1 - tau))', '-1/3']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 6 ts=['tau', '(-3*tau - 2)/(2 - 3*tau)', '-1/2', '(1 - 2*tau)/(-3*tau - 2)', 'tau + 1', '(3*tau + 1)/(2 - tau)', '(2*tau + 3)/(1 - tau)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 7 ts=['(-2*tau - 1)/(3*tau - 2)', '(3*tau + 1)/(2 - tau)', '3', '3*tau/(2*tau + 3)', '1/2', '3*(-tau - 1)/(3*tau - 1)', 'tau']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 8 ts=['3/2', '(2*tau - 3)/(2*(tau - 1))', '-4', '1/2', 'tau/(2*tau - 1)', '1', '6']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 9 ts=['-2*tau/(3*tau - 2)', '(-2*tau - 3)/(-tau - 2)', '-1', '0', '5/3', '(2*tau + 1)/(3*tau + 1)', 'tau + 1']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 10 ts=['3*tau/(3*tau - 2)', 'tau - 2', '(2*tau - 3)/(tau - 3)', '1/2', '(1 - 3*tau)/(-3*tau - 2)', '-6', '(tau - 3)/(3*(tau - 1))']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 11 ts=['tau - 2', '1/(tau + 3)', 'tau + 1', '(2*tau - 3)/2', 'tau + 2', '-5/2', '3*(tau - 1)/(3*tau - 2)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 12 ts=['1/2', '-3*tau/(1 - tau)', '(tau - 3)/(3*(1 - tau))', '-5', '-3', '-1', '-(2*tau + 3)/tau']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 13 ts=['1/2', '(-3*tau - 1)/(3*(1 - tau))', '-3/(-tau - 3)', 'tau + 3', '-2', 'tau - 1', '(1 - 3*tau)/(2*(tau - 1))']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 14 ts=['(-2*tau - 1)/(-3*tau - 2)', '-2/3', '-2*tau - 1', '(-tau - 1)/(3*(tau - 1))', '3*(-tau - 1)/(2 - 3*tau)', '(2*tau - 1)/2', '(2 - 3*tau)/(3*tau + 2)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 15 ts=['1/(3*tau)', '(2 - tau)/(2*(-tau - 1))', '5/2', '(-tau - 3)/(3*tau - 2)', '4/3', '3*(-tau - 1)/(2*tau + 3)', '(tau + 2)/(1 - tau)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 16 ts=['-2', '(2*tau + 1)/3', '-1/3', '-1', '(3*tau + 1)/3', '(tau + 2)/(2*(-tau - 1))', '3*(-tau - 1)/(3 - tau)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 17 ts=['0', '(-tau - 1)/(2*(tau - 1))', '1', '(2*tau + 3)/tau', '2*tau/(-2*tau - 1)', 'tau + 3', '(tau + 2)/2']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 18 ts=['(tau - 2)/(tau + 3)', '(tau + 1)/(tau - 1)', '(tau + 3)/(2*(tau + 1))', '2*(tau - 1)/(3*(-tau - 1))', '4/3', 'tau - 3', '(2*tau + 1)/(2*(tau - 1))']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 19 ts=['-tau/(tau - 1)', '(tau + 1)/(2 - 3*tau)', '2*(-tau - 1)', '(3*tau - 1)/(2*(1 - tau))', '(1 - tau)/tau', 'tau - 1', '(tau + 2)/(2*(tau - 1))']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 20 ts=['-4/3', '5/3', '(2*tau + 3)/3', '(2*tau - 3)/(2*(tau - 1))', '(2 - tau)/(tau - 1)', '3/(1 - 3*tau)', '-5/4']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 21 ts=['2*(1 - tau)', '3*(1 - tau)/(-tau - 3)', '-1/4', '-3', '(-tau - 1)/(-tau - 3)', 'tau', '3*(tau - 1)/(-tau - 3)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 22 ts=['4/3', '-2*(-tau - 1)/tau', '(3 - 2*tau)/(3 - tau)', '3*(1 - tau)/(3*tau + 2)', '(tau + 1)/(2*(1 - tau))', '5/4', '(3*tau - 2)/(2*tau + 3)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 23 ts=['-3', '0', '-2/3', '-2*tau - 1', '(-3*tau - 2)/(2*(tau - 1))', '1/2', '-1/(3*tau)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 24 ts=['(tau - 2)/(-2*tau - 3)', '2', '-1/3', 'tau', '-(2*tau + 1)/(2*tau)', '6', 'tau + 1']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 25 ts=['3*(tau + 1)/(3*tau - 2)', '-3/4', 'tau + 3', '-(-3*tau - 2)/(3*tau)', 'tau - 3', '1/2', '(3 - 2*tau)/(-3*tau - 2)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 26 ts=['2', '2*(tau + 1)/(2*tau + 3)', '-3/(tau + 3)', '3', '-2', '(2*tau - 1)/(tau + 2)', '(tau - 1)/(-tau - 1)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 27 ts=['-3/4', '-2*tau/(2 - 3*tau)', '0', '(-2*tau - 3)/(3*tau - 1)', '-(tau - 3)/(2*tau)', '(3 - tau)/(3*tau - 2)', '-1']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 28 ts=['(-tau - 3)/tau', '-tau', '3/2', '(-3*tau - 2)/(1 - 3*tau)', '-6', '1/3', '(-3*tau - 2)/(-tau - 2)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 29 ts=['1/2', '1', '-tau/(-2*tau - 3)', '-2', '(1 - 3*tau)/(3*tau - 2)', '3*(tau + 1)/(3 - tau)', '3*(-tau - 1)/(2*tau)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 30 ts=['1/2', '-1/4', '0', 'tau - 3', '3*(tau - 1)/(-tau - 2)', '(tau - 1)/(-tau - 1)', '3']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 31 ts=['5/3', '(-tau - 3)/(2*tau + 3)', '(3*tau + 2)/(3*(-tau - 1))', 'tau + 3', 'tau - 2', '(-2*tau - 3)/(3*tau + 2)', '5/2']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 32 ts=['-(3 - tau)/tau', '(3*tau + 1)/(1 - 3*tau)', '3', '-5', '-(tau - 1)/(2*tau)', '(-3*tau - 1)/(tau - 3)', '0']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 33 ts=['-1/(-tau - 1)', '(tau + 2)/(2*(1 - tau))', '(3*tau + 2)/(3*(tau - 1))', '(-tau - 1)/(1 - tau)', '-2/3', '-3/2', '-4/3']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 34 ts=['(tau - 2)/(-tau - 3)', '(1 - 2*tau)/(tau - 2)', '(3*tau - 2)/3', '1/2', '(-tau - 3)/(-tau - 2)', '-3/2', '(1 - tau)/(3*tau - 2)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 35 ts=['(3 - tau)/(3*tau + 2)', '(2 - 3*tau)/(tau + 2)', '(-2*tau - 3)/(-tau - 1)', '-1', '5/2', '(3*tau - 1)/2', '(tau - 1)/(-3*tau - 2)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 36 ts=['1/4', '-5/4', '2*(1 - tau)/(tau - 3)', '-2/tau', '(1 - 2*tau)/3', '1', '(1 - tau)/(tau + 1)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 37 ts=['tau + 3', '(3*tau - 2)/(-tau - 2)', '-3*tau/(-tau - 3)', '2*tau/(2 - 3*tau)', '(3*tau - 2)/(2*tau + 3)', 'tau/(tau + 3)', '1/2']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 38 ts=['-3*tau/(tau - 2)', '(-3*tau - 2)/(2*(1 - tau))', '(-2*tau - 3)/(tau + 3)', '(2 - 3*tau)/(3*tau - 1)', '3/4', '(2*tau + 3)/(2 - tau)', 'tau + 2']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+s=7 trial 39 ts=['tau/(-2*tau - 3)', '1/4', '3/2', '-tau', '-1/4', '3*tau/(tau + 1)', '(2 - 3*tau)/(-2*tau - 3)']: s=7 d=2 kernel_dim_over_Frac=2 saturation_steps=1 criterion=HOLDS
+SUMMARY s=7: HOLDS 40 FAILS 0

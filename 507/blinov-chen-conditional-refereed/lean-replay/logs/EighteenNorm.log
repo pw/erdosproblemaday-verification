@@ -1,0 +1,5 @@
+'HeilbronnEighteen.term_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnEighteen.norm_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnEighteen.norm_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnEighteen.finite_field_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1543280 wall=13s

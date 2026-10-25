@@ -1,0 +1,40 @@
+=== A. random unbalanced bipartite graph, |P|=30, |Q|=200, center degrees uniform in {2..8}
+|P|=30 |Q|=200 |E|=988  D=KL(pi||mu x mu)=0.266591 nats
+marginal check: pi rows sum to mu: True, cols: True
+tests: c uniform random P->[3], f random on sphere radius B=1.0 in R^2, g aligned with neighbourhood mean, |g|<=B'=1.0
+K=  1: per-frozen-sequence max avg_j Phi_j=0.1884  mean=0.1062 | fresh-test MC (3.7) LHS=0.1057+-0.0007 | 2^(5/4)BB'(D/K)^(1/4)=1.7090  4BB'(D/K)^(1/4)=2.8742 | seq>sharp: 0/200 | (3.8)chain==transcriptKL<=D: True | (3.11) max|diff|=5.6e-17 | (3.10)&nonneg: True
+K=  2: per-frozen-sequence max avg_j Phi_j=0.1656  mean=0.1013 | fresh-test MC (3.7) LHS=0.1014+-0.0006 | 2^(5/4)BB'(D/K)^(1/4)=1.4371  4BB'(D/K)^(1/4)=2.4169 | seq>sharp: 0/200 | (3.8)chain==transcriptKL<=D: True | (3.11) max|diff|=5.6e-17 | (3.10)&nonneg: True
+K=  4: per-frozen-sequence max avg_j Phi_j=0.1161  mean=0.0808 | fresh-test MC (3.7) LHS=0.0797+-0.0007 | 2^(5/4)BB'(D/K)^(1/4)=1.2085  4BB'(D/K)^(1/4)=2.0324 | seq>sharp: 0/200 | (3.8)chain==transcriptKL<=D: True | (3.11) max|diff|=8.3e-17 | (3.10)&nonneg: True
+K=  8: per-frozen-sequence max avg_j Phi_j=0.0610  mean=0.0431 | fresh-test MC (3.7) LHS=0.0437+-0.0009 | 2^(5/4)BB'(D/K)^(1/4)=1.0162  4BB'(D/K)^(1/4)=1.7090 | seq>sharp: 0/200 | (3.8)chain==transcriptKL<=D: True | (3.11) max|diff|=5.6e-17 | (3.10)&nonneg: True
+K= 16: per-frozen-sequence max avg_j Phi_j=0.0320  mean=0.0222 | fresh-test MC (3.7) LHS=0.0231+-0.0008 | 2^(5/4)BB'(D/K)^(1/4)=0.8545  4BB'(D/K)^(1/4)=1.4371 | seq>sharp: 0/200 | (3.8)chain==transcriptKL<=D: True | (3.11) max|diff|=5.6e-17 | (3.10)&nonneg: True
+K= 32: per-frozen-sequence max avg_j Phi_j=0.0161  mean=0.0107 | fresh-test MC (3.7) LHS=0.0107+-0.0006 | 2^(5/4)BB'(D/K)^(1/4)=0.7186  4BB'(D/K)^(1/4)=1.2085 | seq>sharp: 0/200 | (3.8)chain==transcriptKL<=D: True | (3.11) max|diff|=5.6e-17 | (3.10)&nonneg: True
+K= 64: per-frozen-sequence max avg_j Phi_j=0.0082  mean=0.0055 | fresh-test MC (3.7) LHS=0.0055+-0.0004 | 2^(5/4)BB'(D/K)^(1/4)=0.6042  4BB'(D/K)^(1/4)=1.0162 | seq>sharp: 0/200 | (3.8)chain==transcriptKL<=D: True | (3.11) max|diff|=5.6e-17 | (3.10)&nonneg: True
+worst observed (per-sequence average)/(4BB'(D/K)^(1/4)) over all K: 0.0685
+
+=== A'. Cor 3.2 acceptance (A_T(q) = codes of actual neighbours of q, so s0 = 0), M=3
+K=  4: per-sequence avg_j s_pred,j : max=0.0951 mean=0.0849  <= 2^(5/4) sqrt(M)(D/K)^(1/4)=2.0931 [paper 4 sqrt(M)(D/K)^(1/4)=3.5202] : True; identity <f-m,g> == s_pred - s_act : max err 3.3e-16
+K= 16: per-sequence avg_j s_pred,j : max=0.0256 mean=0.0230  <= 2^(5/4) sqrt(M)(D/K)^(1/4)=1.4801 [paper 4 sqrt(M)(D/K)^(1/4)=2.4892] : True; identity <f-m,g> == s_pred - s_act : max err 3.1e-16
+K= 64: per-sequence avg_j s_pred,j : max=0.0064 mean=0.0057  <= 2^(5/4) sqrt(M)(D/K)^(1/4)=1.0466 [paper 4 sqrt(M)(D/K)^(1/4)=1.7601] : True; identity <f-m,g> == s_pred - s_act : max err 2.8e-16
+(3.13) marginals: p-marginal==mu True, phat-marginal==mu True; (3.14) P(p=phat)=0.6408 <= |H(P)| max mu = 0.9808
+'equivalent way to draw the pair' (h~mu(H=h), then two iid from mu_h) equals (3.13) pair law: True
+
+=== B. planted two-block law (D = log 2 exactly) and FAIL controls
+D = 0.693147, log 2 = 0.693147
+K=10000: correct conditioning  avg_j Phi_j = 0.000100  (expect 1/K = 0.0001)  <= 4BB'(D/K)^(1/4) = 0.3650: True
+FAIL control 1 (prediction from mu, history ignored): avg Phi = 1.0000 > bound 0.3650: VIOLATES = True
+FAIL control 2 (fresh test NOT identically distributed with the prefix tests: prefix trivial, fresh = half test): Phi at the fresh test = 1.0000 > bound 0.3650: VIOLATES = True
+FAIL control 3 (law A, K=8): chain sum with correct b = 0.266591 (== transcript KL 0.266591 <= D=0.266591); with WRONG reference b=(c)_*mu_h x (c)_*mu_h : inf -> exceeds D: True
+
+=== C. Cor 3.3: feature/coefficient inner product == hashed strict-cross indicator (exhaustive)
+paper (-2): mismatches over all L in {2,3,4} = 0; norms (|f|,|g|) = [(1.732051, 2.44949)] (paper: sqrt3=1.732051, sqrt6=2.449490)
+FAIL control 4 (coef -1): mismatches over all L in {2,3,4} = 29; norms (|f|,|g|) = [(1.732051, 1.732051)] (paper: sqrt3=1.732051, sqrt6=2.449490)
+
+=== C'. hashing: P(true strict cross != hashed strict cross) <= 2/L for any two fixed true states (exact enumeration)
+L=2: uniform independent hash worst flip prob (enumeration) = 0.5000, formula max(2c(1-c),c) = 0.5000, <= 2/L = 1.0000: True;  non-uniform hash: enumeration 0.6250, formula 0.6250
+L=3: uniform independent hash worst flip prob (enumeration) = 0.4444, formula max(2c(1-c),c) = 0.4444, <= 2/L = 0.6667: True;  non-uniform hash: enumeration 0.5000, formula 0.5000
+L=8: uniform hash worst flip = 0.2188 <= 2/L=0.2500: True;  FAIL control 5 (hash value 0 w.p. 1/2+1/(2L)): worst flip = 0.4512 > 2/L: True
+L=16: uniform hash worst flip = 0.1172 <= 2/L=0.1250: True;  FAIL control 5 (hash value 0 w.p. 1/2+1/(2L)): worst flip = 0.4175 > 2/L: True
+
+=== C''. 'predicted point sampled using no current hash' is load-bearing (MC)
+L=4: predicted-pair E|true - hashed|: hash-free prediction (mu) 0.3705 <= 2/L=0.5: True;  FAIL control 6 (prediction drawn from p's CURRENT hashed fibre): 0.6932 > 2/L: True
+L=8: predicted-pair E|true - hashed|: hash-free prediction (mu) 0.2161 <= 2/L=0.25: True;  FAIL control 6 (prediction drawn from p's CURRENT hashed fibre): 0.6025 > 2/L: True

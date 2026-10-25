@@ -1,0 +1,11 @@
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveTagged.lean:17:11: warning: `div_le_iff` has been deprecated, use `div_le_iff₀` instead
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveTagged.lean:15:9: warning: unused variable `hkq`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveTagged.lean:16:9: warning: unused variable `hrq`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveTagged.lean:19:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'HeilbronnFive.five_probability_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.DigitModel.smallMoment_le_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.DigitModel.tagged_small_residue_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1286140 wall=4s

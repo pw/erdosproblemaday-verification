@@ -1,0 +1,4 @@
+commit=8648597d27e13aaa11409ee94b7bd9860db2173a
+author_date=2026-08-11T16:47:17+00:00
+commit_date=2026-08-11T16:47:17+00:00
+subject=Add 1506-edge C4-free Q9 construction

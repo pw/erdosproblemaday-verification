@@ -1,0 +1,13 @@
+DIFFERS    erdos_184 statement  (1460 vs 1459 chars); differing tokens: ['@Finset.card.{u_1}', '@Finset.sum.{u_1}']
+    replace @Finset.card.{u_1}  ==>  @Finset.sum.{u_1}
+   NOT ALLOWED: ['@Finset.card.{u_1}', '@Finset.sum.{u_1}']
+IDENTICAL  IsCycleOrEdge  (930 chars)
+DIFFERS    IsDecomposition  (2300 vs 2238 chars); differing tokens: ['(', ')', '@CompleteBooleanAlgebra.toCompleteDistribLattice.{u_1}', '@CompleteBooleanAlgebra.toCompleteLattice.{u_1}', '@CompleteDistribLattice.toFrame.{u_1}', '@CompleteLattice.toCompletePartialOrder.{u_1}', '@CompleteLattice.toCompleteSemilatticeInf.{u_1}', '@CompletePartialOrder.toOrderBot.{u_1}', '@CompletePartialOrder.toPartialOrder.{u_1}', '@CompleteSemilatticeInf.toPartialOrder.{u_1}', '@HeytingAlgebra.toOrderBot.{u_1}', '@Order.Frame.toHeytingAlgebra.{u_1}', 'Set.{u_1}', 'Sym2.{u_1}', 'V']
+    replace @CompleteSemilatticeInf.toPartialOrder.{u_1}  ==>  @CompletePartialOrder.toPartialOrder.{u_1}
+    replace @CompleteLattice.toCompleteSemilatticeInf.{u_1}  ==>  @CompleteLattice.toCompletePartialOrder.{u_1}
+    replace @HeytingAlgebra.toOrderBot.{u_1}  ==>  @CompletePartialOrder.toOrderBot.{u_1}
+    replace @Order.Frame.toHeytingAlgebra.{u_1}  ==>  @CompleteLattice.toCompletePartialOrder.{u_1}
+    replace @CompleteDistribLattice.toFrame.{u_1} ( Set.{u_1} ( Sym2.{u_1} V ) ) ( @CompleteBooleanAlgebra.toCompleteDistribLattice.{u_1}  ==>  @CompleteBooleanAlgebra.toCompleteLattice.{u_1}
+    delete )  ==>  
+   only Set (Sym2 V) PartialOrder/OrderBot instance paths differ -> see InstDefeq.lean (Iff.rfl in both environments)
+RESULT MISMATCH

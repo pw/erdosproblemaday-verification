@@ -1,0 +1,5 @@
+NEGATIVE_MUTATION_PASS both_routes_rejected=yes
+removed_edge=(0, 4) added_edge=(2, 3)
+controlled_complete_face=[(0, 1), (0, 2), (1, 3), (2, 3)]
+complete_faces_detected=4
+repeated_common_neighbour_witness=((2, 35), 3, 34)

@@ -1,0 +1,23 @@
+file=F_S13_eq_1e7_elems.u32 elements=1188514 last=10000000 density=0.118851
+maxgap 22 gap histogram [(1, 131577), (2, 93783), (3, 2), (4, 170477), (6, 158840), (7, 5941), (9, 6270), (11, 397775), (12, 8), (15, 84169), (16, 69089), (17, 69467), (18, 20), (19, 3), (21, 1077), (22, 15)]
+gap suffix from term 594256 (len 594257): smallest period 594257 -> no period <= half the suffix (0s)
+gap suffix from term 891384 (len 297129): smallest period 297129 -> no period <= half the suffix (0s)
+gap suffix from term 1069661 (len 118852): smallest period 118852 -> no period <= half the suffix (0s)
+max|count(x)-density*x| for x<=100000: 40.9  (sqrt X = 316)
+max|count(x)-density*x| for x<=1000000: 830.9  (sqrt X = 1000)
+max|count(x)-density*x| for x<=10000000: 4075.7  (sqrt X = 3162)
+max|count(x)-density*x| for x<=10000000: 4075.7  (sqrt X = 3162)
+membership sha256 through 500000: d9dd3837d71bff5faa149992bc8c123a0fe5ed7838df59c3e679a918af276e53 (July 2026 report: 3a045efefd9edd5c74813c40d09c592abb8bea461daba7da9f4f156a94d60aa9)
+membership sha256 through 10000000: 555743fc937af11729a5db3111e0f6018c2c6f2b9223d0db4bc9fa2c19ef6020
+residue census m<=400 on [N/2,N]: most depleted class (min/mean, m): [(np.float64(0.742), 362), (np.float64(0.919), 181), (np.float64(0.933), 399)] most over-full (max/mean, m): [(np.float64(1.259), 362), (np.float64(1.086), 181), (np.float64(1.065), 202)]
+autocorrelation on [2000000,10000000], shifts <= 3333333: record chain [(110, 0.8888), (1393, 0.9003), (1503, 0.9064), (2896, 0.918), (43093, 0.9292)]
+top peaks: [(43093, 0.9292), (173765, 0.9258), (45989, 0.9228), (86186, 0.9224), (130672, 0.9224), (216858, 0.9202), (127776, 0.9201), (87579, 0.9199), (2896, 0.918), (89082, 0.9178), (84683, 0.9174), (170869, 0.9156)]
+exact (overlap-normalised) agreement at the 60 strongest candidates: best 43093 at 0.98519; next [(173765, 0.9845), (45989, 0.98386), (86186, 0.98378), (130672, 0.98378), (216858, 0.98333)]
+best shift 43093: agreement fraction 0.9852 (mismatch 0.0148)
+agreement at 889, 9547, 27875: [(889, 0.7627), (9547, 0.8181), (27875, 0.835)]
+post-transient discrepancy on [2000000,10000000] (density refitted 0.118642): max|.| = 3234
+   random set, same count/window, trial 0: 627
+   random set, same count/window, trial 1: 627
+   random set, same count/window, trial 2: 521
+factor complexity p(k) of the whole gap word: [(10, 4765), (20, 26544), (30, 74270), (50, 246953), (100, 778658)]
+factor complexity on the second half (594257 gaps): [(10, 2836, 0.005), (20, 15648, 0.026), (30, 41647, 0.07), (50, 124927, 0.21), (100, 363310, 0.611)]  (k, p(k), p(k)/windows) — sample-limited, no exponent is claimed

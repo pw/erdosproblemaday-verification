@@ -1,0 +1,32 @@
+sorry                               total=     0  
+admit                               total=     0  
+axiom                               total=     0  
+native_decide                       total=     0  
+implemented_by                      total=     0  
+extern                              total=     0  
+unsafe                              total=     0  
+opaque                              total=     0  
+skipKernelTC                        total=     0  
+ofReduceBool                        total=     0  
+decide:=true                        total=     0  
+reduceBool                          total=     0  
+partial                             total=     1  PrimeNumberTheoremAnd:1
+noncomputable                       total=  1816  AbsorptionCutoff:12, OAI:1680, PrimeNumberTheoremAnd:92, StrongPNT:32
+sorryAx                             total=     0  
+trustCompiler                       total=     0  
+macro/elab                          total=     2  PrimeNumberTheoremAnd:2
+run_cmd/#eval                       total=     0  
+attribute simp/instance globals     total=     1  OAI:1
+set_option                          total=     0  
+unif_hint                           total=     0  
+Classical.choice-skip               total=     0  
+
+== partial 1
+   ext/PrimeNumberTheoremAnd/PrimeNumberTheoremAnd/Erdos970/Tactic/AdditiveCombination.lean 18 partial def expandAdditiveCombo (ty : Expr) (stx : Syntax.Term) : TermElabM Expanded := withRef stx do
+== macro/elab 2
+   ext/PrimeNumberTheoremAnd/PrimeNumberTheoremAnd/Erdos970/Tactic/AdditiveCombination.lean 81 
+   ext/PrimeNumberTheoremAnd/PrimeNumberTheoremAnd/Erdos970/Tactic/AdditiveCombination.lean 84 elab_rules : tactic
+== attribute simp/instance globals 1
+   repo/lean/OAI/NumberTheory/Jacobsthal/Siegel/GenericNormalization.lean 388 
+
+set_option census:

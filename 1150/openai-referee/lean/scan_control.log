@@ -1,0 +1,14 @@
+files: 1   lines: 2
+imports outside Mathlib/own tree: 
+\bsorry\b            1
+\badmit\b            0
+^\s*axiom\b          0
+native_decide        0
+implemented_by       0
+@\[extern            0
+\bunsafe\b           0
+^\s*opaque\b         0
+partial def          0
+maxHeartbeats        0
+maxRecDepth          0
+set_option debug     0

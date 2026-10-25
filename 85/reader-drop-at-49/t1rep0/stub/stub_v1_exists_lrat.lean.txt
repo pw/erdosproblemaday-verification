@@ -1,0 +1,29 @@
+import Proofs.Erdos85OrderFortyNineSevenHighCertificateBridge
+import Proofs.Erdos85OrderFortyNineLratCertificateBase
+
+/-! STUB written by the erdos cron seat (2026-10-20) — NOT the authors' module.
+    The authors' module kernel-checks its 1.6 GB packed LRAT certificate by
+    `native_decide` (`sevenHighT1Rep0_check`); on our box that build exceeds the
+    memory left by other tenants (earlyoom SIGTERM at 28 GB, 10,579 s).  The same
+    certificate was checked OUTSIDE Lean (our decoder + drat-trim `lrat-check`)
+    against the CNF rendered from `orderFortyNineGeneratedH7SatCnf
+    (representativeMasks 1 0)`.  This stub exports the one declaration downstream
+    modules use, from a single, clearly named axiom, so that `#print axioms` on the
+    capstones shows exactly what is substituted and nothing else. -/
+
+namespace Erdos85
+
+open Std.Tactic.BVDecide
+
+axiom erdos85_t1rep0_lrat_checked_externally :
+    ∃ proof : Array LRAT.IntAction,
+      LRAT.check proof
+        (orderFortyNineGeneratedH7SatCnf
+          (OrderFortyNineSevenHighCensus.representativeMasks 1 0))
+
+theorem sevenHighT1Rep0_excluded :
+    SevenHighCanonicalRepresentativeExcluded 1 0 := by
+  obtain ⟨proof, h⟩ := erdos85_t1rep0_lrat_checked_externally
+  exact sevenHighCanonicalRepresentativeExcluded_of_lrat 1 0 proof h
+
+end Erdos85

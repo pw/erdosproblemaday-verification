@@ -1,0 +1,53 @@
+model C: k=1056 D=3 M=33 h0=9 lambda=2116800 (formula 2116800) q=100000000000000003 alpha=1.0e-68 m=173830343 |V|=347660686 H_x=1/2360519884800 flags=['--longer', '--vscale', '1e6']
+  progressions                                                                                    checked=   150 FAIL=0
+  heavy case (< delta k light)                                                                    checked=    49 FAIL=0
+  drift: 1<=h<=2M                                                                                 checked=   597 FAIL=0
+  drift: |u_i|,|v_i| bounds                                                                       checked=   597 FAIL=0
+  drift: v == lambda u (real)                                                                     checked=   597 FAIL=0
+  path: t' integral                                                                               checked=   597 FAIL=0
+  path: both path equations, all j                                                                checked=   597 FAIL=0
+  path: gcd(t,h)=1                                                                                checked=   597 FAIL=0
+  path: each label in one residue class mod h                                                     checked=   597 FAIL=0
+  heavy-width at every heavy index                                                                checked=   597 FAIL=0
+  diag(control): heavy-width inequality evaluated at a LIGHT index                                checked= 22948 FAIL=12096
+  diag: chosen heavy label has h=19                                                               checked=    92 FAIL=0
+  longer: rotating s_i > h0                                                                       checked=   882 FAIL=0
+  longer: every full block has >= h/2 regular positions                                           checked= 29179 FAIL=0
+  longer: labels in a full block pairwise distinct                                                checked= 29179 FAIL=0
+  diag: used blocks with >=1 rotating coordinate                                                  checked= 17633 FAIL=0
+  longer: elig (ii) |u_i|<=H_x all i, |v_i|<=H rotating                                           checked= 29179 FAIL=0
+  longer: elig (iii) stationary |v_i| <= |V(Y_z,i)| at every position                             checked= 29179 FAIL=11546
+  longer: used full blocks cover >= 4k/5                                                          checked=   473 FAIL=0
+  diag: chosen heavy label has h=15                                                               checked=    45 FAIL=0
+  diag: used blocks with >=1 stationary coordinate                                                checked= 11546 FAIL=0
+  cut-crossing small-step progressions: all labels distinct                                       checked=    60 FAIL=0
+  case (i): >= delta k light (nothing to check without c_*)                                       checked=   101 FAIL=0
+  diag: chosen heavy label has h=1                                                                checked=    96 FAIL=0
+  short: h | lambda                                                                               checked=   124 FAIL=0
+  short: w_i in q^{-i}Z                                                                           checked=   124 FAIL=0
+  short: k|w_i| < 1/2                                                                             checked=   124 FAIL=0
+  SHORT-PERIOD CONCLUSION (ii): ytilde(n_j)=ytilde(n_0)+j w for ALL j                             checked=   124 FAIL=0
+  diag: chosen heavy label has h=13                                                               checked=    52 FAIL=0
+  diag: chosen heavy label has h=17                                                               checked=    16 FAIL=0
+  diag: short-period heavy case with some rho < 1e-6 (near cut, no crossing)                      checked=    22 FAIL=0
+  diag: chosen heavy label has h=26                                                               checked=    48 FAIL=0
+  diag: chosen heavy label has h=20                                                               checked=    20 FAIL=0
+  diag: chosen heavy label has h=31                                                               checked=    28 FAIL=0
+  diag: chosen heavy label has h=7                                                                checked=    14 FAIL=0
+  diag: short-period heavy case with t != 0 (genuine rational step)                               checked=    28 FAIL=0
+  diag: chosen heavy label has h=12                                                               checked=    12 FAIL=0
+  diag: chosen heavy label has h=14                                                               checked=    42 FAIL=0
+  diag: chosen heavy label has h=23                                                               checked=    21 FAIL=0
+  diag: chosen heavy label has h=25                                                               checked=    50 FAIL=0
+  diag: used block whose stationary coord has min width/|v_i| < 100 (stress)                      checked=  1050 FAIL=0
+  diag: chosen heavy label has h=5                                                                checked=    10 FAIL=0
+  diag: chosen heavy label has h=11                                                               checked=    37 FAIL=0
+  diag: chosen heavy label has h=2                                                                checked=     4 FAIL=0
+  diag: chosen heavy label has h=10                                                               checked=    10 FAIL=0
+  mesh exact-fallbacks: 4
+  min over heavy indices of (2M/k)|V|/|v_i| (lemma says >= 1): 3.21
+  min over used blocks, stationary coords, positions of |V|/|v_i|: 57.24
+  total failures recorded: 11546
+   e.g. ('iii', 26785119044050597306835740794351124303219836238284, 866666666666666744666666666666669006666666666666690, 'ratsmall', 'rand', 15)
+   e.g. ('iii', 26785119044050597306835740794351124303219836238284, 866666666666666744666666666666669006666666666666690, 'ratsmall', 'rand', 15)
+   e.g. ('iii', 26785119044050597306835740794351124303219836238284, 866666666666666744666666666666669006666666666666690, 'ratsmall', 'rand', 15)

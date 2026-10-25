@@ -1,0 +1,37 @@
+'OAI.CliqueFreeLog.logarithmic_independence_bound' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]
+OAI.CliqueFreeLog.logarithmic_independence_bound : ∀ (r : Nat)
+  (hr : @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) r),
+  @Exists.{1} Real fun (c : Real) =>
+    And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c)
+      (∀ {V : Type} [inst : Fintype.{0} V] (G : SimpleGraph.{0} V),
+        @SimpleGraph.CliqueFree.{0} V G r →
+          @LE.le.{0} Real Real.instLE
+              (@OfNat.ofNat.{0} Real (nat_lit 2)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))
+              (@OAI.CliqueFreeLog.averageDegree.{0} V inst G) →
+            @LE.le.{0} Real Real.instLE
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c
+                    (@Nat.cast.{0} Real Real.instNatCast (@Fintype.card.{0} V inst)))
+                  (Real.log (@OAI.CliqueFreeLog.averageDegree.{0} V inst G)))
+                (@OAI.CliqueFreeLog.averageDegree.{0} V inst G))
+              (@Nat.cast.{0} Real Real.instNatCast (@SimpleGraph.indepNum.{0} V G)))
+def OAI.CliqueFreeLog.averageDegree.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → (G : SimpleGraph.{u_1} V) → Real :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] (G : SimpleGraph.{u_1} V) =>
+  @HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@OfNat.ofNat.{0} Real (nat_lit 3)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast OAI.CliqueFreeLog.averageDegree._proof_1))
+      (@Nat.cast.{0} Real Real.instNatCast
+        (@Finset.card.{u_1} (Sym2.{u_1} V)
+          (@SimpleGraph.edgeFinset.{u_1} V G
+            (@SimpleGraph.fintypeEdgeSet.{u_1} V G (@Sym2.instFintype.{u_1} V inst) fun (a b : V) =>
+              Classical.propDecidable (@SimpleGraph.Adj.{u_1} V G a b))))))
+    (@Nat.cast.{0} Real Real.instNatCast (@Fintype.card.{u_1} V inst))

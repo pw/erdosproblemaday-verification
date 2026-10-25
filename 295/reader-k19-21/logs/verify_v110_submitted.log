@@ -1,0 +1,43 @@
+N=19
+  [PASS] 36 terms == claimed 36
+  [PASS] distinct, increasing, min >= N, contains N (so also A192881-admissible)
+  [PASS] route 1 exact Fraction sum == 1
+  [PASS] route 2 integer LCM sum == L (L=6209352774424800, bits(max)=34)
+  harmonic lower bound k >= 32
+N=20
+  [PASS] 38 terms == claimed 38
+  [PASS] distinct, increasing, min >= N, contains N (so also A192881-admissible)
+  [PASS] route 1 exact Fraction sum == 1
+  [PASS] route 2 integer LCM sum == L (L=2772929439982611617430667744800, bits(max)=60)
+  harmonic lower bound k >= 34
+N=21
+  [PASS] 39 terms == claimed 39
+  [PASS] distinct, increasing, min >= N, contains N (so also A192881-admissible)
+  [PASS] route 1 exact Fraction sum == 1
+  [PASS] route 2 integer LCM sum == L (L=207311948389939355504942400, bits(max)=66)
+  harmonic lower bound k >= 36
+stated constructions
+  [PASS] 1/18+1/63 == 1/14 == 1/42+1/55+1/66+1/70
+  [PASS] N=19 set == (k18 set - {18,63}) + {42,55,66,70}
+  [PASS] botnet N=20 witness sums to 1 (39 terms)
+  [PASS] botnet N=21 witness sums to 1 (40 terms)
+  [PASS] N=20 = first 36 of botnet N=20 + two new
+  [PASS] N=21 = first 37 of botnet N=21 + two new
+  [PASS] N=20 residual 151817/56984589375772121632800 == 1/745735753538714400 + 1/755732875917998385
+  [PASS] N=21 residual 35558057/470956940228352916800 == 1/13244735025984 + 1/60692489317197426150
+  [PASS] his JSON denominators == the sets checked here (N=18..21)
+negative controls (each must be REJECTED by both routes)
+  [PASS] N=19 denominator #0 +1 rejected
+  [PASS] N=19 denominator #18 +1 rejected
+  [PASS] N=19 denominator #35 +1 rejected
+  [PASS] N=19 last term dropped rejected
+  [PASS] N=20 denominator #0 +1 rejected
+  [PASS] N=20 denominator #19 +1 rejected
+  [PASS] N=20 denominator #37 +1 rejected
+  [PASS] N=20 last term dropped rejected
+  [PASS] N=21 denominator #0 +1 rejected
+  [PASS] N=21 denominator #19 +1 rejected
+  [PASS] N=21 denominator #38 +1 rejected
+  [PASS] N=21 last term dropped rejected
+RESULT: VERIFIED k(19)<=36, k(20)<=38, k(21)<=39
+verify_v110.py submitted/certificates-extension.json rc=0

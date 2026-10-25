@@ -1,0 +1,3 @@
+'HeilbronnEighteen.sum_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnEighteen.cons_five' depends on axioms: [propext]
+RSSCAP done rc=0 peak_kb=1487100 wall=2s

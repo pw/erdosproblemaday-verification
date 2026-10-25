@@ -1,0 +1,7 @@
+cases 100000 positive-excess cases 6664 of which b==b' 5621
+paper (5.11) violations: 0
+control: dropping the indicator (RHS grows) violations: 0 (expected 0: not a failing control)
+control A: RHS halved violations: 2050 (expected >0)
+control B: unequal flank lengths Tm!=Tp violations: 5442 (expected >0)
+(5.12) checked 49589 violations (open interior): 0
+control C: same with CLOSED J (endpoint atoms counted) violations: 49589 (expected >0)

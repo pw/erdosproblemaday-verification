@@ -1,0 +1,11 @@
+method=author_endpoint compared=14 discrepancies=0
+method=subsequence_automaton compared=14 discrepancies=0
+method=maximum_insertion compared=14 discrepancies=0
+method=python_permutations compared=9 discrepancies=0
+method=goh_zhao_v2_translation compared=12 discrepancies=0
+method=author_threads_1 compared=12 discrepancies=0
+method=author_threads_2 compared=12 discrepancies=0
+method=author_threads_3 compared=12 discrepancies=0
+method=author_threads_7 compared=12 discrepancies=0
+method=author_threads_16 compared=12 discrepancies=0
+frozen_audit_discrepancies=0

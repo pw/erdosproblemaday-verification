@@ -1,0 +1,4 @@
+locally M8 (k=8, |Aut X|=16), NMAX=1000
+  FOUND locally-X graph on 21 vertices, 84 edges  (search nodes 2145, 5s)  graph6 T|fLKfHWAXkoOLKsEAorDEEWKCwKQWEKk@zB
+  FOUND locally-X graph on 17 vertices, 68 edges  (search nodes 11671, 25s)  graph6 P|fLKfH[QJkSVDMJDrGm]A|g
+DONE: 2 graph(s) up to isomorphism: [(21, 84), (17, 68)]; search nodes 17950; max vertices in play 21; branches refused by the cap 0; 38.3s

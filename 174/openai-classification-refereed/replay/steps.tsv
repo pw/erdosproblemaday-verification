@@ -1,0 +1,29 @@
+build 0 65/65 failed=
+cmpmod_EuclideanRamsey 0 8
+cmpmod_GrahamSpherical 0 3
+cmpmod_EuclideanRamseyCircle 0 8
+cmpmod_EuclideanRamseyNine 0 7
+cmpmod_EuclideanRamseyQuadratic 0 8
+cmpmod_EuclideanRamseySpherical 0 8
+cmpmod_EuclideanRamseyTransitive 0 7
+cmp_EuclideanRamsey 0 7
+ax_EuclideanRamsey 0 7
+cmp_GrahamSpherical 0 4
+ax_GrahamSpherical 0 3
+cmp_EuclideanRamseyCircle 0 6
+ax_EuclideanRamseyCircle 0 6
+cmp_EuclideanRamseyNine 0 7
+ax_EuclideanRamseyNine 0 7
+cmp_EuclideanRamseyQuadratic 0 7
+ax_EuclideanRamseyQuadratic 0 7
+cmp_EuclideanRamseySpherical 0 6
+ax_EuclideanRamseySpherical 0 7
+cmp_EuclideanRamseyTransitive 0 6
+ax_EuclideanRamseyTransitive 0 7
+neg 0 6
+statement_match 0 0
+lcall_compile 0 7
+leanchecker_fresh_fc_REPLACED -1 0 (killed by seat at ~15 min: superseded by Bridge174Main run)
+leanchecker_fresh 0 3603
+leanchecker_missing_control 1 1
+leanchecker_fresh_fc 0 3556

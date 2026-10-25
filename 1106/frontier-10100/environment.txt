@@ -1,0 +1,9 @@
+Frozen: 2026-08-11 UTC
+Linux portalonce 6.12.93 #1 SMP Wed Jul 22 19:44:49 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+Python 3.12.3
+
+                  GP/PARI CALCULATOR Version 2.15.4 (released)
+          amd64 running linux (x86-64/GMP-6.3.0 kernel) 64-bit version
+      compiled: Apr  1 2024, gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu3)
+                           threading engine: pthread
+                (readline v8.2 disabled, extended help enabled)

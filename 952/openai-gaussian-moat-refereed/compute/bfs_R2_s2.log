@@ -1,0 +1,59 @@
+sets 154
+2 2533 (17, 149) INFINITE (-2533, 0)
+2 2665 (5, 13, 41) INFINITE (-2665, 0)
+2 2813 (29, 97) INFINITE (-2813, 0)
+2 2977 (13, 229) INFINITE (-2977, 0)
+2 3077 (17, 181) INFINITE (-3077, 0)
+2 3161 (29, 109) INFINITE (-3161, 0)
+2 3281 (17, 193) INFINITE (-3281, 0)
+2 3349 (17, 197) INFINITE (-3349, 0)
+2 3497 (13, 269) INFINITE (-3497, 0)
+2 3649 (41, 89) INFINITE (-3649, 0)
+2 3809 (13, 293) INFINITE (-3809, 0)
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 56, in apport_excepthook
+    if not enabled():
+           ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 24, in enabled
+    import re
+  File "/usr/lib/python3.12/re/__init__.py", line 124, in <module>
+    import enum
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1087, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1187, in get_data
+MemoryError
+
+Original exception was:
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError

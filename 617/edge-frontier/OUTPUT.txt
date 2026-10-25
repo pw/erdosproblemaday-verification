@@ -1,0 +1,28 @@
+$ python3 --version
+Python 3.12.3
+
+$ python3 verify_e6626.py
+explicit-edge-list verifier: PASS
+J: vertices=11 edges=26
+J exhaustive subsets: C(11,3)=165, C(11,6)=462
+J forbidden subsets: triangles=0, independent_6=0
+G: vertices=26 edges=59
+G exhaustive 6-subsets=230230, K6=0, independent_6=0
+G 5-subsets: K5=6, independent_5=3250
+Turan arithmetic: parts=[6, 5, 5, 5, 5], t_5(26)=270, p_5(26)=266, lower=59
+G edge digest=a4e18b2679353aeda7fe389f74edea4bfbba49105da0d0c2b37da510f9a2064a
+
+$ python3 verify_e6626_independent.py
+graph6/bitset verifier: PASS
+J graph6='JiQC@{}N`{?'
+J: vertices=11 edges=26 omega=2 alpha=5
+G: vertices=26 edges=59 omega=5 alpha=5
+complement arithmetic: K26=325, t_5=270, p_5=266, lower=59
+G edge digest=a4e18b2679353aeda7fe389f74edea4bfbba49105da0d0c2b37da510f9a2064a
+
+$ python3 verify_general.py
+general construction/formula verifier: PASS
+structural J cases: r=2..50 (49 cases)
+exact subset cases: J=9 (r=2..10), G=4 (r=2..5)
+integer formula cases: r=2..10000 (9999 cases)
+r=5 specialization: n=26, e(J)=26, e(G)=59, partition slack=30

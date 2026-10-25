@@ -1,0 +1,105 @@
+1. radical bounds by squaring rational endpoints
+  ok   1.73205 < sqrt3 < 1.73206
+  ok   3.31662 < sqrt11 < 3.31663
+  ok   a*, b* are the midpoints
+  ok   (a*+b*)eps+eps^2 = 1009737/40000000000 = 0.000025243425 < 0.000026
+  ok   0.000026/6 < eps
+  ok   absolute row sum of (35+12i)/37 rotation = 47/37
+2. midpoint-substituted placed points and the displayed residuals
+  ok    0: residual numerators (3840000,-23040000) == table (3840000, -23040000)
+  ok    0: |numerators| < 35520000
+  ok    A: residual numerators (-29520000,10176000) == table (-29520000, 10176000)
+  ok    A: |numerators| < 35520000
+  ok    B: residual numerators (-12240000,-22464000) == table (-12240000, -22464000)
+  ok    B: |numerators| < 35520000
+  ok    T: residual numerators (25440000,10752000) == table (25440000, 10752000)
+  ok    T: |numerators| < 35520000
+  ok   uA: residual numerators (32043244,-19212795) == table (32043244, -19212795)
+  ok   uA: |numerators| < 35520000
+  ok   uB: residual numerators (4763244,-27212795) == table (4763244, -27212795)
+  ok   uB: |numerators| < 35520000
+  ok   uT: residual numerators (32966488,-23385590) == table (32966488, -23385590)
+  ok   uT: |numerators| < 35520000
+  ok   710400000000/20000 = 35520000
+  ok   (47/37)eps + 0.00005 = 0.00005635 < h = 0.00011
+3. Table 2 factors from squared-coordinate integers; bound chains; Table 1 order
+  ok    0: |xi0|,|ups0| > h
+  ok    0: m, n integers (129060,18760)
+  ok    0: (m+-11)^2/1e10 formulas agree with (|c|+-h)^2
+  ok    0: y_u = 0.035235044 < b_y = 353/10000
+  ok    0: H = 4.9626444 < b_H = 4963/1000
+  ok    0: a=17/10 < l_l=1.700517 <= l_u=1.701167 < b=171/100
+  ok    0: (a,b) in (0,4) and avoids 1
+  ok    0: b_y b_H^2 = 0.86948733 < P+ = 9/10
+  ok    0: a^3(1-b/4)min(|a-1|,|b-1|)^2 = 1.3782193 > P'_- = 27/20
+  ok    0: P+ < P'_-
+  ok    A: |xi0|,|ups0| > h
+  ok    A: m, n integers (63350,94140)
+  ok    A: (m+-11)^2/1e10 formulas agree with (|c|+-h)^2
+  ok    A: y_u = 0.88644108 < b_y = 887/1000
+  ok    A: H = 0.31835803 < b_H = 319/1000
+  ok    A: a=32/25 < l_l=1.287210 <= l_u=1.287903 < b=129/100
+  ok    A: (a,b) in (0,4) and avoids 1
+  ok    A: b_y b_H^2 = 0.090262007 < P+ = 19/200
+  ok    A: a^3(1-b/4)min(|a-1|,|b-1|)^2 = 0.11139233 > P'_- = 11/100
+  ok    A: P+ < P'_-
+  ok    B: |xi0|,|ups0| > h
+  ok    B: m, n integers (30920,450)
+  ok    B: (m+-11)^2/1e10 formulas agree with (|c|+-h)^2
+  ok    B: y_u = 2.12521e-05 < b_y = 11/500000
+  ok    B: H = 0.28699876 < b_H = 287/1000
+  ok    B: a=19/200 < l_l=0.095556 <= l_u=0.095694 < b=12/125
+  ok    B: (a,b) in (0,4) and avoids 1
+  ok    B: b_y b_H^2 = 1.812118e-06 < P+ = 1/500000
+  ok    B: a^3(1-b/4)min(|a-1|,|b-1|)^2 = 0.00068384471 > P'_- = 13/20000
+  ok    B: P+ < P'_-
+  ok    T: |xi0|,|ups0| > h
+  ok    T: m, n integers (34780,74930)
+  ok    T: (m+-11)^2/1e10 formulas agree with (|c|+-h)^2
+  ok    T: y_u = 0.56161535 < b_y = 281/500
+  ok    T: H = 0.19895034 < b_H = 199/1000
+  ok    T: a=341/500 < l_l=0.682174 <= l_u=0.682657 < b=683/1000
+  ok    T: (a,b) in (0,4) and avoids 1
+  ok    T: b_y b_H^2 = 0.022255762 < P+ = 23/1000
+  ok    T: a^3(1-b/4)min(|a-1|,|b-1|)^2 = 0.02643365 > P'_- = 13/500
+  ok    T: P+ < P'_-
+  ok   uA: |xi0|,|ups0| > h
+  ok   uA: m, n integers (115980,117900)
+  ok   uA: (m+-11)^2/1e10 formulas agree with (|c|+-h)^2
+  ok   uA: y_u = 1.3903004 < b_y = 1391/1000
+  ok   uA: H = 2.646392 < b_H = 2647/1000
+  ok   uA: a=273/100 < l_l=2.734663 <= l_u=2.735692 < b=137/50
+  ok   uA: (a,b) in (0,4) and avoids 1
+  ok   uA: b_y b_H^2 = 9.7461931 < P+ = 49/5
+  ok   uA: a^3(1-b/4)min(|a-1|,|b-1|)^2 = 19.181859 > P'_- = 19
+  ok   uA: P+ < P'_-
+  ok   uB: |xi0|,|ups0| > h
+  ok   uB: m, n integers (36660,57000)
+  ok   uB: (m+-11)^2/1e10 formulas agree with (|c|+-h)^2
+  ok   uB: y_u = 0.32502541 < b_y = 163/500
+  ok   uB: H = 0.07865406 < b_H = 79/1000
+  ok   uB: a=459/1000 < l_l=0.459090 <= l_u=0.459502 < b=23/50
+  ok   uB: (a,b) in (0,4) and avoids 1
+  ok   uB: b_y b_H^2 = 0.002034566 < P+ = 11/5000
+  ok   uB: a^3(1-b/4)min(|a-1|,|b-1|)^2 = 0.024955648 > P'_- = 3/125
+  ok   uB: P+ < P'_-
+  ok   uT: |xi0|,|ups0| > h
+  ok   uT: m, n integers (23580,156140)
+  ok   uT: (m+-11)^2/1e10 formulas agree with (|c|+-h)^2
+  ok   uT: y_u = 2.4383135 < b_y = 61/25
+  ok   uT: H = 2.2716642 < b_H = 2273/1000
+  ok   uT: a=2493/1000 < l_l=2.493176 <= l_u=2.493967 < b=499/200
+  ok   uT: (a,b) in (0,4) and avoids 1
+  ok   uT: b_y b_H^2 = 12.606331 < P+ = 253/20
+  ok   uT: a^3(1-b/4)min(|a-1|,|b-1|)^2 = 12.994601 > P'_- = 129/10
+  ok   uT: P+ < P'_-
+  ok   displayed example 2.44(2.273)^2 < 12.65
+  ok   displayed example (2.493)^3(1-2.495/4)(1.493)^2 > 12.9
+  ok    0: listed squared-radius interval ('1.70', '1.71') contains (a,b)
+  ok    A: listed squared-radius interval ('1.28', '1.29') contains (a,b)
+  ok    B: listed squared-radius interval ('0.095', '0.096') contains (a,b)
+  ok    T: listed squared-radius interval ('0.68', '0.69') contains (a,b)
+  ok   uA: listed squared-radius interval ('2.73', '2.74') contains (a,b)
+  ok   uB: listed squared-radius interval ('0.459', '0.46') contains (a,b)
+  ok   uT: listed squared-radius interval ('2.49', '2.50') contains (a,b)
+RESULT: ALL CHECKS PASS

@@ -1,0 +1,29 @@
+model A: k=12 D=2 M=4 h0=4 lambda=1 (formula 24) q=10000019 alpha=9.9999e-22 m=6864 |V|=13728 H_x=1/144 flags=['--lam1']
+  progressions                                                                                    checked=  3000 FAIL=0
+  case (i): >= delta k light (nothing to check without c_*)                                       checked=  1788 FAIL=0
+  heavy case (< delta k light)                                                                    checked=  1212 FAIL=0
+  drift: 1<=h<=2M                                                                                 checked=  1528 FAIL=0
+  drift: |u_i|,|v_i| bounds                                                                       checked=  1528 FAIL=0
+  drift: v == lambda u (real)                                                                     checked=  1528 FAIL=0
+  path: t' integral                                                                               checked=  1528 FAIL=0
+  path: both path equations, all j                                                                checked=  1528 FAIL=0
+  path: gcd(t,h)=1                                                                                checked=  1528 FAIL=0
+  path: each label in one residue class mod h                                                     checked=  1528 FAIL=0
+  heavy-width at every heavy index                                                                checked=  1528 FAIL=0
+  diag: chosen heavy label has h=1                                                                checked=  1103 FAIL=0
+  short: h | lambda                                                                               checked=  1528 FAIL=425
+  short: w_i in q^{-i}Z                                                                           checked=  1528 FAIL=425
+  short: k|w_i| < 1/2                                                                             checked=  1528 FAIL=0
+  SHORT-PERIOD CONCLUSION (ii): ytilde(n_j)=ytilde(n_0)+j w for ALL j                             checked=  1528 FAIL=425
+  diag: short-period heavy case with some rho < 1e-6 (near cut, no crossing)                      checked=   241 FAIL=0
+  cut-crossing small-step progressions: all labels distinct                                       checked=   349 FAIL=0
+  diag: chosen heavy label has h=2                                                                checked=   188 FAIL=0
+  diag: short-period heavy case with t != 0 (genuine rational step)                               checked=   425 FAIL=0
+  diag(control): heavy-width inequality evaluated at a LIGHT index                                checked=    43 FAIL=0
+  diag: chosen heavy label has h=3                                                                checked=   237 FAIL=0
+  mesh exact-fallbacks: 515
+  min over heavy indices of (2M/k)|V|/|v_i| (lemma says >= 1): 3.543
+  total failures recorded: 425
+   e.g. ('short', 78725674976270, 50000190000156, 'rat', 'rand', 2, (77, 113, ('L', 6499), ('L', 6784)))
+   e.g. ('short', 78725674976270, 50000190000156, 'rat', 'rand', 2, (5, 41, ('R', 6852), ('R', 6740)))
+   e.g. ('short', 2422890331415, 66666920000183, 'rat', 'cut1', 3, (130, 99, ('L', 6834), ('L', 6725)))

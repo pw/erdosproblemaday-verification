@@ -1,0 +1,5 @@
+checks run: {'6.8': 720, '6.9': 720, 'tree_path': 6051, 'tree_root': 595, 'tree_total': 60, '6.12': 180, '6.12_levelform': 180, 'chain': 120}
+failures  : {'6.8': 0, '6.9': 0, 'tree_path': 0, 'tree_root': 0, 'tree_total': 0, '6.12': 0, '6.12_levelform': 0, 'chain': 0}
+CONTROL A (asymmetric w, finite integrals): (6.8) numeric mismatches = 71 / 100, assertion trips = 0 (mismatches must be > 0)
+CONTROL B (signed imbalance formula): LP mismatches = 10 / 10 (must be > 0)
+CONTROL C (chain without transport terms): violations = 10 / 10 (must be > 0)

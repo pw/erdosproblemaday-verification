@@ -1,0 +1,9 @@
+Audit date: 2026-08-11 UTC
+Host: portalonce
+Kernel: Linux 6.12.93 x86_64
+CPU: Intel Xeon Platinum 8259CL, 16 online virtual CPUs, one thread per core
+Compiler: g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Python: CPython 3.12.3
+Optimized flags: -O3 -march=native -fopenmp -std=c++20 -Wall -Wextra -Wconversion -Wshadow -Werror
+Sanitizer flags: -O1 -g -fsanitize=address,undefined -fno-omit-frame-pointer -std=c++20
+Primary run setting: OMP_NUM_THREADS=16

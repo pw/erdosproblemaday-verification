@@ -1,0 +1,14 @@
+OstmannComplete OAI.Ostmann.inverseGoldbach MATCH | lens 57 57
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+OstmannComplete OAI.Ostmann.twoInfiniteSummandsImpossible MATCH | lens 85 85
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['propext', 'sorryAx']
+OstmannComplete OAI.Ostmann.InverseGoldbach MATCH | lens 561 561
+OstmannComplete OAI.Ostmann.TwoInfiniteSummandsImpossible MATCH | lens 174 174
+OstmannComplete OAI.Ostmann.EventuallyPrimeSumset MATCH | lens 291 291
+OstmannComplete OAI.Ostmann.sumset MATCH | lens 215 215
+OstmannComplete OAI.Ostmann.primes MATCH | lens 88 88
+OstmannPrimes OAI.Ostmann.main MISMATCH | lens 755 757
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+FAIL
+OstmannComplete: 7 MATCH / 0 MISMATCH
+OstmannPrimes: 0 MATCH / 1 MISMATCH

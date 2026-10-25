@@ -1,0 +1,4 @@
+t5 rep0 same_as_lean_cnf=true (rendered 06:0xZ) | c VERIFIED | actions: add=184 del=163 total=347 empty_adds=1 rat_adds=0 last_id=1329225 | header_actions=lrat_actions=347
+t5 rep1 same_as_lean_cnf=true (rendered 06:0xZ) | c VERIFIED | actions: add=1041 del=938 total=1979 empty_adds=1 rat_adds=0 last_id=1330082 | header_actions=lrat_actions=1979
+t6 rep0 same_as_lean_cnf=true (rendered 06:0xZ) | c VERIFIED | actions: add=149 del=136 total=285 empty_adds=1 rat_adds=0 last_id=1329190 | header_actions=lrat_actions=285
+t7 rep0 same_as_lean_cnf=true (rendered 06:0xZ) | c VERIFIED | actions: add=84 del=79 total=163 empty_adds=1 rat_adds=0 last_id=1329125 | header_actions=lrat_actions=163

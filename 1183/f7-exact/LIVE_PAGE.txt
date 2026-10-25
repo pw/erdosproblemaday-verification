@@ -1,0 +1,76 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/1183
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑓⁡(𝑛)
+ be maximal such that in any 2
+-colouring of the subsets of {1,…,𝑛}
+ there is always a monochromatic family of at least 𝑓⁡(𝑛)
+ sets which is closed under taking unions and intersections. Estimate 𝑓⁡(𝑛)
+.
+
+Let 𝐹⁡(𝑛)
+ be defined similarly, except that we only require the family be closed under taking unions. Estimate 𝐹⁡(𝑛)
+. In particular, is it true that 𝐹⁡(𝑛) ≥𝑛𝜔⁡(𝑛)
+ for some 𝜔⁡(𝑛) →∞
+ as 𝑛 →∞
+, and 𝐹⁡(𝑛) <(1+𝑜⁡(1))𝑛
+?
+#1183: [Er78,p.39]
+combinatorics | ramsey theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+A problem of Erdős and Ulam.
+
+It is trivial that 𝑓⁡(𝑛) ≥
+𝑛+1
+2
+, since there is a sequence of 𝑛 +1
+ many nested subsets. This seems to be all that they knew; Erdős [Er78] wrote 'we have no plausible conjecture for the true order of magnitude of 𝑓⁡(𝑛)
+'.
+
+They similarly had no good guess about 𝐹⁡(𝑛)
+.
+
+In [Er78] Erdős wrote that if the colouring is such that all subsets of same size receive the same colour then Howorka had proved that 𝐹⁡(𝑛) >𝑛𝜔⁡(𝑛)
+ for some 𝜔⁡(𝑛) →∞
+, but gave no reference.
+
+View the LaTeX source
+
+View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: Possible
+
+10 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	ebarschkis, Dogmachine
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #1183, https://www.erdosproblems.com/1183, accessed 2026-08-12
+Previous
+Next
+
+Page title: 1183 | Erdős Problems
+URL: https://www.erdosproblems.com/1183

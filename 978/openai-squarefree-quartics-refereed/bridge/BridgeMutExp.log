@@ -1,0 +1,8 @@
+BridgeMutExp.lean:13:8: error: Application type mismatch: The argument
+  infinite_of_densityStatement f (f.natDegree - 2) hD
+has type
+  {n | PowerFree (f.natDegree - 2) (eval (↑n) f)}.Infinite
+but is expected to have type
+  Set.Infinite fun n => ∀ (p : ℕ), Nat.Prime p → ¬↑p ^ (f.natDegree - 3) ∣ eval (↑n) f
+in the application
+  Infinite.mono (fun n hn => powerfree_of_PowerFree hn) (infinite_of_densityStatement f (f.natDegree - 2) hD)

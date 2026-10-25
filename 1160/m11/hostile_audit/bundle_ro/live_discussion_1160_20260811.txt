@@ -1,0 +1,124 @@
+URL: https://www.erdosproblems.com/forum/thread/1160
+TITLE: 1160 Discussion Thread | Erdős Problems
+FETCHED: 2026-08-11 UTC
+
+Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑔⁡(𝑛)
+ denote the number of groups of order 𝑛
+. If 𝑛 ≤2𝑚
+ then 𝑔⁡(𝑛) ≤𝑔⁡(2𝑚)
+.
+#1160: [Va99,5.71]
+group theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+This is listed as an open problem (Question 22.16) in [BNV07], which reports it as a 'quite natural conjecture, whose origin we have been unable to trace satisfactorily. We have heard it attributed at various times to various people, such as Paul Erdős and Graham Higman.'
+
+Question 22.18 of [BNV07] suggests the even stronger conjecture
+∑
+𝑛<2𝑚𝑔⁡(𝑛)≤𝑔⁡(2𝑚)
+for all sufficiently large 𝑚
+ (perhaps even as soon as 𝑚 ≥7
+).
+
+Pantelidakis [Pa03] proved that the original conjecture is true if 𝑛
+ is odd and 𝑚 ≥3619
+.
+
+View the LaTeX source
+
+This page was last edited 26 January 2026. View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: A000001
+
+3 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	None
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #1160, https://www.erdosproblems.com/1160, accessed 2026-08-11
+Order by oldest first or newest first. (The most recent comments are highlighted in a red border.)
+
+The Wikipedia page on 𝑝
+-groups says that "there is a folklore conjecture asserting that almost all finite groups are 2-groups: the fraction of isomorphism classes of 2-groups among isomorphism classes of groups of order at most n is thought to tend to 1 as n tends to infinity".
+
+[Random numerology: There are 14
+ groups of order 16
+ and also 14
+ groups of order in (8,16)
+. Similarly, there are 51
+ groups of order 32
+ and also 51
+ groups of order in (16,32)
+.]
+
+BorisAlexeev
+—
+14:46 on 26 Jan 2026
+👍
+0
+📝
+0
+🤖
+0
+
+Thanks! I've just found some more background and results on this problem, which you might be interested in - added to the remarks above.
+
+The reference to Pantelidakis was found in [BNV07], but I haven't managed to find an online copy of the original DPhil thesis to double check this. Assuming this result is reported accurately, the conjecture for all odd 𝑛
+ is reduced to a finite check, which perhaps may be in range of some clever modern computations?
+
+EDIT: For more numerology, a list of 𝑔⁡(𝑛)
+ for 𝑛 ≤2000
+ can be found on the last couple pages of this report by Besche, Eick, and O'Brien.
+
+Thomas Bloom
+—
+15:55 on 26 Jan 2026
+👍
+2
+📝
+0
+🤖
+0
+
+Thanks. My numerology was in the direction of "Question 22.18 of [BNV07]", except I wanted it true for all 𝑚
+. So one version might be that ∑2𝑚−1<𝑛<2𝑚𝑔⁡(𝑛) ≤𝑔⁡(2𝑚), which is true for small 𝑚 (and tight for 𝑚 =4 and 𝑚 =5). (This would imply the original Erdős conjecture above.)
+
+The table you mention is easy to look at as a human. For a computer, the OEIS has a file for 𝑛 ≤2047 linked here. It's also available as FiniteGroupCount[n] in Mathematica.
+
+BorisAlexeev
+—
+19:29 on 26 Jan 2026
+👍
+0
+📝
+0
+🤖
+0
+
+All comments are the responsibility of the user. Comments appearing on this page are not verified for correctness. Please keep posts mathematical and on topic.
+
+Log in to add a comment.
+
+Back to the forum

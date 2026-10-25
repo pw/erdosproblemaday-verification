@@ -1,0 +1,1 @@
+cd lean-replay/probe; LEAN_PATH=<out>:<mathlib .lake/build/lib>:<packages> lean --trust=0 Probe.lean > probe.out  (run 2026-10-22 ~21:47Z; Lean 4.11.0); lean Neg.lean > neg.out

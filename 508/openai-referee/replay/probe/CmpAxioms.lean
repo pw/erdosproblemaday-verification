@@ -1,0 +1,2 @@
+import ComparatorChallenges.EuclideanFiveColor
+#print axioms OAI.EuclideanFiveColor.no_proper_five_coloring

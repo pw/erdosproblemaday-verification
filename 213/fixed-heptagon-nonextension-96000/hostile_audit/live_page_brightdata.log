@@ -1,0 +1,58 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/213
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑛 ≥4
+. Are there 𝑛
+ points in ℝ2
+, no three on a line and no four on a circle, such that all pairwise distances are integers?
+#213: [Er75f,p.106][Er83c][Er87b,p.172]
+geometry | distances
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+Anning and Erdős [AnEr45] proved there cannot exist an infinite such set. Harborth constructed such a set when 𝑛 =5
+. The best construction to date, due to Kreisel and Kurz [KK08], has 𝑛 =7
+.
+
+Ascher, Braune, and Turchet [ABT20] have shown that there is a uniform upper bound on the size of such a set, conditional on the Bombieri-Lang conjecture. Greenfeld, Iliopoulou, and Peluse [GIP24] have shown (unconditionally) that any such set must be very sparse, in that if 𝑆 ⊆[−𝑁,𝑁]2
+ has no three on a line and no four on a circle, and all pairwise distances integers, then
+|𝑆|≪(log⁡𝑁)𝑂⁡(1).
+See also [130].
+
+View the LaTeX source
+
+This page was last edited 16 October 2025. View history
+
+External data from the database - you can help update this
+Formalised statement? Yes
+
+0 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	JeewonKim
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	Vjeko_Kovac
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #213, https://www.erdosproblems.com/213, accessed 2026-08-11
+Previous
+Next
+
+Page title: 213 | Erdős Problems
+URL: https://www.erdosproblems.com/213

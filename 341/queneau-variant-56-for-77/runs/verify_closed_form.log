@@ -1,0 +1,17 @@
+[strict] closed form on [0,2097152): gate violations (q≥2) = [0, 0, 0]  -> PASS;  same sets under the OTHER rule: [7, 7, 6] (control, must be nonzero)
+   mutation (rail 0 block 3 start −1): violations [1, 0, 1] (must be nonzero)
+   mutation (rail 1 block 3 start −1): violations [1, 1, 0] (must be nonzero)
+   mutation (rail 2 block 3 start −1): violations [0, 1, 1] (must be nonzero)
+   closed form vs sequential dynamics (gates.py) on [0,131072): mismatches [0, 0, 0] -> PASS
+   S ∩ [1,97] = [1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 56, 63, 71, 81, 89, 97]  == A: True
+   Y0 runs of 1s (first 8): [(0, 2), (9, 16), (65, 128), (513, 1024), (4097, 8192), (32769, 65536), (262145, 524288)]
+[equal] closed form on [0,2097152): gate violations (q≥2) = [0, 0, 0]  -> PASS;  same sets under the OTHER rule: [7, 7, 6] (control, must be nonzero)
+   mutation (rail 0 block 3 start −1): violations [1, 0, 1] (must be nonzero)
+   mutation (rail 1 block 3 start −1): violations [1, 1, 0] (must be nonzero)
+   mutation (rail 2 block 3 start −1): violations [0, 1, 1] (must be nonzero)
+   closed form vs sequential dynamics (gates.py) on [0,131072): mismatches [0, 0, 0] -> PASS
+   S ∩ [1,97] = [1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 56, 63, 71, 81, 89, 97]  == A: True
+   Y0 runs of 1s (first 8): [(0, 3), (16, 31), (128, 255), (1024, 2047), (8192, 16383), (65536, 131071), (524288, 1048575)]
+[shield mod 49] cover=True avoid=True (P+P)∩Q=P:True diagonal-only:True
+[strict cover] every t=49q+r (r∉Q, 2≤q<60) has a cover pair of two DISTINCT positive elements of S: PASS (2378 checked, 0 without)
+ALL PASS

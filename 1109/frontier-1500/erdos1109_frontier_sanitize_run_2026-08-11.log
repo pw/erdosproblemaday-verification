@@ -1,0 +1,234 @@
+decision n=1103 target=38 exists=1 nodes=2471
+decision n=1105 target=39 exists=0 nodes=6999
+decision n=1109 target=39 exists=0 nodes=15329
+decision n=1111 target=39 exists=0 nodes=10884
+decision n=1113 target=39 exists=0 nodes=13318
+decision n=1115 target=39 exists=0 nodes=21461
+decision n=1117 target=39 exists=0 nodes=13670
+decision n=1119 target=39 exists=0 nodes=8063
+decision n=1121 target=39 exists=0 nodes=24074
+decision n=1123 target=39 exists=0 nodes=22138
+decision n=1129 target=39 exists=0 nodes=7950
+decision n=1131 target=39 exists=0 nodes=44363
+decision n=1133 target=39 exists=0 nodes=12880
+decision n=1135 target=39 exists=0 nodes=16586
+decision n=1137 target=39 exists=0 nodes=11765
+decision n=1139 target=39 exists=0 nodes=73036
+decision n=1141 target=39 exists=0 nodes=13758
+decision n=1145 target=39 exists=0 nodes=23007
+decision n=1147 target=39 exists=0 nodes=9735
+decision n=1149 target=39 exists=0 nodes=25276
+decision n=1151 target=39 exists=0 nodes=36895
+decision n=1153 target=39 exists=0 nodes=37513
+decision n=1155 target=39 exists=0 nodes=14155
+decision n=1157 target=39 exists=0 nodes=37885
+decision n=1159 target=39 exists=0 nodes=46688
+decision n=1163 target=39 exists=0 nodes=32889
+decision n=1165 target=39 exists=0 nodes=13292
+decision n=1167 target=39 exists=0 nodes=77389
+decision n=1169 target=39 exists=0 nodes=28339
+decision n=1171 target=39 exists=0 nodes=45210
+decision n=1173 target=39 exists=0 nodes=19836
+decision n=1177 target=39 exists=0 nodes=20289
+decision n=1181 target=39 exists=0 nodes=57270
+decision n=1185 target=39 exists=0 nodes=47344
+decision n=1187 target=39 exists=0 nodes=70327
+decision n=1189 target=39 exists=0 nodes=81740
+decision n=1191 target=39 exists=0 nodes=25866
+decision n=1193 target=39 exists=0 nodes=74841
+decision n=1195 target=39 exists=0 nodes=89403
+decision n=1199 target=39 exists=0 nodes=45838
+decision n=1201 target=39 exists=0 nodes=23249
+decision n=1203 target=39 exists=0 nodes=177277
+decision n=1205 target=39 exists=0 nodes=91380
+decision n=1207 target=39 exists=0 nodes=108287
+decision n=1209 target=39 exists=0 nodes=48281
+decision n=1211 target=39 exists=0 nodes=249294
+decision n=1213 target=39 exists=0 nodes=63533
+decision n=1217 target=39 exists=0 nodes=109272
+decision n=1219 target=39 exists=0 nodes=72002
+decision n=1221 target=39 exists=0 nodes=135413
+decision n=1223 target=39 exists=0 nodes=217488
+decision n=1227 target=39 exists=0 nodes=52834
+decision n=1229 target=39 exists=0 nodes=127890
+decision n=1231 target=39 exists=0 nodes=232038
+decision n=1235 target=39 exists=0 nodes=120097
+decision n=1237 target=39 exists=0 nodes=41674
+decision n=1239 target=39 exists=0 nodes=372003
+decision n=1241 target=39 exists=0 nodes=215788
+decision n=1243 target=39 exists=0 nodes=197257
+decision n=1245 target=39 exists=0 nodes=59353
+decision n=1247 target=39 exists=0 nodes=317608
+decision n=1249 target=39 exists=0 nodes=149714
+decision n=1253 target=39 exists=0 nodes=227518
+decision n=1255 target=39 exists=1 nodes=70914
+decision n=1257 target=40 exists=0 nodes=182309
+decision n=1259 target=40 exists=0 nodes=286699
+decision n=1261 target=40 exists=0 nodes=114247
+decision n=1263 target=40 exists=0 nodes=51775
+decision n=1265 target=40 exists=0 nodes=217981
+decision n=1267 target=40 exists=0 nodes=290593
+decision n=1271 target=40 exists=0 nodes=182894
+decision n=1273 target=40 exists=0 nodes=57156
+decision n=1277 target=40 exists=1 nodes=10140
+decision n=1279 target=41 exists=0 nodes=109293
+decision n=1281 target=41 exists=0 nodes=80340
+decision n=1283 target=41 exists=0 nodes=195593
+decision n=1285 target=41 exists=0 nodes=110342
+decision n=1289 target=41 exists=0 nodes=171754
+decision n=1291 target=41 exists=0 nodes=77510
+decision n=1293 target=41 exists=1 nodes=5601
+decision n=1295 target=42 exists=0 nodes=242861
+decision n=1297 target=42 exists=0 nodes=60976
+decision n=1299 target=42 exists=0 nodes=46707
+decision n=1301 target=42 exists=0 nodes=157233
+decision n=1303 target=42 exists=0 nodes=243765
+decision n=1307 target=42 exists=0 nodes=159951
+decision n=1309 target=42 exists=0 nodes=65043
+decision n=1311 target=42 exists=0 nodes=367550
+decision n=1313 target=42 exists=0 nodes=249068
+decision n=1315 target=42 exists=0 nodes=189542
+decision n=1317 target=42 exists=0 nodes=124443
+decision n=1319 target=42 exists=0 nodes=341535
+decision n=1321 target=42 exists=0 nodes=235911
+decision n=1327 target=42 exists=0 nodes=121779
+decision n=1329 target=42 exists=0 nodes=299225
+decision n=1333 target=42 exists=0 nodes=145106
+decision n=1335 target=42 exists=1 nodes=529
+decision n=1337 target=43 exists=0 nodes=153601
+decision n=1339 target=43 exists=0 nodes=201425
+decision n=1343 target=43 exists=0 nodes=83336
+decision n=1345 target=43 exists=0 nodes=69917
+decision n=1347 target=43 exists=0 nodes=264390
+decision n=1349 target=43 exists=0 nodes=230431
+decision n=1351 target=43 exists=0 nodes=149166
+decision n=1353 target=43 exists=0 nodes=110756
+decision n=1355 target=43 exists=0 nodes=235553
+decision n=1357 target=43 exists=0 nodes=229735
+decision n=1361 target=43 exists=0 nodes=188860
+decision n=1363 target=43 exists=0 nodes=115633
+decision n=1365 target=43 exists=0 nodes=324089
+decision n=1367 target=43 exists=0 nodes=314391
+decision n=1371 target=43 exists=0 nodes=117379
+decision n=1373 target=43 exists=0 nodes=267935
+decision n=1379 target=43 exists=0 nodes=265278
+decision n=1381 target=43 exists=0 nodes=120282
+decision n=1383 target=43 exists=0 nodes=522016
+decision n=1385 target=43 exists=0 nodes=363930
+decision n=1387 target=43 exists=0 nodes=291326
+decision n=1389 target=43 exists=0 nodes=217666
+decision n=1391 target=43 exists=0 nodes=599645
+decision n=1393 target=43 exists=0 nodes=334614
+decision n=1397 target=43 exists=0 nodes=344734
+decision n=1399 target=43 exists=0 nodes=176357
+decision n=1401 target=43 exists=0 nodes=600843
+decision n=1403 target=43 exists=0 nodes=675637
+decision n=1405 target=43 exists=0 nodes=301704
+decision n=1407 target=43 exists=1 nodes=121837
+decision n=1409 target=44 exists=0 nodes=317950
+decision n=1411 target=44 exists=0 nodes=349853
+decision n=1415 target=44 exists=0 nodes=413144
+decision n=1417 target=44 exists=0 nodes=171082
+decision n=1419 target=44 exists=0 nodes=661377
+decision n=1423 target=44 exists=0 nodes=250253
+decision n=1427 target=44 exists=0 nodes=320132
+decision n=1429 target=44 exists=0 nodes=294599
+decision n=1433 target=44 exists=0 nodes=231959
+decision n=1435 target=44 exists=0 nodes=248165
+decision n=1437 target=44 exists=0 nodes=540045
+decision n=1439 target=44 exists=0 nodes=387706
+decision n=1441 target=44 exists=0 nodes=212668
+decision n=1443 target=44 exists=0 nodes=199765
+decision n=1447 target=44 exists=0 nodes=476917
+decision n=1451 target=44 exists=0 nodes=472561
+decision n=1453 target=44 exists=0 nodes=194073
+decision n=1455 target=44 exists=0 nodes=835735
+decision n=1457 target=44 exists=0 nodes=565312
+decision n=1459 target=44 exists=0 nodes=381215
+decision n=1461 target=44 exists=0 nodes=210368
+decision n=1463 target=44 exists=0 nodes=891280
+decision n=1465 target=44 exists=0 nodes=445078
+decision n=1469 target=44 exists=0 nodes=566671
+decision n=1471 target=44 exists=0 nodes=406853
+decision n=1473 target=44 exists=0 nodes=1042930
+decision n=1477 target=44 exists=0 nodes=325269
+decision n=1479 target=44 exists=0 nodes=412212
+decision n=1481 target=44 exists=0 nodes=813229
+decision n=1483 target=44 exists=0 nodes=1152275
+decision n=1487 target=44 exists=0 nodes=1127131
+decision n=1489 target=44 exists=0 nodes=471317
+decision n=1491 target=44 exists=0 nodes=2457026
+decision n=1493 target=44 exists=0 nodes=840968
+decision n=1495 target=44 exists=0 nodes=1274476
+decision n=1497 target=44 exists=0 nodes=430986
+decision n=1499 target=44 exists=0 nodes=1695568
+Erdos Problem 1109 C++ exact frontier verifier
+MAX_N=1500 eligible_vertices=610 final_f=44 decision_nodes=41526965
+f=1 first_N=1 witness={1}
+f=2 first_N=5 witness={1,5}
+f=3 first_N=19 witness={11,15,19}
+f=4 first_N=23 witness={11,15,19,23}
+f=5 first_N=37 witness={1,5,29,33,37}
+f=6 first_N=41 witness={1,5,29,33,37,41}
+f=7 first_N=59 witness={11,15,19,23,51,55,59}
+f=8 first_N=87 witness={7,15,23,51,55,59,79,87}
+f=9 first_N=101 witness={17,29,41,53,65,77,89,93,101}
+f=10 first_N=105 witness={5,17,41,53,65,69,77,89,101,105}
+f=11 first_N=113 witness={5,17,41,53,65,69,77,89,101,105,113}
+f=12 first_N=131 witness={7,15,23,51,59,79,87,95,107,115,123,131}
+f=13 first_N=151 witness={7,15,23,51,59,79,87,95,107,115,123,131,151}
+f=14 first_N=159 witness={7,15,23,51,59,79,87,95,107,115,123,131,151,159}
+f=15 first_N=167 witness={7,15,23,51,59,79,87,95,107,115,123,131,151,159,167}
+f=16 first_N=195 witness={7,15,23,51,59,79,87,95,107,115,123,131,151,159,167,195}
+f=17 first_N=203 witness={7,15,23,51,59,79,87,95,107,115,123,131,151,159,167,195,203}
+f=18 first_N=239 witness={23,35,43,51,59,79,87,95,123,131,167,179,187,195,203,223,231,239}
+f=19 first_N=259 witness={7,15,23,51,59,71,87,95,107,115,131,151,159,167,195,203,215,239,259}
+f=20 first_N=303 witness={7,15,23,51,59,87,95,107,115,131,151,159,167,203,215,239,259,267,295,303}
+f=21 first_N=307 witness={7,15,23,51,59,79,87,95,115,123,131,151,159,167,203,231,239,267,295,303,307}
+f=22 first_N=403 witness={7,15,23,51,59,71,107,115,131,151,159,167,203,215,251,259,295,303,311,367,395,403}
+f=23 first_N=451 witness={7,15,23,59,79,95,115,131,151,159,167,203,231,239,267,295,303,367,379,403,415,439,451}
+f=24 first_N=499 witness={31,35,71,87,123,139,159,195,231,247,283,287,299,323,335,339,359,371,395,407,431,447,483,499}
+f=25 first_N=517 witness={17,85,89,105,141,177,193,213,229,281,285,301,305,317,341,353,377,389,393,413,429,481,485,501,517}
+f=26 first_N=553 witness={17,29,85,89,105,141,177,193,229,281,285,301,305,317,341,353,377,389,393,429,481,485,501,517,537,553}
+f=27 first_N=573 witness={1,37,65,69,73,101,109,137,145,209,217,317,365,393,397,401,429,437,461,465,473,497,501,537,545,569,573}
+f=28 first_N=609 witness={1,37,65,69,73,101,109,137,145,209,217,317,365,393,397,401,429,437,461,465,473,497,501,537,545,569,573,609}
+f=29 first_N=645 witness={1,37,65,69,73,101,109,137,145,209,217,317,365,393,397,401,429,437,461,465,473,497,501,537,545,569,573,609,645}
+f=30 first_N=701 witness={17,53,89,105,141,177,193,213,229,265,281,301,305,317,341,353,389,393,413,465,481,501,517,553,589,629,641,677,681,701}
+f=31 first_N=719 witness={15,51,67,103,119,143,155,179,215,251,263,267,303,319,355,391,411,427,443,479,503,515,519,551,591,627,643,663,679,715,719}
+f=32 first_N=787 witness={15,67,87,107,119,179,191,195,211,215,267,287,303,391,395,407,411,479,499,503,519,587,591,611,627,679,695,699,715,719,767,787}
+f=33 first_N=807 witness={15,67,87,107,119,179,191,195,211,215,267,287,303,391,395,407,411,479,499,503,519,587,591,611,627,679,695,699,715,719,767,787,807}
+f=34 first_N=827 witness={15,67,87,107,119,179,191,195,211,215,267,287,303,391,395,407,411,479,499,503,519,587,591,611,627,679,695,699,715,719,767,787,807,827}
+f=35 first_N=889 witness={17,53,89,165,193,201,229,237,265,301,337,373,381,409,417,445,453,481,517,553,565,589,593,601,629,665,701,737,745,773,781,809,817,853,889}
+f=36 first_N=1003 witness={71,83,87,107,191,195,215,283,287,303,319,371,391,395,411,483,503,515,519,551,571,587,591,607,611,627,715,719,803,807,827,895,911,915,983,1003}
+f=37 first_N=1055 witness={31,35,51,71,123,139,143,159,231,247,251,283,335,339,359,371,447,463,483,535,555,571,623,647,659,663,683,751,755,771,843,859,863,947,951,1039,1055}
+f=38 first_N=1067 witness={15,23,51,59,87,95,123,159,195,231,267,303,339,379,415,443,451,479,487,515,523,551,559,587,595,851,879,887,915,923,951,959,987,995,1023,1031,1059,1067}
+f=39 first_N=1103 witness={15,23,51,59,87,95,123,131,159,195,231,267,303,339,379,415,443,451,479,487,515,523,551,559,851,879,887,915,923,951,959,987,995,1023,1031,1059,1067,1095,1103}
+f=40 first_N=1255 witness={31,35,51,123,139,143,159,231,247,251,267,323,335,339,359,371,443,463,467,535,555,623,647,659,663,731,751,771,843,859,863,947,967,971,1039,1055,1163,1167,1235,1255}
+f=41 first_N=1277 witness={5,41,53,65,77,105,141,161,213,221,249,281,293,305,321,341,353,377,461,521,593,641,653,665,677,713,761,861,881,893,941,965,1077,1121,1181,1193,1217,1241,1253,1265,1277}
+f=42 first_N=1293 witness={5,41,53,65,77,105,141,161,213,221,249,281,293,305,321,341,353,377,461,521,593,641,653,665,677,713,761,861,881,893,941,965,1077,1121,1181,1193,1217,1241,1253,1265,1277,1293}
+f=43 first_N=1335 witness={23,35,71,83,95,107,119,183,191,251,263,291,311,323,335,551,611,623,635,647,671,683,695,707,719,791,851,863,911,923,1151,1163,1211,1223,1235,1247,1263,1271,1283,1295,1307,1319,1335}
+f=44 first_N=1407 witness={23,35,71,83,95,107,119,183,191,251,263,291,311,323,335,551,611,623,635,647,671,683,695,707,719,791,851,863,911,923,1151,1163,1211,1223,1235,1247,1263,1271,1283,1295,1307,1319,1335,1407}
+CONCLUSION exact f(N) certified for 1<=N<=1500
+	Command being timed: "./verify_1109_frontier_sanitize 1500"
+	User time (seconds): 685.96
+	System time (seconds): 0.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:26.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13316
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5107
+	Voluntary context switches: 7
+	Involuntary context switches: 6435
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 328
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

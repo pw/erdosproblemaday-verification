@@ -1,0 +1,12 @@
+claim  P <= 2e^{-l/8}, l=1..600: max ratio weak_tail/bound = 0.56657423 at l=1; first failure: None
+E e^{+-(X-l/2)} = cosh(1/2)^l verified for l in (1,2,5,17,40) to 1e-50
+cosh(1/2) = 1.12762596520638 <= e^{1/8} = 1.13314845306683 : True
+(2j)! >= 2^j j! for j = 0..299: True
+l in 1..40 where weak tail != strict tail: [4, 8, 12, 16, 20, 24, 28, 32, 36, 40]
+--- CONTROLS (each must FAIL) ---
+CONTROL claim P <= 2e^{-l/7}: first l where exact weak tail exceeds it = 196 (max ratio 77.3421 at l=600)
+CONTROL cosh(1/2) <= e^{1/9}: False
+CONTROL (2j)! >= 3^j j! at j=1: False
+CONTROL "weak tail <= strict tail" (reverse of the paper remark) at l=4: False
+true large-deviation rate KL(3/4||1/2) = 0.130812  (> 1/8 = 0.125, < 1/7 = 0.142857)
+[wall 1.28 s, maxrss 15792 KB, exit 0]

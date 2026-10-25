@@ -1,0 +1,7 @@
+MATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+euclidean_nine_counterexample STD_AXIOMS
+no_admissible_ten STD_AXIOMS
+cover_to_admissible STD_AXIOMS
+FiniteObstruction.no_ten_system STD_AXIOMS

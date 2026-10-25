@@ -1,0 +1,5 @@
+orig	100s		RUP-VERIFIED (strict): empty clause at action #14332419
+droplast_empty	99s	MUTATION: dropped LAST hint 6898352 (of 85) of the final empty clause id 10975255	FAIL: hints end without conflict (no RAT/pure-literal fallback here) (84) at action id 10975255
+mutate4M	45s	MUTATION: dropped first hint 2706930 of clause id 5331022	FAIL: hints end without conflict (no RAT/pure-literal fallback here) (1) at action id 5331022
+cnfmut2	15s		FAIL: hint has >=2 unassigned literals (1302118) at action id 1329042
+DONE

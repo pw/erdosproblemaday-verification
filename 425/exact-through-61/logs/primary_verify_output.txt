@@ -1,0 +1,15 @@
+edge generators agree: |E(H_61)|=1173
+witness n=50 size=26 products=325 OK
+witness n=52 size=27 products=351 OK
+witness n=53 size=28 products=378 OK
+witness n=56 size=29 products=406 OK
+witness n=59 size=30 products=435 OK
+witness n=61 size=31 products=465 OK
+upper n=50: no cover of size <= 23; nodes=120900 memo=53384 seconds=11.419921
+upper n=51: no cover of size <= 24; nodes=254913 memo=113594 seconds=22.300691
+upper n=55: no cover of size <= 26; nodes=428011 memo=194143 seconds=47.458370
+upper n=58: no cover of size <= 28; nodes=748428 memo=340697 seconds=98.723040
+upper n=60: no cover of size <= 29; nodes=1036845 memo=473105 seconds=155.540767
+table: F(50)=26 F(51)=26 F(52)=27 F(53)=28 F(54)=28 F(55)=28 F(56)=29 F(57)=29 F(58)=29 F(59)=30 F(60)=30 F(61)=31
+wall_seconds=335.637857
+VERIFIED

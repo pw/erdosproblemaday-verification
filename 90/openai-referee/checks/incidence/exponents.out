@@ -1,0 +1,48 @@
+--- paper's constants: gamma=27/50, eta=1/25
+PASS  deletion cost s*t^3 = o(t^{4-o(a)}):  exp(LHS)-exp(RHS) = -a + 2*e   [sign -1 via a]
+PASS  pieces: s^2 + t^3/t^{1+2a} <= t^{2-2a+o(a)}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS    second term t^{3-(1+2a)} equals t^{2-2a}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  pigeonhole e0 >= t^{2+2a-o(a)}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  Szekely upper: (|P0||Q0|)^{2/3} = t^{2+2a}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS    linear |Q0| = t^{2+a} below t^{2+2a}:  exp(LHS)-exp(RHS) = -a   [sign -1 via a]
+PASS  #points deg>t^{1+b} <= t^{1+2a-b/2}:  exp(LHS)-exp(RHS) = -b/2 + e   [sign -1 via b]
+PASS  #centers deg>t^{a+b} <= t^{2+a-b/2}:  exp(LHS)-exp(RHS) = -b/2 + e   [sign -1 via b]
+PASS  mixed term (excess points) = t^{2+2a-b/3}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  mixed term (excess centers) = t^{2+2a-b/3}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  mixed term o(e0):  exp(LHS)-exp(RHS) = -b/3 + 4*e   [sign -1 via b]
+PASS  linear t^{2+a+o(b)} = o(e0):  exp(LHS)-exp(RHS) = -a + 4*e   [sign -1 via a]
+PASS  linear t^{1+2a+o(b)} = o(e0):  exp(LHS)-exp(RHS) = 4*e - 1   [sign -1 via 1]
+PASS  retained |P0| >= e/maxdeg = t^{1+2a-o(a)}  [encoded as t^{1+2a-2b} <= e0/t^{1+b}]:  exp(LHS)-exp(RHS) = -b + 3*e   [sign -1 via b]
+PASS  retained |Q0| >= t^{2+a-o(a)}  [encoded as t^{2+a-2b} <= e0/t^{a+b}]:  exp(LHS)-exp(RHS) = -b + 3*e   [sign -1 via b]
+PASS  (2.6) (|F||G|)^{2/3}/|E0| -> (uv)^{2/3} t^0:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  (2.6) |G|/|E0| -> t^{-a} v:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  (2.6) |F|/|E0| -> t^{-1} u:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  (2.7) t^{-1/2} <= t^{-a/2}:  exp(LHS)-exp(RHS) = a/2 - 1/2   [sign -1 via 1]
+PASS  (2.8) 2nd term exponent -a/2 + eta*a/4 = -49a/100:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  (2.8) 2nd term -> 0:  exp(LHS)-exp(RHS) = -49*a/100 + e   [sign -1 via a]
+PASS  (2.8) first-term power 2/3-gamma > 0  [UV<=t^{-ca} => T_t (UV)^{2/3-gamma} -> 0]:  exp(LHS)-exp(RHS) = -19*a/150 + e   [sign -1 via a]
+PASS  eta = gamma - 1/2 > 0 (needed for (2.5) to beat sqrt(uv)):  exp(LHS)-exp(RHS) = -1/25   [sign -1 via 1]
+PASS  xi_t: (uv)^{1/6} <= t^{-a/48+o(a)}:  exp(LHS)-exp(RHS) = -5*e/6   [sign -1 via e]
+PASS  xi_t -> 0:  exp(LHS)-exp(RHS) = -a/48 + e   [sign -1 via a]
+PASS  2 t^{-a/2} <= t^{-a/48}:  exp(LHS)-exp(RHS) = -23*a/48   [sign -1 via a]
+PASS  tau = t^{-a/8} below U = t^{-o(a)} (single-vertex removal stays feasible):  exp(LHS)-exp(RHS) = -a/8 + e   [sign -1 via a]
+PASS  d(p) >= gamma|E|/|P| = t^{1+o(a)}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  d(q) >= gamma|E|/|Q| = t^{a+o(a)}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  max mu(p) = t^{-1-2a+o(a)}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  (2.16) 2/(|E| d_min) = t^{-2-3a}:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+PASS  (2.17) |Q|/|E| = t^{-a} -> 0:  exp(LHS)-exp(RHS) = -a + e   [sign -1 via a]
+Lemma 2.7: D/log t <= 2(1+2a) - (1 - t^{-a+o(a)})(2+3a) - o(a) = a + (2+3a) t^{-a+o(a)} + o(a)
+ALL PAPER CLAIMS PASS: True
+
+===== CONTROLS (must FAIL) =====
+[control 1] gamma = 7/10 > 2/3: the 'first term -> 0' step of (2.8) must fail
+FAIL  (2.8) first-term power 2/3-gamma > 0:  exp(LHS)-exp(RHS) = a/30 + e   [sign 1 via a]
+[control 2] gamma = 1/2 (eta=0): expansion (2.5) gives nothing beyond sqrt(uv)
+FAIL  eta > 0:  exp(LHS)-exp(RHS) = 0   [sign 0 via zero]
+[control 3] no cutting (R = 1, i.e. a = 1 'balanced' piece |P|=|Q|=t^3, |E|=t^4, d(q)=t): D/log t bound
+   balanced D/log t <= 1 -> not o(1): FAIL (as expected)
+[control 4] mis-claimed excess count t^{1+2a-2b} (Markov only gives t^{1+2a-b+o})
+FAIL  #points deg>t^{1+b} <= t^{1+2a-2b}:  exp(LHS)-exp(RHS) = b + e   [sign 1 via b]
+[control 5] density deficit: configuration with t^{4-c} pairs, fixed c=1/10: d(q) exponent a - c stays negative as a->0
+FAIL  d(q) -> oo with deficit c:  exp(LHS)-exp(RHS) = 1/10 - a   [sign 1 via 1]
+CONTROLS that passed (should be none): []

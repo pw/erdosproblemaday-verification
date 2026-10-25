@@ -1,0 +1,2 @@
+'Bridge184.erdos_184' depends on axioms: [propext, Classical.choice, Quot.sound]
+maxrss_kb=6558296 wall_s=10.90

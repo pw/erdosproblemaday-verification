@@ -1,0 +1,4 @@
+N=35 k=5: SAT  witness verified=True  03143401220140433022434112011324341
+rc=0
+N=36 k=5: UNSAT  (vars=3072 clauses=11905)
+rc=0

@@ -1,0 +1,24 @@
+build 0 195/195 failed=
+cmpmod_HeilbronnTriangle 0 6
+cmp_HeilbronnTriangle 0 7
+ax_HeilbronnTriangle 0 6
+neg 0 7
+statement_match 1 0
+every_n_compile 0 13
+every_n_axioms 0 8
+bridge_compile 0 16
+bridge_axioms 0 7
+mut_sorry_compile 0 16
+mut_sorry_axioms 0 8
+mut_exp 1 14
+mut_answer 1 13
+extra_compile 0 10
+extra_axioms 0 6
+extra_mut_true 1 7
+extra_mut_eta 1 9
+extra_compile_v2 1 8
+extra_axioms_v2 1 7
+extra_compile_v3 0 10
+extra_axioms_v3 0 6
+leanchecker_fresh 0 3516
+leanchecker_missing_control 1 2

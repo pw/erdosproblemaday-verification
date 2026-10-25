@@ -1,0 +1,94 @@
+[
+ [
+  "erdosproblems.com/507 (read 22 Oct 2026: last edited 30 Dec 2025, no proof claims, no comments, comments suspended, no mention of OpenAI)",
+  "https://www.erdosproblems.com/507"
+ ],
+ [
+  "OpenAI, \"A power improvement in the Heilbronn triangle lower bound\" (family 191, dated 25 Sep 2026, released 6 Oct, 24 pp)",
+  "https://github.com/openai/math/tree/main/preprints/A-power-improvement-in-the-Heilbronn-triangle-lower-bound-September-25-2026"
+ ],
+ [
+  "OpenAI's Lean — OAI/Geometry/HeilbronnTriangle (195 modules in the closure of Main.lean; Mathlib only)",
+  "https://github.com/openai/math/tree/main/lean/OAI/Geometry/HeilbronnTriangle"
+ ],
+ [
+  "OpenAI's comparator challenge ComparatorChallenges/HeilbronnTriangle.lean (namespace OAI.Problem355: the sequence theorem and the refutation)",
+  "https://github.com/openai/math/blob/main/lean/ComparatorChallenges/HeilbronnTriangle.lean"
+ ],
+ [
+  "OpenAI's scope note lean/docs/191.md (\"the paper's statement for every sufficiently large n is broader\")",
+  "https://github.com/openai/math/blob/main/lean/docs/191.md"
+ ],
+ [
+  "Earlier replay: mathvet/mathvet — Comparator on HeilbronnTriangle, Lean kernel, 8 Oct 2026, flagged \"weaker-statement\"",
+  "https://github.com/mathvet/mathvet"
+ ],
+ [
+  "Earlier replay: carlostoledo1891/cert-machine — Comparator, Lean kernel and nanoda accept (run 38019899278, committed 10 Oct 2026)",
+  "https://github.com/carlostoledo1891/cert-machine/blob/main/corpus/openai-math/kernel-runs/38019899278/HeilbronnTriangle.json"
+ ],
+ [
+  "Earlier replay: nealmcb/openai-math-lean-tooling — Comparator accepted 11 Oct 2026; Lean kernel and nanoda separately 15 Oct",
+  "https://github.com/nealmcb/openai-math-lean-tooling"
+ ],
+ [
+  "Formal Conjectures, Erdős 507 at commit 3bf943f1 — erdos_507.lower (research open, answer sorry) and the lower-bound variants our bridge proves",
+  "https://github.com/google-deepmind/formal-conjectures/blob/3bf943f1bd4c9e25da847cb9517f5fa47767e96d/FormalConjectures/ErdosProblems/507.lean"
+ ],
+ [
+  "Formal Conjectures, Green's open problem 77 at commit 3bf943f1 — green_77 (research open), whose negation we prove",
+  "https://github.com/google-deepmind/formal-conjectures/blob/3bf943f1bd4c9e25da847cb9517f5fa47767e96d/FormalConjectures/GreensOpenProblems/77.lean"
+ ],
+ [
+  "Big O Speedrun, Heilbronn triangle board (OpenAI's baseline ≈ 3.18·10⁻²³⁶ and later claims, all marked Claimed)",
+  "https://bigospeedrun.com/other/heilbronn-triangle"
+ ],
+ [
+  "Big O Speedrun verifier — the trusted statement Bound η (Joshua Cortez: pull request #20 opened 19 Oct, closed; landed on main as commit 079ac7b4, 21 Oct 2026), which we prove at OpenAI's exponent",
+  "https://github.com/bigospeedrun/verifier/blob/main/challenges/heilbronn-triangle/Statement.lean"
+ ],
+ [
+  "Komlós, Pintz and Szemerédi, \"A lower bound for Heilbronn's problem\", J. London Math. Soc. (2) 25 (1982) 13–24 — (log n)/n²",
+  "https://doi.org/10.1112/jlms/s2-25.1.13"
+ ],
+ [
+  "Roth, \"On a problem of Heilbronn\", J. London Math. Soc. 26 (1951) — the appendix records Erdős's parabola",
+  "https://doi.org/10.1112/jlms/s1-26.3.198"
+ ],
+ [
+  "Cohen, Pohoata and Zakharov, \"A new upper bound for the Heilbronn triangle problem\" (arXiv 2305.18253) — n^(−8/7−1/2000)",
+  "https://arxiv.org/abs/2305.18253"
+ ],
+ [
+  "Cohen, Pohoata and Zakharov, \"Lower bounds for incidences\" (Inventiones 2025; arXiv 2409.07658) — Theorem 1.8, n^(−7/6+ε)",
+  "https://arxiv.org/abs/2409.07658"
+ ],
+ [
+  "Zakharov, \"Small triangles\", J. London Math. Soc. (2026) — §3: \"many believe (including Szemerédi) that it is 'almost' true\"",
+  "https://doi.org/10.1112/jlms.70447"
+ ],
+ [
+  "Green's open problems list, Problem 77 — the almost-n⁻² question",
+  "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf"
+ ],
+ [
+  "Ellmann, arXiv 1703.03297 v12 (12 Nov 2025) — an earlier power claim, self-described as heuristic",
+  "https://arxiv.org/abs/1703.03297v12"
+ ],
+ [
+  "Agama, arXiv 2006.05269 v13 (6 May 2026) — an earlier power claim; its construction is a regular polygon",
+  "https://arxiv.org/abs/2006.05269v13"
+ ],
+ [
+  "Blinov, littleBro/heilbronn-triangle-bounds (from 8 Oct 2026) — a conditional draft extending OpenAI's construction to larger η; partial Lean; unchecked",
+  "https://github.com/littleBro/heilbronn-triangle-bounds"
+ ],
+ [
+  "Chen, canghaimeng/openai-math-improvement, bound-191 (19 Oct 2026) — claims η = 2/100866719 using Blinov's pieces; unchecked",
+  "https://github.com/canghaimeng/openai-math-improvement/blob/b3c7abea0d5e392777498816ca837eded8b85669/problems/bound-191/README.md"
+ ],
+ [
+  "Our July 2026 report on #507",
+  "/report/507"
+ ]
+]

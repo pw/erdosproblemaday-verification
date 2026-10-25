@@ -1,0 +1,17 @@
+/tmp/oaimath/021/seats/R1_work/mg_and_tail.py:12: RuntimeWarning: invalid value encountered in multiply
+  phi_e_fd = s**2*fp; phi_o_fd = -s**2*Fp
+phi_e(2.5): fd 4.49258263 deficit 4.49258262 | phi_o(2.5): fd 3.56214484 deficit 3.56214484
+phi_e(3.5): fd 1.72304247 deficit 1.72304247 | phi_o(3.5): fd 1.70612184 deficit 1.70612183
+phi_e(5.0): fd 0.11699914 deficit 0.11699914 | phi_o(5.0): fd 0.11693194 deficit 0.11693194
+phi_e(7.0): fd 0.00077463 deficit 0.00077463 | phi_o(7.0): fd 0.00076954 deficit 0.00076954
+M_g = 4.56458616   paper bound 4e^gamma = 7.12428967
+int_1^inf c = 2.0000000055731917 (paper 2);  int_1^inf a = 1.5621448337919355 (paper A-2=1.562145)
+odd balance t=1.5: pi_o 1.97896935  incoming 1.97896935
+odd balance t=2.5: pi_o 2.99220166  incoming 2.99220166
+odd balance t=4.0: pi_o 0.74479251  incoming 0.74479251
+even balance t=2.2: pi_e 5.88114307  incoming 5.88114307  (control w/o 1-s^-2: 8.55438993)
+even balance t=3.0: pi_e 2.87412660  incoming 2.87412660  (control w/o 1-s^-2: 3.83216880)
+even balance t=5.0: pi_e 0.11699914  incoming 0.11699914  (control w/o 1-s^-2: 0.14039897)
+tail majorant (6.14) exact = 0.312123389707  (paper: < 0.34)
+paper coarse: braces(m=4) = 2.1187776 <2.14 ; series = 0.30970555 <0.313 ; product/2 = 0.32809859
+3/(2lam) - lam^-2 = 0.08267358 (>0 => braces decreasing in m, max at m=4)

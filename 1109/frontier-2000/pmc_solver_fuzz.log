@@ -1,0 +1,2 @@
+cases=200 decisions=580 seed=1109 max_vertices=14
+CONCLUSION PMC Matrix Market k-clique mode agrees with brute force

@@ -1,0 +1,14 @@
+[191s] loaded 20802845 rows -> 20802845 canonical classes (0 duplicate rows, 0 with a different reply; duplicates keep the first)
+[191s] level 0 (|R|=0): 1 positions explored, 36 children generated, 1 new at level 1; leaves so far 0, cutoffs 0, seen 1
+[191s] level 1 (|R|=1): 1 positions explored, 33 children generated, 5 new at level 2; leaves so far 0, cutoffs 0, seen 6
+[191s] level 2 (|R|=2): 5 positions explored, 150 children generated, 64 new at level 3; leaves so far 0, cutoffs 0, seen 70
+[191s] level 3 (|R|=3): 64 positions explored, 1728 children generated, 881 new at level 4; leaves so far 0, cutoffs 0, seen 951
+[191s] level 4 (|R|=4): 881 positions explored, 21144 children generated, 11570 new at level 5; leaves so far 0, cutoffs 0, seen 12521
+[192s] level 5 (|R|=5): 11570 positions explored, 241647 children generated, 98904 new at level 6; leaves so far 0, cutoffs 63, seen 111425
+[197s] level 6 (|R|=6): 98904 positions explored, 1625598 children generated, 586814 new at level 7; leaves so far 0, cutoffs 8656, seen 698239
+[226s] level 7 (|R|=7): 586814 positions explored, 7464345 children generated, 2511635 new at level 8; leaves so far 0, cutoffs 115515, seen 3209874
+[412s] level 8 (|R|=8): 2511635 positions explored, 18327176 children generated, 5322246 new at level 9; leaves so far 0, cutoffs 1102298, seen 8532120
+[524s] level 9 (|R|=9): 5322246 positions explored, 20212833 children generated, 3877889 new at level 10; leaves so far 0, cutoffs 4178695, seen 12410009
+[543s] level 10 (|R|=10): 3877889 positions explored, 5116630 children generated, 432437 new at level 11; leaves so far 0, cutoffs 7205554, seen 12842446
+[543s] level 11 (|R|=11): 432437 positions explored, 58262 children generated, 2174 new at level 12; leaves so far 0, cutoffs 7618841, seen 12844620
+[543s] level 12 (|R|=12): 2174 positions explored, 0 children generated, 0 new at level 13; leaves so far 2174, cutoffs 7618841, seen 12844620

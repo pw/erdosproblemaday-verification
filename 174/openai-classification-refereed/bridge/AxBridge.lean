@@ -1,0 +1,4 @@
+import Bridge174
+#print axioms Bridge174.algebraic_spherical_fieldCriterion
+#print axioms Bridge174.algebraic_spherical_ramsey
+#print axioms Bridge174.algebraic_ramsey_iff_cospherical

@@ -1,0 +1,3 @@
+'HeilbronnEighteen.pair_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnEighteen.paired_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1540668 wall=5s

@@ -1,0 +1,50 @@
+PMC ORIGIN: https://github.com/ryanrossi/pmc.git
+PMC COMMIT: 06594a0ee1cde5a04f1679aff28072668da96062
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+COMPATIBILITY PATCH: return ifile.good() instead of return ifile; (C++11 explicit stream bool only; no algorithm change)
+diff --git a/pmc_utils.cpp b/pmc_utils.cpp
+index 6af3e53..2b433f4 100755
+--- a/pmc_utils.cpp
++++ b/pmc_utils.cpp
+@@ -23,7 +23,7 @@ using namespace std;
+ 
+ bool fexists(const char *filename) {
+     ifstream ifile(filename);
+-    return ifile;
++    return ifile.good();
+ }
+ 
+ void usage(char *argv0) {
+@@ -121,4 +121,3 @@ int getdir (string dir, vector<string> &files) {
+     return 0;
+ }
+ 
+-
+COMMAND: make clean && make -j2
+rm -rf *.o pmc libpmc.so
+g++ -O3 -fPIC -c pmc_driver.cpp
+g++ -O3 -fPIC -o pmc pmc_driver.o pmc_utils.cpp pmc_graph.cpp pmc_clique_utils.cpp pmc_heu.cpp pmc_maxclique.cpp pmcx_maxclique.cpp pmcx_maxclique_basic.cpp pmc_cores.cpp  -fopenmp
+	Command being timed: "make -j2"
+	User time (seconds): 11.08
+	System time (seconds): 0.81
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 148480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 241608
+	Voluntary context switches: 64
+	Involuntary context switches: 951
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 2848
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+e64c831e961bd18242e3cdd8b167dafc3322d667c3d90907eafc75720493f62d  pmc

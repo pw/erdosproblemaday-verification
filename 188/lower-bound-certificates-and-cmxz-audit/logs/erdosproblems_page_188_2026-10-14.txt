@@ -1,0 +1,38 @@
+fetched 2026-10-14T01:02:30.668003Z
+What is the smallest $k$ such that $\mathbb{R}^2$ can be red/blue coloured with no pair of red points unit distance apart, and no $k$-term arithmetic progression of blue points with distance $1$?
+ #188 : [ErGr79] [ErGr80] 
+ geometry | 
+ ramsey theory 
+Erdős, Graham, Montgomery, Rothschild, Spencer, and Straus [EGMRSS75] proved $k\geq 5$. Tsaturian [Ts17] improved this to $k\geq 6$. Erdős and Graham claim that $k\leq 10000000$ ('more or less'), but give no proof. Erdős and Graham asked this with just any $k$-term arithmetic progression in blue (not necessarily with distance $1$), but Alon has pointed out that in fact no such $k$ exists: in any red/blue colouring of the integer points on a line either there are two red points distance $1$ apart, or else the set of blue points and the same set shifted by $1$ cover all integers, and hence by van der Waerden's theorem there are arbitrarily long blue arithmetic progressions. It seems most likely, from context, that Erdős and Graham intended to restrict the blue arithmetic progression to have distance $1$ (although they do not write this restriction in their papers).
+ Additional thanks to : Noga Alon and msellke
+ Proof expositions (0) 
+If you would like to contribute an exposition of a proof related to this problem, please message a moderator or leave your exposition as a comment. 
+ No proof expositions yet.
+ Comments (4) 
+ Proof claims (0) 
+ More information and links 
+This page was last edited 14 October 2025.
+ ( View history ) ( View the LaTeX source ) 
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+T. F. Bloom, Erdős Problem #188, https://www.erdosproblems.com/188, accessed 2026-10-14
+From the external database . (You can
+ help update
+ this.)
+ Formalised statement? 
+ Yes
+ Reactions 
+ Likes
+ None 
+ Open to collaboration
+ None 
+ Currently working on
+ None 
+ Looks difficult
+ None 
+ Looks tractable
+ None 
+ Could be formalisable
+ None 
+ Working on formalising
+ None 
+ 

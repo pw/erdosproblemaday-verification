@@ -1,0 +1,19 @@
+== 1e6 comparisons (rerun for the log)
+-- greedy_A_ruleQ_1e6.txt closed_Q_1e6.txt
+MATCH on [1,1000000]: 122468 elements, last 999995
+rc=0
+-- greedy_A_ruleD_1e6.txt closed_D_1e6.txt
+MATCH on [1,1000000]: 122467 elements, last 999995
+rc=0
+-- greedy_Li_ruleD_1e6.txt closed_LI_1e6.txt
+MATCH on [1,1000000]: 122467 elements, last 999999
+rc=0
+-- greedy_A_ruleQ_1e6.txt closed_D_1e6.txt
+MISMATCH on [1,1000000]: 40785 differing integers; first offending t = 126 (in greedy: True, in closed form: False); t = 49*2 + 28
+rc=1
+-- greedy_A_ruleD_1e6.txt closed_Q_1e6.txt
+MISMATCH on [1,1000000]: 40785 differing integers; first offending t = 126 (in greedy: False, in closed form: True); t = 49*2 + 28
+rc=1
+-- greedy_Li_ruleQ_1e6.txt closed_LI_1e6.txt
+MISMATCH on [1,1000000]: 27074 differing integers; first offending t = 126 (in greedy: True, in closed form: False); t = 49*2 + 28
+rc=1

@@ -1,0 +1,4 @@
+exhaustive_graphs_n_le_5=1099
+random_graph_pool_pairs_n_6_to_12=3000
+target_decisions_checked=232063
+PASS coloring-bound recursion agrees with literal clique enumeration

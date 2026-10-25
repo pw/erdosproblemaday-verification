@@ -1,0 +1,49 @@
+=== spectrum v3 on [2e7,1e8] ===
+variance in the 40 peaks (±3 bins): 85.42%  (random set of this density: ~0.0007%)
+  RELATION (-9, -4, 0)·gens ≡ 0 (mod 1) to 0.015 bin ⇒ rank ≤ 2; testing which pair of candidates spans all three:
+Z-rank (relations scanned to |c|<=50): 3; generators [0.138367745, 0.43867257381, 0.44767867117]
+peaks on the rank-3 module with |coef|<=6: 38/40 within 1 bin, 38/40 within 2 bins (chance per peak for one random frequency, 2 bins: 1.1e-04)
+variance within ±1 bin of the 866 distinct module points with |coef|<=6: 84.73%  (random: ~0.006%); off the module: 15.3%
+g used for phases: 0.28459193622
+=== phase_core on two 10⁸ windows ===
+window [99000000,100000000) g=0.28459193622 bins=1000: core 0.1110 of the circle, deep complement 0.7980, edge 0.0910; density of S 0.15618
+  integers with phase in a CORE bin: 110994, of which NOT in S: 35
+  integers with phase in a DEEP bin: 798003, of which IN S: 40
+  integers with phase in an EDGE bin: 91003, of which in S: 45179 (49.6%)
+  edge zones (phase interval, width, membership %): [('0.125-0.137', 12, 67.7), ('0.171-0.176', 5, 50.9), ('0.358-0.365', 7, 45.5), ('0.401-0.409', 8, 46.9), ('0.593-0.597', 4, 52.1), ('0.635-0.642', 7, 50.7), ('0.823-0.829', 6, 46.0), ('0.832-0.853', 21, 54.6), ('0.924-0.945', 21, 36.8)]
+  core arcs: 
+  core arcs: ['0.137-0.171', '0.365-0.401', '0.597-0.635', '0.829-0.832']
+window [50000000,51000000) g=0.28459193622 bins=1000: core 0.1080 of the circle, deep complement 0.7970, edge 0.0950; density of S 0.15618
+  integers with phase in a CORE bin: 108001, of which NOT in S: 16
+  integers with phase in a DEEP bin: 796998, of which IN S: 43
+  integers with phase in an EDGE bin: 95001, of which in S: 48152 (50.7%)
+  edge zones (phase interval, width, membership %): [('0.126-0.139', 13, 68.0), ('0.172-0.177', 5, 56.1), ('0.359-0.366', 7, 41.4), ('0.403-0.411', 8, 38.3), ('0.594-0.599', 5, 56.1), ('0.636-0.643', 7, 54.9), ('0.825-0.831', 6, 57.7), ('0.832-0.854', 22, 56.7), ('0.924-0.946', 22, 36.2)]
+  core arcs: 
+  core arcs: ['0.139-0.172', '0.366-0.403', '0.599-0.636', '0.831-0.832']
+window [20000000,21000000) g=0.28459193622 bins=1000: core 0.1090 of the circle, deep complement 0.7950, edge 0.0960; density of S 0.15621
+  integers with phase in a CORE bin: 109000, of which NOT in S: 29
+  integers with phase in a DEEP bin: 795008, of which IN S: 39
+  integers with phase in an EDGE bin: 95992, of which in S: 47199 (49.2%)
+  edge zones (phase interval, width, membership %): [('0.126-0.139', 13, 62.9), ('0.173-0.179', 6, 43.3), ('0.360-0.367', 7, 44.2), ('0.403-0.412', 9, 42.6), ('0.595-0.599', 4, 50.3), ('0.637-0.644', 7, 52.1), ('0.825-0.832', 7, 52.5), ('0.833-0.854', 21, 57.4), ('0.925-0.947', 22, 36.9)]
+  core arcs: 
+  core arcs: ['0.139-0.173', '0.367-0.403', '0.599-0.637', '0.832-0.833']
+=== phase_arcs on [9.9e7,1e8) ===
+window [99000000,100000000) elements 156178 density 0.15618; g=0.28459193622; bins 1000; flat level 6.40; arcs (5): [(0.127, 0.174), (0.362, 0.404), (0.595, 0.639), (0.826, 0.842), (0.933, 0.942)]; total measure 0.1580
+fraction of S with phase inside the arcs: 94.95%
+fraction of NON-elements with phase inside the arcs: 1.15%  (if S were exactly the coding this would be 0; the arcs hold 15.8% of the circle)
+edge bins (between 10% and 90% of the flat level): 60 of 1000 = 6.00% of the circle
+W+W (bin grid) vs complement of W: |W+W| = 0.5910, |complement| = 0.8420, symmetric difference 0.2510 of the circle; W∩(W+W) = 0.0000; uncovered = 0.2510
+=== 31821 cross-window census (same classes empty in disjoint windows?) ===
+m=31821 [10000000,40000000): empty classes 24799 (77.9%)
+m=31821 [40000000,70000000): empty classes 24794 (77.9%)
+m=31821 [70000000,100000000): empty classes 24803 (77.9%)
+m=31821: empty in all three windows 23837; union 25765; pairwise symmetric differences 973, 955
+m=8528 [10000000,40000000): empty classes 2382 (27.9%)
+m=8528 [40000000,70000000): empty classes 2366 (27.7%)
+m=8528 [70000000,100000000): empty classes 2395 (28.1%)
+m=8528: empty in all three windows 0; union 5474; pairwise symmetric differences 4748, 4761
+m=27875 [10000000,40000000): empty classes 0 (0.0%)
+m=27875 [40000000,70000000): empty classes 0 (0.0%)
+m=27875 [70000000,100000000): empty classes 0 (0.0%)
+m=27875: empty in all three windows 0; union 0; pairwise symmetric differences 0, 0
+ALL DONE 2 2026-10-15T02:59:26Z

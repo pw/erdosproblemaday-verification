@@ -1,0 +1,7 @@
+== k7_j0_noc4.cnf k=7 j=0 c4=0 der=1 sb=1 
+A. header (17352, 35640), parsed 35640 clauses, edge vars 600
+B. pure-edge clauses 2400: block(<=1/block) 2400, C4 0, with positive lits 0, NOT IMPLIED 0 []
+D. pool 127 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=31, ('LD-at', 'ok', True)=12, ('LD-below', 'lemmaD', False)=12, ('flip', 'deg', False)=12, ('model', 'lex', False)=4, ('model', 'ok', True)=8, ('pi', 'lex', False)=48
+   residual transpositions (mine, brute force): 24
+27.69 s 52432 KB

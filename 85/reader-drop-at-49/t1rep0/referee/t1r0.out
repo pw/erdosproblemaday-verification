@@ -1,0 +1,4 @@
+cnf: V=29764 C=1329041 parsed=1329041
+EMPTY CLAUSE derived by conflict: id 10975255, action #14332419, 85 hints
+actions=14332419 adds=9646214 dels=9724760 del_of_nonlive=0 hints_used=735135530 satisfied_hints_skipped=0 taut_lemmas=0 nonmonotone_ids=0 last_id=10975255
+RUP-VERIFIED (strict): empty clause at action #14332419

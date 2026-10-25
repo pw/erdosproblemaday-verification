@@ -1,0 +1,1 @@
+(m=16,k=6) engine=z3 patterns=78/231 clauses=8008 disjuncts=624624 -> unknown in 92229.6s

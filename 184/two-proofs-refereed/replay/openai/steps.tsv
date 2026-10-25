@@ -1,0 +1,12 @@
+launch 2026-10-20T03:40:27Z 0 0
+cache_ready 0 0
+smoke 0 18
+comparator_module 0 77
+comparator 0 8
+build 0 493
+axioms 0 7
+wrongshape 1 7
+negcontrol 0 7
+statement_match 0 0
+leanchecker_fresh 0 3680
+leanchecker_missing_control 1 1

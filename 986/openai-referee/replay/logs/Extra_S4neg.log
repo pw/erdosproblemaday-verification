@@ -1,0 +1,6 @@
+/tmp/oaimath/170/lean-build/probe/Extra_S4neg.lean:5:47: error: Type mismatch
+  LowerTransfer.actual_prime_construction 0
+has type
+  LowerTransfer.PrimeConstruction (0 + 3)
+but is expected to have type
+  LowerTransfer.PrimeConstruction 2

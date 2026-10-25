@@ -1,0 +1,11 @@
+n= 1 graphs=      1 k=0 max_G min_S e(S)=0 bound=131n^2/5000=0.0262 holds=True witness=@
+n= 2 graphs=      2 k=1 max_G min_S e(S)=0 bound=131n^2/5000=0.1048 holds=True witness=A?
+n= 3 graphs=      3 k=1 max_G min_S e(S)=0 bound=131n^2/5000=0.2358 holds=True witness=B?
+n= 4 graphs=      7 k=2 max_G min_S e(S)=0 bound=131n^2/5000=0.4192 holds=True witness=C?
+n= 5 graphs=     14 k=2 max_G min_S e(S)=0 bound=131n^2/5000=0.6550 holds=True witness=D??
+n= 6 graphs=     38 k=3 max_G min_S e(S)=0 bound=131n^2/5000=0.9432 holds=True witness=E???
+n= 7 graphs=    107 k=3 max_G min_S e(S)=0 bound=131n^2/5000=1.2838 holds=True witness=F????
+n= 8 graphs=    410 k=4 max_G min_S e(S)=1 bound=131n^2/5000=1.6768 holds=True witness=GCQb`o
+n= 9 graphs=   1897 k=4 max_G min_S e(S)=0 bound=131n^2/5000=2.1222 holds=True witness=H??????
+n=10 graphs=  12172 k=5 max_G min_S e(S)=2 bound=131n^2/5000=2.6200 holds=True witness=I?rFf_{N?
+n=11 graphs= 105071 k=5 max_G min_S e(S)=1 bound=131n^2/5000=3.1702 holds=True witness=J?`@C`WN?{?

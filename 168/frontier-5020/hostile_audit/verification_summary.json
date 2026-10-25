@@ -1,0 +1,41 @@
+{
+  "status": "PASS_WITH_SOLVER_EVIDENCE_GAP",
+  "manifested_files": 46,
+  "online_source_hashes_match": true,
+  "oeis_a057561_terms_crosschecked": 69,
+  "oeis_a386439_digits_crosschecked": 35,
+  "published_frontier": {
+    "f": 3335,
+    "k": 5000
+  },
+  "verified_range": [
+    5000,
+    5020
+  ],
+  "final_f": 3347,
+  "flat_scip_rows": [
+    5000,
+    5001,
+    5004,
+    5006,
+    5009,
+    5011,
+    5013,
+    5016,
+    5020
+  ],
+  "witnesses": 21,
+  "corner_checks": 102585,
+  "density": {
+    "lower": "0.800965755006558989090420326388082412550050284333018241510270",
+    "upper": "0.800965755006558989090420326388082413556073056215427773096417",
+    "width": "117128852097886899905192010372849039263/116427635011404771702822091888321129375931223181685076181269488070775799808",
+    "common_decimal_places": 35,
+    "d5001": 32404306009923374140013298899777224704,
+    "omitted_term": "1/97212918029770122420039896699331674112"
+  },
+  "limitations": [
+    "SCIP transcripts are floating-MIP evidence, not checkable exact certificates",
+    "the historical b-file computation itself is not proof-carrying"
+  ]
+}

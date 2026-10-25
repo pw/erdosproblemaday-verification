@@ -1,0 +1,13 @@
+PASS  P, B, D pairwise disjoint
+PASS  (cover)  (B+B) u (P+B) u (D+B) == Z/49 \ Q
+PASS  (avoid)  Q n ((B+B) u (P+B) u (D+B) u (D+P)) == {}
+PASS  (avoid) includes doubled B: {2b} n Q == {}
+PASS  (PP)     (P+P) n Q == P
+PASS  (PP) ordered pairs into Q are exactly the diagonal ones: [(7, 7), (14, 14), (28, 28)]
+PASS  mixed P+P residues [21, 35, 42] all outside Q
+max D+D (equal allowed) = 94 ; max distinct = 83 ; t > 97 means t >= 98
+PASS  every e_x in A
+PASS  all 41 residues r not in Q have >=1 cover pair; all reps valid at q=2,3,10
+residues whose ONLY representatives use x=14 (u=1):  ['r=17', 'r=36']
+cover pair table written to shield_cover_pairs.txt
+OVERALL PASS

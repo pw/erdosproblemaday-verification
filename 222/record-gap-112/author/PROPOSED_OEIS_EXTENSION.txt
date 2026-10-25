@@ -1,0 +1,6 @@
+A297350 proposed row: 44 133858454292
+A357018 proposed row: 44 111
+
+Certificate scope: the prior global maximum is exactly 107 through
+99951600400; the new gap has represented endpoints 133858454292 and
+133858454404; no gap ending at or before 200000000000 exceeds 112.

@@ -1,0 +1,14 @@
+# Exact continuation independently certified on 2026-08-11.
+# Rows are (new value of f, first prefix k attaining that value).
+3336 5002
+3337 5003
+3338 5005
+3339 5007
+3340 5008
+3341 5010
+3342 5012
+3343 5014
+3344 5015
+3345 5017
+3346 5018
+3347 5019

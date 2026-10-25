@@ -1,0 +1,8 @@
+FILE path=/tmp/erdos813_attack/census_n10.g6 sha256=234be06b2b8dbadec010e95ec0f62fffbe936a21207654f521742c063321ff0c orders={10: 9133} valid=9133 distinct_lines=PASS
+FILE path=/tmp/erdos813_attack/census_n11.g6 sha256=5c519de3308a947bbdfbda8db4ad02b4f6e9435247204c571730b931a9069e50 orders={11: 403} valid=403 distinct_lines=PASS
+FILE path=/tmp/erdos813_attack/census_n12.g6 sha256=178c371f2e88e09bfd3462f225496c5e8910eb2e779a6cfcd7ecb001c07e4b0c orders={12: 8} valid=8 distinct_lines=PASS
+FILE path=/tmp/erdos813_attack/census_n13.g6 sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 orders={} valid=0 distinct_lines=PASS
+TRANSITION 9133->403: valid_labelled_extensions=3989 canonical_byte_comparison=PASS COMPLETE
+TRANSITION 403->8: valid_labelled_extensions=16 canonical_byte_comparison=PASS COMPLETE
+TRANSITION 8->0: valid_labelled_extensions=0 canonical_byte_comparison=PASS COMPLETE
+VERIFIED: every supplied census and transition passes.

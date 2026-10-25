@@ -1,0 +1,38 @@
+=== (a) all triangle-free graphs on n <= 10 vertices, uniform weights, exact ===
+  n= 1:      1 graphs; negatives=0; min g=0.000000e+00 (@); min h=t4/rho-rho^2=n/a (no edges) (claim: >= -0.046875)
+  n= 2:      2 graphs; negatives=0; min g=0.000000e+00 (A?); min h=t4/rho-rho^2=0.000000 at A_ (claim: >= -0.046875)
+  n= 3:      3 graphs; negatives=0; min g=0.000000e+00 (B?); min h=t4/rho-rho^2=0.024691 at BW (claim: >= -0.046875)
+  n= 4:      7 graphs; negatives=0; min g=0.000000e+00 (C?); min h=t4/rho-rho^2=0.000000 at CQ (claim: >= -0.046875)
+  n= 5:     14 graphs; negatives=0; min g=0.000000e+00 (D??); min h=t4/rho-rho^2=-0.040000 at DUW (claim: >= -0.046875)
+  n= 6:     38 graphs; negatives=0; min g=0.000000e+00 (E???); min h=t4/rho-rho^2=-0.028219 at ECxo (claim: >= -0.046875)
+  n= 7:    107 graphs; negatives=0; min g=0.000000e+00 (F????); min h=t4/rho-rho^2=-0.030092 at FCR`o (claim: >= -0.046875)
+  n= 8:    410 graphs; negatives=0; min g=0.000000e+00 (G?????); min h=t4/rho-rho^2=-0.041667 at GCrb`o (claim: >= -0.046875)
+  n= 9:   1897 graphs; negatives=0; min g=0.000000e+00 (H??????); min h=t4/rho-rho^2=-0.040129 at H?q`qjo (claim: >= -0.046875)
+  n=10:  12172 graphs; negatives=0; min g=0.000000e+00 (I????????); min h=t4/rho-rho^2=-0.040000 at I?rFf_{N? (claim: >= -0.046875)
+
+=== (b) the seven triangle-free strongly regular graphs, exact ===
+  C5                 srg(5, 2, 0, 1) verified;  rho=2/5  t(C4)=6/125  g=343750001/125000000000 = 2.750000e-03   h=-0.040000
+  Petersen           srg(10, 3, 0, 1) verified;  rho=3/10  t(C4)=3/200  g=1031250003/500000000000 = 2.062500e-03   h=-0.040000
+  Clebsch            srg(16, 5, 0, 2) verified;  rho=5/16  t(C4)=65/4096  g=1/160000000000 = 6.250000e-12   h=-0.046875
+  Hoffman-Singleton  srg(50, 7, 0, 1) verified;  rho=7/50  t(C4)=91/125000  g=11366250007/2500000000000 = 4.546500e-03   h=-0.014400
+  Gewirtz            srg(56, 10, 0, 2) verified;  rho=5/28  t(C4)=5/3136  g=58593750049/13720000000000 = 4.270681e-03   h=-0.022959
+  M22                srg(77, 16, 0, 4) verified;  rho=16/77  t(C4)=1216/456533  g=4896093755929/1426665625000000 = 3.431844e-03   h=-0.030359
+  Higman-Sims        srg(100, 22, 0, 6) verified;  rho=11/50  t(C4)=407/125000  g=7301250011/2500000000000 = 2.920500e-03   h=-0.033600
+
+=== (c) weighted blow-ups: connected triangle-free graphs on <= 8 vertices, multistart SLSQP ===
+  n=2:   1 connected graphs x 61 starts:  min g =  0.000e+00 (A_);  min h = -0.000000000 at A_ w=[0.5, 0.5]   [8s]
+  n=3:   1 connected graphs x 61 starts:  min g =  0.000e+00 (BW);  min h = -0.000000000 at BW w=[0.0, 0.5, 0.5]   [9s]
+  n=4:   3 connected graphs x 61 starts:  min g =  0.000e+00 (CF);  min h = -0.004102238 at CU w=[0.3739, 0.1261, 0.1261, 0.3739]   [27s]
+  n=5:   6 connected graphs x 61 starts:  min g =  0.000e+00 (D?{);  min h = -0.040000000 at DUW w=[0.2, 0.2, 0.2, 0.2, 0.2]   [58s]
+  n=6:  19 connected graphs x 61 starts:  min g =  0.000e+00 (E?Bw);  min h = -0.040000000 at ECxo w=[0.2, 0.1743, 0.0257, 0.2, 0.2, 0.2]   [236s]
+  n=7:  59 connected graphs x 61 starts:  min g =  0.000e+00 (F??Fw);  min h = -0.040022167 at FCpv? w=[0.1997, 0.1822, 0.0188, 0.1985, 0.0188, 0.1997, 0.1822]   [725s]
+  n=8: 267 connected graphs x 16 starts:  min g =  0.000e+00 (G???F{);  min h = -0.041666667 at GCrb`o w=[0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125]   [1326s]
+  OVERALL (c): min g = 0.000e+00;  min h = -0.041666667 vs claim -gamma = -0.046875000; margin = 5.208e-03
+
+=== (d) local weighted probes: SRGs and named graphs, starts = uniform + perturbations + random ===
+  C5                     n=  5: uniform h=-0.040000000;  min g found= 0.000e+00;  min h found=-0.040000000  (margin to -gamma  6.875e-03); max|w - uniform| at min h = 3.38e-09  [1327s]
+  Petersen               n= 10: uniform h=-0.040000000;  min g found= 7.180e-19;  min h found=-0.040000000  (margin to -gamma  6.875e-03); max|w - uniform| at min h = 0.00e+00  [1330s]
+  Clebsch                n= 16: uniform h=-0.046875000;  min g found= 7.595e-18;  min h found=-0.046875000  (margin to -gamma  2.000e-11); max|w - uniform| at min h = 3.59e-09  [1333s]
+  Hoffman-Singleton      n= 50: uniform h=-0.014400000;  min g found= 2.924e-18;  min h found=-0.040000000  (margin to -gamma  6.875e-03); max|w - uniform| at min h = 8.00e-02  [1976s]
+  Gewirtz                n= 56: uniform h=-0.022959184;  min g found= 4.264e-03;  min h found=-0.040000000  (margin to -gamma  6.875e-03); max|w - uniform| at min h = 8.21e-02  [2416s]
+(main run stopped at its 1-hour wall during the M22 weighted probe; M22, Higman-Sims and the small named graphs were re-run in probes_d2.py)

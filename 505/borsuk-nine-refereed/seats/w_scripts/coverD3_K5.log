@@ -1,0 +1,11 @@
+K=5 restart 0: covering radius ~ 46.024 deg (best 46.024)
+K=5 restart 1: covering radius ~ 47.435 deg (best 46.024)
+K=5 restart 2: covering radius ~ 46.057 deg (best 46.024)
+K=5 restart 3: covering radius ~ 46.075 deg (best 46.024)
+K=5 restart 4: covering radius ~ 46.111 deg (best 46.024)
+K=5 restart 5: covering radius ~ 46.083 deg (best 46.024)
+K=5 restart 6: covering radius ~ 46.083 deg (best 46.024)
+K=5 restart 7: covering radius ~ 46.123 deg (best 46.024)
+K=5 restart 8: covering radius ~ 46.114 deg (best 46.024)
+K=5 restart 9: covering radius ~ 46.175 deg (best 46.024)
+FINAL K=5: best covering radius (dense+refined) ~ 46.0241 deg; elapsed 85s

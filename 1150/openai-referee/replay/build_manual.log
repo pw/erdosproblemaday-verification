@@ -1,0 +1,44 @@
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+[2026-10-12T09:23:48Z] OAI package rev: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+[2026-10-12T09:23:48Z] mathlib rev: d13f23b723b8a846827a245b89c10fc7d3f11612
+[2026-10-12T09:23:48Z] LEAN_PATH entries: 45
+[2026-10-12T09:24:11Z] built 1/28 OAI.Analysis.Littlewood.Model (23s)
+[2026-10-12T09:24:40Z] built 2/28 OAI.Analysis.Littlewood.Gaussian (29s)
+[2026-10-12T09:25:44Z] built 3/28 OAI.Analysis.Littlewood.Rounding (64s)
+[2026-10-12T09:26:23Z] built 4/28 OAI.Analysis.Littlewood.BinaryPacket (39s)
+[2026-10-12T09:26:51Z] built 5/28 OAI.Analysis.Littlewood.Curvature (28s)
+[2026-10-12T09:27:14Z] built 6/28 OAI.Analysis.Littlewood.Cutoff (23s)
+[2026-10-12T09:27:51Z] built 7/28 OAI.Analysis.Littlewood.QuadraticTail (37s)
+[2026-10-12T09:28:45Z] built 8/28 OAI.Analysis.Littlewood.Spreading (54s)
+[2026-10-12T09:29:17Z] built 9/28 OAI.Analysis.Littlewood.ProductProbability (32s)
+[2026-10-12T09:30:32Z] built 10/28 OAI.Analysis.Littlewood.Nibble (75s)
+[2026-10-12T09:30:54Z] built 11/28 OAI.Analysis.Littlewood.Matching (22s)
+[2026-10-12T09:31:22Z] built 12/28 OAI.Analysis.Littlewood.Averages (28s)
+[2026-10-12T09:31:52Z] built 13/28 OAI.Analysis.Littlewood.FiniteRank (30s)
+[2026-10-12T09:32:26Z] built 14/28 OAI.Analysis.Littlewood.Chunks (34s)
+[2026-10-12T09:33:03Z] built 15/28 OAI.Analysis.Littlewood.DependentMoments (37s)
+[2026-10-12T09:33:31Z] built 16/28 OAI.Analysis.Littlewood.SlotGraph (28s)
+[2026-10-12T09:33:59Z] built 17/28 OAI.Analysis.Littlewood.SlotParameters (28s)
+[2026-10-12T09:35:04Z] built 18/28 OAI.Analysis.Littlewood.IntervalPacking (65s)
+[2026-10-12T09:35:43Z] built 19/28 OAI.Analysis.Littlewood.SamplingTail (39s)
+[2026-10-12T09:36:11Z] built 20/28 OAI.Analysis.Littlewood.SamplingEnergy (28s)
+[2026-10-12T09:36:38Z] built 21/28 OAI.Analysis.Littlewood.ModeSampling (27s)
+[2026-10-12T09:37:22Z] built 22/28 OAI.Analysis.Littlewood.BlockSampling (44s)
+[2026-10-12T09:37:49Z] built 23/28 OAI.Analysis.Littlewood.AlmostSign (27s)
+[2026-10-12T09:38:11Z] built 24/28 OAI.Analysis.Littlewood.FlatnessModel (22s)
+[2026-10-12T09:38:42Z] built 25/28 OAI.Analysis.Littlewood.MinimizingFamily (31s)
+[2026-10-12T09:38:52Z] built 26/28 OAI.MeasureTheory.Integral.BoundedMoments (10s)
+[2026-10-12T09:39:20Z] built 27/28 OAI.Analysis.Littlewood.Main (28s)
+[2026-10-12T09:39:40Z] built 28/28 OAI.Analysis.Littlewood.FiniteFlatness (20s)
+[2026-10-12T09:39:40Z] all 28 modules built; oleans: 28
+[2026-10-12T09:39:40Z] BEGIN axioms :: bash -c cd /tmp/oaimath/076/lean-build && nice -n 19 lean --trust=0 -DautoImplicit=false Axioms1150.lean > /tmp/oaimath/076/lean-build/axioms.log 2>&1
+[2026-10-12T09:39:59Z] END axioms rc=0 elapsed=19s
+[2026-10-12T09:39:59Z] BEGIN challenge :: bash -c cd /tmp/oaimath/076/lean-build && nice -n 19 lean --trust=0 -DautoImplicit=false ChallengeStatement.lean > /tmp/oaimath/076/lean-build/challenge.log 2>&1
+[2026-10-12T09:40:18Z] END challenge rc=0 elapsed=19s
+[2026-10-12T09:40:18Z] BEGIN negcontrol :: bash -c cd /tmp/oaimath/076/lean-build && nice -n 19 lean NegControl.lean > /tmp/oaimath/076/lean-build/negcontrol.log 2>&1
+[2026-10-12T09:40:19Z] END negcontrol rc=0 elapsed=1s
+pp.all identical OAI.AsymptoticallyMinimalLittlewood.MainStatement: True
+pp.all identical OAI.AsymptoticallyMinimalLittlewood.littlewoodValue: True
+pp.all identical OAI.AsymptoticallyMinimalLittlewood.IsRealSigning: True
+STATEMENT MATCH: True
+[2026-10-12T09:40:20Z] BEGIN leanchecker_fresh :: bash -c nice -n 19 leanchecker --fresh OAI.Analysis.Littlewood.Main > /tmp/oaimath/076/lean-build/leanchecker_fresh.log 2>&1

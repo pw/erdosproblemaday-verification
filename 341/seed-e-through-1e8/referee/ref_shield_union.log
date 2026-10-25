@@ -1,0 +1,5 @@
+Li forced M=49: ('SAT', ([3, 22, 32, 40, 48], [1, 2, 5, 13, 27, 36, 47]))
+Li free M=49: ('SAT', ([1, 17, 40, 44], [5, 8, 9, 18, 20, 29, 31, 32, 41, 47, 48]))
+M=49 no B: ('UNSAT', None)
+single cycles M<=48: {'UNSAT': 29, 'PPFAIL': 50, 'SAT': 15}
+done unions

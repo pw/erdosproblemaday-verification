@@ -1,0 +1,6 @@
+CFS Thm1, r=2          new > old from ln k =  69314.718  i.e. k ~ 10^ 30103.0   (log* k there = 4)
+KS Thm2, r=2, beta=1   new > old from ln k =  69314.718  i.e. k ~ 10^ 30103.0   (log* k there = 4)
+FH Thm1, r=3           new > old from ln k =  69314.718  i.e. k ~ 10^ 30103.0   (log* k there = 4)
+KS Thm2, r=3, beta=1   new > old from ln k = 109861.229  i.e. k ~ 10^ 47712.1   (log* k there = 4)
+ln2/c = 69314.71805599453   ln3/c = 109861.22886681097
+CONTROL c=1: new > CFS from ln k = 0.6931 (k ~ 2.000)  -> small, so the check can say 'not astronomical'

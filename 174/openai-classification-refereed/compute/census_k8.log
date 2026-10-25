@@ -1,0 +1,146 @@
+k=8: 72 orbits
+k=8 (0, 1, 2, 3, 4, 5, 6, 7): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.0s
+k=8 (0, 1, 2, 3, 4, 5, 6, 8): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   5.4s
+k=8 (0, 1, 2, 3, 4, 5, 6, 9): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.8s
+k=8 (0, 1, 2, 3, 4, 5, 6, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.2s
+k=8 (0, 1, 2, 3, 4, 5, 6, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.4s
+k=8 (0, 1, 2, 3, 4, 5, 8, 9): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.6s
+k=8 (0, 1, 2, 3, 4, 5, 8, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.7s
+k=8 (0, 1, 2, 3, 4, 5, 8, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.8s
+k=8 (0, 1, 2, 3, 4, 5, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.0s
+k=8 (0, 1, 2, 3, 4, 5, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.5s
+k=8 (0, 1, 2, 3, 4, 5, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.9s
+k=8 (0, 1, 2, 3, 4, 6, 8, 9): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.9s
+k=8 (0, 1, 2, 3, 4, 6, 8, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   1.5s
+k=8 (0, 1, 2, 3, 4, 6, 8, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.5s
+k=8 (0, 1, 2, 3, 4, 6, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   1.4s
+k=8 (0, 1, 2, 3, 4, 8, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.5s
+k=8 (0, 1, 2, 3, 4, 8, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.2s
+k=8 (0, 1, 2, 3, 4, 8, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.1s
+k=8 (0, 1, 2, 3, 4, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.5s
+k=8 (0, 1, 2, 3, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   1.0s
+k=8 (0, 1, 2, 4, 5, 6, 8, 9): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.3s
+k=8 (0, 1, 2, 4, 5, 6, 8, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.6s
+k=8 (0, 1, 2, 4, 5, 6, 8, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.6s
+k=8 (0, 1, 2, 4, 5, 6, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=FAILS
+   3.2s
+k=8 (0, 1, 2, 4, 5, 7, 8, 9): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   7.1s
+k=8 (0, 1, 2, 4, 5, 7, 8, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   7.0s
+k=8 (0, 1, 2, 4, 5, 7, 8, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   8.4s
+k=8 (0, 1, 2, 4, 5, 7, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   6.7s
+k=8 (0, 1, 2, 4, 5, 8, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.4s
+k=8 (0, 1, 2, 4, 5, 8, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.4s
+k=8 (0, 1, 2, 4, 5, 8, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.2s
+k=8 (0, 1, 2, 4, 5, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.0s
+k=8 (0, 1, 2, 4, 6, 7, 8, 9): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   6.9s
+k=8 (0, 1, 2, 4, 6, 7, 8, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=FAILS
+   2.3s
+k=8 (0, 1, 2, 4, 6, 7, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   7.4s
+k=8 (0, 1, 2, 4, 6, 7, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.9s
+k=8 (0, 1, 2, 4, 6, 8, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.3s
+k=8 (0, 1, 2, 4, 6, 8, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.2s
+k=8 (0, 1, 2, 4, 6, 8, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   1.6s
+k=8 (0, 1, 2, 4, 6, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.7s
+k=8 (0, 1, 2, 4, 7, 8, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.6s
+k=8 (0, 1, 2, 4, 7, 8, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.8s
+k=8 (0, 1, 2, 4, 7, 8, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.4s
+k=8 (0, 1, 2, 4, 7, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.4s
+k=8 (0, 1, 2, 4, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.4s
+k=8 (0, 1, 2, 5, 6, 7, 8, 9): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   8.6s
+k=8 (0, 1, 2, 5, 6, 7, 8, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   6.4s
+k=8 (0, 1, 2, 5, 6, 7, 8, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   7.7s
+k=8 (0, 1, 2, 5, 6, 7, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   7.7s
+k=8 (0, 1, 2, 5, 6, 8, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.1s
+k=8 (0, 1, 2, 5, 6, 8, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.1s
+k=8 (0, 1, 2, 5, 6, 8, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.5s
+k=8 (0, 1, 2, 5, 6, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.7s
+k=8 (0, 1, 2, 5, 7, 8, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.7s
+k=8 (0, 1, 2, 5, 7, 8, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.8s
+k=8 (0, 1, 2, 5, 7, 8, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.6s
+k=8 (0, 1, 2, 5, 7, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.1s
+k=8 (0, 1, 2, 5, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.9s
+k=8 (0, 1, 2, 6, 7, 8, 9, 10): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   5.2s
+k=8 (0, 1, 2, 6, 7, 8, 9, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.6s
+k=8 (0, 1, 2, 6, 7, 8, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.4s
+k=8 (0, 1, 2, 6, 7, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   5.3s
+k=8 (0, 1, 2, 6, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.7s
+k=8 (0, 1, 2, 7, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.1s
+k=8 (0, 1, 4, 5, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   1.8s
+k=8 (0, 1, 4, 6, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.3s
+k=8 (0, 1, 4, 7, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=FAILS
+   2.8s
+k=8 (0, 1, 5, 6, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=FAILS
+   3.6s
+k=8 (0, 1, 5, 7, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   3.4s
+k=8 (0, 1, 6, 7, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   4.0s
+k=8 (0, 2, 4, 6, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=FAILS
+   0.9s
+k=8 (0, 2, 5, 7, 8, 9, 10, 11): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+   2.3s
+SUMMARY k=8: HOLDS 67 FAILS 5 (of 72 orbits)

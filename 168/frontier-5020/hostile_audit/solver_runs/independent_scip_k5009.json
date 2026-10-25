@@ -1,0 +1,17 @@
+{
+  "k": 5009,
+  "points": 5009,
+  "edges": 4884,
+  "start_size": 3340,
+  "status": "optimal",
+  "objective": 3340.0,
+  "dual_bound": 3340.0,
+  "gap": 0.0,
+  "nodes": 17,
+  "lp_iterations": 14626,
+  "elapsed": 148.4038491898682,
+  "pyscipopt": "6.2.1",
+  "scip": "10.0.2",
+  "floating_mip": true,
+  "exact_mode": false
+}

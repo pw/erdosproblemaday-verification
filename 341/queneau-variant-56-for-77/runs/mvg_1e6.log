@@ -1,0 +1,32 @@
+ic=1 seed(18)=[1, 2, 3, 5, 7, 13, 22, 27, 32, 36, 40, 47, 48, 52, 71, 81, 89, 97]
+suffix from gap index 128576 (len 14287): smallest period 7 (a period of THIS SUFFIX only; says nothing about the infinite sequence)
+model vs greedy on [1,1000000]: 95703 mismatches; first: [109, 115, 120, 134, 164, 169, 183, 213, 218, 224]  (greedy count 142864, model count 122509)
+exit=0
+ic=21 seed(20)=[1, 2, 3, 5, 7, 13, 14, 22, 27, 28, 32, 36, 40, 47, 48, 52, 71, 81, 89, 97]
+suffix from gap index 110122 (len 12236): smallest period 12234 (no period <= half the suffix)
+model vs greedy on [1,1000000]: 0 mismatches; first: []  (greedy count 122359, model count 122359)
+exit=0
+ic=26 seed(20)=[1, 2, 3, 5, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 56, 63, 71, 81, 89, 97]
+suffix from gap index 110220 (len 12247): smallest period 6 (a period of THIS SUFFIX only; says nothing about the infinite sequence)
+model vs greedy on [1,1000000]: 0 mismatches; first: []  (greedy count 122468, model count 122468)
+exit=0
+ic=37 seed(20)=[1, 2, 3, 5, 7, 13, 14, 22, 27, 32, 36, 40, 47, 48, 52, 71, 77, 81, 89, 97]
+suffix from gap index 110219 (len 12247): smallest period 12246 (no period <= half the suffix)
+model vs greedy on [1,1000000]: 0 mismatches; first: []  (greedy count 122467, model count 122467)
+exit=0
+ic=41 seed(20)=[1, 2, 3, 5, 7, 13, 22, 27, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97]
+suffix from gap index 110223 (len 12247): smallest period 6 (a period of THIS SUFFIX only; says nothing about the infinite sequence)
+model vs greedy on [1,1000000]: 0 mismatches; first: []  (greedy count 122471, model count 122471)
+exit=0
+ic=44 seed(20)=[1, 2, 3, 5, 13, 14, 22, 27, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97]
+suffix from gap index 110228 (len 12248): smallest period 12248 (no period <= half the suffix)
+model vs greedy on [1,1000000]: 0 mismatches; first: []  (greedy count 122477, model count 122477)
+exit=0
+ic=52 seed(20)=[1, 2, 3, 5, 13, 14, 22, 27, 28, 32, 36, 40, 47, 48, 52, 71, 77, 81, 89, 97]
+suffix from gap index 137650 (len 15295): smallest period 26 (a period of THIS SUFFIX only; says nothing about the infinite sequence)
+model vs greedy on [1,1000000]: 237902 mismatches; first: [127, 130, 131, 135, 138, 143, 146, 154, 173, 179]  (greedy count 152946, model count 122474)
+exit=0
+ic=56 seed(20)=[1, 2, 3, 5, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, 63, 71, 77, 81, 89, 97]
+suffix from gap index 139727 (len 15526): smallest period 34 (a period of THIS SUFFIX only; says nothing about the infinite sequence)
+model vs greedy on [1,1000000]: 239596 mismatches; first: [176, 179, 180, 184, 187, 192, 195, 222, 228, 229]  (greedy count 155254, model count 122486)
+exit=0

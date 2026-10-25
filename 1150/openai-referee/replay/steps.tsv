@@ -1,0 +1,11 @@
+launch 2026-10-12T09:12:33Z 0 0
+gated_driver_retired 2026-10-12T09:22:18Z 0 0
+build_first_attempt_root_rule 1 0
+manual_relaunch 2026-10-12T09:23:48Z 0 0
+launch_manual 2026-10-12T09:23:48Z 0 0
+build 0 952
+axioms 0 19
+challenge 0 19
+negcontrol 0 1
+statement_match 0 0
+leanchecker_fresh 0 6978

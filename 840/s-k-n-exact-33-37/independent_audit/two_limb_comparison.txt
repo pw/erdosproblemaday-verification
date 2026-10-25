@@ -1,0 +1,2 @@
+independent two-limb rows 32..37 exactly match producer: PASS
+independent translated subsets visited: 68,719,476,736

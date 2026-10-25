@@ -1,0 +1,6 @@
+CNF semantics: 42035 clauses, 22232 red forbidders, 19802 blue forbidders PASS
+independent union DFS maxima: red 6, blue 7 PASS
+independent lattice DFS maxima: red 4, blue 4 PASS
+blue lattice five-seeds: 2118760, monochromatic closures 0
+red lattice five-seeds: 21111090, monochromatic closures 0
+HOSTILE AUDIT PASS

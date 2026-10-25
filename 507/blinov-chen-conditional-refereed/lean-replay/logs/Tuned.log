@@ -1,0 +1,12 @@
+'HeilbronnTuned.tunedT_binomial' does not depend on any axioms
+'HeilbronnTuned.tuned_capacity' does not depend on any axioms
+'HeilbronnTuned.tuned_packing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnTuned.digit_scale_divisible' depends on axioms: [propext, Quot.sound]
+'HeilbronnTuned.digit_moment_bound' depends on axioms: [propext, Quot.sound]
+'HeilbronnTuned.shell_threshold' depends on axioms: [propext, Quot.sound]
+'HeilbronnTuned.cap_modulus' depends on axioms: [propext, Quot.sound]
+'HeilbronnTuned.zero_case_bounds' depends on axioms: [propext, Quot.sound]
+'HeilbronnTuned.alteration_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnTuned.exponent_identity' depends on axioms: [propext, Quot.sound]
+'HeilbronnTuned.tuned_gain' does not depend on any axioms
+RSSCAP done rc=0 peak_kb=562088 wall=2s

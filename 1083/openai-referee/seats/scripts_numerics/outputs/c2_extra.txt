@@ -1,0 +1,32 @@
+== Lemma 2.1 u=2 row: planar bound g_2(m) >= c m/log m and <= M-1 distances  =>  m <= C M log(2M) ==
+  min_{X>0} (X - 2 ln X) = 0.613706 > 0, so m = 2X ln X has m/ln m >= X; brute check:
+  violations of (largest m with m/ln m <= X) <= 2 X ln X over 200 X in [1.5, 2.8e8]: 0
+== Lemma 2.1 u>=3 rows: c_u m^(2/u) <= M  =>  m <= (M/c_u)^(u/2) = C_u M^(u/2);  c0 = 1/2 ==
+  d=3: proper u-flats hold at most u=1: B^2, u=2: B^2+o(1); N B^(-1/2) = B^5/2; worst exponent 2 < 5/2
+  d=4: proper u-flats hold at most u=1: B^2, u=2: B^2+o(1), u=3: B^3; N B^(-1/2) = B^7/2; worst exponent 3 < 7/2
+  d=5: proper u-flats hold at most u=1: B^2, u=2: B^2+o(1), u=3: B^3, u=4: B^4; N B^(-1/2) = B^9/2; worst exponent 4 < 9/2
+  d=6: proper u-flats hold at most u=1: B^2, u=2: B^2+o(1), u=3: B^3, u=4: B^4, u=5: B^5; N B^(-1/2) = B^11/2; worst exponent 5 < 11/2
+  d=7: proper u-flats hold at most u=1: B^2, u=2: B^2+o(1), u=3: B^3, u=4: B^4, u=5: B^5, u=6: B^6; N B^(-1/2) = B^13/2; worst exponent 6 < 13/2
+== Prop 2.2 rich-line discard: sum over dyadic t = 2^j H <= L_max of C(N^2/t^3 + N/t)(2t)^2 <= 8C(N^2/H + N L_max) ==
+  N=1e+06 H=10 L_max=1000: dyadic sum / (N^2/H + N L_max) = 7.909 (<= 8)
+  N=1e+09 H=50 L_max=100000: dyadic sum / (N^2/H + N L_max) = 7.977 (<= 8)
+  N=1e+12 H=1000 L_max=1000000: dyadic sum / (N^2/H + N L_max) = 7.988 (<= 8)
+== Prop 2.2 greedy: removed curves Y carry > K A deg(Y) disjoint partners  =>  sum deg Y < N/(KA) = o(N/A) when K -> oo ==
+== (2.3): |S| = sum_j #partners_j <= sum_j C a_j A^j,  H_S(D) >= c_d a_j D^j,  D = floor(A) >= A/2 (A >= 2) ==
+  d=3: |S| <= d * C * 2^(d-1) * max_j a_j D^j <= (d C 2^(d-1)/c_d) H_S(D)  =>  c1 = c_d/(d C 2^(d-1)) = c_d/(C*12)
+  d=4: |S| <= d * C * 2^(d-1) * max_j a_j D^j <= (d C 2^(d-1)/c_d) H_S(D)  =>  c1 = c_d/(d C 2^(d-1)) = c_d/(C*32)
+  d=5: |S| <= d * C * 2^(d-1) * max_j a_j D^j <= (d C 2^(d-1)/c_d) H_S(D)  =>  c1 = c_d/(d C 2^(d-1)) = c_d/(C*80)
+== (2.9) and the sample: H_{S_F}(D) >= max_h c a_h D^(s0+h) >= (c/C) max_h m_h A^(s0)(D/A)^(s0+h) >= c4 m A^s0 with c4 = c/(C (d+1) 2^(s0+d)) ==
+  d=3, s0=3: max_(A>=s0) C(A+s0,s0)/A^s0 = 0.7407 <= 2^s0/s0! = 1.3333: True;  theta < c4/C4 suffices (fixed: depends on d and the constants of Lemmas 2.4 and 3.6 only)
+  d=4, s0=6: max_(A>=s0) C(A+s0,s0)/A^s0 = 0.0198 <= 2^s0/s0! = 0.0889: True;  theta < c4/C4 suffices (fixed: depends on d and the constants of Lemmas 2.4 and 3.6 only)
+  d=5, s0=10: max_(A>=s0) C(A+s0,s0)/A^s0 = 0.0000 <= 2^s0/s0! = 0.0003: True;  theta < c4/C4 suffices (fixed: depends on d and the constants of Lemmas 2.4 and 3.6 only)
+== Chernoff + union bound: P(Bin(n,theta) < n theta/2) <= exp(-n theta/8); need N^2 exp(-theta delta(H)/8) -> 0 with delta(H) >> A^(d-1) ==
+  d=3 N=1e+03: A^(d-1) = N^1.333 = 1.000e+04; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: 1.257e+01
+  d=3 N=1e+06: A^(d-1) = N^1.333 = 1.000e+08; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: -1.247e+04
+  d=3 N=1e+09: A^(d-1) = N^1.333 = 1.000e+12; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: -1.250e+08
+  d=4 N=1e+03: A^(d-1) = N^1.500 = 3.162e+04; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: 9.863e+00
+  d=4 N=1e+06: A^(d-1) = N^1.500 = 1.000e+09; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: -1.250e+05
+  d=4 N=1e+09: A^(d-1) = N^1.500 = 3.162e+13; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: -3.953e+09
+  d=5 N=1e+03: A^(d-1) = N^1.600 = 6.310e+04; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: 5.929e+00
+  d=5 N=1e+06: A^(d-1) = N^1.600 = 3.981e+09; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: -4.976e+05
+  d=5 N=1e+09: A^(d-1) = N^1.600 = 2.512e+14; log(N^2 exp(-theta A^(d-1)/8)) with theta=1e-3: -3.140e+10

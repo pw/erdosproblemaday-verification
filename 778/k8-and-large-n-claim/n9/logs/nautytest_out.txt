@@ -1,0 +1,3 @@
+all good: 2000 transports verified
+oracle: 400/400 pairs agree (key-equal 102, isomorphic 102)
+deliberate arm (blue layer permuted alone): 196 pairs, key/oracle agree 196/196 (isomorphic 4); FIRST-DRAFT key (rung matching dropped) wrong on 7 of them, and on 4 of the 400 random pairs

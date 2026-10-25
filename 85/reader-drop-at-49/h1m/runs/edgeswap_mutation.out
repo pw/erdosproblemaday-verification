@@ -1,0 +1,2 @@
+--edgeswap: SAT  recheck: 0 structural violations [], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 0/1
+--es-check-only: SAT  recheck: 1 structural violations ['edgeswap lex violations 5'], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 0/1

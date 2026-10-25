@@ -1,0 +1,3 @@
+mut pipestatus 141 1
+cnfmut pipestatus 0 0
+cnfmut2 (clause 1302103, first lemma's first hint) pipestatus 141 1

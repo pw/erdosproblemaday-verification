@@ -1,0 +1,7 @@
+Prop 7.7 three squares (expect FAILS): s=12 d=2 kernel_dim_over_Frac=0 saturation_steps=0 criterion=FAILS
+two squares Q0 u R+Q0 (transitive, expect HOLDS): s=8 d=2 kernel_dim_over_Frac=1 saturation_steps=1 criterion=HOLDS
+kite K_a, a=u(tau) (Cor 7.5, expect HOLDS): s=4 d=2 kernel_dim_over_Frac=5 saturation_steps=2 criterion=HOLDS
+five circle pts, one transcendental (Cor 7.4, expect HOLDS): s=5 d=2 kernel_dim_over_Frac=4 saturation_steps=2 criterion=HOLDS
+collinear {0,1,tau} (non-spherical, expect FAILS): s=3 d=1 kernel_dim_over_Frac=1 saturation_steps=1 criterion=FAILS
+seven rational circle pts (F=Q, expect HOLDS): s=7 d=2 kernel_dim_over_Frac=4 saturation_steps=1 criterion=HOLDS
+{'three_squares': False, 'two_squares': True, 'kite': True, 'five': True, 'collinear': False, 'rational7': True}

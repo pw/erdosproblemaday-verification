@@ -1,0 +1,26 @@
+q=13 C=4 preset=singer:3: 61 orbits, sizes {3: 61}
+  CP-SAT -> UNKNOWN in 90.0s
+q=13 C=4 preset=singer:61: 3 orbits, sizes {61: 3}
+  CP-SAT -> INFEASIBLE in 0.0s
+q=13 C=4 preset=hessian: 11 orbits, sizes {6: 2, 9: 3, 18: 4, 36: 2}
+  CP-SAT -> INFEASIBLE in 0.0s
+q=13 C=4 preset=conic:2: 99 orbits, sizes {1: 15, 2: 84}
+  CP-SAT -> UNKNOWN in 90.0s
+q=13 C=4 preset=conic:3: 63 orbits, sizes {1: 3, 3: 60}
+  CP-SAT -> INFEASIBLE in 34.2s
+q=13 C=4 preset=conic:4: 51 orbits, sizes {1: 3, 2: 6, 4: 42}
+  CP-SAT -> INFEASIBLE in 1.8s
+q=13 C=4 preset=conic:6: 35 orbits, sizes {1: 3, 3: 4, 6: 28}
+  CP-SAT -> INFEASIBLE in 0.0s
+q=13 C=4 preset=conic:7: 27 orbits, sizes {1: 1, 7: 26}
+  CP-SAT -> INFEASIBLE in 0.0s
+q=13 C=4 preset=conic:12: 19 orbits, sizes {1: 3, 6: 2, 12: 14}
+  CP-SAT -> INFEASIBLE in 0.0s
+q=13 C=4 preset=conic:13: 15 orbits, sizes {1: 1, 13: 14}
+  CP-SAT -> INFEASIBLE in 0.0s
+q=13 C=4 preset=conic:14: 15 orbits, sizes {1: 1, 7: 2, 14: 12}
+  CP-SAT -> INFEASIBLE in 0.0s
+q=13 C=4 preset=diag: 7 orbits, sizes {1: 3, 12: 3, 144: 1}
+  CP-SAT -> INFEASIBLE in 0.0s
+q=13 C=4 preset=perm: 39 orbits, sizes {1: 1, 2: 1, 3: 14, 6: 23}
+  CP-SAT -> INFEASIBLE in 0.1s

@@ -1,0 +1,9 @@
+== 81494a6ef36d3ec9 j=4
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] M=001111001111111111110000 mcard=24 vars=600 clauses=281058 c4=0 derived=24 sb=16 slots=528 ph=280 edgeswap=2864 cov=0 mu=- mucl=0 trans_sb=16 DROP-C4 CONTROL
+SAT  recheck: 0 structural violations [], max codegree 5, lex violations 0, PH violations 0, pair-perm lex violations 0/127
+== 0c79d82f56a92899 j=4
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] M=000022002200111111110000 mcard=24 vars=600 clauses=85650 c4=0 derived=24 sb=16 slots=528 ph=280 edgeswap=2864 cov=0 mu=- mucl=0 trans_sb=16 DROP-C4 CONTROL
+SAT  recheck: 0 structural violations [], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 0/15
+== 766e53c39597bd73 j=3
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] M=011101110101111010101010 mcard=24 vars=600 clauses=64222 c4=0 derived=24 sb=18 slots=510 ph=280 edgeswap=2506 cov=0 mu=- mucl=0 trans_sb=18 DROP-C4 CONTROL
+SAT  recheck: 0 structural violations [], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 0/1

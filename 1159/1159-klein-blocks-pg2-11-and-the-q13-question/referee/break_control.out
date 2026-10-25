@@ -1,0 +1,8 @@
+b2 image built; spectrum {1: 84, 3: 28, 4: 21}
+pg11_c4_b2.cnf accepts the image (expect True): True
+pg11_c4.cnf  accepts the image (expect True): True
+negative control, image minus a point accepted? (expect False): False
+cube image for (c1,c2)=(3,3); cube file cube_q11_c4_33.cnf accepts it (expect True): True
+   cube 11 accepts it (expect False, wrong c1/c2): False
+   cube 21 accepts it (expect False, wrong c1/c2): False
+   cube 31 accepts it (expect False, wrong c1/c2): False

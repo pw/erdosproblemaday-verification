@@ -1,0 +1,12 @@
+OAI.CycleClique.thm_main MATCH | lens 1182 1182
+def OAI.CycleClique.RamseyProperty MATCH | lens 641 641
+def OAI.CycleClique.cycleCliqueRamsey MATCH | lens 191 191
+solution axioms: {'propext', 'Classical.choice', 'Quot.sound'} comparator axioms: {'propext', 'Classical.choice', 'Quot.sound', 'sorryAx'}
+MATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+main STD_AXIOMS
+exceptional STD_AXIOMS
+ramsey_upper STD_AXIOMS
+finite_range_verified STD_AXIOMS
+ramsey_lower_counterexample STD_AXIOMS

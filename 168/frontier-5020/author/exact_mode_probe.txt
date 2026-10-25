@@ -1,0 +1,15 @@
+Command environment:
+  /home/exedev/.venv/bin/python
+  PySCIPOpt 6.2.1
+  SCIP 10.0
+
+Probe:
+  from pyscipopt import Model
+  m = Model("exact_probe")
+  m.enableExactSolving(True)
+
+Output:
+  [scip_exact.c:161] ERROR: SCIP was compiled without exact solve support: cannot enable exact solving mode.
+
+Raised exception:
+  Exception: 'SCIP: unspecified error!'

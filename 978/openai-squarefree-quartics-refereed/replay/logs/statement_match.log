@@ -1,0 +1,11 @@
+PowerFreeValues OAI.QuarticPowerFree.allDegrees MATCH | lens 1030 1030
+   solution axioms: ['Classical.choice', 'Quot.sound', 'propext'] | comparator axioms: ['Classical.choice', 'Quot.sound', 'propext', 'sorryAx']
+PowerFreeValues OAI.QuarticPowerFree.PowerFree MATCH | lens 322 322
+PowerFreeValues OAI.QuarticPowerFree.rho MATCH | lens 541 541
+PowerFreeValues OAI.QuarticPowerFree.count MATCH | lens 794 794
+PowerFreeValues OAI.QuarticPowerFree.LocallyAdmissible MATCH | lens 506 506
+PowerFreeValues OAI.QuarticPowerFree.localFactor MATCH | lens 930 930
+PowerFreeValues OAI.QuarticPowerFree.densityConstant MATCH | lens 441 441
+PowerFreeValues OAI.QuarticPowerFree.DensityStatement MATCH | lens 997 997
+ALL_MATCH_STD_SORRYSEEN
+PowerFreeValues: 8 MATCH / 0 MISMATCH

@@ -1,0 +1,8 @@
+Q=5 density=0.6400 steps=4 INFINITE cycle_shift=(0,5)	INFINITE
+Q=13 density=0.8521 steps=4 INFINITE cycle_shift=(0,13)	INFINITE
+Q=17 density=0.8858 steps=4 INFINITE cycle_shift=(0,17)	INFINITE
+Q=29 density=0.9322 steps=4 INFINITE cycle_shift=(0,29)	INFINITE
+Q=37 density=0.9467 steps=4 INFINITE cycle_shift=(0,37)	INFINITE
+Q=41 density=0.9518 steps=4 INFINITE cycle_shift=(0,41)	INFINITE
+Q=53 density=0.9626 steps=4 INFINITE cycle_shift=(0,53)	INFINITE
+Q=61 density=0.9675 steps=4 INFINITE cycle_shift=(0,61)	INFINITE

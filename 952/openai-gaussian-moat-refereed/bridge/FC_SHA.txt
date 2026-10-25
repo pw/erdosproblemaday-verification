@@ -1,0 +1,2 @@
+6262ea8cc661ac2641356e6786966f9d0e4c9150016f27c3c44fd1f6578795ed  FC_952.lean
+FC 952.lean at google-deepmind/formal-conjectures@3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8 (origin/main as fetched 2026-10-22 00:0xZ)

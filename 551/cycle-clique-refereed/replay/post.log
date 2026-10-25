@@ -1,0 +1,26 @@
+[2026-10-20T22:57:35Z] BEGIN cmpmod
+[2026-10-20T22:57:42Z] END cmpmod rc=0 5798s
+[2026-10-20T22:57:42Z] BEGIN smoke
+[2026-10-20T22:57:43Z] END smoke rc=0 5799s
+[2026-10-20T22:57:43Z] BEGIN cmp
+[2026-10-20T22:57:50Z] END cmp rc=0 5806s
+[2026-10-20T22:57:50Z] BEGIN ax
+[2026-10-20T22:57:56Z] END ax rc=0 5812s
+[2026-10-20T22:57:56Z] BEGIN neg
+[2026-10-20T22:58:02Z] END neg rc=0 5818s
+[2026-10-20T22:58:02Z] BEGIN typectl
+[2026-10-20T22:58:08Z] END typectl rc=1 5824s
+[2026-10-20T22:58:08Z] BEGIN pos44
+[2026-10-20T22:58:14Z] END pos44 rc=0 5830s
+[2026-10-20T22:58:14Z] statement_match: MATCH STD_AXIOMS CMP_SORRY_SEEN main STD_AXIOMS exceptional STD_AXIOMS ramsey_upper STD_AXIOMS finite_range_verified STD_AXIOMS ramsey_lower_counterexample STD_AXIOMS 
+[2026-10-20T22:58:14Z] BEGIN bridge
+[2026-10-20T22:58:21Z] END bridge rc=0 5837s
+[2026-10-20T22:58:21Z] BEGIN bridge_wrongshape
+[2026-10-20T22:58:27Z] END bridge_wrongshape rc=1 5843s
+[2026-10-20T22:58:27Z] BEGIN bridge_mut
+[2026-10-20T22:58:33Z] END bridge_mut rc=1 5849s
+[2026-10-20T22:58:34Z] BEGIN leanchecker_fresh
+[2026-10-21T02:10:00Z] END leanchecker_fresh rc=0 17336s
+[2026-10-21T02:10:00Z] BEGIN leanchecker_missing_control
+[2026-10-21T02:10:02Z] END leanchecker_missing_control rc=1 17338s
+[2026-10-21T02:10:02Z] DONE

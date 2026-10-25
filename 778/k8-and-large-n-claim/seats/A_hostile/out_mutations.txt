@@ -1,0 +1,10 @@
+MUTATION one_edge violation kinds: {'Phi INCREASED over a complete round': 359, 'Phi_end > Phi_init': 32}
+VIOLATIONS: 391
+MUTATION min_danger violation kinds: {'Phi INCREASED over a complete round': 202, 'Phi_end > Phi_init': 14, 'Phi_init< yet Bella got an a-clique': 14}
+VIOLATIONS: 230
+MUTATION danger_P5 violation kinds: {'Chingiz edge (, ) decreased Phi by LESS than its danger': 315, 'Bella increase !=  d*(z) exactly': 240}
+VIOLATIONS: 555
+MUTATION base54 violation kinds: {'P_U not <= / P_U under Chingiz edge (, )': 6130, 'Chingiz edge (, ) decreased Phi by LESS than its danger': 276, 'Phi INCREASED over a complete round': 129}
+VIOLATIONS: 6535
+MUTATION qbase2 violation kinds: {'initial sum Q exceeds  C(n,a) ^-h': 48, 'Q_A not tripled by Bella edge': 739, 'Bella increase !=  d*(z) exactly': 187}
+VIOLATIONS: 974

@@ -1,0 +1,9 @@
+OAI.CliqueFreeLog.logarithmic_independence_bound : ∀ (r : ℕ),
+  4 ≤ r →
+    ∃ c,
+      0 < c ∧
+        ∀ {V : Type} [inst : Fintype V] (G : SimpleGraph V),
+          G.CliqueFree r →
+            2 ≤ OAI.CliqueFreeLog.averageDegree G →
+              c * ↑(Fintype.card V) * Real.log (OAI.CliqueFreeLog.averageDegree G) / OAI.CliqueFreeLog.averageDegree G ≤
+                ↑G.indepNum

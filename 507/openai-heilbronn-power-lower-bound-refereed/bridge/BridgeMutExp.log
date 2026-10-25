@@ -1,0 +1,13 @@
+BridgeMutExp.lean:325:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  1 / ↑n ^ 2
+in the target expression
+  1 / ↑n ≤ ↑n ^ (-2 + 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK))
+
+n : ℕ
+hn : 0 < n
+hnR : 1 ≤ ↑n
+hn0 : 0 < ↑n
+hans : 0 < lower.answer n
+this : 1 / ↑n ^ 2 = ↑n ^ (-2)
+⊢ 1 / ↑n ≤ ↑n ^ (-2 + 2 / ↑(OAI.Problem355.EveryN.alphaOf OAI.Problem355.heilbronnK))
+RSSCAP done rc=1 peak_kb=6986808 wall=14s

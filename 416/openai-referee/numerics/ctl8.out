@@ -1,0 +1,3 @@
+control 1e8 t= 2.0 count 133 first [5888, 10496, 17408, 276736, 2037248, 5268992, 5331968, 6983168]
+control 1e8 t= 2.04 count 1 first [2037248]
+control 1e8 t= 2.0414 count 0 first []

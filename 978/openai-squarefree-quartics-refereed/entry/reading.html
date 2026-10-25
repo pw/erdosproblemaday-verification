@@ -1,0 +1,37 @@
+Four seats, all Claude Opus 5.5, were each briefed to refute, to quote the sentence they objected to by the paper's printed numbering, and to grade every objection FATAL, GAP, ERROR or EXPOSITION:</p>
+<ul>
+<li>seat M1: §§2–4, §10 with Appendix A, and §11;</li>
+<li>seat M2: §§5–9 and §12;</li>
+<li>seat L: the Lean against the paper;</li>
+<li>seat W: the sources and the world.</li>
+</ul>
+<p>A fifth seat read this page blind against the files. None found a FATAL error, or a gap in Theorem 1.1, Corollary 1.2 or anything #978 needs. SEAT_VERDICTS_SENTENCE</p>
+<ul>
+<li><strong>M1 recomputed the certificate of §10 and Appendix A in exact arithmetic,</strong> independently of the paper's own listing, which also runs and passes.
+<ul>
+<li>The cells of width 1/3000 in η are closed and contiguous, and they cover η = 1 up to the stopping point. The direct-surface range of §11.1 covers the rest up to d/k, including b = 0 and the O(1/log X) overshoot.</li>
+<li>Every margin is strictly positive. The tightest exponent gap is 0.0019350 (d = 4, cell 3555, η ∈ [1.18500, 1.18533]); Table 1's 0.00191 is a rigorous lower bound for it.</li>
+<li>One cut inequality of (10.4) holds by a relative margin of only 1.5·10<sup>−8</sup> (d = 4, cell 4902), because w is the least grid point that works. It is strict, so it is valid, but the "sufficiently large" in Proposition 5.2 is enormous there. That costs nothing, since no effective δ is claimed.</li>
+<li>Six mutations each make M1's checker fail: a gap of 10<sup>−6</sup> in one cell, a raised stopping threshold, a weaker top-dimensional threshold, and w shrunk by 1% in one cell, plus two that matter for the route. Replacing the quartic curve constant g = 4 by 3 (no quintic deletion) breaks 434 cells, and replacing the quartic surface bound 3/U<sup>2</sup> by 2/U<sup>2</sup> breaks 609. So the paper's quartic route really does need Propositions 8.1 and 8.2.</li>
+<li>The Lean uses g = 3 and its own analogue of Proposition 8.1, with different alternatives. It needs no quintic deletion, because it counts on a different variety.</li>
+</ul></li>
+<li><strong>M1 on the saving.</strong> The paper never computes the δ of Proposition 1.4. From its own certificate it is at most about 5·10<sup>−4</sup>. The limit is set by the direct range, where 1/2 + √(b′η′/d) reaches 0.99954 for d = 8 and 0.99943 for d = 4, not by Table 1's gaps. The Lean's 3/1000 is larger than anything the paper's route gives; the two agree only in being positive.</li>
+<li><strong>M1 on §§2–4.</strong>
+<ul>
+<li>The sieve transfer takes its limits in a valid order: cut-off fixed, X → ∞, then the cut-off, then the dyadic pieces.</li>
+<li>(2.2) is right for every e ≥ 1, and local admissibility forces e &lt; k. The tail is the primitive part's once X exceeds the content primes.</li>
+<li>Every constant inside §3 is independent of the coefficients of the moving varieties, because Theorem 3.1 pushes all the uniformity into its hypotheses. The weakest link is therefore whether Propositions 7.1, 8.1 and 9.2 hold uniformly for every subvariety in moving coordinates, which is M2's ground.</li>
+<li>The box sizes of §4 depend only on f, and the bound of at most k<sup>d</sup> root choices holds.</li>
+<li>Expository: §11 needs its dyadic intervals anchored at P = 2<sup>i</sup>X. Otherwise the first η falls just below 1, where no cell of the main theorem applies.</li>
+</ul></li>
+READING_M2_ITEMS
+<li><strong>One GAP, in Corollary 1.3 only.</strong> For d = k+1 the proof cites Reuss's Lemma 3, its proof and his §6 for the triple count. W graded this a GAP. Reuss's §§2–3 work in ℤ[θ] with θ integral, that is, for monic f. The paper applies them to a primitive, possibly non-monic g without the standard reduction (substitute y = cn, so that c<sup>d−1</sup>g(y/c) is monic). W adds that Reuss's statement is for general irreducible f, so the citation is defensible. M1 checked the same citation for a different point: the estimate is assembled from Reuss's proof text rather than stated, which M1 graded EXPOSITION; it did not examine the monic reduction. The gap is fillable, it touches only Corollary 1.3, and Corollary 1.3 has no Lean.</li>
+<li><strong>Smaller points.</strong>
+<ul>
+<li>Booker–Browning 2016 is not cited for the k = 2 case of Corollary 1.3 (W).</li>
+<li>The Erdős history omits [Er81h] (W).</li>
+<li>Xiao's Theorem 9.1 needs no primitivity step, and the estimate taken from Xiao's §9 sits inside a proof sketch; Browning 2011 is the primary source (M1, W).</li>
+<li>W could not fetch Browning 2011 itself. Its range r ≥ (3d+1)/4 rests on three secondary statements (Xiao, Heath-Brown 2013, Reuss), which agree.</li>
+</ul></li>
+</ul>
+<p>

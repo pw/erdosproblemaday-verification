@@ -1,0 +1,6 @@
+n=52 size=27 strict_pairs=351 distinct_products=351 min_product=7 max_product=2652 OK
+n=53 size=28 strict_pairs=378 distinct_products=378 min_product=7 max_product=2756 OK
+n=56 size=29 strict_pairs=406 distinct_products=406 min_product=4 max_product=3080 OK
+n=59 size=30 strict_pairs=435 distinct_products=435 min_product=8 max_product=3363 OK
+n=61 size=31 strict_pairs=465 distinct_products=465 min_product=4 max_product=3599 OK
+DEFINITION-LEVEL WITNESS AUDIT PASSED

@@ -1,0 +1,32 @@
+Independent pair-sum frontier audit
+all normalized sets with maximum mark <= 101
+k=1 raw_total=1 sidon_by_sums=1 hull_covered=1 digest=0x730729d844642cc2 best_run=1 best_marks={0} best_interval=[0,0]
+k=2 raw_total=101 sidon_by_sums=101 hull_covered=2 digest=0xacf0646a1a4ed78d best_run=4 best_marks={0,1} best_interval=[-1,2]
+k=3 raw_total=5050 sidon_by_sums=5000 hull_covered=8 digest=0x9ca3bd6c048f9394 best_run=10 best_marks={0,1,3} best_interval=[-3,6]
+k=4 raw_total=166650 sidon_by_sums=156816 hull_covered=76 digest=0x1aa35711a8d4aeaf best_run=22 best_marks={0,1,5,7} best_interval=[-7,14]
+k=5 raw_total=4082925 sidon_by_sums=3316012 hull_covered=1102 digest=0xff3f7e72d3dd9479 best_run=42 best_marks={0,5,11,12,20} best_interval=[-12,29]
+k=6 raw_total=79208745 sidon_by_sums=46198688 hull_covered=20166 digest=0x07f417cf75016423 best_run=67 best_marks={0,7,19,22,28,39} best_interval=[-15,51]
+CONCLUSION no maximal Sidon set of size <=6 in [1,n] for 68<=n<=102: CERTIFIED
+	Command being timed: "/tmp/erdos156_size6_sums"
+	User time (seconds): 29.23
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 143
+	Voluntary context switches: 1
+	Involuntary context switches: 971
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

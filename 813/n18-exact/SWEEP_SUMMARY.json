@@ -1,0 +1,54 @@
+{
+  "status": "solver assertions; full per-branch proof certificates not retained",
+  "solver": "CaDiCaL 1.9.5 through PySAT IPASIR assumptions",
+  "offline_archive": {
+    "path": "SWEEP_LOGS.tar.zst",
+    "sha256": "da4f63a9eba8cecd2449667acf9e9e6a6edabd07ed6953a1ce3e63f8669900a3"
+  },
+  "branches": [
+    {
+      "degree": 7,
+      "split": "H",
+      "h_types": 353,
+      "m_types": 1,
+      "expected": 353,
+      "observed_unique": 353,
+      "unsat": 353,
+      "shards_done": 1,
+      "coverage_audit_sha256": "888c1693c94b9371562514b303b868c32712707081bc261b75e5462294e0c99f"
+    },
+    {
+      "degree": 8,
+      "split": "H",
+      "h_types": 1829,
+      "m_types": 1,
+      "expected": 1829,
+      "observed_unique": 1829,
+      "unsat": 1829,
+      "shards_done": 2,
+      "coverage_audit_sha256": "869eab82e137b0b10201b399dc9f7a6bcbb77eb77ecd58a3d54216f5a515533e"
+    },
+    {
+      "degree": 9,
+      "split": "M x H",
+      "h_types": 8753,
+      "m_types": 179,
+      "expected": 1566787,
+      "observed_unique": 1566787,
+      "unsat": 1566787,
+      "shards_done": 7,
+      "coverage_audit_sha256": "eaea829c0e46ae693c217a46425df9cada1e4a0e8ac50b48cc58e9f0c99f1e75"
+    },
+    {
+      "degree": 10,
+      "split": "M x H",
+      "h_types": 8688,
+      "m_types": 71,
+      "expected": 616848,
+      "observed_unique": 616848,
+      "unsat": 616848,
+      "shards_done": 7,
+      "coverage_audit_sha256": "e8ac9ce37c82c5a551c99163da2dd3f8e7f75e71de96076a3fb4d310a34e6b27"
+    }
+  ]
+}

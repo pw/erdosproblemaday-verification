@@ -1,0 +1,9 @@
+For the finite extremal function f_3(N) in Erdős Problem 535,
+
+    f_3(N) = 14  for 101 <= N <= 107,
+    f_3(N) = 15  for 108 <= N <= 124,
+    f_3(125) = 16.
+
+This is an exact computer-assisted finite extension of the previously checked
+table through N=100.  It makes no asymptotic, unrestricted-r, novelty, or
+priority claim and does not solve Problem 535.

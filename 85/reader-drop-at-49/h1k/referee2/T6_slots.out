@@ -1,0 +1,8 @@
+k=5 j=0: 96 slot clauses, base AND NOT clause SAT for 0 (must be 0); control 'matched vertex hits block Y': refutable in 48/48 (must be > 0)
+0.29 s
+k=7 j=0: 456 slot clauses, base AND NOT clause SAT for 0 (must be 0); control 'matched vertex hits block Y': refutable in 144/144 (must be > 0)
+2.82 s
+k=7 j=2: 492 slot clauses, base AND NOT clause SAT for 0 (must be 0); control 'matched vertex hits block Y': refutable in 168/168 (must be > 0)
+2.47 s
+k=7 j=4: 528 slot clauses, base AND NOT clause SAT for 0 (must be 0); control 'matched vertex hits block Y': refutable in 192/192 (must be > 0)
+2.80 s

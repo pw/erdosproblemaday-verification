@@ -1,0 +1,6 @@
+Oct 12 18:55:07 portalonce earlyoom[485]: low memory! at or below SIGTERM limits: mem 10.00%, swap 10.00%
+Oct 12 18:55:07 portalonce earlyoom[485]: sending SIGTERM to process 1773377 uid 1000 "python": badness 753, VmRSS 6997 MiB
+Oct 12 19:50:05 portalonce earlyoom[485]: low memory! at or below SIGTERM limits: mem 10.00%, swap 10.00%
+Oct 12 19:50:06 portalonce earlyoom[485]: sending SIGTERM to process 3722517 uid 1000 "lean": badness 721, VmRSS 5444 MiB
+Oct 12 19:50:06 portalonce earlyoom[485]: low memory! at or below SIGTERM limits: mem 10.00%, swap 10.00%
+Oct 12 19:50:06 portalonce earlyoom[485]: sending SIGTERM to process 3717383 uid 1000 "lean": badness 694, VmRSS 2630 MiB

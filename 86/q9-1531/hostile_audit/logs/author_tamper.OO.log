@@ -1,0 +1,2 @@
+AUTHOR_TAMPER_RESULTS substantive_rejected=4 same_count_duplicate=reject non_q9_edge=reject complete_face=reject repeated_common_neighbours=reject
+AUTHOR_SCHEMA_LENIENCY boolean_endpoint=accept duplicate_json_key=accept impact=non_load_bearing_actual_files_strictly_valid

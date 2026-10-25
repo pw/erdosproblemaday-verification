@@ -1,0 +1,51 @@
+[1/7] Verify frozen hashes
+ENVIRONMENT.txt: OK
+PROVENANCE.md: OK
+REPORT.md: OK
+crosscheck_blocking_small.py: OK
+final_crosscheck.out: OK
+final_size6_parallel.out: OK
+final_size6_sequential.out: OK
+final_size7_differences.out: OK
+final_size7_sums.out: OK
+final_size7_sums_max110.out: OK
+final_witnesses.out: OK
+full_size6_sequential_timed.log: OK
+full_size7_sums_max110_sanitized_timed.log: OK
+reproduce.sh: OK
+search_size8_random.cpp: OK
+search_size8_random.log: OK
+verify_size6_sums.cpp: OK
+verify_size6_sums_parallel.cpp: OK
+verify_size7_differences_words.cpp: OK
+verify_size7_sums.cpp: OK
+verify_witness_102_136.py: OK
+[2/7] Compile exact enumerators
+[3/7] Enumerate all normalized seven-mark rulers by pair sums
+tasks=8515/8515 endpoint_tests=4664137760 sidon=3188523904 hull_covered=455390 best_run=101 best_marks={0,24,27,35,39,41,75} best_interval=[-17,83]
+PAIR_SUM_ENUMERATION=PASS
+[4/7] Enumerate all normalized seven-mark rulers by differences
+tasks=8515/8515 endpoint_tests=4664137760 sidon=3188523904 hull_covered=455390 best_run=101 best_marks={0,24,27,35,39,41,75} best_interval=[-17,83]
+WORD_DIFFERENCE_ENUMERATION=PASS
+[5/7] Enumerate all normalized rulers of sizes one through six
+k=1 endpoint_tests=1 sidon=1 hull_covered=1 best_run=1 best_marks={0} best_interval=[0,0]
+k=2 endpoint_tests=135 sidon=135 hull_covered=2 best_run=4 best_marks={0,1} best_interval=[-1,2]
+k=3 endpoint_tests=9045 sidon=8978 hull_covered=8 best_run=10 best_marks={0,1,3} best_interval=[-3,6]
+k=4 endpoint_tests=396506 sidon=383262 hull_covered=76 best_run=22 best_marks={0,1,5,7} best_interval=[-7,14]
+k=5 endpoint_tests=12452396 sidon=11347918 hull_covered=1102 best_run=42 best_marks={0,5,11,12,20} best_interval=[-12,29]
+k=6 endpoint_tests=285696286 sidon=233716482 hull_covered=20166 best_run=67 best_marks={0,7,19,22,28,39} best_interval=[-15,51]
+tasks=35515/35515
+SIZE_LE_6_PAIR_SUM_ENUMERATION=PASS
+[6/7] Check every upper certificate directly
+normalized ruler: (0, 39, 47, 51, 52, 61, 67, 101)
+blocked component: [-16,119] (length 136)
+verified maximal eight-mark sets for every 102 <= n <= 136
+n=102 witness: (1, 40, 48, 52, 53, 62, 68, 102)
+n=128 witness: (9, 48, 56, 60, 61, 70, 76, 110)
+n=136 witness: (17, 56, 64, 68, 69, 78, 84, 118)
+WITNESS CHECK PASSED
+[7/7] Cross-check all blocking formulations on small instances
+Sidon rulers checked: 858
+candidate insertions checked: 77514
+SMALL FORMULATION CROSSCHECK PASSED
+PROBLEM 156 FRONTIER-136 REPRODUCTION PASSED

@@ -1,0 +1,23 @@
+alpha=2^-20: 2m=422 intervals; (a) max endpoints in N(I)=4 (<=49: True), min |J|/|I| over J meeting N(I)=0.8826 (>=1/16: True); (b) max V_eta breakpoints on a 4H arc=157 (<=16004D: True)
+alpha=2^-30: 2m=644 intervals; (a) max endpoints in N(I)=4 (<=49: True), min |J|/|I| over J meeting N(I)=0.8826 (>=1/16: True); (b) max V_eta breakpoints on a 4H arc=157 (<=16004D: True)
+alpha=2^-45: 2m=976 intervals; (a) max endpoints in N(I)=4 (<=49: True), min |J|/|I| over J meeting N(I)=0.8825 (>=1/16: True); (b) max V_eta breakpoints on a 4H arc=157 (<=16004D: True)
+(d)/(e) one target c=1/2, max over all anchor intervals of #distinct outputs reachable:
+  alpha=2^-20: stationary |b|<=|I|:   3 (<=50: True) | CONTROL stationary |b|<=H: 335 | rotating truncated: 114 | CONTROL rotating untruncated: 335
+  alpha=2^-30: stationary |b|<=|I|:   3 (<=50: True) | CONTROL stationary |b|<=H: 557 | rotating truncated: 114 | CONTROL rotating untruncated: 557
+  alpha=2^-45: stationary |b|<=|I|:   3 (<=50: True) | CONTROL stationary |b|<=H: 889 | rotating truncated: 114 | CONTROL rotating untruncated: 889
+  (CONTROL columns must grow with log(1/alpha); the clause-(iii) and truncated columns must not)
+(c) anchor arc #0 width=3.026e-02 rho(left)=5.000e-01 z0=0: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=264
+(c) anchor arc #0 width=3.026e-02 rho(left)=5.000e-01 z0=2: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=611
+(c) anchor arc #161 width=1.306e-06 rho(left)=2.158e-05 z0=0: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=612
+(c) anchor arc #161 width=1.306e-06 rho(left)=2.158e-05 z0=2: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=253
+(c) anchor arc #322 width=5.999e-11 rho(left)=0.000e+00 z0=0: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=601
+(c) anchor arc #322 width=5.999e-11 rho(left)=0.000e+00 z0=2: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=602
+(c) anchor arc #463 width=3.988e-07 rho(left)=6.191e-06 z0=0: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=613
+(c) anchor arc #463 width=3.988e-07 rho(left)=6.191e-06 z0=2: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=257
+(c) anchor arc #573 width=3.829e-04 rho(left)=5.944e-03 z0=0: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=606
+(c) anchor arc #573 width=3.829e-04 rho(left)=5.944e-03 z0=2: relevant endpoints/target<= 2 lines=6 outputs=7 <= 9(49h+1)^2=349281: True; determined=True; CONTROL(unlifted endpoints) clashes=610
+(f) rotating anchor arc #0 rho=0.500 z0=0: lines=19 outputs=32 <= 9(16004Dh+1)^2: True; determined=True
+(f) rotating anchor arc #0 rho=0.500 z0=1: lines=14 outputs=37 <= 9(16004Dh+1)^2: True; determined=True
+(f) rotating anchor arc #604 rho=0.041 z0=0: lines=7 outputs=8 <= 9(16004Dh+1)^2: True; determined=True
+(f) rotating anchor arc #604 rho=0.041 z0=1: lines=4 outputs=6 <= 9(16004Dh+1)^2: True; determined=True
+time 22.6s

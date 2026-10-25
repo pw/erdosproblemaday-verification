@@ -1,0 +1,2 @@
+RESULT cap=133 core=16 t_range=64..133 found=0 orbit_nodes=52055111 complete_cores=1920748 valid_cores=1920748 extension_nodes=1952412 seconds=221.077
+TIME rc=0 elapsed=221.08 user=220.94 rss=3844

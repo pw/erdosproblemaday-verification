@@ -1,0 +1,34 @@
+[2026-10-22T00:12:33Z] BEGIN cmpmod_GaussianMoat
+[2026-10-22T00:12:40Z] END cmpmod_GaussianMoat rc=0 7s
+[2026-10-22T00:12:40Z] BEGIN cmp_GaussianMoat
+[2026-10-22T00:12:46Z] END cmp_GaussianMoat rc=0 13s
+[2026-10-22T00:12:46Z] BEGIN ax_GaussianMoat
+[2026-10-22T00:12:52Z] END ax_GaussianMoat rc=0 19s
+[2026-10-22T00:12:52Z] BEGIN neg
+[2026-10-22T00:12:58Z] END neg rc=0 25s
+[2026-10-22T00:12:58Z] statement_match: ALL_MATCH_STD_SORRYSEEN GaussianMoat: 6 MATCH / 0 MISMATCH 
+[2026-10-22T00:13:13Z] BEGIN bridge_compile
+[2026-10-22T00:13:21Z] END bridge_compile rc=0 208s
+[2026-10-22T00:13:21Z] BEGIN bridge_axioms
+[2026-10-22T00:13:27Z] END bridge_axioms rc=0 214s
+[2026-10-22T00:13:27Z] BEGIN mut_sorry_compile
+[2026-10-22T00:13:33Z] END mut_sorry_compile rc=1 220s
+[2026-10-22T00:13:33Z] BEGIN mut_sorry_axioms
+[2026-10-22T00:13:33Z] END mut_sorry_axioms rc=1 220s
+[2026-10-22T00:13:33Z] BEGIN mut_step
+[2026-10-22T00:13:40Z] END mut_step rc=1 227s
+[2026-10-22T00:13:40Z] BEGIN mut_noinj
+[2026-10-22T00:13:46Z] END mut_noinj rc=1 233s
+[2026-10-22T00:13:46Z] BEGIN leanchecker_fresh
+[2026-10-22T00:16:03Z] BEGIN mut_sorry_compile_v2
+[2026-10-22T00:16:13Z] END mut_sorry_compile_v2 rc=0 10s
+[2026-10-22T00:16:13Z] BEGIN mut_sorry_axioms_v2
+[2026-10-22T00:16:19Z] END mut_sorry_axioms_v2 rc=0 16s
+[2026-10-22T00:16:19Z] BEGIN mut_step_v2
+[2026-10-22T00:16:26Z] END mut_step_v2 rc=1 23s
+[2026-10-22T00:16:26Z] BEGIN mut_noinj_v2
+[2026-10-22T00:16:32Z] END mut_noinj_v2 rc=1 29s
+[2026-10-22T01:11:45Z] END leanchecker_fresh rc=0 3712s
+[2026-10-22T01:11:45Z] BEGIN leanchecker_missing_control
+[2026-10-22T01:11:47Z] END leanchecker_missing_control rc=1 3714s
+[2026-10-22T01:11:47Z] LEANCHECKER DONE

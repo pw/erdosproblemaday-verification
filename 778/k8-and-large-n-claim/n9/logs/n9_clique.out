@@ -1,0 +1,3 @@
+n=9 mode=clique edges=36 aliceEdges=12 RESULT: BOB WINS
+nodes=313106283 memo=44100927 canonCalls=293747366 orderings=366719761 cutBob=16176538 cutAlice=3152628 time=4612.7s
+certificate: 20802845 lines -> certs/n9_clique.cert

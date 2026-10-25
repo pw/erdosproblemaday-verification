@@ -1,0 +1,15 @@
+OAI.Problem344.large_gaps_and_ratio_density MATCH | lens 827 827
+OAI.LargePrimeGaps.prime MATCH | lens 214 214
+OAI.LargePrimeGaps.largeGapIndices MATCH | lens 1319 1319
+OAI.Problem344.primeAt MATCH | lens 212 212
+OAI.Problem344.initialCount MATCH | lens 497 497
+OAI.Problem344.lowerAsymptoticDensity MATCH | lens 508 508
+OAI.Problem344.ratioIncreaseIndices MATCH | lens 908 908
+solution axioms: {'Classical.choice', 'Quot.sound', 'propext'} | comparator axioms: {'Classical.choice', 'sorryAx', 'Quot.sound', 'propext'}
+MATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+OAI.LargePrimeGaps.main STD_AXIOMS
+OAI.LargePrimeGaps.bombieriVinogradov STD_AXIOMS
+OAI.LargePrimeGaps.siegelWalfisz STD_AXIOMS
+OAI.Problem344.positive_lower_density_prime_ratio_increases STD_AXIOMS

@@ -1,0 +1,4 @@
+/tmp/oaimath/181/coffey/probe2/RightShape2.lean:3:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+'right' depends on axioms: [propext, Classical.choice, Quot.sound]

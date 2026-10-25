@@ -1,0 +1,6 @@
+D planar difference set mod 133: True
+IP97 B: |B| = 21  spectrum: {1: 84, 3: 28, 4: 21}
+(cyclic plane, IP97 B) isomorphic to (PG(2,11), cadical witness): True
+(cyclic plane, IP97 B) isomorphic to (PG(2,11), cpsat witness): True
+negative control (one point swapped) isomorphic?: False
+|Aut(cyclic plane, B)| (collineations of the cyclic plane fixing B): 168

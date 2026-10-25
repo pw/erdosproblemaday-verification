@@ -1,0 +1,10 @@
+exact log2 residuals after all displayed terms in equation (2):
+  p=2: m=40: 2.290356286, m=41: 2.040392248, m=80: 2.291165428, m=81: 2.041174704
+  p=3: m=40: 1.626654048, m=41: 1.230462290, m=80: 1.627655883, m=81: 1.231427627
+  p=5: m=40: 1.553856692, m=41: 0.973433310, m=80: 1.555058883, m=81: 0.974591702
+finite middle-rank ratios versus limiting theta weights:
+  p=2, m=40: max ratio error=1.9311559417e-05
+  p=2, m=41: max ratio error=1.95505285792e-05
+  p=3, m=30: max ratio error=1.409318652e-06
+  p=3, m=31: max ratio error=1.44029663796e-06
+ASYMPTOTIC SIGNS AND TERMS AUDIT PASSED

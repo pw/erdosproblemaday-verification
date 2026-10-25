@@ -1,0 +1,74 @@
+warning: PrimeNumberTheoremAnd: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/pi1' has local changes
+warning: heights: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/heights' has local changes
+warning: genl: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/iut' has local changes
+warning: gromov: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/gromov' has local changes
+warning: SphereEversion: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/SphereEversion' has local changes
+warning: schoenflies-lean: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/ClassFieldTheory' has local changes
+warning: AINTLIB: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/AINTLIB' has local changes
+warning: AbsorptionCutoff: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/AbsorptionCutoff' has local changes
+warning: StrongPNT: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/StrongPNT' has local changes
+warning: carleson: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/carleson' has local changes
+warning: rellich-kondrachov: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/fixed-point-theorems' has local changes
+'OAI.Erdos3.manuscriptReciprocalProgressionTheorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.Erdos3.manuscriptQuantitativeDensityTheorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.Erdos3.manuscript_main_theorems' depends on axioms: [propext, Classical.choice, Quot.sound]
+def OAI.Erdos3.ReciprocalProgressionTheorem : Prop :=
+∀ (A : Set.{0} Nat),
+  Not
+      (@Summable.{0, 0} Real Nat Real.instAddCommMonoid
+        (@UniformSpace.toTopologicalSpace.{0} Real (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace))
+        (OAI.Erdos3.reciprocalTerm A) (SummationFilter.unconditional.{0} Nat)) →
+    ∀ (k : Nat), OAI.Erdos3.HasAP A k
+def OAI.Erdos3.HasAP : (A : Set.{0} Nat) → (k : Nat) → Prop :=
+fun (A : Set.{0} Nat) (k : Nat) =>
+  @Exists.{1} Nat fun (a : Nat) =>
+    @Exists.{1} Nat fun (d : Nat) =>
+      And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) d)
+        (∀ (i : Nat),
+          @LT.lt.{0} Nat instLTNat i k →
+            @Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) A
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) a
+                (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) i d)))
+def OAI.Erdos3.reciprocalTerm : (A : Set.{0} Nat) → (n : Nat) → Real :=
+fun (A : Set.{0} Nat) (n : Nat) =>
+  @ite.{1} Real (@Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) A n)
+    (Classical.propDecidable (@Membership.mem.{0, 0} Nat (Set.{0} Nat) (@Set.instMembership.{0} Nat) A n))
+    (@Inv.inv.{0} Real Real.instInv (@Nat.cast.{0} Real Real.instNatCast n))
+    (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+def OAI.Erdos3.QuantitativeDensityBound : (k : Nat) → Prop :=
+fun (k : Nat) =>
+  @Exists.{1} Real fun (C : Real) =>
+    @Exists.{1} Real fun (c : Real) =>
+      @Exists.{1} Real fun (η : Real) =>
+        And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C)
+          (And
+            (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c)
+            (And
+              (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+                η)
+              (∀ (N : Nat),
+                @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) N →
+                  @LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast (OAI.Erdos3.extremalNumber k N))
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+                        (@Nat.cast.{0} Real Real.instNatCast N))
+                      (Real.exp
+                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                          (@Neg.neg.{0} Real Real.instNeg c)
+                          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                            (Real.log (Real.log (@Nat.cast.{0} Real Real.instNatCast N)))
+                            (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) η))))))))
+OAI.Erdos3.manuscriptReciprocalProgressionTheorem : OAI.Erdos3.ReciprocalProgressionTheorem

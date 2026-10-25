@@ -1,0 +1,4 @@
+../submitted/edges_q9_1532.txt rows 1532 edges 1532 max common nbrs 1 degree range 5 8
+2-faces by #edges [0..4]: [0, 784, 0, 3824, 0]  total 4608 = 4608
+../submitted/q9b_spin_6.txt rows 1532 edges 1532 max common nbrs 1 degree range 5 8
+2-faces by #edges [0..4]: [0, 784, 0, 3824, 0]  total 4608 = 4608

@@ -1,0 +1,11 @@
+launch 2026-10-14T03:24:13Z 0 0
+smoke 0 16
+build 0 818
+axioms 0 7
+comparator 0 7
+negcontrol 0 7
+statement_match 1 0
+statement_match_v2 0 0
+wrongshape 1 0
+rightshape 0 0
+leanchecker_fresh 0 3849

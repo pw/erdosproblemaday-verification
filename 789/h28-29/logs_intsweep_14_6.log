@@ -1,0 +1,3 @@
+INTSEARCH N=17 m=14 k=6 admissible_subsets=85/12376 SAT witness=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 16] every_6_subset_bad=True secs=2.8
+WITNESS FOUND at N=17
+INTSWEEP DONE

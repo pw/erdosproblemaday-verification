@@ -1,0 +1,248 @@
+TITLE: #431: Ostmann's inverse Goldbach problem — OpenAI's 80-page proof that the primes are not a sumset holds as read by four AI referee seats; its Lean is two proofs, and the second runs through a formal proof that Landau–Siegel zeros do not exist, which the kernel accepts against our own statement of it
+SUMMARY: Are there infinite sets A and B whose sumset A + B equals the primes up to finitely many exceptions? Ostmann asked it in 1956 and Erdős recorded it; the best results were square-root bounds on how thin A and B would have to be. OpenAI's preprint of 24 September (80 pages, family 013) proves the answer is no, and more: for any A, B with at least two elements each, A + B differs from the primes in infinitely many places. Four AI referee seats read §§1–9 and found no gap, only exposition notes. Its Lean has two comparator challenges proved by two almost disjoint developments (47 shared modules of about 7,500). Route C formalizes the paper's own analytic inputs; route M instead goes through a Lean theorem that Landau–Siegel zeros do not exist, the release's separate claim, which the paper does not use. We replayed all 7,582 modules (0 errors, standard axioms, statements matched) and wrote that theorem's statement ourselves in Mathlib's own L-functions: the kernel accepts OpenAI's proof of our copy. Nobody here has refereed that proof. Ours: Formal Conjectures' two #431 statements, proved in Lean from each route. The theorem is OpenAI's.
+CARD TAG: 23 OCT · OPENAI'S CLAIM — THE THEOREM IS NOT OURS · OSTMANN 1956, RECORDED BY ERDŐS: ARE THE PRIMES A + B UP TO FINITELY MANY EXCEPTIONS? · CLAIMED: NO, FOR EVERY |A|, |B| ≥ 2 · FOUR HOSTILE AI REFEREE SEATS FIND NO GAP IN 80 PAGES · ITS LEAN IS TWO ALMOST DISJOINT PROOFS: ONE FORMALIZES THE PAPER'S INPUTS, THE OTHER RUNS THROUGH A KERNEL-CHECKED, UNREFEREED PROOF THAT LANDAU–SIEGEL ZEROS DO NOT EXIST · OURS: FC'S #431 STATEMENTS FROM EACH · UNREVIEWED BY HUMANS
+CARD TITLE: The primes are not a sumset: OpenAI's proof of Ostmann's conjecture holds as read, and one of its two Lean proofs runs through a kernel-checked proof that Landau–Siegel zeros do not exist
+CARD LINE: A sum a + b ≡ 0 mod p would be composite, so A and −B occupy disjoint halves of every 𝔽_p. Show neither half can correlate with a character of any order, use prime coverage to force additive transforms that are not small, and compare binary trees of Cauchy–Schwarz transfers until a positive statistic contradicts itself. Four referee seats read all 80 pages and found no gap. Of the two Lean proofs, only the one that follows the paper avoids OpenAI's separate no-Siegel-zero theorem.
+LEAN LABEL (shown in the site's ledger): OpenAI's own Lean proves Theorem 1.1 — (A+B) △ primes is infinite whenever |A|, |B| ≥ 2 — twice, by two developments that share 47 of about 7,500 modules: route C (Complete.lean, comparator OstmannComplete) formalizes the paper's analytic inputs and discharges each by a proof; route M (Main.lean, comparator OstmannPrimes) uses instead a Lean proof that Landau–Siegel zeros do not exist, the release's separate claim, which the paper does not use. Kernel-replayed on our machine on 23 Oct 2026 — 7,582 modules, 0 errors, standard axioms, both comparator statements matched under pp.all; the no-Siegel-zero theorem's statement checked against our own root-namespace copy in Mathlib's definitions. [leanchecker result pending] Kernel-checked bridges of ours prove Formal Conjectures' erdos_431 and erdos_431.variants.ostmann from each route — see our /day entry
+
+=== BODY ===
+The problem. Erdős problem #431 [Er61, p. 225; Er77c; Er80; ErGr80, p. 85]: are there two infinite sets A and B such that A + B agrees with the set of primes up to finitely many exceptions? It is Ostmann's problem, from his 1956 treatise, and is also called the inverse Goldbach problem; Erdős dated it to about 1955, and the problem page says "the answer is surely no". The general form, Ostmann's conjecture, allows any summands with at least two elements: no set that differs from the primes in finitely many places is A + B with |A|, |B| ≥ 2. Laffer and Mann (1964, Theorem 12) showed that a decomposition, if one existed, would need two infinite summands, so the page's question already is the whole conjecture.
+
+What was known before is a list of constraints on a decomposition that might exist:
+
+
+
+  • sieve bounds of Hornfeck (1954–55), Pomerance, Sárközy and Stewart (1988), and Hofmann and Wolke (1996);
+
+  • Elsholtz (2001) put both counting functions at the square-root scale up to powers of log x, and showed the primes are not A + B + C with three nontrivial summands;
+
+  • Elsholtz and Harper (2015) sharpened the binary bounds to √x/(log x · log log x) ≪ A(x), B(x) ≪ √x · log log x, the bound the problem page quotes;
+
+  • Green and Harper (2014) showed that a conjectured inverse theorem for the large sieve would imply Ostmann's conjecture, and Hanson (2020), Croot, Mao and Yip (2025) and Croot, Mao, Pohoata and Yip (2026) proved partial inverse theorems, the last giving large intersections of each summand with a quadratic image m ± ℤ²;
+
+  • Shao (2016) proved a finite ternary obstruction: three subsets of [1, N] of size at least N^1/3−c have a composite in their sumset.
+
+
+In the other direction, Granville (1990, assuming the prime k-tuples conjecture) found infinite B and C with every (b + c)/2 prime, and Tao and Ziegler (2023, unconditionally) found infinite B = {b_1 < b_2 < …} and C = {c_1 < c_2 < …} with every b_i + c_j, i < j, prime. Those sets put no composites in their sums, but their sums do not cover the primes, so they are not counterexamples.
+
+
+The claim. OpenAI, "The additive indecomposability of the primes" (dated 24 September 2026, 80 pages, family 013 of github.com/openai/math). Theorem 1.1: if A, B ⊆ ℕ₀ with |A|, |B| ≥ 2, then (A + B) △ P is infinite, where P is the set of primes. That is a full no to #431 and a proof of Ostmann's conjecture. Two equivalent readings are worth stating, because one public summary has them wrong:
+
+
+
+  • the symmetric difference is infinite: either A + B misses infinitely many primes, or it contains infinitely many composites (or both);
+
+  • so if A + B contains every large prime, it contains infinitely many composite numbers. The paper says this, and the Lean proves it as infinitely_many_composite_sums.
+
+
+It is not true that both always happen. Take A = {1, 3} and B = {2, 4}: A + B = {3, 5, 7} contains no composite at all, and misses every prime but three. Thomas Bloom's 8 October summary of the release states the theorem with "and" ("infinitely many composite numbers in A+B, and infinitely many primes not in A+B"), which is stronger than the theorem and false; read it as "or".
+
+Elsholtz and Harper work with positive integers and the paper with ℕ₀, which includes 0. Sets of positive integers are the special case 0 ∉ A ∪ B, so the theorem covers both readings.
+
+The argument. The proof is by contradiction from a decomposition, and it uses both halves of the hypothesis separately: eventual exclusion of composites from A + B, and eventual coverage of the primes by it.
+
+
+
+  • §2 first disposes of finite summands. If A were finite, two of its elements a₁ ≠ a₂ would make b + a₁ and b + a₂ both prime for every large b ∈ B, and a sieve for finitely many shifts (Lemma 2.1) gives B(Y) ≪ Y/(log Y)², too few to cover the ≍ Y/log Y primes up to Y with only |A| shifts. That is a short sieve proof of Laffer and Mann's reduction (Lemma 2.2). What is left is Theorem 2.3, two infinite summands. Put D = −B. Exclusion does the first work: if a ∈ A and b ∈ B are large and a ≡ −b (mod p), then p divides a + b > p, so a + b is composite. So for each prime p the large elements of A and of D have disjoint images in 𝔽_p. Completing them to a partition gives a residue set S_p and its complement, and a collision estimate shows that on suitable averages over primes the two parts have about half of 𝔽_p each, with A and D close to uniform on them.
+
+  • §3 rules out persistent correlation of the partition with quadratic characters whose translating centre may be chosen independently at each prime. A moment argument and Poisson summation force a common rational centre; the quadratic large sieve then confines positive fractions of long tails of the summands to a few quadratic kernels, and a collision count contradicts that.
+
+  • §4 does the same for characters of every higher order by repeated Cauchy–Schwarz transfers, with "anchor" variables that keep the copied terms apart so that character sums can cancel the diagonal. The output is the mixed-character decorrelation of Corollary 4.2.
+
+  • §5 is where coverage enters. A tensor estimate shows the normalized additive transforms of the residue indicators cannot have small L¹ norm on too much harmonic prime mass (Proposition 5.1); the proof compares a nonnegative sumset statistic with its average over the primes.
+
+  • §§6–8 build the contradiction. §6 proves a finite-field comparison for the binary trees the transfers produce, assuming only an L² bound and the mixed-character decorrelation, so the residue indicators may be far from uniform pointwise. §7 constructs a positive statistic and its transfers; §8 compares the arithmetic "histories", handling repeated prime labels, coprimality conditions and a possible exceptional real character in the prime-progression estimates.
+
+  • §9 averages over permutations of the bulk variables. Most pairs of arrangements have few overlap components and hence small correlation, and their total, with the diagonal terms, contradicts the lower bound from the positive statistic. The transfer depth is fixed before the large scale tends to infinity.
+
+
+The paper says it does not prove, or need, Green and Harper's inverse large-sieve conjecture, nor any classification of sets near the square-root sieve bound.
+
+The reading. Four seats, all Claude Opus 5.5, were each briefed to refute, to quote the sentence they objected to by the paper's printed numbering, and to grade every objection FATAL, GAP, FIXABLE or EXPOSITION. All were told that a third party had kernel-checked the Lean and that ours was running, so the theorem was very probably true; their task was whether the written argument is correct and complete. None was told it was.
+
+
+
+  • seat R1: §§1–3, the reduction, the size and collision estimates, and the quadratic characters;
+
+  • seat R2: §§4–5, the higher-order characters and the supply of additive transforms;
+
+  • seat R3: §§6–8, the tree comparison, the positive statistic and the arithmetic comparison;
+
+  • seat L: §9 and the assembly, and a map of the Lean's literature inputs.
+
+
+All four returned HOLDS AS READ for their scope, with no FATAL, GAP or FIXABLE objection: only exposition notes. R2 adds a caveat on depth. §4 proves a new large-values estimate at the √X barrier in about thirteen pages, and a few of its bookkeeping steps (the precision "known modulo R^k+2−h", the degree counts for reconstructed numerators) R2 checked for mechanism and order of magnitude rather than with explicit constants.
+
+
+
+  • R1 checked the reduction to infinite summands in full, including a summand that contains 0, a finite summand on either side, and small primes; exclusion supplies the two shifts and coverage supplies π(Y) ≤ |A|·B(Y) + O(1). It opened Laffer and Mann's paper: Theorem 12 says what the paper says, though their proof goes through Dirichlet's theorem rather than a sieve. It opened Elsholtz 2006: Theorem 1.9 has exactly the paper's exponents, √N(log N)^−3 ≪ A(N) ≪ √N(log N)², for positive integers, and the paper reproves it for ℕ₀ as Lemma 2.4. Elsholtz–Harper's sharper bounds are quoted correctly in §1 and used nowhere after.
+
+  • R1 rebuilt §3 step by step: the amplified moment, the Poisson and Gauss-sum identity behind (3.9) (checked numerically to 6·10^−12; with the sign of h₀ flipped the error is 91.6), the moment bound over a family fixed before sampling, the common rational centre, Heath-Brown's quadratic large sieve, the exceptional-zero step and the final collision count. The averages over primes become statements about single primes only by deleting a small exceptional set and working with what is left; the facts used for single primes at the end come straight from exclusion ("x − y is a prime"). As sanity tests, R1 dropped each half of the hypothesis: with A = B = the squares (no exclusion) the argument breaks exactly at the steps that use exclusion, and without coverage it loses Lemma 2.4's lower bound, which the moment step needs.
+
+  • R3 read §§6–8 in full. Lemma 6.1 uses only g(0) = 0, E|g|² ≤ 1 and the mixed-character correlation going to 0, nothing pointwise, and Corollary 4.2 delivers exactly that at every spectator prime, not on average. The density bound 2^r−1 in (6.3) is sharp: exact enumeration at depth 2 hits multiplicity 8. The statistic of §7 is nonnegative term by term, not just on average, because the tests are real.
+
+  • R3 on exceptional zeros. The prime-progression estimate of §8 (Lemma 8.1) is Page's theorem with the exceptional zero kept in the formula, at moduli up to exp(e^.012L), far outside the Siegel–Walfisz range; Siegel's theorem is not used there. R3 checked that every possible exceptional modulus is handled, not only the generic one: a conductor with a large prime factor is kept out by deleting that prime from every prior, and a conductor made of small primes can only touch the frequency part. (§3 does use Siegel's theorem, in its ineffective form, which is fine for a qualitative statement.)
+
+  • L re-derived every display of §9 and checked each earlier result it invokes at the point of use, including the order in which the constants are fixed: B_s, then B_*, B_z, B_D, the depth k, and finally L → ∞. Its brute-force count of bad arrangements is tight at r = 4, m = 2 (384 against the bound's 384).
+
+  • R2 reconstructed §4, the higher-order characters, including the transfer, the history uniqueness and the diagonal. The anchor-code bookkeeping of (4.9)–(4.13) was simulated exactly for depths 1–6: every code occurs on at most two paths, and two paths with different codes always have an anchor with net exponents (±2, 0) or (0, ±2). Two mutated update rules fail the check. The only character-sum input in §4 is the one-sided interaction (4.11), which is not a Weil bound: the translating centres live in additive phases that cancel exactly in every compared pair, so degenerate or coinciding centres never matter. R2 also notes why §4 cannot run for quadratic characters, where the interaction λ^±2 is principal. That matches the true obstruction (A = squares, χ_p(n²) = 1), which §3 handles separately.
+
+  • R2 on §5, where coverage enters. The energy identity (5.3) checks numerically to 2·10^−10 at three composite moduli; with κ_p replaced by κ_p^−1 it misses by 2.3–4.0. Coverage is used once, at (5.22). Exclusion is used through the disjoint supports, which Lemma 5.2 needs: with A = B = ℕ₀ no partition exists, and forcing S_p = T_p = 𝔽_p removes the contraction. Lemma 5.3, the prime mean, works with any zero-density estimate of the shape (Q²T)^C(1−σ)(log QT)^O(1), so the exact Montgomery–Inoue exponent the paper cites is not load-bearing.
+
+
+The exposition notes, for the authors:
+
+
+
+  • pp. 13 and 15: "weighted square norm" (after (3.14), at (3.17), before (3.21)) is the square root, the quantity on the right of (3.13); the bounds are right for that quantity.
+
+  • p. 66: Lemma 8.1's statement does not say which zero is exceptional; the definition is in its proof, at (8.9).
+
+  • p. 56: in the proof of (7.2), replacing (log p)/p by 1/p needs a Cauchy–Schwarz step the text leaves out, because the test is not pointwise bounded. It works.
+
+  • p. 74, (9.1): read alone, the display looks as if (m!)^re^(¼ log r + C)rm bounds the bad count; for tiny m it does not (r = 4, m = 1: 24 against 10.9), and the e^O_k(1) pairing factor in the sentence before is what carries it.
+
+  • p. 76: "for every sufficiently large fixed k" at (9.6)/(9.8) owes its "large k" only to the uniformity of the constant in (9.4); one clause would save a reader looking for a k in (9.7).
+
+  • p. 44, Remark 5.4: it cites OpenAI's "The Quasi-Riemann Hypothesis" preprint, dated 30 September 2026, six days after this paper's own date. The remark says the proof does not use it, and nothing in §§5–9 does, so it is harmless to the proof; but a reader should not take it as support for that preprint.
+
+  • p. 31, before (4.12): the "common parity α_j of the active pivot" is always 1, because only the positive copy of a future pivot stays active.
+
+  • U and z each mean two things across §§4–5.
+
+
+The Lean: two formal proofs, almost disjoint. OpenAI's formalization for this family has two comparator challenges, and they are proved by two different developments.
+
+
+
+  • ComparatorChallenges/OstmannComplete.lean states OAI.Ostmann.inverseGoldbach (Theorem 1.1) and twoInfiniteSummandsImpossible (Theorem 2.3). Its solution module, OAI.NumberTheory.Ostmann.Complete, closes over 3,207 of OpenAI's own modules. Call this route C.
+
+  • ComparatorChallenges/OstmannPrimes.lean states OAI.Ostmann.main: for nontrivial A, B ⊆ ℕ, ((A + B) ∆ {n | n.Prime}).Infinite. Its solution module, OAI.NumberTheory.Ostmann.Main, closes over 4,358. Call this route M.
+
+
+The two closures share only 47 modules: the definitions and statement (Defs, Statement, Endpoint, FiniteCRT, FiniteFactor) and 42 prime-gap utility modules. Both statements are the theorem as the page asks it. ℕ includes 0 and Nat.Prime is the positive primes, so A, B ⊆ ℕ is the paper's ℕ₀, and "nontrivial" is "at least two elements".
+
+Route C is the paper, formalized. It was built as the paper's argument with each analytic input stated as an explicit hypothesis. The hypotheses were then discharged one at a time by proofs: MainWithoutQuadraticSieve, MainWithoutSiegel, MainWithoutSummandSize and so on, down to Complete.lean. Seat L traced the chain and read each input against the paper's citation:
+
+
+
+  • the prime number theorem in progressions with Page's exceptional zero kept in the formula (Montgomery–Vaughan Cor. 11.20, with Thm 11.3 and Page's Cor. 11.10), and the bounded-height Landau–Page region (Ford–Green–Konyagin–Maynard–Tao, Lemma 7.1);
+
+  • Siegel's theorem in its full ineffective form (MV Cor. 11.15);
+
+  • Montgomery's zero-density estimate in the form N(σ, T) ≪ (Q²T)^3(1−σ)/(2−σ)(log QT)^13, summed over primitive characters (Montgomery 1969, as stated by Inoue). That form is not log-free, and the proof gets (log)^10;
+
+  • a smoothed explicit formula and zero count for one fixed test function, and the real-character Hadamard identity;
+
+  • Heath-Brown's quadratic large sieve (1995, Theorem 1, full statement), and the Montgomery–Vaughan additive large sieve with constant M + Q²;
+
+  • Bonami's hypercontractive inequality;
+
+  • Elsholtz's square-root size bounds, the paper's Lemma 2.4.
+
+
+Each is a hypothesis of the main theorem until a proved theorem or def discharges it, and each matches the form the paper cites. One cited result is formalized in neither route: Kneser's theorem, which §4 uses for a covering step. Route M replaces it with an elementary covering lemma; we did not trace how route C avoids it.
+
+Route M takes a stronger input the paper never uses. Its Conclusion/ directory mirrors §9 file by file, so it follows the paper's architecture, but its analytic inputs differ. On its proof path is dirichlet_real_zero_bound, from a 105-module Siegel/ directory inside OpenAI's Jacobsthal (#970) formalization. In Mathlib's own DirichletCharacter.LFunction, it states:
+
+there is c > 0 such that for every q ≥ 3, every primitive nontrivial real character χ mod q, and every real zero β ∈ (0, 1) of L(s, χ): c ≤ (1 − β) log q.
+
+That is the nonexistence of Landau–Siegel zeros. It is open in the published literature, and it is the statement of another claim in the same release, "Uniform exclusion of Landau–Siegel zeros" (OpenAI, 1 October 2026), whose own comparator challenge SiegelZeros nealmcb's sweep accepted on 11 October. Route M uses it to get a zero-free region with no exceptional character. That lets its version of Lemma 5.3 sum over all characters instead of deleting one, and its version of (9.15) use a "large-modulus Siegel–Walfisz" estimate with no exceptional term. That is the shape of the paper's Remark 5.4, but powered by no Siegel zeros instead of the quasi-Riemann hypothesis.
+
+Seat L traced the dependency textually, 25 links from actual_no_decomposition to the theorem, each read by hand. A second instrument, which does not read text, agrees. It walks the proof terms themselves: each constant's type and value, transitively, the same graph #print axioms walks. From OAI.Ostmann.main it reaches dirichlet_real_zero_bound in 28 steps through the same chain (the supply estimate of §5, then an exception-free zero-free region, then the disk around s = 1). From route C's two theorems it reaches 99,798 and 99,655 constants, and none of them is in OpenAI's Erdos970 namespaces, where the Siegel directory lives. A constant on route C's path is reached as a positive control, and a constant declared beside the probe and never used is not reached.
+
+The no-Siegel-zero theorem is the real statement, and the kernel accepts its proof on our machine. A theorem that only looks like a famous one is a known trap in formal proofs, for example when a name resolves to a local definition rather than the library's. So we wrote the statement ourselves at the root namespace, every name spelled _root_. so that it can only be Mathlib's: DirichletCharacter.LFunction (which Mathlib defines through the Hurwitz zeta function, so it is the analytically continued L-function), IsPrimitive, Real.log. Then we asked the kernel to accept OpenAI's proof term as a proof of our copy. It does, with exactly propext, Classical.choice and Quot.sound. Two changed copies are rejected: one with log q replaced by log log q, and one with the hypothesis L(β, χ) = 0 removed (which would make it false). The Mathlib in our build is an unmodified checkout of the revision OpenAI pins, and no file in OpenAI's tree or its patched dependencies declares an LFunction of its own. Our replay of #970 on the same morning compiled the same 105 modules.
+
+That is a formal proof that Landau–Siegel zeros do not exist, and it checks. What we have not done is read it. Nobody on our side has refereed the 105 modules or the preprint behind them, and a result of this size wants specialists before anyone leans on it. The proof of Ostmann's conjecture does not have to: route C's closure contains no module from that directory, and the paper does not use it either (R3: §8 keeps the exceptional zero; R2 and L: Remark 5.4 is optional). So for Ostmann's conjecture, route C is the formal proof that corresponds to the paper, and route M is a second proof that also rests on the larger claim.
+
+#970 rests on it too. We replayed and shipped OpenAI's #970 (Jacobsthal) Lean this morning, and the Siegel directory lives inside it. The same proof-term walk, from both #970 theorems (erdos_970_iterated_log and erdos_970_quadratic), reaches dirichlet_real_zero_bound in 29 steps: a prime sieve lower bound, an estimate for primes in short progressions, a "large-modulus Siegel–Walfisz" theorem with no exceptional term, and a zero-free region with no exceptional character. The #970 paper itself uses Siegel–Walfisz only in its classical, ineffective form, in §10. Our #970 entry did not say this, and now carries a dated correction.
+
+
+Our replay. We rebuilt the whole closure from source on our own machine, without lake: OpenAI's tree at commit 1581d4c (the Ostmann, Jacobsthal and PrimeGaps directories), its pinned PrimeNumberTheoremAnd, StrongPNT and AINTLIB with OpenAI's own Lean 4.34.1 compatibility patches applied, and an unmodified Mathlib at d13f23b, the revision OpenAI pins. All 7,582 modules compiled under Lean 4.34.1 with 0 errors. That took 99,883 s of summed per-module wall time (about 28 CPU-hours) in three hours of real time, at up to twelve processes; no single process went above 7.3 GiB.
+
+
+
+  • #print axioms, with --trust=0, gives exactly propext, Classical.choice and Quot.sound for OAI.Ostmann.inverseGoldbach, OAI.Ostmann.twoInfiniteSummandsImpossible (route C) and OAI.Ostmann.main (route M). A planted file with a sorry, compiled the same way, reports sorryAx.
+
+  • The solution theorems' types, and the five definitions route C's statements unfold through (InverseGoldbach, TwoInfiniteSummandsImpossible, EventuallyPrimeSumset, sumset, primes), print under pp.all exactly as in OpenAI's two comparator challenge files: 7 of 7 blocks match for OstmannComplete, 1 of 1 for OstmannPrimes. A copy of the probe output with one token changed (Nat.Prime to Nat.Coprime) fails the matcher.
+
+  • [PENDING — leanchecker --fresh over a file importing both routes started 09:12Z and is still running; its result will be written here. Do not object to the absence.]
+
+  • Our scan of all 7,582 source files, with comments stripped, found sorry only in the two comparator challenge files, where it belongs (3 occurrences). It found no axiom, admit, native_decide, implemented_by, extern, unsafe, opaque or ofReduceBool. The only meta code is PrimeNumberTheoremAnd's additive_combination tactic (one partial def, two syntax declarations), whose output the kernel checks, plus one scoped attribute [-instance] … in in a Jacobsthal file. A planted control file containing every token was caught, and a commented-out sorry was not counted. Seat L's independent grep over both closures agrees.
+
+
+We were not first. Searching by the challenge names OstmannComplete and OstmannPrimes turned up three earlier checks:
+
+
+
+  • carlostoledo1891/cert-machine (committed 10 October): OpenAI's Comparator on both challenges, each accepted by Lean's kernel and by the independent nanoda kernel (3,528 s for OstmannComplete, 10,338 s for OstmannPrimes);
+
+  • nealmcb/openai-math-lean-tooling: both challenges accepted by Comparator on 10 October, and OstmannPrimes also accepted by nanoda in its long-check sweep;
+
+  • plasma-ai/erdos (7–8 October), which records the claim as accepted "because this corpus built and audited its Lean proof".
+
+
+Ours is about the fourth. The two developments were noticed before us too: atimics/math2 (8 October, Fidelity/Redundancies.lean) lists family 013 among the results OpenAI "formalized … twice, under different names, in separate comparator files with separate proof developments", and proves in Lean that the two statements are the same proposition. nealmcb's report lists the two closure sizes (3,207 and 4,358 modules). We found no earlier record that one of the two rests on the release's no-Siegel-zero theorem; we searched GitHub code for dirichlet_real_zero_bound and for the challenge names together with Siegel, on 23 October.
+
+Formal Conjectures' #431 statements (ours, label (d)). FC tags both its #431 statements "research solved" and links OpenAI's Lean. Both proof bodies are still sorry, and neither is OpenAI's statement:
+
+
+
+  • erdos_431 asks the page's question in FC's own vocabulary, ¬∃ infinite A, B with (A + B : Set ℕ) =ᶠ[Filter.cofinite] {n | n.Prime}: eventual equality along the cofinite filter, not a finite symmetric difference;
+
+  • erdos_431.variants.ostmann is Theorem 1.1 written with ∆ and .Infinite.
+
+
+Our Bridge431C.lean and Bridge431M.lean prove verbatim copies of both from each route separately. The first imports only route C's solution module, the second only route M's, so FC's statements follow from either. The step from FC's form to OpenAI's is Filter.eventuallyEqSet_iff plus Filter.eventually_cofinite: the set where membership in A + B and primality disagree is exactly the symmetric difference. A verbatim check compares the copied statements and the two open scoped lines with FC, whitespace-normalised; it passes, and a copy with .Infinite changed to .Finite fails it.
+
+
+
+  • Both bridges compile against our replay with 0 errors, and #print axioms (--trust=0) gives the standard three for all four theorems. A single file importing both routes also compiles, so the two developments coexist in one environment.
+
+  • Controls: a copy with a planted sorry reports sorryAx on both statements, for each route. Two false strengthenings fail to compile: B.Nontrivial weakened to B.Nonempty, from either route (false: A = the primes, B = {0}), and erdos_431 with B.Infinite dropped, from route C (false for the same pair).
+
+
+Sources and the world.
+
+
+
+  • The problem page (read through our Hetzner box on 23 October) has no proof claims and no comments, comments are suspended, it does not mention OpenAI, and it was last edited on 8 April 2026. The community database (teorth/erdosproblems, current to its 22 October commit) still lists #431 as open, last updated 31 August 2025.
+
+  • Formal Conjectures marked both of its #431 statements, erdos_431 (two infinite summands) and erdos_431.variants.ostmann (two nontrivial summands), "research solved" in PR #6898 (merged 11 October), linking OpenAI's Complete.lean and Result.lean. Both proof bodies are still sorry.
+
+  • Thomas Bloom's 8 October post lists #431 among the release's 25 Erdős claims and among its solutions to problems on Epoch's FrontierMath Erdős list, with the disclaimer that he had "not yet looked at in any serious way any of the proofs". His one-line statement of the theorem says "and" where the theorem says "or" (see above).
+
+  • Plasma AI's wiki (7–8 October) records the claim as "accepted because this corpus built and audited its Lean proof", and says "The proof has not been reviewed in this corpus."
+
+  • Epoch's LeanOpenProblems results include one model run on FC's erdos_431 with a $300 budget; its submission still contained sorry and was scored incorrect. It is not a check of OpenAI's proof.
+
+  • No expert assessment of the 80-page argument, no reported error, no arXiv version and no independent proof turned up in our searches.
+
+  • The paper and its Lean have not changed since release. The only commit touching the preprint or lean/OAI/NumberTheory/Ostmann is the initial one (adc7f124, 6 October), which is also what Formal Conjectures links.
+
+  • One citation is to another OpenAI claim. The bibliography cites OpenAI's "The Quasi-Riemann Hypothesis: a zero-free half-plane Re(s) > 7/8" (family 003 of the same release, unrefereed here). It appears only in Remark 5.4, "An optional zero-free refinement", which ends: "The proof of Proposition 5.1, including its exceptional-character deletion, uses the classical estimate of Lemma 5.3, not this zero-free theorem." Neither Lean route contains a module from that family. Route M does contain the separate formal proof that Landau–Siegel zeros do not exist (see the Lean section), which the paper does not cite.
+
+
+
+
+=== LINKS ===
+ - erdosproblems.com/431 (read 23 Oct 2026: no proof claims, comments suspended, no mention of OpenAI; last edited 8 Apr 2026) | https://www.erdosproblems.com/431
+ - OpenAI, "The additive indecomposability of the primes" (family 013, dated 24 Sep 2026, released 6 Oct, 80 pp) | https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/the-additive-indecomposability-of-the-primes-September-24-2026
+ - OpenAI's Lean — OAI/NumberTheory/Ostmann (7,716 files; Complete.lean = route C, Main.lean → Result.lean = route M) | https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/NumberTheory/Ostmann
+ - OpenAI's comparator challenges OstmannComplete.lean and OstmannPrimes.lean | https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/ComparatorChallenges
+ - The no-Siegel-zero theorem route M uses: Jacobsthal/Siegel/DirichletRealZeroBound.lean (dirichlet_real_zero_bound) | https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/NumberTheory/Jacobsthal/Siegel/DirichletRealZeroBound.lean
+ - OpenAI's Lean doc 003 — the quasi-Riemann hypothesis and "Uniform exclusion of Landau–Siegel zeros" (comparator SiegelZeros); not refereed here | https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/docs/003.md
+ - Earlier replay: carlostoledo1891/cert-machine — Comparator on both challenges, Lean's kernel and nanoda accept (run 38019899278, committed 10 Oct 2026) | https://github.com/carlostoledo1891/cert-machine/tree/main/corpus/openai-math/kernel-runs/38019899278
+ - Earlier replay: nealmcb/openai-math-lean-tooling — both challenges accepted 10 Oct 2026; OstmannPrimes also through nanoda | https://github.com/nealmcb/openai-math-lean-tooling
+ - Earlier note: atimics/math2, Fidelity/Redundancies.lean (8 Oct 2026) — family 013 has separate proof developments; the two comparator statements proved to be the same proposition | https://github.com/atimics/math2/blob/0fe7b23/Fidelity/Redundancies.lean
+ - Plasma AI wiki, E0431 claim page (7–8 Oct 2026) — accepted on the Lean; "The proof has not been reviewed in this corpus" | https://github.com/plasma-ai/erdos/blob/main/wiki/problems/primes/E0431/claims/2026_09_24_openai.md
+ - Formal Conjectures, ErdosProblems/431.lean (statements our bridges copy; marked solved in PR #6898, proofs sorry) | https://github.com/google-deepmind/formal-conjectures/blob/7db2ea3b91bfbd0ab620215163e6c488bbb916d5/FormalConjectures/ErdosProblems/431.lean
+ - Thomas Bloom, "Erdős problems in the OpenAI proofs" (8 Oct 2026) — lists #431; its one-line statement says 'and' where the theorem says 'or' | https://www.erdosproblems.com/forum/thread/blog:10
+ - Laffer and Mann, "Decomposition of sets of group elements", Pacific J. Math. 14 (1964) 547–561 — Theorem 12: a decomposition of the primes needs two infinite summands | https://doi.org/10.2140/pjm.1964.14.547
+ - Elsholtz and Harper, "Additive decompositions of sets with restricted prime factors", Trans. AMS 367 (2015); arXiv 1309.0593 — Theorem 2.6 | https://arxiv.org/abs/1309.0593
+ - Green and Harper, "Inverse questions for the large sieve", GAFA 24 (2014); arXiv 1311.6176 — an inverse large-sieve conjecture that would imply Ostmann's | https://arxiv.org/abs/1311.6176
+ - Our bundle (repository private at the time of writing; files available on request) — the replay (driver, per-module logs, probes, statement match and its mutation test), the source scan, the dependency probe, both bridges with controls, the four referee reports and their scripts | https://github.com/pw/ErdosProblemADay.com/tree/main/verification/431/openai-ostmann-inverse-goldbach-refereed
+
+=== ALSO SHIPPING: a dated update appended to our earlier #970 entry (/day/970-openai-jacobsthal-quadratic-refereed), placed after its paragraph "The Lean follows the paper's two-step route ... We did not map the 819 modules onto §§3–10 file by file." ===
+Update, 23 October 2026, later the same day: the Lean's prime input is a no-Siegel-zero theorem. The paragraph above says the Lean follows the paper's route. For the architecture it does; for one analytic input it does not. Refereeing #431 the same morning, we walked the proof terms of both theorems here, each constant's type and value transitively, the graph #print axioms walks. Both erdos_970_iterated_log and erdos_970_quadratic reach dirichlet_real_zero_bound, the theorem of a 105-module directory, Jacobsthal/Siegel/, that real primitive characters have no real zero β with (1 − β) log q < c: Landau–Siegel zeros do not exist. The chain has 29 steps. It runs from the survivor lower bound through a prime sieve, an estimate for primes in short progressions, a "large-modulus Siegel–Walfisz" theorem with no exceptional term, and a zero-free region with no exceptional character. The paper uses Siegel–Walfisz only in its classical, ineffective form (§10). So the kernel-checked theorems on this page rest on a much larger formal claim, one the paper does not make and that is open in the published literature. The kernel accepts that claim's proof, against a copy of its statement we wrote ourselves in Mathlib's own L-functions (details on the #431 page), with only the three standard axioms. Nobody here has refereed it. What this changes: the Lean is a second proof of Theorem 1.1, not a formalization of the paper's §10 input, and our #687 bridge inherits the same dependency. What it does not change: the paper, which the seats below read, does not need the larger claim.
+

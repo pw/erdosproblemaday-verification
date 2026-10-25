@@ -1,0 +1,97 @@
+Independent sum-based audit for A382397(66)
+k=1 raw=1 sidon_by_sums=1 hull_covered=1 placements_N=0 best_run=1 best_marks=(0,) best_interval=(0, 0)
+k=2 raw=65 sidon_by_sums=65 hull_covered=2 placements_N=0 best_run=4 best_marks=(0, 1) best_interval=(-1, 2)
+k=3 raw=2080 sidon_by_sums=2048 hull_covered=8 placements_N=0 best_run=10 best_marks=(0, 1, 3) best_interval=(-3, 6)
+k=4 raw=43680 sidon_by_sums=39690 hull_covered=76 placements_N=0 best_run=22 best_marks=(0, 1, 5, 7) best_interval=(-7, 14)
+k=5 raw=677040 sidon_by_sums=485352 hull_covered=1102 placements_N=0 best_run=42 best_marks=(0, 5, 11, 12, 20) best_interval=(-12, 29)
+witness=(21, 25, 31, 40, 43, 60) direct_trial_maximal=YES
+witness=(15, 22, 34, 37, 43, 54) direct_trial_maximal=YES
+witness=(16, 23, 35, 38, 44, 55) direct_trial_maximal=YES
+witness=(12, 23, 29, 32, 44, 51) direct_trial_maximal=YES
+witness=(13, 24, 30, 33, 45, 52) direct_trial_maximal=YES
+witness=(7, 24, 27, 36, 42, 46) direct_trial_maximal=YES
+first_witness_collision_certificate:
+  x=1: 1+60=21+40
+  x=2: 2+40=21+21
+  x=3: 3+43=21+25
+  x=4: 4+60=21+43
+  x=5: 5+60=25+40
+  x=6: 6+40=21+25
+  x=7: 7+43=25+25
+  x=8: 8+60=25+43
+  x=9: 9+43=21+31
+  x=10: 10+40=25+25
+  x=11: 11+31=21+21
+  x=12: 12+40=21+31
+  x=13: 13+43=25+31
+  x=14: 14+60=31+43
+  x=15: 15+31=21+25
+  x=16: 16+40=25+31
+  x=17: 17+25=21+21
+  x=18: 18+43=21+40
+  x=19: 19+31=25+25
+  x=20: 20+60=40+40
+  x=22: 22+40=31+31
+  x=23: 23+60=40+43
+  x=24: 24+40=21+43
+  x=26: 26+60=43+43
+  x=27: 27+25=21+31
+  x=28: 28+40=25+43
+  x=29: 29+21=25+25
+  x=30: 30+31=21+40
+  x=32: 32+32=21+43
+  x=33: 33+31=21+43
+  x=34: 34+31=25+40
+  x=35: 35+21=25+31
+  x=36: 36+25=21+40
+  x=37: 37+25=31+31
+  x=38: 38+43=21+60
+  x=39: 39+25=21+43
+  x=41: 41+21=31+31
+  x=42: 42+43=25+60
+  x=44: 44+21=25+40
+  x=45: 45+40=25+60
+  x=46: 46+25=31+40
+  x=47: 47+21=25+43
+  x=48: 48+43=31+60
+  x=49: 49+25=31+43
+  x=50: 50+21=31+40
+  x=51: 51+40=31+60
+  x=52: 52+31=40+43
+  x=53: 53+21=31+43
+  x=54: 54+31=25+60
+  x=55: 55+25=40+40
+  x=56: 56+25=21+60
+  x=57: 57+43=40+60
+  x=58: 58+25=40+43
+  x=59: 59+21=40+40
+  x=61: 61+25=43+43
+  x=62: 62+21=40+43
+  x=63: 63+40=43+60
+  x=64: 64+21=25+60
+  x=65: 65+21=43+43
+  x=66: 66+25=31+60
+CONCLUSION a(66)=6
+	Command being timed: "python3 audit_156_a66_sums.py"
+	User time (seconds): 6.90
+	System time (seconds): 0.01
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1258
+	Voluntary context switches: 1
+	Involuntary context switches: 1845
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

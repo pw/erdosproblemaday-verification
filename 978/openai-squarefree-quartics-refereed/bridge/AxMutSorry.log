@@ -1,0 +1,3 @@
+'Erdos978.erdos_978.parts.ii' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Erdos978.erdos_978.parts.iii' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Erdos978.erdos_978.variants.sub_two' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

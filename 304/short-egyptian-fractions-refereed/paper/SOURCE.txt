@@ -1,0 +1,19 @@
+OpenAI, "Short Egyptian fractions" (25 Sep 2026, 33 pp), openai/math @ 1581d4cbdd69a0faf34b2089614fe2a814316a6a (unchanged on origin/main 2026-10-21):
+preprints/Short-Egyptian-fractions-September-25-2026/Short-Egyptian-fractions-September-25-2026.pdf
+  sha256 25eebdc1f077f2451bada4d3f8301b59f8158dcdb9019425ce555c5e9c5a2646
+LaTeX source read: preprints/Short-Egyptian-fractions-September-25-2026/build/*.tex
+  83644bddabb613e546f00bbc8e9a4e54bd5605ff23f9c34a566637bab3c14618  counting.tex
+  b35cc5396b8c16214cb4637f125e7f88c4c894db36db32629a798e49d0659be4  descent.tex
+  51edf294338d1a7206ea8c967d39fec9331cf7f91db0c4e9356e8d37aa0949d2  divisors.tex
+  a653b3b939fff36d18974a84eee83fbcaee483cda9fb683ab1b719910ef96fd0  elementary.tex
+  1188995325006f7ccd3102cc94e8d45ae7f17141f9cbbf6486682726c5e05540  introduction.tex
+  e155865024d189b5f600c2fa993deca45dd52191b2909ec9fb3d41c75ddd5390  main.tex
+  7c6e0d5e836cde12b2f39de36069f842b7fc89bb328f20a6c459cdb4458fc064  prescribed.tex
+  810f4ebd029d8cfce97a684affa6be78ca2d4c38cb6e87631698c97915010d72  random.tex
+  cc7d96d7de57463311c5ac1b36dc0ac477b213c19496178ada7d8b300415f198  residues.tex
+  36e7b1114757b699ea300b0f1618af3fd7b7df4d32704769850851918e64df53  unicode-mappings.tex
+Printed sections: 1 Introduction (introduction.tex) · 2 elementary.tex · 3 divisors.tex · 4 residues.tex (4.1–4.2) + random.tex (4.3–4.4) · 5 descent.tex · 6 counting.tex · 7–8 prescribed.tex.
+
+Bloom & van Doorn, "Optimal bounds for the length and number of unit fraction representations" (exposition, erdosproblems.com/static/UnitFractions.pdf, PDF created 2026-10-14):
+  sha256 c6ca335b4eb4db55a9ecaf1c6db0e8833b876cc12024167713964d0d7d57c370
+Neither PDF is redistributed here.

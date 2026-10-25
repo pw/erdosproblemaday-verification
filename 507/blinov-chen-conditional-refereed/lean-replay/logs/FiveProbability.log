@@ -1,0 +1,8 @@
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveProbability.lean:38:14: warning: unused variable `hx`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/tmp/oaimath/191b/src/blinov-fpc/lean/FiveProbability.lean:132:7: warning: unused variable `hMq`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+'HeilbronnFive.probability_le_of_completion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.average_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.divisor_moment_of_joint_tails' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1035852 wall=3s

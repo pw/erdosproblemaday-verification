@@ -1,0 +1,8 @@
+
+MUTATIONS (each should FAIL):
+[M-a: shrink cell z=3500 (d=4) by 1e-6 -> coverage gap] FAIL  (1 failures) first: [('coverage', 4)]
+[M-b: stop threshold 0.2495 -> 0.2600] FAIL  (10 failures) first: [('direct-start', 4), ('direct-margin', 4, 0.2599331775), ('direct-start', 5)]
+[M-c: top-dim threshold D=U+V -> min(U,V)] FAIL  (1125 failures) first: [('gap', 4, 3000, -0.039099901892896395), ('gap', 4, 3001, -0.03923102579587457), ('gap', 4, 3002, -0.03936175068501264)]
+[M-d: quartic curve g=4 -> 3 (drop quintic removal)] FAIL  (434 failures) first: [('gap', 4, 3146, 0.0009955809436869008), ('gap', 4, 3147, 0.0008543063933035627), ('gap', 4, 3148, 0.0007132257176274853)]
+[M-e: quartic surface 3/U^2 -> 2/U^2] FAIL  (609 failures) first: [('gap', 4, 3391, 0.0009673061996874491), ('gap', 4, 3392, 0.0008447679842095193), ('gap', 4, 3393, 0.0007105166029674938)]
+[M-f: shrink w by 1% in one cell (d=5,z=3500)] FAIL  (1 failures) first: [('cut', 5, 3500, 0.9606128848511044, 1.9242430061974833)]

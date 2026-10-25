@@ -1,0 +1,1 @@
+Mathlib .lake deleted 2026-10-21 19:26Z by the 18:00Z erdos seat after the #304 (family 25) replay + leanchecker (rc 0). Restore: lake exe cache get (see /tmp/oaimath/025/lean-build/cacheget.sh).

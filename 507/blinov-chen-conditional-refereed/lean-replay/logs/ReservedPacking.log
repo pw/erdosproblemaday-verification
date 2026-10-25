@@ -1,0 +1,12 @@
+'HeilbronnReservedPacking.tag_values' does not depend on any axioms
+'HeilbronnReservedPacking.tag_bounds' does not depend on any axioms
+'HeilbronnReservedPacking.tag_injective' does not depend on any axioms
+'HeilbronnReservedPacking.tag_energy' does not depend on any axioms
+'HeilbronnReservedPacking.interval_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnReservedPacking.zero_energy_midpoint' depends on axioms: [propext, Quot.sound]
+'HeilbronnReservedPacking.reserved_packing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnReservedPacking.sparse_tag_distinction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnReservedPacking.fresh_position' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnReservedPacking.exact_exponent' does not depend on any axioms
+'HeilbronnReservedPacking.gain_from_five' does not depend on any axioms
+RSSCAP done rc=0 peak_kb=580480 wall=2s

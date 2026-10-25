@@ -1,0 +1,8 @@
+witness_q11_c4_b2.json: EMPTY point list -> no witness (not a certificate)
+witness_q11_c4_orbit_perm.json: q=11 |S|=21 (dups=0, non-normal-form inputs=0) spectrum={1: 84, 3: 28, 4: 21} blocking=True max=4  lines=133
+witness_q11_c4_orbit_singer7.json: q=11 |S|=21 (dups=0, non-normal-form inputs=0) spectrum={1: 84, 3: 28, 4: 21} blocking=True max=4  lines=133
+witness_q11_type134_n21.json: q=11 |S|=21 (dups=0, non-normal-form inputs=0) spectrum={1: 84, 3: 28, 4: 21} blocking=True max=4  lines=133
+witness_q13_c5_b2.json: q=13 |S|=34 (dups=0, non-normal-form inputs=0) spectrum={1: 52, 2: 47, 3: 34, 4: 22, 5: 28} blocking=True max=5  lines=183
+witness_q9_type134_n21.json: q=9 not prime -> SKIPPED (referee plane is prime-field only)
+witnesses_q11_c4.json[cadical]: q=11 |S|=21 (dups=0, non-normal-form inputs=0) spectrum={1: 84, 3: 28, 4: 21} blocking=True max=4  lines=133
+witnesses_q11_c4.json[cpsat]: q=11 |S|=21 (dups=0, non-normal-form inputs=0) spectrum={1: 84, 3: 28, 4: 21} blocking=True max=4  lines=133

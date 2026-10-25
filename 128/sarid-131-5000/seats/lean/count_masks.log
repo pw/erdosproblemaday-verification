@@ -1,0 +1,4 @@
+all masks 32768 triangle-free labelled masks 5789
+hosts 38 distinct 38 all triangle-free True
+hosts pairwise non-isomorphic True
+every triangle-free mask matches exactly one host; orbit sizes sum 5789

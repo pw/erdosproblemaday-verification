@@ -1,0 +1,4 @@
+paper      max |sum sigma_v log|z|_v| over 400 Gaussian integers = 8.882e-16  -> HOLDS
+squared    max |sum sigma_v log|z|_v| over 400 Gaussian integers = 6.020e+00  -> FAILS
+undivided  max |sum sigma_v log|z|_v| over 400 Gaussian integers = 6.020e+00  -> FAILS
+sum_{v|inf} sigma_v = 2/[K:Q] * (#complex places = 1) = 1.0

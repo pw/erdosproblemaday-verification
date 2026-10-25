@@ -1,0 +1,30 @@
+best_K10_s201.npy: start covering radius 45.7795
+  outer 0: active 16 tmax 45.7855 -> covering radius 45.3358 (best 45.3358)
+  outer 1: active 20 tmax 45.3358 -> covering radius 45.3320 (best 45.3320)
+  outer 2: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 3: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 4: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 5: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 6: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 7: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+VPOLISHED best_K10_s201.npy: 45.33196 deg
+best_K10_s202.npy: start covering radius 45.7082
+  outer 0: active 19 tmax 45.7083 -> covering radius 45.3507 (best 45.3507)
+  outer 1: active 20 tmax 45.3507 -> covering radius 45.3320 (best 45.3320)
+  outer 2: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 3: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 4: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 5: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 6: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 7: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+VPOLISHED best_K10_s202.npy: 45.33198 deg
+best_K10_s203.npy: start covering radius 45.5979
+  outer 0: active 18 tmax 45.6010 -> covering radius 45.3320 (best 45.3320)
+  outer 1: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 2: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 3: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 4: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 5: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 6: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+  outer 7: active 20 tmax 45.3320 -> covering radius 45.3320 (best 45.3320)
+VPOLISHED best_K10_s203.npy: 45.33200 deg

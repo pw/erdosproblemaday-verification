@@ -1,0 +1,6 @@
+WrongShape.lean:4:2: error: Type mismatch
+  OAI.EuclideanFiveColor.no_proper_five_coloring
+has type
+  ¬∃ (c : ℂ → Fin 5), OAI.EuclideanFiveColor.ProperColoring 5 c
+but is expected to have type
+  ¬∃ (c : ℂ → Fin 6), OAI.EuclideanFiveColor.ProperColoring 6 c

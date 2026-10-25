@@ -1,0 +1,51 @@
+Erdos128.ModuloBCL.sparse_half_131_5000 : ∀ (hBCL : Erdos128.ModuloBCL.BCLEventual) (V : Type) [inst : Fintype.{0} V]
+  [inst_1 : DecidableEq.{1} V] (G : SimpleGraph.{0} V) [inst_2 : @DecidableRel.{1, 1} V V (@SimpleGraph.Adj.{0} V G)]
+  (htri : @SimpleGraph.CliqueFree.{0} V G (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))),
+  @Erdos128.HasSparseHalf.{0} V inst inst_1 G inst_2
+    (@HMul.hMul.{0, 0, 0} Rat Rat Rat (@instHMul.{0} Rat Rat.instMul)
+      (@HDiv.hDiv.{0, 0, 0} Rat Rat Rat (@instHDiv.{0} Rat Rat.instDiv)
+        (@OfNat.ofNat.{0} Rat (nat_lit 131) (@Rat.instOfNat (nat_lit 131)))
+        (@OfNat.ofNat.{0} Rat (nat_lit 5000) (@Rat.instOfNat (nat_lit 5000))))
+      (@HPow.hPow.{0, 0, 0} Rat Nat Rat (@instHPow.{0, 0} Rat Nat (@Monoid.toPow.{0} Rat Rat.monoid))
+        (@Nat.cast.{0} Rat Rat.instNatCast (@Fintype.card.{0} V inst))
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+Erdos128.ModuloBCL.formalConjectures_131_5000 : ∀ (hBCL : Erdos128.ModuloBCL.BCLEventual),
+  Erdos128.FormalConjecturesStatement131_5000
+def Erdos128.ModuloBCL.BCLEventual : Prop :=
+∃ N,
+  ∀ (W : Type) [inst : Fintype W] [inst_1 : DecidableEq W] (H : SimpleGraph W) [inst_2 : DecidableRel H.Adj],
+    N ≤ Fintype.card W → H.CliqueFree 3 → Erdos128.BCLCutCertificate H
+def Erdos128.BCLCutCertificate.{u} : {V : Type u} →
+  [Fintype V] → [DecidableEq V] → (G : SimpleGraph V) → [DecidableRel G.Adj] → Prop :=
+fun {V} [Fintype V] [DecidableEq V] G [DecidableRel G.Adj] =>
+  ∃ X, ↑(Erdos128.edgeCountOn G X + Erdos128.edgeCountOn G Xᶜ) ≤ 2 / 47 * ↑(Fintype.card V) ^ 2
+def Erdos128.HasSparseHalf.{u} : {V : Type u} →
+  [Fintype V] → [DecidableEq V] → (G : SimpleGraph V) → [DecidableRel G.Adj] → ℚ → Prop :=
+fun {V} [Fintype V] [DecidableEq V] G [DecidableRel G.Adj] B =>
+  ∃ S, S.card = Fintype.card V / 2 ∧ ↑(Erdos128.edgeCountOn G S) ≤ B
+def Erdos128.edgeCountOn.{u} : {V : Type u} →
+  [Fintype V] → [DecidableEq V] → (G : SimpleGraph V) → [DecidableRel G.Adj] → Finset V → ℕ :=
+fun {V} [Fintype V] [DecidableEq V] G [DecidableRel G.Adj] S => (G.edgeFinset ∩ S.sym2).card
+def Erdos128.FormalConjecturesStatement : ℕ → ℕ → Prop :=
+fun numerator denominator =>
+  ∀ (V : Type) [inst : Fintype V] (G : SimpleGraph V),
+    (∀ (V' : Set V),
+        2 * V'.ncard + 1 ≥ Fintype.card V →
+          denominator * (SimpleGraph.induce V' G).edgeSet.ncard > numerator * Fintype.card V ^ 2) →
+      ¬G.CliqueFree 3
+def Erdos128.C4FlagCertificate.{u} : {V : Type u} →
+  [Fintype V] → [DecidableEq V] → (G : SimpleGraph V) → [DecidableRel G.Adj] → Prop :=
+fun {V} [Fintype V] [DecidableEq V] G [DecidableRel G.Adj] =>
+  have n := ↑(Fintype.card V);
+  have m := ↑G.edgeFinset.card;
+  n ^ 2 * Erdos128.c4Hom G ≥ 8 * m ^ 3 - 2 * Erdos128.c4FlagGamma * m * n ^ 4
+def Erdos128.c4Hom.{u} : {V : Type u} →
+  [Fintype V] → [DecidableEq V] → (G : SimpleGraph V) → [DecidableRel G.Adj] → ℚ :=
+fun {V} [Fintype V] [DecidableEq V] G [DecidableRel G.Adj] => (SimpleGraph.adjMatrix ℚ G ^ 4).trace
+'host_fc_shape_131_5000' depends on axioms: [propext, Classical.choice, Quot.sound]
+'host_fc_shape_1_50' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.ModuloBCL.provider_of_eventual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.ModuloBCL.sparse_half_131_5000' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.ModuloBCL.formalConjectures_131_5000' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.C4Certificate.checkedC4FlagCertificateProvider' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos128.C4Certificate.certificate_all_triangleFree_masks' depends on axioms: [propext, Classical.choice, Quot.sound]

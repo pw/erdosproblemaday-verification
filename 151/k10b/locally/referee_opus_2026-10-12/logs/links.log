@@ -1,0 +1,5 @@
+G21 every link explicitly isomorphic to C8(1,4): True
+   non-adjacent pair, induced common nbhd: n2 e1 degs[1, 1] comps[2] x 84
+   non-adjacent pair, induced common nbhd: n4 e4 degs[2, 2, 2, 2] comps[4] x 42
+P17 every link explicitly isomorphic to C8(1,4): True
+   non-adjacent pair, induced common nbhd: n4 e3 degs[1, 1, 2, 2] comps[4] x 68

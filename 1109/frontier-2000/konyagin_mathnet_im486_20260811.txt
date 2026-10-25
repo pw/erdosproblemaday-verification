@@ -1,0 +1,187 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.mathnet.ru/eng/im486
+JS Result: Izvestiya: Mathematics
+RUS  ENG	      	JOURNALS   PEOPLE   ORGANISATIONS   CONFERENCES   SEMINARS   VIDEO LIBRARY   PACKAGE AMSBIB	 
+	General information
+	Latest issue
+	Forthcoming papers
+	Archive
+	Impact factor
+	Guidelines for authors
+	Submit a manuscript
+
+
+	Search papers
+	Search references
+
+
+	RSS
+	Latest issue
+	Current issues
+	Archive issues
+	What is RSS
+
+
+
+
+Izv. RAN. Ser. Mat.:
+Year:	
+Volume:	
+Issue:	
+Page:	
+	Find
+
+
+
+
+	
+
+
+
+
+Personal entry:
+Login:	
+Password:	
+	Save password
+	Enter
+	Forgotten password?
+	Register
+
+
+ 
+	
+Izvestiya: Mathematics, 2004, Volume 68, Issue 3, Pages 493–520
+DOI: https://doi.org/10.1070/IM2004v068n03ABEH000486 (Mi im486)		 	
+This article is cited in 2 scientific papers (total in 2 papers)
+
+Problems on the set of squarefree numbers
+
+S. V. Konyagin
+
+M. V. Lomonosov Moscow State University
+English version PDF (294 kB) Citations (2) Russian version article
+References:
+PDF
+HTML
+DOI: https://doi.org/10.1070/IM2004v068n03ABEH000486
+Abstract: Let 
+N
+𝑁
+ be a positive integer and 
+ES
+N
+ES
+𝑁
+ the maximal cardinality of a subset 
+A
+⊂
+{
+1
+,
+…
+,
+N
+}
+𝐴
+⊂
+{
+1
+,
+…
+,
+𝑁
+}
+ such that 
+a
++
+a
+′
+𝑎
++
+𝑎
+′
+ is squarefree for all 
+a
+∈
+A
+𝑎
+∈
+𝐴
+, 
+a
+′
+∈
+A
+𝑎
+′
+∈
+𝐴
+. For large 
+N
+𝑁
+ we obtain new upper and lower bounds for 
+ES
+N
+ES
+𝑁
+.
+Received: 15.08.2003
+Bibliographic databases:    
+Document Type: Article
+UDC: 511.337
+MSC: 11K65, 11N35
+Language: English
+Original paper language: Russian
+Citation: S. V. Konyagin, “Problems on the set of squarefree numbers”, Izv. Math., 68:3 (2004), 493–520
+ Citation in format AMSBIB
+\Bibitem{Kon04}
+\by S.~V.~Konyagin
+\paper Problems on the set of squarefree numbers
+\jour Izv. Math.
+\yr 2004
+\vol 68
+\issue 3
+\pages 493--520
+\mathnet{http://mi.mathnet.ru/eng/im486}
+\crossref{https://doi.org/10.1070/IM2004v068n03ABEH000486}
+\mathscinet{https://mathscinet.ams.org/mathscinet-getitem?mr=2069194}
+\zmath{https://zbmath.org/?q=an:1068.11063}
+\isi{https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=000224097700004}
+\scopus{https://www.scopus.com/record/display.url?origin=inward&eid=2-s2.0-33746556857}
+
+Linking options:
+https://www.mathnet.ru/eng/im486
+https://doi.org/10.1070/IM2004v068n03ABEH000486
+https://www.mathnet.ru/eng/im/v68/i3/p63
+This publication is cited in the following 2 articles:
+A. Balog, J. Rivat, A. Sárközy, “On arithmetic properties of sumsets”, Acta Math. Hungar., 144:1 (2014), 18  
+E. Bombieri, U. Zannier, “On the number of rational points on certain elliptic curves”, Izv. Math., 68:3 (2004), 437–445            
+Citing articles in Google Scholar: Russian citations, English citations
+Related articles in Google Scholar: Russian articles, English articles
+4
+4 Total citations
+0 Recent citations
+n/a Field Citation Ratio
+n/a Relative Citation Ratio
+2
+2 Total citations
+1 Recent citation
+0.49 Field Citation Ratio
+n/a Relative Citation Ratio
+	 
+Statistics & downloads:
+Abstract page:	1902
+Russian version PDF:	643
+English version PDF:	550
+References:	251
+First page:	3
+ 	
+  Contact us:
+math-net2026_08@mi-ras.ru	 Terms of Use	 Registration to the website	 Logotypes	© Steklov Mathematical Institute RAS, 2026
+
+
+
+
+Page title: S. V. Konyagin, “Problems on the set of squarefree numbers”, Izv. Math., 68:3 (2004), 493–520
+URL: https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=im&paperid=486&option_lang=eng

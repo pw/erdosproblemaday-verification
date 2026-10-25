@@ -1,0 +1,6 @@
+profile 0 -> case 4: their rows 1536, capacity kept 1485 removed 51; capacity==M4 on every row: True; kept classes == our classes_all (as sets): True
+profile 1 -> case 3: their rows 3662, capacity kept 3617 removed 45; capacity==M4 on every row: True; kept classes == our classes_all (as sets): True
+profile 2 -> case 2: their rows 4801, capacity kept 4717 removed 84; capacity==M4 on every row: True; kept classes == our classes_all (as sets): True
+profile 3 -> case 1: their rows 2700, capacity kept 2693 removed 7; capacity==M4 on every row: True; kept classes == our classes_all (as sets): True
+profile 4 -> case 0: their rows 842, capacity kept 839 removed 3; capacity==M4 on every row: True; kept classes == our classes_all (as sets): True
+ROW-LEVEL MATCH

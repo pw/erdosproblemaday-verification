@@ -1,0 +1,10 @@
+Bridge986.erdos986_iff_three : Iff Bridge986.FC.Erdos986Statement
+  (Bridge986.FC.Erdos986At (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+Bridge986.erdos986At_ge_four_sharpLogOnly : ∀ (s : Nat),
+  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) s → Bridge986.FC.Erdos986At s
+'Bridge986.erdos986At_ge_five_unconditional' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Bridge986.erdos986At_four' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Bridge986.erdos986At_ge_four_sharpLogOnly' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Bridge986.erdos986_iff_three' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Bridge986.classicalRamsey_eq_sharpLog' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Bridge986.classicalRamsey_eq_five' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

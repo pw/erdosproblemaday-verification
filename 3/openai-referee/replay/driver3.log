@@ -1,0 +1,84 @@
+[2026-10-13T13:24:31Z] gates open: memavail=36G load=9.75
+/tmp/oaimath/166/lean-build/home/.elan/toolchains/leanprover--lean4---v4.34.1/bin/lake
+/tmp/oaimath/166/lean-build/home/.elan/toolchains/leanprover--lean4---v4.34.1/bin/lean
+Lake version 5.0.0-src+5045d00 (Lean version 4.34.1)
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+[2026-10-13T13:24:31Z] OAI package rev: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+[2026-10-13T13:24:31Z] mathlib rev: d13f23b723b8a846827a245b89c10fc7d3f11612
+[2026-10-13T13:24:31Z] Progressions oleans before: 4765
+[2026-10-13T13:24:31Z] BEGIN build :: nice -n 19 ionice -c2 -n7 lake build OAI/+OAI.Combinatorics.Progressions.Main
+warning: PrimeNumberTheoremAnd: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/pi1' has local changes
+warning: heights: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/heights' has local changes
+warning: genl: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/iut' has local changes
+warning: gromov: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/gromov' has local changes
+warning: SphereEversion: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/SphereEversion' has local changes
+warning: schoenflies-lean: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/ClassFieldTheory' has local changes
+warning: AINTLIB: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/AINTLIB' has local changes
+warning: AbsorptionCutoff: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/AbsorptionCutoff' has local changes
+warning: StrongPNT: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/StrongPNT' has local changes
+warning: carleson: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/carleson' has local changes
+warning: rellich-kondrachov: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/fixed-point-theorems' has local changes
+✔ [13689/13697] Built OAI.Combinatorics.Progressions.Estimates.PreparedFiniteNestedInitializedRelativeSource (149s)
+✔ [13690/13697] Built OAI.Combinatorics.Progressions.Estimates.PreparedCanonicalInitializedRelativeSourceConclusion (150s)
+✔ [13691/13697] Built OAI.Combinatorics.Progressions.Estimates.PreparedCanonicalInitializedRelativeSource (54s)
+✔ [13692/13697] Built OAI.Combinatorics.Progressions.Polynomial.ScalarNestedSourceDegreeGlobalization (234s)
+✔ [13693/13697] Built OAI.Combinatorics.Progressions.Estimates.PreparedRelativePositivePassage (55s)
+✔ [13694/13697] Built OAI.Combinatorics.Progressions.Estimates.RelativePatchScalarBaseFin (37s)
+✔ [13695/13697] Built OAI.Combinatorics.Progressions.Results.Conclusions (11s)
+✔ [13696/13697] Built OAI.Combinatorics.Progressions.Results.FullLibrary (13s)
+✔ [13697/13697] Built OAI.Combinatorics.Progressions.Main (11s)
+Build completed successfully (13697 jobs).
+[2026-10-13T13:30:12Z] END build rc=0 elapsed=341s
+[2026-10-13T13:30:12Z] Progressions oleans after: 4774
+[2026-10-13T13:30:12Z] BEGIN axioms :: bash -c nice -n 19 lake env lean --trust=0 /tmp/oaimath/159/lean-build/Erdos3Axioms.lean > /tmp/oaimath/159/lean-build/axioms.log 2>&1
+[2026-10-13T13:30:29Z] END axioms rc=0 elapsed=17s
+[2026-10-13T13:30:29Z] BEGIN challenge :: bash -c nice -n 19 lake env lean --trust=0 /tmp/oaimath/159/lean-build/ChallengeStatement.lean > /tmp/oaimath/159/lean-build/challenge.log 2>&1
+[2026-10-13T13:30:42Z] END challenge rc=0 elapsed=13s
+[2026-10-13T13:30:42Z] BEGIN negcontrol :: bash -c nice -n 19 lake env lean /tmp/oaimath/159/lean-build/NegControl.lean > /tmp/oaimath/159/lean-build/negcontrol.log 2>&1
+[2026-10-13T13:30:46Z] END negcontrol rc=0 elapsed=4s
+pp.all identical OAI.Erdos3.ReciprocalProgressionTheorem: True
+pp.all identical OAI.Erdos3.HasAP: True
+pp.all identical OAI.Erdos3.reciprocalTerm: True
+STATEMENT MATCH: True
+[2026-10-13T13:30:46Z] BEGIN leanchecker_fresh :: bash -c nice -n 19 lake env leanchecker --fresh OAI.Combinatorics.Progressions.Main > /tmp/oaimath/159/lean-build/leanchecker_fresh.log 2>&1
+[2026-10-13T16:39:05Z] END leanchecker_fresh rc=0 elapsed=11299s
+[2026-10-13T16:39:05Z] leanchecker tail: warning: rellich-kondrachov: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/rellich-kondrachov' has local changes warning: Zeta3Irrational: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/Zeta3Irrational' has local changes warning: fixed-point-theorems: repository '/tmp/oaimath/166/lean-build/repo/.lake/packages/fixed-point-theorems' has local changes 
+[2026-10-13T16:39:05Z] DONE
+launch 2026-10-12T06:30:24Z 0 0
+build 1 48780
+axioms 1 27
+challenge 0 49
+negcontrol 0 17
+statement_match 1 0
+leanchecker_fresh 1 70
+relaunch 2026-10-13T09:10:57Z 0 resume-after-earlyoom-143
+launch 2026-10-13T09:10:57Z 0 0
+relaunch 2026-10-13T09:34:10Z 0 resume-after-earlyoom-143
+launch 2026-10-13T09:34:10Z 0 0
+note 2026-10-13T09:42:50Z 0 the-launch-row-at-09:34:10Z-was-a-killed-duplicate-driver(unquoted-heredoc);the-live-driver-is-pid-143095-launched-09:10:57Z;read-the-LAST-build-row
+build 1 2272
+axioms 1 3
+challenge 0 12
+negcontrol 0 3
+statement_match 1 0
+leanchecker_fresh 1 20
+relaunch 2026-10-13T13:24:30Z 0 resume-after-duplicate-lake-clobber
+launch 2026-10-13T13:24:30Z 0 0
+build 0 341
+axioms 0 17
+challenge 0 13
+negcontrol 0 4
+statement_match 0 0
+leanchecker_fresh 0 11299

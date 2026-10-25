@@ -1,0 +1,3 @@
+tag=A_equal_10000000 N=10000000 distinct=0 seed_k=21 max_seed=97 count=1224509 density=0.122451
+suffix from gap index 612254 (len 612254): smallest period 612254 (no period <= half the suffix)
+[equal] greedy341 vs closed form on [1,10000000]: 0 mismatches (first []); greedy 1224509 elements, closed form 1224509

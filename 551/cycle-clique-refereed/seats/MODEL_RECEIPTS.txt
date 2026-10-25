@@ -1,0 +1,6 @@
+seat	agent	claude-opus-5-5 msgs	other model strings
+P_proof	a16d5ba0	182	0
+F_finite	a83d16c2	268	0
+W_world	a9eed4ce	350	0
+blind_read	acd5c7f9	200	0
+main	2278500b	600	0 (the 11 "model":"opus" strings in its transcript are the model parameter of its Agent tool calls, not served-model fields)

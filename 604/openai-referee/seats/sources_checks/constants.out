@@ -1,0 +1,6 @@
+Katz-Tardos Cor.6 (48-14e)/(55-16e) vs paper's 0.864137    0.8641375  MATCH
+Katz-Tardos Cor.5 (10-3e)/(24-7e) vs KT's 0.371107         0.3711071  MATCH
+Tardos 2003 Cor.15 4e/(5e-1) (~0.8635)                     0.8635354  MATCH
+Katz 19/22 vs KT's quoted 0.863636                         0.8636364  MATCH
+CONTROL transposed (48-16e)/(55-14e) vs 0.864137           0.2660220  NO MATCH
+Katz-Tardos Cor.8 isosceles exponent (117-34e)/(55-16e) = 2.135862 => F_n(s)->0 already follows for s > 0.1359

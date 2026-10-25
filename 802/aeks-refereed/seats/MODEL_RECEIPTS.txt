@@ -1,0 +1,6 @@
+seat	agent	claude-opus-5-5 msgs	other model strings
+O_optimizer	a0dba1bb	72	0
+T_triangle	a9650efe	91	0
+L_lean	a35f8465	202	0
+W_world	a89360a8	291	0
+main	584633db	479	0 (the 12 "model":"opus" strings in its transcript are the model parameter of its Agent tool calls, not served-model fields)

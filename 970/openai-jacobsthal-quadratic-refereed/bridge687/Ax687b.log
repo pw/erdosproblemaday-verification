@@ -1,0 +1,2 @@
+'Erdos687.erdos_687.variants.quadratic_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=7156812 wall=7s

@@ -1,0 +1,7 @@
+alpha=0.00 predicted D=0.500000
+alpha=0.05 predicted D=0.428844
+alpha=0.10 predicted D=0.361011
+alpha=0.20 predicted D=0.241256
+alpha=0.30 predicted D=0.146827
+alpha=0.50 predicted D=0.031405
+mass check ∫f = 0.9999999986577484

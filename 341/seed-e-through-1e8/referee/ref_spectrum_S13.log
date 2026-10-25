@@ -1,0 +1,49 @@
+file=../F_S13_eq_1e7_elems.u32 L=8000001 bin=1.250e-07
+parabolic refine minus exact DTFT max, in bins: max |.| = 0.242  mean |.| = 0.119
+  # 1 bin 1453043 exact f=0.1816303628 parabolic=0.1816303546 diff=-0.065 bins  share=14.92%
+  # 2 bin 3709931 exact f=0.4637412627 parabolic=0.4637412755 diff=+0.103 bins  share=5.75%
+  # 3 bin 2256887 exact f=0.2821109001 parabolic=0.2821108956 diff=-0.037 bins  share=3.66%
+  # 4 bin 436452 exact f=0.0545564456 parabolic=0.0545564626 diff=+0.136 bins  share=3.64%
+  # 5 bin 2906086 exact f=0.3632607262 parabolic=0.3632607113 diff=-0.119 bins  share=2.93%
+  # 6 bin 2762398 exact f=0.3452997005 parabolic=0.3452997044 diff=+0.031 bins  share=2.17%
+  # 7 bin 2837027 exact f=0.3546283752 parabolic=0.3546283563 diff=-0.151 bins  share=1.86%
+  # 8 bin 1889495 exact f=0.2361868067 parabolic=0.2361868264 diff=+0.157 bins  share=1.76%
+  # 9 bin 3853619 exact f=0.4817022920 parabolic=0.4817023123 diff=+0.162 bins  share=1.72%
+  #10 bin 947533 exact f=0.1184415618 parabolic=0.1184415863 diff=+0.196 bins  share=1.55%
+  #11 bin 2693339 exact f=0.3366673451 parabolic=0.3366673319 diff=-0.105 bins  share=1.55%
+  #12 bin 1016591 exact f=0.1270739173 parabolic=0.1270739090 diff=-0.066 bins  share=1.20%
+  #13 bin 803844 exact f=0.1004805367 parabolic=0.1004805150 diff=-0.174 bins  share=1.13%
+  #14 bin 505510 exact f=0.0631888008 parabolic=0.0631887911 diff=-0.078 bins  share=0.92%
+  #15 bin 2033183 exact f=0.2541478378 parabolic=0.2541478426 diff=+0.039 bins  share=0.83%
+  #16 bin 511081 exact f=0.0638851156 parabolic=0.0638851202 diff=+0.037 bins  share=0.80%
+  #17 bin 580140 exact f=0.0725174776 parabolic=0.0725174891 diff=+0.092 bins  share=0.73%
+  #18 bin 1820436 exact f=0.2275544575 parabolic=0.2275544674 diff=+0.079 bins  share=0.73%
+  #19 bin 3784560 exact f=0.4730699345 parabolic=0.4730699451 diff=+0.084 bins  share=0.70%
+  #20 bin 3640872 exact f=0.4551089090 parabolic=0.4551089284 diff=+0.155 bins  share=0.59%
+  #21 bin 1309355 exact f=0.1636693362 parabolic=0.1636693441 diff=+0.063 bins  share=0.58%
+  #22 bin 941962 exact f=0.1177452500 parabolic=0.1177452328 diff=-0.137 bins  share=0.54%
+  #23 bin 3922678 exact f=0.4903346516 parabolic=0.4903346758 diff=+0.193 bins  share=0.45%
+  #24 bin 3273479 exact f=0.4091848152 parabolic=0.4091848227 diff=+0.059 bins  share=0.41%
+  #25 bin 1240296 exact f=0.1550369784 parabolic=0.1550369824 diff=+0.032 bins  share=0.37%
+  #26 bin 3204420 exact f=0.4005524639 parabolic=0.4005524530 diff=-0.087 bins  share=0.37%
+  #27 bin 2469635 exact f=0.3087042846 parabolic=0.3087043040 diff=+0.156 bins  share=0.32%
+  #28 bin 2624280 exact f=0.3280349877 parabolic=0.3280349635 diff=-0.193 bins  share=0.32%
+  #29 bin 2325946 exact f=0.2907432549 parabolic=0.2907432278 diff=-0.216 bins  share=0.31%
+  #30 bin 2187829 exact f=0.2734785443 parabolic=0.2734785636 diff=+0.154 bins  share=0.30%
+  #31 bin 361822 exact f=0.0452277688 parabolic=0.0452277426 diff=-0.209 bins  share=0.28%
+  #32 bin 649199 exact f=0.0811498277 parabolic=0.0811498522 diff=+0.196 bins  share=0.25%
+  #33 bin 1895065 exact f=0.2368831331 parabolic=0.2368831176 diff=-0.124 bins  share=0.22%
+  #34 bin 1022162 exact f=0.1277702384 parabolic=0.1277702454 diff=+0.055 bins  share=0.18%
+  #35 bin 298334 exact f=0.0372917384 parabolic=0.0372917541 diff=+0.126 bins  share=0.17%
+  #36 bin 212747 exact f=0.0265933888 parabolic=0.0265933789 diff=-0.080 bins  share=0.15%
+  #37 bin 3342538 exact f=0.4178171763 parabolic=0.4178171879 diff=+0.093 bins  share=0.15%
+  #38 bin 1814865 exact f=0.2268581309 parabolic=0.2268581006 diff=-0.242 bins  share=0.15%
+  #39 bin 3997307 exact f=0.4996633106 parabolic=0.4996633224 diff=+0.095 bins  share=0.13%
+  #40 bin 2102242 exact f=0.2627801916 parabolic=0.2627802141 diff=+0.180 bins  share=0.13%
+variance within +-3 bins of the 14 largest peaks: 62.50%  (single-bin sum of top 14: 44.80%)
+smallest relations among top-2 (|c|<=20), distance in bins: [(5386.818, (2, 10)), (5754.441, (15, 20)), (10773.636, (4, 20)), (11141.259, (13, 10))]
+smallest relations among top-3 (|c|<=12): [(0.002, (1, -1, 1)), (0.004, (2, -2, 2)), (0.006, (3, -3, 3)), (0.008, (4, -4, 4))]
+best single generator (|m|<=150, within 1 bin): g=0.4091848171 explains 6/40 peaks
+LS-refined g=0.40918481820; residuals on the 6 assigned peaks: max 0.024 bins; multipliers used: [1, 2, 3, 4, 6, 8]
+unexplained peaks (index, f, nearest |m|<=150 distance in bins): [(2, 0.46374126, 2947.64), (3, 0.2821109, 2947.67), (4, 0.05455645, 2947.64), (6, 0.3452997, 44521.4), (7, 0.35462838, 2947.61), (8, 0.23618681, 2947.6), (9, 0.48170229, 38950.91), (10, 0.11844156, 38950.89), (11, 0.33666735, 38950.93), (12, 0.12707392, 2947.67), (13, 0.10048054, 2947.69), (14, 0.0631888, 38950.87), (15, 0.25414784, 38950.93), (16, 0.06388512, 44521.39), (17, 0.07251748, 38950.88), (19, 0.47306993, 44521.4), (21, 0.16366934, 44521.38), (22, 0.11774525, 44521.39), (23, 0.49033465, 2947.64), (25, 0.15503698, 38950.92), (26, 0.40055246, 2947.59), (27, 0.30870428, 2947.65), (28, 0.32803499, 2947.68), (29, 0.29074325, 38950.89), (31, 0.04522777, 5570.53), (32, 0.08114983, 2947.7), (33, 0.23688313, 8009.6), (34, 0.12777024, 2622.9), (35, 0.03729174, 2947.54), (36, 0.02659339, 38950.91), (37, 0.41781718, 2947.63), (38, 0.22685813, 5570.56), (39, 0.49966331, 5570.39), (40, 0.26278019, 2947.71)]
+continued fraction of g: [0, 2, 2, 3, 1, 21, 4, 2, 1, 1]  denominators: [2, 5, 17, 22, 479, 1938, 4355, 6293, 10648]

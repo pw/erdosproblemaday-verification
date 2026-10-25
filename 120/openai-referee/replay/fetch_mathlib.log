@@ -1,0 +1,28 @@
+[2026-10-14T03:17:16Z] fetching d13f23b7
+[2026-10-14T03:17:25Z] checked out d13f23b723b8a846827a245b89c10fc7d3f11612
+leanprover/lean4:v4.34.1
+[2026-10-14T03:17:25Z] lake exe cache get
+✔ [29/42] Built Cache.Upload.Curl:c.o (530ms)
+✔ [30/42] Built Cache.Warning:c.o (490ms)
+✔ [31/42] Built Cache.Upload.Azure (1.3s)
+✔ [32/42] Built Cache.Upload.S3 (1.5s)
+✔ [33/42] Built Cache.Upload.Azure:c.o (234ms)
+✔ [34/42] Built Cache.Requests:c.o (5.2s)
+✔ [35/42] Built Cache.Upload.S3:c.o (487ms)
+✔ [36/42] Built Cache.Upload.Defs (1.3s)
+✔ [37/42] Built Cache.Upload.Defs:c.o (197ms)
+✔ [38/42] Built Cache.Upload (838ms)
+✔ [39/42] Built Cache.Upload:c.o (137ms)
+✔ [40/42] Built Cache.Main (1.7s)
+✔ [41/42] Built Cache.Main:c.o (1.3s)
+✔ [42/42] Built cache:exe (4.4s)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Decompressing 8907 already-cached file(s) (1 already decompressed)
+No files to download
+Decompressed 8907 already-cached file(s)
+Completed successfully in 78374 ms!
+[2026-10-14T03:19:48Z] cache get rc=0
+[2026-10-14T03:19:48Z] oleans: 8529  packages: Cli LeanSearchClient Qq aesop batteries importGraph plausible proofwidgets 
+7.1G	.lake
+[2026-10-14T03:19:48Z] DONE

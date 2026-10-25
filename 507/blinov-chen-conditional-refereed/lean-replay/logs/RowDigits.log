@@ -1,0 +1,6 @@
+'HeilbronnRowDigits.long_digits_divisible' depends on axioms: [propext, Quot.sound]
+'HeilbronnRowDigits.digit_moment_bound' depends on axioms: [propext, Quot.sound]
+'HeilbronnRowDigits.base_scale' depends on axioms: [propext, Quot.sound]
+'HeilbronnRowDigits.alteration_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnRowDigits.exponent_identity' depends on axioms: [propext, Quot.sound]
+RSSCAP done rc=0 peak_kb=560764 wall=1s

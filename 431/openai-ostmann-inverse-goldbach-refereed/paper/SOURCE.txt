@@ -1,0 +1,17 @@
+OpenAI, "The additive indecomposability of the primes" (dated 24 Sep 2026, 80 pp.), github.com/openai/math family 013
+repository commit: 1581d4cbdd69a0faf34b2089614fe2a814316a6a (paper and lean/OAI/NumberTheory/Ostmann unchanged since adc7f124, 6 Oct 2026)
+path: preprints/the-additive-indecomposability-of-the-primes-September-24-2026/
+Not redistributed here. SHA-256 of the copies the seats read:
+2c4ec07457be59763b37d2197852341a7e6615e419982f9f3705c5f3a94c2c3f  paper.pdf
+90d559026990cc6958b4eac3c94789b603f904506b29aa56ef572d1569d57b89  ./glyph-mappings.tex
+cc064fd5a9ffd3c703de3f2636662302fe4622e50456780529ba4be9aca40650  ./paper.tex
+c1ad98d13532fe93583422198c5a71dfb7bf164b6a4fffcbe1c44c89f65addfc  ./references.bib
+58d391e18a6bbb89b7b7e448ec6feecafc9693b3d7a335fc37b29892c8a85242  ./sections/01-introduction.tex
+36bc43557d1017f518e173d05e1d816bcdad33a573cde9d17efeaf01176498aa  ./sections/02-preliminaries.tex
+0dc53c61fdca1a0683093b27bc1f2f8fe7fa10df1c1a70525e01533edfac6e29  ./sections/03-quadratic.tex
+f0b3313005aa97f316740f458e76b354d3956f59a1a9e3755acb93e39572d72c  ./sections/04-characters.tex
+e506464427f27d8aae2f8c98e37aaa9df65eb806a76165be83e830a471e46313  ./sections/05-supply.tex
+290c22fc61a7787fdf8d7074e5df48c0c98a65531f7399caa0a0fe7d626b9d00  ./sections/06-tree.tex
+9e5c28cada90a8925aaba785d98bd05f7df0ae5a5f36830b30fc2135fd25a130  ./sections/07-construction.tex
+7a6ef909e6a8a22327c2a110b138fa347ee3eaf48eab2411af2bae9625ed734e  ./sections/08-arithmetic.tex
+978728b1fd71a523f01481731c6a474390b1b385b27869416de9999718cdda82  ./sections/09-conclusion.tex

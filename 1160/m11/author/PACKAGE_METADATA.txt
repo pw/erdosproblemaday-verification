@@ -1,0 +1,31 @@
+Frozen 2026-08-11 UTC from Ubuntu packages; no system installation performed.
+
+Package: gap-core
+Version: 4.12.1-2build2
+Architecture: amd64
+File: debs/gap-core_4.12.1-2build2_amd64.deb
+SHA256: f56581f1e4ea01e4a66e6db6f1fcb997d654d7bd6a7daa66c0e5efff934c1f78
+
+Package: gap-gapdoc
+Version: 1.6.6-1
+Architecture: all
+File: debs/gap-gapdoc_1.6.6-1_all.deb
+SHA256: cb14c58ad6caf05a7fb1bada753156d3ad3df20eee4f8fd2e334be6444f05964
+
+Package: gap-libs
+Version: 4.12.1-2build2
+Architecture: all
+File: debs/gap-libs_4.12.1-2build2_all.deb
+SHA256: a8cfbb0a62eed29cdef6d983ab1cbfbfcf4de45850ddb9c58e585064e8583c8c
+
+Package: gap-smallgrp-extra
+Version: 1.5.3-1
+Architecture: all
+File: debs/gap-smallgrp-extra_1.5.3-1_all.deb
+SHA256: 5855ef9a9f5cb98e52e9016c4933e6ee48428ef9aa78955e7863270b7eeb05d3
+
+Package: gap-smallgrp
+Version: 1.5.3-1
+Architecture: all
+File: debs/gap-smallgrp_1.5.3-1_all.deb
+SHA256: 911f5d6aca3c8b9ac18e8edb632fb17da78aaed25ad1237b4868a355db041978

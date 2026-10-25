@@ -1,0 +1,1 @@
+RESULT n=13 k=6 t=6 engine=cvc5 prune=1 atoms=322 clauses=1716 status=unsat secs=34038.9

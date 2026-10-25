@@ -1,0 +1,19 @@
+C0 = 9*16005^2 = 2305440225   C = ceil(C0^(1/3)) = 1322
+(1) 9(16004Dh+1)^2 <= C0(Dh)^2 on D<30,h<300: OK;  CONTROL C0'=9*16004^2 violated at 16 of 16 pairs
+(2) identity and inequality <= (CDh)^{6D} for D<=8, h<=200: True
+    CONTROL C-1 violates at 200 pairs (e.g. [(1, 1), (1, 2)] );  CONTROL exponent 5D violates at 1600 pairs
+(3) first-family exponent log(k T_glob) - (delta M - 1)/32 (paper's explicit T_glob bound, lambda bound):
+    k=1e20: D=100 log T_glob<=9.49506e+7  M=1.0e+10  exponent=6.37006e+7
+    k=1e25: D=317 log T_glob<=3.75606e+9  M=3.16228e+12  exponent=-6.12606e+9
+    k=1e28: D=631 log T_glob<=3.30933e+10  M=1.0e+14  exponent=-2.79407e+11
+    k=1e30: D=1000 log T_glob<=1.40929e+11  M=1.0e+15  exponent=-2.98407e+12
+    k=1e35: D=3163 log T_glob<=5.18822e+12  M=3.16228e+17  exponent=-9.83024e+14
+    k=1e40: D=10000 log T_glob<=1.86979e+14  M=1.0e+20  exponent=-3.12313e+17
+    k=1e50: D=100000 log T_glob<=2.33031e+17  M=1.0e+25  exponent=-3.12498e+22
+    second-family per-label sum S(D)=sum_{h>D^2} (CDh)^{6D} e^{-h/64} with the explicit C:
+      D=1000: log S(D) <= 151841.0  (k = D^10 ~ 1e30)
+      D=3000: log S(D) <= 421087.0  (k = D^10 ~ 1e34)
+      D=5000: log S(D) <= 591534.0  (k = D^10 ~ 1e36)
+      D=8000: log S(D) <= 639132.0  (k = D^10 ~ 1e39)
+      D=10000: log S(D) <= 526580.0  (k = D^10 ~ 1e40)
+      D=20000: log S(D) <= -1.82231e+6  (k = D^10 ~ 1e43)

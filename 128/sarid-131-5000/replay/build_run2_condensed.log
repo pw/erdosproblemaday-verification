@@ -1,0 +1,813 @@
+⚠ [8506/9157] Replayed Erdos128.FiniteHostClassification
+warning: Erdos128/FiniteHostClassification.lean:382:6: try 'simp' instead of 'simpa'
+warning: Erdos128/FiniteHostClassification.lean:531:0: `Covers.classifyGraph` does not use the following hypothesis in its type:
+  • [DecidableRel graph.Adj] (#5)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+⚠ [8508/9157] Replayed Erdos128.C4Certificate.MomentsCore
+warning: Erdos128/C4Certificate/MomentsCore.lean:200:14: `simp [optValue, hfp, hgp, add_mul]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:200:14: Try this:
+  [apply] simp only [List.getD_eq_getElem?_getD, Nat.cast_ite, Nat.cast_add, Nat.cast_one, ite_mul]
+info: Erdos128/C4Certificate/MomentsCore.lean:201:14: `have hsplit :
+  (∑ x ∈ Finset.range d,
+      ∑ y ∈ Finset.range d,
+        if i = x ∧ j = y then (pairCount ps f g x y : ℚ) * v.getD x 0 * v.getD y 0 + v.getD x 0 * v.getD y 0
+        else (pairCount ps f g x y : ℚ) * v.getD x 0 * v.getD y 0) =
+    (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, (pairCount ps f g x y : ℚ) * v.getD x 0 * v.getD y 0) +
+      (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, if i = x ∧ j = y then v.getD x 0 * v.getD y 0 else 0) :=
+  by
+  rw [← Finset.sum_add_distrib]
+  apply Finset.sum_congr rfl
+  intro x hx
+  rw [← Finset.sum_add_distrib]
+  apply Finset.sum_congr rfl
+  intro y hy
+  by_cases hxy : i = x ∧ j = y <;> simp [hxy]` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:200:14: `simp [optValue, hfp, hgp, add_mul]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:200:14: Try this:
+  [apply] simp only [List.getD_eq_getElem?_getD, Nat.cast_ite, Nat.cast_add, Nat.cast_one, ite_mul]
+info: Erdos128/C4Certificate/MomentsCore.lean:218:14: `have hdelta :
+  (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, if i = x ∧ j = y then v.getD x 0 * v.getD y 0 else 0) =
+    v.getD i 0 * v.getD j 0 :=
+  by
+  rw [Finset.sum_eq_single_of_mem i hi]
+  · simp only [true_and]
+    rw [Finset.sum_eq_single_of_mem j hj]
+    · simp
+    · intro y hy hyj
+      simp [Ne.symm hyj]
+  · intro x hx hxi
+    simp [Ne.symm hxi]` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:200:14: `simp [optValue, hfp, hgp, add_mul]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:200:14: Try this:
+  [apply] simp only [List.getD_eq_getElem?_getD, Nat.cast_ite, Nat.cast_add, Nat.cast_one, ite_mul]
+info: Erdos128/C4Certificate/MomentsCore.lean:230:14: `calc
+  _ =
+      (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, (pairCount ps f g x y : ℚ) * v.getD x 0 * v.getD y 0) +
+        (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, if i = x ∧ j = y then v.getD x 0 * v.getD y 0 else 0) :=
+    by
+    rw [hdelta]
+    ac_rfl
+  _ = _ := hsplit.symm` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:261:23: This simp argument is unused:
+  Nat.mul_mod
+Hint: Omit it from the simp argument list.
+  simp [Nat.add_mod, N̵a̵t̵.̵m̵u̵l̵_̵m̵o̵d̵,̵ ̵Nat.mod_eq_of_lt hb, Nat.mod_eq_of_lt hj] at hmod
+warning: Erdos128/C4Certificate/MomentsCore.lean:261:4: `simp [Nat.add_mod, Nat.mul_mod, Nat.mod_eq_of_lt hb,
+      Nat.mod_eq_of_lt hj] at hmod` is a flexible tactic modifying `hmod`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:264:4: `exact ⟨Nat.mul_right_cancel hd (Nat.add_right_cancel h), rfl⟩` uses `hmod`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:274:5: unused variable `hi`
+warning: Erdos128/C4Certificate/MomentsCore.lean:293:2: `simp [hk]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:293:2: Try this:
+  [apply] simp only [Array.getElem?_set_self, Option.getD_some]
+info: Erdos128/C4Certificate/MomentsCore.lean:294:2: `change (bumpArray (a * d + b) s[k])[i * d + j]?.getD 0 = _` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:293:2: `simp [hk]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:293:2: Try this:
+  [apply] simp only [Array.getElem?_set_self, Option.getD_some]
+info: Erdos128/C4Certificate/MomentsCore.lean:295:2: `rw [bumpArray_getD _ _ _ hab']` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:293:2: `simp [hk]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:293:2: Try this:
+  [apply] simp only [Array.getElem?_set_self, Option.getD_some]
+info: Erdos128/C4Certificate/MomentsCore.lean:297:2: `apply if_congr` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:293:2: `simp [hk]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:293:2: Try this:
+  [apply] simp only [Array.getElem?_set_self, Option.getD_some]
+info: Erdos128/C4Certificate/MomentsCore.lean:298:4: `exact flat_index_eq_iff hb hj` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:344:10: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:344:42: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:345:30: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:345:68: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:345:30: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:345:68: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:348:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:348:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:350:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:350:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:352:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:352:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:354:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:354:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:356:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:356:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:358:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:358:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:360:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:360:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:406:10: This simp argument is unused:
+  canonicalLeafProfile
+Hint: Omit it from the simp argument list.
+  simp [featureIndexPair, featureIndex, canonicalRootMask, c̵a̵n̵o̵n̵i̵c̵a̵l̵L̵e̵a̵f̵P̵r̵o̵f̵i̵l̵e̵,̵ ̵h]
+warning: Erdos128/C4Certificate/MomentsCore.lean:421:8: This simp argument is unused:
+  hku
+Hint: Omit it from the simp argument list.
+  simp [hk̵u̵,̵ ̵h̵ne]
+warning: Erdos128/C4Certificate/MomentsCore.lean:443:8: try 'simp' instead of 'simpa'
+warning: Erdos128/C4Certificate/MomentsCore.lean:433:28: This simp argument is unused:
+  hp
+Hint: Omit it from the simp argument list.
+  simp [bumpPair,̵ ̵h̵p̵]
+warning: Erdos128/C4Certificate/MomentsCore.lean:453:28: This simp argument is unused:
+  hp
+Hint: Omit it from the simp argument list.
+  simp [bumpPair,̵ ̵h̵p̵]
+warning: Erdos128/C4Certificate/MomentsCore.lean:456:27: This simp argument is unused:
+  hp
+Hint: Omit it from the simp argument list.
+  simp only [bumpPair,̵ ̵h̵p̵]
+warning: Erdos128/C4Certificate/MomentsCore.lean:574:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:577:6: `exact hr0.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:593:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:598:6: `exact hr1.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:612:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:619:6: `exact hr3.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:631:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:640:6: `exact hr7.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:650:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:661:6: `exact hr12.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:669:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:682:6: `exact hr13.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:688:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:703:6: `exact hr30.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:840:30: This simp argument is unused:
+  canonicalRootMask
+Hint: Omit it from the simp argument list.
+  simp [featureIndexPair, c̵a̵n̵o̵n̵i̵c̵a̵l̵R̵o̵o̵t̵M̵a̵s̵k̵,̵ ̵root, code, roots, hmatch]
+⚠ [8741/9157] Replayed Erdos128.C4Certificate.PointwiseRelabel
+warning: Erdos128/C4Certificate/PointwiseRelabel.lean:52:18: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [targetAt,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+info: Erdos128/C4Certificate/PointwiseRelabel.lean:104:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos128/C4Certificate/PointwiseRelabel.lean:124:57: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [featureIndex, flag0Key_pointwiseRelabelMask,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+warning: Erdos128/C4Certificate/PointwiseRelabel.lean:126:57: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [featureIndex, flag2Key_pointwiseRelabelMask,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+⚠ [8742/9157] Replayed Erdos128.C4Certificate.InducedMaskBasics.Row0
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row0.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row0`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row0.lean:11:0: `maskAdj_inducedMask_row0` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row0.lean:11:0: `maskAdj_inducedMask_row0` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8743/9157] Replayed Erdos128.C4Certificate.InducedMaskBasics.Row1
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row1.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row1`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row1.lean:11:0: `maskAdj_inducedMask_row1` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row1.lean:11:0: `maskAdj_inducedMask_row1` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8744/9157] Replayed Erdos128.C4Certificate.InducedMaskBasics.Row2
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row2.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row2`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row2.lean:11:0: `maskAdj_inducedMask_row2` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row2.lean:11:0: `maskAdj_inducedMask_row2` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8745/9157] Replayed Erdos128.C4Certificate.InducedMaskBasics.Row3
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row3.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row3`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row3.lean:11:0: `maskAdj_inducedMask_row3` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row3.lean:11:0: `maskAdj_inducedMask_row3` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8746/9157] Replayed Erdos128.C4Certificate.InducedMaskBasics.Row4
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row4.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row4`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row4.lean:11:0: `maskAdj_inducedMask_row4` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row4.lean:11:0: `maskAdj_inducedMask_row4` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8747/9157] Replayed Erdos128.C4Certificate.InducedMaskBasics.Row5
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row5.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row5`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row5.lean:11:0: `maskAdj_inducedMask_row5` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row5.lean:11:0: `maskAdj_inducedMask_row5` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8748/9157] Replayed Erdos128.C4Certificate.InducedMaskBasics
+warning: Erdos128/C4Certificate/InducedMaskBasics.lean:24:0: `maskAdj_inducedMask_basic` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics.lean:24:0: `maskAdj_inducedMask_basic` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8749/9157] Replayed Erdos128.C4Certificate.InducedRelabel
+warning: Erdos128/C4Certificate/InducedRelabel.lean:24:0: `inducedMask_comp_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedRelabel.lean:24:0: `inducedMask_comp_perm` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/InducedRelabel.lean:44:0: `termAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedRelabel.lean:44:0: `termAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/InducedRelabel.lean:58:0: `sum_termAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+⚠ [8761/9157] Replayed Erdos128.CubicNeighborhood
+warning: Erdos128/CubicNeighborhood.lean:23:0: `weighted_neighbor_sum_swap` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#4)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/CubicNeighborhood.lean:64:0: `neighborFinset_nonempty_of_degree_pos` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#4)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/CubicNeighborhood.lean:316:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+⚠ [8762/9157] Replayed Erdos128.OneStepSaving
+warning: Erdos128/OneStepSaving.lean:507:12: try 'simp' instead of 'simpa'
+warning: Erdos128/OneStepSaving.lean:509:12: try 'simp' instead of 'simpa'
+warning: Erdos128/OneStepSaving.lean:513:12: try 'simp' instead of 'simpa'
+warning: Erdos128/OneStepSaving.lean:515:12: try 'simp' instead of 'simpa'
+warning: Erdos128/OneStepSaving.lean:528:10: try 'simp' instead of 'simpa'
+⚠ [8763/9157] Replayed Erdos128.LowDensityConstruction
+warning: Erdos128/LowDensityConstruction.lean:33:42: unused variable `ha0`
+warning: Erdos128/LowDensityConstruction.lean:54:8: automatically included section variable(s) unused in theorem `_private.Erdos128.LowDensityConstruction.0.Erdos128.edgeCost_eq_sum_lowSymEdgeWeight`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/LowDensityConstruction.lean:54:0: `edgeCost_eq_sum_lowSymEdgeWeight` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:82:20: try 'simp' instead of 'simpa'
+warning: Erdos128/LowDensityConstruction.lean:65:0: `two_mul_edgeCost_eq_ordered_sum_low` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:125:0: `edgeCost_eq_neighbor_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:141:0: `weightedObjective_eq_edgeCost` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:165:8: automatically included section variable(s) unused in theorem `_private.Erdos128.LowDensityConstruction.0.Erdos128.orderedAdj_comm`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/LowDensityConstruction.lean:165:0: `orderedAdj_comm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:180:8: automatically included section variable(s) unused in theorem `_private.Erdos128.LowDensityConstruction.0.Erdos128.orderedAdj_add_expand`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/LowDensityConstruction.lean:199:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+warning: Erdos128/LowDensityConstruction.lean:180:0: `orderedAdj_add_expand` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:202:0: `two_mul_edgeBilin_eq_orderedAdj` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:352:2: `simp at hobj` is a flexible tactic modifying `hobj`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/LowDensityConstruction.lean:353:2: `rw [show (fun _ : C.LargeVertex ↦ k⁻¹) = (fun v ↦ k⁻¹ * (1 : ℚ)) by funext v; ring, edgeCost_smul,
+  edgeCost_one] at hobj` uses `hobj`!
+warning: Erdos128/LowDensityConstruction.lean:352:2: `simp at hobj` is a flexible tactic modifying `hobj`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/LowDensityConstruction.lean:356:2: `rw [hobj]` uses `hobj`!
+warning: Erdos128/LowDensityConstruction.lean:387:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+⚠ [8771/9157] Replayed Erdos128.C4Certificate.Relabel
+warning: Erdos128/C4Certificate/Relabel.lean:133:18: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [targetAt,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+info: Erdos128/C4Certificate/Relabel.lean:196:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos128/C4Certificate/Relabel.lean:216:48: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [featureIndex, flag0Key_relabelMask,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+warning: Erdos128/C4Certificate/Relabel.lean:218:48: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [featureIndex, flag2Key_relabelMask,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+⚠ [8774/9157] Replayed Erdos128.C4Certificate.Evaluation
+warning: Erdos128/C4Certificate/Evaluation.lean:82:26: This simp argument is unused:
+  blockSlot
+Hint: Omit it from the simp argument list.
+  simp ̵[̵b̵l̵o̵c̵k̵S̵l̵o̵t̵]̵
+warning: Erdos128/C4Certificate/Evaluation.lean:114:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:115:2: `exact denseArray_getD_eq_sparseDenseEntry 3 s0 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:122:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:123:2: `exact denseArray_getD_eq_sparseDenseEntry 15 s20 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:130:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:131:2: `exact denseArray_getD_eq_sparseDenseEntry 10 s21 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:138:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:139:2: `exact denseArray_getD_eq_sparseDenseEntry 16 u40 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:146:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:147:2: `exact denseArray_getD_eq_sparseDenseEntry 12 u41 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:154:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:155:2: `exact denseArray_getD_eq_sparseDenseEntry 10 u43 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:162:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:163:2: `exact denseArray_getD_eq_sparseDenseEntry 9 u47 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:170:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:171:2: `exact denseArray_getD_eq_sparseDenseEntry 9 u412 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:178:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:179:2: `exact denseArray_getD_eq_sparseDenseEntry 8 u413 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:186:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:187:2: `exact denseArray_getD_eq_sparseDenseEntry 7 u430 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:194:5: unused variable `hei`
+warning: Erdos128/C4Certificate/Evaluation.lean:203:10: This simp argument is unused:
+  hflat
+Hint: Omit it from the simp argument list.
+  simp [hf̵l̵a̵t̵,̵ ̵h̵ij, Nat.add_comm]
+⚠ [8777/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk0
+⚠ [8778/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk1
+⚠ [8779/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk2
+⚠ [8780/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk3
+⚠ [8781/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk4
+⚠ [8782/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk5
+⚠ [8784/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk0
+⚠ [8785/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk1
+⚠ [8786/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk2
+⚠ [8787/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk3
+⚠ [8788/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk4
+⚠ [8789/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk5
+⚠ [8792/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk0
+⚠ [8793/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk1
+⚠ [8794/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk2
+⚠ [8795/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk3
+⚠ [8796/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk4
+⚠ [8797/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk5
+⚠ [8799/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk0
+⚠ [8800/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk1
+⚠ [8801/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk2
+⚠ [8802/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk3
+⚠ [8803/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk4
+⚠ [8804/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk5
+⚠ [8807/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk0
+⚠ [8808/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk1
+⚠ [8809/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk2
+⚠ [8810/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk3
+⚠ [8811/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk4
+⚠ [8812/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk5
+⚠ [8814/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk0
+⚠ [8815/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk1
+⚠ [8816/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk2
+⚠ [8817/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk3
+⚠ [8818/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk4
+⚠ [8819/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk5
+⚠ [8821/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk0
+⚠ [8822/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk1
+⚠ [8823/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk2
+⚠ [8824/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk3
+⚠ [8825/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk4
+⚠ [8826/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk5
+⚠ [8827/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk0
+⚠ [8828/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk1
+⚠ [8829/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk2
+⚠ [8830/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk3
+⚠ [8831/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk4
+⚠ [8832/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk5
+⚠ [8833/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk0
+⚠ [8834/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk1
+⚠ [8835/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk2
+⚠ [8836/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk3
+⚠ [8837/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk4
+⚠ [8838/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk5
+⚠ [8840/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk0
+⚠ [8841/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk1
+⚠ [8842/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk2
+⚠ [8843/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk3
+⚠ [8844/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk4
+⚠ [8845/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk5
+⚠ [8847/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk0
+⚠ [8848/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk1
+⚠ [8849/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk2
+⚠ [8850/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk3
+⚠ [8851/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk4
+⚠ [8852/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk5
+⚠ [8853/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk0
+⚠ [8854/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk1
+⚠ [8855/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk2
+⚠ [8856/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk3
+⚠ [8857/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk4
+⚠ [8858/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk5
+⚠ [8859/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk0
+⚠ [8860/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk1
+⚠ [8861/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk2
+⚠ [8862/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk3
+⚠ [8863/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk4
+⚠ [8864/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk5
+⚠ [8865/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk0
+⚠ [8866/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk1
+⚠ [8867/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk2
+⚠ [8868/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk3
+⚠ [8869/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk4
+⚠ [8870/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk5
+⚠ [8872/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk0
+⚠ [8873/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk1
+⚠ [8874/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk2
+⚠ [8875/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk3
+⚠ [8876/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk4
+⚠ [8877/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk5
+⚠ [8879/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk0
+⚠ [8880/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk1
+⚠ [8881/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk2
+⚠ [8882/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk3
+⚠ [8883/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk4
+⚠ [8884/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk5
+⚠ [8886/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk0
+⚠ [8887/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk1
+⚠ [8888/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk2
+⚠ [8889/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk3
+⚠ [8890/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk4
+⚠ [8891/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk5
+⚠ [8893/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk0
+⚠ [8894/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk1
+⚠ [8895/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk2
+⚠ [8896/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk3
+⚠ [8897/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk4
+⚠ [8898/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk5
+⚠ [8899/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk0
+⚠ [8900/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk1
+⚠ [8901/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk2
+⚠ [8902/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk3
+⚠ [8903/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk4
+⚠ [8904/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk5
+⚠ [8905/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk0
+⚠ [8906/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk1
+⚠ [8907/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk2
+⚠ [8908/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk3
+⚠ [8909/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk4
+⚠ [8910/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk5
+⚠ [8912/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk0
+⚠ [8913/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk1
+⚠ [8914/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk2
+⚠ [8915/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk3
+⚠ [8916/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk4
+⚠ [8917/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk5
+⚠ [8919/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk0
+⚠ [8920/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk1
+⚠ [8921/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk2
+⚠ [8922/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk3
+⚠ [8923/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk4
+⚠ [8924/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk5
+⚠ [8926/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk0
+⚠ [8927/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk1
+⚠ [8928/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk2
+⚠ [8929/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk3
+⚠ [8930/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk4
+⚠ [8931/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk5
+⚠ [8933/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk0
+⚠ [8934/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk1
+⚠ [8935/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk2
+⚠ [8936/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk3
+⚠ [8937/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk4
+⚠ [8938/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk5
+⚠ [8940/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk0
+⚠ [8941/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk1
+⚠ [8942/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk2
+⚠ [8943/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk3
+⚠ [8944/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk4
+⚠ [8945/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk5
+⚠ [8946/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk0
+⚠ [8947/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk1
+⚠ [8948/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk2
+⚠ [8949/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk3
+⚠ [8950/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk4
+⚠ [8951/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk5
+⚠ [8953/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk0
+⚠ [8954/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk1
+⚠ [8955/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk2
+⚠ [8956/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk3
+⚠ [8957/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk4
+⚠ [8958/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk5
+⚠ [8959/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk1
+⚠ [8960/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk2
+⚠ [8961/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk3
+⚠ [8962/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk4
+⚠ [8963/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk5
+⚠ [8964/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk0
+⚠ [8965/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk1
+⚠ [8966/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk2
+⚠ [8967/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk3
+⚠ [8968/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk4
+⚠ [8969/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk5
+⚠ [8971/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk0
+⚠ [8972/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk1
+⚠ [8973/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk2
+⚠ [8974/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk3
+⚠ [8975/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk4
+⚠ [8976/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk5
+⚠ [8978/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk0
+⚠ [8979/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk1
+⚠ [8980/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk2
+⚠ [8981/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk3
+⚠ [8982/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk4
+⚠ [8983/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk5
+⚠ [8985/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk0
+⚠ [8986/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk1
+⚠ [8987/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk2
+⚠ [8988/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk3
+⚠ [8989/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk4
+⚠ [8990/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk5
+⚠ [8992/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk0
+⚠ [8993/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk1
+⚠ [8994/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk2
+⚠ [8995/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk3
+⚠ [8996/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk4
+⚠ [8997/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk5
+⚠ [8999/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk0
+⚠ [9000/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk1
+⚠ [9001/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk2
+⚠ [9002/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk3
+⚠ [9003/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk4
+⚠ [9004/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk5
+⚠ [9006/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk0
+⚠ [9007/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk1
+⚠ [9008/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk2
+⚠ [9009/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk3
+⚠ [9010/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk4
+⚠ [9011/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk5
+⚠ [9013/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk0
+⚠ [9014/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk1
+⚠ [9015/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk2
+⚠ [9016/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk3
+⚠ [9017/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk4
+⚠ [9018/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk5
+⚠ [9020/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk0
+⚠ [9021/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk1
+⚠ [9022/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk2
+⚠ [9023/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk3
+⚠ [9024/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk4
+⚠ [9025/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk5
+⚠ [9027/9157] Replayed Erdos128.C4Certificate.HostChecks.Host36
+⚠ [9028/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk0
+⚠ [9029/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk1
+⚠ [9030/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk2
+⚠ [9031/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk3
+⚠ [9032/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk4
+⚠ [9033/9157] Replayed Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk5
+ℹ [9092/9157] Replayed Erdos128.C4Certificate.TupleSums
+info: Erdos128/C4Certificate/TupleSums.lean:93:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Erdos128/C4Certificate/TupleSums.lean:109:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Erdos128/C4Certificate/TupleSums.lean:129:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [9093/9157] Replayed Erdos128.C4Certificate.Soundness
+warning: Erdos128/C4Certificate/Soundness.lean:42:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.sum_graphAdjQ_eq_twice_card_edges`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/Soundness.lean:41:0: `sum_graphAdjQ_eq_twice_card_edges` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:61:0: `twice_edge_sum_eq_dart_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:80:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.dart_sum_eq_adj_sum`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/Soundness.lean:78:0: `dart_sum_eq_adj_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:96:0: `twice_edgeBilin_eq_adj_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:212:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/Soundness.lean:216:4: `simp [maskAdj, orderedEdgeIndex, inducedMask, edgeEnds, G.adj_comm]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Soundness.lean:216:4: Try this:
+  [apply] simp only [Nat.reduceAdd, Fin.zero_eta, Fin.isValue, Fin.mk_one]
+info: Erdos128/C4Certificate/Soundness.lean:217:4: `exact G.adj_comm _ _` uses `⊢`!
+warning: Erdos128/C4Certificate/Soundness.lean:216:4: `simp [maskAdj, orderedEdgeIndex, inducedMask, edgeEnds, G.adj_comm]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Soundness.lean:216:4: Try this:
+  [apply] simp only [Nat.reduceAdd, Fin.mk_one, Fin.isValue, Fin.zero_eta]
+info: Erdos128/C4Certificate/Soundness.lean:217:4: `exact G.adj_comm _ _` uses `⊢`!
+warning: Erdos128/C4Certificate/Soundness.lean:210:0: `maskAdj_inducedMask` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:210:0: `maskAdj_inducedMask` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/Soundness.lean:219:0: `maskAdjQ_inducedMask` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:219:0: `maskAdjQ_inducedMask` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/Soundness.lean:226:0: `inducedMask_isTriangleFree` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:226:0: `inducedMask_isTriangleFree` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [9094/9157] Replayed Erdos128.C4Certificate.ConditionalSquaresCore
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:50:0: `feature_s0_sample6_false` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:50:0: `feature_s0_sample6_false` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:58:0: `feature_s0_sample6_true` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:58:0: `feature_s0_sample6_true` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:73:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:66:0: `feature_s2_sample6_false` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:66:0: `feature_s2_sample6_false` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:82:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:75:0: `feature_s2_sample6_true` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:75:0: `feature_s2_sample6_true` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:84:0: `canonicalRootCode_induced_eq` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:84:0: `canonicalRootCode_induced_eq` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:104:0: `canonicalLeafProfile_induced_eq` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:104:0: `canonicalLeafProfile_induced_eq` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:144:64: This simp argument is unused:
+  if_true
+Hint: Omit it from the simp argument list.
+  simp only [identityOrder_apply, Bool.false_eq_true, if_false,̵ ̵i̵f̵_̵t̵r̵u̵e̵]
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:123:0: `feature_u4_sample6_false` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:123:0: `feature_u4_sample6_false` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:147:0: `feature_u4_sample6_true` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:147:0: `feature_u4_sample6_true` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:171:0: `sum_termAt_identityOrder_nonneg` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+⚠ [9095/9157] Replayed Erdos128.C4Certificate.ConditionalSquares
+warning: Erdos128/C4Certificate/ConditionalSquares.lean:26:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.fintype_sum_list_sum`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/ConditionalSquares.lean:26:0: `fintype_sum_list_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquares.lean:35:0: `sum_sosCoefficient_inducedMask_nonneg` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+⚠ [9096/9157] Replayed Erdos128.C4Certificate.TargetAveragingCore
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:29:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.graphAdjQ_comm`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:29:0: `graphAdjQ_comm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:29:0: `graphAdjQ_comm` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:50:0: `targetAt_inducedMask_identityOrder` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:50:0: `targetAt_inducedMask_identityOrder` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:78:0: `sum_sampledMatchingTerm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+info: Erdos128/C4Certificate/TargetAveragingCore.lean:122:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:108:0: `sum_sampledEdgeTerm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:140:0: `targetAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:140:0: `targetAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:157:0: `sum_targetAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+⚠ [9097/9157] Replayed Erdos128.C4Certificate.TargetAveraging
+warning: Erdos128/C4Certificate/TargetAveraging.lean:24:8: automatically included section variable(s) unused in theorem `_private.Erdos128.C4Certificate.TargetAveraging.0.Erdos128.C4Certificate.fintype_sum_list_target`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/TargetAveraging.lean:24:0: `fintype_sum_list_target` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+⚠ [9100/9157] Replayed Erdos128.C4Certificate.HostChecks.Host0
+⚠ [9101/9157] Replayed Erdos128.C4Certificate.HostChecks.Host1
+⚠ [9103/9157] Replayed Erdos128.C4Certificate.HostChecks.Host2
+⚠ [9104/9157] Replayed Erdos128.C4Certificate.HostChecks.Host3
+⚠ [9106/9157] Replayed Erdos128.C4Certificate.HostChecks.Host4
+⚠ [9107/9157] Replayed Erdos128.C4Certificate.HostChecks.Host5
+⚠ [9109/9157] Replayed Erdos128.C4Certificate.HostChecks.Host6
+⚠ [9111/9157] Replayed Erdos128.C4Certificate.HostChecks.Host7
+⚠ [9112/9157] Replayed Erdos128.C4Certificate.HostChecks.Host8
+⚠ [9113/9157] Replayed Erdos128.C4Certificate.HostChecks.Host9
+⚠ [9115/9157] Replayed Erdos128.C4Certificate.HostChecks.Host10
+⚠ [9117/9157] Replayed Erdos128.C4Certificate.HostChecks.Host11
+⚠ [9119/9157] Replayed Erdos128.C4Certificate.HostChecks.Host12
+⚠ [9120/9157] Replayed Erdos128.C4Certificate.HostChecks.Host13
+⚠ [9121/9157] Replayed Erdos128.C4Certificate.HostChecks.Host14
+⚠ [9122/9157] Replayed Erdos128.C4Certificate.HostChecks.Host15
+⚠ [9123/9157] Replayed Erdos128.C4Certificate.HostChecks.Host16
+⚠ [9125/9157] Replayed Erdos128.C4Certificate.HostChecks.Host17
+⚠ [9127/9157] Replayed Erdos128.C4Certificate.HostChecks.Host18
+⚠ [9128/9157] Replayed Erdos128.C4Certificate.HostChecks.Host19
+⚠ [9129/9157] Replayed Erdos128.C4Certificate.HostChecks.Host20
+⚠ [9130/9157] Replayed Erdos128.C4Certificate.HostChecks.Host21
+⚠ [9131/9157] Replayed Erdos128.C4Certificate.HostChecks.Host22
+⚠ [9132/9157] Replayed Erdos128.C4Certificate.HostChecks.Host23
+⚠ [9134/9157] Replayed Erdos128.C4Certificate.HostChecks.Host24
+⚠ [9135/9157] Replayed Erdos128.C4Certificate.HostChecks.Host25
+⚠ [9137/9157] Replayed Erdos128.C4Certificate.HostChecks.Host26
+⚠ [9138/9157] Replayed Erdos128.C4Certificate.HostChecks.Host28
+⚠ [9139/9157] Replayed Erdos128.C4Certificate.HostChecks.Host29
+⚠ [9140/9157] Replayed Erdos128.C4Certificate.HostChecks.Host30
+⚠ [9141/9157] Replayed Erdos128.C4Certificate.HostChecks.Host31
+⚠ [9142/9157] Replayed Erdos128.C4Certificate.HostChecks.Host32
+⚠ [9143/9157] Replayed Erdos128.C4Certificate.HostChecks.Host33
+⚠ [9144/9157] Replayed Erdos128.C4Certificate.HostChecks.Host34
+⚠ [9145/9157] Replayed Erdos128.C4Certificate.HostChecks.Host35
+⚠ [9146/9157] Replayed Erdos128.C4Certificate.HostChecks.Host37
+⚠ [9149/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk0 (98s)
+✔ [9150/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host27 (9.0s)
+⚠ [9151/9157] Built Erdos128.C4Certificate.HostChecks.Host27 (55s)
+✔ [9152/9157] Built Erdos128.C4Certificate.HostData (10s)
+✔ [9153/9157] Built Erdos128.C4Certificate.FiniteCertificate (8.6s)
+✔ [9154/9157] Built Erdos128.C4Certificate.Provider (8.3s)
+✔ [9155/9157] Built Erdos128.ModuloBCL (7.9s)
+✔ [9156/9157] Built Erdos128 (6.0s)
+Build completed successfully (9157 jobs).

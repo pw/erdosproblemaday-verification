@@ -1,0 +1,2 @@
+0efdd614a4ecae5b114c46f1fd8b153cd0f10f7f 2026-10-22T13:17:10Z
+bigospeedrun/verifier challenges/heilbronn-triangle/Statement.lean

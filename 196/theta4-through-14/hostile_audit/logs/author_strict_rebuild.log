@@ -1,0 +1,8 @@
++ g++ -O3 -march=native -fopenmp -std=c++20 -Wall -Wextra -Wconversion -Wshadow -Werror /home/exedev/erdos_scratch/fresh9_erdos196_20260811/bundle_ro/code/count_avoiders.cpp -o /tmp/audit196_author_strict
++ sha256sum /tmp/audit196_author_strict /home/exedev/erdos_scratch/audit_196_20260811/bin/author_rebuilt_strict /home/exedev/erdos_scratch/fresh9_erdos196_20260811/bundle_ro/reference/count_avoiders_ubuntu24_x86_64
+7d646c337b6b7f72fb684561d8b1da69600c3ebbc1400a52aae23c826ab29a6a  /tmp/audit196_author_strict
+7d646c337b6b7f72fb684561d8b1da69600c3ebbc1400a52aae23c826ab29a6a  /home/exedev/erdos_scratch/audit_196_20260811/bin/author_rebuilt_strict
+7d646c337b6b7f72fb684561d8b1da69600c3ebbc1400a52aae23c826ab29a6a  /home/exedev/erdos_scratch/fresh9_erdos196_20260811/bundle_ro/reference/count_avoiders_ubuntu24_x86_64
++ cmp -s /tmp/audit196_author_strict /home/exedev/erdos_scratch/fresh9_erdos196_20260811/bundle_ro/reference/count_avoiders_ubuntu24_x86_64
++ echo strict_vs_frozen_cmp_exit=0
+strict_vs_frozen_cmp_exit=0

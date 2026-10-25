@@ -1,0 +1,3 @@
+R2=2: BFS covered 154/154 sets, finite=0, disagreements with sieve_perc=0 [] missing=[]
+R2=4: BFS covered 153/154 sets, finite=0, disagreements with sieve_perc=0 [] missing=[(5, (5,))]
+rc=1

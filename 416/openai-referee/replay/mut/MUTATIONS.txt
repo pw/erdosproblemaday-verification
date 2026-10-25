@@ -1,0 +1,10 @@
+statement_match.py mutation tests (2026-10-21, 12:00Z erdos seat). Each mutant = the real logs with one edit; dirs beside this file.
+unmodified        rc=0  ALL_MATCH_STD_SORRYSEEN          (want 0)
+numeral_in_def    rc=1  IsWitness 9/10 -> 8/10 on the comparator side   (want 1)
+theorem_type      rc=1  Set.Ico -> Set.Icc in totient_asymptotic_formula (want 1)
+cmp_no_sorry      rc=1  sorryAx removed from comparator TotientAsymptotic axiom lists (4 -> 0 occurrences) (want 1)
+cmp2_no_sorry     rc=1  sorryAx removed from comparator TotientCompanionZero (want 1)
+sol_extra_axiom   rc=1  OAI.fake added to the solution's main-theorem axioms (want 1)
+missing_block     rc=2  def AH block deleted on the solution side -> MISSING / cannot see (want 2)
+Note: the first cmp_no_sorry attempt used a single-line string replacement that never applied (axiom lists print over several lines)
+and so returned 0; the rerun asserts that every mutation changes its input before running.

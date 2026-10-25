@@ -1,0 +1,3 @@
+'HeilbronnEighteen.block_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnEighteen.block_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1663780 wall=42s

@@ -1,0 +1,4 @@
+|S| = 34  line-intersection spectrum {i: #lines}: {1: 52, 2: 47, 3: 34, 4: 22, 5: 28}
+blocking (no 0-line): True  max intersection: 5  contains a line: False
+identities: True True True
+points with a tangent: 33 of 34

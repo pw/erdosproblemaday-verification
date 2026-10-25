@@ -1,0 +1,7 @@
+points 9373 unit pairs (geometry) 56364 instance says 56364
+unit-step 5-runs (geometry) 18951 instance says 11304
+origin index 1128 red? True | blue tag 6,0
+blue point index 9250 blue? True
+red density 0.2223
+VIOLATIONS: red unit pairs 0 | all-blue 5-runs 1542
+VERDICT: INVALID

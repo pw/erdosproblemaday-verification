@@ -1,0 +1,32 @@
+Independent pair-sum frontier audit
+all normalized sets with maximum mark <= 94
+k=1 raw_total=1 sidon_by_sums=1 hull_covered=1 digest=0x22f0029f0b5b89e2 best_run=1 best_marks={0} best_interval=[0,0]
+k=2 raw_total=94 sidon_by_sums=94 hull_covered=2 digest=0x1392efcfeed0cbfd best_run=4 best_marks={0,1} best_interval=[-1,2]
+k=3 raw_total=4371 sidon_by_sums=4324 hull_covered=8 digest=0xde3fcd2acdd496da best_run=10 best_marks={0,1,3} best_interval=[-3,6]
+k=4 raw_total=134044 sidon_by_sums=125504 hull_covered=76 digest=0x016d382a47f6d6cb best_run=22 best_marks={0,1,5,7} best_interval=[-7,14]
+k=5 raw_total=3049501 sidon_by_sums=2434706 hull_covered=1102 digest=0x07c6ba8dc4a1c421 best_run=42 best_marks={0,5,11,12,20} best_interval=[-12,29]
+k=6 raw_total=54891018 sidon_by_sums=30594300 hull_covered=20166 digest=0xe765e5e56c452ef3 best_run=67 best_marks={0,7,19,22,28,39} best_interval=[-15,51]
+CONCLUSION no maximal Sidon set of size <=6 in [1,n] for 68<=n<=95: CERTIFIED
+	Command being timed: "./audit_156_size6_sums"
+	User time (seconds): 18.04
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3588
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 143
+	Voluntary context switches: 1
+	Involuntary context switches: 162
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

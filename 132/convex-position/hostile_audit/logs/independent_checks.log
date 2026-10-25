@@ -1,0 +1,20 @@
+Independent hostile audit 2 full-source replay
+UTC: 2026-08-11T20:40:09Z
+Host: portalonce
+Python: 3.12.3
+
+Command:
+python3 -B code/verify_independent.py --require-input --require-private
+
+Output:
+exact approved claim and OPEN/GAP boundary: PASS
+input manifest (45 entries) and archive hashes: PASS
+frozen primary theorem/classification statements: PASS
+frozen OPEN and site-collision scope: PASS
+private Fishburn VOR hash: PASS
+all-n parity identities and 5 <= n <= 10000 diagnostics: PASS
+n=5, n=6, regular, and every deleted-vertex model diagnostic: PASS
+ALL INDEPENDENT HOSTILE-AUDIT CHECKS PASSED
+
+The displayed all-n parity identities, rather than the finite loop, are the
+proof of the strict counting branch.  Model enumeration is diagnostic.

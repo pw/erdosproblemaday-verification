@@ -1,0 +1,1198 @@
+✔ [8475/9157] Built Erdos128.C4Certificate.OrderCore (33s)
+✔ [8476/9157] Built Erdos128.C4Certificate.OrderFactsLight.Direct.Chunk2 (46s)
+✔ [8477/9157] Built Erdos128.C4Certificate.OrderFactsLight.Direct.Chunk1 (46s)
+✔ [8478/9157] Built Erdos128.C4Certificate.OrderFactsLight.Direct.Chunk0 (48s)
+✔ [8479/9157] Built Erdos128.C4Certificate.OrderFactsLight.Direct.Chunk5 (49s)
+✔ [8480/9157] Built Erdos128.C4Certificate.OrderFactsLight.Direct.Chunk4 (49s)
+✔ [8481/9157] Built Erdos128.C4Certificate.OrderFactsLight.Direct.Chunk3 (52s)
+✔ [8482/9157] Built Erdos128.WeightedGraph (110s)
+✔ [8483/9157] Built Erdos128.GraphBasics (113s)
+✔ [8484/9157] Built Erdos128.DeepMindTarget (38s)
+✔ [8485/9157] Built Erdos128.ExternalInputs (38s)
+✔ [8486/9157] Built Erdos128.GraphRational (40s)
+⚠ [8487/9157] Built Erdos128.CubicNeighborhood (45s)
+warning: Erdos128/CubicNeighborhood.lean:23:0: `weighted_neighbor_sum_swap` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#4)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/CubicNeighborhood.lean:64:0: `neighborFinset_nonempty_of_degree_pos` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#4)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/CubicNeighborhood.lean:316:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+✔ [8488/9157] Built Erdos128.Rounding (49s)
+✔ [8489/9157] Built Erdos128.LowDensity (174s)
+✔ [8490/9157] Built Erdos128.BCLCertificate.Semantics (47s)
+✔ [8491/9157] Built Erdos128.C4Certificate.Defs (51s)
+⚠ [8492/9157] Built Erdos128.FiniteHostClassification (50s)
+warning: Erdos128/FiniteHostClassification.lean:382:6: try 'simp' instead of 'simpa'
+warning: Erdos128/FiniteHostClassification.lean:531:0: `Covers.classifyGraph` does not use the following hypothesis in its type:
+  • [DecidableRel graph.Adj] (#5)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+✔ [8493/9157] Built Erdos128.LowDensityGraph (53s)
+✔ [8494/9157] Built Erdos128.BalancedBlowup (68s)
+✔ [8495/9157] Built Erdos128.SimpleBound (48s)
+✔ [8496/9157] Built Erdos128.RoundingIterate (60s)
+✔ [8497/9157] Built Erdos128.C4Certificate.OrderChunks.Chunk4 (62s)
+✔ [8498/9157] Built Erdos128.C4Certificate.RelabelRankDefs (62s)
+⚠ [8499/9157] Built Erdos128.C4Certificate.InducedMaskBasics.Row0 (67s)
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row0.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row0`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row0.lean:11:0: `maskAdj_inducedMask_row0` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row0.lean:11:0: `maskAdj_inducedMask_row0` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8500/9157] Built Erdos128.C4Certificate.InducedMaskBasics.Row4 (69s)
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row4.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row4`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row4.lean:11:0: `maskAdj_inducedMask_row4` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row4.lean:11:0: `maskAdj_inducedMask_row4` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8501/9157] Built Erdos128.C4Certificate.InducedMaskBasics.Row1 (72s)
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row1.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row1`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row1.lean:11:0: `maskAdj_inducedMask_row1` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row1.lean:11:0: `maskAdj_inducedMask_row1` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+✔ [8502/9157] Built Erdos128.C4Certificate.OrderChunks.Chunk2 (73s)
+✔ [8503/9157] Built Erdos128.C4Certificate.OrderChunks.Chunk5 (74s)
+⚠ [8504/9157] Built Erdos128.C4Certificate.InducedMaskBasics.Row2 (75s)
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row2.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row2`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row2.lean:11:0: `maskAdj_inducedMask_row2` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row2.lean:11:0: `maskAdj_inducedMask_row2` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+✔ [8505/9157] Built Erdos128.C4Certificate.OrderChunks.Chunk0 (58s)
+⚠ [8506/9157] Built Erdos128.OneStepSaving (126s)
+warning: Erdos128/OneStepSaving.lean:507:12: try 'simp' instead of 'simpa'
+warning: Erdos128/OneStepSaving.lean:509:12: try 'simp' instead of 'simpa'
+warning: Erdos128/OneStepSaving.lean:513:12: try 'simp' instead of 'simpa'
+warning: Erdos128/OneStepSaving.lean:515:12: try 'simp' instead of 'simpa'
+warning: Erdos128/OneStepSaving.lean:528:10: try 'simp' instead of 'simpa'
+✔ [8507/9157] Built Erdos128.C4Certificate.OrderChunks.Chunk1 (78s)
+✔ [8508/9157] Built Erdos128.C4Certificate.OrderChunks.Chunk3 (83s)
+⚠ [8509/9157] Built Erdos128.C4Certificate.PointwiseRelabel (84s)
+warning: Erdos128/C4Certificate/PointwiseRelabel.lean:52:18: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [targetAt,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+info: Erdos128/C4Certificate/PointwiseRelabel.lean:104:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos128/C4Certificate/PointwiseRelabel.lean:124:57: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [featureIndex, flag0Key_pointwiseRelabelMask,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+warning: Erdos128/C4Certificate/PointwiseRelabel.lean:126:57: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [featureIndex, flag2Key_pointwiseRelabelMask,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+⚠ [8510/9157] Built Erdos128.C4Certificate.InducedMaskBasics.Row5 (78s)
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row5.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row5`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row5.lean:11:0: `maskAdj_inducedMask_row5` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row5.lean:11:0: `maskAdj_inducedMask_row5` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8511/9157] Built Erdos128.C4Certificate.InducedMaskBasics.Row3 (80s)
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row3.lean:11:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask_row3`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row3.lean:11:0: `maskAdj_inducedMask_row3` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics/Row3.lean:11:0: `maskAdj_inducedMask_row3` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+⚠ [8512/9157] Built Erdos128.C4Certificate.MomentsCore (124s)
+warning: Erdos128/C4Certificate/MomentsCore.lean:200:14: `simp [optValue, hfp, hgp, add_mul]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:200:14: Try this:
+  [apply] simp only [List.getD_eq_getElem?_getD, Nat.cast_ite, Nat.cast_add, Nat.cast_one, ite_mul]
+info: Erdos128/C4Certificate/MomentsCore.lean:201:14: `have hsplit :
+  (∑ x ∈ Finset.range d,
+      ∑ y ∈ Finset.range d,
+        if i = x ∧ j = y then (pairCount ps f g x y : ℚ) * v.getD x 0 * v.getD y 0 + v.getD x 0 * v.getD y 0
+        else (pairCount ps f g x y : ℚ) * v.getD x 0 * v.getD y 0) =
+    (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, (pairCount ps f g x y : ℚ) * v.getD x 0 * v.getD y 0) +
+      (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, if i = x ∧ j = y then v.getD x 0 * v.getD y 0 else 0) :=
+  by
+  rw [← Finset.sum_add_distrib]
+  apply Finset.sum_congr rfl
+  intro x hx
+  rw [← Finset.sum_add_distrib]
+  apply Finset.sum_congr rfl
+  intro y hy
+  by_cases hxy : i = x ∧ j = y <;> simp [hxy]` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:200:14: `simp [optValue, hfp, hgp, add_mul]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:200:14: Try this:
+  [apply] simp only [List.getD_eq_getElem?_getD, Nat.cast_ite, Nat.cast_add, Nat.cast_one, ite_mul]
+info: Erdos128/C4Certificate/MomentsCore.lean:218:14: `have hdelta :
+  (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, if i = x ∧ j = y then v.getD x 0 * v.getD y 0 else 0) =
+    v.getD i 0 * v.getD j 0 :=
+  by
+  rw [Finset.sum_eq_single_of_mem i hi]
+  · simp only [true_and]
+    rw [Finset.sum_eq_single_of_mem j hj]
+    · simp
+    · intro y hy hyj
+      simp [Ne.symm hyj]
+  · intro x hx hxi
+    simp [Ne.symm hxi]` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:200:14: `simp [optValue, hfp, hgp, add_mul]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:200:14: Try this:
+  [apply] simp only [List.getD_eq_getElem?_getD, Nat.cast_ite, Nat.cast_add, Nat.cast_one, ite_mul]
+info: Erdos128/C4Certificate/MomentsCore.lean:230:14: `calc
+  _ =
+      (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, (pairCount ps f g x y : ℚ) * v.getD x 0 * v.getD y 0) +
+        (∑ x ∈ Finset.range d, ∑ y ∈ Finset.range d, if i = x ∧ j = y then v.getD x 0 * v.getD y 0 else 0) :=
+    by
+    rw [hdelta]
+    ac_rfl
+  _ = _ := hsplit.symm` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:261:23: This simp argument is unused:
+  Nat.mul_mod
+Hint: Omit it from the simp argument list.
+  simp [Nat.add_mod, N̵a̵t̵.̵m̵u̵l̵_̵m̵o̵d̵,̵ ̵Nat.mod_eq_of_lt hb, Nat.mod_eq_of_lt hj] at hmod
+warning: Erdos128/C4Certificate/MomentsCore.lean:261:4: `simp [Nat.add_mod, Nat.mul_mod, Nat.mod_eq_of_lt hb,
+      Nat.mod_eq_of_lt hj] at hmod` is a flexible tactic modifying `hmod`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:264:4: `exact ⟨Nat.mul_right_cancel hd (Nat.add_right_cancel h), rfl⟩` uses `hmod`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:274:5: unused variable `hi`
+warning: Erdos128/C4Certificate/MomentsCore.lean:293:2: `simp [hk]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:293:2: Try this:
+  [apply] simp only [Array.getElem?_set_self, Option.getD_some]
+info: Erdos128/C4Certificate/MomentsCore.lean:294:2: `change (bumpArray (a * d + b) s[k])[i * d + j]?.getD 0 = _` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:293:2: `simp [hk]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:293:2: Try this:
+  [apply] simp only [Array.getElem?_set_self, Option.getD_some]
+info: Erdos128/C4Certificate/MomentsCore.lean:295:2: `rw [bumpArray_getD _ _ _ hab']` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:293:2: `simp [hk]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:293:2: Try this:
+  [apply] simp only [Array.getElem?_set_self, Option.getD_some]
+info: Erdos128/C4Certificate/MomentsCore.lean:297:2: `apply if_congr` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:293:2: `simp [hk]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:293:2: Try this:
+  [apply] simp only [Array.getElem?_set_self, Option.getD_some]
+info: Erdos128/C4Certificate/MomentsCore.lean:298:4: `exact flat_index_eq_iff hb hj` uses `⊢`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:344:10: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:344:42: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:345:30: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:345:68: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:345:30: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:345:68: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:348:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:348:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:350:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:350:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:352:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:352:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:354:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:354:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:356:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:356:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:358:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:358:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:360:20: `simp [blockSlot] at h` is a flexible tactic modifying `h`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:360:52: `decide` uses `h`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:406:10: This simp argument is unused:
+  canonicalLeafProfile
+Hint: Omit it from the simp argument list.
+  simp [featureIndexPair, featureIndex, canonicalRootMask, c̵a̵n̵o̵n̵i̵c̵a̵l̵L̵e̵a̵f̵P̵r̵o̵f̵i̵l̵e̵,̵ ̵h]
+warning: Erdos128/C4Certificate/MomentsCore.lean:421:8: This simp argument is unused:
+  hku
+Hint: Omit it from the simp argument list.
+  simp [hk̵u̵,̵ ̵h̵ne]
+warning: Erdos128/C4Certificate/MomentsCore.lean:443:8: try 'simp' instead of 'simpa'
+warning: Erdos128/C4Certificate/MomentsCore.lean:433:28: This simp argument is unused:
+  hp
+Hint: Omit it from the simp argument list.
+  simp [bumpPair,̵ ̵h̵p̵]
+warning: Erdos128/C4Certificate/MomentsCore.lean:453:28: This simp argument is unused:
+  hp
+Hint: Omit it from the simp argument list.
+  simp [bumpPair,̵ ̵h̵p̵]
+warning: Erdos128/C4Certificate/MomentsCore.lean:456:27: This simp argument is unused:
+  hp
+Hint: Omit it from the simp argument list.
+  simp only [bumpPair,̵ ̵h̵p̵]
+warning: Erdos128/C4Certificate/MomentsCore.lean:574:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:577:6: `exact hr0.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:593:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:598:6: `exact hr1.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:612:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:619:6: `exact hr3.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:631:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:640:6: `exact hr7.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:650:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:661:6: `exact hr12.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:669:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:682:6: `exact hr13.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:688:4: `simp [blockSlot] at hl` is a flexible tactic modifying `hl`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/MomentsCore.lean:703:6: `exact hr30.symm` uses `hl`!
+warning: Erdos128/C4Certificate/MomentsCore.lean:840:30: This simp argument is unused:
+  canonicalRootMask
+Hint: Omit it from the simp argument list.
+  simp [featureIndexPair, c̵a̵n̵o̵n̵i̵c̵a̵l̵R̵o̵o̵t̵M̵a̵s̵k̵,̵ ̵root, code, roots, hmatch]
+✔ [8513/9157] Built Erdos128.BCLCertificate.Bridge (66s)
+✔ [8514/9157] Built Erdos128.C4Certificate.RelabelRankChunks.Chunk2 (56s)
+✔ [8515/9157] Built Erdos128.C4Certificate.RelabelRankChunks.Chunk5 (57s)
+✔ [8516/9157] Built Erdos128.FiniteHostData.Codes (73s)
+✔ [8517/9157] Built Erdos128.C4Certificate.RelabelRankChunks.Chunk4 (66s)
+✔ [8518/9157] Built Erdos128.C4Certificate.OrderFactsLight.Bridge.Chunk5 (64s)
+✔ [8519/9157] Built Erdos128.C4Certificate.OrderFactsLight.Bridge.Chunk0 (60s)
+✔ [8520/9157] Built Erdos128.C4Certificate.RelabelRankChunks.Chunk0 (60s)
+✔ [8521/9157] Built Erdos128.C4Certificate.OrderFactsLight.Bridge.Chunk2 (71s)
+✔ [8522/9157] Built Erdos128.C4Certificate.OrderFactsLight.Bridge.Chunk4 (78s)
+✔ [8523/9157] Built Erdos128.C4Certificate.OrderChunks (52s)
+✔ [8524/9157] Built Erdos128.C4Certificate.RelabelRankChunks.Chunk1 (60s)
+✔ [8525/9157] Built Erdos128.RoundingFinal (92s)
+✔ [8526/9157] Built Erdos128.C4Certificate.OrderFactsLight.Bridge.Chunk1 (77s)
+✔ [8527/9157] Built Erdos128.C4Certificate.OrderFactsLight.Bridge.Chunk3 (57s)
+✔ [8528/9157] Built Erdos128.C4Certificate.RelabelRankChunks.Chunk3 (63s)
+⚠ [8529/9157] Built Erdos128.C4Certificate.InducedMaskBasics (69s)
+warning: Erdos128/C4Certificate/InducedMaskBasics.lean:24:0: `maskAdj_inducedMask_basic` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedMaskBasics.lean:24:0: `maskAdj_inducedMask_basic` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+✔ [8530/9157] Built Erdos128.C4Certificate.Orders (48s)
+✔ [8531/9157] Built Erdos128.FiniteHostData.Step2 (63s)
+⚠ [8532/9157] Built Erdos128.LowDensityConstruction (120s)
+warning: Erdos128/LowDensityConstruction.lean:33:42: unused variable `ha0`
+warning: Erdos128/LowDensityConstruction.lean:54:8: automatically included section variable(s) unused in theorem `_private.Erdos128.LowDensityConstruction.0.Erdos128.edgeCost_eq_sum_lowSymEdgeWeight`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/LowDensityConstruction.lean:54:0: `edgeCost_eq_sum_lowSymEdgeWeight` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:82:20: try 'simp' instead of 'simpa'
+warning: Erdos128/LowDensityConstruction.lean:65:0: `two_mul_edgeCost_eq_ordered_sum_low` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:125:0: `edgeCost_eq_neighbor_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:141:0: `weightedObjective_eq_edgeCost` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:165:8: automatically included section variable(s) unused in theorem `_private.Erdos128.LowDensityConstruction.0.Erdos128.orderedAdj_comm`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/LowDensityConstruction.lean:165:0: `orderedAdj_comm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:180:8: automatically included section variable(s) unused in theorem `_private.Erdos128.LowDensityConstruction.0.Erdos128.orderedAdj_add_expand`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/LowDensityConstruction.lean:199:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+warning: Erdos128/LowDensityConstruction.lean:180:0: `orderedAdj_add_expand` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:202:0: `two_mul_edgeBilin_eq_orderedAdj` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/LowDensityConstruction.lean:352:2: `simp at hobj` is a flexible tactic modifying `hobj`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/LowDensityConstruction.lean:353:2: `rw [show (fun _ : C.LargeVertex ↦ k⁻¹) = (fun v ↦ k⁻¹ * (1 : ℚ)) by funext v; ring, edgeCost_smul,
+  edgeCost_one] at hobj` uses `hobj`!
+warning: Erdos128/LowDensityConstruction.lean:352:2: `simp at hobj` is a flexible tactic modifying `hobj`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/LowDensityConstruction.lean:356:2: `rw [hobj]` uses `hobj`!
+warning: Erdos128/LowDensityConstruction.lean:387:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+✔ [8533/9157] Built Erdos128.GraphCertificate (44s)
+✔ [8534/9157] Built Erdos128.FiniteHostData.Step3 (71s)
+✔ [8535/9157] Built Erdos128.FiniteHostData.Step0 (65s)
+✔ [8536/9157] Built Erdos128.FiniteHostData.Step1 (71s)
+✔ [8537/9157] Built Erdos128.C4Certificate.FastMomentsCore (87s)
+✔ [8538/9157] Built Erdos128.FiniteHostData.Step5Data (99s)
+✔ [8539/9157] Built Erdos128.C4Certificate.OrderFactsLight (51s)
+✔ [8540/9157] Built Erdos128.C4Certificate.RelabelRank (53s)
+⚠ [8541/9157] Built Erdos128.C4Certificate.InducedRelabel (57s)
+warning: Erdos128/C4Certificate/InducedRelabel.lean:24:0: `inducedMask_comp_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedRelabel.lean:24:0: `inducedMask_comp_perm` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/InducedRelabel.lean:44:0: `termAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/InducedRelabel.lean:44:0: `termAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/InducedRelabel.lean:58:0: `sum_termAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+✔ [8542/9157] Built Erdos128.GraphCasts (71s)
+✔ [8543/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host31Data (74s)
+✔ [8544/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host36Data (76s)
+✔ [8545/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host37Data (77s)
+✔ [8546/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host32Data (77s)
+✔ [8547/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host33Data (81s)
+✔ [8548/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host30Data (83s)
+✔ [8549/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host34Data (86s)
+✔ [8550/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host29Data (88s)
+✔ [8551/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host35Data (88s)
+✔ [8552/9157] Built Erdos128.C4Certificate.Data (113s)
+✔ [8553/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host28Data (81s)
+✔ [8554/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host27Data (74s)
+✔ [8555/9157] Built Erdos128.FiniteHostData.Step4 (190s)
+✔ [8556/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host26Data (83s)
+✔ [8557/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host25Data (83s)
+✔ [8558/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host24Data (69s)
+✔ [8559/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host23Data (67s)
+✔ [8560/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host21Data (68s)
+✔ [8561/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host22Data (73s)
+✔ [8562/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host19Data (68s)
+✔ [8563/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host16Data (62s)
+✔ [8564/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host20Data (76s)
+✔ [8565/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host14Data (62s)
+✔ [8566/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host17Data (70s)
+✔ [8567/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host18Data (76s)
+✔ [8568/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host15Data (76s)
+✔ [8569/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host13Data (76s)
+✔ [8570/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host12Data (71s)
+✔ [8571/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host8Data (66s)
+✔ [8572/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host9Data (75s)
+✔ [8573/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host11Data (93s)
+✔ [8574/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host10Data (85s)
+✔ [8575/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host2Data (54s)
+✔ [8576/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host4Data (62s)
+✔ [8577/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host6Data (67s)
+✔ [8578/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host7Data (75s)
+✔ [8579/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host0Data (61s)
+✔ [8580/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host3Data (74s)
+✔ [8581/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile16 (56s)
+✔ [8582/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile24 (69s)
+✔ [8583/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host1Data (78s)
+✔ [8584/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host5Data (88s)
+✔ [8585/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile20 (80s)
+✔ [8586/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile10 (69s)
+✔ [8587/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile3 (57s)
+✔ [8588/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile8 (69s)
+✔ [8589/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile5 (69s)
+✔ [8590/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile4 (72s)
+✔ [8591/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile2 (72s)
+✔ [8592/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile0 (72s)
+✔ [8593/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13.Profile1 (73s)
+✔ [8594/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile16 (57s)
+✔ [8595/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile20 (63s)
+✔ [8596/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile24 (74s)
+✔ [8597/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile3 (52s)
+✔ [8598/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile12 (66s)
+✔ [8599/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile28 (82s)
+✔ [8600/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile4 (58s)
+✔ [8601/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile8 (71s)
+✔ [8602/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile18 (84s)
+✔ [8603/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile1 (60s)
+✔ [8604/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile2 (63s)
+✔ [8605/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12.Profile0 (68s)
+✔ [8606/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile20 (56s)
+✔ [8607/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile24 (67s)
+✔ [8608/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile28 (80s)
+✔ [8609/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile16 (72s)
+✔ [8610/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile4 (66s)
+✔ [8611/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile12 (74s)
+✔ [8612/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile8 (74s)
+✔ [8613/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile3 (69s)
+✔ [8614/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile2 (68s)
+✔ [8615/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile0 (65s)
+✔ [8616/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11.Profile1 (69s)
+✔ [8617/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile28 (68s)
+✔ [8618/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile18 (68s)
+✔ [8619/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile16 (61s)
+✔ [8620/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile24 (81s)
+✔ [8621/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile20 (75s)
+✔ [8622/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile12 (69s)
+✔ [8623/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile9 (66s)
+✔ [8624/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile28 (48s)
+✔ [8625/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile8 (70s)
+✔ [8626/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile24 (57s)
+✔ [8627/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile1 (64s)
+✔ [8628/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile3 (72s)
+✔ [8629/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile20 (62s)
+✔ [8630/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile4 (78s)
+✔ [8631/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile2 (75s)
+✔ [8632/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile19 (63s)
+✔ [8633/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10.Profile0 (75s)
+✔ [8634/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile18 (70s)
+✔ [8635/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile16 (67s)
+✔ [8636/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile12 (67s)
+✔ [8637/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile17 (69s)
+✔ [8638/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile3 (62s)
+✔ [8639/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile4 (66s)
+✔ [8640/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile8 (72s)
+✔ [8641/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile1 (60s)
+✔ [8642/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile0 (60s)
+✔ [8643/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile20 (51s)
+✔ [8644/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile28 (60s)
+✔ [8645/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9.Profile2 (68s)
+✔ [8646/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile26 (65s)
+✔ [8647/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile16 (57s)
+✔ [8648/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile18 (62s)
+✔ [8649/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile24 (69s)
+✔ [8650/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile10 (55s)
+✔ [8651/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile5 (55s)
+✔ [8652/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile12 (64s)
+✔ [8653/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile8 (64s)
+✔ [8654/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile4 (54s)
+✔ [8655/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile1 (54s)
+✔ [8656/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile0 (57s)
+✔ [8657/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8.Profile2 (63s)
+✔ [8658/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile28 (60s)
+✔ [8659/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile26 (60s)
+✔ [8660/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile21 (60s)
+✔ [8661/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile24 (62s)
+✔ [8662/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile20 (62s)
+✔ [8663/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile17 (64s)
+✔ [8664/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile18 (67s)
+✔ [8665/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile16 (66s)
+✔ [8666/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile12 (60s)
+✔ [8667/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile10 (64s)
+✔ [8668/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile8 (65s)
+✔ [8669/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile2 (57s)
+✔ [8670/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile5 (70s)
+✔ [8671/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile1 (54s)
+✔ [8672/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile4 (66s)
+✔ [8673/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7.Profile0 (58s)
+✔ [8674/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile28 (56s)
+✔ [8675/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile20 (57s)
+✔ [8676/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile24 (65s)
+✔ [8677/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile26 (69s)
+✔ [8678/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile12 (51s)
+✔ [8679/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile18 (66s)
+✔ [8680/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile5 (45s)
+✔ [8681/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile8 (56s)
+✔ [8682/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile16 (68s)
+✔ [8683/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile10 (67s)
+✔ [8684/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile1 (58s)
+✔ [8685/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile28 (57s)
+✔ [8686/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile4 (69s)
+✔ [8687/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile3 (65s)
+✔ [8688/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile2 (64s)
+✔ [8689/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile24 (62s)
+✔ [8690/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6.Profile0 (78s)
+✔ [8691/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile26 (77s)
+✔ [8692/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile21 (68s)
+✔ [8693/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile18 (63s)
+✔ [8694/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile20 (73s)
+✔ [8695/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile19 (82s)
+✔ [8696/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile17 (73s)
+✔ [8697/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile10 (66s)
+✔ [8698/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile16 (72s)
+✔ [8699/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile5 (51s)
+✔ [8700/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile12 (78s)
+✔ [8701/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile2 (58s)
+✔ [8702/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile8 (67s)
+✔ [8703/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile3 (69s)
+✔ [8704/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile1 (59s)
+✔ [8705/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile4 (71s)
+✔ [8706/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5.Profile0 (66s)
+✔ [8707/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile24 (54s)
+✔ [8708/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile30 (68s)
+✔ [8709/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile28 (72s)
+✔ [8710/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile20 (63s)
+✔ [8711/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile26 (75s)
+✔ [8712/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile16 (60s)
+✔ [8713/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile14 (57s)
+✔ [8714/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile22 (68s)
+✔ [8715/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile18 (68s)
+✔ [8716/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile10 (63s)
+✔ [8717/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile12 (71s)
+✔ [8718/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile8 (64s)
+✔ [8719/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile2 (65s)
+✔ [8720/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile6 (68s)
+✔ [8721/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile0 (61s)
+✔ [8722/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile1 (66s)
+✔ [8723/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4.Profile4 (79s)
+✔ [8724/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile30 (63s)
+✔ [8725/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile24 (55s)
+✔ [8726/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile28 (69s)
+✔ [8727/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile18 (60s)
+✔ [8728/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile26 (66s)
+✔ [8729/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile20 (66s)
+✔ [8730/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile22 (68s)
+✔ [8731/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile14 (57s)
+✔ [8732/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile17 (70s)
+✔ [8733/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile12 (68s)
+✔ [8734/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile16 (72s)
+✔ [8735/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile6 (49s)
+✔ [8736/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile8 (58s)
+✔ [8737/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile10 (61s)
+✔ [8738/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile4 (57s)
+✔ [8739/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile0 (49s)
+✔ [8740/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile2 (61s)
+✔ [8741/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3.Profile1 (60s)
+✔ [8742/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile28 (54s)
+✔ [8743/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile24 (52s)
+✔ [8744/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile25 (53s)
+✔ [8745/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile30 (65s)
+✔ [8746/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile26 (67s)
+✔ [8747/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile16 (50s)
+✔ [8748/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile22 (62s)
+✔ [8749/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile20 (65s)
+✔ [8750/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile14 (60s)
+✔ [8751/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile18 (62s)
+✔ [8752/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile17 (64s)
+✔ [8753/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile10 (57s)
+✔ [8754/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile12 (67s)
+✔ [8755/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile8 (55s)
+✔ [8756/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile6 (60s)
+✔ [8757/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile9 (64s)
+✔ [8758/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile4 (54s)
+✔ [8759/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile1 (53s)
+✔ [8760/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile0 (50s)
+✔ [8761/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2.Profile2 (60s)
+✔ [8762/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile30 (52s)
+✔ [8763/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile26 (54s)
+✔ [8764/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile25 (50s)
+✔ [8765/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile28 (62s)
+✔ [8766/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile21 (51s)
+✔ [8767/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile20 (50s)
+✔ [8768/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile29 (71s)
+✔ [8769/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile22 (58s)
+✔ [8770/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile24 (67s)
+✔ [8771/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile14 (49s)
+✔ [8772/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile18 (61s)
+✔ [8773/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile17 (58s)
+✔ [8774/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile16 (62s)
+✔ [8775/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile12 (53s)
+✔ [8776/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile10 (55s)
+✔ [8777/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile9 (57s)
+✔ [8778/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile13 (67s)
+✔ [8779/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile6 (45s)
+✔ [8780/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile8 (54s)
+✔ [8781/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile4 (46s)
+✔ [8782/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile1 (46s)
+✔ [8783/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile5 (55s)
+✔ [8784/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile0 (49s)
+✔ [8785/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1.Profile2 (54s)
+✔ [8786/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile31 (53s)
+✔ [8787/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile30 (57s)
+✔ [8788/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile27 (48s)
+✔ [8789/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile28 (54s)
+✔ [8790/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile29 (58s)
+✔ [8791/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile26 (66s)
+✔ [8792/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile25 (62s)
+✔ [8793/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile22 (56s)
+✔ [8794/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile24 (66s)
+✔ [8795/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile23 (65s)
+✔ [8796/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile17 (48s)
+✔ [8797/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile18 (52s)
+✔ [8798/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile21 (61s)
+✔ [8799/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile19 (59s)
+✔ [8800/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile20 (61s)
+✔ [8801/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile16 (58s)
+✔ [8802/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile15 (54s)
+✔ [8803/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile13 (50s)
+✔ [8804/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile11 (58s)
+✔ [8805/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile14 (60s)
+✔ [8806/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile12 (67s)
+✔ [8807/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile10 (59s)
+✔ [8808/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile9 (59s)
+✔ [8809/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile7 (54s)
+✔ [8810/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile8 (60s)
+✔ [8811/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile3 (54s)
+✔ [8812/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile6 (58s)
+✔ [8813/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile1 (49s)
+✔ [8814/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile5 (58s)
+✔ [8815/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile2 (52s)
+✔ [8816/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile4 (60s)
+✔ [8817/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0.Profile0 (53s)
+ℹ [8818/9157] Built Erdos128.C4Certificate.TupleSums (68s)
+info: Erdos128/C4Certificate/TupleSums.lean:93:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Erdos128/C4Certificate/TupleSums.lean:109:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Erdos128/C4Certificate/TupleSums.lean:129:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [8819/9157] Built Erdos128.HighDensity (110s)
+⚠ [8820/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk5 (778s)
+⚠ [8821/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk4 (778s)
+⚠ [8822/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk4 (742s)
+⚠ [8823/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk2 (761s)
+⚠ [8824/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk2 (770s)
+⚠ [8825/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk3 (795s)
+⚠ [8826/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk0 (775s)
+⚠ [8827/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk5 (781s)
+⚠ [8828/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk1 (784s)
+⚠ [8829/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk5 (792s)
+⚠ [8830/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk1 (801s)
+⚠ [8831/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk4 (796s)
+⚠ [8832/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk3 (774s)
+⚠ [8833/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host36.Chunk3 (806s)
+⚠ [8834/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk2 (734s)
+⚠ [8835/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host31.Chunk0 (825s)
+⚠ [8836/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk5 (799s)
+⚠ [8837/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk0 (800s)
+⚠ [8838/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk5 (855s)
+⚠ [8839/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk1 (858s)
+⚠ [8840/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk3 (816s)
+⚠ [8841/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk1 (832s)
+⚠ [8842/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk4 (789s)
+⚠ [8843/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host37.Chunk0 (859s)
+⚠ [8844/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk2 (838s)
+⚠ [8845/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk0 (846s)
+⚠ [8846/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk1 (830s)
+⚠ [8847/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk4 (900s)
+⚠ [8848/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk4 (876s)
+⚠ [8849/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk2 (875s)
+⚠ [8850/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host33.Chunk5 (899s)
+⚠ [8851/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host32.Chunk3 (916s)
+⚠ [8852/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk0 (850s)
+⚠ [8853/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk5 (850s)
+⚠ [8854/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk0 (874s)
+⚠ [8855/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk4 (830s)
+⚠ [8856/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk3 (877s)
+⚠ [8857/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk1 (877s)
+⚠ [8858/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk1 (871s)
+⚠ [8859/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host30.Chunk2 (882s)
+⚠ [8860/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk3 (838s)
+⚠ [8861/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk1 (824s)
+⚠ [8862/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk2 (838s)
+⚠ [8863/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk3 (910s)
+⚠ [8864/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host35.Chunk0 (844s)
+⚠ [8865/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk5 (927s)
+⚠ [8866/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk4 (930s)
+⚠ [8867/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host34.Chunk2 (937s)
+✔ [8868/9157] Built Erdos128.C4Certificate.Moments (146s)
+⚠ [8869/9157] Built Erdos128.C4Certificate.Relabel (174s)
+warning: Erdos128/C4Certificate/Relabel.lean:133:18: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [targetAt,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+info: Erdos128/C4Certificate/Relabel.lean:196:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos128/C4Certificate/Relabel.lean:216:48: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [featureIndex, flag0Key_relabelMask,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+warning: Erdos128/C4Certificate/Relabel.lean:218:48: This simp argument is unused:
+  Function.comp_def
+Hint: Omit it from the simp argument list.
+  simp [featureIndex, flag2Key_relabelMask,̵ ̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵]
+⚠ [8870/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk0 (761s)
+⚠ [8871/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk0 (813s)
+⚠ [8872/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk2 (815s)
+⚠ [8873/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk1 (816s)
+⚠ [8874/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk4 (791s)
+⚠ [8875/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk1 (780s)
+⚠ [8876/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk3 (804s)
+⚠ [8877/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk3 (685s)
+⚠ [8878/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk4 (774s)
+⚠ [8879/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk3 (842s)
+⚠ [8880/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk5 (802s)
+⚠ [8881/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk2 (678s)
+⚠ [8882/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk2 (829s)
+⚠ [8883/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk5 (868s)
+⚠ [8884/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host29.Chunk4 (885s)
+⚠ [8885/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host28.Chunk5 (865s)
+✖ [8886/9157] Building Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk0 (592s)
+trace: .> LEAN_PATH=/tmp/erdos1800/lean-build/erdos128/.lake/packages/Cli/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/packages/batteries/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/packages/Qq/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/packages/aesop/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/packages/proofwidgets/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/packages/importGraph/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/packages/plausible/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/packages/mathlib/.lake/build/lib/lean:/tmp/erdos1800/lean-build/erdos128/.lake/build/lib/lean /home/exedev/.elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /tmp/erdos1800/lean-build/erdos128/Erdos128/C4Certificate/HostCheckpoints/Host27/Chunk0.lean -o /tmp/erdos1800/lean-build/erdos128/.lake/build/lib/lean/Erdos128/C4Certificate/HostCheckpoints/Host27/Chunk0.olean -i /tmp/erdos1800/lean-build/erdos128/.lake/build/lib/lean/Erdos128/C4Certificate/HostCheckpoints/Host27/Chunk0.ilean -c /tmp/erdos1800/lean-build/erdos128/.lake/build/ir/Erdos128/C4Certificate/HostCheckpoints/Host27/Chunk0.c --setup /tmp/erdos1800/lean-build/erdos128/.lake/build/ir/Erdos128/C4Certificate/HostCheckpoints/Host27/Chunk0.setup.json --json
+error: Lean exited with code 143
+⚠ [8887/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk4 (603s)
+⚠ [8888/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk0 (621s)
+⚠ [8889/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk3 (630s)
+⚠ [8890/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk1 (658s)
+⚠ [8891/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk1 (624s)
+⚠ [8892/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk0 (655s)
+⚠ [8893/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk2 (631s)
+⚠ [8894/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk3 (673s)
+⚠ [8895/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk5 (607s)
+⚠ [8896/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk1 (679s)
+⚠ [8897/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk2 (677s)
+⚠ [8898/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk4 (669s)
+⚠ [8899/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host25.Chunk5 (689s)
+⚠ [8900/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk4 (718s)
+⚠ [8901/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host26.Chunk5 (759s)
+⚠ [8902/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk1 (568s)
+⚠ [8903/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk0 (567s)
+⚠ [8904/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk5 (570s)
+⚠ [8905/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk0 (570s)
+⚠ [8906/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk2 (570s)
+⚠ [8907/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk1 (572s)
+⚠ [8908/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk3 (574s)
+⚠ [8909/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk2 (578s)
+⚠ [8910/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host24.Chunk3 (660s)
+⚠ [8911/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk0 (504s)
+⚠ [8912/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host23.Chunk4 (595s)
+⚠ [8913/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk3 (574s)
+⚠ [8914/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk1 (581s)
+⚠ [8915/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk4 (640s)
+⚠ [8916/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk5 (692s)
+⚠ [8917/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host21.Chunk2 (659s)
+⚠ [8918/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk1 (591s)
+⚠ [8919/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk3 (608s)
+⚠ [8920/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk0 (613s)
+⚠ [8921/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk3 (617s)
+⚠ [8922/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk0 (592s)
+⚠ [8923/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk4 (533s)
+⚠ [8924/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk5 (563s)
+⚠ [8925/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk2 (601s)
+⚠ [8926/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk5 (618s)
+⚠ [8927/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk1 (630s)
+⚠ [8928/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk3 (510s)
+⚠ [8929/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk5 (639s)
+⚠ [8930/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host19.Chunk4 (634s)
+⚠ [8931/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk2 (517s)
+⚠ [8932/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk2 (652s)
+⚠ [8933/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host22.Chunk4 (657s)
+⚠ [8934/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk5 (590s)
+⚠ [8935/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk1 (626s)
+⚠ [8936/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host16.Chunk0 (626s)
+⚠ [8937/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk0 (597s)
+⚠ [8938/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk4 (588s)
+⚠ [8939/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk0 (640s)
+⚠ [8940/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk1 (643s)
+⚠ [8941/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk1 (626s)
+⚠ [8942/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk3 (631s)
+⚠ [8943/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk5 (660s)
+⚠ [8944/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk3 (666s)
+⚠ [8945/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk4 (667s)
+⚠ [8946/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk2 (666s)
+⚠ [8947/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk2 (651s)
+⚠ [8948/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host14.Chunk4 (661s)
+⚠ [8949/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host20.Chunk5 (696s)
+⚠ [8950/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk0 (607s)
+⚠ [8951/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk1 (608s)
+⚠ [8952/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk1 (584s)
+⚠ [8953/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk0 (539s)
+⚠ [8954/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk2 (612s)
+⚠ [8955/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host17.Chunk3 (613s)
+⚠ [8956/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk0 (590s)
+⚠ [8957/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk2 (609s)
+⚠ [8958/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk1 (585s)
+⚠ [8959/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk4 (593s)
+⚠ [8960/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk2 (598s)
+⚠ [8961/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk3 (629s)
+⚠ [8962/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk5 (655s)
+⚠ [8963/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk3 (620s)
+⚠ [8964/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host18.Chunk4 (649s)
+⚠ [8965/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host15.Chunk5 (635s)
+⚠ [8966/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk4 (568s)
+⚠ [8967/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk0 (589s)
+⚠ [8968/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk3 (593s)
+⚠ [8969/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk3 (568s)
+⚠ [8970/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk4 (539s)
+⚠ [8971/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk4 (593s)
+⚠ [8972/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk2 (567s)
+⚠ [8973/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk3 (535s)
+⚠ [8974/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk2 (592s)
+⚠ [8975/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk0 (553s)
+⚠ [8976/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk5 (595s)
+⚠ [8977/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk2 (526s)
+⚠ [8978/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk5 (573s)
+⚠ [8979/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk5 (547s)
+⚠ [8980/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host12.Chunk1 (559s)
+⚠ [8981/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host13.Chunk1 (594s)
+⚠ [8982/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk0 (543s)
+⚠ [8983/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk0 (542s)
+⚠ [8984/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk5 (543s)
+⚠ [8985/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk2 (543s)
+⚠ [8986/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk3 (543s)
+⚠ [8987/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk0 (542s)
+⚠ [8988/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host8.Chunk1 (545s)
+⚠ [8989/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk3 (548s)
+⚠ [8990/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk1 (553s)
+⚠ [8991/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk1 (578s)
+⚠ [8992/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host9.Chunk4 (589s)
+⚠ [8993/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk2 (590s)
+⚠ [8994/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk4 (606s)
+⚠ [8995/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk4 (666s)
+⚠ [8996/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk5 (689s)
+⚠ [8997/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host11.Chunk5 (695s)
+⚠ [8998/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk0 (429s)
+⚠ [8999/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk4 (439s)
+⚠ [9000/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk5 (441s)
+⚠ [9001/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk0 (412s)
+⚠ [9002/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk3 (449s)
+⚠ [9003/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk1 (451s)
+⚠ [9004/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk2 (459s)
+⚠ [9005/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk1 (468s)
+⚠ [9006/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host2.Chunk3 (469s)
+⚠ [9007/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk4 (461s)
+⚠ [9008/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk5 (463s)
+⚠ [9009/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk0 (367s)
+⚠ [9010/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk3 (470s)
+⚠ [9011/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host10.Chunk2 (540s)
+⚠ [9012/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk2 (453s)
+⚠ [9013/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host4.Chunk1 (466s)
+⚠ [9014/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk5 (472s)
+⚠ [9015/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk5 (583s)
+⚠ [9016/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk4 (472s)
+⚠ [9017/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk4 (572s)
+⚠ [9018/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk0 (492s)
+⚠ [9019/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk2 (503s)
+⚠ [9020/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk2 (564s)
+⚠ [9021/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk3 (542s)
+⚠ [9022/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk0 (551s)
+⚠ [9023/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk1 (564s)
+⚠ [9024/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host6.Chunk3 (572s)
+⚠ [9025/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk4 (545s)
+⚠ [9026/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk5 (548s)
+⚠ [9027/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host7.Chunk1 (504s)
+⚠ [9028/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk3 (437s)
+⚠ [9029/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk2 (405s)
+⚠ [9030/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk1 (451s)
+⚠ [9031/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host0.Chunk0 (450s)
+⚠ [9032/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk1 (480s)
+⚠ [9033/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk4 (481s)
+⚠ [9034/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk5 (488s)
+⚠ [9035/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk1 (497s)
+⚠ [9036/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk2 (498s)
+⚠ [9037/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk3 (503s)
+⚠ [9038/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk2 (504s)
+⚠ [9039/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk3 (533s)
+⚠ [9040/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk3 (537s)
+⚠ [9041/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk0 (545s)
+⚠ [9042/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk4 (546s)
+✔ [9043/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent11 (51s)
+✔ [9044/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent12 (64s)
+✔ [9045/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent9 (52s)
+⚠ [9046/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host3.Chunk5 (563s)
+✔ [9047/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent13 (70s)
+⚠ [9048/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk5 (568s)
+✔ [9049/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent10 (68s)
+⚠ [9050/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk4 (584s)
+✔ [9051/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent7 (64s)
+✔ [9052/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent6 (58s)
+✔ [9053/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent4 (63s)
+✔ [9054/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent8 (76s)
+✔ [9055/9157] Built Erdos128.C4Certificate.FastMoments (41s)
+✔ [9057/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent5 (66s)
+✔ [9058/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent3 (59s)
+✔ [9059/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent1 (62s)
+✔ [9060/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent0 (62s)
+✔ [9061/9157] Built Erdos128.FiniteHostData.Step5Checks.Parent2 (57s)
+⚠ [9062/9157] Built Erdos128.C4Certificate.Evaluation (82s)
+warning: Erdos128/C4Certificate/Evaluation.lean:82:26: This simp argument is unused:
+  blockSlot
+Hint: Omit it from the simp argument list.
+  simp ̵[̵b̵l̵o̵c̵k̵S̵l̵o̵t̵]̵
+warning: Erdos128/C4Certificate/Evaluation.lean:114:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:115:2: `exact denseArray_getD_eq_sparseDenseEntry 3 s0 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:122:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:123:2: `exact denseArray_getD_eq_sparseDenseEntry 15 s20 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:130:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:131:2: `exact denseArray_getD_eq_sparseDenseEntry 10 s21 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:138:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:139:2: `exact denseArray_getD_eq_sparseDenseEntry 16 u40 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:146:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:147:2: `exact denseArray_getD_eq_sparseDenseEntry 12 u41 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:154:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:155:2: `exact denseArray_getD_eq_sparseDenseEntry 10 u43 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:162:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:163:2: `exact denseArray_getD_eq_sparseDenseEntry 9 u47 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:170:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:171:2: `exact denseArray_getD_eq_sparseDenseEntry 9 u412 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:178:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:179:2: `exact denseArray_getD_eq_sparseDenseEntry 8 u413 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:186:2: `simp [tableEntry, tableArray, mkMomentTables, blockSlot]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Evaluation.lean:187:2: `exact denseArray_getD_eq_sparseDenseEntry 7 u430 i j` uses `⊢`!
+warning: Erdos128/C4Certificate/Evaluation.lean:194:5: unused variable `hei`
+warning: Erdos128/C4Certificate/Evaluation.lean:203:10: This simp argument is unused:
+  hflat
+Hint: Omit it from the simp argument list.
+  simp [hf̵l̵a̵t̵,̵ ̵h̵ij, Nat.add_comm]
+✔ [9063/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host33 (45s)
+✔ [9064/9157] Built Erdos128.C4Certificate.ClassificationSoundness (72s)
+✔ [9065/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host35 (48s)
+✔ [9066/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host37 (58s)
+✔ [9067/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host31 (50s)
+✔ [9068/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host32 (58s)
+✔ [9069/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host36 (65s)
+✔ [9070/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host34 (66s)
+✔ [9071/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host30 (61s)
+✔ [9072/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host29 (62s)
+⚠ [9073/9157] Built Erdos128.C4Certificate.Soundness (80s)
+warning: Erdos128/C4Certificate/Soundness.lean:42:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.sum_graphAdjQ_eq_twice_card_edges`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/Soundness.lean:41:0: `sum_graphAdjQ_eq_twice_card_edges` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:61:0: `twice_edge_sum_eq_dart_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:80:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.dart_sum_eq_adj_sum`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/Soundness.lean:78:0: `dart_sum_eq_adj_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:96:0: `twice_edgeBilin_eq_adj_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:212:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.maskAdj_inducedMask`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/Soundness.lean:216:4: `simp [maskAdj, orderedEdgeIndex, inducedMask, edgeEnds, G.adj_comm]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Soundness.lean:216:4: Try this:
+  [apply] simp only [Nat.reduceAdd, Fin.zero_eta, Fin.isValue, Fin.mk_one]
+info: Erdos128/C4Certificate/Soundness.lean:217:4: `exact G.adj_comm _ _` uses `⊢`!
+warning: Erdos128/C4Certificate/Soundness.lean:216:4: `simp [maskAdj, orderedEdgeIndex, inducedMask, edgeEnds, G.adj_comm]` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+info: Erdos128/C4Certificate/Soundness.lean:216:4: Try this:
+  [apply] simp only [Nat.reduceAdd, Fin.mk_one, Fin.isValue, Fin.zero_eta]
+info: Erdos128/C4Certificate/Soundness.lean:217:4: `exact G.adj_comm _ _` uses `⊢`!
+warning: Erdos128/C4Certificate/Soundness.lean:210:0: `maskAdj_inducedMask` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:210:0: `maskAdj_inducedMask` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/Soundness.lean:219:0: `maskAdjQ_inducedMask` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:219:0: `maskAdjQ_inducedMask` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/Soundness.lean:226:0: `inducedMask_isTriangleFree` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/Soundness.lean:226:0: `inducedMask_isTriangleFree` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+✔ [9074/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host26 (53s)
+✔ [9075/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host28 (63s)
+✔ [9076/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host25 (60s)
+✔ [9077/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host24 (60s)
+✔ [9078/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host23 (54s)
+✔ [9079/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host21 (54s)
+✔ [9080/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host20 (56s)
+✔ [9081/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host19 (54s)
+✔ [9082/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host22 (67s)
+✔ [9083/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host17 (59s)
+✔ [9084/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host18 (68s)
+✔ [9085/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host16 (66s)
+✔ [9086/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host15 (61s)
+✔ [9087/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host11 (52s)
+✔ [9088/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host13 (60s)
+✔ [9090/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host14 (63s)
+✔ [9091/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host12 (65s)
+✔ [9092/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host8 (54s)
+✔ [9093/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host10 (62s)
+✔ [9094/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host9 (56s)
+✔ [9095/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host7 (62s)
+✔ [9096/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host6 (55s)
+✔ [9097/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host3 (66s)
+✔ [9098/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host4 (74s)
+✔ [9099/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host2 (69s)
+✔ [9100/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host0 (68s)
+✔ [9101/9157] Built Erdos128.FiniteHostData.Step5 (68s)
+⚠ [9102/9157] Built Erdos128.C4Certificate.TargetAveragingCore (91s)
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:29:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.graphAdjQ_comm`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:29:0: `graphAdjQ_comm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:29:0: `graphAdjQ_comm` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:50:0: `targetAt_inducedMask_identityOrder` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:50:0: `targetAt_inducedMask_identityOrder` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:78:0: `sum_sampledMatchingTerm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+info: Erdos128/C4Certificate/TargetAveragingCore.lean:122:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:108:0: `sum_sampledEdgeTerm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:140:0: `targetAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:140:0: `targetAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/TargetAveragingCore.lean:157:0: `sum_targetAt_inducedMask_perm` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+✔ [9103/9157] Built Erdos128.IntegratedBound (96s)
+⚠ [9104/9157] Built Erdos128.C4Certificate.HostChecks.Host37 (169s)
+⚠ [9105/9157] Built Erdos128.C4Certificate.HostChecks.Host35 (187s)
+⚠ [9106/9157] Built Erdos128.C4Certificate.ConditionalSquaresCore (134s)
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:50:0: `feature_s0_sample6_false` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:50:0: `feature_s0_sample6_false` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:58:0: `feature_s0_sample6_true` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:58:0: `feature_s0_sample6_true` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:73:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:66:0: `feature_s2_sample6_false` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:66:0: `feature_s2_sample6_false` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:82:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:75:0: `feature_s2_sample6_true` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:75:0: `feature_s2_sample6_true` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:84:0: `canonicalRootCode_induced_eq` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:84:0: `canonicalRootCode_induced_eq` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:104:0: `canonicalLeafProfile_induced_eq` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:104:0: `canonicalLeafProfile_induced_eq` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:144:64: This simp argument is unused:
+  if_true
+Hint: Omit it from the simp argument list.
+  simp only [identityOrder_apply, Bool.false_eq_true, if_false,̵ ̵i̵f̵_̵t̵r̵u̵e̵]
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:123:0: `feature_u4_sample6_false` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:123:0: `feature_u4_sample6_false` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:147:0: `feature_u4_sample6_true` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:147:0: `feature_u4_sample6_true` does not use the following hypothesis in its type:
+  • [Fintype V] (#2)
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+warning: Erdos128/C4Certificate/ConditionalSquaresCore.lean:171:0: `sum_termAt_identityOrder_nonneg` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+⚠ [9107/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host1.Chunk0 (498s)
+⚠ [9108/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk0 (542s)
+⚠ [9109/9157] Built Erdos128.C4Certificate.HostChecks.Host30 (248s)
+⚠ [9110/9157] Built Erdos128.C4Certificate.HostChecks.Host36 (283s)
+⚠ [9111/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk2 (637s)
+⚠ [9112/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host5.Chunk1 (655s)
+⚠ [9113/9157] Built Erdos128.C4Certificate.HostChecks.Host31 (366s)
+⚠ [9114/9157] Built Erdos128.C4Certificate.HostChecks.Host33 (380s)
+⚠ [9115/9157] Built Erdos128.C4Certificate.HostChecks.Host23 (198s)
+⚠ [9116/9157] Built Erdos128.C4Certificate.HostChecks.Host34 (384s)
+⚠ [9117/9157] Built Erdos128.C4Certificate.HostChecks.Host24 (237s)
+⚠ [9118/9157] Built Erdos128.C4Certificate.HostChecks.Host17 (127s)
+⚠ [9119/9157] Built Erdos128.C4Certificate.HostChecks.Host32 (435s)
+⚠ [9120/9157] Built Erdos128.C4Certificate.HostChecks.Host19 (265s)
+⚠ [9121/9157] Built Erdos128.C4Certificate.HostChecks.Host25 (406s)
+⚠ [9122/9157] Built Erdos128.C4Certificate.HostChecks.Host12 (186s)
+⚠ [9123/9157] Built Erdos128.C4Certificate.HostChecks.Host16 (249s)
+⚠ [9124/9157] Built Erdos128.C4Certificate.HostChecks.Host8 (196s)
+⚠ [9125/9157] Built Erdos128.C4Certificate.HostChecks.Host18 (329s)
+⚠ [9126/9157] Built Erdos128.C4Certificate.HostChecks.Host14 (268s)
+⚠ [9127/9157] Built Erdos128.C4Certificate.HostChecks.Host29 (651s)
+⚠ [9128/9157] Built Erdos128.C4Certificate.HostChecks.Host9 (152s)
+⚠ [9129/9157] Built Erdos128.C4Certificate.HostChecks.Host7 (150s)
+✔ [9130/9157] Built Erdos128.FiniteHostData.Order6 (58s)
+⚠ [9131/9157] Built Erdos128.C4Certificate.HostChecks.Host13 (387s)
+⚠ [9132/9157] Built Erdos128.C4Certificate.HostChecks.Host28 (654s)
+⚠ [9133/9157] Built Erdos128.C4Certificate.HostChecks.Host0 (118s)
+⚠ [9134/9157] Built Erdos128.C4Certificate.TargetAveraging (51s)
+warning: Erdos128/C4Certificate/TargetAveraging.lean:24:8: automatically included section variable(s) unused in theorem `_private.Erdos128.C4Certificate.TargetAveraging.0.Erdos128.C4Certificate.fintype_sum_list_target`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/TargetAveraging.lean:24:0: `fintype_sum_list_target` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+⚠ [9135/9157] Built Erdos128.C4Certificate.HostChecks.Host3 (192s)
+⚠ [9136/9157] Built Erdos128.C4Certificate.ConditionalSquares (45s)
+warning: Erdos128/C4Certificate/ConditionalSquares.lean:26:0: automatically included section variable(s) unused in theorem `Erdos128.C4Certificate.fintype_sum_list_sum`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+warning: Erdos128/C4Certificate/ConditionalSquares.lean:26:0: `fintype_sum_list_sum` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+warning: Erdos128/C4Certificate/ConditionalSquares.lean:35:0: `sum_sosCoefficient_inducedMask_nonneg` does not use the following hypothesis in its type:
+  • [DecidableEq V] (#3)
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+✔ [9137/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host1 (51s)
+⚠ [9138/9157] Built Erdos128.C4Certificate.HostChecks.Host26 (693s)
+⚠ [9139/9157] Built Erdos128.C4Certificate.HostChecks.Host2 (154s)
+⚠ [9140/9157] Built Erdos128.C4Certificate.HostChecks.Host4 (201s)
+✔ [9141/9157] Built Erdos128.C4Certificate.HostCheckpoints.Host5 (40s)
+✔ [9142/9157] Built Erdos128.C4Certificate.GlobalBridge (33s)
+⚠ [9143/9157] Built Erdos128.C4Certificate.HostChecks.Host22 (579s)
+⚠ [9144/9157] Built Erdos128.C4Certificate.HostChecks.Host20 (642s)
+⚠ [9145/9157] Built Erdos128.C4Certificate.HostChecks.Host21 (692s)
+⚠ [9146/9157] Built Erdos128.C4Certificate.HostChecks.Host1 (69s)
+⚠ [9147/9157] Built Erdos128.C4Certificate.HostChecks.Host6 (297s)
+⚠ [9148/9157] Built Erdos128.C4Certificate.HostChecks.Host15 (549s)
+⚠ [9149/9157] Built Erdos128.C4Certificate.HostChecks.Host11 (545s)
+⚠ [9150/9157] Built Erdos128.C4Certificate.HostChecks.Host5 (142s)
+⚠ [9151/9157] Built Erdos128.C4Certificate.HostChecks.Host10 (450s)
+Some required targets logged failures:
+- Erdos128.C4Certificate.HostCheckpoints.Host27.Chunk0
+error: build failed

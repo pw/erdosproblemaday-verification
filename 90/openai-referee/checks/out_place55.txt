@@ -1,0 +1,6 @@
+MODE paper constants stress trials 40000 rare-positive trials 492 trials using the lam|J| excess 71 VIOLATIONS 0
+MODE paper constants paper trials 40000 rare-positive trials 492 trials using the lam|J| excess 0 VIOLATIONS 0
+MODE nonmono constants stress trials 40000 rare-positive trials 9698 trials using the lam|J| excess 2824 VIOLATIONS 2744
+MODE nonmono constants paper trials 40000 rare-positive trials 9698 trials using the lam|J| excess 3124 VIOLATIONS 3123
+MODE anybit constants stress trials 40000 rare-positive trials 17676 trials using the lam|J| excess 7555 VIOLATIONS 7476
+MODE anybit constants paper trials 40000 rare-positive trials 17676 trials using the lam|J| excess 7806 VIOLATIONS 7806

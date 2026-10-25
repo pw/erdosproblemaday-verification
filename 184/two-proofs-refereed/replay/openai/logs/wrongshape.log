@@ -1,0 +1,6 @@
+WrongShape.lean:4:68: error: Type mismatch
+  OAI.ErdosGallai.erdos_gallai
+has type
+  OAI.ErdosGallai.MainStatement
+but is expected to have type
+  ∃ C, 0 < C ∧ ∀ (n : ℕ) (G : SimpleGraph (Fin n)), ∃ k, OAI.ErdosGallai.EdgeDecomposition G k ∧ ↑k ≤ C

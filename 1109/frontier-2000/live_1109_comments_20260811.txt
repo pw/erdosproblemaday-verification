@@ -1,0 +1,127 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/forum/thread/1109?embed=1
+JS Result: OPEN
+Let 𝑓⁡(𝑁)
+ be the size of the largest subset 𝐴 ⊆{1,…,𝑁}
+ such that every 𝑛 ∈𝐴 +𝐴
+ is squarefree. Estimate 𝑓⁡(𝑁)
+. In particular, is it true that 𝑓⁡(𝑁) ≤𝑁𝑜⁡(1)
+, or even 𝑓⁡(𝑁) ≤(log⁡𝑁)𝑂⁡(1)
+?
+#1109: [ErSa87]
+number theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+First studied by Erdős and Sárközy [ErSa87], who proved
+log⁡𝑁≪𝑓⁡(𝑁)≪𝑁3/4⁢log⁡𝑁,
+and guessed the lower bound is nearer the truth. Sárközy [Sa92c] extended this to consider the case of 𝐴 +𝐵
+ and also looking for sumsets which are 𝑘
+-power-free.
+
+Gyarmati [Gy01] gave an alternative proof of 𝑓⁡(𝑁) ≫log⁡𝑁
+, and also gave new bounds for the case of 𝐴 +𝐵
+. Konyagin [Ko04] improved this to
+log⁡log⁡𝑁⁢(log⁡𝑁)2≪𝑓⁡(𝑁)≪𝑁11/15+𝑜⁡(1).
+The infinite analogue of this problem is [1103]. (In particular upper bounds for this 𝑓⁡(𝑁)
+ directly imply lower bounds for the size of the 𝑎𝑗
+ considered there.)
+
+View the LaTeX source
+
+This page was last edited 03 December 2025. View history
+
+External data from the database - you can help update this
+Formalised statement? Yes
+Related OEIS sequences: A392164 A392165
+
+2 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	Dogmachine
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	Dogmachine
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #1109, https://www.erdosproblems.com/1109, accessed 2026-08-11
+Order by oldest first or newest first. (The most recent comments are highlighted in a red border.)
+
+I computed 𝑓⁡(𝑁)
+ for 1 ≤𝑁 ≤250
+.
+
+Method: The vertices are odd squarefree integers 𝑎 ≤𝑁
+ (even or non-squarefree 𝑎
+ fail since 2⁢𝑎
+ is not squarefree), with an edge between distinct 𝑎,𝑏
+ if 𝑎 +𝑏
+ is not squarefree. Then 𝑓⁡(𝑁)
+ is the maximum independent set size. I used branch-and-bound with bitsets, cross-checked against brute-force for small 𝑁
+.
+
+
+1	≤𝑁≤4	:𝑓⁡(𝑁)	=1
+5	≤𝑁≤18	:𝑓⁡(𝑁)	=2
+19	≤𝑁≤22	:𝑓⁡(𝑁)	=3
+23	≤𝑁≤36	:𝑓⁡(𝑁)	=4
+37	≤𝑁≤40	:𝑓⁡(𝑁)	=5
+41	≤𝑁≤58	:𝑓⁡(𝑁)	=6
+59	≤𝑁≤86	:𝑓⁡(𝑁)	=7
+87	≤𝑁≤100	:𝑓⁡(𝑁)	=8
+101	≤𝑁≤104	:𝑓⁡(𝑁)	=9
+105	≤𝑁≤112	:𝑓⁡(𝑁)	=10
+113	≤𝑁≤130	:𝑓⁡(𝑁)	=11
+131	≤𝑁≤150	:𝑓⁡(𝑁)	=12
+151	≤𝑁≤158	:𝑓⁡(𝑁)	=13
+159	≤𝑁≤166	:𝑓⁡(𝑁)	=14
+167	≤𝑁≤194	:𝑓⁡(𝑁)	=15
+195	≤𝑁≤202	:𝑓⁡(𝑁)	=16
+203	≤𝑁≤238	:𝑓⁡(𝑁)	=17
+239	≤𝑁≤250	:𝑓⁡(𝑁)	=18
+
+
+Example: 𝑓⁡(101) =9
+ is achieved by {5,17,29,41,53,65,77,89,101}
+, an arithmetic progression with common difference 12. All pairwise sums have the form 10 +12⁢𝑘
+, which is squarefree for 𝑘 ≤16
+.
+
+The sequence of transition points (1,5,19,23,37,41,59,87,101,105,113,131,151,159,167,195,203,239,…)
+ does not appear in OEIS.
+
+AlexisOlson
+—
+02:26 on 04 Dec 2025
+👍
+1
+📝
+0
+🤖
+0
+
+This latter sequence looks suitable for submission to the OEIS to me.
+
+TerenceTao
+—
+06:37 on 04 Dec 2025
+👍
+0
+📝
+0
+🤖
+0
+
+All comments are the responsibility of the user. Comments appearing on this page are not verified for correctness. Please keep posts mathematical and on topic.
+
+Log in to add a comment.
+
+Back to the forum
+
+Page title: 
+URL: https://www.erdosproblems.com/forum/thread/1109?embed=1

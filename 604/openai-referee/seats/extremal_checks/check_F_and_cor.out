@@ -1,0 +1,38 @@
+PASS 3x3 grid ratio k>=1: got 1 want 1
+PASS 3x3 grid ratio k>=2: got 5/6 want 5/6
+PASS 3x3 grid ratio k>=3: got 5/18 want 5/18
+PASS 3x3 grid ratio k>=4: got 1/9 want 1/9
+PASS 3x3 grid ratio k>=5: got 0 want 0
+PASS 3x3 grid distinct distances corner/edge/centre: got (5, 4, 2) want (5, 4, 2)
+PASS N=5 polygon+centre k-multiset exact==numeric: got multiset of 30 values, histogram {1: 5, 2: 20, 5: 5} want multiset of 30 values, histogram {1: 5, 2: 20, 5: 5}
+PASS N=5 polygon+centre ratio k>=2 (hand formula): got 5/6 want 5/6
+PASS N=5 centre has exactly one distance: got 1 want 1
+PASS N=6 polygon+centre k-multiset exact==numeric: got multiset of 42 values, histogram {1: 6, 2: 12, 3: 18, 6: 6} want multiset of 42 values, histogram {1: 6, 2: 12, 3: 18, 6: 6}
+PASS N=6 polygon+centre ratio k>=2 (hand formula): got 6/7 want 6/7
+PASS N=6 centre has exactly one distance: got 1 want 1
+PASS N=7 polygon+centre k-multiset exact==numeric: got multiset of 56 values, histogram {1: 7, 2: 42, 7: 7} want multiset of 56 values, histogram {1: 7, 2: 42, 7: 7}
+PASS N=7 polygon+centre ratio k>=2 (hand formula): got 7/8 want 7/8
+PASS N=7 centre has exactly one distance: got 1 want 1
+PASS N=8 polygon+centre k-multiset exact==numeric: got multiset of 72 values, histogram {1: 16, 2: 48, 8: 8} want multiset of 72 values, histogram {1: 16, 2: 48, 8: 8}
+PASS N=8 polygon+centre ratio k>=2 (hand formula): got 7/9 want 7/9
+PASS N=8 centre has exactly one distance: got 1 want 1
+PASS N=12 polygon+centre k-multiset exact==numeric: got multiset of 156 values, histogram {1: 12, 2: 96, 3: 36, 12: 12} want multiset of 156 values, histogram {1: 12, 2: 96, 3: 36, 12: 12}
+PASS N=12 polygon+centre ratio k>=2 (hand formula): got 12/13 want 12/13
+PASS N=12 centre has exactly one distance: got 1 want 1
+PASS N=13 polygon+centre k-multiset exact==numeric: got multiset of 182 values, histogram {1: 13, 2: 156, 13: 13} want multiset of 182 values, histogram {1: 13, 2: 156, 13: 13}
+PASS N=13 polygon+centre ratio k>=2 (hand formula): got 13/14 want 13/14
+PASS N=13 centre has exactly one distance: got 1 want 1
+PASS N=18 polygon+centre k-multiset exact==numeric: got multiset of 342 values, histogram {1: 18, 2: 252, 3: 54, 18: 18} want multiset of 342 values, histogram {1: 18, 2: 252, 3: 54, 18: 18}
+PASS N=18 polygon+centre ratio k>=2 (hand formula): got 18/19 want 18/19
+PASS N=18 centre has exactly one distance: got 1 want 1
+PASS F_4 threshold 2: Eisenstein-patch max pair count (= 10 = 5/6*12, rhombus): got 10 want 10
+PASS F_4 threshold 3: Eisenstein-patch max pair count (= 6 = 1/2*12): got 6 want 6
+   maximiser at threshold 2: ((-2, -2), (-2, -1), (-1, -2), (-1, -1))
+   square-lattice patch max at threshold 2: 8 (no equilateral triangles, so must be < 10)
+Corollary counting: 70 (config,eps) cases; paper-form violations = 0; CONTROL (light < n^(1-eps), class-size factor dropped) violations = 1
+CONTROLS (must FAIL):
+  control 'claimed 61/72 for 3x3 grid at k>=2': rejected (good)
+  control 'perturbed grid keeps 20/72 at k>=3': rejected (good)
+  control 'k without y itself reproduces 60': rejected (good)
+OVERALL: ALL CHECKS PASS, ALL CONTROLS FAIL
+wall 4.02 s, maxRSS 19900 KB

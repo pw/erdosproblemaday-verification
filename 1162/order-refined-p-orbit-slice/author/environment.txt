@@ -1,0 +1,9 @@
+date_utc=2026-08-11T16:04:53Z
+uname=Linux portalonce 6.12.93 #1 SMP Wed Jul 22 19:44:49 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+python=Python 3.12.3
+site_head=60df85a97afc2fa726b0f72415891390c976452b
+site_status= M src/ledger_data.js
+upstream_erdosproblems_head=6929b78952e18c11d5cb28fe9438081ee1d49448
+oeis_commit=1655db1982f93ba44dd2956905a27ba9e4530a00
+arxiv_pdf_sha256=be1ef1a8cb92e0830dce74c7a9629c0f96f83a2f8f55f70b2c129f55948f2501
+holt_pdf_sha256=db9ceab10ad0afe25f7bc141253dd835f76b50927de5af9a5b0672cbcc9b5fb2

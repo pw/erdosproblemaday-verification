@@ -1,0 +1,1 @@
+#341: Queneau's variant (distinct summands) is not always periodic either — Li's seed with 77 swapped for 56 has non-periodic gaps under both rules, and its controller is made of powers of two

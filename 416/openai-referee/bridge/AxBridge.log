@@ -1,0 +1,4 @@
+'Erdos416.erdos_416.parts.i' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos416.erdos_416.variants.regularly_varying' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos416.V_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+AxBridge rc=0

@@ -1,0 +1,6 @@
+WrongShape.lean:4:74: error: Type mismatch
+  OAI.PlanarUnitDistances.main
+has type
+  ∃ C β, 0 < C ∧ 1 ≤ β ∧ β < 4 / 3 ∧ ∀ (n : ℕ), ↑(OAI.PlanarUnitDistances.u n) ≤ C * ↑n ^ β
+but is expected to have type
+  ∃ C β, 0 < C ∧ 1 ≤ β ∧ β < 4 / 3 ∧ ∀ (n : ℕ), ↑(OAI.PlanarUnitDistances.u n) ≤ C * ↑n ^ (β / 2)

@@ -1,0 +1,2 @@
+{"N":24,"points":48,"distinct":48,"triples":19600,"min_margin":25,"min_margin_multiplicity":2,"worst":[[[0,0],[2,5],[7,1]],[[0,3],[5,-1],[7,4]]],"min_literal_100_decimal":"0.428932188134524755991556378951509607151640623115259634116601310046337607689464805748062328361792136","diameter_squared":65,"max_twice_area":34,"points_sha256":"571adfd643a238c11e9261d81ef9c7b5732e85a9806352804138785858e77249","source_file_sha256":"dded96cc806568ea1ac3924d1b412937a0849fa02536821c97a69a9e2cfd1adf"}
+N24_WITNESS_AUDIT_PASS

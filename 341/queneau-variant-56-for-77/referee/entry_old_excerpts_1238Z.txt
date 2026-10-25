@@ -1,0 +1,5 @@
+Excerpts of entry/ as read by the referee at ~12:45Z (files dated 12:38-12:39Z), before the 12:55:02Z edit. Copied from the
+referee's tool output of that read; the files themselves have since changed.
+headline.json "line": ... Nothing was designed — the greedy computes its own controller once the seed's rail content is fixed, and 18 of the 27 seeds of this shape never settle. An independent greedy on the integers matches the closed form at every integer to 10⁷.
+body.html (tags stripped): ... Running the forced dynamics from each: 18 show no period at all under rule Q (and 25 under rule D), Li's own R = {7, 28, 63, 77} being periodic with period 117 under rule Q; ...
+headline.json "tag" (12:38Z version): 14 OCT · OURS · QUENEAU'S i<j VARIANT ALSO FAILS · LI'S SEED WITH 77 → 56 · CONTROLLER = POWERS OF TWO · HAND PROOF + GREEDY MATCH TO 10⁷ · HOSTILE REFEREE HOLDS · UNREVIEWED BY HUMANS

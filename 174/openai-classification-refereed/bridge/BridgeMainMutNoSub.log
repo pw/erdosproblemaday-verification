@@ -1,0 +1,17 @@
+BridgeMainMutNoSub.lean:65:19: error: Application type mismatch: The argument
+  hsub
+has type
+  A.Subsingleton
+but is expected to have type
+  False
+in the application
+  Or.inl hsub
+BridgeMainMutNoSub.lean:81:37: error: Application type mismatch: The argument
+  hsub
+has type
+  False
+but is expected to have type
+  A.Subsingleton
+in the application
+  isRamsey_of_subsingleton hsub
+BridgeMainMutNoSub rc=1 (must be nonzero)

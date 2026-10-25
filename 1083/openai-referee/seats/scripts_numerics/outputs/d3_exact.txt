@@ -1,0 +1,8 @@
+d=3 (s0=3): {'eq_norm_nonempty_codim_d-1': 40, 'neq_norm_empty': 40, 'u+w=0_empty': 40, 'trials': 40}
+   rank of v |-> (E v)_E over all skew basis E: 3 (= d -> Z v0 = Z v0' for all skew Z forces v0 = v0')
+   F_pq: rank of (Z,c)-system = 3, dim = s0 + d - rank = 3 (claimed s0 = 3)
+   excess dimension of a hypersurface component over a neighbour flat: 1 (claimed d-2 = 1 = r-1, r = d-1)
+d=4 (s0=6): {'eq_norm_nonempty_codim_d-1': 40, 'neq_norm_empty': 40, 'u+w=0_empty': 40, 'trials': 40}
+   rank of v |-> (E v)_E over all skew basis E: 4 (= d -> Z v0 = Z v0' for all skew Z forces v0 = v0')
+   F_pq: rank of (Z,c)-system = 4, dim = s0 + d - rank = 6 (claimed s0 = 6)
+   excess dimension of a hypersurface component over a neighbour flat: 2 (claimed d-2 = 2 = r-1, r = d-1)

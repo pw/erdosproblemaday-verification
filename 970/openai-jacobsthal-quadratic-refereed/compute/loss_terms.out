@@ -1,0 +1,23 @@
+L1 exact 1 (paper)
+L2 quad 0.626766305539  paper closed form 0.626766305539  diff -2.66e-15   | perturbed-control 1.809372 (must differ)
+L3 quad 0.504797598382  paper closed form 0.504797598382  diff -2.89e-15   | perturbed-control 0.658983 (must differ)
+L1  MC 0.999821 ± 8.1e-05
+L2  MC 0.626759 ± 1.1e-04
+L3  MC 0.504839 ± 3.5e-05
+L4  MC 0.136317 ± 3.8e-06
+L5  MC 0.033327 ± 2.7e-06
+L6  MC 0.005268 ± 1.3e-07
+L7  MC 0.000751 ± 3.0e-08
+L8  MC 0.000083 ± 1.3e-09
+L9  MC 0.000008 ± 1.2e-10
+L10 MC 0.000001 ± 2.8e-11
+L11 MC 0.000000 ± 2.6e-12
+L12 MC 0.000000 ± 1.4e-13
+Traceback (most recent call last):
+  File "/tmp/oaimath/021/compute/loss_terms.py", line 59, in <module>
+    maj = 0.5*sum((m+1)**2*lam**m/math.factorial(m)*(lam**-2 + (1.5/lam - lam**-2)/m) for m in range(4, 200))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/oaimath/021/compute/loss_terms.py", line 59, in <genexpr>
+    maj = 0.5*sum((m+1)**2*lam**m/math.factorial(m)*(lam**-2 + (1.5/lam - lam**-2)/m) for m in range(4, 200))
+                  ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+OverflowError: int too large to convert to float

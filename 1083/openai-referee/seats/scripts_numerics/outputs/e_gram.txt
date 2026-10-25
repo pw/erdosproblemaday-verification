@@ -1,0 +1,20 @@
+generic k=1                      det(S0)=+1: kernel-preserved err 0.0e+00, image basis orthonormal err 4.4e-16, |S U - W| = 2.2e-16, |S^T S - I| = 3.3e-16, det S = -1.000
+generic k=1                      det(S0)=-1: kernel-preserved err 0.0e+00, image basis orthonormal err 5.6e-16, |S U - W| = 4.4e-16, |S^T S - I| = 2.2e-16, det S = +1.000
+generic k=2                      det(S0)=+1: kernel-preserved err 0.0e+00, image basis orthonormal err 4.4e-16, |S U - W| = 6.7e-16, |S^T S - I| = 7.8e-16, det S = +1.000
+generic k=2                      det(S0)=-1: kernel-preserved err 0.0e+00, image basis orthonormal err 2.2e-16, |S U - W| = 6.7e-16, |S^T S - I| = 6.7e-16, det S = +1.000
+generic k=3                      det(S0)=+1: kernel-preserved err 0.0e+00, image basis orthonormal err 1.6e-15, |S U - W| = 8.9e-16, |S^T S - I| = 2.9e-15, det S = +1.000
+generic k=3                      det(S0)=-1: kernel-preserved err 0.0e+00, image basis orthonormal err 1.3e-15, |S U - W| = 1.3e-15, |S^T S - I| = 2.0e-15, det S = -1.000
+generic k=4                      det(S0)=+1: kernel-preserved err 1.1e-16, image basis orthonormal err 2.4e-15, |S U - W| = 1.9e-15, |S^T S - I| = 2.0e-15, det S = +1.000
+generic k=4                      det(S0)=-1: kernel-preserved err 1.1e-16, image basis orthonormal err 2.7e-15, |S U - W| = 2.0e-15, |S^T S - I| = 1.8e-15, det S = -1.000
+generic k=5                      det(S0)=+1: kernel-preserved err 3.9e-16, image basis orthonormal err 6.7e-16, |S U - W| = 6.7e-16, |S^T S - I| = 6.7e-16, det S = +1.000
+generic k=5                      det(S0)=-1: kernel-preserved err 5.0e-16, image basis orthonormal err 6.7e-16, |S U - W| = 6.7e-16, |S^T S - I| = 6.7e-16, det S = -1.000
+dependent: u3=u1+2u2             det(S0)=+1: kernel-preserved err 5.4e-16, image basis orthonormal err 8.9e-16, |S U - W| = 1.3e-15, |S^T S - I| = 6.7e-16, det S = +1.000
+dependent: u3=u1+2u2             det(S0)=-1: kernel-preserved err 4.5e-16, image basis orthonormal err 8.9e-16, |S U - W| = 1.3e-15, |S^T S - I| = 6.7e-16, det S = +1.000
+collinear: u2=-1.5u1, u3=3u1     det(S0)=+1: kernel-preserved err 6.5e-16, image basis orthonormal err 3.3e-16, |S U - W| = 1.3e-15, |S^T S - I| = 4.4e-16, det S = -1.000
+collinear: u2=-1.5u1, u3=3u1     det(S0)=-1: kernel-preserved err 7.6e-16, image basis orthonormal err 6.7e-16, |S U - W| = 1.2e-15, |S^T S - I| = 1.1e-16, det S = -1.000
+planar 4 vectors                 det(S0)=+1: kernel-preserved err 1.3e-16, image basis orthonormal err 8.9e-16, |S U - W| = 4.4e-16, |S^T S - I| = 6.7e-16, det S = +1.000
+planar 4 vectors                 det(S0)=-1: kernel-preserved err 1.7e-16, image basis orthonormal err 4.4e-16, |S U - W| = 6.7e-16, |S^T S - I| = 4.4e-16, det S = -1.000
+Gram-built W, k=2: |S U - W| = 2.2e-16, |S^T S - I| = 5.9e-16
+Gram-built W, k=3: |S U - W| = 8.9e-16, |S^T S - I| = 2.6e-15
+negative control: unequal Gram matrices correctly rejected
+match check: max |q + S((p+u_i)-p) - (q+w_i)| = 6.661338147750939e-16

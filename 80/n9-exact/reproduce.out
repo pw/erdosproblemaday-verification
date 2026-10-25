@@ -1,0 +1,14 @@
+SAT witness k=1: edges=18, codegree range=1..1: PASS
+SAT witness k=2: edges=21, codegree range=2..2: PASS
+structural witness k=3: edges=27, codegree range=3..3: PASS
+structural witness k=4: edges=28, codegree range=3..4: PASS
+structural witness k=5: edges=30, codegree range=4..5: PASS
+structural witness k=6: edges=32, codegree range=5..6: PASS
+structural witness k=7: edges=36, codegree range=7..7: PASS
+NetworkX full scan: records=274668, admissible=65249: PASS
+connected=62286, OEIS_A396149_N9_edge_histogram: PASS
+frontier=0,18,21,27,28,30,32,36
+exact_book_counts=1,14,1387,13466,25335,18227,5775,1044
+connected_exact_book_counts=0,6,1143,12543,24224,17707,5619,1044
+FINAL AUDIT: PASS
+REPRODUCE: PASS

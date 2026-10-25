@@ -1,0 +1,12 @@
+bundle: /home/exedev/erdos_scratch/erdos1160_m11_20260811
+manifest: complete and valid
+complete 2008 appendix cells parsed: 2047; sole stale cell: 1024
+GAP 4.14 / SmallGrp 1.5.4 counts: 2043
+pinned GAP 4.12 / SmallGrp 1.5.3 counts: 2034
+appendix-only orders: [2016, 2024, 2025, 2040]
+g(1024): 49487367289
+sum(1 <= n < 2048) g(n): 49910538480
+published subclass f_2(2048): 1774274116992170
+strict margin: 1774224206453690
+VERIFIED: sum_{n<2^11} g(n) < f_2(2048) <= g(2048)
+VERIFIED: g(n) < g(2048) for 1 <= n < 2048; equality at n=2048

@@ -1,0 +1,28 @@
+projective points 273
+isotropic 65 nonisotropic 208
+vertices 416
+degrees [100] edges 20800
+lambda [36] mu [20]
+B size 96 C size 320
+B component sizes [32, 32, 32]
+B1 internal [20]
+B1 to B2 [0]
+B1 to B3 [0]
+B1 to C [80]
+B2 internal [20]
+B2 to B1 [0]
+B2 to B3 [0]
+B2 to C [80]
+B3 internal [20]
+B3 to B1 [0]
+B3 to B2 [0]
+B3 to C [80]
+C to B1 [8]
+C to B2 [8]
+C to B3 [8]
+C internal [76]
+K5 full witness [0, 122, 126, 130, 134]
+has K6 full False
+has K6 on C False
+b 0 NbC size 80 has K5 on NbC False
+all exact verification checks passed

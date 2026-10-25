@@ -1,0 +1,37 @@
+import worker from "/home/exedev/ErdosProblemADay-1014-2100/src/index.js";
+const stmt = { bind() { return stmt; }, all: async () => ({ results: [] }), first: async () => null, run: async () => ({ success: true }) };
+const env = { DB: { prepare: () => stmt }, RESEND_API_KEY: "" };
+const ctx = { waitUntil() {}, passThroughOnException() {} };
+const slug = "508-openai-plane-not-five-colorable-refereed";
+const checks = [
+  ["/", 200, "Erd"],
+  ["/", 200, "508"],
+  [`/day/${slug}`, 200, "de Grey"],
+  [`/day/${slug}`, 200, "no_proper_five_coloring"],
+  [`/day/${slug}`, 200, "openai-referee"],
+  ["/problem/508", 200, "508"],
+  ["/problem/508", 200, "five"],
+  ["/day/604-openai-weak-pinned-distances-refereed", 200, "3,462"],
+  ["/day/90-openai-unit-distance-power-saving-refereed", 200, "leanchecker"],
+  ["/day/1159-klein-blocks-pg2-11-and-the-q13-question", 200, "Klein"],
+  ["/progress", 200, ""],
+  ["/board", 200, "open"],
+  ["/day/no-such-slug-xyz", 404, ""],
+];
+let bad = 0;
+for (const [path, want, needle] of checks) {
+  try {
+    const res = await worker.fetch(new Request("https://erdosproblemaday.com" + path), env, ctx);
+    const body = await res.text();
+    const ok = res.status === want && (needle === "" || body.includes(needle));
+    console.log(`${ok ? "ok " : "BAD"} ${res.status} ${path} ${body.length}B${needle ? ` needle=${body.includes(needle)}` : ""}`);
+    if (!ok) bad++;
+    if (path.startsWith("/day/508") && res.status === 200) {
+      for (const ph of ["{{","[[","REPLACE_ME","TODO","still running","XXX"]) {
+        if (body.includes(ph)) { console.log(`BAD placeholder leaked: ${ph}`); bad++; }
+      }
+    }
+  } catch (e) { console.log(`BAD throw ${path}: ${e.message}`); bad++; }
+}
+console.log(bad ? `SMOKE FAIL (${bad})` : "SMOKE PASS");
+process.exit(bad ? 1 : 0);

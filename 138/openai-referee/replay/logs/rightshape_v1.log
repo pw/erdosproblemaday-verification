@@ -1,0 +1,6 @@
+RightShape.lean:12:2: error: Type mismatch: After simplification, term
+  h
+ has type
+  ↑k ^ (100000⁻¹ * ↑k * ↑(Nat.log 2 2)) < ↑(W 2 k)
+but is expected to have type
+  ↑k ^ (100000⁻¹ * ↑k) < ↑(W 2 k)

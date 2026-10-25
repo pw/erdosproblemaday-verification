@@ -1,0 +1,22 @@
+quadrature sigma^(0.0) = +1.0000000000   J0 = +1.0000000000
+quadrature sigma^(5.0) = -0.1775967713   J0 = -0.1775967713
+quadrature sigma^(50.0) = +0.0558123277   J0 = +0.0558123277
+quadrature sigma^(500.0) = -0.0341005569   J0 = -0.0341005569
+sup |J0(r)|(1+r)^0.5 on [0,2e5] = 1.1536 (asymptotic sqrt(2/pi)=0.7979)
+  CONTROL sup_(r<=100) |J0(r)|(1+r)^1 = 8.0
+  CONTROL sup_(r<=1000) |J0(r)|(1+r)^1 = 25.3
+  CONTROL sup_(r<=10000) |J0(r)|(1+r)^1 = 79.8
+  CONTROL sup_(r<=200000) |J0(r)|(1+r)^1 = 356.8
+h=0.1: sup multiplier = 1.905;  CONTROL (no decay) sup = 40
+h=0.001: sup multiplier = 1.999;  CONTROL (no decay) sup = 4e+03
+h=1e-06: sup multiplier = 2.000;  CONTROL (no decay) sup = 4e+06
+
+  h       ||g-g(.+h)||^2 Fourier   exact |D Δ (D-h)|   CONTROL ratio ||g-g(.+h)||/sqrt h    ||S(g-g(.+h))||/sqrt h
+0.1             0.599869             0.599889                       2.4492                      0.50283
+0.03            0.179977             0.179997                       2.4493                      0.30513
+0.01            0.059980             0.060000                       2.4491                      0.19048
+0.003           0.017980             0.018000                       2.4481                      0.11229
+0.001           0.005980             0.006000                       2.4454                      0.06876
+sqrt(4*rho0) = 2.449489742783178
+real-space grid ||S(g-g(.+0.1))||^2 = 0.025284   vs Fourier formula 0.025283
+[wall 30.09 s, maxRSS 185368 kB]

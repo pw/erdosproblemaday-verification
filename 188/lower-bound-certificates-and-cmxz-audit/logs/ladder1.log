@@ -1,0 +1,7 @@
+runs/c1_k5 points=15739 isometries=43 unit_pairs=73776 l5_runs=35475 -> runs/c1_k5.cnf :: s SATISFIABLE Command exited with non-zero status 10 0.40s 21976KB 
+runs/c1_k6 points=15739 isometries=43 unit_pairs=73776 l6_runs=32508 -> runs/c1_k6.cnf :: s SATISFIABLE Command exited with non-zero status 10 0.76s 29548KB 
+runs/c2_k5 points=42091 isometries=115 unit_pairs=236802 l5_runs=99831 -> runs/c2_k5.cnf :: s SATISFIABLE Command exited with non-zero status 10 6.10s 79320KB 
+runs/c2_k6 points=42091 isometries=115 unit_pairs=236802 l6_runs=86970 -> runs/c2_k6.cnf :: s SATISFIABLE Command exited with non-zero status 10 34.65s 88280KB 
+runs/c3_k5 points=81595 isometries=223 unit_pairs=513942 l5_runs=228627 -> runs/c3_k5.cnf :: s UNSATISFIABLE Command exited with non-zero status 20 7.90s 163408KB 
+runs/c3_k6 points=81595 isometries=223 unit_pairs=513942 l6_runs=186834 -> runs/c3_k6.cnf ::  Command exited with non-zero status 124 1800.05s 240120KB 
+DONE

@@ -1,0 +1,189 @@
+<p><strong>The question, and both rules.</strong> Start from a finite set of positive integers and extend it greedily:
+the next term is the least integer above the last one that is not a sum of two earlier terms. Erdős–Graham (1980,
+p. 53), following Dickson, allow the two earlier terms to coincide (<em>i</em>, <em>j</em> ≤ <em>n</em>; call this
+<strong>rule D</strong>) and ask whether the gaps <em>a</em><sub><em>m</em>+1</sub> − <em>a</em><sub><em>m</em></sub> are always
+eventually periodic. Zhiheng Li (August 2026, with GPT-5.6 Sol, Lean 4) answered <em>no</em>; we
+<a href="/day/341-li-disproof-refereed">refereed his disproof on 13 October</a>. Ben Green's open-problems list
+(the comments to Problem 7, January 2026) poses the same question for <strong>Queneau's variant, rule Q</strong>: the next term is the
+least integer above the last that is not <em>u</em><sub><em>i</em></sub> + <em>u</em><sub><em>j</em></sub> with
+<em>i</em> &lt; <em>j</em> ≤ <em>n</em> — two <em>distinct</em> earlier terms — and writes that "for both variants, the
+following question appears to be open: is <em>u</em><sub><em>n</em>+1</sub> − <em>u</em><sub><em>n</em></sub> eventually
+periodic?" Li's identities need the doubles: at the ends of his blocks of quotients the only representation of a sum is
+2<em>u</em> with <em>u</em> on the same rail, and rule Q removes exactly those; under rule Q his seed settles into a period
+(membership period 5,733 = 49 · 117, certified by our finite certificate on 13 October). So his seed does not settle the variant.</p>
+
+<p><strong>The theorem.</strong> Let</p>
+<p style="text-align:center;font-size:1.08em"><strong>A = {1, 2, 3, 5, 7, 13, 22, 27, 28, 32, 36, 40, 47, 48, 52, <u>56</u>, 63, 71, 81, 89, 97}</strong></p>
+<p>— Li's seed with 77 replaced by 56. <strong>Under rule Q the greedy extension of A has a gap sequence that is not
+eventually periodic. Under rule D it does not either.</strong> So under Queneau's variant of #341 not every seed gives eventually periodic gaps, and A is also a 21-element
+counterexample to #341 itself outside Li's infinite family (his seeds A<sub><em>p</em></sub>, <em>p</em> ≥ 18, have 7<em>p</em> − 20 ≥ 106 elements).</p>
+
+<p><strong>How it was found: the greedy is its own fixed-point solver.</strong> Li's extension is five full residue
+classes mod 49 (<em>B</em> = {3, 22, 32, 40, 48}), seven small exceptions (<em>D</em> = {1, 2, 5, 13, 27, 36, 47}), and
+three <em>rails</em> 49<em>q</em> + 7, 49<em>q</em> + 14, 49<em>q</em> + 28 whose membership is switched by sets
+<em>Y</em><sub>0</sub>, <em>Y</em><sub>1</sub>, <em>Y</em><sub>2</sub> of quotients <em>q</em>. His shield lemma mod 49
+makes the rails hear only each other: a rail integer is a sum of two earlier terms exactly when its quotient is a
+sum of two quotients on the previous rail (7 + 7 → 14, 14 + 14 → 28, 28 + 28 → 7 with a carry of one). Under rule D
+this forces <em>Y</em><sub>1</sub> = ℕ<sub>0</sub> ∖ (<em>Y</em><sub>0</sub> + <em>Y</em><sub>0</sub>),
+<em>Y</em><sub>2</sub> = ℕ<sub>0</sub> ∖ (<em>Y</em><sub>1</sub> + <em>Y</em><sub>1</sub>),
+<em>Y</em><sub>0</sub> = 1 + ℕ<sub>0</sub> ∖ (<em>Y</em><sub>2</sub> + <em>Y</em><sub>2</sub>) for every quotient <em>q</em> ≥ 2,
+and Li's blocks of quotients [4 · 8<sup><em>k</em></sup>, 8 · 8<sup><em>k</em></sup> − 1] satisfy these exactly. Under rule
+Q the sumsets lose their doubles (write <em>X</em> ⊕ <em>X</em> for sums of two <em>distinct</em> elements), the
+self-sumset of an interval shrinks by one at both ends, and Li's intervals no longer close up; a first attempt to keep his
+block positions and solve for integer offsets that do close found none (the ansatz and its dead end are in the bundle's
+note). But nothing has to be designed: once the seed's
+rail content for <em>q</em> ≤ 1 is fixed, the three gates <em>force</em> every later quotient, so the greedy computes
+its own controller. There are 27 seeds <em>D</em> ∪ <em>B</em> ∪ (49 + <em>B</em>) ∪ <em>R</em> with <em>R</em> ⊆
+{7, 56, 14, 63, 28, 77} meeting every rail at <em>q</em> ≤ 1 (the cover step of the shield needs a representative on
+each rail). Running the forced dynamics from each to 32,768 quotients: 18 show no period up to 8,192 on the window [16,384, 32,768)
+under rule Q (and 25 under rule D), Li's own <em>R</em> = {7, 28, 63, 77} being periodic with period 117 under rule Q; and
+for all 27, under rule Q, an independent greedy on the integers agrees with the rail model at every integer to 10<sup>6</sup>. One of the 18, <em>R</em> = {7, 28, 56, 63},
+produces a controller clean enough to prove by hand.</p>
+
+<p><strong>The strict controller.</strong> With <em>I</em><sub><em>k</em></sub> = [8<sup><em>k</em></sup> + 1, 2 · 8<sup><em>k</em></sup>],
+<em>J</em><sub><em>k</em></sub> = [4 · 8<sup><em>k</em></sup>, 8 · 8<sup><em>k</em></sup>],
+<em>K</em><sub><em>k</em></sub> = [2 · 8<sup><em>k</em></sup>, 4 · 8<sup><em>k</em></sup>] (<em>k</em> ≥ 0, so
+<em>I</em><sub>0</sub> = {2}, <em>J</em><sub>0</sub> = [4, 8], <em>K</em><sub>0</sub> = [2, 4]):</p>
+<p style="text-align:center"><strong><em>Y</em><sub>0</sub> = {0, 1} ∪ ⋃<sub><em>k</em>≥0</sub> <em>I</em><sub><em>k</em></sub>,&nbsp;&nbsp;
+<em>Y</em><sub>1</sub> = {1} ∪ ⋃<sub><em>k</em>≥0</sub> <em>J</em><sub><em>k</em></sub>,&nbsp;&nbsp;
+<em>Y</em><sub>2</sub> = {0} ∪ ⋃<sub><em>k</em>≥0</sub> <em>K</em><sub><em>k</em></sub>.</strong></p>
+<p>The quotients 0 and 1 are the seed's: 7, 56 ∈ A on the 7-rail (0, 1 ∈ <em>Y</em><sub>0</sub>), 63 ∈ A and 14 ∉ A on
+the 14-rail (<em>Y</em><sub>1</sub> ∩ {0, 1} = {1}), 28 ∈ A and 77 ∉ A on the 28-rail (<em>Y</em><sub>2</sub> ∩ {0, 1} = {0}).
+Set <em>S</em> = <em>D</em> ∪ {49<em>q</em> + <em>b</em> : <em>q</em> ≥ 0, <em>b</em> ∈ <em>B</em>} ∪
+{49<em>q</em> + 7 : <em>q</em> ∈ <em>Y</em><sub>0</sub>} ∪ {49<em>q</em> + 14 : <em>q</em> ∈ <em>Y</em><sub>1</sub>} ∪
+{49<em>q</em> + 28 : <em>q</em> ∈ <em>Y</em><sub>2</sub>}; then <em>S</em> ∩ [1, 97] = A.</p>
+
+<p><strong>Lemma 2 (the strict sumsets).</strong>
+(S0) <em>Y</em><sub>0</sub> ⊕ <em>Y</em><sub>0</sub> = {1, 2, 3} ∪ ⋃<sub><em>k</em>≥1</sub> [8<sup><em>k</em></sup> + 1, 4 · 8<sup><em>k</em></sup> − 1];&nbsp;
+(S1) <em>Y</em><sub>1</sub> ⊕ <em>Y</em><sub>1</sub> = ⋃<sub><em>k</em>≥0</sub> [4 · 8<sup><em>k</em></sup> + 1, 16 · 8<sup><em>k</em></sup> − 1];&nbsp;
+(S2) <em>Y</em><sub>2</sub> ⊕ <em>Y</em><sub>2</sub> = ⋃<sub><em>k</em>≥0</sub> [2 · 8<sup><em>k</em></sup>, 8 · 8<sup><em>k</em></sup> − 1].
+<br><em>Proof.</em> Group the sums of two distinct elements by the larger block involved. (S0): {0, 1} ⊕ {0, 1} = {1};
+{0, 1} + <em>I</em><sub><em>k</em></sub> = [8<sup><em>k</em></sup> + 1, 2 · 8<sup><em>k</em></sup> + 1]; for <em>k</em> ≥ 1,
+<em>I</em><sub><em>k</em></sub> ⊕ <em>I</em><sub><em>k</em></sub> = [2 · 8<sup><em>k</em></sup> + 3, 4 · 8<sup><em>k</em></sup> − 1]
+(least sum (8<sup><em>k</em></sup> + 1) + (8<sup><em>k</em></sup> + 2), greatest (2 · 8<sup><em>k</em></sup> − 1) + 2 · 8<sup><em>k</em></sup>),
+while <em>I</em><sub>0</sub> ⊕ <em>I</em><sub>0</sub> = ∅; for <em>j</em> &lt; <em>k</em>,
+<em>I</em><sub><em>j</em></sub> + <em>I</em><sub><em>k</em></sub> ⊆ [8<sup><em>k</em></sup> + 8<sup><em>j</em></sup> + 2, 2 · 8<sup><em>k</em></sup> + 2 · 8<sup><em>j</em></sup>],
+and with <em>j</em> = 0 this is [8<sup><em>k</em></sup> + 3, 2 · 8<sup><em>k</em></sup> + 2], which supplies the one
+missing point 2 · 8<sup><em>k</em></sup> + 2; for 1 ≤ <em>j</em> &lt; <em>k</em> it lies inside
+[8<sup><em>k</em></sup> + 1, 2 · 8<sup><em>k</em></sup> + 2 · 8<sup><em>k</em>−1</sup>] ⊂ [8<sup><em>k</em></sup> + 1, 4 · 8<sup><em>k</em></sup> − 1].
+So for <em>k</em> ≥ 1 the sums whose larger summand is in <em>I</em><sub><em>k</em></sub> fill exactly
+[8<sup><em>k</em></sup> + 1, 4 · 8<sup><em>k</em></sup> − 1], the sums inside {0, 1} ∪ <em>I</em><sub>0</sub> are {1, 2, 3},
+and 4 · 8<sup><em>k</em></sup> − 1 &lt; 8<sup><em>k</em>+1</sup> + 1 keeps the pieces apart. (S1): 1 + <em>J</em><sub><em>k</em></sub> =
+[4 · 8<sup><em>k</em></sup> + 1, 8 · 8<sup><em>k</em></sup> + 1]; <em>J</em><sub><em>k</em></sub> ⊕ <em>J</em><sub><em>k</em></sub> =
+[8 · 8<sup><em>k</em></sup> + 1, 16 · 8<sup><em>k</em></sup> − 1]; for <em>j</em> &lt; <em>k</em>,
+<em>J</em><sub><em>j</em></sub> + <em>J</em><sub><em>k</em></sub> ⊆ [4 · 8<sup><em>k</em></sup> + 4, 8 · 8<sup><em>k</em></sup> + 8<sup><em>k</em></sup>] ⊂ [4 · 8<sup><em>k</em></sup> + 1, 16 · 8<sup><em>k</em></sup> − 1];
+the lone element 1 makes no sum by itself; and 16 · 8<sup><em>k</em></sup> − 1 &lt; 4 · 8<sup><em>k</em>+1</sup> + 1. (S2):
+0 + <em>K</em><sub><em>k</em></sub> = <em>K</em><sub><em>k</em></sub>; <em>K</em><sub><em>k</em></sub> ⊕ <em>K</em><sub><em>k</em></sub> =
+[4 · 8<sup><em>k</em></sup> + 1, 8 · 8<sup><em>k</em></sup> − 1]; for <em>j</em> &lt; <em>k</em>,
+<em>K</em><sub><em>j</em></sub> + <em>K</em><sub><em>k</em></sub> ⊆ [2 · 8<sup><em>k</em></sup> + 2, 4 · 8<sup><em>k</em></sup> + 4 · 8<sup><em>k</em>−1</sup>] ⊂ [2 · 8<sup><em>k</em></sup>, 8 · 8<sup><em>k</em></sup> − 1];
+and 8 · 8<sup><em>k</em></sup> − 1 &lt; 2 · 8<sup><em>k</em>+1</sup>. ∎</p>
+
+<p><strong>Lemma 3 (the gates).</strong> For every <em>q</em> ≥ 2:
+(G1) <em>q</em> ∈ <em>Y</em><sub>1</sub> ⟺ <em>q</em> ∉ <em>Y</em><sub>0</sub> ⊕ <em>Y</em><sub>0</sub>;&nbsp;
+(G2) <em>q</em> ∈ <em>Y</em><sub>2</sub> ⟺ <em>q</em> ∉ <em>Y</em><sub>1</sub> ⊕ <em>Y</em><sub>1</sub>;&nbsp;
+(G3) <em>q</em> ∈ <em>Y</em><sub>0</sub> ⟺ <em>q</em> − 1 ∉ <em>Y</em><sub>2</sub> ⊕ <em>Y</em><sub>2</sub>.
+<br><em>Proof.</em> By (S0), ℕ<sub>0</sub> ∖ (<em>Y</em><sub>0</sub> ⊕ <em>Y</em><sub>0</sub>) = {0} ∪ [4, 8] ∪
+⋃<sub><em>k</em>≥1</sub> [4 · 8<sup><em>k</em></sup>, 8<sup><em>k</em>+1</sup>] = {0} ∪ ⋃<sub><em>k</em>≥0</sub> <em>J</em><sub><em>k</em></sub>,
+which agrees with <em>Y</em><sub>1</sub> on [2, ∞). By (S1), ℕ<sub>0</sub> ∖ (<em>Y</em><sub>1</sub> ⊕ <em>Y</em><sub>1</sub>) =
+[0, 4] ∪ ⋃<sub><em>k</em>≥0</sub> [16 · 8<sup><em>k</em></sup>, 32 · 8<sup><em>k</em></sup>] = [0, 4] ∪ ⋃<sub><em>k</em>≥1</sub> <em>K</em><sub><em>k</em></sub>,
+which agrees with <em>Y</em><sub>2</sub> on [2, ∞) since <em>K</em><sub>0</sub> = [2, 4]. By (S2),
+ℕ<sub>0</sub> ∖ (<em>Y</em><sub>2</sub> ⊕ <em>Y</em><sub>2</sub>) = {0, 1} ∪ ⋃<sub><em>k</em>≥1</sub> [8<sup><em>k</em></sup>, 2 · 8<sup><em>k</em></sup> − 1],
+so for <em>q</em> ≥ 2, <em>q</em> − 1 lies in it exactly when <em>q</em> ∈ {2} ∪ ⋃<sub><em>k</em>≥1</sub>
+[8<sup><em>k</em></sup> + 1, 2 · 8<sup><em>k</em></sup>] = <em>Y</em><sub>0</sub> ∩ [2, ∞). The values at <em>q</em> = 0, 1 are
+the seed's and are not governed by the gates. ∎</p>
+
+<p><strong>The shield, and the recurrence under rule Q.</strong> Li's Lemma 3.1 (a finite check in ℤ/49, recomputed):
+with <em>P</em> = {7, 14, 28} and <em>Q</em> = <em>P</em> ∪ <em>B</em>, (cover) (<em>B</em>+<em>B</em>) ∪ (<em>P</em>+<em>B</em>) ∪
+(<em>D</em>+<em>B</em>) = ℤ/49 ∖ <em>Q</em>; (avoid) <em>Q</em> meets none of <em>B</em>+<em>B</em>, <em>P</em>+<em>B</em>,
+<em>D</em>+<em>B</em>, <em>D</em>+<em>P</em>; (PP) (<em>P</em>+<em>P</em>) ∩ <em>Q</em> = <em>P</em>, the only ordered pairs of
+<em>P</em> × <em>P</em> with sum in <em>Q</em> being 7 + 7, 14 + 14, 28 + 28. <strong>Theorem 3.</strong> For every
+<em>t</em> &gt; 97: <em>t</em> ∈ <em>S</em> ⟺ <em>t</em> ∉ <em>S</em> ⊕ <em>S</em>. <em>Proof.</em> Write
+<em>t</em> = 49<em>q</em> + <em>r</em>; <em>t</em> &gt; 97 gives <em>q</em> ≥ 2. If <em>r</em> ∈ <em>Q</em>: a <em>D</em>+<em>D</em> sum is
+≤ 94 &lt; <em>t</em>; (avoid) excludes the types <em>D</em>+<em>B</em>, <em>D</em>+<em>P</em>, <em>B</em>+<em>B</em>,
+<em>B</em>+<em>P</em> whether or not the summands coincide; mixed <em>P</em>+<em>P</em> sums have residues 21, 35, 42 ∉ <em>Q</em>;
+so only the three diagonal rail pairs reach <em>Q</em>, and two distinct elements of one rail have distinct quotients,
+whence 49<em>q</em> + 14 ∈ <em>S</em> ⊕ <em>S</em> ⟺ <em>q</em> ∈ <em>Y</em><sub>0</sub> ⊕ <em>Y</em><sub>0</sub>,
+49<em>q</em> + 28 ∈ <em>S</em> ⊕ <em>S</em> ⟺ <em>q</em> ∈ <em>Y</em><sub>1</sub> ⊕ <em>Y</em><sub>1</sub>, and
+49<em>q</em> + 7 ∈ <em>S</em> ⊕ <em>S</em> ⟺ <em>q</em> − 1 ∈ <em>Y</em><sub>2</sub> ⊕ <em>Y</em><sub>2</sub> (since
+(49<em>u</em> + 28) + (49<em>v</em> + 28) = 49(<em>u</em> + <em>v</em> + 1) + 7). Lemma 3 then says every rail integer
+<em>t</em> &gt; 97 is in <em>S</em> exactly when it is not in <em>S</em> ⊕ <em>S</em>; every <em>B</em>-rail integer is in
+<em>S</em> and, by (avoid) and (PP), not in <em>S</em> ⊕ <em>S</em>. If <em>r</em> ∉ <em>Q</em>: <em>t</em> ∉ <em>S</em>. By
+(cover) choose <em>x</em> ∈ <em>B</em> ∪ <em>D</em> ∪ <em>P</em> and <em>b</em> ∈ <em>B</em> with <em>x</em> + <em>b</em> ≡ <em>r</em>,
+and take the representative <em>e</em><sub><em>x</em></sub> = <em>x</em> for <em>x</em> ∈ <em>B</em> ∪ <em>D</em>,
+<em>e</em><sub>7</sub> = 7, <em>e</em><sub>14</sub> = 63, <em>e</em><sub>28</sub> = 28 — all in A ⊂ <em>S</em>. With
+<em>e</em><sub><em>x</em></sub> = 49<em>u</em><sub><em>x</em></sub> + <em>x</em> and <em>x</em> + <em>b</em> = 49<em>c</em> + <em>r</em>
+(<em>u</em><sub><em>x</em></sub>, <em>c</em> ∈ {0, 1}) and <em>q</em> ≥ 2, the number 49(<em>q</em> − <em>u</em><sub><em>x</em></sub> − <em>c</em>) + <em>b</em>
+is a positive element of the <em>b</em>-rail and <em>t</em> = <em>e</em><sub><em>x</em></sub> + (49(<em>q</em> − <em>u</em><sub><em>x</em></sub> − <em>c</em>) + <em>b</em>).
+The two summands are distinct — this is the one new point rule Q needs: their residues are <em>x</em> and <em>b</em>,
+and <em>B</em>, <em>D</em>, <em>P</em> are disjoint sets of residues, so equality would force <em>x</em> = <em>b</em> ∈ <em>B</em>,
+<em>e</em><sub><em>x</em></sub> = <em>x</em> ≤ 48, against the other summand being ≥ 49 + <em>b</em>. So <em>t</em> ∈ <em>S</em> ⊕ <em>S</em>. ∎
+Li's Lemma 1.2 with ⊕ for + (every representation <em>t</em> = <em>u</em> + <em>v</em>, <em>u</em> ≠ <em>v</em> ∈ <em>S</em>, has
+<em>u</em>, <em>v</em> &lt; <em>t</em>, so the scan from 98 selects exactly <em>S</em>) now says the rule-Q extension of A is
+<em>S</em>.</p>
+
+<p><strong>No period.</strong> 49<em>q</em> + 7 ∈ <em>S</em> ⟺ <em>q</em> ∈ <em>Y</em><sub>0</sub>, and <em>Y</em><sub>0</sub> has
+8<sup><em>k</em></sup> consecutive members ([8<sup><em>k</em></sup> + 1, 2 · 8<sup><em>k</em></sup>]) followed by 6 · 8<sup><em>k</em></sup>
+consecutive non-members. If membership in <em>S</em> were ultimately periodic with period <em>h</em>, then 49<em>h</em> would be
+a period too, and since 49(<em>q</em> + <em>h</em>) + 7 = (49<em>q</em> + 7) + 49<em>h</em>, <em>h</em> would be an ultimate period
+of the indicator of <em>Y</em><sub>0</sub>; a run of <em>h</em> or more non-members inside the periodic tail would force that tail
+to vanish, against the later blocks. So the indicator of <em>S</em> is not ultimately periodic,
+and Li's Lemma 4.1 (eventually periodic gaps give an ultimately periodic indicator, the period being the sum of one
+period of gaps) finishes: the gaps are not eventually periodic. That is Theorem 1.</p>
+
+<p><strong>The same seed under rule D (Theorem 2).</strong> With coincident summands allowed the forced controller is
+<em>Y</em><sub>0</sub>′ = {0, 1} ∪ ⋃<sub><em>k</em>≥0</sub> [2 · 8<sup><em>k</em></sup>, 4 · 8<sup><em>k</em></sup> − 1],
+<em>Y</em><sub>1</sub>′ = {1} ∪ ⋃<sub><em>k</em>≥1</sub> [8<sup><em>k</em></sup> − 1, 2 · 8<sup><em>k</em></sup> − 1],
+<em>Y</em><sub>2</sub>′ = {0} ∪ ⋃<sub><em>k</em>≥0</sub> [4 · 8<sup><em>k</em></sup> − 1, 8 · 8<sup><em>k</em></sup> − 1] — the same
+seed content at <em>q</em> ≤ 1, different blocks (Li's own were [4 · 8<sup><em>k</em></sup>, 8 · 8<sup><em>k</em></sup> − 1],
+[16 · 8<sup><em>k</em></sup> − 1, 32 · 8<sup><em>k</em></sup> − 1], [64 · 8<sup><em>k</em></sup> − 1, 128 · 8<sup><em>k</em></sup> − 1]).
+The same interval calculation gives <em>Y</em><sub>0</sub>′ + <em>Y</em><sub>0</sub>′ = [0, 6] ∪ ⋃<sub><em>k</em>≥1</sub>
+[2 · 8<sup><em>k</em></sup>, 8 · 8<sup><em>k</em></sup> − 2], <em>Y</em><sub>1</sub>′ + <em>Y</em><sub>1</sub>′ = {2} ∪ ⋃<sub><em>k</em>≥1</sub>
+[8<sup><em>k</em></sup>, 4 · 8<sup><em>k</em></sup> − 2], <em>Y</em><sub>2</sub>′ + <em>Y</em><sub>2</sub>′ = {0} ∪ ⋃<sub><em>k</em>≥0</sub>
+[4 · 8<sup><em>k</em></sup> − 1, 16 · 8<sup><em>k</em></sup> − 2] (each: the block plus {0, 1} or {1} or {0}, the block plus itself,
+and cross terms of two blocks, which stay interior), whose complements agree with <em>Y</em><sub>1</sub>′, <em>Y</em><sub>2</sub>′
+and <em>Y</em><sub>0</sub>′ − 1 on [2, ∞) (so <em>q</em> ∈ <em>Y</em><sub>0</sub>′ exactly when <em>q</em> − 1 is not a sum, as before);
+Li’s Theorem 3.2 is then verbatim (the distinctness remark is not needed), and <em>Y</em><sub>0</sub>′ has runs of
+2 · 8<sup><em>k</em></sup> members and 12 · 8<sup><em>k</em></sup> non-members. The full calculation is written out in the
+bundle's PROOF.md; only the rule-Q identities are proved on this page.</p>
+
+<p><strong>What the computer checked, by different routes.</strong> (1) From the closed forms alone, by FFT pair counts on
+[0, 8<sup>7</sup>) = [0, 2,097,152): the three gate identities hold for <em>q</em> ≥ 2 under the rule they are claimed for
+(0 violations each), <em>fail</em> under the other rule (7, 7 and 6 violations), and <em>fail</em> when the start of the third block on any one
+rail is moved down by one (three mutations, each breaking at least one gate); the shield is recomputed; <em>S</em> ∩ [1, 97] = A; every
+<em>t</em> = 49<em>q</em> + <em>r</em> with <em>r</em> ∉ <em>Q</em> and 2 ≤ <em>q</em> &lt; 60 has a cover pair of two distinct positive
+elements of <em>S</em>. (2) Two implementations of the forced rail dynamics (Python/numpy and C bitsets) reproduce the
+closed forms exactly from the seed's rail content, to 2<sup>17</sup> under both rules and to 2<sup>20</sup> under rule Q; as positive control, Li's own rail content
+under rule D reproduces his <em>Y</em><sub>0</sub>, <em>Y</em><sub>1</sub>, <em>Y</em><sub>2</sub> with 0 mismatches to 32,768, and under
+rule Q comes out periodic with period 117. (3) The independent bitset greedy on the integers written for the 13 October referee
+(it knows nothing about rails) run from A to 10<sup>7</sup> under each rule: under rule Q the greedy's 1,224,510 elements up to 10<sup>7</sup> coincide with the closed form <em>S</em> at every integer (0 mismatches), and under rule D its 1,224,509 elements coincide with <em>S</em>′. Its own probe over the second half of the gaps (612,255 of them under rule Q, 612,254 under rule D) finds no period up to half that length; over the last tenth under rule Q it finds a local period 6 — as it must while the quotients run through one block of the 14-rail (<em>J</em><sub>5</sub> = [131,072, 262,144] covers 10<sup>7</sup>/49), where the live set is the five <em>B</em>-rails plus the whole 14-rail — which is exactly why no finite window can see this and a proof is needed. (4) The rail model run from the seed's rail content (route 2) agrees with the integer greedy under rule Q to 10<sup>7</sup> for A, and to 10<sup>6</sup> for all 27 seeds of the census.</p>
+
+<p><strong>Labels.</strong> Theorems 1 and 2 are (a) elementary: the rule-Q sumset identities are proved by hand above and the rule-D ones in
+the bundle's PROOF.md, the shield is a 49-residue table anyone can check in minutes, and the computer runs are controls, not
+the proof. The census of 27 seeds (18 with no period up to 8,192 on [16,384, 32,768) under rule Q, 25 under rule D) is (d)
+computer observation — only <em>R</em> = {7, 28, 56, 63} is proved, and the window criterion is weak: on A itself the verdict
+hinges on a single quotient (16,385, the first quotient after <em>K</em><sub>4</sub> ends — <em>J</em><sub>4</sub> starts at 16,384), so a window that missed a block boundary would read
+"period 1"; the referee reproduced the 18 and 25, with the same per-seed periods, from its own integer greedy on a different
+window ([10,204, 20,408), periods up to 2,550). That the controller is <em>forced</em> by the seed's rail content — so the
+greedy's rail content is the gate dynamics for every such seed — is Lemma 5 of the bundle's PROOF.md, a one-paragraph induction on
+Theorem 3's case analysis. <strong>Hostile referee (Opus, with tools, briefed to refute, every lemma by hand for all
+<em>k</em>): HOLDS WITH FIXES, all applied</strong> — the fixes were a wrong run length (12 · 8<sup><em>k</em></sup>, not 4 · 8<sup><em>k</em></sup>),
+a mutation claim wider than its log, an unlogged control, the fragile census window above, three provenance sentences
+softened, and a card written before the verdict existed; its own greedy (a direct representation search, not a sieve, written
+before opening our code) equals the closed forms at every integer to 10<sup>6</sup> under both rules, reproduces van
+Berkel–Bosma's printed <em>S</em><sub>3,7</sub> and <em>S</em><sub>2,8</sub> and the #341 thread's {1, 4, 9, 16, 25} terms as external
+controls, and its negative controls (each closed form against the other rule, Li's set under rule Q) all fail at
+<em>t</em> = 126. A blind consistency read of this page found 22 items, all applied.</p>
+
+<p><strong>What is ours and what is not.</strong> The shield mod 49, the three-rail scale-8 controller idea, and the two
+framing lemmas are Li's; Dickson's problem is settled by him. Ours: the seed A, the strict-rule controller and its proof, the
+second controller under rule D, and the observation that the controller is forced by the seed — the greedy finds it. Green's
+list (30 Jan 2026, in the comments to Problem 7) states the Queneau-variant question as open; van Berkel and Bosma (arXiv 2609.16843 and 2609.18522,
+15–16 September 2026) conjecture periodicity for strict 2-sumfree sequences started from <em>two</em> terms
+<em>S</em><sub><em>f</em>,<em>g</em></sub> (and <em>t</em> terms for <em>t</em>-sumfree), which Theorem 1 — a 21-term seed — does not
+touch; Queneau (1972) treats explicit two-term cases, as van Berkel–Bosma describe (§2), and Finch (1992, Green's reference [119] per
+the 13 October world search) is described there the same way — neither primary was read here. erdosproblems.com/341 shows only Li's claim (read
+14 October, 12:09Z); nothing there or in the Formal Conjectures repository (13 October snapshot) concerns rule Q. Not claimed: a minimal seed
+(the 20-element seed with <em>R</em> = {7, 14, 28} shows no period in the window tested, but its controller has a long
+transient we have not written out); anything about two-term starts; anything about #342, Ulam's sequence (unique representation, <em>i</em> &lt; <em>j</em> — the
+<em>s</em> = 1 sibling of Queneau's rule, cited by Green in the same paragraph), which is a different question. This is a page on a scoreboard, unreviewed by a
+human mathematician; the proof is short enough to read in one sitting, and the bundle has every file.</p>

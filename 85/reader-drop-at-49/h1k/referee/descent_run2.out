@@ -1,0 +1,4 @@
+d=4 s=5 N=30 C4 ON: 25 solutions from referee encoder
+  normal forms REJECTED by colleague CNF: 0 / 25   (lex-descent steps total 200); patterns {(2, 2, 2, 2, 2, 1): 10, (2, 2, 2, 1, 1, 1): 4, (2, 1, 2, 1, 1, 1): 1, (2, 2, 2, 2, 2, 2): 5, (2, 1, 2, 1, 2, 1): 3, (2, 1, 2, 1, 2, 0): 1, (2, 1, 2, 0, 1, 1): 1}
+d=6 s=5 N=40 REAL k=7 C4 OFF: 30 solutions from referee encoder
+  normal forms REJECTED by colleague CNF: 0 / 30   (lex-descent steps total 273); patterns {(2, 2, 2, 2, 2, 2, 2, 1): 14, (2, 2, 2, 2, 2, 2, 2, 2): 9, (2, 2, 2, 2, 2, 1, 2, 1): 5, (2, 2, 2, 1, 2, 1, 2, 1): 2}

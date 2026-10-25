@@ -1,0 +1,12 @@
+OAI.ErdosGallai.erdos_gallai MATCH | lens 60 60
+def OAI.ErdosGallai.MainStatement MATCH | lens 505 505
+def OAI.ErdosGallai.EdgeDecomposition MATCH | lens 1240 1240
+def OAI.ErdosGallai.CycleOrSingleEdge MATCH | lens 758 758
+solution axioms: {'Classical.choice', 'propext', 'Quot.sound'}
+comparator axioms: {'sorryAx', 'propext', 'Quot.sound', 'Classical.choice'}
+axioms main_cost_bound {'Classical.choice', 'propext', 'Quot.sound'}
+axioms decompositionCost_spec {'Classical.choice', 'propext', 'Quot.sound'}
+MATCH
+STD_AXIOMS
+CMP_SORRY_SEEN
+

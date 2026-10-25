@@ -1,0 +1,15 @@
+k=7 j=0 relax=False codegree-premise=True negation=indep: SAT in 0 of 280 (w,Y) [cadical153]
+k=7 j=0 relax=False codegree-premise=True negation=theirs: SAT in 0 of 280 (w,Y) [cadical153]
+k=7 j=0 relax=False codegree-premise=False negation=indep: SAT in 28 of 280 (w,Y) [cadical153]
+k=7 j=0 relax=False codegree-premise=False negation=theirs: SAT in 28 of 280 (w,Y) [cadical153]
+12.09 s
+k=7 j=4 relax=False codegree-premise=True negation=indep: SAT in 0 of 280 (w,Y) [cadical153]
+k=7 j=4 relax=False codegree-premise=True negation=theirs: SAT in 0 of 280 (w,Y) [cadical153]
+k=7 j=4 relax=False codegree-premise=False negation=indep: SAT in 34 of 280 (w,Y) [cadical153]
+k=7 j=4 relax=False codegree-premise=False negation=theirs: SAT in 34 of 280 (w,Y) [cadical153]
+11.50 s
+k=7 j=2 relax=True codegree-premise=True negation=indep: SAT in 0 of 280 (w,Y) [cadical153]
+k=7 j=2 relax=True codegree-premise=True negation=theirs: SAT in 0 of 280 (w,Y) [cadical153]
+k=7 j=2 relax=True codegree-premise=False negation=indep: SAT in 204 of 280 (w,Y) [cadical153]
+k=7 j=2 relax=True codegree-premise=False negation=theirs: SAT in 204 of 280 (w,Y) [cadical153]
+17.19 s

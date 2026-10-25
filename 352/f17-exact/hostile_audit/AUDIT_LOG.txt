@@ -1,0 +1,77 @@
+ERDOS 352 / N=17 HOSTILE AUDIT LOG
+UTC date: 2026-08-12
+
+AUDITED PRODUCER
+path=/home/exedev/MathDyad/runs/erdos352_wavew041_reverify.py
+sha256=f1b1c0bd07d507a72d49a4904cc306a4fe116435f520f36dfa7d8dce48610055
+command=python3 /home/exedev/MathDyad/runs/erdos352_wavew041_reverify.py --min-n 17 --max-n 17 --json
+result={"N":17,"cases_with_high":94,"certificate_sha256":"24eeefeb8aa69c748ba80685c24bb727e98e22efb03076418f707380c4d469ee","certificates":9539,"diameter_cases":125,"f(N)":32,"high_branches":9414,"max_branch_pool":106,"pool_memberships":260479,"same_color_pairs_audited":1534917,"tight_cover_audit":{"bad_triples":2,"candidate_cap":30,"endpoint_choices":512,"incompatible_edges":48,"matching_size":9,"pool_size":40,"surviving_covers":2},"tight_vectors":[[5,3],[6,1],[5,4],[6,3]],"witness_min_gap":5,"witness_triples":5984}
+producer_elapsed_wall_seconds=113.37
+producer_user_seconds=113.14
+producer_max_rss_kib=20300
+producer_exit_status=0
+
+INDEPENDENT FULL BRANCH AUDIT
+path=/tmp/erdos352_hostile_audit/audit_352_n17.py
+sha256=3012f1b55f5a316c069f1b06e70afbaf6cc802a789eca20dc43c19285183a6ef
+command=python3 /tmp/erdos352_hostile_audit/audit_352_n17.py
+conclusion=f(17)=32
+witness_points=32
+witness_triples_with_repetition=5984
+witness_minimum_margin=5
+witness_sha256=d990dc0cc3a4dcdff1bf28adc3f5fba032cde647f940981e7a7a10f7810f2a39
+diameter_directions=125
+directions_with_high=94
+high_branches=9414
+all_branches=9539
+pool_memberships=260479
+max_pool=106
+sole_loose_coloring=B(5,4)/low/31 colors versus cap 30
+global_upper_bound=32
+tight_directions=(5,3),(6,1),(5,4),(6,3)
+branch_manifest_sha256=0a8e0e483ec7e279d3099d5689cb1b32c9b4d5ea5f3b57d0283dfa3302613fae
+diameter_manifest_sha256=c3db96c807e553601f0d37115595f63edc89572a1f8b47c3f39e158a764d4857
+independent_elapsed_wall_seconds=211.23
+independent_user_seconds=210.96
+independent_max_rss_kib=19428
+independent_exit_status=0
+
+EXCEPTIONAL B=(5,4) CERTIFICATE AUDIT
+path=/tmp/erdos352_hostile_audit/audit_exception_5_4.py
+sha256=ed81091c47817a57e51948d84a49b38701667ef9924632c0b3c610f3fb07ad4a
+command=python3 /tmp/erdos352_hostile_audit/audit_exception_5_4.py
+candidate_count=40
+candidate_sha256=d1b9ee83a150af5f77c01bbbe380903bd4215e90b0a11ebd1b53f8fad55dd66f
+incompatibility_edges=48
+incompatibility_edge_sha256=f8387b3e39ea88deeebc7716247a062affd6801cc97220e3557900bbd66f58e1
+matching_size=9
+matching_sha256=b41fec7c7d494b343509d66b29242712d6675dce55b3403c6199251fab4902b3
+endpoint_covers_tested=512
+size9_vertex_covers=2
+first_31set_sha256=a25169e82c060b4577a6c29a83aece3a1b5ed08e4ac8fcf911a3c65227d72236
+first_bad_triple=(0,3),(3,-1),(4,5); margin=-4; twice_area=22; diameter_squared=37
+second_31set_sha256=8bbad78ce3238f685ffbdb068d074f4171732fc1cfb2182418fcb62880ed001a
+second_bad_triple=(1,-1),(2,5),(5,1); margin=-4; twice_area=22; diameter_squared=37
+literal_decimal_triple_checks=8990
+exception_certificate_sha256=fabf69c9147c71b2d4df9b003828dbbd8f5fa2840f481031396d732510696232
+exception_elapsed_wall_seconds=0.19
+exception_user_seconds=0.17
+exception_max_rss_kib=15716
+exception_exit_status=0
+
+STRICT-PREDICATE / OFF-BY-ONE AUDIT
+path=/tmp/erdos352_hostile_audit/audit_strict_predicate.py
+sha256=cb5eb19988162d3206cb5c6ff6fc9d3709bea65a2ea8071ece7b76c4fc8a1e15
+command=python3 /tmp/erdos352_hostile_audit/audit_strict_predicate.py
+witness_literal_checks=5984
+lens_literal_checks=21119
+zero_margin_base_triples=12
+closest_nonzero_base_margin=1
+strict_predicate_sha256=b32ade1d1ea002da857bc3070e220a25e910b065ead01fff4f8e6d04617a8224
+strict_elapsed_wall_seconds=0.54
+strict_user_seconds=0.54
+strict_max_rss_kib=15592
+strict_exit_status=0
+
+FINAL=PASS
+MATHEMATICAL_CONCLUSION=f(17)=32 is sound in Koizumi's N-avoiding lattice model.

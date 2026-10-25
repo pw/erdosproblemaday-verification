@@ -1,0 +1,8 @@
+lam=1.0 logR=12.0 mu_g=0.07800 d=0.02200 B=2553 s_g^2=11.13  2B/d=2.32e+05
+  check int g = 1.0  sqrt(lam)= 1.0
+ k=1e+03 r=31 reps=400: w=0.872139±1.6e-02 [paper LB (10): -21.99]  v/lam=1.1715e-01±2.4e-03 [cutoff-free value 6.3618e-02; paper UB (12): 92.03 (k<2B/d: UB not claimed)]  v/w=1.343e-01  (3s)
+ k=1e+04 r=100 reps=400: w=0.894042±1.5e-02 [paper LB (10): -1.299]  v/lam=3.1725e-02±7.6e-04 [cutoff-free value 1.9909e-02; paper UB (12): 9.217 (k<2B/d: UB not claimed)]  v/w=3.549e-02  (4s)
+ k=1e+05 r=316 reps=400: w=0.974102±7.2e-03 [paper LB (10): 0.7701]  v/lam=6.4824e-03±7.3e-05 [cutoff-free value 6.3200e-03; paper UB (12): 0.926 (k<2B/d: UB not claimed)]  v/w=6.655e-03  (11s)
+ k=3e+05 r=547 reps=400: w=1.000000±0.0e+00 [paper LB (10): 0.9234]  v/lam=3.6533e-03±4.6e-13 [cutoff-free value 3.6533e-03; paper UB (12): 0.3102]  v/w=3.653e-03  (25s)
+ k=1e+06 r=1000 reps=400: w=1.000000±0.0e+00 [paper LB (10): 0.977]  v/lam=1.9991e-03±0.0e+00 [cutoff-free value 1.9991e-03; paper UB (12): 0.09397]  v/w=1.999e-03  (75s)
+ k=3e+06 r=1732 reps=400: w=1.000000±0.0e+00 [paper LB (10): 0.9923]  v/lam=1.1544e-03±1.1e-20 [cutoff-free value 1.1544e-03; paper UB (12): 0.03181]  v/w=1.154e-03  (221s)

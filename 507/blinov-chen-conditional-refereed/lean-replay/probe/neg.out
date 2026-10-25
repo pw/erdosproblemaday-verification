@@ -1,0 +1,3 @@
+Neg.lean:2:8: warning: declaration uses 'sorry'
+'planted_false' depends on axioms: [sorryAx]
+RSSCAP done rc=0 peak_kb=1179508 wall=2s

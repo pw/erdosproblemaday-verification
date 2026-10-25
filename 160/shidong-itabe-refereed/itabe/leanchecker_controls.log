@@ -1,0 +1,6 @@
+== NEG: leanchecker ErdosProblems.E160.DoesNotExist ==
+uncaught exception: Could not find any oleans for: ErdosProblems.E160.DoesNotExist
+neg rc=1
+== POS: leanchecker ErdosProblems.E160.Problem (non-fresh) ==
+pos rc=0
+DONE

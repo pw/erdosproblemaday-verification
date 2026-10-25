@@ -1,0 +1,33 @@
+n=11 threshold=101 witness=PASS below=INFEASIBLE candidate_instances=2944 prime_constraints=1138
+n=12 threshold=107 witness=PASS below=INFEASIBLE candidate_instances=3320 prime_constraints=1247
+n=13 threshold=127 witness=PASS below=INFEASIBLE candidate_instances=4706 prime_constraints=1773
+n=14 threshold=131 witness=PASS below=INFEASIBLE candidate_instances=5024 prime_constraints=1866
+n=15 threshold=149 witness=PASS below=INFEASIBLE candidate_instances=6522 prime_constraints=2364
+n=16 threshold=167 witness=PASS below=INFEASIBLE candidate_instances=8230 prime_constraints=2949
+n=17 threshold=173 witness=PASS below=INFEASIBLE candidate_instances=8850 prime_constraints=3128
+n=18 threshold=191 witness=PASS below=INFEASIBLE candidate_instances=10786 prime_constraints=3759
+n=19 threshold=197 witness=PASS below=INFEASIBLE candidate_instances=11502 prime_constraints=3950
+n=20 threshold=211 witness=PASS below=INFEASIBLE candidate_instances=13204 prime_constraints=4526
+n=21 threshold=241 witness=PASS below=INFEASIBLE candidate_instances=17304 prime_constraints=5817
+n=22 threshold=251 witness=PASS below=INFEASIBLE candidate_instances=18774 prime_constraints=6293
+n=23 threshold=257 witness=PASS below=INFEASIBLE candidate_instances=19692 prime_constraints=6540
+n=24 threshold=271 witness=PASS below=INFEASIBLE candidate_instances=21934 prime_constraints=7249
+n=25 threshold=281 witness=PASS below=INFEASIBLE candidate_instances=23580 prime_constraints=7674
+n=26 threshold=307 witness=PASS below=INFEASIBLE candidate_instances=28174 prime_constraints=9170
+n=27 threshold=313 witness=PASS below=INFEASIBLE candidate_instances=29324 prime_constraints=9518
+n=28 threshold=347 witness=PASS below=INFEASIBLE candidate_instances=36058 prime_constraints=11540
+n=29 threshold=361 witness=PASS below=INFEASIBLE candidate_instances=39094 prime_constraints=12360
+n=30 threshold=367 witness=PASS below=INFEASIBLE candidate_instances=40382 prime_constraints=12729
+n=31 threshold=379 witness=PASS below=INFEASIBLE candidate_instances=43088 prime_constraints=13478
+n=32 threshold=383 witness=PASS below=INFEASIBLE candidate_instances=44048 prime_constraints=13755
+n=33 threshold=389 witness=PASS below=INFEASIBLE candidate_instances=45428 prime_constraints=14121
+n=34 threshold=431 witness=PASS below=INFEASIBLE candidate_instances=55780 prime_constraints=17174
+n=35 threshold=439 witness=PASS below=INFEASIBLE candidate_instances=57938 prime_constraints=17715
+n=36 threshold=449 witness=PASS below=INFEASIBLE candidate_instances=60618 prime_constraints=18484
+n=37 threshold=463 witness=PASS below=INFEASIBLE candidate_instances=64482 prime_constraints=19500
+n=38 threshold=487 witness=PASS below=INFEASIBLE candidate_instances=71336 prime_constraints=21471
+n=39 threshold=491 witness=PASS below=INFEASIBLE candidate_instances=72550 prime_constraints=21778
+n=40 threshold=509 witness=PASS below=INFEASIBLE candidate_instances=78020 prime_constraints=23329
+audit_sha256=4b0ceb2770292580f2cebd639fb2dcdc98291e2e72105b7b2187eb21866ee5b4
+elapsed_seconds=23.318114
+INDEPENDENT CP-SAT PRIME-SUPPORT AUDIT PASS

@@ -1,0 +1,4 @@
+import Proofs.Erdos85FiniteDropCapstone
+#print axioms Erdos85.not_c4FreeMinDegreeWitness_fortyNine_seven_of_h1_h7Evidence
+#print axioms Erdos85.minDegreeForC4_fortyEight_fortyNine_exact_of_h1_h7Evidence
+#print axioms Erdos85.minDegreeForC4_fortyNine_lt_fortyEight_of_h1_h7Evidence

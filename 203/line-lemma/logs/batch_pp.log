@@ -1,0 +1,53 @@
+== pp N=55440 10:40:34
+  dirs 16 excluded 0 maxbound 1.3566 minbound 1.0668
+== pp N=65520 10:55:20
+  dirs 15 excluded 3 maxbound 1.2929 minbound 0.8322
+== pp N=5040 11:09:25
+  dirs 16 excluded 12 maxbound 1.0855 minbound 0.6937
+== pp N=7920 11:09:49
+  dirs 16 excluded 9 maxbound 1.1100 minbound 0.7139
+== pp N=10080 11:10:05
+  dirs 16 excluded 10 maxbound 1.1276 minbound 0.7042
+== pp N=15120 11:10:39
+  dirs 16 excluded 8 maxbound 1.1638 minbound 0.7472
+== pp N=15840 11:14:36
+  dirs 16 excluded 9 maxbound 1.1466 minbound 0.7173
+== pp N=18480 11:15:09
+  dirs 16 excluded 11 maxbound 1.0647 minbound 0.6473
+== pp N=20160 11:17:41
+  dirs 16 excluded 10 maxbound 1.1322 minbound 0.7088
+== pp N=23760 11:19:15
+  dirs 16 excluded 8 maxbound 1.1556 minbound 0.7366
+== pp N=25200 11:20:51
+  dirs 16 excluded 6 maxbound 1.2384 minbound 0.7681
+== pp N=27720 11:26:39
+  dirs 16 excluded 10 maxbound 1.2004 minbound 0.7306
+== pp N=30240 11:32:17
+  dirs 16 excluded 5 maxbound 1.2044 minbound 0.7679
+== pp N=31680 11:37:29
+  dirs 16 excluded 9 maxbound 1.1484 minbound 0.7201
+== pp N=35280 11:38:44
+  dirs 16 excluded 9 maxbound 1.0823 minbound 0.7024
+== pp N=36960 11:40:18
+  dirs 16 excluded 11 maxbound 1.1370 minbound 0.6587
+== pp N=39600 11:44:17
+  dirs 16 excluded 8 maxbound 1.1594 minbound 0.7499
+== pp N=40320 11:47:00
+  dirs 16 excluded 8 maxbound 1.1342 minbound 0.7135
+== pp N=41580 11:50:13
+  dirs 16 excluded 11 maxbound 1.1068 minbound 0.6730
+== pp N=45360 11:55:41
+  dirs 16 excluded 5 maxbound 1.1649 minbound 0.7912
+== pp N=46800 12:02:24
+  dirs 16 excluded 9 maxbound 1.0940 minbound 0.7118
+== pp N=47520 12:03:23
+  dirs 16 excluded 8 maxbound 1.2212 minbound 0.7400
+== pp N=50400 12:06:07
+  dirs 16 excluded 6 maxbound 1.2668 minbound 0.7815
+== pp N=51480 12:14:58
+  dirs 16 excluded 9 maxbound 1.1568 minbound 0.7223
+== pp N=60480 12:20:05
+  dirs 16 excluded 5 maxbound 1.2115 minbound 0.7737
+== pp N=63360 12:27:41
+  dirs 16 excluded 9 maxbound 1.1506 minbound 0.7250
+BATCH pp DONE 12:29:45

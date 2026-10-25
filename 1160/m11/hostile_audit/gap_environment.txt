@@ -1,0 +1,8 @@
+runtime=/tmp/audit1160-gap412-MzVCxM
+eeb9d709ee6a1d2f6d7c443704ed7497718616759a2f7cdfabed916962b03bff  /tmp/audit1160-gap412-MzVCxM/usr/lib/x86_64-linux-gnu/gap/gap
+# GAP 4.12.1
+# SmallGrp 1.5.3
+rows=2034
+system GAP 4.14.0
+system SmallGrp 1.5.4
+2126934ba79ea30e5431bc6b790e177affb0f1e139f84c8d921538d15c196b33  /home/exedev/.local/share/mamba/envs/sage/bin/gap

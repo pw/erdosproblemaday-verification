@@ -1,0 +1,19 @@
+License scope notice
+
+The MIT license in `LICENSE` applies only to original code and documentation
+created for this exact four-node bundle by contributors who hold rights in
+those materials.
+The generic attribution is:
+
+    Copyright (c) 2026 the Erdos Problem 1131 exact four-node bundle contributors
+
+The license does not cover or purport to grant rights in:
+
+* the preserved v1 bundle;
+* the erdosproblems.com website or its problem statement;
+* cited papers, abstracts, scans, or other external sources;
+* SymPy, mpmath, Python, Bash, GNU coreutils, or other third-party software;
+* any site snapshot or third-party PDF (none is distributed here).
+
+This bundle uses the generic attribution printed above. It makes no statement
+about personal review or approval by any named person.

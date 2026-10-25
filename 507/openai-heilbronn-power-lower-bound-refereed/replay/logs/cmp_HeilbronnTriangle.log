@@ -1,0 +1,188 @@
+@@@ BEGIN thm OAI.Problem355.heilbronn_power_lower_bound
+OAI.Problem355.heilbronn_power_lower_bound : And
+  (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+    OAI.Problem355.heilbronnExponent)
+  (@Exists.{1} (Nat → Nat) fun (n : Nat → Nat) =>
+    @Exists.{1} (Nat → Finset.{0} OAI.Problem355.Point) fun (P : Nat → Finset.{0} OAI.Problem355.Point) =>
+      And
+        (@Filter.Tendsto.{0, 0} Nat Nat n (@Filter.atTop.{0} Nat Nat.instPreorder)
+          (@Filter.atTop.{0} Nat Nat.instPreorder))
+        (∀ (j : Nat),
+          And (@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) (n j))
+            (And (@Eq.{1} Nat (@Finset.card.{0} OAI.Problem355.Point (P j)) (n j))
+              (And (OAI.Problem355.pointsInUnitSquare (P j))
+                (OAI.Problem355.triangleAreasAtLeast (P j)
+                  (Real.rpow (@Nat.cast.{0} Real Real.instNatCast (n j))
+                    (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                      (@Neg.neg.{0} Real Real.instNeg
+                        (@OfNat.ofNat.{0} Real (nat_lit 2)
+                          (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))
+                      OAI.Problem355.heilbronnExponent)))))))
+'OAI.Problem355.heilbronn_power_lower_bound' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]
+@@@ BEGIN thm OAI.Problem355.almost_n_minus_two_refuted
+OAI.Problem355.almost_n_minus_two_refuted : And
+  (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      OAI.Problem355.heilbronnExponent
+      (@OfNat.ofNat.{0} Real (nat_lit 2)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))))
+  (Not
+    (OAI.Problem355.eventualAlmostUpperBound
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        OAI.Problem355.heilbronnExponent
+        (@OfNat.ofNat.{0} Real (nat_lit 2)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+            (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+              (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))))))))))
+'OAI.Problem355.almost_n_minus_two_refuted' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]
+@@@ BEGIN def OAI.Problem355.Point
+@[reducible] def OAI.Problem355.Point : Type :=
+Prod.{0, 0} Real Real
+@@@ BEGIN def OAI.Problem355.triangleArea
+def OAI.Problem355.triangleArea : (p q r : OAI.Problem355.Point) → Real :=
+fun (p q r : OAI.Problem355.Point) =>
+  @HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+    (@abs.{0} Real Real.lattice Real.instAddGroup
+      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) (@Prod.fst.{0, 0} Real Real q)
+            (@Prod.fst.{0, 0} Real Real p))
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) (@Prod.snd.{0, 0} Real Real r)
+            (@Prod.snd.{0, 0} Real Real p)))
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) (@Prod.snd.{0, 0} Real Real q)
+            (@Prod.snd.{0, 0} Real Real p))
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) (@Prod.fst.{0, 0} Real Real r)
+            (@Prod.fst.{0, 0} Real Real p)))))
+    (@OfNat.ofNat.{0} Real (nat_lit 2)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast OAI.Problem355.triangleArea._proof_1))
+@@@ BEGIN def OAI.Problem355.pointInUnitSquare
+def OAI.Problem355.pointInUnitSquare : (p : OAI.Problem355.Point) → Prop :=
+fun (p : OAI.Problem355.Point) =>
+  And
+    (@LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+      (@Prod.fst.{0, 0} Real Real p))
+    (And
+      (@LE.le.{0} Real Real.instLE (@Prod.fst.{0, 0} Real Real p)
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+      (And
+        (@LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+          (@Prod.snd.{0, 0} Real Real p))
+        (@LE.le.{0} Real Real.instLE (@Prod.snd.{0, 0} Real Real p)
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))))
+@@@ BEGIN def OAI.Problem355.pointsInUnitSquare
+def OAI.Problem355.pointsInUnitSquare : (P : Finset.{0} OAI.Problem355.Point) → Prop :=
+fun (P : Finset.{0} OAI.Problem355.Point) =>
+  ∀ (p : OAI.Problem355.Point),
+    @Membership.mem.{0, 0} OAI.Problem355.Point (Finset.{0} OAI.Problem355.Point)
+        (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.Problem355.Point) OAI.Problem355.Point
+          (@Finset.instSetLike.{0} OAI.Problem355.Point))
+        P p →
+      OAI.Problem355.pointInUnitSquare p
+@@@ BEGIN def OAI.Problem355.triangleAreasAtLeast
+def OAI.Problem355.triangleAreasAtLeast : (P : Finset.{0} OAI.Problem355.Point) → (a : Real) → Prop :=
+fun (P : Finset.{0} OAI.Problem355.Point) (a : Real) =>
+  ∀ (p : OAI.Problem355.Point),
+    @Membership.mem.{0, 0} OAI.Problem355.Point (Finset.{0} OAI.Problem355.Point)
+        (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.Problem355.Point) OAI.Problem355.Point
+          (@Finset.instSetLike.{0} OAI.Problem355.Point))
+        P p →
+      ∀ (q : OAI.Problem355.Point),
+        @Membership.mem.{0, 0} OAI.Problem355.Point (Finset.{0} OAI.Problem355.Point)
+            (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.Problem355.Point) OAI.Problem355.Point
+              (@Finset.instSetLike.{0} OAI.Problem355.Point))
+            P q →
+          ∀ (r : OAI.Problem355.Point),
+            @Membership.mem.{0, 0} OAI.Problem355.Point (Finset.{0} OAI.Problem355.Point)
+                (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.Problem355.Point) OAI.Problem355.Point
+                  (@Finset.instSetLike.{0} OAI.Problem355.Point))
+                P r →
+              @Ne.{1} OAI.Problem355.Point p q →
+                @Ne.{1} OAI.Problem355.Point p r →
+                  @Ne.{1} OAI.Problem355.Point q r → @LE.le.{0} Real Real.instLE a (OAI.Problem355.triangleArea p q r)
+@@@ BEGIN def OAI.Problem355.hasTriangleAreaAtMost
+def OAI.Problem355.hasTriangleAreaAtMost : (P : Finset.{0} OAI.Problem355.Point) → (a : Real) → Prop :=
+fun (P : Finset.{0} OAI.Problem355.Point) (a : Real) =>
+  @Exists.{1} OAI.Problem355.Point fun (p : OAI.Problem355.Point) =>
+    And
+      (@Membership.mem.{0, 0} OAI.Problem355.Point (Finset.{0} OAI.Problem355.Point)
+        (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.Problem355.Point) OAI.Problem355.Point
+          (@Finset.instSetLike.{0} OAI.Problem355.Point))
+        P p)
+      (@Exists.{1} OAI.Problem355.Point fun (q : OAI.Problem355.Point) =>
+        And
+          (@Membership.mem.{0, 0} OAI.Problem355.Point (Finset.{0} OAI.Problem355.Point)
+            (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.Problem355.Point) OAI.Problem355.Point
+              (@Finset.instSetLike.{0} OAI.Problem355.Point))
+            P q)
+          (@Exists.{1} OAI.Problem355.Point fun (r : OAI.Problem355.Point) =>
+            And
+              (@Membership.mem.{0, 0} OAI.Problem355.Point (Finset.{0} OAI.Problem355.Point)
+                (@SetLike.instMembership.{0, 0} (Finset.{0} OAI.Problem355.Point) OAI.Problem355.Point
+                  (@Finset.instSetLike.{0} OAI.Problem355.Point))
+                P r)
+              (And (@Ne.{1} OAI.Problem355.Point p q)
+                (And (@Ne.{1} OAI.Problem355.Point p r)
+                  (And (@Ne.{1} OAI.Problem355.Point q r)
+                    (@LE.le.{0} Real Real.instLE (OAI.Problem355.triangleArea p q r) a))))))
+@@@ BEGIN def OAI.Problem355.heilbronnD
+def OAI.Problem355.heilbronnD : Nat :=
+@OfNat.ofNat.{0} Nat (nat_lit 41) (instOfNatNat (nat_lit 41))
+@@@ BEGIN def OAI.Problem355.heilbronnM
+def OAI.Problem355.heilbronnM : Nat :=
+Nat.choose
+  (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+      (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) OAI.Problem355.heilbronnD)
+    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+  OAI.Problem355.heilbronnD
+@@@ BEGIN def OAI.Problem355.heilbronnT
+def OAI.Problem355.heilbronnT : Nat :=
+Nat.choose OAI.Problem355.heilbronnM (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+@@@ BEGIN def OAI.Problem355.heilbronnK
+def OAI.Problem355.heilbronnK : Nat :=
+@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+  (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+    (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) OAI.Problem355.heilbronnT
+    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+@@@ BEGIN def OAI.Problem355.heilbronnExponent
+def OAI.Problem355.heilbronnExponent : Real :=
+@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+  (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+    (@OfNat.ofNat.{0} Real (nat_lit 100000)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 100000) Real.instNatCast OAI.Problem355.heilbronnExponent._proof_1))
+    (@Nat.cast.{0} Real Real.instNatCast OAI.Problem355.heilbronnK))
+@@@ BEGIN def OAI.Problem355.eventualAlmostUpperBound
+def OAI.Problem355.eventualAlmostUpperBound : (epsilon : Real) → Prop :=
+fun (epsilon : Real) =>
+  @Exists.{1} Real fun (C : Real) =>
+    And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C)
+      (@Exists.{1} Nat fun (n0 : Nat) =>
+        ∀ (n : Nat),
+          @LE.le.{0} Nat instLENat n0 n →
+            @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) n →
+              ∀ (P : Finset.{0} OAI.Problem355.Point),
+                @Eq.{1} Nat (@Finset.card.{0} OAI.Problem355.Point P) n →
+                  OAI.Problem355.pointsInUnitSquare P →
+                    OAI.Problem355.hasTriangleAreaAtMost P
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+                        (Real.rpow (@Nat.cast.{0} Real Real.instNatCast n)
+                          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                            (@Neg.neg.{0} Real Real.instNeg
+                              (@OfNat.ofNat.{0} Real (nat_lit 2)
+                                (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                                  OAI.Problem355.triangleArea._proof_1)))
+                            epsilon))))
+@@@ END

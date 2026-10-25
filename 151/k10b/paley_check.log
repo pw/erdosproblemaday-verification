@@ -1,0 +1,7 @@
+Paley(17): edges=68 triangles=68 all links Wagner=True arrows=False (literal recount of monochromatic triangles in the SAT colouring: 0)
+triangle-free 9-vertex graphs with 20 edges: 1; bipartite 1; marked 0 []
+triangle-free 9-vertex graphs with 19 edges: 1; bipartite 1; marked 0 []
+triangle-free 9-vertex graphs with 18 edges: 4; bipartite 4; marked 0 []
+triangle-free 9-vertex graphs with 17 edges: 9; bipartite 7; marked 0 []
+triangle-free 9-vertex graphs with 16 edges: 25; bipartite 19; marked 1 ['H?rF`zo']
+triangle-free 9-vertex graphs with 15 edges: 53; bipartite 32; marked 4 ['H?B@xzw', 'H?bF`xw', 'H?bfBo]', 'H?opvbE']

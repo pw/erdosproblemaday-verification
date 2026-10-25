@@ -1,0 +1,6 @@
+== NEG: leanchecker OAI.Analysis.Littlewood.DoesNotExist ==
+uncaught exception: Could not find any oleans for: OAI.Analysis.Littlewood.DoesNotExist
+neg rc=1
+== POS: leanchecker OAI.Analysis.Littlewood.Model (non-fresh) ==
+pos rc=0
+DONE

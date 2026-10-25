@@ -1,0 +1,11 @@
+disk R=3.0 h=0.5: union of cells contains the disk of radius 2.500 about the origin
+  MAIN   disk R=3.0: cells=88 h=0.5 m<=2 mesh<=2.0 clauses=8676 -> UNSAT (0.1s)  [expected UNSAT: OK]
+  CTRL-a disk R=3.0, multiplicity<=3 allowed: cells=88 h=0.5 m<=3 mesh<=2.0 clauses=8401 -> SAT (0.1s)  pieces=25 independent-checker violations=0  [expected SAT: OK]
+  CTRL-f disk R=3.0, m<=2 but mesh<=2.4 (inradius 2.5 > 2.4: lemma still predicts UNSAT): cells=88 h=0.5 m<=2 mesh<=2.4 clauses=18568 -> UNSAT (0.1s)  [expected UNSAT: OK]
+  CTRL-b thin rectangle 6 x 1.5 (no disk of radius >2 inside): cells=36 h=0.5 m<=2 mesh<=2.0 clauses=2127 -> SAT (0.0s)  pieces=8 independent-checker violations=0  [expected SAT: OK]
+  witness slabs on strip: checker violations (m<=2): []
+  CTRL-c strip + forced slab witness: cells=36 h=0.5 m<=2 mesh<=2.0 clauses=2127 -> SAT (0.0s)  pieces=6 independent-checker violations=0  [expected SAT: OK]
+  witness brick wall on disk: checker m<=2 violations=26 (e.g. [('multiplicity', (-4, -2), 3), ('multiplicity', (-4, 0), 3)]), m<=3 violations=0
+  CTRL-d disk + forced brick witness, m<=3: cells=88 h=0.5 m<=3 mesh<=2.0 clauses=8401 -> SAT (0.1s)  pieces=21 independent-checker violations=0  [expected SAT: OK]
+  CTRL-e disk + forced brick witness, m<=2 (must reject: T-junctions): cells=88 h=0.5 m<=2 mesh<=2.0 clauses=8676 -> UNSAT (0.0s)  [expected UNSAT: OK]
+  checker negative control (whole disk as one piece): [('diameter', 0, 11.661903789690601)]

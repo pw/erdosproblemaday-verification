@@ -1,0 +1,4 @@
+'Erdos968.erdos_968' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos968.mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos968.count_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+AxBridge rc=0

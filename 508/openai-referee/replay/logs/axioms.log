@@ -1,0 +1,20 @@
+'OAI.EuclideanFiveColor.no_proper_five_coloring' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.EuclideanFiveColor.no_measurable_weak_five_coloring' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.EuclideanFiveColor.proper_to_borel_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.EuclideanFiveColor.proper_to_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.EuclideanFiveColor.no_proper_five_coloring : ¬∃ c, OAI.EuclideanFiveColor.ProperColoring 5 c
+@OAI.EuclideanFiveColor.no_measurable_weak_five_coloring : ∀ {c : ℂ → Fin 5},
+  Measurable c → OAI.EuclideanFiveColor.WeakColoring 5 c → False
+@OAI.EuclideanFiveColor.proper_to_borel_weak : ∀ {k : ℕ} [NeZero k] {c : ℂ → Fin k},
+  OAI.EuclideanFiveColor.ProperColoring k c → ∃ d, Measurable d ∧ OAI.EuclideanFiveColor.WeakColoring k d
+def OAI.EuclideanFiveColor.ProperColoring : (k : ℕ) → (ℂ → Fin k) → Prop :=
+fun k c => ∀ (x y : ℂ), ‖x - y‖ = 1 → c x ≠ c y
+def OAI.EuclideanFiveColor.WeakColoring : (k : ℕ) → (ℂ → Fin k) → Prop :=
+fun k c =>
+  AEMeasurable c MeasureTheory.volume ∧
+    ∀ᵐ (p : ℂ × OAI.EuclideanFiveColor.Angles) ∂MeasureTheory.volume.prod OAI.EuclideanFiveColor.angularMeasure,
+      c p.1 ≠ c (p.1 + OAI.EuclideanFiveColor.direction p.2)
+def OAI.EuclideanFiveColor.angularMeasure : MeasureTheory.Measure OAI.EuclideanFiveColor.Angles :=
+AddCircle.haarAddCircle
+def OAI.EuclideanFiveColor.direction : OAI.EuclideanFiveColor.Angles → ℂ :=
+fun t => ↑(AddCircle.toCircle t)

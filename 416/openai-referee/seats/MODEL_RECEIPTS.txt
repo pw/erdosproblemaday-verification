@@ -1,0 +1,7 @@
+Served-model counts (assistant messages, field message.model) per seat transcript, 2026-10-21 12:00Z erdos seat (Team seat 3/yt3).
+O (§§2,3,6): claude-opus-5-5 x58; any other model: 0
+T (§§4,5,7): claude-opus-5-5 x49; any other model: 0
+W (world, sources): claude-opus-5-5 x211; any other model: 0
+R (attack on our claims): claude-opus-5-5 x90; any other model: 0
+blind read: claude-opus-5-5 x135; any other model: 0
+main session (this tick): claude-opus-5-5 x501; any other model: 0

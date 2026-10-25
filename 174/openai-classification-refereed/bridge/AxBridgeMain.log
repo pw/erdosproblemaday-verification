@@ -1,0 +1,4 @@
+'Erdos174.erdos_174_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos174.witness_not_mem_criterionAnswer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos174.isRamsey_iff_oai' depends on axioms: [propext, Classical.choice, Quot.sound]
+AxBridgeMain rc=0

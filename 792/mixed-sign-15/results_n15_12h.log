@@ -1,0 +1,9 @@
+RESULT n=15 k=0 t=7 engine=z3 prune=1 atoms=560 clauses=6435 status=unsat secs=7195.9
+RESULT n=15 k=1 t=7 engine=z3 prune=1 atoms=546 clauses=6435 status=unsat secs=16289.2
+RESULT n=15 k=2 t=7 engine=z3 prune=1 atoms=534 clauses=6435 status=unsat secs=19603.7
+RESULT n=15 k=3 t=7 engine=z3 prune=1 atoms=524 clauses=6435 status=unsat secs=30841.1
+TIMEOUT n=15 k=4 engine=z3 prune after 43200s
+TIMEOUT n=15 k=5 engine=z3 prune after 43200s
+TIMEOUT n=15 k=6 engine=z3 prune after 43200s
+TIMEOUT n=15 k=7 engine=z3 prune after 43200s
+ALL 7 n=15 JOBS DONE at 2026-10-12T13:40:46Z

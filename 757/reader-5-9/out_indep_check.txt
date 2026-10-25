@@ -1,0 +1,9 @@
+K=0 n=11 conflicts=9 sidon>=7:True sidon>=8:False
+K=1 n=20 conflicts=18 sidon>=12:True sidon>=13:False
+K=2 n=29 conflicts=27 sidon>=17:True sidon>=18:False
+K=3 n=38 conflicts=36 sidon>=22:True sidon>=23:False
+K=4 n=47 conflicts=45 sidon>=27:True sidon>=28:False
+K=5 n=56 conflicts=54 sidon>=32:True sidon>=33:False
+K=6 n=65 conflicts=63 sidon>=37:True sidon>=38:False
+K=7 n=74 conflicts=72 sidon>=42:True sidon>=43:False
+K=8 n=83 conflicts=81 sidon>=47:True sidon>=48:False

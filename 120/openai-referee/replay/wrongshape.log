@@ -1,0 +1,18 @@
+WrongShape.lean:3:218: error: Type mismatch
+  OAI.Problem310.dyadic_affine_avoidance
+has type
+  ∀ (η : ℝ),
+    0 < η →
+      η < 1 →
+        ∃ E ⊆ Set.Icc 0 1,
+          IsCompact E ∧
+            MeasureTheory.volume E > ENNReal.ofReal (1 - η) ∧
+              ∀ (x s : ℝ), s ≠ 0 → ∃ n, 1 ≤ n ∧ x + s * OAI.Problem310.dyadicPoint n ∉ E
+but is expected to have type
+  ∀ (η : ℝ),
+    0 < η →
+      η < 1 →
+        ∃ E ⊆ Set.Icc 0 1,
+          IsCompact E ∧
+            MeasureTheory.volume E > ENNReal.ofReal (1 - η / 2) ∧
+              ∀ (x s : ℝ), s ≠ 0 → ∃ n, 1 ≤ n ∧ x + s * OAI.Problem310.dyadicPoint n ∉ E

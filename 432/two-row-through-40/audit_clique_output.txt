@@ -1,0 +1,32 @@
+n=11 threshold=101 witness=PASS below=UNSAT nodes=109
+n=12 threshold=107 witness=PASS below=UNSAT nodes=118
+n=13 threshold=127 witness=PASS below=UNSAT nodes=169
+n=14 threshold=131 witness=PASS below=UNSAT nodes=149
+n=15 threshold=149 witness=PASS below=UNSAT nodes=176
+n=16 threshold=167 witness=PASS below=UNSAT nodes=246
+n=17 threshold=173 witness=PASS below=UNSAT nodes=190
+n=18 threshold=191 witness=PASS below=UNSAT nodes=230
+n=19 threshold=197 witness=PASS below=UNSAT nodes=240
+n=20 threshold=211 witness=PASS below=UNSAT nodes=218
+n=21 threshold=241 witness=PASS below=UNSAT nodes=728
+n=22 threshold=251 witness=PASS below=UNSAT nodes=421
+n=23 threshold=257 witness=PASS below=UNSAT nodes=274
+n=24 threshold=271 witness=PASS below=UNSAT nodes=537
+n=25 threshold=281 witness=PASS below=UNSAT nodes=311
+n=26 threshold=307 witness=PASS below=UNSAT nodes=1366
+n=27 threshold=313 witness=PASS below=UNSAT nodes=565
+n=28 threshold=347 witness=PASS below=UNSAT nodes=726
+n=29 threshold=361 witness=PASS below=UNSAT nodes=815
+n=30 threshold=367 witness=PASS below=UNSAT nodes=617
+n=31 threshold=379 witness=PASS below=UNSAT nodes=505
+n=32 threshold=383 witness=PASS below=UNSAT nodes=494
+n=33 threshold=389 witness=PASS below=UNSAT nodes=501
+n=34 threshold=431 witness=PASS below=UNSAT nodes=1872
+n=35 threshold=439 witness=PASS below=UNSAT nodes=1881
+n=36 threshold=449 witness=PASS below=UNSAT nodes=1124
+n=37 threshold=463 witness=PASS below=UNSAT nodes=1146
+n=38 threshold=487 witness=PASS below=UNSAT nodes=2893
+n=39 threshold=491 witness=PASS below=UNSAT nodes=2898
+n=40 threshold=509 witness=PASS below=UNSAT nodes=1715
+elapsed_seconds=12.292
+INDEPENDENT C++ AUDIT PASS

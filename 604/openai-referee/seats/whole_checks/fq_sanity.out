@@ -1,0 +1,7 @@
+q= 3 (q mod 4 = 3) n=   9 Z1 injective=True Z2 injective=True distinct pairs with t=0:     0 MIN over pins of #distinct nonzero t = 2 (sqrt n = 3); fiber sizes over ordered pairs: {4: 72}
+q= 7 (q mod 4 = 3) n=  49 Z1 injective=True Z2 injective=True distinct pairs with t=0:     0 MIN over pins of #distinct nonzero t = 6 (sqrt n = 7); fiber sizes over ordered pairs: {8: 2352}
+q=11 (q mod 4 = 3) n= 121 Z1 injective=True Z2 injective=True distinct pairs with t=0:     0 MIN over pins of #distinct nonzero t = 10 (sqrt n = 11); fiber sizes over ordered pairs: {12: 14520}
+q=19 (q mod 4 = 3) n= 361 Z1 injective=True Z2 injective=True distinct pairs with t=0:     0 MIN over pins of #distinct nonzero t = 18 (sqrt n = 19); fiber sizes over ordered pairs: {20: 129960}
+q=23 (q mod 4 = 3) n= 529 Z1 injective=True Z2 injective=True distinct pairs with t=0:     0 MIN over pins of #distinct nonzero t = 22 (sqrt n = 23); fiber sizes over ordered pairs: {24: 279312}
+q= 5 (q mod 4 = 1) n=  25 Z1 injective=False Z2 injective=False distinct pairs with t=0:   200 MIN over pins of #distinct nonzero t = 4 (sqrt n = 5); fiber sizes over ordered pairs: {4: 400}
+q=13 (q mod 4 = 1) n= 169 Z1 injective=False Z2 injective=False distinct pairs with t=0:  4056 MIN over pins of #distinct nonzero t = 12 (sqrt n = 13); fiber sizes over ordered pairs: {12: 24336}

@@ -1,0 +1,19 @@
+case A1: LHS ~ 12.8377479206+0j; unperturbed RHS equal: True
+  control no_bfact                : RHS ~ 12.8377479206+0j   equal=True   RHS-LHS ~ 0+0j
+  control fresh_repeat            : RHS ~ 43.2807431419+0.578410368833j   equal=False   RHS-LHS ~ 30.443+0.57841j
+  control ghost_repeat            : RHS ~ 13.0869192716+0j   equal=False   RHS-LHS ~ 0.249171+0j
+  control mu_not_mut              : RHS ~ 8.1645868652+0j   equal=False   RHS-LHS ~ -4.67316+0j
+  control no_rho_iv               : RHS ~ 12.8205296509+0j   equal=False   RHS-LHS ~ -0.0172183+0j
+  control q0_bulk                 : RHS ~ 12.2509851181+0j   equal=False   RHS-LHS ~ -0.586763+0j
+  control baseline_internal_only  : RHS ~ 13.4724525599+0j   equal=False   RHS-LHS ~ 0.634705+0j
+  control prom_new                : RHS ~ 12.8377479206+0j   equal=True   RHS-LHS ~ 0+0j
+  control no_pnotD                : RHS ~ 12.8377479206+0j   equal=True   RHS-LHS ~ 0+0j
+  control rho=19/20               : RHS ~ 12.8377479206+0j   equal=True   RHS-LHS ~ 0+0j
+Traceback (most recent call last):
+  File "/tmp/oaimath/011/scripts_memory/controls.py", line 23, in <module>
+    kw2 = dict(kw); kw2['rho'] = Fr(fl[4:]); t = Toy(**kw2)
+                                                 ^^^^^^^^^^
+  File "/tmp/oaimath/011/scripts_memory/model.py", line 19, in __init__
+    assert F.approx(self.sq).real < float(self.rho)**2, "need rho^2 > sqrt q"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: need rho^2 > sqrt q

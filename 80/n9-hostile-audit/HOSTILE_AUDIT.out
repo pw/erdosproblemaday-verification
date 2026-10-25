@@ -1,0 +1,10 @@
+manifest_sha256=81bb81f74221296c626f613fb023f7e4cea050dad3293a08e37f865713f3ac74 files=28: PASS
+live_gate_capture=OPEN/0/no-worker/no-collaborator/no-formaliser: PASS
+OEIS_A396149_and_Euler_transform: PASS
+claims_sha256=da127236a4419ec178b4c6d72334d6335a8e352ba63b37d0224afc232ae943b5: PASS
+seven_nonempty_constructions: PASS
+fresh_nauty_records=274668 admissible=65249: PASS
+frontier=0,18,21,27,28,30,32,36
+exact_book_counts=1,14,1387,13466,25335,18227,5775,1044
+connected=62286 OEIS_edge_histogram: PASS
+HOSTILE AUDIT: PUBLISH

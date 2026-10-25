@@ -1,0 +1,16 @@
+cancelled_utc=2026-08-11T13:05:44Z n=1483 pid=2289536 reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:08:56Z n=1493 pid=2292609 reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:11:57Z n=1487 pid=2289546 reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:15:00Z n=1465 pid=2289539 reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:15:24Z n=1465 pid=2303136 ordering=degree reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:15:24Z n=1465 pid=2303196 ordering=default reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:26:40Z n=1497 pid=2300655 reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:31:39Z n=1491 pid=2319962 ordering=default reason=default-aliases-unweighted-coloring-under--u
+cancelled_utc=2026-08-11T13:38:26Z n=1499 pid=2305143 reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:39:37Z n=1491 pid=2289544 reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:40:35Z n=1491 pid=2319446 ordering=degree reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:40:35Z n=1491 pid=2337059 ordering=none reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:46:39Z n=1495 pid=2296799 reason=reverse-result-already-logged
+watcher_finished_utc=2026-08-11T13:46:49Z
+cancelled_utc=2026-08-11T13:47:00Z n=1495 pid=2352147 ordering=degree reason=reverse-result-already-logged
+cancelled_utc=2026-08-11T13:47:00Z n=1495 pid=2352202 ordering=none reason=reverse-result-already-logged

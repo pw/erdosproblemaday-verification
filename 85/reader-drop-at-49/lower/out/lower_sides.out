@@ -1,0 +1,4 @@
+48: (168, 7, 7, 1)
+49 list name orderFortyNineDegreeSixEdges
+49: (168, 6, 7, 1)
+48+edge(0,2) control: (169, 7, 8, 2)

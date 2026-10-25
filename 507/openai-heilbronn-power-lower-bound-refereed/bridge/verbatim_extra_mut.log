@@ -1,0 +1,8 @@
+OK      green77-open | open Erdos507 Filter Topology
+OK      green77-open | namespace Green77
+MISSING green77-statement | ∃ (o : ℕ → ℝ), Tendsto o atTop (𝓝 0) ∧ α ≪ fun n ↦ n ^ (2 + o n)
+OK      bos | namespace BigOSpeedrun.HeilbronnTriangle
+OK      bos | open OAI.Problem355
+OK      bos | def Bound (η : ℚ) : Prop := ∃ c : ℝ, 0 < c ∧ ∃ N : ℕ, ∀ n : ℕ, N ≤ n → ∃ P : Finset Point, P.card = n ∧ points
+OK      bos | end BigOSpeedrun.HeilbronnTriangle
+7 chunks, 1 missing

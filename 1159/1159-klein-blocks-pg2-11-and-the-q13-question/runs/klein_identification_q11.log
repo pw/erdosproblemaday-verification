@@ -1,0 +1,10 @@
+stabilizer order 168
+element orders {1: 1, 2: 21, 3: 56, 4: 42, 7: 48}
+involutions 21 distinct centres 21 centres ⊆ S: True centres == S: True
+points of S on each involution axis: {4: 21}
+orbit of one point of S under G has size 21 (transitive on S: True )
+PSL(2,7) census (1,21,56,42,48) matches: True
+conjugacy classes (size,order): [(1, 1), (21, 2), (24, 7), (24, 7), (42, 4), (56, 3)]
+normal closures of nontrivial class reps have orders [168, 168, 168, 168, 168] -> SIMPLE: True
+centre(σ)∈axis(τ) ⟺ στ=τσ for all 21·20 ordered pairs: True ; incidences 84 (= 21·4 = 84 )
+distinct lines through ≥3 points of S: 49 ; sizes: Counter({3: 28, 4: 21})

@@ -1,0 +1,6 @@
+  SWEEP-R disk R=1.25 (inradius 0.707), mesh<=2: cells=12 h=0.5 m<=2 mesh<=2.0 clauses=554 -> UNSAT (0.0s)
+  SWEEP-R disk R=1.5 (inradius 1.000), mesh<=2: cells=16 h=0.5 m<=2 mesh<=2.0 clauses=874 -> UNSAT (0.0s)
+  SWEEP-R disk R=1.75 (inradius 1.118), mesh<=2: cells=24 h=0.5 m<=2 mesh<=2.0 clauses=1608 -> UNSAT (0.0s)
+  SWEEP-R disk R=2.0 (inradius 1.414), mesh<=2: cells=32 h=0.5 m<=2 mesh<=2.0 clauses=2462 -> UNSAT (0.0s)
+  SWEEP-R disk R=2.25 (inradius 1.803), mesh<=2: cells=52 h=0.5 m<=2 mesh<=2.0 clauses=4596 -> UNSAT (0.0s)
+  SWEEP-R disk R=2.5 (inradius 2.000), mesh<=2: cells=60 h=0.5 m<=2 mesh<=2.0 clauses=5462 -> UNSAT (0.0s)

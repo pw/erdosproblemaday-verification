@@ -1,0 +1,12 @@
+OAI.TotientAsymptotic.totient_asymptotic_formula : TendstoUniformlyOn (fun H => OAI.TotientAsymptotic.AH H fun x => 1)
+    (OAI.TotientAsymptotic.A fun x => 1) Filter.atTop (Set.Ico 0 1) ∧
+  (∃ cMinus cPlus,
+      0 < cMinus ∧
+        ∀ s ∈ Set.Ico 0 1,
+          cMinus ≤ OAI.TotientAsymptotic.A (fun x => 1) s ∧ OAI.TotientAsymptotic.A (fun x => 1) s ≤ cPlus) ∧
+    Filter.Tendsto (fun x => OAI.TotientAsymptotic.V x / OAI.TotientAsymptotic.mainTerm x) Filter.atTop (nhds 1) ∧
+      ∀ (c : ℝ),
+        0 < c →
+          Filter.Tendsto (fun x => OAI.TotientAsymptotic.V (c * x) / OAI.TotientAsymptotic.V x) Filter.atTop (nhds c)
+OAI.TotientAsymptotic.seed_least_preimage : OAI.TotientAsymptotic.ell (2 ^ 18 * 257) = 135268352
+OAI.TotientAsymptotic.rho_mem : OAI.TotientAsymptotic.rho ∈ OAI.TotientAsymptotic.RenewalRootSet

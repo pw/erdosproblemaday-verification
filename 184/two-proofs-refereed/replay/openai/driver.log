@@ -1,0 +1,72 @@
+[2026-10-20T03:10:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=16G)
+[2026-10-20T03:12:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=14G)
+[2026-10-20T03:14:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=15G)
+[2026-10-20T03:16:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=15G)
+[2026-10-20T03:18:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=15G)
+[2026-10-20T03:20:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=15G)
+[2026-10-20T03:22:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=14G)
+[2026-10-20T03:24:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=15G)
+[2026-10-20T03:26:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=14G)
+[2026-10-20T03:28:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=14G)
+[2026-10-20T03:30:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=14G)
+[2026-10-20T03:32:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=14G)
+[2026-10-20T03:34:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=14G)
+[2026-10-20T03:36:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=13G)
+[2026-10-20T03:38:27Z] waiting(#85 t1_rep0 pid 2058325 still running; memavail=15G)
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+[2026-10-20T03:40:28Z] openai/math rev: 1581d4cbdd69a0faf34b2089614fe2a814316a6a
+[2026-10-20T03:40:28Z] mathlib rev: d13f23b723b8a846827a245b89c10fc7d3f11612
+[2026-10-20T03:40:29Z] mathlib oleans present: 8529
+[2026-10-20T03:40:29Z] BEGIN smoke :: bash -c cd /tmp/oaimath/181/lean-build/probe && nice -n 19 lean Smoke.lean > /tmp/oaimath/181/lean-build/logs/smoke.log 2>&1
+[2026-10-20T03:40:47Z] END smoke rc=0 elapsed=18s
+[2026-10-20T03:40:47Z] BEGIN comparator_module :: bash -c cd /tmp/oaimath/604/lean-build/repo/lean && nice -n 19 lean -DautoImplicit=false ComparatorChallenges/CycleDecomposition.lean -o /tmp/oaimath/181/lean-build/out/ComparatorChallenges/CycleDecomposition.olean -i /tmp/oaimath/181/lean-build/out/ComparatorChallenges/CycleDecomposition.ilean > /tmp/oaimath/181/lean-build/logs/comparator_module.log 2>&1
+[2026-10-20T03:42:04Z] END comparator_module rc=0 elapsed=77s
+[2026-10-20T03:42:04Z] BEGIN comparator :: bash -c cd /tmp/oaimath/181/lean-build/probe && nice -n 19 lean -DautoImplicit=false Comparator.lean > /tmp/oaimath/181/lean-build/logs/comparator.log 2>&1
+[2026-10-20T03:42:12Z] END comparator rc=0 elapsed=8s
+[2026-10-20T03:42:22Z] built 1/34 OAI.Combinatorics.CycleDecomposition.Sampling (10s)
+[2026-10-20T03:42:44Z] built 2/34 OAI.Combinatorics.CycleDecomposition.SamplingCuts (22s)
+[2026-10-20T03:43:11Z] built 3/34 OAI.Combinatorics.CycleDecomposition.ReservoirSampling (27s)
+[2026-10-20T03:43:21Z] built 4/34 OAI.Combinatorics.CycleDecomposition.EdgeSplitting (10s)
+[2026-10-20T03:43:34Z] built 5/34 OAI.Combinatorics.CycleDecomposition.Representatives (13s)
+[2026-10-20T03:43:55Z] built 6/34 OAI.Combinatorics.CycleDecomposition.Routing (21s)
+[2026-10-20T03:44:09Z] built 7/34 OAI.Combinatorics.CycleDecomposition.ReservoirCycles (14s)
+[2026-10-20T03:44:19Z] built 8/34 OAI.Combinatorics.CycleDecomposition.ReservoirRemainder (10s)
+[2026-10-20T03:44:47Z] built 9/34 OAI.Combinatorics.CycleDecomposition.Lovasz (28s)
+[2026-10-20T03:44:58Z] built 10/34 OAI.Combinatorics.CycleDecomposition.PathDeletion (11s)
+[2026-10-20T03:45:08Z] built 11/34 OAI.Combinatorics.CycleDecomposition.EndpointPartition (10s)
+[2026-10-20T03:45:19Z] built 12/34 OAI.Combinatorics.CycleDecomposition.Decomposition (11s)
+[2026-10-20T03:45:49Z] built 13/34 OAI.Combinatorics.CycleDecomposition.BatchLovasz (30s)
+[2026-10-20T03:45:59Z] built 14/34 OAI.Combinatorics.CycleDecomposition.BatchPathDeletion (10s)
+[2026-10-20T03:46:09Z] built 15/34 OAI.Combinatorics.CycleDecomposition.BatchEndpoints (10s)
+[2026-10-20T03:46:23Z] built 16/34 OAI.Combinatorics.CycleDecomposition.Pairing (14s)
+[2026-10-20T03:46:33Z] built 17/34 OAI.Combinatorics.CycleDecomposition.CollisionEstimates (10s)
+[2026-10-20T03:46:53Z] built 18/34 OAI.Combinatorics.CycleDecomposition.BatchPreparation (20s)
+[2026-10-20T03:47:16Z] built 19/34 OAI.Combinatorics.CycleDecomposition.BatchRouting (23s)
+[2026-10-20T03:47:31Z] built 20/34 OAI.Combinatorics.CycleDecomposition.CycleLifting (15s)
+[2026-10-20T03:47:46Z] built 21/34 OAI.Combinatorics.CycleDecomposition.Templates (15s)
+[2026-10-20T03:47:57Z] built 22/34 OAI.Combinatorics.CycleDecomposition.BatchResolution (11s)
+[2026-10-20T03:48:11Z] built 23/34 OAI.Combinatorics.CycleDecomposition.CoupledResolution (14s)
+[2026-10-20T03:48:20Z] built 24/34 OAI.Combinatorics.CycleDecomposition.DepthFirstSearch (9s)
+[2026-10-20T03:48:38Z] built 25/34 OAI.Combinatorics.CycleDecomposition.ExpansionBoxes (18s)
+[2026-10-20T03:48:55Z] built 26/34 OAI.Combinatorics.CycleDecomposition.ScaleExtraction (17s)
+[2026-10-20T03:49:06Z] built 27/34 OAI.Combinatorics.CycleDecomposition.ScaleHierarchy (11s)
+[2026-10-20T03:49:16Z] built 28/34 OAI.Combinatorics.CycleDecomposition.ScaleDecomposition (10s)
+[2026-10-20T03:49:28Z] built 29/34 OAI.Combinatorics.CycleDecomposition.BatchIndexing (12s)
+[2026-10-20T03:49:38Z] built 30/34 OAI.Combinatorics.CycleDecomposition.PrefixSelection (10s)
+[2026-10-20T03:49:50Z] built 31/34 OAI.Combinatorics.CycleDecomposition.CostRegrouping (12s)
+[2026-10-20T03:50:02Z] built 32/34 OAI.Combinatorics.CycleDecomposition.UniformLayers (12s)
+[2026-10-20T03:50:14Z] built 33/34 OAI.Combinatorics.CycleDecomposition.LayerCosts (12s)
+[2026-10-20T03:50:25Z] built 34/34 OAI.Combinatorics.CycleDecomposition.Main (11s)
+[2026-10-20T03:50:25Z] all 34 modules built; oleans: 34
+[2026-10-20T03:50:25Z] BEGIN axioms :: bash -c cd /tmp/oaimath/181/lean-build/probe && nice -n 19 lean --trust=0 -DautoImplicit=false Axioms184.lean > /tmp/oaimath/181/lean-build/logs/axioms.log 2>&1
+[2026-10-20T03:50:32Z] END axioms rc=0 elapsed=7s
+[2026-10-20T03:50:32Z] BEGIN wrongshape :: bash -c cd /tmp/oaimath/181/lean-build/probe && nice -n 19 lean -DautoImplicit=false WrongShape.lean > /tmp/oaimath/181/lean-build/logs/wrongshape.log 2>&1
+[2026-10-20T03:50:39Z] END wrongshape rc=1 elapsed=7s
+[2026-10-20T03:50:39Z] BEGIN negcontrol :: bash -c cd /tmp/oaimath/181/lean-build/probe && nice -n 19 lean -DautoImplicit=false NegControl.lean > /tmp/oaimath/181/lean-build/logs/negcontrol.log 2>&1
+[2026-10-20T03:50:46Z] END negcontrol rc=0 elapsed=7s
+[2026-10-20T03:50:46Z] wrongshape rc must be NONZERO: wrongshape 1 7; negcontrol axioms: depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+[2026-10-20T03:50:46Z] BEGIN leanchecker_fresh :: bash -c cd /tmp/oaimath/181/lean-build/probe && nice -n 19 leanchecker --fresh OAI.Combinatorics.CycleDecomposition.Main > /tmp/oaimath/181/lean-build/logs/leanchecker_fresh.log 2>&1
+[2026-10-20T04:52:06Z] END leanchecker_fresh rc=0 elapsed=3680s
+[2026-10-20T04:52:06Z] BEGIN leanchecker_missing_control :: bash -c cd /tmp/oaimath/181/lean-build/probe && nice -n 19 leanchecker --fresh OAI.Combinatorics.CycleDecomposition.DoesNotExist > /tmp/oaimath/181/lean-build/logs/leanchecker_missing.log 2>&1
+[2026-10-20T04:52:07Z] END leanchecker_missing_control rc=1 elapsed=1s
+[2026-10-20T04:52:07Z] DONE — read steps.tsv; bank into verification/184/; then rm -rf /tmp/erdos0300/lean/mathlib4/.lake per the disk guard

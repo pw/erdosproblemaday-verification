@@ -1,0 +1,10 @@
+PARI_ISPRIME_PROVED 9984
+GP/PARI CALCULATOR Version 2.15.4 (released)
+exact F(115) = 115
+exact F(116) = 117
+certified lower bound F(n) >= n+1 for every 116 <= n <= 10100
+distinct witness primes at n=10100: 10101
+partition-array SHA-256: b03896a62abd65ba378acc464f1a4215e39ccc079ad3e2b78f2e613b25f7c7d1
+witness-pairs SHA-256: 8be6ca45b91f080164c979e8b60654c01820a24276a0f4ec683e340483683f93
+ALL CHECKS PASSED
+TIME 18.83 sec MAXRSS 69780 KB

@@ -1,0 +1,12 @@
+(i) p=5 f=(3, 4, 0): horizon [0,125)  palette 35 (<=9p=45: True)  proper-ABBA 4-APs: interval 0  cyclic Z/p^3Z 0   controls no-norm 1 / isotropic 1 (each >0)
+(i) p=7 f=(1, 0, 4): horizon [0,343)  palette 55 (<=9p=63: True)  proper-ABBA 4-APs: interval 0  cyclic Z/p^3Z 0   controls no-norm 1 / isotropic 1 (each >0)
+(i) p=11 f=(10, 3, 4): horizon [0,1331)  palette 91 (<=9p=99: True)  proper-ABBA 4-APs: interval 0  cyclic Z/p^3Z 0   controls no-norm 1 / isotropic 1 (each >0)
+(ii) P=25 L=1: horizon [0,625)  palette 624 (codomain 24^L((L+1)P^2+1)=30024)  three-equal 0  ABAB 0   control (no mod-24 digits): three-equal 0 ABAB 6 (each >0)
+(ii) P=25 L=2: horizon [0,15625)  palette 15552 (codomain 24^L((L+1)P^2+1)=1080576)  three-equal 0  ABAB 0   control (no mod-24 digits): three-equal 1 ABAB 2 (each >0)
+(ii) P=49 L=1: horizon [0,2401)  palette 2321 (codomain 24^L((L+1)P^2+1)=115272)  three-equal 0  ABAB 0   control (no mod-24 digits): three-equal 0 ABAB 12 (each >0)
+(iii) B=4 L=2: horizon [0,64)  palette 54  AABB 0   control (no buckets) 1 (>0)
+(iii) B=8 L=2: horizon [0,512)  palette 351  AABB 0   control (no buckets) 1 (>0)
+(iii) B=16 L=2: horizon [0,4096)  palette 2150  AABB 0   control (no buckets) 1 (>0)
+(iii) B=8 L=3: horizon [0,4096)  palette 2012  AABB 0   control (no buckets) 1 (>0)
+RC 2
+itabe rc=2

@@ -1,0 +1,71 @@
+== k7_j0_noc4.cnf k=7 j=0 c4=0 der=1 sb=1 
+A. header (17352, 35640), parsed 35640 clauses, edge vars 600
+B. pure-edge clauses 2400: block(<=1/block) 2400, C4 0, with positive lits 0, NOT IMPLIED 0 []
+D. pool 359 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=62, ('2sw', 'lex', False)=1, ('2sw', 'ok', True)=2, ('LD-at', 'ok', True)=12, ('LD-below', 'lemmaD', False)=12, ('flip', 'deg', False)=30, ('model', 'lex', False)=10, ('model', 'ok', True)=20, ('pi', 'lex', False)=120, ('rand-g', 'lex', False)=90
+   residual transpositions (mine, brute force): 24
+== k7_j0_full.cnf k=7 j=0 c4=1 der=1 sb=1 
+A. header (17352, 242556), parsed 242556 clauses, edge vars 600
+B. pure-edge clauses 209316: block(<=1/block) 2400, C4 206916, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 103458; C4 clauses (distinct) 103458; missing 0; extra 0
+D. pool 169 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=34, ('2sw', 'c4', False)=3, ('LD-at', 'c4', False)=12, ('LD-below', 'c4', False)=12, ('flip', 'deg', False)=12, ('model', 'c4', False)=12, ('pi', 'c4', False)=48, ('rand-g', 'c4', False)=36
+   residual transpositions (mine, brute force): 24
+E. full minus drop-C4 sibling: 206916 clauses, of which NOT a verified C4 clause: 0; sibling clauses absent from full: 0
+== k7_j1_noc4.cnf k=7 j=1 c4=0 der=1 sb=1 
+A. header (17214, 35306), parsed 35306 clauses, edge vars 600
+B. pure-edge clauses 2400: block(<=1/block) 2400, C4 0, with positive lits 0, NOT IMPLIED 0 []
+D. pool 383 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=79, ('2sw', 'lex', False)=2, ('2sw', 'ok', True)=2, ('LD-at', 'lemmaD', False)=2, ('LD-at', 'ok', True)=16, ('LD-below', 'lemmaD', False)=12, ('flip', 'deg', False)=30, ('model', 'lex', False)=10, ('model', 'ok', True)=20, ('pi', 'lex', False)=120, ('rand-g', 'lex', False)=90
+   residual transpositions (mine, brute force): 22
+== k7_j1_full.cnf k=7 j=1 c4=1 der=1 sb=1 
+A. header (17214, 243458), parsed 243458 clauses, edge vars 600
+B. pure-edge clauses 210552: block(<=1/block) 2400, C4 208152, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 104076; C4 clauses (distinct) 104076; missing 0; extra 0
+D. pool 172 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=31, ('2sw', 'c4', False)=3, ('LD-at', 'c4', False)=18, ('LD-below', 'c4', False)=12, ('flip', 'deg', False)=12, ('model', 'c4', False)=12, ('pi', 'c4', False)=48, ('rand-g', 'c4', False)=36
+   residual transpositions (mine, brute force): 22
+E. full minus drop-C4 sibling: 208152 clauses, of which NOT a verified C4 clause: 0; sibling clauses absent from full: 0
+== k7_j2_noc4.cnf k=7 j=2 c4=0 der=1 sb=1 
+A. header (17076, 34972), parsed 34972 clauses, edge vars 600
+B. pure-edge clauses 2400: block(<=1/block) 2400, C4 0, with positive lits 0, NOT IMPLIED 0 []
+D. pool 396 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=80, ('2sw', 'lex', False)=1, ('2sw', 'ok', True)=1, ('LD-at', 'ok', True)=22, ('LD-below', 'lemmaD', False)=22, ('flip', 'deg', False)=30, ('model', 'lex', False)=10, ('model', 'ok', True)=20, ('pi', 'lex', False)=120, ('rand-g', 'lex', False)=90
+   residual transpositions (mine, brute force): 20
+== k7_j2_full.cnf k=7 j=2 c4=1 der=1 sb=1 
+A. header (17076, 244364), parsed 244364 clauses, edge vars 600
+B. pure-edge clauses 211792: block(<=1/block) 2400, C4 209392, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 104696; C4 clauses (distinct) 104696; missing 0; extra 0
+D. pool 186 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=32, ('2sw', 'c4', False)=2, ('LD-at', 'c4', False)=22, ('LD-below', 'c4', False)=22, ('flip', 'deg', False)=12, ('model', 'c4', False)=12, ('pi', 'c4', False)=48, ('rand-g', 'c4', False)=36
+   residual transpositions (mine, brute force): 20
+E. full minus drop-C4 sibling: 209392 clauses, of which NOT a verified C4 clause: 0; sibling clauses absent from full: 0
+== k7_j3_noc4.cnf k=7 j=3 c4=0 der=1 sb=1 
+A. header (16938, 34638), parsed 34638 clauses, edge vars 600
+B. pure-edge clauses 2400: block(<=1/block) 2400, C4 0, with positive lits 0, NOT IMPLIED 0 []
+D. pool 389 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=68, ('2sw', 'ok', True)=3, ('LD-at', 'ok', True)=24, ('LD-below', 'lemmaD', False)=24, ('flip', 'deg', False)=30, ('model', 'lex', False)=10, ('model', 'ok', True)=20, ('pi', 'lex', False)=120, ('rand-g', 'lex', False)=90
+   residual transpositions (mine, brute force): 18
+== k7_j3_full.cnf k=7 j=3 c4=1 der=1 sb=1 
+A. header (16938, 245274), parsed 245274 clauses, edge vars 600
+B. pure-edge clauses 213036: block(<=1/block) 2400, C4 210636, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 105318; C4 clauses (distinct) 105318; missing 0; extra 0
+D. pool 185 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=28, ('2sw', 'c4', False)=1, ('LD-at', 'c4', False)=24, ('LD-below', 'c4', False)=24, ('flip', 'deg', False)=12, ('model', 'c4', False)=12, ('pi', 'c4', False)=48, ('rand-g', 'c4', False)=36
+   residual transpositions (mine, brute force): 18
+E. full minus drop-C4 sibling: 210636 clauses, of which NOT a verified C4 clause: 0; sibling clauses absent from full: 0
+== k7_j4_noc4.cnf k=7 j=4 c4=0 der=1 sb=1 
+A. header (16800, 34304), parsed 34304 clauses, edge vars 600
+B. pure-edge clauses 2400: block(<=1/block) 2400, C4 0, with positive lits 0, NOT IMPLIED 0 []
+D. pool 391 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=69, ('2sw', 'lex', False)=3, ('2sw', 'ok', True)=1, ('LD-at', 'ok', True)=24, ('LD-below', 'lemmaD', False)=24, ('flip', 'deg', False)=30, ('model', 'lex', False)=10, ('model', 'ok', True)=20, ('pi', 'lex', False)=120, ('rand-g', 'lex', False)=89, ('rand-g', 'ok', True)=1
+   residual transpositions (mine, brute force): 16
+== k7_j4_full.cnf k=7 j=4 c4=1 der=1 sb=1 
+A. header (16800, 246188), parsed 246188 clauses, edge vars 600
+B. pure-edge clauses 214284: block(<=1/block) 2400, C4 211884, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 105942; C4 clauses (distinct) 105942; missing 0; extra 0
+D. pool 185 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=25, ('2sw', 'c4', False)=4, ('LD-at', 'c4', False)=24, ('LD-below', 'c4', False)=24, ('flip', 'deg', False)=12, ('model', 'c4', False)=12, ('pi', 'c4', False)=48, ('rand-g', 'c4', False)=36
+   residual transpositions (mine, brute force): 16
+E. full minus drop-C4 sibling: 211884 clauses, of which NOT a verified C4 clause: 0; sibling clauses absent from full: 0
+done

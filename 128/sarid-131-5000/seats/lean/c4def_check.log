@@ -1,0 +1,7 @@
+K2                               n= 2 m=  1 triangle-free=True  r=0.500000 t(C4)=0.125000 r^3-gamma r=0.101562 slack=1.5 cert_holds=True
+C5                               n= 5 m=  5 triangle-free=True  r=0.400000 t(C4)=0.048000 r^3-gamma r=0.045250 slack=42.9688 cert_holds=True
+Petersen                         n=10 m= 15 triangle-free=True  r=0.300000 t(C4)=0.015000 r^3-gamma r=0.012937 slack=2062.5 cert_holds=True
+Clebsch                          n=16 m= 40 triangle-free=True  r=0.312500 t(C4)=0.015869 r^3-gamma r=0.015869 slack=0.000104858 cert_holds=True
+K_{5,5}                          n=10 m= 25 triangle-free=True  r=0.500000 t(C4)=0.125000 r^3-gamma r=0.101562 slack=23437.5 cert_holds=True
+K3 (NOT triangle-free, control)  n= 3 m=  3 triangle-free=False r=0.666667 t(C4)=0.222222 r^3-gamma r=0.265046 slack=-31.2187 cert_holds=False
+K4 (control)                     n= 4 m=  6 triangle-free=False r=0.750000 t(C4)=0.328125 r^3-gamma r=0.386719 slack=-240 cert_holds=False

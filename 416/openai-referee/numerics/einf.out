@@ -1,0 +1,10 @@
+K = 0.61788133
+logB= 299.84 m=  481 theta=0.100  diff=-0.80133  Einf=-0.71965  remainder=-0.08168
+logB= 300.09 m=  481 theta=0.500  diff=-1.01455  Einf=-0.92540  remainder=-0.08915
+logB= 300.33 m=  481 theta=0.900  diff=-1.32592  Einf=-1.22897  remainder=-0.09694
+logB= 599.50 m=  970 theta=0.100  diff=-0.77140  Einf=-0.71965  remainder=-0.05176
+logB= 599.75 m=  970 theta=0.500  diff=-0.98135  Einf=-0.92540  remainder=-0.05595
+logB= 599.99 m=  970 theta=0.900  diff=-1.28928  Einf=-1.22897  remainder=-0.06030
+logB= 999.86 m= 1624 theta=0.100  diff=-0.75602  Einf=-0.71965  remainder=-0.03637
+logB=1000.10 m= 1624 theta=0.500  diff=-0.96449  Einf=-0.92540  remainder=-0.03909
+logB=1000.35 m= 1624 theta=0.900  diff=-1.27087  Einf=-1.22897  remainder=-0.04190

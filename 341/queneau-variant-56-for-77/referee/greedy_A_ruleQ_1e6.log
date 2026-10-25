@@ -1,0 +1,5 @@
+rule=Q limit=1000000 seed_size=21 total_selected=122468 last=999995
+
+real	0m11.870s
+user	0m10.869s
+sys	0m0.055s

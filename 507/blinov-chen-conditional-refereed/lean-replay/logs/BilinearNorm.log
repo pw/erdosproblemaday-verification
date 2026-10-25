@@ -1,0 +1,6 @@
+'HeilbronnNorm.bilinear_term_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnNorm.bilinear_norm_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnNorm.finite_field_bilinear_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnNorm.finite_field_bilinear_polynomials' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnNorm.prime_field_bilinear_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1521784 wall=16s

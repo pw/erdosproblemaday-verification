@@ -1,0 +1,9 @@
+n=96 k=7 outside=89 witness=(13, 37, 40, 48, 52, 54, 88)
+n=97 k=7 outside=90 witness=(14, 38, 41, 49, 53, 55, 89)
+n=98 k=7 outside=91 witness=(15, 39, 42, 50, 54, 56, 90)
+n=99 k=7 outside=92 witness=(16, 40, 43, 51, 55, 57, 91)
+n=100 k=7 outside=93 witness=(17, 41, 44, 52, 56, 58, 92)
+n=101 k=7 outside=94 witness=(18, 42, 45, 53, 57, 59, 93)
+n=102 k=8 outside=94 witness=(10, 33, 38, 42, 59, 69, 71, 89)
+transcript_sha256=02c2b1d6281abcee9fa2bb7ea07b578ae0698b33d6229927c6ac7b63b91fc9db
+WITNESS_CHECK=PASS

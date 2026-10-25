@@ -1,0 +1,4 @@
+BridgeMutStep.lean:30:30: error: mod_cast has type
+  Zsqrtd.norm (x (t + 1) - x t) ≤ C + Zsqrtd.norm (x t)
+but is expected to have type
+  Zsqrtd.norm (x (t + 1) - x t) ≤ C

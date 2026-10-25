@@ -1,0 +1,19 @@
+  placement  0: l=1.700816  P=0.866124  P'=1.38897  in-region=True
+  placement  A: l=1.287637  P=0.0895503  P'=0.119773  in-region=True
+  placement  B: l=0.095637  P=1.68999e-06  P'=0.00069832  in-region=True
+  placement  T: l=0.682458  P=0.0221255  P'=0.0265819  in-region=True
+  placement uA: l=2.735008  P=9.72524  P'=19.4763  in-region=True
+  placement uB: l=0.459246  P=0.00199268  P'=0.025071  in-region=True
+  placement uT: l=2.493438  P=12.5744  P'=13.0226  in-region=True
+  placement: max |edge^2-1| = 2.00e-59; all 7 in region: True
+  CONTROL rot*g+shift  0: l=1.700816  P=4.81462  P'=1.38897  in-region=False
+  CONTROL rot*g+shift  A: l=2.075042  P=2.05972  P'=4.96927  in-region=True
+  CONTROL rot*g+shift  B: l=0.195042  P=0.000741416  P'=0.00457321  in-region=True
+  CONTROL rot*g+shift  T: l=1.569268  P=0.572776  P'=0.761031  in-region=True
+  CONTROL rot*g+shift uA: l=3.579024  P=1.08991  P'=32.0924  in-region=True
+  CONTROL rot*g+shift uB: l=1.012948  P=0.597669  P'=0.000130116  in-region=False
+  CONTROL rot*g+shift uT: l=3.891156  P=57.4207  P'=13.4006  in-region=False
+  CONTROL rot*g+shift: max |edge^2-1| = 1.10e-59; all 7 in region: False
+  CONTROL non-unit u: max |edge^2-1| = 0.0303
+  proper 3-colourings of the 7-vertex graph: 0 | CONTROL proper 4-colourings: 384
+hexagon: 2r = 0.8 <1 ;  (sqrt21-2) r = 1.03303027798233600263521887749120339559378263070718876104290 >1 ; |2-omega|^2 = 4+2+1 = 7

@@ -1,0 +1,2 @@
+fixed-last literal checks 335
+ALL FIXED-LAST KERNEL CROSSCHECKS PASSED

@@ -1,0 +1,1408 @@
+{
+"sorry": [
+[
+"Challenge.lean",
+52,
+"sorry"
+]
+],
+"decide": [
+[
+"DistinctDistances/Bridges/BezoutComponents.lean",
+45,
+"TrackA.fa_bezout_components (n := 3) (c := 2) (by decide) fs hfs F hF hcomps"
+],
+[
+"DistinctDistances/TrackA/ComponentSeparatorAux.lean",
+1316,
+"simpa only [s, show (1 : Fin 2) \u2260 0 by decide, if_false] using hx 1 (Set.mem_univ _)"
+],
+[
+"DistinctDistances/TrackA/GAProjAux.lean",
+138,
+"have hpow : 2^k \u2264 2^n := Nat.pow_le_pow_right (by decide) hk"
+],
+[
+"DistinctDistances/TrackA/HypersurfaceFiberAux.lean",
+342,
+"refine \u27e8by decide, G, ?_, ?_\u27e9"
+],
+[
+"DistinctDistances/TrackA/HypersurfaceFiberAux.lean",
+610,
+"(fun j => \u03c6.pullback (MvPolynomial.X j)) 1 (by decide) (projection_base_degree \u03c6)"
+],
+[
+"DistinctDistances/TrackA/Interpolation.lean",
+72,
+"decide"
+],
+[
+"DistinctDistances/TrackA/NormalizationRankSupport.lean",
+240,
+"refine \u27e81, hdeg.symm, by decide, 1, ?_, ?_\u27e9"
+],
+[
+"DistinctDistances/TrackA/PoolingSupport.lean",
+174,
+"Nat.mul_le_mul_right _ (Nat.mul_le_mul hk (Nat.pow_le_pow_right (by decide) hk))"
+],
+[
+"DistinctDistances/TrackA/Projection.lean",
+121,
+"(by decide : (0 : \u211a) \u2264 1).trans (X.one_le_degree hX.ne_top)"
+],
+[
+"DistinctDistances/TrackA/Projection.lean",
+196,
+"exact le_trans (by decide : (0 : \u211a) \u2264 1) (AffineVariety.one_le_degree C hprime.ne_top)"
+],
+[
+"DistinctDistances/TrackA/Regularity.lean",
+94,
+"exact le_trans (by decide : (0 : \u211a) \u2264 1) (AffineVariety.one_le_degree V htop)"
+],
+[
+"DistinctDistances/TrackA/Regularity.lean",
+157,
+"exact (by decide : (0 : \u211a) \u2264 1).trans"
+],
+[
+"DistinctDistances/TrackA/RegularityBoundSupport.lean",
+121,
+"exact le_trans (by decide : (0 : \u211a) \u2264 1) (AffineVariety.one_le_degree V hp.ne_top)"
+],
+[
+"DistinctDistances/TrackA/SylvesterMatrixSupport.lean",
+17,
+"show (0 : Fin 2) \u2260 1 by decide, show (1 : Fin 2) \u2260 0 by decide,"
+],
+[
+"DistinctDistances/TrackA/SylvesterMatrixSupport.lean",
+133,
+"Finsupp.single_apply, show (0 : Fin 2) \u2260 1 by decide,"
+],
+[
+"DistinctDistances/TrackA/SylvesterMatrixSupport.lean",
+134,
+"show (1 : Fin 2) \u2260 0 by decide, \u2193reduceIte, add_zero, zero_add] at h0 h1"
+],
+[
+"DistinctDistances/TrackB/Degree.lean",
+2366,
+"try decide"
+],
+[
+"DistinctDistances/TrackB/Degree.lean",
+2380,
+"try decide"
+],
+[
+"DistinctDistances/TrackB/GeometryModel.lean",
+86,
+"exact A.map_eq_zero_of_eq' ![x, x] 0 1 rfl (by decide)"
+],
+[
+"DistinctDistances/TrackB/IncidenceHilbert.lean",
+183,
+"if_neg (by decide : (1 : Fin 2) \u2260 0)]"
+],
+[
+"DistinctDistances/TrackB/IncidenceHilbert.lean",
+199,
+"simpa only [show (1 : Fin 2).succ = (2 : Fin 3) by decide] using"
+],
+[
+"DistinctDistances/TrackB/IncidenceHilbert.lean",
+218,
+"simpa only [show (0 : Fin 1).succ = (1 : Fin 2) by decide] using"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+340,
+"theorem hne12 : j1 \u2260 j2 := by decide"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+341,
+"theorem hne13 : j1 \u2260 j3 := by decide"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+342,
+"theorem hne23 : j2 \u2260 j3 := by decide"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+376,
+"have huniv : (Finset.univ : Finset (Fin (1 + 1))) = {0, 1} := by decide"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+377,
+"have h01 : (0 : Fin (1 + 1)) \u2209 ({1} : Finset (Fin (1 + 1))) := by decide"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+387,
+"Finsupp.single_eq_of_ne (by decide)"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+390,
+"Finsupp.single_eq_of_ne (by decide)"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+393,
+"Finsupp.single_eq_of_ne (by decide)"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+2943,
+"\u00b7 refine \u27e8p, hp, ?_, hdeg, hbound.mono (by omega), dvd_rfl, dvd_pow_self _ (by decide)\u27e9"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+2956,
+"simpa using (Polynomial.natDegree_X_add_C (p.coeff 1 / 2)).le.trans (by decide : 1 \u2264 2)"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+2958,
+"exact dvd_pow_self _ (by decide)"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+2961,
+"hbound.mono (by omega), dvd_rfl, dvd_pow_self _ (by decide)\u27e9"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6316,
+"(by decide) (by decide) (lineGraphVariety_dimension V H hH v b hvb) hnorm hcontain"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6336,
+"size_bound := by decide"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6448,
+"size_bound := by decide"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6684,
+"refine \u27e8hbound.mono (by omega), hdeg.trans (by decide)\u27e9"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6809,
+"refine \u27e8hGbound.mono hG2, hGdeg.trans (by decide)\u27e9"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6879,
+"_ \u2264 9 * (Bmax * D) := Nat.mul_le_mul_right _ (by decide)"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6902,
+"_ = 4 := by decide"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6914,
+"_ \u2264 10 * (9 * Bmax * D) := Nat.mul_le_mul_right _ (by decide)"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+7458,
+"calc 2 * D \u2264 3 * D := Nat.mul_le_mul_right D (by decide)"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+7530,
+"calc 3 + 1 \u2264 1 * 9 + 1 := by decide"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+7992,
+"(by decide) (by omega)"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+7997,
+"(fun h => absurd h (by decide)) (fun h => absurd h (by decide))"
+],
+[
+"DistinctDistances/TrackC/AxisFrame.lean",
+69,
+"have h\u03c3 : \u03c3 (2 : Fin 3) = 2 := by decide"
+],
+[
+"DistinctDistances/TrackC/MCBeckAux.lean",
+65,
+"(show 1 < (X.filter (fun y => e y l.1)).card from lt_of_lt_of_le (by decide) (hline l.1 hl.1))"
+],
+[
+"DistinctDistances/TrackC/MCBeckAux.lean",
+95,
+"simp only [Nat.cast_zero, zero_pow (by decide : 2 \u2260 0)]"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+2330,
+"(dist p q.1, decide (t q < 0))"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+2335,
+"have hside : decide (t q < 0) = decide (t r < 0) := congrArg Prod.snd hqr"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+2339,
+"have hq' : decide (t q < 0) = true := decide_eq_true_eq.mpr hq"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+2343,
+"have hr' : decide (t r < 0) = true := decide_eq_true_eq.mpr hr"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+4735,
+"have hpowNat : 1 \u2264 4 ^ j := Nat.one_le_pow j 4 (by decide)"
+],
+[
+"DistinctDistances/TrackC/PartitionSigns.lean",
+89,
+"let \u03c3 : Fin fs.length \u2192 Bool := fun i => decide (0 < evalR (fs.get i) x)"
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+177,
+"((p, q), decide (g.linearIsometryEquiv (planarJ (p.2 -\u1d65 p.1)) ="
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+194,
+"change ((p, q), decide (g.linearIsometryEquiv (planarJ (p.2 -\u1d65 p.1)) ="
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+208,
+"change ((p, q), decide (g.linearIsometryEquiv (planarJ (p.2 -\u1d65 p.1)) ="
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+210,
+"((p', q'), decide (h.linearIsometryEquiv (planarJ (p'.2 -\u1d65 p'.1)) ="
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+215,
+"have hs : decide (g.linearIsometryEquiv (planarJ (p.2 -\u1d65 p.1)) ="
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+217,
+"decide (h.linearIsometryEquiv (planarJ (p'.2 -\u1d65 p'.1)) ="
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+249,
+"have hsign : decide (g.linearIsometryEquiv (planarJ u) = planarJ v) ="
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+250,
+"decide (h.linearIsometryEquiv (planarJ u) = planarJ v) := by"
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+253,
+"change decide (g.linearIsometryEquiv (planarJ u) = planarJ v) ="
+],
+[
+"DistinctDistances/TrackC/Planar.lean",
+254,
+"decide (h.linearIsometryEquiv (planarJ u) = planarJ v) at hs'"
+],
+[
+"DistinctDistances/TrackD/Profiles/RegularityDegreePackages.lean",
+1118,
+"exact le_trans (by decide : (0 : \u211a) \u2264 1) (AffineVariety.one_le_degree V htop)"
+],
+[
+"DistinctDistances/TrackE/CoveringEnvelope.lean",
+205,
+"have hL : 1 \u2264 L := (Nat.le_floor_iff' (by decide : (1 : \u2115) \u2260 0)).mpr"
+],
+[
+"DistinctDistances/TrackE/DirectionRank.lean",
+117,
+"have hL : 1 \u2264 L := (Nat.le_floor_iff' (by decide : (1 : \u2115) \u2260 0)).mpr"
+]
+],
+"set_option": [
+[
+"DistinctDistances/Bridges/HomogeneousEnvelope.lean",
+106,
+"set_option linter.unusedVariables false in"
+],
+[
+"DistinctDistances/Foundations/LocalHilbert.lean",
+20,
+"set_option backward.isDefEq.respectTransparency.types false in"
+],
+[
+"DistinctDistances/TrackA/AffineCutHilbertSupport.lean",
+17,
+"set_option maxHeartbeats 800000 in"
+],
+[
+"DistinctDistances/TrackA/AffineEtaleFiberSupport.lean",
+6,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/AffineEtaleOpenSupport.lean",
+6,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/AffineFiberPointSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/AffineFiberTensorSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/AffineFiberTensorSupport.lean",
+69,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/AffineFiberTensorSupport.lean",
+109,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/AffineFiberTensorSupport.lean",
+135,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/AffineFiberTensorSupport.lean",
+138,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/AffineFiniteNormalizationSupport.lean",
+3,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/AffineGenericRankSupport.lean",
+141,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/AffineMultiplicityBudgetSupport.lean",
+6,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/AlgebraicEtaleOpenSupport.lean",
+6,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/AlgebraicFieldFiberSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/ChartAmbientSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/ChartCarrierTransportSupport.lean",
+6,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/ChartCarrierTransportSupport.lean",
+11,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/CommonRadialSourceOpenSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/CommonRadialSourceOpenSupport.lean",
+6,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/CountableLinearModelSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/CountableLinearSpecializationSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/CurveHilbertSupport.lean",
+67,
+"set_option backward.isDefEq.respectTransparency.types false in"
+],
+[
+"DistinctDistances/TrackA/CylinderHilbertSupport.lean",
+3,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/CylinderHilbertSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/CylinderQuotientSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/CylinderQuotientSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/Depth.lean",
+47,
+"set_option backward.isDefEq.respectTransparency true in"
+],
+[
+"DistinctDistances/TrackA/Depth.lean",
+86,
+"set_option backward.isDefEq.respectTransparency true in"
+],
+[
+"DistinctDistances/TrackA/Depth.lean",
+87,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackA/Depth.lean",
+388,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackA/Depth.lean",
+591,
+"set_option maxHeartbeats 500000 in"
+],
+[
+"DistinctDistances/TrackA/Depth.lean",
+1285,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackA/Depth.lean",
+1432,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackA/FixedCoordinateNormalizationSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/FormalJacobianLengthSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/FormalOriginLengthSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/GenericFiberFieldSupport.lean",
+92,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/GenericFiberFieldSupport.lean",
+102,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/GenericFiberFieldSupport.lean",
+110,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/GenericFiberIsolationSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/HilbertSectionRecursionSupport.lean",
+77,
+"set_option maxHeartbeats 800000 in"
+],
+[
+"DistinctDistances/TrackA/HilbertUpperBaseSupport.lean",
+118,
+"set_option maxHeartbeats 800000 in"
+],
+[
+"DistinctDistances/TrackA/HomogeneousNormalizationSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/HypersurfaceFiberAux.lean",
+11,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/HypersurfaceFiberAux.lean",
+12,
+"set_option maxHeartbeats 1000000"
+],
+[
+"DistinctDistances/TrackA/HypersurfaceLengthSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/HypersurfaceLengthSupport.lean",
+83,
+"set_option maxHeartbeats 800000 in"
+],
+[
+"DistinctDistances/TrackA/HypersurfaceLocalizationSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/HypersurfaceLocalizationSupport.lean",
+5,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackA/InfinityNormalizationSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/InfinityParameterSelectionSupport.lean",
+3,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/IsolatedPolynomialPreimageSupport.lean",
+3,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/IsolatedPolynomialPreimageSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/JacobianCenterSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/JacobianContractionSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/JacobianHilbertSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/JacobianLocalizedSpanSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/LocalHilbertCarrierSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/LocalHilbertFiniteSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/NarrowCylinderIsolationSupport.lean",
+3,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/NarrowCylinderIsolationSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/NormalizationAffineRankSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/NormalizationProjectionSupport.lean",
+3,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/NormalizationRankSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/NormalizationSpecializationSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/PointPowerLengthSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/PointProjectionAux.lean",
+16,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/PointProjectionAux.lean",
+17,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/PointProjectionAux.lean",
+1784,
+"set_option maxHeartbeats 800000 in"
+],
+[
+"DistinctDistances/TrackA/PointProjectionAux.lean",
+1853,
+"set_option maxHeartbeats 800000 in"
+],
+[
+"DistinctDistances/TrackA/PoolingCutSupport.lean",
+29,
+"set_option maxHeartbeats 800000 in"
+],
+[
+"DistinctDistances/TrackA/PoolingSupport.lean",
+199,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackA/PrincipalPointIsolationSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/PrincipalPointIsolationSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/ProjectionSourceSupport.lean",
+5,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackA/ProjectiveCutProjectionSupport.lean",
+4,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackA/ProjectiveReducedLinearFormSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/RadialConeAlgebraSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/RadialConeAlgebraSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/RadialConePointSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/RadialConePointSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/RadialGenericDegreeSupport.lean",
+3,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/RadialGenericDegreeSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/RadialInfinitySupport.lean",
+4,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackA/RadialInfinitySupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/RadialIntersectionSupport.lean",
+5,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackA/RadialLiteralFiberSupport.lean",
+3,
+"set_option backward.isDefEq.respectTransparency true"
+],
+[
+"DistinctDistances/TrackA/RadialLiteralFiberSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/ReducedScalarExtensionSupport.lean",
+4,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/Requests.lean",
+54,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/Requests.lean",
+58,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/Requests.lean",
+61,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/Requests.lean",
+63,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackA/RetractionLengthAux.lean",
+12,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/RetractionLengthAux.lean",
+233,
+"set_option backward.isDefEq.respectTransparency.types false in"
+],
+[
+"DistinctDistances/TrackA/SeparatorTranslationSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency.types false"
+],
+[
+"DistinctDistances/TrackA/SimultaneousNormalizationSupport.lean",
+5,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackA/SimultaneousRadialFiberSupport.lean",
+5,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackB/AlgebraicNullRigidity.lean",
+17,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/BFlatAux.lean",
+8,
+"set_option linter.unusedSimpArgs false"
+],
+[
+"DistinctDistances/TrackB/BridgesBAux.lean",
+28,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/BridgesBAuxBirational.lean",
+23,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/BridgesBAuxBirational.lean",
+790,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackB/BridgesBMixedHilbert.lean",
+21,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/Compactification.lean",
+5,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/Degree.lean",
+26,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/Degree.lean",
+1131,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackB/Degree.lean",
+1403,
+"set_option maxHeartbeats 1500000 in"
+],
+[
+"DistinctDistances/TrackB/EvaluationFibers.lean",
+14,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/EvaluationFibers.lean",
+65,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackB/EvaluationFibers.lean",
+235,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackB/GeometryModel.lean",
+13,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/IncidenceBinomial.lean",
+16,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/IncidenceHilbert.lean",
+17,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/IncidenceMoments.lean",
+23,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/MBFibersAux.lean",
+10,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/MBFibersAux.lean",
+11,
+"set_option maxHeartbeats 1000000"
+],
+[
+"DistinctDistances/TrackB/MBHilbAux.lean",
+17,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/MBHilbAux.lean",
+18,
+"set_option linter.style.haveILetI false"
+],
+[
+"DistinctDistances/TrackB/MBHilbAux.lean",
+19,
+"set_option linter.unusedSectionVars false"
+],
+[
+"DistinctDistances/TrackB/MBHilbAux.lean",
+20,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackB/MBHilbAux.lean",
+664,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackB/MBPart2Aux.lean",
+22,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+5383,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+5934,
+"set_option backward.isDefEq.respectTransparency false in"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+5935,
+"set_option maxHeartbeats 1200000 in"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6222,
+"set_option maxHeartbeats 2400000 in"
+],
+[
+"DistinctDistances/TrackB/MBRecAux.lean",
+6822,
+"set_option maxHeartbeats 2400000 in"
+],
+[
+"DistinctDistances/TrackB/MixedHilbert.lean",
+15,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/NullRigidity.lean",
+17,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/PointIntegralAux.lean",
+18,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/PointIntegralAux.lean",
+2007,
+"set_option linter.style.haveILetI false"
+],
+[
+"DistinctDistances/TrackB/PointIntegralAux.lean",
+2104,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackB/PointIntegralSupport.lean",
+23,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/Recurrence.lean",
+13,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/RulingMapsAux.lean",
+14,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/RulingTangentSupport.lean",
+9,
+"set_option linter.unusedSimpArgs false"
+],
+[
+"DistinctDistances/TrackB/SegreCoefficients.lean",
+14,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/SkewPencil.lean",
+16,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/TripleRankChart.lean",
+14,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/TripleRankInfra.lean",
+12,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/TripleRankKernel.lean",
+10,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/TripleRankKernelRanks.lean",
+12,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/TripleRankParts.lean",
+13,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/TripleRankParts.lean",
+14,
+"set_option backward.isDefEq.respectTransparency false"
+],
+[
+"DistinctDistances/TrackB/TripleRankRoute.lean",
+32,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/TripleRankTrunc.lean",
+13,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackB/UniformCompletion.lean",
+11,
+"set_option autoImplicit false"
+],
+[
+"DistinctDistances/TrackC/BeckAnchorPlanes.lean",
+9,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/CPolynomialAux.lean",
+82,
+"set_option maxHeartbeats 500000 in"
+],
+[
+"DistinctDistances/TrackC/CanonicalCayley.lean",
+11,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/CanonicalCayley.lean",
+112,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackC/CanonicalPairProjection.lean",
+11,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackC/DualGradient.lean",
+41,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackC/HomogeneousRotation.lean",
+28,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/Incidence.lean",
+516,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackC/Incidence.lean",
+2284,
+"set_option maxHeartbeats 500000 in"
+],
+[
+"DistinctDistances/TrackC/Incidence.lean",
+2506,
+"set_option maxHeartbeats 50000000 in"
+],
+[
+"DistinctDistances/TrackC/LinePartitionOptimization.lean",
+5,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/MotionBucketConstruct.lean",
+13,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+406,
+"set_option maxHeartbeats 4000000 in"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+997,
+"set_option maxHeartbeats 12000000 in"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+1473,
+"set_option maxHeartbeats 12000000 in"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+3226,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackC/MotionLocal.lean",
+4499,
+"set_option maxHeartbeats 12000000 in"
+],
+[
+"DistinctDistances/TrackC/Polynomial.lean",
+1118,
+"set_option maxHeartbeats 500000 in"
+],
+[
+"DistinctDistances/TrackC/RichLineScale.lean",
+7,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/RotationAvoidPolynomial.lean",
+29,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/RotationAvoidPolynomial.lean",
+39,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/RotationAvoidPolynomial.lean",
+62,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/RotationDetWitness.lean",
+19,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackC/WeakPlanar.lean",
+1373,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackC/WeakPlanar.lean",
+1541,
+"set_option maxHeartbeats 2000000"
+],
+[
+"DistinctDistances/TrackC/WeakPlanar.lean",
+1790,
+"set_option maxHeartbeats 200000"
+],
+[
+"DistinctDistances/TrackD/DerivationExtensions.lean",
+14,
+"set_option maxHeartbeats 600000"
+],
+[
+"DistinctDistances/TrackD/FieldTangent.lean",
+9,
+"set_option maxHeartbeats 600000"
+],
+[
+"DistinctDistances/TrackD/GenericDepth.lean",
+1272,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackD/GenericDepth.lean",
+1603,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackD/GeoTangent.lean",
+5,
+"set_option maxHeartbeats 1000000"
+],
+[
+"DistinctDistances/TrackD/MDGeoAux.lean",
+1277,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackD/MDPerspAux.lean",
+9,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackD/Profiles/Budget.lean",
+19,
+"set_option maxHeartbeats 500000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/Budget.lean",
+674,
+"set_option maxHeartbeats 500000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/DProfiles2Aux.lean",
+391,
+"set_option maxHeartbeats 500000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/JacobianGeometry.lean",
+14,
+"set_option maxHeartbeats 1000000"
+],
+[
+"DistinctDistances/TrackD/Profiles/PairSelection.lean",
+34,
+"set_option maxHeartbeats 500000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/PairSelection.lean",
+1266,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/PairSelectionFinitePackages.lean",
+977,
+"set_option maxHeartbeats 5000000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/RankInduction.lean",
+46,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/RankResult.lean",
+7,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/RegularityDegreePackages.lean",
+9,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackD/Profiles/RegularityDegreePackages.lean",
+386,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackD/RationalFieldEmbedding.lean",
+9,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackD/SecantsImageGeometry.lean",
+34,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackD/TangentRankSpecialization.lean",
+11,
+"set_option maxHeartbeats 800000"
+],
+[
+"DistinctDistances/TrackE/Graph.lean",
+27,
+"set_option maxHeartbeats 5000000"
+],
+[
+"DistinctDistances/TrackE/MOProdAux.lean",
+9,
+"set_option synthInstance.maxHeartbeats 100000"
+],
+[
+"DistinctDistances/TrackE/MOProdAux.lean",
+10,
+"set_option maxHeartbeats 1000000"
+],
+[
+"DistinctDistances/TrackE/OuterRegularity.lean",
+53,
+"set_option maxHeartbeats 1000000"
+],
+[
+"DistinctDistances/TrackE/OuterRegularity.lean",
+1432,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackE/OuterTangentAux.lean",
+11,
+"set_option maxHeartbeats 1000000"
+],
+[
+"DistinctDistances/TrackE/PairFlats.lean",
+660,
+"set_option maxHeartbeats 2000000 in"
+],
+[
+"DistinctDistances/TrackE/Stars.lean",
+21,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackE/Stars.lean",
+642,
+"set_option maxHeartbeats 1000000 in"
+],
+[
+"DistinctDistances/TrackE/WideAssignments.lean",
+687,
+"set_option maxHeartbeats 800000 in"
+]
+],
+"admit": [],
+"axiom-decl": [],
+"native_decide": [],
+"ofReduceBool": [],
+"implemented_by": [],
+"extern": [],
+"unsafe": [],
+"opaque": [],
+"partial": [],
+"csimp": [],
+"skipKernelTC": [],
+"import Lean": [],
+"elab": [],
+"macro": [],
+"syntax": [],
+"notation": [],
+"run_cmd/#eval": [],
+"addDecl": [],
+"instance-dist": [],
+"Classical.choice-axiom-name": []
+}

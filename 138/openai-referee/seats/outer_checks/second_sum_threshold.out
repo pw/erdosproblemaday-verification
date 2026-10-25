@@ -1,0 +1,4 @@
+true-sum route (paper C, 6D): S(D) <= 1/1000 from D = 13736 (k > (D-1)^10 ~ 10^41.4)
+true-sum route (Lean 16005, 14D): from D = 36945 (k ~ 10^45.7)
+CONTROL D=5000: log S(D) upper bound = 5.915e+05 (> log(1/1000) = -6.908)
+[wall 0.09 s, maxrss 10972 KB, exit 0]

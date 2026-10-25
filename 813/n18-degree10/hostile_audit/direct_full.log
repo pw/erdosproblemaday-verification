@@ -1,0 +1,16 @@
+ORDER 7
+[independent direct_filter] read=1044 wrote=578
+d9009414f9eea4baf919713c1431307476defb0113ed12893d6f4d711712294e  -
+elapsed=0.00 rss=3524
+ORDER 8
+[independent direct_filter] read=12346 wrote=3128
+75510632e58c7817029045bb13077d04f5e326a46f90d6fed79e88f03d208268  -
+elapsed=0.01 rss=3636
+ORDER 9
+[independent direct_filter] read=274668 wrote=11005
+36a71ed181bad51bc4758b3eb812298b2023e94cf7269071f8b6e949c54d8de5  -
+elapsed=0.16 rss=3636
+ORDER 10
+[independent direct_filter] read=12005168 wrote=9133
+66c6eb718c18c48e3135254a8d8355a412ba7007c65c89e576c33d09dc688c6f  -
+elapsed=5.82 rss=3696

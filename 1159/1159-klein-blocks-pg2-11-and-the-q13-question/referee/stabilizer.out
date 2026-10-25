@@ -1,0 +1,17 @@
+checker negative controls: delete-a-point gives an empty line (x3); add-a-point changes spectrum: OK
+stabilizer of cadical witness: order 168  (11.2s; frame enumeration over ordered 4-tuples of S)
+element-order census: {1: 1, 2: 21, 3: 56, 4: 42, 7: 48}
+classes (size, order): [(1, 1), (21, 2), (24, 7), (24, 7), (42, 4), (56, 3)]
+normal closures of the nontrivial classes: [168, 168, 168, 168, 168] -> simple: True
+derived subgroup order: 168
+number of Sylow 7-subgroups: 8
+involutions: 21; each fixes exactly 13 points = one line pointwise + one isolated point (homology)
+distinct centres: 21  centres == S: True
+axes distinct: 21  axes == the 4-secants: True
+centre on its own axis for some involution: False
+centre(s) in axis(t) <=> st=ts over 420 ordered pairs: mismatches=0; incidences=84
+pairs of S covered by 3/4-secants: 210 of 210  max multiplicity 1
+G-orbit sizes: on S 21, on 3-secants 28 (of 28), on 4-secants 21 (of 21)
+projectivities cadical -> cpsat: 168  (12.3s)
+projectivities cadical -> orbit_perm: 168  (11.1s)
+projectivities cadical -> orbit_singer7: 168  (10.9s)

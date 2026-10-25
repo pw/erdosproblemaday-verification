@@ -1,0 +1,9 @@
+cut F d=4 (A,B)=[3, 1] evalrank=71 CIseries=71 OK
+cut F d=4 (A,B)=[5, 2] evalrank=366 CIseries=366 OK
+cut F d=4 (A,B)=[6, 3] evalrank=852 CIseries=852 OK
+cut F d=4 (A,B)=[4, 3] evalrank=464 CIseries=464 OK
+cut F d=4 (A,B)=[8, 2] evalrank=829 CIseries=829 OK
+  naive (5,1) series at [5, 2]: 400
+  naive (5,1) series at [6, 3]: 980
+E1 U,V=[1, 1] D=2 mismatches=0  last [N,evalrank,series(D),series(naive)]=[14, 590, 590, 1024]
+E2 U,V=[1, 1] D=3 mismatches=0  last [N,evalrank,series(D),series(naive)]=[14, 825, 825, 825]

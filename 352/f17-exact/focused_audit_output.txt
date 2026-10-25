@@ -1,0 +1,3 @@
+{"exceptional_branch":{"candidate_upper_bound":30,"certificate_sha256":"7d3a0c34fc4d9f2ec59a48cfe1a4d865e9abe3c3effebb955a4a496c2befbb6f","choices_audited":512,"incompatibility_edges":48,"matching_size":9,"obstructions":[{"bad_triple":[[0,3],[3,-1],[4,5]],"gap":-4,"omitted":[[-1,2],[-1,3],[0,4],[1,-1],[1,5],[4,-1],[5,0],[6,1],[6,2]]},{"bad_triple":[[1,-1],[2,5],[5,1]],"gap":-4,"omitted":[[-1,2],[-1,3],[0,4],[1,5],[4,-1],[4,5],[5,0],[6,1],[6,2]]}],"pool_size":40,"vertex_covers":2},"seconds":0.05848767305724323,"witness":{"min_gap":5,"points_sha256":"d990dc0cc3a4dcdff1bf28adc3f5fba032cde647f940981e7a7a10f7810f2a39","size":32,"triples":5984}}
+ALL N=17 MATCHING AUDITS PASSED
+TIME elapsed=0.09 user=0.08 sys=0.01 maxrss_kb=15808

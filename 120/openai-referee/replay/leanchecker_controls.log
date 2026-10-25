@@ -1,0 +1,6 @@
+== NEG: leanchecker OAI.MeasureTheory.DyadicAvoidance.DoesNotExist ==
+uncaught exception: Could not find any oleans for: OAI.MeasureTheory.DyadicAvoidance.DoesNotExist
+neg rc=1
+== POS: leanchecker OAI.MeasureTheory.DyadicAvoidance.Model (non-fresh) ==
+pos rc=0
+DONE

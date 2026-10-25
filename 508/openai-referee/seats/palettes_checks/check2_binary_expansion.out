@@ -1,0 +1,11 @@
+d=0.3: max|e^ia+ + e^ia- - (d+e^it)| = 2.2e-15; CONTROL(arcsin) = 1.17; min|sin(a+ - a-)| = 0.656; min/max a+' = 0.689/1.451
+d=0.1: max|e^ia+ + e^ia- - (d+e^it)| = 2.1e-15; CONTROL(arcsin) = 0.89; min|sin(a+ - a-)| = 0.804; min/max a+' = 0.890/1.123
+
+ d      max|F-t-(2d/v3)sin(t-pi/6)|/d^2   CONTROL cos-version/d^2   min_t max_j (Fj-t)/d   min_t max_j (Fj'-1)/d   max_j|Fj-t|/d  max_j|Fj'-1|/d  max_j|Fj''|/d
+0.08           0.7197                          20.59                 1.0003                 1.0278           1.1710         1.2165         1.2953
+0.04           0.7105                          40.98                 1.0001                 1.0137           1.1626         1.1834         1.2208
+0.02           0.7060                          81.80                 1.0000                 1.0068           1.1586         1.1685         1.1872
+0.01           0.7038                         163.44                 1.0000                 1.0034           1.1566         1.1615         1.1708
+0.005          0.7027                         326.74                 1.0000                 1.0017           1.1557         1.1581         1.1627
+theory: leading coefficient 2/sqrt3 = 1.1547005383792517 ; six-phase max of sine >= sqrt3/2 gives max_j(Fj-t)/d -> 1, max_j(Fj'-1)/d -> 1
+[wall 4.44 s, maxRSS 190352 kB]

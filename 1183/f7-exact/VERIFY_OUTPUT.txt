@@ -1,0 +1,11 @@
+lower core: 42034 valid seven-member families; 22232 red clauses; 19802 blue clauses
+upper rank colouring red ranks: [3, 4, 6]
+exact colour maxima: 6 7
+red witness: (7, 11, 13, 14, 15, 63)
+blue witness: (0, 1, 2, 3, 31, 103, 127)
+CERTIFIED F(7)=7
+lattice upper rank colouring red ranks: [0, 2, 3, 5]
+exact lattice colour maxima: 4 4
+lattice red witness: (0, 3, 7, 31)
+lattice blue witness: (1, 15, 63, 127)
+CERTIFIED f(7)=4

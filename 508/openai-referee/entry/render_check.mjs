@@ -1,0 +1,14 @@
+import worker from "/home/exedev/ErdosProblemADay-1014-2100/src/index.js";
+import { writeFileSync } from "node:fs";
+const stmt = { bind() { return stmt; }, all: async () => ({ results: [] }), first: async () => null, run: async () => ({ success: true }) };
+const env = { DB: { prepare: () => stmt }, RESEND_API_KEY: "" }; const ctx = { waitUntil() {}, passThroughOnException() {} };
+const slug = "508-openai-plane-not-five-colorable-refereed";
+const res = await worker.fetch(new Request("https://erdosproblemaday.com/day/" + slug), env, ctx);
+const html = await res.text();
+const text = html.replace(/<script[\s\S]*?<\/script>/g, "").replace(/<style[\s\S]*?<\/style>/g, "").replace(/<[^>]+>/g, " ").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n");
+writeFileSync("/tmp/oaimath/158/entry/rendered_508.txt", text);
+const links = [...html.matchAll(/href="(https?:[^"]+)"/g)].map(m => m[1]);
+writeFileSync("/tmp/oaimath/158/entry/rendered_links.txt", [...new Set(links)].join("\n"));
+const home = await (await worker.fetch(new Request("https://erdosproblemaday.com/"), env, ctx)).text();
+const i = home.indexOf("508-openai-plane"); writeFileSync("/tmp/oaimath/158/entry/rendered_home_card.txt", home.slice(Math.max(0,i-2500), i+300).replace(/<[^>]+>/g," ").replace(/\s+/g," "));
+console.log("rendered", text.length, "chars;", new Set(links).size, "links; status", res.status);

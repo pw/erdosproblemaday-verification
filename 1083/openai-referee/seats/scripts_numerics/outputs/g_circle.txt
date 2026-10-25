@@ -1,0 +1,48 @@
+== regular n-gon (all vertices on the circle): |Delta| = #distinct chords, M = 1+|Delta|; claim n <= 2M (proof gives n <= 2M-1) ==
+  n= 3: |Delta|=1, M=2, 2M=4, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n= 4: |Delta|=2, M=3, 2M=6, n<=2M: True, n<=2M-1: True
+  n= 5: |Delta|=2, M=3, 2M=6, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n= 6: |Delta|=3, M=4, 2M=8, n<=2M: True, n<=2M-1: True
+  n= 7: |Delta|=3, M=4, 2M=8, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n= 8: |Delta|=4, M=5, 2M=10, n<=2M: True, n<=2M-1: True
+  n= 9: |Delta|=4, M=5, 2M=10, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n=10: |Delta|=5, M=6, 2M=12, n<=2M: True, n<=2M-1: True
+  n=11: |Delta|=5, M=6, 2M=12, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n=12: |Delta|=6, M=7, 2M=14, n<=2M: True, n<=2M-1: True
+  n=13: |Delta|=6, M=7, 2M=14, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n=14: |Delta|=7, M=8, 2M=16, n<=2M: True, n<=2M-1: True
+  n=15: |Delta|=7, M=8, 2M=16, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n=16: |Delta|=8, M=9, 2M=18, n<=2M: True, n<=2M-1: True
+  n=17: |Delta|=8, M=9, 2M=18, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n=18: |Delta|=9, M=10, 2M=20, n<=2M: True, n<=2M-1: True
+  n=19: |Delta|=9, M=10, 2M=20, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n=20: |Delta|=10, M=11, 2M=22, n<=2M: True, n<=2M-1: True
+  n=21: |Delta|=10, M=11, 2M=22, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n=22: |Delta|=11, M=12, 2M=24, n<=2M: True, n<=2M-1: True
+  n=23: |Delta|=11, M=12, 2M=24, n<=2M: True, n<=2M-1: True  <-- equality n=2M-1
+  n=24: |Delta|=12, M=13, 2M=26, n<=2M: True, n<=2M-1: True
+== regular 2k-gon + centre (centre is off the circle, so the circle still carries 2k points; M can only grow) ==
+  2k= 4+centre: |Delta|=3, M=4, circle points 4 <= 2M=8: True
+  2k= 6+centre: |Delta|=3, M=4, circle points 6 <= 2M=8: True
+  2k= 8+centre: |Delta|=5, M=6, circle points 8 <= 2M=12: True
+  2k=10+centre: |Delta|=6, M=7, circle points 10 <= 2M=14: True
+  2k=12+centre: |Delta|=6, M=7, circle points 12 <= 2M=14: True
+  2k=14+centre: |Delta|=8, M=9, circle points 14 <= 2M=18: True
+  2k=16+centre: |Delta|=9, M=10, circle points 16 <= 2M=20: True
+== exhaustive: every subset (|S|>=2) of vertices of the regular 12-gon and 13-gon; max over subsets of |S| - (2M-1) ==
+  n=12: max (|S| - (2M-1)) = 0 attained e.g. by |S|=3, M=2, S=(0, 4, 8)
+  n=13: max (|S| - (2M-1)) = 0 attained e.g. by |S|=13, M=7, S=(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+== exhaustive subsets of the 12 integer points on x^2+y^2=25 and the 16 on x^2+y^2=65 (exact integer squared distances) ==
+  R^2=25: 12 lattice points; max (|S|-(2M-1)) over subsets of size<=12 = -1 (|S|=2, M=2)
+  R^2=65: 16 lattice points; max (|S|-(2M-1)) over subsets of size<=12 = -1 (|S|=2, M=2)
+== line row: n collinear points, from an endpoint all distances distinct => n <= M (paper states 2M) ==
+  arithmetic progression n=2: M=2, n<=M: True, n<=2M: True
+  arithmetic progression n=3: M=3, n<=M: True, n<=2M: True
+  arithmetic progression n=4: M=4, n<=M: True, n<=2M: True
+  arithmetic progression n=5: M=5, n<=M: True, n<=2M: True
+  arithmetic progression n=6: M=6, n<=M: True, n<=2M: True
+  arithmetic progression n=7: M=7, n<=M: True, n<=2M: True
+  arithmetic progression n=8: M=8, n<=M: True, n<=2M: True
+  arithmetic progression n=9: M=9, n<=M: True, n<=2M: True
+  arithmetic progression n=10: M=10, n<=M: True, n<=2M: True
+  arithmetic progression n=11: M=11, n<=M: True, n<=2M: True

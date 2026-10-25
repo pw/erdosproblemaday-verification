@@ -1,0 +1,10 @@
+|Y|/|X| at a* = 417/241  (claimed 417/241)
+balancing rho = 0.318349099917  value = 0.0261758501401
+L-branch check at a*(rb): 0.21094368 > 1/5
+certificate terms: 34  all weights > 0: True
+C5(1): n=5, beta = 0  (1/50 = 1/50)
+C5(2): n=10, beta = 1/50  (1/50 = 1/50)
+C5(3): n=15, beta = 1/75  (1/50 = 1/50)
+C5(4): n=20, beta = 1/50  (1/50 = 1/50)
+Petersen(1): n=10, beta = 1/50
+Petersen(2): n=20, beta = 1/50

@@ -1,0 +1,14 @@
+BridgeMutNeg.lean:88:2: error: Type mismatch
+  (classification a hs hd ha hspan).mpr (algebraic_spherical_fieldCriterion a halg hsphere)
+has type
+  Ramsey a
+but is expected to have type
+  ¬Ramsey a
+BridgeMutNeg.lean:99:4: error: Type mismatch
+  algebraic_spherical_ramsey a hs hd ha hspan
+    (Exists.intro c (Exists.intro r fun i => hcr (a i) (Set.mem_range_self i))) halg
+has type
+  ¬Ramsey a
+but is expected to have type
+  Ramsey a
+BridgeMutNeg rc=1 (must be nonzero)

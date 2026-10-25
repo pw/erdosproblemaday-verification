@@ -1,0 +1,2 @@
+R23.npy checked 300 totient points + 40 non-totient points; mismatches 0
+R235.npy checked 300 totient points + 40 non-totient points; mismatches 0

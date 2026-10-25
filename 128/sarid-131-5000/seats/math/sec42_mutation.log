@@ -1,0 +1,4 @@
+a = 3/16  c = 13/16  mu = 1/4  L(a) = 0.140625
+B2 baseline: achieved saving = 3.328402366864e-03, guaranteed L mu^3/c^2 = 3.328402366864e-03, ratio = 1.000000000000
+mutation x1.01 of the guaranteed saving: FAILS (test discriminates)
+mutation 'forgot 1/(4c^2)' (saving 4 L mu^3): FAILS

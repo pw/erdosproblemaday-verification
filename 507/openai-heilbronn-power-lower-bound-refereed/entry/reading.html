@@ -1,0 +1,57 @@
+I read the whole paper (eight sections and Appendix A) before briefing anyone. Then three seats read the mathematics and a fourth read the sources, all Claude Opus 5.5 (the served-model receipts are in the bundle). Each was briefed to refute, to quote the sentence it objected to by printed section and lemma number, and to grade every objection FATAL, GAP, ERROR or EXPOSITION:</p>
+<ul>
+<li>seat R1: §§2–4 and §6;</li>
+<li>seat R2: §5, §7, §8 and Appendix A;</li>
+<li>seat C: the finite lemmas by exact computation on scaled-down instances, each check with a mutation that must fail;</li>
+<li>seat W: the sources and the world (below).</li>
+</ul>
+<p>A fifth seat read this page blind against the files. No seat found a FATAL error or a gap. R1 and R2 returned HOLDS AS READ, with only expository notes. C returned HOLDS AS READ on every finite claim it tested. Each check had a mutation that the checker rejected. That covers the finite lemmas, not the asymptotic constants. The blind reader returned SHIP AFTER FIXES: six must-fix and sixteen should-fix findings, all applied on this page. Among them: the norm sits in one coefficient of the determinant, not in one digit of the coordinates; one of our "false" control statements is probably true; and only two of the three earlier replays had noted the narrower Lean statement.</p>
+<ul>
+<li><strong>The lattice counts (§2, R1).</strong>
+<ul>
+<li>Lemma 2.4's hard case (the third column reaches only one direction of its plane) checks step by step: the bound of order U<sup>4</sup>Z<sup>2</sup> normals per dyadic group, |y| ≍ UZ, and the fact that every eligible column lies on the one shortest line. The constant is uniform in the determinant t and the radii.</li>
+<li>A brute-force count over 22 radius triples, up to (40, 3, 1) and (14, 14, 1), keeps count/(R<sub>1</sub>R<sub>2</sub>R<sub>3</sub>)<sup>2</sup> between 85 and 275.</li>
+<li>Proposition 2.5's Cramer bound uses ∏λ<sub>i</sub> ≤ 3<sup>3/2</sup>I ≤ 3<sup>3/2</sup>|det V|, the right direction, though the paper never displays the chain (exposition).</li>
+</ul></li>
+<li><strong>The digit obstruction (§3, R1).</strong>
+<ul>
+<li>The norm polynomial has coefficients in F<sub>r</sub>. Its repeated-index coefficients vanish because r is odd, and the S<sub>3</sub> sign rule gives the T-term determinant decomposition without dividing by 3!.</li>
+<li>R1 computed the norm polynomial exactly for d = 3 at r = 3 and r = 5 (179,910 and 241,122 terms) and confirmed Lemma 3.1's decomposition.</li>
+<li>R1 also drew 2,100 random digit matrices on small cases (the paper's positions, its bound on B, arbitrary prescribed residues). Every one whose planted coefficient was nonzero mod r kept every representative of its determinant at least 1.9995·τ from zero.</li>
+</ul></li>
+<li><strong>The orbits (§4, R1).</strong>
+<ul>
+<li>Full SL<sub>3</sub> orbit enumeration over ℤ/4, ℤ/8, ℤ/9 and ℤ/25 matches |SL<sub>3</sub>|/|stabiliser| exactly, and the bound (21/64)h<sup>8</sup>/(D<sup>3</sup>E<sup>2</sup>) holds with margin at least 2, including the singular case e = k.</li>
+<li>Lemma 4.3's tail bound (r/L)<sup>4j</sup> is attained with equality in one exhaustive small case (B = 7, r = 3, L = 6), so (4.5) has no slack; no case violated it. The paper's conditioning pins exactly j base-B digits, because the digits lie in [0, B−1].</li>
+</ul></li>
+<li><strong>The auxiliary cap (§5, R2).</strong>
+<ul>
+<li>The quadric has no three collinear points for q = 3 to 13 (0 collinear triples among all of them).</li>
+<li>An exhaustive computation over all of AGL<sub>3</sub>(F<sub>3</sub>) and all 27<sup>3</sup> target triples confirms Proposition 5.3's three weight bounds (largest ratios to the stated bounds 0.75, 0.84 and 1.00) and its support statement. The control is to let the shift put 0 into V: the "no zero column" claim then fails 2,029 times, so the check can see a violation.</li>
+<li>R2's notes: "increases the probability of any event by at most two" means a factor of two.</li>
+</ul></li>
+<li><strong>Determinant zero (§7, R2).</strong>
+<ul>
+<li>The three cases (affinely independent residues; an equal pair with an extra row equation; an equal pair without one, split by rank mod q) are exhaustive over the support of the weight.</li>
+<li>Every power-of-h-over-q estimate checks.</li>
+<li>Lemma 7.3's moment, which carries the only non-pointwise bound on g(x), was computed exactly for 53 matrices over B ∈ {2, 3, 5}, every (b, e) pattern including the singular ones. There were 0 mismatches in the equivalence B<sup>j</sup> | g(x) ⟺ Cx ≡ 0 mod B<sup>j</sup>, and the normalised moment sits near 24.4 whatever B, b and e are.</li>
+<li>R2's notes: Case 1 should cite the last sentence of Proposition 5.3 rather than Lemma 5.2, and the t = 0 hand-off should repeat that the rows lie in Λ.</li>
+</ul></li>
+<li><strong>The deletion and the exponent (§8, R2 and C).</strong> Recomputed symbolically: the exponent of r in a<sub>r</sub> is κ = 1 + 30β = 45435k + 16, so A<sub>k</sub>r<sup>κ</sup> ≤ n<sub>r</sub> ≤ D<sub>k</sub>r<sup>κ</sup> as in (8.6). The error terms decay with exponents 16 − 27285k and 32 − d = −9 (which is why d = 41 &gt; 32 is needed), and the two-sided bound on a<sub>r</sub> holds in exact integers. Every "sufficiently large r" condition is r ≥ r<sub>0</sub>(k), so the conditions are compatible, and the Bertrand interpolation gives n ≤ n<sub>r</sub> ≤ C<sub>k</sub>n. Appendix A's elementary Bertrand proof is right. Our Lean proof of the every-n step confirms the interpolation independently, though through OpenAI's Lean construction rather than the paper's §8 text.</li>
+<li><strong>The digit obstruction, end to end (C).</strong>
+<ul>
+<li>C ran the full §3 digit construction at d = 1 (k = 2, L = r<sup>2</sup> in place of r<sup>10</sup>, B a prime with B − 1 ≥ 100k<sup>2</sup>L<sup>3</sup>) for r = 3, 5 and 7. Of 7,630 triples with distinct labels, none had a determinant with a representative in [−τ, τ].</li>
+<li>Repeated labels do produce small determinants, and even a determinant ≡ 0 mod h (r = 3, labels (0, 2, 0)). So the paper's collision accounting is necessary, not decorative.</li>
+<li>Moving one designated digit position breaks the coefficient identity on every distinct-label triple, and the obstruction itself five times. A base that is too small gives 89–394 counterexamples.</li>
+<li>A synthetic version with T = 4 (k = 17) exercises the matching rule (3.7) with the paper's positions: 0 failures. Dropping the "+1" from ℓ<sub>a</sub> breaks the identity 453–825 times per run.</li>
+<li>At d = 3 over F<sub>r<sup>3</sup></sub> (r = 3, 5, 7), the norm polynomial's full 165<sup>3</sup> coefficient tensor lies in F<sub>r</sub>, is antisymmetric and vanishes on repeated indices. The T-term determinant sum equals the norm at 180 of 180 points for each r. With d = 2 (even) the alternation fails, as it should.</li>
+</ul></li>
+<li><strong>Orbits, cap and moment, recomputed independently (C).</strong>
+<ul>
+<li>Lemma 4.2 over ℤ/4 (all 4<sup>9</sup> matrices), ℤ/8, ℤ/9, ℤ/25 and ℤ/27: the worst ratio |O<sub>C</sub>|D<sup>3</sup>E<sup>2</sup>/h<sup>8</sup> is 0.65625 against the claimed 21/64. Both natural misstatements, D<sup>2</sup>E<sup>2</sup> and the bound without the determinant-image factor, are violated.</li>
+<li>Lemmas 5.1–5.2 hold exhaustively for the paper's own constants at q = 2003, 1,000,003, 4,000,037 and 9,000,011, and in denser stress tests. A disallowed shift, a shift putting 0 into V, or a split quadric each produces forbidden relations or rich lines.</li>
+<li>Lemma 7.3's normalised moment Σg<sup>3</sup>/(R<sup>3</sup>I) stays near 24–26 for R ≥ h and reaches 2,048 for R &lt; h, so the hypothesis R ≥ h is needed. The paper meets it in the affine case, as it says, because the restricted shift excludes every relation with |x| ≤ H = h<sup>2</sup>. C's only suggestion is to say up front that this is what the auxiliary prime is for.</li>
+<li>For §8, the two-sided bound on a<sub>r</sub> held in 18 of 18 exact toy instances. With β = 1515k (forgetting τ) it fails in all 18.</li>
+</ul></li>
+</ul>
+<p>

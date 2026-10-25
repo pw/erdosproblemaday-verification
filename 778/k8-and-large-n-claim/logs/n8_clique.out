@@ -1,0 +1,3 @@
+n=8 mode=clique edges=28 aliceEdges=10 RESULT: BOB WINS
+nodes=824319 memo=306185 canonCalls=684893 orderings=1081288 cutBob=125916 cutAlice=13386 time=11.9s
+certificate: 210325 lines -> certs/n8_clique.cert

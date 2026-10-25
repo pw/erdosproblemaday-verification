@@ -1,0 +1,7 @@
+normalized ruler: (0, 39, 47, 51, 52, 61, 67, 101)
+blocked component: [-16,119] (length 136)
+verified maximal eight-mark sets for every 102 <= n <= 136
+n=102 witness: (1, 40, 48, 52, 53, 62, 68, 102)
+n=128 witness: (9, 48, 56, 60, 61, 70, 76, 110)
+n=136 witness: (17, 56, 64, 68, 69, 78, 84, 118)
+WITNESS CHECK PASSED

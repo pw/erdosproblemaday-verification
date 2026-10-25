@@ -1,0 +1,258 @@
+{
+"files": {
+"/tmp/oaimath/604/lean-build/repo/lean/ComparatorChallenges/CycleDecomposition.lean": {
+"lines": 39,
+"counts": {
+"sorry": 1
+}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchEndpoints.lean": {
+"lines": 276,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchIndexing.lean": {
+"lines": 499,
+"counts": {
+"attribute_global": 2
+}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchLovasz.lean": {
+"lines": 1607,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchPathDeletion.lean": {
+"lines": 736,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchPreparation.lean": {
+"lines": 1035,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchResolution.lean": {
+"lines": 468,
+"counts": {
+"attribute_global": 1,
+"Classical_axiom_like": 1
+}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchRouting.lean": {
+"lines": 1101,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/CollisionEstimates.lean": {
+"lines": 549,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/CostRegrouping.lean": {
+"lines": 405,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/CoupledResolution.lean": {
+"lines": 818,
+"counts": {
+"Classical_axiom_like": 1
+}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/CycleLifting.lean": {
+"lines": 836,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Decomposition.lean": {
+"lines": 515,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/DepthFirstSearch.lean": {
+"lines": 198,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/EdgeSplitting.lean": {
+"lines": 404,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/EndpointPartition.lean": {
+"lines": 276,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/ExpansionBoxes.lean": {
+"lines": 659,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/LayerCosts.lean": {
+"lines": 345,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Lovasz.lean": {
+"lines": 1606,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Main.lean": {
+"lines": 227,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Pairing.lean": {
+"lines": 836,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/PathDeletion.lean": {
+"lines": 736,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/PrefixSelection.lean": {
+"lines": 112,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Representatives.lean": {
+"lines": 265,
+"counts": {
+"Classical_axiom_like": 2
+}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/ReservoirCycles.lean": {
+"lines": 776,
+"counts": {
+"Classical_axiom_like": 1
+}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/ReservoirRemainder.lean": {
+"lines": 742,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/ReservoirSampling.lean": {
+"lines": 399,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Routing.lean": {
+"lines": 1041,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Sampling.lean": {
+"lines": 389,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/SamplingCuts.lean": {
+"lines": 714,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/ScaleDecomposition.lean": {
+"lines": 633,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/ScaleExtraction.lean": {
+"lines": 623,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/ScaleHierarchy.lean": {
+"lines": 576,
+"counts": {}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Templates.lean": {
+"lines": 785,
+"counts": {
+"attribute_global": 2
+}
+},
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/UniformLayers.lean": {
+"lines": 298,
+"counts": {}
+}
+},
+"totals": {
+"sorry": 1,
+"admit": 0,
+"axiom": 0,
+"native_decide": 0,
+"decide_true": 0,
+"Decidable.decide_kernel": 0,
+"implemented_by": 0,
+"extern": 0,
+"unsafe": 0,
+"csimp": 0,
+"opaque": 0,
+"partial": 0,
+"macro": 0,
+"elab": 0,
+"syntax": 0,
+"initialize": 0,
+"notation_decl": 0,
+"set_option": 0,
+"skipKernelTC": 0,
+"Lean.Elab/Meta import": 0,
+"run_cmd": 0,
+"#eval": 0,
+"addDecl": 0,
+"attribute_global": 5,
+"instance_prio": 0,
+"export": 0,
+"open Lean": 0,
+"#exit": 0,
+"Classical_axiom_like": 5
+},
+"hits": [
+[
+"/tmp/oaimath/604/lean-build/repo/lean/ComparatorChallenges/CycleDecomposition.lean",
+32,
+"sorry",
+"sorry"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchIndexing.lean",
+309,
+"attribute_global",
+"attribute [instance] GraphBatches.finite"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchIndexing.lean",
+428,
+"attribute_global",
+"attribute [instance] ActiveFamily.finite"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchResolution.lean",
+230,
+"attribute_global",
+"attribute [instance] BatchTemplateFamily.finiteIndex"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/BatchResolution.lean",
+378,
+"Classical_axiom_like",
+"fun b => Classical.choice (hT b)"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/CoupledResolution.lean",
+784,
+"Classical_axiom_like",
+"let prep (b : B) := Classical.choice (hp b)"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Representatives.lean",
+26,
+"Classical_axiom_like",
+"| empty => exact \u27e8fun _ => Classical.choice inferInstance, by simp\u27e9"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Representatives.lean",
+216,
+"Classical_axiom_like",
+"let v : V := Classical.choice inferInstance"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/ReservoirCycles.lean",
+391,
+"Classical_axiom_like",
+"let e := fun v => Classical.choice (he v)"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Templates.lean",
+431,
+"attribute_global",
+"attribute [instance] CycleOutline.finiteW"
+],
+[
+"/tmp/oaimath/604/lean-build/repo/lean/OAI/Combinatorics/CycleDecomposition/Templates.lean",
+608,
+"attribute_global",
+"attribute [instance] RoutingTemplate.finiteArity"
+]
+]
+}

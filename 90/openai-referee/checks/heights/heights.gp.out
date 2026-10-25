@@ -1,0 +1,33 @@
+== Q(i)   pol = x^2 + 1   d_N = 2
+u=2*x + 1            sum*log|u|_v= 8.6 e-78 | CTRL once/prime= 0.0000 CTRL sq.mod= 0.8047 | h_places=0.8047189562 h_Mahler=0.8047189562 diff= 0.e-77 | h(1/u)-h(u)=-9. e-78 | sum*|log|u|_v|-2h=-2. e-77
+u=3                  sum*log|u|_v= 0.e-76 | CTRL once/prime= 0.5493 CTRL sq.mod= 1.0986 | h_places=1.0986122887 h_Mahler=1.0986122887 diff= 0.e-76 | h(1/u)-h(u)= 0.e-76 | sum*|log|u|_v|-2h= 0.e-76
+u=1/3*x + 1/3        sum*log|u|_v= 0.e-76 | CTRL once/prime=-0.3760 CTRL sq.mod=-0.7520 | h_places=1.0986122887 h_Mahler=1.0986122887 diff= 0.e-76 | h(1/u)-h(u)= 0.e-76 | sum*|log|u|_v|-2h= 0.e-76
+u=5/(x + 2)          sum*log|u|_v= 8.6 e-78 | CTRL once/prime= 0.0000 CTRL sq.mod= 0.8047 | h_places=0.8047189562 h_Mahler=0.8047189562 diff= 0.e-77 | h(1/u)-h(u)=-9. e-78 | sum*|log|u|_v|-2h=-2. e-77
+u=7                  sum*log|u|_v= 0.e-76 | CTRL once/prime= 0.9730 CTRL sq.mod= 1.9459 | h_places=1.9459101491 h_Mahler=1.9459101491 diff= 0.e-76 | h(1/u)-h(u)= 0.e-76 | sum*|log|u|_v|-2h= 0.e-76
+u=4/5*x + 3/5        sum*log|u|_v= 0.e-77 | CTRL once/prime= 0.0000 CTRL sq.mod= 0.0000 | h_places=0.8047189562 h_Mahler=0.8047189562 diff= 0.e-77 | h(1/u)-h(u)= 0.e-77 | sum*|log|u|_v|-2h= 0.e-76
+u=2                  sum*log|u|_v= 0.e-77 | CTRL once/prime= 0.3466 CTRL sq.mod= 0.6931 | h_places=0.6931471806 h_Mahler=0.6931471806 diff= 0.e-77 | h(1/u)-h(u)= 0.e-77 | sum*|log|u|_v|-2h= 0.e-76
+u=x + 1              sum*log|u|_v=-4.3 e-78 | CTRL once/prime= 0.1733 CTRL sq.mod= 0.3466 | h_places=0.3465735903 h_Mahler=0.3465735903 diff= 0.e-77 | h(1/u)-h(u)= 4. e-78 | sum*|log|u|_v|-2h= 0.e-77
+u=12/(12*x + 5)      sum*log|u|_v= 0.e-76 | CTRL once/prime= 1.2425 CTRL sq.mod=-0.0800 | h_places=2.5649493575 h_Mahler=2.5649493575 diff= 0.e-76 | h(1/u)-h(u)=-3. e-77 | sum*|log|u|_v|-2h= 0.e-76
+u=13*x/(-x + 4)      sum*log|u|_v= 0.e-76 | CTRL once/prime= 0.0000 CTRL sq.mod= 1.1483 | h_places=2.5649493575 h_Mahler=2.5649493575 diff= 0.e-76 | h(1/u)-h(u)= 0.e-76 | sum*|log|u|_v|-2h=-7. e-77
+== Q(sqrt2)   pol = x^2 - 2   d_N = 2
+u=x + 1              sum*log|u|_v=-8.6 e-78 | CTRL once/prime=-0.0000 CTRL sq.mod=-0.0000 | h_places=0.4406867935 h_Mahler=0.4406867935 diff=-4. e-78 | h(1/u)-h(u)= 0.e-77 | sum*|log|u|_v|-2h= 9. e-78
+u=2*x + 3            sum*log|u|_v= 2.6 e-77 | CTRL once/prime= 0.0000 CTRL sq.mod= 0.0000 | h_places=0.8813735870 h_Mahler=0.8813735870 diff=-9. e-78 | h(1/u)-h(u)= 0.e-77 | sum*|log|u|_v|-2h=-3. e-77
+u=1/7*x + 1/7        sum*log|u|_v=-2.6 e-77 | CTRL once/prime=-0.0000 CTRL sq.mod=-1.9459 | h_places=1.9459101491 h_Mahler=1.9459101491 diff= 0.e-76 | h(1/u)-h(u)=-2. e-77 | sum*|log|u|_v|-2h= 0.e-76
+u=1/3*x              sum*log|u|_v= 0.e-76 | CTRL once/prime=-0.3760 CTRL sq.mod=-0.7520 | h_places=1.0986122887 h_Mahler=1.0986122887 diff= 0.e-76 | h(1/u)-h(u)= 0.e-76 | sum*|log|u|_v|-2h= 0.e-76
+u=5                  sum*log|u|_v= 0.e-76 | CTRL once/prime= 0.8047 CTRL sq.mod= 1.6094 | h_places=1.6094379124 h_Mahler=1.6094379124 diff= 0.e-76 | h(1/u)-h(u)= 0.e-76 | sum*|log|u|_v|-2h= 0.e-76
+u=(x - 1)/(x + 3)    sum*log|u|_v=-2.6 e-77 | CTRL once/prime=-0.0000 CTRL sq.mod=-0.9730 | h_places=1.1831016383 h_Mahler=1.1831016383 diff= 0.e-76 | h(1/u)-h(u)= 0.e-76 | sum*|log|u|_v|-2h= 0.e-76
+== Q(zeta8)   pol = x^4 + 1   d_N = 4
+u=2*x^2 + 1          sum*log|u|_v=-1.7 e-77 | CTRL once/prime= 0.4024 CTRL sq.mod= 0.8047 | h_places=0.8047189562 h_Mahler=0.8047189562 diff=-3. e-77 | h(1/u)-h(u)= 2. e-77 | sum*|log|u|_v|-2h= 2. e-77
+u=3                  sum*log|u|_v= 0.e-77 | CTRL once/prime= 0.5493 CTRL sq.mod= 1.0986 | h_places=1.0986122887 h_Mahler=1.0986122887 diff= 0.e-76 | h(1/u)-h(u)= 0.e-76 | sum*|log|u|_v|-2h= 0.e-76
+u=7                  sum*log|u|_v=-8.6 e-78 | CTRL once/prime= 0.9730 CTRL sq.mod= 1.9459 | h_places=1.9459101491 h_Mahler=1.9459101491 diff=-2. e-77 | h(1/u)-h(u)= 2. e-77 | sum*|log|u|_v|-2h= 0.e-76
+u=4/5*x^2 + 3/5      sum*log|u|_v= 0.e-77 | CTRL once/prime= 0.0000 CTRL sq.mod= 0.0000 | h_places=0.8047189562 h_Mahler=0.8047189562 diff= 0.e-77 | h(1/u)-h(u)= 0.e-77 | sum*|log|u|_v|-2h= 0.e-76
+u=-x^3 + x + 1       sum*log|u|_v=-3.0 e-77 | CTRL once/prime=-0.0000 CTRL sq.mod=-0.0000 | h_places=0.4406867935 h_Mahler=0.4406867935 diff=-4. e-78 | h(1/u)-h(u)= 0.e-77 | sum*|log|u|_v|-2h= 3. e-77
+u=-2*x^3 + 2*x + 3   sum*log|u|_v= 1.2 e-76 | CTRL once/prime= 0.0000 CTRL sq.mod= 0.0000 | h_places=0.8813735870 h_Mahler=0.8813735870 diff=-9. e-78 | h(1/u)-h(u)= 0.e-77 | sum*|log|u|_v|-2h=-1. e-76
+u=-1/7*x^3 + 1/7*x + 1/7 sum*log|u|_v=-2.6 e-77 | CTRL once/prime=-0.9730 CTRL sq.mod=-1.9459 | h_places=1.9459101491 h_Mahler=1.9459101491 diff= 0.e-76 | h(1/u)-h(u)=-5. e-77 | sum*|log|u|_v|-2h= 0.e-76
+field independence: h(1+2i): Q(i) - Q(zeta8) = 2.5908505665283333876 E-77;   h(1+sqrt2): Q(sqrt2) - Q(zeta8) = 0.E-77
+(4.4) 300 random pairs: max[h(uv)-h(u)-h(v)] = 1.3817869688151111401 E-76   max[h(u+v)-h(u)-h(v)-log2] = -0.103819682389122250807720522133693833748366296340406950031837   all ok: 1
+(4.4) equality case u=v=1: h(2)-2h(1)-log2 = 0.E-77;  CONTROL without log2: h(2)-2h(1) = 0.693147180559945309417232121458176568075500134360255254120680  (>0: the log 2 is needed)
+(4.5) B=1.5: P(|sX|>B)=0.5714 <= Eh/logB=2.8775 : 1     (4.6) r=0.50: P(X!=0,|sX|<r)=0.2857 <= Eh/log(1/r)=1.6832 : 1
+(4.5) B=2.0: P(|sX|>B)=0.5714 <= Eh/logB=1.6832 : 1     (4.6) r=0.30: P(X!=0,|sX|<r)=0.1429 <= Eh/log(1/r)=0.9691 : 1
+(4.5) B=4.0: P(|sX|>B)=0.2143 <= Eh/logB=0.8416 : 1     (4.6) r=0.10: P(X!=0,|sX|<r)=0.0714 <= Eh/log(1/r)=0.5067 : 1
+CONTROL (4.6) with archimedean-only height: X=1/7, P_sigma(|sX|<1/2)=1 but arch log+ part = 0.000 (bound 0 fails); true bound h(1/7)/log 2 = 2.807

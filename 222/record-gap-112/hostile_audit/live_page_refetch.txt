@@ -1,0 +1,70 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/222
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN
+Let 𝑛1 <𝑛2 <⋯
+ be the sequence of integers which are the sum of two squares. Explore the behaviour of (i.e. find good upper and lower bounds for) the consecutive differences 𝑛𝑘+1 −𝑛𝑘
+.
+#222: [Er57][Er61]
+number theory | squares
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+Erdős [Er51] proved that, for infinitely many 𝑘
+,
+𝑛𝑘+1−𝑛𝑘≫
+log⁡𝑛𝑘
+√log⁡log⁡𝑛𝑘
+.
+Richards [Ri82] improved this to
+lim sup
+𝑘→∞
+𝑛𝑘+1−𝑛𝑘
+log⁡𝑛𝑘
+≥1/4.
+The constant 1/4
+ here has been improved, most lately to 0.868⋯
+ by Dietmann, Elsholtz, Kalmynin, Konyagin, and Maynard [DEKKM22].
+
+The best known upper bound is due to Bambah and Chowla [BaCh47], who proved that
+𝑛𝑘+1−𝑛𝑘≪𝑛1/4
+𝑘.
+The differences are listed at A256435 on the OEIS.
+
+View the LaTeX source
+
+View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: A001481 A256435
+
+0 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	Dogmachine
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	Dogmachine
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #222, https://www.erdosproblems.com/222, accessed 2026-08-11
+Previous
+Next
+
+Page title: 222 | Erdős Problems
+URL: https://www.erdosproblems.com/222

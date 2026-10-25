@@ -1,0 +1,9 @@
+BridgeFCMutSmall.lean:59:35: error: Application type mismatch: The argument
+  h OAI.GrahamSpherical.witness hfin hcos
+has type
+  OAI.GrahamSpherical.witness.ncard ≤ 5 → IsRamsey OAI.GrahamSpherical.witness
+but is expected to have type
+  IsRamsey OAI.GrahamSpherical.witness
+in the application
+  isRamsey_witness_oai (h OAI.GrahamSpherical.witness hfin hcos)
+BridgeFCMutSmall rc=1 (must be nonzero)

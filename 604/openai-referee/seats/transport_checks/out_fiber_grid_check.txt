@@ -1,0 +1,4 @@
+(a) p-adic exact (6.10): 12000 checks, 0 failures | CONTROL (z off fiber): 50/50 failures (must be > 0)
+(b) complex place + random grids: {'fib610': 7200, 'fib610_bad': 0, 'UV': 7200, 'UV_bad': 0, 'eq68': 800, 'eq68_bad': 0, 'eq69': 800, 'eq69_bad': 0, 'bound': 800, 'bound_bad': 0}
+    max |D_j^mu(x,y)-D_jprime^mu(oo,y)| / (Lip(w) * Delta-error) = 0.193 (must be <= 1)
+CONTROL (b) (one point off the fiber): (6.10) failures = 20 / 20 (must be > 0)

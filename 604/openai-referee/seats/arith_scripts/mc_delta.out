@@ -1,0 +1,37 @@
+PAPER CONSTRUCTION
+  A: R=1, angle 0, at origin: mean=-1.4621 sd=1.1026 max=0.2649 (log sqrt2=0.3466) P(D<-1)=0.5828 P(D<-2)=0.23809 P(D<-3)=0.09095
+  B: R=317.3, angle 1.1, off-origin: mean=-1.4558 sd=1.0947 max=0.2793 (log sqrt2=0.3466) P(D<-1)=0.5818 P(D<-2)=0.23637 P(D<-3)=0.08942
+  C: R=0.0037, angle pi/4: mean=-1.4600 sd=1.0903 max=0.2599 (log sqrt2=0.3466) P(D<-1)=0.5858 P(D<-2)=0.23585 P(D<-3)=0.08981
+  D: R=sqrt2 (=1.4142), angle 0: mean=-1.4558 sd=1.0861 max=0.2909 (log sqrt2=0.3466) P(D<-1)=0.5846 P(D<-2)=0.23564 P(D<-3)=0.08850
+  KS A vs A' (independent rerun, calibration): KstestResult(statistic=np.float64(0.003910000000000025), pvalue=np.float64(0.42808914538350606), statistic_location=np.float64(-1.425173333737311), statistic_sign=np.int8(-1))
+  KS A vs B: KstestResult(statistic=np.float64(0.0032200000000000006), pvalue=np.float64(0.6764598355032652), statistic_location=np.float64(-0.7351255806307476), statistic_sign=np.int8(1))
+  KS A vs C: KstestResult(statistic=np.float64(0.003990000000000049), pvalue=np.float64(0.4025582044813488), statistic_location=np.float64(-0.963393414104349), statistic_sign=np.int8(-1))
+  KS A vs D: KstestResult(statistic=np.float64(0.0037499999999999895), pvalue=np.float64(0.48176335454522834), statistic_location=np.float64(-2.6994349977492136), statistic_sign=np.int8(1))
+TAILS (pooled, n=400000): empirical P(Delta<-u) vs paper bound 2*sqrt2*e^-u
+  u=0: emp=0.994890  bound=2.828427  emp*e^u=0.9949
+  u=0.5: emp=0.852187  bound=1.715528  emp*e^u=1.4050
+  u=1: emp=0.583753  bound=1.040520  emp*e^u=1.5868
+  u=2: emp=0.236487  bound=0.382786  emp*e^u=1.7474
+  u=3: emp=0.089670  bound=0.140819  emp*e^u=1.8011
+  u=4: emp=0.033447  bound=0.051804  emp*e^u=1.8262
+  u=5: emp=0.012518  bound=0.019058  emp*e^u=1.8578
+  u=6: emp=0.004548  bound=0.007011  emp*e^u=1.8346
+CONTROLS (law SHOULD depend on pair)
+  fixed grid, pair B (straddles the grid line u=0 forever):
+    [fixed] 1.000 of samples NEVER share a cell up to side 2^65 (Delta=-inf)
+  fixed A: mean=-0.6931 sd=0.0000 max=-0.6931 (log sqrt2=0.3466) P(D<-1)=0.0000 P(D<-2)=0.00000 P(D<-3)=0.00000
+  fixed C: mean=-0.0542 sd=0.0000 max=-0.0542 (log sqrt2=0.3466) P(D<-1)=0.0000 P(D<-2)=0.00000 P(D<-3)=0.00000
+  KS fixed: A vs C: KstestResult(statistic=np.float64(1.0), pvalue=np.float64(0.0), statistic_location=np.float64(-0.6931471805599453), statistic_sign=np.int8(1))
+  noxi A: mean=-1.4707 sd=1.0753 max=0.0000 (log sqrt2=0.3466) P(D<-1)=0.5573 P(D<-2)=0.29910 P(D<-3)=0.07699
+  noxi D: mean=-1.4444 sd=1.0958 max=-0.3466 (log sqrt2=0.3466) P(D<-1)=0.7409 P(D<-2)=0.21510 P(D<-3)=0.10986
+  KS noxi: A vs D: KstestResult(statistic=np.float64(0.21536999999999995), pvalue=np.float64(0.0), statistic_location=np.float64(-0.6931471805599453), statistic_sign=np.int8(1))
+  norot A: mean=-1.3464 sd=1.0178 max=-0.0015 (log sqrt2=0.3466) P(D<-1)=0.5317 P(D<-2)=0.19541 P(D<-3)=0.07188
+  norot C: mean=-1.4992 sd=1.1355 max=0.3338 (log sqrt2=0.3466) P(D<-1)=0.6038 P(D<-2)=0.25478 P(D<-3)=0.09724
+  KS norot: A vs C: KstestResult(statistic=np.float64(0.08537000000000006), pvalue=np.float64(1.768586e-317), statistic_location=np.float64(-1.1997144756543374), statistic_sign=np.int8(-1))
+  KS norot: R=1 angle 0 vs R=1 angle pi/4: KstestResult(statistic=np.float64(0.08262000000000003), pvalue=np.float64(2.3704736370142198e-297), statistic_location=np.float64(-1.3195959204583658), statistic_sign=np.int8(-1))  means -1.3488526666161738 -1.4994630166251286
+  KS sameshift: same displacement, base (0,0) vs (0.5,-0.5): KstestResult(statistic=np.float64(0.04647000000000001), pvalue=np.float64(2.8756180286668244e-94), statistic_location=np.float64(-1.4137357105218988), statistic_sign=np.int8(-1))  means -1.4102224173096753 -1.4656175434244145
+  KS paper    : same pair (0.5,-0.5)->(1.5,-0.5) vs pair A: KstestResult(statistic=np.float64(0.002809999999999979), pvalue=np.float64(0.8236027172482262), statistic_location=np.float64(-1.9112880042352043), statistic_sign=np.int8(1))
+
+real	0m7.968s
+user	0m8.828s
+sys	0m0.809s

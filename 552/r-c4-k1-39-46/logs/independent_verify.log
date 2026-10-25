@@ -1,0 +1,12 @@
+provenance=PASS commit=86a1c5055eea5e3891b2eeaea6c7ee1b3977bd33
+published_prior_scope=46<=R(C4,K1,39)<=47 R(C4,K1,40)=47 lower_bound_already_established=YES
+live_gate=OPEN claimed_proofs=0 current_worker=None
+other_current_claimant=suitedaces/ramsey-c4-star39 status=unreviewed audit_scope=EXCLUDED
+lower_witness=PASS vertices=45 edges=147 min_degree=6 degree6=21 degree7=24 c4=0
+lower_witness_negative_controls=PASS
+general_moment_controls=PASS reg_3_10.json:10,3,3,-63 reg_4_15.json:15,4,2,-64 reg_5_26.json:26,5,5,-405 reg_6_34.json:34,6,3,-96
+universal_reduction=PASS degrees=[7] local=[(2,0),(3,2)] surviving=(3,2)
+moments=PASS fixed=(45, -7, 273, -67, 1785) fifth=T-615 T=0..92 support_squared=3..9
+factored_dual_certificate=PASS lower_margin=15497/378125 upper_margin=1574082/13234375
+certificate_negative_controls=PASS loose_T=200 rational_endpoint=173/100
+INDEPENDENT_AUDIT=PASS exact_claim=R(C4,K1,39)=46

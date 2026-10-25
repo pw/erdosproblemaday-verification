@@ -1,0 +1,332 @@
+@@@ BEGIN thm OAI.GrahamSpherical.full_main
+OAI.GrahamSpherical.full_main : OAI.GrahamSpherical.Specification.FullAuthoredResult
+'OAI.GrahamSpherical.full_main' depends on axioms: [propext, sorryAx.{u}, Classical.choice.{u}, Quot.sound.{u}]
+@@@ BEGIN def OAI.GrahamSpherical.Point
+@[reducible] def OAI.GrahamSpherical.Point : (n : Nat) → Type :=
+fun (n : Nat) => EuclideanSpace.{0, 0} Real (Fin n)
+@@@ BEGIN def OAI.GrahamSpherical.Label
+@[reducible] def OAI.GrahamSpherical.Label : Type :=
+Prod.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+  (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+@@@ BEGIN def OAI.GrahamSpherical.parameter
+def OAI.GrahamSpherical.parameter : Real :=
+@tsum.{0, 0} Real Nat Real.instAddCommMonoid
+  (@UniformSpace.toTopologicalSpace.{0} Real (@PseudoMetricSpace.toUniformSpace.{0} Real Real.pseudoMetricSpace))
+  (fun (m : Nat) =>
+    @HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+      (@HPow.hPow.{0, 0, 0} Real Nat Real
+        (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+        (@OfNat.ofNat.{0} Real (nat_lit 10)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 10) Real.instNatCast OAI.GrahamSpherical.parameter._proof_1))
+        (Nat.factorial
+          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) m
+            (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+  (SummationFilter.unconditional.{0} Nat)
+@@@ BEGIN def OAI.GrahamSpherical.u
+def OAI.GrahamSpherical.u : Real :=
+@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+  (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+    (@HPow.hPow.{0, 0, 0} Real Nat Real
+      (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+      OAI.GrahamSpherical.parameter (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+    (@HPow.hPow.{0, 0, 0} Real Nat Real
+      (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+      OAI.GrahamSpherical.parameter (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+@@@ BEGIN def OAI.GrahamSpherical.v
+def OAI.GrahamSpherical.v : Real :=
+@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+    (@OfNat.ofNat.{0} Real (nat_lit 2)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast OAI.GrahamSpherical.v._proof_1))
+    OAI.GrahamSpherical.parameter)
+  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+    (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+    (@HPow.hPow.{0, 0, 0} Real Nat Real
+      (@instHPow.{0, 0} Real Nat (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+      OAI.GrahamSpherical.parameter (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+@@@ BEGIN def OAI.GrahamSpherical.squareCoordinate
+def OAI.GrahamSpherical.squareCoordinate : (q : Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) →
+  Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) → Real :=
+fun (q : Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) =>
+  @ite.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) → Real)
+    (@Eq.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) q
+      (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) (nat_lit 0)
+        (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+          OAI.GrahamSpherical.squareCoordinate._proof_1 (nat_lit 0))))
+    (instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) q
+      (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) (nat_lit 0)
+        (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+          OAI.GrahamSpherical.squareCoordinate._proof_1 (nat_lit 0))))
+    (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+      (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+        (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) (@Matrix.vecEmpty.{0} Real)))
+    (@ite.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) → Real)
+      (@Eq.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) q
+        (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) (nat_lit 1)
+          (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+            OAI.GrahamSpherical.squareCoordinate._proof_1 (nat_lit 1))))
+      (instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) q
+        (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) (nat_lit 1)
+          (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+            OAI.GrahamSpherical.squareCoordinate._proof_1 (nat_lit 1))))
+      (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+        (@Neg.neg.{0} Real Real.instNeg (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+        (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+          (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) (@Matrix.vecEmpty.{0} Real)))
+      (@ite.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) → Real)
+        (@Eq.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) q
+          (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) (nat_lit 2)
+            (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+              OAI.GrahamSpherical.squareCoordinate._proof_1 (nat_lit 2))))
+        (instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) q
+          (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) (nat_lit 2)
+            (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+              OAI.GrahamSpherical.squareCoordinate._proof_1 (nat_lit 2))))
+        (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+          (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+          (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+            (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) (@Matrix.vecEmpty.{0} Real)))
+        (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+          (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+          (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+            (@Neg.neg.{0} Real Real.instNeg (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+            (@Matrix.vecEmpty.{0} Real)))))
+@@@ BEGIN def OAI.GrahamSpherical.coordinates
+def OAI.GrahamSpherical.coordinates : (i : OAI.GrahamSpherical.Label) →
+  Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) → Real :=
+fun (i : OAI.GrahamSpherical.Label) =>
+  have q : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) → Real :=
+    OAI.GrahamSpherical.squareCoordinate
+      (@Prod.snd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+        (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) i);
+  @ite.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) → Real)
+    (@Eq.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+      (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+        (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) i)
+      (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))) (nat_lit 0)
+        (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+          OAI.GrahamSpherical.coordinates._proof_1 (nat_lit 0))))
+    (instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+      (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+        (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) i)
+      (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))) (nat_lit 0)
+        (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+          OAI.GrahamSpherical.coordinates._proof_1 (nat_lit 0))))
+    (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.GrahamSpherical.u
+          (q
+            (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 0)
+              (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                OAI.GrahamSpherical.coordinates._proof_2 (nat_lit 0)))))
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.GrahamSpherical.v
+          (q
+            (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 1)
+              (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                OAI.GrahamSpherical.coordinates._proof_2 (nat_lit 1))))))
+      (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.GrahamSpherical.v
+            (q
+              (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 0)
+                (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                  OAI.GrahamSpherical.coordinates._proof_2 (nat_lit 0)))))
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.GrahamSpherical.u
+            (q
+              (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 1)
+                (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                  OAI.GrahamSpherical.coordinates._proof_2 (nat_lit 1))))))
+        (@Matrix.vecEmpty.{0} Real)))
+    (@ite.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) → Real)
+      (@Eq.{1} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+        (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+          (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) i)
+        (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))) (nat_lit 1)
+          (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+            OAI.GrahamSpherical.coordinates._proof_1 (nat_lit 1))))
+      (instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+        (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+          (Fin (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))) i)
+        (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))) (nat_lit 1)
+          (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+            OAI.GrahamSpherical.coordinates._proof_1 (nat_lit 1))))
+      (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.GrahamSpherical.u
+            (q
+              (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 0)
+                (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                  OAI.GrahamSpherical.coordinates._proof_2 (nat_lit 0)))))
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.GrahamSpherical.v
+            (q
+              (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 1)
+                (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                  OAI.GrahamSpherical.coordinates._proof_2 (nat_lit 1))))))
+        (@Matrix.vecCons.{0} Real (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+          (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (@Neg.neg.{0} Real Real.instNeg OAI.GrahamSpherical.v)
+              (q
+                (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 0)
+                  (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    OAI.GrahamSpherical.coordinates._proof_2 (nat_lit 0)))))
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) OAI.GrahamSpherical.u
+              (q
+                (@OfNat.ofNat.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 1)
+                  (@Fin.instOfNat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    OAI.GrahamSpherical.coordinates._proof_2 (nat_lit 1))))))
+          (@Matrix.vecEmpty.{0} Real)))
+      q)
+@@@ BEGIN def OAI.GrahamSpherical.vertex
+def OAI.GrahamSpherical.vertex : (i : OAI.GrahamSpherical.Label) →
+  OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) :=
+fun (i : OAI.GrahamSpherical.Label) =>
+  @WithLp.toLp.{0}
+    (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+      (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+        (@AddMonoidWithOne.toNatCast.{0} ENNReal
+          (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+        OAI.GrahamSpherical.v._proof_1))
+    ((i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →
+      (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real) i)
+    (OAI.GrahamSpherical.coordinates i)
+@@@ BEGIN def OAI.GrahamSpherical.witness
+def OAI.GrahamSpherical.witness : Set.{0}
+  (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) :=
+@Set.range.{0, 1} (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+  OAI.GrahamSpherical.Label OAI.GrahamSpherical.vertex
+@@@ BEGIN def OAI.GrahamSpherical.AvoidsCopy
+def OAI.GrahamSpherical.AvoidsCopy : {d n r : Nat} →
+  (X : Set.{0} (OAI.GrahamSpherical.Point d)) → (color : OAI.GrahamSpherical.Point n → Fin r) → Prop :=
+fun {d n r : Nat} (X : Set.{0} (OAI.GrahamSpherical.Point d)) (color : OAI.GrahamSpherical.Point n → Fin r) =>
+  Not
+    (@Exists.{1} (@Set.Elem.{0} (OAI.GrahamSpherical.Point d) X → OAI.GrahamSpherical.Point n)
+      fun (f : @Set.Elem.{0} (OAI.GrahamSpherical.Point d) X → OAI.GrahamSpherical.Point n) =>
+      And
+        (@Isometry.{0, 0} (@Set.Elem.{0} (OAI.GrahamSpherical.Point d) X) (OAI.GrahamSpherical.Point n)
+          (@instPseudoEMetricSpaceSubtype.{0} (OAI.GrahamSpherical.Point d)
+            (fun (x : OAI.GrahamSpherical.Point d) =>
+              @Membership.mem.{0, 0} (OAI.GrahamSpherical.Point d) (Set.{0} (OAI.GrahamSpherical.Point d))
+                (@Set.instMembership.{0} (OAI.GrahamSpherical.Point d)) X x)
+            (@PiLp.instPseudoEMetricSpace.{0, 0}
+              (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+                (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                  (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                    (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                  PiLp.innerProductSpace._proof_1))
+              (Fin d) (fun (x : Fin d) => Real) fact_one_le_two_ennreal (Fin.fintype d) fun (i : Fin d) =>
+              @EMetricSpace.toPseudoEMetricSpace.{0} Real (@MetricSpace.toEMetricSpace.{0} Real Real.metricSpace)))
+          (@PiLp.instPseudoEMetricSpace.{0, 0}
+            (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+              (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                  (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                PiLp.innerProductSpace._proof_1))
+            (Fin n) (fun (x : Fin n) => Real) fact_one_le_two_ennreal (Fin.fintype n) fun (i : Fin n) =>
+            @EMetricSpace.toPseudoEMetricSpace.{0} Real (@MetricSpace.toEMetricSpace.{0} Real Real.metricSpace))
+          f)
+        (@Exists.{1} (Fin r) fun (c : Fin r) =>
+          ∀ (x : @Set.Elem.{0} (OAI.GrahamSpherical.Point d) X), @Eq.{1} (Fin r) (color (f x)) c))
+@@@ BEGIN def OAI.GrahamSpherical.EuclideanRamsey
+def OAI.GrahamSpherical.EuclideanRamsey : {d : Nat} → (X : Set.{0} (OAI.GrahamSpherical.Point d)) → Prop :=
+fun {d : Nat} (X : Set.{0} (OAI.GrahamSpherical.Point d)) =>
+  ∀ (r : Nat),
+    @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) r →
+      @Exists.{1} Nat fun (n : Nat) =>
+        And (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)
+          (∀ (color : OAI.GrahamSpherical.Point n → Fin r),
+            @Exists.{1} (@Set.Elem.{0} (OAI.GrahamSpherical.Point d) X → OAI.GrahamSpherical.Point n)
+              fun (f : @Set.Elem.{0} (OAI.GrahamSpherical.Point d) X → OAI.GrahamSpherical.Point n) =>
+              And
+                (@Isometry.{0, 0} (@Set.Elem.{0} (OAI.GrahamSpherical.Point d) X) (OAI.GrahamSpherical.Point n)
+                  (@instPseudoEMetricSpaceSubtype.{0} (OAI.GrahamSpherical.Point d)
+                    (fun (x : OAI.GrahamSpherical.Point d) =>
+                      @Membership.mem.{0, 0} (OAI.GrahamSpherical.Point d) (Set.{0} (OAI.GrahamSpherical.Point d))
+                        (@Set.instMembership.{0} (OAI.GrahamSpherical.Point d)) X x)
+                    (@PiLp.instPseudoEMetricSpace.{0, 0}
+                      (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+                        (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                          (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                            (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                          PiLp.innerProductSpace._proof_1))
+                      (Fin d) (fun (x : Fin d) => Real) fact_one_le_two_ennreal (Fin.fintype d) fun (i : Fin d) =>
+                      @EMetricSpace.toPseudoEMetricSpace.{0} Real
+                        (@MetricSpace.toEMetricSpace.{0} Real Real.metricSpace)))
+                  (@PiLp.instPseudoEMetricSpace.{0, 0}
+                    (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+                      (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                        (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                          (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                        PiLp.innerProductSpace._proof_1))
+                    (Fin n) (fun (x : Fin n) => Real) fact_one_le_two_ennreal (Fin.fintype n) fun (i : Fin n) =>
+                    @EMetricSpace.toPseudoEMetricSpace.{0} Real (@MetricSpace.toEMetricSpace.{0} Real Real.metricSpace))
+                  f)
+                (@Exists.{1} (Fin r) fun (c : Fin r) =>
+                  ∀ (x : @Set.Elem.{0} (OAI.GrahamSpherical.Point d) X), @Eq.{1} (Fin r) (color (f x)) c))
+@@@ BEGIN def OAI.GrahamSpherical.Specification.FullAuthoredResult
+def OAI.GrahamSpherical.Specification.FullAuthoredResult : Prop :=
+And
+  (@Eq.{1} Nat
+    (@Set.ncard.{0} (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+      OAI.GrahamSpherical.witness)
+    (@OfNat.ofNat.{0} Nat (nat_lit 12) (instOfNatNat (nat_lit 12))))
+  (And
+    (@LE.le.{0} (Set.{0} (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+      (@Set.instLE.{0} (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+      OAI.GrahamSpherical.witness
+      (@Metric.sphere.{0} (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+        (@PiLp.instPseudoMetricSpace.{0, 0}
+          (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+            (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+              (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+              PiLp.innerProductSpace._proof_1))
+          (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real) fact_one_le_two_ennreal
+          (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          fun (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real.pseudoMetricSpace)
+        (@OfNat.ofNat.{0} (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          (nat_lit 0)
+          (@Zero.toOfNat0.{0} (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (@NegZeroClass.toZero.{0}
+              (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (@SubNegZeroMonoid.toNegZeroClass.{0}
+                (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (@SubtractionMonoid.toSubNegZeroMonoid.{0}
+                  (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (@SubtractionCommMonoid.toSubtractionMonoid.{0}
+                    (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@AddCommGroup.toDivisionAddCommMonoid.{0}
+                      (OAI.GrahamSpherical.Point (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@WithLp.instAddCommGroup.{0}
+                        (@OfNat.ofNat.{0} ENNReal (nat_lit 2)
+                          (@instOfNatAtLeastTwo.{0} ENNReal (nat_lit 2)
+                            (@AddMonoidWithOne.toNatCast.{0} ENNReal
+                              (@AddCommMonoidWithOne.toAddMonoidWithOne.{0} ENNReal ENNReal.instAddCommMonoidWithOne))
+                            PiLp.innerProductSpace._proof_1))
+                        ((i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →
+                          (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real) i)
+                        (@Pi.addCommGroup.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (fun (x : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) => Real)
+                          fun (i : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) =>
+                          Real.instAddCommGroup)))))))))
+        (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))))
+    (And
+      (∀ (n : Nat),
+        @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n →
+          @Exists.{1}
+            (OAI.GrahamSpherical.Point n → Fin (@OfNat.ofNat.{0} Nat (nat_lit 50) (instOfNatNat (nat_lit 50))))
+            fun
+              (color :
+                OAI.GrahamSpherical.Point n → Fin (@OfNat.ofNat.{0} Nat (nat_lit 50) (instOfNatNat (nat_lit 50)))) =>
+            @OAI.GrahamSpherical.AvoidsCopy (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) n
+              (@OfNat.ofNat.{0} Nat (nat_lit 50) (instOfNatNat (nat_lit 50))) OAI.GrahamSpherical.witness color)
+      (Not
+        (@OAI.GrahamSpherical.EuclideanRamsey (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+          OAI.GrahamSpherical.witness))))
+@@@ END

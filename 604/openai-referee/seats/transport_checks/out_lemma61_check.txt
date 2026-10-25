@@ -1,0 +1,5 @@
+random trees (hypothesis satisfied at delta = 2*min side mass): {'trees': 2478, 'main': 2478, 's1': 2478, 's2': 2478, 's3': 2478, 's4': 2478, 'lean': 2478}
+min LHS/paper_bound = 288.577   min LHS/lean_bound(eta^3 L) = 4.012
+adversarial hill-climb: min LHS/paper_bound = 288.553 (must be >= 1)
+CONTROL 1 (hypothesis violated): checker status = HYP_FAILS | LHS = 2.000e-05 < bound 2.367e-04 ? True
+CONTROL 2 (fake constant delta*L/4, uniform stars k=4,8,20,50): violations found = 3 of 4 (must be > 0)

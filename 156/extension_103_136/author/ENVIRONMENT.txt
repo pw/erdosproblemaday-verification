@@ -1,0 +1,7 @@
+Audit host: exe.dev VM, x86_64
+Kernel: Linux 6.12.93
+CPU: Intel Xeon Platinum 8259CL, 16 online CPUs
+Compiler: g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Python: 3.12.3
+OpenMP: libgomp supplied with GCC 13.3.0
+Audit date: 2026-08-11 UTC

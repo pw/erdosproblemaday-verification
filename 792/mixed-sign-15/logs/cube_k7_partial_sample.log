@@ -1,0 +1,3 @@
+CUBE n=15 k=7 t=7 cube=12,_,_,_,_,_,8 atoms=476 status=unsat secs=808.6
+CUBE n=15 k=7 t=7 cube=10,_,_,_,_,_,10 atoms=468 status=unsat secs=54.5
+CUBE n=15 k=7 t=7 cube=12,_,_,_,_,_,7 atoms=476 status=unknown secs=2400.0

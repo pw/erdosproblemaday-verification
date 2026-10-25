@@ -1,0 +1,22 @@
+[2026-10-21T12:37:12Z] BEGIN cmpmod
+[2026-10-21T12:37:22Z] END cmpmod rc=0 10s
+[2026-10-21T12:37:22Z] BEGIN cmpmod2
+[2026-10-21T12:37:30Z] END cmpmod2 rc=0 18s
+[2026-10-21T12:37:30Z] BEGIN smoke
+[2026-10-21T12:37:38Z] END smoke rc=0 26s
+[2026-10-21T12:37:39Z] BEGIN cmp2
+[2026-10-21T12:37:46Z] END cmp2 rc=0 34s
+[2026-10-21T12:37:46Z] BEGIN cmp
+[2026-10-21T12:37:54Z] END cmp rc=0 42s
+[2026-10-21T12:37:54Z] BEGIN ax
+[2026-10-21T12:38:02Z] END ax rc=0 50s
+[2026-10-21T12:38:02Z] BEGIN neg
+[2026-10-21T12:38:09Z] END neg rc=0 57s
+[2026-10-21T12:38:09Z] BEGIN typectl
+[2026-10-21T12:38:16Z] END typectl rc=1 64s
+[2026-10-21T12:38:16Z] statement_match: ALL_MATCH_STD_SORRYSEEN TotientAsymptotic: 36 MATCH / 0 MISMATCH TotientCompanionZero: 23 MATCH / 0 MISMATCH OAI.TotientAsymptotic.rho_mem STD_AXIOMS OAI.TotientAsymptotic.seeds_one_two STD_AXIOMS OAI.TotientAsymptotic.seed_least_preimage STD_AXIOMS OAI.TotientAsymptotic.extractedStructureInput STD_AXIOMS OAI.TotientAsymptotic.fordLemma26Input STD_AXIOMS OAI.TotientAsymptotic.primeNumberTheoremInput STD_AXIOMS OAI.TotientAsymptotic.ford_scale_lower STD_AXIOMS OAI.TotientAsymptotic.ford_scale_upper STD_AXIOMS OAI.TotientAsymptotic.fordScaleBounds STD_AXIOMS 
+[2026-10-21T12:38:45Z] BEGIN leanchecker_fresh
+[2026-10-21T13:39:06Z] END leanchecker_fresh rc=0 3621s
+[2026-10-21T13:39:06Z] BEGIN leanchecker_missing_control
+[2026-10-21T13:39:08Z] END leanchecker_missing_control rc=1 3623s
+[2026-10-21T13:39:08Z] LEANCHECKER DONE

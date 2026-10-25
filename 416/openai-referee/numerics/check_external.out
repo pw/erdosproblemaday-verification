@@ -1,0 +1,19 @@
+A264810 b-file: compared 10000, mismatches 0
+  V(2^10) =       298  in July report
+  V(2^11) =       555  in July report
+  V(2^12) =      1045  in July report
+  V(2^13) =      1971  in July report
+  V(2^14) =      3744  in July report
+  V(2^15) =      7107  in July report
+  V(2^16) =     13592  in July report
+  V(2^17) =     26149  in July report
+  V(2^18) =     50375  in July report
+  V(2^19) =     97337  in July report
+  V(2^20) =    188480  in July report
+  V(2^21) =    365460  in July report
+  V(2^22) =    709738  in July report
+  V(2^23) =   1380641  in July report
+  V(2^24) =   2688381  in July report
+  V(2^25) =   5240976  in July report
+July report V(2^10..2^25): 16 compared, 0 not found
+A049283 b-file vs route C: compared 10000, mismatches 0

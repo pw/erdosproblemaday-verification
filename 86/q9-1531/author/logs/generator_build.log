@@ -1,0 +1,4 @@
+2026-08-11T20:04:27Z
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+command: g++ -std=c++20 -O3 -Wall -Wextra -Wshadow -Wconversion -pedantic -fopenmp generator/q9_min_conflicts.cpp
+28ae0f26544a329bf5e9814e280eb03e937a751ae5ab6eb5235dd8afbc355fae  /tmp/q9_1531_bundle_generator

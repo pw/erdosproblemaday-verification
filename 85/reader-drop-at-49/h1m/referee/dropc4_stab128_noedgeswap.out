@@ -1,0 +1,3 @@
+pair-level SB: 127 permutations, 218626 clauses
+k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] M=000022000022220022000000 mcard=24 vars=600 clauses=278130 c4=0 derived=24 sb=16 slots=528 ph=280 edgeswap=0 cov=0 mu=- mucl=0 trans_sb=16 DROP-C4 CONTROL
+SAT  recheck: 0 structural violations [], max codegree 4, lex violations 0, PH violations 0, pair-perm lex violations 0/127

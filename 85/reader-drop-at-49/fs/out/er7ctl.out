@@ -1,0 +1,8 @@
+er7_pass_0 kissat SAT free=20 classes=[] r1=8 degrees_ok=True maxcodeg=1 R1_ok=True lex_ok=True same_as_ER7=True
+er7_pass_0 cadical SAT free=20 classes=[] r1=8 degrees_ok=True maxcodeg=1 R1_ok=True lex_ok=True same_as_ER7=True
+er7_pass_1 kissat SAT free=20 classes=[] r1=8 degrees_ok=True maxcodeg=1 R1_ok=True lex_ok=True same_as_ER7=True
+er7_pass_1 cadical SAT free=20 classes=[] r1=8 degrees_ok=True maxcodeg=1 R1_ok=True lex_ok=True same_as_ER7=True
+er7_pass_2 kissat SAT free=20 classes=[] r1=8 degrees_ok=True maxcodeg=1 R1_ok=True lex_ok=True same_as_ER7=True
+er7_pass_2 cadical SAT free=20 classes=[] r1=8 degrees_ok=True maxcodeg=1 R1_ok=True lex_ok=True same_as_ER7=True
+er7_MUT_secant_r1 kissat UNSAT free=20 classes=[] r1=8 
+er7_MUT_secant_r1 cadical UNSAT free=20 classes=[] r1=8 

@@ -1,0 +1,20 @@
+# Excerpt (verbatim) of Illés–Pisinger's posted solutions file, q=11 block
+# Source: http://www.diku.dk/~pisinger/erdos.html -> output.c.gz ; archived copy:
+# http://web.archive.org/web/20001003134338/http://www.diku.dk:80/~pisinger/output.c.gz
+# gzip header: original name erdos.out, mtime Sat Dec 6 12:07:47 1997; erdos.html 'Last Update: January 5, 1998'
+ 1: iterations 1308, time 54.44, |B| 21, solution 0
+SOLUTION: 0 (alpha 4)
+q    = 11
+n    = 133
+alfa = 4
+gam  = 4
+y[1] = 84
+y[3] = 28
+y[4] = 21
+|B|  = 21
+time = 54.44
+difference set:
+3,16,24,27,31,33,43,74,75,97,111,131
+solution:
+5,13,22,26,27,33,39,40,50,74,78,80,84,89,92,94,96,99,107,112,114
+

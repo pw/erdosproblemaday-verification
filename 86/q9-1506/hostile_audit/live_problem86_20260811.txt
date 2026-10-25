@@ -1,0 +1,99 @@
+Connecting to Bright Data Browser API...
+Connected!
+Navigating to: https://www.erdosproblems.com/86
+JS Result: Forum
+Inbox
+Favourites
+Tags
+More
+ Go
+ Go
+Dual View
+Random Solved
+Random Open
+OPEN - $100
+Let 𝑄𝑛
+ be the 𝑛
+-dimensional hypercube graph (so that 𝑄𝑛
+ has 2𝑛
+ vertices and 𝑛⁢2𝑛−1
+ edges). Is it true that every subgraph of 𝑄𝑛
+ with
+≥(
+1
+2
++𝑜⁡(1))⁢𝑛⁢2𝑛−1
+many edges contains a 𝐶4
+?
+#86: [Er90][Er91][Er92b][Er93,p.343][Er94b][Er95][Er97f]
+graph theory
+The open status of this problem reflects the current belief of the owner of this website. There may be literature on this problem that I am unaware of, which may partially or completely solve the stated problem. Please do your own literature search before expending significant effort on solving this problem. If you find any relevant literature not mentioned here, please add this in a comment.
+Let 𝑓⁡(𝑛)
+ be the maximum number of edges in a subgraph of 𝑄𝑛
+ without a 𝐶4
+, so that this conjecture is that 𝑓⁡(𝑛) ≤(
+1
+2
+ +𝑜⁡(1))⁢𝑛⁢2𝑛−1
+.
+
+Erdős [Er91] showed that
+𝑓⁡(𝑛)≥(
+1
+2
++
+𝑐
+𝑛
+)⁢𝑛⁢2𝑛−1
+for some constant 𝑐 >0
+, and wrote it is 'perhaps not hopeless' to determine 𝑓⁡(𝑛)
+ exactly. Brass, Harborth, and Nienborg [BHN95] improved this to
+𝑓⁡(𝑛)≥(
+1
+2
++
+𝑐
+√𝑛
+)⁢𝑛⁢2𝑛−1
+for some constant 𝑐 >0
+.
+
+Balogh, Hu, Lidicky, and Liu [BHLL14] proved that 𝑓⁡(𝑛) ≤0.6068⁢𝑛⁢2𝑛−1
+. This was improved to  ≤0.60318⁢𝑛⁢2𝑛−1
+ by Baber [Ba12b].
+
+A similar question can be asked for other even cycles.
+
+See also [666] and the entry in the graphs problem collection.
+
+View the LaTeX source
+
+This page was last edited 27 December 2025. View history
+
+External data from the database - you can help update this
+Formalised statement? No (Create a formalisation here)
+Related OEIS sequences: A245762
+
+2 comments on this problem
+
+0 claimed proofs for this problem
+
+Likes this problem	None
+Interested in collaborating	None
+Currently working on this problem	None
+This problem looks difficult	None
+This problem looks tractable	None
+The results on this problem could be formalisable	None
+I am working on formalising the results on this problem	None
+
+
+Additional thanks to: Alex Grebennikov, Casey Tompkins, and Desmond Weisenberg
+
+When referring to this problem, please use the original sources of Erdős. If you wish to acknowledge this website, the recommended citation format is:
+
+T. F. Bloom, Erdős Problem #86, https://www.erdosproblems.com/86, accessed 2026-08-11
+Previous
+Next
+
+Page title: 86 | Erdős Problems
+URL: https://www.erdosproblems.com/86

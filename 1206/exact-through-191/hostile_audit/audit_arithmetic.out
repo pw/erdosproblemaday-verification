@@ -1,0 +1,37 @@
+N=132: pairs=8778 sums=8711 edges=67
+N=133: pairs=8911 sums=8844 edges=67
+N=134: pairs=9045 sums=8976 edges=69
+N=137: pairs=9453 sums=9381 edges=72
+N=138: pairs=9591 sums=9518 edges=73
+N=143: pairs=10296 sums=10220 edges=76
+N=144: pairs=10440 sums=10362 edges=78
+N=155: pairs=12090 sums=12005 edges=85
+N=156: pairs=12246 sums=12158 edges=88
+N=160: pairs=12880 sums=12788 edges=92
+N=161: pairs=13041 sums=12948 edges=93
+N=164: pairs=13530 sums=13434 edges=96
+N=165: pairs=13695 sums=13595 edges=100
+N=166: pairs=13861 sums=13760 edges=101
+N=171: pairs=14706 sums=14601 edges=105
+N=172: pairs=14878 sums=14770 edges=108
+N=173: pairs=15051 sums=14943 edges=108
+N=174: pairs=15225 sums=15115 edges=110
+N=179: pairs=16110 sums=15995 edges=115
+N=180: pairs=16290 sums=16172 edges=118
+N=185: pairs=17205 sums=17085 edges=120
+N=186: pairs=17391 sums=17269 edges=122
+N=191: pairs=18336 sums=18212 edges=124
+range 132..133: tau=21; upper witness/direct sums PASS; retained=112 sums=6328
+range 134..137: tau=22; upper witness/direct sums PASS; retained=115 sums=6670
+range 138..143: tau=23; upper witness/direct sums PASS; retained=120 sums=7260
+range 144..155: tau=24; upper witness/direct sums PASS; retained=131 sums=8646
+range 156..160: tau=25; upper witness/direct sums PASS; retained=135 sums=9180
+range 161..164: tau=26; upper witness/direct sums PASS; retained=138 sums=9591
+range 165..165: tau=27; upper witness/direct sums PASS; retained=138 sums=9591
+range 166..171: tau=28; upper witness/direct sums PASS; retained=143 sums=10296
+range 172..173: tau=29; upper witness/direct sums PASS; retained=144 sums=10440
+range 174..179: tau=30; upper witness/direct sums PASS; retained=149 sums=11175
+range 180..185: tau=31; upper witness/direct sums PASS; retained=154 sums=11935
+range 186..191: tau=32; upper witness/direct sums PASS; retained=159 sums=12720
+N=191 canonical edge SHA256=644dadc2aa52bddd902f03811acff745e129add6406fac5a09be5099852fb081
+HOSTILE ARITHMETIC/WITNESS/INTERVAL AUDIT PASS

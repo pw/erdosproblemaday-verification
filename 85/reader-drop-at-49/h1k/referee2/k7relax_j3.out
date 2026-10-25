@@ -1,0 +1,3 @@
+pair-level SB: 47 permutations, 85586 clauses
+k=7 case j=3 e=[2, 2, 2, 2, 2, 2, 2, 1] vars=700 clauses=518006 c4=383992 derived=0 sb=18 slots=0 ph=280 RELAXED-PAIRS CONTROL
+UNKNOWN (cap 95)

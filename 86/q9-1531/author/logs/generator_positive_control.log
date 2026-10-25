@@ -1,0 +1,6 @@
+command: generator public1505 -> one-thread target1506, seed1
+FOUND 1506 edges; wrote /tmp/q9_1506_positive_control.json
+wall=0.01 user=0.01 rss=5300 exit=0
+dabcbd9b7c5eff04597bb1755c63a2a0aac3466b27a6be256501047c18805c54  /tmp/q9_1506_positive_control.json
+883919d0e3c7d571aadd920ad539667338dfdb74efa24e61808fb41754db573c  provenance/q9_edges_1506.json
+EDGE_SET_IDENTITY=PASS edges=1506

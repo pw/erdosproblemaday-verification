@@ -1,0 +1,153 @@
+[2026-10-12T05:39:33Z] BEGIN verify :: nice -n 19 bash scripts/verify.sh
+info: DistinctDistances/TrackB/SkewPencil.lean:994:0: 'DistinctDistances.TrackB.singular_skew_pencil_isotropic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/SkewPencil.lean:995:0: 'DistinctDistances.TrackB.different_subspaces_skew_restriction' depends on axioms: [propext,
+info: DistinctDistances/TrackB/SkewPencil.lean:996:0: 'DistinctDistances.TrackB.everywhere_singular_square_skew_pencil' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:128:0: 'DistinctDistances.TrackB.IncidenceMoments.alternating_power_moment_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:169:0: 'DistinctDistances.TrackB.IncidenceMoments.alternating_power_moment_top' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:170:0: 'DistinctDistances.TrackB.IncidenceMoments.alternating_polynomial_moment_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:205:0: 'DistinctDistances.TrackB.IncidenceMoments.alternating_polynomial_moment' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:321:0: 'DistinctDistances.TrackB.IncidenceMoments.polynomialMoment_root_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:322:0: 'DistinctDistances.TrackB.IncidenceMoments.polynomialMoment_root_top' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:415:0: 'DistinctDistances.TrackB.IncidenceMoments.triangleMomentPolynomial_series' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:456:0: 'DistinctDistances.TrackB.IncidenceMoments.triangle_series_coefficient' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:457:0: 'DistinctDistances.TrackB.IncidenceMoments.polynomialMoment_range' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:512:0: 'DistinctDistances.TrackB.IncidenceMoments.triangleMomentPolynomial_moment_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:513:0: 'DistinctDistances.TrackB.IncidenceMoments.triangleMomentPolynomial_moment_top' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:532:0: 'DistinctDistances.TrackB.IncidenceMoments.triangleMomentPolynomial_degree' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:570:0: 'DistinctDistances.TrackB.IncidenceMoments.triangleMoment_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:571:0: 'DistinctDistances.TrackB.IncidenceMoments.triangleMoment_top' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:646:0: 'DistinctDistances.TrackB.IncidenceMoments.shiftedSliceMoment_boundary_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:731:0: 'DistinctDistances.TrackB.IncidenceMoments.segreCoeff_alternating_choose' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:822:0: 'DistinctDistances.TrackB.IncidenceMoments.shiftedSlicePower_top' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:823:0: 'DistinctDistances.TrackB.IncidenceMoments.shiftedSlicePolynomial_top' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:824:0: 'DistinctDistances.TrackB.IncidenceMoments.shiftedSlicePolynomial_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:887:0: 'DistinctDistances.TrackB.IncidenceMoments.factorial_segre_term' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:888:0: 'DistinctDistances.TrackB.IncidenceMoments.normalized_shiftedSlicePolynomial_top' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:945:0: 'DistinctDistances.TrackB.IncidenceMoments.triangle_slice_sum' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:968:0: 'DistinctDistances.TrackB.IncidenceMoments.slice_summation_parts' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceMoments.lean:1022:0: 'DistinctDistances.TrackB.IncidenceMoments.signedExteriorSlice_pair' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceBinomial.lean:137:0: 'DistinctDistances.TrackB.IncidenceBinomial.pointBinomial_pascal' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceBinomial.lean:138:0: 'DistinctDistances.TrackB.IncidenceBinomial.pointCoefficientPolynomial_eval' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceBinomial.lean:139:0: 'DistinctDistances.TrackB.IncidenceBinomial.pointCoefficientPolynomial_degree' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceBinomial.lean:140:0: 'DistinctDistances.TrackB.IncidenceBinomial.pointCoefficientPolynomial_top' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:129:0: 'DistinctDistances.TrackB.IncidenceBinomial.shiftedProjectiveHilbert_pascal' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:130:0: 'DistinctDistances.TrackB.IncidenceBinomial.shiftedProjectiveHilbert_coefficient' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:131:0: 'DistinctDistances.TrackB.IncidenceBinomial.incidence_point_coefficient_polynomial' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:230:0: 'DistinctDistances.TrackB.IncidenceBinomial.shifted_monomial_point_coefficient' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:285:0: 'DistinctDistances.TrackB.IncidenceBinomial.koszul_monomial_coefficient_expansion' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:286:0: 'DistinctDistances.TrackB.IncidenceBinomial.koszul_monomial_coefficient_slices' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:320:0: 'DistinctDistances.TrackB.IncidenceBinomial.koszul_monomial_coefficient_reduction' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:385:0: 'DistinctDistances.TrackB.IncidenceBinomial.koszulHilbertLinearMap_apply' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:386:0: 'DistinctDistances.TrackB.IncidenceBinomial.segreCombinationLinearMap_apply' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:488:0: 'DistinctDistances.TrackB.IncidenceBinomial.koszul_monomial_point_coefficient' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:529:0: 'DistinctDistances.TrackB.IncidenceBinomial.koszul_coefficient_of_degree' depends on axioms: [propext,
+info: DistinctDistances/TrackB/IncidenceHilbert.lean:544:0: 'DistinctDistances.TrackB.koszulIncidenceHilbert_point_coefficient' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1891:0: 'DistinctDistances.TrackB.IncidenceLocal.evaluateDirection_section' depends on axioms: [propext, Quot.sound]
+info: DistinctDistances/TrackB/MBHilbAux.lean:1892:0: 'DistinctDistances.TrackB.IncidenceLocal.quotientEvaluation_section' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1893:0: 'DistinctDistances.TrackB.IncidenceLocal.quotientEvaluation_ker' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1894:0: 'DistinctDistances.TrackB.IncidenceLocal.kernelTailEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/MBHilbAux.lean:1895:0: 'DistinctDistances.TrackB.IncidenceLocal.directionAnnihilatorEquiv' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1896:0: 'DistinctDistances.TrackB.IncidenceLocal.quotientEvaluation_free_split' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1897:0: 'DistinctDistances.TrackB.IncidenceLocal.uniformChartPower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/MBHilbAux.lean:1898:0: 'DistinctDistances.TrackB.IncidenceLocal.blockPiece_smul_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1899:0: 'DistinctDistances.TrackB.IncidenceLocal.actual_incidence_kernel' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1900:0: 'DistinctDistances.TrackB.IncidenceLocal.scalarRatio_on_directionIdeal' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1901:0: 'DistinctDistances.TrackB.IncidenceLocal.scalarRatio_coordinate_range' depends on axioms: [propext,
+info: DistinctDistances/TrackB/MBHilbAux.lean:1902:0: 'DistinctDistances.TrackB.IncidenceLocal.variables_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/MBHilbAux.lean:1903:0: 'DistinctDistances.TrackB.IncidenceLocal.variables_koszul_exact' depends on axioms: [propext,
+info: DistinctDistances/TrackB/TangentLineSupport.lean:216:0: 'DistinctDistances.TrackB.line_direction_mem_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/TangentLineSupport.lean:217:0: 'DistinctDistances.TrackB.parameterQuadric_cone_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/PolynomialImageSupport.lean:127:0: 'DistinctDistances.TrackB.polynomialProjectiveImage_irreducible' depends on axioms: [propext,
+info: DistinctDistances/TrackB/ParameterImageSupport.lean:499:0: 'DistinctDistances.TrackB.parameterClosure_irreducible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/ParameterImageSupport.lean:500:0: 'DistinctDistances.TrackB.parameterClosure_subset_quadric' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/IncidenceDensity.lean:291:0: 'DistinctDistances.TrackB.ruling_projective_fiber_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/IncidenceDensity.lean:292:0: 'DistinctDistances.TrackB.compact_incidence_subset_of_ruling_graph' depends on axioms: [propext,
+info: DistinctDistances/TrackB/AlgebraicNullRigidity.lean:97:0: 'DistinctDistances.TrackB.commuting_derivation_gram_hessian_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/AlgebraicNullRigidity.lean:98:0: 'DistinctDistances.TrackB.commuting_derivation_gram_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/NullHessianSupport.lean:98:0: 'DistinctDistances.TrackB.commuting_derivation_null_hessian_zero' depends on axioms: [propext,
+info: DistinctDistances/TrackB/FlatEndpointSupport.lean:115:0: 'DistinctDistances.TrackB.evaluationFlat_affine_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/FlatEndpointSupport.lean:116:0: 'DistinctDistances.TrackB.evaluationFlat_closure_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/FlatEndpointSupport.lean:117:0: 'DistinctDistances.TrackB.alternating_common_radical_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/FlatEndpointSupport.lean:118:0: 'DistinctDistances.TrackB.alternating_kernel_common_radical' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/NullConeRigidity.lean:139:0: 'DistinctDistances.TrackB.null_cone_coordinate_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/ParameterBaseGeometry.lean:117:0: 'DistinctDistances.TrackB.parameter_base_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/ParameterBaseGeometry.lean:118:0: 'DistinctDistances.TrackB.parameter_base_birational_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/PencilPolynomialOpen.lean:100:0: 'DistinctDistances.TrackB.linear_pencil_bijective_polynomial_open' depends on axioms: [propext,
+info: DistinctDistances/TrackB/PencilPolynomialOpen.lean:101:0: 'DistinctDistances.TrackB.skewPencil_singular_of_polynomial_open' depends on axioms: [propext,
+info: DistinctDistances/TrackB/FlatIdentificationSupport.lean:120:0: 'DistinctDistances.TrackB.affine_linear_fiber_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/FlatIdentificationSupport.lean:121:0: 'DistinctDistances.TrackB.evaluationFlat_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/FlatIdentificationSupport.lean:122:0: 'DistinctDistances.TrackB.evaluationFlat_parameter_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/FlatIdentificationSupport.lean:123:0: 'DistinctDistances.TrackB.carrier_eq_evaluationFlat_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/FlatIdentificationSupport.lean:124:0: 'DistinctDistances.TrackB.same_dimension_carrier_unique_parameter' depends on axioms: [propext,
+info: DistinctDistances/TrackB/TangentQuotientSupport.lean:148:0: 'DistinctDistances.TrackB.skewPencil_singular_of_covector_image' depends on axioms: [propext,
+info: DistinctDistances/TrackB/TangentQuotientSupport.lean:149:0: 'DistinctDistances.TrackB.directionQuotientSection_covector' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/TangentQuotientSupport.lean:150:0: 'DistinctDistances.TrackB.tangentCoordinateLinear_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/TangentQuotientSupport.lean:151:0: 'DistinctDistances.TrackB.parameter_quadric_tangent_annihilates' depends on axioms: [propext,
+info: DistinctDistances/TrackB/Degree.lean:1476:0: 'DistinctDistances.TrackB.IncidenceLocal.scalarRatio_coordinate_range' depends on axioms: [propext,
+info: DistinctDistances/TrackB/Degree.lean:1477:0: 'DistinctDistances.TrackB.IncidenceSections.parameter_complex_exists' depends on axioms: [propext,
+info: DistinctDistances/TrackB/Degree.lean:1478:0: 'DistinctDistances.TrackB.IncidenceSections.parameter_scalarRatio_exists' depends on axioms: [propext,
+info: DistinctDistances/TrackB/Degree.lean:1479:0: 'DistinctDistances.TrackB.IncidenceSections.positive_pair_polynomial_decomposition' depends on axioms: [propext,
+info: DistinctDistances/TrackB/Degree.lean:6398:0: 'DistinctDistances.TrackB.mixed_degree_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6399:0: 'DistinctDistances.TrackB.incidence_mixed_degree_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6400:0: 'DistinctDistances.TrackB.quadric_tangent_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6401:0: 'DistinctDistances.TrackB.null_tangent_parameter_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6402:0: 'DistinctDistances.TrackB.exceptional_parameter_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6403:0: 'DistinctDistances.TrackB.dense_ruling_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6404:0: 'DistinctDistances.TrackB.compactIncidence_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6405:0: 'DistinctDistances.TrackB.parameterClosure_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6409:0: 'DistinctDistances.TrackB.parameterTangent_eq_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6410:0: 'DistinctDistances.TrackB.tangentCoordinateLinear_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6411:0: 'DistinctDistances.TrackB.parameterTangent_normalized_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6413:0: 'DistinctDistances.TrackB.ruling_good_source_pencil_singular' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6414:0: 'DistinctDistances.TrackB.ruling_good_source_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Degree.lean:6415:0: 'DistinctDistances.TrackB.polynomial_projective_image_closure_independent' depends on axioms: [propext,
+info: DistinctDistances/TrackB/Degree.lean:6416:0: 'DistinctDistances.TrackB.tangent_skew_pencil_constraint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Recurrence.lean:413:0: 'DistinctDistances.TrackB.finite_affine_maximum_principle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/Recurrence.lean:414:0: 'DistinctDistances.TrackB.concentration_recurrence_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/EquationPrefixes.lean:191:0: 'DistinctDistances.TrackB.regular_prefix_dimensions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/MBRecAux.lean:617:0: 'DistinctDistances.TrackB.MBRec.walsh_description' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/UniformCompletion.lean:1331:0: 'DistinctDistances.TrackB.refine_description' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/UniformCompletion.lean:1332:0: 'DistinctDistances.TrackB.containedFlatCount_le_one_of_dimension' depends on axioms: [propext,
+info: DistinctDistances/TrackB/UniformCompletion.lean:1333:0: 'DistinctDistances.TrackB.concentrationProfile_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/UniformCompletion.lean:1334:0: 'DistinctDistances.TrackB.large_description_carrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/UniformCompletion.lean:1335:0: 'DistinctDistances.TrackB.high_recurrence_of_carrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/UniformCompletion.lean:1336:0: 'DistinctDistances.TrackB.uniform_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/PolynomialFlatSupport.lean:32:0: 'DistinctDistances.TrackB.evaluationFlat_vanishingIdeal_prime' depends on axioms: [propext,
+info: DistinctDistances/TrackB/PolynomialFlatSupport.lean:33:0: 'DistinctDistances.TrackB.contained_count_components_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DistinctDistances/TrackB/ConcentrationForms.lean:151:0: 'DistinctDistances.TrackB.uniform_concentration_all_dimensions' depends on axioms: [propext,
+info: DistinctDistances/TrackB/ConcentrationForms.lean:152:0: 'DistinctDistances.TrackB.uniform_concentration_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (10172 jobs).
+Challenge.lean matches the frozen statement (blob 21648f72616ee8911640b58864ddd2f072ba4f9c)
+definitions block identical: True
+challenge exit 0, main exit 0, pp.all outputs identical: True
+'DistinctDistances.jsp_000900' depends on axioms: [propext, Classical.choice, Quot.sound]
+Axioms for DistinctDistances.jsp_000900: Classical.choice, Quot.sound, propext
+PASS: all axioms are in the permitted set.
+scanned 756 files: PASS: no forbidden constructs
+[2026-10-12T05:42:06Z] END verify rc=0 elapsed=153s
+[2026-10-12T05:42:06Z] BEGIN axioms_copy :: cp .lake/verification-results/axioms.log /tmp/oaimath/166/lean-build/axioms.log
+[2026-10-12T05:42:06Z] END axioms_copy rc=0 elapsed=0s
+[2026-10-12T05:42:06Z] BEGIN audit_probes :: nice -n 19 lake env lean --trust=0 Audit/TargetProbes.lean
+[2026-10-12T05:42:20Z] END audit_probes rc=0 elapsed=14s
+[2026-10-12T05:42:20Z] BEGIN audit_restatement :: nice -n 19 lake env lean --trust=0 Audit/IndependentRestatement.lean
+'FidelityProbe.fc_iff_indep' depends on axioms: [propext, Classical.choice, Quot.sound]
+[2026-10-12T05:42:34Z] END audit_restatement rc=0 elapsed=14s
+[2026-10-12T05:42:34Z] BEGIN audit_nonvacuity :: nice -n 19 lake env lean --trust=0 Audit/NonVacuity.lean
+'NonVacuity.line_points_exist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.fin_three_nonempty' depends on axioms: [propext]
+'NonVacuity.exponent_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.rpow_base_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.pair_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.pair_offDiag_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.pair_distSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.pair_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.triple_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.triple_distSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.triple_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.hyps_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.distRealSet_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.g_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.theta_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.lower_forces_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NonVacuity.g_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+[2026-10-12T05:43:04Z] END audit_nonvacuity rc=0 elapsed=30s

@@ -1,0 +1,6 @@
+Excerpts of PROOF.md as first read by the referee (version of ~12:35Z, 11,714 bytes), copied from the referee's tool output.
+"What the computer checked" item 1: verify_closed_form.py: from the closed forms alone, by FFT pair counts on [0, 8^7 = 2,097,152): the three gate identities hold for q ≥ 2 under the rule they are claimed for (0 violations each), FAIL under the other rule (7, 7, 6 violations), and FAIL when any one block endpoint is moved by one; shield recomputed; S ∩ [1,97] = A;
+item 2 (end): Positive control: Li's own rail content under rule D reproduces his Y0/Y1/Y2; under rule Q it is periodic with period 117.
+item 4: 18 are aperiodic-to-Q under rule Q by the dynamics (no period ≤ 8,192 on [16,384, 32,768)) and 25 under rule D;
+"What is new": New: the strict-rule controller (Y0, Y1, Y2 above, with its proof), the observation that the controller is forced by the seed's rail content so the greedy itself finds controllers, the seed A, and Theorem 2's second controller for rule D.
+"What is new": Queneau 1972 and Finch 1992 concern 2-term bases. Li's paper concerns rule D only. erdosproblems.com/341 shows only Li's claim (read 2026-10-14 12:09Z); #342 (Ulam) is unrelated.

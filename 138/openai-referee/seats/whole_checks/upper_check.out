@@ -1,0 +1,17 @@
+F(r,k) small values: {(1, 1): 1, (1, 2): 2, (1, 3): 4, (2, 1): 1, (2, 2): 3, (2, 3): 780}  F(1,4) = 8
+W_1(1): brute force 1, paper 1, OK
+W_1(2): brute force 2, paper 2, OK
+W_2(1): brute force 1, paper 1, OK
+W_2(2): brute force 3, paper 3, OK
+W_3(1): brute force 1, paper 1, OK
+W_3(2): brute force 4, paper 4, OK
+W_4(1): brute force 1, paper 1, OK
+W_4(2): brute force 5, paper 5, OK
+W_1(1): brute force 1, paper 1, OK
+W_1(2): brute force 2, paper 2, OK
+W_1(3): brute force 3, paper 3, OK
+W_1(4): brute force 4, paper 4, OK
+W_1(5): brute force 5, paper 5, OK
+W_2(3): brute force 9, paper 9, OK
+W_r(k) <= F(r,k): True (W_2(3)=9 <= F(2,3)=780)
+CONTROL claim W_r(2)=r: ['rejected', 'rejected', 'rejected', 'rejected']

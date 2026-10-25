@@ -1,0 +1,14 @@
+WrongShape.lean:6:2: error: Type mismatch
+  OAI.WeakPinned.exists_pin_eventually
+has type
+  ∀ (ε : ℝ),
+    0 < ε →
+      ∀ᶠ (n : ℕ) in atTop,
+        ∀ (P : Finset OAI.WeakPinned.Plane),
+          P.card = n → ∃ x ∈ P, ↑P.card ^ (1 - ε) ≤ ↑(OAI.WeakPinned.distances P x).card
+but is expected to have type
+  ∀ (ε : ℝ),
+    0 < ε →
+      ∀ᶠ (n : ℕ) in atTop,
+        ∀ (P : Finset (EuclideanSpace ℝ (Fin 2))),
+          P.card = n → ∃ x ∈ P, ↑P.card ^ (1 + ε) ≤ ↑(OAI.WeakPinned.distances P x).card

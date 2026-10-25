@@ -1,0 +1,1 @@
+RESULT n=15 k=1 t=7 engine=z3 prune=1 atoms=546 clauses=6435 status=unsat secs=16289.2

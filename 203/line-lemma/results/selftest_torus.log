@@ -1,0 +1,7 @@
+lattice-image check (720 pool, T=12 and T=10): PASS
+synthetic cover: V = 1 recount 1 (must be 1)
+one coset only: V = 0 (must be 0)
+720 pool first 7 primes, T=12: cpsat OPTIMAL 0 recount 0 brute 0 avg 541/720
+720 pool all 15, T=12: cpsat OPTIMAL 1/5 recount 1/5 avg 641/720 (density 641/720)
+line lemma (1,0) at M'=12: 3/4  torus T=12: 1/5  (torus ≤ line required)
+SELFTEST PASS

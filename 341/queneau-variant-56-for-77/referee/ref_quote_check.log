@@ -1,0 +1,78 @@
+OK   [PROOF.md] Y0' has runs of 2·8^k members and 4·8^k non-members
+OK   [PROOF.md] 16,385, the start of J_4
+OK   [PROOF.md] Queneau 1972 and Finch 1992 concern two-term bases as described by van Berkel–Bosma (§2) and Green's reference
+OK   [commit_msg] F1–F6 applied
+OK   [headline] HOLDS WITH FIXES, APPLIED
+OK   [PROOF.md,body,PROOF.md(v0 excerpts)] What the computer checked
+OK   [PROOF.md,PROOF.md(v0 excerpts)] What is new
+OK   [PROOF.md(old Thm1 para)] 49h would be an ultimate period of the indicator of Y0
+OK   [PROOF.md] 4·8^k non-members
+OK   [PROOF.md(v0 excerpts)] FAIL when any one block endpoint is moved by one
+OK   [PROOF.md,body] three mutations
+OK   [PROOF.md(v0 excerpts)] unrelated
+OK   [entry_old_1238Z] HOSTILE REFEREE HOLDS
+OK   [PROOF.md] a_{n+1} is the least integer > a_n not of the form a_i + a_j with i < j ≤ n (distinct earlier terms)
+OK   [green] define un+1 to be the smallest integer greater than un and not of the form ui + uj with i < j ⩽ n
+OK   [green] Start with some ‘seed’ set of values u1 < · · · < um
+OK   [vbb16843] not equal to the sum of t different previous elements
+OK   [EG80] Given a set of integers A, = { a, < ... < a}, extend it
+OK   [PROOF.md] (The values at q = 0, 1 are prescribed by the seed and are not governed by the gates.)
+OK   [PROOF.md] [8^k+8^j+2, 2·8^k+2·8^j]
+OK   [PROOF.md] [4·8^k+4, 8·8^k+8·8^{k−1}]
+OK   [PROOF.md] [2·8^k+2, 4·8^k+4·8^{k−1}]
+OK   [PROOF.md,body] two distinct elements of one rail have distinct q
+OK   [PROOF.md] equality forces x = b ∈ B, e_x = x ≤ 48, while the other summand is ≥ 49 + b
+OK   [PROOF.md(old Thm1 para)] 49h would be an ultimate period of the indicator of Y0; a run of ≥ 49h consecutive non-members
+OK   [PROOF.md] then 49h is also an ultimate period of it, and since 49(q+h)+7 = (49q+7) + 49h, h is an ultimate period of the
+OK   [PROOF.md,PROOF.md(old Thm1 para)] 8^k consecutive members
+OK   [PROOF.md] 4·8^k−1+4·8^{k−1}
+OK   [PROOF.md] Theorem 2 follows as Theorem 1 did (Y0' has runs of 2·8^k members and 4·8^k non-members).
+OK   [PROOF.md] Li's seed under rule Q is eventually periodic (membership period 5,733 = 49·117
+OK   [li] Equal summands are allowed in every sumset.
+OK   [green] For both variants, the following question appears to be open
+OK   [PROOF.md] (Problem 7, Jan 2026)
+OK   [vbb16843] initialize the first t ≥ 1 values s1 < s2 < · · · < st
+OK   [vbb16843] these are greedy, strict t-sumfree sequences
+OK   [vbb16843] For every g > f ≥ 1 the 2-sumfree sequence Sf,g is ultimately periodic
+OK   [vbb16843] very general conjecture that all t-sumfree sequences are ‘eventually periodic’
+OK   [vbb18522] Every 2-sumfree sequence is eventually periodic
+OK   [vbb18522] initialize the first two values s0 = f ≥ 1 and s1 = g > f
+OK   [PROOF.md] conjecture periodicity for strict 2-sumfree sequences with TWO-term starts S_{f,g} (and t-term starts for t-su
+OK   [vbb16843] a similar criterion for deciding non-periodicity based on a finite initial segment is lacking
+OK   [PROOF.md] Theorem 1 does not touch those conjectures
+OK   [PROOF.md] our seed has 21 terms
+OK   [PROOF.md] Let R ⊆ {7, 56, 14, 63, 28, 77} contain at least one element of each rail
+OK   [PROOF.md] Y1[q] = [q ∉ Y0 ⊕ Y0]
+OK   [PROOF.md] Y2[q] = [q ∉ Y1 ⊕ Y1]
+OK   [PROOF.md] Y0[q] = [q−1 ∉ Y2 ⊕ Y2]
+OK   [PROOF.md] (no such cross-check was run under rule D)
+OK   [PROOF.md(v0 excerpts)] FAIL when any one block endpoint is moved by one
+OK   [PROOF.md] FAIL when the start of the third block on any one rail is moved down by one (three mutations; the referee's ow
+OK   [vcf.log,their_ctl] [0, 0, 0] -> PASS
+OK   [their_ctl] (69, 117)
+OK   [PROOF.md] periodic with period 117 from q = 69
+OK   [PROOF.md] no period ≤ 8,192 on the quotient window [16,384, 32,768)
+OK   [PROOF.md] on A itself the verdict hinges on a single quotient (16,385, the start of J_4, under rule Q; 32,767 under rule
+OK   [live341,live341c,live342] accessed 2026-10-14
+OK   [live341,live341c] Proof claims (1)
+OK   [live342] uniquely as $a_i+a_j$ for $i<j\leq n$
+OK   [PROOF.md] Queneau 1972 and Finch 1992 concern two-term bases as described by van Berkel–Bosma (§2) and Green's reference
+OK   [vbb16843] He considered many explicit cases Sf,g
+OK   [green] [119, 164]
+OK   [green] references and computations showing that periodicity (if present) can be very slow to appear
+OK   [headline] HOSTILE REFEREE: HOLDS WITH FIXES, APPLIED
+OK   [commit_msg] F1–F6 applied
+OK   [PROOF.md] Theorem 2 follows as Theorem 1 did (Y0' has runs of 2·8^k members and 4·8^k non-members).
+OK   [body] HOLDS WITH FIXES, all applied — the fixes were a wrong run length
+OK   [body] the bundle's PROOF.md
+OK   [body] 16,385, where J 4 starts
+OK   [commit_msg] its own greedy matches to 10^6
+OK   [entry_old_1238Z] HOSTILE REFEREE HOLDS
+OK   [entry_old_1238Z] 18 of the 27 seeds of this shape never settle
+OK   [entry_old_1238Z] 18 show no period at all
+OK   [PROOF.md,body] 0 mismatches to 32,768
+OK   [their_ctl] (69, 117)
+OK   [PROOF.md] 7p − 20 ≥ 106
+OK   [PROOF.md] [10,204, 20,408), P ≤ 2,550
+OK   [PROOF.md] same 18 and 25
+missing: 0

@@ -1,0 +1,10 @@
+Bridge304 rc=0
+Bridge148_293 rc=0
+AxBridge rc=0
+Bridge304MutDef rc=1 (must be nonzero)
+Bridge304MutStmt rc=1 (must be nonzero)
+Bridge148MutDef rc=1 (must be nonzero)
+Bridge293MutStmt rc=1 (must be nonzero)
+verbatim rc=0
+verbatim --mutate rc=1 (must be 1)
+verbatim --mutate148 rc=1 (must be 1)

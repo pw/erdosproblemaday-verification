@@ -1,0 +1,4 @@
+raw=1267339920 sidon=386623922 hull_covered=455390 best_run=101 best_marks={0,24,27,35,39,41,75} best_interval=[-17,83]
+seven_mark_upper_bound_contiguous_through=101
+HOSTILE_DIRECT_ENUMERATION=PASS
+AUDIT_TIME wall=5.60 user=57.00 sys=0.04 maxrss=4224

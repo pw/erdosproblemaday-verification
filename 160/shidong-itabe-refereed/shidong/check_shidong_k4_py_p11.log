@@ -1,0 +1,2 @@
+p=11: f=T^3+0T^2+1T+4  |Z/p^4Z|=14641  palette=297 (<=27p=297: True)  symmetric 4-APs=0  first=None
+   controls: no-Q -> 1 (expect >0)   isotropic form -> 1 (expect >0)   drop tau(x1) -> 1 (expect >0)

@@ -1,0 +1,24 @@
+$ python3 band_check.py 1 4000 7
+SEP=1 trials=4000: max per band=2, max per closed half-line=1, max per open half-line=1, containment failures=0
+paper claim (<=2 per half, <=4 per band): HOLDS
+sharp claim (<=2 per band, Lean affine_norm_band_card_le_two): HOLDS
+exit=0
+$ python3 band_check.py 99/100 4000 7   # control: separation < 1
+SEP=99/100 trials=4000: max per band=3, max per closed half-line=2, max per open half-line=2, containment failures=0
+paper claim (<=2 per half, <=4 per band): HOLDS
+sharp claim (<=2 per band, Lean affine_norm_band_card_le_two): REJECTED
+exit=0
+$ python3 band_check.py 2/5 4000 7      # control: separation 0.4
+SEP=2/5 trials=4000: max per band=5, max per closed half-line=3, max per open half-line=3, containment failures=0
+paper claim (<=2 per half, <=4 per band): REJECTED
+sharp claim (<=2 per band, Lean affine_norm_band_card_le_two): REJECTED
+exit=1
+$ python3 band_sweep.py 1
+g=1: largest band population 2 at (delta, C')=(Fraction(0, 1), Fraction(0, 1))
+exit=0
+$ python3 band_sweep.py 99/100   # control
+g=99/100: largest band population 3 at (delta, C')=(Fraction(0, 1), Fraction(0, 1))
+exit=0
+$ python3 band_sweep.py 2/5      # control
+g=2/5: largest band population 6 at (delta, C')=(Fraction(24, 125), Fraction(49, 50))
+exit=1

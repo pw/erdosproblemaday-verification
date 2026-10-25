@@ -1,0 +1,13 @@
+launch 2026-10-11T21:06:00Z 0 0
+clone 0 1
+copy_toolchain 0 38
+copy_packages 0 359
+patches 0 1
+cache_get 0 180
+build 0 13960
+verify 0 153
+axioms_copy 0 0
+audit_probes 0 14
+audit_restatement 0 14
+audit_nonvacuity 0 30
+leanchecker_fresh 0 7919

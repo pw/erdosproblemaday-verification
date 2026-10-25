@@ -1,0 +1,45 @@
+URL: https://oeis.org/A194261
+TITLE: A194261 - OEIS
+FETCHED: 2026-08-11 UTC
+
+login
+The OEIS is supported by the many generous donors to the OEIS Foundation.
+Hints
+(Greetings from The On-Line Encyclopedia of Integer Sequences!)
+A194261
+Smallest prime that divides the n-th partition number p(n) but does not divide p(1)*p(2)*...*p(n-1), or 1 if none.
+5
+1, 2, 3, 5, 7, 11, 1, 1, 1, 1, 1, 1, 101, 1, 1, 1, 1, 1, 1, 19, 1, 167, 251, 1, 89, 29, 43, 13, 83, 467, 311, 23, 1, 1231, 41, 17977, 281, 1, 1, 127, 193, 2417, 71, 31, 1087, 73, 67, 7013, 631, 9283, 661, 53, 5237, 17, 227, 47, 102359, 3251, 199, 139, 971, 2273
+(list; graph; refs; listen; history; text; internal format)
+OFFSET
+1,2
+COMMENTS
+It appears that a(n) is prime for all n > 97. See A194259 and A194260 for additional comments and links.
+LINKS
+Alois P. Heinz and Giovanni Resta, Table of n, a(n) for n = 1..10000 (first 2000 terms from Alois P. Heinz)
+MAPLE
+with(combinat): with(numtheory):
+b:= proc(n) option remember;
+      `if`(n=1, {}, b(n-1) union factorset(numbpart(n)))
+    end:
+m:= proc(n) option remember; min((b(n) minus b(n-1))[]) end:
+a:= n-> `if`(n=1, 1, `if`(m(n)=infinity, 1, m(n))):
+seq(a(n), n=1..120);  # Alois P. Heinz, Aug 21 2011
+MATHEMATICA
+a[n_] := Complement[FactorInteger[PartitionsP[n]][[All, 1]], FactorInteger[Product[PartitionsP[k], {k, 1, n-1}]][[All, 1]]] /. {} -> {1} // First; Table[a[n], {n, 1, 100}] (* Jean-François Alcover, Jan 28 2014 *)
+CROSSREFS
+Cf. A000041, A194259, A194260, A194262.
+Sequence in context: A397046 A075657 A039711 * A194262 A039710 A087173
+Adjacent sequences:  A194258 A194259 A194260 * A194262 A194263 A194264
+KEYWORD
+nonn,look
+AUTHOR
+Jonathan Sondow, Aug 20 2011
+STATUS
+approved
+
+Lookup Welcome Wiki Register Music Plot 2 Demos Index WebCam Contribute Format Style Sheet Transforms Superseeker Recents
+The OEIS Community
+Maintained by The OEIS Foundation Inc.
+Last modified August 11 10:33 EDT 2026. Contains 398211 sequences.
+License Agreements, Terms of Use, Privacy Policy

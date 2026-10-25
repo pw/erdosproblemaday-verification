@@ -1,0 +1,6 @@
+profile 0: |G|=384 labelled=449358 (lean 449358) orbits=1536 inventory=1536 (lean 1536) inv_admissible=True orbits_hit=1536 max_mult=1 OK=True
+profile 1: |G|=48 labelled=169668 (lean 169668) orbits=3662 inventory=3662 (lean 3662) inv_admissible=True orbits_hit=3662 max_mult=1 OK=True
+profile 2: |G|=16 labelled=70070 (lean 70070) orbits=4801 inventory=4801 (lean 4801) inv_admissible=True orbits_hit=4801 max_mult=1 OK=True
+profile 3: |G|=12 labelled=31512 (lean 31512) orbits=2700 inventory=2700 (lean 2700) inv_admissible=True orbits_hit=2700 max_mult=1 OK=True
+profile 4: |G|=24 labelled=16692 (lean 16692) orbits=842 inventory=842 (lean 842) inv_admissible=True orbits_hit=842 max_mult=1 OK=True
+ALL OK

@@ -1,0 +1,276 @@
+{
+  "elapsed_seconds": 9.301469,
+  "global_sqrt2_audit": {
+    "base_periodic_quotient": {
+      "component_count": 3618,
+      "component_size_histogram": {
+        "1": 720,
+        "2": 546,
+        "3": 868,
+        "4": 509,
+        "5": 96,
+        "6": 112,
+        "7": 52,
+        "8": 48,
+        "9": 116,
+        "10": 88,
+        "11": 68,
+        "12": 65,
+        "13": 44,
+        "14": 16,
+        "15": 36,
+        "16": 44,
+        "17": 48,
+        "18": 16,
+        "19": 28,
+        "20": 8,
+        "21": 16,
+        "25": 20,
+        "27": 16,
+        "28": 8,
+        "29": 8,
+        "32": 4,
+        "37": 4,
+        "50": 2,
+        "51": 8,
+        "71": 4
+      },
+      "eligible_residue_count": 18432,
+      "fundamental_domain_size": 76050,
+      "largest_component_before_extra_factors": 71,
+      "nonzero_winding_conflicts": 0,
+      "period_coordinate_modulus": 390,
+      "sha256_eligible_base_residues": "cee31a162b76ca2383aaa8a2805b4e1295f662b3a953ecf9556d9101846bd17e"
+    },
+    "claim": "Every component of the full Gaussian-prime graph with squared step bound D=2 has at most 100 vertices.",
+    "exceptional_prime_classes": {
+      "exceptional_component_count": 1,
+      "exceptional_component_degree_histogram": {
+        "1": 16,
+        "2": 40,
+        "3": 32,
+        "4": 12
+      },
+      "exceptional_component_edge_count": 120,
+      "exceptional_component_max_norm2": 137,
+      "exceptional_component_sizes": [
+        100
+      ],
+      "exceptional_prime_count": 36,
+      "sha256_exceptional_component": "971e6dba83e66b50973df8da3ec24b6085ffe44baec691bcd0f0ef38f62503bc"
+    },
+    "extra_CRT_layers": {
+      "extra_factors": [
+        {
+          "field_size": 17,
+          "image_of_i": 13
+        },
+        {
+          "field_size": 17,
+          "image_of_i": 4
+        },
+        {
+          "field_size": 29,
+          "image_of_i": 12
+        }
+      ],
+      "largest_generic_component": 49,
+      "residue_combinations_tested": 100352,
+      "witness": {
+        "base_component_size": 50,
+        "ordered_base_component_index": 12,
+        "root_residues": [
+          15,
+          13,
+          1
+        ]
+      }
+    },
+    "global_component_vertex_bound": 100
+  },
+  "limit": 1100,
+  "method": "exact Eratosthenes sieve + exhaustive graph BFS + finite periodic/CRT quotient audit",
+  "rooted_orbit_quotient_results": [
+    {
+      "D": 1,
+      "D4_orbit_representative_count": 2,
+      "closure_margin_coordinates": 1097,
+      "distinct_primality_queries": 5,
+      "farthest": [
+        2,
+        1
+      ],
+      "farthest_norm2": 5,
+      "max_probed_coordinate": 3,
+      "max_probed_norm2": 10,
+      "offset_count": 4,
+      "orbit_union_count": 12,
+      "sha256_orbit_representatives": "7947e1d77ff6ab5221eb30e5263111cc84b6bd38ecadda9dcfed4403b747ae5e",
+      "step_bound": "sqrt(1)",
+      "sum_norm2": 7
+    },
+    {
+      "D": 2,
+      "D4_orbit_representative_count": 14,
+      "closure_margin_coordinates": 1088,
+      "distinct_primality_queries": 51,
+      "farthest": [
+        11,
+        4
+      ],
+      "farthest_norm2": 137,
+      "max_probed_coordinate": 12,
+      "max_probed_norm2": 169,
+      "offset_count": 8,
+      "orbit_union_count": 100,
+      "sha256_orbit_representatives": "f1b9cfd0ae4d8cb5a435549d41cf1785b014854afa7c14f3890c3957d13faa65",
+      "step_bound": "sqrt(2)",
+      "sum_norm2": 719
+    },
+    {
+      "D": 3,
+      "D4_orbit_representative_count": 14,
+      "closure_margin_coordinates": 1088,
+      "distinct_primality_queries": 51,
+      "farthest": [
+        11,
+        4
+      ],
+      "farthest_norm2": 137,
+      "max_probed_coordinate": 12,
+      "max_probed_norm2": 169,
+      "offset_count": 8,
+      "orbit_union_count": 100,
+      "sha256_orbit_representatives": "f1b9cfd0ae4d8cb5a435549d41cf1785b014854afa7c14f3890c3957d13faa65",
+      "step_bound": "sqrt(3)",
+      "sum_norm2": 719
+    },
+    {
+      "D": 4,
+      "D4_orbit_representative_count": 92,
+      "closure_margin_coordinates": 1056,
+      "distinct_primality_queries": 454,
+      "farthest": [
+        42,
+        17
+      ],
+      "farthest_norm2": 2053,
+      "max_probed_coordinate": 44,
+      "max_probed_norm2": 2225,
+      "offset_count": 12,
+      "orbit_union_count": 720,
+      "sha256_orbit_representatives": "f2933265c372207a319da3b0ace5ee3b817a768ae8e7685b7854ea30237513f5",
+      "step_bound": "sqrt(4)",
+      "sum_norm2": 61053
+    },
+    {
+      "D": 5,
+      "D4_orbit_representative_count": 92,
+      "closure_margin_coordinates": 1056,
+      "distinct_primality_queries": 517,
+      "farthest": [
+        42,
+        17
+      ],
+      "farthest_norm2": 2053,
+      "max_probed_coordinate": 44,
+      "max_probed_norm2": 2260,
+      "offset_count": 20,
+      "orbit_union_count": 720,
+      "sha256_orbit_representatives": "f2933265c372207a319da3b0ace5ee3b817a768ae8e7685b7854ea30237513f5",
+      "step_bound": "sqrt(5)",
+      "sum_norm2": 61053
+    },
+    {
+      "D": 6,
+      "D4_orbit_representative_count": 92,
+      "closure_margin_coordinates": 1056,
+      "distinct_primality_queries": 517,
+      "farthest": [
+        42,
+        17
+      ],
+      "farthest_norm2": 2053,
+      "max_probed_coordinate": 44,
+      "max_probed_norm2": 2260,
+      "offset_count": 20,
+      "orbit_union_count": 720,
+      "sha256_orbit_representatives": "f2933265c372207a319da3b0ace5ee3b817a768ae8e7685b7854ea30237513f5",
+      "step_bound": "sqrt(6)",
+      "sum_norm2": 61053
+    },
+    {
+      "D": 7,
+      "D4_orbit_representative_count": 92,
+      "closure_margin_coordinates": 1056,
+      "distinct_primality_queries": 517,
+      "farthest": [
+        42,
+        17
+      ],
+      "farthest_norm2": 2053,
+      "max_probed_coordinate": 44,
+      "max_probed_norm2": 2260,
+      "offset_count": 20,
+      "orbit_union_count": 720,
+      "sha256_orbit_representatives": "f2933265c372207a319da3b0ace5ee3b817a768ae8e7685b7854ea30237513f5",
+      "step_bound": "sqrt(7)",
+      "sum_norm2": 61053
+    },
+    {
+      "D": 8,
+      "D4_orbit_representative_count": 380,
+      "closure_margin_coordinates": 1014,
+      "distinct_primality_queries": 2412,
+      "farthest": [
+        84,
+        41
+      ],
+      "farthest_norm2": 8737,
+      "max_probed_coordinate": 86,
+      "max_probed_norm2": 9245,
+      "offset_count": 24,
+      "orbit_union_count": 2996,
+      "sha256_orbit_representatives": "f448db56f6b4a9146054a463811ceb00e866f15688ef8a1060cf8ce22532b3e2",
+      "step_bound": "sqrt(8)",
+      "sum_norm2": 1074861
+    },
+    {
+      "D": 9,
+      "D4_orbit_representative_count": 380,
+      "closure_margin_coordinates": 1013,
+      "distinct_primality_queries": 2450,
+      "farthest": [
+        84,
+        41
+      ],
+      "farthest_norm2": 8737,
+      "max_probed_coordinate": 87,
+      "max_probed_norm2": 9250,
+      "offset_count": 28,
+      "orbit_union_count": 2996,
+      "sha256_orbit_representatives": "f448db56f6b4a9146054a463811ceb00e866f15688ef8a1060cf8ce22532b3e2",
+      "step_bound": "sqrt(9)",
+      "sum_norm2": 1074861
+    },
+    {
+      "D": 10,
+      "D4_orbit_representative_count": 31221,
+      "closure_margin_coordinates": 112,
+      "distinct_primality_queries": 307908,
+      "farthest": [
+        976,
+        311
+      ],
+      "farthest_norm2": 1049297,
+      "max_probed_coordinate": 988,
+      "max_probed_norm2": 1055785,
+      "offset_count": 36,
+      "orbit_union_count": 249508,
+      "sha256_orbit_representatives": "0306196f9e4b5cb31b4c656d6ff86aaf8c6f4ba411f7efce00583c648b11954b",
+      "step_bound": "sqrt(10)",
+      "sum_norm2": 12697436878
+    }
+  ],
+  "sieve_max": 2420000
+}

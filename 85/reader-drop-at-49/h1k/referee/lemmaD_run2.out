@@ -1,0 +1,20 @@
+d=2 s=3 b=4 N=12 c4=ON: 20 instance(s)
+  internal edges per instance: min 2 max 4
+  lemma failures: 0   reduction-equivalence mismatches: 0 {'both': 105, 'neither': 195}
+  [2 3 20 --c4]
+d=4 s=5 b=6 N=30 c4=ON: 10 instance(s)
+  internal edges per instance: min 8 max 12
+  lemma failures: 0   reduction-equivalence mismatches: 0 {'both': 84, 'neither': 216}
+  [4 5 10 --c4]
+d=6 s=5 b=8 N=40 c4=off: 20 instance(s)
+  internal edges per instance: min 13 max 16
+  lemma failures: 0   reduction-equivalence mismatches: 0 {}
+  [6 5 20]
+d=2 s=3 b=4 N=12 c4=ON: 20 instance(s)
+  internal edges per instance: min 2 max 4
+  lemma failures: 272   reduction-equivalence mismatches: 0 {'both': 105, 'neither': 195}
+  [2 3 20 --c4 --mutate]
+d=6 s=5 b=8 N=40 c4=off: 5 instance(s)
+  internal edges per instance: min 15 max 16
+  lemma failures: 224   reduction-equivalence mismatches: 0 {}
+  [6 5 5 --mutate]

@@ -1,0 +1,880 @@
+coefficient bound is already uniform in that cell precision. This is the order used in Section 7.
+
+
+7     Extracting primes with smooth predecessors
+We prove Theorem 1.2. Throughout this section 0 < δ < 1/4 is fixed. The task is to detect primes
+among Nu := 2u + 1 for a positive weight on integers u all of whose prime factors are small. The
+distribution estimate of Theorem 6.1 will replace tests on a factor of Nu by simpler tests on rough
+integers. We specify the order of all remaining parameter choices at the end of the section.
+    The extraction separates the composites according to their least prime factor. A preliminary
+sieve retains those Nu with no prime factor below xb1 , where b1 > 0 is fixed and small. For a fixed
+small κ > 0 and least prime factors up to x1/2−κ , Type II replaces the roughness condition on the
+complementary factor by a local density on ordinary integers. Integrating these densities accounts
+for the composite part of the sieve mass. The remaining composites have two prime factors close to
+x1/2 ; a separate upper-bound sieve makes their contribution small with κ. Its constant must be
+independent of κ, so we will establish that uniformity before making the final choices.
+
+7.1    The candidate and its mass
+Fix a nonnegative smooth function Ψ supported in [1, 2] that is bounded below by a positive constant
+on a closed interval of positive length contained in (1, 2). In the marked weight of Section 5 take
+q = 1/2 and ℓ = 1. Set
+                           6          3           9                        1
+            c1 = 1,    c2 = ,     c3 = ,      c4 = ,          s′ =                 ,   sj = s′ 2−j L,
+                           5          2           5                  r0 (c1 + c2 )
+
+where the fixed integer r0 is sufficiently large that
+
+                                                     (r0 − 1)c1
+                                    c2 s′ < δ,                  ≥ c2 + 1.                               (7.1)
+                                                         2
+Let jx be the largest integer with c1 sjx ≥ 20T , and let
+
+                         Qj = {p prime : c1 sj ≤ log p ≤ c2 sj }           (0 ≤ j ≤ jx ).
+
+At each scale for which [c3 sj , c4 sj ] lies wholly in [L1/10 , L1/5 ] or [L3/10 , L2/5 ], take the primes in
+that interval of logarithms as a small or big P-group, respectively. The P-groups and the Q-bands
+are pairwise disjoint: the four constants lie in the displayed order, and c4 < 2c1 . The prime
+number theorem and partial summation give fixed upper and positive lower bounds for each of their
+reciprocal prime masses. Both numbers of P-groups are comparable to T , and their exponent ranges
+and endpoint ratios meet the hypotheses of the preceding sections.
+    There are r0 ordered slots in each Q-band. Except for one designated slot in a fixed band j∗∗ , a
+slot contains a prime of its band. The designated slot instead contains any integer v satisfying
+
+                                  ec1 sj∗∗ ≤ v ≤ ec2 sj∗∗ ,     P − (v) > W.
+
+                                                       53
+We always require j∗∗ ≥ j0 , where j0 is a sufficiently large fixed lower bound chosen below using
+only the candidate geometry. In particular j∗∗ ≥ 1. Define
+                jx
+                Y  1
+     aQ (v) =            #{admissible ordered Q-lists with product v},               A(u) = aQ (u∗ )W1 (u).
+                   r !
+                j=0 0
+
+The P-free part u∗ and the marked weight W1 are those of Section 5. The rough slot has no P-prime
+divisor for large x, since all P primes are less than W .
+    The candidate must have substantial ordinary mass near x, despite the restrictions on all its
+factors. Reciprocal weights make the slot choices independent. The band geometry leaves room for
+one prime in the largest band to adjust their product to size x; under this harmonic sampling, that
+prime supplies a local probability of order 1/L. The next proposition records the resulting mass
+and the pointwise bound needed to convert that mass into a count of distinct primes.
+Proposition 7.1 (Candidate mass). Put
+                            X                            X aQ (v)                 X W1 (r)
+                   XA =          A(u)Ψ(u/x),      HQ =                ,   HP =                 .
+                             u                           v       v               r:r∗ =1
+                                                                                           r
+
+There are constants C, CA depending only on the early candidate choices such that, for sufficiently
+large x after fixing j∗∗ ,
+                                                                    √
+                0 ≤ A(u) ≤ LC τ (u∗ ),                A(u) ≤ exp(C L) (u ≍ x),                (7.2)
+                                            !
+                                                                            x
+                                                                              HQ HP ≫ xL−CA .
+                                      X
+                       HP ∼ exp q          Vg ,                      XA ≍                                     (7.3)
+                                       g                                    L
+
+The comparison constants in (7.3) can be chosen independently of j∗∗ ≥ j0 . On the support of
+A(u)Ψ(u/x) every prime divisor of u lies in [L20 , xδ ].
+Proof. After fixing the value of the rough slot as a divisor of v, the remaining prime multiplicities
+determine their band assignments. The normalized number of ordered lists in each band is at most
+one. This gives aQ (v) ≤ τ (v). For v ≪ x, any possible rough-slot divisor divides√    the part of v
+supported on primes exceeding W . That part has at√most O(L/ log W ) = O( L) prime factors
+counted with multiplicity, and hence at most exp(O( L)) divisors. Together with the pointwise
+bound W1 (u) ≤ LO(1) this proves (7.2). The claimed lower and upper bounds on prime factors
+                                                          ′
+follow from the definitions, (7.1), and exp(L2/5 ) < xc2 s for large x.
+
+Harmonic masses and the P-part. The Q harmonic sum factorizes into the reciprocal masses
+of all its slots, divided by r0 ! in each band. Each pure-prime slot has mass between two fixed positive
+constants. The rough-slot mass is at most O(L) and is bounded below by a fixed positive constant
+for sufficiently large x after fixing j∗∗ ; for the latter assertion one may restrict that slot to primes of
+Qj∗∗ , which then all exceed W . Since there are O(T ) slots,
+
+                                               L−C ≤ HQ ≤ LC .                                                (7.4)
+
+This exponent and these eventual bounds do not depend on j∗∗ .
+    For one P-group write Fg (q) = p∈Pg (1 + q/(p − 1)). Summing over all powers of its prime
+                                     Q
+
+divisors shows that its factor in HP is
+                                      Fg′ (q)          1 X        1
+                                              = Fg (q)                  .                                     (7.5)
+                                       Vg              Vg p∈P p − 1 + q
+                                                             g
+
+
+
+                                                      54
+As g,p∈Pg p−2 = o(1) and Vg is bounded above and below, multiplying (7.5) proves the asymptotic
+   P
+
+for HP . It also proves the useful exact inequality
+                                                                   q
+                                                 Y                  
+                                     HP ≥                      1+     ,                              (7.6)
+                                             p a P prime
+                                                                  p−1
+
+since p − 1 + q ≤ p.
+    The harmonic P-measure assigns negligible mass to r > xσ for any fixed σ > 0. Indeed set
+ξ = L−2/5 and replace p−1 by p−1+ξ in the preceding Euler calculation. Since pξ ≤ e for every P
+prime, the tilted factor of each group is bounded by a fixed constant. Consequently
+                                    X      W1 (r)
+                                                  ≤ exp(−σL3/5 )LO(1) .                              (7.7)
+                                   σ
+                                r>x , r =1
+                                            r
+                                        ∗
+
+
+
+Localizing the product near x. Normalize the independent P choice and all the Q-slot harmonic
+choices by HP HQ , and denote their product by U . Then
+
+                                      XA = HP HQ E{U Ψ(U/x)}.
+
+For the upper comparison we need probability O(1/L) throughout x ≤ U ≤ 2x; for the lower
+comparison we need probability ≫ 1/L where U/x lies in the positivity interval of Ψ. Both are
+intervals of bounded length for log U . The P-tail estimate ensures that the P-part does not move
+the product out of reach of the largest Q-band. Condition on everything except one pure-prime slot
+in Q0 . The prime number theorem implies that its logarithm falls in any interval of bounded length
+with probability O(1/L), uniformly in the location of that interval. Thus P(x ≤ U ≤ 2x) = O(1/L),
+giving the upper mass bound.
+    Here is a uniform lower bound. The sum of the midpoints of all the infinite Q-bands, counting
+their r0 slots, is exactly
+                                      X c1 + c2
+                                          r0      s′ 2−j L = L.
+                                      j≥0
+                                              2
+
+Let ∆ = (c2 − c1 )s′ L, the logarithmic width of the free slot. Choose a fixed prefix of bands so
+long that the sum of all later band widths and midpoints is less than ∆/24. Within that prefix,
+restrict all slots except the free slot to fixed small relative neighborhoods of their midpoints, so
+that their total deviation is at most ∆/24. This event has probability bounded below by a positive
+constant: it involves only a fixed number of pure-prime slots. Choose j0 larger than the prefix
+length so that the exceptional slot is always in the unrestricted tail. Its full range obeys the same
+deterministic tail bound. Missing bands after jx also obey that bound. Finally restrict the P choice
+to log r ≤ ∆/12, at negligible loss by (7.7). On this event, a target interval for log U coming from
+the positivity interval of Ψ gives an interval of fixed positive length for the free slot, lying a distance
+at least ∆/4 from its range endpoints for large x. The prime number theorem gives conditional
+probability ≫ 1/L. Multiplying by U ≍ x proves the lower comparison in (7.3). This argument
+uses no property of the tail distribution beyond its range, so its constants are uniform in the later
+choice of j∗∗ . The final lower bound follows from (7.4) and the Euler calculation.
+
+7.2    Congruence distribution and the preliminary sieve
+For odd squarefree d define
+                                             X                      XA
+                                    r(d) =          A(u)Ψ(u/x) −         .
+                                             d|Nu
+                                                                    φ(d)
+
+
+                                                      55
+Proposition 7.2 (Type I distribution). For every fixed ϑ < 1/2 and D > 0,
+
+                                                          |r(d)| ≪ xL−D + XA L−18 .
+                                           X
+                                                                                                                    (7.8)
+                                           d≤xϑ
+                                 d odd and squarefree
+
+Proof. The congruence 2u + 1 ≡ 0 (mod d) specifies a unit class for u. Use character orthogonality
+on that class. Replacing the principal coprime mass by XA has total cost at most XA L−18 , because
+for each supported u,
+                             X µ2 (d)      X 1 X µ2 (d′ )
+                                         ≤                     ′)
+                                                                  ≪ L−18 .
+                                ϑ
+                                   φ(d)     p|u
+                                                p − 1 d′ ≤x
+                                                            φ(d
+                                  d≤x
+                                 (d,u)>1
+
+Here every p | u is at least L20 , there are at most O(L/ log L) such primes, and the last sum is O(L)
+by its Euler product and Mertens’ theorem.
+    Extract one fixed Q0 slot, as in the proof of Theorem 7.1, to write
+                                             X
+                                 A(u) =            b(r),        0 ≤ b(r) ≤ LO(1) τ (r).
+                                            pr=u
+                                            p∈Q0
+
+Split p, r into dyads of sizes P, U with P U ≍ x. There is a fixed a > 0 such that xa ≪ P, U ≪ x1−a
+in every contributing dyad. A nonprincipal character modulo squarefree d is induced by a primitive
+nonprincipal character modulo f > 1, where d = hf and (h, f ) = 1. It acts as that primitive
+character together with the restrictions (p, h) = (r, h) = 1, and φ(d) = φ(h)φ(f ).
+                                         ′
+    Fix h. On conductors f ≍ R > LC , separate Ψ(pr/x) by Mellin inversion, which has bounded
+integrated absolute cost. For each resulting twist, Theorem 2.3, Cauchy–Schwarz, and Theorem 2.5
+give
+
+                                          ∗
+                             X    1      X     X           X
+                                                   ap χ(p)     br χ(r)
+                            f ≍R
+                                 φ(f ) χ mod f p≍P         r≍U
+
+                                       LO(1) q
+                                     ≪         (P + R2 )(U + R2 )P U
+                                        R 
+                                                                        √ 
+                                     ≪ xLO(1) R−1 + P −1/2 + U −1/2 + R/ x .
+
+The coefficients include coprimality to h and unit-modulus Mellin twists, so their squared sums
+are O(P ) and U LO(1) . Discarding (h, f ) = 1 and squarefreeness only enlarges this positive bound.
+Summing dyads and 1/φ(h) costs a fixed power of L. Since R ≤ xϑ , a sufficiently large C ′ gives any
+prescribed logarithmic saving.
+                     ′
+    For 1 < f ≤ 2LC , fix r and apply Theorem 2.2 to the p-sum with the original smooth cutoff
+Ψ(pr/x), using partial summation. The nonprincipal character sum is OA (P L−A ) for arbitrary fixed
+A. Omitting primes dividing h costs only O(1) terms, since such primes in this range are at least
+xa and h ≤ xϑ . Their total cost after summing r, moduli and dyads is x1−a LO(1) . The remaining
+costs are fixed powers of L, absorbed by choosing A large. This proves (7.8).
+
+   Define
+                                                                                          Y         1
+              Y                                    Y                                                         
+    V (y) =         (1 − 1/p),      V1 (y) =              (1 − 1/(p − 1)),     S=2             1−                > 0.
+              p≤y                                 3≤p≤y                               p≥3
+                                                                                                  (p − 1)2
+
+
+
+                                                              56
+Writing γE for Euler’s constant, Mertens’ theorem gives
+                                                    e−γE
+                                          V (y) ∼         ,            V1 (y) ∼ SV (y).                         (7.9)
+                                                    log y
+We will choose a small fixed 0 < κ < 1/50 and then a sufficiently small fixed b1 > 0. Set b∗ = b1 /3
+for Theorem 6.1, and eventually require
+
+                                             j∗∗ ≥ j0 ,           c2 s′ 2−j∗∗ < b∗ /4.                         (7.10)
+
+Apply Theorem 2.9 to odd prime divisors of Nu up to xb1 , with density g(p) = 1/(p − 1) and the
+remainders from Theorem 7.2. Take
+                                                         1                    1 κ
+                                                             
+                                             h=2             ,           ϑ=    − .
+                                                        40b1                  2 2
+For sufficiently small b1 , h is large enough for that lemma and b1 (4h + 2) < ϑ. Choose D > CA + 10
+in (7.8). It follows that
+                                                                    (                              )
+                                                     SXA                e−γE
+                                                                             (1 − O(e−c/b1 )) + o(1) .
+                        X
+                                        A(u)Ψ(u/x) ≥                                                           (7.11)
+                                     b1
+                                                      L                  b1
+                    P − (N   u )>x
+
+
+The constants in the exponential error are uniform for small b1 and 0 < κ < 1/50.
+
+7.3    Proxies with character and Mellin discrepancy
+We now construct the coefficients that Type II will compare with the factor tests. The proxy has
+exactly the same sum as the test on each short logarithmic cell, but is constant among the W -rough
+integers in that cell. This count matching handles the principal characters; prime estimates and the
+elementary sieve will give the nonprincipal cancellation independently of Type II. The cell width
+may therefore be chosen after Type II specifies its required discrepancy.
+    At fixed b1 , κ, partition (b1 , 1/2 − κ] into finitely many exponent bins (γ, γ ′ ]. Their mesh will be
+chosen later. On the factor ranges used below consider the tests
+
+                                      Iγ (m) = 1P − (m)>xγ ,             Ipr (m) = 1m prime .
+
+Every such range lies between two fixed positive powers of x; in particular we can work throughout
+the ambient interval [xb1 /4 , x1−b1 /4 ]. Put ∆L = L−S , with S a fixed precision to be chosen last.
+Partition the logarithmic axis into intervals of width ∆L . For a full cell CY = (Y, e∆L Y ] meeting
+this ambient interval, set
+                             P
+                          m∈CY I(m)
+      cI (CY ) =                            ,                     BI (m) = cI (CY )1P − (m)>W     (m ∈ CY ).   (7.12)
+                   #{m ∈ CY : P − (m) > W }
+The counts defining cI are full-cell counts even when the factor range cuts a cell. Range restrictions
+are imposed afterwards.
+Lemma 7.3 (Proxy discrepancy). The denominators in (7.12) are positive for large x. Moreover
+0 ≤ BI ≤ 1. Given any fixed discrepancy exponent B, taking S > 2B + 3 makes
+
+                                              αm = (I(m) − BI (m))1m∈K
+
+satisfy (5.4), uniformly for every interval K inside a dyad in the stated factor ranges, for each of the
+finitely many tests above. Thus the coefficient bound required by Theorem 6.1 is independent of S.
+
+                                                                  57
+Proof. Use Theorem 2.9 on ordinary integers in a cell with z = W , g(p) = 1/p, and h = 2⌈T 2 ⌉.
+Each divisibility remainder is O(1), and the sieve level is
+                                                      √
+                              DW = W 4h+2 = exp(O( L T 2 )) = xo(1) .
+Since Y ≫ xb1 /4 , uniformly for these cells,
+                                                                 2
+   #{m ∈ CY : P − (m) > W } = (e∆L − 1)Y V (W )(1 + O(e−T )) + O(DW ) ∼ ∆L Y V (W ).             (7.13)
+Both actual tests select subsets of these rough integers for large x: for the prime test all integers in
+the cell exceed W , and for the other tests xγ > W . Hence 0 ≤ cI ≤ 1 exactly.
+     Every prime divisor of a modulus r ≤ LB is below W , so a principal character is one throughout
+the support of α. On a full cell the unweighted sum of I − BI is zero. For f (t) = tiv−1 , |v| ≤ LB ,
+its variation on that cell is at most O((1 + |v|)∆L /Y ). The absolute harmonic mass on a dyad
+is O(1) (even the weaker O(L1/2 ) would suffice). Consequently the full cells contribute O(LB−S ).
+Intersecting the test interval in (5.4) with K leaves at most two partial cells; their combined
+harmonic mass is O(L−S + x−b1 /4 ). These bounds imply the principal-character case with room to
+spare when S > 2B + 3.
+     For a nonprincipal character, first treat the actual roughness test. Each admitted integer has
+a unique nondecreasing list of at most O(1/b1 ) prime factors. Fix the first l − 1 factors and sum
+over the last prime. Its order restriction, its lower bound xγ , and the interval restriction on the
+full product intersect in one prime interval. Its endpoints lie between xγ and x2 . By Theorem 2.2
+and partial summation, the harmonic sum of this prime against a nonprincipal character and the
+twist piv has arbitrarily strong logarithmic saving, uniformly for a prescribed logarithmic bound
+on the modulus and v. The reciprocal masses of the remaining factors are bounded in terms of
+b1 , because xγ <p≤x2 p−1 = Ob1 (1). Summing the bounded number of list lengths preserves the
+             P
+
+saving. Repeated primes are included by the nondecreasing enumeration. Imprimitive nonprincipal
+characters give the same estimate via their nonprincipal primitive characters; primes dividing the
+modulus are too small to occur. For Ipr this is the same argument with one prime.
+     It remains to treat the proxy. For every subinterval J ′ of a cell and every unit class a (mod r),
+apply Theorem 2.9 to that class, omitting primes dividing r from the sieve. The CRT gives an O(1)
+remainder at each squarefree sieve product. Since all prime divisors of r are below W , the main
+term is
+                                    |J ′ | Y             |J ′ |V (W )
+                                             (1 − 1/p) =              .
+                                     r p≤W                   φ(r)
+                                         p∤r
+
+Thus, also for very short J ′ as an absolute-error assertion,
+                                                       |J ′ |V (W )           2
+     #{m ∈ J ′ : m ≡ a     (mod r), P − (m) > W } =                 (1 + O(e−T )) + O(DW ).      (7.14)
+                                                           φ(r)
+Summing against a nonprincipal character cancels the common main term, and bounds the remaining
+                         2
+sum by O(|J ′ |V (W )e−T +φ(r)DW ). Multiply by the cell constant cI ≤ 1 and use partial summation
+against miv−1 . The number of cells is at most O(LS+1 ); the moduli and twists cost fixed powers of
+L. The first error therefore remains smaller than every fixed negative power of L, and the second is
+x−b1 /4+o(1) times a fixed power of L. This proves the nonprincipal assertion, including all interval
+truncations.
+   For all later applications, prescribe the saving in Theorem 6.1 large enough that its errors, after
+the required dyadic decompositions, are o(XA /L). Its coefficient exponent is fixed before S, by
+Theorem 7.3; obtain its required discrepancy exponent and then choose S. There are only finitely
+many test types, so the same S works for all.
+
+                                                  58
+7.4   The local densities and their integral identity
+The proxy discrepancy allows replacement of a factor test, while its local density controls the size of
+the replacement. We need ordinary rough-integer counts for the cofactor left after a least prime
+factor has been selected. For a product of l primes, their logarithms, divided by L, sum to the
+logarithmic size of that cofactor. This leads to the following finite sum of integrals over those
+logarithms.
+    For w > γ > 0 define
+                                1 X1
+                                              Z
+                                                          1       Y dti
+                        Dγ (w) = +       t  ≥γ (1≤i<l)                   .                       (7.15)
+                                                       w − i<l ti i<l ti
+                                          i
+                                                          P
+                                w l≥2 l! P     t ≤w−γ
+                                                  i<l i
+
+
+Only finitely many terms are nonzero. On compact subsets of w > γ > 0 the functions are jointly
+continuous, including at thresholds w = lγ: the integrands have bounded denominators and the
+moving boundaries have measure zero.
+   These are Buchstab’s rough-number densities in logarithmic coordinates, and the minimum-
+coordinate decomposition below is the corresponding Buchstab identity [4]. We derive the short-cell
+bounds and integral identity needed here directly.
+
+Lemma 7.4 (Proxy density bounds). For the prime proxy in the interval x1/2−2κ ≤ m ≤ x1/2+2κ ,
+
+                                                         C
+                                           cpr (m) ≤           ,                                 (7.16)
+                                                       LV (W )
+
+where C is absolute for 0 < κ < 1/50. If mn = Nu on the support of Ψ(u/x) and log n/L ∈ (γ, γ ′ ],
+then
+                                       supγ≤a≤γ ′ Dγ (1 − a) + o(1)
+                              cγ (m) ≤                              .                    (7.17)
+                                                 LV (W )
+At fixed b1 one also has
+                             Z 1/2
+                                               dα
+                                     Dα (1 − α)    = Db1 (1) − 1,                                (7.18)
+                              b1                α
+                                                     e−γE
+                                           Db1 (1) ≤       (1 + O(e−c/b1 )).                     (7.19)
+                                                      b1
+The integrand at the endpoint α = 1/2 is understood by its left limit; changing that endpoint value
+has no effect.
+
+Proof. The prime number theorem with an arbitrarily large logarithmic error, applied at both
+endpoints of a cell, gives
+                                                           ∆L Y
+                           #{p ∈ (Y, e∆L Y ]} = (1 + o(1))       .
+                                                           log Y
+For w = log Y /L ∈ [0.46 + o(1), 0.54 + o(1)], divide by (7.13) to obtain (7.16) with an absolute
+eventual constant. Increasing fixed S changes the threshold for x, not that constant.
+   More generally, uniformly on compact sets with γ ≥ b1 , w − γ bounded below positively, and w
+bounded above, the number of integers rough above xγ in the cell is at most
+
+                                                            ∆L Y
+                                          (Dγ (w) + o(1))        .                               (7.20)
+                                                             L
+
+
+
+                                                   59
+To see this, repeated prime factors contribute at most
+                                    X  2Y 
+                                                 ≪ Y x−b1 = o(∆L Y /L).
+                                   p>xγ
+                                          p2
+
+Count the squarefree remaining integers by ordered lists of l primes with weight 1/l!, where l is
+bounded in terms of b1 . Fix the first l − 1 primes, write Q = i<l pi and ti = log pi /L. A last prime
+                                                              Q
+
+can occur only when i<l ti ≤ w − γ + O(∆L /L). Dropping its lower cutoff, its count is at most
+                     P
+
+
+                                                        ∆L Y
+                                       (1 + o(1))                   .
+                                                    LQ(w − i<l ti )
+                                                          P
+
+
+The prime number theorem is uniform here because Y /Q ≥ xγ /2, and its logarithmic accuracy is
+chosen larger than S + 3. The reciprocal-prime measures for the remaining slots converge to dti /ti .
+A finite grid approximation proves uniform convergence of the resulting integrals: denominators
+stay bounded away from zero, while strips around the moving hyperplane boundary have uniformly
+vanishing volume. This is exactly (7.15), proving (7.20). In the application w = 1 − log n/L + o(1)
+and w − γ ≥ 2κ + o(1). Continuity, followed by division by (7.13), proves (7.17).
+    For (7.18), write the lth term of Db1 (1), l ≥ 2, on the simplex
+
+                                                                 1 dt1 · · · dtl−1
+                          t1 + · · · + tl = 1,       ti ≥ b1 ,                     .
+                                                                 l! t1 · · · tl
+This measure is invariant under every permutation of the l coordinates: exchanging a dependent and
+an independent coordinate has absolute Jacobian one. Except on a null set exactly one coordinate
+is the minimum, say α. Select that coordinate in l ways. Its measure is dα/α, and the remaining
+coordinates, with sum 1 − α and lower bound α, give the (l − 1)-factor term of Dα (1 − α). The
+coefficient l/l! is precisely 1/(l − 1)!. Summing proves the identity; the one-prime term of Db1 (1)
+equals one.
+    For the inequality, first obtain a lower density for ordinary rough integers in (x, 2x]. Ordered
+prime lists with weight 1/l! assign at most unit mass to every integer, including those with repetitions.
+For l ≥ 2 restrict the first l − 1 logarithms to ti < 1 − b1 − η, with η > 0 fixed, and sum the last
+                                                 P
+
+prime over (x/Q, 2x/Q]. It is then wholly above the threshold. The prime number theorem and
+the same reciprocal-measure convergence give the corresponding integrals times x/L. Include the
+one-prime term and let η decrease to zero. Null boundaries give
+                                   L
+                         lim inf     #{x < m ≤ 2x : P − (m) > xb1 } ≥ Db1 (1).
+                          x→∞      x
+On the other hand Theorem 2.9, with g(p) = 1/p, O(1) remainders and h = 2⌊1/(40b1 )⌋, bounds
+this count by
+                          xV (xb1 )(1 + O(e−c/b1 )) + O(xb1 (4h+2) ).
+Its remainder is o(x/L) for small b1 , and (7.9) proves (7.19).
+
+    The term 1 in (7.18) is the one-prime contribution to Db1 (1). Selecting a least prime factor
+accounts for all the other terms. Thus the integral provides the composite density to subtract from
+the preliminary sieve mass, with the one-prime term left over. These are densities for ordinary rough
+integers used in the proxies; their application to Nu uses Type II followed by Type I and the sieve.
+
+
+
+
+                                                      60
+7.5   Subtracting composites away from balance
+Consider a composite Nu counted in (7.11), whose least prime factor is at most x1/2−κ . Its least
+                                       ′
+prime factor p lies in one bin (xγ , xγ ], and m = Nu /p satisfies P − (m) > xγ . Its contribution is
+therefore bounded by                     X
+                                                A(u)Ψ(u/x)Iγ (m).
+                                          mp=Nu
+                                              ′
+                                      xγ <p≤xγ prime
+
+All contributing dyads of m, p lie between xb∗ and x1−b∗ for large x, with b∗ = b1 /3: the factors
+bounded by constants in Nu ≍ x are absorbed by the strict exponent slack. Apply Theorem 6.1
+with α = Iγ − Bγ restricted to each actual cofactor range, and β the prime indicator restricted to
+its bin and dyad. Theorem 7.3 supplies precisely its discrepancy hypothesis. Replacing Iγ by Bγ
+costs o(XA /L) in total.
+    For a prime p > W , the condition that m = Nu /p be rough above W is equivalent to P − (Nu ) >
+W . By (7.17), the resulting upper bound reduces to a constant divided by LV (W ) times
+                                          X            X
+                                                                  A(u)Ψ(u/x).
+                                      xγ <p≤xγ ′        p|Nu
+                                                    P − (Nu )>W
+
+For each such p, sieve the odd primes up to W , using the base mass XA /(p − 1), density 1/(l − 1),
+and remainders r(pd). Take h = 2⌈T 2 ⌉ in Theorem 2.9. All products pd are at most x1/2−κ+o(1) ,
+which is below the Type I level x1/2−κ/2 . Moreover different pairs (p, d) give different products:
+p > W is their unique prime factor above W . Thus (7.8) bounds the summed remainders without
+any divisor multiplicity loss. We obtain
+                            X              X
+                                                     A(u)Ψ(u/x)
+                         xγ <p≤xγ ′       p|Nu
+                                      P − (Nu )>W
+                                                         X          1
+                                  = XA V1 (W )                         + o(XA V (W )).
+                                                                γ′
+                                                                   p−1
+                                                      xγ <p≤x
+
+Since the reciprocal sum tends to log(γ ′ /γ), the composite contribution of the bin is at most
+                                      (                                         )
+                             SXA                                      ′
+                                           sup Dγ (1 − a) log(γ /γ) + o(1) .                   (7.21)
+                              L           γ≤a≤γ ′
+
+At fixed b1 , κ, joint continuity in Theorem 7.4 permits a sufficiently fine fixed mesh such that the
+sum of these constants is at most
+                                          Z 1/2−κ
+                                                                   dα   1
+                                                     Dα (1 − α)       + .
+                                           b1                      α   10
+
+Subtracting (7.21) from (7.11) and using Equations (7.18) and (7.19) leaves at least
+
+                          SXA            1                            SXA
+                                                                         
+                                      1−    − O(b−1
+                                                 1 e
+                                                     −c/b1
+                                                           ) + o(1) ≥                          (7.22)
+                           L             10                            2L
+
+on primes and composites with least prime factor exceeding x1/2−κ , provided b1 is sufficiently small.
+
+
+
+                                                          61
+7.6   A uniform upper bound for balanced composites
+If a composite Nu ≪ x has least prime factor above x1/2−κ , it has exactly two prime factors counted
+with multiplicity, because 3(1/2 − κ) > 1. Both factors belong, for large x, to
+
+                                         Bκ = [x1/2−2κ , x1/2+2κ ].
+
+We may overcount them by ordered pairs m, n of primes in that range with mn = Nu . Replace
+the first prime indicator by its proxy using Theorem 6.1, then replace the second using the same
+theorem with the factor roles exchanged. The remaining coefficient in the second application is a
+proxy bounded by one. All required discrepancy and range hypotheses follow from Theorem 7.3, as
+before. By (7.16), the resulting upper bound is o(XA /L) plus
+                                  C                    X
+                                                                         A(u)Ψ(u/x).                             (7.23)
+                              L2 V (W )2     m,n∈Bκ , mn=2u+1
+                                            P − (m)>W, P − (n)>W
+
+We now bound this positive sum with a constant independent of κ, b1 , j∗∗ and S.
+   More precisely, we will show that each dyadic pair with mn ≍ x contributes O(XA V (W )2 ).
+There are only O(κL + 1) such pairs in the indicated range, so the prefactor in (7.23) will give an
+O((κ + L−1 )XA /L) bound. To prove the dyadic estimate, we retain a small divisor of u from its
+Q-slots and P-marks. After discarding the remaining large Q-prime restrictions, a two-variable sieve
+enforces roughness of m, n and the remaining small-prime restrictions on u = (mn − 1)/2.
+   Choose a fixed large index j ′ and then θ in the gap
+                         ′                  ′                     1                                        1
+                 c2 s′ 2−j < θ < c1 s′ 2−j +1 ,                                          r0 c2 s′ 2−j ≤
+                                                                                 X
+                                                       10θ ≤         ,                                       .   (7.24)
+                                                                  20             j≥j ′
+                                                                                                          25
+
+Such a gap exists because c2 < 2c1 . These choices depend only on the candidate geometry. Increase
+the early lower bound j0 to ensure j0 ≥ j ′ , so the rough slot is in a band j ≥ j ′ . Call these the
+micro bands. Write HQ  mic for the Q harmonic mass using just these bands. Omitting the finitely
+
+many fixed bands j < j ′ gives
+                                               mic
+                                            HQ     ≪ HQ                                        (7.25)
+with a constant independent of j∗∗ .
+    An assignment consists of the complete ordered Q-lists in the micro bands, including the rough
+slot, and one marked prime from every P-group. Give it weight
+                                                       jx
+                                                       Y  1 Y 1
+                                            λassgn =                       ,
+                                                       j=j ′
+                                                               r0 ! g Vg
+
+and let D1 be the product of all its entries, with multiplicity. The Q contribution has size at most
+x1/25 by (7.24); the P marks have product exp(O(T L2/5 )) = xo(1) . Thus
+                                     X λassgn                            X
+                 D1 ≤ x1/20 ,                           mic
+                                                     = HQ   ,                    λassgn ≤ x1/20 HQ
+                                                                                                 mic
+                                                                                                     .           (7.26)
+                                    assgn       D1                       assgn
+
+In the middle identity the harmonic sum of the normalized P mark in each group is exactly
+Vg−1 p−1 = 1.
+    P
+
+   The damping in W1 can also be retained in this upper bound. Once one P-prime per group is
+marked in D1 , every additional distinct P-prime divisor of u contributes a factor q. We represent
+
+                                                         62
+these factors by independent random permissions for those primes; averaging the permissions
+recovers exactly the damping.
+    For each assignment, ban every odd non-P prime l ≤ xθ not dividing D1 . For each P prime not
+dividing D1 , independently allow it with probability q and otherwise ban it. Primes dividing D1 are
+never banned. All P primes are below xθ and indeed below W for large x. We have the pointwise
+majorant                         X
+                        A(u) ≤        λassgn 1D1 |u Emask 1{l∤u for every banned l} .          (7.27)
+                                 assgn
+
+To verify it, expand A(u) into Q-lists and one P mark per group. For every genuine list the divisibility
+D1 | u holds, and every non-P prime divisor of u below xθ occurs in D1 : omitted Q-bands contain
+only pure primes above xθ . The micro Q product has no P factors, so D1 contains exactly one
+distinct P prime per group. For such a genuine list, the mask expectation is q ω(u)−s , precisely the
+damping in W1 (u). Once the micro entries are fixed, the normalized number of omitted pure-prime
+lists with any fixed residual product is at most one. Explicitly, a band with prime multiplicities
+ap contributes p 1/ap ! ≤ 1; disjointness prevents alternative band assignments. Dropping these
+                 Q
+
+residual restrictions proves (7.27).
+    Fix now a pair of dyads m ≍ M1 , n ≍ M2 meeting the product support mn ≍ x, an assignment,
+and a mask. Since D1 is odd, D1 | u and mn = 2u + 1 imply mn ≡ 1 (mod D1 ). We may drop
+parity and use this congruence to bound the number of pairs in the full dyadic box. For an odd
+prime l ≤ z ′ := xθ with l ∤ D1 , the bad events are
+
+                 mn ≡ 0     (mod l)      (l ≤ W ),        mn ≡ 1   (mod l)   (l banned).
+
+The two residue sets are disjoint and contain respectively 2l − 1 and l − 1 pairs. Put
+
+                     ν(l) = (2l − 1)1l≤W + (l − 1)1l banned ,        g(l) = ν(l)/l2 .
+
+These densities satisfy the hypotheses of Theorem 2.9 uniformly in assignment and mask: g(l) ≤ 3/l,
+and for l ≥ 3 they are bounded away from one. The base mass is the product of the two real side
+lengths times φ(D1 )/D12 .
+    For a squarefree product d of the sieve primes, the CRT gives exactly φ(D1 )ν(d) residue pairs
+modulo D1 d, including when D1 has prime-power factors. Each pair of residue classes has lattice
+count equal to its area term with error
+                                                M1 + M 2
+                                                             
+                                           O 1+          .
+                                                 D1 d
+
+As ν(d) ≤ d 3ω(d) and φ(D1 ) ≤ D1 , the sum of absolute remainders up to D = (z ′ )10 = x10θ is
+
+               ≪ LO(1) (M1 + M2 )D + D1 D2 ≤ LO(1) (M1 + M2 )x1/20 + D1 x1/10 .
+                                                                                          
+                                                                                                 (7.28)
+
+Here the ordinary ω(d) occurs only in this elementary divisor bound; its sums follow, for example,
+from 3ω(d) ≤ τ3 (d), where τ3 (d) counts ordered triples of positive integers with product d. Apply
+the upper-bound version of Theorem 2.9 with h = 2.
+   We record its Euler product explicitly. A banned prime below W has factor 1 − 3/l + 2/l2 , and
+a banned prime above W has factor 1 − 1/l + 1/l2 . Each is at most
+
+                                    (1 − 1/l)1+21l≤W (1 + O(l−2 )).
+
+
+
+                                                     63
+An allowed P prime has factor (1−1/l)2 , so it requires one compensating factor (1−1/l)−1 . Omitting
+the prime 2 changes only an absolute constant, as does the convergent product of the 1 + O(l−2 )
+factors. Removed primes dividing D1 require at most three compensating factors. Therefore
+
+                          (1 − g(l)) ≤ CV (W )2 V (z ′ )          (1 − 1/l)−3                 (1 − 1/p)−1 .
+                  Y                                        Y                        Y
+                                                                                                              (7.29)
+                3≤l≤z ′                                    l|D1                   p allowed
+                 l∤D1                                                               p∤D1
+
+
+Every prime dividing D1 is at least L20 , so D1 ≤ x1/20 makes its compensating product uniformly
+bounded. The expectation of the last product is
+                                                q                                     q
+                           Y                                      Y                        
+                                      1−q+                 =                  1+                  ≤ HP
+                    p a P prime
+                                             1 − 1/p            p a P prime
+                                                                                     p−1
+                        p∤D1                                        p∤D1
+
+by (7.6).
+    Since φ(D1 )/D12 ≤ 1/D1 , sum the main sieve terms over assignments using (7.26), and bound Ψ
+by its fixed supremum. Their contribution on this dyadic pair is
+
+                                  ≪ xV (W )2 V (xθ )HQ
+                                                     mic
+                                                         HP ≪ XA V (W )2 ,
+
+by Equations (7.3) and (7.25) and V (xθ ) ≪ 1/L. To sum the error (7.28), use Mi ≪ x0.54 and
+(7.26). The result is
+                              ≪ x0.64 LO(1) HQ
+                                             mic
+                                                 = o(XA V (W )2 ).
+The comparison is uniform in the later parameters: use HQmic ≪ H , H ≥ 1, and X V (W )2 ≍
+                                                                Q   P          A
+xHQ HP /L2 . We have proved the promised dyadic estimate
+                                        X
+                                                       A(u)Ψ(u/x) ≪ XA V (W )2 .                              (7.30)
+                              m≍M1 , n≍M2 , mn=2u+1
+                               P − (m)>W, P − (n)>W
+
+    There are O(κL + 1) possible dyads for m in Bκ , and, for each, only O(1) possible dyads for n
+because mn ≍ x. Combining (7.23) and (7.30) bounds the entire balanced composite contribution
+by
+                                                       XA
+                                       Cbal (κ + L−1 )    + o(XA /L).                             (7.31)
+                                                       L
+The constant Cbal depends only on δ, r0 , Ψ, j ′ , θ and the fixed P-group geometry. It does not depend
+on κ, b1 , j∗∗ , the later analytic parameters, or S. Indeed the candidate comparison is uniform in j∗∗ ;
+the omitted macro bands are fixed before the gap; the prime proxy bound is uniform on [0.46, 0.54];
+and the sieve-density and lattice constants just used are absolute. Thresholds for x may depend on
+all parameters after they are fixed.
+
+7.7   Closing the parameter choices and counting primes
+For clarity, the choices in the preceding argument can be made in the following order.
+
+  (i) Fix δ, Ψ, r0 and the Q/P geometry. Choose the finite prefix for the candidate lower bound,
+      then j ′ and θ in (7.24), and enlarge j0 to cover both requirements. All these are early choices.
+
+  (ii) Fix κ ∈ (0, 1/50) so small that Cbal κ < S/4. This is possible because the constant in (7.31)
+       is independent of the gap.
+
+                                                           64
+ (iii) Choose b1 sufficiently small for (7.11), (7.19), and (7.22). Set b∗ = b1 /3. Choose j∗∗ to meet
+       (7.10), and then choose the finite exponent mesh for (7.21).
+
+ (iv) Prescribe the saving in Theorem 6.1 so that every replacement error, including dyadic sums,
+      is o(XA /L). The coefficient exponents are already bounded independently of S. The proof
+      of that theorem fixes its Cauchy splitting precision, shift-saving target, graph and analytic
+      parameters, and finally a required discrepancy exponent in (5.4).
+
+    (v) Choose S sufficiently large in Theorem 7.3 for that exponent, fix any prime-number-theorem
+        accuracies needed for this S, and let x tend to infinity.
+
+In particular the precision of the proxy cells causes no feedback into the Type II coefficient bound.
+    Subtract (7.31) from (7.22). For all sufficiently large x there remains a positive constant multiple
+of XA /L on prime values of Nu :
+                                      X
+                                                A(u)Ψ(u/x) ≫ XA /L.
+                                   2u+1 prime
+                                                    √
+By Theorem 7.1 each summand is at most exp(O( L)) and XA ≫ xL−CA . The map u 7→ 2u + 1 is
+injective, so the number of distinct primes is at least
+                                                     √
+                                 xL−CA −1 exp(−O( L)) = x1−o(1) .
+
+Their range is 2x < p ≤ 4x + 1 ≤ 5x. Finally P + (p − 1) = P + (2u) = max(2, P + (u)) ≤ xδ for large
+x; the strict inequality c2 s′ < δ in the candidate geometry leaves room for every subpower P prime,
+and the factor 2 is eventually below xδ . This proves Theorem 1.2.
+
+
+8      Large fibers of the totient function
+We finish by deriving Theorem 1.1 from Theorem 1.2. This product-and-pigeonhole passage is the
+classical connection between smooth shifted primes and large totient fibers; see [19, Theorem B and
+its proof]. We first record finiteness of each fiber and the elementary upper bound mentioned in the
+Introduction.
+
+Lemma 8.1. For each positive integer n, the set of positive integers m with φ(m) = n is finite.
+For every η > 0,
+                                      g(n) ≪η n1+η .
+
+Proof. If pa ∥ m, then pa−1 (p − 1) divides φ(m). For a fixed value n, this restricts p to the finite set
+with p − 1 | n, and bounds a by pa−1 | n. Thus each fiber is finite.
+   For the quantitative bound, fix 0 < θ < 1. For all sufficiently large primes p, one has 1−1/p ≥ p−θ .
+The finitely many remaining primes contribute a fixed positive constant cθ . Consequently, for every
+m,
+                                      Y      1
+                                                
+                                                               p−θ ≥ cθ m1−θ .
+                                                           Y
+                         φ(m) = m          1−     ≥ cθ m
+                                      p|m
+                                              p            p|m
+
+Every preimage of n is therefore at most (n/cθ )1/(1−θ) . Choose θ so that 1/(1 − θ) ≤ 1 + η, and
+count the possible positive integers.
+
+
+
+
+                                                    65
+Proof of Theorem 1.1. It suffices to consider 0 < ε < 1. Choose 0 < δ < 1/4 with 4δ < ε. By
+Theorem 1.2, for every sufficiently large X there are more than X 1−δ primes p ≤ X such that p − 1
+is X δ -smooth. Indeed, take x = X/5 in that theorem; its count x1−o(1) exceeds X 1−δ eventually,
+and xδ ≤ X δ .
+    Let P be this set of primes, let M = |P|, and put k = ⌊X 2δ ⌋. Since 3δ < 1, we have k ≤ M for
+sufficiently large X. Different k-element subsets of P have different products by unique factorization.
+There are at least                        !  
+                                       M        M k
+                                            ≥         > X (1−3δ)k                                 (8.1)
+                                        k        k
+
+such products. For completeness, the binomial inequality follows by writing M           k−1
+                                                                                      
+                                                                                        j=0 (M −
+                                                                                          Q
+                                                                               k =
+j)/(k − j) and observing that each factor is at least M/k.
+    For a squarefree product m = p∈Q p with |Q| = k, multiplicativity of the totient gives
+                                 Q
+
+                                                  Y
+                                         φ(m) =         (p − 1).
+                                                  p∈Q
+
+
+This value is X δ -smooth and at most X k . Every prime exponent in such a value is at most
+k log X/ log 2, and there are at most X δ primes available. Hence the total number of possible values
+is at most
+                                                    δ
+                                            k log X X
+                                      
+                                        1+              = X o(k) .                              (8.2)
+                                             log 2
+The last equality means that the logarithm of its left side, divided by k log X, tends to zero: its
+numerator is Oδ (X δ log X), whereas k ≍ X 2δ .
+   By Equations (8.1) and (8.2), some n ≤ X k therefore satisfies
+
+                                    g(n) ≥ X (1−3δ−o(1))k > n1−ε
+
+for sufficiently large X. The strict final inequality follows from 3δ + o(1) < ε and 1 − ε > 0.
+    These lower bounds for g(n) tend to infinity with X. By Theorem 8.1, the resulting values
+n cannot belong to a fixed finite set. They are therefore unbounded, which proves the required
+assertion for infinitely many n. If ε ≥ 1, the assertion follows from any smaller positive choice of
+ε.
+
+
+References
+ [1] W. R. Alford, Andrew Granville, and Carl Pomerance. There are infinitely many Carmichael
+     numbers. Annals of Mathematics, 139(3):703–722, 1994.
+
+ [2] R. C. Baker and Glyn Harman. Shifted primes without large prime factors. Acta Arithmetica,
+     83(4):331–361, 1998.
+
+ [3] Abhishek Bharadwaj and Brad Rodgers. Large prime factors of well-distributed sequences.
+     Canadian Mathematical Bulletin, pages 1–17, 2026. First View, published online April 17,
+     2026; arXiv:2402.11884v4, April 9, 2026.
+
+ [4] A. Buchstab. Asymptotische abschätzung einer allgemeinen zahlentheoretischen funktion. Rec.
+     Math. [Mat. Sbornik] N.S., 2(44)(6):1239–1246, 1937.
+
+
+                                                  66
+ [5] Bradley Efron and Charles Stein. The jackknife estimate of variance. The Annals of Statistics,
+     9(3):586–596, 1981.
+
+ [6] Paul Erdős. On the normal number of prime factors of p − 1 and some related problems
+     concerning Euler’s φ-function. The Quarterly Journal of Mathematics, os-6(1):205–213, 1935.
+
+ [7] Paul Erdős. On pseudoprimes and Carmichael numbers. Publicationes Mathematicae Debrecen,
+     4:201–206, 1956.
+
+ [8] Kevin Ford and Heini Halberstam. The Brun–Hooley sieve. Journal of Number Theory,
+     81(2):335–350, 2000.
+
+ [9] John Friedlander and Henryk Iwaniec. Asymptotic sieve for primes. Annals of Mathematics,
+     148(3):1041–1065, 1998.
+
+[10] Andrew Granville. Smooth numbers: computational number theory and beyond. In J. P.
+     Buhler and P. Stevenhagen, editors, Algorithmic Number Theory: Lattices, Number Fields,
+     Curves and Cryptography, volume 44 of Mathematical Sciences Research Institute Publications,
+     pages 267–323. Cambridge University Press, 2008.
+
+[11] Harald Andrés Helfgott and Maksym Radziwiłł. Expansion, divisibility and parity.
+     https://arxiv.org/abs/2103.06853v2, 2021. Version 2, April 13, 2021.
+
+[12] Jared Duker Lichtman. Primes in arithmetic progressions to large moduli, and shifted primes
+     without large prime factors. https://arxiv.org/abs/2211.09641v1, 2022. Version 1, 14

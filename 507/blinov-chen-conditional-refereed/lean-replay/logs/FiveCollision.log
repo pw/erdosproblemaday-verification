@@ -1,0 +1,3 @@
+'HeilbronnFive.repeated_top_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeilbronnFive.all_equal_top_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=1200000 wall=3s

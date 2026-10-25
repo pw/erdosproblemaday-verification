@@ -1,0 +1,3 @@
+h7_t1_rep0	kissat	UNKNOWN	2400.17	n0=6 pairs=18 singles=17	
+2026-10-19T12:15:59Z chain done
+2026-10-19T12:16:00Z chain STOPPED by 12:00Z seat after h7_t1_rep0 (superseded by fs/ encoding with R1b+SB; plain encoding hit its 2400 s cap)

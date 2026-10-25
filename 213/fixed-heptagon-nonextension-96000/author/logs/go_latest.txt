@@ -1,0 +1,6 @@
+triangle_pairs=1765966460
+distance_bound=96000
+characteristic_2002=1017
+oriented_candidates=4068
+degenerate_candidates=169729
+extensions=0

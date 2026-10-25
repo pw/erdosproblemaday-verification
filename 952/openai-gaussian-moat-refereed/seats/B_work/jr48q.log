@@ -1,0 +1,3 @@
+component 27 edges 30 contains 1+i True max norm 137
+best simple path found: steps 21 vertices 22 verified True
+[(11, 4), (10, 3), (9, 4), (8, 3), (7, 2), (6, 1), (5, 2), (4, 1), (3, 0), (2, 1), (3, 2), (2, 3), (1, 2), (0, 3), (1, 4), (2, 5), (1, 6), (2, 7), (3, 8), (4, 9), (3, 10), (4, 11)]

@@ -1,0 +1,7 @@
+/tmp/oaimath/181/coffey/probe/WrongShape.lean:6:41: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Fintype ↑H.verts
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/tmp/oaimath/181/coffey/probe/WrongShape.lean:8:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`

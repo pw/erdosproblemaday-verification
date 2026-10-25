@@ -1,0 +1,30 @@
+R (rail elements at q<=1)    | shieldOK recurrence-violations(G1,G2,G3) rail-period[Q] | same for rule D
+56_14_28                     | Q: True [0, 0, 0] 11  | D: True [0, 0, 0] none
+56_14_28_77                  | Q: True [0, 0, 0] 3  | D: True [0, 0, 0] none
+56_14_63_28                  | Q: True [0, 0, 0] 27  | D: True [0, 0, 0] none
+56_14_63_28_77               | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+56_14_63_77                  | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+56_14_77                     | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+56_63_28                     | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+56_63_28_77                  | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+56_63_77                     | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_14_28                      | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_14_28_77                   | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_14_63_28                   | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_14_63_28_77                | Q: True [0, 0, 0] 21  | D: True [0, 0, 0] none
+7_14_63_77                   | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_14_77                      | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_56_14_28                   | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_56_14_28_77                | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_56_14_63_28                | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_56_14_63_28_77             | Q: True [0, 0, 0] none  | D: True [0, 0, 0] 4
+7_56_14_63_77                | Q: True [0, 0, 0] 28  | D: True [0, 0, 0] none
+7_56_14_77                   | Q: True [0, 0, 0] 9  | D: True [0, 0, 0] none
+7_56_63_28                   | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_56_63_28_77                | Q: True [0, 0, 0] 53  | D: True [0, 0, 0] none
+7_56_63_77                   | Q: True [0, 0, 0] none  | D: True [0, 0, 0] none
+7_63_28                      | Q: True [0, 0, 0] 126  | D: True [0, 0, 0] none
+7_63_28_77                   | Q: True [0, 0, 0] 117  | D: True [0, 0, 0] none
+7_63_77                      | Q: True [0, 0, 0] none  | D: True [0, 0, 0] 2
+seeds: 27; rule Q no rail period <= 2550 on q in [10204,20408): 18; rule D: 25
+all shield sanity OK: True ; all rail recurrences hold: True

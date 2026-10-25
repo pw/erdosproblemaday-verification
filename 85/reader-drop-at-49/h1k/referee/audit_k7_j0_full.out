@@ -1,0 +1,9 @@
+== k7_j0_full.cnf k=7 j=0 c4=1 der=1 sb=1 
+A. header (17352, 242556), parsed 242556 clauses, edge vars 600
+B. pure-edge clauses 209316: block(<=1/block) 2400, C4 206916, with positive lits 0, NOT IMPLIED 0 []
+C. potential 4-cycles 103458; C4 clauses (distinct) 103458; missing 0; extra 0
+D. pool 169 assignments; mismatches 0 []
+   (tag, my-verdict, cnf-accepts): ('2sw', 'block', False)=34, ('2sw', 'c4', False)=3, ('LD-at', 'c4', False)=12, ('LD-below', 'c4', False)=12, ('flip', 'deg', False)=12, ('model', 'c4', False)=12, ('pi', 'c4', False)=48, ('rand-g', 'c4', False)=36
+   residual transpositions (mine, brute force): 24
+E. full minus drop-C4 sibling: 206916 clauses, of which NOT a verified C4 clause: 0; sibling clauses absent from full: 0
+54.73 s 258256 KB

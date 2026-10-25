@@ -1,0 +1,257 @@
+<p><strong>The problem</strong> (<a href="https://www.erdosproblems.com/3">erdosproblems.com/3</a>; Erdős, from 1974 on, in at
+least fifteen of his problem papers; $5000, the largest prize on the site). If <em>A</em> ⊆ ℕ has Σ<sub><em>a</em>∈<em>A</em></sub> 1/<em>a</em> = ∞,
+must <em>A</em> contain arbitrarily long arithmetic progressions? Writing <em>r<sub>k</sub></em>(<em>N</em>) for the largest subset of
+{1, …, <em>N</em>} with no nonconstant <em>k</em>-term progression, the question is equivalent to a bound on <em>r<sub>k</sub></em>(<em>N</em>)
+that is <em>summable over dyadic scales</em> — Σ<sub><em>m</em></sub> <em>r<sub>k</sub></em>(2<sup><em>m</em></sup>)/2<sup><em>m</em></sup> &lt; ∞ — which
+<em>N</em>/(log <em>N</em>)<sup>1+<em>c</em></sup> gives and <em>N</em>/log <em>N</em> does not. Bloom and Sisask crossed that threshold for
+<em>k</em> = 3 in 2020; for every <em>k</em> ≥ 4 the record before this release was Leng, Sah and Sawhney (2024),
+<em>r<sub>k</sub></em>(<em>N</em>) ≪ <em>N</em> exp(−(log log <em>N</em>)<sup><em>c<sub>k</sub></em></sup>) with <em>c<sub>k</sub></em> &lt; 1, which is not summable.
+So the question was open for every length from four up.</p>
+
+<p><strong>What OpenAI's 6 October release claims, in three different strengths — keep them apart.</strong>
+(1) The paper (<a href="https://github.com/openai/math/blob/main/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/paper.pdf">"Quasipolynomial Bounds for Arithmetic Progressions"</a>,
+dated 23 September 2026, 198 pages, family 159 of the release; sha256 481eaf77…c59be in our bundle) claims
+<strong>Theorem 1.1</strong>: for each fixed <em>k</em> ≥ 3 there are <em>C<sub>k</sub></em>, <em>c<sub>k</sub></em>, <em>ε<sub>k</sub></em> &gt; 0 with
+<em>r<sub>k</sub></em>(<em>N</em>) ≤ <em>C<sub>k</sub></em> <em>N</em> exp(−<em>c<sub>k</sub></em> (log <em>N</em>)<sup><em>ε<sub>k</sub></em></sup>) for all <em>N</em> ≥ 2 —
+a stretched-exponential saving in log <em>N</em> for every length, the shape Kelley and Meka reached for <em>k</em> = 3 in 2023,
+now for all <em>k</em>. (2) Its <strong>Corollary 1.2</strong> is Erdős's statement, by the five-line dyadic summation above.
+(3) <strong>The Lean in the release proves neither (1) nor only (2).</strong> The Comparator challenge
+<a href="https://github.com/openai/math/blob/main/lean/ComparatorChallenges/ErdosReciprocal.lean"><code>ComparatorChallenges/ErdosReciprocal.lean</code></a>
+states exactly the question on the problem page —
+<code>∀ A : Set ℕ, ¬ Summable (reciprocalTerm A) → ∀ k : ℕ, HasAP A k</code>, with
+<code>HasAP A k := ∃ a d : ℕ, 0 &lt; d ∧ ∀ i &lt; k, a + i * d ∈ A</code> — and the solution module
+<a href="https://github.com/openai/math/blob/main/lean/OAI/Combinatorics/Progressions/Results/Conclusions.lean"><code>Results/Conclusions.lean</code></a>
+proves it as the second half of <code>manuscript_main_theorems : QuantitativeDensityTheorem ∧ ReciprocalProgressionTheorem</code>,
+where the first half is <code>∀ k ≥ 3, ∃ C c η &gt; 0, ∀ N ≥ 3, extremalNumber k N ≤ C · N · exp(−c · (log log N)^(1+η))</code>.
+That is weaker than Theorem 1.1 but <em>strictly past the summability threshold</em> — the exponent on log log <em>N</em> is
+1 + <em>η</em> where Leng–Sah–Sawhney had <em>c<sub>k</sub></em> &lt; 1 — so if a kernel accepts it, the formal object is itself a new
+bound for every <em>k</em> ≥ 4 and settles #3 on its own, independently of the 198 pages. Thomas Bloom read the same thing on
+8 October ("the Comparator Challenge Lean file has only the statement of Erdős' conjecture … the actual Lean code appears to
+prove the weaker bound exp(−(log log <em>N</em>)<sup>1+<em>c<sub>k</sub></em></sup>)<em>N</em>"); OpenAI's own
+<a href="https://github.com/openai/math/blob/main/lean/docs/159.md"><code>docs/159.md</code></a> says "the selected theorem is the
+reciprocal-sum consequence; the paper's quantitative upper bound … is outside this statement". OpenAI's own catalogue of "papers with a formalized main result" (<code>lean/formalization.yaml</code>, 185 of the release's 405 Comparator challenges) does not list this one — consistently, since the formalized theorem is the corollary and not the paper's main result — while the release's <code>CONTENTS.md</code> puts its "Lean" link beside the quasipolynomial bound, which the Lean does not prove.</p>
+
+<p><strong>The Lean at source (our audit, 12 October) — statement fidelity HOLDS; kernel acceptance not yet ours.</strong>
+The statement quantifies over all <code>Set ℕ</code>, including sets containing 0 (harmless: <code>reciprocalTerm A 0 = 0</code>
+in Lean, and a progression found in <em>A</em> ∖ {0} is one in <em>A</em>, so the formal statement applied to <em>A</em> ∖ {0} gives
+Erdős's statement about positive integers); it asks for a progression with <em>positive</em> common difference for <em>every</em>
+<em>k</em>, which implies the Formal Conjectures form of
+<a href="https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/3.lean"><code>erdos_3</code></a>
+(frequently-many lengths, <code>IsAPOfLength</code>); and the challenge module's three definitions are textually identical to the
+solution's <code>Model.lean</code> (our diff). The proof tree is <code>OAI/Combinatorics/Progressions</code>: <strong>4,774 Lean files,
+1,122,983 lines</strong>, whose import cone is itself plus Mathlib and nothing else (7,976 intra-tree imports; no other OpenAI area,
+none of the twenty-odd third-party packages the library pins). Across all 4,774 files we found zero <code>sorry</code>,
+<code>admit</code>, <code>axiom</code>, <code>native_decide</code>, <code>implemented_by</code>, <code>extern</code>, <code>unsafe</code>,
+<code>opaque</code>, <code>partial def</code>, <code>maxHeartbeats</code> or <code>maxRecDepth</code>; 477 <code>decide</code> calls (kernel-checked)
+and 6,791 <code>noncomputable</code> markers (expected over ℝ). The deduction from the quantitative bound to the reciprocal-sum
+statement is the paper's Corollary 1.2 in Lean: <code>dyadic_sum_le</code>, <code>reciprocal_sum_le_dyadic_tsum</code>,
+<code>summable_reciprocal_of_APFree</code> in <code>Results/Reciprocal.lean</code>, and
+<code>reciprocalProgressionTheorem_of_quantitativeDensityTheorem</code> routing <em>k</em> &lt; 3 through <em>k</em> = 3. Provenance a
+reader should have: one squashed "Initial commit" (<code>adc7f124</code>, 6 October 2026) for the whole 185-theorem library, authors
+"OpenAI", no reviewer field, the Comparator config with <code>enable_nanoda: false</code>, and a library README that says it is
+"a single large library, so we recommend compiling only small portions at a time". One fact in its favour that cost us nothing:
+<strong>2,100 of the 4,774 modules were already compiled on our machine</strong> as part of the import closure of our #172 replay
+(2,088 <code>Built OAI.Combinatorics.Progressions.*</code> lines in that build log, 41 s CPU each on average, no errors).</p>
+
+<p><strong>Our kernel replay — queued, not yet run.</strong> Nobody reports having built this proof with a log anyone can read: the Formal Conjectures change that marks <code>erdos_3</code>
+"research solved" (PR #6898, merged 11 October) did so on source inspection, a grep for <code>sorry</code> and a reading of the Comparator
+configs — it did not build the library, and its reviewer says his executed checks "cover circulant Hadamard only"; the one third-party claim
+of a build is an AI-maintained record (plasma-ai/erdos) that publishes no log; Bloom's post calls the formalisation partial; the openai/math
+issue tracker has nothing on it. Our driver
+(<code>replay/run.sh</code> in the bundle) builds <code>OAI.Combinatorics.Progressions.Main</code> from the pinned sources inside the
+workspace of our #1083 replay (OpenAI package <code>adc7f124</code>, Mathlib <code>d13f23b7</code>, 2,100 modules already present),
+then under <code>--trust=0</code> prints the axioms of <code>manuscriptReciprocalProgressionTheorem</code>,
+<code>manuscriptQuantitativeDensityTheorem</code> and <code>manuscript_main_theorems</code>, prints the challenge module's and the
+solution's statements under <code>pp.all</code> and diffs them, runs a <code>sorry</code>'d negative control through the same command
+(it must show <code>sorryAx</code>), and finally runs <code>leanchecker --fresh</code> over the whole import closure. The estimate,
+written before any CPU was spent: ~2,674 modules at the 41 s average ≈ 30 CPU-hours ≈ <strong>8–12 hours of wall clock at four
+threads, nice 19, ~30 GB of memory</strong> — a day of our one box, gated behind the #1083 kernel check running in the same tree.
+This paragraph is edited in place when it reports: the three standard axioms plus a statement match flip this entry to CLOSED
+(not ours — OpenAI's theorem, OpenAI's formal proof, replayed here); anything else is the headline.</p>
+
+<p><strong>The paper as written — seven hostile seats, sections disjoint, each briefed to refute and told to quote what it objects to.</strong>
+Seven tool-equipped Opus seats read the 198 pages in disjoint scopes against one brief (in the bundle: the three classic holes — a lemma
+that quietly uses the strength of the conclusion, here a width bound that charges the current or a lower-weight precision; a citation that
+does not say what is claimed; "clearly" at the hard step — plus quantifier order, constant cycles, uniformity in summed quantities,
+endpoints). Each report lists what was recomputed, what was skimmed, and a verdict. The paper's own released reasoning trace recorded the
+model's two unresolved worries — "a physical mesh depends on a truncated expansion whose bound already depends exponentially on the
+truncation parameter … this circularity concern unresolved" and "thresholds from lower or same layer repeatedly charged as cost of width
+resetting <em>w<sub>i</sub></em>; need independent <em>Q<sub>i</sub></em>" — and we pointed the relevant seats at both.</p>
+
+<p><strong>§2 and §10, the formal assembly (seat: cells) — HOLDS AS READ IN SCOPE.</strong> Theorem 2.1 written out with explicit
+quantifiers; §10 proves exactly its three assertions — dimension (Proposition 10.2: each round adds at most <em>d</em>₀ + <em>H</em><sub><em>i</em>+1</sub>²
+at weight <em>i</em>, with <em>H</em> built only from higher-weight dimensions) and width plus root cost (Proposition 10.3:
+<em>Q<sub>j</sub></em><sup>out</sup> ≤ <em>q<sub>j</sub></em> + <em>P<sub>j</sub></em>(<em>p</em>, <em>d</em>*, <em>q</em><sub>&gt;<em>j</em></sub>)) — with exponents
+that do not depend on the round <em>t</em> or the horizon <em>T</em>. Every place in §10.3 where a width at weight <em>j</em> is bounded was
+checked for the central structural promise: neither <em>q<sub>j</sub></em> nor any lower width appears on the right; what does use
+<em>q<sub>j</sub></em> (rank threshold, rank-stop probability, flag truncations, modulus cover) is chosen in step 4, after the width losses are
+fixed, and feeds only lower levels and the root. The run-level choice order is cycle-free (Lemma 2.2's gain ξ, then <em>η<sub>k</sub></em>,
+then <em>p</em> and <em>T</em>, then <em>d</em>₀, <em>d</em>* and the cut count <em>N<sub>c</sub></em>, then γ, then each layer from <em>D</em> down).
+Recomputed by hand and correct: block uniqueness at widths ≤ 1/32, the coverage inequalities of Lemmas 10.1 and 4.3, the dimension and
+width envelopes, <em>T</em> = ⌈log(2/α)/log(1 + <em>η</em>)⌉ + 1 with every threshold ≥ e<sup>−<em>p</em></sup>, both inversions to Theorem 1.1
+including α = 1 and <em>r</em> = 1. The trace's same-layer worry is answered by Lemma 4.3 item 2 (p. 26: the loss at the cut layer "uses only
+dimension and gap factors, independently of <em>R<sub>h</sub></em>, <em>Q<sub>h</sub></em>, and the size of the rational section"), redone: log(8/γ) + O(1)
+per cut; the mesh worry has no counterpart in the warm steps 1–3, back-flow from step 4 is excluded on p. 80, and §7.4's truncated Möbius
+expansion (7.8) has error linear in the truncation, not exponential. The one exposition point that matters: Theorem 2.1 is not a self-contained
+statement — its width bound refers to "dimension forecasts" and its certificate to the gap γ, neither among its hypotheses; both are fixed once
+for the run in §10, so Proposition 10.4's deduction is valid, but the theorem should say so. Not checked by this seat: that the "warm" claims
+§10.3 relies on are proved in §§3–9 (other seats below), terminal boxes with short omitted axes against Lemma 2.2's side condition, and Appendices
+C, D, I.</p>
+
+<p><strong>§3 and Appendix F, the constrained path law (seat: paths) — HOLDS AS READ IN SCOPE.</strong> The random object is the integer pair
+(<em>x</em>, <em>V</em>), the affine map ψ(<em>t</em>) = <em>x</em> + <em>Vt</em> on a parameter box with sides O(<em>L<sup>j</sup></em>), its law a smooth spatial law
+weighted by a product density on the coefficient torus, normalised by <em>Z<sub>c</sub></em>; the stopped tree samples layer by layer (rank test, then
+a Haar centre conditioned on the feasible set (3.6), then a path) as a subprobability measure of fixed depth <em>D</em>, so termination is trivial
+and the quantitative mass is, as the paper says, deferred to Proposition 6.2. Every displayed inequality in Lemmas 3.1 and F.4 redone (chart mass,
+covolume, coordinate-map norms, lattice-point counts); Lemmas F.5–F.7 rechecked including that Lemma B.1's hypotheses hold where F.7 invokes it;
+the law (3.3) written out and each claim of Lemma 3.2 and Corollaries F.9–F.10 checked against it. Parameter order (F.1, §3.2, H.4): structural
+counts, then pre/cold-pre, then σ, then <em>A</em>, then <em>L</em> ∈ [<em>A</em>, <em>A</em><sup>O(1+<em>d</em>)</sup>], then the rank threshold <em>R</em> uniform over
+that range, then parent sides — every modulus <em>A</em> must dominate is capped before <em>A</em>; no cycle in scope. Two findings worth a reader's
+attention, both exposition: §3's sampler is <em>not</em> an instance of Proposition F.2 (different chart width and axis classification, side bound
+O(<em>L<sup>j</sup></em>) versus ≤ <em>L</em>, an extra coefficient-one column, added perturbations), and the paper re-verifies the needed properties
+piecemeal (p. 20 for Lemma F.7, G.8 for Lemma 3.3, §3.4 for Appendix I) rather than citing F.2 — the seat confirmed the <em>L</em> → O(<em>L<sup>j</sup></em>)
+change touches only F.7's budget factor; and Appendix F is stated for degrees ≤ <em>s</em> while §3 runs at layers up to <em>D</em> &gt; <em>s</em>, harmless
+because the proofs are fixed-degree arguments and testing degrees stay ≤ <em>s</em>. Not checked: the proof of Lemma 3.3 (G.1–G.6, G.8), the warm clause
+of Theorem 3.4, Proposition H.1, Appendix I beyond I.1.</p>
+
+<p><strong>§4 and §5, preparation by rank cuts and width-independent detection (seat: prepare) — HOLDS AS READ IN SCOPE.</strong> The two
+recovery estimates of §4.3: Lemma 4.4's <em>v</em> ∝ <em>w<sub>j</sub></em> is a normalisation only, the output re-expressed in a warm variable; Lemma 4.6's
+multiplier is independent of the denominator bound <em>H</em>, which matters because <em>H</em> at lower layers can be cold — union bounds and the
+witness-product argument redone. §4.5's induction across layers written out (base case the failed rank certificate, lexicographic extraction order,
+loss exp(poly(<em>d</em> + <em>n</em>)) per layer on <em>S</em> and one polynomial composition per layer on denominators, over at most <em>D</em> layers — what
+Lemma 4.2 claims and §10 uses). §4.6 terminates after at most <em>N<sub>c</sub></em> transactions and the budget order has no cycle. On the trace's
+worry about repeated cuts at one layer: the per-cut loss at weight <em>h</em> depends only on gap and dimensions (Lemma 4.3(2), redone from the two
+covering inequalities, none containing <em>e</em>, <em>R<sub>h</sub></em> or <em>Q<sub>h</sub></em>), the 1/‖<em>e</em>‖ scaling is charged to the lower layers
+(p. 27; §10.3 step 2, p. 79), each cut lowers dim <em>W<sub>h</sub></em> by exactly one so the number of cuts is bounded by dimensions alone, and the
+logs add to <em>Q<sub>j</sub></em> + <em>N<sub>c</sub></em>·<em>A<sub>j</sub></em>, which is what Proposition 10.3 charges. §5.2 against its source: Conlon–Fox–Zhao
+(arXiv:1305.5440v2, current) is cited correctly at §§6.2–6.3 and is not used as a black box — the paper re-runs a cube version ending in an inverse
+theorem, supplies its own two-sided condition in Lemma 5.1 (not weaker than CFZ's), and the restriction <em>q</em> ≤ <em>j</em> is exactly why the
+result is limited to testing degree below the layer weight, as the paper says; the inverse theorem is applied only to bounded dual functions, so
+"bounds independent of the chart mass" holds for <em>r</em> &lt; <em>j</em>. The hand-off from the §6–§7 seat — does Proposition 4.1's proof deliver the
+rank-stop probability bounds Proposition 6.2 charges — was checked and matches (same stop mass in the same stopped tree of §3.5, same discard rules,
+upper bound in both, data at layers ≥ <em>h</em> with the extra cost of a smaller bound paid by the lifting below <em>h</em>). Exposition: Lemma 5.1 says
+"Cartesian grid" but every use needs arbitrary sub-collections (the proof covers them); ⟨<em>v</em>,<em>v</em>⟩ for ⟨<em>v</em>,χ⟩ on p. 39; the shrink ζ in §4.5 is
+never assigned and must be read as the cumulative radius from higher layers (if it were cold, (2.4) would fail — nothing in the text forces that reading,
+and it should); the symbol <em>s</em> in Proposition I.1 must be a generic degree bound, not <em>k</em> − 2. One dependency handed to the Appendix I seat:
+Lemma 4.7 applies Proposition I.1 to the §3 sampler although I.1 as stated assumes Property 1 of Proposition F.2, which that sampler lacks (§3.4) —
+the paper justifies the transfer by inspection of the proof. Settled on the Appendix I seat's file the same sitting: Proposition I.1's proof never uses the part of Property 1 the §3 sampler lacks — exposition, not a gap (details under the active seat below).</p>
+
+<p><strong>§6 and §7, forward sampling and the return through passive layers (seat: sample) — HOLDS AS READ IN SCOPE.</strong> Proposition 6.2
+re-derived in full; as stated it gives exactly what §10.4 charges — at least <em>ηa</em> of terminal paths productive, with mean ≥ (1 − 2<em>η</em>)<em>a</em>,
+using the certificate only in the non-strict form <em>S</em>₁ ≥ <em>aT</em>₁ so that no constant depends on the incoming surplus, with error requests
+confined to the current layer and above (the rank-stop requirement is the one handed back to §4 above). The inductive score of §7.1 written out
+(a paired-cutoff score on a cheap slice of the layer-<em>j</em> path box; induction from layer <em>D</em> down to 1; base case Lemma 7.1; passive step
+Proposition 7.8 → Corollary 7.9 → Proposition 9.1, so the passive step closes only in §9; the surviving fraction guarantees a productive child exists
+and never multiplies the score). Every inequality in §7.3, (7.8)–(7.10), Corollary 7.9, the de-averaging in Proposition 7.8 and Lemma 7.1 checked;
+Lemma 7.6 re-proved; every citation of §3/§4/§5 inside §6–§7 (Lemmas 3.1, 3.2, 4.6, 4.7, 5.1, 5.3, Theorem 3.4, Proposition 4.1) uses the cited
+statement or something weaker, except that p. 43 cites Lemma 5.1 for a boundary-strip estimate it does not literally state (it follows from the
+proof — exposition). The external input: Schoen–Sisask [43, Theorem 5.4] is applied in exactly one place, Lemma C.2 (p. 101), never inside §7;
+arXiv:1408.2568 has a single version (v1, 2014) and the published Forum of Mathematics, Sigma text has the same theorem with the same number; all
+hypotheses hold in each of the three cases the proof splits into; only the theorem's own outputs are used (rank, radius, regularity, sup-norm error
+at 0); the radius bound keeps the incoming radius as a multiplicative factor, as §1.3 says, and the downstream use on p. 105 is consistent. Eight
+exposition items (undefined exceptional depths <em>b</em><sub>ϖ</sub> in (6.3) that come from Lemma H.2 without a cross-reference; "pre" never defined
+in Definition 2.3; a wasteful but harmless exponent in (7.6); the paper's "regular" with an unspecified O-constant where Schoen–Sisask's Definition
+4.3 has explicit ones). Not checked: Lemma 3.2, Theorem 3.4, Appendices F–I, Lemma D.5, the Proposition I.6 adaptation inside Proposition 7.8,
+and Proposition 9.1, which closes the passive step.</p>
+
+<p><strong>§8, §9 and Appendix I, the active return and relative lifting (seat: active) — HOLDS AS READ IN SCOPE.</strong> Theorem 8.2 written out
+with all quantifiers: the induction runs on <em>r</em>, the filtration degree, with depth bounded by the largest inflated absolute weight, which depends
+only on <em>s</em> — so constants do not grow with the number of increments; base case from Proposition 7.4; all three stages of the step traced
+(<em>L</em>₀-averaging with top injectivity, exact factors, refiltration with restoration); the only score losses are prescribed additive parts of
+<em>η</em> and the objective slice is never restricted, which is what §10 charges. "Exact marking" is the formal identity π⁰<em>g</em> = <em>P<sub>Y</sub></em>(<em>X</em>),
+kept exact by averaging only inside ker π̂⁰, the common-site correction (8.9), exact projected factors and the restoration multiplier (8.13); the claim
+that <em>p</em>(<em>X</em>, <em>z</em><sub>all</sub>) = <em>X</em> also holds on the forecasting locus was checked specifically (integer rows annihilating <em>K</em> vanish on
+the active sheet vectors). §9: 9.1 solves over ℤ with coefficient 1 (no determinants); determinants appear only in 9.2 over ℝ; Lemma 9.3 re-derived
+as a bijection onto selected origins with total mass ≤ 1 + O(<em>c</em><sub>*</sub>); the new width <em>r</em>′<sub><em>j</em></sub> = ℓ<em>v</em> with <em>v</em>/<em>w<sub>j</sub></em> warm
+by (3.1) and ℓ depending only on buffers, Lipschitz bounds and margins — none involving <em>Q<sub>j</sub></em> or any cold output of Theorem 8.2 — so
+log(<em>w<sub>j</sub></em>/<em>r</em>′<sub><em>j</em></sub>) is warm, as the central promise requires; the weight-inflation recursion of §9.6 has depth <em>s</em> and no cycle
+with <em>D</em>. Appendix I: every identity and inequality recomputed in Lemmas I.2–I.4, the core of Proposition I.1, every step of Proposition I.6,
+Lemma I.8, Lemmas I.10–I.12, Proposition I.13 and both halves of Theorem I.15. Table 1's claim that Lemma 2.2 is Theorem I.15 applied to the
+rank-zero patch checks clause by clause: <em>d</em>₀ is the rank of the fixed-dimension absolute rule (Proposition D.3 + Lemma D.5), a function of
+<em>p</em> only; the enlarged resource parameter poly(<em>p</em> + <em>n</em>) enters complexity, score, slice cost and side cutoff but never the rank; the
+impossibility branch (Λ ≥ 1) is exactly what §10.4 relies on. A fact useful for scoping: with <em>d</em> = 0 only the base case of Theorem I.15 is on the
+critical path to Theorem 1.1 — the inductive half of Appendix I is not. Exposition: the weight multiplier's two requirements sit in different sentences
+(pp. 75–76); Propositions I.6 and I.1 are stated for degrees ≤ <em>s</em> and used above <em>s</em> after weight inflation under the "any larger fixed degree"
+convention; the score hypothesis (8.2) does not say it holds per path; inconsistent copy dimensions in Lemmas I.11–I.12; the mesh in Lemma I.8 needs
+the max-norm Lipschitz constant; sketch density on pp. 65 and 68. Taken on trust: Lemma B.1, Lemmas A.3–A.6, Proposition F.2's properties, Theorem
+3.4, Proposition 7.4, Proposition H.1, Propositions E.1, D.3, D.5 (hypotheses matched against use only). The §4 hand-off — Lemma 4.7 applies Proposition I.1 to the §3 sampler without Property 1 of Proposition F.2 — was settled on this file: the proof of I.1 (pp. 182–183) uses the polynomial-identity part ("Since the full substituted polynomial has ordinary degree at most d…"), chart-supported paths and Property 2 only, never the fine mixed-centre one-site accuracy, and Remark I.5 says as much ("The preceding proof uses Property 2 of Proposition F.2 and Lemma B.1"); the stated hypothesis should be narrowed. The §3 seat had independently reached the same reading.</p>
+
+<p><strong>Appendices A–D and the inverse-theorem input (seat: inputs) — HOLDS AS READ IN SCOPE.</strong> [35] is Leng–Sah–Sawhney,
+arXiv:2402.17994, current version v3 (10 August 2024), the version the paper cites; Theorem 1.2 quoted verbatim in the report. The paper's interval norm
+(A.2) equals LSS's normalisation exactly; the box reduction (Theorem A.7, p. 91) and the product-cyclic reduction (p. 92) checked line by line with no
+error; with δ = e<sup>−<em>p</em></sup> LSS return dimension and log-complexity polynomial in <em>p</em> and correlation exp(−poly <em>p</em>), matching what
+Theorem A.7 asserts (dividing by max(1, ‖<em>F</em>‖<sub>∞</sub>) is legitimate because their Lipschitz norm includes the sup norm; the metric comparison needs only
+<em>d<sub>c</sub></em> ≤ <em>d<sub>R</sub></em>, which holds); at every application point (Proposition C.12 and pp. 22, 38, 161) a <em>U<sup>q</sup></em> hypothesis leads to a
+degree-(<em>q</em> − 1) test and the counting results use degree ≤ <em>k</em> − 2, consistently. [35, Lemma B.5] and [35, Thm 5.4/Cor 5.5] are cited as
+antecedents only — the paper proves its own box versions (Lemma A.9, Lemma B.1), both checked. Kelley–Meka [30] (v6, current) and Bloom–Sisask [8]
+(v3, current) are cited for methods — KM §§4–5 sifting and the decoupling Lemma 5.2, BS §§2.1–2.2 unbalancing and dependent random choice — and the
+paper re-proves the local versions inline, importing no statement; the attribution is accurate. Schoen–Sisask, used in Lemma C.2 inside this page range,
+was checked here too (parameter mapping and the rank/width bounds in (C.4) correct), agreeing with the §6–§7 seat. Every displayed inequality in B.2
+(Lemma B.2, (B.7), the grade-by-grade removal), C.1 (the full refinement in Proposition C.6 including dependent random choice and the potential estimates
+of Lemma C.4) and D.1 (Lemma D.1's axis compression, the sign trick in Proposition D.2, Proposition D.3) re-derived; Proposition C.12 read in full, no
+constant cycle; a few finite claims (the box embedding, the cyclic partition, the D.2 kernels) checked numerically. Exposition: Proposition C.6 says ζ
+is fixed with κ but it must be fixed after the moment constant (no cycle results); Lemma C.2's "regular" uses an O(<em>D</em>|<em>t</em>|) constant where
+Schoen–Sisask's Theorem 5.4 needs their 12<em>d</em> (cosmetic); Theorem C.1 assumes <em>N</em> odd and nothing in Appendix C uses it. Skimmed: the
+rational-algebra Lemmas A.2–A.4 (logic only), textbook Bohr-set facts, Lemma C.11, the Lipschitz and chart details of Lemma D.5, the cyclic smoothing
+constants in Lemma A.9; Proposition D.7 statement only (its proof is Theorem I.15, above).</p>
+
+<p><strong>The whole paper, its constants and its bibliography (seat: whole) — HOLDS AS READ IN SCOPE, the structural half conditional on the
+width-dependence statements the other seats read at proof level.</strong> The dependency graph built from Figure 3, Table 1 and §1.5; the global
+choice order written out and found acyclic as written: <em>D</em> first (from the depth-<em>s</em> weight recursion of §9.6, which depends on <em>s</em> only),
+then the sampler degree cutoffs, ξ (Lemma 2.2), the fixed proportional losses, <em>η<sub>k</sub></em>, <em>p</em>, <em>T</em>, <em>d</em>₀ = (2 + <em>p</em>)<sup><em>C<sub>k</sub></em></sup>,
+<em>d</em>* and <em>N<sub>c</sub></em> (Proposition 10.2, which uses no widths), γ, then per round the descending budgets <em>U<sub>j</sub></em>, <em>A<sub>j</sub></em>,
+<em>A</em>′<sub><em>j</em></sub> and the envelopes <em>V<sub>j</sub></em>; Appendices E, F–H and I each state their own order, also acyclic. <em>d</em>₀ is
+dimension-independent because Lemma 2.2 uses Proposition D.7 only with the constant old patch, so only the base case of Theorem I.15 is on the main
+route; <em>A<sub>k</sub></em> is iteration-independent because <em>T</em> enters each envelope linearly through only <em>D</em> levels of composition. The trace's
+"truncated expansion / mesh" worry lives in E.1.3, and the final text resolves it with an explicit two-mesh order — the first physical grid is fixed
+before the truncation level <em>b</em> (p. 134) and the <em>b</em>-dependent finer mesh partitions only the sample variables and feeds only late side cutoffs
+(p. 136); Figure 2's "no arrow" property holds in the statements of Propositions 10.2–10.3 and in the statements they cite. G.10, G.11 and H.1 together
+with Corollary F.9 prove Proposition F.2's full statement, not a weaker one (G.11 line by line). Bibliography: all 48 entries exist; every locator
+checked matches the pinned version — [35, Thm 1.2] (stated for the interval [<em>N</em>] only, hence the paper's own box reductions), [43, Thm 5.4],
+[11, §§6.2–6.3], [21, Thm 1.2], [38, Thm 1.4], [33], [34], and [37, Thm 7.2] in the companion van der Waerden paper of the same release, whose
+proof was read as well; two pointer imprecisions (p. 109 cites bare [35] for a cyclic-group application that is really the paper's own Theorem A.7;
+p. 128 cites [29] for heterogeneous product spaces without stating the one-line lift); print versions of [3], [11], [19] and [30] could not be fetched,
+the arXiv texts were read instead. §1's prior-work claims, Corollary 1.2, the inversion and Corollaries 11.2–11.5: correct line by line, agreeing with
+our own read. One structural fact about the release rather than the paper: the Lean takes a different route — the Erdős statement by iterated relative
+lifting with the bound exp(−<em>c</em>(log log <em>N</em>)<sup>1+<em>η</em></sup>), the route Remark D.8 says is not the paper's — and none of §§2–10, where the
+quasipolynomial exponent comes from, is formalized. Exposition: Table 1 misplaces the proof of F.2's item 1 (it is Corollary F.9); <em>D</em>, <em>η</em>
+and <em>C<sub>k</sub></em> each used for several things; Appendices F–H use <em>s</em> as a generic degree bound where the main text fixes <em>s</em> = <em>k</em> − 2 and
+the sampler needs degree up to <em>D</em>; the unconstrained version of F.2, which is on the main route, is proved in one paragraph. Not checked at proof
+level by this seat: Lemmas 4.2–4.3, Theorem 3.4, Theorem 8.2, Proposition 9.1 — the seats above did.</p>
+
+<p><strong>What the seven seats add up to.</strong> Seven of seven HOLDS AS READ IN SCOPE; no FATAL, no GAP, no constant cycle, about forty exposition
+notes, every one quoted with its page in the bundle. The two cross-seat hand-offs that fell out were both closed in the same sitting: Proposition 6.2's
+rank-stop requirement is what Proposition 4.1's proof delivers (same stop mass in the same stopped tree, upper bound in both, data at layers ≥ <em>h</em>);
+and Lemma 4.7's use of Proposition I.1 on a sampler lacking Property 1 of Proposition F.2 is safe because I.1's proof never uses the part of Property 1
+that sampler lacks (Remark I.5 says so) — the stated hypothesis should be narrowed. What this is not: a human expert's reading, and the seats' skim lists
+are the edge of it. A referee that finds nothing is weaker evidence than a kernel that accepts a proof — and for the quasipolynomial theorem there is no
+kernel, only these 198 pages; the kernel-checked object is the weaker bound and the reciprocal-sum statement.</p>
+
+
+<p><strong>Our own reads.</strong> §1 (the claim, the prior-work paragraph — Bloom–Sisask, Kelley–Meka, Gowers, Green–Tao,
+Leng–Sah–Sawhney, all stated correctly against the problem page and the sources), §2 (cells, Theorem 2.1's three assertions,
+Lemma 2.2, the descending budgets), §10.4's two inversions between the density form and the threshold form of Theorem 1.1
+(both directions and the endpoint α = 1 check out: log <em>N</em> &lt; <em>C<sub>k</sub></em>(2 + log(1/α))<sup><em>A<sub>k</sub></em></sup>
+inverts to α &lt; e<sup>2</sup> exp(−<em>C<sub>k</sub></em><sup>−1/<em>A<sub>k</sub></em></sup>(log <em>N</em>)<sup>1/<em>A<sub>k</sub></em></sup>)), and all
+of §11: Proposition 11.1 (dyadic weighted summation), Corollary 11.2 (<em>H<sub>k</sub></em> = Σ 2<sup>−<em>m</em></sup><em>r<sub>k</sub></em>(2<sup><em>m</em></sup>)),
+Corollary 11.3 (both weights eventually decreasing — the two logarithmic derivatives are right — and both dyadic series summable,
+the second by Bertrand), Corollary 11.4 (the (log(2 + <em>a</em>))<sup><em>B</em></sup>/<em>a</em> criterion and the
+<em>N</em>(log <em>N</em>)<sup>−<em>B</em></sup> consequence that recovers Green–Tao's dense-primes theorem), Corollary 11.5 (the partial
+summation, the substitution <em>v</em> = <em>c</em>(log <em>t</em>)<sup><em>ε</em></sup>, the tail inequality ∫<sub><em>v</em>₀</sub><sup>∞</sup> <em>v<sup>b</sup></em>e<sup>−<em>v</em></sup> ≤ 2<em>v</em>₀<sup><em>b</em></sup>e<sup>−<em>v</em>₀</sup>
+for <em>v</em>₀ ≥ 2<em>b</em>, and the constant 2<em>C</em>/(<em>cε</em>)). These are the elementary ends of the paper and they are
+correct as written; they say nothing about the 180 pages in between.</p>
+
+<p><strong>The world, 12 October.</strong> The teorth database still says OPEN (statement formalized; last updated 31 August 2025 — we refreshed it today); erdosproblems.com/3 shows no status, no proof
+claim and no mention of the release (two comments, both from 2025; Bloom's own reaction on the page is "looks difficult");
+Formal Conjectures marks <code>erdos_3</code> research-solved with the formal-proof link above and no statement that anyone
+outside OpenAI built it; Bloom's 8 October blog post lists #3 first among the 25 problems and stresses that none of the claims
+"should be viewed as closing the problem" until read; Gil Kalai's 7 October round-up lists it ("any set of positive integers
+with divergent reciprocal sum contains arbitrarily long arithmetic progressions, with quasipolynomial quantitative bounds in
+Szemerédi's theorem") under the blanket caveat that "even Lean verification may have issues". Our world seat, searching separately, found no independent expert endorsement and no error report: Bloom's post says in so many words that it is not an endorsement; erdosproblems.com/3 and Tao's GitHub database are unchanged; the Formal Conjectures change was PR #6898 (merged 11 October), source inspection and no build; the only third-party claim of a build publishes no log; the Lean Zulip (login), Reddit and X could not be read, so silence there is not evidence. Every place searched is listed with dates in the bundle.</p>
+
+<p><strong>Labels.</strong> The reciprocal-sum statement, Erdős #3 as asked: <strong>(d) computer-assisted</strong> — a kernel-checked
+proof exists, written by the claimant, source-audited here, <em>our own replay queued, not yet run</em>; nothing flips on the
+scoreboard until it prints the three standard axioms. The quasipolynomial Theorem 1.1: <strong>(c) plausible/unverified by a
+human</strong> — seven tool-equipped machine seats with disjoint scopes, each briefed to refute, found no mathematical gap and no constant cycle (seven HOLDS AS READ IN SCOPE, about forty exposition notes); what each skimmed is listed in its report, and the structural verdict rests on width-dependence statements (Lemmas 4.2–4.3, Theorem 3.4, Theorem 8.2, Proposition 9.1) that other seats read at proof level. Our inversions and §11 reads: (a), ours. Nothing mathematical here is ours; the theorem and
+the formal proof are OpenAI's. The teorth database still says OPEN; this entry does not change that and neither does anything
+short of a kernel saying so on a machine OpenAI does not control.</p>

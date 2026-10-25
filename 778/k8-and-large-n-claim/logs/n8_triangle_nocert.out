@@ -1,0 +1,2 @@
+n=8 mode=triangle edges=28 aliceEdges=10 RESULT: ALICE WINS
+nodes=97996505 memo=9027783 canonCalls=94096282 orderings=105619209 cutBob=87311 cutAlice=3812427 time=904.1s

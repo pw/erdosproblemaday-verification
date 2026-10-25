@@ -1,0 +1,43 @@
+1/1 feasible solution given by solution candidate storage, new primal bound 3.335000e+03
+
+permute transformed problem using random seed 271828
+presolving:
+(round 1, exhaustive) 0 del vars, 0 del conss, 0 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 4876 upgd conss, 0 impls, 0 clqs, 0 implints
+(round 2, fast)       47 del vars, 0 del conss, 0 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 4876 upgd conss, 0 impls, 0 clqs, 0 implints
+   (0.1s) probing: 51/4952 (1.0%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.1s) probing aborted: 50/50 successive totally useless probings
+   (0.1s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.1s) no symmetry present (symcode time: 0.00)
+presolving (3 rounds: 3 fast, 2 medium, 2 exhaustive):
+ 49 deleted vars, 1 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 48 changed coefficients
+ 0 implications, 46 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 4952 variables (4952 bin, 0 int, 0 cont) and 4875 constraints
+   4875 constraints of type <logicor>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 0.12
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  5.3s|     1 |     0 | 11001 |     - |    46M |   0 |4952 |4875 |4874 |   0 |  0 |   0 |   0 | 3.343863e+03 | 3.335000e+03 |   0.27%| unknown
+  9.0s|     1 |     0 | 11236 |     - |    61M |   0 |4952 |4875 |4893 |  19 |  1 |   0 |   0 | 3.342427e+03 | 3.335000e+03 |   0.22%| unknown
+ 11.3s|     1 |     0 | 11376 |     - |    62M |   0 |4952 |4875 |4909 |  35 |  2 |   0 |   0 | 3.341040e+03 | 3.335000e+03 |   0.18%| unknown
+ 13.9s|     1 |     0 | 11641 |     - |    65M |   0 |4952 |4875 |4918 |  44 |  3 |   0 |   0 | 3.340128e+03 | 3.335000e+03 |   0.15%| unknown
+ 16.5s|     1 |     0 | 11884 |     - |    66M |   0 |4952 |4875 |4929 |  55 |  4 |   0 |   0 | 3.339488e+03 | 3.335000e+03 |   0.13%| unknown
+ 18.8s|     1 |     0 | 11975 |     - |    67M |   0 |4952 |4875 |4936 |  62 |  5 |   0 |   0 | 3.339199e+03 | 3.335000e+03 |   0.13%| unknown
+ 21.2s|     1 |     0 | 12066 |     - |    68M |   0 |4952 |4875 |4942 |  68 |  6 |   0 |   0 | 3.338890e+03 | 3.335000e+03 |   0.12%| unknown
+ 23.5s|     1 |     0 | 12223 |     - |    69M |   0 |4952 |4875 |4950 |  76 |  7 |   0 |   0 | 3.338670e+03 | 3.335000e+03 |   0.11%| unknown
+ 25.8s|     1 |     0 | 12248 |     - |    70M |   0 |4952 |4875 |4954 |  80 |  8 |   0 |   0 | 3.338618e+03 | 3.335000e+03 |   0.11%| unknown
+ 28.0s|     1 |     0 | 12297 |     - |    70M |   0 |4952 |4875 |4960 |  86 |  9 |   0 |   0 | 3.338496e+03 | 3.335000e+03 |   0.10%| unknown
+ 30.4s|     1 |     0 | 12478 |     - |    71M |   0 |4952 |4875 |4966 |  92 | 10 |   0 |   0 | 3.338282e+03 | 3.335000e+03 |   0.10%| unknown
+ 31.5s|     1 |     0 | 12551 |     - |    72M |   0 |4952 |4875 |4970 |  96 | 11 |   0 |   0 | 3.338190e+03 | 3.335000e+03 |   0.10%| unknown
+ 32.7s|     1 |     0 | 12647 |     - |    73M |   0 |4952 |4875 |4981 | 107 | 12 |   0 |   0 | 3.338031e+03 | 3.335000e+03 |   0.09%| unknown
+ 33.8s|     1 |     0 | 12752 |     - |    74M |   0 |4952 |4875 |4985 | 111 | 13 |   0 |   0 | 3.337971e+03 | 3.335000e+03 |   0.09%| unknown
+ 34.9s|     1 |     0 | 12856 |     - |    74M |   0 |4952 |4875 |4992 | 118 | 14 |   0 |   0 | 3.337925e+03 | 3.335000e+03 |   0.09%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+ 53.8s|     1 |     2 | 12856 |     - |    79M |   0 |4952 |4875 |4992 | 118 | 14 |   0 |  55 | 3.337624e+03 | 3.335000e+03 |   0.08%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 237.23
+Solving Nodes      : 41
+Primal Bound       : +3.33500000000000e+03 (538 solutions)
+Dual Bound         : +3.33500000000000e+03
+Gap                : 0.00 %

@@ -1,0 +1,20 @@
+sparse_half_131_5000 -> Erdos128/ModuloBCL.lean:50:theorem sparse_half_131_5000 
+exists_rounding_at_most_one -> Erdos128/RoundingIterate.lean:50:theorem exists_rounding_at_most_one 
+hasSparseHalf_of_hasFractionalHalfBound -> Erdos128/RoundingFinal.lean:84:theorem hasSparseHalf_of_hasFractionalHalfBound 
+hasNormalizedInternalCutBoundQ_balancedBlowup_iff -> Erdos128/BalancedBlowup.lean:677:theorem hasNormalizedInternalCutBoundQ_balancedBlowup_iff 
+hasNormalizedFractionalHalfBoundQ_balancedBlowup_iff -> Erdos128/BalancedBlowup.lean:417:theorem hasNormalizedFractionalHalfBoundQ_balancedBlowup_iff 
+edgeDensityQ_balancedBlowup -> Erdos128/BalancedBlowup.lean:196:theorem edgeDensityQ_balancedBlowup 
+c4DensityQ_balancedBlowup -> Erdos128/BalancedBlowup.lean:309:theorem c4DensityQ_balancedBlowup 
+cliqueFree_balancedBlowup -> Erdos128/BalancedBlowup.lean:121:theorem cliqueFree_balancedBlowup (G : SimpleGraph V) (k : ℕ) (_hk : 0 < k) 
+BCLEventual -> Erdos128/ModuloBCL.lean:30:def BCLEventual : Prop := 
+provider_of_eventual -> Erdos128/ModuloBCL.lean:39:theorem provider_of_eventual (h : BCLEventual) : BCLCutCertificateProvider := by 
+checkedC4FlagCertificateProvider -> Erdos128/C4Certificate/Provider.lean:18:theorem checkedC4FlagCertificateProvider : C4FlagCertificateProvider := 
+certificate_all_triangleFree_masks -> Erdos128/C4Certificate/FiniteCertificate.lean:26:theorem certificate_all_triangleFree_masks 
+highEnvelope_of_anchor_c4 -> Erdos128/SimpleBound.lean:37:theorem highEnvelope_of_anchor_c4 {r t4 b : ℝ} 
+exists_highDensity_profile_of_cross_sum -> Erdos128/HighDensity.lean:486:theorem exists_highDensity_profile_of_cross_sum 
+exists_cubic_neighborhood -> Erdos128/CubicNeighborhood.lean:328:theorem exists_cubic_neighborhood 
+exists_oneStepSaving -> Erdos128/OneStepSaving.lean:463:theorem exists_oneStepSaving 
+exists_lowDensity_profile -> Erdos128/LowDensityConstruction.lean:846:theorem exists_lowDensity_profile 
+exists_highDensity_profile -> Erdos128/C4Certificate/Soundness.lean:202:theorem exists_highDensity_profile 
+calculus_bound -> Erdos128/LowDensity.lean:429:theorem calculus_bound {a μ : ℝ} 
+formalConjectures_131_5000 -> Erdos128/ModuloBCL.lean:62:theorem formalConjectures_131_5000 (hBCL : BCLEventual) : 

@@ -1,0 +1,13 @@
+Lemma 4.3 over 207 weighted graphs: min_G (max_x S_x - 4 mu^3) = -1.388e-17 (at C5/uniform); min ratio max S/(4mu^3) = 1.000000000000
+   C5/uniform               max S_x - 4mu^3 = -1.388e-17
+   Petersen/uniform         max S_x - 4mu^3 = -1.041e-17
+   Clebsch/uniform          max S_x - 4mu^3 = +0.000e+00
+   Andrasfai3/uniform       max S_x - 4mu^3 = +0.000e+00
+   Andrasfai4/uniform       max S_x - 4mu^3 = +0.000e+00
+   C7/uniform               max S_x - 4mu^3 = +0.000e+00
+   MobiusKantor/uniform     max S_x - 4mu^3 = +0.000e+00
+MUTATION 4.01 mu^3: min_G (max_x S_x - 4.01 mu^3) = -1.103e-04 at geng2  -> FAILS (as it must)
+Lemma 4.3 on 300 random NON-triangle-free weighted graphs: violations = 0
+Lemma 4.4: 14800 (graph, alpha, psi, admissible x) tests; worst relative slack of (9) = 9.098e-09 at ('Clebsch/uniform', np.float64(0.9999869485255478), np.int64(2))
+   feasibility violations=0  mean violations=0  max |avg identity err|=4.13e-15  t+t-<L(alpha): 0  3-case formula max rel err=4.30e-16
+C5 uniform, alpha=1/2: t+t- = 0.694444, L = 0.25, S_x/(4mu^3) = 1.000000 -> the lemma's saving 4L mu^3 = 8.000000e-03, achieved = 2.222222e-02
