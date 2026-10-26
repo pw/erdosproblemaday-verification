@@ -1,0 +1,4 @@
+[2026-10-26T09:24:33Z] lean SameControlNeg.lean  LEAN_PATH=/tmp/oaimath/003/seats/D_work/bridge/out:/tmp/erdos0300/lean/mathlib4/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Cli/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Qq/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/aesop/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/batteries/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/plausible/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean
+SameControlNeg.lean:4:0: error: DIFFERENT: the text elaborates to a different Expr than SeatD003.NoLandauSiegel's stored value
+RSSCAP done rc=1 peak_kb=6840468 wall=20s
+[2026-10-26T09:24:53Z] rc=1

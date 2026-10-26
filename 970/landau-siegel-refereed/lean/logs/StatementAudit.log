@@ -1,0 +1,192 @@
+[2026-10-26T09:18:42Z] lean SeatD003/StatementAudit.lean  LEAN_PATH=/tmp/oaimath/003/seats/D_work/bridge/out:/tmp/erdos0300/lean/mathlib4/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Cli/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Qq/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/aesop/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/batteries/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/plausible/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean
+def SeatD003.NoLandauSiegel : Prop :=
+@Exists.{1} Real fun (c : Real) =>
+  And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c)
+    (∀ (q : Nat) [inst : @NeZero.{0} Nat (@MulZeroClass.toZero.{0} Nat Nat.instMulZeroClass) q],
+      @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) q →
+        ∀
+          (χ :
+            @DirichletCharacter.{0} Complex
+              (@CommGroupWithZero.toCommMonoidWithZero.{0} Complex
+                (@Semifield.toCommGroupWithZero.{0} Complex (@Field.toSemifield.{0} Complex Complex.instField)))
+              q),
+          @DirichletCharacter.IsPrimitive.{0} Complex
+              (@CommGroupWithZero.toCommMonoidWithZero.{0} Complex
+                (@Semifield.toCommGroupWithZero.{0} Complex (@Field.toSemifield.{0} Complex Complex.instField)))
+              q χ →
+            @Ne.{1}
+                (@DirichletCharacter.{0} Complex
+                  (@CommGroupWithZero.toCommMonoidWithZero.{0} Complex
+                    (@Semifield.toCommGroupWithZero.{0} Complex (@Field.toSemifield.{0} Complex Complex.instField)))
+                  q)
+                χ
+                (@OfNat.ofNat.{0}
+                  (@DirichletCharacter.{0} Complex
+                    (@CommGroupWithZero.toCommMonoidWithZero.{0} Complex
+                      (@Semifield.toCommGroupWithZero.{0} Complex (@Field.toSemifield.{0} Complex Complex.instField)))
+                    q)
+                  (nat_lit 1)
+                  (@One.toOfNat1.{0}
+                    (@DirichletCharacter.{0} Complex
+                      (@CommGroupWithZero.toCommMonoidWithZero.{0} Complex
+                        (@Semifield.toCommGroupWithZero.{0} Complex (@Field.toSemifield.{0} Complex Complex.instField)))
+                      q)
+                    (@MulChar.hasOne.{0, 0} (ZMod q) (@CommRing.toCommMonoid.{0} (ZMod q) (ZMod.commRing q)) Complex
+                      (@CommGroupWithZero.toCommMonoidWithZero.{0} Complex
+                        (@Semifield.toCommGroupWithZero.{0} Complex
+                          (@Field.toSemifield.{0} Complex Complex.instField)))))) →
+              (∀ (a : ZMod q),
+                  @Eq.{1} Real
+                    (Complex.im
+                      (@DFunLike.coe.{1, 1, 1}
+                        (@DirichletCharacter.{0} Complex
+                          (@CommGroupWithZero.toCommMonoidWithZero.{0} Complex
+                            (@Semifield.toCommGroupWithZero.{0} Complex
+                              (@Field.toSemifield.{0} Complex Complex.instField)))
+                          q)
+                        (ZMod q) (fun (x : ZMod q) => Complex)
+                        (@MulChar.instFunLike.{0, 0} (ZMod q) (@CommRing.toCommMonoid.{0} (ZMod q) (ZMod.commRing q))
+                          Complex
+                          (@CommGroupWithZero.toCommMonoidWithZero.{0} Complex
+                            (@Semifield.toCommGroupWithZero.{0} Complex
+                              (@Field.toSemifield.{0} Complex Complex.instField))))
+                        χ a))
+                    (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))) →
+                ∀ (β : Real),
+                  And
+                      (@LT.lt.{0} Real Real.instLT
+                        (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) β)
+                      (And
+                        (@LT.lt.{0} Real Real.instLT β
+                          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+                        (@Eq.{1} Complex (@DirichletCharacter.LFunction q inst χ (Complex.ofReal β))
+                          (@OfNat.ofNat.{0} Complex (nat_lit 0) (@Zero.toOfNat0.{0} Complex Complex.instZero)))) →
+                    @LE.le.{0} Real Real.instLE c
+                      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                        (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) β)
+                        (Real.log (@Nat.cast.{0} Real Real.instNatCast q))))
+SeatD003.NoLandauSiegel declared in [SeatD003.NoLSStatement]; 46 constants used directly:
+  Exists  [Init.Core]
+  Real  [Mathlib.Basic.Real.Basic]
+  And  [Init.Prelude]
+  LT.lt  [Init.Prelude]
+  Real.instLT  [Mathlib.Basic.Real.Basic]
+  OfNat.ofNat  [Init.Prelude]
+  Zero.toOfNat0  [Init.Data.Zero]
+  Real.instZero  [Mathlib.Basic.Real.Basic]
+  Nat  [Init.Prelude]
+  NeZero  [Init.Data.NeZero]
+  MulZeroClass.toZero  [Mathlib.Algebra.GroupWithZero.Defs]
+  Nat.instMulZeroClass  [Mathlib.Algebra.GroupWithZero.Nat]
+  LE.le  [Init.Prelude]
+  instLENat  [Init.Prelude]
+  instOfNatNat  [Init.Prelude]
+  DirichletCharacter  [Mathlib.NumberTheory.DirichletCharacter.Basic]
+  Complex  [Mathlib.Basic.Complex.Basic]
+  CommGroupWithZero.toCommMonoidWithZero  [Mathlib.Algebra.GroupWithZero.Defs]
+  Semifield.toCommGroupWithZero  [Mathlib.Algebra.Field.Defs]
+  Field.toSemifield  [Mathlib.Algebra.Field.Defs]
+  Complex.instField  [Mathlib.Basic.Complex.Basic]
+  DirichletCharacter.IsPrimitive  [Mathlib.NumberTheory.DirichletCharacter.Basic]
+  Ne  [Init.Core]
+  One.toOfNat1  [Init.Data.Zero]
+  MulChar.hasOne  [Mathlib.NumberTheory.MulChar.Basic]
+  ZMod  [Mathlib.Data.ZMod.Defs]
+  CommRing.toCommMonoid  [Mathlib.Algebra.Ring.Defs]
+  ZMod.commRing  [Mathlib.Data.ZMod.Defs]
+  Eq  [Init.Prelude]
+  Complex.im  [Mathlib.Basic.Complex.Basic]
+  DFunLike.coe  [Mathlib.Data.FunLike.Basic]
+  MulChar.instFunLike  [Mathlib.NumberTheory.MulChar.Basic]
+  Real.instOne  [Mathlib.Basic.Real.Basic]
+  DirichletCharacter.LFunction  [Mathlib.NumberTheory.LSeries.DirichletContinuation]
+  Complex.ofReal  [Mathlib.Basic.Complex.Basic]
+  Complex.instZero  [Mathlib.Basic.Complex.Basic]
+  Real.instLE  [Mathlib.Basic.Real.Basic]
+  HMul.hMul  [Init.Prelude]
+  instHMul  [Init.Prelude]
+  Real.instMul  [Mathlib.Basic.Real.Basic]
+  HSub.hSub  [Init.Prelude]
+  instHSub  [Init.Prelude]
+  Real.instSub  [Mathlib.Basic.Real.Basic]
+  Real.log  [Mathlib.Analysis.SpecialFunctions.Log.Basic]
+  Nat.cast  [Init.Data.Cast]
+  Real.instNatCast  [Mathlib.Basic.Real.Basic]
+SeatD003.NoLandauSiegel: 5316 constants reachable (types + def bodies + ctors); by module root: [Mathlib:4490,
+ Init:819,
+ Batteries:6,
+ SeatD003:1]
+AUDIT CLEAN: no reachable constant outside [Init,
+ Std,
+ Lean,
+ Mathlib,
+ Batteries,
+ Aesop,
+ Qq,
+ ProofWidgets,
+ Plausible,
+ ImportGraph,
+ LeanSearchClient,
+ Cli,
+ SeatD003]
+def SeatD003.NoLandauSiegel : Prop :=
+∃ c,
+  And (@LT.lt Real Real.instLT (@OfNat.ofNat Real (nat_lit 0) (@Zero.toOfNat0 Real Real.instZero)) c)
+    (∀ (q : Nat) [inst : @NeZero Nat (@MulZeroClass.toZero Nat Nat.instMulZeroClass) q],
+      @LE.le Nat instLENat (@OfNat.ofNat Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) q →
+        ∀
+          (χ :
+            @DirichletCharacter Complex
+              (@CommGroupWithZero.toCommMonoidWithZero Complex
+                (@Semifield.toCommGroupWithZero Complex (@Field.toSemifield Complex Complex.instField)))
+              q),
+          @DirichletCharacter.IsPrimitive Complex
+              (@CommGroupWithZero.toCommMonoidWithZero Complex
+                (@Semifield.toCommGroupWithZero Complex (@Field.toSemifield Complex Complex.instField)))
+              q χ →
+            @Ne
+                (@DirichletCharacter Complex
+                  (@CommGroupWithZero.toCommMonoidWithZero Complex
+                    (@Semifield.toCommGroupWithZero Complex (@Field.toSemifield Complex Complex.instField)))
+                  q)
+                χ
+                (@OfNat.ofNat
+                  (@DirichletCharacter Complex
+                    (@CommGroupWithZero.toCommMonoidWithZero Complex
+                      (@Semifield.toCommGroupWithZero Complex (@Field.toSemifield Complex Complex.instField)))
+                    q)
+                  (nat_lit 1)
+                  (@One.toOfNat1
+                    (@DirichletCharacter Complex
+                      (@CommGroupWithZero.toCommMonoidWithZero Complex
+                        (@Semifield.toCommGroupWithZero Complex (@Field.toSemifield Complex Complex.instField)))
+                      q)
+                    (@MulChar.hasOne (ZMod q) (@CommRing.toCommMonoid (ZMod q) (ZMod.commRing q)) Complex
+                      (@CommGroupWithZero.toCommMonoidWithZero Complex
+                        (@Semifield.toCommGroupWithZero Complex (@Field.toSemifield Complex Complex.instField)))))) →
+              (∀ (a : ZMod q),
+                  @Eq Real
+                    (@DFunLike.coe
+                        (@DirichletCharacter Complex
+                          (@CommGroupWithZero.toCommMonoidWithZero Complex
+                            (@Semifield.toCommGroupWithZero Complex (@Field.toSemifield Complex Complex.instField)))
+                          q)
+                        (ZMod q) (fun x => Complex)
+                        (@MulChar.instFunLike (ZMod q) (@CommRing.toCommMonoid (ZMod q) (ZMod.commRing q)) Complex
+                          (@CommGroupWithZero.toCommMonoidWithZero Complex
+                            (@Semifield.toCommGroupWithZero Complex (@Field.toSemifield Complex Complex.instField))))
+                        χ a).im
+                    (@OfNat.ofNat Real (nat_lit 0) (@Zero.toOfNat0 Real Real.instZero))) →
+                ∀ (β : Real),
+                  And (@LT.lt Real Real.instLT (@OfNat.ofNat Real (nat_lit 0) (@Zero.toOfNat0 Real Real.instZero)) β)
+                      (And (@LT.lt Real Real.instLT β (@OfNat.ofNat Real (nat_lit 1) (@One.toOfNat1 Real Real.instOne)))
+                        (@Eq Complex (@DirichletCharacter.LFunction q inst χ ↑β)
+                          (@OfNat.ofNat Complex (nat_lit 0) (@Zero.toOfNat0 Complex Complex.instZero)))) →
+                    @LE.le Real Real.instLE c
+                      (@HMul.hMul Real Real Real (@instHMul Real Real.instMul)
+                        (@HSub.hSub Real Real Real (@instHSub Real Real.instSub)
+                          (@OfNat.ofNat Real (nat_lit 1) (@One.toOfNat1 Real Real.instOne)) β)
+                        (Real.log (@Nat.cast Real Real.instNatCast q))))
+RSSCAP done rc=0 peak_kb=6846644 wall=38s
+[2026-10-26T09:19:20Z] rc=0

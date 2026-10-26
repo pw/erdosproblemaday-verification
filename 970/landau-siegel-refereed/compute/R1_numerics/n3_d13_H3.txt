@@ -1,0 +1,15 @@
+d=13 N=3 H=3 M=81 retained max weight=14 bound 96H^(2/3)U=864.0  S1=249 S2=159 max a1=11
+Nm(Delta) != 0: True  log10|Nm| = 1190.3
+log|Nm| = 2740.8 <= Hadamard 5774.0: True
+  p=  3 chi=+1 (2/p)=-1 Frob=tau       admissible=False 4E_p= 240  v_p(Nm)= 200  v_p < 4E_p
+  p=  5 chi=-1 (2/p)=-1 Frob=sigma*tau admissible=True  4E_p=  96  v_p(Nm)= 120  OK
+  p=  7 chi=-1 (2/p)=+1 Frob=sigma     admissible=True  4E_p=  40  v_p(Nm)=  68  OK
+  p= 11 chi=-1 (2/p)=-1 Frob=sigma*tau admissible=True  4E_p=   4  v_p(Nm)=  12  OK
+  p= 17 chi=+1 (2/p)=+1 Frob=id        admissible=False 4E_p=   0  v_p(Nm)=   0  OK
+  p= 19 chi=-1 (2/p)=-1 Frob=sigma*tau admissible=True  4E_p=   0  v_p(Nm)=   0  OK
+  p= 23 chi=+1 (2/p)=+1 Frob=id        admissible=False 4E_p=   0  v_p(Nm)=   0  OK
+  p= 29 chi=+1 (2/p)=-1 Frob=tau       admissible=False 4E_p=   0  v_p(Nm)=   0  OK
+  p= 31 chi=-1 (2/p)=+1 Frob=sigma     admissible=True  4E_p=   0  v_p(Nm)=   0  OK
+  p= 37 chi=-1 (2/p)=-1 Frob=sigma*tau admissible=True  4E_p=   0  v_p(Nm)=   0  OK
+  p= 41 chi=-1 (2/p)=+1 Frob=sigma     admissible=True  4E_p=   0  v_p(Nm)=   0  OK
+  p= 43 chi=+1 (2/p)=-1 Frob=tau       admissible=False 4E_p=   0  v_p(Nm)=   0  OK

@@ -1,0 +1,255 @@
+{
+ "d": 3,
+ "N": 2,
+ "H": 5,
+ "variant": "tau",
+ "tiebreak": "lex",
+ "M": 16,
+ "U": 2.5198420997897464,
+ "P": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   0
+  ],
+  [
+   3,
+   0,
+   0
+  ],
+  [
+   4,
+   0,
+   0
+  ],
+  [
+   5,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   1,
+   0
+  ],
+  [
+   6,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   1
+  ],
+  [
+   1,
+   1,
+   0
+  ],
+  [
+   7,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   1
+  ],
+  [
+   2,
+   1,
+   0
+  ],
+  [
+   8,
+   0,
+   0
+  ],
+  [
+   3,
+   0,
+   1
+  ]
+ ],
+ "ncand": 16,
+ "greedy_agree": true,
+ "exact_cert": true,
+ "Delta": [
+  "89161004482560000",
+  "0",
+  "0",
+  "0"
+ ],
+ "NmD": "63197487152792706759219342189878932811994115300392960000000000000000",
+ "S1": 45,
+ "S2": 7,
+ "amax": [
+  8,
+  1,
+  1
+ ],
+ "maxweight": 8,
+ "table": [
+  {
+   "p": 2,
+   "cls": "ram",
+   "adm": false,
+   "Ep": 19,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 28,
+   "vpNm": 112,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 3,
+   "cls": "ram",
+   "adm": false,
+   "Ep": 10,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 12,
+   "vpNm": 48,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 5,
+   "cls": "sigtau",
+   "adm": false,
+   "Ep": 4,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 4,
+   "vpNm": 16,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 7,
+   "cls": "sigma",
+   "adm": true,
+   "Ep": 2,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 2,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": false,
+   "ext_holds": false,
+   "norm_holds": false
+  },
+  {
+   "p": 11,
+   "cls": "tau",
+   "adm": false,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 13,
+   "cls": "tau",
+   "adm": false,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 17,
+   "cls": "sigma",
+   "adm": true,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 19,
+   "cls": "sigtau",
+   "adm": true,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 23,
+   "cls": "id",
+   "adm": false,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 29,
+   "cls": "sigtau",
+   "adm": true,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  }
+ ],
+ "viol_adm": 1,
+ "prod_ok": false,
+ "quarter_log_Nm": 39.029220169432186,
+ "hadamard": 120.2748683175383
+}

@@ -1,0 +1,8 @@
+start 2026-10-26T09:11:48Z df=/dev/root       493G  418G   54G  89% /
+info: Version 4.2.4 of elan is available! Use `elan self update` to update.
+info: downloading https://releases.lean-lang.org/lean4/v4.34.1/lean-4.34.1-linux.tar.zst
+info: installing /tmp/oaimath/003/lean/home/.elan/toolchains/leanprover--lean4---v4.34.1
+
+leanprover/lean4:v4.34.1 installed - Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+
+exit 0 2026-10-26T09:12:39Z df=/dev/root       493G  421G   51G  90% /

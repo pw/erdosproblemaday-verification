@@ -1,0 +1,13 @@
+d=3 N=2 H=3 variant=paper tb=lex: M=16, candidates scanned=19, greedy agree across 3 primes: True  [0.0s]
+exact Q-rank certification of every skipped row: True (1 gaps) [0.0s]
+Delta via CRT: 6 primes, log2 Hadamard bound 124, stable=True, fresh-prime check=True, nonzero=True [0.1s]
+S1=37 S2=9 amax=[7, 1, 2] maxweight=7  M=16 U=2.520
+   p   class  adm   E_p   v_p  Lext  v_p(Nm)  E_p<=v_p
+   2     ram    F    15    26     0      104  True
+   3     ram    F     8    10     0       40  True
+   5  sigtau    T     3     5     3       20  True
+   7   sigma    T     1     1     1        4  True
+ADMISSIBLE primes with E_p>0: 2; violations of Lemma 7: 0
+Nm(Delta) nonzero integer: True; log10|Nm|=67.8; prod over admissible p^(4E_p) | Nm: True
+(1/4)log|Nm Delta| = 39.00;  Hadamard with actual max|nu x| (6.596): 108.96;  sum_adm E_p log p = 6.77;  sum_all Lext log p = 6.77
+[0.1s]

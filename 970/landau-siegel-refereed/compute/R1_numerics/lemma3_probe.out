@@ -1,0 +1,8 @@
+hyp-A (K=Q(sqrt2,sqrt3)): N=2 M=16 t=(628, 3, 3) -> rank 16 at z1-degree <= 7  SURJECTIVE
+   distinct evaluation points: 16 (rank upper bound)
+control A with ker=C e4 (hypothesis violated), t1 capped: N=2 M=16 t=(64, 3, 3) -> rank 8 at z1-degree <= 64  NOT surjective
+   distinct evaluation points: 8 (rank upper bound)
+hyp-A (K=Q(sqrt2,sqrt3)): N=3 M=81 t=(6567, 6, 6) -> rank 81 at z1-degree <= 7  SURJECTIVE
+   distinct evaluation points: 81 (rank upper bound)
+control A with ker=C e4 (hypothesis violated), t1 capped: N=3 M=81 t=(64, 6, 6) -> rank 27 at z1-degree <= 64  NOT surjective
+   distinct evaluation points: 27 (rank upper bound)

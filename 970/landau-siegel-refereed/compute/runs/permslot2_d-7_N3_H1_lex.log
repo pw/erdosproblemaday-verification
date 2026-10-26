@@ -1,0 +1,16 @@
+d=-7 N=3 H=1 variant=permslot2 tb=lex: M=81, candidates scanned=100, greedy agree across 3 primes: True  [0.2s]
+exact Q-rank certification of every skipped row: True (3 gaps) [1.1s]
+Delta via CRT: 26 primes, log2 Hadamard bound 1348, stable=True, fresh-prime check=True, nonzero=True [3.2s]
+S1=146 S2=218 amax=[7, 5, 6] maxweight=7  M=81 U=4.327
+   p   class  adm   E_p   v_p  Lext  v_p(Nm)  E_p<=v_p
+   2     ram    F    56   351     0     1404  True
+   3  sigtau    T    28    63    48      252  True
+   5  sigtau    T     8    16    12       64  True
+   7     ram    F     1    80     0      320  True
+  11     tau    F     0     1     0        4  True
+  13  sigtau    T     0     1     0        4  True
+  19  sigtau    T     0     1     0        4  True
+ADMISSIBLE primes with E_p>0: 2; violations of Lemma 7: 0
+Nm(Delta) nonzero integer: True; log10|Nm|=930.9; prod over admissible p^(4E_p) | Nm: True
+(1/4)log|Nm Delta| = 535.88;  Hadamard with actual max|nu x| (13.657): 1129.56;  sum_adm E_p log p = 43.64;  sum_all Lext log p = 72.05
+[3.2s]

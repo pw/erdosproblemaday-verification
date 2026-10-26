@@ -1,0 +1,100 @@
+@@ -9,7 +9,7 @@
+ \usepackage{hyperref}
+ \definecolor{linkblue}{RGB}{35,72,139}
+ \hypersetup{colorlinks=true,linkcolor=linkblue,citecolor=linkblue,urlcolor=linkblue,
+-  pdftitle={Uniform exclusion of Landau-Siegel zeros},pdfauthor={OpenAI}}
++  pdftitle={Uniform exclusion of Landau-Siegel zeros},pdfauthor={OpenAI (with community contributions)}}
+ \pdftrailerid{}
+ \pdfinfoomitdate=1
+ \pdfsuppressptexinfo=15
+@@ -19,6 +19,7 @@
+ \newtheorem{proposition}[theorem]{Proposition}
+ \theoremstyle{remark}
+ \newtheorem{remark}[theorem]{Remark}
++\newtheorem*{remark*}{Remark}
+ \newcommand{\Q}{\mathbb Q}
+ \newcommand{\Z}{\mathbb Z}
+ \newcommand{\C}{\mathbb C}
+@@ -32,8 +33,8 @@
+ \DeclareMathOperator{\conv}{conv}
+ \numberwithin{equation}{section}
+ \title{Uniform exclusion of Landau--Siegel zeros}
+-\author{OpenAI}
+-\date{October 1, 2026}
++\author{OpenAI (with community contributions)}
++\date{October 18, 2026}
+ \subjclass[2020]{Primary 11M20; Secondary 11J81, 14L17.}
+ \keywords{Dirichlet L-functions, Landau--Siegel zeros, polynomial interpolation,
+ interpolation determinants}
+@@ -164,6 +165,25 @@ \subsection*{Interpolation and arithmetic context}
+ rather than applying an algebraicity criterion. All algebraic estimates
+ used in the proof are established below.
+ 
++\begin{remark*}[Subsequent expositions]
++Several expositions and variants of the argument of this paper have
++since appeared. Banks \cite{Banks} gives a detailed direct proof with
++explicit constants: for conductors $q\ge10^{10}$ one may take
++$c=3.0\times10^{-3}$, and combined with the numerical verification of
++Lu, Zaman, and Zhao \cite{LZZ} this covers every conductor $q\ge3$.
++Kerr \cite{Kerr} works in the same biquadratic field
++$\Q(\sqrt{d},\sqrt{2})$ as here, but replaces the interpolation lemma and the
++determinant analysis by a pigeonhole construction of a polynomial of
++bounded degree vanishing at the relevant linear forms, which is then
++contradicted by a zero estimate of Masser \cite{Masser}. Green
++\cite{Green} gives a variant that works entirely in the quadratic field
++$\Q(\sqrt{d})$ attached to $\chi$, avoiding the passage to a biquadratic
++field. There the interpolation determinant is replaced by the explicit
++Gram determinant of a family of evaluation vectors, whose archimedean
++size and $p$-adic valuations at primes with $\chi(p)=-1$ are compared
++directly.
++\end{remark*}
++
+ All logarithms are natural. Constants
+ implicit in $O(\cdot)$ and $\ll$ are absolute unless a dependence is
+ specified. All vector-space spans are over the indicated field, and
+@@ -720,6 +740,10 @@ \section{Completion of the proof}\label{sec:conclusion}
+ 
+ \begin{thebibliography}{99}
+ \raggedright
++\bibitem{Banks}
++W.~D.~Banks, \emph{On the OpenAI proof that Landau--Siegel zeros do not exist},
++preprint (2026).
++\href{https://arxiv.org/abs/2610.15483}{arXiv:2610.15483}.
+ \bibitem{BGTZ}
+ K.~Benli, S.~Goel, H.~Twiss, and A.~Zaman,
+ \emph{Explicit Deuring--Heilbronn phenomenon for Dirichlet $L$-functions},
+@@ -741,11 +765,18 @@ \section{Completion of the proof}\label{sec:conclusion}
+ J.~B.~Friedlander and H.~Iwaniec, \emph{A note on Dirichlet $L$-functions},
+ Expo. Math. \textbf{36} (2018), nos.~3--4, 343--350.
+ \href{https://doi.org/10.1016/j.exmath.2018.06.003}{doi:10.1016/j.exmath.2018.06.003}.
++\bibitem{Green}
++B.~Green, \emph{On Landau--Siegel zeros}, preprint (2026).
++\href{https://hexagonmath.org/2610.00311v1}{hexagon:2610.00311v1}.
+ \bibitem{HeathBrown}
+ D.~R.~Heath-Brown, \emph{Zero-free regions for Dirichlet $L$-functions,
+ and the least prime in an arithmetic progression},
+ Proc. London Math. Soc. (3) \textbf{64} (1992), no.~2, 265--338.
+ \href{https://doi.org/10.1112/plms/s3-64.2.265}{doi:10.1112/plms/s3-64.2.265}.
++\bibitem{Kerr}
++B.~Kerr, \emph{A simpler proof that there are no Landau--Siegel zeros},
++preprint (2026).
++\href{https://arxiv.org/abs/2610.21099}{arXiv:2610.21099}.
+ \bibitem{Laurent}
+ M.~Laurent, \emph{Sur quelques r\'esultats r\'ecents de transcendance},
+ Ast\'erisque \textbf{198--199--200} (1991), 209--230.
+@@ -755,6 +786,15 @@ \section{Completion of the proof}\label{sec:conclusion}
+ II. The Deuring--Heilbronn phenomenon},
+ Rec. Math. [Mat. Sbornik] N.S. \textbf{15(57)} (1944), no.~3, 347--368.
+ \url{https://www.mathnet.ru/eng/sm6202}.
++\bibitem{LZZ}
++R.~F.~Lu, A.~Zaman, and H.~Zhao,
++\emph{Numerical computations concerning Landau--Siegel zeros},
++preprint (2026).
++\href{https://arxiv.org/abs/2602.03626}{arXiv:2602.03626}.
++\bibitem{Masser}
++D.~W.~Masser, \emph{On polynomials and exponential polynomials in several
++complex variables}, Invent. Math. \textbf{63} (1981), no.~1, 81--95.
++\href{https://doi.org/10.1007/BF01389194}{doi:10.1007/BF01389194}.
+ \bibitem{Page}
+ A.~Page, \emph{On the number of primes in an arithmetic progression},
+ Proc. London Math. Soc. (2) \textbf{39} (1935), 116--141.

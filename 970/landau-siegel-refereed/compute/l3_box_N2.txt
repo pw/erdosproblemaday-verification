@@ -1,0 +1,7 @@
+d=-1 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=-3 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=5 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=-7 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=13 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=3 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=-5 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)

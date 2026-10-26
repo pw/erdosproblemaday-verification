@@ -1,0 +1,6 @@
+d=qdep N=3 M=81 box t=(87, 6, 87) satisfies (3.1): True; #monomials=54208; rank mod 3 primes = [75, 75, 75] -> rank<M at all 3 primes
+d=qdep N=3 M=81 box t=(87, 7, 87) satisfies (3.1): True; #monomials=61952; rank mod 3 primes = [78, 78, 78] -> rank<M at all 3 primes
+d=qdep N=3 M=81 box t=(87, 8, 87) satisfies (3.1): True; #monomials=69696; rank mod 3 primes = [81, 81, 81] -> SURJECTIVE (certified)
+d=qdep N=2 M=16 box t=(30, 3, 30) satisfies (3.1): True; #monomials=3844; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=rat N=3 M=81 box t=(24, 24, 24) satisfies (3.1): True; #monomials=15625; rank mod 3 primes = [65, 65, 65] -> rank<M at all 3 primes
+d=-1 N=3 M=81 box t=(87, 6, 87) satisfies (3.1): True; #monomials=54208; rank mod 3 primes = [81, 81, 81] -> SURJECTIVE (certified)

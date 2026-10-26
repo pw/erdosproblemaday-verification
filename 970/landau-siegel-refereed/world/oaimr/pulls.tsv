@@ -1,0 +1,29 @@
+42	closed	2026-10-25	solevillar	NOTES: AI-only investigation of Espíndola's objections to the CH obstruction paper
+39	closed	2026-10-25	schmittj	Paper pages: explain comparator files in the Lean section; link statement and proof per result
+38	closed	2026-10-25	schmittj	Remove withdrawn paper from agent notes
+37	closed	2026-10-25	schmittj	AGENT_NOTES: say that comparator challenge files leave the proof as sorry, and where the proof is
+36	closed	2026-10-25	schmittj	Comment: X exchange on Espíndola's earlier claimed proof (eventual categoricity)
+35	closed	2026-10-25	schmittj	Comment: Espíndola's reply on X (CH obstruction to a categoricity threshold)
+34	closed	2026-10-25	schmittj	Follow-up: Sussman's Walsh-Hadamard circuits with Lean proofs (exact Fourier circuits)
+33	closed	2026-10-25	schmittj	Follow-up: Voloch's Kummer-cover note on Sections 4 and 8 (polynomial factorization)
+29	closed	2026-10-25	abhijit-c	Remove trostaft's hn comment from Crouzeix preprints
+27	closed	2026-10-25	piiiico	Elsewhere: link 14 computational checks from openai-math-counterexamples
+24	closed	2026-10-24	mark-schultz-wu	NOTES: add David Harvey's note on integer multiplication below n log n (family 109)
+23	closed	2026-10-24	schmittj	Nonspectrahedral hyperbolicity cone: Kevin Shu's blog exposition under Follow-up works
+22	closed	2026-10-24	schmittj	Cannon conjecture paper: Bonk's Quasiworld talk under Follow-up works
+20	closed	2026-10-24	schmittj	John Layne interested in two papers
+19	closed	2026-10-24	schmittj	Hourly check for issues that vanish
+15	closed	2026-10-24	schmittj	AGENT_NOTES: drop 344 low-value items; stricter inclusion rules
+14	closed	2026-10-23	schmittj	Paper pages: one GitHub Discussion per paper; open-issue counts
+13	closed	2026-10-23	schmittj	Record openai/math upstream commits as merged without taking their content
+12	closed	2026-10-23	schmittj	Browse page: contributions filter, AI-notes section filter, shareable filter URLs
+11	closed	2026-10-23	schmittj	Mastodon post in the automatically collected notes
+10	closed	2026-10-23	schmittj	Website: contributions and activity; AGENTS.md
+9	closed	2026-10-23	schmittj	Social-media posts in the automatically collected notes
+7	closed	2026-10-21	solevillar	Document sparse checkout; README: link the website, fix PDF instructions
+6	closed	2026-10-21	solevillar	Document sparse checkout; README: link the website, fix PDF instructions
+5	closed	2026-10-21	schmittj	Automatically collected notes for all 719 manuscripts
+4	closed	2026-10-20	schmittj	Website (beta) and issue forms
+3	closed	2026-10-20	teorth	Landau–Siegel zeros: add Tao's sketch and the Pescador/Barreto variants
+2	closed	2026-10-18	teorth	Landau–Siegel zeros: add remark on subsequent expositions
+1	closed	2026-10-18	nellore	add references to the circulant Hadamard write-up

@@ -1,0 +1,1 @@
+./post_build.sh: line 17: 4148143 Killed                  $D/rsscap.sh 14000000 7200 /usr/bin/time -f 'maxrss_kb=%M wall_s=%e' nice -n 19 leanchecker --fresh SeatD003.Bridge > $D/logs/leanchecker_fresh.log 2>&1

@@ -1,0 +1,2 @@
+maxrss_kb=6932804 wall_s=36.39
+RSSCAP done rc=0 peak_kb=1568 wall=36s

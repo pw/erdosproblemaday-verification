@@ -1,0 +1,4 @@
+d=rat N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [15, 15, 15] -> rank<M at all 3 primes
+d=4 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=2 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)
+d=8 N=2 M=16 box t=(11, 11, 11) satisfies (3.1): True; #monomials=1728; rank mod 3 primes = [16, 16, 16] -> SURJECTIVE (certified)

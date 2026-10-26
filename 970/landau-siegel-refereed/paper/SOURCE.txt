@@ -1,0 +1,8 @@
+OpenAI, 'Uniform exclusion of Landau–Siegel zeros', dated 1 Oct 2026, family 003 of github.com/openai/math @1581d4cbdd69a0faf34b2089614fe2a814316a6a
+path: preprints/Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026/ (paper.pdf, build/paper.tex, README.md)
+Not redistributed here; fetch from the repository at the pinned commit.
+fab9f6e84ece2a37d834b2c031d8eb14e81413d9f6270791e7b5468b295214ef  paper.pdf
+b011ba9c1f55ee2164292492c55e0c6d75c458eb30d4808808f9953823b8ded4  paper.tex
+52acef9c7db3c63e6e1ee623cb8fd1c92e098aa8785e5ad2a434ede0088fc7fd  README.md
+Producer:        pdfTeX-1.40.29
+Pages:           9

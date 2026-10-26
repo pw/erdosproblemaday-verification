@@ -1,0 +1,9 @@
+d=13 N=3 H=3 M=81 max a=(11,4,4) Nm!=0:True
+  p= 3 class=tau       v_p=200 4*E_gen= 72 OK | paper-form 4*sum floor(a1/p)=240 fails
+  p= 5 class=sigma*tau v_p=120 4*E_gen= 96 OK | paper-form 4*sum floor(a1/p)= 96 holds
+  p= 7 class=sigma     v_p= 68 4*E_gen= 40 OK | paper-form 4*sum floor(a1/p)= 40 holds
+  p=11 class=sigma*tau v_p= 12 4*E_gen=  4 OK | paper-form 4*sum floor(a1/p)=  4 holds
+  p=17 class=id        v_p=  0 4*E_gen=  0 OK | paper-form 4*sum floor(a1/p)=  0 holds
+  p=19 class=sigma*tau v_p=  0 4*E_gen=  0 OK | paper-form 4*sum floor(a1/p)=  0 holds
+  p=23 class=id        v_p=  0 4*E_gen=  0 OK | paper-form 4*sum floor(a1/p)=  0 holds
+generalised-bound failures: 0

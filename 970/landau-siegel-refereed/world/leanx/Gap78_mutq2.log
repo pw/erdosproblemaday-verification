@@ -1,0 +1,13 @@
+Gap78_mutq2.lean:29:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Gap78_mutq2.lean:32:38: error: mod_cast has type
+  2 ≤ q
+but is expected to have type
+  3 ≤ q
+'siegel_of_seven_eighths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+RSSCAP done rc=1 peak_kb=6859396 wall=24s

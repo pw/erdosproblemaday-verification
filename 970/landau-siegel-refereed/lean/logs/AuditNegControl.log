@@ -1,0 +1,44 @@
+[2026-10-26T09:50:35Z] lean AuditNegControl.lean  LEAN_PATH=/tmp/oaimath/003/seats/D_work/bridge/out:/tmp/oaimath/003/lean/out:/tmp/erdos0300/lean/mathlib4/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Cli/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Qq/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/aesop/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/batteries/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/plausible/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean
+OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold declared in [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold]; 30 constants used directly:
+  Real  [Mathlib.Basic.Real.Basic]
+  Fin  [Init.Prelude]
+  OfNat.ofNat  [Init.Prelude]
+  Nat  [Init.Prelude]
+  instOfNatNat  [Init.Prelude]
+  HMul.hMul  [Init.Prelude]
+  instHMul  [Init.Prelude]
+  Real.instMul  [Mathlib.Basic.Real.Basic]
+  instOfNatAtLeastTwo  [Mathlib.Data.Nat.Cast.Defs]
+  Real.instNatCast  [Mathlib.Basic.Real.Basic]
+  OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_1  [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold]
+  HPow.hPow  [Init.Prelude]
+  instHPow  [Init.Prelude]
+  Real.instPow  [Mathlib.Analysis.SpecialFunctions.Pow.Real]
+  ite  [Init.Prelude]
+  Eq  [Init.Prelude]
+  Fin.instOfNat  [Init.Data.Fin.Basic]
+  OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_2  [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold]
+  instDecidableEqFin  [Init.Prelude]
+  HDiv.hDiv  [Init.Prelude]
+  instHDiv  [Init.Prelude]
+  DivInvMonoid.toDiv  [Mathlib.Algebra.Group.DivInvMonoid]
+  Real.instDivInvMonoid  [Mathlib.Basic.Real.Basic]
+  OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_3  [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold]
+  OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_4  [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold]
+  Neg.neg  [Init.Prelude]
+  Real.instNeg  [Mathlib.Basic.Real.Basic]
+  One.toOfNat1  [Init.Data.Zero]
+  Real.instOne  [Mathlib.Basic.Real.Basic]
+  OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_5  [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold]
+OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold: 1787 constants reachable (types + def bodies + ctors); by module root: [Mathlib:1195,
+ Init:581,
+ OAI:6,
+ Batteries:5]
+AuditNegControl.lean:4:0: error: FOREIGN (6): [OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_5 [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold],
+ OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_4 [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold],
+ OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_2 [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold],
+ OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold],
+ OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_1 [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold],
+ OAI.Erdos970.WeightedTorusJets.Geometry.rectangleThreshold._proof_3 [OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold]]
+RSSCAP done rc=1 peak_kb=6911976 wall=20s
+[2026-10-26T09:50:55Z] rc=1

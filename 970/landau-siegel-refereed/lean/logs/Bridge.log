@@ -1,0 +1,399 @@
+[2026-10-26T09:49:24Z] lean Bridge.lean -o out/SeatD003/Bridge.olean LEAN_PATH=/tmp/oaimath/003/seats/D_work/bridge/out:/tmp/oaimath/003/lean/out:/tmp/erdos0300/lean/mathlib4/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Cli/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Qq/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/aesop/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/batteries/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/plausible/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean
+'SeatD003.bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeatD003.bridge_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.Erdos970.WeightedTorusJets.dirichlet_real_zero_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+SeatD003.NoLandauSiegel declared in [SeatD003.NoLSStatement]; 46 constants used directly:
+  Exists  [Init.Core]
+  Real  [Mathlib.Basic.Real.Basic]
+  And  [Init.Prelude]
+  LT.lt  [Init.Prelude]
+  Real.instLT  [Mathlib.Basic.Real.Basic]
+  OfNat.ofNat  [Init.Prelude]
+  Zero.toOfNat0  [Init.Data.Zero]
+  Real.instZero  [Mathlib.Basic.Real.Basic]
+  Nat  [Init.Prelude]
+  NeZero  [Init.Data.NeZero]
+  MulZeroClass.toZero  [Mathlib.Algebra.GroupWithZero.Defs]
+  Nat.instMulZeroClass  [Mathlib.Algebra.GroupWithZero.Nat]
+  LE.le  [Init.Prelude]
+  instLENat  [Init.Prelude]
+  instOfNatNat  [Init.Prelude]
+  DirichletCharacter  [Mathlib.NumberTheory.DirichletCharacter.Basic]
+  Complex  [Mathlib.Basic.Complex.Basic]
+  CommGroupWithZero.toCommMonoidWithZero  [Mathlib.Algebra.GroupWithZero.Defs]
+  Semifield.toCommGroupWithZero  [Mathlib.Algebra.Field.Defs]
+  Field.toSemifield  [Mathlib.Algebra.Field.Defs]
+  Complex.instField  [Mathlib.Basic.Complex.Basic]
+  DirichletCharacter.IsPrimitive  [Mathlib.NumberTheory.DirichletCharacter.Basic]
+  Ne  [Init.Core]
+  One.toOfNat1  [Init.Data.Zero]
+  MulChar.hasOne  [Mathlib.NumberTheory.MulChar.Basic]
+  ZMod  [Mathlib.Data.ZMod.Defs]
+  CommRing.toCommMonoid  [Mathlib.Algebra.Ring.Defs]
+  ZMod.commRing  [Mathlib.Data.ZMod.Defs]
+  Eq  [Init.Prelude]
+  Complex.im  [Mathlib.Basic.Complex.Basic]
+  DFunLike.coe  [Mathlib.Data.FunLike.Basic]
+  MulChar.instFunLike  [Mathlib.NumberTheory.MulChar.Basic]
+  Real.instOne  [Mathlib.Basic.Real.Basic]
+  DirichletCharacter.LFunction  [Mathlib.NumberTheory.LSeries.DirichletContinuation]
+  Complex.ofReal  [Mathlib.Basic.Complex.Basic]
+  Complex.instZero  [Mathlib.Basic.Complex.Basic]
+  Real.instLE  [Mathlib.Basic.Real.Basic]
+  HMul.hMul  [Init.Prelude]
+  instHMul  [Init.Prelude]
+  Real.instMul  [Mathlib.Basic.Real.Basic]
+  HSub.hSub  [Init.Prelude]
+  instHSub  [Init.Prelude]
+  Real.instSub  [Mathlib.Basic.Real.Basic]
+  Real.log  [Mathlib.Analysis.SpecialFunctions.Log.Basic]
+  Nat.cast  [Init.Data.Cast]
+  Real.instNatCast  [Mathlib.Basic.Real.Basic]
+SeatD003.NoLandauSiegel: 5316 constants reachable (types + def bodies + ctors); by module root: [Mathlib:4490,
+ Init:819,
+ Batteries:6,
+ SeatD003:1]
+AUDIT CLEAN: no reachable constant outside [Init,
+ Std,
+ Lean,
+ Mathlib,
+ Batteries,
+ Aesop,
+ Qq,
+ ProofWidgets,
+ Plausible,
+ ImportGraph,
+ LeanSearchClient,
+ Cli,
+ SeatD003]
+SAME: the text elaborates in this environment to an Expr identical to the stored value of SeatD003.NoLandauSiegel
+SeatD003.bridge: 2267 foreign-module constants reached (types+values incl. proofs) in 67 modules:
+OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:14
+OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticBasis:62
+OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:1
+OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantMasterBounds:2
+OAI.NumberTheory.Jacobsthal.Siegel.CoeffPolynomialEvalMul:3
+OAI.NumberTheory.Jacobsthal.Siegel.CoefficientSubspaceEquiv:33
+OAI.NumberTheory.Jacobsthal.Siegel.ConductorCompletedL:38
+OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:96
+OAI.NumberTheory.Jacobsthal.Siegel.ConeMapEval:3
+OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:46
+OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:67
+OAI.NumberTheory.Jacobsthal.Siegel.DerivationJet:40
+OAI.NumberTheory.Jacobsthal.Siegel.DirichletRealZeroBound:1
+OAI.NumberTheory.Jacobsthal.Siegel.DominantFunctionFieldHom:29
+OAI.NumberTheory.Jacobsthal.Siegel.E:38
+OAI.NumberTheory.Jacobsthal.Siegel.EvalOneInvariantJetMonomial:1
+OAI.NumberTheory.Jacobsthal.Siegel.FiniteTypeFieldModelEquiv:83
+OAI.NumberTheory.Jacobsthal.Siegel.FinrankDegreePiecePosPrimeVariableNotMem:5
+OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:6
+OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:64
+OAI.NumberTheory.Jacobsthal.Siegel.GlobalRectanglePivotBounds:1
+OAI.NumberTheory.Jacobsthal.Siegel.GlobalWeightSortedJetEquiv:14
+OAI.NumberTheory.Jacobsthal.Siegel.GradedIdealQuotient:15
+OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:52
+OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivotsWeightLowSpan:8
+OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:29
+OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:76
+OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:23
+OAI.NumberTheory.Jacobsthal.Siegel.IdealPowLayer:63
+OAI.NumberTheory.Jacobsthal.Siegel.IntegerCharacter:37
+OAI.NumberTheory.Jacobsthal.Siegel.InvariantDerivation:25
+OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetLinearMap:26
+OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:2
+OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:63
+OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:27
+OAI.NumberTheory.Jacobsthal.Siegel.LocalFractionAlgebra:44
+OAI.NumberTheory.Jacobsthal.Siegel.LocalLengthMulProjectiveClosureDegree:2
+OAI.NumberTheory.Jacobsthal.Siegel.LocalQuotientEquiv:76
+OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:21
+OAI.NumberTheory.Jacobsthal.Siegel.MellinConvergentTopIndicator:32
+OAI.NumberTheory.Jacobsthal.Siegel.MonicSMulRegularQuotientMapC:29
+OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:27
+OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:43
+OAI.NumberTheory.Jacobsthal.Siegel.NormalizedMasterBound:1
+OAI.NumberTheory.Jacobsthal.Siegel.NotEventuallyMaster:15
+OAI.NumberTheory.Jacobsthal.Siegel.ParameterIdeal:55
+OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:56
+OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:44
+OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLinearCoefficients:57
+OAI.NumberTheory.Jacobsthal.Siegel.QuadraticAdjoinBasis:45
+OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:1
+OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:29
+OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:4
+OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:86
+OAI.NumberTheory.Jacobsthal.Siegel.ResidueTensorQuotientAlgEquiv:30
+OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:26
+OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:39
+OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:22
+OAI.NumberTheory.Jacobsthal.Siegel.SumLogDivFilterDvdTwoMul:4
+OAI.NumberTheory.Jacobsthal.Siegel.SumLogPrimeFactors:22
+OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:22
+OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:59
+OAI.NumberTheory.Jacobsthal.Siegel.TorusQuotientDimensionPosCotangentFinrankThree:8
+OAI.NumberTheory.Jacobsthal.Siegel.TorusRectangleJetIdealParametersProjectiveDegreeBound:1
+OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:23
+PrimeNumberTheoremAnd.Erdos970.HadamardSupport:250
+«<this file>»:1
+PrimeNumberTheoremAnd constants used (250):
+Erdos970.Complex.CartanBound.Cφ
+Erdos970.Complex.CartanBound.Cφ_pos
+Erdos970.Complex.CartanBound.K
+Erdos970.Complex.CartanBound.K._proof_1
+Erdos970.Complex.CartanBound.K._proof_2
+Erdos970.Complex.CartanBound.K_le_four_mul_K_add_one_mul_of_quarter_le
+Erdos970.Complex.CartanBound.K_nonneg
+Erdos970.Complex.CartanBound.ae_restrict_norm_phi_le_of_forall_mem
+Erdos970.Complex.CartanBound.exists_radius_Ioc_sum_mul_phi_div_le_Cφ_mul_sum_avoid
+Erdos970.Complex.CartanBound.four_mul_K_add_one_le_Cφ
+Erdos970.Complex.CartanBound.integral_phi_div_le_Cφ_mul
+Erdos970.Complex.CartanBound.integral_phi_le_Cφ_mul
+Erdos970.Complex.CartanBound.integral_phi_le_Cφ_mul_large
+Erdos970.Complex.CartanBound.integral_phi_le_Cφ_mul_middle
+Erdos970.Complex.CartanBound.integral_phi_le_Cφ_mul_small
+Erdos970.Complex.CartanBound.integral_sqrt_two_div_abs_one_sub_le_K_dyadic_middle
+Erdos970.Complex.CartanBound.integral_sum_mul_phi_div_le_Cφ_mul_sum
+Erdos970.Complex.CartanBound.intervalIntegrable_phi_div
+Erdos970.Complex.CartanBound.intervalIntegrable_phi_dyadic
+Erdos970.Complex.CartanBound.intervalIntegrable_phi_dyadic_large
+Erdos970.Complex.CartanBound.intervalIntegrable_phi_dyadic_middle
+Erdos970.Complex.CartanBound.intervalIntegrable_phi_dyadic_small
+Erdos970.Complex.CartanBound.intervalIntegrable_sqrt_two_div_abs_one_sub_Icc
+Erdos970.Complex.CartanBound.intervalIntegrable_sqrt_two_div_abs_one_sub_dyadic_middle
+Erdos970.Complex.CartanBound.intervalIntegrable_sum_mul_phi_div
+Erdos970.Complex.CartanBound.log_norm_one_sub_div_ge_neg_phi
+Erdos970.Complex.CartanBound.log_two_le_Cφ
+Erdos970.Complex.CartanBound.measurable_phi
+Erdos970.Complex.CartanBound.phi_eq_zero_of_one_le_abs_one_sub
+Erdos970.Complex.CartanBound.phi_eq_zero_of_two_le
+Erdos970.Complex.CartanBound.phi_le_log_two_of_le_half
+Erdos970.Complex.CartanBound.phi_le_log_two_on_dyadic_of_le_quarter
+Erdos970.Complex.CartanBound.posLog_log_one_div_abs_one_sub_le_sqrt
+Erdos970.Complex.CartanBound.restrict_volume_Ioc_two_mul_diff_finset_ne_zero
+Erdos970.Complex.CartanBound.volume_Ioc_two_mul_diff_finset_ne_zero
+Erdos970.Complex.CartanBound.volume_Ioc_two_mul_ne_zero
+Erdos970.Complex.CartanBound.φ
+Erdos970.Complex.CartanBound.φ_le_sqrt
+Erdos970.Complex.CartanBound.φ_nonneg
+Erdos970.Complex.Hadamard.add_four_le_add_two_mul_of_le
+Erdos970.Complex.Hadamard.analyticAt_divisorCanonicalProduct_univ
+Erdos970.Complex.Hadamard.analyticAt_divisorPartialProduct
+Erdos970.Complex.Hadamard.analyticAt_update_limUnder_divisorCanonicalProduct_div_pow
+Erdos970.Complex.Hadamard.analyticOrderAt_divisorCanonicalProduct_eq_fiber_card
+Erdos970.Complex.Hadamard.analyticOrderAt_finset_prod_weierstrassFactor_divisorZeroIndex₀
+Erdos970.Complex.Hadamard.analyticOrderAt_finset_prod_weierstrassFactor_divisorZeroIndex₀._simp_1_1
+Erdos970.Complex.Hadamard.analyticOrderAt_ne_top_of_exists_ne_zero
+Erdos970.Complex.Hadamard.analyticOrderAt_partialProduct_eq_fiberCard_of_subset
+Erdos970.Complex.Hadamard.analyticOrderNatAt_divisorCanonicalProduct_eq_analyticOrderNatAt
+Erdos970.Complex.Hadamard.analyticOrderNatAt_divisorCanonicalProduct_eq_fiber_card
+Erdos970.Complex.Hadamard.analyticOrderNatAt_divisorCanonicalProduct_zero
+Erdos970.Complex.Hadamard.analyticOrderNatAt_hadamardDenom_eq
+Erdos970.Complex.Hadamard.bddAbove_norm_divisorCanonicalProduct_div_pow_puncturedBall
+Erdos970.Complex.Hadamard.card_ball_le_divisorMassClosedBall₀
+Erdos970.Complex.Hadamard.card_subtype_le_divisorMassClosedBall₀_of_norm_le
+Erdos970.Complex.Hadamard.cartanProductConstant
+Erdos970.Complex.Hadamard.cartanProductConstant._proof_1
+Erdos970.Complex.Hadamard.cartanProductConstant.eq_1
+Erdos970.Complex.Hadamard.cartanProductConstant_nonneg
+Erdos970.Complex.Hadamard.cartan_card_small_le
+Erdos970.Complex.Hadamard.cartan_majorant_add_two_factor
+Erdos970.Complex.Hadamard.cartan_majorant_four_term_bound
+Erdos970.Complex.Hadamard.cartan_majorant_nonneg
+Erdos970.Complex.Hadamard.cartan_majorant_pad_two_to_three
+Erdos970.Complex.Hadamard.cartan_majorant_summable
+Erdos970.Complex.Hadamard.cartan_rpow_mul_le
+Erdos970.Complex.Hadamard.cartan_sum_majorant_le
+Erdos970.Complex.Hadamard.differentiableAt_divisorCanonicalProduct_univ
+Erdos970.Complex.Hadamard.differentiableOn_divisorCanonicalProduct_div_pow_sub
+Erdos970.Complex.Hadamard.differentiableOn_divisorCanonicalProduct_univ
+Erdos970.Complex.Hadamard.differentiableOn_divisorComplementCanonicalProduct_univ
+Erdos970.Complex.Hadamard.differentiableOn_divisorPartialProduct_div_pow_sub
+Erdos970.Complex.Hadamard.differentiableOn_update_limUnder_divisorCanonicalProduct_div_pow
+Erdos970.Complex.Hadamard.differentiable_divisorCanonicalProduct_univ
+Erdos970.Complex.Hadamard.differentiable_divisorComplementPartialProduct
+Erdos970.Complex.Hadamard.differentiable_divisorPartialProduct
+Erdos970.Complex.Hadamard.differentiable_hadamardDenom
+Erdos970.Complex.Hadamard.differentiable_weierstrassFactor_divisorZeroIndex₀
+Erdos970.Complex.Hadamard.divisorCanonicalProduct
+Erdos970.Complex.Hadamard.divisorCanonicalProduct_ne_zero_of_forall_ne
+Erdos970.Complex.Hadamard.divisorCanonicalProduct_zero
+Erdos970.Complex.Hadamard.divisorComplementCanonicalProduct
+Erdos970.Complex.Hadamard.divisorComplementCanonicalProduct_ne_zero_at
+Erdos970.Complex.Hadamard.divisorComplementFactor
+Erdos970.Complex.Hadamard.divisorComplementFactor_def
+Erdos970.Complex.Hadamard.divisorComplementFactor_eq_one_of_mem
+Erdos970.Complex.Hadamard.divisorComplementFactor_eq_weierstrassFactor_of_not_mem
+Erdos970.Complex.Hadamard.divisorComplementPartialProduct
+Erdos970.Complex.Hadamard.divisorComplementPartialProduct_def
+Erdos970.Complex.Hadamard.divisorMassClosedBall₀
+Erdos970.Complex.Hadamard.divisorMassClosedBall₀_le_of_growth
+Erdos970.Complex.Hadamard.divisorPartialProduct
+Erdos970.Complex.Hadamard.divisorPartialProduct_eq_fiber_mul_complement_of_subset
+Erdos970.Complex.Hadamard.divisorZeroIndex
+Erdos970.Complex.Hadamard.divisorZeroIndex₀
+Erdos970.Complex.Hadamard.divisorZeroIndex₀FiberFinset
+Erdos970.Complex.Hadamard.divisorZeroIndex₀FiberFinset_card_eq_analyticOrderNatAt
+Erdos970.Complex.Hadamard.divisorZeroIndex₀FiberFinset_card_eq_toNat_divisor
+Erdos970.Complex.Hadamard.divisorZeroIndex₀Val
+Erdos970.Complex.Hadamard.divisorZeroIndex₀Val_mem_divisor_support
+Erdos970.Complex.Hadamard.divisorZeroIndex₀Val_mem_divisor_support._simp_1
+Erdos970.Complex.Hadamard.divisorZeroIndex₀Val_ne_zero
+Erdos970.Complex.Hadamard.divisorZeroIndex₀Val_ne_zero._simp_1
+Erdos970.Complex.Hadamard.divisorZeroIndex₀_dyadicShell_lower_bound
+Erdos970.Complex.Hadamard.divisorZeroIndex₀_dyadicShell_upper_bound
+Erdos970.Complex.Hadamard.divisorZeroIndex₀_fiber_finite
+Erdos970.Complex.Hadamard.divisorZeroIndex₀_norm_le_finite
+Erdos970.Complex.Hadamard.divisor_hadamardDenom_eq
+Erdos970.Complex.Hadamard.divisor_hadamardQuotient_eq_zero
+Erdos970.Complex.Hadamard.divisor_univ_eq_analyticOrderNatAt_int
+Erdos970.Complex.Hadamard.eventually_atTop_subset_fiberFinset
+Erdos970.Complex.Hadamard.exists_analyticAt_divisorCanonicalProduct_quotient
+Erdos970.Complex.Hadamard.exists_analyticAt_eq_pow_smul_of_partialProduct_contains_fiber
+Erdos970.Complex.Hadamard.exists_ball_eq_divisorCanonicalProduct_div_pow_eq
+Erdos970.Complex.Hadamard.exists_entire_nonzero_hadamardQuotient
+Erdos970.Complex.Hadamard.exists_r0_le_norm_divisorZeroIndex₀Val
+Erdos970.Complex.Hadamard.exists_r0_le_norm_divisorZeroIndex₀Val._simp_1_3
+Erdos970.Complex.Hadamard.finite_divisorZeroIndex₀_dyadicShell
+Erdos970.Complex.Hadamard.finite_divisorZeroIndex₀_subtype_norm_le
+Erdos970.Complex.Hadamard.hadamardDenom
+Erdos970.Complex.Hadamard.hadamardDenom.eq_1
+Erdos970.Complex.Hadamard.hadamardDenom_ne_zero_at
+Erdos970.Complex.Hadamard.hadamardQuotient_norm_le_exp_on_cartan_circle
+Erdos970.Complex.Hadamard.hadamardQuotient_norm_le_exp_rpow_of_growth
+Erdos970.Complex.Hadamard.hadamard_factorization_of_growth
+Erdos970.Complex.Hadamard.hasProdLocallyUniformlyOn_divisorCanonicalProduct_univ
+Erdos970.Complex.Hadamard.hasProdLocallyUniformlyOn_divisorComplementCanonicalProduct_univ
+Erdos970.Complex.Hadamard.hasProdUniformlyOn_divisorCanonicalProduct_univ
+Erdos970.Complex.Hadamard.hasProdUniformlyOn_divisorComplementCanonicalProduct_univ
+Erdos970.Complex.Hadamard.logDeriv_divisorCanonicalProduct_one_eq_tsum
+Erdos970.Complex.Hadamard.logDeriv_divisorCanonicalProduct_one_eq_tsum_of_forall_ne
+Erdos970.Complex.Hadamard.max_one_norm_div_pow_le_one_add_rpow
+Erdos970.Complex.Hadamard.mem_divisorZeroIndex₀FiberFinset
+Erdos970.Complex.Hadamard.mem_divisorZeroIndex₀FiberFinset._simp_1
+Erdos970.Complex.Hadamard.natDegree_le_floor_of_exp_eval_norm_bound
+Erdos970.Complex.Hadamard.natDegree_le_floor_of_growth_exp_eval
+Erdos970.Complex.Hadamard.no_zero_on_sphere_of_forall_val_norm_ne
+Erdos970.Complex.Hadamard.no_zero_on_sphere_of_norm_image_avoid
+Erdos970.Complex.Hadamard.norm_div_le_half_of_norm_le_of_two_mul_lt
+Erdos970.Complex.Hadamard.norm_inv_hadamardDenominator_le_exp_on_cartan_circle
+Erdos970.Complex.Hadamard.norm_inv_weierstrassFactor_le_exp_far
+Erdos970.Complex.Hadamard.norm_inv_weierstrassFactor_le_exp_far._simp_1_1
+Erdos970.Complex.Hadamard.norm_inv_weierstrassFactor_le_exp_near
+Erdos970.Complex.Hadamard.not_mem_divisorZeroIndex₀FiberFinset_iff_val_ne
+Erdos970.Complex.Hadamard.rpow_div_norm_divisorZeroIndex₀_eq
+Erdos970.Complex.Hadamard.sum_rpow_div_norm_divisorZeroIndex₀_le
+Erdos970.Complex.Hadamard.summable_logDerivTerms_divisorZeroIndex₀_of_summable_inv_sq
+Erdos970.Complex.Hadamard.summable_norm_inv_pow_divisorZeroIndex₀_of_growth
+Erdos970.Complex.Hadamard.summable_norm_inv_rpow_divisorZeroIndex₀_of_growth
+Erdos970.Complex.Hadamard.tendstoLocallyUniformlyOn_divisorComplementPartialProduct_univ
+Erdos970.Complex.Hadamard.tendstoLocallyUniformlyOn_divisorPartialProduct_div_pow_sub
+Erdos970.Complex.Hadamard.tendstoLocallyUniformlyOn_divisorPartialProduct_univ
+Erdos970.Complex.Hadamard.tendstoUniformlyOn_divisorPartialProduct_div_pow_sub
+Erdos970.Complex.Hadamard.tsum_divisorZeroIndex₀_dyadicShell_inv_rpow_le_geometric_of_growth
+Erdos970.Complex.Hadamard.tsum_rpow_div_norm_divisorZeroIndex₀_eq
+Erdos970.Complex.Hadamard.tsum_two_mul_rpow_div_norm_divisorZeroIndex₀_le
+Erdos970.Complex.Hadamard.zero_free_polynomial_growth_is_exp_poly
+Erdos970.Complex.analyticOrderAt_weierstrassFactor_div_self
+Erdos970.Complex.borelCaratheodory_zero_closedBall
+Erdos970.Complex.differentiable_partialLogSum
+Erdos970.Complex.differentiable_weierstrassFactor
+Erdos970.Complex.hasDerivAt_partialLogSum
+Erdos970.Complex.hasDerivAt_partialLogSum._proof_1_1
+Erdos970.Complex.logDeriv_weierstrassFactor_one_div
+Erdos970.Complex.logTail
+Erdos970.Complex.logTaylor_neg_eq_neg_sum
+Erdos970.Complex.logTaylor_succ_neg
+Erdos970.Complex.logTaylor_succ_neg._abel_1_2
+Erdos970.Complex.logTaylor_succ_neg._proof_1_1
+Erdos970.Complex.log_norm_weierstrassFactor_ge_log_norm_one_sub_sub
+Erdos970.Complex.log_norm_weierstrassFactor_ge_neg_two_pow
+Erdos970.Complex.neg_log_one_sub_eq_partialLogSum_add_logTail
+Erdos970.Complex.neg_log_one_sub_eq_tsum
+Erdos970.Complex.neg_norm_le_re
+Erdos970.Complex.norm_inv_pow_le_one_of_one_le_norm
+Erdos970.Complex.norm_le_of_mem_ball_of_forall_sphere_norm_le
+Erdos970.Complex.norm_logTail_le
+Erdos970.Complex.norm_logTail_le_two_mul_norm_pow
+Erdos970.Complex.norm_partialLogSum_le_nat_mul_max_one_norm_pow
+Erdos970.Complex.partialLogSum
+Erdos970.Complex.partialLogSum_at_zero
+Erdos970.Complex.partialLogSum_eq_sum
+Erdos970.Complex.partialLogSum_zero
+Erdos970.Complex.summable_logTail
+Erdos970.Complex.weierstrassFactor
+Erdos970.Complex.weierstrassFactor.eq_1
+Erdos970.Complex.weierstrassFactor_at_zero
+Erdos970.Complex.weierstrassFactor_def
+Erdos970.Complex.weierstrassFactor_eq_exp_neg_tail
+Erdos970.Complex.weierstrassFactor_eq_zero_iff
+Erdos970.Complex.weierstrassFactor_ne_zero_iff
+Erdos970.Complex.weierstrassFactor_ne_zero_of_ne_one
+Erdos970.Complex.weierstrassFactor_sub_one_pow_bound
+Erdos970.Differentiable.divisor_nonneg
+Erdos970.Finset.prod_le_exp_sum
+Erdos970.Function.locallyFinsuppWithin.logCounting_divisor_eq_circleAverage_sub_const_of_differentiable
+Erdos970.Function.locallyFinsuppWithin.logCounting_divisor_le_of_log_growth
+Erdos970.Function.locallyFinsuppWithin.log_two_mul_massClosedBall₀_le_logCounting
+Erdos970.Function.locallyFinsuppWithin.massClosedBall₀
+Erdos970.Function.locallyFinsuppWithin.massClosedBall₀._proof_1
+Erdos970.Function.locallyFinsuppWithin.massClosedBall₀_divisor_le_of_log_growth
+Erdos970.Function.locallyFinsuppWithin.mem_support_of_mem_toClosedBall_support
+Erdos970.Function.locallyFinsuppWithin.mem_toClosedBall_support_of_mem_support_of_norm_le_abs
+Erdos970.Function.locallyFinsuppWithin.norm_le_abs_of_mem_toClosedBall_support
+Erdos970.Function.locallyFinsuppWithin.toClosedBall_eval_eq_of_norm_le_abs
+Erdos970.MeromorphicOn.divisor_support_inter_compact_finite
+Erdos970.Real.dyadicShell_lower_bound
+Erdos970.Real.dyadicShell_upper_bound
+Erdos970.Real.dyadic_growth_inv_term_eq
+Erdos970.Real.dyadic_growth_mass_mul_inv_le_geometric
+Erdos970.Real.dyadic_trailing_inv_term_le
+Erdos970.Real.exists_between_self_and_floor_add_one_same_floor
+Erdos970.Real.exists_nat_le_two_pow
+Erdos970.Real.exists_norm_le_exp_mul_pow_of_rpow_bound
+Erdos970.Real.exp_mul_rpow_le_exp_mul_rpow_of_le_mul
+Erdos970.Real.inv_dyadicRadius_rpow_eq
+Erdos970.Real.le_exp_of_log_one_add_le
+Erdos970.Real.log_growth_of_norm_le_exp_mul_rpow
+Erdos970.Real.log_nonneg_mul_inv_norm_of_norm_le
+Erdos970.Real.log_norm_le_log_one_add_norm
+Erdos970.Real.log_norm_le_of_log_one_add_growth_on_sphere
+Erdos970.Real.log_one_add_exp_le_add_log_two
+Erdos970.Real.log_one_add_le_add_log_two_of_le_exp
+Erdos970.Real.log_two_le_log_two_mul_mul_inv_norm_of_norm_le
+Erdos970.Real.lt_two_pow_floor_logb_add_one
+Erdos970.Real.neg_posLog_inv_le_log
+Erdos970.Real.norm_le_exp_mul_rpow_of_exponent_le
+Erdos970.Real.norm_le_exp_mul_rpow_of_log_growth
+Erdos970.Real.one_add_abs_two_mul_dyadicRadius_rpow_le
+Erdos970.Real.one_add_le_three_mul_one_add_of_le_two_mul_max
+Erdos970.Real.one_le_dyadicRadius_succ_of_inv_le_two_pow
+Erdos970.Real.pow_div_one_sub_le_two_mul
+Erdos970.Real.tsum_inv_rpow_le_card_mul_of_lower_bound
+Erdos970.Real.two_geometric_shift_add
+Erdos970.Real.two_pow_floor_logb_le
+Erdos970.Real.two_rpow_sub_eq_mul_neg
+Erdos970.Real.two_rpow_sub_pow_eq_mul_pow
+Erdos970.TendstoUniformlyOn.mul_left_bounded
+Erdos970.hasProd_inv_unconditional
+Erdos970.hasProd_le_of_prod_le_exp
+Erdos970.hasProd_norm_inv_le_exp_of_pointwise_le_exp
+Erdos970.hasProd_norm_inv_unconditional
+_private.PrimeNumberTheoremAnd.Erdos970.HadamardSupport.0.Erdos970.Complex.CartanBound.neg_log_le_sqrt_two_div
+_private.PrimeNumberTheoremAnd.Erdos970.HadamardSupport.0.Erdos970.Complex.Hadamard.exists_pow_eq_complex
+_private.PrimeNumberTheoremAnd.Erdos970.HadamardSupport.0.Erdos970.Complex.Hadamard.exists_z_norm_eq_re_eval_ge
+_private.PrimeNumberTheoremAnd.Erdos970.HadamardSupport.0.Erdos970.Complex.Hadamard.exists_z_norm_eq_re_eval_ge._proof_1_1
+_private.PrimeNumberTheoremAnd.Erdos970.HadamardSupport.0.Erdos970.Complex.Hadamard.mul_conj_div_norm
+_private.PrimeNumberTheoremAnd.Erdos970.HadamardSupport.0.Erdos970.Complex.Hadamard.summable_ite_mem_finset
+_private.PrimeNumberTheoremAnd.Erdos970.HadamardSupport.0.Erdos970.Complex.Hadamard.tsum_add_four
+_private.PrimeNumberTheoremAnd.Erdos970.HadamardSupport.0.Erdos970.Complex.Hadamard.tsum_ite_mem_finset
+OAI.Erdos970.WeightedTorusJets.dirichlet_real_zero_bound : ∃ c,
+  0 < c ∧
+    ∀ (q : ℕ) [inst : NeZero q],
+      3 ≤ q →
+        ∀ (χ : DirichletCharacter ℂ q),
+          χ.IsPrimitive →
+            χ ≠ 1 →
+              (∀ (a : ZMod q), (χ a).im = 0) →
+                ∀ (β : ℝ), 0 < β ∧ β < 1 ∧ DirichletCharacter.LFunction χ ↑β = 0 → c ≤ (1 - β) * Real.log ↑q
+RSSCAP done rc=0 peak_kb=6990208 wall=50s
+[2026-10-26T09:50:14Z] rc=0

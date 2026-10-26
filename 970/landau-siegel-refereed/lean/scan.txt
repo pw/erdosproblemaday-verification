@@ -1,0 +1,632 @@
+# Comment-stripped scan of 67 closure modules (closure_DRZB.txt). Counts:
+instance               83
+attribute_instance     72
+default_instance       0
+macro                  0
+macro_rules            0
+syntax                 0
+notation               42
+infix                  0
+prefix                 0
+postfix                0
+elab                   0
+unif_hint              0
+axiom                  0
+sorry                  0
+admit                  0
+opaque                 0
+implemented_by         0
+extern                 0
+unsafe                 0
+native_decide          0
+ofReduceBool           0
+reduceBool             0
+decide_kernel          0
+debug_skipKernelTC     0
+set_option             0
+local_instance_attr    71
+coe_attr               0
+CoeFun_etc             0
+run_cmd                0
+initialize             0
+open_private           0
+export                 0
+Lean_Elab_import       0
+local_notation         42
+scoped                 276
+noncomputable_instance 1
+irreducible_def        0
+csimp                  0
+simproc                0
+dsimproc               0
+binop                  0
+instance_priority      0
+
+# All hits (pattern | module | line | raw text)
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:9 | open scoped BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:30 | open scoped BigOperators in
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:273 | open scoped BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:652 | open scoped Topology BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:996 | open scoped Topology BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:1119 | open scoped Topology BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:1486 | open scoped Topology BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:1648 | open scoped Topology BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:2036 | open scoped Topology BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:2328 | open scoped Topology
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:2464 | open scoped BigOperators Topology
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:3286 | open scoped BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:3580 | open scoped BigOperators Topology
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:3586 | open scoped _root_.Real
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:3722 | open scoped BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:4107 | open scoped Topology ENNReal
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:4609 | open scoped BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:4927 | open scoped BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:5527 | open scoped BigOperators
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:5657 | open scoped Topology
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:6026 | open scoped Topology
+scoped | PrimeNumberTheoremAnd.Erdos970.HadamardSupport:6373 | open scoped Topology BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticBasis:7 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticBasis:10 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticBasis:447 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:11 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:12 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:15 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:67 | open scoped NumberField
+instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:226 | attribute [local instance] canonicalCyclotomicLevelNeZero
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:226 | attribute [local instance] canonicalCyclotomicLevelNeZero
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:226 | attribute [local instance] canonicalCyclotomicLevelNeZero
+instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:233 | attribute [local instance] canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:233 | attribute [local instance] canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:233 | attribute [local instance] canonicalCyclotomicExtension
+instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:238 | attribute [local instance] canonicalCyclotomicNumberField
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:238 | attribute [local instance] canonicalCyclotomicNumberField
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:238 | attribute [local instance] canonicalCyclotomicNumberField
+instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:244 | attribute [local instance] canonicalCyclotomicAbelian
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:244 | attribute [local instance] canonicalCyclotomicAbelian
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:244 | attribute [local instance] canonicalCyclotomicAbelian
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtPairFrobeniusDirections:473 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.IntegerCharacter:7 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.IntegerCharacter:481 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.E:13 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.E:17 | open scoped BigOperators Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.E:20 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.E:63 | open scoped ComplexOrder in
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.E:224 | open scoped Topology ComplexConjugate
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.MellinConvergentTopIndicator:7 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.MellinConvergentTopIndicator:13 | open scoped BigOperators Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.MellinConvergentTopIndicator:18 | open scoped Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ConductorCompletedL:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ConductorCompletedL:12 | open scoped BigOperators Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ConductorCompletedL:15 | open scoped Topology
+notation | OAI.NumberTheory.Jacobsthal.Siegel.ConductorCompletedL:456 | local notation "ZeroIndices" => Σ z : ℂ, Fin (analyticOrderNatAt (conductorCompletedL χ) z)
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.ConductorCompletedL:456 | local notation "ZeroIndices" => Σ z : ℂ, Fin (analyticOrderNatAt (conductorCompletedL χ) z)
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:12 | open scoped BigOperators Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:15 | open scoped Topology
+notation | OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:25 | local notation "DivisorIndices" => divisorZeroIndex₀ (conductorCompletedL χ) Set.univ
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:25 | local notation "DivisorIndices" => divisorZeroIndex₀ (conductorCompletedL χ) Set.univ
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:248 | open scoped Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:287 | open scoped Classical
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RealLogDerivConductorCompletedLDivisorTsum:416 | open scoped Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SumLogPrimeFactors:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SumLogPrimeFactors:13 | open scoped BigOperators Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SumLogPrimeFactors:16 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SumLogPrimeFactors:63 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SumLogDivFilterDvdTwoMul:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SumLogDivFilterDvdTwoMul:12 | open scoped BigOperators Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SumLogDivFilterDvdTwoMul:15 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SumLogDivFilterDvdTwoMul:72 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.AuxiliarySqrtPairCharacterField:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.AuxiliarySqrtPairCharacterField:11 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.AuxiliarySqrtPairCharacterField:74 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.AuxiliarySqrtPairCharacterField:78 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.AuxiliarySqrtPairCharacterField:82 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.AuxiliarySqrtPairCharacterField:98 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticAdjoinBasis:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticAdjoinBasis:12 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticAdjoinBasis:13 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticAdjoinBasis:14 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticAdjoinBasis:15 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:11 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:12 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:13 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:14 | open scoped NumberField
+instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:305 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:305 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:305 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:473 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:473 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.SqrtTwoField:473 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:12 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:13 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:14 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:15 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:16 | open scoped NumberField
+instance | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:113 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:113 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:113 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+instance | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:161 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:161 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:161 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:430 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.BiquadraticArithmeticFull:462 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:7 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:10 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:11 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:12 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:13 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:14 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:15 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:16 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivots:163 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:11 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:12 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:13 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:14 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:15 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:16 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:17 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:18 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.WeightedJetIndices:230 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:12 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:13 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:14 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:15 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:16 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:17 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:18 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:19 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:21 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:72 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:156 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:156 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:156 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+instance | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:366 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:366 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:366 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RestrictWeightSortedEquiv:467 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:11 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:12 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:13 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:14 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:15 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:16 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:17 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:18 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:20 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:21 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:23 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:163 | open scoped NumberField BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:194 | open scoped BigOperators NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:282 | open scoped BigOperators NumberField
+instance | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:324 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:324 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:324 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:420 | open scoped BigOperators NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormSqReal:460 | open scoped BigOperators NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:11 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:12 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:13 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:14 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:15 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:16 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:17 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:18 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:20 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:21 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:23 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:26 | open scoped BigOperators NumberField
+instance | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:31 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:31 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantFullLocalBounds:31 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GreedyPivotsWeightLowSpan:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GlobalRectanglePivotBounds:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GlobalRectanglePivotBounds:13 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:7 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:70 | attribute [local instance] Polynomial.algebra Polynomial.isLocalization
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:70 | attribute [local instance] Polynomial.algebra Polynomial.isLocalization
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:70 | attribute [local instance] Polynomial.algebra Polynomial.isLocalization
+notation | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:159 | local notation "𝒜" => MvPolynomial σ K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:159 | local notation "𝒜" => MvPolynomial σ K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:160 | local notation "𝒮" => MvPolynomial (Option σ) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:160 | local notation "𝒮" => MvPolynomial (Option σ) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:161 | local notation "𝒰" => Localization.Away (X (none : Option σ) : 𝒮)
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:161 | local notation "𝒰" => Localization.Away (X (none : Option σ) : 𝒮)
+notation | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:162 | local notation "𝒱" => Localization.Away (Polynomial.X : Polynomial 𝒜)
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:162 | local notation "𝒱" => Localization.Away (Polynomial.X : Polynomial 𝒜)
+instance | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:288 | attribute [local instance] coneIdeal_isPrime polynomialAwayPrime_isPrime
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:288 | attribute [local instance] coneIdeal_isPrime polynomialAwayPrime_isPrime
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:288 | attribute [local instance] coneIdeal_isPrime polynomialAwayPrime_isPrime
+instance | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:353 | attribute [local instance] coneIdeal_isPrime Polynomial.algebra Polynomial.isLocalization
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:353 | attribute [local instance] coneIdeal_isPrime Polynomial.algebra Polynomial.isLocalization
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.ConeMap:353 | attribute [local instance] coneIdeal_isPrime Polynomial.algebra Polynomial.isLocalization
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:8 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:24 | attribute [local instance] Polynomial.algebra Polynomial.isLocalization
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:24 | attribute [local instance] Polynomial.algebra Polynomial.isLocalization
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:24 | attribute [local instance] Polynomial.algebra Polynomial.isLocalization
+notation | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:36 | local notation "𝒜" => MvPolynomial σ K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:36 | local notation "𝒜" => MvPolynomial σ K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:37 | local notation "𝒮" => MvPolynomial (Option σ) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:37 | local notation "𝒮" => MvPolynomial (Option σ) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:38 | local notation "𝒰" => Localization.Away (X (none : Option σ) : 𝒮)
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:38 | local notation "𝒰" => Localization.Away (X (none : Option σ) : 𝒮)
+notation | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:39 | local notation "𝒱" => Localization.Away (Polynomial.X : Polynomial 𝒜)
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:39 | local notation "𝒱" => Localization.Away (Polynomial.X : Polynomial 𝒜)
+instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:47 | attribute [local instance] coneIdeal_isPrime polynomialAwayPrime_isPrime
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:47 | attribute [local instance] coneIdeal_isPrime polynomialAwayPrime_isPrime
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:47 | attribute [local instance] coneIdeal_isPrime polynomialAwayPrime_isPrime
+instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:55 | attribute [local instance] coneIdeal_isPrime Polynomial.algebra Polynomial.isLocalization
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:55 | attribute [local instance] coneIdeal_isPrime Polynomial.algebra Polynomial.isLocalization
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:55 | attribute [local instance] coneIdeal_isPrime Polynomial.algebra Polynomial.isLocalization
+instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:106 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:106 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:106 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:339 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:339 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:339 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:355 | attribute [local instance] coneIdeal_isPrime
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:355 | attribute [local instance] coneIdeal_isPrime
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.Homogenize:355 | attribute [local instance] coneIdeal_isPrime
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoeffPolynomialEvalMul:8 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.CoeffPolynomialEvalMul:19 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.CoeffPolynomialEvalMul:19 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.CoeffPolynomialEvalMul:19 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ConeMapEval:8 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.ConeMapEval:41 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.ConeMapEval:41 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.ConeMapEval:41 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.MonicSMulRegularQuotientMapC:7 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.MonicSMulRegularQuotientMapC:183 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.MonicSMulRegularQuotientMapC:297 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalQuotientEquiv:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalQuotientEquiv:15 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalQuotientEquiv:19 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalQuotientEquiv:272 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalQuotientEquiv:474 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:13 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:143 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:143 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:143 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:394 | open scoped BigOperators DirectSum
+instance | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:399 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:399 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:399 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:443 | open scoped DirectSum
+instance | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:623 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:623 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.HomogeneousDeformation:623 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:8 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:23 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:23 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:23 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:143 | instance degreePiece_finite [Finite σ] (I : Ideal (MvPolynomial σ K)) (n : ℕ) :
+instance | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:221 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:221 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:221 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:342 | open scoped BigOperators
+notation | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:348 | local notation "HR" => fun S : PowerSeries R ↦
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:348 | local notation "HR" => fun S : PowerSeries R ↦
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DegreeMap:418 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:15 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:16 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:73 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:73 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:73 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:242 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:273 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:273 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:273 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:325 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:325 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:325 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.HilbertSeries:511 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDegreePiecePosPrimeVariableNotMem:9 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDegreePiecePosPrimeVariableNotMem:20 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDegreePiecePosPrimeVariableNotMem:20 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDegreePiecePosPrimeVariableNotMem:20 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalFractionAlgebra:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalFractionAlgebra:12 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalFractionAlgebra:17 | open scoped BigOperators DirectSum
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantDerivation:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantDerivation:10 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantDerivation:300 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:10 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:14 | open scoped BigOperators
+notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:121 | local notation "P₄" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:121 | local notation "P₄" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:122 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:122 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:202 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:202 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:202 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:335 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:509 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:509 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialBox:509 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:14 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:18 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:20 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:24 | open scoped AlgebraMonoidAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:26 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:26 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:26 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+notation | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:359 | local notation "P₄" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:359 | local notation "P₄" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:360 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:360 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+instance | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:367 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:367 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:367 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+instance | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:455 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:455 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.CoordinateLocalizedPrime:455 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ResidueTensorQuotientAlgEquiv:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ResidueTensorQuotientAlgEquiv:12 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:14 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:18 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:20 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:26 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:26 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:26 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+instance | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:88 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:88 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:88 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+instance | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:124 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:124 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:124 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+instance | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:431 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:431 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.NormalizationPresentationLocalEquiv:431 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:7 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:321 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:321 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:321 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:472 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:472 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:472 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:524 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:524 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:524 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:593 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:593 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:593 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:690 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:690 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:690 | attribute [local instance] MvPolynomial.gradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:715 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:715 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LinearShearHom:715 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:15 | open scoped RatFunc
+instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:122 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:122 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:122 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:127 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:138 | attribute [local instance] MvPolynomial.algebraMvPolynomial in
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:138 | attribute [local instance] MvPolynomial.algebraMvPolynomial in
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:138 | attribute [local instance] MvPolynomial.algebraMvPolynomial in
+instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:199 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:199 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:199 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:205 | open scoped AlgebraMonoidAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:207 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:207 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.FinrankDerivationCardTranscendenceBasis:207 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DominantFunctionFieldHom:7 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.DominantFunctionFieldHom:14 | local instance WeightedTorusJets.Geometry.polynomialGradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.DominantFunctionFieldHom:26 | local instance scheme_top_nonempty (Z : Scheme) [Nonempty Z] : Nonempty (⊤ : Z.Opens) :=
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:8 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:13 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:13 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:13 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:75 | instance genericNormalization_isIntegral : IsIntegral (genericNormalization Y) := by
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:79 | instance genericNormalizationMap_isDominant : IsDominant (genericNormalizationMap Y) := by
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:93 | instance dominantFunctionFieldHom_isIso (f : X ⟶ Y) [IsDominant f]
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:194 | noncomputable instance affineFunctionFieldAlgebra (A : Type u) [CommRing A] [IsDomain A] :
+noncomputable_instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:194 | noncomputable instance affineFunctionFieldAlgebra (A : Type u) [CommRing A] [IsDomain A] :
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:389 | attribute [-instance] polynomialGradedAlgebra in
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:389 | attribute [-instance] polynomialGradedAlgebra in
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:390 | attribute [local instance] MvPolynomial.gradedAlgebra in
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:390 | attribute [local instance] MvPolynomial.gradedAlgebra in
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:390 | attribute [local instance] MvPolynomial.gradedAlgebra in
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:447 | instance schemeImage_isIntegral {X Y : Scheme.{u}} [IsIntegral X] (f : X ⟶ Y)
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GenericNormalization:450 | instance schemeImage_isSeparated {X Y : Scheme.{u}} (f : X ⟶ Y) [Y.IsSeparated] :
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ParameterIdeal:8 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.ParameterIdeal:13 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.ParameterIdeal:13 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.ParameterIdeal:13 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.ParameterIdeal:52 | instance parameterIdeal_isPrime (k : Type*) [Field k] : (parameterIdeal k).IsPrime :=
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ParameterIdeal:138 | open scoped TensorProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.ParameterIdeal:242 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:9 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:12 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:12 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:12 | attribute [local instance] WeightedTorusJets.Geometry.polynomialGradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:24 | open scoped TensorProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:25 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:215 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LogarithmicForm:475 | open scoped BigOperators TensorProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.FiniteTypeFieldModelEquiv:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.FiniteTypeFieldModelEquiv:13 | open scoped BigOperators TensorProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.FiniteTypeFieldModelEquiv:199 | open scoped TensorProduct
+instance | OAI.NumberTheory.Jacobsthal.Siegel.FiniteTypeFieldModelEquiv:333 | attribute [local instance] Ideal.Quotient.field
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.FiniteTypeFieldModelEquiv:333 | attribute [local instance] Ideal.Quotient.field
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.FiniteTypeFieldModelEquiv:333 | attribute [local instance] Ideal.Quotient.field
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:13 | open scoped BigOperators TensorProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:16 | open scoped TensorProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:45 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:48 | attribute [local instance] Ideal.Quotient.field
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:48 | attribute [local instance] Ideal.Quotient.field
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:48 | attribute [local instance] Ideal.Quotient.field
+instance | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:164 | attribute [local instance] Ideal.Quotient.field
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:164 | attribute [local instance] Ideal.Quotient.field
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:164 | attribute [local instance] Ideal.Quotient.field
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:247 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusEvalOne:714 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:13 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:14 | open scoped BigOperators
+notation | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:149 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:149 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:150 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:150 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+notation | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:151 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.RectangleThreshold:151 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DerivationJet:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DerivationJet:12 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DerivationJet:13 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DerivationJet:61 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.DerivationJet:354 | instance finite_rectangularQuotient {σ K : Type*} [Fintype σ] [CommRing K] (k : σ → ℕ) :
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:11 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:12 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:13 | open scoped BigOperators
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:34 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:34 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:35 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:35 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:36 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:36 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+instance | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:134 | attribute [local instance] Ideal.Quotient.field
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:134 | attribute [local instance] Ideal.Quotient.field
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:134 | attribute [local instance] Ideal.Quotient.field
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:138 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:138 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:139 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:139 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:140 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:140 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:247 | open scoped TensorProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:250 | open scoped TensorProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:263 | open scoped BigOperators
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:276 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:276 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:277 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:277 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:278 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:278 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:286 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:286 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:287 | local notation "TorusCoordRing" => Localization.Away
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:287 | local notation "TorusCoordRing" => Localization.Away
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusDerivationOverRat:299 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoefficientSubspaceEquiv:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoefficientSubspaceEquiv:13 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoefficientSubspaceEquiv:72 | open scoped BigOperators DirectSum
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoefficientSubspaceEquiv:169 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CoefficientSubspaceEquiv:448 | open scoped BigOperators DirectSum
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GradedIdealQuotient:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GradedIdealQuotient:13 | open scoped BigOperators DirectSum
+instance | OAI.NumberTheory.Jacobsthal.Siegel.GradedIdealQuotient:145 | attribute [local instance] MvPolynomial.gradedAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.GradedIdealQuotient:145 | attribute [local instance] MvPolynomial.gradedAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.GradedIdealQuotient:145 | attribute [local instance] MvPolynomial.gradedAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:13 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:17 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:19 | open scoped BigOperators
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:25 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:25 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:25 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:292 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:292 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LinearVariableBasis:292 | attribute [local instance] MvPolynomial.algebraMvPolynomial
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.LocalLengthMulProjectiveClosureDegree:11 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.LocalLengthMulProjectiveClosureDegree:20 | attribute [local instance] coneIdeal_isPrime
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.LocalLengthMulProjectiveClosureDegree:20 | attribute [local instance] coneIdeal_isPrime
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.LocalLengthMulProjectiveClosureDegree:20 | attribute [local instance] coneIdeal_isPrime
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusRectangleJetIdealParametersProjectiveDegreeBound:8 | open scoped _root_.Erdos970
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusRectangleJetIdealParametersProjectiveDegreeBound:18 | local notation "P₄" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusRectangleJetIdealParametersProjectiveDegreeBound:18 | local notation "P₄" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusRectangleJetIdealParametersProjectiveDegreeBound:19 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusRectangleJetIdealParametersProjectiveDegreeBound:19 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:10 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:15 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:33 | open scoped BigOperators
+notation | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:60 | local notation "P₄" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:60 | local notation "P₄" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:61 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:61 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:70 | open scoped BigOperators
+notation | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:86 | local notation "P₄" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:86 | local notation "P₄" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:87 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:87 | local notation "T₄" => Localization.Away (∏ i : Fin 4, (MvPolynomial.X i : P₄))
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetMonomial:121 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.EvalOneInvariantJetMonomial:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.EvalOneInvariantJetMonomial:11 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLinearCoefficients:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLinearCoefficients:12 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLinearCoefficients:13 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLinearCoefficients:14 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.IdealPowLayer:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:9 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:15 | open scoped BigOperators
+notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:17 | local notation "P" => MvPolynomial ι K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:17 | local notation "P" => MvPolynomial ι K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:18 | local notation "G" => ι →₀ ℤ
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:18 | local notation "G" => ι →₀ ℤ
+notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:19 | local notation "A" => AddMonoidAlgebra K G
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:19 | local notation "A" => AddMonoidAlgebra K G
+notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:20 | local notation "L" => Localization.Away (∏ i : ι, (MvPolynomial.X i : P))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:20 | local notation "L" => Localization.Away (∏ i : ι, (MvPolynomial.X i : P))
+instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:263 | attribute [local instance] relativeLocalizationFractionAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:263 | attribute [local instance] relativeLocalizationFractionAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:263 | attribute [local instance] relativeLocalizationFractionAlgebra
+instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:273 | attribute [local instance] relativeLocalizationFraction_scalarTower
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:273 | attribute [local instance] relativeLocalizationFraction_scalarTower
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:273 | attribute [local instance] relativeLocalizationFraction_scalarTower
+instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:275 | attribute [local instance] FractionRing.liftAlgebra
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:275 | attribute [local instance] FractionRing.liftAlgebra
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.PolynomialLaurent:275 | attribute [local instance] FractionRing.liftAlgebra
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.TorusQuotientDimensionPosCotangentFinrankThree:9 | open scoped _root_.Erdos970
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusQuotientDimensionPosCotangentFinrankThree:137 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusQuotientDimensionPosCotangentFinrankThree:137 | local notation "PolyRing" => MvPolynomial (Fin 4) K
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusQuotientDimensionPosCotangentFinrankThree:138 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusQuotientDimensionPosCotangentFinrankThree:138 | local notation "torusCoordinateProduct" => (∏ i : Fin 4, (MvPolynomial.X i : PolyRing))
+notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusQuotientDimensionPosCotangentFinrankThree:139 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+local_notation | OAI.NumberTheory.Jacobsthal.Siegel.TorusQuotientDimensionPosCotangentFinrankThree:139 | local notation "TorusCoordRing" => Localization.Away torusCoordinateProduct
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetLinearMap:10 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.InvariantJetLinearMap:14 | open scoped BigOperators
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NormalizedMasterBound:7 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantMasterBounds:11 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantMasterBounds:18 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantMasterBounds:18 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.CharacterGlobalGreedyDeterminantMasterBounds:18 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.GlobalWeightSortedJetEquiv:7 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NotEventuallyMaster:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NotEventuallyMaster:44 | open scoped Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.NotEventuallyMaster:228 | open scoped Topology
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:8 | open scoped _root_.Erdos970
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:11 | open scoped Pointwise
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:12 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:13 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:14 | open scoped NumberField
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:102 | open scoped NumberField
+instance | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:212 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:212 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:212 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+instance | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:321 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:321 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.QuadraticEigencharacter:321 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:11 | open scoped _root_.Erdos970
+instance | OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:16 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:16 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:16 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:26 | open scoped BigOperators NumberField
+instance | OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:28 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+attribute_instance | OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:28 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+local_instance_attr | OAI.NumberTheory.Jacobsthal.Siegel.RealZeroUniformMasterBound:28 | attribute [local instance] canonicalCyclotomicLevelNeZero canonicalCyclotomicExtension
+scoped | OAI.NumberTheory.Jacobsthal.Siegel.DirichletRealZeroBound:8 | open scoped _root_.Erdos970

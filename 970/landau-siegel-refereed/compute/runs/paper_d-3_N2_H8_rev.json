@@ -1,0 +1,255 @@
+{
+ "d": -3,
+ "N": 2,
+ "H": 8,
+ "variant": "paper",
+ "tiebreak": "rev",
+ "M": 16,
+ "U": 2.5198420997897464,
+ "P": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   0
+  ],
+  [
+   3,
+   0,
+   0
+  ],
+  [
+   4,
+   0,
+   0
+  ],
+  [
+   5,
+   0,
+   0
+  ],
+  [
+   6,
+   0,
+   0
+  ],
+  [
+   7,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   1
+  ],
+  [
+   8,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   0
+  ],
+  [
+   1,
+   0,
+   1
+  ],
+  [
+   9,
+   0,
+   0
+  ],
+  [
+   2,
+   1,
+   0
+  ],
+  [
+   10,
+   0,
+   0
+  ]
+ ],
+ "ncand": 17,
+ "greedy_agree": true,
+ "exact_cert": true,
+ "Delta": [
+  "-34252091482020249600000",
+  "0",
+  "0",
+  "0"
+ ],
+ "NmD": "1376411780855897265247054604796159468052764165953649561693015512816025600000000000000000000",
+ "S1": 59,
+ "S2": 5,
+ "amax": [
+  10,
+  1,
+  1
+ ],
+ "maxweight": 10,
+ "table": [
+  {
+   "p": 2,
+   "cls": "ram",
+   "adm": false,
+   "Ep": 26,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 33,
+   "vpNm": 132,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 3,
+   "cls": "ram",
+   "adm": false,
+   "Ep": 15,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 12,
+   "vpNm": 48,
+   "holds": false,
+   "ext_holds": true,
+   "norm_holds": false
+  },
+  {
+   "p": 5,
+   "cls": "sigtau",
+   "adm": false,
+   "Ep": 7,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 5,
+   "vpNm": 20,
+   "holds": false,
+   "ext_holds": true,
+   "norm_holds": false
+  },
+  {
+   "p": 7,
+   "cls": "id",
+   "adm": false,
+   "Ep": 4,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 4,
+   "vp": 4,
+   "vpNm": 16,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 11,
+   "cls": "sigtau",
+   "adm": true,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 13,
+   "cls": "tau",
+   "adm": false,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 17,
+   "cls": "sigma",
+   "adm": true,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 19,
+   "cls": "tau",
+   "adm": false,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 23,
+   "cls": "sigma",
+   "adm": true,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  },
+  {
+   "p": 29,
+   "cls": "sigtau",
+   "adm": true,
+   "Ep": 0,
+   "E2": 0,
+   "E3": 0,
+   "Lext": 0,
+   "vp": 0,
+   "vpNm": 0,
+   "holds": true,
+   "ext_holds": true,
+   "norm_holds": true
+  }
+ ],
+ "viol_adm": 0,
+ "prod_ok": true,
+ "quarter_log_Nm": 51.888034580887265,
+ "hadamard": 122.9500389030055
+}

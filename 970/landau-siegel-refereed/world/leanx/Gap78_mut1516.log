@@ -1,0 +1,30 @@
+Gap78_mut1516.lean:29:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Gap78_mut1516.lean:35:2: error: linarith failed to find a contradiction
+H : Seven8
+h3 : 0 < Real.log 3
+q : ℕ
+inst✝ : NeZero q
+hq : 3 ≤ q
+χ : DirichletCharacter ℂ q
+a✝² : χ.IsPrimitive
+hne : χ ≠ 1
+a✝¹ : ∀ (a : ZMod q), (χ a).im = 0
+β : ℝ
+hβ0 : 0 < β
+hβ1 : β < 1
+hzero : DirichletCharacter.LFunction χ ↑β = 0
+hβ : β ≤ 15 / 16
+hlog : Real.log 3 ≤ Real.log ↑q
+h1 : 0 ≤ 15 / 16 - β
+h2 : 0 ≤ Real.log ↑q
+a✝ : (1 - β) * Real.log ↑q < Real.log 3 / 8
+⊢ False
+failed
+'siegel_of_seven_eighths' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+RSSCAP done rc=1 peak_kb=6861880 wall=30s

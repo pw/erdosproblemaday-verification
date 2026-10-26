@@ -1,0 +1,22 @@
+[2026-10-26T09:20:31Z] lean SeatD003/NonVacuity.lean -o out/SeatD003/NonVacuity.olean LEAN_PATH=/tmp/oaimath/003/seats/D_work/bridge/out:/tmp/erdos0300/lean/mathlib4/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Cli/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Qq/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/aesop/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/batteries/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/plausible/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean
+@DirichletCharacter.LFunction_eq_LSeries : ∀ {N : ℕ} [inst : NeZero N] (χ : DirichletCharacter ℂ N) {s : ℂ},
+  1 < s.re → DirichletCharacter.LFunction χ s = LSeries (fun x => χ ↑x) s
+@DirichletCharacter.differentiable_LFunction : ∀ {N : ℕ} [inst : NeZero N] {χ : DirichletCharacter ℂ N},
+  χ ≠ 1 → Differentiable ℂ (DirichletCharacter.LFunction χ)
+@DirichletCharacter.differentiableAt_LFunction : ∀ {N : ℕ} [inst : NeZero N] (χ : DirichletCharacter ℂ N) (s : ℂ),
+  s ≠ 1 ∨ χ ≠ 1 → DifferentiableAt ℂ (DirichletCharacter.LFunction χ) s
+@DirichletCharacter.LFunction_apply_one_ne_zero : ∀ {N : ℕ} {χ : DirichletCharacter ℂ N} [inst : NeZero N],
+  χ ≠ 1 → DirichletCharacter.LFunction χ 1 ≠ 0
+def DirichletCharacter.LFunction : {N : ℕ} → [NeZero N] → DirichletCharacter ℂ N → ℂ → ℂ :=
+fun {N} [NeZero N] χ s => ZMod.LFunction (⇑χ) s
+def DirichletCharacter.IsPrimitive.{u_1} : {R : Type u_1} →
+  [inst : CommMonoidWithZero R] → {n : ℕ} → DirichletCharacter R n → Prop :=
+fun {R} [CommMonoidWithZero R] {n} χ => χ.conductor = n
+@[reducible] def DirichletCharacter.{u_1} : (R : Type u_1) → [CommMonoidWithZero R] → ℕ → Type (max 0 u_1) :=
+fun R [CommMonoidWithZero R] n => MulChar (ZMod n) R
+'SeatD003.hypotheses_satisfiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeatD003.LFunction_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeatD003.one_mod3_not_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeatD003.not_Mut_LSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=6914344 wall=33s
+[2026-10-26T09:21:04Z] rc=0

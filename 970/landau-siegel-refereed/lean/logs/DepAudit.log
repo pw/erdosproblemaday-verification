@@ -1,0 +1,6 @@
+[2026-10-26T09:23:19Z] lean SeatD003/DepAudit.lean -o out/SeatD003/DepAudit.olean LEAN_PATH=/tmp/oaimath/003/seats/D_work/bridge/out:/tmp/erdos0300/lean/mathlib4/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Cli/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/Qq/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/aesop/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/batteries/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/importGraph/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/plausible/.lake/build/lib/lean:/tmp/erdos0300/lean/mathlib4/.lake/packages/proofwidgets/.lake/build/lib/lean
+SeatD003/DepAudit.lean:58:37: warning: `Lean.levelZero` has been deprecated: Use `Lean.Level.zero` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.levelZero` to `Level.zero x`).
+RSSCAP done rc=0 peak_kb=6878184 wall=24s
+[2026-10-26T09:23:43Z] rc=0

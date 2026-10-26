@@ -1,0 +1,67 @@
+@@ -34,7 +34,7 @@
+ \numberwithin{equation}{section}
+ \title{Uniform exclusion of Landau--Siegel zeros}
+ \author{OpenAI (with community contributions)}
+-\date{October 18, 2026}
++\date{October 19, 2026}
+ \subjclass[2020]{Primary 11M20; Secondary 11J81, 14L17.}
+ \keywords{Dirichlet L-functions, Landau--Siegel zeros, polynomial interpolation,
+ interpolation determinants}
+@@ -181,7 +181,17 @@ \subsection*{Interpolation and arithmetic context}
+ field. There the interpolation determinant is replaced by the explicit
+ Gram determinant of a family of evaluation vectors, whose archimedean
+ size and $p$-adic valuations at primes with $\chi(p)=-1$ are compared
+-directly.
++directly. A sketch of Green's argument is given by Tao \cite{TaoBlog},
++who also records an observation of A.~Pascadi: adjoining further square
++roots in biquadratic arguments of the type given here brings the
++coefficient of $\log x$ in the resulting upper bound for
++$\sum_{p\le x,\ \chi(p)=-1}(\log p)/p$ arbitrarily close to $1/2$.
++Further variants are due to Pescador \cite{Pescador} and Barreto
++\cite{Barreto}, who sharpen this bound to
++$(1/2)\log x+(1/4)\log q+\log\log x+O(1)$. Barreto's three-page
++argument establishes the nonsingularity of the relevant matrix using a
++Wronskian in place of resultants, and deduces
++$(1-\beta)\log q\ge1-O(\log\log q/\log q)$.
+ \end{remark*}
+ 
+ All logarithms are natural. Constants
+@@ -740,6 +750,10 @@ \section{Completion of the proof}\label{sec:conclusion}
+ 
+ \begin{thebibliography}{99}
+ \raggedright
++\bibitem{Barreto}
++K.~Barreto, \emph{An elementary proof of the non-existence of
++Landau--Siegel zeros}, manuscript (2026), posted at
++\url{https://x.com/acerfur/status/2112239827077026128}.
+ \bibitem{Banks}
+ W.~D.~Banks, \emph{On the OpenAI proof that Landau--Siegel zeros do not exist},
+ preprint (2026).
+@@ -767,7 +781,7 @@ \section{Completion of the proof}\label{sec:conclusion}
+ \href{https://doi.org/10.1016/j.exmath.2018.06.003}{doi:10.1016/j.exmath.2018.06.003}.
+ \bibitem{Green}
+ B.~Green, \emph{On Landau--Siegel zeros}, preprint (2026).
+-\href{https://hexagonmath.org/2610.00311v1}{hexagon:2610.00311v1}.
++\href{https://hexagonmath.org/2610.00311}{hexagon:2610.00311}.
+ \bibitem{HeathBrown}
+ D.~R.~Heath-Brown, \emph{Zero-free regions for Dirichlet $L$-functions,
+ and the least prime in an arithmetic progression},
+@@ -799,6 +813,8 @@ \section{Completion of the proof}\label{sec:conclusion}
+ A.~Page, \emph{On the number of primes in an arithmetic progression},
+ Proc. London Math. Soc. (2) \textbf{39} (1935), 116--141.
+ \href{https://doi.org/10.1112/plms/s2-39.1.116}{doi:10.1112/plms/s2-39.1.116}.
++\bibitem{Pescador}
++J.~Pescador, private communication (2026).
+ \bibitem{Philippon}
+ P.~Philippon, \emph{Lemmes de z\'eros dans les groupes alg\'ebriques commutatifs},
+ Bull. Soc. Math. France \textbf{114} (1986), 355--383;
+@@ -809,5 +825,9 @@ \section{Completion of the proof}\label{sec:conclusion}
+ C.~L.~Siegel, \emph{\"Uber die Classenzahl quadratischer Zahlk\"orper},
+ Acta Arith. \textbf{1} (1935), 83--86.
+ \href{https://doi.org/10.4064/aa-1-1-83-86}{doi:10.4064/aa-1-1-83-86}.
++\bibitem{TaoBlog}
++T.~Tao, \emph{A sketch of the proof of non-existence of Siegel zeroes},
++blog post, \emph{What's new}, October 19, 2026.
++\url{https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/}.
+ \end{thebibliography}
+ \end{document}
