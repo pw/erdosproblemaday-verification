@@ -1,0 +1,16 @@
+<!-- Saved verbatim-in-substance by the erdos seat (2026-10-29) from the referee seat's final message; the harness blocked the seat's own write. Full text of sections 1–8 as returned. -->
+# Referee report: claimed F(5) ≥ 1514 (Erdős #531, reader submission 8a7svk)
+
+**VERDICT: HOLDS.** Three checkers written from scratch (chkB.c: C recursion, descending order, direct colour test of each new sum; chkA.py: Python big-integer bitsets, AND of (M_c >> s); chkD.c: one-defect census) all report 0 monochromatic 5-sets on k5_w1513.txt (sha256 b620e7c0…6cc1, = repo main and pinned d6009ad).
+
+- Convention: live statement "a set A of size k such that all subset sums … are monochromatic"; Erdős–Spencer 1989 "P(S) ⊂ [n]"; BENTW 2017 "all the sums … contained in [n]". ⇒ distinct elements, sum(A) ≤ N. Off-by-one: clean colouring of [1513] restricts to every N ≤ 1513 ⇒ F(5) ≥ 1514. (Under a multiset convention the witness would fail at once, e.g. 15,30,45,60,75 all colour 1 — not the problem's convention.)
+- Controls: all-zero colourings, eligible counts by partition count and brute force (N = 15,16,20,30,40,50,60,100,200: 1,2,19,408,2602,9952,28560,480512,18572899) matched by chkB (all) and chkA (those run); 7 mixed random colourings N=60/70 = independent brute force colour by colour; 3 random [1513]: chkA = chkB at 523/612/555.
+- Flips: chkD's prediction rule = brute force on 6 colourings (K = 3,4,5), 0 mismatches. On the witness 1495 of 1513 flips create ≥1 monochromatic 5-set (min 1, median 7, max 31 at p=367); 18 leave it valid: {25, 1280, 1305, 1321, 1331, 1384, 1443, 1461, 1462, 1469, 1473, 1477, 1484, 1487, 1489, 1502, 1505, 1511}. chkB on actual flipped files agrees on positions 1–30 and 25,367,757,1000,1200,1280,1500,1511,1512,1513.
+- Hand checks: flip 1513 → A = {72,100,403,452,486}, sum 1513 = N (boundary case), 30 sums colour 1, 1513 colour 0. Flip 367 → A = {12,51,97,109,195} with coincident sums (12+97=109, …), all colour 1 except 367.
+- Extension: either colour at 1514 creates exactly one monochromatic set ({82,285,348,372,427} / {182,187,206,376,563}, both sum 1514).
+- Calibration: own SAT encoding + CaDiCaL: (8,2) SAT, (9,2) UNSAT, (53,3) SAT, (54,3) UNSAT ⇒ F(2)=9, F(3)=54 (UNSAT proofs not checked; calibration only).
+- File: 1514 bytes, 1513 × {0,1} + newline, 755 zeros / 758 ones, no CR/BOM.
+- Novelty: Erdős–Spencer 1989 (read), BENTW 2017 (read; F(5) ≥ 10), Balogh–Lavrov–Shakan–Wagner EJC 26 (2019) P2.22 (read; no small values); Taylor 1981 NOT read (403); OEIS (4 queries) nothing; erdosproblems.com/531 0 comments, 0 proof claims; trivial bound F(5) ≥ 16. No explicit F(5) bound beyond these found (a search, not proof of absence).
+- Objections: none affecting correctness. README imprecision: "flipping one colour yields 7" names no position (118 positions give 7, 18 give 0). Scope: a finite data point; does not move the asymptotic gap.
+- Process note: its own 1513-run flip census was too slow on the loaded box and was replaced by chkD; its `pkill -f` matched and killed its own shell; no other seat's processes touched.
+Sources: referee/src/ (chkB.c d229b5a7, chkA.py 29d0fef2, chkD.c b7660017, cnf.py 9b3d8e01, eligible.py 6b25337d, brute_random.py e7f3d177, brute_flips2.py ac1f94e7); flip table referee/defect_census.txt.

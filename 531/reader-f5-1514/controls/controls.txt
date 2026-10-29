@@ -1,0 +1,62 @@
+== 1. all-zero colourings: grower / direct / direct-count / partition DP must all agree
+N=40 grower=2602 direct=2602 direct_count=2602 dp=2602 AGREE
+N=80 grower=142704 direct=142704 direct_count=142704 dp=142704 AGREE
+N=120 grower=1274795 direct=1274795 direct_count=1274795 dp=1274795 AGREE
+== 1b. eligible 5-sets at N=1513 by DP (and direct count)
+dp 537964268950
+== 2. random colourings: grower vs direct mono-5 counts
+seed=1 N=1513 p=0.5 grower=1036 direct=1036 AGREE
+seed=1 N=1513 p=0.45 grower=10177 direct=10177 AGREE
+seed=1 N=600 p=0.3 grower=58445 direct=58445 AGREE
+seed=2 N=1513 p=0.5 grower=510 direct=510 AGREE
+seed=2 N=1513 p=0.45 grower=8351 direct=8351 AGREE
+seed=2 N=600 p=0.3 grower=104733 direct=104733 AGREE
+seed=3 N=1513 p=0.5 grower=762 direct=762 AGREE
+seed=3 N=1513 p=0.45 grower=1840 direct=1840 AGREE
+seed=3 N=600 p=0.3 grower=157379 direct=157379 AGREE
+seed=4 N=1513 p=0.5 grower=743 direct=743 AGREE
+seed=4 N=1513 p=0.45 grower=6359 direct=6359 AGREE
+seed=4 N=600 p=0.3 grower=63306 direct=63306 AGREE
+seed=5 N=1513 p=0.5 grower=1164 direct=1164 AGREE
+seed=5 N=1513 p=0.45 grower=1723 direct=1723 AGREE
+seed=5 N=600 p=0.3 grower=65877 direct=65877 AGREE
+seed=6 N=1513 p=0.5 grower=552 direct=552 AGREE
+seed=6 N=1513 p=0.45 grower=2648 direct=2648 AGREE
+seed=6 N=600 p=0.3 grower=54699 direct=54699 AGREE
+seed=7 N=1513 p=0.5 grower=1680 direct=1680 AGREE
+seed=7 N=1513 p=0.45 grower=893 direct=893 AGREE
+seed=7 N=600 p=0.3 grower=14703 direct=14703 AGREE
+seed=8 N=1513 p=0.5 grower=502 direct=502 AGREE
+seed=8 N=1513 p=0.45 grower=5685 direct=5685 AGREE
+seed=8 N=600 p=0.3 grower=351443 direct=351443 AGREE
+seed=9 N=1513 p=0.5 grower=549 direct=549 AGREE
+seed=9 N=1513 p=0.45 grower=5455 direct=5455 AGREE
+seed=9 N=600 p=0.3 grower=24883 direct=24883 AGREE
+seed=10 N=1513 p=0.5 grower=585 direct=585 AGREE
+seed=10 N=1513 p=0.45 grower=10520 direct=10520 AGREE
+seed=10 N=600 p=0.3 grower=151605 direct=151605 AGREE
+seed=11 N=1513 p=0.5 grower=644 direct=644 AGREE
+seed=11 N=1513 p=0.45 grower=7576 direct=7576 AGREE
+seed=11 N=600 p=0.3 grower=104190 direct=104190 AGREE
+seed=12 N=1513 p=0.5 grower=572 direct=572 AGREE
+seed=12 N=1513 p=0.45 grower=4585 direct=4585 AGREE
+seed=12 N=600 p=0.3 grower=206856 direct=206856 AGREE
+== 3. third instrument (python grower fs_extend.py, set-based) on the witness truncated to N=500 and on random [500]
+  k=5: mono colour0=0 colour1=0
+RESULT PROPER (no monochromatic K-set)
+  j=5: mono colour0=0 colour1=0
+RESULT PROPER (no monochromatic 5-set)
+RESULT PROPER (no monochromatic 5-set)
+  k=5: mono colour0=0 colour1=7  e.g. (2, 60, 75, 135, 208)
+RESULT NOT PROPER: 7 monochromatic K-sets
+  j=5: mono colour0=0 colour1=7  e.g. colour1 {2,60,75,135,208}
+N=500 mono5 colour0=0 colour1=7  e.g. {2,60,75,135,208}
+== 4. the wall at 1514
+colour(1514)=0: RESULT NOT PROPER: 1 monochromatic 5-sets | N=1514 mono5 colour0=1 colour1=0  e.g. {82,285,348,372,427}
+colour(1514)=1: RESULT NOT PROPER: 1 monochromatic 5-sets | N=1514 mono5 colour0=0 colour1=1  e.g. {182,187,206,376,563}
+== 5. known small values through the grower
+RESULT PROPER (no monochromatic 2-set)
+RESULT PROPER (no monochromatic 3-set)
+k3 [54] colour(54)=0: RESULT NOT PROPER: 7 monochromatic 3-sets
+k3 [54] colour(54)=1: RESULT NOT PROPER: 6 monochromatic 3-sets
+colourings of [9] with no mono 2-set: 0 (F(2)=9 needs 0)
