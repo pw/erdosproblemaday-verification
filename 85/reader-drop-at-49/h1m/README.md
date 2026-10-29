@@ -88,6 +88,31 @@ for the iff; referee `coverage_e2e.py`: 11/11 graphs from whole-case models land
 - For scale: the authors' own orbit CNFs (12-orbit sample, our build of their emitter, hash-identical) took 142-13,660 s
   each under CaDiCaL (one census orbit UNKNOWN at 4 h under Kissat).
 
+## 6. The campaign (RAN 2026-10-25 → 10-27, Patrick's go; added 2026-10-28)
+- Kissat pass: 2026-10-25 09:02Z → 10-26 05:49Z, ONE pass (no retries needed), 13,351/13,351 UNSAT, 206.9 CPU-h,
+  median 43 s, max 1,347.7 s per cell (cap 3,600 s). `runs/campaign_kissat.tsv`.
+- DRAT pass: 2026-10-26 05:49Z → 10-27 09:55Z, ONE pass, 13,351/13,351 `s UNSATISFIABLE` + `s VERIFIED`, 280.1 h incl.
+  checks, median 37 s, max 4,926 s per cell; binary DRAT proofs 0.97–354 MB, 253.7 GB in all. **The proofs were
+  checked, then DELETED** (`campaign.sh` `rm -f $cnf $pf`; nothing else could hold 254 GB); each verdict now rests on its
+  log row. Reproduce any cell bit for bit: `h1mcell.py 7 <j> 1 kissat --pairsb --slots --ph --edgeswap --M <M> --emit c.cnf`
+  → sha256[:16] = the row's hash; `cadical -q --binary=true c.cnf p.drat` → byte count = the row's proof size;
+  `drat-trim c.cnf p.drat` → `s VERIFIED`. CaDiCaL is deterministic; 8 random cells re-run by the referee and 30
+  re-emitted by flipcheck all matched.
+- Tools: CaDiCaL 1.7.3 (/usr/bin/cadical) · drat-trim upstream 2e3b2dc (~/.local/src/drat-trim) · Kissat 4.0.4 ·
+  pysat 1.9.dev7 · Python 3.12.3. h1mcell.py unchanged since 2026-10-19 22:12Z (before the campaign).
+- sha256: classes_all.tsv dfbf69ca7215cfd02cf5bc3fee6fa0d4d85226f9a944f8929ea57fbb208e0ddd ·
+  runs/campaign_kissat.tsv 111656b5b3a51620829df84fff3ff6426b6e63b9bb35eaecfcdedfd398b40b2b ·
+  runs/campaign_drat.tsv b2d5347b66eefccd2fda7328c38bc53aac84ab8216fc0695ae556e9c425ada54
+- The Kissat pass did not record its CNF hashes. "Again under CaDiCaL" means the same formula because the encoder,
+  fsenc.py and pysat's card.py were all unmodified across both passes and emission is deterministic (identical under
+  PYTHONHASHSEED 1, 2, 99; referee). Next time hash in Kissat mode too.
+- What this certifies: §5's paragraph "What DRAT certifies" still holds — the 13,351 FILES are UNSAT. That they are
+  the right files rests on the hand reduction, the encoder and the referee reports.
+- Checks after the run: `flipcheck/` (ALL PASS: key sets = classes in both passes, 13,351 distinct CNFs, 30/30 re-emit,
+  drat-trim rejects the real proof vs the SAT drop-C4 formula / a cut proof / an empty-clause-only proof / `1 2 0`+`0`,
+  `-t 1` prints TIMEOUT). Hostile referee `referee_flip/REPORT.md`: HOLDS WITH FIXES (this section is fix 3; fixes 1–2
+  are on the public page; fix 4 = campaign.sh header comment, corrected).
+
 ## 5. Cost of closing H1 independently (estimate written BEFORE any campaign)
 Sample means, n = 26 Kissat cells (5–6 per case; nice 19, load 14–18, wall time incl. ~3 s encoding): per case
 50.1 / 62.6 / 45.7 / 41.3 / 67.5 s (j = 0..4), max 166.9 s; class-weighted ≈ **190 Kissat CPU-hours** for all 13,351.
@@ -100,7 +125,7 @@ clauses' soundness, the reduction, Lemma D, M1–M4, slots/PH, the enumeration o
 here and in h1k/, code review, and the two referee reports (h1k/referee*, h1m/referee).
 On this box after the Lean replay ends (~05-08Z 10-20), ~10 free cores at nice 19 ⇒ ~20 h (Kissat) / ~30 h (DRAT)
 before tail reruns. That is a SAT campaign (and #552's cadicals are running), so it is NOT started from a cron tick:
-Patrick's call. Runner (ready, resumable, not launched): `campaign.sh` — done ⟺ exact UNSAT / UNSATISFIABLE+VERIFIED,
+Patrick's call. [2026-10-28: Patrick said go on 10-25; it RAN — see §6.] Runner (resumable): `campaign.sh` — done ⟺ exact UNSAT / UNSATISFIABLE+VERIFIED,
 any SAT writes runs/ALARM_SAT and halts dispatch; `tally.py <mode>` exits 0 only when all 13,351 keys are done. The 1-cell
 test caught an awk NR==FNR bug (fresh campaign would have done nothing) and the referee caught a done-test bug
 (a drat-trim timeout would have counted as done); both fixed and mutation-tested (`/tmp/h1m_rt` recipe in the seat log).

@@ -1,0 +1,11 @@
+C2 re-run by hand, 2026-10-28 ~09:2xZ (run 1 of flipcheck.py called `kissat` by bare name; it is not on PATH, so its
+SAT probe printed nothing and C2 FAILED for that reason only; drat-trim had already printed `s NOT VERIFIED`).
+Cell j=0 M=0,0,0,0,2,2,0,0,0,0,2,0,2,2,0,0,2,0,0,0,0,0,0,0, flags --pairsb --slots --ph --edgeswap
+  full formula   p cnf 33613 281134   cadical --binary=true -> s UNSATISFIABLE (proof p.drat)
+  drop-C4        p cnf 33613 74218
+  kissat (~/MathDyad/tools/kissat/build/kissat -q) on drop-C4 -> s SATISFIABLE
+  h1mcell.py 7 0 600 kissat <flags> --drop-c4 --M ... -> SAT  recheck: 0 structural violations [], max codegree 4,
+      lex violations 0, PH violations 0, pair-perm lex violations 0/7
+  drat-trim drop-C4.cnf p.drat -t 3600 -> s NOT VERIFIED      (rejected, as it must be: the formula is satisfiable)
+  drat-trim full.cnf    p.drat -t 3600 -> s VERIFIED  (rc 0, 6.4 s; 42,653 of 191,339 lemmas in core)
+     note: drat-trim writes "\rs VERIFIED"; a bare `grep '^s '` misses it, which is why campaign.sh pipes through tr -d '\r'.

@@ -1,0 +1,3 @@
+RESULT j=0 |Stab|=8 mut=None: models 6, raw-already-ok 0, orbits WITH rep 6, orbits with NO rep 0  (3 s)
+RESULT j=0 |Stab|=8 mut=pairflip: models 6, raw-already-ok 0, orbits WITH rep 0, orbits with NO rep 6  (10 s)
+RESULT j=0 |Stab|=8 mut=invar: models 6, raw-already-ok 0, orbits WITH rep 0, orbits with NO rep 6  (10 s)

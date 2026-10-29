@@ -1,0 +1,14 @@
+PASS A1 classes_all has 13,351 distinct keys: 13351
+PASS A2 DRAT-verified key set == classes: 13351 common, 0 missing, 0 stray
+PASS A3 Kissat-UNSAT key set == classes: 13351 common, 0 missing, 0 stray
+PASS A4 distinct CNF hashes among DRAT-verified cells: 13351 distinct of 13351
+PASS A5 no VERIFIED row with an empty proof file: 0
+PASS A6 no SAT row in either pass: 0
+PASS B  30 re-emitted cells (seed 20261028) hash-equal the DRAT pass's CNFs: 30/30
+PASS C1 positive: cadical UNSAT + drat-trim VERIFIED on a fresh cell: 0 s UNSATISFIABLE / s VERIFIED
+PASS C2 same proof vs the satisfiable drop-C4 formula is rejected: kissat s SATISFIABLE / drat-trim s NOT VERIFIED
+PASS C3 text proof verifies whole, rejected with its last 25% removed: whole s VERIFIED / cut s NOT VERIFIED (605457 lines)
+PASS C4 empty-clause-only proof vs the real CNF is rejected: s NOT VERIFIED
+PASS C5 SAT formula '1 2 0' + proof '0' is rejected in DRAT mode: s NOT VERIFIED
+PASS C6 -t 1 on a 90th-percentile proof does not print 's VERIFIED': 's TIMEOUT'; proof 36156753 bytes; tail: s TIMEOUT
+RESULT: ALL PASS

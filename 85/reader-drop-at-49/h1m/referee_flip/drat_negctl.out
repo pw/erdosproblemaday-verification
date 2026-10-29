@@ -1,0 +1,12 @@
+PASS N1 twin text  (valid RUP lemma, UNSAT formula): s VERIFIED (want VERIFIED)
+PASS N1 twin bin   (valid RUP lemma, UNSAT formula): s VERIFIED (want VERIFIED)
+PASS N1 text: invalid lemma '-2' (not RUP, not RAT on -2) on SAT formula: s NOT VERIFIED (want not VERIFIED)
+PASS N1 bin : invalid lemma '-2' (not RUP, not RAT on -2) on SAT formula: s NOT VERIFIED (want not VERIFIED)
+cadical A: s UNSATISFIABLE 973798 bytes
+proof A: 98947 records, 10853 additions, last record ('a', [])
+PASS N2 twin: additions in original order (deletions dropped): s VERIFIED (want VERIFIED)
+PASS N2: same additions in REVERSED order: s NOT VERIFIED (want not VERIFIED)
+PASS N3 twin: proof A vs CNF A: s VERIFIED (want VERIFIED)
+PASS N3: proof A vs CNF B (a different UNSAT cell): s NOT VERIFIED (want not VERIFIED)
+INFO N4 header count cut to 60% (167602 of 279338): s NOT VERIFIED; drat-trim says: c parsing input formula with 31137 variables and 167602 clauses; c WARNING: deleted clause on proof line 167604 does not occur: [0] -20473 -1 31 0; c WARNING: deleted clause on proof line 167606 does not occur: [0] -20473 1 31 20474 0; c WARNING: deleted clause on proof line 167608 does not occur: [
+RESULT: ALL PASS

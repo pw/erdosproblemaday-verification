@@ -3,7 +3,7 @@
 Submission: Robb Walters with AI co-authors (Lean Genius / 2AM Logic), Zenodo 23325806, repository
 lean-genius @ 2029149d7e42. Claim: every 49-vertex graph with minimum degree ≥ 7 contains a 4-cycle (f(49) ≤ 7), with
 explicit graphs for the lower sides — so f(48) = 8 > f(49) = 7, equivalently R(C₄, K₁,₄₂) = 49 (Boza's table left
-{49, 50}). Verdict: PARTIAL (2026-10-20) (see the review on /submission/jhpvtq).
+{49, 50}). Verdict: PARTIAL (2026-10-20) → **VERIFIED (2026-10-29)**, after our H1 campaign closed all 13,351 cells (item 8, h1m/README.md §6); see the review on /submission/jhpvtq.
 
 Everything here is OUR code and OUR output. Nothing in fs/ or h9/ reads the authors' Lean, emitters, CNFs or
 certificates; h1sample/ and h7check/ deliberately run THEIR emitters on OUR build and compare to their receipts.
@@ -17,7 +17,7 @@ certificates; h1sample/ and h7check/ deliberately run THEIR emitters on OUR buil
    R1/R1b (every vertex ≠ x has EXACTLY one neighbour in N(x) for each high x — the 48 two-walks saturate) + lex-leader
    symmetry breaking on interchangeable lows (+ high-permutation SB for H7 t = 0). Table: fs/RESULTS.md. Every H3, H5,
    H7 and H9 cell UNSAT under Kissat 4.0.4; CaDiCaL 1.7.3 DRAT proofs checked by drat-trim (19/19 + 20/20).
-   H1 is not re-proved from scratch here: see 7, 8 and the H1 rows of "Not checked".
+   H1 is re-proved by its own route (item 8, the miss-matrix cube; all 13,351 cells DRAT-checked 2026-10-27), not by this encoder.
 4. **Their artefacts on our build**: H7 t = 0 — 28 base cubes = inputs.json, 28 covers = receipts + UNSAT, leaves
    (h7check/leaves.tsv); H1 — 12 random orbits (seed 20261019, h1sample/sample.json) emitted by their emitter: hash =
    receipt, UNSAT under the other solver family (h1sample/results.tsv). INSTRUMENT_NOTE.txt: `lean --run` prints 340
@@ -37,7 +37,7 @@ certificates; h1sample/ and h7check/ deliberately run THEIR emitters on OUR buil
    which the referee matched ROW BY ROW to the submission's kept H1 inventory (their highBranchMissCount = M, their
    capacity filter = M4; 190 removed rows = the M4 failures). Cell encoder h1mcell.py; random sample 26/26 UNSAT under
    Kissat (19–167 s/cell); no-C4 and mutation controls in runs/ and referee/. Hostile referee HOLDS WITH FIXES (all
-   applied). The full 13,351-cell pass has NOT been run: ≈ 200–255 Kissat CPU-h with the tail measured (h1m/tail/: the authors' 25 hardest orbits, 25/25 UNSAT, 60–723 s), a box-day of our machine; pending a decision (campaign.sh + tally.py; ~190 Kissat CPU-h by the sample mean).
+   applied). **The full 13,351-cell pass RAN (2026-10-25 → 10-27, Patrick's go):** all 13,351 UNSAT under Kissat (206.9 CPU-h, one pass) and all 13,351 again under CaDiCaL with binary DRAT proofs verified by drat-trim (280.1 h, one pass); proofs (253.7 GB) checked, then deleted; every cell's row, formula hash and proof size in h1m/runs/campaign_{kissat,drat}.tsv; reproduce recipe, tools and file hashes in h1m/README.md §6. Post-run checks h1m/flipcheck/ (ALL PASS) and hostile referee h1m/referee_flip/REPORT.md (HOLDS WITH FIXES, all applied). With item 3, every stratum is now re-proved from scratch with checked proofs. (The 10-20 text said this pass had not been run; it is superseded.)
 
 9. **T1Rep0Certificate, checked outside Lean, and the capstones over a one-axiom stub** (`t1rep0/`, README there).
    EmitT1Rep0.lean renders `orderFortyNineGeneratedH7SatCnf (representativeMasks t r)` as DIMACS and checks at run time
@@ -58,6 +58,8 @@ certificates; h1sample/ and h7check/ deliberately run THEIR emitters on OUR buil
    `hOne` (H1) and `hSeven` (H7 t = 0), as the authors state. Hostile referee: t1rep0/referee/REPORT.md (HOLDS WITH FIXES,
    all applied).
 
+10. **v1.1's `InventoryNonzero` (gap 2), built** (`v11nonzero/`, README there): the module and its 190-module cone at tag erdos85-paper-v1.1, all rc 0; its theorems use only propext / Quot.sound / Classical.choice. So `hOne` reduces to bare unsatisfiability of the inventory's formulas.
+
 ## Controls
 sbtest/sbtest2 (brute-force SB soundness + mutations) · er7ctl (R1/R1b on ER(7), secant mutation UNSAT) · erqctl
 (ER(3) exhaustive) · erdescend_hsb (ER(5)/ER(7) lex-descent at production scale) · h1norm_erctl · h9 mutctl · DRAT
@@ -71,4 +73,4 @@ Lower sides: `python3 lower/check_witness.py`. A stratum cell: `python3 fs/fsrun
 `python3 replay/drive2.py <proofs> <out> 6`.
 
 ## Not checked
-The H1 LRAT as a whole (~28 TB, not repeatable on one box), the bank proofs themselves, cake_lpr itself, our own H1 encoding over all 13,351 cells (8), and the T1Rep0Certificate module inside Lean on our machine (checked outside Lean instead, 9).
+The H1 LRAT as a whole (~28 TB, not repeatable on one box), the bank proofs themselves, cake_lpr itself, and the T1Rep0Certificate module inside Lean on our machine (checked outside Lean instead, 9).

@@ -1,0 +1,6 @@
+full: ['pair-level SB: 127 permutations, 218626 clauses'] k=7 case j=4 e=[2, 2, 2, 2, 2, 2, 2, 2] M=000022000022220022000000 mcard=24 vars=600 clauses=280994 c4=0 derived=24 sb=16 slots=528 ph=280 edgeswap=2864 cov=0 mu=- mucl=0 trans_sb=16 DROP-C4 CONTROL
+j=4 M=0,0,0,0,2,2,0,0,0,0,2,2,2,2,0,0,2,2,0,0,0,0,0,0 |Stab(M)|=128 |B|=8x8x8x8x8x8x8x8 full clauses=280994 mut=pairflip
+model 0: raw x satisfies full: False; orbit has a member satisfying ALL SB+base: False (sigmas tried 128/128)
+model 1: raw x satisfies full: False; orbit has a member satisfying ALL SB+base: False (sigmas tried 128/128)
+model 2: raw x satisfies full: False; orbit has a member satisfying ALL SB+base: False (sigmas tried 128/128)
+RESULT j=4 |Stab|=128 mut=pairflip: models 3, raw-already-ok 0, orbits WITH rep 0, orbits with NO rep 3  (143 s)

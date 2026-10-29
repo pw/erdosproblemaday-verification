@@ -6,7 +6,8 @@
 # mode); everything else (UNKNOWN, none, s TIMEOUT, crashes) is retried on the next run (referee obj. 2). Any SAT result
 # writes runs/ALARM_SAT and stops dispatch (a SAT cell would be a counterexample: recheck it by hand). Tally:
 # `python3 tally.py <mode>` exits 0 only if all 13,351 keys have a done row.
-# Every child: nice 19, ulimit -v 4 GB. Stop: kill the xargs PID printed in runs/campaign_<mode>.pid (NOT pkill -f).
+# Every child: nice 19; the encoder and CaDiCaL run under ulimit -v 4 GB, drat-trim runs WITHOUT ulimit (corrected 2026-10-28,
+# referee_flip fix 4; harmless for soundness: a memory failure never prints 's VERIFIED'). Stop: kill the xargs PID printed in runs/campaign_<mode>.pid (NOT pkill -f).
 cd ~/MathDyad/erdos85/h1m
 MODE=$1; P=${2:-4}; CAP=${3:-3600}
 CLASSES=${CLASSES:-classes_all.tsv}; OUT=${OUT:-runs/campaign_$MODE.tsv}; touch $OUT

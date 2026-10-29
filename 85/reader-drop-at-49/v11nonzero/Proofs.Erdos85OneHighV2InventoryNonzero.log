@@ -1,0 +1,20 @@
+$ /usr/bin/time -f MAXRSS_KB=%M lean -j1 --memory=16000 Proofs/Erdos85OneHighV2InventoryNonzero.lean -o /tmp/erdos85-v11/build/lean/Proofs/Erdos85OneHighV2InventoryNonzero.olean
+Proofs/Erdos85OneHighV2InventoryNonzero.lean:549:17: warning: This simp argument is unused:
+  h₁
+
+Hint: Omit it from the simp argument list.
+  simp only [h₁̵,̵ ̵h̵₂]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Proofs/Erdos85OneHighV2InventoryNonzero.lean:549:21: warning: This simp argument is unused:
+  h₂
+
+Hint: Omit it from the simp argument list.
+  simp only [h₁,̵ ̵h̵₂̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Erdos85.oneHighFamilyV2Clauses_nonzero' depends on axioms: [propext, Quot.sound]
+'Erdos85.oneHighCapacityInventory_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos85.oneHighFamilyV2CheckedUnsat_of_unsat' depends on axioms: [propext, Quot.sound]
+'Erdos85.oneHighCapacityInventory_checked_of_unsat' depends on axioms: [propext, Classical.choice, Quot.sound]
+MAXRSS_KB=6668952
