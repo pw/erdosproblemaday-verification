@@ -1,0 +1,9 @@
+M=30 h=3 K=150: log n=150.4  f(n)=777  f(n)/log n=5.17  max_(k<=K) log u=27.7 vs 2log n=300.7  | random n same size: f=626
+M=30 h=3 K=150: log n=151.1  f(n)=727  f(n)/log n=4.81  max_(k<=K) log u=29.9 vs 2log n=302.1  | random n same size: f=513
+M=40 h=4 K=240: log n=241.4  f(n)=1237  f(n)/log n=5.12  max_(k<=K) log u=48.2 vs 2log n=482.8  | random n same size: f=1118
+M=40 h=4 K=240: log n=240.5  f(n)=1215  f(n)/log n=5.05  max_(k<=K) log u=42.2 vs 2log n=481.1  | random n same size: f=1022
+M=60 h=5 K=360: log n=356.3  f(n)=1952  f(n)/log n=5.48  max_(k<=K) log u=53.4 vs 2log n=712.7  | random n same size: f=1503
+M=60 h=5 K=360: log n=356.8  f(n)=1667  f(n)/log n=4.67  max_(k<=K) log u=58.4 vs 2log n=713.7  | random n same size: f=1605
+APSSV n=M_K-1, K=60: log n=106.5 f(n)=401 f/log n=3.76
+APSSV n=M_K-1, K=100: log n=177.8 f(n)=882 f/log n=4.96
+APSSV n=M_K-1, K=150: log n=278.3 f(n)=1552 f/log n=5.58

@@ -1,0 +1,13 @@
+/home/exedev/MathDyad/erdos684/bridge/mutants/M2_ub_weak.lean:49:46: error: Application type mismatch: The argument
+  hk
+has type
+  n < smallPrimePart n k
+but is expected to have type
+  n ^ 2 < Erdos684.uPart n k
+in the application
+  not_le.mpr hk
+'Bridge684.erdos_684_unbounded_fc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge684.erdos_684_rate_fc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bridge684.fThr_ne_top_eventually' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Bridge684.unbounded_finite' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Bridge684.smallPrimePart_eq_uPart' depends on axioms: [propext, Classical.choice, Quot.sound]

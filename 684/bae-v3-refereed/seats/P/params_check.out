@@ -1,0 +1,19 @@
+== 1. constraints under (67): lambda=1-d, c=(1-2d)b, sigma=(2+d)b, tau=b ==
+   grid violations: 0
+   d=0.1: c/(1+sigma) at b=1,10,100,1e4,1e8 -> 0.25806, 0.36364, 0.37915, 0.38093, 0.38095  (limit (1-2d)/(2+d) = 0.38095)
+   d=0.01: c/(1+sigma) at b=1,10,100,1e4,1e8 -> 0.32558, 0.46445, 0.48515, 0.48754, 0.48756  (limit (1-2d)/(2+d) = 0.48756)
+   d=0.001: c/(1+sigma) at b=1,10,100,1e4,1e8 -> 0.33256, 0.47501, 0.49627, 0.49873, 0.49875  (limit (1-2d)/(2+d) = 0.49875)
+   sup over admissible tuples of c/(1+sigma) < b/(1+2b) < 1/2 ; tau, 3/20 constraints are slack.
+== 2. finite-M sizes: beta=1.0 delta=0.1 -> lambda=0.9 c=0.8 sigma=2.1 tau=1.0 ==
+   M=1e4: A=3.32 K=3.318e+04 h=416 | logC/M=0.907 (c=0.8, heur. 1.439) | binom/M=0.2236 (->0.05) | first/M=0.0901 (->0.1) | overhead/M=1.05e-02 | logRankin/M=0.594 | (39): [logC+log(|F|+1)-logJ]/M = +0.601 (need <0)
+   M=1e5: A=3.77 K=3.769e+05 h=3768 | logC/M=0.918 (c=0.8, heur. 1.380) | binom/M=0.2114 (->0.05) | first/M=0.0816 (->0.1) | overhead/M=3.28e-03 | logRankin/M=0.450 | (39): [logC+log(|F|+1)-logJ]/M = +0.468 (need <0)
+   M=1e6: A=4.21 K=4.209e+06 h=34788 | logC/M=0.926 (c=0.8, heur. 1.340) | binom/M=0.2018 (->0.05) | first/M=0.0893 (->0.1) | overhead/M=1.11e-03 | logRankin/M=0.351 | (39): [logC+log(|F|+1)-logJ]/M = +0.377 (need <0)
+   M=1e7: A=4.64 K=4.638e+07 h=325866 | logC/M=0.933 (c=0.8, heur. 1.310) | binom/M=0.1943 (->0.05) | first/M=0.0836 (->0.1) | overhead/M=3.83e-04 | logRankin/M=0.278 | (39): [logC+log(|F|+1)-logJ]/M = +0.312 (need <0)
+== 2. finite-M sizes: beta=10.0 delta=0.1 -> lambda=0.9 c=8.0 sigma=21.0 tau=10.0 ==
+   M=1e4: A=33.19 K=3.319e+05 h=142 | logC/M=18.612 (c=8.0, heur. 22.683) | binom/M=0.1240 (->0.05) | first/M=0.0886 (->0.1) | overhead/M=5.25e-02 | logRankin/M=4.047 | (39): [logC+log(|F|+1)-logJ]/M = +13.659 (need <0)
+   M=1e5: A=37.69 K=3.769e+06 h=1377 | logC/M=18.001 (c=8.0, heur. 21.342) | binom/M=0.1227 (->0.05) | first/M=0.0889 (->0.1) | overhead/M=1.74e-02 | logRankin/M=3.191 | (39): [logC+log(|F|+1)-logJ]/M = +12.192 (need <0)
+   M=1e6: A=42.09 K=4.209e+07 h=13369 | logC/M=17.579 (c=8.0, heur. 20.416) | binom/M=0.1210 (->0.05) | first/M=0.0896 (->0.1) | overhead/M=5.76e-03 | logRankin/M=2.559 | (39): [logC+log(|F|+1)-logJ]/M = +11.139 (need <0)
+== 3. beta=1.0 delta=0.1: entropy correction c(log20c-1)/loglogM < delta*beta needs loglog M > 14.2  i.e. log10 M > 6.26e+05
+== 3. beta=10.0 delta=0.1: entropy correction c(log20c-1)/loglogM < delta*beta needs loglog M > 32.6  i.e. log10 M > 6.26e+13
+== 3. beta=10.0 delta=0.01: entropy correction c(log20c-1)/loglogM < delta*beta needs loglog M > 419.3  i.e. log10 M > 5.22e+181
+== 3. beta=100.0 delta=0.1: entropy correction c(log20c-1)/loglogM < delta*beta needs loglog M > 51.0  i.e. log10 M > 6.26e+21

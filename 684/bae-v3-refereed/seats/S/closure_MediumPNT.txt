@@ -1,0 +1,388 @@
+closure size 8662 by package {"PrimeNumberTheoremAnd": 14, "mathlib": 8265, "aesop": 132, "batteries": 188, "importGraph": 10, "Qq": 14, "proofwidgets": 13, "LeanSearchClient": 4, "plausible": 13, "LeanArchitect": 9}
+missing modules (core Lean/Std/Init etc.): 221 ['A', 'B', 'Data.Fin.VecNotation', 'Init.Control.EState', 'Init.Control.Option', 'Init.Control.Reader', 'Init.Control.State', 'Init.Control.StateRef', 'Init.Core', 'Init.Data.Array.Basic', 'Init.Data.Fin.Fold', 'Init.Data.Int.Bitwise.Basic', 'Init.Data.List.Sort.Basic', 'Init.Data.Nat', 'Init.Data.Nat.Bitwise.Basic', 'Init.Data.Ord.String', 'Init.Data.Repr', 'Init.Data.String.Defs', 'Init.Data.String.Extra', 'Init.Data.String.Iterator', 'Init.Data.String.Legacy', 'Init.Data.String.Modify', 'Init.Data.String.Substring', 'Init.Data.String.TakeDrop', 'Init.System.IO', 'Init.System.ST', 'Init.Try', 'Lake.Util.Casing', 'Lean', 'Lean.Attributes', 'Lean.Compiler.CSimpAttr', 'Lean.Compiler.IR.CompilerM', 'Lean.Compiler.NoncomputableAttr', 'Lean.CoreM', 'Lean.Data.AssocList', 'Lean.Data.Json.FromToJson.Basic', 'Lean.Data.Lsp.Utf16', 'Lean.Data.NameMap.Basic', 'Lean.Data.Options', 'Lean.Data.PersistentHashMap']
+Aesop.Builder.Basic:46: [\bunsafe\b] | «unsafe» (info : UnsafeRuleInfo)
+Aesop.Builder.Basic:53: [\bunsafe\b] | «unsafe» .. => .unsafe
+Aesop.Builder.Basic:53: [\bunsafe\b] | «unsafe» .. => .unsafe
+Aesop.Builder.Basic:69: [\bunsafe\b] | .unsafe info => .unsafeRule {
+Aesop.Builder.Default:31: [\bunsafe\b] | .unsafe =>
+Aesop.Builder.Default:35: [\bunsafe\b] err "an unsafe" input
+Aesop.Builder.Forward:111: [\bunsafe\b] | .unsafe info => .unsafe info.successProbability
+Aesop.Builder.Forward:111: [\bunsafe\b] | .unsafe info => .unsafe info.successProbability
+Aesop.BuiltinRules:27: [\bunsafe\b] attribute [aesop (rule_sets := [builtin]) unsafe 30% constructors]
+Aesop.BuiltinRules.ApplyHyps:31: [\bunsafe\b] @[aesop unsafe 75% tactic (rule_sets := [builtin])]
+Aesop.Frontend.Command:78: [\bunsafe\b] unsafe some <$> evalConstCheck StatsReport ``StatsReport name
+Aesop.Frontend.RuleExpr:78: [\bunsafe\b] syntax "unsafe" : Aesop.phase
+Aesop.Frontend.RuleExpr:87: [\bunsafe\b] | `(phase| unsafe) => return .«unsafe»
+Aesop.Frontend.RuleExpr:87: [\bunsafe\b] | `(phase| unsafe) => return .«unsafe»
+Aesop.Frontend.RuleExpr:414: [\bunsafe\b] "unsafe rules must specify a success probability"
+Aesop.Frontend.RuleExpr:416: [\bunsafe\b] "unsafe rules must specify a success probability (not an integer penalty)"
+Aesop.Frontend.RuleExpr:435: [\bunsafe\b] "missing phase (norm/safe/unsafe)"
+Aesop.Frontend.RuleExpr:447: [\bunsafe\b] | .unsafe =>
+Aesop.Frontend.RuleExpr:448: [\bunsafe\b] return .unsafe { successProbability := ← c.getSuccessProbability }
+Aesop.Frontend.RuleExpr:532: [\bunsafe\b] | _, some .unsafe, none =>
+Aesop.Frontend.RuleExpr:533: [\bunsafe\b] return (.unsafe, .percent defaultSuccessProbability)
+Aesop.Frontend.RuleExpr:539: [\bunsafe\b] return (.unsafe, prio)
+Aesop.Frontend.RuleExpr:541: [\bunsafe\b] throwError "phase (safe/unsafe/norm) not specified."
+Aesop.Frontend.Tactic:43: [\bunsafe\b] unsafe def elabConfigUnsafe (type : Name) (stx : Syntax) : TermElabM α :=
+Aesop.Frontend.Tactic:52: [\bunsafe\b] unsafe elabConfigUnsafe ``Aesop.Options
+Aesop.Frontend.Tactic:55: [\bunsafe\b] unsafe elabConfigUnsafe ``Simp.Config
+Aesop.Frontend.Tactic:58: [\bunsafe\b] unsafe elabConfigUnsafe ``Simp.ConfigCtx
+Aesop.Rule:105: [\bunsafe\b] | «unsafe» (r : UnsafeRule)
+Aesop.Rule:113: [\bunsafe\b] | «unsafe» r => format r
+Aesop.Rule:117: [\bunsafe\b] | «unsafe» r => r.extra.successProbability
+Aesop.Rule:121: [\bunsafe\b] | «unsafe» _ => false
+Aesop.Rule:125: [\bunsafe\b] | «unsafe» _ => true
+Aesop.Rule:130: [\bunsafe\b] | «unsafe» r => f r
+Aesop.Rule.Forward:21: [\bunsafe\b] | «unsafe» (p : Percent) : ForwardRulePriority
+Aesop.Rule.Forward:29: [\bunsafe\b] | .unsafe .. => none
+Aesop.Rule.Forward:33: [\bunsafe\b] | .unsafe p => some p
+Aesop.Rule.Forward:38: [\bunsafe\b] | .normSafe .., .unsafe .. => .lt
+Aesop.Rule.Forward:39: [\bunsafe\b] | .unsafe .., .normSafe .. => .gt
+Aesop.Rule.Forward:41: [\bunsafe\b] | .unsafe p₁, .unsafe p₂ => compare p₁ p₂ |>.swap
+Aesop.Rule.Forward:41: [\bunsafe\b] | .unsafe p₁, .unsafe p₂ => compare p₁ p₂ |>.swap
+Aesop.Rule.Forward:49: [\bunsafe\b] | .unsafe p => p.toHumanString
+Aesop.Rule.Name:16: [\bunsafe\b] | «unsafe»
+Aesop.Rule.Name:30: [\bunsafe\b] | «unsafe» => "unsafe"
+Aesop.Rule.Name:30: [\bunsafe\b] | «unsafe» => "unsafe"
+Aesop.RuleTac.Tactic:88: [\bsorry\b] throwError "generated proof contains sorry"
+Aesop.RuleTac.Tactic:22: [implemented_by] @[implemented_by tacticMImpl]
+Aesop.RuleTac.Tactic:31: [implemented_by] @[implemented_by ruleTacImpl]
+Aesop.RuleTac.Tactic:41: [implemented_by] @[implemented_by singleRuleTacImpl]
+Aesop.RuleTac.Tactic:110: [implemented_by] @[implemented_by tacGenImpl]
+Aesop.RuleTac.Tactic:23: [\bopaque\b] opaque tacticM (decl : Name) : RuleTac
+Aesop.RuleTac.Tactic:32: [\bopaque\b] opaque ruleTac (decl : Name) : RuleTac
+Aesop.RuleTac.Tactic:42: [\bopaque\b] opaque singleRuleTac (decl : Name) : RuleTac
+Aesop.RuleTac.Tactic:111: [\bopaque\b] opaque tacGen (decl : Name) : RuleTac
+Aesop.RuleTac.Tactic:14: [\bunsafe\b] unsafe def tacticMImpl (decl : Name) : RuleTac :=
+Aesop.RuleTac.Tactic:26: [\bunsafe\b] unsafe def ruleTacImpl (decl : Name) : RuleTac := λ input => do
+Aesop.RuleTac.Tactic:35: [\bunsafe\b] unsafe def singleRuleTacImpl (decl : Name) : RuleTac :=
+Aesop.RuleTac.Tactic:69: [\bunsafe\b] unsafe def tacGenImpl (decl : Name) : RuleTac := λ input => do
+Aesop.Saturate:144: [\bunsafe\b] if m.rule.name.phase == .unsafe || m.anyHyp erasedHyps.contains then
+Aesop.Script.Step:58: [\bsorry\b] let tactic ← .unstructured <$> `(tactic| sorry)
+Aesop.Script.Step:57: [\badmit\b] preGoal.admit (synthetic := false)
+Aesop.Search.Expansion:162: [\bunsafe\b] runRegularRuleCore parentRef (.unsafe rule) matchResult.locations
+Aesop.Search.Expansion:164: [\bunsafe\b] | do addRuleFailure (.unsafe rule) parentRef; return .failed
+Aesop.Search.Expansion:165: [\bunsafe\b] addRapps parentRef (.unsafe rule) output.applications
+Aesop.Search.Expansion:201: [\bunsafe\b] addRapps parentRef (.unsafe r.toUnsafeRule) r.output.applications
+Aesop.Search.Expansion:205: [\bunsafe\b] parentRef.updateForwardState .unsafe
+Aesop.Tree.AddRapp:307: [implemented_by] @[implemented_by addRappUnsafe]
+Aesop.Tree.AddRapp:308: [\bopaque\b] opaque addRapp : AddRapp → TreeM RappRef
+Aesop.Tree.AddRapp:83: [\bunsafe\b] unsafe def copyGoals (assignedMVars : UnorderedArraySet MVarId)
+Aesop.Tree.AddRapp:154: [\bunsafe\b] unsafe def addRappUnsafe (r : AddRapp) : TreeM RappRef := do
+Aesop.Tree.Data:389: [implemented_by] @[implemented_by treeImpl]
+Aesop.Tree.Data:390: [\bopaque\b] opaque tree : TreeSpec
+Aesop.Tree.Data:353: [\bunsafe\b] unsafe inductive GoalUnsafe
+Aesop.Tree.Data:356: [\bunsafe\b] unsafe inductive MVarClusterUnsafe
+Aesop.Tree.Data:359: [\bunsafe\b] unsafe inductive RappUnsafe
+Aesop.Tree.Data:378: [\bunsafe\b] unsafe def treeImpl : TreeSpec where
+Aesop.Tree.Data.ForwardRuleMatches:42: [\bunsafe\b] | .unsafe => { ms with unsafeMatches := ms.unsafeMatches.insert m }
+Aesop.Tree.Data.ForwardRuleMatches:55: [\bunsafe\b] | .unsafe => { ms with unsafeMatches := ms.unsafeMatches.erase m }
+Aesop.Util.EqualUpToIds:145: [implemented_by] @[implemented_by Unsafe.levelsEqualUpToIdsCore]
+Aesop.Util.EqualUpToIds:354: [implemented_by] @[implemented_by Unsafe.exprsEqualUpToIdsCore₁]
+Aesop.Util.EqualUpToIds:357: [implemented_by] @[implemented_by Unsafe.unassignedMVarsEqualUpToIdsCore]
+Aesop.Util.EqualUpToIds:146: [\bopaque\b] opaque levelsEqualUpToIdsCore (l₁ l₂ : Level) : EqualUpToIdsM Bool
+Aesop.Util.EqualUpToIds:355: [\bopaque\b] opaque exprsEqualUpToIdsCore (e₁ e₂ : Expr) : ReaderT GoalContext EqualUpToIdsM Bool
+Aesop.Util.EqualUpToIds:358: [\bopaque\b] opaque unassignedMVarsEqualUpToIdsCore (mvarId₁ mvarId₂ : MVarId) :
+Aesop.Util.EqualUpToIds:116: [\bunsafe\b] unsafe def levelsEqualUpToIdsCore (l₁ l₂ : Level) : EqualUpToIdsM Bool :=
+Aesop.Util.EqualUpToIds:123: [\bunsafe\b] unsafe def levelsEqualUpToIdsCore' : Level → Level → EqualUpToIdsM Bool
+Aesop.Util.EqualUpToIds:161: [\bunsafe\b] unsafe def exprsEqualUpToIdsCore₁ (e₁ e₂ : Expr) :
+Aesop.Util.EqualUpToIds:168: [\bunsafe\b] unsafe def exprsEqualUpToIdsCore₂ (e₁ e₂ : Expr) : ExprsEqualUpToIdsM Bool :=
+Aesop.Util.EqualUpToIds:190: [\bunsafe\b] unsafe def exprsEqualUpToIdsCore₃ : Expr → Expr → ExprsEqualUpToIdsM Bool
+Aesop.Util.EqualUpToIds:277: [\bunsafe\b] unsafe def localDeclsEqualUpToIdsCore (ldecl₁ ldecl₂ : LocalDecl) :
+Aesop.Util.EqualUpToIds:292: [\bunsafe\b] unsafe def localContextsEqualUpToIdsCore (lctx₁ lctx₂ : LocalContext)
+Aesop.Util.EqualUpToIds:319: [\bunsafe\b] unsafe def unassignedMVarsEqualUpToIdsCore (mvarId₁ mvarId₂ : MVarId) :
+Aesop.Util.UnionFind:50: [implemented_by] @[implemented_by findRepUnsafe]
+Aesop.Util.UnionFind:82: [implemented_by] @[implemented_by mergeUnsafe]
+Aesop.Util.UnionFind:51: [\bopaque\b] private opaque findRep : USize → UnionFind α → USize × UnionFind α
+Aesop.Util.UnionFind:83: [\bopaque\b] opaque merge (x y : α) : UnionFind α → UnionFind α
+Aesop.Util.UnionFind:41: [\bunsafe\b] private unsafe def findRepUnsafe (i : USize) (u : UnionFind α) :
+Aesop.Util.UnionFind:60: [\bunsafe\b] private unsafe def mergeUnsafe (x y : α) (u : UnionFind α) :
+Architect.CollectUsed:65: [sorryAx] return (typeUsed, valueUsed \ typeUsed.erase ``sorryAx)
+Architect.Load:26: [\bdebug\.skipKernelTC\b] |>.set `debug.skipKernelTC true
+Architect.Load:16: [\bunsafe\b] unsafe Lean.enableInitializersExecution
+Architect.Output:47: [sorryAx] return { uses := usesLabels.toArray, leanOk := !uses.contains ``sorryAx }
+Architect.Tactic:88: [\badmit\b] g.admit (synthetic := false)
+Batteries.CodeAction.Attr:29: [\bunsafe\b] IO.ofExcept <| unsafe env.evalConstCheck TacticCodeAction opts ``TacticCodeAction n
+Batteries.CodeAction.Attr:34: [\bunsafe\b] IO.ofExcept <| unsafe env.evalConstCheck TacticSeqCodeAction opts ``TacticSeqCodeAction n
+Batteries.CodeAction.Misc:25: [\bsorry\b] | ``Elab.Term.elabSorry, _ => "sorry"
+Batteries.CodeAction.Misc:285: [\bsorry\b] "sorry"
+Batteries.Data.Array.Basic:124: [implemented_by] @[implemented_by scanlMFast]
+Batteries.Data.Array.Basic:223: [implemented_by] @[implemented_by scanrMUnsafe]
+Batteries.Data.Array.Basic:97: [\bunsafe\b] private unsafe def unsafe_sizeFitsUSize (a : Array α) : SizeFitsUSize a :=
+Batteries.Data.Array.Basic:218: [\bunsafe\b] private unsafe def scanrMUnsafe [Monad m] (f : α → β → m β) (init : β) (as : Array α)
+Batteries.Data.ByteArray:124: [implemented_by] @[implemented_by mapMUnsafe]
+Batteries.Data.ByteArray:110: [\bunsafe\b] unsafe def mapMUnsafe [Monad m] (a : ByteArray) (f : UInt8 → m UInt8) : m ByteArray :=
+Batteries.Data.FloatArray:26: [implemented_by] @[implemented_by mapMUnsafe]
+Batteries.Data.FloatArray:12: [\bunsafe\b] unsafe def mapMUnsafe [Monad m] (a : FloatArray) (f : Float → m Float) : m FloatArray :=
+Batteries.Data.MLList.Basic:59: [implemented_by] @[implemented_by specImpl]
+Batteries.Data.MLList.Basic:60: [\bopaque\b] private opaque spec (m) : MLList.Spec m
+Batteries.Data.MLList.Basic:32: [\bunsafe\b] private unsafe inductive MLListImpl (m : Type u → Type u) (α : Type u) : Type u
+Batteries.Data.MLList.Basic:38: [\bunsafe\b] private unsafe def unconsImpl {m : Type u → Type u} [Monad m] :
+Batteries.Data.MLList.Basic:45: [\bunsafe\b] private unsafe def uncons?Impl : MLListImpl m α → Option (Option (α × MLListImpl m α))
+Batteries.Data.MLList.Basic:50: [\bunsafe\b] @[inline] private unsafe def specImpl (m) : Spec m where
+Batteries.Data.Vector.Basic:60: [implemented_by] @[implemented_by scanlMUnsafe]
+Batteries.Data.Vector.Basic:103: [implemented_by] @[implemented_by scanrMUnsafe]
+Batteries.Data.Vector.Basic:55: [\bunsafe\b] private unsafe def scanlMUnsafe [Monad m] (f : β → α → m β) (init : β) (as : Vector α n) :
+Batteries.Data.Vector.Basic:98: [\bunsafe\b] private unsafe def scanrMUnsafe [Monad m] (f : α → β → m β) (init : β) (as : Vector α n) :
+Batteries.Tactic.Alias:140: [\bunsafe\b] safety := if declMods.isUnsafe then .unsafe else .safe
+Batteries.Tactic.Lint.Basic:79: [\bunsafe\b] def getLinter (name declName : Name) : CoreM NamedLinter := unsafe
+Batteries.Tactic.OpenPrivate:138: [\bunsafe\b] safety := if cinfo.isUnsafe then DefinitionSafety.unsafe else DefinitionSafety.safe
+Batteries.Tactic.PrintOpaques:54: [\bopaque\b] logInfo m!"'{constName}' does not use any opaque or partial definitions"
+Batteries.Tactic.PrintOpaques:56: [\bopaque\b] logInfo m!"'{constName}' depends on opaque or partial definitions: {s.opaques.toList}"
+Batteries.Util.Pickle:14: [\bunsafe\b] saveModuleData path key (unsafe unsafeCast x)
+Batteries.Util.Pickle:17: [\bunsafe\b] unsafe def unpickle (α : Type) (path : FilePath) : IO (α × CompactedRegion) := do
+Batteries.Util.Pickle:22: [\bunsafe\b] unsafe def withUnpickle [Monad m] [MonadLiftT IO m] {α β : Type}
+LeanSearchClient.Syntax:157: [sorryAx] mkAppM ``sorryAx #[type, mkConst ``false]
+Mathlib.Algebra.BigOperators.ModEq:19: [\bunsafe\b] induction l <;> aesop (add unsafe ModEq.mul)
+Mathlib.Algebra.BigOperators.ModEq:28: [\bunsafe\b] induction l <;> aesop (add unsafe ModEq.add)
+Mathlib.Algebra.BigOperators.ModEq:112: [\bunsafe\b] induction l <;> aesop (add unsafe ModEq.mul)
+Mathlib.Algebra.BigOperators.ModEq:121: [\bunsafe\b] induction l <;> aesop (add unsafe ModEq.add)
+Mathlib.Algebra.Group.Even:30: [\bunsafe\b] attribute [to_additive (attr := aesop unsafe 5% forward)] IsSquare.exists_mul_self
+Mathlib.Algebra.Group.Even:81: [\bunsafe\b] @[to_additive (attr := aesop unsafe 90%)]
+Mathlib.Algebra.Group.Even:107: [\bunsafe\b] @[to_additive (attr := aesop unsafe 80%) Even.nsmul_right]
+Mathlib.Algebra.Group.Even:111: [\bunsafe\b] @[to_additive (attr := aesop unsafe 90%) Even.nsmul_left]
+Mathlib.Algebra.Group.Even:116: [\bunsafe\b] @[to_additive (attr := aesop unsafe 90%)]
+Mathlib.Algebra.Group.Even:128: [\bunsafe\b] @[to_additive (attr := aesop unsafe 80%) Even.zsmul_right]
+Mathlib.Algebra.Group.Even:134: [\bunsafe\b] @[to_additive (attr := aesop unsafe 90%)]
+Mathlib.Algebra.Group.Even:138: [\bunsafe\b] @[to_additive (attr := simp, aesop unsafe 90%) Even.zsmul_left]
+Mathlib.Algebra.Group.Subgroup.Defs:53: [\bunsafe\b] @[to_additive (attr := aesop unsafe 70% apply)]
+Mathlib.Algebra.Group.Subgroup.Defs:58: [\bunsafe\b] @[to_additive (attr := aesop unsafe 70% apply)]
+Mathlib.Algebra.Order.CauSeq.Completion:248: [\bsorry\b] "(sorry )"
+Mathlib.Algebra.Order.CauSeq.Completion:244: [\bunsafe\b] unsafe instance [Repr β] : Repr (Cauchy abv) where
+Mathlib.Algebra.Order.Ring.Ordering.Basic:37: [\bunsafe\b] @[aesop unsafe 90% apply (rule_sets := [SetLike])]
+Mathlib.Algebra.Order.Ring.Ordering.Basic:42: [\bunsafe\b] @[aesop unsafe 90% apply (rule_sets := [SetLike])]
+Mathlib.Algebra.Order.Ring.Ordering.Basic:49: [\bunsafe\b] @[aesop unsafe 80% apply (rule_sets := [SetLike])]
+Mathlib.Algebra.Order.Ring.Ordering.Basic:134: [\bunsafe\b] @[aesop unsafe 70% apply]
+Mathlib.Algebra.Order.Ring.Ordering.Defs:42: [\bunsafe\b] @[aesop unsafe 80% (rule_sets := [SetLike])]
+Mathlib.Algebra.Order.Ring.Ordering.Defs:52: [\bunsafe\b] @[aesop unsafe 20% forward (rule_sets := [SetLike])]
+Mathlib.Algebra.Ring.SumsOfSquares:36: [\bunsafe\b] @[aesop unsafe 90% apply]
+Mathlib.Algebra.Ring.SumsOfSquares:64: [\bunsafe\b] @[aesop unsafe 80% apply]
+Mathlib.Algebra.Ring.SumsOfSquares:80: [\bunsafe\b] @[aesop unsafe 90% apply]
+Mathlib.Algebra.Ring.SumsOfSquares:128: [\bunsafe\b] @[aesop unsafe 90% apply]
+Mathlib.Algebra.Ring.SumsOfSquares:162: [\bunsafe\b] @[aesop unsafe 50% apply]
+Mathlib.Analysis.Calculus.FDeriv.Measurable:280: [\bunsafe\b] (add unsafe IsOpen.measurableSet)
+Mathlib.Analysis.Real.Pi.Bounds:89: [\bunsafe\b] let {num, den, ..} ← unsafe Meta.evalExpr ℚ q(ℚ) (← Term.elabTermAndSynthesize l (some q(ℚ)))
+Mathlib.Analysis.Real.Pi.Bounds:100: [\bunsafe\b] let {num, den, ..} ← unsafe Meta.evalExpr ℚ q(ℚ) (← Term.elabTermAndSynthesize l (some q(ℚ)))
+Mathlib.Analysis.SpecialFunctions.Pow.NNReal:590: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe apply]
+Mathlib.Analysis.SpecialFunctions.Pow.NNReal:595: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe apply]
+Mathlib.Analysis.SpecialFunctions.Pow.NNReal:603: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe apply]
+Mathlib.CategoryTheory.Category.Basic:54: [\bsorry\b] throwError "The goal does not contain `sorry`"
+Mathlib.Combinatorics.Additive.Energy:95: [\bunsafe\b] aesop (add unsafe mul_mem_mul)
+Mathlib.Combinatorics.Additive.Energy:112: [\bunsafe\b] aesop (add simp [filter_eq_empty_iff]) (add unsafe mul_mem_mul)
+Mathlib.Combinatorics.Additive.Energy:119: [\bunsafe\b] rw [filter_eq_self.2, card_product, mul_pow]; aesop (add unsafe mul_mem_mul)
+Mathlib.Combinatorics.Enumerative.IncidenceAlgebra:171: [\bunsafe\b] aesop (add simp mul_assoc) (add unsafe le_trans)
+Mathlib.Combinatorics.Enumerative.IncidenceAlgebra:201: [\bunsafe\b] apply sum_nbij' (fun ⟨a, b⟩ ↦ ⟨b, a⟩) (fun ⟨a, b⟩ ↦ ⟨b, a⟩) <;> aesop (add unsafe le_trans)
+Mathlib.Combinatorics.Enumerative.IncidenceAlgebra:482: [\bunsafe\b] aesop (add simp mul_assoc) (add unsafe le_trans)
+Mathlib.Combinatorics.Matroid.Basic:171: [\bunsafe\b] @[aesop unsafe 5% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:175: [\bunsafe\b] @[aesop unsafe 5% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:179: [\bunsafe\b] @[aesop unsafe 5% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:185: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:191: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:195: [\bunsafe\b] @[aesop unsafe 5% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:199: [\bunsafe\b] @[aesop unsafe 5% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:220: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:375: [\bunsafe\b] @[aesop unsafe 30% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:380: [\bunsafe\b] @[aesop unsafe 20% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:670: [\bunsafe\b] @[aesop unsafe 15% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Basic:678: [\bunsafe\b] @[aesop unsafe 15% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Circuit:30: [\bunsafe\b] @[aesop unsafe 20% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Circuit:513: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Closure:27: [\bunsafe\b] attribute [aesop unsafe 20% (rule_sets := [Matroid])] IsFlat.subset_ground
+Mathlib.Combinatorics.Matroid.Closure:79: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Closure:167: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Closure:749: [\bunsafe\b] attribute [aesop unsafe 10% (rule_sets := [Matroid])] Spanning.subset_ground
+Mathlib.Combinatorics.Matroid.Dual:218: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Loop:20: [\bunsafe\b] @[aesop unsafe 20% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Loop:31: [\bunsafe\b] @[aesop unsafe 20% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Loop:230: [\bunsafe\b] attribute [aesop unsafe 20% (rule_sets := [Matroid])] IsNonloop.mem_ground
+Mathlib.Combinatorics.Matroid.Loop:417: [\bunsafe\b] @[aesop unsafe 20% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Loop:421: [\bunsafe\b] @[aesop unsafe 20% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Minor.Contract:77: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.Matroid.Minor.Delete:47: [\bunsafe\b] @[aesop unsafe 10% (rule_sets := [Matroid])]
+Mathlib.Combinatorics.SimpleGraph.Subgraph:693: [\bunsafe\b] aesop (add unfold safe Relation.Map, unsafe G'.edge_vert, unsafe Adj.symm)
+Mathlib.Combinatorics.SimpleGraph.Subgraph:693: [\bunsafe\b] aesop (add unfold safe Relation.Map, unsafe G'.edge_vert, unsafe Adj.symm)
+Mathlib.Data.Complex.Basic:760: [\bunsafe\b] unsafe instance instRepr : Repr ℂ where
+Mathlib.Data.DFinsupp.Notation:55: [\bunsafe\b] unsafe instance {α : Type*} {β : α → Type*} [Repr α] [∀ i, Repr (β i)] [∀ i, Zero (β i)] :
+Mathlib.Data.ENNReal.Basic:658: [\bunsafe\b] unsafe instance : Repr ℝ≥0∞ where
+Mathlib.Data.ENNReal.Inv:669: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe apply]
+Mathlib.Data.ENNReal.Operations:180: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe 75% apply]
+Mathlib.Data.ENNReal.Operations:278: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe 75% apply]
+Mathlib.Data.FP.Basic:126: [\bunsafe\b] unsafe def ofPosRatDn (n : ℕ+) (d : ℕ+) : Float × Bool := by
+Mathlib.Data.FP.Basic:138: [\bunsafe\b] unsafe def nextUpPos (e m) (v : ValidFinite e m) : Float :=
+Mathlib.Data.FP.Basic:145: [\bunsafe\b] unsafe def nextDnPos (e m) (v : ValidFinite e m) : Float :=
+Mathlib.Data.FP.Basic:156: [\bunsafe\b] unsafe def nextUp : Float → Float
+Mathlib.Data.FP.Basic:162: [\bunsafe\b] unsafe def nextDn : Float → Float
+Mathlib.Data.FP.Basic:168: [\bunsafe\b] unsafe def ofRatUp : ℚ → Float
+Mathlib.Data.FP.Basic:176: [\bunsafe\b] unsafe def ofRatDn (r : ℚ) : Float :=
+Mathlib.Data.FP.Basic:180: [\bunsafe\b] unsafe def ofRat : RMode → ℚ → Float
+Mathlib.Data.FP.Basic:203: [\bunsafe\b] unsafe def add (mode : RMode) : Float → Float → Float
+Mathlib.Data.FP.Basic:215: [\bunsafe\b] unsafe instance : Add Float :=
+Mathlib.Data.FP.Basic:219: [\bunsafe\b] unsafe def sub (mode : RMode) (f1 f2 : Float) : Float :=
+Mathlib.Data.FP.Basic:222: [\bunsafe\b] unsafe instance : Sub Float :=
+Mathlib.Data.FP.Basic:226: [\bunsafe\b] unsafe def mul (mode : RMode) : Float → Float → Float
+Mathlib.Data.FP.Basic:237: [\bunsafe\b] unsafe def div (mode : RMode) : Float → Float → Float
+Mathlib.Data.Finset.BooleanAlgebra:37: [\bunsafe\b] @[simp, aesop unsafe apply (rule_sets := [finsetNonempty])]
+Mathlib.Data.Finset.Lattice.Lemmas:46: [\bunsafe\b] @[aesop unsafe apply (rule_sets := [finsetNonempty])]
+Mathlib.Data.Finset.Lattice.Lemmas:50: [\bunsafe\b] @[aesop unsafe apply (rule_sets := [finsetNonempty])]
+Mathlib.Data.Finset.Sort:306: [\bunsafe\b] unsafe instance [Repr α] : Repr (Finset α) where
+Mathlib.Data.Finsupp.Notation:77: [\bunsafe\b] unsafe instance instRepr {α β} [Repr α] [Repr β] [Zero β] : Repr (α →₀ β) where
+Mathlib.Data.List.Cycle:750: [\bunsafe\b] unsafe instance [Repr α] : Repr (Cycle α) :=
+Mathlib.Data.List.SplitBy:201: [\bunsafe\b] refine ⟨by simp, by simp, ?_, ?_⟩; · aesop (add apply unsafe isChain_of_mem_splitBy)
+Mathlib.Data.Matrix.Basis:77: [\bunsafe\b] aesop (add unsafe unfold single)
+Mathlib.Data.Matrix.Basis:83: [\bunsafe\b] aesop (add unsafe unfold single)
+Mathlib.Data.Multiset.Sort:87: [\bunsafe\b] meta unsafe instance {α : Type u} [Lean.ToLevel.{u}] [Lean.ToExpr α] :
+Mathlib.Data.Multiset.Sort:99: [\bunsafe\b] unsafe instance [Repr α] : Repr (Multiset α) where
+Mathlib.Data.NNReal.Defs:940: [\bunsafe\b] unsafe instance : Repr ℝ≥0 where
+Mathlib.Data.PNat.Factors:23: [\bunsafe\b] unsafe instance : Repr PrimeMultiset := by delta PrimeMultiset; infer_instance
+Mathlib.Data.Part:525: [\bunsafe\b] unsafe def unwrap (o : Part α) : α :=
+Mathlib.Data.Quot:346: [\bunsafe\b] unsafe def Quot.unquot {r : α → α → Prop} : Quot r → α :=
+Mathlib.Data.Real.Basic:504: [\bunsafe\b] unsafe instance : Repr ℝ where
+Mathlib.Data.Seq.Computation:76: [\bunsafe\b] unsafe def run : Computation α → α
+Mathlib.Data.Seq.Defs:546: [\bunsafe\b] unsafe def toMLList : Seq α → MLList Id α
+Mathlib.Data.Seq.Defs:555: [\bunsafe\b] unsafe def forceToList (s : Seq α) : List α :=
+Mathlib.Data.Sym.Sym2:924: [\bunsafe\b] unsafe instance [Repr α] : Repr (Sym2 α) where
+Mathlib.Data.Sym.Sym2.Order:46: [\bunsafe\b] aesop (add unsafe le_antisymm)
+Mathlib.Data.ZMod.Basic:124: [\bunsafe\b] @[aesop unsafe 75%]
+Mathlib.GroupTheory.Perm.Cycle.Concrete:448: [\bunsafe\b] unsafe instance instRepr [Repr α] : Repr (Perm α) where
+Mathlib.Lean.CoreM:16: [\bunsafe\b] IO α := unsafe do
+Mathlib.Lean.Expr.Basic:79: [sorryAx] if declName == ``sorryAx then return true
+Mathlib.Lean.Expr.Basic:310: [sorryAx] | .app (.app f _ ) _ => f.isConstOf ``sorryAx
+Mathlib.Lean.Meta.RefinedDiscrTree.Basic:20: [\bopaque\b] | opaque
+Mathlib.Lean.Meta.RefinedDiscrTree.Basic:43: [\bopaque\b] | .opaque              => 1
+Mathlib.Lean.Meta.RefinedDiscrTree.Basic:59: [\bopaque\b] | .opaque                 => "◾"
+Mathlib.Lean.Meta.RefinedDiscrTree.Encode:83: [\bopaque\b] | .letE ..    => return .opaque
+Mathlib.Lean.Meta.RefinedDiscrTree.Encode:84: [\bopaque\b] | .lam ..     => return .opaque
+Mathlib.Lean.Meta.RefinedDiscrTree.Initialize:92: [sorryAx] declName == ``sorryAx ||
+Mathlib.Lean.Meta.RefinedDiscrTree.Lookup:211: [\bopaque\b] if key == .opaque then todo else
+Mathlib.LinearAlgebra.TensorProduct.Defs:90: [\bunsafe\b] unsafe instance [Repr M] [Repr N] : Repr (M ⊗[R] N) where
+Mathlib.MeasureTheory.Function.ConditionalExpectation.Basic:55: [\bsorry\b] #check μ[f | m] (sorry : α)
+Mathlib.MeasureTheory.Function.ConditionalLExpectation:47: [\bsorry\b] #check P⁻[X|mΩ] (sorry : Ω)
+Mathlib.MeasureTheory.Function.LpSeminorm.Basic:31: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe 95% apply]
+Mathlib.MeasureTheory.Measure.MeasureSpaceDef:194: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe 95% apply]
+Mathlib.MeasureTheory.Measure.MeasureSpaceDef:213: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe apply]
+Mathlib.MeasureTheory.Measure.MeasureSpaceDef:220: [\bunsafe\b] @[aesop (rule_sets := [finiteness]) unsafe apply]
+Mathlib.MeasureTheory.Measure.NullMeasurable:44: [\bunsafe\b] @[simp, aesop unsafe (rule_sets := [Measurable])]
+Mathlib.NumberTheory.Bernoulli:595: [\bdecide\s*\+kernel] · exact ⟨1, by decide +kernel⟩
+Mathlib.NumberTheory.FactorisationProperties:67: [\bdecide\s*\+kernel] decide +kernel
+Mathlib.NumberTheory.FactorisationProperties:194: [\bdecide\s*\+kernel] have ha : Abundant 945 := by decide +kernel
+Mathlib.NumberTheory.ModularForms.LevelOne.DimensionFormula:177: [\bdecide\s*\+kernel] norm_num [E_qExpansion_coeff _ ⟨2, rfl⟩, show bernoulli 4 = -1 / 30 by decide +kernel]
+Mathlib.NumberTheory.ModularForms.LevelOne.DimensionFormula:180: [\bdecide\s*\+kernel] norm_num [E_qExpansion_coeff _ ⟨3, rfl⟩, show bernoulli 6 = 1 / 42 by decide +kernel]
+Mathlib.Order.BoundedOrder.Basic:45: [\bunsafe\b] @[to_dual (attr := aesop (rule_sets := [finiteness]) unsafe 70% apply)]
+Mathlib.Order.BoundedOrder.Basic:50: [\bunsafe\b] @[to_dual (attr := aesop (rule_sets := [finiteness]) unsafe 70% apply)]
+Mathlib.Order.BoundedOrder.Basic:112: [\bunsafe\b] attribute [aesop (rule_sets := [finiteness]) unsafe 20%] ne_top_of_lt
+Mathlib.Probability.StrongLaw:288: [\bunsafe\b] aesop (add unsafe lt_trans)
+Mathlib.RingTheory.MvPolynomial.Symmetric.NewtonIdentities:135: [\bunsafe\b] ×ˢ univ := by ext; aesop (add unsafe le_of_lt)
+Mathlib.RingTheory.NonUnitalSubsemiring.Defs:22: [\bunsafe\b] @[aesop unsafe 80% (rule_sets := [SetLike])]
+Mathlib.RingTheory.NonUnitalSubsemiring.Defs:27: [\bunsafe\b] @[aesop unsafe 80% (rule_sets := [SetLike])]
+Mathlib.Tactic.Bound:95: [\bunsafe\b] attribute [aesop unsafe 10% tactic (rule_sets := [Bound])] boundNormNum
+Mathlib.Tactic.Bound:102: [\bunsafe\b] attribute [aesop unsafe 5% tactic (rule_sets := [Bound])] boundLinarith
+Mathlib.Tactic.Eval:20: [\bunsafe\b] unsafe def elabEvalExpr : Lean.Elab.Term.TermElab
+Mathlib.Tactic.Eval:25: [\bunsafe\b] Lean.Meta.evalExpr Expr q(Expr) ee (safety := .unsafe)
+Mathlib.Tactic.ExtractGoal:98: [\bsorry\b] pure m!"{cmd} {name} : {ty} := sorry"
+Mathlib.Tactic.ExtractGoal:101: [\bsorry\b] pure m!"{cmd} {sig} := sorry"
+Mathlib.Tactic.FindSyntax:39: [\bunsafe\b] let descr ← unsafe evalConst ParserDescr declName
+Mathlib.Tactic.GCongr.ForwardAttr:21: [\bunsafe\b] IO.ofExcept <| unsafe env.evalConstCheck ForwardExt opts ``ForwardExt n
+Mathlib.Tactic.ITauto:101: [\bsorry\b] | sorry : Proof
+Mathlib.Tactic.ITauto:144: [\bsorry\b] | .sorry => "sorry"
+Mathlib.Tactic.ITauto:144: [\bsorry\b] | .sorry => "sorry"
+Mathlib.Tactic.ITauto:239: [\bsorry\b] | false, _, _ => pure (false, .sorry)
+Mathlib.Tactic.ITauto:266: [\bsorry\b] else ((false, .sorry), n)
+Mathlib.Tactic.ITauto:315: [\bsorry\b] | .sorry => throwError "itauto failed\n{g}"
+Mathlib.Tactic.IrreducibleDef:62: [\bopaque\b] $[$nc:noncomputable]? $[$uns]? opaque wrapped$[.{$us,*}]? : Subtype (Eq @definition.{$us',*}) :=
+Mathlib.Tactic.IrreducibleDef:56: [\bunsafe\b] $[$vis]? $[$prot:protected]? $[$nc:noncomputable]? $[$uns:unsafe]?) := mods
+Mathlib.Tactic.IrreducibleDef:67: [\bunsafe\b] $[private%$priv]? $[$uns:unsafe]? theorem $n_def:ident $[.{$us,*}]? :
+Mathlib.Tactic.Linter.DeprecatedSyntaxLinter:112: [\bsorry\b] please strongly consider using the synonymous `sorry` instead.")
+Mathlib.Tactic.Linter.DeprecatedSyntaxLinter:37: [\badmit\b] public register_option linter.style.admit : Bool := {
+Mathlib.Tactic.Linter.DeprecatedSyntaxLinter:39: [\badmit\b] descr := "enable the admit linter"
+Mathlib.Tactic.Linter.DeprecatedSyntaxLinter:111: [\badmit\b] "The `admit` tactic is discouraged: \
+Mathlib.Tactic.Linter.DeprecatedSyntaxLinter:146: [\badmit\b] getLinterValue linter.style.admit (← getLinterOptions) ||
+Mathlib.Tactic.Linter.DeprecatedSyntaxLinter:164: [\badmit\b] | ``Lean.Parser.Tactic.tacticAdmit => Linter.logLintIf linter.style.admit stx' msg
+Mathlib.Tactic.Linter.DeprecatedSyntaxLinter:121: [\bnative_decide\b] rargs.push (kind, stx, "Using `native_decide` is not allowed in mathlib: \
+Mathlib.Tactic.NormNum.Core:41: [\bunsafe\b] IO.ofExcept <| unsafe env.evalConstCheck NormNumExt opts ``NormNumExt n
+Mathlib.Tactic.Polynomial.Core:39: [\bunsafe\b] IO.ofExcept <| unsafe env.evalConstCheck PolynomialExt opts ``PolynomialExt n
+Mathlib.Tactic.Positivity.Core:66: [\bunsafe\b] IO.ofExcept <| unsafe env.evalConstCheck PositivityExt opts ``PositivityExt n
+Mathlib.Tactic.ReduceModChar:225: [\bunsafe\b] | `(tactic| reduce_mod_char $[$loc]?) => unsafe do
+Mathlib.Tactic.ReduceModChar:229: [\bunsafe\b] | `(tactic| reduce_mod_char! $[$loc]?) => unsafe do
+Mathlib.Tactic.Sat.FromLRAT:471: [\bunsafe\b] let cnf ← unsafe evalTerm String (mkConst ``String) cnf
+Mathlib.Tactic.Sat.FromLRAT:472: [\bunsafe\b] let lrat ← unsafe evalTerm String (mkConst ``String) lrat
+Mathlib.Tactic.Sat.FromLRAT:498: [\bunsafe\b] let cnf ← unsafe evalTerm String (mkConst ``String) cnf
+Mathlib.Tactic.Sat.FromLRAT:499: [\bunsafe\b] let lrat ← unsafe evalTerm String (mkConst ``String) lrat
+Mathlib.Tactic.SetNotationForOrder:98: [\bopaque\b] public opaque SubsetElabAux.{u} {α : Type u} : α → α → Prop
+Mathlib.Tactic.Simproc.Divisors:18: [\bunsafe\b] return .done <| mkSetLiteralQ q(Finset ℕ) <| ((unsafe n.divisors.val.unquot).map mkNatLit)
+Mathlib.Tactic.Simproc.Divisors:24: [\bunsafe\b] return unsafe .done <| mkSetLiteralQ q(Finset ℕ) <|
+Mathlib.Tactic.Simproc.Divisors:25: [\bunsafe\b] ((unsafe n.properDivisors.val.unquot).map mkNatLit)
+Mathlib.Tactic.Simps.Basic:438: [\bunsafe\b] let findArgs ← unsafe evalConst findArgType findArgs
+Mathlib.Tactic.SuccessIfFailWithMsg:50: [\bunsafe\b] let msg' ← unsafe Term.evalTerm String (.const ``String []) msg
+Mathlib.Tactic.SuppressCompilation:15: [\bunsafe\b] | `($[$doc?:docComment]? $(attrs?)? $(vis?)? $[noncomputable]? $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:17: [\bunsafe\b] elabDeclaration <| ← `($[$doc?:docComment]? $(attrs?)? $(vis?)? noncomputable $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:19: [\bunsafe\b] | `($[$doc?:docComment]? $(attrs?)? $(vis?)? $[noncomputable]? $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:21: [\bunsafe\b] elabDeclaration <| ← `($[$doc?:docComment]? $(attrs?)? $(vis?)? noncomputable $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:23: [\bunsafe\b] | `($[$doc?:docComment]? $(attrs?)? $(vis?)? $[noncomputable]? $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:25: [\bunsafe\b] elabDeclaration <| ← `($[$doc?:docComment]? $(attrs?)? $(vis?)? noncomputable $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:27: [\bunsafe\b] | `($[$doc?:docComment]? $(attrs?)? $(vis?)? $[noncomputable]? $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:29: [\bunsafe\b] elabDeclaration <| ← `($[$doc?:docComment]? $(attrs?)? $(vis?)? noncomputable $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:31: [\bunsafe\b] | `($[$doc?:docComment]? $(attrs?)? $(vis?)? $[noncomputable]? $(unsafe?)?
+Mathlib.Tactic.SuppressCompilation:33: [\bunsafe\b] elabDeclaration <| ← `($[$doc?:docComment]? $(attrs?)? $(vis?)? noncomputable $(unsafe?)?
+Mathlib.Tactic.TFAE:178: [\bsorry\b] Term.addTermInfo' i q(sorry : $Pi) Pi
+Mathlib.Tactic.TFAE:179: [\bsorry\b] Term.addTermInfo' j q(sorry : $Pj) Pj
+Mathlib.Tactic.TFAE:185: [\bsorry\b] Term.addTermInfo' stx q(sorry : $ty) ty
+Mathlib.Tactic.TacticAnalysis:65: [\bunsafe\b] unsafe env.evalConstCheck Config opts ``Config e.declName
+Mathlib.Tactic.TacticAnalysis:67: [\bunsafe\b] let opt := (unsafe env.evalConst (Lean.Option Bool) opts e.optionName).toOption
+Mathlib.Tactic.Trace:17: [\bunsafe\b] logInfoAt tk <|← unsafe evalExpr String (mkConst `String) e
+Mathlib.Tactic.Translate.Core:320: [implemented_by] @[implemented_by shouldTranslateUnsafe]
+Mathlib.Tactic.Translate.Core:321: [\bopaque\b] opaque shouldTranslate (env : Environment) (t : TranslateData) (e : Expr) :
+Mathlib.Tactic.Translate.Core:272: [\bunsafe\b] private unsafe def shouldTranslateUnsafe (env : Environment) (t : TranslateData) (e : Expr) :
+Mathlib.Tactic.Translate.TagUnfoldBoundary:40: [\bopaque\b] .defnDecl <$> mkDefinitionValInferringUnsafe name info.levelParams type value .opaque
+Mathlib.Tactic.Widget.Calc:43: [\bsorry\b] { range := ⟨tacPos, endPos⟩, newText := s!"calc {goalFmt} := by sorry" }
+Mathlib.Tactic.Widget.Calc:90: [\bsorry\b] s!"{lhsStr} {relStr} {newLhsStr} := by sorry\n{spc}_ {relStr} {newRhsStr} := by sorry\n\
+Mathlib.Tactic.Widget.Calc:90: [\bsorry\b] s!"{lhsStr} {relStr} {newLhsStr} := by sorry\n{spc}_ {relStr} {newRhsStr} := by sorry\n\
+Mathlib.Tactic.Widget.Calc:91: [\bsorry\b] {spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:93: [\bsorry\b] s!"_ {relStr} {newLhsStr} := by sorry\n{spc}\
+Mathlib.Tactic.Widget.Calc:94: [\bsorry\b] _ {relStr} {newRhsStr} := by sorry\n{spc}\
+Mathlib.Tactic.Widget.Calc:95: [\bsorry\b] _ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:98: [\bsorry\b] s!"{lhsStr} {relStr} {newRhsStr} := by sorry\n{spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:98: [\bsorry\b] s!"{lhsStr} {relStr} {newRhsStr} := by sorry\n{spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:100: [\bsorry\b] s!"_ {relStr} {newRhsStr} := by sorry\n{spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:100: [\bsorry\b] s!"_ {relStr} {newRhsStr} := by sorry\n{spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:103: [\bsorry\b] s!"{lhsStr} {relStr} {newLhsStr} := by sorry\n{spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:103: [\bsorry\b] s!"{lhsStr} {relStr} {newLhsStr} := by sorry\n{spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:105: [\bsorry\b] s!"_ {relStr} {newLhsStr} := by sorry\n{spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:105: [\bsorry\b] s!"_ {relStr} {newLhsStr} := by sorry\n{spc}_ {relStr} {rhsStr} := by sorry"
+Mathlib.Tactic.Widget.Calc:134: [\bsorry\b] let s ← `(tactic| calc $(← Lean.PrettyPrinter.delab (← getMainTarget)) := by sorry)
+Mathlib.Tactic.Widget.Calc:136: [\bsorry\b] evalTactic (← `(tactic|sorry))
+Mathlib.Util.AssertNoSorry:19: [\bsorry\b] then throwError "{n} contains sorry"
+Mathlib.Util.AssertNoSorry:18: [sorryAx] if axioms.contains ``sorryAx
+Mathlib.Util.CompileInductive:231: [implemented_by] @[implemented_by Float.valUnsafe] private def Float.valImpl (x : Float) : floatSpec.float := x.1
+Mathlib.Util.CompileInductive:232: [implemented_by] @[implemented_by Float.mkUnsafe] private def Float.mkImpl (x : floatSpec.float) : Float := ⟨x⟩
+Mathlib.Util.CompileInductive:99: [\bopaque\b] hints := .opaque
+Mathlib.Util.CompileInductive:141: [\bopaque\b] hints := .opaque
+Mathlib.Util.CompileInductive:153: [\bopaque\b] hints := .opaque
+Mathlib.Util.CompileInductive:229: [\bunsafe\b] private unsafe def Float.valUnsafe : Float → floatSpec.float := unsafeCast
+Mathlib.Util.CompileInductive:230: [\bunsafe\b] private unsafe def Float.mkUnsafe : floatSpec.float → Float := unsafeCast
+Mathlib.Util.CountHeartbeats:75: [maxHeartbeats\s+0] elabCommand (← `(command| set_option maxHeartbeats 0 in $cmd))
+Mathlib.Util.CountHeartbeats:105: [maxHeartbeats\s+0] elabCommand (← `(command| set_option Elab.async false in set_option maxHeartbeats 0 in $cmd))
+Mathlib.Util.CountHeartbeats:118: [maxHeartbeats\s+0] elabCommand (← `(command| set_option maxHeartbeats 0 in $cmd))
+Mathlib.Util.Export:21: [\bopaque\b] private opaque MethodsRefPointed : NonemptyType.{0}
+Mathlib.Util.MemoFix:25: [implemented_by] @[implemented_by memoFixImpl,
+Mathlib.Util.MemoFix:27: [\bopaque\b] public opaque memoFix [Nonempty β] (f : (α → β) → (α → β)) : α → β
+Mathlib.Util.MemoFix:14: [\bunsafe\b] unsafe def memoFixImpl [Nonempty β] (f : (α → β) → (α → β)) : α → β := unsafeBaseIO do
+Mathlib.Util.PrintSorries:82: [\bsorry\b] logInfo m!"Declarations are sorry-free!"
+Mathlib.Util.PrintSorries:31: [sorryAx] if consts.contains ``sorryAx then
+Mathlib.Util.WhatsNew:30: [\bunsafe\b] | DefinitionSafety.unsafe  => "unsafe "
+Mathlib.Util.WhatsNew:30: [\bunsafe\b] | DefinitionSafety.unsafe  => "unsafe "
+Mathlib.Util.WhatsNew:43: [\bunsafe\b] (if isUnsafe then DefinitionSafety.unsafe else DefinitionSafety.safe)
+Mathlib.Util.WhatsNew:79: [\bunsafe\b] CoreM (Option MessageData) := unsafe do
+Plausible.Sampleable:162: [\bunsafe\b] let code ← unsafe evalExpr (IO PUnit) (mkApp (mkConst ``IO) (mkConst ``PUnit [1])) printSamples
+Plausible.Tactic:61: [\bunsafe\b] let code ← unsafe evalExpr (CoreM PUnit) (mkApp (mkConst ``CoreM) (mkConst ``PUnit [1])) e
+ProofWidgets.Cancellable:96: [\bopaque\b] hints  := .opaque
+ProofWidgets.Component.HtmlDisplay:51: [implemented_by] @[implemented_by evalCommandMHtmlUnsafe]
+ProofWidgets.Component.HtmlDisplay:52: [\bopaque\b] opaque evalCommandMHtml : Term → TermElabM (CommandElabM Html)
+ProofWidgets.Component.HtmlDisplay:47: [\bunsafe\b] unsafe def evalCommandMHtmlUnsafe (stx : Term) : TermElabM (CommandElabM Html) := do
+ProofWidgets.Component.RefreshComponent:14: [\bopaque\b] private opaque IO.forceThunk (t : Thunk α) : BaseIO α :=
+ProofWidgets.Component.RefreshComponent:125: [\bunsafe\b] let st ← unsafe state.take
+ProofWidgets.Presentation.Expr:32: [implemented_by] @[implemented_by evalExprPresenterUnsafe]
+ProofWidgets.Presentation.Expr:33: [\bopaque\b] opaque evalExprPresenter (env : Environment) (opts : Options) (constName : Name) :
+ProofWidgets.Presentation.Expr:28: [\bunsafe\b] private unsafe def evalExprPresenterUnsafe (env : Environment) (opts : Options)
+Qq.Commands:43: [\bunsafe\b] let code ← unsafe evalExpr (TermElabM Expr) q(TermElabM Expr) codeExpr
+Qq.Commands:79: [\bunsafe\b] let code ← unsafe evalExpr (TacticM Unit) q(TacticM Unit) codeExpr
+Qq.Macro:187: [\bopaque\b] @[inline] meta opaque betaRev' (e : Expr) (revArgs : List Expr) : Expr :=

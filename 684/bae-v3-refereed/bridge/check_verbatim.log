@@ -1,0 +1,9 @@
+def: ∏ p ∈ Nat.primesLE k, p ^ ((n.choose k).factorization p)
+ub : ∀ᶠ n : ℕ in atTop, ∃ k ≤ n, (k : ℝ) ≤ 514 * (log (n : ℝ)) ^ 2 ∧ n ^ 2 < smallPrimePart n k
+VERBATIM
+rc=0 (want 0)
+--- mutant (514 -> 513):
+def: ∏ p ∈ Nat.primesLE k, p ^ ((n.choose k).factorization p)
+ub : ∀ᶠ n : ℕ in atTop, ∃ k ≤ n, (k : ℝ) ≤ 513 * (log (n : ℝ)) ^ 2 ∧ n ^ 2 < smallPrimePart n k
+MISMATCH
+rc=1 (want 1)

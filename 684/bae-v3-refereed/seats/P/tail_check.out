@@ -1,0 +1,19 @@
+[A] M=8 K=30 h=2 L=840 J=20000000
+    nestedness violations: 0;  max|Z - sum ell_p log p| = 7.11e-15
+    overhead identity (33): lhs=4.499810 rhs=4.499810
+    per-prime class-count violations (#classes > 2K/g_p): 0
+    profiles with W<=7.0: 426, with Q<J tested: 426; logQ>2W+overhead: 0; (30) violations: 0; (36) violations: 0; max count/(36)-bound = 0.267
+    lam=0.5 x=1.0: #Z>=x =  19052017  bound(37) = 1.715e+12  maxlogQ(W_x)=9.81 vs logJ=16.81  [Q<J holds]
+    lam=0.5 x=2.0: #Z>=x =  18205887  bound(37) = 1.040e+12  maxlogQ(W_x)=11.64 vs logJ=16.81  [Q<J holds]
+    lam=0.5 x=3.0: #Z>=x =  16097455  bound(37) = 6.309e+11  maxlogQ(W_x)=13.79 vs logJ=16.81  [Q<J holds]
+    lam=0.5 x=4.0: #Z>=x =  13677686  bound(37) = 3.827e+11  maxlogQ(W_x)=14.85 vs logJ=16.81  [Q<J FAILS/unknown -> (37) not licensed]
+    lam=0.5 x=5.0: #Z>=x =  11291754  bound(37) = 2.321e+11  maxlogQ(W_x)=14.85 vs logJ=16.81  [Q<J FAILS/unknown -> (37) not licensed]
+    lam=0.8 x=1.0: #Z>=x =  19052017  bound(37) = 1.792e+16  maxlogQ(W_x)=9.81 vs logJ=16.81  [Q<J holds]
+    lam=0.8 x=2.0: #Z>=x =  18205887  bound(37) = 8.054e+15  maxlogQ(W_x)=11.64 vs logJ=16.81  [Q<J holds]
+    lam=0.8 x=3.0: #Z>=x =  16097455  bound(37) = 3.619e+15  maxlogQ(W_x)=13.79 vs logJ=16.81  [Q<J holds]
+    lam=0.8 x=4.0: #Z>=x =  13677686  bound(37) = 1.626e+15  maxlogQ(W_x)=14.85 vs logJ=16.81  [Q<J FAILS/unknown -> (37) not licensed]
+    lam=0.8 x=5.0: #Z>=x =  11291754  bound(37) = 7.306e+14  maxlogQ(W_x)=14.85 vs logJ=16.81  [Q<J FAILS/unknown -> (37) not licensed]
+[B] M=30 K=150 h=3; 60000 random t<=1e60; mean Z=13.84, sqrt K=12.2
+    lam=0.5 log prod=27.0 | x=5: emp=9.65e-01 bnd=4.19e+10 | x=10: emp=7.44e-01 bnd=3.44e+09 | x=15: emp=3.88e-01 bnd=2.82e+08 | x=20: emp=1.34e-01 bnd=2.32e+07 | x=25: emp=3.23e-02 bnd=1.90e+06 | x=30: emp=6.10e-03 bnd=1.56e+05
+    lam=0.8 log prod=60.8 | x=5: emp=9.65e-01 bnd=4.59e+24 | x=10: emp=7.44e-01 bnd=8.41e+22 | x=15: emp=3.88e-01 bnd=1.54e+21 | x=20: emp=1.34e-01 bnd=2.82e+19 | x=25: emp=3.23e-02 bnd=5.17e+17 | x=30: emp=6.10e-03 bnd=9.47e+15
+    lam=0.95 log prod=112.5 | x=5: emp=9.65e-01 bnd=6.55e+46 | x=10: emp=7.44e-01 bnd=5.67e+44 | x=15: emp=3.88e-01 bnd=4.90e+42 | x=20: emp=1.34e-01 bnd=4.24e+40 | x=25: emp=3.23e-02 bnd=3.67e+38 | x=30: emp=6.10e-03 bnd=3.17e+36

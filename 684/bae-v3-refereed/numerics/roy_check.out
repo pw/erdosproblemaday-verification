@@ -1,0 +1,3 @@
+K=30: n has 23 digits; u(n,k)=1 for all 1<=k<=K: True; Roy's bound needs log u >= k/4+O(k/log k), here log u = 0 at k = 30
+K=100: n has 78 digits; u(n,k)=1 for all 1<=k<=K: True; Roy's bound needs log u >= k/4+O(k/log k), here log u = 0 at k = 100
+K=300: n has 251 digits; u(n,k)=1 for all 1<=k<=K: True; Roy's bound needs log u >= k/4+O(k/log k), here log u = 0 at k = 300

@@ -1,0 +1,575 @@
+{
+  "challenge": {
+    "bytes": 5745,
+    "canonical_olean_sha256": "105995d4f1048c0dd9435b89d6fa965f09b675d4643a449d09ae152eccc5b211",
+    "dependencies": [
+      {
+        "provenance": "allowlisted",
+        "repository": "leanprover-community/mathlib4"
+      }
+    ],
+    "direct_imports": [
+      "Mathlib"
+    ],
+    "lines": 112,
+    "module": "Challenge",
+    "path": "Challenge.lean",
+    "sha256": "b5f24fbeb48c46b05bc3027f75a8f5c2d8c60a12099cbe89744d8a52ba99e6d2",
+    "transitive_source_count": 2,
+    "trust_level": "high",
+    "untrusted_sources": []
+  },
+  "checked_at": "2026-09-03T18:11:33Z",
+  "classification": {
+    "arxiv": [
+      {
+        "code": "math.NT",
+        "name": "Number Theory"
+      },
+      {
+        "code": "math.CO",
+        "name": "Combinatorics"
+      }
+    ],
+    "msc2020": [
+      {
+        "code": "11B65",
+        "name": "Binomial coefficients; factorials; \\(q\\)-identities"
+      },
+      {
+        "code": "11N05",
+        "name": "Distribution of primes"
+      },
+      {
+        "code": "11A51",
+        "name": "Factorization; primality"
+      }
+    ]
+  },
+  "comparator": {
+    "challenge_module": "Challenge",
+    "definition_names": [],
+    "path": "comparator.json",
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "sha256": "37ba1e327733ea4988da587c937a12c67220055e07feafb08a74f233de016591",
+    "solution_module": "Solution",
+    "theorem_names": [
+      "Erdos684.Palomar.main_theorem",
+      "Erdos684.Palomar.main_theorem_limsup",
+      "Erdos684.Palomar.unbounded",
+      "Erdos684.Palomar.lt_f_iff",
+      "Erdos684.Palomar.u_mul_eq_choose"
+    ]
+  },
+  "comparator_commit": "575674928e239f5bc452aab72d1dd7b0f1326494",
+  "comparator_log_tail": "Building PalomarCanonical07ad3beb57b3c54d82a0bf1e.Challenge\nExporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, Erdos684.Palomar.main_theorem, Erdos684.Palomar.main_theorem_limsup, Erdos684.Palomar.unbounded, Erdos684.Palomar.lt_f_iff, Erdos684.Palomar.u_mul_eq_choose, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from PalomarCanonical07ad3beb57b3c54d82a0bf1e.Challenge\nBuilding Solution\n\u2714 [8656/8682] Built Architect.Command (956ms)\n\u2714 [8657/8682] Built Architect.Basic (1.6s)\n\u2714 [8658/8682] Built PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Log.Basic (2.5s)\n\u2714 [8659/8683] Built PrimeNumberTheoremAnd.Auxiliary (4.5s)\n\u2714 [8660/8683] Built Architect.Tactic (1.5s)\n\u2714 [8661/8687] Built Architect.CollectUsed (1.1s)\n\u2714 [8662/8688] Built Architect.Content (1.0s)\n\u2714 [8663/8688] Built PrimeNumberTheoremAnd.Tactic.AdditiveCombination (3.0s)\n\u2714 [8664/8688] Built PrimeNumberTheoremAnd.EulerMaclaurin (3.5s)\n\u2714 [8665/8688] Built Architect.Output (2.4s)\n\u2714 [8666/8692] Built PrimeNumberTheoremAnd.Sobolev (10s)\n\u2714 [8667/8693] Built Architect.Load (743ms)\n\u2714 [8669/8697] Built Architect.Attribute (1.9s)\n\u2714 [8670/8697] Built PrimeNumberTheoremAnd.Mathlib.Algebra.Notation.Support (1.0s)\n\u2714 [8671/8697] Built Architect (861ms)\n\u2714 [8672/8697] Built PrimeNumberTheoremAnd.Fourier (4.0s)\n\u2714 [8673/8697] Built PrimeNumberTheoremAnd.ZetaConj (4.4s)\n\u2714 [8674/8697] Built Erdos684Lean.Defs (17s)\n\u2714 [8675/8697] Built PrimeNumberTheoremAnd.SmoothExistence (5.6s)\n\u2714 [8676/8697] Built PrimeNumberTheoremAnd.Rectangle (6.1s)\n\u2714 [8677/8697] Built Erdos684Lean.Code (14s)\n\u2714 [8678/8697] Built Erdos684Lean.Anchor (12s)\n\u2714 [8679/8697] Built Erdos684Lean.Asymptotics (19s)\n\u2714 [8680/8697] Built PrimeNumberTheoremAnd.MellinCalculus (20s)\n\u2714 [8681/8697] Built Erdos684Lean.Kummer (9.2s)\n\u2714 [8682/8697] Built Erdos684Lean.TailCount (12s)\n\u2714 [8683/8697] Built Erdos684Lean.AsymptoticsPNT (13s)\n\u2714 [8684/8697] Built PrimeNumberTheoremAnd.ResidueCalcOnRectangles (17s)\n\u2714 [8685/8697] Built Erdos684Lean.Entropy (28s)\n\u2714 [8686/8697] Built Erdos684Lean.Budget (31s)\n\u2714 [8687/8697] Built Erdos684Lean.TailBound (35s)\n\u2714 [8688/8697] Built Erdos684Lean.Select (8.7s)\n\u2714 [8689/8697] Built PrimeNumberTheoremAnd.ZetaBounds (47s)\n\u2714 [8690/8697] Built Erdos684Lean.Main (22s)\n\u2139 [8691/8697] Built PrimeNumberTheoremAnd.MediumPNT (39s)\ninfo: PrimeNumberTheoremAnd/MediumPNT.lean:4282:0: 'MediumPNT' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2714 [8692/8697] Built Erdos684Lean.PNT (8.3s)\n\u2714 [8693/8697] Built Erdos684Lean.MainUnconditional (3.8s)\n\u2139 [8694/8697] Built Erdos684Lean.Sanity (4.5s)\ninfo: Erdos684Lean/Sanity.lean:167:0: 'Erdos684.main_theorem_limsup' depends on axioms: [propext, Classical.choice, Quot.sound]\n\u2714 [8695/8697] Built Erdos684Lean (3.5s)\n\u2714 [8696/8697] Built Solution (3.9s)\nBuild completed successfully (8697 jobs).\nExporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, Erdos684.Palomar.main_theorem, Erdos684.Palomar.main_theorem_limsup, Erdos684.Palomar.unbounded, Erdos684.Palomar.lt_f_iff, Erdos684.Palomar.u_mul_eq_choose, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from Solution\nRunning nanoda kernel on solution\nnanoda kernel accepts the solution\nRunning Lean default kernel on solution.\nLean default kernel accepts the solution\nYour solution is okay!",
+  "errors": [],
+  "existing_id": null,
+  "formalization": {
+    "automation_method_count": 1,
+    "path": "formalization.yaml",
+    "project_name": "Erd\u0151s Problem 684: f(n)/log n is unbounded \u2014 a Lean 4 formalization of arXiv:2604.23784",
+    "review_status": "self-assessed",
+    "sha256": "30dadb0678660c894a71dd69e48d6ce7d4bf1985e17b7e10db52779201816433",
+    "source_count": 4
+  },
+  "lake_manifest": {
+    "path": "lake-manifest.json",
+    "sha256": "0e9af5b69b138fff95efc0e719a4821601de3b200b9b22948c858a1291e32bd4"
+  },
+  "lakefile": {
+    "format": "toml",
+    "path": "lakefile.toml",
+    "sha256": "06cd39e2344887e8999e805bd3da03c98cb28d04fd6b54caa334097f734c0533"
+  },
+  "landrun_commit": "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4",
+  "lean4export_commit": "4e7915201d3f9f04470d9eae002fa695f7cdc589",
+  "lean_toolchain": "leanprover/lean4:v4.32.0",
+  "lean_toolchain_path": "lean-toolchain",
+  "license": {
+    "declared_identifier": "Apache-2.0",
+    "detected_identifier": "Apache-2.0",
+    "path": "LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "mathlib_cache": {
+    "available": true,
+    "required": true
+  },
+  "nanoda_commit": "68d5ca9db226849b41a6fff59d796ff19d0a8840",
+  "orcid_validation": {
+    "checked_at": "2026-09-03T17:59:29Z",
+    "records": [],
+    "registry": "https://orcid.org",
+    "schema_version": 1
+  },
+  "phase": "verification",
+  "project_dependencies": [
+    {
+      "name": "mathlib",
+      "repository": "leanprover-community/mathlib4",
+      "revision": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "url": "https://github.com/leanprover-community/mathlib4"
+    },
+    {
+      "name": "PrimeNumberTheoremAnd",
+      "repository": "AlexKontorovich/PrimeNumberTheoremAnd",
+      "revision": "a5154676af9aa3095150ee410cdda80555aa0642",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd"
+    },
+    {
+      "name": "plausible",
+      "repository": "leanprover-community/plausible",
+      "revision": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+      "url": "https://github.com/leanprover-community/plausible"
+    },
+    {
+      "name": "LeanSearchClient",
+      "repository": "leanprover-community/LeanSearchClient",
+      "revision": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+      "url": "https://github.com/leanprover-community/LeanSearchClient"
+    },
+    {
+      "name": "importGraph",
+      "repository": "leanprover-community/import-graph",
+      "revision": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+      "url": "https://github.com/leanprover-community/import-graph"
+    },
+    {
+      "name": "proofwidgets",
+      "repository": "leanprover-community/ProofWidgets4",
+      "revision": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+      "url": "https://github.com/leanprover-community/ProofWidgets4"
+    },
+    {
+      "name": "aesop",
+      "repository": "leanprover-community/aesop",
+      "revision": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+      "url": "https://github.com/leanprover-community/aesop"
+    },
+    {
+      "name": "Qq",
+      "repository": "leanprover-community/quote4",
+      "revision": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+      "url": "https://github.com/leanprover-community/quote4"
+    },
+    {
+      "name": "batteries",
+      "repository": "leanprover-community/batteries",
+      "revision": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+      "url": "https://github.com/leanprover-community/batteries"
+    },
+    {
+      "name": "PrimeCert",
+      "repository": "b-mehta/PrimeCert",
+      "revision": "6cac6fcb55fe9070afc4c42cad1d0eaa1c59e6a1",
+      "url": "https://github.com/b-mehta/PrimeCert"
+    },
+    {
+      "name": "leancert",
+      "repository": "alerad/leancert",
+      "revision": "6b11513512c9d27183fb4725bfc291ab38b4a6d7",
+      "url": "https://github.com/alerad/leancert.git"
+    },
+    {
+      "name": "checkdecls",
+      "repository": "PatrickMassot/checkdecls",
+      "revision": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
+      "url": "https://github.com/PatrickMassot/checkdecls.git"
+    },
+    {
+      "name": "LeanArchitect",
+      "repository": "hanwenzhu/LeanArchitect",
+      "revision": "d9013cc08bd2b5483e837368dfa4cc7ead92a5c2",
+      "url": "https://github.com/hanwenzhu/LeanArchitect.git"
+    },
+    {
+      "name": "Cli",
+      "repository": "leanprover/lean4-cli",
+      "revision": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+      "url": "https://github.com/leanprover/lean4-cli"
+    }
+  ],
+  "provenance": {
+    "mathematical_sources": [
+      {
+        "author_endorsement": "participated",
+        "authors": [
+          {
+            "name": "Ji Ho Bae"
+          }
+        ],
+        "identifier": "https://arxiv.org/abs/2604.23784",
+        "location": "Theorem 1.2, displays (4) and (5); v3",
+        "note": "The paper whose main theorem this development formalizes.  The author of the paper is the author of the formalization.",
+        "relationship": "formalizes",
+        "title": "Unbounded logarithmic limsup in Erd\u0151s Problem 684 via shifted carry scheduling",
+        "type": "paper"
+      },
+      {
+        "authors": [
+          {
+            "name": "Thomas F. Bloom (site)"
+          }
+        ],
+        "contributors": [
+          {
+            "name": "Paul Erd\u0151s",
+            "role": "problem-proposer"
+          }
+        ],
+        "identifier": "https://www.erdosproblems.com/684",
+        "note": "The canonical record of the problem and of its status.  Used to fix the informal statement of record; the problem remains open on the site.",
+        "relationship": "background",
+        "title": "Erd\u0151s Problem #684 (erdosproblems.com)",
+        "type": "web discussion"
+      },
+      {
+        "authors": [
+          {
+            "name": "Paul Erd\u0151s"
+          }
+        ],
+        "identifier": "https://doi.org/10.1007/BF01903382",
+        "location": "Acta Math. Acad. Sci. Hungar. 33 (1979), pp. 76\u201377",
+        "note": "The 1979 origin of the question, where the threshold is called A(n).",
+        "relationship": "background",
+        "title": "Some unconventional problems in number theory",
+        "type": "paper"
+      },
+      {
+        "authors": [
+          {
+            "name": "Boris Alexeev"
+          },
+          {
+            "name": "Max Putterman"
+          },
+          {
+            "name": "Mehtaab Sawhney"
+          },
+          {
+            "name": "Mark Sellke"
+          },
+          {
+            "name": "Gregory Valiant"
+          }
+        ],
+        "identifier": "https://arxiv.org/abs/2603.29961",
+        "location": "Theorem 2.1",
+        "note": "The previously known subsequential lower bound (1/2 \u2212 o(1)) log n, which the formalized theorem strengthens, and the general upper bound (log n)\u00b2, which is not formalized here.",
+        "relationship": "background",
+        "title": "Short proofs in combinatorics and number theory",
+        "type": "paper"
+      }
+    ],
+    "related_formalizations": [
+      {
+        "identifier": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "note": "Lean dependency, pinned at commit a5154676af9aa3095150ee410cdda80555aa0642 (2026-08-30).  Its theorem MediumPNT (\u03c8(x) = x + O(x\u00b7exp(\u2212c(log x)^{1/10})), standard axioms only) is used in PNT.lean to discharge the prime-number-theorem hypothesis of the development.  It is a dependency of the Solution only; the Challenge imports Mathlib alone.",
+        "relationship": "builds-on"
+      }
+    ],
+    "repository_role": "substantive-development",
+    "responsible_maintainers": [
+      {
+        "name": "Ji Ho Bae"
+      }
+    ],
+    "result_origin": "source-based"
+  },
+  "resource_usage": [
+    {
+      "elapsed_seconds": 0.004,
+      "max_rss_kib": 13268,
+      "peak_tasks_observed": 1,
+      "phase": "touch",
+      "returncode": 0,
+      "system_cpu_seconds": 0.004,
+      "user_cpu_seconds": 0.0,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.007,
+      "max_rss_kib": 13380,
+      "peak_tasks_observed": 1,
+      "phase": "landrun",
+      "returncode": 0,
+      "system_cpu_seconds": 0.005,
+      "user_cpu_seconds": 0.002,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.004,
+      "max_rss_kib": 13260,
+      "peak_tasks_observed": 1,
+      "phase": "touch",
+      "returncode": 1,
+      "system_cpu_seconds": 0.003,
+      "user_cpu_seconds": 0.001,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.026,
+      "max_rss_kib": 13560,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 0,
+      "system_cpu_seconds": 0.007,
+      "user_cpu_seconds": 0.019,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.025,
+      "max_rss_kib": 13560,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 1,
+      "system_cpu_seconds": 0.007,
+      "user_cpu_seconds": 0.018,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.025,
+      "max_rss_kib": 13560,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 1,
+      "system_cpu_seconds": 0.003,
+      "user_cpu_seconds": 0.022,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.021,
+      "max_rss_kib": 13560,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 1,
+      "system_cpu_seconds": 0.005,
+      "user_cpu_seconds": 0.016,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 3.732,
+      "max_rss_kib": 895956,
+      "peak_tasks_observed": 1,
+      "phase": "lake",
+      "returncode": 0,
+      "system_cpu_seconds": 0.419,
+      "user_cpu_seconds": 3.378,
+      "workspace_disk_peak_bytes": 1556480
+    },
+    {
+      "elapsed_seconds": 0.08,
+      "max_rss_kib": 88484,
+      "peak_tasks_observed": 1,
+      "phase": "lean",
+      "returncode": 0,
+      "system_cpu_seconds": 0.033,
+      "user_cpu_seconds": 0.066,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 66.532,
+      "max_rss_kib": 1010268,
+      "peak_tasks_observed": 1,
+      "phase": "lake",
+      "returncode": 0,
+      "system_cpu_seconds": 23.048,
+      "user_cpu_seconds": 84.444,
+      "workspace_disk_peak_bytes": 7662039040
+    },
+    {
+      "elapsed_seconds": 8.259,
+      "max_rss_kib": 984816,
+      "peak_tasks_observed": 1,
+      "phase": "lake",
+      "returncode": 0,
+      "system_cpu_seconds": 1.838,
+      "user_cpu_seconds": 7.522,
+      "workspace_disk_peak_bytes": 1449984
+    },
+    {
+      "elapsed_seconds": 2.657,
+      "max_rss_kib": 881100,
+      "peak_tasks_observed": 1,
+      "phase": "lake",
+      "returncode": 0,
+      "system_cpu_seconds": 0.387,
+      "user_cpu_seconds": 2.218,
+      "workspace_disk_peak_bytes": 679936
+    },
+    {
+      "elapsed_seconds": 15.83,
+      "max_rss_kib": 6658452,
+      "peak_tasks_observed": 1,
+      "phase": "lean",
+      "returncode": 0,
+      "system_cpu_seconds": 1.539,
+      "user_cpu_seconds": 2.833,
+      "workspace_disk_peak_bytes": 4096
+    },
+    {
+      "elapsed_seconds": 0.076,
+      "max_rss_kib": 88612,
+      "peak_tasks_observed": 1,
+      "phase": "lean",
+      "returncode": 0,
+      "system_cpu_seconds": 0.031,
+      "user_cpu_seconds": 0.062,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.078,
+      "max_rss_kib": 88612,
+      "peak_tasks_observed": 1,
+      "phase": "lean",
+      "returncode": 0,
+      "system_cpu_seconds": 0.033,
+      "user_cpu_seconds": 0.064,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.004,
+      "max_rss_kib": 13080,
+      "peak_tasks_observed": 1,
+      "phase": "touch",
+      "returncode": 0,
+      "system_cpu_seconds": 0.002,
+      "user_cpu_seconds": 0.002,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.007,
+      "max_rss_kib": 13432,
+      "peak_tasks_observed": 1,
+      "phase": "landrun",
+      "returncode": 0,
+      "system_cpu_seconds": 0.006,
+      "user_cpu_seconds": 0.001,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.004,
+      "max_rss_kib": 13432,
+      "peak_tasks_observed": 1,
+      "phase": "touch",
+      "returncode": 1,
+      "system_cpu_seconds": 0.003,
+      "user_cpu_seconds": 0.001,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.025,
+      "max_rss_kib": 13388,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 0,
+      "system_cpu_seconds": 0.008,
+      "user_cpu_seconds": 0.016,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.025,
+      "max_rss_kib": 13296,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 0,
+      "system_cpu_seconds": 0.005,
+      "user_cpu_seconds": 0.02,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.025,
+      "max_rss_kib": 13268,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 1,
+      "system_cpu_seconds": 0.007,
+      "user_cpu_seconds": 0.018,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.025,
+      "max_rss_kib": 13456,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 1,
+      "system_cpu_seconds": 0.004,
+      "user_cpu_seconds": 0.021,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 0.022,
+      "max_rss_kib": 13124,
+      "peak_tasks_observed": 1,
+      "phase": "python3.11",
+      "returncode": 1,
+      "system_cpu_seconds": 0.006,
+      "user_cpu_seconds": 0.016,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 1.479,
+      "max_rss_kib": 831044,
+      "peak_tasks_observed": 1,
+      "phase": "lake",
+      "returncode": 0,
+      "system_cpu_seconds": 0.46,
+      "user_cpu_seconds": 0.868,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 1.285,
+      "max_rss_kib": 831076,
+      "peak_tasks_observed": 1,
+      "phase": "lake",
+      "returncode": 0,
+      "system_cpu_seconds": 0.444,
+      "user_cpu_seconds": 0.88,
+      "workspace_disk_peak_bytes": 0
+    },
+    {
+      "elapsed_seconds": 394.366,
+      "max_rss_kib": 7068628,
+      "peak_tasks_observed": 1,
+      "phase": "comparator",
+      "returncode": 0,
+      "system_cpu_seconds": 47.307,
+      "user_cpu_seconds": 707.108,
+      "workspace_disk_peak_bytes": 645222400
+    }
+  ],
+  "schema_version": 1,
+  "solution": {
+    "module": "Solution",
+    "path": "Solution.lean",
+    "sha256": "4bac2b753873b3ba4e981009cdb90bdd72d5e7965f06c5bd21ee0aaf43703442"
+  },
+  "source": {
+    "bytes": 547293,
+    "commit": "4543ff7764f9e8f1b2732a8464d5c19c945bfc52",
+    "repository": "jidodat/erdos684-lean",
+    "repository_url": "https://github.com/jidodat/erdos684-lean",
+    "tree_url": "https://github.com/jidodat/erdos684-lean/tree/4543ff7764f9e8f1b2732a8464d5c19c945bfc52"
+  },
+  "stage": "complete",
+  "status": "pass",
+  "submission": {
+    "authorization": {
+      "relationship": "maintainer"
+    },
+    "requested_paths": {
+      "comparator_config_path": "comparator.json",
+      "formalization_metadata_path": "",
+      "project_path": ""
+    },
+    "submission_id": "qntdv8sjovyt"
+  },
+  "warnings": [],
+  "workflow_url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/33787783004"
+}

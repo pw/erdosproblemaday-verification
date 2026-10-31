@@ -1,0 +1,33 @@
+'Erdos684.main_theorem_unconditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos684.unbounded_unconditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos684.main_theorem_limsup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos684.main_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos684.pntHyp' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos684.main_theorem_unconditional : ∀ (ε : ℝ),
+  0 < ε →
+    ∃ᶠ (n : ℕ) in Filter.atTop,
+      ∀ (k : ℕ),
+        ↑k ≤ (1 / 2 - ε) * Real.log ↑n * Real.log (Real.log ↑n) / Real.log (Real.log (Real.log ↑n)) →
+          ↑k < Erdos684.fThr n
+Erdos684.unbounded_unconditional : ∀ (C : ℝ),
+  ∃ᶠ (n : ℕ) in Filter.atTop, ∀ (k : ℕ), ↑k ≤ C * Real.log ↑n → ↑k < Erdos684.fThr n
+Erdos684.main_theorem_limsup : 1 / 2 ≤
+  Filter.limsup
+    (fun n =>
+      ↑(Erdos684.fThr n) * ENNReal.ofReal (Real.log (Real.log (Real.log ↑n)) / (Real.log ↑n * Real.log (Real.log ↑n))))
+    Filter.atTop
+Erdos684.fThr_eq_top_iff : ∀ (n : ℕ), Erdos684.fThr n = ⊤ ↔ ∀ (k : ℕ), 1 ≤ k → k ≤ n → Erdos684.uPart n k ≤ n ^ 2
+@Erdos684.lt_fThr_iff : ∀ {n K : ℕ},
+  ↑K < Erdos684.fThr n ↔ ∀ (k : ℕ), 1 ≤ k → k ≤ K → k ≤ n → Erdos684.uPart n k ≤ n ^ 2
+@Erdos684.uPart_mul_eq_choose : ∀ {n k : ℕ},
+  k ≤ n → Erdos684.uPart n k * ∏ p ∈ (n.choose k).primeFactors with k < p, p ^ (n.choose k).factorization p = n.choose k
+def Erdos684.fThr : ℕ → ℕ∞ :=
+fun n => sInf ((fun k => ↑k) '' {k | 1 ≤ k ∧ k ≤ n ∧ n ^ 2 < Erdos684.uPart n k})
+def Erdos684.uPart : ℕ → ℕ → ℕ :=
+fun n k => ∏ p ∈ k.primesLE, p ^ (n.choose k).factorization p
+def Nat.primesLE : ℕ → Finset ℕ :=
+fun n => (n + 1).primesBelow
+def Erdos684.PNTHyp : Prop :=
+∃ C, ∀ (x : ℝ), 2 ≤ x → |Chebyshev.theta x - x| ≤ C * x / Real.log x ^ 2
+/home/exedev/MathDyad/erdos684/replay/Audit.lean:19:8: warning: declaration uses `sorry`
+'audit_ctl_sorry' depends on axioms: [sorryAx]
