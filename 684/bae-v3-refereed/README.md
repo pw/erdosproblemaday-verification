@@ -17,8 +17,9 @@ Source: arXiv e-print v3 sha256 8ce5187566651fdbadb2f4143e9026baac6442dd17feaadd
    unbounded_unconditional, main_theorem_limsup, main_theorem, pntHyp; statements and definitions printed;
    **negative control** `audit_ctl_sorry` prints [sorryAx].
    `fresh.sh`: `leanchecker --fresh Erdos684Lean` over the whole import closure (re-checks the cached Mathlib oleans);
-   its negative control (non-existent module) exits 1 (`fresh_negctl` row). The pass itself is recorded as the `fresh`
-   row of `steps.tsv` when it ends; until that row exists, the cached Mathlib oleans are trusted as downloaded.
+   its negative control (non-existent module) exits 1 (`fresh_negctl` row). **The pass exited 0** (`fresh` row,
+   2026-10-31T10:17:43Z, 3,706 s wall, peak RSS 8.2 GB, `logs/fresh.log`): the kernel re-checked the whole import
+   closure, cached Mathlib oleans included.
 2. **Literal values (`replay/Eval2.lean`, `numerics/`).** The formal f(n) (Lean's `uPart`, evaluated) for n ≤ 73 equals
    all 73 terms of OEIS A392019 (`b392019.txt`) and our trial-division table from the integer C(n,k) (`ftable.py`, n ≤ 60).
    Control: a mutant with primes < k (`mutation.py`) disagrees with OEIS at n = 28, 50, 51, 54.

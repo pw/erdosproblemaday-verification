@@ -1,4 +1,4 @@
-5e83704b6d60bece6a2d570af3f3a2b408c49990996e6d0a6705e92d4f24d223  ./README.md
+0fae409df2ed158c6861ba6b0c0600a423f60258e8365e0b2e9fa6f1185c6e60  ./README.md
 852ba0decb3dd673a317e5ea375379f4a4e400ecc4dbfc07e9bf5048e95c516a  ./bridge/Bridge684.lean
 56a3a7d85246aebb6367eb7df75c6c39f208edb75d3caeb118b2a009511123de  ./bridge/bridge.log
 a78dcc26510ccd5250835eaea10c0592a2568f8dea87f9747ae7fc8ead553788  ./bridge/check_verbatim.log
@@ -25,9 +25,10 @@ bb839fac27fb6b33c6722e4990fcdf2b5e031912e8ab69b166f1cce550de26f5  ./replay/logs/
 43c9362356ce5e1a4dbe64f6f044d46cca94806338b056b644784b9972c836d6  ./replay/logs/cache_get.log
 2adc4b2365d4c641d9b75ac3c322c96ce5e1d02e4a9dfef168b7cb59e4df9616  ./replay/logs/eval.log
 eb6011d0015dbd15fd4ca13834d2e907e233d9e8609ecdfc4a66a55938411396  ./replay/logs/eval2.log
+df367c9416b95a3474174de8f4bacb8dadc416c90fe0d9bbd954da54f3752737  ./replay/logs/fresh.log
 f5f84e9a3423d49e3ff0237dbc8139588334992d6025276a109d514faef7fe0d  ./replay/logs/fresh_negctl.log
 d1d9b735bb1e10690ff69c4ff0dddb298bca041a2f5d06e0193a68ca789c7f45  ./replay/run.sh
-6f8d012f23b889a15d5ed238960c9937fb67fb4034799c61a42987f62da7b3fa  ./replay/steps.tsv
+e4852f049c1c6ebe958a3daa3add90ec47f227aa9adfe4903ae27f2f1410b2cd  ./replay/steps.tsv
 b1a6d3489e72af602f08c200ddc80f65ef3ea0b5e8d79ff2fa8d5d6e78a015ac  ./seats/P/REPORT.md
 d8698afd4cfbf5fc9b37b57ce397572639c60766ac8a05590f2977fd708f9a81  ./seats/P/e2e_small.out
 2e1f9819c940fa47b0e742fa5d90251f0b94ef17e0337d399dfbaf0db6111dc8  ./seats/P/e2e_small.py
