@@ -1,0 +1,27 @@
+N=10000000
+max (Ups - (1-log2) x log x)/x over 2<=x<=N: 0.541754 at x=50  (claim <= 1.5; paper says 0.542 at x=50)
+any violation of <=1.5: False
+  max ratio over x>=1000: 0.304467 at x=2210
+  max ratio over x>=10000: 0.289091 at x=12772
+  max ratio over x>=100000: 0.163617 at x=100500
+  max ratio over x>=1000000: 0.125862 at x=1760955
+  max ratio over x>=81796: 0.177361 at x=81796
+  |S_2| bucket=0 formula(7)=0
+  |S_3| bucket=0 formula(7)=0
+  |S_10| bucket=6 formula(7)=6
+  |S_24| bucket=10 formula(7)=10
+  |S_25| bucket=15 formula(7)=15
+  |S_50| bucket=30 formula(7)=30
+  |S_100| bucket=45 formula(7)=45
+  |S_1000| bucket=433 formula(7)=433
+  |S_12345| bucket=4765 formula(7)=4765
+  |S_81796| bucket=29732 formula(7)=29732
+  |S_1000000| bucket=344298 formula(7)=344298
+  |S_10000000| bucket=3362156 formula(7)=3362156
+  Table2 x=1000: |S_x|/x=0.4330  Ups/(x log x)=0.3500
+  Table2 x=10000: |S_x|/x=0.3715  Ups/(x log x)=0.3180
+  Table2 x=100000: |S_x|/x=0.3582  Ups/(x log x)=0.3185
+  Table2 x=1000000: |S_x|/x=0.3443  Ups/(x log x)=0.3135
+  Table2 x=10000000: |S_x|/x=0.3362  Ups/(x log x)=0.3111
+  |S_x| < (1-log2)x+1.25506x/L+2.5x/L^2-1 on [81796,10000000]: violations=0, min slack/x=0.05643
+  Ups < (1-log2)xL+1.477x on [81796,10000000]: violations=0, min slack/x=1.29964

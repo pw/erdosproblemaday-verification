@@ -1,0 +1,12 @@
+M [2, 3, 4, 6, 8, 9, 12, 16, 18, 24] k>= 6 status OPTIMAL wall 0.0s
+checker.accept = True  max modulus 24
+M [2, 3, 4, 6, 8, 9, 12, 16, 18, 24] k>= 7 status INFEASIBLE wall 0.1s
+M [2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27, 30] k>= 10 status OPTIMAL wall 7.3s
+checker.accept = True  max modulus 30
+M [2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27, 30] k>= 11 status INFEASIBLE wall 9.8s
+M [2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27, 30, 32, 36] k>= 14 status OPTIMAL wall 28.6s
+checker.accept = True  max modulus 36
+M [2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27, 30, 32, 36, 40] k>= 15 status OPTIMAL wall 247.0s
+checker.accept = True  max modulus 40
+M [2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27, 30, 32, 36, 40, 45, 48] k>= 18 status OPTIMAL wall 309.1s
+checker.accept = True  max modulus 48

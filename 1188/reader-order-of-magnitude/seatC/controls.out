@@ -1,0 +1,12 @@
+positive control [(0, 2), (0, 3), (1, 4), (5, 6), (7, 12)]
+  covers True distinct True minimal_private True minimal_subfamily True -> ACCEPT
+negative control (+ 3 mod 8) [(0, 2), (0, 3), (1, 4), (5, 6), (7, 12), (3, 8)]
+  covers True distinct True minimal_private False minimal_subfamily False -> REJECT
+negative control (minus (0, 2)) covers False minimal_private False -> REJECT
+negative control (minus (0, 3)) covers False minimal_private False -> REJECT
+negative control (minus (1, 4)) covers False minimal_private False -> REJECT
+negative control (minus (5, 6)) covers False minimal_private False -> REJECT
+negative control (minus (7, 12)) covers False minimal_private False -> REJECT
+negative control (0 mod 2, 1 mod 2: covers+minimal but moduli not distinct) covers True minimal_private True distinct False -> REJECT
+paper 18-class example (x=48): n=18 distinct True covers True minimal_private True max modulus 48
+paper 14-class example (divisors of 216): n=14 distinct True covers True minimal_private True; moduli = all divisors of 216 except 1,2: True

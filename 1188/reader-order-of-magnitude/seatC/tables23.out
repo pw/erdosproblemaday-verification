@@ -1,0 +1,21 @@
+sieve done, primes up to N: 5761455
+Table 2 (left): x, P(x), Lambda(x)/x
+  1e4  P=97  Lambda/x=0.2825
+  1e6  P=997  Lambda/x=0.4022
+  1e8  P=9973  Lambda/x=0.4398
+  1e10  P=99991  Lambda/x=0.4538
+  1e12  P=999983  Lambda/x=0.4617
+Table 2 (right): x, |S_x|/x, Upsilon/(x log x)
+  1e3  |S_x|=433  |S_x|/x=0.4330  Upsilon/(x log x)=0.3500
+  1e4  |S_x|=3715  |S_x|/x=0.3715  Upsilon/(x log x)=0.3180
+  1e5  |S_x|=35818  |S_x|/x=0.3582  Upsilon/(x log x)=0.3185
+  1e6  |S_x|=344298  |S_x|/x=0.3443  Upsilon/(x log x)=0.3135
+  1e8  |S_x|=33268089  |S_x|/x=0.3327  Upsilon/(x log x)=0.3114
+Table 3: x, |U_x|, |U_x| log x/x, sum_{U_x} log(n+1)/x
+  1e3  |U_x|=299  2.0654  1.5917
+  1e4  |U_x|=1742  1.6044  1.2847
+  1e5  |U_x|=12495  1.4385  1.2002
+  1e6  |U_x|=91157  1.2594  1.0788
+  1e7  |U_x|=714810  1.1521  1.0071
+smallest balanced integers: [30, 60, 70, 84, 90, 105, 120, 126, 132, 140]
+time 53.08s mem 1663704KB

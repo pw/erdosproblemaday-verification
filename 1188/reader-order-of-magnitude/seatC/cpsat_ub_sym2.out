@@ -1,0 +1,4 @@
+== x=36 k>=15 (sym+sym2)
+M [2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27, 30, 32, 36] k>= 15 status INFEASIBLE wall 601.2s
+== x=40 k>=16 (sym+sym2)
+--- killed at 11:00Z per coordinator (if still running)

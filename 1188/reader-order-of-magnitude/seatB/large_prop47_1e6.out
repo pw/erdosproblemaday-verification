@@ -1,0 +1,12 @@
+[prop47] X=1000000: I=[17, 19, 23, 29, 31], |G|=30 (G=[503, 509, 521]..[683, 691]), sum N_pc=7192, log prod N_pc! = 21527.9
+[prop47] X=1000000 P=701 |I|=5 classes=46984 split classes=7192 max modulus=999821
+[prop47] distinct moduli: True; paddings divide M_F(q) & coprime to j: True
+[prop47] private integers: each in exactly its own class: True (count histogram [0, 46984])
+[prop47] covering samples: 109702 points (344 split fibres EXHAUSTIVE over their splitter residues in the hard set = 7192 pts, +10 soft pts each; 39435 fibres x2 (one hard, one soft); 200 M_F(P)-multiples; 20000 uniform); uncovered: 0   (52s)
+PROP47 RESULT: PASS
+[neg] NEGATIVE controls on this instance (each must FAIL):
+[neg]  (a) delete leaf (503, 181, ((17, 0),)) (modulus 564366):
+[neg]      its private integer now lies in 0 classes (must be 0); private-integer rows with count 0: 1
+[neg]      exhaustive hard-mode rows of fibre (503, 181): uncovered 1 of 17 (expected 1 = prod(labels)/e)
+[neg]      4000 random fibre points with RANDOM residue mod P: uncovered 0  (weak test: B_t and classes of other levels cover almost every such point; this is why the hard mode is used)
+[neg]  (b) duplicate padding in group (q=503, e=17): distinct moduli = False

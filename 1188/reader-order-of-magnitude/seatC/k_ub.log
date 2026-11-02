@@ -1,0 +1,4 @@
+=== 10:06:30 python3 kenc.py --x 36 --k 15
+RESULT TIMEOUT time 1800.2s
+=== 10:36:43 python3 kenc.py --x 40 --k 16
+--- stopped by seat C at 10:38:38: x=36 k>=15 timed out at 1800 s; x=40/x=48 UB queries not attempted with kissat (projected timeouts); UB moved to CP-SAT with stronger symmetry breaking

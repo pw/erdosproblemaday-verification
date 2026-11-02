@@ -1,0 +1,5 @@
+x=1e8: |I|=13 |G|=458  sum N/x=0.0141  sum log N!/(x log x)=0.0035  Lambda/(x log x)=0.0239  capacity ok=True
+x=1e10: |I|=40 |G|=4741  sum N/x=0.0190  sum log N!/(x log x)=0.0050  Lambda/(x log x)=0.0197  capacity ok=True
+x=1e12: |I|=114 |G|=45247  sum N/x=0.0217  sum log N!/(x log x)=0.0060  Lambda/(x log x)=0.0167  capacity ok=True
+x=1e14: |I|=332 |G|=417491  sum N/x=0.0244  sum log N!/(x log x)=0.0069  Lambda/(x log x)=0.0145  capacity ok=True
+paper Table 4: 1e8: 13 458 0.0141 0.0035 0.0239 | 1e10: 40 4741 0.0190 0.0050 0.0197 | 1e12: 114 45247 0.0217 0.0060 0.0167 | 1e14: 332 417491 0.0244 0.0069 0.0145 | 1e16: 979 3807376 0.0263 0.0076 0.0128
