@@ -1,0 +1,4 @@
+POSITIVE control {0(2),0(3),1(4),5(6),7(12)}: {'covering': True, 'minimal': True, 'distinct': True, 'L': 12, 'k': 5, 'maxmod': 12, 'uncovered': 0, 'no_private': []} => ok
+NEGATIVE control, drop 7(12): {'covering': False, 'minimal': True, 'distinct': True, 'L': 12, 'k': 4, 'maxmod': 6, 'uncovered': 1, 'no_private': []} => NOT ok
+NEGATIVE control, add redundant 0(8): {'covering': True, 'minimal': False, 'distinct': True, 'L': 24, 'k': 6, 'maxmod': 12, 'uncovered': 0, 'no_private': [(0, 8)]} => NOT ok
+NEGATIVE control, {0(2),1(2)} (not distinct): {'covering': True, 'minimal': True, 'distinct': False, 'L': 2, 'k': 2, 'maxmod': 2, 'uncovered': 0, 'no_private': []} => NOT ok

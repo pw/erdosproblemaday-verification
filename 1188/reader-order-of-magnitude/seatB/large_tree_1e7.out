@@ -1,0 +1,12 @@
+[tree] X=10000000 K=10: split levels=21, max depth=2, sum_d L_p(d) over D_p = 2234, log prod L_p(d)! = 5988.2
+[tree] X=10000000 P=997 |I|=4 classes=78654 split classes=2661 max modulus=9999548
+[tree] distinct moduli: True; paddings divide M_F(q) & coprime to j: True
+[tree] private integers: each in exactly its own class: True (count histogram [0, 78654])
+[tree] covering samples: 709981 points (33 split fibres EXHAUSTIVE over their splitter residues in the hard set = 539393 pts, +10 soft pts each; 75029 fibres x2 (one hard, one soft); 200 M_F(P)-multiples; 20000 uniform); uncovered: 0   (318s)
+TREE RESULT: PASS
+[neg] NEGATIVE controls on this instance (each must FAIL):
+[neg]  (a) delete leaf (251, 38, ((19, 0), (17, 0))) (modulus 7620862):
+[neg]      its private integer now lies in 0 classes (must be 0); private-integer rows with count 0: 1
+[neg]      exhaustive hard-mode rows of fibre (251, 38): uncovered 1 of 323 (expected 1 = prod(labels)/e)
+[neg]      4000 random fibre points with RANDOM residue mod P: uncovered 0  (weak test: B_t and classes of other levels cover almost every such point; this is why the hard mode is used)
+[neg]  (b) duplicate padding in group (q=251, e=19): distinct moduli = False

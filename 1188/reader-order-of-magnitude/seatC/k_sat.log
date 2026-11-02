@@ -1,0 +1,21 @@
+=== 09:33:01 python3 kenc.py --x 12 --k 5
+RESULT SAT time 0.1s
+SYSTEM (5 classes): 1/2 2/3 2/4 4/6 0/12
+checker.accept = True  max modulus 12
+=== 09:33:02 python3 kenc.py --x 12 --k 6
+RESULT UNSATISFIABLE time 0.1s
+=== 09:33:02 python3 kenc.py --x 24 --k 6
+RESULT SAT time 0.2s
+SYSTEM (6 classes): 1/2 1/3 2/4 2/6 4/8 0/24
+checker.accept = True  max modulus 24
+=== 09:33:02 python3 kenc.py --x 24 --k 7
+RESULT UNSATISFIABLE time 0.2s
+=== 09:33:03 python3 kenc.py --x 30 --k 10
+RESULT SAT time 389.0s
+SYSTEM (10 classes): 1/2 2/4 3/5 0/8 2/10 4/12 6/15 4/20 20/24 0/30
+checker.accept = True  max modulus 30
+=== 09:39:39 python3 kenc.py --x 30 --k 11
+RESULT UNSATISFIABLE time 637.6s
+=== 09:50:23 python3 kenc.py --x 36 --k 14
+RESULT None time 950.2s
+t C at 10:06:26: x=36 k>=14 witness query (kissat) ran ~17 min without answer; witnesses moved to cpsat_witness.py, UB queries to run_k_ub.sh
