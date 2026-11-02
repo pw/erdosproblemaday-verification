@@ -1,6 +1,0 @@
-Ex 4.4: {'covering': True, 'minimal': True, 'distinct': True, 'L': 360360, 'k': 40, 'maxmod': 330} split classes: [(45, 55), (56, 110), (12, 165), (188, 220), (144, 330)]
-Ex 4.4: 6720 of 6720 padding choices give minimal distinct coverings with moduli <= 600; 6720 pairwise distinct systems  (46s)
-Ex 4.5: {'covering': True, 'minimal': True, 'distinct': True, 'L': 360360, 'k': 40, 'maxmod': 2310}
-        split classes: [(1, 77), (100, 154), (45, 231), (144, 308), (210, 385), (12, 462), (496, 616), (56, 770), (672, 1155), (1288, 1540), (1134, 2310)]
-Ex 4.5: all 120 orderings of the I-part-35 paddings: 120/120 ok, 120 distinct
-Ex 4.5: 3000 choices of the I-part-7 paddings: 3000 ok, 3000 distinct (19s)

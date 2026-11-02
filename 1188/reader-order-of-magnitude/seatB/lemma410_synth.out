@@ -1,9 +1,0 @@
-trial 0: I=[11, 17, 29] |D|=6 |N|=7 N_1=9 leaves=443 max depth=3
-trial 1: I=[11, 13, 17, 19, 29] |D|=28 |N|=29 N_1=28 leaves=1944 max depth=5
-trial 2: I=[11, 17] |D|=2 |N|=3 N_1=7 leaves=153 max depth=2
-trial 3: I=[11, 29, 31] |D|=7 |N|=7 N_1=14 leaves=546 max depth=3
-trial 4: I=[13, 17, 19, 23] |D|=7 |N|=8 N_1=21 leaves=671 max depth=3
-trial 50: I=[13, 17, 23, 31] |D|=14 |N|=15 N_1=16 leaves=1408 max depth=4
-trial 100: I=[23, 29, 31] |D|=7 |N|=7 N_1=28 leaves=1606 max depth=3
-trial 150: I=[11, 13, 17, 19, 29, 31] |D|=60 |N|=61 N_1=37 leaves=4367 max depth=6
-Lemma 4.10 bookkeeping: 200 synthetic trials passed (identity, bounds, decreasing labels, partition)

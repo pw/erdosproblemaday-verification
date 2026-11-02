@@ -1,5 +1,0 @@
-systems loaded: 216  distinct: 216
-failing re-verification (accept + subfamily-minimality): 0
-moduli sets: {(2, 4, 6, 8, 12, 24): 48, (2, 3, 6, 8, 12, 24): 48, (2, 3, 4, 8, 12, 24): 48, (2, 3, 4, 6, 12): 24, (2, 3, 4, 6, 8, 24): 48}
-class counts: {6: 192, 5: 24}
-systems with moduli <= 12: 24  orbit of (1) under z->+-z+b has 24 elements; equal: True

@@ -1,4 +1,0 @@
-random minimal coverings tested: 3200; (system,prime) pairs: 6339; failures of Thm 1.3: 0
-NEG CONTROL non-minimal {0 mod 2, 1 mod 2, 0 mod 3}: [(2, True, 1.0, 2), (3, False, 0.3333333333333333, 1)]
-POS CONTROL classical: [(2, True, 1.5, 4), (3, True, 1.0, 3)]
-3088/3200 tested systems have repeated moduli; classes per system min/median/max = 2/5/35

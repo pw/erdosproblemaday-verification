@@ -1,4 +1,0 @@
-base instance: {'covering': True, 'minimal': True, 'distinct': True, 'k': 107}
-hypothesis check: T3 iota  tau2 = [1, 2574, 1287, 858, 429, 286, 234, 9, 198, 143, 3, 13, 117, 99, 2, 11, 78]
-tau with v_2 <= 1: {'covering': True, 'minimal': False, 'distinct': True} classes without a private integer: [(8, 16)]
-=> minimal distinct covering: False

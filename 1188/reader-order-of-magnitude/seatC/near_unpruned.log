@@ -1,4 +1,0 @@
-x=14 L 27720 nodes 5919459 TOTAL 24  x=14 time 19.58s mem 3384KB
-x=15 L 27720 nodes 35835283 TOTAL 24  x=15 time 128.19s mem 3428KB
-x=16 L 55440 nodes 229266410 TOTAL 24  x=16 time 1096.70s mem 4344KB
-x=18 near-unpruned killed by seat C after ~8 min (x=16 took 1097 s with 2.3e8 nodes; x=18 projected > 30 min)
