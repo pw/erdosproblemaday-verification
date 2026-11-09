@@ -1,0 +1,6 @@
+3/(1*5000!-1): og length 5001; certificate rc=0 length 5001 -> OK
+3/(2*5000!-1): og length 5001; certificate rc=0 length 5001 -> OK
+3/(1*10000!-1): og length 10005; certificate rc=0 length 10005 -> OK
+3/(2*10000!-1): og length 10005; certificate rc=0 length 10005 -> OK
+3/(1*20000!-1): og length 20025; certificate rc=0 length 20025 -> OK
+3/(2*20000!-1): og length 20013; certificate rc=0 length 20013 -> OK

@@ -1,0 +1,316 @@
+{
+ "family1": {
+  "count": 2998,
+  "all_odd": true,
+  "brown": true,
+  "over_max": 56,
+  "over_argmax": [
+   2146
+  ],
+  "over_mean100": 5.87,
+  "L_minus_N_max": 60,
+  "L_minus_N_argmax": [
+   1921
+  ],
+  "after_ramp_max": 22,
+  "after_ramp_argmax": [
+   2588,
+   2594,
+   2596,
+   2598,
+   2599
+  ],
+  "maxnum_max": 16528,
+  "how": {
+   "fatal": 1562,
+   "break-composite": 1268,
+   "break-prime": 59,
+   "ends-composite": 12
+  },
+  "vs_first_prime_100": {
+   "at": 1247,
+   "past": 1015,
+   "before": 639
+  }
+ },
+ "family2": {
+  "count": 2998,
+  "all_odd": true,
+  "brown": true,
+  "over_max": 53,
+  "over_argmax": [
+   2485
+  ],
+  "over_mean100": 7.31,
+  "L_minus_N_max": 52,
+  "L_minus_N_argmax": [
+   2485
+  ],
+  "after_ramp_max": 22,
+  "after_ramp_argmax": [
+   2592,
+   2595,
+   2596,
+   2598,
+   2600
+  ],
+  "maxnum_max": 14374,
+  "how": {
+   "break-composite": 1444,
+   "fatal": 1387,
+   "ends-composite": 14,
+   "break-prime": 56
+  },
+  "vs_first_prime_100": {
+   "past": 1460,
+   "at": 837,
+   "before": 604
+  }
+ },
+ "big": [
+  [
+   5000,
+   1,
+   5001,
+   5002,
+   [
+    1
+   ]
+  ],
+  [
+   5000,
+   2,
+   5001,
+   5002,
+   [
+    1
+   ]
+  ],
+  [
+   10000,
+   1,
+   10005,
+   10005,
+   [
+    2,
+    1
+   ]
+  ],
+  [
+   10000,
+   2,
+   10005,
+   10005,
+   [
+    2,
+    1
+   ]
+  ]
+ ],
+ "selected": {
+  "10/1": [
+   9,
+   10,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "10/2": [
+   13,
+   13,
+   [
+    4,
+    1
+   ],
+   "break-composite"
+  ],
+  "20/1": [
+   21,
+   21,
+   [
+    2,
+    1
+   ],
+   "break-composite"
+  ],
+  "20/2": [
+   21,
+   22,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "50/1": [
+   59,
+   60,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "50/2": [
+   61,
+   59,
+   [
+    74,
+    5,
+    4,
+    1
+   ],
+   "break-composite"
+  ],
+  "100/1": [
+   99,
+   100,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "100/2": [
+   109,
+   107,
+   [
+    100,
+    157,
+    4,
+    1
+   ],
+   "break-composite"
+  ],
+  "200/1": [
+   205,
+   201,
+   [
+    2,
+    3,
+    4,
+    5,
+    2,
+    1
+   ],
+   "break-composite"
+  ],
+  "200/2": [
+   213,
+   206,
+   [
+    359,
+    298,
+    253,
+    2,
+    3,
+    4,
+    5,
+    2
+   ],
+   "break-composite"
+  ],
+  "500/1": [
+   501,
+   501,
+   [
+    2,
+    1
+   ],
+   "break-composite"
+  ],
+  "500/2": [
+   519,
+   520,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "1000/1": [
+   1011,
+   1012,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "1000/2": [
+   1005,
+   1005,
+   [
+    2,
+    1
+   ],
+   "break-composite"
+  ],
+  "2000/1": [
+   2009,
+   2010,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "2000/2": [
+   2001,
+   2002,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "3000/1": [
+   2999,
+   3000,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "3000/2": [
+   3009,
+   3010,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "5000/1": [
+   5001,
+   5002,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "5000/2": [
+   5001,
+   5002,
+   [
+    1
+   ],
+   "fatal"
+  ],
+  "10000/1": [
+   10005,
+   10005,
+   [
+    2,
+    1
+   ],
+   "break-composite"
+  ],
+  "10000/2": [
+   10005,
+   10005,
+   [
+    2,
+    1
+   ],
+   "break-composite"
+  ]
+ },
+ "scan": {
+  "n": 20263332,
+  "third_sentence": "Restricted to <em>x</em> &lt; 1/3, where the not-used-before rule never binds and the classical examples live, there are 6,754,437 fractions. The unique longest is 373/6893, with 29 terms, and three need 28: 162/5809, 580/6563 and 1668/8069. Bailey and Brown's 5/5809 is one of four 27-term fractions in range."
+ }
+}

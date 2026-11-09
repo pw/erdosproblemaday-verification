@@ -1,0 +1,63 @@
+== literature controls (og one a b): numerator sequence, then length
+4/23: 4,5,4,1 length=4 maxnum=5 
+3/179: 3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,2,3,4,1 length=19 maxnum=17 
+5/139: 5,6,7,8,9,10,11,12,13,14,15,16,17,26,51,2,3,4,1 length=19 maxnum=51 
+5/5809: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,1 length=27 maxnum=30 
+5/1444613: 5,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,43,64,1 length=37 maxnum=64 
+== OEIS A030541-A030546, A031285 vs og
+A030541 named   2/588391: data equals og's full sequence for ['5/5809']  (27 numerators)
+A030542 named   4/538199: data equals og's full sequence for ['2/588391']  (28 numerators)
+A030543 named    3/46547: data equals og's full sequence for ['4/538199']  (28 numerators)
+A030544 named    2/24631: data equals og's full sequence for ['3/46547']  (29 numerators)
+A030545 named   6/104651: data equals og's full sequence for ['2/24631']  (30 numerators)
+A030546 named     5/5809: data equals og's full sequence for ['6/104651']  (30 numerators)
+A031285 named  5/1444613: data equals og's full sequence for ['5/1444613']  (37 numerators)
+== Pihko 2010 Table 4 and Theorem 3.5
+Table 4 (3/(24t-1), t=1..10): 10 / 10 identical
+Theorem 3.5 (2/(2(p-1)!-1) -> 2..p-1,1), odd primes 5..397: 76 / 76
+== July exact checker's histogram, b <= 999
+identical to the July exact-Fraction histogram 202660
+== mutations
+true b<=199:     HIST 1:99 2:338 3:731 4:1104 5:1184 6:1062 7:897 8:730 9:614 10:482 11:365 12:235 13:128 14:76 15:36 16:32 17:14 18:10 19:6 20:6 21:1
+parity flipped:  HIST 1:99 2:513 3:1437 4:1853 5:1324 6:823 7:630 8:530 9:416 10:294 11:147 12:62 13:15 14:7
+g=1: BUG: a_k divides b_k (gcd invariant)
+== replay engine vs fast engine, every 3 <= N <= 400, both families (full traces)
+mismatches: 0 / 796
+== fixed-modulus engine vs og at N = 500, 1000 (full traces, from fixedmod_*.out)
+N=500 m=1 identical
+N=500 m=2 identical
+N=1000 m=1 identical
+N=1000 m=2 identical
+== certificates: records + 3000 random fractions + corrupted claims
+2086/2381: og length 32; certificate rc=0 length 32 -> OK
+7734/7829: og length 32; certificate rc=0 length 32 -> OK
+7990/8111: og length 32; certificate rc=0 length 32 -> OK
+8328/8581: og length 32; certificate rc=0 length 32 -> OK
+373/6893: og length 29; certificate rc=0 length 29 -> OK
+881/937: og length 27; certificate rc=0 length 27 -> OK
+corrupted 3/179 at every one of its 19 positions: accepted 0 [] (all rejected)
+corrupted 2086/2381 at every one of its 32 positions: accepted 0 [] (all rejected)
+corrupted 5/5809 at every one of its 27 positions: accepted 0 [] (all rejected)
+corrupted 881/937 at every one of its 27 positions: accepted 0 [] (all rejected)
+corrupted 2/3 at every one of its 4 positions: accepted 0 [] (all rejected)
+random sample: 3000 fractions with odd b < 10^4, certified 3000, problems 0 []
+== Brown's coverage table and counts
+p=5: Brown [3, 3, 2, 0, 0, 0, 0, 0, 0, 0] ours [3, 3, 2, 2, 0, 0, 0, 0, 0, 0]
+p=7: Brown [5, 4, 4, 4, 2, 0, 0, 0, 0, 0] ours [5, 4, 4, 4, 3, 2, 0, 0, 0, 0]
+p=11: Brown [5, 7, 8, 9, 9, 6, 4, 2, 2, 0] ours [5, 7, 8, 9, 9, 6, 4, 2, 4, 2]
+Brown's table: 41 of 44 rows identical (p = 13 .. 199 except those printed above)
+50! counts, m=N!: covered 4 of 10 primes in (50,100)   [Brown wrote: 6 of 10]
+50! counts, m=N!/2: covered 6 of 10 primes in (50,100)   [Brown wrote: 6 of 10]
+100! counts, m=N!: covered 10 of 21 primes in (100,200)   [Brown wrote: 10 of 20]
+100! counts, m=N!/2: covered 10 of 21 primes in (100,200)   [Brown wrote: 10 of 20]
+500! counts, m=N!: covered 36 of 73 primes in (500,1000)   [Brown wrote: 32 of 64]
+500! counts, m=N!/2: covered 36 of 73 primes in (500,1000)   [Brown wrote: 32 of 64]
+== mod-p collapse (covered / fatal / neither at numerator p)
+p=11: covered (z=-1) 8, fatal (z=0) 3, neither 0; distinct end states 2
+p=13: covered (z=-1) 6, fatal (z=0) 6, neither 1; distinct end states 3
+p=101: covered (z=-1) 18, fatal (z=0) 79, neither 4; distinct end states 3
+p=103: covered (z=-1) 21, fatal (z=0) 44, neither 38; distinct end states 4
+p=503: covered (z=-1) 229, fatal (z=0) 156, neither 118; distinct end states 3
+p=1009: covered (z=-1) 670, fatal (z=0) 257, neither 82; distinct end states 3
+p=2003: covered (z=-1) 596, fatal (z=0) 1407, neither 0; distinct end states 2
+fixed points 0 and -1 verified for p = 101, 1009

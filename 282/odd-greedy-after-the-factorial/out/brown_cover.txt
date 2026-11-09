@@ -1,0 +1,10 @@
+p=5: Brown [3, 3, 2, 0, 0, 0, 0, 0, 0, 0] ours [3, 3, 2, 2, 0, 0, 0, 0, 0, 0]
+p=7: Brown [5, 4, 4, 4, 2, 0, 0, 0, 0, 0] ours [5, 4, 4, 4, 3, 2, 0, 0, 0, 0]
+p=11: Brown [5, 7, 8, 9, 9, 6, 4, 2, 2, 0] ours [5, 7, 8, 9, 9, 6, 4, 2, 4, 2]
+Brown's table: 41 of 44 rows identical (p = 13 .. 199 except those printed above)
+50! counts, m=N!: covered 4 of 10 primes in (50,100)   [Brown wrote: 6 of 10]
+50! counts, m=N!/2: covered 6 of 10 primes in (50,100)   [Brown wrote: 6 of 10]
+100! counts, m=N!: covered 10 of 21 primes in (100,200)   [Brown wrote: 10 of 20]
+100! counts, m=N!/2: covered 10 of 21 primes in (100,200)   [Brown wrote: 10 of 20]
+500! counts, m=N!: covered 36 of 73 primes in (500,1000)   [Brown wrote: 32 of 64]
+500! counts, m=N!/2: covered 36 of 73 primes in (500,1000)   [Brown wrote: 32 of 64]
