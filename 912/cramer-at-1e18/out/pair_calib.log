@@ -1,0 +1,4 @@
+1e15: gap=348987 pair_full=283973 (0.814)  z19: exact 331788 pair 273392 F19=1.2136  z5: F5=1.1788  calibrated pair_full*F19/gap=0.9875
+1e16: gap=1026994 pair_full=845454 (0.823)  z19: exact 975602 pair 812314 F19=1.2010  z5: F5=1.1675  calibrated pair_full*F19/gap=0.9887
+1e17: gap=3038563 pair_full=2524290 (0.831)  z19: exact 2879843 pair 2420583 F19=1.1897  z5: F5=1.1574  calibrated pair_full*F19/gap=0.9884
+1e18: gap=9000142 pair_full=7556373 (0.840)  z19: exact 8530724 pair 7232045 F19=1.1796  z5: F5=1.1485  calibrated pair_full*F19/gap=0.9904

@@ -1,0 +1,53 @@
+A357391 COMPUTATION AUDIT SUMMARY
+================================
+
+Proposed new terms
+------------------
+a(7) = 1784800612
+a(8) = 165493254306
+
+a(7) exact-run boundary
+-----------------------
+n = 1784800611..1784800619
+A071626 = 23962, 23962, 23961, 23960, 23959, 23958, 23957, 23956, 23956
+Candidate starts eliminated through: 1784800611
+Independent verification completed through: 1784800619
+
+a(8) exact-run boundary
+-----------------------
+n = 165493254305..165493254314
+A071626 = 207878, 207878, 207877, 207876, 207875, 207874, 207873, 207872, 207871, 207871
+Candidate starts eliminated through: 165493254305
+Independent verification completed through: 165493254314
+Independent verifier checkpoint CRC64-ECMA: 409a0fb482e499ac
+
+Independent methods
+-------------------
+a(7) discovery: segmented factorization, linked factor entries, incremental exponent-frequency state.
+a(7) verification: full odd-prime bitset/index with stored factorial exponents.
+a(8) discovery: segmented factorization, linked factor entries, incremental exponent-frequency state.
+a(8) verification: odd-only base sieve, fixed factor planes, direct Legendre exponent calculation, CRC64 checkpoint.
+
+Source SHA-256
+-------------
+df5e818b043f0ff1cf1741841f7acf9fbe7a7718686c425a44ab964044f965ed  src/a357391_a7_search.cpp
+3ca21427bfb0588fb0d1873b9d0f9662c22250632bf25feb81f9765bbd0fbd8a  src/a357391_a7_verify.cpp
+e078cb103c6cf1aa4ad6cc485c838d19eb7e4cdb43aa48677d8247c773ea75ea  src/a357391_a8_search.cpp
+f8c1ce9f1d90a5a7a2780b9651dfa6ce0d65224c28fca0219429be8257cf4748  src/a357391_a8_verify.cpp
+
+Evidence-chain SHA-256
+---------------------
+c8eba3c86f4cc3efc5f2a8e7a9dcdcf067cc13346ddb0e9b4331f76020168ae1  a(7) candidate evidence
+42c9fdebb2b1fd289172e67872765a04ec1ff68e6bee2d92aa7ca172ec4dbc5c  a(7) verified evidence
+28c81be916be2e77e3f3b2178558284c9d39401a93f379b3f9103991d8422bfc  a(8) candidate evidence, containing the verified a(7) chain
+9932ce6a6ff9b78803eef3153b610da6df7932e357b81204df54d8eb7e0c5b1f  final verified a(7)+a(8) master evidence
+
+Final archive audit
+-------------------
+- Outer and nested ZIP integrity: PASS.
+- Every source, binary, input, log, checkpoint and result manifest: PASS.
+- Fresh compilation of the a(8) verifier: PASS with strict warning flags.
+- Reload of the completed a(8) checkpoint: PASS.
+- Replayed result: a(8) = 165493254306, status INDEPENDENTLY_VERIFIED.
+- Reference, resume, stop-path, corruption, 64-bit-count and sanitizer tests: PASS.
+- Full clean-archive regression suite: ALL_TESTS_PASS.

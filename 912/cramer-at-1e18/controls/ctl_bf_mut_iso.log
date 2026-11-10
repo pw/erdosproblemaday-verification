@@ -1,0 +1,8 @@
+CP n=10 h=4 ratio=1.919410
+CP n=100 h=11 ratio=2.360563
+CP n=1000 h=31 ratio=2.576500
+CP n=10000 h=87 ratio=2.640323
+CP n=100000 h=252 ratio=2.703917
+CP n=1000000 h=723 ratio=2.687335
+CP n=10000000 h=2087 ratio=2.649594
+N=10000000 (steps n->n+1 with n+1 <= N) steps: up=283889 down=281802 zero=9434308 | failA=0 failI=150403 (checks 23719321) failR=0 failQ=0

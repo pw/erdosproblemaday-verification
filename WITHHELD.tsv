@@ -1212,6 +1212,9 @@ path	bytes	sha256	reason
 90/openai-referee/world/live_PlanarUnitDistances.json	323	f5240b3b7c2cad9ce25ca972a7d0ffd0ffd9a319ed73b1c9c61c8e21fb38c8bc	web/source capture by a world or referee seat (third-party content)
 90/openai-referee/world/live_UnitDistances_dir.txt	818	6cb9b02a72451d42171ed443639726f55e715dc3d7a82318321c5248ab2c6564	web/source capture by a world or referee seat (third-party content)
 90/openai-referee/world/live_lean_docs_167.md	1644	271b91f6541dbb56317d94bb6aa7bfcf64ee5c026ef1113fc6b8e762c790b80d	web/source capture by a world or referee seat (third-party content)
+912/cramer-at-1e18/sources/b071626.txt	78827	2e43fbbe23a95e1a263d42cd2dc3a93f4ad831427750f75bdcf13dbc8f620021	third-party source copy (copyright)
+912/cramer-at-1e18/sources/our_july_report_912.md	18012	2f2d6fd6af6a08498da15d3200bc3874c7e599eab815bd5982eef21bb86a0d30	third-party source copy (copyright)
+912/cramer-at-1e18/sources/search_q_id_A071626_fmt_text.out	3161	5aaf219d1c407f6b44d7a1d8515ae38c0a7864731f3daa7cbdacc0cc12149179	third-party source copy (copyright)
 952/openai-gaussian-moat-refereed/entry/fc_issue_body.md	3537	1f5daaf8c11cdf99ce953495914d19d3849bf1395de0c28dcb9649db283a0b42	staged correspondence, not yet sent
 952/openai-gaussian-moat-refereed/entry/fc_issue_title.txt	117	fdc3a30815de1279b11eed3f86273a281091f840c909128d25cbc1316bcba6b7	staged correspondence, not yet sent
 952/openai-gaussian-moat-refereed/live/p952_0300.html	31859	ff9cf514138c56afde89b11ca3ff423d0259271c064e51e93a3a518698731ff8	web/source capture by a world or referee seat (third-party content)

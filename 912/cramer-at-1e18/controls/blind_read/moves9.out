@@ -1,0 +1,10 @@
+steps 4000000  with Q>sqrt(m): 2881859  k>=KMIN: 1484219
+real local share near 1e9: 0.0426  (up 0.0213, down 0.0213)
+Cramer conditional on the same events: 0.0528
+  P(A): real 0.2651 Cramer 0.2435   P(B): real 0.2651 Cramer 0.2435
+  P(A&B): real 0.2076  product-of-real-marginals-per-bin: 0.2110
+independence with REAL binned marginals: 0.0401
+events/W real 0.3711  model sum_k 1/(k log(n/k)) 0.3713
+decade bf 1e8-1e9 share 0.0444; model local at 1e9 (move_density.log) 0.0560
+moves with k<=L: 0.0040   k>L: 0.0386   (1/log n = 0.0483)
+max over k<=L of #A(k)/bound: 0.3460652280654956

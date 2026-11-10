@@ -1,0 +1,1 @@
+1e18: h=397503133 ratio=2.559085 | pi(s)=50847534 model_small=50849234.3 | J=346655599 E_C[J]=337655456.9 sd=10719.9 Z=+839.6 | E_C[h]/scale=2.501154  G-I formula/scale=2.504580 | E_z19[J]=346186180.4 Z19=+47.0 | (J-E_C)/scale=0.05794  x logn/loglogn=0.6448 | residual frac after z19=0.052

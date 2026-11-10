@@ -1,0 +1,7 @@
+# D_full(10) = -13.312  vs -H logH/2 + A H = -18.588   D_19=-12.966
+# D_full(30) = -58.902  vs -H logH/2 + A H = -72.244   D_19=-54.798
+# D_full(100) = -249.174  vs -H logH/2 + A H = -301.013   D_19=-207.878
+# D_full(1000) = -3658.763  vs -H logH/2 + A H = -4161.424   D_19=-2355.034
+1e16: pair-only predicted dE[J]: full HL = 845453.9  z=19 = 812314.0  z=5 = 688692.5   | full/scale = 0.05132  (x L/LL = 0.5242)
+1e17: pair-only predicted dE[J]: full HL = 2524289.7  z=19 = 2420583.4  z=5 = 2041194.9   | full/scale = 0.04994  (x L/LL = 0.5331)
+1e18: pair-only predicted dE[J]: full HL = 7556371.8  z=19 = 7232044.5  z=5 = 6067513.8   | full/scale = 0.04865  (x L/LL = 0.5414)

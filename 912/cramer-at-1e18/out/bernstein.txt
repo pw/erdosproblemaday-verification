@@ -1,0 +1,8 @@
+1e15 cramer: J-E=348987.1 sd=1959.7 Z=+178.1  Bernstein P <= 10^-6684
+1e15 z=19: J-E=17199.1 sd=1783.5 Z=+9.6  Bernstein P <= 10^-20
+1e16 cramer: J-E=1026993.9 sd=3451.8 Z=+297.5  Bernstein P <= 10^-18685
+1e16 z=19: J-E=51391.7 sd=3169.2 Z=+16.2  Bernstein P <= 10^-57
+1e17 cramer: J-E=3038563.5 sd=6082.0 Z=+499.6  Bernstein P <= 10^-52755
+1e17 z=19: J-E=158720.8 sd=5625.9 Z=+28.2  Bernstein P <= 10^-173
+1e18 cramer: J-E=9000142.1 sd=10719.9 Z=+839.6  Bernstein P <= 10^-149169
+1e18 z=19: J-E=469418.6 sd=9979.3 Z=+47.0  Bernstein P <= 10^-480

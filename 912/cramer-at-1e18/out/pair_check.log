@@ -1,0 +1,9 @@
+C2 = 0.6601618372 (literature 0.6601618158)
+D(100) = -249.2   M–S eq.(17) k=2 main terms = -251.0   diff/sqrt(H) = +0.184
+D(1000) = -3658.8   M–S eq.(17) k=2 main terms = -3661.4   diff/sqrt(H) = +0.084
+D(10000) = -48116.3   M–S eq.(17) k=2 main terms = -48127.2   diff/sqrt(H) = +0.108
+D(20000) = -103181.0   M–S eq.(17) k=2 main terms = -103185.8   diff/sqrt(H) = +0.034
+1e15: gap J-E_C = 348987.1   HL pair-only Delta E = 283973.2   ratio = 0.8137
+1e16: gap J-E_C = 1026993.9   HL pair-only Delta E = 845454.0   ratio = 0.8232
+1e17: gap J-E_C = 3038563.5   HL pair-only Delta E = 2524290.0   ratio = 0.8308
+1e18: gap J-E_C = 9000142.1   HL pair-only Delta E = 7556372.9   ratio = 0.8396
