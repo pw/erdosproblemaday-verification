@@ -10,8 +10,9 @@ B = {k ≥ 1 : a | k for some a ∈ A} and M_A(x) = |B ∩ [1, x]|, is M_A(m)/m 
 (a) elementary proof · (b) rigorous modulo a named result · (c) heuristic · (d) computer-assisted, reproducible here.
 
 1. **Gessel's counterexample holds (referee + replay; the counterexample is not ours).** D. Gessel, 5 Sep 2026, with
-   GPT-6 Astra; Jig problem 398, statement 40; gist d8e15e5f (file sha256 37d2f3b4…/our copy `lean/Erdos488.lean`,
-   sha256 f2a7dcfd…).
+   GPT-6 Astra; Jig problem 398, statement 40; gist d8e15e5f, head 9bbb516 (his proof note and README are read there:
+   https://gist.github.com/declangessel/d8e15e5ff1b6c7e99e3d86d7c66f1d08; our copy of the Lean file, needed to reproduce, is
+   `lean/Erdos488.lean`, sha256 f2a7dcfd…).
    - Hostile referee seat: HOLDS WITH FIXES, no MUST objection (`referee/referee_R.md`; positive and negative controls
      for every lemma in `referee/controls*.out`). Fixes are prose: Jig's "exact negation" is of Jig's own reformulation
      (no 1 ∉ A); Formal Conjectures is refuted through Gessel's adapter `Erdos488ExactAdapter.refutation`.
