@@ -1,0 +1,31 @@
+(a) exact H(j), real S (53 odd primes < 257)
+   H(0) = 1   <= (8j+1)^53: True
+   H(1) = 128   <= (8j+1)^53: True   ratio H(1)/H(0) = 128.000
+   H(2) = 9537   <= (8j+1)^53: True   ratio H(2)/H(1) = 74.508
+   H(3) = 397421   <= (8j+1)^53: True   ratio H(3)/H(2) = 41.671
+   H(4) = 10913534   <= (8j+1)^53: True   ratio H(4)/H(3) = 27.461
+(b) small analogue S={3,5,7,11,13}, base 16
+   H_s(j) <= (4j+1)^5 for j<40: True
+   first slow step k=11 (H_s=21317, H_s(k+1)=31167); analogue endpoint_gap first holds at N=70; k < N: True
+   ratios: [8.0, 5.0, 3.475, 2.691, 2.273, 2.025, 1.854, 1.727, 1.637, 1.567, 1.508, 1.462, 1.423, 1.39, 1.362, 1.338]
+(c) rigorous brackets for the real H(j) via integer-weight knapsack counts
+   j=0: 1 <= H=1 <= 1: True
+   j=1: 128 <= H=128 <= 128: True
+   j=2: 9517 <= H=9537 <= 9588: True
+   j=3: 396066 <= H=397421 <= 399807: True
+   j=4: 1.08676e+07 <= H=10913534 <= 1.0986e+07: True
+   R=256: certified fast steps (2H(k+1)>3H(k)) for k in [0..101] count=102; first certified slow k = 122
+   k=0: H(k+1)/H(k) in [128.0000, 128.0000]
+   k=10: H(k+1)/H(k) in [7.6687, 7.9309]
+   k=20: H(k+1)/H(k) in [4.0318, 4.2101]
+   k=30: H(k+1)/H(k) in [2.9244, 3.0711]
+   k=40: H(k+1)/H(k) in [2.3978, 2.5277]
+   k=50: H(k+1)/H(k) in [2.0920, 2.2114]
+   k=60: H(k+1)/H(k) in [1.8928, 2.0050]
+   k=70: H(k+1)/H(k) in [1.7529, 1.8599]
+   k=80: H(k+1)/H(k) in [1.6495, 1.7525]
+   k=90: H(k+1)/H(k) in [1.5698, 1.6697]
+   k=100: H(k+1)/H(k) in [1.5067, 1.6041]
+   k=110: H(k+1)/H(k) in [1.4555, 1.5507]
+   k=120: H(k+1)/H(k) in [1.4130, 1.5065]
+   k=130: H(k+1)/H(k) in [1.3773, 1.4693]

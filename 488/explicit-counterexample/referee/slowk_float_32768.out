@@ -1,0 +1,12 @@
+R=32768 J=115 B=30146560 (385s)  a-priori float envelope eps=3.348e-09
+  positive control exact H(0..4) inside [Lo,Hi]: True
+  certified fast: 0..110 contiguous=True; first certified slow: 111; undecided: []
+  k=106: H(k+1)/H(k) in [1.521670, 1.522420]  fast (certified)
+  k=107: H(k+1)/H(k) in [1.516605, 1.517354]  fast (certified)
+  k=108: H(k+1)/H(k) in [1.511637, 1.512384]  fast (certified)
+  k=109: H(k+1)/H(k) in [1.506763, 1.507508]  fast (certified)
+  k=110: H(k+1)/H(k) in [1.501980, 1.502725]  fast (certified)
+  k=111: H(k+1)/H(k) in [1.497287, 1.498030]  SLOW (certified)
+  k=112: H(k+1)/H(k) in [1.492680, 1.493421]  SLOW (certified)
+  k=113: H(k+1)/H(k) in [1.488158, 1.488897]  SLOW (certified)
+  k=114: H(k+1)/H(k) in [1.483717, 1.484455]  SLOW (certified)

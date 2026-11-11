@@ -1,0 +1,12 @@
+  [brute y=7] rho check (C margins enclose mpmath rho): True
+  [brute y=7] y=7 T=1: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=1 Psi(n)=10 |A|=9 ratio_exact=0.942857142857 | ours: Psi_T in [1,1] A<=9 ratio_lo=0.942856911175 gap=2.46e-7
+  [brute y=7] y=7 T=7: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=7 Psi(n)=39 |A|=32 ratio_exact=0.980178571429 | ours: Psi_T in [6,7] A<=33 ratio_lo=0.950475831199 gap=0.0303
+  [brute y=7] y=7 T=100: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=46 Psi(n)=146 |A|=100 ratio_exact=0.997603750495 | ours: Psi_T in [45,46] A<=101 ratio_lo=0.987725808367 gap=0.0099
+  [brute y=7] y=7 T=1000: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=141 Psi(n)=350 |A|=209 ratio_exact=1.00409027479 | ours: Psi_T in [140,141] A<=210 ratio_lo=0.999307942632 gap=0.00476
+  [brute y=7] y=7 T=999: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=140 Psi(n)=350 |A|=210 ratio_exact=1.01027039996 | ours: Psi_T in [140,140] A<=210 ratio_lo=1.01026943264 gap=9.57e-7
+OVERALL PASS

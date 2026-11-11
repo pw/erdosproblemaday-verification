@@ -1,0 +1,4 @@
+  [given y=509] rho check (C margins enclose mpmath rho): True
+  [given y=509] y=509 T=10000000000: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=144130349 Psi(n)=6657989227 |A|=6513858878 ratio_exact=1.6646155102 | ours: Psi_T in [144129830,144130656] A<=6513876787 ratio_lo=1.66459901612 gap=9.91e-6
+OVERALL PASS

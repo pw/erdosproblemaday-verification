@@ -1,0 +1,15 @@
+R=2048 J=115 B=1884160 (13s)  a-priori float envelope eps=2.101e-10
+  positive control exact H(0..4) inside [Lo,Hi]: True
+  cross-check vs exact-int run j=112: |Hc_float/Hc_exact-1|=5.55e-15  |Hf_float/Hf_exact-1|=2.89e-15  (both must be <= eps=2.1e-10)
+  cross-check vs exact-int run j=113: |Hc_float/Hc_exact-1|=0.00e+00  |Hf_float/Hf_exact-1|=2.33e-15  (both must be <= eps=2.1e-10)
+  certified fast: 0..109 contiguous=True; first certified slow: 112; undecided: [110, 111]
+  k=105: H(k+1)/H(k) in [1.521208, 1.533238]  fast (certified)
+  k=106: H(k+1)/H(k) in [1.516055, 1.528059]  fast (certified)
+  k=107: H(k+1)/H(k) in [1.511002, 1.522981]  fast (certified)
+  k=108: H(k+1)/H(k) in [1.506045, 1.517999]  fast (certified)
+  k=109: H(k+1)/H(k) in [1.501183, 1.513112]  fast (certified)
+  k=110: H(k+1)/H(k) in [1.496412, 1.508317]  undecided
+  k=111: H(k+1)/H(k) in [1.491729, 1.503611]  undecided
+  k=112: H(k+1)/H(k) in [1.487133, 1.498992]  SLOW (certified)
+  k=113: H(k+1)/H(k) in [1.482621, 1.494457]  SLOW (certified)
+  k=114: H(k+1)/H(k) in [1.478191, 1.490005]  SLOW (certified)

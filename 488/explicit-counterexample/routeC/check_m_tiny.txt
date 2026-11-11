@@ -1,0 +1,12 @@
+  y=7 Lam=11 T=50 W=40 (brute M_A(WT) = union of multiples): Psi(T)=31 in[30,31] |A|=77 in[77,78] M=271 in[267,280] -> OK
+  y=7 Lam=11 T=200 W=100 (brute M_A(WT) = union of multiples): Psi(T)=67 in[66,67] |A|=127 in[127,128] M=1157 in[1152,1179] -> OK
+  y=7 Lam=10 T=100 W=120 (brute M_A(WT) = union of multiples): Psi(T)=46 in[45,46] |A|=95 in[94,96] M=1093 in[1088,1120] -> OK
+  y=7 Lam=8 T=333 W=60 (brute M_A(WT) = union of multiples): Psi(T)=85 in[85,85] |A|=125 in[125,125] M=831 in[829,831] -> OK
+  y=11 Lam=13 T=60 W=160 (brute M_A(WT) = union of multiples): Psi(T)=39 in[38,39] |A|=131 in[131,132] M=1556 in[1545,1589] -> OK
+  y=11 Lam=12 T=100 W=168 (brute M_A(WT) = union of multiples): Psi(T)=55 in[54,55] |A|=154 in[153,155] M=2022 in[2014,2057] -> OK
+  y=5 Lam=7 T=300 W=48 (brute M_A(WT) = union of multiples): Psi(T)=55 in[54,55] |A|=55 in[55,56] M=361 in[360,374] -> OK
+  y=5 Lam=6 T=97 W=30 (brute M_A(WT) = union of multiples): Psi(T)=33 in[33,33] |A|=37 in[37,37] M=173 in[172,173] -> OK
+  y=13 Lam=17 T=30 W=280 (brute M_A(WT) = union of multiples): Psi(T)=26 in[25,26] |A|=142 in[142,143] M=2279 in[2257,2333] -> OK
+  y=13 Lam=16 T=41 W=200 (brute M_A(WT) = union of multiples): Psi(T)=32 in[32,32] |A|=161 in[161,161] M=1954 in[1935,1954] -> OK
+  y=7 Lam=9 T=1000 W=110 (brute M_A(WT) = union of multiples): Psi(T)=141 in[140,141] |A|=186 in[185,187] M=2103 in[2101,2129] -> OK
+OVERALL PASS

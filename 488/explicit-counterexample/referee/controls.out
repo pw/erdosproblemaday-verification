@@ -1,0 +1,38 @@
+== POSITIVE: real parameters, primes<257, band (T,256T], n=256T, residues mod 8 ==
+[near lemmas, real P] PASS: 106 cases, 0 with a failed check
+   tightest |band|/(8*H): T=4096 |band|=168181 8*oddsmooth=524696 ratio=0.3205
+   T=1: |A|=255, #oddS<=256T=128
+   T=256: |A|=23225, #oddS<=256T=9537
+   T=4096: |A|=168181, #oddS<=256T=65587
+== POSITIVE: real parameters, far-injection with truncated R (r<20000 coprime to Q, INCLUDING even r) ==
+   |R_trunc|=4546, even members=2337, e.g. [1, 2, 4, 8, 16, 32, 64, 128]
+   T=1: h=1 pairs=4546 c_d in band: True  collisions=0
+   T=7: h=4 pairs=18184 c_d in band: True  collisions=0
+   T=64: h=32 pairs=145472 c_d in band: True  collisions=0
+   T=256: h=128 pairs=581888 c_d in band: True  collisions=0
+   T=1000: h=373 pairs=1695658 c_d in band: True  collisions=0
+   T=4096: h=1168 pairs=5309728 c_d in band: True  collisions=0
+[far injection, real P (truncated R)] PASS: 6 cases, 0 with a failed check
+== POSITIVE: small analogue, primes<17, band (T,16T], n=16T, mod 4, m=2TQs, Qs=15015 ==
+   Qs=15015 phi=5760 phi/Q=0.3836; (32/3)... analogue bound needs 4*b*ratio < 2^b*phi/Q, b=4 cannot succeed
+[small analogue near+far (i, ii, inj, land, far-inj, M(m)>=h*phi)] PASS: 43 cases, 0 with a failed check
+   T=1: |A|=15 h=1 M(m)=24270 >= h*phi=5760; density ratio (M(m)/m)/(M(n)/n)=0.862  [2mM(n) < nM(m)? False]
+   T=16: |A|=97 h=8 M(m)=168912 >= h*phi=46080; density ratio (M(m)/m)/(M(n)/n)=0.928  [2mM(n) < nM(m)? False]
+   T=64: |A|=201 h=18 M(m)=364020 >= h*phi=103680; density ratio (M(m)/m)/(M(n)/n)=0.965  [2mM(n) < nM(m)? False]
+   T=256: |A|=377 h=40 M(m)=685733 >= h*phi=230400; density ratio (M(m)/m)/(M(n)/n)=0.969  [2mM(n) < nM(m)? False]
+== NEGATIVE controls (each breaks one hypothesis; checker must report failures) ==
+[N1 band (T,18T] with primes<17, mod 5: cofactor 17 can appear] FAIL-as-expected: 199 cases, 174 with a failed check; first failing T=17 checks(i,ii,inj)=(False, True, True)
+   failures per check (i, ii, inj): [174, 0, 0]
+   first T failing (i): T=17; covered-but-not-in-band [306] (gpf [17])
+[N1' real P, band (T,258T], mod 9: cofactor 257 can appear] FAIL-as-expected: 44 cases, 3 with a failed check; first failing T=257 checks(i,ii,inj)=(False, True, True)
+   failures per check (i, ii, inj): [3, 0, 0]
+   T failing (i): [257, 300, 1000]; witness at T=257: [66306] gpf [257]
+[N2 residues mod 3 instead of mod 4 (base 16=2^4)] FAIL-as-expected: 199 cases, 199 with a failed check; first failing T=1 checks(i,ii,inj)=(True, True, False)
+   failures per check (i, ii, inj): [0, 0, 199]
+   collision at T=1: 2 and 16 both map to (d, e mod 3) = (1, 1)
+[N3 far map with r over ALL of [1,Q) (drop coprimality) -> (land, inj, count)] FAIL-as-expected: 3 cases, 3 with a failed check; first failing T=5 checks(i,ii,inj)=(True, False, True)
+   per-T (land, inj, count): [(5, (True, False, True)), (12, (True, False, True)), (33, (True, False, True))]
+[N4 far map with even d allowed (drop d odd) -> (land, inj, count)] FAIL-as-expected: 3 cases, 3 with a failed check; first failing T=5 checks(i,ii,inj)=(True, False, True)
+   per-T (land, inj, count): [(5, (True, False, True)), (12, (True, False, True)), (33, (True, False, True))]
+[N5 far map with c_d in (T/2,T] (not in band) -> (land, inj, count)] FAIL-as-expected: 3 cases, 3 with a failed check; first failing T=5 checks(i,ii,inj)=(False, True, True)
+   per-T (land, inj, count): [(5, (False, True, True)), (12, (False, True, True)), (33, (False, True, True))]

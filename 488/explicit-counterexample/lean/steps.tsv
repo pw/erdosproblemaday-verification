@@ -1,0 +1,14 @@
+2026-11-11T09:10:26Z	start	sha256 f2a7dcfde9689e00
+2026-11-11T09:10:44Z	toolchain	0
+2026-11-11T09:13:59Z	lake_update	0
+2026-11-11T09:14:10Z	cache_get	0
+2026-11-11T09:15:38Z	lean_compile	0
+2026-11-11T09:15:38Z	done	2 axiom lines
+2026-11-11T09:19:29Z	Bridge	rc=0
+2026-11-11T09:20:15Z	NegConst	rc=0
+2026-11-11T09:20:50Z	NegSorry	rc=0
+2026-11-11T09:21:35Z	NegBridge	rc=0
+2026-11-11T09:22:31Z	ctl2_Bridge	rc=0	errors=0	sorryAx=0
+2026-11-11T09:23:20Z	ctl2_NegConst	rc=1	errors=2	sorryAx=2
+2026-11-11T09:23:51Z	ctl2_NegSorry	rc=0	errors=0	sorryAx=2
+2026-11-11T09:24:31Z	ctl2_NegBridge	rc=1	errors=2	sorryAx=0

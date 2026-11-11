@@ -1,0 +1,8 @@
+  [given y=251] rho check (C margins enclose mpmath rho): True
+  [given y=251] y=251 T=10000: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=5508 Psi(n)=315875 |A|=310367 ratio_exact=1.21560853018 | ours: Psi_T in [5507,5508] A<=310368 ratio_lo=1.21560153184 gap=5.76e-6
+  [given y=251] y=251 T=1000000: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=165348 Psi(n)=6100029 |A|=5934681 ratio_exact=1.355149932 | ours: Psi_T in [165345,165348] A<=5934693 ratio_lo=1.35514240885 gap=5.55e-6
+  [given y=251] y=251 T=100000000: Psi(T)=OK Psi(n)=OK |A|=OK S(T)=OK tail=OK delta=OK ratio=OK
+     exact Psi(T)=3401025 Psi(n)=91227348 |A|=87826323 ratio_exact=1.48573910039 | ours: Psi_T in [3401012,3401028] A<=87826512 ratio_lo=1.48572822854 gap=7.32e-6
+OVERALL PASS

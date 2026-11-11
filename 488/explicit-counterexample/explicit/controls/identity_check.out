@@ -1,0 +1,28 @@
+y=2 q=3 T=1 |A|=1 L=2 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.5000
+y=2 q=3 T=2 |A|=1 L=4 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.5000
+y=2 q=3 T=3 |A|=2 L=8 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.1250
+y=2 q=3 T=5 |A|=1 L=8 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.8750
+y=3 q=5 T=1 |A|=3 L=12 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.1111
+y=3 q=5 T=2 |A|=5 L=72 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.0000
+y=3 q=5 T=4 |A|=6 L=144 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.0185
+y=3 q=5 T=7 |A|=8 L=864 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.0938
+y=3 q=5 T=10 |A|=8 L=864 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.0706
+y=5 q=7 T=1 |A|=5 L=60 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=1.0267
+y=5 q=7 T=3 |A|=11 L=720 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=0.9758
+y=5 q=7 T=6 |A|=15 L=21600 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=0.9707
+y=5 q=7 T=10 |A|=18 L=43200 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=0.9996
+y=7 q=11 T=1 |A|=9 L=2520 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=0.9429
+y=7 q=11 T=2 |A|=15 L=5040 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=0.9638
+y=7 q=11 T=5 |A|=27 L=1058400 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=0.9739
+y=7 q=11 T=10 |A|=38 L=6350400 (i)=True (ii)=True (iii)=True  ratio delta*n/|A|=0.9568
+skip 7 12 63504000
+POSITIVE: 17 cases, 0 failures
+NEG y=3 T=4: M_A(n)=12 vs |A|=10 -> identity (iii) BROKEN (expected)
+NEG y=5 T=3: M_A(n)=21 vs |A|=18 -> identity (iii) BROKEN (expected)
+NEG y=7 T=2: M_A(n)=28 vs |A|=25 -> identity (iii) BROKEN (expected)
+NEGATIVE: 3/3 broke as expected
+== (iv) finite-m formula, direct count vs formula ==
+(iv): 45 cases, 0 mismatches
+NEG (iv) without u=1: mismatch (expected)
+== (v) Lambda < q: (i) M_A(n)=|A|, (ii) B = {P-part > T}, (iv) finite-m formula ==
+(v): 24 cases, 0 failures
