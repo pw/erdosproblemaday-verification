@@ -1,0 +1,10 @@
+step	rc	secs	end
+pre_256Rows_4	0	367	2026-11-12T09:19:50Z
+lane_Numeric5_256Rows	0	-	2026-11-12T09:33:17Z
+lane_Numeric7_256Rows	0	-	2026-11-12T09:32:49Z
+coord_Numeric5_256Rows	0	5	2026-11-12T09:34:48Z
+coord_Numeric4_256	0	90	2026-11-12T09:36:13Z
+coord2_start todo=Numeric5_512Rows,Numeric6_512Rows,Numeric7_512Rows,Numeric4_512,Numeric5_512,Numeric6_256,Numeric6_256Rows,Numeric6_512,Numeric7_256,Numeric7_512	0	0	2026-11-12T09:58:55Z
+coord2_Numeric5_256	0	20	2026-11-12T09:59:15Z
+coord2_Numeric6_256Rows	0	200	2026-11-12T10:02:35Z
+coord2_Numeric4_512Rows	0	550	2026-11-12T10:08:05Z

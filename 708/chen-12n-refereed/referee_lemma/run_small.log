@@ -1,0 +1,6 @@
+k2t2 t=2: t=2 m=1271 P1=True P2=True | two-prime elements in I: 1 (u=kPi? True, k=600) F1=True F3=True (q^2-multiples: []) #w_i^2-multiples=4 | n=4: dp=5 ilp=5 (3t-1=5) n=5: dp=6 ilp=6 (3t=6) [0.0s]
+k2t2 t=3: t=3 m=4331 P1=True P2=True | two-prime elements in I: 1 (u=kPi? True, k=2793) F1=True F3=True (q^2-multiples: []) #w_i^2-multiples=5 | n=6: dp=8 ilp=8 (3t-1=8) n=7: dp=9 ilp=9 (3t=9) [0.0s]
+k2t2 t=4: t=4 m=4891 P1=True P2=True | two-prime elements in I: 1 (u=kPi? True, k=1942) F1=True F3=True (q^2-multiples: []) #w_i^2-multiples=5 | n=8: dp=11 ilp=11 (3t-1=11) n=9: dp=12 ilp=12 (3t=12) [0.2s]
+Chen t=2: t=2 m=4453 P1=True P2=True | two-prime elements in I: 1 (u=kPi? True, k=1) F1=True F3=True (q^2-multiples: []) #w_i^2-multiples=2 | n=4: dp=5 ilp=5 (3t-1=5) n=5: dp=6 ilp=6 (3t=6) [0.1s]  expect g=5
+Chen t=3: t=3 m=7979 P1=True P2=True | two-prime elements in I: 1 (u=kPi? True, k=1) F1=True F3=True (q^2-multiples: []) #w_i^2-multiples=5 | n=6: dp=8 ilp=8 (3t-1=8) n=7: dp=9 ilp=9 (3t=9) [0.1s]  expect g=8
+k2t.py t=9 (control): t=9 m=29893 P1=True P2=False | two-prime elements in I: 1 (u=kPi? True, k=61244) F1=True F3=False (q^2-multiples: [(57775007378712079115207163282, 173)]) #w_i^2-multiples=11 | n=18: dp=None ilp=25 (3t-1=26) n=19: dp=None ilp=26 (3t=27) [0.1s]  expect 25 if a q^2 multiple is in the window

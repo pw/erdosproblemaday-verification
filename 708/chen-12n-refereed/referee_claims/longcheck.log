@@ -1,0 +1,7 @@
+control Prop small: A={10,12,15,20},x=50 -> 5 (paper: 5);  A={5,10,12,15,20},x=50 -> 6 (paper: 6)
+control prop gap: A={13,17}, x=2274114691 -> 2 (paper: 2)
+DP vs subset brute force on 400 tiny instances: mismatches = 0
+mutated claim 'min<=n' on 300 short-interval instances: violations found = 0 (must be >0)
+n=2: 2500 instances, a_n in [64,2000]; histogram of min|B|: {1: 370, 2: 2130}; violations of <=2n: 0; worst (2, [373, 419], 13831715270671, (13831715270970, 13831715270983))
+n=3: 1500 instances, a_n in [216,3000]; histogram of min|B|: {1: 88, 2: 532, 3: 880}; violations of <=2n: 0; worst (3, [1242, 2012, 2250], 0, (1509, 1863, 2000))
+elapsed 286s

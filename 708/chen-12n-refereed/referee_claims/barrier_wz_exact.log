@@ -1,0 +1,4 @@
+r = 60 p_1..p_r = 1049 .. 1483  p_r/p_1 = 1.4137273593898951  m = 2196323
+S-form  : LHS = 177  RHS = 59  fails: True
+w_z-form: LHS = 1829/10 = 182.9  RHS = 145  fails: True
+max window valuation seen: 60

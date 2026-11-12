@@ -1,0 +1,14 @@
+cluster primes: [503, 509, 521, 523, 541, 547, 557, 563, 569, 571, 577, 587, 593, 599, 601, 607, 613, 617, 619, 631, 641] count 21
+641/503 = 1.2743538767395626 < sqrt2 = 1.4142135623730951 True
+prev prime < 503: 499  next prime > 641: 643
+m = p20*p21 = 404471
+I = [x+1, x+m] = [P-202235, P+202235]
+S-value histogram on [1,m]: {1: 14398, 2: 210}
+LHS (S version)  = 21   C(21,2)*(2-c) = 21
+LHS (w_z version)= 23   #k<=m with w>=2 but S=1 (prime-square multiples): 20 [253009, 259081, 271441, 273529, 292681]
+window points with S>=2: [(0, (21, 21))]
+window points with w>=2 (offset from P, (S,w)): 27
+RHS (S version)  = 20
+RHS (w_z version)= 46
+S-version hinge at c=19/10 fails: True
+w_z-version hinge at c=19/10 fails: False
