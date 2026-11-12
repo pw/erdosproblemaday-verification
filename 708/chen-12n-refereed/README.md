@@ -5,8 +5,9 @@ Page: https://erdosproblemaday.com/day/708-chen-12n-refereed-and-a-k2t-window-at
 ## Claims and labels
 1. **Statement audit (a).** `Erdos708Statement.g_le 12` (chy4pro/erdos-708-explicit-upper-bounds, lean/Erdos708/Statement.lean,
    commit dc150fd) is g(n) ≤ 12n for the problem as posed, under the "at most g(n)" reading.
-2. **Kernel replay (d).** See lean-replay/ (steps.tsv, logs, scripts). Mathlib de5ce8a9 oleans came from the Mathlib cache;
-   every Erdos708 module was compiled here from source (so its proofs were kernel-checked here); `leanchecker --fresh` was not run.
+2. **Kernel replay (d): CLEAN.** lean-replay/: all 180 Erdos708 modules compiled here (Lean 4.34.0-rc1, Mathlib de5ce8a9 from
+   the cache); FinalCheck printed nothing (all axiom guards hold); no sorry; a mutated guard fails (negative control).
+   `leanchecker --fresh` was not run.
 3. **Referee (Claude seat).** referee_claims/REPORT.md: long-interval theorem, §17 arithmetic, statement — hold; barrier
    (Prop 18.9) holds in the atom form but its 21-prime instance does not refute the w_z form the reduction uses; a 60-prime
    cluster (1049..1483) does (182.9 > 145). Recomputed independently by ours/barrier/wz_barrier.py (23 ≤ 46; 1829/10 > 145).

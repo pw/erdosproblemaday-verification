@@ -1,0 +1,40 @@
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos708/H97/Proofs/Numeric4_128.lean:23:30: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos708/H97/Proofs/Numeric4_128.lean:33:30: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos708/H97/Proofs/Numeric4_128.lean:43:30: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_ofNat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Erdos708/H97/Proofs/Numeric4_128.lean:300:0: 'Erdos708H97.Proofs.Numeric4_128.scale_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8882/8886] Built Erdos708.H97.Proofs.Lemma7 (10s)
+info: Erdos708/H97/Proofs/Lemma7.lean:105:0: 'Erdos708H97.lemma7' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8883/8886] Built Erdos708.H97.Proofs.Hinge (5.8s)
+info: Erdos708/H97/Proofs/Hinge.lean:10:0: 'Erdos708H97.hinge97' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8884/8886] Built Erdos708.H97.Chain (6.5s)
+warning: Erdos708/H97/Chain.lean:21:7: Variable name `h2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Erdos708/H97/Chain.lean:26:0: 'Erdos708H97.hinge97' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos708/H97/Chain.lean:27:0: 'Erdos708H97.weighted_hinge97' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos708/H97/Chain.lean:28:0: 'Erdos708H97.g_le_12n' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8885/8886] Built Erdos708.H883.Bound (13s)
+✔ [8886/8886] Built Erdos708.FinalCheck (9.9s)
+Build completed successfully (8886 jobs).
