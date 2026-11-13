@@ -1,0 +1,2002 @@
+[
+{
+"id": 1,
+"n": 404,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=12331812",
+"wall": 58.59
+},
+{
+"id": 2,
+"n": 393,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=9876895",
+"wall": 44.2
+},
+{
+"id": 3,
+"n": 392,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=8903859",
+"wall": 39.01
+},
+{
+"id": 4,
+"n": 401,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=9422239",
+"wall": 60.37
+},
+{
+"id": 5,
+"n": 390,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=8104543",
+"wall": 57.2
+},
+{
+"id": 6,
+"n": 389,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=6996772",
+"wall": 48.61
+},
+{
+"id": 7,
+"n": 365,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2879585",
+"wall": 14.59
+},
+{
+"id": 8,
+"n": 383,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4421834",
+"wall": 21.67
+},
+{
+"id": 9,
+"n": 393,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=5709181",
+"wall": 28.7
+},
+{
+"id": 10,
+"n": 466,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=74451378",
+"wall": 819.5
+},
+{
+"id": 11,
+"n": 379,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=5449085",
+"wall": 32.6
+},
+{
+"id": 12,
+"n": 347,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1569408",
+"wall": 12.28
+},
+{
+"id": 13,
+"n": 438,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=48378869",
+"wall": 495.11
+},
+{
+"id": 14,
+"n": 367,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4194651",
+"wall": 25.5
+},
+{
+"id": 15,
+"n": 369,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3829367",
+"wall": 29.7
+},
+{
+"id": 16,
+"n": 96,
+"tau": 33,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1",
+"wall": 0.08
+},
+{
+"id": 17,
+"n": 376,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4415937",
+"wall": 30.0
+},
+{
+"id": 18,
+"n": 364,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3299723",
+"wall": 25.91
+},
+{
+"id": 19,
+"n": 366,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3026817",
+"wall": 21.09
+},
+{
+"id": 20,
+"n": 344,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1194749",
+"wall": 6.41
+},
+{
+"id": 21,
+"n": 351,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1950403",
+"wall": 14.99
+},
+{
+"id": 22,
+"n": 435,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=30696992",
+"wall": 352.7
+},
+{
+"id": 23,
+"n": 363,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2917292",
+"wall": 43.39
+},
+{
+"id": 24,
+"n": 352,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2346794",
+"wall": 39.7
+},
+{
+"id": 25,
+"n": 348,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2830678",
+"wall": 32.79
+},
+{
+"id": 26,
+"n": 349,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1379384",
+"wall": 15.2
+},
+{
+"id": 27,
+"n": 336,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=797605",
+"wall": 12.6
+},
+{
+"id": 28,
+"n": 345,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1475675",
+"wall": 14.32
+},
+{
+"id": 29,
+"n": 329,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=496848",
+"wall": 6.79
+},
+{
+"id": 30,
+"n": 418,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=18821684",
+"wall": 237.22
+},
+{
+"id": 31,
+"n": 336,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=919597",
+"wall": 8.62
+},
+{
+"id": 32,
+"n": 324,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=495138",
+"wall": 3.61
+},
+{
+"id": 33,
+"n": 329,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=858372",
+"wall": 8.59
+},
+{
+"id": 34,
+"n": 341,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1376317",
+"wall": 13.8
+},
+{
+"id": 35,
+"n": 330,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1000742",
+"wall": 6.8
+},
+{
+"id": 36,
+"n": 326,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1138295",
+"wall": 18.49
+},
+{
+"id": 37,
+"n": 401,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=12461461",
+"wall": 156.52
+},
+{
+"id": 38,
+"n": 281,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=175380",
+"wall": 2.6
+},
+{
+"id": 39,
+"n": 309,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=655935",
+"wall": 10.8
+},
+{
+"id": 40,
+"n": 308,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=593269",
+"wall": 4.77
+},
+{
+"id": 41,
+"n": 278,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=170544",
+"wall": 1.8
+},
+{
+"id": 42,
+"n": 307,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=877044",
+"wall": 5.13
+},
+{
+"id": 43,
+"n": 275,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=115325",
+"wall": 1.02
+},
+{
+"id": 44,
+"n": 290,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=537579",
+"wall": 3.2
+},
+{
+"id": 45,
+"n": 304,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=482030",
+"wall": 4.09
+},
+{
+"id": 46,
+"n": 276,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=156024",
+"wall": 1.08
+},
+{
+"id": 47,
+"n": 361,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4916858",
+"wall": 56.7
+},
+{
+"id": 48,
+"n": 302,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=732604",
+"wall": 7.39
+},
+{
+"id": 49,
+"n": 275,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=130718",
+"wall": 0.61
+},
+{
+"id": 50,
+"n": 359,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4035762",
+"wall": 43.6
+},
+{
+"id": 51,
+"n": 304,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=723261",
+"wall": 6.09
+},
+{
+"id": 52,
+"n": 272,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=91518",
+"wall": 1.79
+},
+{
+"id": 53,
+"n": 357,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3386888",
+"wall": 31.71
+},
+{
+"id": 54,
+"n": 287,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=455026",
+"wall": 2.6
+},
+{
+"id": 55,
+"n": 358,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=8883898",
+"wall": 81.2
+},
+{
+"id": 56,
+"n": 295,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=141874",
+"wall": 2.21
+},
+{
+"id": 57,
+"n": 353,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1989998",
+"wall": 18.27
+},
+{
+"id": 58,
+"n": 291,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=228518",
+"wall": 2.5
+},
+{
+"id": 59,
+"n": 247,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=52501",
+"wall": 0.3
+},
+{
+"id": 60,
+"n": 259,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=46563",
+"wall": 0.39
+},
+{
+"id": 61,
+"n": 247,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=31984",
+"wall": 0.19
+},
+{
+"id": 62,
+"n": 236,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=41553",
+"wall": 0.31
+},
+{
+"id": 63,
+"n": 233,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=16402",
+"wall": 0.19
+},
+{
+"id": 64,
+"n": 244,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=30702",
+"wall": 0.32
+},
+{
+"id": 65,
+"n": 233,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=24976",
+"wall": 0.38
+},
+{
+"id": 66,
+"n": 311,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=545809",
+"wall": 7.31
+},
+{
+"id": 67,
+"n": 273,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=186183",
+"wall": 2.31
+},
+{
+"id": 68,
+"n": 237,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=23041",
+"wall": 0.47
+},
+{
+"id": 69,
+"n": 214,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=9771",
+"wall": 0.1
+},
+{
+"id": 70,
+"n": 296,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=838271",
+"wall": 7.41
+},
+{
+"id": 71,
+"n": 226,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=18277",
+"wall": 0.12
+},
+{
+"id": 72,
+"n": 216,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=14322",
+"wall": 0.1
+},
+{
+"id": 73,
+"n": 220,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=9907",
+"wall": 0.51
+},
+{
+"id": 74,
+"n": 248,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=42555",
+"wall": 0.59
+},
+{
+"id": 75,
+"n": 219,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=9800",
+"wall": 0.4
+},
+{
+"id": 76,
+"n": 227,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=13367",
+"wall": 0.02
+},
+{
+"id": 77,
+"n": 208,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=7341",
+"wall": 0.17
+},
+{
+"id": 78,
+"n": 286,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=208857",
+"wall": 1.11
+},
+{
+"id": 79,
+"n": 214,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=7766",
+"wall": 0.01
+},
+{
+"id": 80,
+"n": 216,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=12403",
+"wall": 0.1
+},
+{
+"id": 81,
+"n": 236,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=63008",
+"wall": 0.81
+},
+{
+"id": 82,
+"n": 214,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=5872",
+"wall": 0.09
+},
+{
+"id": 83,
+"n": 204,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=8689",
+"wall": 0.2
+},
+{
+"id": 84,
+"n": 205,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4455",
+"wall": 0.29
+},
+{
+"id": 85,
+"n": 273,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=199660",
+"wall": 1.92
+},
+{
+"id": 86,
+"n": 205,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=5343",
+"wall": 0.3
+},
+{
+"id": 87,
+"n": 230,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=30062",
+"wall": 0.31
+},
+{
+"id": 88,
+"n": 230,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=9912",
+"wall": 0.2
+},
+{
+"id": 89,
+"n": 195,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=5516",
+"wall": 0.02
+},
+{
+"id": 90,
+"n": 210,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=8274",
+"wall": 0.1
+},
+{
+"id": 91,
+"n": 206,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3241",
+"wall": 0.1
+},
+{
+"id": 92,
+"n": 210,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=5688",
+"wall": 0.09
+},
+{
+"id": 93,
+"n": 197,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3024",
+"wall": 0.1
+},
+{
+"id": 94,
+"n": 182,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=785",
+"wall": 0.01
+},
+{
+"id": 95,
+"n": 206,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3371",
+"wall": 0.09
+},
+{
+"id": 96,
+"n": 198,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4115",
+"wall": 0.09
+},
+{
+"id": 97,
+"n": 196,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2887",
+"wall": 0.02
+},
+{
+"id": 98,
+"n": 187,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2306",
+"wall": 0.41
+},
+{
+"id": 99,
+"n": 192,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2183",
+"wall": 0.08
+},
+{
+"id": 100,
+"n": 195,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2223",
+"wall": 0.02
+},
+{
+"id": 101,
+"n": 246,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=29326",
+"wall": 0.79
+},
+{
+"id": 102,
+"n": 197,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2310",
+"wall": 0.19
+},
+{
+"id": 103,
+"n": 189,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3903",
+"wall": 0.01
+},
+{
+"id": 104,
+"n": 254,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=71405",
+"wall": 1.29
+},
+{
+"id": 105,
+"n": 208,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=7848",
+"wall": 0.1
+},
+{
+"id": 106,
+"n": 201,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=5295",
+"wall": 0.09
+},
+{
+"id": 107,
+"n": 252,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=58245",
+"wall": 0.4
+},
+{
+"id": 108,
+"n": 188,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1384",
+"wall": 0.01
+},
+{
+"id": 109,
+"n": 246,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=32576",
+"wall": 0.4
+},
+{
+"id": 110,
+"n": 184,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=714",
+"wall": 0.09
+},
+{
+"id": 111,
+"n": 182,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1601",
+"wall": 0.01
+},
+{
+"id": 112,
+"n": 189,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1701",
+"wall": 0.01
+},
+{
+"id": 113,
+"n": 172,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1548",
+"wall": 0.08
+},
+{
+"id": 114,
+"n": 172,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=629",
+"wall": 0.01
+},
+{
+"id": 115,
+"n": 246,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=28953",
+"wall": 0.11
+},
+{
+"id": 116,
+"n": 180,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1199",
+"wall": 0.18
+},
+{
+"id": 117,
+"n": 172,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1337",
+"wall": 0.01
+},
+{
+"id": 118,
+"n": 186,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1125",
+"wall": 0.01
+},
+{
+"id": 119,
+"n": 176,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=751",
+"wall": 0.09
+},
+{
+"id": 120,
+"n": 235,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=23290",
+"wall": 0.19
+},
+{
+"id": 121,
+"n": 178,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1051",
+"wall": 0.01
+},
+{
+"id": 122,
+"n": 236,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=20384",
+"wall": 0.19
+},
+{
+"id": 123,
+"n": 195,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4049",
+"wall": 0.01
+},
+{
+"id": 124,
+"n": 233,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=27825",
+"wall": 0.31
+},
+{
+"id": 125,
+"n": 179,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1008",
+"wall": 0.2
+},
+{
+"id": 126,
+"n": 230,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=17139",
+"wall": 0.6
+},
+{
+"id": 127,
+"n": 191,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3064",
+"wall": 0.08
+},
+{
+"id": 128,
+"n": 168,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=558",
+"wall": 0.02
+},
+{
+"id": 129,
+"n": 187,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=3465",
+"wall": 0.08
+},
+{
+"id": 130,
+"n": 162,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1981",
+"wall": 0.09
+},
+{
+"id": 131,
+"n": 158,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=302",
+"wall": 0.01
+},
+{
+"id": 132,
+"n": 162,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=805",
+"wall": 0.09
+},
+{
+"id": 133,
+"n": 146,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=168",
+"wall": 0.01
+},
+{
+"id": 134,
+"n": 167,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=437",
+"wall": 0.01
+},
+{
+"id": 135,
+"n": 213,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=6035",
+"wall": 0.19
+},
+{
+"id": 136,
+"n": 158,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=497",
+"wall": 0.01
+},
+{
+"id": 137,
+"n": 166,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=461",
+"wall": 0.01
+},
+{
+"id": 138,
+"n": 153,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=749",
+"wall": 0.09
+},
+{
+"id": 139,
+"n": 180,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1276",
+"wall": 0.08
+},
+{
+"id": 140,
+"n": 207,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=7511",
+"wall": 0.3
+},
+{
+"id": 141,
+"n": 154,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=734",
+"wall": 0.01
+},
+{
+"id": 142,
+"n": 176,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2066",
+"wall": 0.09
+},
+{
+"id": 143,
+"n": 150,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=487",
+"wall": 0.01
+},
+{
+"id": 144,
+"n": 155,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=202",
+"wall": 0.01
+},
+{
+"id": 145,
+"n": 146,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=286",
+"wall": 0.08
+},
+{
+"id": 146,
+"n": 148,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=367",
+"wall": 0.01
+},
+{
+"id": 147,
+"n": 149,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=341",
+"wall": 0.01
+},
+{
+"id": 148,
+"n": 200,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=7823",
+"wall": 0.1
+},
+{
+"id": 149,
+"n": 162,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=490",
+"wall": 0.01
+},
+{
+"id": 150,
+"n": 165,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=786",
+"wall": 0.08
+},
+{
+"id": 151,
+"n": 195,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=2989",
+"wall": 0.2
+},
+{
+"id": 152,
+"n": 154,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=757",
+"wall": 0.01
+},
+{
+"id": 153,
+"n": 190,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=5358",
+"wall": 0.4
+},
+{
+"id": 154,
+"n": 139,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=133",
+"wall": 0.0
+},
+{
+"id": 155,
+"n": 145,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=142",
+"wall": 0.01
+},
+{
+"id": 156,
+"n": 184,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1699",
+"wall": 0.09
+},
+{
+"id": 157,
+"n": 141,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=195",
+"wall": 0.0
+},
+{
+"id": 158,
+"n": 188,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=4021",
+"wall": 0.29
+},
+{
+"id": 159,
+"n": 162,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=832",
+"wall": 0.01
+},
+{
+"id": 160,
+"n": 139,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=99",
+"wall": 0.01
+},
+{
+"id": 161,
+"n": 139,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=157",
+"wall": 0.08
+},
+{
+"id": 162,
+"n": 134,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=10",
+"wall": 0.01
+},
+{
+"id": 163,
+"n": 144,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=94",
+"wall": 0.01
+},
+{
+"id": 164,
+"n": 138,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=50",
+"wall": 0.18
+},
+{
+"id": 165,
+"n": 134,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=119",
+"wall": 0.01
+},
+{
+"id": 166,
+"n": 150,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=443",
+"wall": 0.01
+},
+{
+"id": 167,
+"n": 175,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1611",
+"wall": 0.19
+},
+{
+"id": 168,
+"n": 143,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=145",
+"wall": 0.01
+},
+{
+"id": 169,
+"n": 124,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=9",
+"wall": 0.0
+},
+{
+"id": 170,
+"n": 113,
+"tau": 32,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1",
+"wall": 0.0
+},
+{
+"id": 171,
+"n": 145,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=92",
+"wall": 0.01
+},
+{
+"id": 172,
+"n": 147,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=114",
+"wall": 0.08
+},
+{
+"id": 173,
+"n": 128,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=6",
+"wall": 0.0
+},
+{
+"id": 174,
+"n": 162,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=25",
+"wall": 0.01
+},
+{
+"id": 175,
+"n": 144,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=56",
+"wall": 0.01
+},
+{
+"id": 176,
+"n": 125,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=31",
+"wall": 0.01
+},
+{
+"id": 177,
+"n": 143,
+"tau": 32,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=20",
+"wall": 0.0
+},
+{
+"id": 178,
+"n": 135,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=44",
+"wall": 0.08
+},
+{
+"id": 179,
+"n": 138,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=39",
+"wall": 0.09
+},
+{
+"id": 180,
+"n": 155,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1786",
+"wall": 0.0
+},
+{
+"id": 181,
+"n": 143,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=32",
+"wall": 0.0
+},
+{
+"id": 182,
+"n": 130,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=57",
+"wall": 0.0
+},
+{
+"id": 183,
+"n": 127,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=25",
+"wall": 0.0
+},
+{
+"id": 184,
+"n": 165,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=242",
+"wall": 0.01
+},
+{
+"id": 185,
+"n": 142,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=26",
+"wall": 0.01
+},
+{
+"id": 186,
+"n": 133,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=130",
+"wall": 0.08
+},
+{
+"id": 187,
+"n": 124,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=20",
+"wall": 0.08
+},
+{
+"id": 188,
+"n": 156,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=255",
+"wall": 0.0
+},
+{
+"id": 189,
+"n": 141,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=21",
+"wall": 0.01
+},
+{
+"id": 190,
+"n": 126,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=27",
+"wall": 0.01
+},
+{
+"id": 191,
+"n": 162,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=730",
+"wall": 0.08
+},
+{
+"id": 192,
+"n": 131,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=34",
+"wall": 0.18
+},
+{
+"id": 193,
+"n": 156,
+"tau": 31,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=502",
+"wall": 0.02
+},
+{
+"id": 194,
+"n": 140,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=21",
+"wall": 0.19
+},
+{
+"id": 195,
+"n": 127,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=18",
+"wall": 0.01
+},
+{
+"id": 196,
+"n": 156,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=163",
+"wall": 0.01
+},
+{
+"id": 197,
+"n": 129,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=129",
+"wall": 0.08
+},
+{
+"id": 198,
+"n": 160,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=1062",
+"wall": 0.02
+},
+{
+"id": 199,
+"n": 139,
+"tau": 29,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=21",
+"wall": 0.01
+},
+{
+"id": 200,
+"n": 161,
+"tau": 30,
+"sha_ok": true,
+"tau_ok": true,
+"verdict": "UNSAT",
+"out": "UNSAT nodes=56",
+"wall": 0.09
+}
+]

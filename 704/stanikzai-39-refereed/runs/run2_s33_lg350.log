@@ -1,0 +1,1 @@
+clq2 {'leaves': 105, 'answered': 105, 'missing': 0, 'UNSAT': 105, 'SAT': 0, 'bad': 0, 'rcs': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wall': 70.9, 'nodes_total': 63037331}

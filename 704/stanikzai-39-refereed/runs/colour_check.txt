@@ -1,0 +1,5 @@
+s33_0016 vertices 96 edges 3160 colours 17 threshold 33 CERTIFIES
+s33_0169 vertices 124 edges 5861 colours 30 threshold 31 CERTIFIES
+s33_0170 vertices 113 edges 4524 colours 26 threshold 32 CERTIFIES
+s33_0173 vertices 128 edges 6230 colours 29 threshold 30 CERTIFIES
+s33_0176 vertices 125 edges 5769 colours 30 threshold 31 CERTIFIES

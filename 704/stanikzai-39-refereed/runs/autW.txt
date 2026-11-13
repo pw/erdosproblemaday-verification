@@ -1,0 +1,7 @@
+|Aut(W)| = 48  point degrees [12, 12, 12, 12, 12, 12, 12, 12, 12, 14, 14, 14, 15]
+9 sets; common core [2, 8, 11, 13] ; union [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+6 sets; common core [] ; union [3, 6, 9, 10, 12, 13]
+6 sets; common core [] ; union [1, 2, 3, 4, 5, 6]
+6 sets; common core [] ; union [4, 5, 7, 8, 9, 10]
+6 sets; common core [1, 7, 11, 12] ; union [1, 3, 4, 5, 6, 7, 9, 10, 11, 12]
+pairwise intersections: [0, 1, 2, 4]

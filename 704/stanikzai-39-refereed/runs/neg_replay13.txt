@@ -1,0 +1,6 @@
+shrink REJECTED AssertionError: orbit mismatch at node 1
+grow REJECTED AssertionError: orbit mismatch at node 1
+badgen REJECTED AssertionError: generator does not preserve R at node 1
+badtau REJECTED AssertionError
+dropleaf REJECTED AssertionError
+dropvert REJECTED AssertionError

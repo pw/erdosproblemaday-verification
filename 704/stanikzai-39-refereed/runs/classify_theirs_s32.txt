@@ -1,0 +1,3 @@
+solutions 146  classes 1  leaves_done 200/200  missing 0  capped []
+  |Aut| =       48  labelled copies = 13!/|Aut| =  129,729,600  found     146 times  e.g. leaf 4
+total maximum independent sets (labelled) = 129,729,600

@@ -1,0 +1,1 @@
+REPLAY OK n=11 s=17 nodes=55 internal=27 leaves=28 solve=28 size_pruned=0 gbar_edges=71841

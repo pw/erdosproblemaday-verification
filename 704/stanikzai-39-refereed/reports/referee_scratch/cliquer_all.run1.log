@@ -1,0 +1,28 @@
+{"id": 163, "tau": 32, "k": 221, "status": "UNSAT", "secs": 0.4}
+{"id": 146, "tau": 30, "k": 261, "status": "UNSAT", "secs": 0.7}
+{"id": 162, "tau": 31, "k": 260, "status": "UNSAT", "secs": 3.7}
+{"id": 188, "tau": 29, "k": 261, "status": "UNSAT", "secs": 24.4}
+{"id": 186, "tau": 29, "k": 268, "status": "UNSAT", "secs": 52.9}
+{"id": 200, "tau": 29, "k": 266, "status": "UNSAT", "secs": 94.8}
+Traceback (most recent call last):
+  File "/tmp/ref704/cliquer_all.py", line 35, in <module>
+    res = list(ex.map(run, jobs))
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ref704/cliquer_all.py", line 28, in run
+    C = [vs[int(x) - 1] for x in o.split(':')[1].split()]
+            ^^^^^^
+ValueError: invalid literal for int() with base 10: 'Reading'

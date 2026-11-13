@@ -1,0 +1,1 @@
+11 OPTIMAL obj 18.0 bound 18.0 witness_ok True wall 209.6

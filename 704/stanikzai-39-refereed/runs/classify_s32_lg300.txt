@@ -1,0 +1,3 @@
+solutions 115  classes 1  leaves_done 1876/1876  missing 0  capped []
+  |Aut| =       48  labelled copies = 13!/|Aut| =  129,729,600  found     115 times  e.g. leaf 188
+total maximum independent sets (labelled) = 129,729,600

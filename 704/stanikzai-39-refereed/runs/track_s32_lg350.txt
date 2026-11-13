@@ -1,0 +1,1 @@
+TRACK leaf 18 path IIXXI tau 28 size 350 moved-witness-rest 28 -> clq2: SAT
