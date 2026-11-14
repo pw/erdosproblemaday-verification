@@ -1,0 +1,7 @@
+eigenvalues/multiplicities of A_1: {40: 1, 27: 12, 16: 65, 7: 208, 0: 429, -5: 572}
+i=0: numeric v^T E_i v = 0.8461538462   exact 11/13 = 0.8461538462
+i=1: numeric v^T E_i v = 0.0447552448   exact 32/715 = 0.0447552448
+i=2: numeric v^T E_i v = 5.0519480519   exact 389/77 = 5.0519480519
+i=3: numeric v^T E_i v = 13.4857142857   exact 472/35 = 13.4857142857
+i=4: numeric v^T E_i v = 9.9142857143   exact 347/35 = 9.9142857143
+i=5: numeric v^T E_i v = 3.6571428571   exact 128/35 = 3.6571428571

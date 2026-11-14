@@ -1,0 +1,30 @@
+Z13 orbits 99, F39 orbits 33
+copies with INF=0: 9979200 (expect 9979200)
+distinct-orbit histogram (#Z13-orbits met by the 33 sets : #copies):
+  11 : 12
+  13 : 12
+  15 : 108
+  16 : 228
+  17 : 672
+  18 : 1656
+  19 : 4584
+  20 : 10908
+  21 : 30104
+  22 : 66228
+  23 : 142344
+  24 : 273736
+  25 : 516204
+  26 : 887280
+  27 : 1337072
+  28 : 1687056
+  29 : 1797108
+  30 : 1548588
+  31 : 1045260
+  32 : 493500
+  33 : 136540
+kept (33 distinct Z13-orbits): 136540 ; of these F39-transversals: 0
+disjoint pairs examined: 4261 ; exact 3-covers (role-labelled triples W1,W2,W3): 0
+
+real	0m13.052s
+user	0m13.026s
+sys	0m0.019s

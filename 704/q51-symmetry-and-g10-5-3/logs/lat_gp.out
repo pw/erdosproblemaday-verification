@@ -1,0 +1,11 @@
+[0;31m  ***   Warning: new stack size = 4000000000 (3814.697 Mbytes).[0m
+3*e_S mod 9 : 1
+e_S mod 9 [control: must be 0] : 0
+e_S - e_S' mod 9 : 1
+11*e_S mod 121 : 1
+e_S mod 121 [control: must be 0] : 0
+e_S - e_S' mod 121 : 1
+all-ones mod 9 : 1
+all-ones mod 121 : 1
+33*e_S mod 2^4*3^4*5^2*7^2*11^3*13^2 : 1
+all-ones mod 2^4*3^4*5^2*7^2*11^3*13^2 : 1

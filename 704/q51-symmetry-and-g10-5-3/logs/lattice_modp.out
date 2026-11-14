@@ -1,0 +1,11 @@
+role form reproduces Appendix A: OK; 2000 random copies independent, size 33: OK; relabelled-but-still-a-copy control independent: True
+planted non-independent family detected: True
+p=2: rank 1287/1287, all-ones in span: True; planted (sum 1286) in span: True
+p=3: rank 1286/1287, all-ones in span: True; planted (sum 1286) in span: False
+p=5: rank 1287/1287, all-ones in span: True; planted (sum 1286) in span: True
+p=7: rank 1287/1287, all-ones in span: True; planted (sum 1286) in span: True
+p=11: rank 1286/1287, all-ones in span: True; planted (sum 1286) in span: False
+p=13: rank 1287/1287, all-ones in span: True; planted (sum 1286) in span: True
+p=17: rank 1287/1287, all-ones in span: True; planted (sum 1286) in span: True
+
+[exited with code 0]

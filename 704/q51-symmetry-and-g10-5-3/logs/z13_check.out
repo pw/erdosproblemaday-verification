@@ -1,0 +1,2 @@
+copies with INF=0: 9979200 ; histogram tail: {30: 1548588, 31: 1045260, 32: 493500, 33: 136540} ; kept: 136540
+ordered disjoint pairs: 25656 ; ordered exact 3-covers (i,j,rest): 0

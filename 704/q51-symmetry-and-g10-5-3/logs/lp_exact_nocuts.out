@@ -1,0 +1,2 @@
+rank 101 of 101 support columns; min z = 84389793268111038434540664193892375739980983/32448265293966348015676958454537805649398528387 ; sum z = 38
+exact: z >= 0: True | cover rows exact: True | 4-set cuts: True | 6-set cuts: True | point rows: True

@@ -1,0 +1,2 @@
+n=1675300 n33=136540 n32=493500
+disjoint (33,33) pairs 12828 ; disjoint (33,32) pairs 197700 ; (33,33) pairs with overlap 1: 223356 ; triples with union >= 97: 0
