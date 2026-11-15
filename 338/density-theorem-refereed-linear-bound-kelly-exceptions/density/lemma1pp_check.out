@@ -1,0 +1,19 @@
+N= 3000 random 0.3             K=40 R=3: a_K=  171  A(N)/N=0.297  |M_R∩[1,N']|/N'=0.967  rhs-lhs=94982
+N= 3000 random 0.05            K=40 R=3: a_K= 1083  A(N)/N=0.045  |M_R∩[1,N']|/N'=0.352  rhs-lhs=61846
+N= 3000 multiples of 9         K=40 R=3: a_K=  360  A(N)/N=0.111  |M_R∩[1,N']|/N'=0.109  rhs-lhs=9680
+N= 3000 0,1 mod 7              K=40 R=3: a_K=  140  A(N)/N=0.286  |M_R∩[1,N']|/N'=0.424  rhs-lhs=26880
+N= 3000 0,1 mod 40             K=40 R=3: a_K=  800  A(N)/N=0.050  |M_R∩[1,N']|/N'=0.071  rhs-lhs=14040
+N= 3000 Bateman {1} U 6N       K=40 R=3: a_K=  234  A(N)/N=0.167  |M_R∩[1,N']|/N'=0.165  rhs-lhs=9348
+N= 3000 blocks [x,2x] x*=5     K=40 R=3: a_K=   94  A(N)/N=0.533  |M_R∩[1,N']|/N'=0.835  rhs-lhs=47188
+N= 3000 9N + squares           K=40 R=3: a_K=  261  A(N)/N=0.123  |M_R∩[1,N']|/N'=0.435  rhs-lhs=50122
+N= 3000 {4,6} U 10q U 10q+3    K=40 R=3: a_K=  193  A(N)/N=0.200  |M_R∩[1,N']|/N'=0.295  rhs-lhs=21666
+N= 9000 random 0.3             K=40 R=3: a_K=  134  A(N)/N=0.304  |M_R∩[1,N']|/N'=0.993  rhs-lhs=273268
+N= 9000 random 0.05            K=40 R=3: a_K=  782  A(N)/N=0.048  |M_R∩[1,N']|/N'=0.695  rhs-lhs=275964
+N= 9000 multiples of 9         K=40 R=3: a_K=  360  A(N)/N=0.111  |M_R∩[1,N']|/N'=0.110  rhs-lhs=21680
+N= 9000 0,1 mod 7              K=40 R=3: a_K=  140  A(N)/N=0.286  |M_R∩[1,N']|/N'=0.427  rhs-lhs=73160
+N= 9000 0,1 mod 40             K=40 R=3: a_K=  800  A(N)/N=0.050  |M_R∩[1,N']|/N'=0.074  rhs-lhs=32040
+N= 9000 Bateman {1} U 6N       K=40 R=3: a_K=  234  A(N)/N=0.167  |M_R∩[1,N']|/N'=0.166  rhs-lhs=21348
+N= 9000 blocks [x,2x] x*=5     K=40 R=3: a_K=   94  A(N)/N=0.261  |M_R∩[1,N']|/N'=0.768  rhs-lhs=205228
+N= 9000 9N + squares           K=40 R=3: a_K=  261  A(N)/N=0.118  |M_R∩[1,N']|/N'=0.447  rhs-lhs=143242
+N= 9000 {4,6} U 10q U 10q+3    K=40 R=3: a_K=  193  A(N)/N=0.200  |M_R∩[1,N']|/N'=0.298  rhs-lhs=57666
+failures: 0

@@ -1,0 +1,11 @@
+(f) periodic sets m<=13, density<=1/2, residue hypothesis: 8667 sets; violations of 4ceil(1/d)-4: none
+    max true/boundC = 3/4 at (m,S,t,boundC) = (4, (0, 1), 3, 4)
+    sets whose true order exceeds floor(2/d)-1 (the example's value): 0; first []
+    mN u {m2^j+1}, m=3                 density   1/3: true order (window) 3, Theorem C bound 8
+    0 mod m u 2/3 of 1 mod m, m=3      density   5/9: true order (window) 2, Theorem C bound 4
+    mN u {m2^j+1}, m=4                 density   1/4: true order (window) 4, Theorem C bound 12
+    0 mod m u 2/3 of 1 mod m, m=4      density  5/12: true order (window) 3, Theorem C bound 8
+    mN u {m2^j+1}, m=5                 density   1/5: true order (window) 5, Theorem C bound 16
+    0 mod m u 2/3 of 1 mod m, m=5      density   1/3: true order (window) 4, Theorem C bound 8
+    mN u {m2^j+1}, m=6                 density   1/6: true order (window) 6, Theorem C bound 20
+    0 mod m u 2/3 of 1 mod m, m=6      density  5/18: true order (window) 5, Theorem C bound 12

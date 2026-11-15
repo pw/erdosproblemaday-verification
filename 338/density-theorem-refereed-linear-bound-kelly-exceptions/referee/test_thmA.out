@@ -1,0 +1,228 @@
+random d=0.3
+  random d=0.3                 N=   1000 R=   1 A(x)=   148 maxr=    52 |M_R|=    976 lb=      73.5 |M_R|/N=0.9760 A(x)/(N/2)=0.2960 slack=133570
+  random d=0.3                 N=   1000 R=   2 A(x)=   148 maxr=    52 |M_R|=    948 lb=      66.7 |M_R|/N=0.9480 A(x)/(N/2)=0.2960 slack=130426
+  random d=0.3                 N=   1000 R=   5 A(x)=   148 maxr=    52 |M_R|=    866 lb=      46.5 |M_R|/N=0.8660 A(x)/(N/2)=0.2960 slack=121290
+  random d=0.3                 N=   1000 R=  20 A(x)=   148 maxr=    52 |M_R|=    547 lb=     -54.9 |M_R|/N=0.5470 A(x)/(N/2)=0.2960 slack=89078
+  random d=0.3                 N=   1000 R= 100 A(x)=   148 maxr=    52 |M_R|=      0 lb=    -595.4 |M_R|/N=0.0000 A(x)/(N/2)=0.2960 slack=88122
+  random d=0.3                 N=   1000 R=1000 A(x)=   148 maxr=    52 |M_R|=      0 lb=   -6676.5 |M_R|/N=0.0000 A(x)/(N/2)=0.2960 slack=988122
+  random d=0.3                 N=   9999 R=   1 A(x)=  1451 maxr=   485 |M_R|=   9975 lb=     725.0 |M_R|/N=0.9976 A(x)/(N/2)=0.2902 slack=13421750
+  random d=0.3                 N=   9999 R=   2 A(x)=  1451 maxr=   485 |M_R|=   9947 lb=     718.1 |M_R|/N=0.9948 A(x)/(N/2)=0.2902 slack=13391121
+  random d=0.3                 N=   9999 R=   5 A(x)=  1451 maxr=   485 |M_R|=   9865 lb=     697.4 |M_R|/N=0.9866 A(x)/(N/2)=0.2902 slack=13302136
+  random d=0.3                 N=   9999 R=  20 A(x)=  1451 maxr=   485 |M_R|=   9546 lb=     594.1 |M_R|/N=0.9547 A(x)/(N/2)=0.2902 slack=12989252
+  random d=0.3                 N=   9999 R= 100 A(x)=  1451 maxr=   485 |M_R|=   7541 lb=      42.8 |M_R|/N=0.7542 A(x)/(N/2)=0.2902 slack=10879917
+  random d=0.3                 N=   9999 R=1000 A(x)=  1451 maxr=   485 |M_R|=      0 lb=   -6159.2 |M_R|/N=0.0000 A(x)/(N/2)=0.2902 slack=8937026
+  random d=0.3                 N=  50000 R=   1 A(x)=  7539 maxr=  2375 |M_R|=  49976 lb=    3769.0 |M_R|/N=0.9995 A(x)/(N/2)=0.3016 slack=348354573
+  random d=0.3                 N=  50000 R=   2 A(x)=  7539 maxr=  2375 |M_R|=  49948 lb=    3762.4 |M_R|/N=0.9990 A(x)/(N/2)=0.3016 slack=348193481
+  random d=0.3                 N=  50000 R=   5 A(x)=  7539 maxr=  2375 |M_R|=  49866 lb=    3742.5 |M_R|/N=0.9973 A(x)/(N/2)=0.3016 slack=347725283
+  random d=0.3                 N=  50000 R=  20 A(x)=  7539 maxr=  2375 |M_R|=  49547 lb=    3643.0 |M_R|/N=0.9909 A(x)/(N/2)=0.3016 slack=346070342
+  random d=0.3                 N=  50000 R= 100 A(x)=  7539 maxr=  2375 |M_R|=  47542 lb=    3112.4 |M_R|/N=0.9508 A(x)/(N/2)=0.3016 slack=334954647
+  random d=0.3                 N=  50000 R=1000 A(x)=  7539 maxr=  2375 |M_R|=  27992 lb=   -2856.5 |M_R|/N=0.5598 A(x)/(N/2)=0.3016 slack=232567197
+  random d=0.3                 N= 100000 R=   1 A(x)= 15155 maxr=  4700 |M_R|=  99976 lb=    7577.0 |M_R|/N=0.9998 A(x)/(N/2)=0.3031 slack=1400306845
+  random d=0.3                 N= 100000 R=   2 A(x)= 15155 maxr=  4700 |M_R|=  99948 lb=    7570.4 |M_R|/N=0.9995 A(x)/(N/2)=0.3031 slack=1399982505
+  random d=0.3                 N= 100000 R=   5 A(x)= 15155 maxr=  4700 |M_R|=  99866 lb=    7550.6 |M_R|/N=0.9987 A(x)/(N/2)=0.3031 slack=1399039795
+  random d=0.3                 N= 100000 R=  20 A(x)= 15155 maxr=  4700 |M_R|=  99547 lb=    7451.6 |M_R|/N=0.9955 A(x)/(N/2)=0.3031 slack=1395705350
+  random d=0.3                 N= 100000 R= 100 A(x)= 15155 maxr=  4700 |M_R|=  97542 lb=    6923.8 |M_R|/N=0.9754 A(x)/(N/2)=0.3031 slack=1373319575
+  random d=0.3                 N= 100000 R=1000 A(x)= 15155 maxr=  4700 |M_R|=  77992 lb=     985.1 |M_R|/N=0.7799 A(x)/(N/2)=0.3031 slack=1167039325
+  random d=0.3                 N= 200000 R=   1 A(x)= 30244 maxr=  9204 |M_R|= 199976 lb=   15121.5 |M_R|/N=0.9999 A(x)/(N/2)=0.3024 slack=5590739498
+  random d=0.3                 N= 200000 R=   2 A(x)= 30244 maxr=  9204 |M_R|= 199948 lb=   15114.9 |M_R|/N=0.9997 A(x)/(N/2)=0.3024 slack=5590092666
+  random d=0.3                 N= 200000 R=   5 A(x)= 30244 maxr=  9204 |M_R|= 199866 lb=   15095.0 |M_R|/N=0.9993 A(x)/(N/2)=0.3024 slack=5588212658
+  random d=0.3                 N= 200000 R=  20 A(x)= 30244 maxr=  9204 |M_R|= 199547 lb=   14995.9 |M_R|/N=0.9977 A(x)/(N/2)=0.3024 slack=5581564822
+  random d=0.3                 N= 200000 R= 100 A(x)= 30244 maxr=  9204 |M_R|= 197542 lb=   14466.8 |M_R|/N=0.9877 A(x)/(N/2)=0.3024 slack=5536925602
+  random d=0.3                 N= 200000 R=1000 A(x)= 30244 maxr=  9204 |M_R|= 177992 lb=    8515.2 |M_R|/N=0.8900 A(x)/(N/2)=0.3024 slack=5125655402
+  second route (exact np.convolve, n<=40000) agrees with FFT: True
+0,1 mod 7
+  0,1 mod 7                    N=   1000 R=   1 A(x)=   143 maxr=   142 |M_R|=    424 lb=      71.0 |M_R|/N=0.4240 A(x)/(N/2)=0.2860 slack=50479
+  0,1 mod 7                    N=   1000 R=   2 A(x)=   143 maxr=   142 |M_R|=    419 lb=      64.0 |M_R|/N=0.4190 A(x)/(N/2)=0.2860 slack=50764
+  0,1 mod 7                    N=   1000 R=   5 A(x)=   143 maxr=   142 |M_R|=    404 lb=      43.0 |M_R|/N=0.4040 A(x)/(N/2)=0.2860 slack=51619
+  0,1 mod 7                    N=   1000 R=  20 A(x)=   143 maxr=   142 |M_R|=    329 lb=     -61.9 |M_R|/N=0.3290 A(x)/(N/2)=0.2860 slack=55894
+  0,1 mod 7                    N=   1000 R= 100 A(x)=   143 maxr=   142 |M_R|=     43 lb=    -621.3 |M_R|/N=0.0430 A(x)/(N/2)=0.2860 slack=94996
+  0,1 mod 7                    N=   1000 R=1000 A(x)=   143 maxr=   142 |M_R|=      0 lb=   -6915.0 |M_R|/N=0.0000 A(x)/(N/2)=0.2860 slack=988847
+  0,1 mod 7                    N=   9999 R=   1 A(x)=  1429 maxr=  1428 |M_R|=   4282 lb=     714.0 |M_R|/N=0.4282 A(x)/(N/2)=0.2858 slack=5098672
+  0,1 mod 7                    N=   9999 R=   2 A(x)=  1429 maxr=  1428 |M_R|=   4277 lb=     707.0 |M_R|/N=0.4277 A(x)/(N/2)=0.2858 slack=5101526
+  0,1 mod 7                    N=   9999 R=   5 A(x)=  1429 maxr=  1428 |M_R|=   4262 lb=     686.0 |M_R|/N=0.4262 A(x)/(N/2)=0.2858 slack=5110088
+  0,1 mod 7                    N=   9999 R=  20 A(x)=  1429 maxr=  1428 |M_R|=   4187 lb=     581.1 |M_R|/N=0.4187 A(x)/(N/2)=0.2858 slack=5152898
+  0,1 mod 7                    N=   9999 R= 100 A(x)=  1429 maxr=  1428 |M_R|=   3787 lb=      21.3 |M_R|/N=0.3787 A(x)/(N/2)=0.2858 slack=5381218
+  0,1 mod 7                    N=   9999 R=1000 A(x)=  1429 maxr=  1428 |M_R|=    429 lb=   -6276.2 |M_R|/N=0.0429 A(x)/(N/2)=0.2858 slack=9581736
+  0,1 mod 7                    N=  50000 R=   1 A(x)=  7143 maxr=  7142 |M_R|=  21424 lb=    3571.0 |M_R|/N=0.4285 A(x)/(N/2)=0.2857 slack=127523979
+  0,1 mod 7                    N=  50000 R=   2 A(x)=  7143 maxr=  7142 |M_R|=  21419 lb=    3564.0 |M_R|/N=0.4284 A(x)/(N/2)=0.2857 slack=127538264
+  0,1 mod 7                    N=  50000 R=   5 A(x)=  7143 maxr=  7142 |M_R|=  21404 lb=    3543.0 |M_R|/N=0.4281 A(x)/(N/2)=0.2857 slack=127581119
+  0,1 mod 7                    N=  50000 R=  20 A(x)=  7143 maxr=  7142 |M_R|=  21329 lb=    3438.0 |M_R|/N=0.4266 A(x)/(N/2)=0.2857 slack=127795394
+  0,1 mod 7                    N=  50000 R= 100 A(x)=  7143 maxr=  7142 |M_R|=  20929 lb=    2878.0 |M_R|/N=0.4186 A(x)/(N/2)=0.2857 slack=128938194
+  0,1 mod 7                    N=  50000 R=1000 A(x)=  7143 maxr=  7142 |M_R|=  16429 lb=   -3421.9 |M_R|/N=0.3286 A(x)/(N/2)=0.2857 slack=141794694
+  0,1 mod 7                    N= 100000 R=   1 A(x)= 14285 maxr= 14285 |M_R|=  42853 lb=    7142.0 |M_R|/N=0.4285 A(x)/(N/2)=0.2857 slack=510131635
+  0,1 mod 7                    N= 100000 R=   2 A(x)= 14285 maxr= 14285 |M_R|=  42848 lb=    7135.0 |M_R|/N=0.4285 A(x)/(N/2)=0.2857 slack=510160210
+  0,1 mod 7                    N= 100000 R=   5 A(x)= 14285 maxr= 14285 |M_R|=  42833 lb=    7114.0 |M_R|/N=0.4283 A(x)/(N/2)=0.2857 slack=510245935
+  0,1 mod 7                    N= 100000 R=  20 A(x)= 14285 maxr= 14285 |M_R|=  42758 lb=    7009.0 |M_R|/N=0.4276 A(x)/(N/2)=0.2857 slack=510674560
+  0,1 mod 7                    N= 100000 R= 100 A(x)= 14285 maxr= 14285 |M_R|=  42358 lb=    6449.0 |M_R|/N=0.4236 A(x)/(N/2)=0.2857 slack=512960560
+  0,1 mod 7                    N= 100000 R=1000 A(x)= 14285 maxr= 14285 |M_R|=  37858 lb=     148.7 |M_R|/N=0.3786 A(x)/(N/2)=0.2857 slack=538678060
+  0,1 mod 7                    N= 200000 R=   1 A(x)= 28571 maxr= 28571 |M_R|=  85711 lb=   14285.0 |M_R|/N=0.4286 A(x)/(N/2)=0.2857 slack=2040712246
+  0,1 mod 7                    N= 200000 R=   2 A(x)= 28571 maxr= 28571 |M_R|=  85706 lb=   14278.0 |M_R|/N=0.4285 A(x)/(N/2)=0.2857 slack=2040769391
+  0,1 mod 7                    N= 200000 R=   5 A(x)= 28571 maxr= 28571 |M_R|=  85691 lb=   14257.0 |M_R|/N=0.4285 A(x)/(N/2)=0.2857 slack=2040940826
+  0,1 mod 7                    N= 200000 R=  20 A(x)= 28571 maxr= 28571 |M_R|=  85616 lb=   14152.0 |M_R|/N=0.4281 A(x)/(N/2)=0.2857 slack=2041798001
+  0,1 mod 7                    N= 200000 R= 100 A(x)= 28571 maxr= 28571 |M_R|=  85216 lb=   13592.0 |M_R|/N=0.4261 A(x)/(N/2)=0.2857 slack=2046369601
+  0,1 mod 7                    N= 200000 R=1000 A(x)= 28571 maxr= 28571 |M_R|=  80716 lb=    7291.9 |M_R|/N=0.4036 A(x)/(N/2)=0.2857 slack=2097800101
+  second route (exact np.convolve, n<=40000) agrees with FFT: True
+blocks [4^k,2*4^k)
+  blocks [4^k,2*4^k)           N=   1000 R=   1 A(x)=   329 maxr=   128 |M_R|=    974 lb=     164.0 |M_R|/N=0.9740 A(x)/(N/2)=0.6580 slack=266490
+  blocks [4^k,2*4^k)           N=   1000 R=   2 A(x)=   329 maxr=   128 |M_R|=    963 lb=     161.0 |M_R|/N=0.9630 A(x)/(N/2)=0.6580 slack=263871
+  blocks [4^k,2*4^k)           N=   1000 R=   5 A(x)=   329 maxr=   128 |M_R|=    913 lb=     151.8 |M_R|/N=0.9130 A(x)/(N/2)=0.6580 slack=250421
+  blocks [4^k,2*4^k)           N=   1000 R=  20 A(x)=   329 maxr=   128 |M_R|=    803 lb=     106.2 |M_R|/N=0.8030 A(x)/(N/2)=0.6580 slack=229231
+  blocks [4^k,2*4^k)           N=   1000 R= 100 A(x)=   329 maxr=   128 |M_R|=    113 lb=    -136.9 |M_R|/N=0.1130 A(x)/(N/2)=0.6580 slack=82221
+  blocks [4^k,2*4^k)           N=   1000 R=1000 A(x)=   329 maxr=   128 |M_R|=      0 lb=   -2872.5 |M_R|/N=0.0000 A(x)/(N/2)=0.6580 slack=945044
+  blocks [4^k,2*4^k)           N=   9999 R=   1 A(x)=  2268 maxr=  1536 |M_R|=   9961 lb=    1133.5 |M_R|/N=0.9962 A(x)/(N/2)=0.4536 slack=20020770
+  blocks [4^k,2*4^k)           N=   9999 R=   2 A(x)=  2268 maxr=  1536 |M_R|=   9944 lb=    1129.1 |M_R|/N=0.9945 A(x)/(N/2)=0.4536 slack=19992213
+  blocks [4^k,2*4^k)           N=   9999 R=   5 A(x)=  2268 maxr=  1536 |M_R|=   9860 lb=    1115.9 |M_R|/N=0.9861 A(x)/(N/2)=0.4536 slack=19831698
+  blocks [4^k,2*4^k)           N=   9999 R=  20 A(x)=  2268 maxr=  1536 |M_R|=   9677 lb=    1049.7 |M_R|/N=0.9678 A(x)/(N/2)=0.4536 slack=19566639
+  blocks [4^k,2*4^k)           N=   9999 R= 100 A(x)=  2268 maxr=  1536 |M_R|=   8347 lb=     697.0 |M_R|/N=0.8348 A(x)/(N/2)=0.4536 slack=17350119
+  blocks [4^k,2*4^k)           N=   9999 R=1000 A(x)=  2268 maxr=  1536 |M_R|=   4221 lb=   -3270.8 |M_R|/N=0.4221 A(x)/(N/2)=0.4536 slack=16991451
+  blocks [4^k,2*4^k)           N=  50000 R=   1 A(x)= 14077 maxr=  8192 |M_R|=  49956 lb=    7038.0 |M_R|/N=0.9991 A(x)/(N/2)=0.5631 slack=604156686
+  blocks [4^k,2*4^k)           N=  50000 R=   2 A(x)= 14077 maxr=  8192 |M_R|=  49936 lb=    7034.4 |M_R|/N=0.9987 A(x)/(N/2)=0.5631 slack=603925146
+  blocks [4^k,2*4^k)           N=  50000 R=   5 A(x)= 14077 maxr=  8192 |M_R|=  49835 lb=    7023.8 |M_R|/N=0.9967 A(x)/(N/2)=0.5631 slack=602653369
+  blocks [4^k,2*4^k)           N=  50000 R=  20 A(x)= 14077 maxr=  8192 |M_R|=  49607 lb=    6970.5 |M_R|/N=0.9921 A(x)/(N/2)=0.5631 slack=600193813
+  blocks [4^k,2*4^k)           N=  50000 R= 100 A(x)= 14077 maxr=  8192 |M_R|=  47877 lb=    6686.4 |M_R|/N=0.9575 A(x)/(N/2)=0.5631 slack=579840603
+  blocks [4^k,2*4^k)           N=  50000 R=1000 A(x)= 14077 maxr=  8192 |M_R|=  40539 lb=    3489.7 |M_R|/N=0.8108 A(x)/(N/2)=0.5631 slack=521543577
+  blocks [4^k,2*4^k)           N= 100000 R=   1 A(x)= 21844 maxr= 21844 |M_R|=  99950 lb=   10921.5 |M_R|/N=0.9995 A(x)/(N/2)=0.4369 slack=1944738554
+  blocks [4^k,2*4^k)           N= 100000 R=   2 A(x)= 21844 maxr= 21844 |M_R|=  99927 lb=   10916.9 |M_R|/N=0.9993 A(x)/(N/2)=0.4369 slack=1944336142
+  blocks [4^k,2*4^k)           N= 100000 R=   5 A(x)= 21844 maxr= 21844 |M_R|=  99809 lb=   10903.2 |M_R|/N=0.9981 A(x)/(N/2)=0.4369 slack=1942058550
+  blocks [4^k,2*4^k)           N= 100000 R=  20 A(x)= 21844 maxr= 21844 |M_R|=  99536 lb=   10834.5 |M_R|/N=0.9954 A(x)/(N/2)=0.4369 slack=1937595138
+  blocks [4^k,2*4^k)           N= 100000 R= 100 A(x)= 21844 maxr= 21844 |M_R|=  97406 lb=   10468.3 |M_R|/N=0.9741 A(x)/(N/2)=0.4369 slack=1899067418
+  blocks [4^k,2*4^k)           N= 100000 R=1000 A(x)= 21844 maxr= 21844 |M_R|=  86856 lb=    6348.2 |M_R|/N=0.8686 A(x)/(N/2)=0.4369 slack=1758613218
+  blocks [4^k,2*4^k)           N= 200000 R=   1 A(x)= 56309 maxr= 32768 |M_R|= 199950 lb=   28154.0 |M_R|/N=0.9998 A(x)/(N/2)=0.5631 slack=9673660964
+  blocks [4^k,2*4^k)           N= 200000 R=   2 A(x)= 56309 maxr= 32768 |M_R|= 199927 lb=   28150.4 |M_R|/N=0.9996 A(x)/(N/2)=0.5631 slack=9672565857
+  blocks [4^k,2*4^k)           N= 200000 R=   5 A(x)= 56309 maxr= 32768 |M_R|= 199809 lb=   28139.8 |M_R|/N=0.9990 A(x)/(N/2)=0.5631 slack=9666521395
+  blocks [4^k,2*4^k)           N= 200000 R=  20 A(x)= 56309 maxr= 32768 |M_R|= 199536 lb=   28086.5 |M_R|/N=0.9977 A(x)/(N/2)=0.5631 slack=9654149038
+  blocks [4^k,2*4^k)           N= 200000 R= 100 A(x)= 56309 maxr= 32768 |M_R|= 197406 lb=   27802.4 |M_R|/N=0.9870 A(x)/(N/2)=0.5631 slack=9550210868
+  blocks [4^k,2*4^k)           N= 200000 R=1000 A(x)= 56309 maxr= 32768 |M_R|= 186856 lb=   24605.7 |M_R|/N=0.9343 A(x)/(N/2)=0.5631 slack=9136150918
+  second route (exact np.convolve, n<=40000) agrees with FFT: True
+20N (r concentrated)
+  20N (r concentrated)         N=   1000 R=   1 A(x)=    25 maxr=    24 |M_R|=     48 lb=      12.0 |M_R|/N=0.0480 A(x)/(N/2)=0.0500 slack=900
+  20N (r concentrated)         N=   1000 R=   2 A(x)=    25 maxr=    24 |M_R|=     46 lb=     -28.0 |M_R|/N=0.0460 A(x)/(N/2)=0.0500 slack=1850
+  20N (r concentrated)         N=   1000 R=   5 A(x)=    25 maxr=    24 |M_R|=     40 lb=    -148.0 |M_R|/N=0.0400 A(x)/(N/2)=0.0500 slack=4700
+  20N (r concentrated)         N=   1000 R=  20 A(x)=    25 maxr=    24 |M_R|=     10 lb=    -748.0 |M_R|/N=0.0100 A(x)/(N/2)=0.0500 slack=18950
+  20N (r concentrated)         N=   1000 R= 100 A(x)=    25 maxr=    24 |M_R|=      0 lb=   -3948.0 |M_R|/N=0.0000 A(x)/(N/2)=0.0500 slack=98700
+  20N (r concentrated)         N=   1000 R=1000 A(x)=    25 maxr=    24 |M_R|=      0 lb=  -39948.0 |M_R|/N=0.0000 A(x)/(N/2)=0.0500 slack=998700
+  20N (r concentrated)         N=   9999 R=   1 A(x)=   249 maxr=   249 |M_R|=    497 lb=     124.0 |M_R|/N=0.0497 A(x)/(N/2)=0.0498 slack=92877
+  20N (r concentrated)         N=   9999 R=   2 A(x)=   249 maxr=   249 |M_R|=    495 lb=      83.8 |M_R|/N=0.0495 A(x)/(N/2)=0.0498 slack=102378
+  20N (r concentrated)         N=   9999 R=   5 A(x)=   249 maxr=   249 |M_R|=    489 lb=     -36.6 |M_R|/N=0.0489 A(x)/(N/2)=0.0498 slack=130881
+  20N (r concentrated)         N=   9999 R=  20 A(x)=   249 maxr=   249 |M_R|=    459 lb=    -639.0 |M_R|/N=0.0459 A(x)/(N/2)=0.0498 slack=273396
+  20N (r concentrated)         N=   9999 R= 100 A(x)=   249 maxr=   249 |M_R|=    299 lb=   -3851.5 |M_R|/N=0.0299 A(x)/(N/2)=0.0498 slack=1033476
+  20N (r concentrated)         N=   9999 R=1000 A(x)=   249 maxr=   249 |M_R|=      0 lb=  -39992.5 |M_R|/N=0.0000 A(x)/(N/2)=0.0498 slack=9958125
+  20N (r concentrated)         N=  50000 R=   1 A(x)=  1250 maxr=  1249 |M_R|=   2498 lb=     624.5 |M_R|/N=0.0500 A(x)/(N/2)=0.0500 slack=2341875
+  20N (r concentrated)         N=  50000 R=   2 A(x)=  1250 maxr=  1249 |M_R|=   2496 lb=     584.5 |M_R|/N=0.0499 A(x)/(N/2)=0.0500 slack=2389375
+  20N (r concentrated)         N=  50000 R=   5 A(x)=  1250 maxr=  1249 |M_R|=   2490 lb=     464.5 |M_R|/N=0.0498 A(x)/(N/2)=0.0500 slack=2531875
+  20N (r concentrated)         N=  50000 R=  20 A(x)=  1250 maxr=  1249 |M_R|=   2460 lb=    -135.5 |M_R|/N=0.0492 A(x)/(N/2)=0.0500 slack=3244375
+  20N (r concentrated)         N=  50000 R= 100 A(x)=  1250 maxr=  1249 |M_R|=   2300 lb=   -3335.5 |M_R|/N=0.0460 A(x)/(N/2)=0.0500 slack=7044375
+  20N (r concentrated)         N=  50000 R=1000 A(x)=  1250 maxr=  1249 |M_R|=    500 lb=  -39335.5 |M_R|/N=0.0100 A(x)/(N/2)=0.0500 slack=49794375
+  20N (r concentrated)         N= 100000 R=   1 A(x)=  2500 maxr=  2499 |M_R|=   4998 lb=    1249.5 |M_R|/N=0.0500 A(x)/(N/2)=0.0500 slack=9371250
+  20N (r concentrated)         N= 100000 R=   2 A(x)=  2500 maxr=  2499 |M_R|=   4996 lb=    1209.5 |M_R|/N=0.0500 A(x)/(N/2)=0.0500 slack=9466250
+  20N (r concentrated)         N= 100000 R=   5 A(x)=  2500 maxr=  2499 |M_R|=   4990 lb=    1089.5 |M_R|/N=0.0499 A(x)/(N/2)=0.0500 slack=9751250
+  20N (r concentrated)         N= 100000 R=  20 A(x)=  2500 maxr=  2499 |M_R|=   4960 lb=     489.5 |M_R|/N=0.0496 A(x)/(N/2)=0.0500 slack=11176250
+  20N (r concentrated)         N= 100000 R= 100 A(x)=  2500 maxr=  2499 |M_R|=   4800 lb=   -2710.5 |M_R|/N=0.0480 A(x)/(N/2)=0.0500 slack=18776250
+  20N (r concentrated)         N= 100000 R=1000 A(x)=  2500 maxr=  2499 |M_R|=   3000 lb=  -38710.5 |M_R|/N=0.0300 A(x)/(N/2)=0.0500 slack=104276250
+  20N (r concentrated)         N= 200000 R=   1 A(x)=  5000 maxr=  4999 |M_R|=   9998 lb=    2499.5 |M_R|/N=0.0500 A(x)/(N/2)=0.0500 slack=37492500
+  20N (r concentrated)         N= 200000 R=   2 A(x)=  5000 maxr=  4999 |M_R|=   9996 lb=    2459.5 |M_R|/N=0.0500 A(x)/(N/2)=0.0500 slack=37682500
+  20N (r concentrated)         N= 200000 R=   5 A(x)=  5000 maxr=  4999 |M_R|=   9990 lb=    2339.5 |M_R|/N=0.0500 A(x)/(N/2)=0.0500 slack=38252500
+  20N (r concentrated)         N= 200000 R=  20 A(x)=  5000 maxr=  4999 |M_R|=   9960 lb=    1739.5 |M_R|/N=0.0498 A(x)/(N/2)=0.0500 slack=41102500
+  20N (r concentrated)         N= 200000 R= 100 A(x)=  5000 maxr=  4999 |M_R|=   9800 lb=   -1460.5 |M_R|/N=0.0490 A(x)/(N/2)=0.0500 slack=56302500
+  20N (r concentrated)         N= 200000 R=1000 A(x)=  5000 maxr=  4999 |M_R|=   8000 lb=  -37460.5 |M_R|/N=0.0400 A(x)/(N/2)=0.0500 slack=227302500
+  second route (exact np.convolve, n<=40000) agrees with FFT: True
+Bateman {1} u 5N
+  Bateman {1} u 5N             N=   1000 R=   1 A(x)=   101 maxr=    99 |M_R|=    397 lb=      50.0 |M_R|/N=0.3970 A(x)/(N/2)=0.2020 slack=35047
+  Bateman {1} u 5N             N=   1000 R=   2 A(x)=   101 maxr=    99 |M_R|=    196 lb=      40.1 |M_R|/N=0.1960 A(x)/(N/2)=0.2020 slack=15746
+  Bateman {1} u 5N             N=   1000 R=   5 A(x)=   101 maxr=    99 |M_R|=    190 lb=      10.4 |M_R|/N=0.1900 A(x)/(N/2)=0.2020 slack=18140
+  Bateman {1} u 5N             N=   1000 R=  20 A(x)=   101 maxr=    99 |M_R|=    160 lb=    -138.1 |M_R|/N=0.1600 A(x)/(N/2)=0.2020 slack=30110
+  Bateman {1} u 5N             N=   1000 R= 100 A(x)=   101 maxr=    99 |M_R|=      0 lb=    -930.2 |M_R|/N=0.0000 A(x)/(N/2)=0.2020 slack=93950
+  Bateman {1} u 5N             N=   1000 R=1000 A(x)=   101 maxr=    99 |M_R|=      0 lb=   -9841.1 |M_R|/N=0.0000 A(x)/(N/2)=0.2020 slack=993950
+  Bateman {1} u 5N             N=   9999 R=   1 A(x)=  1000 maxr=   999 |M_R|=   3996 lb=     499.5 |M_R|/N=0.3996 A(x)/(N/2)=0.2000 slack=3496500
+  Bateman {1} u 5N             N=   9999 R=   2 A(x)=  1000 maxr=   999 |M_R|=   1995 lb=     489.5 |M_R|/N=0.1995 A(x)/(N/2)=0.2000 slack=1505499
+  Bateman {1} u 5N             N=   9999 R=   5 A(x)=  1000 maxr=   999 |M_R|=   1989 lb=     459.5 |M_R|/N=0.1989 A(x)/(N/2)=0.2000 slack=1529496
+  Bateman {1} u 5N             N=   9999 R=  20 A(x)=  1000 maxr=   999 |M_R|=   1959 lb=     309.5 |M_R|/N=0.1959 A(x)/(N/2)=0.2000 slack=1649481
+  Bateman {1} u 5N             N=   9999 R= 100 A(x)=  1000 maxr=   999 |M_R|=   1799 lb=    -490.4 |M_R|/N=0.1799 A(x)/(N/2)=0.2000 slack=2289401
+  Bateman {1} u 5N             N=   9999 R=1000 A(x)=  1000 maxr=   999 |M_R|=      0 lb=   -9489.5 |M_R|/N=0.0000 A(x)/(N/2)=0.2000 slack=9489501
+  Bateman {1} u 5N             N=  50000 R=   1 A(x)=  5001 maxr=  4999 |M_R|=  19997 lb=    2500.0 |M_R|/N=0.3999 A(x)/(N/2)=0.2000 slack=87502497
+  Bateman {1} u 5N             N=  50000 R=   2 A(x)=  5001 maxr=  4999 |M_R|=   9996 lb=    2490.0 |M_R|/N=0.1999 A(x)/(N/2)=0.2000 slack=37537496
+  Bateman {1} u 5N             N=  50000 R=   5 A(x)=  5001 maxr=  4999 |M_R|=   9990 lb=    2460.0 |M_R|/N=0.1998 A(x)/(N/2)=0.2000 slack=37657490
+  Bateman {1} u 5N             N=  50000 R=  20 A(x)=  5001 maxr=  4999 |M_R|=   9960 lb=    2310.0 |M_R|/N=0.1992 A(x)/(N/2)=0.2000 slack=38257460
+  Bateman {1} u 5N             N=  50000 R= 100 A(x)=  5001 maxr=  4999 |M_R|=   9800 lb=    1510.2 |M_R|/N=0.1960 A(x)/(N/2)=0.2000 slack=41457300
+  Bateman {1} u 5N             N=  50000 R=1000 A(x)=  5001 maxr=  4999 |M_R|=   8000 lb=   -7488.0 |M_R|/N=0.1600 A(x)/(N/2)=0.2000 slack=77455500
+  Bateman {1} u 5N             N= 100000 R=   1 A(x)= 10001 maxr=  9999 |M_R|=  39997 lb=    5000.0 |M_R|/N=0.4000 A(x)/(N/2)=0.2000 slack=350004997
+  Bateman {1} u 5N             N= 100000 R=   2 A(x)= 10001 maxr=  9999 |M_R|=  19996 lb=    4990.0 |M_R|/N=0.2000 A(x)/(N/2)=0.2000 slack=150074996
+  Bateman {1} u 5N             N= 100000 R=   5 A(x)= 10001 maxr=  9999 |M_R|=  19990 lb=    4960.0 |M_R|/N=0.1999 A(x)/(N/2)=0.2000 slack=150314990
+  Bateman {1} u 5N             N= 100000 R=  20 A(x)= 10001 maxr=  9999 |M_R|=  19960 lb=    4810.0 |M_R|/N=0.1996 A(x)/(N/2)=0.2000 slack=151514960
+  Bateman {1} u 5N             N= 100000 R= 100 A(x)= 10001 maxr=  9999 |M_R|=  19800 lb=    4010.1 |M_R|/N=0.1980 A(x)/(N/2)=0.2000 slack=157914800
+  Bateman {1} u 5N             N= 100000 R=1000 A(x)= 10001 maxr=  9999 |M_R|=  18000 lb=   -4989.0 |M_R|/N=0.1800 A(x)/(N/2)=0.2000 slack=229913000
+  Bateman {1} u 5N             N= 200000 R=   1 A(x)= 20001 maxr= 19999 |M_R|=  79997 lb=   10000.0 |M_R|/N=0.4000 A(x)/(N/2)=0.2000 slack=1400009997
+  Bateman {1} u 5N             N= 200000 R=   2 A(x)= 20001 maxr= 19999 |M_R|=  39996 lb=    9990.0 |M_R|/N=0.2000 A(x)/(N/2)=0.2000 slack=600149996
+  Bateman {1} u 5N             N= 200000 R=   5 A(x)= 20001 maxr= 19999 |M_R|=  39990 lb=    9960.0 |M_R|/N=0.1999 A(x)/(N/2)=0.2000 slack=600629990
+  Bateman {1} u 5N             N= 200000 R=  20 A(x)= 20001 maxr= 19999 |M_R|=  39960 lb=    9810.0 |M_R|/N=0.1998 A(x)/(N/2)=0.2000 slack=603029960
+  Bateman {1} u 5N             N= 200000 R= 100 A(x)= 20001 maxr= 19999 |M_R|=  39800 lb=    9010.0 |M_R|/N=0.1990 A(x)/(N/2)=0.2000 slack=615829800
+  Bateman {1} u 5N             N= 200000 R=1000 A(x)= 20001 maxr= 19999 |M_R|=  38000 lb=      10.5 |M_R|/N=0.1900 A(x)/(N/2)=0.2000 slack=759828000
+  second route (exact np.convolve, n<=40000) agrees with FFT: True
+windows (r~A(x) near N)
+  windows (r~A(x) near N)      N=   1000 R=   1 A(x)=   500 maxr=   499 |M_R|=    998 lb=     249.5 |M_R|/N=0.9980 A(x)/(N/2)=1.0000 slack=374250
+  windows (r~A(x) near N)      N=   1000 R=   2 A(x)=   500 maxr=   499 |M_R|=    996 lb=     247.5 |M_R|/N=0.9960 A(x)/(N/2)=1.0000 slack=374250
+  windows (r~A(x) near N)      N=   1000 R=   5 A(x)=   500 maxr=   499 |M_R|=    990 lb=     241.5 |M_R|/N=0.9900 A(x)/(N/2)=1.0000 slack=374250
+  windows (r~A(x) near N)      N=   1000 R=  20 A(x)=   500 maxr=   499 |M_R|=    960 lb=     211.5 |M_R|/N=0.9600 A(x)/(N/2)=1.0000 slack=374250
+  windows (r~A(x) near N)      N=   1000 R= 100 A(x)=   500 maxr=   499 |M_R|=    800 lb=      51.5 |M_R|/N=0.8000 A(x)/(N/2)=1.0000 slack=374250
+  windows (r~A(x) near N)      N=   1000 R=1000 A(x)=   500 maxr=   499 |M_R|=      0 lb=   -1748.5 |M_R|/N=0.0000 A(x)/(N/2)=1.0000 slack=874250
+  windows (r~A(x) near N)      N=   9999 R=   1 A(x)=  4999 maxr=  2500 |M_R|=   9997 lb=    2499.0 |M_R|/N=0.9998 A(x)/(N/2)=0.9999 slack=37482502
+  windows (r~A(x) near N)      N=   9999 R=   2 A(x)=  4999 maxr=  2500 |M_R|=   9993 lb=    2497.0 |M_R|/N=0.9994 A(x)/(N/2)=0.9999 slack=37472505
+  windows (r~A(x) near N)      N=   9999 R=   5 A(x)=  4999 maxr=  2500 |M_R|=   9981 lb=    2491.0 |M_R|/N=0.9982 A(x)/(N/2)=0.9999 slack=37442514
+  windows (r~A(x) near N)      N=   9999 R=  20 A(x)=  4999 maxr=  2500 |M_R|=   9921 lb=    2461.0 |M_R|/N=0.9922 A(x)/(N/2)=0.9999 slack=37292559
+  windows (r~A(x) near N)      N=   9999 R= 100 A(x)=  4999 maxr=  2500 |M_R|=   9601 lb=    2301.0 |M_R|/N=0.9602 A(x)/(N/2)=0.9999 slack=36492799
+  windows (r~A(x) near N)      N=   9999 R=1000 A(x)=  4999 maxr=  2500 |M_R|=   6001 lb=     500.8 |M_R|/N=0.6002 A(x)/(N/2)=0.9999 slack=27495499
+  windows (r~A(x) near N)      N=  50000 R=   1 A(x)=  5000 maxr=  5000 |M_R|=  14997 lb=    2499.5 |M_R|/N=0.2999 A(x)/(N/2)=0.2000 slack=62487500
+  windows (r~A(x) near N)      N=  50000 R=   2 A(x)=  5000 maxr=  5000 |M_R|=  14992 lb=    2489.5 |M_R|/N=0.2998 A(x)/(N/2)=0.2000 slack=62512500
+  windows (r~A(x) near N)      N=  50000 R=   5 A(x)=  5000 maxr=  5000 |M_R|=  14977 lb=    2459.5 |M_R|/N=0.2995 A(x)/(N/2)=0.2000 slack=62587500
+  windows (r~A(x) near N)      N=  50000 R=  20 A(x)=  5000 maxr=  5000 |M_R|=  14902 lb=    2309.5 |M_R|/N=0.2980 A(x)/(N/2)=0.2000 slack=62962500
+  windows (r~A(x) near N)      N=  50000 R= 100 A(x)=  5000 maxr=  5000 |M_R|=  14502 lb=    1509.5 |M_R|/N=0.2900 A(x)/(N/2)=0.2000 slack=64962500
+  windows (r~A(x) near N)      N=  50000 R=1000 A(x)=  5000 maxr=  5000 |M_R|=  10002 lb=   -7490.5 |M_R|/N=0.2000 A(x)/(N/2)=0.2000 slack=87462500
+  windows (r~A(x) near N)      N= 100000 R=   1 A(x)= 10000 maxr=  5000 |M_R|=  29996 lb=    4999.5 |M_R|/N=0.3000 A(x)/(N/2)=0.2000 slack=249965000
+  windows (r~A(x) near N)      N= 100000 R=   2 A(x)= 10000 maxr=  5000 |M_R|=  29988 lb=    4989.5 |M_R|/N=0.2999 A(x)/(N/2)=0.2000 slack=249985000
+  windows (r~A(x) near N)      N= 100000 R=   5 A(x)= 10000 maxr=  5000 |M_R|=  29964 lb=    4959.5 |M_R|/N=0.2996 A(x)/(N/2)=0.2000 slack=250045000
+  windows (r~A(x) near N)      N= 100000 R=  20 A(x)= 10000 maxr=  5000 |M_R|=  29844 lb=    4809.5 |M_R|/N=0.2984 A(x)/(N/2)=0.2000 slack=250345000
+  windows (r~A(x) near N)      N= 100000 R= 100 A(x)= 10000 maxr=  5000 |M_R|=  29204 lb=    4009.5 |M_R|/N=0.2920 A(x)/(N/2)=0.2000 slack=251945000
+  windows (r~A(x) near N)      N= 100000 R=1000 A(x)= 10000 maxr=  5000 |M_R|=  22004 lb=   -4990.5 |M_R|/N=0.2200 A(x)/(N/2)=0.2000 slack=269945000
+  windows (r~A(x) near N)      N= 200000 R=   1 A(x)= 15000 maxr=  5000 |M_R|=  54994 lb=    7499.5 |M_R|/N=0.2750 A(x)/(N/2)=0.1500 slack=712417500
+  windows (r~A(x) near N)      N= 200000 R=   2 A(x)= 15000 maxr=  5000 |M_R|=  54981 lb=    7486.2 |M_R|/N=0.2749 A(x)/(N/2)=0.1500 slack=712422500
+  windows (r~A(x) near N)      N= 200000 R=   5 A(x)= 15000 maxr=  5000 |M_R|=  54942 lb=    7446.2 |M_R|/N=0.2747 A(x)/(N/2)=0.1500 slack=712437500
+  windows (r~A(x) near N)      N= 200000 R=  20 A(x)= 15000 maxr=  5000 |M_R|=  54747 lb=    7246.2 |M_R|/N=0.2737 A(x)/(N/2)=0.1500 slack=712512500
+  windows (r~A(x) near N)      N= 200000 R= 100 A(x)= 15000 maxr=  5000 |M_R|=  53707 lb=    6179.5 |M_R|/N=0.2685 A(x)/(N/2)=0.1500 slack=712912500
+  windows (r~A(x) near N)      N= 200000 R=1000 A(x)= 15000 maxr=  5000 |M_R|=  42007 lb=   -5820.5 |M_R|/N=0.2100 A(x)/(N/2)=0.1500 slack=717412500
+  second route (exact np.convolve, n<=40000) agrees with FFT: True
+odd numbers
+  odd numbers                  N=   1000 R=   1 A(x)=   250 maxr=   250 |M_R|=    499 lb=     124.5 |M_R|/N=0.4990 A(x)/(N/2)=0.5000 slack=93625
+  odd numbers                  N=   1000 R=   2 A(x)=   250 maxr=   250 |M_R|=    497 lb=     120.5 |M_R|/N=0.4970 A(x)/(N/2)=0.5000 slack=94125
+  odd numbers                  N=   1000 R=   5 A(x)=   250 maxr=   250 |M_R|=    491 lb=     108.5 |M_R|/N=0.4910 A(x)/(N/2)=0.5000 slack=95625
+  odd numbers                  N=   1000 R=  20 A(x)=   250 maxr=   250 |M_R|=    461 lb=      48.5 |M_R|/N=0.4610 A(x)/(N/2)=0.5000 slack=103125
+  odd numbers                  N=   1000 R= 100 A(x)=   250 maxr=   250 |M_R|=    301 lb=    -271.5 |M_R|/N=0.3010 A(x)/(N/2)=0.5000 slack=143125
+  odd numbers                  N=   1000 R=1000 A(x)=   250 maxr=   250 |M_R|=      0 lb=   -3871.5 |M_R|/N=0.0000 A(x)/(N/2)=0.5000 slack=967875
+  odd numbers                  N=   9999 R=   1 A(x)=  2500 maxr=  2499 |M_R|=   4998 lb=    1249.5 |M_R|/N=0.4998 A(x)/(N/2)=0.5001 slack=9371250
+  odd numbers                  N=   9999 R=   2 A(x)=  2500 maxr=  2499 |M_R|=   4996 lb=    1245.5 |M_R|/N=0.4996 A(x)/(N/2)=0.5001 slack=9376249
+  odd numbers                  N=   9999 R=   5 A(x)=  2500 maxr=  2499 |M_R|=   4990 lb=    1233.5 |M_R|/N=0.4990 A(x)/(N/2)=0.5001 slack=9391246
+  odd numbers                  N=   9999 R=  20 A(x)=  2500 maxr=  2499 |M_R|=   4960 lb=    1173.5 |M_R|/N=0.4960 A(x)/(N/2)=0.5001 slack=9466231
+  odd numbers                  N=   9999 R= 100 A(x)=  2500 maxr=  2499 |M_R|=   4800 lb=     853.5 |M_R|/N=0.4800 A(x)/(N/2)=0.5001 slack=9866151
+  odd numbers                  N=   9999 R=1000 A(x)=  2500 maxr=  2499 |M_R|=   3000 lb=   -2746.1 |M_R|/N=0.3000 A(x)/(N/2)=0.5001 slack=14365251
+  odd numbers                  N=  50000 R=   1 A(x)= 12500 maxr= 12500 |M_R|=  24999 lb=    6249.5 |M_R|/N=0.5000 A(x)/(N/2)=0.5000 slack=234368750
+  odd numbers                  N=  50000 R=   2 A(x)= 12500 maxr= 12500 |M_R|=  24997 lb=    6245.5 |M_R|/N=0.4999 A(x)/(N/2)=0.5000 slack=234393750
+  odd numbers                  N=  50000 R=   5 A(x)= 12500 maxr= 12500 |M_R|=  24991 lb=    6233.5 |M_R|/N=0.4998 A(x)/(N/2)=0.5000 slack=234468750
+  odd numbers                  N=  50000 R=  20 A(x)= 12500 maxr= 12500 |M_R|=  24961 lb=    6173.5 |M_R|/N=0.4992 A(x)/(N/2)=0.5000 slack=234843750
+  odd numbers                  N=  50000 R= 100 A(x)= 12500 maxr= 12500 |M_R|=  24801 lb=    5853.5 |M_R|/N=0.4960 A(x)/(N/2)=0.5000 slack=236843750
+  odd numbers                  N=  50000 R=1000 A(x)= 12500 maxr= 12500 |M_R|=  23001 lb=    2253.5 |M_R|/N=0.4600 A(x)/(N/2)=0.5000 slack=259343750
+  odd numbers                  N= 100000 R=   1 A(x)= 25000 maxr= 25000 |M_R|=  49999 lb=   12499.5 |M_R|/N=0.5000 A(x)/(N/2)=0.5000 slack=937487500
+  odd numbers                  N= 100000 R=   2 A(x)= 25000 maxr= 25000 |M_R|=  49997 lb=   12495.5 |M_R|/N=0.5000 A(x)/(N/2)=0.5000 slack=937537500
+  odd numbers                  N= 100000 R=   5 A(x)= 25000 maxr= 25000 |M_R|=  49991 lb=   12483.5 |M_R|/N=0.4999 A(x)/(N/2)=0.5000 slack=937687500
+  odd numbers                  N= 100000 R=  20 A(x)= 25000 maxr= 25000 |M_R|=  49961 lb=   12423.5 |M_R|/N=0.4996 A(x)/(N/2)=0.5000 slack=938437500
+  odd numbers                  N= 100000 R= 100 A(x)= 25000 maxr= 25000 |M_R|=  49801 lb=   12103.5 |M_R|/N=0.4980 A(x)/(N/2)=0.5000 slack=942437500
+  odd numbers                  N= 100000 R=1000 A(x)= 25000 maxr= 25000 |M_R|=  48001 lb=    8503.5 |M_R|/N=0.4800 A(x)/(N/2)=0.5000 slack=987437500
+  odd numbers                  N= 200000 R=   1 A(x)= 50000 maxr= 50000 |M_R|=  99999 lb=   24999.5 |M_R|/N=0.5000 A(x)/(N/2)=0.5000 slack=3749975000
+  odd numbers                  N= 200000 R=   2 A(x)= 50000 maxr= 50000 |M_R|=  99997 lb=   24995.5 |M_R|/N=0.5000 A(x)/(N/2)=0.5000 slack=3750075000
+  odd numbers                  N= 200000 R=   5 A(x)= 50000 maxr= 50000 |M_R|=  99991 lb=   24983.5 |M_R|/N=0.5000 A(x)/(N/2)=0.5000 slack=3750375000
+  odd numbers                  N= 200000 R=  20 A(x)= 50000 maxr= 50000 |M_R|=  99961 lb=   24923.5 |M_R|/N=0.4998 A(x)/(N/2)=0.5000 slack=3751875000
+  odd numbers                  N= 200000 R= 100 A(x)= 50000 maxr= 50000 |M_R|=  99801 lb=   24603.5 |M_R|/N=0.4990 A(x)/(N/2)=0.5000 slack=3759875000
+  odd numbers                  N= 200000 R=1000 A(x)= 50000 maxr= 50000 |M_R|=  98001 lb=   21003.5 |M_R|/N=0.4900 A(x)/(N/2)=0.5000 slack=3849875000
+  second route (exact np.convolve, n<=40000) agrees with FFT: True
+hill-climb allow0=False: max(lhs-rhs) = 0 at N,R,A,(maxr-A(x)) = (16, 1, [8, 10, 13], -1)
+hill-climb allow0=True: max(lhs-rhs) = 0 at N,R,A,(maxr-A(x)) = (12, 1, [7, 8, 9, 10, 11, 12], 0)
+0 in A witness: A={0..20}\{10}: r(20)=10, A(x)=9  -> (ii) FAILS
+VIOLATIONS (0 in A excluded): none

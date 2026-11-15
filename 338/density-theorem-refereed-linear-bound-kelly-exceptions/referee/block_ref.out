@@ -1,0 +1,11 @@
+control ['2'] h=3 l*,rho = (4, Fraction(5, 1)) expected 4
+control ['2', '4'] h=3 l*,rho = (3, Fraction(7, 1)) expected None
+control HHP h=4 C={2,4}: (7, Fraction(11, 1)) (README: reach 11, l* 7)
+control h=4 C={4,5}: (9, Fraction(16, 1)) (README: reach 16, l* 9)
+random h=3, 20000 sets (|C|<=7): l* histogram {3: 12352, 4: 7648}; max (4, ['400309/212879', '33/2', '37/2'], '1013497/212879')
+hill-climb max l*(C,3): (4, ['23132467/16686500'])
+exhaustive grid quarters (1,10], |C|<=3, 7806 sets: max l* = 4 at ['5/4']
+
+real	0m47.652s
+user	0m47.471s
+sys	0m0.068s

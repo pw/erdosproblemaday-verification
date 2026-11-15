@@ -1,0 +1,4 @@
+N=300000 |X|=4096 |A|=3583; not a sum of <=2 elements (repetition allowed): [] (count 0)
+exceptions for <=3 distinct: [2, 6, 18, 54, 162, 486, 1458, 4374, 13122, 39366, 118098]
+predicted {2*3^j}:         [2, 6, 18, 54, 162, 486, 1458, 4374, 13122, 39366, 118098] MATCH
+exceptions for <=4 distinct: [2, 6, 18]

@@ -1,0 +1,13 @@
+HHP h=3 C=['2']: reach 5, lstar 4 (expected 4)
+HHP h=4 C=['2', '4']: reach 11, lstar 7 (expected 7)
+HHP h=5 C=['2', '4', '8']: reach 23, lstar 12 (expected 12)
+HHP h=6 C=['2', '4', '8', '16']: reach 47, lstar 21 (expected 21)
+h=4 C=['4','5']: reach 16, lstar 9
+h=4 grid search |C|=1: max lstar 6 at ['5/2']
+h=4 grid search |C|=2: max lstar 9 at ['7/2', '9/2']
+h=4 grid search |C|=3: max lstar 9 at ['7/2', '9/2', '31/2']
+h=3 random check, 4000 sets: max lstar 4 (Theorem 2: at most 4)
+
+real	0m6.085s
+user	0m6.031s
+sys	0m0.026s
