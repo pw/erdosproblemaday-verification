@@ -1,0 +1,5 @@
+Ref1139.lean:10:8: warning: declaration uses `sorry`
+
+real	0m9.065s
+user	0m6.323s
+sys	0m2.728s

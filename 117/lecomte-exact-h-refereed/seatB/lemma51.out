@@ -1,0 +1,6 @@
+/home/exedev/MathDyad/subs-1116/117/seatB/class2.py:2: SyntaxWarning: invalid escape sequence '\{'
+  """Binary class-two test bed.  An alternating map beta: F2^nu x F2^nu -> F2^e (common radical 0)
+('L5.1 applies', 6, 4, 11, 12, 2, True) 35
+('avg range', 6, 4) 48
+('avg range', 7, 4) 4
+('avg range', 7, 6) 42

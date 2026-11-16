@@ -1,0 +1,23 @@
+def Erdos117.NoncommutingBound.{u_2} : (G : Type u_2) → [Group G] → ℕ → Prop :=
+fun G [Group G] n => ∀ (s : Finset G), ((↑s).Pairwise fun x y => ¬Commute x y) → s.card ≤ n
+def Erdos117.AbelianCover.{u_2, u_3} : (G : Type u_2) → [inst : Group G] → (ι : Type u_3) → (ι → Subgroup G) → Prop :=
+fun G [Group G] ι A => (∀ (i : ι), IsMulCommutative ↥(A i)) ∧ ∀ (x : G), ∃ i, x ∈ A i
+def Erdos117.HasAbelianCover.{u_2} : (G : Type u_2) → [Group G] → ℕ → Prop :=
+fun G [Group G] k => ∃ A, Erdos117.AbelianCover G (Fin k) A
+def Erdos117.UniversalAbelianCoverBound.{u} : ℕ → ℕ → Prop :=
+fun n k => ∀ (G : Type u) [inst : Group G], Erdos117.NoncommutingBound G n → Erdos117.HasAbelianCover G k
+def Erdos117.h.{u} : ℕ → ℕ∞ :=
+fun n => ⨅ k, ↑↑k
+Erdos117.erdos_117 : (∀ (n : ℕ), Erdos117.h n < ⊤) ∧
+  (∀ (n : ℕ), 1 ≤ n → 2 ^ ((n - 1) / 2) ≤ Erdos117.h n) ∧
+    ((fun n => Real.log ↑(Erdos117.h n).toNat / Real.log 2 - ↑n / 2) =O[Filter.atTop] fun n =>
+        √↑n * Real.log (↑n + 2) ^ 3) ∧
+      Filter.Tendsto (fun n => ↑(Erdos117.h n).toNat ^ (1 / ↑n)) Filter.atTop (nhds √2)
+'Erdos117.erdos_117' depends on axioms: [propext, Classical.choice, Quot.sound]
+probe/Defs117.lean:15:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```

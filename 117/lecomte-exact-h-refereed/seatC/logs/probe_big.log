@@ -1,0 +1,21 @@
+random p=2 d=8 e=1 seed=1 z=256 k=255 omega>=9(exact) a<=17 (tabu) a>=17 T=17 certA=True certZ=True 4.0s  <<< FLAG
+random p=2 d=8 e=1 seed=2 z=256 k=255 omega>=9(exact) a<=17 (tabu) a>=17 T=17 certA=True certZ=True 5.1s  <<< FLAG
+Traceback (most recent call last):
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 307, in <module>
+    main()
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 293, in main
+    rec, Ms = analyse_map(p, d, e, family, s)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 264, in analyse_map
+    c4 = spread_colouring(p, d, Ms[0], reps)
+         ^^^^^^^^^^^^^^^^
+NameError: name 'spread_colouring' is not defined. Did you mean: 'check_colouring'?
+JOBDONE 2 8 1 random 15 1 rc=1
+random p=2 d=8 e=2 seed=1 z=256 k=249 omega>=24(exact) a<=46 (dsatur) a>=24 T=2049 certA=True certZ=True 4.3s
+random p=2 d=8 e=2 seed=2 z=256 k=239 omega>=22(exact) a<=41 (dsatur) a>=22 T=1025 certA=True certZ=True 6.6s
+random p=2 d=8 e=2 seed=3 z=256 k=245 omega>=25(exact) a<=44 (dsatur) a>=25 T=4097 certA=True certZ=True 1.9s
+random p=2 d=8 e=2 seed=4 z=256 k=245 omega>=17 a<=42 (dsatur) a>=19 T=257 certA=True certZ=True 21.0s
+random p=2 d=8 e=2 seed=5 z=256 k=245 omega>=25(exact) a<=45 (dsatur) a>=25 T=4097 certA=True certZ=True 2.1s
+random p=2 d=8 e=2 seed=6 z=256 k=245 omega>=25(exact) a<=46 (dsatur) a>=25 T=4097 certA=True certZ=True 2.5s
+random p=2 d=8 e=2 seed=7 z=256 k=249 omega>=19 a<=48 (dsatur) a>=19 T=513 certA=True certZ=True 34.1s
+random p=2 d=8 e=2 seed=8 z=256 k=255 omega>=17 a<=20 (dsatur) a>=17 T=257 certA=True certZ=True 40.9s

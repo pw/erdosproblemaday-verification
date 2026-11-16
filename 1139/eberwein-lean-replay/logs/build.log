@@ -1,0 +1,31 @@
+start 2026-11-16T09:04:14Z
+leanprover/lean4:v4.33.0 installed - Lean (version 4.33.0, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)
+
+Lake version 5.0.0-src+d8b1897 (Lean version 4.33.0)
+Completed successfully in 99505 ms!
+
+real	2m59.908s
+user	5m41.488s
+sys	3m3.462s
+cache done 2026-11-16T09:07:31Z
+/dev/root       493G  447G   25G  95% /
+ℹ [8706/8713] Built LongGapsBetweenPrimes (75s)
+info: LongGapsBetweenPrimes.lean:4680:0: 'LongGapsBetweenPrimes.long_prime_gaps' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LongGapsBetweenPrimes.lean:4684:0: 'LongGapsBetweenPrimes.short_translates_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LongGapsBetweenPrimes.lean:4685:0: 'LongGapsBetweenPrimes.short_translates_divisor_with_sieveDelta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+✔ [8708/8713] Built Erdos1139Cover (47s)
+⚠ [8710/8713] Built Erdos1139Sketch (25s)
+warning: Erdos1139Sketch.lean:267:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+ℹ [8712/8713] Built Erdos1139Official (10s)
+info: Erdos1139Official.lean:49:0: 'Erdos1139.erdos_1139' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8713 jobs).
+
+real	2m49.443s
+user	10m13.916s
+sys	0m32.581s
+build rc=0 done 2026-11-16T09:10:20Z

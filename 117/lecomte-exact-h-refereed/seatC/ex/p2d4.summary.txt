@@ -1,0 +1,42 @@
+p=2 d=4 e=1: subspaces enumerated 63 (Gaussian binomial [6,1]_2 = 63) in 0.0s
+   (omega, a, z) -> #subspaces: (3, 3, 4):35, (5, 5, 16):28
+   worst a/T(omega) = 1.0000 at (omega,a,z)=(3, 3, 4)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 63 {(3, 3, 4): 35, (5, 5, 16): 28}
+   Z-EQ: 63 {(3, 3, 4): 35, (5, 5, 16): 28}
+p=2 d=4 e=2: subspaces enumerated 651 (Gaussian binomial [6,2]_2 = 651) in 1.0s
+   (omega, a, z) -> #subspaces: (5, 5, 8):105, (5, 5, 16):56, (6, 6, 16):210, (9, 9, 16):280
+   worst a/T(omega) = 1.0000 at (omega,a,z)=(5, 5, 8)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 371 {(5, 5, 8): 105, (6, 6, 16): 210, (5, 5, 16): 56}
+   Z-EQ: 56 {(5, 5, 16): 56}
+p=2 d=4 e=3: subspaces enumerated 1395 (Gaussian binomial [6,3]_2 = 1395) in 1.6s
+   (omega, a, z) -> #subspaces: (7, 7, 8):15, (9, 9, 16):1205, (11, 11, 16):105, (13, 13, 16):70
+   worst a/T(omega) = 0.7000 at (omega,a,z)=(7, 7, 8)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}
+p=2 d=4 e=4: subspaces enumerated 651 (Gaussian binomial [6,4]_2 = 651) in 1.0s
+   (omega, a, z) -> #subspaces: (11, 11, 16):385, (13, 13, 16):210, (15, 15, 16):56
+   worst a/T(omega) = 0.3333 at (omega,a,z)=(11, 11, 16)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}
+p=2 d=4 e=5: subspaces enumerated 63 (Gaussian binomial [6,5]_2 = 63) in 0.1s
+   (omega, a, z) -> #subspaces: (13, 13, 16):35, (15, 15, 16):28
+   worst a/T(omega) = 0.2000 at (omega,a,z)=(13, 13, 16)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}
+p=2 d=4 e=6: subspaces enumerated 1 (Gaussian binomial [6,6]_2 = 1) in 0.0s
+   (omega, a, z) -> #subspaces: (15, 15, 16):1
+   worst a/T(omega) = 0.1163 at (omega,a,z)=(15, 15, 16)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}

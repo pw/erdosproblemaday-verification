@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 307, in <module>
+    main()
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 293, in main
+    rec, Ms = analyse_map(p, d, e, family, s)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 264, in analyse_map
+    c4 = spread_colouring(p, d, Ms[0], reps)
+         ^^^^^^^^^^^^^^^^
+NameError: name 'spread_colouring' is not defined. Did you mean: 'check_colouring'?
+JOBDONE 2 10 1 formplusdeg 1 1 rc=1
+random p=2 d=10 e=1 seed=1 z=256 k=255 omega>=9(exact) a<=17 (tabu) a>=17 T=17 certA=True certZ=True 4.7s  <<< FLAG
+Traceback (most recent call last):
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 307, in <module>
+    # ---------------- U3: explicit spread colouring for a single form (e = 1) ----------------
+        ^^^^^^
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 293, in main
+    rec, Ms = analyse_map(p, d, e, family, s)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exedev/MathDyad/subs-1116/117/seatC/probe.py", line 264, in analyse_map
+    c4 = spread_colouring(p, d, Ms[0], reps)
+         ^^^^^^^^^^^^^^^^
+NameError: name 'spread_colouring' is not defined. Did you mean: 'check_colouring'?
+JOBDONE 2 10 1 random 6 1 rc=1

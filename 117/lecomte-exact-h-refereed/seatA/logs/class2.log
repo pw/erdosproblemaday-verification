@@ -1,0 +1,43 @@
+p=3 dimV=4 e=1 aniso=True: omega=7 a=10 T(omega)=10  ANISO-CLAIM-FAILS
+p=3 dimV=4 e=1 aniso=True: omega=7 a=10 T(omega)=10  ANISO-CLAIM-FAILS
+p=3 dimV=4 e=2 aniso=True: omega=10 a=10 T(omega)=17 
+p=3 dimV=4 e=2 aniso=True: omega=10 a=10 T(omega)=17 
+p=3 dimV=4 e=2 aniso=True: omega=10 a=10 T(omega)=17 
+p=3 dimV=4 e=2 aniso=True: omega=10 a=10 T(omega)=17 
+p=3 dimV=4 e=2 aniso=True: omega=10 a=10 T(omega)=17 
+p=3 dimV=4 e=2 aniso=True: omega=10 a=10 T(omega)=17 
+p=3 dimV=4 e=2 aniso=True: omega=10 a=10 T(omega)=17 
+p=3 dimV=4 e=2 aniso=True: omega=10 a=10 T(omega)=17 
+p=3 dimV=4 e=2 aniso=False: omega=16 a=16 T(omega)=129 
+p=3 dimV=4 e=2 aniso=False: omega=16 a=16 T(omega)=129 
+p=3 dimV=4 e=2 aniso=False: omega=16 a=16 T(omega)=129 
+p=3 dimV=4 e=2 aniso=False: omega=12 a=12 T(omega)=33 
+p=3 dimV=4 e=2 aniso=False: omega=12 a=12 T(omega)=33 
+p=3 dimV=4 e=2 aniso=False: omega=12 a=12 T(omega)=33 
+p=3 dimV=4 e=3 aniso=False: omega=25 a=25 T(omega)=4097 
+p=3 dimV=4 e=3 aniso=False: omega=28 a=28 T(omega)=8193 
+p=3 dimV=4 e=3 aniso=False: omega=37 a=37 T(omega)=262145 
+p=3 dimV=4 e=3 aniso=False: omega=25 a=25 T(omega)=4097 
+p=3 dimV=4 e=3 aniso=False: omega=28 a=28 T(omega)=8193 
+p=3 dimV=4 e=3 aniso=False: omega=28 a=28 T(omega)=8193 
+p=3 dimV=4 e=4 aniso=False: omega=31 a=31 T(omega)=32769 
+p=3 dimV=4 e=4 aniso=False: omega=40 a=40 T(omega)=524289 
+p=3 dimV=4 e=4 aniso=False: omega=34 a=34 T(omega)=65537 
+p=5 dimV=4 e=2 aniso=True: omega=26 a=26 T(omega)=4097 
+p=5 dimV=4 e=2 aniso=True: omega=26 a=26 T(omega)=4097 
+p=5 dimV=4 e=2 aniso=True: omega=26 a=26 T(omega)=4097 
+p=5 dimV=4 e=2 aniso=False: omega=36 a=36 T(omega)=131073 
+p=5 dimV=4 e=2 aniso=False: omega=30 a=30 T(omega)=16385 
+p=5 dimV=4 e=3 aniso=False: omega=111 a=111 T(omega)=36028797018963969 
+p=5 dimV=4 e=3 aniso=False: omega=111 a=111 T(omega)=36028797018963969 
+p=3 dimV=5 e=2 aniso=None: omega=28 a=28 T(omega)=8193 
+p=3 dimV=5 e=2 aniso=None: omega=28 a=28 T(omega)=8193 
+p=3 dimV=5 e=2 aniso=None: omega=28 a=28 T(omega)=8193 
+p=3 dimV=5 e=2 aniso=None: omega=28 a=28 T(omega)=8193 
+p=3 dimV=5 e=3 aniso=None: omega=37 a=37 T(omega)=262145 
+p=3 dimV=5 e=3 aniso=None: omega=40 a=40 T(omega)=524289 
+p=3 dimV=5 e=3 aniso=None: omega=46 a=46 T(omega)=4194305 
+p=3 dimV=5 e=3 aniso=None: omega=40 a=40 T(omega)=524289 
+p=3 dimV=6 e=2 aniso=None: omega=28 a=28 T(omega)=8193 
+p=3 dimV=6 e=2 aniso=None: omega=39 a=48 T(omega)=524289  (nonoptimal: omega in [39,48], a in [48,48])
+p=3 dimV=6 e=3 aniso=None: omega=85 a=99 T(omega)=4398046511105  (nonoptimal: omega in [85,93], a in [94,99])

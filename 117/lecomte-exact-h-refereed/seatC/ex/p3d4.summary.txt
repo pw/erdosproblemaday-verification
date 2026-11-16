@@ -1,0 +1,42 @@
+p=3 d=4 e=1: subspaces enumerated 364 (Gaussian binomial [6,1]_3 = 364) in 26.2s
+   (omega, a, z) -> #subspaces: (4, 4, 9):130, (7, 10, 81):234
+   worst a/T(omega) = 1.0000 at (omega,a,z)=(4, 4, 9)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 364 {(4, 4, 9): 130, (7, 10, 81): 234}
+   Z-EQ: 364 {(4, 4, 9): 130, (7, 10, 81): 234}
+p=3 d=4 e=2: subspaces enumerated 11011 (Gaussian binomial [6,2]_3 = 11011) in 38.6s
+   (omega, a, z) -> #subspaces: (10, 10, 27):520, (10, 10, 81):2106, (12, 12, 81):3120, (16, 16, 81):5265
+   worst a/T(omega) = 0.5882 at (omega,a,z)=(10, 10, 27)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}
+p=3 d=4 e=3: subspaces enumerated 33880 (Gaussian binomial [6,3]_3 = 33880) in 265.5s
+   (omega, a, z) -> #subspaces: (13, 13, 27):40, (25, 25, 81):9360, (28, 28, 81):21100, (31, 31, 81):1040, (37, 37, 81):2340
+   worst a/T(omega) = 0.2000 at (omega,a,z)=(13, 13, 27)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}
+p=3 d=4 e=4: subspaces enumerated 11011 (Gaussian binomial [6,4]_3 = 11011) in 149.3s
+   (omega, a, z) -> #subspaces: (31, 31, 81):520, (34, 34, 81):5265, (37, 37, 81):3120, (40, 40, 81):2106
+   worst a/T(omega) = 0.0009 at (omega,a,z)=(31, 31, 81)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}
+p=3 d=4 e=5: subspaces enumerated 364 (Gaussian binomial [6,5]_3 = 364) in 4.0s
+   (omega, a, z) -> #subspaces: (37, 37, 81):130, (40, 40, 81):234
+   worst a/T(omega) = 0.0001 at (omega,a,z)=(37, 37, 81)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}
+p=3 d=4 e=6: subspaces enumerated 1 (Gaussian binomial [6,6]_3 = 1) in 0.1s
+   (omega, a, z) -> #subspaces: (40, 40, 81):1
+   worst a/T(omega) = 0.0001 at (omega,a,z)=(40, 40, 81)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 0 {}
+   Z-EQ: 0 {}

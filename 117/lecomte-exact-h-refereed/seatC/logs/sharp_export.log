@@ -1,0 +1,9 @@
+Syntax warning: Unbound global variable in export.g:46
+  if IsBound(EXPORT_FULL) and EXPORT_FULL = true then
+                              ^^^^^^^^^^^
+r=2 type + order 32 centre 2
+r=2 type - order 32 centre 2
+r=3 type + order 128 centre 2
+r=3 type - order 128 centre 2
+r=4 type + order 512 centre 2
+r=4 type - order 512 centre 2

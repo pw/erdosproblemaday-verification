@@ -1,0 +1,20 @@
+== 1. witness checkers reject bad witnesses
+PASS improper colouring of K3 rejected
+PASS proper colouring of K3 accepted
+PASS non-clique {0,2} in C5 rejected
+PASS edge {0,1} in C5 accepted as clique
+PASS repeated vertex rejected
+PASS improper 2-colouring of C5 rejected
+== 2. exact clique vs networkx on random graphs
+PASS clique: python MCQ == C MCQ == networkx on 300 random graphs; heuristic <= exact; lb=omega+1 proven empty
+== 3. exact chi vs brute force; named graphs
+PASS chi: DSATUR+SAT(cadical, clique-seeded) == brute-force backtracking on 150 random graphs; C DSATUR >= chi
+PASS C5: omega=2 (expect 2), chi=3 (expect 3)
+PASS Petersen: omega=2 (expect 2), chi=3 (expect 3)
+PASS Grotzsch: omega=2 (expect 2), chi=4 (expect 4)
+PASS complement(C7): omega=3 (expect 3), chi=4 (expect 4)
+PASS K6: omega=6 (expect 6), chi=6 (expect 6)
+PASS tabucol finds 3-colouring of Petersen
+PASS tabucol reports FAIL for 2 colours on C5
+PASS SAT reports UNSAT for 2 colours on C5
+CONTROL FAILURES: 0

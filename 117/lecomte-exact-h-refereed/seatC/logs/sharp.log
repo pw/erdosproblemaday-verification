@@ -1,0 +1,70 @@
+== extraspecial groups exported by GAP
+ES2^(1+4)+: z=16 twin-classes=15
+   omega=5 (C MCQ proven=True, witness [13, 14, 8, 4, 0])
+   python MCQ omega=5
+   alpha=3 (proven=True) => a >= max(omega, ceil(15/3)) = 5
+   colouring with 5 colours by DSATUR (verified proper)
+   => a = 5 ; T(omega)=5 ; (T(omega)-1)^2=16 ; z=16
+   omega == expected 5; a == expected 5 (0.0s)
+ES2^(1+4)-: z=16 twin-classes=15
+   omega=5 (C MCQ proven=True, witness [13, 14, 8, 4, 0])
+   python MCQ omega=5
+   alpha=3 (proven=True) => a >= max(omega, ceil(15/3)) = 5
+   colouring with 5 colours by DSATUR (verified proper)
+   => a = 5 ; T(omega)=5 ; (T(omega)-1)^2=16 ; z=16
+   omega == expected 5; a == expected 5 (0.0s)
+ES2^(1+6)+: z=64 twin-classes=63
+   omega=7 (C MCQ proven=True, witness [45, 62, 60, 29, 9, 5, 1])
+   python MCQ omega=7
+   alpha=7 (proven=True) => a >= max(omega, ceil(63/7)) = 9
+   colouring with 9 colours by tabucol(seed 1) (verified proper)
+   SAT(8 colours, clique-seeded) = UNSAT
+   => a = 9 ; T(omega)=10 ; (T(omega)-1)^2=81 ; z=64
+   omega == expected 7; a == expected 9 (0.1s)
+ES2^(1+6)-: z=64 twin-classes=63
+   omega=7 (C MCQ proven=True, witness [45, 62, 60, 29, 9, 5, 1])
+   python MCQ omega=7
+   alpha=7 (proven=True) => a >= max(omega, ceil(63/7)) = 9
+   colouring with 9 colours by tabucol(seed 1) (verified proper)
+   SAT(8 colours, clique-seeded) = UNSAT
+   => a = 9 ; T(omega)=10 ; (T(omega)-1)^2=81 ; z=64
+   omega == expected 7; a == expected 9 (0.1s)
+ES2^(1+8)+: z=256 twin-classes=255
+   omega=9 (C MCQ proven=True, witness [221, 252, 254, 237, 197, 201, 129, 65, 1])
+   alpha=15 (proven=True) => a >= max(omega, ceil(255/15)) = 17
+   colouring with 17 colours by tabucol(seed 1) (verified proper)
+   => a = 17 ; T(omega)=17 ; (T(omega)-1)^2=256 ; z=256
+   omega == expected 9; a == expected 17 (3.9s)
+ES2^(1+8)-: z=256 twin-classes=255
+   omega=9 (C MCQ proven=True, witness [221, 252, 254, 237, 197, 201, 129, 65, 1])
+   alpha=15 (proven=True) => a >= max(omega, ceil(255/15)) = 17
+   colouring with 17 colours by tabucol(seed 1) (verified proper)
+   => a = 17 ; T(omega)=17 ; (T(omega)-1)^2=256 ; z=256
+   omega == expected 9; a == expected 17 (4.6s)
+ES3^(1+4)exp3: z=81 twin-classes=40
+   omega=7 (C MCQ proven=True, witness [29, 39, 38, 30, 19, 7, 21])
+   python MCQ omega=7
+   alpha=4 (proven=True) => a >= max(omega, ceil(40/4)) = 10
+   colouring with 10 colours by tabucol(seed 1) (verified proper)
+   SAT(9 colours, clique-seeded) = UNSAT
+   => a = 10 ; T(omega)=10 ; (T(omega)-1)^2=81 ; z=81
+   omega == expected 7; a == expected 10 (0.2s)
+ES3^(1+4)exp9: z=81 twin-classes=40
+   omega=7 (C MCQ proven=True, witness [29, 39, 38, 30, 19, 7, 21])
+   python MCQ omega=7
+   alpha=4 (proven=True) => a >= max(omega, ceil(40/4)) = 10
+   colouring with 10 colours by tabucol(seed 1) (verified proper)
+   SAT(9 colours, clique-seeded) = UNSAT
+   => a = 10 ; T(omega)=10 ; (T(omega)-1)^2=81 ; z=81
+   omega == expected 7; a == expected 10 (0.1s)
+== F_9 trace model from its bilinear map (no GAP)
+F_9 trace model: Gram matrix over F_3 basis = [[0, 0, 2, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 2, 0, 0]] ; 80 nonzero vectors, 40 twin classes (projective points); F_9-line spread gives a verified proper colouring with 10 colours
+F9-trace-model: z=81 twin-classes=40
+   omega=7 (C MCQ proven=True, witness [37, 39, 36, 30, 23, 20, 8])
+   python MCQ omega=7
+   alpha=4 (proven=True) => a >= max(omega, ceil(40/4)) = 10
+   colouring with 10 colours by tabucol(seed 1) (verified proper)
+   SAT(9 colours, clique-seeded) = UNSAT
+   => a = 10 ; T(omega)=10 ; (T(omega)-1)^2=81 ; z=81
+   omega == expected 7; a == expected 10 (0.0s)
+   C MCQ search for cliques of size >= 8: none, proven=True

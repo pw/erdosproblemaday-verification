@@ -1,0 +1,18 @@
+Syntax warning: Unbound global variable in export.g:46
+  if IsBound(EXPORT_FULL) and EXPORT_FULL = true then
+                              ^^^^^^^^^^^
+order 256 id 2000 ms 58123
+order 256 id 4000 ms 109484
+order 256 id 6000 ms 165161
+order 256 id 8000 ms 199196
+order 256 id 10000 ms 222123
+order 256 id 12000 ms 252825
+order 256 id 14000 ms 296665
+order 256 id 16000 ms 325949
+order 256 id 18000 ms 374113
+order 256 id 20000 ms 416751
+order 256 id 22000 ms 460667
+order 256 id 24000 ms 512065
+order 256 id 26000 ms 571755
+order 256 id 28000 ms 630607
+done order 256 ids 1..28046 ms 631977

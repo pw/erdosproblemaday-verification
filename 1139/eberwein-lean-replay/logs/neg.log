@@ -1,0 +1,42 @@
+Neg1139.lean:7:98: error: Type mismatch
+  Erdos1139.erdos_1139
+has type
+  limsup
+      (fun k =>
+        (↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) (k + 1)) - ↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) k)) / ↑(Real.log (↑k + 1)))
+      atTop =
+    ⊤
+but is expected to have type
+  limsup
+      (fun k =>
+        (↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 3) (k + 1)) - ↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 3) k)) / ↑(Real.log (↑k + 1)))
+      atTop =
+    ⊤
+Neg1139.lean:10:98: error: Type mismatch
+  Erdos1139.erdos_1139
+has type
+  limsup
+      (fun k =>
+        (↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) (k + 1)) - ↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) k)) / ↑(Real.log (↑k + 1)))
+      atTop =
+    ⊤
+but is expected to have type
+  liminf
+      (fun k =>
+        (↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) (k + 1)) - ↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) k)) / ↑(Real.log (↑k + 1)))
+      atTop =
+    ⊤
+Neg1139.lean:13:98: error: Type mismatch
+  Erdos1139.erdos_1139
+has type
+  limsup
+      (fun k =>
+        (↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) (k + 1)) - ↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) k)) / ↑(Real.log (↑k + 1)))
+      atTop =
+    ⊤
+but is expected to have type
+  limsup
+      (fun k =>
+        (↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) (k + 1)) - ↑↑(nth (fun n => 0 < n ∧ Ω n ≤ 2) k)) / ↑(Real.log (↑k + 2)))
+      atTop =
+    ⊤

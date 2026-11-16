@@ -1,0 +1,7 @@
+p=2 d=5 e=1: subspaces enumerated 1023 (Gaussian binomial [10,1]_2 = 1023) in 1.3s
+   (omega, a, z) -> #subspaces: (3, 3, 4):155, (5, 5, 16):868
+   worst a/T(omega) = 1.0000 at (omega,a,z)=(3, 3, 4)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 1023 {(3, 3, 4): 155, (5, 5, 16): 868}
+   Z-EQ: 1023 {(3, 3, 4): 155, (5, 5, 16): 868}

@@ -1,0 +1,7 @@
+p=2 d=5 e=2 chunk 0/2: subspaces analysed 87126 of 174251 enumerated (Gaussian binomial [10,2]_2 = 174251) in 1903.1s
+   (omega, a, z) -> #subspaces: (5, 5, 8):602, (5, 5, 16):868, (6, 6, 16):3420, (9, 9, 16):4732, (9, 9, 32):50592, (11, 11, 32):26912
+   worst a/T(omega) = 1.0000 at (omega,a,z)=(5, 5, 8)
+   A-VIOL: 0
+   Z-VIOL: 0
+   A-EQ: 4890 {(5, 5, 8): 602, (6, 6, 16): 3420, (5, 5, 16): 868}
+   Z-EQ: 868 {(5, 5, 16): 868}

@@ -1,0 +1,305 @@
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 1, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 2, "z": 1, "k": 0, "omega_lb": 1, "a_ub": 1, "T": 1, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 3, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 4, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 5, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.19}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 6, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.5}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 7, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 8, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 9, "z": 1, "k": 0, "omega_lb": 1, "a_ub": 1, "T": 1, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 10, "z": 1, "k": 0, "omega_lb": 1, "a_ub": 1, "T": 1, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 11, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 12, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 13, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 14, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 15, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 16, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.18}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 17, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 18, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 19, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 1, "seed": 20, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.19}
+JOBDONE 2 2 0 1 20 1 rc=0
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 1, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 2, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 3, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 4, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 5, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 6, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 7, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 8, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.18}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 9, "z": 1, "k": 0, "omega_lb": 1, "a_ub": 1, "T": 1, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 10, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 11, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 12, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 13, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 14, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 15, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 16, "z": 1, "k": 0, "omega_lb": 1, "a_ub": 1, "T": 1, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 17, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 18, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 19, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 2, "A": "Z4^2 x Z2^0", "e": 2, "seed": 20, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.3}
+JOBDONE 2 2 0 2 20 1 rc=0
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 1, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 2, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 3, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 4, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 5, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 6, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 7, "z": 1, "k": 0, "omega_lb": 1, "a_ub": 1, "T": 1, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 8, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 9, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 10, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 11, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 1.2}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 12, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 13, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 14, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 15, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 16, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 17, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.38}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 18, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.5}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 19, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.22}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 1, "seed": 20, "z": 16, "k": 15, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.4}
+JOBDONE 2 2 2 1 20 1 rc=0
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 1, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.3}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 2, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 1.0}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 3, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 1.31}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 4, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.5}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 5, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.41}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 6, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.37}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 7, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 8, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 9, "z": 64, "k": 21, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.67}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 10, "z": 8, "k": 5, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 11, "z": 64, "k": 16, "omega_lb": 13, "omega_proven": true, "a_ub": 13, "a_lb": 13, "a_ub_method": "dsatur", "T": 65, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 12, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 13, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.39}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 14, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.8}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 15, "z": 64, "k": 21, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.79}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 16, "z": 64, "k": 27, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.6}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 17, "z": 64, "k": 27, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.41}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 18, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.19}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 19, "z": 8, "k": 5, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.22}
+{"p": 2, "A": "Z4^2 x Z2^2", "e": 2, "seed": 20, "z": 16, "k": 5, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.28}
+JOBDONE 2 2 2 2 20 1 rc=0
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 1, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 2, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 3, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 4, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 5, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 6, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 7, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.08}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 8, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 9, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 10, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.08}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 11, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 12, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 13, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.19}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 14, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 15, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 16, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 17, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.28}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 18, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.3}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 19, "z": 4, "k": 3, "omega_lb": 3, "omega_proven": true, "a_ub": 3, "a_lb": 3, "a_ub_method": "dsatur", "T": 3, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 1, "seed": 20, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.29}
+JOBDONE 2 3 0 1 20 1 rc=0
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 1, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 2, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 3, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.38}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 4, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 5, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.28}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 6, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 7, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 8, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 9, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.38}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 10, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 11, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 12, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.98}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 13, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 14, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.5}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 15, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.4}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 16, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.42}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 17, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 18, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 19, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.38}
+{"p": 2, "A": "Z4^3 x Z2^0", "e": 2, "seed": 20, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.7}
+JOBDONE 2 3 0 2 20 1 rc=0
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 1, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 2, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 3, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.39}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 4, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 5, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 6, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 7, "z": 16, "k": 15, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.22}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 8, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.19}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 9, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 10, "z": 16, "k": 15, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.61}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 11, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 12, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 13, "z": 16, "k": 15, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.28}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 14, "z": 16, "k": 15, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.81}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 1, "seed": 15, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+JOBDONE 2 3 1 1 15 1 rc=0
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 1, "z": 128, "k": 31, "omega_lb": 21, "omega_proven": true, "a_ub": 21, "a_lb": 21, "a_ub_method": "dsatur", "T": 1025, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 2, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 3, "z": 128, "k": 39, "omega_lb": 24, "omega_proven": true, "a_ub": 24, "a_lb": 24, "a_ub_method": "dsatur", "T": 2049, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 4, "z": 128, "k": 39, "omega_lb": 24, "omega_proven": true, "a_ub": 24, "a_lb": 24, "a_ub_method": "dsatur", "T": 2049, "cert_a": true, "cert_z": true, "secs": 1.5}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 5, "z": 8, "k": 5, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 6, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.31}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 7, "z": 64, "k": 39, "omega_lb": 18, "omega_proven": true, "a_ub": 18, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.7}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 8, "z": 128, "k": 31, "omega_lb": 21, "omega_proven": true, "a_ub": 21, "a_lb": 21, "a_ub_method": "dsatur", "T": 1025, "cert_a": true, "cert_z": true, "secs": 0.38}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 9, "z": 128, "k": 39, "omega_lb": 24, "omega_proven": true, "a_ub": 24, "a_lb": 24, "a_ub_method": "dsatur", "T": 2049, "cert_a": true, "cert_z": true, "secs": 0.39}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 10, "z": 128, "k": 31, "omega_lb": 21, "omega_proven": true, "a_ub": 21, "a_lb": 21, "a_ub_method": "dsatur", "T": 1025, "cert_a": true, "cert_z": true, "secs": 0.81}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 11, "z": 128, "k": 39, "omega_lb": 24, "omega_proven": true, "a_ub": 24, "a_lb": 24, "a_ub_method": "dsatur", "T": 2049, "cert_a": true, "cert_z": true, "secs": 0.41}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 12, "z": 128, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.59}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 13, "z": 32, "k": 14, "omega_lb": 11, "omega_proven": true, "a_ub": 11, "a_lb": 11, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 14, "z": 64, "k": 27, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 2, "A": "Z4^3 x Z2^1", "e": 2, "seed": 15, "z": 64, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.02}
+JOBDONE 2 3 1 2 15 1 rc=0
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 1, "z": 256, "k": 135, "omega_lb": 20, "omega_proven": true, "a_ub": 27, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.3}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 2, "z": 256, "k": 135, "omega_lb": 20, "omega_proven": true, "a_ub": 29, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 3, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 4, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.08}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 5, "z": 16, "k": 9, "omega_lb": 6, "omega_proven": true, "a_ub": 6, "a_lb": 6, "a_ub_method": "dsatur", "T": 6, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 6, "z": 256, "k": 135, "omega_lb": 20, "omega_proven": true, "a_ub": 27, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.48}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 7, "z": 256, "k": 135, "omega_lb": 20, "omega_proven": true, "a_ub": 25, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.92}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 8, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.5}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 9, "z": 256, "k": 135, "omega_lb": 20, "omega_proven": true, "a_ub": 27, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.7}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 1, "seed": 10, "z": 256, "k": 135, "omega_lb": 20, "omega_proven": true, "a_ub": 30, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 1.29}
+JOBDONE 2 4 0 1 10 1 rc=0
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 1, "z": 256, "k": 99, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 1.2}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 2, "z": 256, "k": 25, "omega_lb": 20, "omega_proven": true, "a_ub": 20, "a_lb": 20, "a_ub_method": "dsatur", "T": 513, "cert_a": true, "cert_z": true, "secs": 0.41}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 3, "z": 256, "k": 99, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.59}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 4, "z": 256, "k": 99, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.9}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 5, "z": 256, "k": 99, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.5}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 6, "z": 256, "k": 99, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.6}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 7, "z": 128, "k": 39, "omega_lb": 24, "omega_proven": true, "a_ub": 24, "a_lb": 24, "a_ub_method": "dsatur", "T": 2049, "cert_a": true, "cert_z": true, "secs": 0.6}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 8, "z": 256, "k": 51, "omega_lb": 27, "omega_proven": true, "a_ub": 27, "a_lb": 27, "a_ub_method": "dsatur", "T": 8193, "cert_a": true, "cert_z": true, "secs": 0.52}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 9, "z": 256, "k": 99, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.49}
+{"p": 2, "A": "Z4^4 x Z2^0", "e": 2, "seed": 10, "z": 256, "k": 99, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 3.49}
+JOBDONE 2 4 0 2 10 1 rc=0
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 1, "z": 256, "k": 159, "omega_lb": 18, "omega_proven": true, "a_ub": 28, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.7}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 2, "z": 256, "k": 159, "omega_lb": 18, "omega_proven": true, "a_ub": 29, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.58}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 3, "z": 256, "k": 159, "omega_lb": 18, "omega_proven": true, "a_ub": 28, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 1.2}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 4, "z": 16, "k": 15, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.69}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 5, "z": 256, "k": 159, "omega_lb": 18, "omega_proven": true, "a_ub": 29, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.5}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 6, "z": 256, "k": 159, "omega_lb": 18, "omega_proven": true, "a_ub": 29, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.4}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 7, "z": 16, "k": 15, "omega_lb": 5, "omega_proven": true, "a_ub": 5, "a_lb": 5, "a_ub_method": "dsatur", "T": 5, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 8, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 9, "z": 256, "k": 159, "omega_lb": 18, "omega_proven": true, "a_ub": 27, "a_lb": 18, "a_ub_method": "dsatur", "T": 257, "cert_a": true, "cert_z": true, "secs": 0.63}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 1, "seed": 10, "z": 64, "k": 39, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.79}
+JOBDONE 2 2 4 1 10 1 rc=0
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 1, "z": 256, "k": 153, "omega_lb": 30, "omega_proven": true, "a_ub": 44, "a_lb": 30, "a_ub_method": "dsatur", "T": 16385, "cert_a": true, "cert_z": true, "secs": 0.51}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 2, "z": 256, "k": 153, "omega_lb": 30, "omega_proven": true, "a_ub": 46, "a_lb": 30, "a_ub_method": "dsatur", "T": 16385, "cert_a": true, "cert_z": true, "secs": 2.11}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 3, "z": 256, "k": 159, "omega_lb": 36, "omega_proven": true, "a_ub": 40, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 3.88}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 4, "z": 256, "k": 126, "omega_lb": 25, "omega_proven": true, "a_ub": 28, "a_lb": 25, "a_ub_method": "dsatur", "T": 4097, "cert_a": true, "cert_z": true, "secs": 2.32}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 5, "z": 256, "k": 141, "omega_lb": 36, "omega_proven": true, "a_ub": 37, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 6, "z": 256, "k": 141, "omega_lb": 36, "omega_proven": true, "a_ub": 37, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 7, "z": 256, "k": 147, "omega_lb": 36, "omega_proven": true, "a_ub": 39, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.38}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 8, "z": 64, "k": 57, "omega_lb": 15, "omega_proven": true, "a_ub": 18, "a_lb": 15, "a_ub_method": "dsatur", "T": 129, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 9, "z": 256, "k": 153, "omega_lb": 24, "omega_proven": true, "a_ub": 24, "a_lb": 24, "a_ub_method": "dsatur", "T": 2049, "cert_a": true, "cert_z": true, "secs": 2.2}
+{"p": 2, "A": "Z4^2 x Z2^4", "e": 2, "seed": 10, "z": 256, "k": 159, "omega_lb": 36, "omega_proven": true, "a_ub": 39, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.32}
+JOBDONE 2 2 4 2 10 1 rc=0
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 1, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.22}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 2, "z": 1, "k": 0, "omega_lb": 1, "a_ub": 1, "T": 1, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 3, "z": 1, "k": 0, "omega_lb": 1, "a_ub": 1, "T": 1, "cert_a": true, "cert_z": true, "secs": 0.31}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 4, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.3}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 5, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.5}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 6, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.22}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 7, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.61}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 8, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.28}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 9, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.12}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 10, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 11, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.4}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 12, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 13, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.3}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 14, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.22}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 15, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.31}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 16, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.28}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 17, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 18, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.0}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 19, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 1, "seed": 20, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.19}
+JOBDONE 3 2 0 1 20 1 rc=0
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 1, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 2, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 3, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 4, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 5, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 6, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.18}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 7, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 8, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 9, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 10, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 11, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 12, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.1}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 13, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 14, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 15, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 16, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.89}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 17, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.49}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 18, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.31}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 19, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 3, "A": "Z9^2 x Z3^0", "e": 2, "seed": 20, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.08}
+JOBDONE 3 2 0 2 20 1 rc=0
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 1, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 2, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 3, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.09}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 4, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.3}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 5, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.39}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 6, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.02}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 7, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.8}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 8, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 9, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.01}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 10, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.58}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 11, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.6}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 12, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.8}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 13, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 14, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.7}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 1, "seed": 15, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.1}
+JOBDONE 3 2 1 1 15 1 rc=0
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 1, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.19}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 2, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.19}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 3, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 4, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 5, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 6, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.19}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 7, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 8, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 9, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.78}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 10, "z": 27, "k": 10, "omega_lb": 10, "omega_proven": true, "a_ub": 10, "a_lb": 10, "a_ub_method": "dsatur", "T": 17, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 11, "z": 27, "k": 10, "omega_lb": 10, "omega_proven": true, "a_ub": 10, "a_lb": 10, "a_ub_method": "dsatur", "T": 17, "cert_a": true, "cert_z": true, "secs": 0.61}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 12, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 1.39}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 13, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 1.4}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 14, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 3, "A": "Z9^2 x Z3^1", "e": 2, "seed": 15, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.29}
+JOBDONE 3 2 1 2 15 1 rc=0
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 1, "seed": 1, "z": 81, "k": 40, "omega_lb": 7, "omega_proven": true, "a_ub": 10, "a_lb": 10, "a_ub_method": "tabu", "T": 10, "cert_a": true, "cert_z": true, "secs": 0.4}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 1, "seed": 2, "z": 729, "k": 148, "omega_lb": 25, "omega_proven": false, "a_ub": 39, "a_lb": 25, "a_ub_method": "dsatur", "T": 4097, "cert_a": true, "cert_z": true, "secs": 57.2}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 1, "seed": 3, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.12}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 1, "seed": 4, "z": 729, "k": 148, "omega_lb": 25, "omega_proven": false, "a_ub": 39, "a_lb": 25, "a_ub_method": "dsatur", "T": 4097, "cert_a": true, "cert_z": true, "secs": 53.18}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 1, "seed": 5, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 1, "seed": 6, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.12}
+JOBDONE 3 2 2 1 6 1 rc=0
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 2, "seed": 1, "z": 729, "k": 84, "omega_lb": 48, "omega_proven": true, "a_ub": 48, "a_lb": 48, "a_ub_method": "dsatur", "T": 8388609, "cert_a": true, "cert_z": true, "secs": 0.61}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 2, "seed": 2, "z": 729, "k": 76, "omega_lb": 34, "omega_proven": true, "a_ub": 38, "a_lb": 34, "a_ub_method": "dsatur", "T": 65537, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 2, "seed": 3, "z": 729, "k": 84, "omega_lb": 48, "omega_proven": true, "a_ub": 48, "a_lb": 48, "a_ub_method": "dsatur", "T": 8388609, "cert_a": true, "cert_z": true, "secs": 0.31}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 2, "seed": 4, "z": 729, "k": 52, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 2, "seed": 5, "z": 729, "k": 52, "omega_lb": 36, "omega_proven": true, "a_ub": 36, "a_lb": 36, "a_ub_method": "dsatur", "T": 131073, "cert_a": true, "cert_z": true, "secs": 0.41}
+{"p": 3, "A": "Z9^2 x Z3^2", "e": 2, "seed": 6, "z": 729, "k": 84, "omega_lb": 48, "omega_proven": true, "a_ub": 48, "a_lb": 48, "a_ub_method": "dsatur", "T": 8388609, "cert_a": true, "cert_z": true, "secs": 0.4}
+JOBDONE 3 2 2 2 6 1 rc=0
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 1, "seed": 1, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 1, "seed": 2, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.11}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 1, "seed": 3, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 1, "seed": 4, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.29}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 1, "seed": 5, "z": 81, "k": 16, "omega_lb": 12, "omega_proven": true, "a_ub": 12, "a_lb": 12, "a_ub_method": "dsatur", "T": 33, "cert_a": true, "cert_z": true, "secs": 0.21}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 1, "seed": 6, "z": 9, "k": 4, "omega_lb": 4, "omega_proven": true, "a_ub": 4, "a_lb": 4, "a_ub_method": "dsatur", "T": 4, "cert_a": true, "cert_z": true, "secs": 0.48}
+JOBDONE 3 3 0 1 6 1 rc=0
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 2, "seed": 1, "z": 729, "k": 100, "omega_lb": 90, "omega_proven": true, "a_ub": 90, "a_lb": 90, "a_ub_method": "dsatur", "T": 17592186044417, "cert_a": true, "cert_z": true, "secs": 0.49}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 2, "seed": 2, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.2}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 2, "seed": 3, "z": 729, "k": 100, "omega_lb": 90, "omega_proven": true, "a_ub": 90, "a_lb": 90, "a_ub_method": "dsatur", "T": 17592186044417, "cert_a": true, "cert_z": true, "secs": 0.7}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 2, "seed": 4, "z": 729, "k": 100, "omega_lb": 90, "omega_proven": true, "a_ub": 90, "a_lb": 90, "a_ub_method": "dsatur", "T": 17592186044417, "cert_a": true, "cert_z": true, "secs": 0.59}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 2, "seed": 5, "z": 243, "k": 35, "omega_lb": 31, "omega_proven": true, "a_ub": 31, "a_lb": 31, "a_ub_method": "dsatur", "T": 32769, "cert_a": true, "cert_z": true, "secs": 0.4}
+{"p": 3, "A": "Z9^3 x Z3^0", "e": 2, "seed": 6, "z": 729, "k": 100, "omega_lb": 90, "omega_proven": true, "a_ub": 90, "a_lb": 90, "a_ub_method": "dsatur", "T": 17592186044417, "cert_a": true, "cert_z": true, "secs": 3.92}
+JOBDONE 3 3 0 2 6 1 rc=0
+ALLDONE

@@ -1,0 +1,5 @@
+7db2ea3b91bfbd0ab620215163e6c488bbb916d5 2026-10-14T11:54:29Z chore: remove prop valued `answer(...)`s (#6762)
+75a6d3d52d0b87e78317f2fcc37319d807779030 2026-10-14T09:23:28Z  chore: tag every yes-or-no question with the question attribute  (#6740)
+6fbb54f24ccc2e64dcfaffc28c58950e377110d2 2026-09-18T14:37:39Z chore: modulize FormalConjectures/ (#4688)
+c252a41054125b5fd9c8356e2137cd9b55337657 2026-07-16T23:28:26Z refactor: split out FormalConjectures.Util to a new library (#4433)
+0137b96de1d6d6c3fd29bbb564e0eec93575d43e 2026-02-03T19:20:43Z Bump mathlib to v4.25.0

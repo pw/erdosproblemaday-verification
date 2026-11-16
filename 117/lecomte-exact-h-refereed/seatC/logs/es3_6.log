@@ -1,0 +1,5 @@
+trace form Gram matrix (F_27 trace model, c=[[2, 0, 2]]): [[0, 0, 0, 2, 1, 2], [0, 0, 0, 1, 2, 0], [0, 0, 0, 2, 0, 2], [1, 2, 1, 0, 0, 0], [2, 1, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0]]
+z=729 twin classes=364
+best heuristic clique size 13; direct form check (pairwise beta != 0): True
+clique vectors: [[2, 0, 1, 1, 0, 0], [1, 1, 2, 2, 1, 1], [1, 0, 1, 2, 0, 1], [0, 2, 1, 1, 0, 1], [1, 2, 0, 2, 0, 1], [0, 1, 1, 2, 1, 0], [0, 0, 1, 2, 2, 1], [0, 1, 1, 0, 2, 1], [1, 0, 0, 2, 2, 1], [1, 0, 1, 0, 1, 0], [2, 0, 2, 0, 0, 1], [2, 0, 0, 1, 0, 0], [1, 1, 1, 1, 2, 1]]
+F_27-line spread colouring: 28 colours, proper=True

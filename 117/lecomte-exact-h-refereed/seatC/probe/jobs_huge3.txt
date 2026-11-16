@@ -1,0 +1,8 @@
+2 10 1 tracesub 2 1
+2 10 2 tracesub 5 1
+2 10 3 tracesub 4 1
+2 10 4 tracesub 3 1
+2 10 2 formplusdeg 5 1
+2 10 3 formplusdeg 3 1
+2 10 2 sum2 5 1
+2 10 2 directsum 2 1

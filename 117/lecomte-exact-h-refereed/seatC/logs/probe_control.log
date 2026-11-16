@@ -1,0 +1,4 @@
+true table : p=3 d=4 e=1 seed=2 z=81 omega=7(exact=True) a in [10,10] cert_a=True cert_z=True
+wrong T'(7)=9: cert_a=False cert_z=False (must both be False)
+constant colouring on probe graph rejected: True
+PROBE CONTROL PASS

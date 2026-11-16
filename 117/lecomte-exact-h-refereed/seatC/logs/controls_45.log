@@ -1,0 +1,14 @@
+== 4. twin reduction check: census (reduced) vs full coset graph, orders <= 64
+PASS twin-reduced census == full-graph (networkx omega, glucose4 chi, no symmetry breaking) on all 586 groups of order <= 64 (4.4s)
+== 5. groups built in Python (no GAP), full element graph vs census
+PASS D8: |G|=8 z=4 omega=3 a=3 [alpha=2, lower bound 3, DSATUR 3] (full element graph, 6 vertices, 1.1s) == census (8, 3) (4, 3, 3)
+PASS Q8: |G|=8 z=4 omega=3 a=3 [alpha=2, lower bound 3, DSATUR 3] (full element graph, 6 vertices, 0.1s) == census (8, 4) (4, 3, 3)
+PASS S3: |G|=6 z=6 omega=4 a=4 [alpha=2, lower bound 4, DSATUR 4] (full element graph, 5 vertices, 0.1s) == census (6, 1) (6, 4, 4)
+PASS A4: |G|=12 z=12 omega=5 a=5 [alpha=3, lower bound 5, DSATUR 5] (full element graph, 11 vertices, 0.0s) == census (12, 3) (12, 5, 5)
+PASS S4: |G|=24 z=24 omega=10 a=10 [alpha=3, lower bound 10, DSATUR 10] (full element graph, 23 vertices, 0.1s) == census (24, 12) (24, 10, 10)
+PASS A5: |G|=60 z=60 omega=21 a=21 [alpha=4, lower bound 21, DSATUR 21] (full element graph, 59 vertices, 0.1s) == census (60, 5) (60, 21, 21)
+PASS D10: |G|=10 z=10 omega=6 a=6 [alpha=4, lower bound 6, DSATUR 6] (full element graph, 9 vertices, 0.0s) == census (10, 1) (10, 6, 6)
+PASS Heis(3) = 3^{1+2} exp 3: |G|=27 z=9 omega=4 a=4 [alpha=6, lower bound 4, DSATUR 4] (full element graph, 24 vertices, 0.1s) == census (27, 3) (9, 4, 4)
+INFO 2^{1+4} (B=v0w1+v2w3): |G|=32 z=16 omega=5 a=5 [alpha=6, lower bound 5, DSATUR 5] (full element graph, 30 vertices, 0.0s)
+INFO 2^{1+6} (B=v0w1+v2w3+v4w5): |G|=128 z=64 omega=7 a=9 [alpha=14, lower bound 9, DSATUR 14] (full element graph, 126 vertices, 3.6s)
+CONTROL FAILURES: 0

@@ -1,0 +1,38 @@
+tracesub p=2 d=10 e=1 seed=1 z=1024 k=1023 omega>=11 a<=33 (spread(isometry to F_q trace model)) a>=33 T=33 certA=True certZ=True 207.1s  <<< FLAG
+tracesub p=2 d=10 e=1 seed=2 z=1024 k=1023 omega>=11 a<=33 (spread(isometry to F_q trace model)) a>=33 T=33 certA=True certZ=True 120.3s  <<< FLAG
+JOBDONE 2 10 1 tracesub 2 1 rc=0
+tracesub p=2 d=10 e=2 seed=1 z=1024 k=1023 omega>=26 a<=114 (dsatur) a>=26 T=4097 certA=True certZ=True 8.8s
+tracesub p=2 d=10 e=2 seed=2 z=1024 k=1023 omega>=26 a<=114 (dsatur) a>=26 T=4097 certA=True certZ=True 9.0s
+tracesub p=2 d=10 e=2 seed=3 z=1024 k=1023 omega>=25 a<=104 (dsatur) a>=25 T=4097 certA=True certZ=True 7.0s
+tracesub p=2 d=10 e=2 seed=4 z=1024 k=1023 omega>=25 a<=98 (dsatur) a>=25 T=4097 certA=True certZ=True 7.3s
+tracesub p=2 d=10 e=2 seed=5 z=1024 k=1023 omega>=26 a<=117 (dsatur) a>=26 T=4097 certA=True certZ=True 8.4s
+JOBDONE 2 10 2 tracesub 5 1 rc=0
+tracesub p=2 d=10 e=3 seed=1 z=1024 k=1023 omega>=33 a<=41 (dsatur) a>=33 T=65537 certA=True certZ=True 7.8s
+tracesub p=2 d=10 e=3 seed=2 z=1024 k=1023 omega>=33 a<=38 (dsatur) a>=33 T=65537 certA=True certZ=True 7.6s
+tracesub p=2 d=10 e=3 seed=3 z=1024 k=1023 omega>=33 a<=33 (dsatur) a>=33 T=65537 certA=True certZ=True 8.4s
+tracesub p=2 d=10 e=3 seed=4 z=1024 k=1023 omega>=33 a<=33 (dsatur) a>=33 T=65537 certA=True certZ=True 8.1s
+JOBDONE 2 10 3 tracesub 4 1 rc=0
+tracesub p=2 d=10 e=4 seed=1 z=1024 k=1023 omega>=33 a<=33 (dsatur) a>=33 T=65537 certA=True certZ=True 7.3s
+tracesub p=2 d=10 e=4 seed=2 z=1024 k=1023 omega>=33 a<=33 (dsatur) a>=33 T=65537 certA=True certZ=True 8.9s
+tracesub p=2 d=10 e=4 seed=3 z=1024 k=1023 omega>=33 a<=33 (dsatur) a>=33 T=65537 certA=True certZ=True 9.7s
+JOBDONE 2 10 4 tracesub 3 1 rc=0
+formplusdeg p=2 d=10 e=2 seed=1 z=1024 k=1023 omega>=27 a<=82 (dsatur) a>=27 T=8193 certA=True certZ=True 6.9s
+formplusdeg p=2 d=10 e=2 seed=2 z=1024 k=1023 omega>=27 a<=85 (dsatur) a>=27 T=8193 certA=True certZ=True 7.0s
+formplusdeg p=2 d=10 e=2 seed=3 z=1024 k=639 omega>=24 a<=65 (dsatur) a>=24 T=2049 certA=True certZ=True 5.2s
+formplusdeg p=2 d=10 e=2 seed=4 z=1024 k=639 omega>=24 a<=65 (dsatur) a>=24 T=2049 certA=True certZ=True 5.0s
+formplusdeg p=2 d=10 e=2 seed=5 z=1024 k=1023 omega>=27 a<=84 (dsatur) a>=27 T=8193 certA=True certZ=True 7.7s
+JOBDONE 2 10 2 formplusdeg 5 1 rc=0
+formplusdeg p=2 d=10 e=3 seed=1 z=1024 k=831 omega>=53 a<=104 (dsatur) a>=53 T=67108865 certA=True certZ=True 5.5s
+formplusdeg p=2 d=10 e=3 seed=2 z=1024 k=1017 omega>=63 a<=115 (dsatur) a>=63 T=2147483649 certA=True certZ=True 7.1s
+formplusdeg p=2 d=10 e=3 seed=3 z=1024 k=1019 omega>=63 a<=114 (dsatur) a>=63 T=2147483649 certA=True certZ=True 6.9s
+JOBDONE 2 10 3 formplusdeg 3 1 rc=0
+sum2 p=2 d=10 e=2 seed=1 z=512 k=446 omega>=23 a<=55 (dsatur) a>=23 T=2049 certA=True certZ=True 4.2s
+sum2 p=2 d=10 e=2 seed=2 z=1024 k=1023 omega>=27 a<=80 (dsatur) a>=27 T=8193 certA=True certZ=True 6.8s
+sum2 p=2 d=10 e=2 seed=3 z=256 k=159 omega>=18(exact) a<=28 (dsatur) a>=18 T=257 certA=True certZ=True 0.4s
+sum2 p=2 d=10 e=2 seed=4 z=1024 k=1023 omega>=27 a<=88 (dsatur) a>=27 T=8193 certA=True certZ=True 7.5s
+sum2 p=2 d=10 e=2 seed=5 z=512 k=446 omega>=23 a<=56 (dsatur) a>=23 T=2049 certA=True certZ=True 3.8s
+JOBDONE 2 10 2 sum2 5 1 rc=0
+directsum p=2 d=10 e=2 seed=1 z=1024 k=1023 omega>=35 a<=70 (dsatur) a>=35 T=131073 certA=True certZ=True 7.3s
+directsum p=2 d=10 e=2 seed=2 z=1024 k=1023 omega>=35 a<=70 (dsatur) a>=35 T=131073 certA=True certZ=True 6.9s
+JOBDONE 2 10 2 directsum 2 1 rc=0
+ALLDONE

@@ -1,0 +1,14 @@
+groups analysed: 504
+max a by omega: {1: 1, 4: 4, 7: 10, 10: 10, 12: 12, 13: 13, 16: 16, 22: 31, 25: 25, 28: 28, 31: 31, 32: 34, 34: 34, 37: 37, 82: 82, 85: 85}  T: {1: 1, 4: 4, 7: 10, 10: 17, 12: 33, 13: 65, 16: 129, 22: 1025, 25: 4097, 28: 8193, 31: 32769, 32: 32769, 34: 65537, 37: 262145, 82: 1099511627777, 85: 4398046511105}
+  G1: violations=0 []
+  G2: violations=0 []
+  L42: violations=0 (instances tested=867) []
+  L45a: violations=0 (instances tested=836) []
+  L45b: violations=0 (instances tested=247) []
+  L45w: violations=0 (instances tested=1976) []
+  L21: violations=0 (instances tested=15096) []
+  L46: violations=0 (instances tested=95) []
+  AVG: violations=0 (instances tested=1216) []
+  EQ4: violations=0 (instances tested=969) []
+  nonopt: violations=0 []
+  equality a=T(omega) cases: 38; by omega: Counter({4: 31, 7: 7})

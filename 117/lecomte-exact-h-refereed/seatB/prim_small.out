@@ -1,0 +1,11 @@
+/home/exedev/MathDyad/subs-1116/117/seatB/solve.py:2: SyntaxWarning: invalid escape sequence '\{'
+  """Read export.g output; for each group compute a(G) (min abelian cover) exactly and omega(G)
+prim_3_2_8	|G|=72	|G/Z|=72	omega=28	a=28	T=8193	#maxab=28	m=9;|L|=8;L=Q8;sumUc=7;2|L|-1=15;omegaL=?	ok
+prim_3_2_8	|G|=72	|G/Z|=72	omega=21	a=21	T=1025	#maxab=40	m=9;|L|=8;L=D8;sumUc=15;2|L|-1=15;omegaL=?	ok
+prim_3_2_16	|G|=144	|G/Z|=144	omega=39	a=39	T=524289	#maxab=58	m=9;|L|=16;L=QD16;sumUc=23;2|L|-1=31;omegaL=?	ok
+prim_5_2_8	|G|=200	|G/Z|=200	omega=76	a=76	T=137438953473	#maxab=76	m=25;|L|=8;L=Q8;sumUc=7;2|L|-1=15;omegaL=?	ok
+prim_5_2_8	|G|=200	|G/Z|=200	omega=46	a=46	T=4194305	#maxab=96	m=25;|L|=8;L=D8;sumUc=23;2|L|-1=15;omegaL=?	ok
+prim_5_2_16	|G|=400	|G/Z|=400	omega=105	a=105	T=4503599627370497	#maxab=106	m=25;|L|=16;L=(C4;x;C2);:;C2;sumUc=39;2|L|-1=31;omegaL=?	ok
+prim_5_2_16	|G|=400	|G/Z|=400	omega=86	a=86	T=4398046511105	#maxab=86	m=25;|L|=16;L=C8;:;C2;sumUc=23;2|L|-1=31;omegaL=?	ok
+prim_7_2_8	|G|=392	|G/Z|=392	omega=148	a=148	T=9444732965739290427393	#maxab=148	m=49;|L|=8;L=Q8;sumUc=7;2|L|-1=15;omegaL=?	ok
+prim_7_2_8	|G|=392	|G/Z|=392	omega=78	a=78	T=274877906945	#maxab=176	m=49;|L|=8;L=D8;sumUc=31;2|L|-1=15;omegaL=?	ok

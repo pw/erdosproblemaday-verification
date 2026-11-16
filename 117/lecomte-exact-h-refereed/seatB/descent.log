@@ -1,0 +1,6 @@
+Syntax warning: Unbound global variable in descent.g:10
+      cls := Filtered(ConjugacyClasses(G), c -> not Representative(c) in F);
+                                                                         ^
+Syntax warning: Unbound global variable in descent.g:13
+      for c in Filtered(cls, c -> Size(c) = rmin) do
+                                            ^^^^

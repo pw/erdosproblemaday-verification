@@ -1,0 +1,15 @@
+Read("export.g");
+out := OpenOut("controls.dat");
+ExportGroup(SmallGroup(8,3), "D8", out);
+ExportGroup(SymmetricGroup(3), "S3", out);
+ExportGroup(AlternatingGroup(4), "A4", out);
+ExportGroup(SymmetricGroup(4), "S4", out);
+ExportGroup(AlternatingGroup(5), "A5", out);
+ExportGroup(SL(2,5), "SL25", out);
+ExportGroup(SymmetricGroup(5), "S5", out);
+ExportGroup(PSL(2,7), "PSL27", out);
+ExportGroup(ExtraspecialGroup(2^5, "+"), "E2^1+4", out);
+ExportGroup(ExtraspecialGroup(3^5, 3), "E3^1+4", out);
+ExportGroup(DirectProduct(SmallGroup(8,3), SmallGroup(8,3)), "D8xD8", out);
+ExportGroup(DirectProduct(SymmetricGroup(3), SymmetricGroup(3)), "S3xS3", out);
+CloseStream(out); QUIT;
