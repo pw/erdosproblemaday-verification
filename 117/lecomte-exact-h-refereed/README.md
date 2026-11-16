@@ -13,7 +13,7 @@ Note on B's report: its count "5,644" of nonabelian groups of order ≤ 255 is w
 **Lean** (`lean-rebuild/`): Boris Alexeev's `Erdos117.lean` + 44 files + `Erdos1098.lean` from github.com/plby/lean-proofs
 (commit in `SOURCE_COMMIT.txt`, file hashes in `SOURCE.sha256`), compiled against Mathlib db584cd6 / Lean v4.33.0 with
 his lean options: `build_full.log` → 8,752 jobs, `'Erdos117.erdos_117' depends on axioms: [propext, Classical.choice, Quot.sound]`;
-`probe/defs117.log` prints the definitions. `run_checker117.sh` = an optional from-scratch closure replay (`leanchecker --fresh`), not part of the verdict as published.
+`probe/defs117.log` prints the definitions. `run_checker117.sh` = `leanchecker --fresh ErdosProblems.Erdos117`: 90 min, rc 0, empty error log `leanchecker117.log` (11:18 UTC; `checker117.out`).
 The Lean covers the August result (finiteness, h(n) ≥ 2^⌊(n−1)/2⌋, log₂h = n/2 + O(√n log³n), h(n)^{1/n} → √2),
 not the November exact formula.
 

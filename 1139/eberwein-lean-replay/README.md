@@ -16,8 +16,9 @@
    → axioms [propext, Classical.choice, Quot.sound] (`logs/cmp.log`); the reference itself shows `sorryAx` (positive
    control for the axiom printer). pp.all forms identical, 2,733 chars; a one-token mutation is detected (`probe/statement_match.txt`).
 3. Negative controls (`probe/Neg1139.lean`, `logs/neg.log`): Ω ≤ 3, liminf, log(k+2) — all three rejected (type mismatch).
-4. `run_checker.sh`: an optional from-scratch replay of the whole import closure, Mathlib included
-   (`leanchecker --fresh`), started 16 Nov 09:13 UTC; not part of the verdict as published. RSS watchdog `rsswatch.sh`.
+4. `run_checker.sh`: `lake env leanchecker --fresh Erdos1139Official` — replays the whole import closure, Mathlib
+   included, through the kernel from scratch → `logs/leanchecker.log`: 113 min, rc 0, no error (11:07 UTC).
+   RSS watchdog `rsswatch.sh` (`logs/rss.log`, peak ~8.2 GB).
 5. Seat L (`seats/L_lean_audit.md`): hostile read of the four Lean files (shadowing, axioms, kernel bypasses), diff
    against upstream github.com/openai/LongGapsBetweenPrimes @ 03a1190 (additions only), lemma chain. CLEAN.
 6. A world seat checked priority and literature (Price 19 Jun informal; Xu 5 Oct conditional Lean; no earlier
