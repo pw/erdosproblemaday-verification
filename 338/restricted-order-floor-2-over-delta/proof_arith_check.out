@@ -1,0 +1,3 @@
+deltas=245 violations_of_ceil_bound=0  proof-bound exceeds floor shape at 0 deltas
+examples: []
+control (growth 1): deltas exceeding ceil bound = 30 of 35

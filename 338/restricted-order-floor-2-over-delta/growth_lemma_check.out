@@ -1,0 +1,12 @@
+g= 1 checked=0 violations=0 | control(non-generating S) violations=0 | sharp(|S|-1) violations=0
+g= 2 checked=0 violations=0 | control(non-generating S) violations=2 | sharp(|S|-1) violations=0
+g= 3 checked=6 violations=0 | control(non-generating S) violations=6 | sharp(|S|-1) violations=0
+g= 4 checked=28 violations=0 | control(non-generating S) violations=16 | sharp(|S|-1) violations=0
+g= 5 checked=160 violations=0 | control(non-generating S) violations=30 | sharp(|S|-1) violations=0
+g= 6 checked=468 violations=0 | control(non-generating S) violations=80 | sharp(|S|-1) violations=6
+g= 7 checked=2338 violations=0 | control(non-generating S) violations=126 | sharp(|S|-1) violations=0
+g= 8 checked=7264 violations=0 | control(non-generating S) violations=312 | sharp(|S|-1) violations=28
+g= 9 checked=28392 violations=0 | control(non-generating S) violations=555 | sharp(|S|-1) violations=54
+g=10 checked=91840 violations=0 | control(non-generating S) violations=1212 | sharp(|S|-1) violations=140
+g=11 checked=349074 violations=0 | control(non-generating S) violations=2046 | sharp(|S|-1) violations=0
+g=12 checked=1090752 violations=0 | control(non-generating S) violations=4996 | sharp(|S|-1) violations=1014

@@ -1,0 +1,14 @@
+m= 2 sets=3  over_ceil_bound=0  hits_ceil_bound=0  over_floor_shape=0  max(h-floor)=-1 [D=0x1 E=0x2 h=2]  | ctrl: over(ceil-1)=0 unreachable(non-generating)=1
+m= 3 sets=11  over_ceil_bound=0  hits_ceil_bound=0  over_floor_shape=0  max(h-floor)=-2 [D=0x1 E=0x4 h=3]  | ctrl: over(ceil-1)=0 unreachable(non-generating)=1
+m= 4 sets=51  over_ceil_bound=0  hits_ceil_bound=2  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=3]  | ctrl: over(ceil-1)=2 unreachable(non-generating)=5
+m= 5 sets=159  over_ceil_bound=0  hits_ceil_bound=4  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=4]  | ctrl: over(ceil-1)=4 unreachable(non-generating)=1
+m= 6 sets=569  over_ceil_bound=0  hits_ceil_bound=11  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=5]  | ctrl: over(ceil-1)=11 unreachable(non-generating)=23
+m= 7 sets=1679  over_ceil_bound=0  hits_ceil_bound=6  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=6]  | ctrl: over(ceil-1)=6 unreachable(non-generating)=1
+m= 8 sets=5663  over_ceil_bound=0  hits_ceil_bound=30  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=7]  | ctrl: over(ceil-1)=30 unreachable(non-generating)=65
+m= 9 sets=16301  over_ceil_bound=0  hits_ceil_bound=6  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=8]  | ctrl: over(ceil-1)=6 unreachable(non-generating)=19
+m=10 sets=53289  over_ceil_bound=0  hits_ceil_bound=83  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=9]  | ctrl: over(ceil-1)=83 unreachable(non-generating)=215
+m=11 sets=153471  over_ceil_bound=0  hits_ceil_bound=10  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=10]  | ctrl: over(ceil-1)=10 unreachable(non-generating)=1
+m=12 sets=491307  over_ceil_bound=0  hits_ceil_bound=179  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=11]  | ctrl: over(ceil-1)=179 unreachable(non-generating)=725
+m=13 sets=1421055  over_ceil_bound=0  hits_ceil_bound=12  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=12]  | ctrl: over(ceil-1)=12 unreachable(non-generating)=1
+m=14 sets=4488945  over_ceil_bound=0  hits_ceil_bound=453  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=13]  | ctrl: over(ceil-1)=453 unreachable(non-generating)=2063
+m=15 sets=13049883  over_ceil_bound=0  hits_ceil_bound=12  over_floor_shape=0  max(h-floor)=0 [D=0x3 E=0x0 h=14]  | ctrl: over(ceil-1)=12 unreachable(non-generating)=229
