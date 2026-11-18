@@ -1,0 +1,5 @@
+relabelled copy of i3l3_6_class3 isomorphic (expect True): True
+class3 vs class4 isomorphic (expect False): False
+removing some single arc from class3 creates an independent triple (expect True): True
+reversal of class3 isomorphic to one of the 31 (expect True): True
+QR7 TT4-free (expect True): True | QR7 with one arc flipped TT4-free (expect False): False

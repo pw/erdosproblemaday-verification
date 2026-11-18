@@ -1,0 +1,48 @@
+{
+ "done": 108,
+ "total": 445,
+ "ok": 108,
+ "bad": [],
+ "identical": 99,
+ "not_identical": [
+  "s21_677_14_6",
+  "s21_677_19_1",
+  "s21_677_22_0",
+  "s21_677_30_0",
+  "s21_677_6_1",
+  "s21_785_0_0",
+  "s21_884_1",
+  "s22_B6_0",
+  "s22_C4"
+ ],
+ "L21_total": 346,
+ "L21_ok": 62,
+ "L22_total": 90,
+ "L22_ok": 37,
+ "L23_total": 8,
+ "L23_ok": 8,
+ "L24_total": 1,
+ "L24_ok": 1,
+ "bytes_checked": 24673055701,
+ "solve_cpu_h": 10.1,
+ "check_cpu_h": 10.1,
+ "max_proof": [
+  2741150147,
+  "s21_677_19_1"
+ ],
+ "sha_lines": 445,
+ "sha_match": 445,
+ "indep_equal": 445,
+ "indep_diff": 0,
+ "inventory_lines": [
+  "I3L3 5 classes 25 valid True pairwise-non-isomorphic True",
+  "I3L3 6 classes 31 valid True pairwise-non-isomorphic True",
+  "I3L3 7 classes 7 valid True pairwise-non-isomorphic True",
+  "I3L3 8 classes 1 valid True pairwise-non-isomorphic True",
+  "TT4F 4 classes 3 valid True pairwise-non-isomorphic True",
+  "TT4F 5 classes 3 valid True pairwise-non-isomorphic True",
+  "TT4F 6 classes 1 valid True pairwise-non-isomorphic True",
+  "TT4F 7 classes 1 valid True pairwise-non-isomorphic True"
+ ],
+ "indep_done": true
+}

@@ -1,0 +1,22 @@
+positive: rc=0 stdout=[s VERIFIED UNSAT] stderr=[]
+truncated: rc=0 stdout=[] stderr=[c empty clause not derived at end of proof]
+hintmut: rc=0 stdout=[] stderr=[c Checking failed at line: 146397. Reason: clause not empty or singleton after reduction]
+empty_nohint: rc=0 stdout=[] stderr=[c Checking failed at line: 291570. Reason: pivot must be non-zero]
+empty_badhint: rc=0 stdout=[] stderr=[c Checking failed at line: 291570. Reason: clause index unavailable: 1]
+dropclause: rc=0 stdout=[] stderr=[c Checking failed at line: 29. Reason: clause not empty or singleton after reduction]
+wrongblock sha 189c30b038777cc53cc4476297dfeee7376e0d077fc4690bbf0ca57c9f1419a9 vs ledger s21_587_1 fc75efa57a0419a92225636b24938c9e3cab8b96abdc9fc4abf7a89ab2f2fc36 -> MISMATCH
+t338 rc=10 s SATISFIABLE
+t247 rc=10 s SATISFIABLE
+weaken_cited_clause_in_place: stdout=[] stderr=[c Checking failed at line: 0. Reason: clause index has no reduction sequence: 229]
+empty_clause_live_nonconflicting_hint: stdout=[] stderr=[c Checking failed at line: 291570. Reason: clause not empty or singleton after reduction]
+t339: s UNSATISFIABLE | cake_lpr: s VERIFIED UNSAT
+t248: s UNSATISFIABLE | cake_lpr: s VERIFIED UNSAT
+encoder control (cube built from block class 2, compared as s21_587_1, expect DIFF): s21_587_1 DIFF 145338 145338 145338 3 3
+encoder control (referee mutant mut_flipunit, expect DIFF): s21_587_1 DIFF 145338 145338 145338 1 1
+encoder control (referee mutant mut_tt4, expect DIFF): s21_587_1 DIFF 145338 145338 145338 1 1
+encoder positive control (expect EQUAL): s21_587_1 EQUAL 145338 145338 145338 0 0
+validation/t339.cnf EQUAL 624 624
+validation/t248.cnf EQUAL 1736 1736
+validation/t338.cnf EQUAL 420 420
+validation/t247.cnf EQUAL 882 882
+control (wrong file, expect DIFF): validation/t248.cnf DIFF 624 1736
