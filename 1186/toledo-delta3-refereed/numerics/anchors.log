@@ -1,0 +1,12 @@
+route A (exact section-length integration, Fractions): Q(phi*) = -5/137  == -5/137 ? True
+  area(R) = 1/2
+route B (grid formula via law of 2t-s, N=548): Q(phi*) = -5/137; sum K/(4N^2) = 1/2
+route B (grid formula via law of 2t-s, N=1096): Q(phi*) = -5/137; sum K/(4N^2) = 1/2
+route B (grid formula via law of 2t-s, N=2192): Q(phi*) = -5/137; sum K/(4N^2) = 1/2
+route A vs route B on 300 random cells (N=37): mismatches = 0
+KKT: max over a of phi*(a)*G(a) = 0 at a = 7/137  (<=0 required); #violating kink endpoints: 0
+G at the 11 interior breakpoints: ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+Distinct G-values at kinks (first 12): ['-11/137', '-4/137', '-11/274', '0', '3/274', '0', '-31/548', '-9/274', '0', '9/274', '10/137', '0']
+n=548: brute-force mono 3-APs = 15756, claimed 15756, quadratic-form route = 15756, 117n^2/2192 - n/2 = 15755
+n=1096: brute-force mono 3-APs = 63568, claimed 63568, quadratic-form route = 63568, 117n^2/2192 - n/2 = 63568
+n=2192: brute-force mono 3-APs = 255368, claimed 255368, quadratic-form route = None, 117n^2/2192 - n/2 = 255368

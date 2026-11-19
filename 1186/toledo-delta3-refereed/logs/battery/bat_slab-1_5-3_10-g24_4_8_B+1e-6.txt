@@ -1,0 +1,2 @@
+REFUSED ../repo/certs/delta3/slab-1_5-3_10-g24_4_8.json mutate=B+1e-6: S + eps I not positive definite (leading minor 93 = ...)  (940.7s)
+rc=1

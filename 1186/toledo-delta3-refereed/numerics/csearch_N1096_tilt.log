@@ -1,0 +1,15 @@
+N=1096 tag=tilt Q(phi*)=-0.036496350364963 median|flip delta| at phi* = 1093.8, min flip delta = -102.3, ||S||=4833.4
+906 jobs
+[1/906 2s] new best -0.036513742468 gap -1.739e-05 by cd/rand_unif ham=20 nblocks=12 nfrac=3
+[2/906 2s] new best -0.036515435602 gap -1.909e-05 by cd/blocks ham=13 nblocks=12 nfrac=2
+[3/906 2s] new best -0.036515435602 gap -1.909e-05 by cd/phistar_pert ham=13 nblocks=12 nfrac=2
+[8/906 12s] new best -0.036515435602 gap -1.909e-05 by sa/rand_pm1 ham=13 nblocks=12 nfrac=2
+[69/906 38s] new best -0.036515435602 gap -1.909e-05 by cd/smooth ham=13 nblocks=12 nfrac=2
+[177/906 64s] new best -0.036515435602 gap -1.909e-05 by cd/anti_blocks ham=13 nblocks=12 nfrac=2
+[200/906 77s]
+[316/906 131s] new best -0.036515435602 gap -1.909e-05 by cd/anti_blocks ham=13 nblocks=12 nfrac=2
+[400/906 174s]
+[500/906 193s] new best -0.036515435602 gap -1.909e-05 by cd/blocks ham=13 nblocks=12 nfrac=2
+[600/906 214s]
+[800/906 279s]
+done 316.10267663002014

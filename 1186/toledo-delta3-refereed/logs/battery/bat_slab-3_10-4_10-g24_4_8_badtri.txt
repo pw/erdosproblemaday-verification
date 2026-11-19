@@ -1,0 +1,2 @@
+REFUSED ../repo/certs/delta3/slab-3_10-4_10-g24_4_8.json mutate=badtri: triangle signs not valid  (16.2s)
+rc=1

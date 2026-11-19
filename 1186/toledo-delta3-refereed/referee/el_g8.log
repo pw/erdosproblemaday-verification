@@ -1,0 +1,30 @@
+certificate grid from slab-2_5-9_20-g8_4_0.json n = 146  fine grid 1/2192
+fine area matrix ok; |R| = 0.5
+constructions: 1608  min E-L (float) = -2.168404344971009e-19
+descents: 8  time 689 s
+lowest float values:
+  -2.168e-19  cutcorner (19,82) 1  m=0.0146
+  -2.168e-19  cutcorner (23,84) 1  m=0.0146
+  -2.168e-19  cutcorner (29,86) 1  m=0.0146
+  -2.168e-19  cutcorner (49,96) 1  m=0.0146
+  -2.168e-19  cutcorner (96,49) 1  m=0.0146
+  -2.168e-19  cutcorner (116,59) 1  m=0.0146
+  -2.168e-19  cutcorner (122,61) 1  m=0.0146
+  -2.168e-19  cutcorner (126,63) 1  m=0.0146
+  exact E-L = 0 (0.000e+00)  E=7.459e-04 L=7.459e-04  cutcorner (19,82) 1
+  exact E-L = 0 (0.000e+00)  E=7.060e-04 L=7.060e-04  cutcorner (23,84) 1
+  exact E-L = 0 (0.000e+00)  E=6.394e-04 L=6.394e-04  cutcorner (29,86) 1
+  exact E-L = 0 (0.000e+00)  E=1.039e-03 L=1.039e-03  cutcorner (49,96) 1
+  exact E-L = 0 (0.000e+00)  E=1.039e-03 L=1.039e-03  cutcorner (96,49) 1
+  exact E-L = 0 (0.000e+00)  E=6.394e-04 L=6.394e-04  cutcorner (116,59) 1
+  exact E-L = 0 (0.000e+00)  E=7.060e-04 L=7.060e-04  cutcorner (122,61) 1
+  exact E-L = 0 (0.000e+00)  E=7.459e-04 L=7.459e-04  cutcorner (126,63) 1
+  exact E-L = 0 (0.000e+00)  E=3.996e-04 L=3.996e-04  far-end cell 34 frac 1
+  exact E-L = 0 (0.000e+00)  E=3.996e-04 L=3.996e-04  sublevel cell 34 frac 1
+  exact E-L = 0 (0.000e+00)  E=6.660e-04 L=6.660e-04  far-end cell 55 frac 1
+  exact E-L = 0 (0.000e+00)  E=6.660e-04 L=6.660e-04  sublevel cell 55 frac 1
+  exact E-L = 0 (0.000e+00)  E=6.394e-04 L=6.394e-04  corr t=1
+  exact E-L = 51/9609728... (5.307e-06)  E=4.935e-05 L=4.404e-05  corr t=0.1
+  exact E-L = 1/75076... (1.332e-05)  E=1.299e-04 L=1.165e-04  corr t=0.25
+  exact E-L = 1/37538... (2.664e-05)  E=2.797e-04 L=2.531e-04  corr t=0.5
+MIN exact E - L over confirmed candidates: 0 0.0

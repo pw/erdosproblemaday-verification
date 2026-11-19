@@ -1,0 +1,4 @@
+Q(phi*) = -5/137   int h = 5/137   h >= 0, linear on every 1/1096 interval, continuous
+zeros of h (units of 1/1096): [56, 68, 124, 198, 316, 548, 780, 898, 972, 1028, 1040]   edges: [56, 68, 124, 198, 316, 548, 780, 898, 972, 1028, 1040]
+one-sided slopes at the zeros: [Fraction(-3, 2), Fraction(-1, 1), Fraction(1, 1), Fraction(3, 2)]
+rc=0

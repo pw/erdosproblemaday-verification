@@ -1,0 +1,5 @@
+kinks: 45  intervals where G == 0 identically: []
+isolated zeros of G strictly inside blocks (548ths): []
+smallest nonzero |G| at kinks: 3/274
+breakpoint-space 2nd order: 172 directions, #with Q decrease = 0, min (dQ/eps^2/|v|^2) = 2.35593
+Q* = -5/137

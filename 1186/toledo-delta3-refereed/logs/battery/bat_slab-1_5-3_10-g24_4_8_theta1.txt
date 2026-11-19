@@ -1,0 +1,2 @@
+REFUSED ../repo/certs/delta3/slab-1_5-3_10-g24_4_8.json mutate=theta1: S + eps I not positive definite (leading minor 0 = ...)  (33.9s)
+rc=1

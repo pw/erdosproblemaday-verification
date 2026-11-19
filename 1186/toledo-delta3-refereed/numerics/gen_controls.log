@@ -1,0 +1,3 @@
+TILT eps=0.2: Q'(phi*) = -0.036496350365; local descent from phi* reaches -0.036515435602  (improvement 1.909e-05)
+PLANT: psi has 17 blocks, Q(psi)=-0.029455152 (gap 7.041e-03), rho=0.0201, c=0.007544
+       Q'(phi*)=-0.036499390  Q'(psi)=-0.036999390  (psi planted better by 5.000e-04)

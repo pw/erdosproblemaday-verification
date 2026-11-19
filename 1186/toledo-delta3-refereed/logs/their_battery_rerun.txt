@@ -1,0 +1,80 @@
+PASS  Q(phi*) = -5/137 by exact block-pair areas
+PASS  ∫h = 5/137 = −Q(phi*) (h from g*, independent of the areas)
+PASS  h vanishes exactly at the 11 breakpoints
+PASS  one-sided slopes at the zeros are −1|−3/2 on the left and 1|3/2 on the right, symmetric
+PASS  every kink candidate of g* is a multiple of 1/1096
+PASS  h at every half-node (from g*) is the average of its two nodes: linear on all 1096 pieces   [0 off]
+PASS  the colouring is balanced (274 + 274), so |T| = n²/8 + O(n) for the upper bound
+PASS  area(R) = 1/2
+PASS  trapezoid areas = clipped-polygon areas on 400 random off-grid rectangles   [0 disagree]
+PASS  fast step-function Q = pair-by-pair Q on 40 random step functions   [0 disagree]
+PASS  psd: a 40×40 BBᵀ + I/7 is proved PSD
+PASS  psd: float-blind indefinite 2×2 (det = −2^−200) is NOT proved PSD   [NOT_PSD: leading minor 2 is negative after positive ones (Bareiss)]
+PASS  psd: indefinite 3×3 with a zero leading minor is NOT proved PSD   [UNDECIDED: leading minor 2 is zero; positive semidefiniteness not decided]
+PASS  psd: an exactly zero row is dropped and the rest proved
+PASS  psd: indefinite 3×3 whose elimination zeroes the rest is NOT proved PSD   [UNDECIDED: leading minor 2 is zero; positive semidefiniteness not decided]
+PASS  psd: a control exists where float Cholesky succeeds on an exactly indefinite BBᵀ − 2^−200·I   [seed 2]
+PASS  psd: … and that matrix is NOT proved PSD   [NOT_PSD: leading minor 8 is negative after positive ones (Bareiss)]
+PASS  psd: an asymmetric matrix is refused
+PASS  grid n=130: bathtub a·y + b·y² ≤ ∫h over the exact minimiser {h < v}, every cell, 5 levels   [0/650 violated]
+PASS  grid n=130: bathtub slope a holds at y = 2^−20 (a ≤ w·min h)   [0 violated]
+PASS  grid n=130: every cut-pair bound ≤ the exact contribution of σ on sub-rectangles   [0/5064 violated]
+PASS  grid n=130: E(σ) ≥ L(y) and E ≥ 0 on 21 adversarial step functions   [0 violated]
+PASS  grid n=130: centring identity and E(σ) = E(1−σ) exact on 7 of them
+PASS  grid n=146: bathtub a·y + b·y² ≤ ∫h over the exact minimiser {h < v}, every cell, 5 levels   [0/730 violated]
+PASS  grid n=146: bathtub slope a holds at y = 2^−20 (a ≤ w·min h)   [0 violated]
+PASS  grid n=146: every cut-pair bound ≤ the exact contribution of σ on sub-rectangles   [0/4680 violated]
+PASS  grid n=146: E(σ) ≥ L(y) and E ≥ 0 on 21 adversarial step functions   [0 violated]
+PASS  grid n=146: centring identity and E(σ) = E(1−σ) exact on 7 of them
+PASS  genuine certs/delta3/inner-r20-g24_4_8.json VERIFIED, E ≥ 0.0000000e+0
+PASS  genuine certs/delta3/slab-1_5-3_10-g24_4_8.json VERIFIED, E ≥ 2.7848967e-4
+PASS  genuine certs/delta3/slab-2_5-9_20-g8_4_0.json VERIFIED, E ≥ 2.7470548e-4
+PASS  genuine certs/delta3/slab-3_10-4_10-g24_4_8.json VERIFIED, E ≥ 3.0355125e-4
+PASS  genuine certs/delta3/slab-9_20-1_2-g8_4_0.json VERIFIED, E ≥ 4.6383405e-4
+PASS  genuine slab bounds equal the files' claims exactly
+PASS  genuine cover of [0, 1/2] is complete
+PASS  genuine THEOREM A VERIFIED
+PASS  L=256: the ported certificate hashes to its provenance pin
+PASS  L=256: the certificate's claim_delta_lower is the exact fraction its log prints   [13813582746575710294310765327/259413873249272903761920000000]
+PASS  L=256: the log's 0.05324921 is above the exact fraction (a lower bound rounded to nearest, not down)   [0.05324920… exact]
+PASS  RED slab bound raised by 1e-3 (B, claim recomputed) → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 82 (rescaled value -7.4866e-1)]
+PASS  RED slab bound raised by 1e-6 (B, claim recomputed) → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 138 (rescaled value -3.0324e-5)]
+PASS  RED triangle forms dropped → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 21 (rescaled value -6.7683e-1)]
+PASS  RED triangle forms dropped (most-triangle slab) → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 10 (rescaled value -3.1552e-2)]
+PASS  RED all cut theta set to 1 → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 8 (rescaled value -7.8349e-1)]
+PASS  RED all cut theta set to 0 → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 6 (rescaled value -3.5873e+3)]
+PASS  RED slab widened: hi 9/20 → 1/2 → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 103 (rescaled value -5.4377e-3)]
+PASS  RED slab widened: lo 2/5 → 3/10 → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 83 (rescaled value -1.7449e-1)]
+PASS  RED eps inflated with B (S + εI still PSD, honest bound negative) → REFUSED by ^bound:   [bound: B − eps(1+n) = -2703496525576126733640143278921/18552005913119637427593896388500 is not positive]
+PASS  RED eps set to 0 (claim recomputed) → REFUSED by ^psd:   [psd: S + eps·I is not proved PSD — exact witness vᵀAv < 0 at pivot 137 (rescaled value -5.4547e-4)]
+PASS  RED one tri sign flipped to s1·s2·s3 = −1 → REFUSED by ^form: tri with s1·s2·s3 = −1   [form: tri with s1·s2·s3 = −1 is not nonnegative]
+PASS  RED grid with the edge 68/1096 removed → REFUSED by ^grid:   [grid: the edge 68/1096 of phi* is not a grid point]
+PASS  RED grid with the edge 548/1096 removed → REFUSED by ^grid:   [grid: the edge 548/1096 of phi* is not a grid point]
+PASS  RED PLANTED claim raised by 2^−100 over B − ε(1+n) → REFUSED by ^claim:   [claim: the file claims 64603755942405480403983532603034889137356233972826886573/235174614312037694629864530078]
+PASS  RED PLANTED negative multiplier (extra yy form, μ = −2^−100) → REFUSED by ^multiplier:   [multiplier: mu[1998] (yy) is negative (-1/1267650600228229401496703205376)]
+PASS  RED PLANTED extra tri with s = (−1,−1,−1), μ = 2^−100 → REFUSED by ^form: tri with s1·s2·s3 = −1   [form: tri with s1·s2·s3 = −1 is not nonnegative]
+PASS  RED PLANTED extra tri with a repeated index, μ = 2^−100 → REFUSED by ^form: tri with a repeated index   [form: tri with a repeated index]
+PASS  RED PLANTED largest theta := 1 + 2^−100 → REFUSED by ^theta:   [theta: theta[136] = 1267650600228229401496703205377/1267650600228229401496703205376 is outside [0,1]]
+PASS  RED PLANTED smallest theta := −2^−100 → REFUSED by ^theta:   [theta: theta[89] = -1/1267650600228229401496703205376 is outside [0,1]]
+PASS  RED PLANTED unknown form kind "zz", μ = 2^−100 → REFUSED by ^form: unknown kind   [form: unknown kind "zz"]
+PASS  RED PLANTED form index out of range, μ = 2^−100 → REFUSED by ^form: yy index out of range   [form: yy index out of range]
+PASS  RED PLANTED eps = −2^−100 → REFUSED by ^multiplier: eps   [multiplier: eps is negative]
+PASS  RED PLANTED theta list one short → REFUSED by ^theta:   [theta: expected one value per cut pair (294), got 293]
+PASS  RED PLANTED malformed rational "2.7e-4" for B → REFUSED by ^B: not a rational   [B: not a rational string: "2.7e-4"]
+PASS  RED PLANTED grid shifted off 1096 → REFUSED by ^grid:   [grid: must run from 0 to 1096]
+PASS  RED inner radius doubled (1/5 → 2/5) → REFUSED by ^identity:   [identity: c[0] is not what the linear budget leaves (residual -1318903299/5497558138880)]
+PASS  RED inner radius doubled, c rebalanced to keep the identity → REFUSED by ^multiplier: c\[   [multiplier: c[0] is negative (-12367562227241/51591834354319360)]
+PASS  RED inner linear budget overspent: c[0] made negative → REFUSED by ^multiplier: c\[0\]   [multiplier: c[0] is negative (-103183688080203169/103183668708638720)]
+PASS  RED inner linear budget overspent: one λ doubled → REFUSED by ^identity:   [identity: c[0] is not what the linear budget leaves (residual -3974269/549755813888)]
+PASS  RED inner budget overspent, rebalanced: λ raised by c_i + 2^−100 → REFUSED by ^multiplier: c\[   [multiplier: c[0] is negative (-1/1267650600228229401496703205376)]
+PASS  RED inner RLT multipliers dropped (lam = {}) → REFUSED by ^identity:   [identity: c[0] is not what the linear budget leaves (residual 36520431/274877906944)]
+PASS  RED inner RLT multipliers dropped, c rebalanced → REFUSED by ^psd:   [psd: P is not proved PSD — exact witness vᵀAv < 0 at pivot 7 (rescaled value -6.6185e-2)]
+PASS  RED inner nu dropped, c rebalanced → REFUSED by ^psd:   [psd: P is not proved PSD — exact witness vᵀAv < 0 at pivot 21 (rescaled value -5.5921e-1)]
+PASS  RED inner N[0,0] raised by 1 (P loses it) → REFUSED by ^psd:   [psd: P is not proved PSD — negative diagonal entry at 0]
+PASS  RED PLANTED inner N lower-triangular key → REFUSED by ^multiplier: N key   [multiplier: N key 5,2 is not upper-triangular]
+PASS  RED PLANTED inner kap = −2^−100 → REFUSED by ^multiplier: kap   [multiplier: kap is negative (-1/1267650600228229401496703205376)]
+PASS  RED PLANTED inner nu[3] = −2^−100 → REFUSED by ^multiplier: nu\[3\]   [multiplier: nu[3] is negative (-1/1267650600228229401496703205376)]
+PASS  RED slab [3/10, 2/5] missing from the cover → THEOREM REFUSED   [gap ["3/10","2/5"]]
+PASS  RED inner certificate missing → THEOREM REFUSED   [gap ["0","1/5"]]
+PASS  RED last slab relabelled [2/5, 9/20] (cover stops short of 1/2) → THEOREM REFUSED   [gap ["9/20","1/2"]]
+BATTERY GREEN   79 pass, 0 fail   61.6 s

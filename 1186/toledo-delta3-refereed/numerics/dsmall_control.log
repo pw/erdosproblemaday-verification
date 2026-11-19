@@ -1,0 +1,9 @@
+n=8: exhaustive min V=0  SA best(10 runs)=0  tabu best(10 runs)=0
+n=9: exhaustive min V=1  SA best(10 runs)=1  tabu best(10 runs)=1
+n=10: exhaustive min V=1  SA best(10 runs)=1  tabu best(10 runs)=1
+n=11: exhaustive min V=2  SA best(10 runs)=2  tabu best(10 runs)=2
+n=12: exhaustive min V=2  SA best(10 runs)=2  tabu best(10 runs)=2
+n=13: exhaustive min V=3  SA best(10 runs)=3  tabu best(10 runs)=3
+n=14: exhaustive min V=4  SA best(10 runs)=4  tabu best(10 runs)=4
+n=15: exhaustive min V=5  SA best(10 runs)=5  tabu best(10 runs)=5
+n=16: exhaustive min V=6  SA best(10 runs)=6  tabu best(10 runs)=6

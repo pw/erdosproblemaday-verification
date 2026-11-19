@@ -1,0 +1,2 @@
+ACCEPTED ../repo/certs/delta3/slab-1_5-3_10-g24_4_8.json mutate=aplus: {'n': 130, 'lo': '1/5', 'hi': '3/10', 'claim': '6296384718336605890182449/22609041927129531731084058720', 'cut': 318, 'forms': 13324, 'den_bits': 163}  (976.0s)
+rc=0

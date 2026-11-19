@@ -1,0 +1,7 @@
+N=2192 tag=true Q(phi*)=-0.036496350364964 median|flip delta| at phi* = 2164.0, min flip delta = 48.0, ||S||=9638.3
+477 jobs
+[1/477 6s] new best -0.036495101630 gap 1.249e-06 by cd/anti_blocks ham=7 nblocks=12 nfrac=0
+[9/477 12s] new best -0.036496350365 gap 0.000e+00 by cd/phistar_pert ham=0 nblocks=12 nfrac=0
+[200/477 286s]
+[400/477 453s]
+done 505.4098024368286

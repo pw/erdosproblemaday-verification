@@ -1,0 +1,30 @@
+certificate grid from inner-r20-g24_4_8.json n = 130  fine grid 1/2192
+fine area matrix ok; |R| = 0.5
+constructions: 1560  min E-L (float) = -4.336808689942018e-19
+descents: 7  time 637 s
+lowest float values:
+  -4.337e-19  cutcorner (38,78) 1  m=0.0219
+  -4.337e-19  cutcorner (46,23) 1  m=0.0292
+  -4.337e-19  cutcorner (48,23) 1  m=0.0292
+  -4.337e-19  cutcorner (81,106) 1  m=0.0292
+  -4.337e-19  cutcorner (83,106) 1  m=0.0292
+  -4.337e-19  cutcorner (91,51) 1  m=0.0219
+  -4.337e-19  descent kind 2  m=0.0506
+  -2.168e-19  cutcorner (20,72) 1  m=0.0146
+  exact E-L = 0 (0.000e+00)  E=1.425e-03 L=1.425e-03  cutcorner (38,78) 1
+  exact E-L = 0 (0.000e+00)  E=1.652e-03 L=1.652e-03  cutcorner (46,23) 1
+  exact E-L = 0 (0.000e+00)  E=1.985e-03 L=1.985e-03  cutcorner (48,23) 1
+  exact E-L = 0 (0.000e+00)  E=1.985e-03 L=1.985e-03  cutcorner (81,106) 1
+  exact E-L = 0 (0.000e+00)  E=1.652e-03 L=1.652e-03  cutcorner (83,106) 1
+  exact E-L = 0 (0.000e+00)  E=1.425e-03 L=1.425e-03  cutcorner (91,51) 1
+  exact E-L = 0 (0.000e+00)  E=2.144e-03 L=2.144e-03  descent kind 2
+  exact E-L = 0 (0.000e+00)  E=7.459e-04 L=7.459e-04  cutcorner (20,72) 1
+  exact E-L = 0 (0.000e+00)  E=1.086e-03 L=1.086e-03  cutcorner (28,75) 1
+  exact E-L = 0 (0.000e+00)  E=1.785e-03 L=1.785e-03  cutcorner (32,75) 1
+  exact E-L = 0 (0.000e+00)  E=1.851e-03 L=1.851e-03  cutcorner (35,77) 1
+  exact E-L = 0 (0.000e+00)  E=1.483e-03 L=1.483e-03  cutcorner (48,24) 1
+  exact E-L = 0 (0.000e+00)  E=6.394e-04 L=6.394e-04  corr t=1
+  exact E-L = 54825/4920180736... (1.114e-05)  E=4.935e-05 L=3.821e-05  corr t=0.1
+  exact E-L = 9/300304... (2.997e-05)  E=1.299e-04 L=9.990e-05  corr t=0.25
+  exact E-L = 5/75076... (6.660e-05)  E=2.797e-04 L=2.131e-04  corr t=0.5
+MIN exact E - L over confirmed candidates: 0 0.0

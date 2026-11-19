@@ -1,0 +1,10 @@
+N=1096 tag=plant2 Q(phi*)=-0.036499228892357 median|flip delta| at phi* = 1106.7, min flip delta = 42.7, ||S||=4819.1
+906 jobs
+[1/906 0s] new best -0.036499707525 gap -3.357e-06 by cd/rand_unif ham=18 nblocks=12 nfrac=0
+[3/906 0s] new best -0.036502095270 gap -5.745e-06 by cd/phistar_pert ham=11 nblocks=12 nfrac=2
+[5/906 1s] new best -0.036599228892 gap -1.029e-04 by cd/rand_pm1 ham=537 nblocks=17 nfrac=0
+[200/906 19s]
+[400/906 48s]
+[600/906 59s]
+[800/906 72s]
+done 79.55267071723938

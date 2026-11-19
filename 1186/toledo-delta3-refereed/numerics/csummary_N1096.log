@@ -1,0 +1,11 @@
+== csearch_N1096_true.jsonl: 3475 runs
+  cd    runs= 3284 bestQ=-0.0364963503650 gap=+0.000e+00 (ham 0, 12 blocks) exact±phi*=507 (15.4%) within-20-cells=3208 (97.7%) below-5/137=0
+        per start family: anti_blocks: 161/688 exact, best gap +0.00e+00; blocks: 22/651 exact, best gap +0.00e+00; phistar_pert: 267/563 exact, best gap +0.00e+00; rand_pm1: 20/461 exact, best gap +0.00e+00; rand_unif: 20/454 exact, best gap +0.00e+00; smooth: 17/467 exact, best gap +0.00e+00
+  pg    runs=   27 bestQ=-0.0364963503650 gap=+0.000e+00 (ham 0, 12 blocks) exact±phi*=2 (7.4%) within-20-cells=25 (92.6%) below-5/137=0
+        per start family: rand_pm1: 0/6 exact, best gap +4.99e-06; rand_unif: 1/10 exact, best gap +0.00e+00; smooth: 1/11 exact, best gap +0.00e+00
+  sa    runs=   93 bestQ=-0.0364963503650 gap=+0.000e+00 (ham 0, 12 blocks) exact±phi*=93 (100.0%) within-20-cells=93 (100.0%) below-5/137=0
+        per start family: anti_blocks: 16/16 exact, best gap +0.00e+00; blocks: 21/21 exact, best gap +0.00e+00; phistar_pert: 21/21 exact, best gap +0.00e+00; rand_pm1: 22/22 exact, best gap +0.00e+00; smooth: 13/13 exact, best gap +0.00e+00
+  tabu  runs=   71 bestQ=-0.0364963503650 gap=+0.000e+00 (ham 0, 12 blocks) exact±phi*=71 (100.0%) within-20-cells=71 (100.0%) below-5/137=0
+        per start family: anti_blocks: 12/12 exact, best gap +0.00e+00; blocks: 25/25 exact, best gap +0.00e+00; phistar_pert: 14/14 exact, best gap +0.00e+00; rand_pm1: 20/20 exact, best gap +0.00e+00
+  best run NOT near ±phi* (ham>20): Q=-0.0294580051 gap=+7.038e-03 ham=546 blocks=17 cd/rand_unif; such runs: 78
+     its blocks (sign, length in 1/548 units): [[-1, 7.0], [1, 3.0], [-1, 7.0], [1, 12.0], [-1, 15.5], [1, 34.0], [-1, 37.5], [1, 92.0], [-1, 133.0], [1, 91.5], [-1, 37.5], [1, 34.0], [-1, 15.5], [1, 11.5], [-1, 7.0], [1, 3.0], [-1, 7.0]]

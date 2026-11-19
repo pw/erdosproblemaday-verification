@@ -1,0 +1,8 @@
+== dsearch_n2192.jsonl: n=2192, 22 runs; 117n^2/2192 - n/2 = 255368.00; 117/2192 = 0.053376
+  sa  /blocks  runs=  6 min V=255368 (V/n^2=0.053148) median V=255368 #hitting-min=6
+  sa  /rand    runs=  6 min V=255368 (V/n^2=0.053148) median V=255368 #hitting-min=5
+  sa  /twelve  runs=  2 min V=255368 (V/n^2=0.053148) median V=255368 #hitting-min=2
+  tabu/blocks  runs=  4 min V=255368 (V/n^2=0.053148) median V=255368 #hitting-min=4
+  tabu/rand    runs=  4 min V=255368 (V/n^2=0.053148) median V=255368 #hitting-min=4
+  overall min V=255368 V/n^2=0.053148; exact runs=12; coarse blocks (548ths): [(1, 28.0), (-1, 6.0), (1, 28.0), (-1, 37.0), (1, 59.0), (-1, 116.0), (1, 116.0), (-1, 59.0), (1, 37.0), (-1, 28.0), (1, 6.0), (-1, 28.0)]
+  exact runs (sign,len): [[1, 112], [-1, 24], [1, 112], [-1, 148], [1, 236], [-1, 464], [1, 464], [-1, 236], [1, 148], [-1, 112], [1, 24], [-1, 112]]

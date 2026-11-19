@@ -1,0 +1,5 @@
+n=1096: T=299756, twelve-block rounded colouring V=63568 (V/n^2=0.052920); 117/2192=0.053376; 117n^2/2192-n/2=63568.0; med|flip|=280.0
+[1/42 4s] best V=63569 V/n^2=0.052921 by sa/blocks runs=12
+[2/42 5s] best V=63568 V/n^2=0.052920 by sa/rand runs=12
+done 84.06360530853271
+ALLDONE

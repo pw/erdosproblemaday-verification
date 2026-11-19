@@ -1,0 +1,2 @@
+ACCEPTED ../repo/certs/delta3/inner-r20-g24_4_8.json mutate=mirror: {'n': 130, 'rin': '1/5', 'lam': 14040, 'N': 8507, 'den_bits': 59}  (234.1s)
+rc=0

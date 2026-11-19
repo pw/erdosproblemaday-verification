@@ -1,0 +1,4 @@
+N=1096 tag=true Q(phi*)=-0.036496350364964 median|flip delta| at phi* = 1104.0, min flip delta = 48.0, ||S||=4819.2
+170 jobs
+[1/170 9s] new best -0.036496350365 gap 0.000e+00 by tabu/rand_pm1 ham=0 nblocks=12 nfrac=0
+done 402.3995535373688

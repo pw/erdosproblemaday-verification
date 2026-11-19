@@ -1,0 +1,18 @@
+== control tilt: Q'(phi*)=-0.036496350365, planted target=-0.036515435602 (target better by 1.909e-05); 906 runs
+  cd    runs= 858 best=-0.036515435602 reached-target=451 (52.6%) beat-phi*=828 (96.5%) ended-exactly-at-±phi*=0
+        anti_blocks: 81/174; blocks: 85/174; phistar_pert: 114/150; rand_pm1: 57/120; rand_unif: 49/120; smooth: 65/120
+  pg    runs=   7 best=-0.036515435602 reached-target=4 (57.1%) beat-phi*=7 (100.0%) ended-exactly-at-±phi*=0
+        rand_pm1: 1/1; rand_unif: 1/3; smooth: 2/3
+  sa    runs=  23 best=-0.036515435602 reached-target=23 (100.0%) beat-phi*=23 (100.0%) ended-exactly-at-±phi*=0
+        anti_blocks: 4/4; blocks: 6/6; phistar_pert: 4/4; rand_pm1: 6/6; smooth: 3/3
+  tabu  runs=  18 best=-0.036515435602 reached-target=18 (100.0%) beat-phi*=18 (100.0%) ended-exactly-at-±phi*=0
+        anti_blocks: 3/3; blocks: 6/6; phistar_pert: 3/3; rand_pm1: 6/6
+== control plant: Q'(phi*)=-0.036499390127, planted target=-0.036999390127 (target better by 5.000e-04); 906 runs
+  cd    runs= 858 best=-0.036999390127 reached-target=197 (23.0%) beat-phi*=326 (38.0%) ended-exactly-at-±phi*=316
+        anti_blocks: 9/174; blocks: 70/174; phistar_pert: 0/150; rand_pm1: 40/120; rand_unif: 45/120; smooth: 33/120
+  pg    runs=   7 best=-0.036999390127 reached-target=1 (14.3%) beat-phi*=1 (14.3%) ended-exactly-at-±phi*=4
+        rand_pm1: 0/1; rand_unif: 1/3; smooth: 0/3
+  sa    runs=  23 best=-0.036999390127 reached-target=11 (47.8%) beat-phi*=23 (100.0%) ended-exactly-at-±phi*=0
+        anti_blocks: 1/4; blocks: 3/6; phistar_pert: 1/4; rand_pm1: 4/6; smooth: 2/3
+  tabu  runs=  18 best=-0.036999390127 reached-target=6 (33.3%) beat-phi*=18 (100.0%) ended-exactly-at-±phi*=0
+        anti_blocks: 0/3; blocks: 3/6; phistar_pert: 0/3; rand_pm1: 3/6
