@@ -7,3 +7,5 @@
 2026-11-20T09:12:30Z leanchecker_missing_module_control_start
 2026-11-20T09:12:37Z leanchecker_missing_module_control exit=1 (want nonzero)
 2026-11-20T09:12:37Z leanchecker_fresh_start Solution
+2026-11-20T09:28:08Z leanchecker_fresh exit=0
+2026-11-20T09:28:08Z checker_done

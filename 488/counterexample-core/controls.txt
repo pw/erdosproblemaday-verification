@@ -1,0 +1,8 @@
+y=7 L=11 T=1000 |A|=209 core=54 core_fulldivisorcheck=54 Psi(T)=141
+y=7 primes=4 T=1000 core=54 Psi(T)=141
+y=13 L=17 T=3000 |A|=1011 core=202 core_fulldivisorcheck=202 Psi(T)=421
+y=13 primes=6 T=3000 core=202 Psi(T)=421
+y=5 L=7 T=20000 |A|=124 core=45 core_fulldivisorcheck=45 Psi(T)=212
+y=5 primes=3 T=20000 core=45 Psi(T)=212
+--- mutant (lo = T/largest prime instead of T/smallest prime), must disagree with brute force (202):
+y=13 primes=6 T=3000 core=445 Psi(T)=421

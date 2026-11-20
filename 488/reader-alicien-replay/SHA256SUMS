@@ -1,4 +1,4 @@
-cfb5319e32da49b217235f504efc4682ccbee038294c1d30c5de5e30b28975b9  ./README.md
+e7a5e3c701319c5e6125cdaa2f2dba7b97415c36501717dcfd47afcd2ffe5b71  ./README.md
 856a691cbe49b172c2188a43df092e600f5bb11df3aa70da59251982c9a0aac3  ./lean/build.sh
 54a38183e107b3493dd0743ac17ba7b9892f6992425acbed0aaef70266461568  ./lean/build_tail.log
 6f216d75d63001d10c3ebabb75c4db0ec6d401ac5d3e37542e3890ddef8a5fc7  ./lean/check_axioms.log
@@ -12,7 +12,8 @@ ea9abc48975374379e2832d51ab8323dc5c339abfb96a0c63e46022de69a4cd1  ./lean/fc_brid
 3ce593c0111c37b023a9495921564fc93776deb2f2230d3f5a948510e5199e61  ./lean/fc_bridge_control_sorry.lean
 44f3f80b4b6a0f66bdd6892859f8cba31b858d123d3bfa9a493ebc70f5542641  ./lean/fc_bridge_control_sorry.log
 bc74670dd314c9f64c9e2c402f9239bd6582965e4888bcf4eca6f66f7969d100  ./lean/leanchecker_control_missing.log
-3d136524160aa575026b17d99a0ad8bc546a0c84289800924ce427ef22564561  ./lean/steps.tsv
+918e711f27e372c3ce53c14eade34cdee2d3e5e065ef7684af8e69169a4c6dcc  ./lean/leanchecker_fresh.log
+5ea81941e5885a5fbb2398643a7cdcf914e227064f8fd0d15d777accfeb6b593  ./lean/steps.tsv
 04ff235df493429736fa27791eb8dde51ca14f791995b00dfa02142453a3188f  ./nanoda/cfg.json
 d5b7f054a5a839eb1eb789ff93bd05ab57441248e53571b06bb1bf4c1f6c52f6  ./nanoda/cfg_ctrl_axiom.json
 17628ea9a75f50c743013d6a7c9e6fc96514eb0f1fc28bf8a38d4af8ad53c51f  ./nanoda/cfg_ctrl_tamper.json

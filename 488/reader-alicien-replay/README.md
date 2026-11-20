@@ -23,8 +23,9 @@ constants; Theorem 2 was already proved (Chojecki, 20 Mar 2026, up to three gene
   (`nanoda/nanoda.log`). Controls: Quot.sound not permitted → "unpermitted axiom" error (`nanoda_ctrl_axiom.log`);
   `nanoda/tamper.py` gives `erdos_488_card_le_two` the type of `not_erdos_488` → type checker panics on a failed
   definitional-equality assertion, exit 101 (`nanoda_ctrl_tamper.log`).
-- `lean/checker.sh`: `leanchecker --fresh Solution` (whole closure, Mathlib included). Missing-module control exits 1.
-  Its result is recorded in `lean/steps.tsv` when it finishes.
+- `lean/checker.sh`: `leanchecker --fresh Solution` (whole closure, Mathlib included): **exit 0**, 930 s wall
+  (09:12:37–09:28:08Z, `lean/leanchecker_fresh.log`, `lean/steps.tsv`). Missing-module control exits 1
+  (`lean/leanchecker_control_missing.log`).
 - `numbers_claude.log`: our exact recomputation of 54 primes, 5^3500·28009^53 < 6^3500, 216Q < 1280φ(Q).
 - `smallA/smallA3.c`: exact decision procedure over every primitive A (sizes 1–5) — no violation for size 3 with
   max A ≤ 200 (1,169,324 sets), size 4 ≤ 70 (576,700), size 5 ≤ 40 (219,826); with 2 replaced by 19/10 it reports
