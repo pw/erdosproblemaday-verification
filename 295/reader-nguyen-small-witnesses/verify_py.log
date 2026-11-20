@@ -1,0 +1,5 @@
+N=18 k=34 distinct=True increasing=True min>=N=True max=107,805,600 lcm=144,403,552,893,600 fraction==1:True lcm-sum==lcm:True
+   controls: drop-one sums equal to 1: 0 (want 0); last+1 sums to 1: False (want False)
+N=19 k=36 distinct=True increasing=True min>=N=True max=239,154,300 lcm=1,010,824,870,255,200 fraction==1:True lcm-sum==lcm:True
+   controls: drop-one sums equal to 1: 0 (want 0); last+1 sums to 1: False (want False)
+ALL OK

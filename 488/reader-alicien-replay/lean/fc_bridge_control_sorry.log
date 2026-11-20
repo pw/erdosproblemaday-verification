@@ -1,0 +1,3 @@
+../../ours/fc_bridge_control_sorry.lean:13:8: warning: declaration uses `sorry`
+'FCnow.planted' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+exit=0

@@ -1,0 +1,25 @@
+Erdos488.not_erdos_488 : ¬∀ (A : Finset ℕ),
+    A.Nonempty →
+      0 ∉ A →
+        1 ∉ A →
+          ∀ (n m : ℕ),
+            m > n →
+              A.max ≤ ↑n →
+                ↑{x ∈ Finset.Icc 1 m | x ∈ {n | n ≥ 1 ∧ ∃ a ∈ A, a ∣ n}}.card / ↑m <
+                  2 * ↑{x ∈ Finset.Icc 1 n | x ∈ {n | n ≥ 1 ∧ ∃ a ∈ A, a ∣ n}}.card / ↑n
+'Erdos488.not_erdos_488' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos488.erdos_488_card_le_two : ∀ (A : Finset ℕ),
+  A.Nonempty →
+    A.card ≤ 2 →
+      0 ∉ A →
+        1 ∉ A →
+          ∀ (n m : ℕ),
+            m > n →
+              A.max ≤ ↑n →
+                ↑{x ∈ Finset.Icc 1 m | x ∈ {n | n ≥ 1 ∧ ∃ a ∈ A, a ∣ n}}.card / ↑m <
+                  2 * ↑{x ∈ Finset.Icc 1 n | x ∈ {n | n ≥ 1 ∧ ∃ a ∈ A, a ∣ n}}.card / ↑n
+'Erdos488.erdos_488_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+real	0m5.718s
+user	0m3.401s
+sys	0m2.217s

@@ -1,0 +1,6 @@
+Erdos1186Day.erdos_1186.variants.prs_conjecture : Erdos1186Day.δ 3 = 117 / 2192
+'Erdos1186Day.erdos_1186.variants.prs_conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+real	0m9.711s
+user	0m7.294s
+sys	0m2.430s

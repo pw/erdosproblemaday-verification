@@ -1,0 +1,7 @@
+Checked 10743 declarations with no typechecker errors, 1 pretty printer errors: [
+    "Unable to print axioms",
+]
+
+real	0m20.895s
+user	0m35.543s
+sys	0m1.758s

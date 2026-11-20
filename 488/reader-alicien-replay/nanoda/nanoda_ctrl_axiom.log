@@ -1,0 +1,7 @@
+Error: export file declares unpermitted axiom "Quot.sound"
+
+run with `-h` or `--help` for help
+
+real	0m0.013s
+user	0m0.009s
+sys	0m0.004s

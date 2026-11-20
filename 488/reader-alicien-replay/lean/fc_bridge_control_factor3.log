@@ -1,0 +1,15 @@
+../../ours/fc_bridge_control_factor3.lean:11:45: error: Type mismatch
+  Erdos488.not_erdos_488
+has type
+  ¬∀ (A : Finset ℕ),
+      A.Nonempty →
+        0 ∉ A →
+          1 ∉ A →
+            ∀ (n m : ℕ),
+              m > n →
+                A.max ≤ ↑n →
+                  ↑{x ∈ Finset.Icc 1 m | x ∈ {n | n ≥ 1 ∧ ∃ a ∈ A, a ∣ n}}.card / ↑m <
+                    2 * ↑{x ∈ Finset.Icc 1 n | x ∈ {n | n ≥ 1 ∧ ∃ a ∈ A, a ∣ n}}.card / ↑n
+but is expected to have type
+  ¬erdos_488_FC
+exit=1

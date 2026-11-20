@@ -1,0 +1,10 @@
+../../ours/statement_match_control.lean:15:2: error: Type mismatch
+  h
+has type
+  Erdos1186Day.δ 3 = 117 / 2192
+but is expected to have type
+  δ 3 = 117 / 2192
+
+real	0m13.326s
+user	0m10.964s
+sys	0m2.370s

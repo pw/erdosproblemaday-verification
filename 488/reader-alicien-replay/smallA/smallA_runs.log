@@ -1,0 +1,7 @@
+lambda=2/1 k=1 max A in [2,300] primitive_sets=299 violations=0 capped(undecided)=0 largest_ratio=1.996666667 at A={300} n=599 m=179700; largest M used=179701 (A={300})
+lambda=2/1 k=2 max A in [2,300] primitive_sets=43383 violations=0 capped(undecided)=0 largest_ratio=1.993316630 at A={299,300} n=597 m=89401; largest M used=89552 (A={299,300})
+lambda=2/1 k=3 max A in [2,200] primitive_sets=1169324 violations=0 capped(undecided)=0 largest_ratio=1.984140486 at A={197,198,199} n=393 m=36445; largest M used=36498 (A={197,198,199})
+lambda=2/1 k=4 max A in [2,70] primitive_sets=576700 violations=0 capped(undecided)=0 largest_ratio=1.933225663 at A={67,68,69,70} n=133 m=4489; largest M used=4672 (A={67,68,69,70})
+lambda=2/1 k=5 max A in [2,40] primitive_sets=219826 violations=0 capped(undecided)=0 largest_ratio=1.831487889 at A={34,35,36,37,38} n=67 m=578; largest M used=1662 (A={35,36,37,38,39})
+--- positive control, lambda = 19/10 (must report violations)
+lambda=19/10 k=2 max A in [2,40] primitive_sets=662 violations=30 capped(undecided)=0 largest_ratio=1.929209184 at A={28,29} n=55 m=784; largest M used=37623 (A={37,39})
