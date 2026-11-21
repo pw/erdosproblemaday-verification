@@ -1,0 +1,6 @@
+cuts 4854 non-genuine 0
+jump d=105 F_before=26: SCIP infeasible OK
+jump d=117 F_before=28: SCIP infeasible OK
+jump d=120 F_before=28: SCIP infeasible OK
+jump d=130 F_before=29: SCIP infeasible OK
+jumps re-checked 4 disagreements 0

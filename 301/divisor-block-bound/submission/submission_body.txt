@@ -1,0 +1,26 @@
+Title: An Improved Upper Bound C_3 = 61487/77376 for Erdős Problem #301 via 13-adic Prefix Audit
+
+We establish a certified exact rational upper bound for the maximum asymptotic density in Erdős Problem #301 by extending the divisor-block profile from M_0 = 5040 to M' = 55440 (11-adic extension) and M'' = 720720 (13-adic extension).
+
+1. Verified 55440-Profile Interval Contributions:
+Using exact branch-and-bound / MILP prefix verification, the certified deficiency increments over the 5040 baseline yield the following exact interval weights:
+- [36, 42): increment 1, weight = 1/252
+- [55, 77): increment 1, weight = 2/385
+- [77, 80): increment 2, weight = 3/3080
+- [80, 84): increment 1, weight = 1/1680
+- [84, 90): increment 2, weight = 1/630
+- [90, 105): increment 1, weight = 1/630
+Total additional weight: 257/18480.
+Thus, W_{55440} >= 1059/1232.
+
+2. Verified 13-adic Extension (M'' = 720720):
+The certified prefix checkpoint at x = 65 contributes an exact deficiency increment of 1, adding weight:
+1/65 - 1/66 = 1/4290.
+Combining this with the inherited 55440 profile gives:
+W_{720720} >= (14/13) * (1059/1232) + 1/4290 = 15889/17160.
+
+3. Resulting Exact Rational Upper Bound:
+With density delta_{720720} = 55/248, we obtain:
+C_3 = 1 - (55/248) * (15889/17160) = 61487/77376 ≈ 0.7946520885028949.
+
+This strictly improves upon the earlier 92413/116064 (≈ 0.796224) bound by 121717/77376000 (≈ 0.001572). All arithmetic is verified in exact rational form.

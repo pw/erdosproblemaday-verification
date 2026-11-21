@@ -1,0 +1,23 @@
+1 1 removed [] iters 1 cuts 0 0.7s
+2 2 removed [] iters 1 cuts 0 0.8s
+3 3 removed [] iters 1 cuts 0 0.8s
+4 4 removed [] iters 1 cuts 0 0.8s
+5 5 removed [] iters 1 cuts 0 0.8s
+6 5 removed [6] iters 2 cuts 2 0.8s
+7 6 removed [6] iters 1 cuts 2 1.1s
+8 7 removed [6] iters 1 cuts 2 1.1s
+9 8 removed [6] iters 1 cuts 2 1.3s
+10 9 removed [6] iters 1 cuts 2 1.6s
+11 10 removed [6] iters 1 cuts 2 2.1s
+12 10 removed [4, 6] iters 3 cuts 6 2.5s
+13 11 removed [4, 6] iters 1 cuts 6 2.5s
+14 12 removed [4, 6] iters 1 cuts 6 2.5s
+15 12 removed [3, 6, 10] iters 4 cuts 12 2.6s
+16 13 removed [3, 6, 10] iters 1 cuts 12 2.6s
+17 14 removed [3, 6, 10] iters 1 cuts 12 2.8s
+18 15 removed [3, 4, 6] iters 4 cuts 18 4.9s
+19 16 removed [3, 4, 6] iters 1 cuts 18 16.3s
+20 16 removed [3, 5, 6, 12] iters 3 cuts 26 60.9s
+21 17 removed [3, 5, 6, 12] iters 1 cuts 26 65.4s
+22 18 removed [3, 5, 6, 12] iters 1 cuts 26 70.2s
+SEQ 1,2,3,4,5,5,6,7,8,9,10,10,11,12,12,13,14,15,16,16,17,18

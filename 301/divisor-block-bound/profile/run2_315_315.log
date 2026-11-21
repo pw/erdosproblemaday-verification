@@ -1,0 +1,15 @@
+M=315 |D|=12 seed constraints=5
+d=      1 grow F=  1 h=  0 iters=   1 cons=      5 W=0.000000 t=0s
+d=      3 grow F=  2 h=  0 iters=   1 cons=      5 W=0.000000 t=0s
+d=      5 grow F=  3 h=  0 iters=   1 cons=      5 W=0.000000 t=0s
+d=      7 grow F=  4 h=  0 iters=   1 cons=      5 W=0.000000 t=0s
+d=      9 grow F=  5 h=  0 iters=   1 cons=      5 W=0.000000 t=0s
+d=     15 grow F=  6 h=  0 iters=   1 cons=      5 W=0.000000 t=0s
+d=     21 grow F=  7 h=  0 iters=   1 cons=      5 W=0.000000 t=0s
+d=     35 jump F=  7 h=  1 iters=   1 cons=      5 W=0.028571 t=0s
+d=     45 jump F=  7 h=  2 iters=   2 cons=      6 W=0.050794 t=0s
+d=     63 grow F=  8 h=  2 iters=   1 cons=      6 W=0.050794 t=0s
+d=    105 jump F=  8 h=  3 iters=   3 cons=      8 W=0.060317 t=0s
+d=    315 grow F=  9 h=  3 iters=   3 cons=     12 W=0.060317 t=0s
+constraints genuine: True bad: []
+W = 19/315 = 0.06031746031746032

@@ -1,0 +1,27 @@
+M=3465 |D|=24 seed constraints=19
+d=      1 grow F=  1 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=      3 grow F=  2 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=      5 grow F=  3 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=      7 grow F=  4 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=      9 grow F=  5 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=     11 grow F=  6 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=     15 grow F=  7 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=     21 grow F=  8 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=     33 grow F=  9 h=  0 iters=   1 cons=     19 W=0.000000 t=0s
+d=     35 jump F=  9 h=  1 iters=   1 cons=     19 W=0.028571 t=0s
+d=     45 jump F=  9 h=  2 iters=   2 cons=     21 W=0.050794 t=0s
+d=     55 grow F= 10 h=  2 iters=   1 cons=     21 W=0.050794 t=0s
+d=     63 grow F= 11 h=  2 iters=   1 cons=     21 W=0.050794 t=0s
+d=     77 jump F= 11 h=  3 iters=   2 cons=     22 W=0.063781 t=0s
+d=     99 grow F= 12 h=  3 iters=   2 cons=     24 W=0.063781 t=0s
+d=    105 jump F= 12 h=  4 iters=   3 cons=     26 W=0.073304 t=0s
+d=    165 jump F= 12 h=  5 iters=   7 cons=     43 W=0.079365 t=1s
+d=    231 jump F= 12 h=  6 iters=   7 cons=     59 W=0.083694 t=1s
+d=    315 grow F= 13 h=  6 iters=   5 cons=     69 W=0.083694 t=1s
+d=    385 jump F= 13 h=  7 iters=   5 cons=     85 W=0.086291 t=1s
+d=    495 jump F= 13 h=  8 iters=   9 cons=    124 W=0.088312 t=1s
+d=    693 jump F= 13 h=  9 iters=  13 cons=    183 W=0.089755 t=2s
+d=   1155 jump F= 13 h= 10 iters=  20 cons=    260 W=0.090620 t=2s
+d=   3465 jump F= 13 h= 11 iters=  31 cons=    403 W=0.090909 t=3s
+constraints genuine: True bad: []
+W = 1/11 = 0.09090909090909091

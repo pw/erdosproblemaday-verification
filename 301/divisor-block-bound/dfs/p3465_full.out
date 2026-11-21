@@ -1,0 +1,26 @@
+M=3465 n=24
+d=1 grow F=1 h=0 nodes=1 wit=1
+d=3 grow F=2 h=0 nodes=2 wit=3,1
+d=5 grow F=3 h=0 nodes=3 wit=5,3,1
+d=7 grow F=4 h=0 nodes=4 wit=7,5,3,1
+d=9 grow F=5 h=0 nodes=5 wit=9,7,5,3,1
+d=11 grow F=6 h=0 nodes=6 wit=11,9,7,5,3,1
+d=15 grow F=7 h=0 nodes=7 wit=15,11,9,7,5,3,1
+d=21 grow F=8 h=0 nodes=8 wit=21,15,11,9,7,5,3,1
+d=33 grow F=9 h=0 nodes=9 wit=33,21,15,11,9,7,5,3,1
+d=35 jump F=9 h=1 nodes=7 W=0.028571429
+d=45 jump F=9 h=2 nodes=41 W=0.050793651
+d=55 grow F=10 h=2 nodes=12 wit=55,45,35,33,21,15,11,9,3,1
+d=63 grow F=11 h=2 nodes=13 wit=63,55,45,35,33,21,11,9,7,5,1
+d=77 jump F=11 h=3 nodes=80 W=0.063780664
+d=99 grow F=12 h=3 nodes=243 wit=99,77,55,45,35,33,15,11,9,7,3,1
+d=105 jump F=12 h=4 nodes=202 W=0.073304473
+d=165 jump F=12 h=5 nodes=597 W=0.079365079
+d=231 jump F=12 h=6 nodes=1462 W=0.083694084
+d=315 grow F=13 h=6 nodes=232 wit=315,231,165,105,99,45,35,33,21,15,11,3,1
+d=385 jump F=13 h=7 nodes=844 W=0.086291486
+d=495 jump F=13 h=8 nodes=2255 W=0.088311688
+d=693 jump F=13 h=9 nodes=6346 W=0.089754690
+d=1155 jump F=13 h=10 nodes=9906 W=0.090620491
+d=3465 jump F=13 h=11 nodes=16530 W=0.090909091
+done cpu=0.0s

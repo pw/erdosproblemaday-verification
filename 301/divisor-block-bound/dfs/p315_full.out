@@ -1,0 +1,14 @@
+M=315 n=12
+d=1 grow F=1 h=0 nodes=1 wit=1
+d=3 grow F=2 h=0 nodes=2 wit=3,1
+d=5 grow F=3 h=0 nodes=3 wit=5,3,1
+d=7 grow F=4 h=0 nodes=4 wit=7,5,3,1
+d=9 grow F=5 h=0 nodes=5 wit=9,7,5,3,1
+d=15 grow F=6 h=0 nodes=6 wit=15,9,7,5,3,1
+d=21 grow F=7 h=0 nodes=7 wit=21,15,9,7,5,3,1
+d=35 jump F=7 h=1 nodes=5 W=0.028571429
+d=45 jump F=7 h=2 nodes=25 W=0.050793651
+d=63 grow F=8 h=2 nodes=10 wit=63,45,35,21,9,7,5,1
+d=105 jump F=8 h=3 nodes=36 W=0.060317460
+d=315 grow F=9 h=3 nodes=13 wit=315,105,63,45,15,7,5,3,1
+done cpu=0.0s

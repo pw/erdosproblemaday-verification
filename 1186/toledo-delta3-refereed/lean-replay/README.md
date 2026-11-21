@@ -8,7 +8,19 @@
   into a fresh namespace and applies Quana's theorem to the fresh δ: accepted (`statement_match.log`). Control:
   `statement_match_control.lean` (k − 1 → k in the progression bound) is rejected with a type mismatch
   (`statement_match_control.log`).
-- NOT YET DONE: a from-scratch kernel re-check of the closure. The v4.27.0 toolchain has no `leanchecker` binary (the 19 Nov
-  step printed exit 1 for that reason, nothing was checked). We built lean4checker from leanprover/lean4checker tag
-  v4.27.0 (`lean4checker_version.txt`; positive control `--fresh Init.Prelude` exit 0) and started
-  `lean4checker --fresh Erdos.Proofs.P1186ExFinal` on 20 Nov 09:03Z (`checker.sh`). Its result will be added here and on the page.
+- From-scratch kernel re-check (21 Nov): DONE, PASSED. The v4.27.0 toolchain has no `leanchecker` binary (the 19 Nov
+  step printed exit 1 for that reason; nothing was checked then). We built lean4checker from leanprover/lean4checker tag
+  v4.27.0 (`lean4checker_version.txt`: 7df74851c95d9bd1bbb8fc9b51aeb291304faaf6) and ran (`checker.sh`)
+  `lean4checker --fresh Erdos.Proofs.P1186ExFinal`, which replays the module's whole environment (every imported
+  declaration, Mathlib's included) into a fresh kernel: started 20 Nov 09:03Z, ended 14:28Z with exit 0 and NO error text (325 min;
+  `lean4checker_fresh.log`, `steps.tsv`; the memory watchdog never fired on this run, `watchdog.log`).
+- Controls for the checker: positive `--fresh Init.Prelude` exit 0 (`lean4checker_control.log`). Negative
+  (`negative-control/`): `NegCtl/Bad.lean` adds `NegCtl.bad : False` with value `True.intro` through `addDecl` under
+  `set_option debug.skipKernelTC true`; it builds and `#print axioms` reports no axioms; lean4checker REJECTS it
+  ("(kernel) declaration type mismatch", exit 1, `ctl_bad_nonfresh.log`) and accepts the honest `NegCtl/Good.lean`
+  (exit 0). Under `--fresh` (`ctl_bad_fresh.log`, 38 min, the whole Lean core replayed first) it PRINTS the same
+  kernel error ("declaration type mismatch") but EXITS 0. So in --fresh mode the exit code cannot go red: the
+  instrument is the log text. `lean4checker_fresh.log` for Quana's module contains no error, exception or mismatch
+  line (6 lines: the module search, then the timing). `ctl_good_fresh.log`: the honest file under --fresh: no error text, exit 0 (54 min).
+- One kernel only: the build and the replay both use Lean's kernel; no second kernel (nanoda) was run here (v4.27.0
+  ships no `leanexport`).

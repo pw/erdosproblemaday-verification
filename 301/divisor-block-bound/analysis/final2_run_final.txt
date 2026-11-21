@@ -1,0 +1,21 @@
+{'M': 315, 'dfs': 'p315_full.out', 'dfs_through': 315, 'cpsat': 'run2_315_315.log', 'cpsat_through': 315, 'overlap_through': 315, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 0, 'scip_disagree': [], 'external': [], 'confirmed_through': 315}
+{'M': 3465, 'dfs': 'p3465_full.out', 'dfs_through': 3465, 'cpsat': 'run2_3465_3465.log', 'cpsat_through': 3465, 'overlap_through': 3465, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 0, 'scip_disagree': [], 'external': [], 'confirmed_through': 3465}
+{'M': 45045, 'dfs': 'p45045_full.out', 'dfs_through': 45045, 'cpsat': 'run2_45045_45045.log', 'cpsat_through': 2145, 'overlap_through': 2145, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 0, 'scip_disagree': [], 'external': [], 'confirmed_through': 2145}
+{'M': 5040, 'dfs': 'p5040_v2full.out', 'dfs_through': 5040, 'cpsat': 'run2_5040_5040.log', 'cpsat_through': 140, 'overlap_through': 140, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 0, 'scip_disagree': [], 'external': [(5040, '15437/19344', '15437/19344', True)], 'confirmed_through': 5040}
+{'M': 55440, 'dfs': 'p55440_0.out', 'dfs_through': 168, 'cpsat': 'run_55440_1000.log', 'cpsat_through': 132, 'overlap_through': 132, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 24, 'scip_disagree': [], 'external': [], 'confirmed_through': 132}
+{'M': 720720, 'dfs': 'p720720_2000.out', 'dfs_through': 70, 'cpsat': 'run_720720_300.log', 'cpsat_through': 130, 'overlap_through': 70, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 29, 'scip_disagree': [], 'external': [], 'confirmed_through': 130}
+{'M': 10080, 'dfs': 'p10080_full.out', 'dfs_through': 1008, 'cpsat': None, 'cpsat_through': 0, 'overlap_through': 0, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 0, 'scip_disagree': [], 'external': [(504, '3481/4368', '3481/4368', True), (1008, '2233/2808', '2233/2808', True)], 'confirmed_through': 1008}
+{'M': 110880, 'dfs': None, 'dfs_through': 0, 'cpsat': 'run2_110880_300.log', 'cpsat_through': 112, 'overlap_through': 0, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 24, 'scip_disagree': [], 'external': [], 'confirmed_through': 112}
+{'M': 1441440, 'dfs': None, 'dfs_through': 0, 'cpsat': 'run2_1441440_200.log', 'cpsat_through': 91, 'overlap_through': 0, 'disagreements': [], 'bad_witnesses': [], 'scip_confirmed': 22, 'scip_disagree': [], 'external': [], 'confirmed_through': 88}
+A_confirmed: M=    5040 exact/confirmed through  5040  W>=0.775198413  C<=15437/19344  = 0.7980252275
+A_confirmed: M=   55440 exact/confirmed through   132  W>=0.869751082  C<=61303/77376  = 0.7922740902
+A_confirmed: M=  720720 exact/confirmed through   130  W>=0.948000611  C<=2566549/3249792  = 0.7897579291
+A_confirmed: M=   10080 exact/confirmed through  1008  W>=0.799107143  C<=3473/4368  = 0.7951007326
+A_confirmed: M=  110880 exact/confirmed through   112  W>=0.893326118  C<=93173/117936  = 0.7900301859
+A_confirmed: M= 1441440 exact/confirmed through    88  W>=0.972547591  C<=743221/943488  = 0.7877376289
+B_all_exact: M=    5040 exact/confirmed through  5040  W>=0.775198413  C<=15437/19344  = 0.7980252275
+B_all_exact: M=   55440 exact/confirmed through   168  W>=0.877254690  C<=183493/232128  = 0.7904819755
+B_all_exact: M=  720720 exact/confirmed through   130  W>=0.954464979  C<=1280945/1624896  = 0.7883242989
+B_all_exact: M=   10080 exact/confirmed through  1008  W>=0.799107143  C<=3473/4368  = 0.7951007326
+B_all_exact: M=  110880 exact/confirmed through   112  W>=0.897339466  C<=372247/471744  = 0.7890868776
+B_all_exact: M= 1441440 exact/confirmed through    91  W>=0.975484238  C<=2599157/3302208  = 0.7870966941

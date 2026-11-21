@@ -1,0 +1,228 @@
+{
+ "info": {
+  "315": {
+   "M": 315,
+   "dfs": "p315_full.out",
+   "dfs_through": 315,
+   "cpsat": "run2_315_315.log",
+   "cpsat_through": 315,
+   "overlap_through": 315,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 0,
+   "scip_disagree": [],
+   "external": [],
+   "confirmed_through": 315
+  },
+  "3465": {
+   "M": 3465,
+   "dfs": "p3465_full.out",
+   "dfs_through": 3465,
+   "cpsat": "run2_3465_3465.log",
+   "cpsat_through": 3465,
+   "overlap_through": 3465,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 0,
+   "scip_disagree": [],
+   "external": [],
+   "confirmed_through": 3465
+  },
+  "45045": {
+   "M": 45045,
+   "dfs": "p45045_full.out",
+   "dfs_through": 45045,
+   "cpsat": "run2_45045_45045.log",
+   "cpsat_through": 2145,
+   "overlap_through": 2145,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 0,
+   "scip_disagree": [],
+   "external": [],
+   "confirmed_through": 2145
+  },
+  "5040": {
+   "M": 5040,
+   "dfs": "p5040_v2full.out",
+   "dfs_through": 5040,
+   "cpsat": "run2_5040_5040.log",
+   "cpsat_through": 140,
+   "overlap_through": 140,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 0,
+   "scip_disagree": [],
+   "external": [
+    [
+     5040,
+     "15437/19344",
+     "15437/19344",
+     true
+    ]
+   ],
+   "confirmed_through": 5040
+  },
+  "55440": {
+   "M": 55440,
+   "dfs": "p55440_0.out",
+   "dfs_through": 168,
+   "cpsat": "run_55440_1000.log",
+   "cpsat_through": 132,
+   "overlap_through": 132,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 24,
+   "scip_disagree": [],
+   "external": [],
+   "confirmed_through": 132
+  },
+  "720720": {
+   "M": 720720,
+   "dfs": "p720720_2000.out",
+   "dfs_through": 70,
+   "cpsat": "run_720720_300.log",
+   "cpsat_through": 130,
+   "overlap_through": 70,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 29,
+   "scip_disagree": [],
+   "external": [],
+   "confirmed_through": 130
+  },
+  "10080": {
+   "M": 10080,
+   "dfs": "p10080_full.out",
+   "dfs_through": 1008,
+   "cpsat": null,
+   "cpsat_through": 0,
+   "overlap_through": 0,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 0,
+   "scip_disagree": [],
+   "external": [
+    [
+     504,
+     "3481/4368",
+     "3481/4368",
+     true
+    ],
+    [
+     1008,
+     "2233/2808",
+     "2233/2808",
+     true
+    ]
+   ],
+   "confirmed_through": 1008
+  },
+  "110880": {
+   "M": 110880,
+   "dfs": null,
+   "dfs_through": 0,
+   "cpsat": "run2_110880_300.log",
+   "cpsat_through": 112,
+   "overlap_through": 0,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 24,
+   "scip_disagree": [],
+   "external": [],
+   "confirmed_through": 112
+  },
+  "1441440": {
+   "M": 1441440,
+   "dfs": null,
+   "dfs_through": 0,
+   "cpsat": "run2_1441440_200.log",
+   "cpsat_through": 91,
+   "overlap_through": 0,
+   "disagreements": [],
+   "bad_witnesses": [],
+   "scip_confirmed": 22,
+   "scip_disagree": [],
+   "external": [],
+   "confirmed_through": 88
+  }
+ },
+ "bounds": {
+  "A_confirmed": {
+   "5040": {
+    "W": "3907/5040",
+    "C": "15437/19344",
+    "Cf": 0.7980252274607114,
+    "through": 5040
+   },
+   "55440": {
+    "W": "16073/18480",
+    "C": "61303/77376",
+    "Cf": 0.7922740901571547,
+    "through": 132
+   },
+   "720720": {
+    "W": "62113/65520",
+    "C": "2566549/3249792",
+    "Cf": 0.7897579291228485,
+    "through": 130
+   },
+   "10080": {
+    "W": "179/224",
+    "C": "3473/4368",
+    "Cf": 0.7951007326007326,
+    "through": 1008
+   },
+   "110880": {
+    "W": "24763/27720",
+    "C": "93173/117936",
+    "Cf": 0.7900301858635193,
+    "through": 112
+   },
+   "1441440": {
+    "W": "200267/205920",
+    "C": "743221/943488",
+    "Cf": 0.7877376288834622,
+    "through": 88
+   }
+  },
+  "B_all_exact": {
+   "5040": {
+    "W": "3907/5040",
+    "C": "15437/19344",
+    "Cf": 0.7980252274607114,
+    "through": 5040
+   },
+   "55440": {
+    "W": "9727/11088",
+    "C": "183493/232128",
+    "Cf": 0.7904819754618142,
+    "through": 168
+   },
+   "720720": {
+    "W": "343951/360360",
+    "C": "1280945/1624896",
+    "Cf": 0.7883242989089764,
+    "through": 130
+   },
+   "10080": {
+    "W": "179/224",
+    "C": "3473/4368",
+    "Cf": 0.7951007326007326,
+    "through": 1008
+   },
+   "110880": {
+    "W": "99497/110880",
+    "C": "372247/471744",
+    "Cf": 0.7890868776285443,
+    "through": 112
+   },
+   "1441440": {
+    "W": "703051/720720",
+    "C": "2599157/3302208",
+    "Cf": 0.7870966940907417,
+    "through": 91
+   }
+  }
+ }
+}

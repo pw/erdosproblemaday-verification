@@ -1,0 +1,27 @@
+cuts 3022 non-genuine 0
+jump d=6 F_before=5: SCIP infeasible OK
+jump d=12 F_before=10: SCIP infeasible OK
+jump d=15 F_before=12: SCIP infeasible OK
+jump d=20 F_before=14: SCIP infeasible OK
+jump d=24 F_before=16: SCIP infeasible OK
+jump d=28 F_before=17: SCIP infeasible OK
+jump d=30 F_before=17: SCIP infeasible OK
+jump d=35 F_before=18: SCIP infeasible OK
+jump d=36 F_before=18: SCIP infeasible OK
+jump d=40 F_before=19: SCIP infeasible OK
+jump d=45 F_before=21: SCIP infeasible OK
+jump d=48 F_before=21: SCIP infeasible OK
+jump d=55 F_before=22: SCIP infeasible OK
+jump d=56 F_before=22: SCIP infeasible OK
+jump d=60 F_before=22: SCIP infeasible OK
+jump d=63 F_before=22: SCIP infeasible OK
+jump d=66 F_before=23: SCIP infeasible OK
+jump d=70 F_before=23: SCIP infeasible OK
+jump d=77 F_before=24: SCIP infeasible OK
+jump d=78 F_before=24: SCIP infeasible OK
+jump d=80 F_before=24: SCIP infeasible OK
+jump d=88 F_before=25: SCIP infeasible OK
+jump d=90 F_before=25: SCIP infeasible OK
+jump d=99 F_before=26: SCIP infeasible OK
+jump d=104 F_before=26: SCIP infeasible OK
+jumps re-checked 25 disagreements 0
