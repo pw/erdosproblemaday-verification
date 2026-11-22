@@ -1,0 +1,103 @@
+arc lists rebuilt from the connection sets and compared: done (any difference is printed above)
+== Witnesses (each must PASS) ==
+### knm_check 38 7 3 ./witness_k73_ge39_N38.txt
+N=38 arcs=228 oriented=yes outdeg=[6,6] indeg=[6,6]
+transitive_triangles=0 largest_transitive_subtournament=2 independence_number=6
+witness for k(7,3) >= 39: PASS
+exit=0
+### knm_check 46 8 3 ./witness_k83_ge47_N46.txt
+N=46 arcs=322 oriented=yes outdeg=[7,7] indeg=[7,7]
+transitive_triangles=0 largest_transitive_subtournament=2 independence_number=7
+witness for k(8,3) >= 47: PASS
+exit=0
+### knm_check 77 6 4 ./witness_k64_ge78_N77.txt
+N=77 arcs=1232 oriented=yes outdeg=[16,16] indeg=[16,16]
+transitive_triangles=3311 largest_transitive_subtournament=3 independence_number=5
+witness for k(6,4) >= 78: PASS
+exit=0
+### knm_check 70 3 6 ./witness_k36_ge71_N70.txt
+N=70 arcs=1610 oriented=yes outdeg=[23,23] indeg=[23,23]
+transitive_triangles=12670 largest_transitive_subtournament=5 independence_number=2
+witness for k(3,6) >= 71: PASS
+exit=0
+### knm_check 69 3 6 ./witness_k36_ge70_N69.txt
+N=69 arcs=1656 oriented=yes outdeg=[24,24] indeg=[24,24]
+transitive_triangles=13593 largest_transitive_subtournament=5 independence_number=2
+witness for k(3,6) >= 70: PASS
+exit=0
+== Negative controls (each must FAIL: the same graph tested for a smaller n or m) ==
+### knm_check 38 6 3 ./witness_k73_ge39_N38.txt
+N=38 arcs=228 oriented=yes outdeg=[6,6] indeg=[6,6]
+transitive_triangles=0 largest_transitive_subtournament=2 independence_number=6
+witness for k(6,3) >= 39: FAIL
+exit=1
+### knm_check 38 7 3 ./witness_k73_ge39_N38.txt flip 0 1
+control: added 0->1
+N=38 arcs=229 oriented=yes outdeg=[6,7] indeg=[6,7]
+transitive_triangles=6 largest_transitive_subtournament=3 independence_number=6
+witness for k(7,3) >= 39: FAIL
+exit=1
+### knm_check 46 7 3 ./witness_k83_ge47_N46.txt
+N=46 arcs=322 oriented=yes outdeg=[7,7] indeg=[7,7]
+transitive_triangles=0 largest_transitive_subtournament=2 independence_number=7
+witness for k(7,3) >= 47: FAIL
+exit=1
+### knm_check 77 5 4 ./witness_k64_ge78_N77.txt
+N=77 arcs=1232 oriented=yes outdeg=[16,16] indeg=[16,16]
+transitive_triangles=3311 largest_transitive_subtournament=3 independence_number=5
+witness for k(5,4) >= 78: FAIL
+exit=1
+### knm_check 77 6 3 ./witness_k64_ge78_N77.txt
+N=77 arcs=1232 oriented=yes outdeg=[16,16] indeg=[16,16]
+transitive_triangles=3311 largest_transitive_subtournament=3 independence_number=5
+witness for k(6,3) >= 78: FAIL
+exit=1
+### knm_check 70 2 6 ./witness_k36_ge71_N70.txt
+N=70 arcs=1610 oriented=yes outdeg=[23,23] indeg=[23,23]
+transitive_triangles=12670 largest_transitive_subtournament=5 independence_number=2
+witness for k(2,6) >= 71: FAIL
+exit=1
+### knm_check 70 3 5 ./witness_k36_ge71_N70.txt
+N=70 arcs=1610 oriented=yes outdeg=[23,23] indeg=[23,23]
+transitive_triangles=12670 largest_transitive_subtournament=5 independence_number=2
+witness for k(3,5) >= 71: FAIL
+exit=1
+== Positive controls (published graphs; each must PASS) ==
+### knm_check 8 3 3 ./control_B8_k33_ge9.txt
+N=8 arcs=16 oriented=yes outdeg=[2,2] indeg=[2,2]
+transitive_triangles=0 largest_transitive_subtournament=2 independence_number=2
+witness for k(3,3) >= 9: PASS
+exit=0
+### knm_check 14 4 3 ./control_Z14_k43_ge15.txt
+N=14 arcs=42 oriented=yes outdeg=[3,3] indeg=[3,3]
+transitive_triangles=0 largest_transitive_subtournament=2 independence_number=3
+witness for k(4,3) >= 15: PASS
+exit=0
+### knm_check 28 6 3 ./control_Z28_k63_ge29.txt
+N=28 arcs=140 oriented=yes outdeg=[5,5] indeg=[5,5]
+transitive_triangles=0 largest_transitive_subtournament=2 independence_number=5
+witness for k(6,3) >= 29: PASS
+exit=0
+== Second method: counts of independent sets and transitive tournaments ==
+== (the witness needs 0 independent n-sets and TT_m = 0) ==
+### second_check.py 38 7 3 ./witness_k73_ge39_N38.txt
+N=38 independent 6-sets=2451 independent 7-sets=0 TT2=228 TT3=0
+exit=0
+### second_check.py 46 8 3 ./witness_k83_ge47_N46.txt
+N=46 independent 7-sets=3657 independent 8-sets=0 TT2=322 TT3=0
+exit=0
+### second_check.py 77 6 4 ./witness_k64_ge78_N77.txt
+N=77 independent 5-sets=27335 independent 6-sets=0 TT3=3311 TT4=0
+exit=0
+### second_check.py 70 3 6 ./witness_k36_ge71_N70.txt
+N=70 independent 2-sets=805 independent 3-sets=0 TT5=27300 TT6=0
+exit=0
+### second_check.py 69 3 6 ./witness_k36_ge70_N69.txt
+N=69 independent 2-sets=690 independent 3-sets=0 TT5=31464 TT6=0
+exit=0
+### second_check.py 14 4 3 ./control_Z14_k43_ge15.txt
+N=14 independent 3-sets=42 independent 4-sets=0 TT2=42 TT3=0
+exit=0
+### second_check.py 28 6 3 ./control_Z28_k63_ge29.txt
+N=28 independent 5-sets=252 independent 6-sets=0 TT2=140 TT3=0
+exit=0

@@ -1,0 +1,10 @@
+{
+ "id": "2wvfme",
+ "created": "2026-11-21T09:56:41.509Z",
+ "problem": 1109,
+ "name": "Nguyen Trong Nhan",
+ "claim": "partial",
+ "links": "https://drive.google.com/drive/folders/1JSafWeAamlSqbXxz3kG2vCmTM7HxVyDq",
+ "body": "Title: A Certified 67-Element Squarefree-Sumset Witness at N = 3569 for Erdős Problem #1109 (f(3569) >= 67)\r\n\r\nExtending past the previously reported exact jump point N_66 = 3065 (where f(3065) = 66), we exhibit an explicit 67-element subset A_{67} subseteq {1, 2, ..., 3569} (max element = 3569) such that every pairwise sum a + b (for all a <= b in A_{67}, including all 67 diagonal sums 2a) is strictly squarefree.\r\n\r\nTwo independent C++17 programs (direct trial division and a p^2-sieve) verified all C(67 + 1, 2) = 2,278 unordered sums, which are included in the linked Drive folder alongside the full PDF write-up and witness file. This establishes the constructive lower bound f(3569) >= 67 (equivalently A392165(67) <= 3569, narrowing 3067 <= N_67 <= 3569). Minimality is not claimed.",
+ "consent": 1
+}

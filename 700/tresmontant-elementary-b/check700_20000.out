@@ -1,0 +1,14 @@
+brute n=101*103*107=1113121 hyp=True f=10403 f^2>n=True f==pq:True
+brute n=107*109*113=1317919 hyp=True f=11663 f^2>n=True f==pq:True
+brute n=191*193*197=7262011 hyp=True f=36863 f^2>n=True f==pq:True
+brute n=227*229*233=12112039 hyp=True f=51983 f^2>n=True f==pq:True
+brute n=269*271*277=20193023 hyp=True f=72899 f^2>n=True f==pq:True
+brute n=311*313*317=30857731 hyp=True f=97343 f^2>n=True f==pq:True
+brute n=347*349*353=42749359 hyp=True f=121103 f^2>n=True f==pq:True
+control (hyp false) n=1245373 hyp=False f=107 f^2>n=False (submission says 103*107*113 has f<sqrt n; 13*17*23 just reported)
+control (hyp false) n=5083 hyp=False f=221 f^2>n=True (submission says 103*107*113 has f<sqrt n; 13*17*23 just reported)
+control (h<=d) n=97543451 f=457 f^2>n=False
+brute vs reduced (all triples of odd primes below 140 with r<pq, n<=3e6): agree=5161 disagree=0
+hypothesis triples with p<=20000: 24601, with f(n)<=sqrt(n): 0
+ALL AS PREDICTED
+exit=0

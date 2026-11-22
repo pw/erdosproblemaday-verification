@@ -1,0 +1,10 @@
+range (9000,14500]: 7641 hypothesis triples
+  1000/7641 ok so far (90s)
+  2000/7641 ok so far (183s)
+  3000/7641 ok so far (286s)
+  4000/7641 ok so far (389s)
+  5000/7641 ok so far (490s)
+  6000/7641 ok so far (598s)
+  7000/7641 ok so far (726s)
+RESULT (9000,14500]: triples=7641 computed=7641 f<=sqrt n: 0  f!=pq: 0  (of which e within 1 of max: 461, d=2: 542)  844s
+exit=0

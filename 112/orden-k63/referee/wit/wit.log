@@ -1,0 +1,9 @@
+sha256 5c1cc09c6df4a0b6dba4c3171c2eb620c89993b33a097da428ebbd176cacb3fa
+[witness k=6] n=29 arcs=140 dup=0 loops=0 out_of_range=0 2cycles=0 TT(ordered x->y->z,x->z)=0 indep6-sets: rec=0 brute=0 first=None outdeg=[4, 5] indeg=[4, 5] -> PASS
+[witness k=5 (expect FAIL: alpha must be >=5 since r(I5,L3)=23)] n=29 arcs=140 dup=0 loops=0 out_of_range=0 2cycles=0 TT(ordered x->y->z,x->z)=0 indep5-sets: rec=760 brute=760 first=[0, 1, 4, 9, 16] outdeg=[4, 5] indeg=[4, 5] -> FAIL
+[Cay(Z28,{3,8,10,12,17}) k=6 expect PASS] n=28 arcs=140 dup=0 loops=0 out_of_range=0 2cycles=0 TT(ordered x->y->z,x->z)=0 indep6-sets: rec=0 brute=0 first=None outdeg=[5] indeg=[5] -> PASS
+[Cay(Z28,{1,4,12,15,22}) k=6 expect PASS] n=28 arcs=140 dup=0 loops=0 out_of_range=0 2cycles=0 TT(ordered x->y->z,x->z)=0 indep6-sets: rec=0 brute=0 first=None outdeg=[5] indeg=[5] -> PASS
+[Z28 circulant + isolated vertex, expect FAIL (indep)] n=29 arcs=140 dup=0 loops=0 out_of_range=0 2cycles=0 TT(ordered x->y->z,x->z)=0 indep6-sets: rec=252 brute=252 first=[0, 1, 2, 6, 7, 28] outdeg=[0, 5] indeg=[0, 5] -> FAIL
+[witness + arc 0->13 (path (0, 15, 13)), expect FAIL (TT)] n=29 arcs=141 dup=0 loops=0 out_of_range=0 2cycles=0 TT(ordered x->y->z,x->z)=2 indep6-sets: rec=0 brute=0 first=None outdeg=[4, 5, 6] indeg=[4, 5, 6] -> FAIL
+[witness + reverse arc 6->0, expect FAIL (2-cycle)] n=29 arcs=141 dup=0 loops=0 out_of_range=0 2cycles=1 TT(ordered x->y->z,x->z)=4 indep6-sets: rec=0 brute=0 first=None outdeg=[4, 5] indeg=[4, 5] -> FAIL
+arc-deletion mutations: 137/140 single-arc deletions create an independent 6-set (detected)

@@ -1,0 +1,5 @@
+header k=67 N=3569; parsed 67 elements, distinct=True, in [1,3569]=True, max=3569; sums checked=2278; non-squarefree by factorisation=0, by sieve=0
+neg control (element 11 +1): non-squarefree sums 15/15
+neg control: some x in [1,3569] extends the set to 68? no (not a claim either way; reported)
+PASS
+exit=0

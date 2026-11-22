@@ -1,0 +1,6 @@
+control_Z28_k63_ge29
+Claim: control: Kirtchakov's circulant (Zenodo 10.5281/zenodo.21890619), k(6,3) >= 29
+Vertices: 28. Arcs: 140. Arc list: control_Z28_k63_ge29.txt
+
+Circulant on Z_28. Arc x -> x+s mod 28 for every s in
+  S = {3, 8, 10, 12, 17}  (|S| = 5; S and -S are disjoint mod 28)

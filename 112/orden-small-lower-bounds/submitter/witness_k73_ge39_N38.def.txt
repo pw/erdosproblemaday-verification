@@ -1,0 +1,10 @@
+witness_k73_ge39_N38
+Claim: k(7,3) >= 39: no transitive triangle and no 7 pairwise non-adjacent vertices
+Vertices: 38. Arcs: 228. Arc list: witness_k73_ge39_N38.txt
+
+Bicirculant on Z_19 x {0,1}. Vertex (x,i) is numbered 19*i + x.
+Arc (x,i) -> (x+s mod 19, j) for every s in S_ij:
+  S_00 = {5, 6, 16, 17}
+  S_01 = {16, 17}
+  S_10 = {5, 6}
+  S_11 = {10, 11, 16, 17}

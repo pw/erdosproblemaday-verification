@@ -1,0 +1,49 @@
+replaying Erdos462
+replaying Erdos462.UpperWeights
+replaying Erdos462.Weights
+replaying Erdos462.MixedCount
+replaying Erdos462.UpperBand
+replaying Erdos462.Moments
+replaying Erdos462.PrimeAsymptotic
+replaying Erdos462.Reciprocal
+replaying Erdos462.UpperAsymptotic
+replaying Erdos462.FromSelberg
+replaying Erdos462.WindowMoment
+replaying Erdos462.UpperSum
+replaying Erdos462.PrimeWindows
+replaying Erdos462.MixedBands
+replaying Erdos462.FixedLower
+replaying Erdos462.SieveWeights
+replaying Erdos462.SieveMoment
+replaying Erdos462.PrimePowers
+replaying Erdos462.UpperMoment
+replaying Erdos462.Problem
+replaying Erdos462.Siebert
+replaying Erdos462.Supply
+replaying Erdos462.SecondInput
+replaying Erdos462.Geometry
+replaying Erdos462.Statement
+	Command being timed: "nice -n 19 lake env leanchecker --verbose Erdos462"
+	User time (seconds): 45.20
+	System time (seconds): 32.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:18.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3062412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2072801
+	Voluntary context switches: 136
+	Involuntary context switches: 3328
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+LC_EXIT=0

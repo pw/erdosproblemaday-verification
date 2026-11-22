@@ -1,0 +1,6 @@
+witness_k36_ge71_N70
+Claim: k(3,6) >= 71: no transitive tournament on 6 vertices and no 3 pairwise non-adjacent vertices
+Vertices: 70. Arcs: 1610. Arc list: witness_k36_ge71_N70.txt
+
+Circulant on Z_70. Arc x -> x+s mod 70 for every s in
+  S = {1, 2, 7, 8, 14, 15, 16, 17, 21, 24, 26, 29, 30, 32, 37, 39, 45, 47, 48, 52, 60, 61, 64}  (|S| = 23; S and -S are disjoint mod 70)

@@ -1,0 +1,8 @@
+glue n=21 m=5 (out,in)=(4,2) |H|=14 H=IRW14, no edge cap, no SB: 9870 vars, 48601 clauses, encode 0.1s
+  kissat: UNSATISFIABLE in 1.3s
+glue n=21 m=5 (out,in)=(4,2) |H|=14 H=IRW14, no edge cap, no SB: 9870 vars, 48601 clauses, encode 0.1s
+  cadical: UNSATISFIABLE in 0.7s
+glue n=21 m=5 (out,in)=(3,3) |H|=14 H=IRW14, no edge cap, no SB: 9870 vars, 48601 clauses, encode 0.1s
+  kissat: UNSATISFIABLE in 4.2s
+glue n=21 m=5 (out,in)=(3,3) |H|=14 H=IRW14, no edge cap, no SB: 9870 vars, 48601 clauses, encode 0.1s
+  cadical: UNSATISFIABLE in 2.5s

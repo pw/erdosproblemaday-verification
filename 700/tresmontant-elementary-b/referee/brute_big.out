@@ -1,0 +1,9 @@
+B4 (101, 103, 107) n=1113121 d=2 h=4 e=6 2e^2=72 hyp=True f_leg(all k)=10403 pq=10403 f==pq:True f>sqrt n:True  [1s]
+B4 (419, 421, 433) n=76380767 d=2 h=12 e=14 2e^2=392 hyp=True f_leg(all k)=176399 pq=176399 f==pq:True f>sqrt n:True  [89s]
+B4 (443, 449, 457) n=90900499 d=6 h=8 e=14 2e^2=392 hyp=True f_leg(all k)=198907 pq=198907 f==pq:True f>sqrt n:True  [91s]
+B4 (809, 811, 829) n=543906071 d=2 h=18 e=20 2e^2=800 hyp=True f_leg(all k)=656099 pq=656099 f==pq:True f>sqrt n:True  [507s]
+B4 (1013, 1021, 1033) n=1068404009 d=8 h=12 e=20 2e^2=800 hyp=True f_leg(all k)=1034273 pq=1034273 f==pq:True f>sqrt n:True  [932s]
+B4 (1009, 1019, 1031) n=1060044301 d=10 h=12 e=22 2e^2=968 hyp=True f_leg(all k)=1028171 pq=1028171 f==pq:True f>sqrt n:True  [925s]
+B4 (1091, 1093, 1097) n=1308131911 d=2 h=4 e=6 2e^2=72 hyp=True f_leg(all k)=1192463 pq=1192463 f==pq:True f>sqrt n:True  [1025s]
+B4 (103, 107, 113) n=1245373 d=4 h=6 e=10 2e^2=200 hyp=False f_leg(all k)=107 pq=11021 f==pq:False f>sqrt n:False  [1s]
+exit=0

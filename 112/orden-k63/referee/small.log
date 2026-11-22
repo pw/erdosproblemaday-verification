@@ -1,0 +1,10 @@
+n=3 k=2 (I2,L3), expect SAT (directed 3-cycle)               cadical195  vars=     6 clauses=     12 -> SAT (0.00s)  check: arcs=3 loops=0 2cyc=0 tt=0 indep2=0 deg=[2] deg0=2
+n=3 k=2 (I2,L3), expect SAT (directed 3-cycle)               glucose4    vars=     6 clauses=     12 -> SAT (0.00s)  check: arcs=3 loops=0 2cyc=0 tt=0 indep2=0 deg=[2] deg0=2
+n=4 k=2 r(I2,L3)=4, expect UNSAT                             cadical195  vars=    12 clauses=     36 -> UNSAT (0.00s)
+n=4 k=2 r(I2,L3)=4, expect UNSAT                             glucose4    vars=    12 clauses=     36 -> UNSAT (0.00s)
+n=8 k=3 Bermond, expect SAT                                  cadical195  vars=    56 clauses=    420 -> SAT (0.00s)  check: arcs=16 loops=0 2cyc=0 tt=0 indep3=0 deg=[4] deg0=4
+n=8 k=3 Bermond, expect SAT                                  glucose4    vars=    56 clauses=    420 -> SAT (0.00s)  check: arcs=16 loops=0 2cyc=0 tt=0 indep3=0 deg=[4] deg0=4
+n=9 k=3 r(I3,L3)=9, expect UNSAT                             cadical195  vars=    72 clauses=    624 -> UNSAT (0.03s)
+n=9 k=3 r(I3,L3)=9, expect UNSAT                             glucose4    vars=    72 clauses=    624 -> UNSAT (0.00s)
+n=14 k=4 no degree constraint, expect SAT (IRW)              cadical195  vars=   182 clauses=   3276 -> SAT (0.02s)  check: arcs=42 loops=0 2cyc=0 tt=0 indep4=0 deg=[6] deg0=6
+n=14 k=4 no degree constraint, expect SAT (IRW)              glucose4    vars=   182 clauses=   3276 -> SAT (0.02s)  check: arcs=42 loops=0 2cyc=0 tt=0 indep4=0 deg=[6] deg0=6

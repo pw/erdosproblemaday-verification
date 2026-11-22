@@ -1,0 +1,12 @@
+A2' sample: 6618 prime triples (all with n<=2e4, 1/15 of n<=3e5, 1/120 of n<=2e6)
+A2' mismatches=0; f>sqrt n: 407, f<sqrt n: 6211; r<pq: 1547, r>pq: 5071  (119s)
+A3' (101, 103, 107) d=2 h=4 e=6 f_leg=10403 f_enum=10403 f_enum2=10403 f==pq:True agree:True
+A3' (107, 109, 113) d=2 h=4 e=6 f_leg=11663 f_enum=11663 f_enum2=11663 f==pq:True agree:True
+A3' (149, 151, 157) d=2 h=6 e=8 f_leg=22499 f_enum=22499 f_enum2=22499 f==pq:True agree:True
+A3' (191, 193, 197) d=2 h=4 e=6 f_leg=36863 f_enum=36863 f_enum2=36863 f==pq:True agree:True
+A3' (191, 193, 199) d=2 h=6 e=8 f_leg=36863 f_enum=36863 f_enum2=36863 f==pq:True agree:True
+A3' (223, 227, 233) d=4 h=6 e=10 f_leg=50621 f_enum=50621 f_enum2=50621 f==pq:True agree:True
+A3' (227, 229, 233) d=2 h=4 e=6 f_leg=51983 f_enum=51983 f_enum2=51983 f==pq:True agree:True
+A3' (229, 233, 239) d=4 h=6 e=10 f_leg=53357 f_enum=53357 f_enum2=53357 f==pq:True agree:True
+done 136s
+exit=0

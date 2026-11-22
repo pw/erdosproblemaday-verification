@@ -1,0 +1,13 @@
+range (14500,20000]: 10897 hypothesis triples
+  1000/10897 ok so far (148s)
+  2000/10897 ok so far (289s)
+  3000/10897 ok so far (421s)
+  4000/10897 ok so far (543s)
+  5000/10897 ok so far (676s)
+  6000/10897 ok so far (858s)
+  7000/10897 ok so far (958s)
+  8000/10897 ok so far (1052s)
+  9000/10897 ok so far (1149s)
+  10000/10897 ok so far (1241s)
+RESULT (14500,20000]: triples=10897 computed=10897 f<=sqrt n: 0  f!=pq: 0  (of which e within 1 of max: 485, d=2: 669)  1332s
+exit=0

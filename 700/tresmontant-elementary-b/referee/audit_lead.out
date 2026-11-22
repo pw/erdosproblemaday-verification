@@ -1,0 +1,13 @@
+Ca (103, 107, 113) r<pq:True hyp:False small_gcd_exists=True my f=107 f<=sqrt n:True
+Ca (457, 461, 463) r<pq:True hyp:False small_gcd_exists=True my f=457 f<=sqrt n:True
+Ca (101, 107, 109) r<pq:True hyp:False small_gcd_exists=True my f=101 f<=sqrt n:True
+Ca (1009, 1019, 1021) r<pq:True hyp:False small_gcd_exists=True my f=1009 f<=sqrt n:True
+Cb random triples (primes<2750, r<pq): agree=1472 disagree=0; reduced test True=1461 False=11
+Cc p=2 triples with r<2q: agree=568 disagree=0
+Cd lead's validation set: reduced test True (f<=sqrt n) 4634, False (f>sqrt n) 527
+Cd all odd-prime triples with r<pq and n<=3e6 (no r<140 cap): 107741
+Ce lead's exhaustive logic with 2e^2 < 1p, p<=2000: triples=406, flagged=0, first flagged (with my exact f): []
+Ce lead's exhaustive logic with 2e^2 < 2p, p<=2000: triples=920, flagged=270, first flagged (with my exact f): [(41, 43, 47, 43), (71, 73, 79, 73), (103, 107, 113, 107), (127, 131, 137, 131), (197, 199, 211, 197)]
+Ce lead's exhaustive logic with 2e^2 < 3p, p<=2000: triples=1461, flagged=799, first flagged (with my exact f): [(41, 43, 47, 43), (59, 61, 67, 61), (71, 73, 79, 73), (79, 83, 89, 83), (97, 101, 107, 101)]
+Cf ndigits_le vs scalar dominance on 20000 random cases: mismatches=0
+exit=0

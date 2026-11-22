@@ -1,0 +1,8 @@
+n=8 k=3 cadical195: 5040 labelled solutions in 0.5s; failing brute check: 0
+n=8 k=3 glucose4: 5040 labelled solutions in 2.7s; failing brute check: 0
+Bermond Z8 graph: {'n': 8, 'arcs': 16, 'loops': 0, 'two_cycles': 0, 'bad_vertex': 0, 'tt': 0, 'indep': 0, 'first_indep': None, 'outdeg': [2], 'indeg': [2], 'deg': [4]}
+orbit size 5040, |Aut| = 8, 8!/|Aut| = 5040
+enumerated set == orbit of Bermond: True
+control count n=3 k=2: 2 labelled (0.00s)
+control count n=4 k=2: 0 labelled (0.00s)
+control count n=9 k=3: 0 labelled (0.02s)

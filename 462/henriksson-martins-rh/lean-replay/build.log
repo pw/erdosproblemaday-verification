@@ -1,0 +1,50 @@
+✔ [3168/3193] Built Erdos462.Problem (6.7s)
+✔ [3169/3193] Built Erdos462.Geometry (11s)
+✔ [3170/3193] Built Erdos462.Moments (11s)
+✔ [3171/3193] Built Erdos462.Weights (11s)
+✔ [3172/3193] Built Erdos462.SieveWeights (13s)
+✔ [3173/3193] Built Erdos462.PrimeWindows (7.9s)
+✔ [3174/3193] Built Erdos462.Reciprocal (8.1s)
+✔ [3175/3193] Built Erdos462.WindowMoment (10s)
+✔ [3176/3193] Built Erdos462.SieveMoment (10s)
+✔ [3177/3193] Built Erdos462.FromSelberg (23s)
+✔ [3178/3193] Built Erdos462.Supply (13s)
+✔ [3179/3193] Built Erdos462.Siebert (15s)
+✔ [3180/3193] Built Erdos462.SecondInput (19s)
+✔ [3181/3193] Built Erdos462.MixedBands (6.9s)
+✔ [3182/3193] Built Erdos462.MixedCount (17s)
+✔ [3183/3193] Built Erdos462.FixedLower (15s)
+✔ [3184/3193] Built Erdos462.PrimePowers (64s)
+✔ [3185/3193] Built Erdos462.PrimeAsymptotic (6.8s)
+✔ [3186/3193] Built Erdos462.Statement (7.3s)
+✔ [3187/3193] Built Erdos462.UpperBand (10s)
+✔ [3188/3193] Built Erdos462.UpperMoment (12s)
+✔ [3189/3193] Built Erdos462.UpperWeights (8.1s)
+✔ [3190/3193] Built Erdos462.UpperSum (11s)
+✔ [3191/3193] Built Erdos462.UpperAsymptotic (36s)
+✔ [3192/3193] Built Erdos462 (6.3s)
+Build completed successfully (3193 jobs).
+	Command being timed: "nice -n 19 lake build"
+	User time (seconds): 436.59
+	System time (seconds): 58.62
+	Percent of CPU this job got: 239%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:26.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3618576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 4129874
+	Voluntary context switches: 136788
+	Involuntary context switches: 83144
+	Swaps: 0
+	File system inputs: 1280
+	File system outputs: 129560
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+BUILD_EXIT=0

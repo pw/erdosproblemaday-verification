@@ -1,0 +1,6 @@
+witness_k64_ge78_N77
+Claim: k(6,4) >= 78: no transitive tournament on 4 vertices and no 6 pairwise non-adjacent vertices
+Vertices: 77. Arcs: 1232. Arc list: witness_k64_ge78_N77.txt
+
+Circulant on Z_77. Arc x -> x+s mod 77 for every s in
+  S = {3, 11, 14, 19, 20, 22, 30, 35, 36, 40, 44, 46, 52, 64, 68, 75}  (|S| = 16; S and -S are disjoint mod 77)

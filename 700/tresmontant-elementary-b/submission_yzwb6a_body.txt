@@ -1,0 +1,55 @@
+Independent proof of part (b) of Problem 700 — confirmation of the result in your
+write-up (day/700-gcd-binomial), with a fully written-out digit argument, a slightly
+weaker hypothesis, and an elementary existence step (Chebyshev instead of Maynard).
+
+Notation: f(n) = min_{1<k<=n/2} gcd(n, C(n,k)).
+
+THEOREM. Let p<q<r be primes, d=q-p, h=r-q, e=r-p, with h>d and 2e^2<p.
+Then n=pqr satisfies f(n) > sqrt(n). Infinitely many such triples exist,
+so the answer to (b) is YES.
+
+STEP 1 (reduction). r<2p<=pq, so r^2<n. Divisors of n below sqrt(n): 1,p,q,r;
+above: pq,pr,qr,n. As n is squarefree, gcd(n,C(n,k)) is the product of those
+s in {p,q,r} dividing C(n,k). Hence f(n)<=sqrt(n) iff for some 1<k<=n/2 two of
+p,q,r do not divide C(n,k).
+Lucas: s does not divide C(n,k) iff every base-s digit of k is <= that of n
+(write k <=_s n). The last base-s digit of n is 0, so s|k. If s,t both fail
+to divide C(n,k), then k=s*t*j with 1<=j<=u/2 (u = third prime), and both
+  t*j <=_t... precisely: t*j <=_s t*u  and  s*j <=_t s*u
+must hold. We show that for each pair one of them fails.
+From 2e^2<p: d*h, e*d, e*h, e^2, d+2e are all < p.
+
+Pair (p,q), u=r, base q: pr = q^2+(h-d-1)q+(q-dh), digits (q-dh, h-d-1, 1).
+Write dj=cq+x, 0<x<q. Then pj=(j-c-1)q+(q-x) with j-c-1 a single digit
+(j<=r/2<q). Dominance needs x>=dh and j-c<=h-d. If c>=1 then j>=q/d>2e,
+but j(1-d/q)<=h-d gives j<2e: contradiction. So c=0, x=dj, giving j<=h-d
+and j>=h: contradiction.
+
+Pair (p,r), u=q. Base p: rq=p^2+(e+d)p+ed, rj=(j+c)p+x' (ej=cp+x', j+c<p).
+Need j+c<=e+d, so ej<2e^2<p, c=0, x'=ej<=ed, i.e. j<=d. Base r:
+pq=(r-e-h)r+eh, pj=(j-1)r+(r-ej). Need r-ej<=eh, i.e.
+r<=e(j+h)<=e(d+h)=e^2<r: contradiction.
+
+Pair (q,r), u=p. Base q: rp=q^2+(h-d-1)q+(q-hd), rj=(j+c)q+x (j+c<q).
+Need j+c<=h-d-1, so j<e and c=0. Base r: qp=(r-h-e)r+he,
+qj=(j-1)r+(r-hj). Need r<=h(j+e)<2e^2<p<r: contradiction.  QED (Step 1)
+
+STEP 2 (infinitely many triples). Lemma: if an interval of length L contains
+M > 2+log2(L) primes a_1<...<a_M, then a_M-a_{i+1} > a_{i+1}-a_i for some i.
+(Otherwise S_i=a_M-a_i satisfies S_i>=2S_{i+1}, so L>=S_1>=2^{M-2}.)
+Split [x,2x) into intervals of length x^{1/3}. By Chebyshev,
+pi(2x)-pi(x) >> x/log x, so some interval holds >> x^{1/3}/log x primes,
+more than 2+log2(L). The triple (a_i, a_{i+1}, a_M) has h>d and
+e<=x^{1/3}<=p^{1/3}, hence 2e^2<p. Disjoint ranges [x,2x) give distinct n. QED
+
+CHECKS (Python):
+- All 2,952 triples satisfying the hypotheses with p<=6000: f(pqr)>sqrt(pqr),
+  0 failures (reduced Lucas checker, cross-checked against brute force with
+  exact binomials for every applicable n<=40,000).
+- Full brute force over ALL k<=n/2, using Legendre's formula (independent of
+  Lucas), for n=101*103*107 (f=10403), 107*109*113 (f=11663),
+  191*193*197 (f=36863); all exceed sqrt(n).
+- Triples violating 2e^2<p, e.g. 103*107*113, give f(n)<sqrt(n), so the size
+  hypothesis is needed.
+Novelty: I have not done a literature search beyond erdosproblems.com/700
+and your write-up; the result coincides with your claim for part (b).

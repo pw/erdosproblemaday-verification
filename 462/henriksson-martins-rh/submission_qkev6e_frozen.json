@@ -1,0 +1,10 @@
+{
+ "id": "qkev6e",
+ "created": "2026-11-22T06:48:57.005Z",
+ "problem": 462,
+ "name": "Adam Henriksson",
+ "claim": "partial",
+ "links": "https://zenodo.org/records/24422158 [v3]\r\nhttps://hexagonmath.org/2611.00808v1 [v2]\r\nhttps://github.com/ad-he-nx/TauCetiRoadmap/commit/35753e0cc1f1acbda1eec8d615485b14b3a664a4 [lean]",
+ "body": "Assuming the classical Riemann hypothesis, we answer Erd\\H{o}s problem~462 affirmatively even when the sum is restricted to composite integers. For every real $x\\ge 9.6\\cdot10^{37}$, the open interval $(x,x+384\\sqrt{x}(\\log x)^2)$ contains at least $(14/3)\\sqrt{x}$ distinct products of two primes of size comparable to $\\sqrt{x}$. Their contribution to the sum of the least prime factor divided by the integer is at least $14/9$. For every fixed interval coefficient $C>0$, the composite sum is bounded above unconditionally and bounded away from zero under the Riemann hypothesis, for all sufficiently large $x$. We present a computer-assisted proof, verified in Lean~4. The formalization takes the cited estimates for primes as inputs. The results have not been independently reviewed.",
+ "consent": 1
+}

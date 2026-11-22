@@ -1,0 +1,8 @@
+CONTROL n=13 (2,2) I(0) free, expect SAT                   cadical195  vars=156 clauses=2529 -> SAT (0.0s) check: tt=0 indep=0 2cyc=0 deg=[4, 5, 6]
+CONTROL n=13 (2,2) I(0)=B8, expect SAT                     cadical195  vars=156 clauses=2569 -> SAT (0.0s) check: tt=0 indep=0 2cyc=0 deg=[4, 5, 6]
+LEMMA B n=14 (3,2) I(0)=B8 fixed, claim UNSAT              cadical195  vars=182 clauses=3337 -> UNSAT (0.0s)
+LEMMA B n=14 (3,2) I(0)=B8 fixed, claim UNSAT              glucose4    vars=182 clauses=3337 -> UNSAT (0.0s)
+LEMMA B n=14 (3,2) I(0)=free, claim UNSAT                  cadical195  vars=182 clauses=3297 -> UNSAT (291.2s)
+LEMMA B n=14 (3,2) I(0)=free, claim UNSAT                  glucose4    vars=182 clauses=3297 -> TIMEOUT>900.0s (903.8s)
+LEMMA B n=14 (2,3) I(0)=B8 fixed, claim UNSAT              cadical195  vars=182 clauses=3337 -> UNSAT (0.2s)
+LEMMA B n=14 (2,3) I(0)=B8 fixed, claim UNSAT              glucose4    vars=182 clauses=3337 -> UNSAT (0.1s)

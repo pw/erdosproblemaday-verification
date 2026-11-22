@@ -1,0 +1,11 @@
+k(7,3)>=39 bicirculant Z19x2: N=38 arcs=228 loops=0 2cycles=0 indep7=False TT3=False -> PASS
+k(8,3)>=47 bicirculant Z23x2: N=46 arcs=322 loops=0 2cycles=0 indep8=False TT3=False -> PASS
+k(6,4)>=78 circulant Z77: N=77 arcs=1232 loops=0 2cycles=0 indep6=False TT4=False -> PASS
+k(3,6)>=71 circulant Z70: N=70 arcs=1610 loops=0 2cycles=0 indep3=False TT6=False -> PASS
+control Kirtchakov Z28 k(6,3)>=29: N=28 arcs=140 loops=0 2cycles=0 indep6=False TT3=False -> PASS
+control C3 k(2,3)>=4: N=3 arcs=3 loops=0 2cycles=0 indep2=False TT3=False -> PASS
+neg: Z19x2 asked for no indep6: N=38 arcs=228 loops=0 2cycles=0 indep6=True TT3=False -> FAIL
+neg: Z77 asked for no TT3: N=77 arcs=1232 loops=0 2cycles=0 indep6=False TT3=True -> FAIL
+neg: Z70 with 69 added (2-cycle with 1): N=70 arcs=1680 loops=0 2cycles=70 indep3=False TT6=False -> FAIL
+neg: Z70 with 64 dropped: N=70 arcs=1540 loops=0 2cycles=0 indep3=True TT6=False -> FAIL
+ALL AS EXPECTED

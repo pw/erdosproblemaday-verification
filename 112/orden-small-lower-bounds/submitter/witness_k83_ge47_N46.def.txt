@@ -1,0 +1,10 @@
+witness_k83_ge47_N46
+Claim: k(8,3) >= 47: no transitive triangle and no 8 pairwise non-adjacent vertices
+Vertices: 46. Arcs: 322. Arc list: witness_k83_ge47_N46.txt
+
+Bicirculant on Z_23 x {0,1}. Vertex (x,i) is numbered 23*i + x.
+Arc (x,i) -> (x+s mod 23, j) for every s in S_ij:
+  S_00 = {2, 5, 11, 19}
+  S_01 = {4, 10, 18}
+  S_10 = {0, 8, 17}
+  S_11 = {2, 11, 19, 20}

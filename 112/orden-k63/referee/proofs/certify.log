@@ -1,0 +1,9 @@
+=== lemmaB_32_B8fixed
+kissat rc=20 (s UNSATISFIABLE) time=.593602313s proof=210050B
+drat-trim:  time=.998563220s
+cake_lpr on drat-trim LRAT: s VERIFIED UNSAT  time=.716274274s
+=== lemmaB_23_B8fixed
+kissat rc=20 (s UNSATISFIABLE) time=.303793617s proof=182283B
+drat-trim:  time=.598542269s
+cake_lpr on drat-trim LRAT: s VERIFIED UNSAT  time=.202941420s
+=== lemmaB_32_Ifree

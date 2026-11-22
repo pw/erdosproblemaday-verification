@@ -1,0 +1,9 @@
+range (0,9000]: 6063 hypothesis triples
+  1000/6063 ok so far (15s)
+  2000/6063 ok so far (47s)
+  3000/6063 ok so far (100s)
+  4000/6063 ok so far (165s)
+  5000/6063 ok so far (239s)
+  6000/6063 ok so far (328s)
+RESULT (0,9000]: triples=6063 computed=6063 f<=sqrt n: 0  f!=pq: 0  (of which e within 1 of max: 604, d=2: 748)  334s
+exit=0

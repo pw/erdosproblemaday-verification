@@ -1,0 +1,10 @@
+{
+ "id": "qrhaen",
+ "created": "2026-11-21T09:38:28.937Z",
+ "problem": 112,
+ "name": "Tyler Satchel Orden",
+ "claim": "partial",
+ "links": "Links:\r\nhttps://doi.org/10.5281/zenodo.24064870\r\nhttps://github.com/Tyorden/erdos-112-lean\r\nhttps://doi.org/10.5281/zenodo.24237180\r\nhttps://palomar-registry.org/entry?id=PALOMAR-2026-11-15-000004&version=1",
+ "body": "Statement. Erdős problem #112, the case k(6,3): the least k such that every oriented graph on k vertices has 6 pairwise non-adjacent vertices or a transitive triangle.\r\n\r\nWhat was known. 29 <= k(6,3) (D. Kirtchakov, Zenodo 10.5281/zenodo.21890619, 11 Aug 2026, the circulant on Z_28) and k(6,3) <= 33 (Ihringer, Rajendraprasad and Weinert, n^2 - n + 3).\r\n\r\nMy result. 30 <= k(6,3) <= 32.\r\n\r\nLower bound: an explicit oriented graph on 29 vertices with no independent 6-set and no transitive triangle (file in the Zenodo record below; all versions DOI), checkable in seconds. Kirtchakov's Z_28 circulant, which gives 29 <= k(6,3), is also in my Zenodo record (found independently and later); his record is earlier and is credited.\r\nUpper bound: a counting argument with one computed lemma (every oriented graph on 14 vertices with no transitive triangle and no independent 4-set has all degrees equal to 6), whose computation takes seconds and is public.\r\nLean: both bounds are proved in Lean 4 (no sorry, standard axioms only), registered in Palomar as PALOMAR-2026-11-15-000004 and checked there by three kernels (Lean's own, nanoda and con-ron).",
+ "consent": 1
+}

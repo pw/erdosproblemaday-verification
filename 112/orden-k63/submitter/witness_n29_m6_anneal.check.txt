@@ -1,0 +1,6 @@
+vertices: 29  arcs: 140
+loops: 0  2-cycles: 0
+transitive triangles (ordered triples x->y, y->z, x->z): 0
+6-subsets checked: 475020, independent ones: 0
+out-degrees: [4, 5]  in-degrees: [4, 5]
+PASS

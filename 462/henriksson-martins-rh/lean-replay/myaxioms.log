@@ -1,0 +1,134 @@
+Erdos462RH.theorem_1_1 : (∀ (Y d : ℝ),
+    (10 : ℝ) ^ (13 : ℕ) ≤ Y →
+      (0 : ℝ) < d →
+        d ≤ (1 : ℝ) / (10 : ℝ) ^ (13 : ℕ) →
+          ∫ (v : ℝ) in (1 : ℝ)..Y, (Chebyshev.theta (((1 : ℝ) + d) * v) - Chebyshev.theta v - d * v) ^ (2 : ℕ) ≤
+            (25571 / 10000 : ℝ) * d * Y ^ (2 : ℕ) * Real.log ((20001 / 10000 : ℝ) / d) ^ (2 : ℕ)) →
+  ∀ (x : ℝ),
+    (96 : ℝ) * (10 : ℝ) ^ (36 : ℕ) ≤ x →
+      ∃ (S : Finset ℕ),
+        (∀ n ∈ S,
+            x < ↑n ∧
+              ↑n < x + (384 : ℝ) * √x * Real.log x ^ (2 : ℕ) ∧
+                ∃ (p : ℕ) (q : ℕ),
+                  Nat.Prime p ∧ Nat.Prime q ∧ n = p * q ∧ √x / (2 : ℝ) < ↑q ∧ ↑q < √x ∧ √x < ↑p ∧ ↑p < (3 : ℝ) * √x) ∧
+          (14 / 3 : ℝ) * √x ≤ ↑S.card ∧ (14 / 9 : ℝ) ≤ ∑ n ∈ S, ↑n.minFac / ↑n
+Erdos462RH.composite_sum_384 : (∀ (Y d : ℝ),
+    (10 : ℝ) ^ (13 : ℕ) ≤ Y →
+      (0 : ℝ) < d →
+        d ≤ (1 : ℝ) / (10 : ℝ) ^ (13 : ℕ) →
+          ∫ (v : ℝ) in (1 : ℝ)..Y, (Chebyshev.theta (((1 : ℝ) + d) * v) - Chebyshev.theta v - d * v) ^ (2 : ℕ) ≤
+            (25571 / 10000 : ℝ) * d * Y ^ (2 : ℕ) * Real.log ((20001 / 10000 : ℝ) / d) ^ (2 : ℕ)) →
+  ∀ (x : ℝ),
+    (96 : ℝ) * (10 : ℝ) ^ (36 : ℕ) ≤ x →
+      (14 / 9 : ℝ) ≤
+        ∑ n ∈ Finset.Icc ⌈x⌉₊ ⌊x + (384 : ℝ) * √x * Real.log x ^ (2 : ℕ)⌋₊ with (2 : ℕ) ≤ n ∧ ¬Nat.Prime n,
+          ↑n.minFac / ↑n
+Erdos462RH.cully_dudek_wide_interval : (∀ (Y d : ℝ),
+    (10 : ℝ) ^ (8 : ℕ) ≤ Y →
+      (0 : ℝ) < d →
+        d ≤ (1 : ℝ) / (10 : ℝ) ^ (8 : ℕ) →
+          ∫ (v : ℝ) in (1 : ℝ)..Y, (Chebyshev.theta (((1 : ℝ) + d) * v) - Chebyshev.theta v - d * v) ^ (2 : ℕ) <
+            (202 : ℝ) * d * Y ^ (2 : ℕ) * Real.log Y ^ (2 : ℕ)) →
+  ∀ (x : ℝ),
+    (10 : ℝ) ^ (42 : ℕ) ≤ x →
+      ∃ (S : Finset ℕ),
+        (∀ n ∈ S,
+            x < ↑n ∧
+              ↑n < x + (98304 : ℝ) * √x * Real.log x ^ (2 : ℕ) ∧
+                ∃ (p : ℕ) (q : ℕ),
+                  Nat.Prime p ∧ Nat.Prime q ∧ n = p * q ∧ √x / (2 : ℝ) < ↑q ∧ ↑q < √x ∧ √x < ↑p ∧ ↑p < (3 : ℝ) * √x) ∧
+          (1024 : ℝ) * √x ≤ ↑S.card ∧ (1024 / 3 : ℝ) ≤ ∑ n ∈ S, ↑n.minFac / ↑n
+Erdos462RH.theorem_1_2_lower : Erdos462RH.CullyDudekBound →
+  Erdos462RH.SiebertBound →
+    Erdos462RH.PrimeNumberTheorem →
+      ∀ (C : ℝ),
+        (0 : ℝ) < C →
+          ∃ (c : ℝ),
+            (0 : ℝ) < c ∧
+              ∀ᶠ (x : ℝ) in Filter.atTop,
+                c ≤
+                  ∑ n ∈ Finset.Icc ⌈x⌉₊ ⌊x + C * √x * Real.log x ^ (2 : ℕ)⌋₊ with (2 : ℕ) ≤ n ∧ ¬Nat.Prime n,
+                    ↑n.minFac / ↑n
+Erdos462RH.theorem_1_2_upper : Erdos462RH.SiebertBound →
+  ∀ (C : ℝ),
+    (0 : ℝ) < C →
+      ∀ᶠ (x : ℝ) in Filter.atTop,
+        ∑ n ∈ Finset.Icc ⌈x⌉₊ ⌊x + C * √x * Real.log x ^ (2 : ℕ)⌋₊ with (2 : ℕ) ≤ n ∧ ¬Nat.Prime n, ↑n.minFac / ↑n ≤
+          (20 : ℝ) + (2595840 : ℝ) * C
+Erdos462RH.erdos_462_composites : Erdos462RH.SelbergBound ∨ Erdos462RH.CullyDudekBound →
+  ∃ (C : ℝ) (c : ℝ),
+    (0 : ℝ) < C ∧
+      (0 : ℝ) < c ∧
+        ∀ᶠ (x : ℝ) in Filter.atTop,
+          c ≤ ∑ n ∈ Finset.Icc ⌈x⌉₊ ⌊x + C * √x * Real.log x ^ (2 : ℕ)⌋₊ with (2 : ℕ) ≤ n ∧ ¬Nat.Prime n, ↑n.minFac / ↑n
+Erdos462RH.erdos_462_as_printed : Erdos462RH.SelbergBound ∨ Erdos462RH.CullyDudekBound →
+  ∃ (C : ℝ) (c : ℝ),
+    (0 : ℝ) < C ∧
+      (0 : ℝ) < c ∧
+        ∀ᶠ (x : ℝ) in Filter.atTop, c ≤ ∑ n ∈ Finset.Icc ⌈x⌉₊ ⌊x + C * √x * Real.log x ^ (2 : ℕ)⌋₊, ↑n.minFac / ↑n
+'Erdos462RH.theorem_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos462RH.composite_sum_384' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos462RH.cully_dudek_wide_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos462RH.theorem_1_2_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos462RH.theorem_1_2_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos462RH.erdos_462_composites' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos462RH.erdos_462_as_printed' depends on axioms: [propext, Classical.choice, Quot.sound]
+def Erdos462RH.SelbergBound : Prop :=
+∀ (Y d : ℝ),
+  (10 : ℝ) ^ (13 : ℕ) ≤ Y →
+    (0 : ℝ) < d →
+      d ≤ (1 : ℝ) / (10 : ℝ) ^ (13 : ℕ) →
+        Erdos462RH.Jtheta Y d ≤ (25571 / 10000 : ℝ) * d * Y ^ (2 : ℕ) * Real.log ((20001 / 10000 : ℝ) / d) ^ (2 : ℕ)
+def Erdos462RH.CullyDudekBound : Prop :=
+∀ (Y d : ℝ),
+  (10 : ℝ) ^ (8 : ℕ) ≤ Y →
+    (0 : ℝ) < d →
+      d ≤ (1 : ℝ) / (10 : ℝ) ^ (8 : ℕ) → Erdos462RH.Jtheta Y d < (202 : ℝ) * d * Y ^ (2 : ℕ) * Real.log Y ^ (2 : ℕ)
+def Erdos462RH.Jtheta : ℝ → ℝ → ℝ :=
+fun (Y d : ℝ) => ∫ (v : ℝ) in (1 : ℝ)..Y, Erdos462RH.squareError d v
+def Erdos462RH.squareError : ℝ → ℝ → ℝ :=
+fun (d v : ℝ) => (Chebyshev.theta (((1 : ℝ) + d) * v) - Chebyshev.theta v - d * v) ^ (2 : ℕ)
+def Erdos462RH.SiebertBound : Prop :=
+∀ (y : ℝ) (d : ℕ),
+  (1 : ℝ) < y →
+    (0 : ℕ) < d →
+      Even d →
+        ↑{p ∈ ⌊y⌋₊.primesLE | Nat.Prime (p + d)}.card ≤
+          ((16 : ℝ) * ∏' (p : ℕ), Erdos462RH.twinFactor p) * y / Real.log y ^ (2 : ℕ) *
+            ∏ p ∈ d.primeFactors with (2 : ℕ) < p, (↑p - (1 : ℝ)) / (↑p - (2 : ℝ))
+def Erdos462RH.twinFactor : ℕ → ℝ :=
+fun (p : ℕ) => if Nat.Prime p ∧ (2 : ℕ) < p then (1 : ℝ) - (1 : ℝ) / (↑p - (1 : ℝ)) ^ (2 : ℕ) else (1 : ℝ)
+def Erdos462RH.PrimeNumberTheorem : Prop :=
+Filter.Tendsto (fun (y : ℝ) => ↑⌊y⌋₊.primesLE.card * Real.log y / y) Filter.atTop (nhds (1 : ℝ))
+def Chebyshev.theta : ℝ → ℝ :=
+fun (x : ℝ) => ∑ p ∈ Finset.Ioc (0 : ℕ) ⌊x⌋₊ with Nat.Prime p, Real.log ↑p
+def Nat.primesLE : ℕ → Finset ℕ :=
+fun (n : ℕ) => (n + (1 : ℕ)).primesBelow
+Erdos462RH.fixed_length_supply : Erdos462RH.SiebertFiniteBound →
+  ∀ {S h : ℝ},
+    (2 : ℝ) ≤ S →
+      (2 : ℝ) * Real.log S ≤ h →
+        h ≤ S / (4 : ℝ) →
+          ↑⌊(9 : ℝ) * S / (4 : ℝ)⌋₊.primesLE.card ≤ (4 : ℝ) * S / Real.log S →
+            S / ((2 : ℝ) * Real.log S) ≤ ↑(Erdos462RH.primeWindow ((5 : ℝ) * S / (4 : ℝ)) ((2 : ℝ) * S)).card →
+              ∫ (s : ℝ) in Set.Ioc S ((2 : ℝ) * S), ↑(Erdos462RH.primeWindow s (s + h)).card ^ (2 : ℕ) ≤
+                  (20 : ℝ) * S * h ^ (2 : ℕ) / Real.log S ^ (2 : ℕ) ∧
+                S / (320 : ℝ) ≤
+                  MeasureTheory.volume.real
+                    (Set.Ioc S ((2 : ℝ) * S) ∩
+                      {s : ℝ | h / ((4 : ℝ) * Real.log S) ≤ ↑(Erdos462RH.primeWindow s (s + h)).card})
+def Erdos462RH.SiebertFiniteBound : Prop :=
+∀ (y : ℝ) (M k : ℕ),
+  (1 : ℝ) < y →
+    (0 : ℕ) < k →
+      k ≤ M →
+        ↑{p ∈ ⌊y⌋₊.primesLE | Nat.Prime (p + (2 : ℕ) * k)}.card *
+            ∏ p ∈ Erdos462RH.sievePrimes M, ((1 : ℝ) + Erdos462RH.sieveCorrection p / ↑p) ≤
+          (16 : ℝ) * y / Real.log y ^ (2 : ℕ) *
+            Erdos462RH.localFactors (Erdos462RH.sievePrimes M) Erdos462RH.sieveCorrection k
+def Erdos462RH.DyadicPrimeCounts : Prop :=
+∀ᶠ (S : ℝ) in Filter.atTop,
+  ↑⌊(9 : ℝ) * S / (4 : ℝ)⌋₊.primesLE.card ≤ (4 : ℝ) * S / Real.log S ∧
+    S / ((2 : ℝ) * Real.log S) ≤ ↑(Erdos462RH.primeWindow ((5 : ℝ) * S / (4 : ℝ)) ((2 : ℝ) * S)).card
+MYAX_EXIT=0

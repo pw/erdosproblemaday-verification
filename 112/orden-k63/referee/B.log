@@ -1,0 +1,12 @@
+n=14 k=4 deg(0)==6, expect SAT                               cadical195  vars=   422 clauses=   3756 -> SAT (0.88s)  check: arcs=42 loops=0 2cyc=0 tt=0 indep4=0 deg=[6] deg0=6
+n=14 k=4 deg(0)==6, expect SAT                               glucose4    vars=   422 clauses=   3756 -> SAT (0.10s)  check: arcs=42 loops=0 2cyc=0 tt=0 indep4=0 deg=[6] deg0=6
+CONTROL n=13 k=4 deg(0)<=5, expect SAT                       cadical195  vars=   251 clauses=   2713 -> SAT (0.01s)  check: arcs=35 loops=0 2cyc=0 tt=0 indep4=0 deg=[4, 5, 6] deg0=4
+CONTROL n=13 k=4 deg(0)<=5, expect SAT                       glucose4    vars=   251 clauses=   2713 -> SAT (0.08s)  check: arcs=34 loops=0 2cyc=0 tt=0 indep4=0 deg=[4, 5, 6] deg0=4
+near-miss n=13 k=4 deg(0)<=4 (|I(0)|>=8), unknown            cadical195  vars=   236 clauses=   2685 -> SAT (0.01s)  check: arcs=36 loops=0 2cyc=0 tt=0 indep4=0 deg=[4, 5, 6] deg0=4
+near-miss n=13 k=4 deg(0)<=4 (|I(0)|>=8), unknown            glucose4    vars=   236 clauses=   2685 -> SAT (0.00s)  check: arcs=33 loops=0 2cyc=0 tt=0 indep4=0 deg=[4, 5, 6] deg0=4
+MUTATION n=14 k=4 deg(0)<=5 with NO TT clauses, expect SAT   cadical195  vars=   287 clauses=   1318 -> SAT (0.00s)  check: arcs=83 loops=0 2cyc=0 tt=296 indep4=0 deg=[5, 12, 13] deg0=5
+MUTATION n=14 k=4 deg(0)<=5 with NO TT clauses, expect SAT   glucose4    vars=   287 clauses=   1318 -> SAT (0.00s)  check: arcs=42 loops=0 2cyc=0 tt=88 indep4=0 deg=[0, 3, 8] deg0=3
+MUTATION n=14 k=5 (I5-free) deg(0)<=5, expect SAT            cadical195  vars=   287 clauses=   4503 -> SAT (0.01s)  check: arcs=34 loops=0 2cyc=0 tt=0 indep5=0 deg=[2, 3, 4, 5, 6] deg0=3
+MUTATION n=14 k=5 (I5-free) deg(0)<=5, expect SAT            glucose4    vars=   287 clauses=   4503 -> SAT (0.09s)  check: arcs=31 loops=0 2cyc=0 tt=0 indep5=0 deg=[2, 4, 5, 7] deg0=2
+n=14 k=4 deg(0)>=7, expect UNSAT                             cadical195  vars=   315 clauses=   3530 -> UNSAT (0.12s)
+n=14 k=4 deg(0)>=7, expect UNSAT                             glucose4    vars=   315 clauses=   3530 -> UNSAT (0.09s)

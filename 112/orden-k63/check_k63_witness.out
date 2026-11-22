@@ -1,0 +1,5 @@
+N=29 arcs=140 outdeg set=[4, 5] indeg set=[4, 5]
+Orden 29-vertex witness, k(6,3)>=30: N=29 arcs=140 loops=0 2cycles=0 indep6=False TT3=False -> PASS
+neg: same graph asked for no independent 5-set: N=29 arcs=140 loops=0 2cycles=0 indep5=True TT3=False -> FAIL
+neg: one arc reversed in addition (2-cycle): N=29 arcs=141 loops=0 2cycles=1 indep6=False TT3=True -> FAIL
+ALL AS EXPECTED

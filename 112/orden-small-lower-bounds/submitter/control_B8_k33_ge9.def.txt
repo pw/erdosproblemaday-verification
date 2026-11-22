@@ -1,0 +1,6 @@
+control_B8_k33_ge9
+Claim: control: Bermond's graph, k(3,3) >= 9
+Vertices: 8. Arcs: 16. Arc list: control_B8_k33_ge9.txt
+
+Circulant on Z_8. Arc x -> x+s mod 8 for every s in
+  S = {1, 6}  (|S| = 2; S and -S are disjoint mod 8)
