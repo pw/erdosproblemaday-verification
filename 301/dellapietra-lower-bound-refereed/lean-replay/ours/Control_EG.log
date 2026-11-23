@@ -1,0 +1,19 @@
+Control_EG.lean:72:2: error: linarith failed to find a contradiction
+hup : ∀ (δ : ℝ), 0 < δ → ∃ N₀, ∀ N ≥ N₀, ∀ A ⊆ Finset.Icc 1 N, OursFree A → ↑A.card ≤ (1 + δ) * ↑N
+ε : ℝ
+hε : 0 < ε
+N₀ : ℕ
+hlow : ∀ N ≥ N₀, ∃ A ⊆ Finset.Icc 1 N, OursFree A ∧ (1 / 2 + ε) * ↑N ≤ ↑A.card
+N₁ : ℕ
+hN₁ : ∀ N ≥ N₁, ∀ A ⊆ Finset.Icc 1 N, OursFree A → ↑A.card ≤ (1 + ε / 2) * ↑N
+N : ℕ := max N₀ N₁ + 1
+hNdef : N = max N₀ N₁ + 1
+A : Finset ℕ
+hsub : A ⊆ Finset.Icc 1 N
+hfree : OursFree A
+hcard : (1 / 2 + ε) * ↑N ≤ ↑A.card
+hle : ↑A.card ≤ (1 + ε / 2) * ↑N
+hNpos : 0 < ↑N
+⊢ False
+failed
+RSSCAP done rc=1 peak_kb=6755768 wall=16s

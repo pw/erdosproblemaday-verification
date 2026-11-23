@@ -1,0 +1,3 @@
+name = "negctl"
+[[lean_lib]]
+name = "NegCtl"

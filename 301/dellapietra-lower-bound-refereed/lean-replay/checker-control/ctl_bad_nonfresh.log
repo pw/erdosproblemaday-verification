@@ -1,0 +1,10 @@
+leanchecker found a problem in NegCtl.Bad
+uncaught exception: while replaying declaration 'NegCtl.bad':
+(kernel) declaration type mismatch, 'NegCtl.bad' has type
+  True
+but it is expected to have type
+  False
+
+real	0m3.907s
+user	0m2.160s
+sys	0m1.465s

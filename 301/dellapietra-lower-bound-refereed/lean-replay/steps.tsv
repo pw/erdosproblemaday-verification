@@ -1,0 +1,10 @@
+2026-11-23T09:10:05Z start
+2026-11-23T09:11:10Z cache_get exit=1
+2026-11-23T09:11:10Z build exit=1
+2026-11-23T09:13:50Z note: pinned mathlib da1f94df unreachable from any teorth/mathlib4 branch; fetched by SHA, relaunch
+2026-11-23T09:13:50Z start
+2026-11-23T09:15:52Z cache_get exit=0
+2026-11-23T09:32:32Z build exit=0
+2026-11-23T09:32:50Z axioms_theirs exit=0
+2026-11-23T09:32:50Z done
+2026-11-23T09:33:23Z leanchecker_fresh start module=Erdos301

@@ -1,0 +1,4 @@
+Control_axioms.lean:7:8: warning: declaration uses `sorry`
+'EPAD301.fake_by_sorry' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'EPAD301.fake_by_axiom' depends on axioms: [propext, Classical.choice, EPAD301.cheat, Quot.sound]
+RSSCAP done rc=0 peak_kb=6731680 wall=15s

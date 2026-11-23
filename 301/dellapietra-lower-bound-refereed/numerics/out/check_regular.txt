@@ -1,0 +1,26 @@
+# dumped 520380 elements for L=7 Ah=1.5 Kh=2 At=1.5 Kt=2 to sets/reg_N1e6_L7_2_2_2_2.txt
+L=7 Ah=1.5 Kh=2 At=1.5 Kt=2 | 480656 19345 | 42559 2835 39724 | 520380 40760 0.0203800 0.066613
+### ./check 1000000 sets/reg_N1e6_L7_2_2_2_2.txt
+N=1000000 |A|=520380 k2_relations_found=0
+exit=0
+# dumped 1576 elements for L=7 Ah=1.5 Kh=2 At=1.5 Kt=2 to sets/reg_N3000_L7_2_2_2_2.txt
+### ./brute 3000 sets/reg_N3000_L7_2_2_2_2.txt 3
+N=3000 |A|=1576 k2=0 k3=0
+exit=0
+# dumped 530490 elements for L=7 Ah=1.0001 Kh=2 At=1.16312 Kt=3 to sets/reg_N1e6_L7_0_2_1_3.txt
+L=7 Ah=1.0001 Kh=2 At=1.16312 Kt=3 | 491601 8400 | 41246 2357 38889 | 530490 60980 0.0304900 0.057144
+### ./check 1000000 sets/reg_N1e6_L7_0_2_1_3.txt
+N=1000000 |A|=530490 k2_relations_found=0
+exit=0
+# dumped 1623 elements for L=7 Ah=1.0001 Kh=2 At=1.16312 Kt=3 to sets/reg_N3000_L7_0_2_1_3.txt
+### ./brute 3000 sets/reg_N3000_L7_0_2_1_3.txt 3
+N=3000 |A|=1623 k2=0 k3=0
+exit=0
+### ./check 1000000 sets/reg_plus_allheads_N1e6.txt (regular top + ALL rough heads: must find relations)
+relation 1/333371 = 1/624184 + 1/715528
+relation 1/333389 = 1/574470 + 1/794430
+relation 1/333421 = 1/549164 + 1/848708
+relation 1/333431 = 1/524400 + 1/915600
+relation 1/333487 = 1/515816 + 1/943448
+N=1000000 |A|=525101 k2_relations_found=3694
+exit=1

@@ -1,0 +1,4 @@
+# written BEFORE running simple at 1e8..1e10 (2026-11-23)
+# measured: 1e7 = 0.35 s wall, 93 MB RSS (4 threads). Segmented sieve => memory ~ constant (~100-150 MB, 4 threads x (2^18 seg buffers)).
+# time ~ linear in N: 1e8 ~ 4 s; 1e9 ~ 40 s; 1e10 ~ 6-8 min; 1e11 ~ 70-90 min (only if 1e10 lands under 8 min).
+# simple 1e11 launched with 3 threads (to keep 1 core for parsing): estimate ~3000 s wall (10^10 took 225 s on 4 threads), ~160 MB

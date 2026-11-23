@@ -1,0 +1,338 @@
+✔ [8608/8706] Built Mathlib.NumberTheory.SumPrimeReciprocals (10s)
+✔ [8609/8712] Built Mathlib.Analysis.SpecialFunctions.Gamma.Deriv (14s)
+✔ [8610/8746] Built Erdos327.Analytic.Bonferroni (12s)
+✔ [8612/8771] Built Erdos327.Analytic.PeriodicLattice (12s)
+✔ [8613/8771] Built Erdos327.Analytic.WeightedLinearSieveLocal (12s)
+✔ [8614/8771] Built Erdos327.Analytic.LogPowerAsymptotics (7.2s)
+✔ [8615/8771] Built Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup (11s)
+⚠ [8616/8771] Built Erdos327.Analytic.PowerLogSummability (9.5s)
+warning: Erdos327/Analytic/PowerLogSummability.lean:21:29: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8617/8771] Built Mathlib.Analysis.SpecialFunctions.Gamma.Beta (18s)
+✔ [8618/8771] Built Mathlib.Analysis.Meromorphic.Complex (6.9s)
+✔ [8619/8771] Built Erdos327.Analytic.WeightedLinearSieveFinite (27s)
+✔ [8620/8771] Built Mathlib.NumberTheory.NumberField.CanonicalEmbedding.ConvexBody (27s)
+✔ [8621/8771] Built Mathlib.Analysis.SpecialFunctions.Gamma.Deligne (10s)
+✔ [8622/8771] Built Mathlib.Probability.Distributions.Beta (8.6s)
+✔ [8623/8771] Built Mathlib.NumberTheory.LSeries.MellinEqDirichlet (14s)
+✔ [8624/8771] Built Mathlib.NumberTheory.NumberField.Units.DirichletTheorem (25s)
+✔ [8625/8771] Built Mathlib.NumberTheory.NumberField.Discriminant.Basic (26s)
+✔ [8626/8771] Built Mathlib.NumberTheory.Harmonic.GammaDeriv (25s)
+✔ [8627/8771] Built Mathlib.NumberTheory.LSeries.HurwitzZetaEven (18s)
+✔ [8628/8771] Built Mathlib.NumberTheory.LSeries.HurwitzZetaOdd (19s)
+✔ [8629/8771] Built Mathlib.NumberTheory.NumberField.Units.Regulator (23s)
+✔ [8630/8771] Built Mathlib.NumberTheory.NumberField.CanonicalEmbedding.FundamentalCone (29s)
+✔ [8631/8771] Built Mathlib.NumberTheory.NumberField.ClassNumber (17s)
+✔ [8632/8771] Built Mathlib.Analysis.SpecialFunctions.Gamma.Digamma (7.7s)
+✔ [8633/8771] Built Mathlib.NumberTheory.NumberField.Discriminant.Different (29s)
+✔ [8634/8771] Built Mathlib.NumberTheory.LSeries.HurwitzZeta (9.3s)
+✔ [8635/8771] Built Mathlib.NumberTheory.NumberField.ExistsRamified (17s)
+✔ [8636/8771] Built Mathlib.NumberTheory.NumberField.CanonicalEmbedding.NormLeOne (28s)
+✔ [8637/8771] Built Mathlib.NumberTheory.LSeries.RiemannZeta (15s)
+✔ [8638/8771] Built Mathlib.NumberTheory.NumberField.CMField (39s)
+✔ [8639/8771] Built Mathlib.NumberTheory.NumberField.Cyclotomic.Basic (40s)
+✔ [8640/8771] Built Mathlib.NumberTheory.ModularForms.EisensteinSeries.E2.Defs (11s)
+✔ [8641/8771] Built Mathlib.NumberTheory.LSeries.HurwitzZetaValues (10s)
+✔ [8642/8771] Built Mathlib.NumberTheory.NumberField.Ideal.Asymptotics (26s)
+✔ [8643/8771] Built Mathlib.NumberTheory.LSeries.Dirichlet (12s)
+✔ [8644/8771] Built Mathlib.NumberTheory.NumberField.Cyclotomic.PID (11s)
+✔ [8645/8771] Built Mathlib.NumberTheory.LSeries.ZMod (16s)
+✔ [8646/8771] Built Mathlib.NumberTheory.NumberField.Ideal.Basic (9.7s)
+✔ [8647/8771] Built Mathlib.NumberTheory.NumberField.DedekindZeta (10s)
+✔ [8648/8771] Built Mathlib.NumberTheory.NumberField.Cyclotomic.Three (14s)
+✔ [8649/8771] Built Mathlib.NumberTheory.NumberField.Cyclotomic.Ideal (31s)
+✔ [8650/8771] Built Mathlib.NumberTheory.EulerProduct.DirichletLSeries (19s)
+✔ [8651/8771] Built Mathlib.NumberTheory.NumberField.Cyclotomic.Galois (14s)
+✔ [8652/8771] Built Mathlib.NumberTheory.Harmonic.ZetaAsymp (40s)
+✔ [8653/8771] Built Mathlib.NumberTheory.FLT.Three (25s)
+✔ [8654/8771] Built Mathlib.NumberTheory.LSeries.DirichletContinuation (11s)
+✔ [8655/8771] Built Mathlib.NumberTheory.ModularForms.EisensteinSeries.QExpansion (56s)
+✔ [8656/8771] Built Mathlib.NumberTheory.LSeries.Nonvanishing (13s)
+✔ [8657/8771] Built Mathlib.NumberTheory.ModularForms.CuspFormSubmodule (11s)
+✔ [8658/8771] Built Mathlib.NumberTheory.LSeries.ZetaZeros (8.9s)
+✔ [8659/8771] Built Mathlib.NumberTheory.LSeries.PrimesInAP (14s)
+✔ [8660/8771] Built Mathlib.NumberTheory.ModularForms.EisensteinSeries.E2.Summable (55s)
+✔ [8661/8771] Built Mathlib.NumberTheory.ModularForms.EisensteinSeries.E2.Transform (13s)
+✔ [8662/8771] Built Mathlib.NumberTheory.ModularForms.DedekindEta (15s)
+✔ [8663/8771] Built Mathlib.NumberTheory.ModularForms.Delta (6.8s)
+✔ [8664/8771] Built Mathlib.NumberTheory.ModularForms.EisensteinSeries.E2.MDifferentiable (8.5s)
+✔ [8665/8771] Built Mathlib.NumberTheory.ModularForms.Discriminant (14s)
+✔ [8666/8771] Built Mathlib.NumberTheory.Mertens (65s)
+✔ [8667/8771] Built Mathlib.NumberTheory.ModularForms.Derivative (16s)
+✔ [8668/8771] Built Mathlib.NumberTheory.ModularForms.LevelOne.DimensionFormula (16s)
+✔ [8669/8771] Built Erdos327.Analytic.Mertens (13s)
+✔ [8670/8771] Built Mathlib.NumberTheory.ModularForms.DimensionFormulas.LevelOne (5.6s)
+✔ [8671/8771] Built Mathlib.NumberTheory.ModularForms.LevelOne.GradedRing (7.9s)
+✔ [8672/8771] Built Erdos327.Analytic.MeanValue (12s)
+✔ [8673/8771] Built Erdos327.Analytic.EulerProductBounds (12s)
+✔ [8674/8771] Built Erdos327.Analytic.PrimeWeight (11s)
+✔ [8675/8771] Built Erdos327.Analytic.WeightedLinearSieveCutoff (14s)
+✔ [8676/8771] Built Mathlib (16s)
+✔ [8677/8771] Built Erdos327.Analytic.PrimeRangeWeight (13s)
+✔ [8678/8771] Built Erdos327.Analytic.WeightedMangoldt (15s)
+✔ [8679/8771] Built Erdos327.Analytic.WeightedLinearSieveBoundarySharp (13s)
+✔ [8680/8771] Built Erdos327.Analytic.PowerConvolution (28s)
+✔ [8681/8771] Built Erdos327.Parameters (21s)
+✔ [8682/8771] Built Erdos327.Defs (20s)
+✔ [8683/8771] Built Erdos301.Defs (20s)
+✔ [8684/8771] Built Erdos327.Analytic.WeightedMangoldtUniform (12s)
+⚠ [8685/8771] Built Erdos327.Analytic.RoughCount (17s)
+warning: Erdos327/Analytic/RoughCount.lean:295:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos327/Analytic/RoughCount.lean:295:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8686/8771] Built Erdos327.Analytic.ResidualMean (16s)
+✔ [8687/8771] Built Erdos327.Analytic.FactorialTailBound (15s)
+✔ [8688/8771] Built Erdos327.Analytic.PowerTail (21s)
+✔ [8689/8771] Built Erdos327.Basic (22s)
+✔ [8690/8771] Built Erdos327.AsymptoticReduction (24s)
+⚠ [8691/8771] Built Erdos301.Validate (22s)
+warning: Erdos301/Validate.lean:34:27: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.sum_univ_two, reciprocal, Matrix.cons_val_zero, Matrix.cons_val_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8692/8771] Built Erdos327.Analytic.Regularity (24s)
+✔ [8693/8771] Built Erdos301.HeadBound (26s)
+✔ [8694/8771] Built Erdos327.Analytic.FactorCounts (11s)
+✔ [8695/8771] Built Erdos327.Analytic.ResidualMeanBridge (11s)
+✔ [8696/8771] Built Erdos327.Analytic.CutoffMoment (14s)
+✔ [8697/8771] Built Erdos327.Analytic.SieveSchedule (11s)
+✔ [8698/8771] Built Erdos327.SourceCoordinates (22s)
+✔ [8699/8771] Built Erdos327.SourceFilter (21s)
+✔ [8700/8771] Built Erdos327.Coordinates (21s)
+✔ [8701/8771] Built Erdos327.Analytic.WeightedLinearSieveBridge (15s)
+✔ [8702/8771] Built Erdos301.Upper.Finite (102s)
+✔ [8703/8771] Built Erdos327.Assembly (22s)
+✔ [8704/8771] Built Erdos301.UpperThird (19s)
+✔ [8705/8771] Built Erdos327.Analytic.SieveScheduleAsymptotic (15s)
+✔ [8706/8771] Built Erdos327.Analytic.ThreeFormProductBounds (17s)
+✔ [8707/8771] Built Erdos301.Upper.Fiber (19s)
+✔ [8708/8771] Built Erdos327.Analytic.CenteredTail (24s)
+✔ [8709/8771] Built Erdos327.Analytic.SieveScheduleLog (11s)
+⚠ [8710/8771] Built Erdos327.Analytic.MixedEdges (21s)
+warning: Erdos327/Analytic/MixedEdges.lean:138:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8711/8771] Built Erdos327.AnalyticAssembly (20s)
+warning: Erdos327/AnalyticAssembly.lean:116:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8712/8771] Built Erdos301.TwoTerm (19s)
+✔ [8713/8771] Built Erdos327.Analytic.SieveScheduleErrors (21s)
+✔ [8714/8771] Built Erdos327.Analytic.ThreeFormBoxBounds (18s)
+✔ [8715/8771] Built Erdos327.Analytic.DyadicTerminalArithmetic (22s)
+✔ [8716/8771] Built Erdos327.Analytic.CenteredTailBounds (32s)
+✔ [8717/8771] Built Erdos327.Analytic.SourceBadCoordinates (20s)
+⚠ [8718/8771] Built Erdos327.Analytic.ThreeFormWeightBridge (12s)
+warning: Erdos327/Analytic/ThreeFormWeightBridge.lean:52:10: This simp argument is unused:
+  sourceQU
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceQV, sourceQSum, hpL, hpu, hpsum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos327/Analytic/ThreeFormWeightBridge.lean:52:30: This simp argument is unused:
+  sourceQSum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceQU, sourceQV, hpL, hpu, hpsum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos327/Analytic/ThreeFormWeightBridge.lean:52:42: This simp argument is unused:
+  hpL
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceQU, sourceQV, sourceQSum, hpu, hpsum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8719/8771] Built Erdos301.Localization (19s)
+✔ [8720/8771] Built Erdos327.Analytic.ThreeFormBoxSharp (14s)
+⚠ [8721/8771] Built Erdos327.Analytic.CanonicalReduction (40s)
+warning: Erdos327/Analytic/CanonicalReduction.lean:84:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos327/Analytic/CanonicalReduction.lean:84:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos327/Analytic/CanonicalReduction.lean:162:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos327/Analytic/CanonicalReduction.lean:162:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos327/Analytic/CanonicalReduction.lean:170:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8722/8771] Built Erdos327.Analytic.ThreeFormSmallCutoff (13s)
+✔ [8723/8771] Built Erdos327.Analytic.CoordinateCounting (21s)
+✔ [8724/8771] Built Erdos327.Analytic.ThreeFormBoxAllCutoffs (12s)
+⚠ [8725/8771] Built Erdos301.Coordinates (21s)
+warning: Erdos301/Coordinates.lean:20:31: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos301/Coordinates.lean:28:18: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos301/Coordinates.lean:37:31: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos301/Coordinates.lean:60:5: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8726/8771] Built Erdos327.Analytic.TailInstantiation (20s)
+warning: Erdos327/Analytic/TailInstantiation.lean:166:6: 'push_cast' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8727/8771] Built Erdos327.Analytic.MixedIndicator (23s)
+✔ [8728/8771] Built Erdos327.Analytic.SourceOuterWeight (19s)
+✔ [8729/8771] Built Erdos327.Analytic.ProductEnvelopePowers (17s)
+✔ [8730/8771] Built Erdos327.Analytic.SourceIndicator (21s)
+⚠ [8731/8771] Built Erdos301.Construction (16s)
+warning: Erdos301/Construction.lean:28:5: Variable name `hHsub` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hHsub
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8732/8771] Built Erdos327.Analytic.MixedOuterWeight (19s)
+✔ [8733/8771] Built Erdos327.Analytic.SourceBoxAssembly (20s)
+✔ [8734/8771] Built Erdos301.Analytic.Defs (18s)
+✔ [8735/8771] Built Erdos327.Analytic.DyadicCover (17s)
+✔ [8736/8771] Built Erdos327.Analytic.SourceBoxAllCutoffs (17s)
+✔ [8737/8771] Built Erdos327.Analytic.MixedBoxAssembly (26s)
+✔ [8738/8771] Built Erdos301.Analytic.Assembly (18s)
+✔ [8739/8771] Built Erdos327.Analytic.SourceGlobalAssembly (19s)
+✔ [8740/8771] Built Erdos327.Analytic.MixedMainReduction (19s)
+✔ [8741/8771] Built Erdos327.Analytic.MixedBoxAllCutoffs (19s)
+⚠ [8742/8771] Built Erdos301.Analytic.Conclusion (17s)
+warning: Erdos301/Analytic/Conclusion.lean:37:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8743/8771] Built Erdos327.Analytic.SourceSmallBlocks (19s)
+⚠ [8744/8771] Built Erdos327.Analytic.MixedGlobalAssembly (20s)
+warning: Erdos327/Analytic/MixedGlobalAssembly.lean:176:37: Variable name `L` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _L
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8745/8771] Built Erdos327.Analytic.ScheduledProductBounds (24s)
+✔ [8746/8771] Built Erdos301.Analytic.Tails (20s)
+✔ [8747/8771] Built Erdos327.Analytic.MixedSmallBlocks (11s)
+✔ [8748/8771] Built Erdos301.Analytic.ConflictWeights (13s)
+⚠ [8749/8771] Built Erdos301.Analytic.Conflicts (13s)
+warning: Erdos301/Analytic/Conflicts.lean:79:5: Variable name `ht` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos301/Analytic/Conflicts.lean:79:18: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos301/Analytic/Conflicts.lean:79:31: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos301/Analytic/Conflicts.lean:135:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos301/Analytic/Conflicts.lean:151:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+✔ [8750/8771] Built Erdos327.Analytic.ScheduledInitialVanishing (15s)
+✔ [8751/8771] Built Erdos327.Analytic.ScheduledReduction (15s)
+✔ [8752/8771] Built Erdos301.Analytic.ConflictBox (21s)
+✔ [8753/8771] Built Erdos327.Analytic.ScheduledResidualBounds (22s)
+⚠ [8754/8771] Built Erdos327.Analytic.FinalThresholds (25s)
+warning: Erdos327/Analytic/FinalThresholds.lean:55:28: Variable name `hC` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hC
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8755/8771] Built Erdos301.Analytic.ThreeFormWeights (27s)
+✔ [8756/8771] Built Erdos327.Analytic.ScheduledSupport (18s)
+⚠ [8757/8771] Built Erdos327.Analytic.AsymptoticParameterSelection (21s)
+warning: Erdos327/Analytic/AsymptoticParameterSelection.lean:32:19: Variable name `hC` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hC
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8758/8771] Built Erdos301.Analytic.ConflictIndicator (20s)
+✔ [8759/8771] Built Erdos301.Analytic.ThreeFormBridge (23s)
+✔ [8760/8771] Built Erdos327.Analytic.MixedScheduledSummation (51s)
+⚠ [8761/8771] Built Erdos301.Analytic.ConflictDyadic (27s)
+warning: Erdos301/Analytic/ConflictDyadic.lean:132:18: Variable name `hnear` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnear
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8762/8771] Built Erdos327.Analytic.MixedMainSummation (25s)
+✔ [8763/8771] Built Erdos301.Analytic.ConflictExplicit (20s)
+⚠ [8764/8771] Built Erdos327.Analytic.MixedTerminalSummation (29s)
+warning: Erdos327/Analytic/MixedTerminalSummation.lean:807:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8765/8771] Built Erdos301.Analytic.ConflictSchedule (25s)
+warning: Erdos301/Analytic/ConflictSchedule.lean:181:5: Variable name `hj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8766/8771] Built Erdos327.Analytic.MixedBudgetSummation (27s)
+⚠ [8767/8771] Built Erdos327.Analytic.MixedBoundarySummation (35s)
+warning: Erdos327/Analytic/MixedBoundarySummation.lean:1599:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos327/Analytic/MixedBoundarySummation.lean:1635:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8768/8771] Built Erdos327.Analytic.MixedFinalSummation (18s)
+⚠ [8769/8771] Built Erdos301.Analytic.ConflictGlobal (18s)
+warning: Erdos301/Analytic/ConflictGlobal.lean:26:35: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Erdos327.Analytic.dyadicSlice, conflictDyadicCoordinateSet, Erdos327.Analytic.dyadicScale]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8770/8771] Built Erdos301 (13s)
+Build completed successfully (8771 jobs).
+
+real	16m40.083s
+user	68m10.990s
+sys	10m6.520s

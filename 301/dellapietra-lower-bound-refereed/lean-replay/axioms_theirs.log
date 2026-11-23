@@ -1,0 +1,38 @@
+'Erdos301.Relation.head_lt_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Relation.head_mul_length_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Relation.length_eq_two_of_supportedAboveThird' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Relation.two_term_nat_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Relation.two_term_even_tails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Relation.two_term_localization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.coordinate_reciprocal_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.exists_twoCoordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Relation.exists_ordered_twoCoordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.TwoCoordinates.s_lt_two_mul_r_of_upper_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.repairedCarrier_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.roughThirdSet_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.roughThirdSet_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.roughThirdSet_card_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.erdos301Conclusion_of_eventual_budgets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.roughLowInterval_card_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.headSource_card_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.topSource_card_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.card_conflictDyadicCoordinateSet_le_explicit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos301.Analytic.card_conflictDyadicCoordinateSet_le_refinedScheduledBlock' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos301.Analytic.card_badHeads_le_refinedScheduled_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.exists_eventualRoughThirdBudgets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.erdos301Conclusion_unconditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Validate.not_admissible_236' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Validate.not_admissible_24612' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Validate.not_admissible_upto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Upper.blockMax60' depends on axioms: [propext]
+'Erdos301.Upper.witness60_free' depends on axioms: [propext]
+'Erdos301.Upper.no_fiber_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Upper.not_admissible_of_fiber_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+real	0m18.024s
+user	0m12.115s
+sys	0m6.085s

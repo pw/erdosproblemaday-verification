@@ -1,0 +1,23 @@
+box: N=1200, L=7; exact rational arithmetic
+1. exact parameter window
+  [ok] head centered-tail condition A_h log z_h > z_h-1 -- lower margin 0.000000004999833
+  [ok] top centered-tail condition A_t log z_t > z_t-1 -- lower margin 0.000004273057
+  [ok] top exceptional tail is o(N rho_L): c log z_t > 1 -- lower margin 0.000211199868
+  [ok] regularity cost is affordable: c log q_t < 1 -- lower margin 0.000218077141
+  [ok] dyadic exponent E=A_h log q_h+A_t log q_t+2/(q_h q_t)+1/q_h+1/q_t-4 is below -1 -- certified upper E=-1.000317439143
+2. exact k=2 coordinates, localization, and finite proxy
+  [ok] k=2 enumeration is non-vacuous -- 1337 relations
+  [ok] every relation has unique coprime coordinates a=trs, b=tr(r+s), c=ts(r+s) -- counterexamples: []
+  [ok] an odd head forces odd t,r,s and even endpoints -- counterexamples: []
+  [ok] top-endpoint relations from a>N/3 have r<s<2r -- counterexamples: []
+  [ok] finite rough-third proxy has density above 1/2 -- |A|=654/1200=0.545000; low=54, deleted heads=1
+  [ok] finite proxy contains no k=2 relation -- counterexamples: []
+  [ok] every proxy element is above N/3, so k>=3 is impossible by a*k<N -- minimum element 401
+  [ok] large divisor scan remains above density 1/2 -- N=1000000; |A|=540204; density=0.540204; low=44445, deleted heads=4242, relations=5391
+3. three-linear-form local factors
+  [ok] rho^+_{R,S,R+S}(p)=3p-2 at every tested odd prime -- counterexamples: []
+  [ok] small-prime factor is exactly 1+1/p-1/p^2 -- failed primes: []
+  [ok] large-prime factor has coefficient gamma+alpha+beta and O(p^-2) remainder -- tested p<=97; scaled-error failures: []
+
+all checks passed
+exit 0

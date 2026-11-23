@@ -1,0 +1,15 @@
+EPAD301.ours_lower : ∃ ε, 0 < ε ∧ ∃ N₀, ∀ N ≥ N₀, ∃ A ⊆ Finset.Icc 1 N, EPAD301.OursFree A ∧ (1 / 2 + ε) * ↑N ≤ ↑A.card
+def EPAD301.OursFree : Finset ℕ → Prop :=
+fun A => ∀ (a : ℕ) (B : Finset ℕ), a ∈ A → B ⊆ A → a ∉ B → 2 ≤ B.card → 1 / ↑a ≠ ∑ b ∈ B, 1 / ↑b
+'EPAD301.oursFree_of_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EPAD301.ours_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EPAD301.ours_answers_EG_no' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EPAD301.not_oursFree_236' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EPAD301.not_oursFree_24612' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EPAD301.not_oursFree_Icc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos301.Analytic.erdos301Conclusion_unconditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+RSSCAP done rc=0 peak_kb=6767108 wall=17s
+
+real	0m19.416s
+user	0m14.177s
+sys	0m7.040s

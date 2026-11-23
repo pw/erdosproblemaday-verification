@@ -1,0 +1,35 @@
+## check.c (divisors of a^2 route), every element tried as head
+### ./check 6 sets/c236.txt
+relation 1/2 = 1/3 + 1/6
+N=6 |A|=3 k2_relations_found=1
+exit=1
+### ./check 42 sets/c23742.txt
+N=42 |A|=4 k2_relations_found=0
+exit=0
+### ./check 1000000 sets/full_N1000000.txt
+relation 1/2 = 1/3 + 1/6
+relation 1/3 = 1/4 + 1/12
+relation 1/4 = 1/5 + 1/20
+relation 1/4 = 1/6 + 1/12
+relation 1/5 = 1/6 + 1/30
+N=1000000 |A|=1000000 k2_relations_found=2524207
+exit=1
+### ./check 1000000 sets/pre_N1000000.txt
+relation 1/333371 = 1/624184 + 1/715528
+relation 1/333389 = 1/574470 + 1/794430
+relation 1/333421 = 1/549164 + 1/848708
+relation 1/333431 = 1/524400 + 1/915600
+relation 1/333431 = 1/608874 + 1/737058
+N=1000000 |A|=544446 k2_relations_found=5391
+exit=1
+### ./check 1000000 sets/simple_N1e6_L7.txt
+N=1000000 |A|=540204 k2_relations_found=0
+exit=0
+### ./check 3000 sets/simple_N3000_L7.txt
+N=3000 |A|=1630 k2_relations_found=0
+exit=0
+### deleted heads (pre minus final): 4242 first: [333371, 333389, 333421, 333431, 333487]
+### ./check 1000000 sets/mutant_N1e6.txt (final set + first deleted head)
+relation 1/333371 = 1/624184 + 1/715528
+N=1000000 |A|=540205 k2_relations_found=1
+exit=1

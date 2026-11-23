@@ -1,0 +1,4 @@
+# written BEFORE running regular at 1e8, 1e9 (2026-11-23)
+# measured: 1e7 = 1.53 s wall, 159 MB RSS (4 threads). Memory ~constant (segmented; spf table up to 3*sqrt(N)).
+# time ~ linear: 1e8 ~ 16 s; 1e9 ~ 3 min; 1e10 ~ 30-35 min.
+# simple at 1e11 (measured 1e10 = 225 s): ~40-50 min, ~160 MB.

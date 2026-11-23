@@ -1,0 +1,5 @@
+2026-11-23T09:16:48Z build exit=0
+2026-11-23T09:16:52Z bad_nonfresh exit=1
+2026-11-23T09:16:55Z good_nonfresh exit=0
+2026-11-23T09:28:16Z bad_fresh exit=1
+2026-11-23T09:28:16Z done

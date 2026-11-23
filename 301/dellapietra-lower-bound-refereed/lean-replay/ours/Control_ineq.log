@@ -1,0 +1,18 @@
+Control_ineq.lean:43:18: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  false
+in the target expression
+  (↑a)⁻¹ = ∑ b ∈ B, 1 / ↑b
+
+A : Finset ℕ
+hpos : ∀ n ∈ A, 1 ≤ n
+hA : Erdos301.Admissible A
+a : ℕ
+B : Finset ℕ
+ha : a ∈ A
+hB : B ⊆ A
+haB : a ∉ B
+hcard : 2 ≤ B.card
+heq : 1 / ↑a ≤ ∑ b ∈ B, 1 / ↑b
+hsum : ∑ i, (↑↑(B.equivFin.symm i))⁻¹ = ∑ b ∈ B, 1 / ↑b
+⊢ (↑a)⁻¹ = ∑ b ∈ B, 1 / ↑b
+RSSCAP done rc=1 peak_kb=6725024 wall=12s

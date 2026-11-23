@@ -1,0 +1,20 @@
+# simple construction: N=100000  top=[50000,100000] (50001 elements)  heads a in [33334,49999]  max tau(a)=16
+# L  rough_heads  deleted  kept_heads  |A|  2|A|-N  excess=(|A|/N-1/2)  deleted_fraction  relations
+L=7  4445 355 4090 54091 8182 0.0409100 0.079865 419
+L=11 3810 253 3557 53558 7116 0.0355800 0.066404 294
+L=13 3465 193 3272 53273 6546 0.0327300 0.055699 216
+L=17 3199 154 3045 53046 6092 0.0304600 0.048140 163
+L=19 3010 133 2877 52878 5756 0.0287800 0.044186 142
+L=23 2853 116 2737 52738 5476 0.0273800 0.040658 125
+# L=7 heads by position of a in (N/3,N/2), fifths: heads deleted kept
+pos0 888 127 761
+pos1 889 102 787
+pos2 890 71 819
+pos3 888 46 842
+pos4 890 9 881
+# L=7 heads by Omega(a): Omega heads deleted kept
+Omega1 1564 0 1564
+Omega2 2088 90 1998
+Omega3 704 219 485
+Omega4 85 46 39
+Omega5 4 0 4

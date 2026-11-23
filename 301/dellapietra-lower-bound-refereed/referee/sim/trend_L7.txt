@@ -1,0 +1,5 @@
+N=10000 L=7 At=1.16312 Kt=3.00 Kh=-1.0 | low=445 lowreg=445 | simple: del=27 rel=31 size=5419 dens=0.541900 excess=0.041900 | regtop: topremoved=13 del=27 rel=31 size=5406 dens=0.540600 excess=0.040600
+N=100000 L=7 At=1.16312 Kt=3.00 Kh=-1.0 | low=4445 lowreg=4445 | simple: del=355 rel=419 size=54091 dens=0.540910 excess=0.040910 | regtop: topremoved=602 del=341 rel=395 size=53503 dens=0.535030 excess=0.035030
+N=1000000 L=7 At=1.16312 Kt=3.00 Kh=-1.0 | low=44445 lowreg=44445 | simple: del=4242 rel=5391 size=540204 dens=0.540204 excess=0.040204 | regtop: topremoved=8400 del=3787 rel=4331 size=532259 dens=0.532259 excess=0.032259
+N=10000000 L=7 At=1.16312 Kt=3.00 Kh=-1.0 | low=444445 lowreg=444445 | simple: del=47197 rel=65609 size=5397249 dens=0.539725 excess=0.039725 | regtop: topremoved=69112 del=42450 rel=51437 size=5332884 dens=0.533288 excess=0.033288
+N=100000000 L=7 At=1.16312 Kt=3.00 Kh=-1.0 | low=4444445 lowreg=4444445 | simple: del=520315 rel=773576 size=53924131 dens=0.539241 excess=0.039241 | regtop: topremoved=722953 del=473540 rel=597639 size=53247953 dens=0.532480 excess=0.032480

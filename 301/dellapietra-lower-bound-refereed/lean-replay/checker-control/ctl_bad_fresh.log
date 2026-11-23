@@ -1,0 +1,9 @@
+uncaught exception: while replaying declaration 'NegCtl.bad':
+(kernel) declaration type mismatch, 'NegCtl.bad' has type
+  True
+but it is expected to have type
+  False
+
+real	11m20.314s
+user	10m28.920s
+sys	0m11.982s
