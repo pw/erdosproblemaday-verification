@@ -1,0 +1,20 @@
+[    0.9s] D: model terms == derived set [31, 47, 59, 63] (new vertex adjacent to >=2 roots), coefficient 1 each
+[    0.9s] Bollobas descriptor == paper: type K4-01 (62), sector N(0)&N(1), X^3 - 11 X E + 30 T + 15 P3
+[    0.9s] basis rows: every flag mask has roots inducing its labelled type; 0 rows contained two masks of the same flag (merged)
+[    0.9s] 816 P_flag generators: all valid order-6 tau-flags; 0 duplicates; 816 distinct of 816 order-6 tau-flags in existence
+[    0.9s] beta = 1917/10 + -1648/15 sqrt3 (== paper (32)); constant term lambda817 - lambda818 = -1/4 + 0 sqrt3
+[    0.9s] prime seed 9858276300408315322; primes [3379646733104846137, 2442317717249819041, 2835743452119960671] (all = +-1 mod 12)
+[   10.9s] EXACT residual: 1044/1044 coefficients exactly zero (9.9s)
+[   11.9s] mod p=3379646733104846137 sqrt3->325025072131601806: 1044/1044 zero; agrees with exact residual reduced mod p: True (1.1s)
+[   12.9s] mod p=3379646733104846137 sqrt3->3054621660973244331: 1044/1044 zero; agrees with exact residual reduced mod p: True (0.9s)
+[   14.0s] mod p=2442317717249819041 sqrt3->643750357905679351: 1044/1044 zero; agrees with exact residual reduced mod p: True (1.1s)
+[   14.9s] mod p=2442317717249819041 sqrt3->1798567359344139690: 1044/1044 zero; agrees with exact residual reduced mod p: True (0.9s)
+[   15.8s] mod p=2835743452119960671 sqrt3->1837052405220240683: 1044/1044 zero; agrees with exact residual reduced mod p: True (0.9s)
+[   16.7s] mod p=2835743452119960671 sqrt3->998691046899719988: 1044/1044 zero; agrees with exact residual reduced mod p: True (1.0s)
+[   17.0s] wrote termsA.pkl (exact per-term contributions for every H)
+IDENTITY OK (exact, all 1044) 
+	Command being timed: "python3 evalA.py"
+	User time (seconds): 16.92
+	System time (seconds): 0.20
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.17
+	Maximum resident set size (kbytes): 179552

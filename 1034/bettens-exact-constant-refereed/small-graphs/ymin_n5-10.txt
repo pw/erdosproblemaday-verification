@@ -1,0 +1,40 @@
+== n=5 edges>=7
+graphs=8 trianglefree=0 minM=4
+M=4: 2
+M=5: 6
+witness DT{
+== n=6 edges>=10
+graphs=33 trianglefree=0 minM=4
+M=4: 1
+M=5: 12
+M=6: 20
+witness EQ~o
+== n=7 edges>=13
+graphs=243 trianglefree=0 minM=5
+M=5: 19
+M=6: 104
+M=7: 120
+witness FCZ~o
+== n=8 edges>=17
+graphs=2481 trianglefree=0 minM=5
+M=5: 8
+M=6: 221
+M=7: 1177
+M=8: 1075
+witness GCR~vo
+== n=9 edges>=21
+graphs=59924 trianglefree=0 minM=5
+M=5: 1
+M=6: 447
+M=7: 9197
+M=8: 31196
+M=9: 19083
+witness HCOf~z{
+== n=10 edges>=26
+graphs=2331184 trianglefree=0 minM=6
+M=6: 132
+M=7: 24929
+M=8: 447015
+M=9: 1247159
+M=10: 611949
+witness I?`F~z{~?

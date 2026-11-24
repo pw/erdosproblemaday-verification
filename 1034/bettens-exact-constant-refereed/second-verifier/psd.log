@@ -1,0 +1,31 @@
+[   87.1s] block 0: PSD=True {'rank': 8, 'n': 8, 'kernel': 0, 'min_pivot': 0.11384000800171634} (0.0s)
+[   87.1s] block 1: PSD=True {'rank': 17, 'n': 20, 'kernel': 3, 'min_pivot': 0.003089555731605742} (18.8s)
+[   87.1s] block 2: PSD=True {'rank': 23, 'n': 26, 'kernel': 3, 'min_pivot': 0.004054892882109584} (6.9s)
+[   87.1s] block 5: PSD=True {'rank': 47, 'n': 48, 'kernel': 1, 'min_pivot': 0.006508015098916076} (70.7s)
+[   87.1s] block 7: PSD=True {'rank': 45, 'n': 48, 'kernel': 3, 'min_pivot': 0.006433690926229474} (87.0s)
+[   87.1s] block 9: PSD=True {'rank': 24, 'n': 26, 'kernel': 2, 'min_pivot': 0.0050817048349784955} (19.8s)
+[   87.1s] block 11: PSD=True {'rank': 21, 'n': 22, 'kernel': 1, 'min_pivot': 0.0038215612585190684} (5.1s)
+[   87.1s] PSD: 82/82 matrices PSD; singular blocks (index, size, exact kernel dim): [(1, 20, 3), (2, 26, 3), (5, 48, 1), (7, 48, 3), (9, 26, 2), (11, 22, 1), (12, 6, 3), (15, 12, 1), (19, 12, 1), (23, 12, 1), (29, 10, 3), (39, 12, 1), (41, 18, 1), (55, 12, 3), (57, 12, 1), (59, 10, 1), (65, 12, 1), (67, 16, 1), (71, 18, 1), (77, 12, 1), (79, 6, 2), (80, 4, 1)]
+[   87.1s] min positive pivot over all blocks: 3.090e-03
+[   87.3s] signs: lambda_0..815 + beta negative: []; zero lambdas: 596; beta sign 1 (1.40535)
+[   87.4s] signs: negative slacks: []; zero slacks: 40; slacks whose a and b parts have opposite signs (decided by squaring): 1003; min positive slack 3.766e-03
+PSD+SIGNS OK
+[   87.4s] --- PSD/sign controls ---
+[   87.5s] control indefinite [[1,2],[2,1]]: PSD=False (expected False) -> PASS; negative largest diagonal -3.000e+00 at index 1 after 1 pivots
+[   87.5s] control zero pivot, nonzero column [[1,0,0],[0,0,1],[0,1,0]]: PSD=False (expected False) -> PASS; zero pivot with nonzero entry at (1,2) = 1.000e+00 after 1 pivots
+[   87.5s] control zero diagonal, nonzero column [[0,1],[1,5]]: PSD=False (expected False) -> PASS; negative largest diagonal -2.000e-01 at index 0 after 1 pivots
+[   87.5s] control singular PSD [[2,1,0],[1,1/2,0],[0,0,0]]: PSD=True (expected True) -> PASS; {'rank': 1, 'n': 3, 'kernel': 2, 'min_pivot': 2.0}
+[   87.5s] control sqrt3 entries PSD [[2, sqrt3],[sqrt3, 3/2]] (det 0): PSD=True (expected True) -> PASS; {'rank': 1, 'n': 2, 'kernel': 1, 'min_pivot': 2.0}
+[   87.5s] control sqrt3 entries indefinite [[2, sqrt3],[sqrt3, 3/2 - 1e-40]]: PSD=False (expected False) -> PASS; negative largest diagonal -1.000e-40 at index 1 after 1 pivots
+[  250.4s] control real singular block 5 minus 1e-30*I: PSD=False (expected False) -> PASS; negative largest diagonal -1.940e-30 at index 24 after 47 pivots
+[  250.4s] control real singular block 12 minus 1e-30*I: PSD=False (expected False) -> PASS; negative largest diagonal -1.000e-30 at index 0 after 3 pivots
+[  441.7s] control real singular block 7 minus 1e-30*I: PSD=False (expected False) -> PASS; negative largest diagonal -1.500e-30 at index 28 after 45 pivots
+[  441.7s] control real block 3 with off-diagonal pushed past det=0: PSD=False (expected False) -> PASS; negative largest diagonal -1.048e+02 at index 0 after 1 pivots
+[  441.7s] sign control 1.732050807568877 - sqrt3: sign -1 (expect -1); 1.732050807568878 - sqrt3: sign 1 (expect +1)
+[  441.8s] sign control: negate slack[2] -> negative slacks found [2] (expect [2])
+[  441.8s] controls done
+	Command being timed: "python3 psd.py"
+	User time (seconds): 584.57
+	System time (seconds): 1.17
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:21.87
+	Maximum resident set size (kbytes): 42680

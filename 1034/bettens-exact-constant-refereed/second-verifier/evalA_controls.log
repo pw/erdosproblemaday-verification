@@ -1,0 +1,31 @@
+[    0.9s] D: model terms == derived set [31, 47, 59, 63] (new vertex adjacent to >=2 roots), coefficient 1 each
+[    0.9s] Bollobas descriptor == paper: type K4-01 (62), sector N(0)&N(1), X^3 - 11 X E + 30 T + 15 P3
+[    0.9s] basis rows: every flag mask has roots inducing its labelled type; 0 rows contained two masks of the same flag (merged)
+[    0.9s] 816 P_flag generators: all valid order-6 tau-flags; 0 duplicates; 816 distinct of 816 order-6 tau-flags in existence
+[    0.9s] beta = 1917/10 + -1648/15 sqrt3 (== paper (32)); constant term lambda817 - lambda818 = -1/4 + 0 sqrt3
+[    0.9s] prime seed 8647961919319708163; primes [3983548810687597871, 3032062017656813027, 3479788757523726899] (all = +-1 mod 12)
+[   12.5s] EXACT residual: 1044/1044 coefficients exactly zero (11.6s)
+[   13.5s] mod p=3983548810687597871 sqrt3->2530486184016624978: 1044/1044 zero; agrees with exact residual reduced mod p: True (1.0s)
+[   14.4s] mod p=3983548810687597871 sqrt3->1453062626670972893: 1044/1044 zero; agrees with exact residual reduced mod p: True (1.0s)
+[   15.4s] mod p=3032062017656813027 sqrt3->1203403597960611595: 1044/1044 zero; agrees with exact residual reduced mod p: True (0.9s)
+[   16.4s] mod p=3032062017656813027 sqrt3->1828658419696201432: 1044/1044 zero; agrees with exact residual reduced mod p: True (1.0s)
+[   17.6s] mod p=3479788757523726899 sqrt3->220724190876997213: 1044/1044 zero; agrees with exact residual reduced mod p: True (1.2s)
+[   19.0s] mod p=3479788757523726899 sqrt3->3259064566646729686: 1044/1044 zero; agrees with exact residual reduced mod p: True (1.3s)
+[   19.4s] wrote termsA.pkl (exact per-term contributions for every H)
+IDENTITY OK (exact, all 1044) 
+[   31.2s] CONTROL slack[517] += 1e-6: nonzero residual on {'exact': 1, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 1, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 1} graphs; exact & both roots mod p agree on the set: True; first model indices [517]
+[   42.7s] CONTROL slack[517] += 1e-6*sqrt3: nonzero residual on {'exact': 1, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 1, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 1} graphs; exact & both roots mod p agree on the set: True; first model indices [517]
+[   53.6s] CONTROL lambda[101] += 1e-6: nonzero residual on {'exact': 40, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 40, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 40} graphs; exact & both roots mod p agree on the set: True; first model indices [96, 153, 167, 250, 182, 267, 398, 279, 276, 389, 216, 307]
+[   64.9s] CONTROL lambda[1] (was 0) := 1e-6: nonzero residual on {'exact': 36, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 36, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 36} graphs; exact & both roots mod p agree on the set: True; first model indices [11, 21, 23, 44, 29, 31, 51, 53, 57, 55, 92, 96]
+[   76.4s] CONTROL Q0[1,2] and [2,1] += 1e-6: nonzero residual on {'exact': 549, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 549, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 549} graphs; exact & both roots mod p agree on the set: True; first model indices [23, 43, 82, 86, 85, 147, 244, 57, 58, 93, 97, 92]
+[   87.4s] CONTROL Q5[3,17] and [17,3] += 1e-6: nonzero residual on {'exact': 10, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 10, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 10} graphs; exact & both roots mod p agree on the set: True; first model indices [32, 52, 91, 69, 109, 103, 160, 138, 221, 311]
+[   99.2s] CONTROL Q40[0,1] and [1,0] += 1e-6: nonzero residual on {'exact': 4, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 4, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 4} graphs; exact & both roots mod p agree on the set: True; first model indices [54, 67, 134, 137]
+[  110.6s] CONTROL beta += 1e-6: nonzero residual on {'exact': 33, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 33, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 33} graphs; exact & both roots mod p agree on the set: True; first model indices [525, 674, 806, 902, 677, 810, 817, 813, 907, 911, 969, 918]
+[  122.5s] CONTROL c* += 1e-6: nonzero residual on {'exact': 937, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 937, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 937} graphs; exact & both roots mod p agree on the set: True; first model indices [6, 11, 21, 42, 81, 25, 23, 44, 43, 83, 82, 146]
+[  133.9s] CONTROL lambda817 (constant) += 1e-6: nonzero residual on {'exact': 1044, 'mod p=3983548810687597871 sqrt3->2530486184016624978': 1044, 'mod p=3983548810687597871 sqrt3->1453062626670972893': 1044} graphs; exact & both roots mod p agree on the set: True; first model indices [0, 1, 2, 4, 9, 19, 40, 3, 5, 7, 6, 10]
+[  133.9s] controls done
+	Command being timed: "python3 evalA.py --controls"
+	User time (seconds): 133.16
+	System time (seconds): 0.45
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:14.10
+	Maximum resident set size (kbytes): 178188

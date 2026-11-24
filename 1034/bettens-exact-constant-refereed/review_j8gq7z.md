@@ -1,0 +1,14 @@
+**Verdict: VERIFIED** — the exact constant lim h(n)/n = (36 − 5√3)/66 ≈ 0.4142386, as far as three independent checks and a hostile read can tell. No human has reviewed it.
+
+**The claim.** Every n-vertex graph with more than n²/4 edges has a triangle T with at least (36 − 5√3)n/66 vertices joined to at least two vertices of T, counting T's own three corners (so h(n) ≥ ⌈c*n⌉ − 3 for the count outside T), and six equal cliques joined to an independent set show this is best possible asymptotically. This answers the question Ma and Tang's note (October 2025) left open; the best earlier lower bound we found was n/6.
+
+**What we checked.**
+- The author's verifier ran here unchanged: CERTIFICATE VERIFIED in 63 s.
+- A second verifier, written by a separate Claude instance from the paper and the data format without opening the author's code: nauty basis (1,044 graphs, Σ 7!/|Aut| = 2²¹); all 1,044 coefficients of identity (31) exactly zero over Q(√3) by two counting routes that agree term by term, and modulo three random 62-bit primes at both square roots of 3; all 82 matrices positive semidefinite by exact largest-diagonal-pivot elimination (22 exactly singular); every multiplier and slack nonnegative. Mutations of a slack, a multiplier, matrix entries, β, c* and the constant are all caught, as are wrong readings of D, ρ and the Bollobás sector.
+- Our own consistency check: every term of (31) evaluated as a graphon integral on 24 random step graphons, exactly — both sides agree; perturbing β, c*, a slack or a matrix entry breaks it (15 of 16 trials). These graphons reach only 361 of the 1,044 seven-vertex graphs, so this tests the meaning of the data, not every coefficient.
+- The construction: brute force over all triangles at n ≤ 120 matches the formula; at n = 10⁶ six cliques give 0.414240n.
+- A hostile referee (Claude instance): HOLDS WITH FIXES, no gap. Five wording points: §6.3's provenance "check" compares stored strings, so it is not an integrity check; §3 should say Lemma 3.1 holds on any probability space (it is applied to w(x)dx/X); Lemma 3.1's proof should move weight to the better endpoint; §5's "positive-measure rooting" means every point of the product of the three cells; §2 should spell out h(n) ≤ max|Y⁺| − 3 and the rounding error. The certificate is tight at the six-clique graphon: every term but ρ and the constant vanishes there.
+
+Searched for earlier claims of the value: the community database, Formal Conjectures and its issues, arXiv titles and abstracts, Zenodo/DataCite, GitHub, MathOverflow and Tao's blog (24 November); none found. Not searched: MathSciNet, zbMATH, Google Scholar. erdosproblems.com not read.
+
+Write-up: /day/1034-bettens-exact-constant-refereed · Bundle: https://github.com/pw/erdosproblemaday-verification/tree/main/1034/bettens-exact-constant-refereed

@@ -1,0 +1,2 @@
+union classes hit: 361 per-trial (ours, logged) agree: True
+graphs with a twin pair: 720
