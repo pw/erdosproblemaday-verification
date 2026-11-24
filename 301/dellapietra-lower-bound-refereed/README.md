@@ -16,9 +16,10 @@ there is an absolute ε > 0 with f(N) ≥ (1/2 + ε)N for all large N, where f(N
 - Checker control: `lean-replay/checker-control/` — a library with an ill-typed proof of False (`NegCtl.bad`,
   added with debug.skipKernelTC). Lean v4.33.0-rc1's `leanchecker` exits 1 with "(kernel) declaration type mismatch"
   in normal AND --fresh mode; `NegCtl.Good` passes.
-- `leanchecker --fresh Erdos301`: started 2026-11-23 09:33Z, see `lean-replay/steps.tsv` and
-  `lean-replay/leanchecker_fresh.log` (added when it finishes). A pass = exit 0 AND no exception/kernel/mismatch line
-  in the log.
+- `leanchecker --fresh Erdos301`: started 2026-11-23 09:33Z, PASSED 10:37Z (exit 0 after 63m58s; the log
+  `lean-replay/leanchecker_fresh.log` holds only the timing lines, no exception/kernel/mismatch/error text;
+  `lean-replay/steps.tsv`). Added 2026-11-24. Also added then: the N = 10^11 numerics row
+  (`numerics/out/simple_N100000000000.txt`, one program) and `seats/numerics.md`.
 - Numerics (label d): `numerics/` — two programs written separately (`simple.c` here, `referee/sim/sim.c` by the
   referee seat) reproduce the README's N = 10⁶, L = 7 figures exactly (44,445 heads, 4,242 deleted, 540,204 kept)
   and agree at every N to 10⁸. The README's set is a simplified cousin of the proof's (full top half, no regularity);

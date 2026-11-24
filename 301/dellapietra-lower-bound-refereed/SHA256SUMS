@@ -1,4 +1,4 @@
-3c83ab8f29d976a8b6528289a72182f70f9e3332261b53510f5d33b80d873c3e  ./README.md
+2a89ff4d40ad6407a27c20af580f9c5697dedc4cc90162a4a03d5fbf8a902721  ./README.md
 fd00fa320c62c06a942f47215ba444d7d0df2e7cdbeac5d603cb7aec2ffe09e9  ./lean-replay/axioms_theirs.log
 eeeb7cb1d8180b0e7fda1be61e5850d236eb8dd45a990746971c3ecb1efa2f0e  ./lean-replay/build.log
 75744504116932cda0471536a8a8be4e11f5503cce375b06991763a1b86ac54c  ./lean-replay/cache_get.log
@@ -15,6 +15,7 @@ df39045534e7ff9f19522ffeb61a30819e8b733e901a7bb24cba6e2faabf10c5  ./lean-replay/
 fcf86cc765b7e1c14ed9fd3c678b362ec6395045d0f2af25e6e87d0a7b857e5e  ./lean-replay/checker-control/steps.tsv
 9033a1cd8ea998fc464c73ac2cc66467c9679ccb7887d513298c266294e5bd57  ./lean-replay/checker.sh
 5ec1623a2e32700e823643bb67ee629a67e7c27c1d3bdfb41b35f4f69e1a1007  ./lean-replay/env.txt
+a00ac227c42c92a83432350fd5295e0bb907140477ef97a52b03045663273890  ./lean-replay/leanchecker_fresh.log
 387f3d17ef0eaeafacad705bf5f1654bb1d9074598bc8edd7edd613ff98fe7e6  ./lean-replay/ours/Bridge.lean
 ca2b6338a6c1a009bf913dcecb142e7ec7337893aae793c5312ff2ffb992f7b9  ./lean-replay/ours/Bridge.log
 a740adacdd910d93374b1a5240871a318f55e5345a945ecf33dd1a52cbfb2e3d  ./lean-replay/ours/Closure.lean
@@ -30,7 +31,7 @@ bba0289aef07f630f3d6d50fc64766a9a1b9a1ad60584e7b57bb6f507faa27d3  ./lean-replay/
 b043ab809327dcf8fe71823765d21f4abc2416ae7b1ff5aef2369f02d69e5aa3  ./lean-replay/ours/run.sh
 a27d9037f69c1261b7ed4ea5b433bb05f7c360f41e03484fb6cc20a6477d47ae  ./lean-replay/replay.sh
 261bd730f952007efd12cca7433bdb13c9f78e2334d781cc05af081ee2065695  ./lean-replay/rsscap.sh
-5834a5153f7193fd387a38bd79c48143f271308747f5793b62bf8bed7e5884c9  ./lean-replay/steps.tsv
+4c110898ff3eb69f0d92356ffc933f875d023f72c40d22daf8724555da02aac2  ./lean-replay/steps.tsv
 6eced1c31690d81ca5e09ce462f156477938b6ebde8e72b6bfe3fcc6682f3b1f  ./numerics/brute.c
 d83275416d66f5e2263a158defda18011771155ea9791737a4af370f25d47125  ./numerics/check.c
 d25c2157b5b8ebb4fbbae83c341dd1351dccfcc90a4d0b0f471e80ae81c937dd  ./numerics/mksets.py
@@ -63,13 +64,14 @@ a8bf3d8b1aa92f5ab63b80796c7161c1284a5cf8420763d2caca471c90666a4f  ./numerics/out
 7717b424234dbd4e396fc1cd3990c6898a4cb1201119c1f7765c288e63fab56c  ./numerics/out/simple_N1000000000.txt
 228fa8493e35c2ab39b52919479fd7b43bd774539fa84e1c02c9453015334ed6  ./numerics/out/simple_N10000000000.time
 fdab57b42fd96a1a854c747e1d230ea47de621760e2ab63b1ffc8321f178ed28  ./numerics/out/simple_N10000000000.txt
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./numerics/out/simple_N100000000000.time
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./numerics/out/simple_N100000000000.txt
+43e17c19c7d96065cb7e1744739de2d2b3c2229a1d658a60e28ecbf31565cc34  ./numerics/out/simple_N100000000000.time
+ae2cf5e78aa1b0d2a53b32ad2aed50377e44b9c8ec19b558e0684eb7754b6987  ./numerics/out/simple_N100000000000.txt
 226ac18d277a9ef770cf82c9297b70723e03f92f362ada1c16af0b18ac671af4  ./numerics/out/simple_N1200.txt
 647fa06203b550c3bcc9bc670805d1a7cb7e299789f6cb8c90fe18e659a469c2  ./numerics/out/simple_N3000.txt
 2fb9bc81b360ad69b86f313e0c6017cecc4c0482228beb81ac9bd891e659ef6f  ./numerics/out/simple_N600.txt
-1045dbd6ff09e13d6b88a1136e49ee9d4539263ef8665b0bfa6402ef7f0b16b6  ./numerics/out/summary.txt
+50381a99f2274d2263ae83db0c2eac916082a727f73e4aa104d6cd0e8afbd27e  ./numerics/out/summary.txt
 dc2daa0d85636de9f5d02c0d4f4c9783afdfaa6a82c7e988b25910ccf4b33375  ./numerics/out/thresholds.txt
+87e72dfad23791d81e08be926d7704c9ee7ec3ede3c3834d02ca0c1a246b04c9  ./numerics/out/trend_fit.txt
 46109bbe629a41300420bbf27ca795c8cfa1c4888967fbe8983bc4cc6d6bcd57  ./numerics/regular.c
 b6e17c49571b9e983a531adef43a1af5452a6b67a0ef36fedd9e47b97598806b  ./numerics/regular_xcheck.py
 a3f790409f556db12da2310e3e91b7467fd775196ebb57b34644cf518a60429b  ./numerics/simple.c
@@ -82,5 +84,6 @@ ba847e4643e4b8478eb08908d54fb0fc5eddd367a761192d8cfeb9daa6b559de  ./referee/marg
 9afc355a86d6cd15dfaae7788afdffd293ef2b92abdc0e542e6ca5181242f31a  ./referee/sim/trend_L7_full.txt
 4423be87da3439fe9fbc15f63d4e9dad62b97bbaa2e1ba64987b5925315c1b39  ./seats/ORCHESTRATOR_NOTES.md
 55b2b04d13290e460e325cc3f3b199c00c52489d4f2a4d03883faac0b69fa4a3  ./seats/lean_audit.md
+57d67643e69baf48f0ca6f55f75b21e91a1b32852d7c580d2863bde9ddea45f8  ./seats/numerics.md
 b0afbd0500a978a4f923098cefde0acdc2ca71f6a0a7c59ee31907129c56cabc  ./seats/referee_paper.md
 ea1181997d939d7a33a30341657f0357aac40bf1d0435c8315f389cbe0cf017b  ./seats/world.md
