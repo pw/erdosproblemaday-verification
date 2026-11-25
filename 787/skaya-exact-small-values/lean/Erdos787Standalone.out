@@ -1,0 +1,32 @@
+'Erdos787Pure.conflictAdj_symm' depends on axioms: [propext]
+'Erdos787Pure.conflictAdj_loopless' does not depend on any axioms
+'Erdos787Pure.discriminant_jump_nat' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.discriminant_jump_int' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.jump_points_exact' does not depend on any axioms
+'Erdos787Pure.binom_sq_int' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.norm_sq_sum_3d' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.spherical_angle_criterion_3d' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.mul_cross_int' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.sq_sum_4_int' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.int_sq_nonneg' does not depend on any axioms
+'Erdos787Pure.spherical_k4_freeness_3d_int' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.spherical_k4_clique_impossible_3d' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.no_four_has_both_pairs_sum_in' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.four_has_sum_avoiding_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787Pure.extremal_anchor_general' depends on axioms: [propext, Quot.sound]
+'Erdos787Pure.A3_card' does not depend on any axioms
+'Erdos787Pure.A3_nodup' does not depend on any axioms
+'Erdos787Pure.A3_all_pairs_sum_in' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787Pure.A3_no_sum_avoiding_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787Pure.A7_card' does not depend on any axioms
+'Erdos787Pure.A7_nodup' does not depend on any axioms
+'Erdos787Pure.A7_has_sum_avoiding_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787Pure.A7_no_sum_avoiding_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787Pure.A13_star_card' does not depend on any axioms
+'Erdos787Pure.A13_star_nodup' does not depend on any axioms
+'Erdos787Pure.A13_has_sum_avoiding_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787Pure.A13_no_sum_avoiding_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787Pure.A21_card' does not depend on any axioms
+'Erdos787Pure.A21_nodup' does not depend on any axioms
+'Erdos787Pure.A21_has_sum_avoiding_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787Pure.A21_no_sum_avoiding_5' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+NOT CERTIFIED: [(0, 1, 2), (1, 2, 4), (2, 3, 6), (0, 4, 5)]
+NOT CERTIFIED: [(0, 1, 2)]
+NOT CERTIFIED: [(3, 5, 10), (0, 20, 21)]
+cores audited=5 not_certified=3 size_hist=[(1, 1), (2, 3), (4, 1)]

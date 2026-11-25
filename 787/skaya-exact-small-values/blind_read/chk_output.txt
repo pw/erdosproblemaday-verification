@@ -1,0 +1,9 @@
+A43 len 43 contains -14..14 True
+pos15 15 (5, 'OPTIMAL', 38)
+6 43 43 (6, 'OPTIMAL', 575) interval True
+7 59 59 (7, 'OPTIMAL', 949) interval True
+8 77 77 (8, 'OPTIMAL', 1424) interval True
+9 97 97 (9, 'OPTIMAL', 2012) interval True
+10 119 119 (10, 'OPTIMAL', 2725) interval True
+11 143 143 (11, 'OPTIMAL', 3575) interval True
+12 169 169 (12, 'OPTIMAL', 4574) interval True

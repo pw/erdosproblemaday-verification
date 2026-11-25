@@ -1,0 +1,40 @@
+m=15, k=5 [wave 1/1 j=[None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]]: 1105 tasks, pre_cores=0 across 16 workers...
+  progress: 50/1105 UNSAT | tot_cores=19 | max_dt=1.52s | wall=3.10s
+  progress: 100/1105 UNSAT | tot_cores=59 | max_dt=2.01s | wall=3.98s
+  progress: 150/1105 UNSAT | tot_cores=594 | max_dt=2.01s | wall=4.79s
+  progress: 200/1105 UNSAT | tot_cores=1111 | max_dt=2.01s | wall=5.99s
+  progress: 250/1105 UNSAT | tot_cores=1409 | max_dt=2.01s | wall=6.78s
+  progress: 300/1105 UNSAT | tot_cores=1719 | max_dt=2.01s | wall=7.80s
+  progress: 350/1105 UNSAT | tot_cores=1995 | max_dt=2.01s | wall=8.99s
+  progress: 400/1105 UNSAT | tot_cores=2228 | max_dt=2.01s | wall=9.88s
+  progress: 450/1105 UNSAT | tot_cores=2504 | max_dt=2.01s | wall=10.78s
+  progress: 500/1105 UNSAT | tot_cores=2717 | max_dt=2.01s | wall=11.50s
+  progress: 550/1105 UNSAT | tot_cores=2920 | max_dt=2.01s | wall=12.59s
+  progress: 600/1105 UNSAT | tot_cores=3129 | max_dt=2.01s | wall=14.08s
+  progress: 650/1105 UNSAT | tot_cores=3362 | max_dt=2.01s | wall=14.30s
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/e1125/dl787/negctl/solve_k6_pos.py", line 150, in solve_subcase
+    import z3
+ModuleNotFoundError: No module named 'z3'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/e1125/dl787/negctl/solve_k6_pos.py", line 519, in <module>
+    print('RESULT', run_suite(mm, kk, [None]+list(range(mm-2)), wave_mode=False)); sys.exit(0)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/e1125/dl787/negctl/solve_k6_pos.py", line 213, in run_suite
+    st, task, cores, dt, vals, sc = f.result()
+                                    ^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ModuleNotFoundError: No module named 'z3'

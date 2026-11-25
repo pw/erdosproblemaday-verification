@@ -1,0 +1,32 @@
+=== 1. Rigorous Crossover vs k^2+3k-11: Z^d vs D_d Multi-Scale Balls ===
+
+--- Dimension d = 3 (Z^d step=1 vs D_d step=2) ---
+  [Z^d] up to L=1200 ratio=0.909275
+
+--- Dimension d = 4 (Z^d step=1 vs D_d step=2) ---
+  [Z^d FIRST BEATS k^2+3k-11] L=152 k<=2421 n=5890393 (quad=5868493)
+  [D_d FIRST BEATS k^2+3k-11] L=76 k<=1217 n=1501229 (quad=1484729)
+
+--- Dimension d = 5 (Z^d step=1 vs D_d step=2) ---
+  [Z^d FIRST BEATS k^2+3k-11] L=74 k<=2342 n=5492995 (quad=5491979)
+  [D_d FIRST BEATS k^2+3k-11] L=37 k<=1185 n=1438294 (quad=1407769)
+
+--- Dimension d = 6 (Z^d step=1 vs D_d step=2) ---
+  [Z^d FIRST BEATS k^2+3k-11] L=54 k<=3399 n=11808439 (quad=11563387)
+  [D_d FIRST BEATS k^2+3k-11] L=27 k<=1729 n=3172424 (quad=2994617)
+
+--- Dimension d = 8 (Z^d step=1 vs D_d step=2) ---
+  [Z^d FIRST BEATS k^2+3k-11] L=41 k<=10249 n=106063066 (quad=105072737)
+  [D_d FIRST BEATS k^2+3k-11] L=20 k<=5121 n=26453573 (quad=26239993)
+
+=== 2. Exact alpha(G_A) on Small 2-adic Ball Families ===
+d=2 r=1 n=6 EXACT alpha=4 (upper bound=3, quad(exact)=17)
+d=2 r=2 n=15 EXACT alpha=8 (upper bound=7, quad(exact)=77)
+d=2 r=3 n=24 EXACT alpha=12 (upper bound=11, quad(exact)=169)
+d=2 r=4 n=37 EXACT alpha=16 (upper bound=15, quad(exact)=293)
+d=2 r=5 n=58 EXACT alpha=20 (upper bound=19, quad(exact)=449)
+d=2 r=6 n=79 EXACT alpha=24 (upper bound=23, quad(exact)=637)
+d=3 r=1 n=8 EXACT alpha=5 (upper bound=4, quad(exact)=29)
+d=3 r=2 n=27 EXACT alpha=12 (upper bound=12, quad(exact)=169)
+d=3 r=3 n=54 EXACT alpha=20 (upper bound=20, quad(exact)=449)
+d=3 r=4 n=87 EXACT alpha=28 (upper bound=28, quad(exact)=857)

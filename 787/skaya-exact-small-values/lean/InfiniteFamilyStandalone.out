@@ -1,0 +1,22 @@
+'Erdos787InfiniteFamily.isSumAvoidingBool_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.isCliqueBool_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.isCliqueCoverBool_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.clique_cover_indep_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.A43_card' does not depend on any axioms
+'Erdos787InfiniteFamily.A43_nodup' does not depend on any axioms
+'Erdos787InfiniteFamily.B6_len' does not depend on any axioms
+'Erdos787InfiniteFamily.B6_nodup' does not depend on any axioms
+'Erdos787InfiniteFamily.B6_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.B6_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.B6_ge13' does not depend on any axioms
+'Erdos787InfiniteFamily.Cs43_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.A43_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.A43_band_dec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.A43_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.famSeq_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787InfiniteFamily.famSeq_length' depends on axioms: [propext, Quot.sound]
+'Erdos787InfiniteFamily.famSeq_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.famSeq_indep_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.famWitness_props' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.infinite_family_n_max_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787InfiniteFamily.k7_beats_projective_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

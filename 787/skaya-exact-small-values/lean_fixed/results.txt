@@ -1,0 +1,4 @@
+GeometryAndCarriesStandalone rc=1 time=29s
+AsymptoticClosureStandalone rc=0 time=160s
+GeoFixed rc=0 time=24s
+Threshold45Standalone rc=0 time=748s

@@ -1,0 +1,12 @@
+  iter 200 core=4 |E|=34 31.7s
+  iter 400 core=4 |E|=33 55.5s
+  iter 600 core=4 |E|=34 81.9s
+  iter 800 core=6 |E|=27 109.8s
+  iter 1000 core=4 |E|=31 135.3s
+  iter 1200 core=6 |E|=27 162.4s
+  iter 1400 core=6 |E|=31 188.7s
+  iter 1600 core=4 |E|=30 207.2s
+  iter 1800 core=6 |E|=28 238.1s
+  iter 2000 core=6 |E|=30 269.2s
+m=16 k=5: UNSAT after 2168 refinements (all cores exactly certified), core sizes max=13, 288.6s
+UNSAT

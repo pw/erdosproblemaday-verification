@@ -1,0 +1,23 @@
+=== 1. Verifying E_8 Theta Series vs Exact DP ===
+  E_8 shell 2m=0: dp=1 theorem=1
+  E_8 shell 2m=2: dp=240 theorem=240
+  E_8 shell 2m=4: dp=2160 theorem=2160
+  E_8 shell 2m=6: dp=6720 theorem=6720
+  E_8 shell 2m=8: dp=17520 theorem=17520
+  E_8 shell 2m=10: dp=30240 theorem=30240
+  E_8 shell 2m=12: dp=60480 theorem=60480
+  E_8 shell 2m=14: dp=82560 theorem=82560
+  E_8 shell 2m=16: dp=140400 theorem=140400
+
+=== 2. E_8 Crossover vs D_8 and Quadratic k^2+3k-11 ===
+  [E_8 FIRST BEATS k^2+3k-11] L=16 k<=4097 n=18360977 (quad=16797689)
+  Leech shell check: L[0]=1 L[1]=0 L[2]=196560 L[3]=16773120
+  [Leech_24] L=3 n/quad_bound=0.000
+  [Leech_24] L=6 n/quad_bound=0.012
+  [Leech_24] L=10 n/quad_bound=2.111
+  [Leech_24] L=12 n/quad_bound=13.751
+
+=== 3. Targeted Deep Local SA Around Optimal Seeds ===
+[POS_m30_from_P29] n=30 target=7 mode=1 U=140 -> best_alpha=8 cnt=127
+[FREE_n60_from_A59_m17] n=60 target=7 mode=0 U=120 -> best_alpha=8 cnt=127
+[FREE_n78_from_A77_m19] n=78 target=8 mode=0 U=220 -> best_alpha=9 cnt=878

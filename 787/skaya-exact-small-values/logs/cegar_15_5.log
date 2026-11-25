@@ -1,0 +1,34 @@
+  iter 200 core=9 |E|=27 26.9s
+  iter 400 core=4 |E|=29 60.7s
+  iter 600 core=4 |E|=28 87.8s
+  iter 800 core=4 |E|=24 108.5s
+  iter 1000 core=4 |E|=31 129.9s
+  iter 1200 core=9 |E|=27 152.1s
+  iter 1400 core=6 |E|=27 183.4s
+  iter 1600 core=4 |E|=30 217.9s
+  iter 1800 core=4 |E|=25 249.3s
+  iter 2000 core=6 |E|=24 269.8s
+  iter 2200 core=4 |E|=26 292.6s
+  iter 2400 core=4 |E|=28 317.0s
+  iter 2600 core=4 |E|=32 345.4s
+  iter 2800 core=4 |E|=29 366.7s
+  iter 3000 core=4 |E|=29 390.3s
+  iter 3200 core=6 |E|=25 421.1s
+  iter 3400 core=6 |E|=22 449.0s
+  iter 3600 core=4 |E|=29 474.8s
+  iter 3800 core=7 |E|=23 493.9s
+  iter 4000 core=4 |E|=25 519.1s
+  iter 4200 core=6 |E|=23 548.5s
+  iter 4400 core=4 |E|=27 575.7s
+  iter 4600 core=6 |E|=26 595.9s
+  iter 4800 core=6 |E|=24 614.1s
+  iter 5000 core=4 |E|=24 650.6s
+  iter 5200 core=4 |E|=24 679.0s
+  iter 5400 core=6 |E|=26 699.4s
+  iter 5600 core=4 |E|=25 718.5s
+  iter 5800 core=4 |E|=27 735.5s
+  iter 6000 core=9 |E|=23 754.1s
+  iter 6200 core=6 |E|=23 771.8s
+  iter 6400 core=6 |E|=27 789.0s
+m=15 k=5: FEASIBLE configuration found after 6559 iters: E=[(0, 2, 3), (0, 3, 4), (0, 4, 5), (1, 4, 6), (0, 5, 6), (2, 4, 7), (1, 5, 7), (0, 6, 7), (1, 6, 8), (0, 7, 8), (3, 5, 9), (2, 6, 9), (1, 7, 9), (0, 8, 9), (4, 6, 10), (3, 7, 10), (2, 8, 10), (1, 9, 10), (5, 7, 11), (4, 8, 11), (3, 9, 11), (6, 8, 12), (5, 9, 12), (7, 9, 13), (3, 11, 13), (1, 12, 13), (11, 12, 14), (10, 13, 14)] point=[np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(4.0), np.float64(5.0), np.float64(6.0), np.float64(7.0), np.float64(8.0), np.float64(9.0), np.float64(10.0), np.float64(12.0), np.float64(14.0), np.float64(16.0), np.float64(18.0), np.float64(30.0)]
+SAT

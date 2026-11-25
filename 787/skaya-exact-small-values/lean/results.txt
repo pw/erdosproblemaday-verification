@@ -1,0 +1,5 @@
+Erdos787Standalone rc=0 time=64s
+ThresholdsStandalone rc=0 time=4s
+WitnessesStandalone rc=0 time=12s
+InfiniteFamilyStandalone rc=0 time=6s
+NewWitnessesStandalone rc=0 time=1046s

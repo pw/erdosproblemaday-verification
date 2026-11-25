@@ -1,0 +1,23 @@
+=== 1. D_d Shifted Verification (Exact alpha vs bound) ===
+D_2 L=1 n=6 EXACT alpha=4 bound=4 (L*2^d=4)
+D_2 L=2 n=15 EXACT alpha=8 bound=8 (L*2^d=8)
+D_2 L=3 n=24 EXACT alpha=12 bound=12 (L*2^d=12)
+D_2 L=4 n=37 EXACT alpha=16 bound=16 (L*2^d=16)
+D_2 L=5 n=58 EXACT alpha=20 bound=20 (L*2^d=20)
+D_3 L=1 n=14 EXACT alpha=8 bound=8 (L*2^d=8)
+D_3 L=2 n=33 EXACT alpha=16 bound=16 (L*2^d=16)
+D_3 L=3 n=76 EXACT alpha=24 bound=24 (L*2^d=24)
+D_4 L=1 n=26 EXACT alpha=14 bound=14 (L*2^d=16)
+D_4 L=2 n=75 EXACT alpha=30 bound=30 (L*2^d=32)
+
+=== 2. Origin-Centered Z^d (Full & Positive Half A_+) ===
+Zero-centered Z^2 r=1 |A|=5 exact_alpha=2 |A_+|=2 exact_alpha(A_+)=2
+Zero-centered Z^2 r=2 |A|=13 exact_alpha=4 |A_+|=6 exact_alpha(A_+)=4
+Zero-centered Z^2 r=3 |A|=21 exact_alpha=6 |A_+|=10 exact_alpha(A_+)=6
+Zero-centered Z^2 r=4 |A|=29 exact_alpha=8 |A_+|=14 exact_alpha(A_+)=8
+Zero-centered Z^2 r=5 |A|=45 exact_alpha=11 |A_+|=22 exact_alpha(A_+)=11
+Zero-centered Z^2 r=6 |A|=61 exact_alpha=14 |A_+|=30 exact_alpha(A_+)=14
+Zero-centered Z^3 r=1 |A|=7 exact_alpha=3 |A_+|=3 exact_alpha(A_+)=3
+Zero-centered Z^3 r=2 |A|=25 exact_alpha=7 |A_+|=12 exact_alpha(A_+)=7
+Zero-centered Z^3 r=3 |A|=51 exact_alpha=11 |A_+|=25 exact_alpha(A_+)=11
+Zero-centered Z^3 r=4 |A|=77 exact_alpha=15 |A_+|=38 exact_alpha(A_+)=15

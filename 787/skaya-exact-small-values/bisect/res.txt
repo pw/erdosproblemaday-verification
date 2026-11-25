@@ -1,0 +1,9 @@
+N=200 rc=1 
+N=400 rc=1 unterminated comment
+N=600 rc=1 
+N=800 rc=0 
+N=1200 rc=1 unterminated comment
+N=1800 rc=1 unterminated comment
+N=1400 rc=1 unterminated comment
+N=1000 rc=1 unterminated comment
+N=1600 rc=1 unterminated comment

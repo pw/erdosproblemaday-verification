@@ -1,0 +1,13 @@
+=== 1. Tight D_d Crossover with Top-Shell Exact Bound k <= (L-1)*2^d + d*(d-1) + 2 ===
+  D_4 TIGHT FIRST CROSS: L=75 k<=1198 n=1443820 (quad=1438787)
+  D_5 TIGHT FIRST CROSS: L=36 k<=1142 n=1309341 (quad=1307579)
+  D_6 TIGHT FIRST CROSS: L=26 k<=1632 n=2742783 (quad=2668309)
+  D_7 TIGHT FIRST CROSS: L=22 k<=2732 n=7960077 (quad=7472009)
+  D_8 TIGHT FIRST CROSS: L=20 k<=4922 n=26453573 (quad=24240839)
+
+=== 2. Exhaustive Multi-Tier Template Search for P_{30} (k=7) and A_{60} ===
+Best 2-tier [1..B] u evens(B+2..E) u {T} with alpha(S)<=7: m_+=0 (|S|=0)
+
+=== 3. Exhaustive 3-tier [1..B] u step2(E1) u step4(E2) u {T} around k=7 ===
+Best 3-tier with alpha(S)<=7: m_+=29 (|S|=59)
+  P= 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 32 36 40 44 48 52 84

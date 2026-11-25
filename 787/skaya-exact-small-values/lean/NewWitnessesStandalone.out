@@ -1,0 +1,451 @@
+'Erdos787NewWitnesses.isSumAvoidingBool_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.isStrictlySortedBool_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.ITree.has_mem_toList' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.all_itree_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.isUpperCliqueBool_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.isCliqueCoverTreeBool_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.clique_cover_indep_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.certTree_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.certTree_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A52_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA52_list' does not depend on any axioms
+'Erdos787NewWitnesses.A52_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B52_len' does not depend on any axioms
+'Erdos787NewWitnesses.B52_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B52_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B52_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T52_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A52_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A53_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA53_list' does not depend on any axioms
+'Erdos787NewWitnesses.A53_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B53_len' does not depend on any axioms
+'Erdos787NewWitnesses.B53_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B53_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B53_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T53_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A53_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A54_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA54_list' does not depend on any axioms
+'Erdos787NewWitnesses.A54_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B54_len' does not depend on any axioms
+'Erdos787NewWitnesses.B54_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B54_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B54_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T54_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A54_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A55_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA55_list' does not depend on any axioms
+'Erdos787NewWitnesses.A55_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B55_len' does not depend on any axioms
+'Erdos787NewWitnesses.B55_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B55_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B55_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T55_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A55_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A56_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA56_list' does not depend on any axioms
+'Erdos787NewWitnesses.A56_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B56_len' does not depend on any axioms
+'Erdos787NewWitnesses.B56_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B56_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B56_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T56_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A56_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A57_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA57_list' does not depend on any axioms
+'Erdos787NewWitnesses.A57_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B57_len' does not depend on any axioms
+'Erdos787NewWitnesses.B57_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B57_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B57_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T57_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A57_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A58_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA58_list' does not depend on any axioms
+'Erdos787NewWitnesses.A58_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B58_len' does not depend on any axioms
+'Erdos787NewWitnesses.B58_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B58_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B58_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T58_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A58_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A59_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA59_list' does not depend on any axioms
+'Erdos787NewWitnesses.A59_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B59_len' does not depend on any axioms
+'Erdos787NewWitnesses.B59_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B59_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B59_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T59_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A59_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A60_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA60_list' does not depend on any axioms
+'Erdos787NewWitnesses.A60_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B60_len' does not depend on any axioms
+'Erdos787NewWitnesses.B60_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B60_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B60_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T60_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A60_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A61_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA61_list' does not depend on any axioms
+'Erdos787NewWitnesses.A61_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B61_len' does not depend on any axioms
+'Erdos787NewWitnesses.B61_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B61_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B61_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T61_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A61_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A62_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA62_list' does not depend on any axioms
+'Erdos787NewWitnesses.A62_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B62_len' does not depend on any axioms
+'Erdos787NewWitnesses.B62_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B62_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B62_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T62_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A62_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A63_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA63_list' does not depend on any axioms
+'Erdos787NewWitnesses.A63_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B63_len' does not depend on any axioms
+'Erdos787NewWitnesses.B63_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B63_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B63_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T63_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A63_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A64_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA64_list' does not depend on any axioms
+'Erdos787NewWitnesses.A64_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B64_len' does not depend on any axioms
+'Erdos787NewWitnesses.B64_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B64_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B64_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T64_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A64_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A65_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA65_list' does not depend on any axioms
+'Erdos787NewWitnesses.A65_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B65_len' does not depend on any axioms
+'Erdos787NewWitnesses.B65_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B65_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B65_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T65_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A65_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A66_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA66_list' does not depend on any axioms
+'Erdos787NewWitnesses.A66_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B66_len' does not depend on any axioms
+'Erdos787NewWitnesses.B66_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B66_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B66_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T66_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A66_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A67_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA67_list' does not depend on any axioms
+'Erdos787NewWitnesses.A67_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B67_len' does not depend on any axioms
+'Erdos787NewWitnesses.B67_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B67_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B67_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T67_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A67_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A68_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA68_list' does not depend on any axioms
+'Erdos787NewWitnesses.A68_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B68_len' does not depend on any axioms
+'Erdos787NewWitnesses.B68_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B68_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B68_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T68_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A68_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A69_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA69_list' does not depend on any axioms
+'Erdos787NewWitnesses.A69_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B69_len' does not depend on any axioms
+'Erdos787NewWitnesses.B69_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B69_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B69_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T69_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A69_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A70_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA70_list' does not depend on any axioms
+'Erdos787NewWitnesses.A70_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B70_len' does not depend on any axioms
+'Erdos787NewWitnesses.B70_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B70_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B70_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T70_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A70_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A71_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA71_list' does not depend on any axioms
+'Erdos787NewWitnesses.A71_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B71_len' does not depend on any axioms
+'Erdos787NewWitnesses.B71_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B71_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B71_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T71_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A71_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A72_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA72_list' does not depend on any axioms
+'Erdos787NewWitnesses.A72_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B72_len' does not depend on any axioms
+'Erdos787NewWitnesses.B72_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B72_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B72_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T72_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A72_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A73_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA73_list' does not depend on any axioms
+'Erdos787NewWitnesses.A73_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B73_len' does not depend on any axioms
+'Erdos787NewWitnesses.B73_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B73_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B73_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T73_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A73_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A74_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA74_list' does not depend on any axioms
+'Erdos787NewWitnesses.A74_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B74_len' does not depend on any axioms
+'Erdos787NewWitnesses.B74_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B74_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B74_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T74_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A74_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A75_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA75_list' does not depend on any axioms
+'Erdos787NewWitnesses.A75_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B75_len' does not depend on any axioms
+'Erdos787NewWitnesses.B75_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B75_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B75_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T75_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A75_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A76_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA76_list' does not depend on any axioms
+'Erdos787NewWitnesses.A76_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B76_len' does not depend on any axioms
+'Erdos787NewWitnesses.B76_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B76_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B76_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T76_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A76_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A77_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA77_list' does not depend on any axioms
+'Erdos787NewWitnesses.A77_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B77_len' does not depend on any axioms
+'Erdos787NewWitnesses.B77_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B77_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B77_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T77_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A77_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A78_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA78_list' does not depend on any axioms
+'Erdos787NewWitnesses.A78_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B78_len' does not depend on any axioms
+'Erdos787NewWitnesses.B78_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B78_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B78_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T78_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A78_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A79_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA79_list' does not depend on any axioms
+'Erdos787NewWitnesses.A79_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B79_len' does not depend on any axioms
+'Erdos787NewWitnesses.B79_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B79_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B79_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T79_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A79_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A80_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA80_list' does not depend on any axioms
+'Erdos787NewWitnesses.A80_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B80_len' does not depend on any axioms
+'Erdos787NewWitnesses.B80_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B80_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B80_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T80_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A80_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A81_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA81_list' does not depend on any axioms
+'Erdos787NewWitnesses.A81_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B81_len' does not depend on any axioms
+'Erdos787NewWitnesses.B81_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B81_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B81_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T81_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A81_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A82_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA82_list' does not depend on any axioms
+'Erdos787NewWitnesses.A82_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B82_len' does not depend on any axioms
+'Erdos787NewWitnesses.B82_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B82_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B82_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T82_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A82_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A83_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA83_list' does not depend on any axioms
+'Erdos787NewWitnesses.A83_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B83_len' does not depend on any axioms
+'Erdos787NewWitnesses.B83_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B83_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B83_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T83_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A83_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A84_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA84_list' does not depend on any axioms
+'Erdos787NewWitnesses.A84_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B84_len' does not depend on any axioms
+'Erdos787NewWitnesses.B84_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B84_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B84_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T84_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A84_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A85_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA85_list' does not depend on any axioms
+'Erdos787NewWitnesses.A85_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B85_len' does not depend on any axioms
+'Erdos787NewWitnesses.B85_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B85_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B85_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T85_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A85_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A86_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA86_list' does not depend on any axioms
+'Erdos787NewWitnesses.A86_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B86_len' does not depend on any axioms
+'Erdos787NewWitnesses.B86_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B86_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B86_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T86_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A86_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A87_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA87_list' does not depend on any axioms
+'Erdos787NewWitnesses.A87_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B87_len' does not depend on any axioms
+'Erdos787NewWitnesses.B87_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B87_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B87_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T87_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A87_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A88_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA88_list' does not depend on any axioms
+'Erdos787NewWitnesses.A88_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B88_len' does not depend on any axioms
+'Erdos787NewWitnesses.B88_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B88_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B88_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T88_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A88_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A89_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA89_list' does not depend on any axioms
+'Erdos787NewWitnesses.A89_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B89_len' does not depend on any axioms
+'Erdos787NewWitnesses.B89_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B89_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B89_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T89_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A89_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A90_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA90_list' does not depend on any axioms
+'Erdos787NewWitnesses.A90_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B90_len' does not depend on any axioms
+'Erdos787NewWitnesses.B90_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B90_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B90_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T90_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A90_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A91_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA91_list' does not depend on any axioms
+'Erdos787NewWitnesses.A91_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B91_len' does not depend on any axioms
+'Erdos787NewWitnesses.B91_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B91_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B91_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T91_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A91_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A92_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA92_list' does not depend on any axioms
+'Erdos787NewWitnesses.A92_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B92_len' does not depend on any axioms
+'Erdos787NewWitnesses.B92_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B92_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B92_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T92_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A92_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A93_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA93_list' does not depend on any axioms
+'Erdos787NewWitnesses.A93_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B93_len' does not depend on any axioms
+'Erdos787NewWitnesses.B93_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B93_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B93_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T93_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A93_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A94_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA94_list' does not depend on any axioms
+'Erdos787NewWitnesses.A94_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B94_len' does not depend on any axioms
+'Erdos787NewWitnesses.B94_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B94_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B94_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T94_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A94_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A95_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA95_list' does not depend on any axioms
+'Erdos787NewWitnesses.A95_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B95_len' does not depend on any axioms
+'Erdos787NewWitnesses.B95_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B95_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B95_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T95_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A95_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A96_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA96_list' does not depend on any axioms
+'Erdos787NewWitnesses.A96_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B96_len' does not depend on any axioms
+'Erdos787NewWitnesses.B96_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B96_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B96_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T96_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A96_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A97_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA97_list' does not depend on any axioms
+'Erdos787NewWitnesses.A97_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B97_len' does not depend on any axioms
+'Erdos787NewWitnesses.B97_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B97_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B97_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T97_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A97_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A98_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA98_list' does not depend on any axioms
+'Erdos787NewWitnesses.A98_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B98_len' does not depend on any axioms
+'Erdos787NewWitnesses.B98_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B98_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B98_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T98_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A98_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A99_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA99_list' does not depend on any axioms
+'Erdos787NewWitnesses.A99_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B99_len' does not depend on any axioms
+'Erdos787NewWitnesses.B99_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B99_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B99_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T99_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A99_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A100_card' does not depend on any axioms
+'Erdos787NewWitnesses.TA100_list' does not depend on any axioms
+'Erdos787NewWitnesses.A100_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B100_len' does not depend on any axioms
+'Erdos787NewWitnesses.B100_nodup' depends on axioms: [propext, Quot.sound]
+'Erdos787NewWitnesses.B100_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.B100_sumAvoiding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.T100_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.A100_exact_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos787NewWitnesses.all_49_new_witnesses_certified' depends on axioms: [propext, Classical.choice, Quot.sound]

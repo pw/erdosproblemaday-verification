@@ -1,0 +1,11 @@
+ruzsa_lattice_test compile rc=0
+ruzsa_lattice_test run rc=0 time=0s
+ruzsa_variants_test compile rc=0
+ruzsa_variants_test run rc=0 time=0s
+test_templates_and_e7 compile rc=0
+test_templates_and_e7 run rc=0 time=0s
+test_zero_centered_dd compile rc=0
+test_zero_centered_dd run rc=0 time=2s
+attack_k7_and_lattices compile rc=0
+attack_k7_and_lattices run rc=0 time=18s
+DONE

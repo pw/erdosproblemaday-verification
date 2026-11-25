@@ -1,0 +1,29 @@
+m=10, k=4 [wave 1/1 j=[None, 0, 1, 2, 3, 4, 5, 6, 7]]: 260 tasks, pre_cores=0 across 16 workers...
+  progress: 50/260 UNSAT | tot_cores=4 | max_dt=0.50s | wall=1.22s
+  progress: 100/260 UNSAT | tot_cores=23 | max_dt=0.59s | wall=1.93s
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/e1125/dl787/negctl/solve_k6_pos.py", line 150, in solve_subcase
+    import z3
+ModuleNotFoundError: No module named 'z3'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/e1125/dl787/negctl/solve_k6_pos.py", line 519, in <module>
+    print('RESULT', run_suite(mm, kk, [None]+list(range(mm-2)), wave_mode=False)); sys.exit(0)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/e1125/dl787/negctl/solve_k6_pos.py", line 213, in run_suite
+    st, task, cores, dt, vals, sc = f.result()
+                                    ^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ModuleNotFoundError: No module named 'z3'

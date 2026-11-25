@@ -1,0 +1,18 @@
+=== Zero-Centered Z^d vs Zero-Centered D_d ===
+Zero D_2 L=1 n=5 EXACT alpha=2
+Zero D_2 L=2 n=13 EXACT alpha=4
+Zero D_2 L=3 n=21 EXACT alpha=6
+Zero D_2 L=4 n=29 EXACT alpha=8
+Zero D_2 L=5 n=45 EXACT alpha=11
+Zero D_2 L=6 n=61 EXACT alpha=14
+Zero D_2 L=7 n=77 EXACT alpha=17
+Zero D_2 L=8 n=93 EXACT alpha=20
+Zero D_2 L=9 n=113 EXACT alpha=23
+Zero D_2 L=10 n=141 EXACT alpha=26
+Zero D_3 L=1 n=13 EXACT alpha=4
+Zero D_3 L=2 n=31 EXACT alpha=8
+Zero D_3 L=3 n=73 EXACT alpha=15
+Zero D_3 L=4 n=115 EXACT alpha=22
+Zero D_4 L=1 n=25 EXACT alpha=6
+Zero D_4 L=2 n=73 EXACT alpha=12
+Zero Z_3 L=5 n=127 EXACT alpha=22

@@ -1,0 +1,42 @@
+m=11, k=4 [wave 1/1 j=[None, 0, 1, 2, 3, 4, 5, 6, 7, 8]]: 369 tasks, pre_cores=0 across 16 workers...
+  progress: 50/369 UNSAT | tot_cores=0 | max_dt=0.60s | wall=2.28s
+  progress: 100/369 UNSAT | tot_cores=0 | max_dt=0.80s | wall=2.58s
+  progress: 150/369 UNSAT | tot_cores=0 | max_dt=1.10s | wall=2.98s
+  progress: 200/369 UNSAT | tot_cores=0 | max_dt=1.11s | wall=3.19s
+  progress: 250/369 UNSAT | tot_cores=0 | max_dt=1.11s | wall=3.29s
+  progress: 300/369 UNSAT | tot_cores=6 | max_dt=1.11s | wall=3.48s
+  progress: 350/369 UNSAT | tot_cores=8 | max_dt=1.11s | wall=3.79s
+  progress: 369/369 UNSAT | tot_cores=9 | max_dt=1.11s | wall=3.90s
+  wave j=[None, 0, 1, 2, 3, 4, 5, 6, 7, 8] UNSAT in 4.09s (cores=9, +9 unique short cores -> total cached 9)
+ALL TASKS FOR m=11,k=4 j=[None, 0, 1, 2, 3, 4, 5, 6, 7, 8] PROVEN UNSAT in 4.09s (grand_cores=9)!
+m=16, k=5 [wave 1/1 j=[None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]]: 1379 tasks, pre_cores=0 across 16 workers...
+  progress: 50/1379 UNSAT | tot_cores=0 | max_dt=1.00s | wall=1.88s
+  progress: 100/1379 UNSAT | tot_cores=0 | max_dt=1.10s | wall=2.68s
+  progress: 150/1379 UNSAT | tot_cores=23 | max_dt=1.29s | wall=3.50s
+  progress: 200/1379 UNSAT | tot_cores=51 | max_dt=1.29s | wall=4.08s
+  progress: 250/1379 UNSAT | tot_cores=61 | max_dt=1.29s | wall=4.80s
+  progress: 300/1379 UNSAT | tot_cores=69 | max_dt=1.29s | wall=5.69s
+  progress: 350/1379 UNSAT | tot_cores=78 | max_dt=1.29s | wall=6.40s
+  progress: 400/1379 UNSAT | tot_cores=82 | max_dt=1.29s | wall=7.30s
+  progress: 450/1379 UNSAT | tot_cores=98 | max_dt=1.29s | wall=8.38s
+  progress: 500/1379 UNSAT | tot_cores=107 | max_dt=1.29s | wall=9.20s
+  progress: 550/1379 UNSAT | tot_cores=115 | max_dt=1.50s | wall=10.18s
+  progress: 600/1379 UNSAT | tot_cores=124 | max_dt=1.50s | wall=11.00s
+  progress: 650/1379 UNSAT | tot_cores=144 | max_dt=1.50s | wall=11.90s
+  progress: 700/1379 UNSAT | tot_cores=148 | max_dt=1.50s | wall=12.68s
+  progress: 750/1379 UNSAT | tot_cores=159 | max_dt=1.50s | wall=13.18s
+  progress: 800/1379 UNSAT | tot_cores=188 | max_dt=1.50s | wall=13.79s
+  progress: 850/1379 UNSAT | tot_cores=210 | max_dt=1.50s | wall=14.48s
+  progress: 900/1379 UNSAT | tot_cores=303 | max_dt=1.50s | wall=15.48s
+  progress: 950/1379 UNSAT | tot_cores=348 | max_dt=1.50s | wall=16.98s
+  progress: 1000/1379 UNSAT | tot_cores=598 | max_dt=1.50s | wall=17.80s
+  progress: 1050/1379 UNSAT | tot_cores=694 | max_dt=3.20s | wall=18.78s
+  progress: 1100/1379 UNSAT | tot_cores=826 | max_dt=3.20s | wall=19.59s
+  progress: 1150/1379 UNSAT | tot_cores=832 | max_dt=3.20s | wall=20.28s
+  progress: 1200/1379 UNSAT | tot_cores=1259 | max_dt=3.20s | wall=21.18s
+  progress: 1250/1379 UNSAT | tot_cores=1450 | max_dt=3.20s | wall=21.60s
+  progress: 1300/1379 UNSAT | tot_cores=1636 | max_dt=3.20s | wall=22.29s
+  progress: 1350/1379 UNSAT | tot_cores=1785 | max_dt=3.20s | wall=23.09s
+  progress: 1379/1379 UNSAT | tot_cores=1814 | max_dt=3.20s | wall=23.50s
+  wave j=[None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] UNSAT in 23.78s (cores=1814, +1461 unique short cores -> total cached 1461)
+ALL TASKS FOR m=16,k=5 j=[None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] PROVEN UNSAT in 23.78s (grand_cores=1814)!

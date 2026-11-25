@@ -1,0 +1,128 @@
+m=22, k=6 [wave 1/21 j=[None]]: 210 tasks, pre_cores=0 across 16 workers...
+  progress: 50/210 UNSAT | tot_cores=58 | max_dt=23.69s | wall=57.60s
+  progress: 100/210 UNSAT | tot_cores=850 | max_dt=66.40s | wall=116.89s
+  progress: 150/210 UNSAT | tot_cores=2377 | max_dt=66.40s | wall=163.29s
+  progress: 200/210 UNSAT | tot_cores=2855 | max_dt=66.40s | wall=197.09s
+  progress: 210/210 UNSAT | tot_cores=3174 | max_dt=66.40s | wall=212.29s
+  wave j=[None] UNSAT in 212.50s (cores=3174, +2397 unique short cores -> total cached 2397)
+m=22, k=6 [wave 2/21 j=[19]]: 190 tasks, pre_cores=2397 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=1758 | max_dt=39.10s | wall=60.99s
+  progress: 100/190 UNSAT | tot_cores=7560 | max_dt=75.39s | wall=123.58s
+  progress: 150/190 UNSAT | tot_cores=15347 | max_dt=75.39s | wall=178.18s
+  progress: 190/190 UNSAT | tot_cores=20575 | max_dt=75.39s | wall=233.10s
+  wave j=[19] UNSAT in 233.39s (cores=20575, +15852 unique short cores -> total cached 18249)
+m=22, k=6 [wave 3/21 j=[18]]: 190 tasks, pre_cores=18249 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=0 | max_dt=2.09s | wall=4.00s
+  progress: 100/190 UNSAT | tot_cores=0 | max_dt=2.09s | wall=7.50s
+  progress: 150/190 UNSAT | tot_cores=0 | max_dt=10.78s | wall=13.02s
+  progress: 190/190 UNSAT | tot_cores=0 | max_dt=24.11s | wall=35.51s
+  wave j=[18] UNSAT in 35.71s (cores=0, +0 unique short cores -> total cached 18249)
+m=22, k=6 [wave 4/21 j=[17]]: 190 tasks, pre_cores=18249 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=0 | max_dt=3.10s | wall=6.48s
+  progress: 100/190 UNSAT | tot_cores=0 | max_dt=10.12s | wall=13.98s
+  progress: 150/190 UNSAT | tot_cores=0 | max_dt=11.91s | wall=30.30s
+  progress: 190/190 UNSAT | tot_cores=101511 | max_dt=833.98s | wall=837.50s
+  wave j=[17] UNSAT in 838.40s (cores=101511, +71087 unique short cores -> total cached 89336)
+m=22, k=6 [wave 5/21 j=[16]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=0 | max_dt=1.81s | wall=5.79s
+  progress: 100/190 UNSAT | tot_cores=91 | max_dt=25.31s | wall=29.60s
+  progress: 150/190 UNSAT | tot_cores=1119 | max_dt=83.40s | wall=91.78s
+  progress: 190/190 UNSAT | tot_cores=18353 | max_dt=191.30s | wall=194.30s
+  wave j=[16] UNSAT in 194.70s (cores=18353, +13758 unique short cores -> total cached 103094)
+m=22, k=6 [wave 6/21 j=[15]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=0 | max_dt=2.70s | wall=9.29s
+  progress: 100/190 UNSAT | tot_cores=152 | max_dt=58.89s | wall=61.98s
+  progress: 150/190 UNSAT | tot_cores=4946 | max_dt=128.80s | wall=176.59s
+  progress: 190/190 UNSAT | tot_cores=60329 | max_dt=424.49s | wall=427.90s
+  wave j=[15] UNSAT in 428.59s (cores=60329, +38995 unique short cores -> total cached 142089)
+m=22, k=6 [wave 7/21 j=[14]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=2 | max_dt=13.59s | wall=15.20s
+  progress: 100/190 UNSAT | tot_cores=2127 | max_dt=62.60s | wall=67.51s
+  progress: 150/190 UNSAT | tot_cores=10479 | max_dt=123.89s | wall=141.80s
+  progress: 190/190 UNSAT | tot_cores=38250 | max_dt=195.02s | wall=198.00s
+  wave j=[14] UNSAT in 198.32s (cores=38250, +24898 unique short cores -> total cached 166987)
+m=22, k=6 [wave 8/21 j=[13]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=1 | max_dt=19.61s | wall=23.28s
+  progress: 100/190 UNSAT | tot_cores=4585 | max_dt=59.08s | wall=77.20s
+  progress: 150/190 UNSAT | tot_cores=16036 | max_dt=86.60s | wall=128.19s
+  progress: 190/190 UNSAT | tot_cores=20404 | max_dt=86.60s | wall=168.30s
+  wave j=[13] UNSAT in 168.70s (cores=20404, +13446 unique short cores -> total cached 180433)
+m=22, k=6 [wave 9/21 j=[12]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=196 | max_dt=22.19s | wall=22.86s
+  progress: 100/190 UNSAT | tot_cores=3109 | max_dt=42.68s | wall=62.56s
+  progress: 150/190 UNSAT | tot_cores=7307 | max_dt=42.68s | wall=102.77s
+  progress: 190/190 UNSAT | tot_cores=9986 | max_dt=42.68s | wall=134.66s
+  wave j=[12] UNSAT in 134.98s (cores=9986, +6808 unique short cores -> total cached 187241)
+m=22, k=6 [wave 10/21 j=[11]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=143 | max_dt=17.72s | wall=23.89s
+  progress: 100/190 UNSAT | tot_cores=2207 | max_dt=33.92s | wall=62.48s
+  progress: 150/190 UNSAT | tot_cores=4227 | max_dt=33.92s | wall=102.78s
+  progress: 190/190 UNSAT | tot_cores=6366 | max_dt=34.59s | wall=148.80s
+  wave j=[11] UNSAT in 149.50s (cores=6366, +4490 unique short cores -> total cached 191731)
+m=22, k=6 [wave 11/21 j=[10]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=128 | max_dt=28.62s | wall=34.20s
+  progress: 100/190 UNSAT | tot_cores=790 | max_dt=44.30s | wall=70.70s
+  progress: 150/190 UNSAT | tot_cores=1612 | max_dt=44.30s | wall=107.59s
+  progress: 190/190 UNSAT | tot_cores=3233 | max_dt=44.30s | wall=136.28s
+  wave j=[10] UNSAT in 136.61s (cores=3233, +2479 unique short cores -> total cached 194210)
+m=22, k=6 [wave 12/21 j=[9]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=121 | max_dt=23.20s | wall=25.21s
+  progress: 100/190 UNSAT | tot_cores=579 | max_dt=28.10s | wall=56.80s
+  progress: 150/190 UNSAT | tot_cores=1078 | max_dt=28.10s | wall=89.62s
+  progress: 190/190 UNSAT | tot_cores=2630 | max_dt=28.10s | wall=123.41s
+  wave j=[9] UNSAT in 123.61s (cores=2630, +1933 unique short cores -> total cached 196143)
+m=22, k=6 [wave 13/21 j=[8]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=85 | max_dt=26.21s | wall=30.76s
+  progress: 100/190 UNSAT | tot_cores=574 | max_dt=27.00s | wall=64.07s
+  progress: 150/190 UNSAT | tot_cores=944 | max_dt=27.00s | wall=98.17s
+  progress: 190/190 UNSAT | tot_cores=2466 | max_dt=27.00s | wall=136.07s
+  wave j=[8] UNSAT in 136.36s (cores=2466, +1756 unique short cores -> total cached 197899)
+m=22, k=6 [wave 14/21 j=[7]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=219 | max_dt=24.80s | wall=34.00s
+  progress: 100/190 UNSAT | tot_cores=685 | max_dt=25.70s | wall=71.10s
+  progress: 150/190 UNSAT | tot_cores=939 | max_dt=29.09s | wall=103.32s
+  progress: 190/190 UNSAT | tot_cores=2713 | max_dt=29.09s | wall=139.02s
+  wave j=[7] UNSAT in 139.30s (cores=2713, +1787 unique short cores -> total cached 199686)
+m=22, k=6 [wave 15/21 j=[6]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=142 | max_dt=20.61s | wall=42.77s
+  progress: 100/190 UNSAT | tot_cores=654 | max_dt=34.92s | wall=99.28s
+  progress: 150/190 UNSAT | tot_cores=925 | max_dt=39.00s | wall=145.18s
+  progress: 190/190 UNSAT | tot_cores=2887 | max_dt=39.00s | wall=197.69s
+  wave j=[6] UNSAT in 197.97s (cores=2887, +1835 unique short cores -> total cached 201521)
+m=22, k=6 [wave 16/21 j=[5]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=223 | max_dt=25.40s | wall=41.18s
+  progress: 100/190 UNSAT | tot_cores=597 | max_dt=25.40s | wall=81.58s
+  progress: 150/190 UNSAT | tot_cores=850 | max_dt=25.40s | wall=113.98s
+  progress: 190/190 UNSAT | tot_cores=2719 | max_dt=25.92s | wall=153.31s
+  wave j=[5] UNSAT in 153.59s (cores=2719, +1668 unique short cores -> total cached 203189)
+m=22, k=6 [wave 17/21 j=[4]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=245 | max_dt=32.30s | wall=44.08s
+  progress: 100/190 UNSAT | tot_cores=627 | max_dt=32.30s | wall=88.38s
+  progress: 150/190 UNSAT | tot_cores=941 | max_dt=32.30s | wall=123.89s
+  progress: 190/190 UNSAT | tot_cores=2556 | max_dt=32.30s | wall=162.90s
+  wave j=[4] UNSAT in 163.18s (cores=2556, +1566 unique short cores -> total cached 204755)
+m=22, k=6 [wave 18/21 j=[3]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=253 | max_dt=27.52s | wall=45.47s
+  progress: 100/190 UNSAT | tot_cores=628 | max_dt=27.52s | wall=89.49s
+  progress: 150/190 UNSAT | tot_cores=835 | max_dt=27.52s | wall=123.50s
+  progress: 190/190 UNSAT | tot_cores=2495 | max_dt=27.52s | wall=153.48s
+  wave j=[3] UNSAT in 153.78s (cores=2495, +1498 unique short cores -> total cached 206253)
+m=22, k=6 [wave 19/21 j=[2]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=263 | max_dt=27.90s | wall=53.62s
+  progress: 100/190 UNSAT | tot_cores=672 | max_dt=27.90s | wall=92.11s
+  progress: 150/190 UNSAT | tot_cores=919 | max_dt=27.90s | wall=125.91s
+  progress: 190/190 UNSAT | tot_cores=2386 | max_dt=27.90s | wall=165.69s
+  wave j=[2] UNSAT in 165.91s (cores=2386, +1486 unique short cores -> total cached 207739)
+m=22, k=6 [wave 20/21 j=[1]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=337 | max_dt=35.80s | wall=55.81s
+  progress: 100/190 UNSAT | tot_cores=806 | max_dt=35.80s | wall=102.51s
+  progress: 150/190 UNSAT | tot_cores=1112 | max_dt=35.80s | wall=138.01s
+  progress: 190/190 UNSAT | tot_cores=2327 | max_dt=35.80s | wall=174.51s
+  wave j=[1] UNSAT in 174.92s (cores=2327, +1469 unique short cores -> total cached 209208)
+m=22, k=6 [wave 21/21 j=[0]]: 190 tasks, pre_cores=25000 across 16 workers...
+  progress: 50/190 UNSAT | tot_cores=437 | max_dt=26.62s | wall=53.10s
+  progress: 100/190 UNSAT | tot_cores=3293 | max_dt=47.00s | wall=101.19s
+  progress: 150/190 UNSAT | tot_cores=6147 | max_dt=47.00s | wall=143.51s
+  progress: 190/190 UNSAT | tot_cores=8799 | max_dt=47.00s | wall=185.29s
+  wave j=[0] UNSAT in 185.61s (cores=8799, +5120 unique short cores -> total cached 214328)
+ALL TASKS FOR m=22,k=6 j=[None, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0] PROVEN UNSAT in 4398.81s (grand_cores=314159)!

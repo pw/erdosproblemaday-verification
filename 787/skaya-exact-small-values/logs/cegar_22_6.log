@@ -1,0 +1,2 @@
+  iter 200 core=10 |E|=55 315.2s
+  iter 400 core=6 |E|=54 441.9s
