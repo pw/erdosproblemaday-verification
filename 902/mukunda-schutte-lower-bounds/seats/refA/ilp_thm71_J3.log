@@ -1,0 +1,2 @@
+Jmax=3: vars=2861 (arcs 55, sets 1486, z 1320), rows=4149
+status=1 (Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)) in 600.3s

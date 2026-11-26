@@ -1,0 +1,33 @@
+== /home/exedev/MathDyad/subs-1126/902/repo/proof/search/r6/drt51.json[0]: n=51 t=12
+  (M0) trans=15300 expected 15300; cyc=5525 expected 5525
+  (M1) violations: 0
+  (M2) sum_trans k=84150 expected 84150; sum_cyc k=33150 expected 33150; means 11/2 vs (t-1)/2=11/2, 6 vs t/2=6
+  (M3) sum C(k,2)=280500 expected 280500
+  (M4) sum C(k,3)=369843  sum C(t-sigma-k,3)=369843
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 1
+  k-distribution transitive: {1: 1, 2: 9, 3: 140, 4: 1570, 5: 5919, 6: 5924, 7: 1611, 8: 119, 9: 7}
+  k-distribution cyclic:     {3: 13, 4: 198, 5: 1360, 6: 2409, 7: 1321, 8: 201, 9: 20, 10: 3}
+  ALL IDENTITIES HOLD: True
+== /home/exedev/MathDyad/subs-1126/902/repo/proof/search/r6/drt51.json[1]: n=51 t=12
+  (M0) trans=15300 expected 15300; cyc=5525 expected 5525
+  (M1) violations: 0
+  (M2) sum_trans k=84150 expected 84150; sum_cyc k=33150 expected 33150; means 11/2 vs (t-1)/2=11/2, 6 vs t/2=6
+  (M3) sum C(k,2)=280500 expected 280500
+  (M4) sum C(k,3)=369843  sum C(t-sigma-k,3)=369843
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 1
+  k-distribution transitive: {1: 1, 2: 8, 3: 147, 4: 1577, 5: 5861, 6: 6002, 7: 1571, 8: 127, 9: 6}
+  k-distribution cyclic:     {3: 7, 4: 216, 5: 1326, 6: 2464, 7: 1270, 8: 220, 9: 19, 10: 3}
+  ALL IDENTITIES HOLD: True
+== /home/exedev/MathDyad/subs-1126/902/repo/proof/search/r6/drt51.json[2]: n=51 t=12
+  (M0) trans=15300 expected 15300; cyc=5525 expected 5525
+  (M1) violations: 0
+  (M2) sum_trans k=84150 expected 84150; sum_cyc k=33150 expected 33150; means 11/2 vs (t-1)/2=11/2, 6 vs t/2=6
+  (M3) sum C(k,2)=280500 expected 280500
+  (M4) sum C(k,3)=369843  sum C(t-sigma-k,3)=369843
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 1
+  k-distribution transitive: {1: 1, 2: 9, 3: 140, 4: 1570, 5: 5919, 6: 5924, 7: 1611, 8: 119, 9: 7}
+  k-distribution cyclic:     {3: 13, 4: 198, 5: 1360, 6: 2409, 7: 1321, 8: 201, 9: 20, 10: 3}
+  ALL IDENTITIES HOLD: True

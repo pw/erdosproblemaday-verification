@@ -1,0 +1,3 @@
+|T| 21 T == note True
+F+F [0, 2, 3, 5, 6, 8, 10, 11, 13, 14, 16, 18, 19, 21, 22] meets F: False
+T contains t1,t2,t1+t2: False

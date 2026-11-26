@@ -1,0 +1,15 @@
+{
+ "id": "gntmsr",
+ "created": "2026-11-25T13:50:43.624Z",
+ "problem": 902,
+ "name": "Vittal Mukunda",
+ "claim": "partial",
+ "links": "https://github.com/Vittal-Mukunda/erdos-902-schutte/blob/schutte-paper-v1/paper/schutte_lower_bounds.pdf\r\nhttps://github.com/Vittal-Mukunda/erdos-902-schutte",
+ "body": "**Problem.** Erdős #902 (Schütte): f(n) = least order of a tournament in which every n vertices are beaten by a common vertex. Classical bounds: (n+2)2^{n-1} - 1 ≤ f(n) ≤ (ln 2 + o(1)) n^2 2^n (Szekeres–Szekeres 1965; Erdős 1963); f(1), f(2), f(3) = 3, 7, 19; f(4) ≤ 67 (QR_67), f(5) ≤ 331 (QR_331).\r\n\r\n**Results (full proofs in the PDF).**\r\n1. $f(4) \\ge 52$, proved by hand. Stronger: every tournament on at most 51 vertices has a triple with at most 4 common dominators. At 51 vertices such a tournament would have to be doubly regular (a congruence mod 4 plus a spectral argument), and a third-moment identity excludes doubly regular tournaments on 51 vertices.\r\n2. $f(n) \\ge (n + 5/2)\\,2^{n-1} - 1$ for all $n \\ge 4$ (by hand).\r\n3. $f(n) \\ge (c^* - o(1))\\, n 2^n$ with $c^* = 0.76950\\ldots$, up from the constant 1/2 (by hand; uses a cross-level double-counting lemma).\r\n4. $f(5)\\ge121$, $f(6)\\ge281$, $f(7)\\ge665$, $f(8)\\ge1485$, $f(9)\\ge3388$, $f(10)\\ge7398$, $f(11)\\ge16569$, $f(12)\\ge35655$ (exact integer recursion; the lemma behind it is proved in the paper).\r\n5. Bipartite version: $f_{bip}(n) \\ge (n+1)2^n$ (sharp for n = 1, 2) and $f_{bip}(n) \\ge 2(c^*-o(1))n2^n$, via a game-value form of the Szekeres doubling. So the asymptotic bound needs no arc inside a dominator set.\r\n6. Computer-assisted: an $S_4$ tournament on 52 vertices with no \"tight\" pair (a pair with exactly 11 dominators) has a vertex of in-degree ≥ 30. This uses level-7 finite-N flag-algebra certificates checked in exact rational arithmetic.\r\n\r\n**Not claimed.** The order of magnitude of f(n) stays open (the bounds are still a factor n apart). f(4) ≥ 53 is open.\r\n\r\n**How to check.** Sections 2–8 are complete hand proofs. Numerical steps: `python proof/verify_proof.py` (0 failures). Certificates: `python proof/search/r11/audit_b320_independent.py <cert.pkl>`, an exact verifier written independently of the solver code. The README lists every command.\r\n\r\n**What is mine and what isn't.** The Szekeres lemma (an (n−1)-set's dominator set is undominated) and the classical bounds are due to Szekeres–Szekeres and Erdős. Bipartite variants of Schütte's problem appear in Borowiecki–Grytczuk–Hałuszczak–Tuza (2003). Results 1–6 are new as far as I know.",
+ "tools": "Claude (Anthropic; Claude Code with Opus-class models, Oct–Nov 2026) wrote the hand proofs, the search and SDP code, and the certificates, under my direction. Each proof was audited by a separate Claude instance that did not share the derivation, and each certificate by an exact verifier written independently of the solver code. I [chose the problem and directions / read the proofs of ... / re-ran",
+ "consent": 1,
+ "status": "received",
+ "verdict": null,
+ "review": null,
+ "reviewed": null
+}

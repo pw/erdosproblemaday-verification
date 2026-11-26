@@ -1,0 +1,4 @@
+vertices 0..66 induce QR_67 (j-i square): True  or its reverse: False
+D(B) = [13, 24, 37, 49, 63]  in-degrees of 67,68,69: [51, 47, 44]
+triples with exactly 5 dominators: 2 [(22, 24, 69), (67, 68, 69)]
+min in-degree 33 max 51

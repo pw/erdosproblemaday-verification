@@ -1,0 +1,12 @@
+n= 2: least N not ruled out =      7  paper      7  match=True  window[3,11] monotone-consistent=True  L(V)=[7, 3, 1]
+n= 3: least N not ruled out =     19  paper     19  match=True  window[4,23] monotone-consistent=True  L(V)=[19, 9, 4, 1]
+n= 4: least N not ruled out =     49  paper     49  match=True  window[5,53] monotone-consistent=True  L(V)=[47, 23, 11, 5, 1]
+n= 5: least N not ruled out =    121  paper    121  match=True  window[6,125] monotone-consistent=True  L(V)=[119, 59, 29, 14, 6, 1]
+n= 6: least N not ruled out =    281  paper    281  match=True  window[7,285] monotone-consistent=True  L(V)=[279, 139, 69, 34, 16, 7, 1]
+n= 7: least N not ruled out =    665  paper    665  match=True  window[365,669] monotone-consistent=True  L(V)=[663, 331, 165, 82, 40, 19, 8, 1]
+n= 8: least N not ruled out =   1485  paper   1485  match=True  window[1185,1489] monotone-consistent=True  L(V)=[1455, 727, 363, 181, 90, 44, 21, 9, 1]
+n= 9: least N not ruled out =   3388  paper   3388  match=True  window[3088,3392] monotone-consistent=True  L(V)=[3375, 1687, 843, 421, 210, 104, 51, 24, 10, 1]
+n=10: least N not ruled out =   7398  paper   7398  match=True  window[7098,7402] monotone-consistent=True  L(V)=[7327, 3663, 1831, 915, 457, 228, 113, 55, 26, 11, 1]
+n=11: least N not ruled out =  16569  paper  16569  match=True  window[16269,16573] monotone-consistent=True  L(V)=[16567, 8283, 4141, 2070, 1034, 516, 257, 127, 62, 29, 12, 1]
+n=12: least N not ruled out =  35655  paper  35655  match=True  window[35355,35659] monotone-consistent=True  L(V)=[35487, 17743, 8871, 4435, 2217, 1108, 553, 275, 136, 66, 31, 13, 1]
+ALL MATCH

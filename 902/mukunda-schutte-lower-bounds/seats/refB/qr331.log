@@ -1,0 +1,8 @@
+QR_331: nu_0..nu_5 = [331, 165, 82, 36, 12, 1] (sets enumerated per size [0, 0, 1, 329, 53956, 5881204]); S_5 holds: True; time 8.0s
+QR_331 Lemma 3.1 on orbit representatives: 271440 (A,k) checks, all OK = True; time 108.5s
+QR_7: L(N=7) = [7, 3, 1]  nu = [7, 3, 1]  L_s<=nu_s all s: True;  mutated (h=L+2) L = [inf, inf, 1], violates real nu at s=[0, 1]
+QR_19: L(N=19) = [19, 9, 4, 1]  nu = [19, 9, 4, 1]  L_s<=nu_s all s: True;  mutated (h=L+2) L = [inf, inf, 7, 1], violates real nu at s=[0, 1, 2]
+QR_67: L(N=67) = [47, 23, 11, 5, 1]  nu = [67, 33, 16, 6, 1]  L_s<=nu_s all s: True;  mutated (h=L+2) L = [inf, 54, 19, 7, 1], violates real nu at s=[0, 1, 2, 3]
+N70: L(N=70) = [47, 23, 11, 5, 1]  nu = [70, 33, 16, 5, 1]  L_s<=nu_s all s: True;  mutated (h=L+2) L = [inf, 50, 19, 7, 1], violates real nu at s=[0, 1, 2, 3]
+QR_331: L(N=331) = [111, 55, 27, 13, 6, 1]  nu = [331, 165, 82, 36, 12, 1]  L_s<=nu_s all s: True;  mutated (h=L+2) L = [159, 79, 39, 19, 8, 1], violates real nu at s=[]
+time 108.5

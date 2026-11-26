@@ -1,0 +1,3 @@
+github.com/Vittal-Mukunda/erdos-902-schutte tag schutte-paper-v1 commit 1eed1fd1454d2174bf79e482df0078008db5bcc4 (2026-11-25T19:15:48+05:30)
+995e77c0510096c0137dbf081fdc67583a826801e1e5aa8de362a3a04baf4987  paper/schutte_lower_bounds.pdf
+c407bd1dc1f064085a8d815900e24bd5c9bcb30986a2d808b359d54036bf9337  paper/schutte_lower_bounds.tex

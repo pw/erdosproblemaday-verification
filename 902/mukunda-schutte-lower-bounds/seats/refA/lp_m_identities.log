@@ -1,0 +1,17 @@
+t=12 (n=51) lower bound k>=0: LP FEASIBLE
+t=12 (n=51) lower bound k>=1: LP FEASIBLE
+t=12 (n=51) lower bound k>=2: LP FEASIBLE
+t=12 (n=51) lower bound k>=3: LP FEASIBLE
+t=12 (n=51) lower bound k>=4: LP FEASIBLE
+t=12 (n=51) lower bound k>=5: LP INFEASIBLE
+t=12 (n=51) lower bound k>=6: LP INFEASIBLE
+t=12 (n=51) lower bound k>=7: LP INFEASIBLE
+t=14 (n=59) lower bound k>=5: LP FEASIBLE
+t=16 (n=67) lower bound k>=5: LP FEASIBLE
+t=16 (n=67) lower bound k>=6: LP FEASIBLE
+t=11 (n=47) lower bound k>=5: LP INFEASIBLE
+t=11 (n=47) lower bound k>=4: LP FEASIBLE
+identity C(k,3)-C(L-k,3) = (u^3+(3a^2-1)u)/3 holds for all k in range: True
+g(k) = u^3-u/4 (trans) / u^3-u (cyc) for k>=5: [('tr', 5, '0'), ('tr', 6, '0'), ('tr', 7, '3'), ('tr', 8, '15'), ('tr', 9, '42'), ('tr', 10, '90'), ('tr', 11, '165'), ('cy', 5, '0'), ('cy', 6, '0'), ('cy', 7, '0'), ('cy', 8, '6'), ('cy', 9, '24'), ('cy', 10, '60'), ('cy', 11, '120'), ('cy', 12, '210')]
+forced p = 6375  vs 5525/2 = 5525/2  contradiction: True
+check 7650*25+15*5525 = 274125

@@ -1,0 +1,7 @@
+ENUMERATOR CONTROL: S_{1,1} with |A|+|B|<=4 found: (2, 2, (1, 2))
+Remark 5.2 example: v=0.500000, nu^A=[6, 3, 1, 0, 0, 0, 0], nu^B=[6, 3, 1, 0, 0, 0, 0]; Lemma 5.1 A-side ok: True, B-side ok: True
+   Theorem 1.5 chain at n=2: (n+1)^2=9 <= nu^A_1*nu^B_1 = 9 <= v(1-v)*K*m = 9.0
+n=2: |A|=n,|B|=1 (b->all of A) satisfies the literal S_{n,n}: True (order 3 < (n+1)2^n = 12);  |A|=|B|=1 satisfies it vacuously: True
+n=3: |A|=n,|B|=1 (b->all of A) satisfies the literal S_{n,n}: True (order 4 < (n+1)2^n = 32);  |A|=|B|=1 satisfies it vacuously: True
+n=4: |A|=n,|B|=1 (b->all of A) satisfies the literal S_{n,n}: True (order 5 < (n+1)2^n = 80);  |A|=|B|=1 satisfies it vacuously: True
+n=5: |A|=n,|B|=1 (b->all of A) satisfies the literal S_{n,n}: True (order 6 < (n+1)2^n = 192);  |A|=|B|=1 satisfies it vacuously: True

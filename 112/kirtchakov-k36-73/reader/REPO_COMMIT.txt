@@ -1,0 +1,2 @@
+3b61218c773c717839bc773bacbe7e66c55cef68 2026-11-26T00:58:52-05:00
+k36/certificates/k36_N72.json sha256 3c8dc5150b6efd58093aa4724f14d78f9608a7afac49b0099b377e273a9911c3 (not redistributed; clone the reader's repo)

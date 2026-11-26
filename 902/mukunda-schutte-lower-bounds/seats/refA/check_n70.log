@@ -1,0 +1,6 @@
+n = 70 in-degree range 33 51
+nu1,nu2,nu3 = 33 16 5
+S4: True None
+tight pairs: 0
+Lemma 6.1 violations (tight-pair dominator with in-degree < 25): 0
+in-degree-24 vertices: 0

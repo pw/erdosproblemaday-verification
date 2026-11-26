@@ -1,0 +1,135 @@
+### balF1
+Auditing cert_s7_N52_balF1.pkl: s=7, N=52, 429 active multipliers, K=105
+  (r=2, sigma=0): 35 multipliers audited in 96.3s
+  (r=3, sigma=0): 107 multipliers audited in 175.7s
+  (r=3, sigma=2): 65 multipliers audited in 101.6s
+  (r=4, sigma=0): 35 multipliers audited in 15.9s
+  (r=4, sigma=2): 31 multipliers audited in 15.3s
+  (r=4, sigma=4): 56 multipliers audited in 26.2s
+  (r=4, sigma=5): 47 multipliers audited in 20.5s
+  (r=5, sigma=0): 5 multipliers audited in 10.1s
+  (r=5, sigma=2): 5 multipliers audited in 10.2s
+  (r=5, sigma=4): 2 multipliers audited in 9.6s
+  (r=5, sigma=5): 4 multipliers audited in 8.8s
+  (r=5, sigma=8): 4 multipliers audited in 8.8s
+  (r=5, sigma=9): 7 multipliers audited in 7.6s
+  (r=5, sigma=10): 7 multipliers audited in 7.7s
+  (r=5, sigma=11): 4 multipliers audited in 10.8s
+  (r=5, sigma=12): 2 multipliers audited in 9.1s
+  (r=5, sigma=40): 6 multipliers audited in 8.7s
+  (r=5, sigma=41): 2 multipliers audited in 10.5s
+  (r=5, sigma=76): 4 multipliers audited in 8.4s
+  (r=6, sigma=408): 1 multipliers audited in 24.5s
+AUDIT COMPLETE in 605.9s:
+  Exact rational max_H (a_H / K) = -5.417587164998e-05  (LP reported nu = -6.323585228928e-05)
+  Exact rational min_H (a_H / K) = -7.607399e-05
+  All 456 class coefficients strictly < 0: True
+INDEPENDENT CLEAN-ROOM AUDIT PASSED (EXACT ARITHMETIC)
+### e2
+Auditing cert_s7_N52_e2.pkl: s=7, N=52, 423 active multipliers, K=105
+  (r=1, sigma=0): 2 multipliers audited in 3.1s
+  (r=2, sigma=0): 34 multipliers audited in 70.2s
+  (r=3, sigma=0): 107 multipliers audited in 125.3s
+  (r=3, sigma=2): 46 multipliers audited in 353.9s
+  (r=4, sigma=0): 37 multipliers audited in 12.1s
+  (r=4, sigma=2): 31 multipliers audited in 8.6s
+  (r=4, sigma=4): 45 multipliers audited in 19.4s
+  (r=4, sigma=5): 36 multipliers audited in 12.0s
+  (r=5, sigma=0): 8 multipliers audited in 7.1s
+  (r=5, sigma=2): 3 multipliers audited in 7.0s
+  (r=5, sigma=4): 8 multipliers audited in 7.6s
+  (r=5, sigma=5): 3 multipliers audited in 9.6s
+  (r=5, sigma=8): 5 multipliers audited in 9.4s
+  (r=5, sigma=9): 10 multipliers audited in 7.5s
+  (r=5, sigma=10): 17 multipliers audited in 6.6s
+  (r=5, sigma=11): 5 multipliers audited in 7.7s
+  (r=5, sigma=12): 7 multipliers audited in 8.5s
+  (r=5, sigma=40): 7 multipliers audited in 8.8s
+  (r=5, sigma=41): 6 multipliers audited in 8.8s
+  (r=5, sigma=76): 5 multipliers audited in 7.7s
+AUDIT COMPLETE in 717.1s:
+  Exact rational max_H (a_H / K) = -1.248972511147e-05  (LP reported nu = -1.263102771751e-05)
+  Exact rational min_H (a_H / K) = -5.594476e-05
+  All 456 class coefficients strictly < 0: True
+INDEPENDENT CLEAN-ROOM AUDIT PASSED (EXACT ARITHMETIC)
+### e3
+Auditing cert_s7_N52_e3.pkl: s=7, N=52, 410 active multipliers, K=105
+  (r=1, sigma=0): 1 multipliers audited in 2.4s
+  (r=2, sigma=0): 44 multipliers audited in 388.5s
+  (r=3, sigma=0): 78 multipliers audited in 86.7s
+  (r=3, sigma=2): 50 multipliers audited in 53.3s
+  (r=4, sigma=0): 34 multipliers audited in 12.9s
+  (r=4, sigma=2): 29 multipliers audited in 9.9s
+  (r=4, sigma=4): 49 multipliers audited in 15.7s
+  (r=4, sigma=5): 37 multipliers audited in 12.1s
+  (r=5, sigma=0): 6 multipliers audited in 7.6s
+  (r=5, sigma=2): 3 multipliers audited in 6.5s
+  (r=5, sigma=4): 11 multipliers audited in 8.0s
+  (r=5, sigma=5): 4 multipliers audited in 6.9s
+  (r=5, sigma=8): 8 multipliers audited in 9.0s
+  (r=5, sigma=9): 13 multipliers audited in 8.1s
+  (r=5, sigma=10): 19 multipliers audited in 6.9s
+  (r=5, sigma=11): 5 multipliers audited in 9.1s
+  (r=5, sigma=12): 3 multipliers audited in 7.7s
+  (r=5, sigma=40): 4 multipliers audited in 7.5s
+  (r=5, sigma=41): 8 multipliers audited in 7.9s
+  (r=5, sigma=76): 3 multipliers audited in 9.1s
+AUDIT COMPLETE in 691.6s:
+  Exact rational max_H (a_H / K) = -5.663272164812e-06  (LP reported nu = -8.500780843780e-06)
+  Exact rational min_H (a_H / K) = -2.379121e-05
+  All 456 class coefficients strictly < 0: True
+INDEPENDENT CLEAN-ROOM AUDIT PASSED (EXACT ARITHMETIC)
+### e4
+Auditing cert_s7_N52_e4.pkl: s=7, N=52, 420 active multipliers, K=105
+  (r=1, sigma=0): 1 multipliers audited in 1.3s
+  (r=2, sigma=0): 45 multipliers audited in 80.8s
+  (r=3, sigma=0): 87 multipliers audited in 89.8s
+  (r=3, sigma=2): 49 multipliers audited in 51.6s
+  (r=4, sigma=0): 29 multipliers audited in 9.7s
+  (r=4, sigma=2): 33 multipliers audited in 9.9s
+  (r=4, sigma=4): 53 multipliers audited in 19.5s
+  (r=4, sigma=5): 42 multipliers audited in 15.0s
+  (r=5, sigma=0): 4 multipliers audited in 7.7s
+  (r=5, sigma=2): 6 multipliers audited in 8.2s
+  (r=5, sigma=4): 9 multipliers audited in 7.5s
+  (r=5, sigma=5): 5 multipliers audited in 7.3s
+  (r=5, sigma=8): 8 multipliers audited in 7.6s
+  (r=5, sigma=9): 7 multipliers audited in 7.0s
+  (r=5, sigma=10): 19 multipliers audited in 6.4s
+  (r=5, sigma=11): 5 multipliers audited in 6.6s
+  (r=5, sigma=12): 4 multipliers audited in 7.2s
+  (r=5, sigma=40): 5 multipliers audited in 6.7s
+  (r=5, sigma=41): 5 multipliers audited in 6.4s
+  (r=5, sigma=76): 3 multipliers audited in 7.7s
+AUDIT COMPLETE in 381.2s:
+  Exact rational max_H (a_H / K) = -2.119250957832e-06  (LP reported nu = -5.377222128098e-06)
+  Exact rational min_H (a_H / K) = -2.007463e-05
+  All 456 class coefficients strictly < 0: True
+INDEPENDENT CLEAN-ROOM AUDIT PASSED (EXACT ARITHMETIC)
+### balA
+Auditing cert_s7_N52_balA.pkl: s=7, N=52, 430 active multipliers, K=105
+  (r=2, sigma=0): 36 multipliers audited in 69.2s
+  (r=3, sigma=0): 108 multipliers audited in 117.0s
+  (r=3, sigma=2): 58 multipliers audited in 62.1s
+  (r=4, sigma=0): 37 multipliers audited in 13.1s
+  (r=4, sigma=2): 35 multipliers audited in 11.7s
+  (r=4, sigma=4): 46 multipliers audited in 15.8s
+  (r=4, sigma=5): 47 multipliers audited in 16.5s
+  (r=5, sigma=0): 7 multipliers audited in 7.4s
+  (r=5, sigma=2): 4 multipliers audited in 6.5s
+  (r=5, sigma=4): 4 multipliers audited in 6.9s
+  (r=5, sigma=5): 7 multipliers audited in 6.3s
+  (r=5, sigma=8): 3 multipliers audited in 7.7s
+  (r=5, sigma=9): 5 multipliers audited in 7.5s
+  (r=5, sigma=10): 7 multipliers audited in 7.7s
+  (r=5, sigma=11): 5 multipliers audited in 7.0s
+  (r=5, sigma=12): 3 multipliers audited in 7.2s
+  (r=5, sigma=40): 10 multipliers audited in 7.7s
+  (r=5, sigma=41): 3 multipliers audited in 8.1s
+  (r=5, sigma=76): 4 multipliers audited in 7.7s
+  (r=6, sigma=5): 1 multipliers audited in 20.1s
+AUDIT COMPLETE in 428.8s:
+  Exact rational max_H (a_H / K) = -4.512993530593e-05  (LP reported nu = -6.298651831345e-05)
+  Exact rational min_H (a_H / K) = -8.565826e-05
+  All 456 class coefficients strictly < 0: True
+INDEPENDENT CLEAN-ROOM AUDIT PASSED (EXACT ARITHMETIC)

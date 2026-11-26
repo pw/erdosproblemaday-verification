@@ -1,4 +1,4 @@
-id xgazc7 created 2026-11-25T06:32:19.029Z name skaya email shellsus@vk.com claim partial consent 1
+id xgazc7 created 2026-11-25T06:32:19.029Z name skaya claim partial consent 1
 links:
 https://github.com/tokbceliwemers/erdos-787-progress
 https://github.com/tokbceliwemers/erdos-787-progress/blob/main/paper/erdos_787_monograph.md

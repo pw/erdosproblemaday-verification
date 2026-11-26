@@ -1,0 +1,132 @@
+== QR_7: n=7 t=1
+  (M0) trans=21 expected 21; cyc=14 expected 14
+  (M1) violations: 0
+  (M2) sum_trans k=0 expected 0; sum_cyc k=7 expected 7; means 0 vs (t-1)/2=0, 1/2 vs t/2=1/2
+  (M3) sum C(k,2)=0 expected 0
+  (M4) sum C(k,3)=0  sum C(t-sigma-k,3)=0
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 0
+  k-distribution transitive: {0: 21}
+  k-distribution cyclic:     {0: 7, 1: 7}
+  ALL IDENTITIES HOLD: True
+== QR_11: n=11 t=2
+  (M0) trans=110 expected 110; cyc=55 expected 55
+  (M1) violations: 0
+  (M2) sum_trans k=55 expected 55; sum_cyc k=55 expected 55; means 1/2 vs (t-1)/2=1/2, 1 vs t/2=1
+  (M3) sum C(k,2)=0 expected 0
+  (M4) sum C(k,3)=0  sum C(t-sigma-k,3)=0
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 0
+  k-distribution transitive: {0: 55, 1: 55}
+  k-distribution cyclic:     {1: 55}
+  ALL IDENTITIES HOLD: True
+== QR_19: n=19 t=4
+  (M0) trans=684 expected 684; cyc=285 expected 285
+  (M1) violations: 0
+  (M2) sum_trans k=1026 expected 1026; sum_cyc k=570 expected 570; means 3/2 vs (t-1)/2=3/2, 2 vs t/2=2
+  (M3) sum C(k,2)=684 expected 684
+  (M4) sum C(k,3)=57  sum C(t-sigma-k,3)=57
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 1
+  k-distribution transitive: {1: 342, 2: 342}
+  k-distribution cyclic:     {1: 57, 2: 171, 3: 57}
+  ALL IDENTITIES HOLD: True
+== QR_23: n=23 t=5
+  (M0) trans=1265 expected 1265; cyc=506 expected 506
+  (M1) violations: 0
+  (M2) sum_trans k=2530 expected 2530; sum_cyc k=1265 expected 1265; means 2 vs (t-1)/2=2, 5/2 vs t/2=5/2
+  (M3) sum C(k,2)=2530 expected 2530
+  (M4) sum C(k,3)=506  sum C(t-sigma-k,3)=506
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 1
+  k-distribution transitive: {1: 253, 2: 759, 3: 253}
+  k-distribution cyclic:     {2: 253, 3: 253}
+  ALL IDENTITIES HOLD: True
+== QR_31: n=31 t=7
+  (M0) trans=3255 expected 3255; cyc=1240 expected 1240
+  (M1) violations: 0
+  (M2) sum_trans k=9765 expected 9765; sum_cyc k=4340 expected 4340; means 3 vs (t-1)/2=3, 7/2 vs t/2=7/2
+  (M3) sum C(k,2)=16275 expected 16275
+  (M4) sum C(k,3)=8215  sum C(t-sigma-k,3)=8215
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 2
+  k-distribution transitive: {2: 930, 3: 1395, 4: 930}
+  k-distribution cyclic:     {3: 620, 4: 620}
+  ALL IDENTITIES HOLD: True
+== QR_43: n=43 t=10
+  (M0) trans=9030 expected 9030; cyc=3311 expected 3311
+  (M1) violations: 0
+  (M2) sum_trans k=40635 expected 40635; sum_cyc k=16555 expected 16555; means 9/2 vs (t-1)/2=9/2, 5 vs t/2=5
+  (M3) sum C(k,2)=108360 expected 108360
+  (M4) sum C(k,3)=107457  sum C(t-sigma-k,3)=107457
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 3
+  k-distribution transitive: {3: 903, 4: 3612, 5: 3612, 6: 903}
+  k-distribution cyclic:     {4: 1204, 5: 903, 6: 1204}
+  ALL IDENTITIES HOLD: True
+== QR_47: n=47 t=11
+  (M0) trans=11891 expected 11891; cyc=4324 expected 4324
+  (M1) violations: 0
+  (M2) sum_trans k=59455 expected 59455; sum_cyc k=23782 expected 23782; means 5 vs (t-1)/2=5, 11/2 vs t/2=11/2
+  (M3) sum C(k,2)=178365 expected 178365
+  (M4) sum C(k,3)=206471  sum C(t-sigma-k,3)=206471
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 4
+  k-distribution transitive: {4: 3243, 5: 5405, 6: 3243}
+  k-distribution cyclic:     {4: 1081, 5: 1081, 6: 1081, 7: 1081}
+  ALL IDENTITIES HOLD: True
+== QR_59: n=59 t=14
+  (M0) trans=23954 expected 23954; cyc=8555 expected 8555
+  (M1) violations: 0
+  (M2) sum_trans k=155701 expected 155701; sum_cyc k=59885 expected 59885; means 13/2 vs (t-1)/2=13/2, 7 vs t/2=7
+  (M3) sum C(k,2)=622804 expected 622804
+  (M4) sum C(k,3)=1024889  sum C(t-sigma-k,3)=1024889
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 5
+  k-distribution transitive: {5: 5133, 6: 6844, 7: 6844, 8: 5133}
+  k-distribution cyclic:     {6: 1711, 7: 5133, 8: 1711}
+  ALL IDENTITIES HOLD: True
+== QR_67: n=67 t=16
+  (M0) trans=35376 expected 35376; cyc=12529 expected 12529
+  (M1) violations: 0
+  (M2) sum_trans k=265320 expected 265320; sum_cyc k=100232 expected 100232; means 15/2 vs (t-1)/2=15/2, 8 vs t/2=8
+  (M3) sum C(k,2)=1238160 expected 1238160
+  (M4) sum C(k,3)=2449051  sum C(t-sigma-k,3)=2449051
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 6
+  k-distribution transitive: {6: 6633, 7: 11055, 8: 11055, 9: 6633}
+  k-distribution cyclic:     {6: 737, 7: 4422, 8: 2211, 9: 4422, 10: 737}
+  ALL IDENTITIES HOLD: True
+== QR_71: n=71 t=17
+  (M0) trans=42245 expected 42245; cyc=14910 expected 14910
+  (M1) violations: 0
+  (M2) sum_trans k=337960 expected 337960; sum_cyc k=126735 expected 126735; means 8 vs (t-1)/2=8, 17/2 vs t/2=17/2
+  (M3) sum C(k,2)=1689800 expected 1689800
+  (M4) sum C(k,3)=3623130  sum C(t-sigma-k,3)=3623130
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 6
+  k-distribution transitive: {6: 2485, 7: 9940, 8: 17395, 9: 9940, 10: 2485}
+  k-distribution cyclic:     {7: 4970, 8: 2485, 9: 2485, 10: 4970}
+  ALL IDENTITIES HOLD: True
+== QR_79: n=79 t=19
+  (M0) trans=58539 expected 58539; cyc=20540 expected 20540
+  (M1) violations: 0
+  (M2) sum_trans k=526851 expected 526851; sum_cyc k=195130 expected 195130; means 9 vs (t-1)/2=9, 19/2 vs t/2=19/2
+  (M3) sum C(k,2)=2985489 expected 2985489
+  (M4) sum C(k,3)=7385157  sum C(t-sigma-k,3)=7385157
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 7
+  k-distribution transitive: {7: 6162, 8: 15405, 9: 15405, 10: 15405, 11: 6162}
+  k-distribution cyclic:     {8: 3081, 9: 7189, 10: 7189, 11: 3081}
+  ALL IDENTITIES HOLD: True
+== QR_83: n=83 t=20
+  (M0) trans=68060 expected 68060; cyc=23821 expected 23821
+  (M1) violations: 0
+  (M2) sum_trans k=646570 expected 646570; sum_cyc k=238210 expected 238210; means 19/2 vs (t-1)/2=19/2, 10 vs t/2=10
+  (M3) sum C(k,2)=3879420 expected 3879420
+  (M4) sum C(k,3)=10243030  sum C(t-sigma-k,3)=10243030
+  per-class sum u: trans=0 cyc=0;  sum u^3 = 0
+  min k over triples = 8
+  k-distribution transitive: {8: 17015, 9: 17015, 10: 17015, 11: 17015}
+  k-distribution cyclic:     {8: 3403, 9: 3403, 10: 10209, 11: 3403, 12: 3403}
+  ALL IDENTITIES HOLD: True

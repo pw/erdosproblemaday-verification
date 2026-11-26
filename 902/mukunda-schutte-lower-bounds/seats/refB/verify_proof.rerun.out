@@ -1,0 +1,36 @@
+V1  basic lemmas, brute force
+  QR_7 (N=7), property S_2
+    nu_0..nu_2 = [7, 3, 1]
+    checked 8 sets A (|A| <= 1), 16 direct pair counts, 0.0s
+  QR_19 (N=19), property S_3
+    nu_0..nu_3 = [19, 9, 4, 1]
+    checked 191 sets A (|A| <= 2), 573 direct pair counts, 0.1s
+  QR_67 (N=67), property S_4
+    nu_0..nu_4 = [67, 33, 16, 6, 1]
+    checked 50184 sets A (|A| <= 3), 200600 direct pair counts, 85.1s
+  thin_S4_N70 (N=70), property S_4
+    nu_0..nu_4 = [70, 33, 16, 5, 1]
+    checked 57226 sets A (|A| <= 3), 228551 direct pair counts, 111.1s
+V2  generic Lemma T
+    QR_7: generic Lemma T (k=2, threshold d^- >= 3): 1 tight 0-sets, 7 dominators attain the bound with equality
+    QR_19: generic Lemma T (k=3, threshold d^- >= 9): 19 tight 1-sets, 171 dominators attain the bound with equality
+    QR_67: generic Lemma T (k=4, threshold d^- >= 25): 0 tight 2-sets, 0 dominators attain the bound with equality
+    thin_S4_N70: generic Lemma T (k=4, threshold d^- >= 25): 0 tight 2-sets, 0 dominators attain the bound with equality
+V3  Theorem A arithmetic
+    all inequalities of Theorem A verified (Lemma T, Cor. 1, Claim Q, final count)
+V4  Theorem B
+    Theorem B inequality holds for 5 <= n <= 2000 and fails at n = 4
+V5  Theorem C
+Traceback (most recent call last):
+  File "/home/exedev/MathDyad/subs-1126/902/repo/proof/verify_proof.py", line 481, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/exedev/MathDyad/subs-1126/902/repo/proof/verify_proof.py", line 464, in main
+    return finish_from_v5(t_start)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exedev/MathDyad/subs-1126/902/repo/proof/verify_proof.py", line 469, in finish_from_v5
+    v5_theorem_C()
+  File "/home/exedev/MathDyad/subs-1126/902/repo/proof/verify_proof.py", line 283, in v5_theorem_C
+    import mpmath as mp
+ModuleNotFoundError: No module named 'mpmath'
+exit=1

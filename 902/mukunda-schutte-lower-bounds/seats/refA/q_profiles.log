@@ -1,0 +1,7 @@
+lambda: {5: 0, 6: 4, 7: 7, 8: 9, 9: 10, 10: 10, 11: 10}
+surviving profile: J=0 non-5 q's=[11, 6, 6] triple-incidences=830
+surviving profile: J=1 non-5 q's=[11, 6] triple-incidences=840
+surviving profile: J=1 non-5 q's=[10, 6, 6] triple-incidences=830
+surviving profile: J=2 non-5 q's=[11] triple-incidences=850
+surviving profile: J=2 non-5 q's=[10, 6] triple-incidences=840
+surviving profile: J=2 non-5 q's=[9, 6, 6] triple-incidences=830

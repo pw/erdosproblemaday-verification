@@ -1,0 +1,21 @@
+V5  Theorem C
+    a_2..a_6 = ['2.56218', '5.64874', '11.8085', '24.1224', '48.7474']
+    c* = 0.7695032191504894326990652683098231346767
+    integral comparison checked on 27760 triples (n,m,h); min slack 0.0019486
+V6  Theorem D (sharpened recursion)
+    n= 2: every N <= 6 ruled out, N = 7 not ruled out (0.0s)
+    n= 3: every N <= 18 ruled out, N = 19 not ruled out (0.0s)
+    n= 4: every N <= 48 ruled out, N = 49 not ruled out (0.0s)
+    n= 5: every N <= 120 ruled out, N = 121 not ruled out (0.0s)
+    n= 6: every N <= 280 ruled out, N = 281 not ruled out (0.0s)
+    n= 7: every N <= 664 ruled out, N = 665 not ruled out (0.0s)
+    n= 8: every N <= 1484 ruled out, N = 1485 not ruled out (0.0s)
+    n= 9: every N <= 3387 ruled out, N = 3388 not ruled out (0.0s)
+    n=10: every N <= 7397 ruled out, N = 7398 not ruled out (0.1s)
+    n=11: every N <= 16568 ruled out, N = 16569 not ruled out (0.0s)
+    n=12: every N <= 35654 ruled out, N = 35655 not ruled out (0.5s)
+V7  Claim L realisation
+    Claim L realisation verified: all of (i)-(v) and the exact Gram matrix hold (row sizes [5, 6, 8, 9], identity total 1596)
+
+Total time 84s.  Failures: 0
+exit=0

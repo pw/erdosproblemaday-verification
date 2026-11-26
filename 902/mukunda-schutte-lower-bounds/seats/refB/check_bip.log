@@ -1,0 +1,14 @@
+Remark 5.2 example (6+6) has S_{2,2}: True
+n=1 4-cycle has S_{1,1}: True
+S_{1,1} with |A|,|B|>=1 and |A|+|B|<=3 exists? False
+S_{2,2} with 2<=|A|<=|B|, |A|+|B|<=11: 2959499 families checked, examples found: []
+6+6 example with sides swapped also S_{2,2} (symmetry sanity): True
+Lemma 5.1 stress: 3000 random bipartite tournaments (K,m<=8): violations=0; equality cases (A side)=3224; CONTROL (v^2 in place of v) violations=976 (must be >0)
+Traceback (most recent call last):
+  File "/home/exedev/MathDyad/subs-1126/902/refB/check_bip.py", line 109, in <module>
+    v = game_value(6, 6, beats); nA, nB = nus(6, 6, beats)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exedev/MathDyad/subs-1126/902/refB/check_bip.py", line 61, in game_value
+    P = np.array([[1.0 if (beats[b] >> a) & 1 else 0.0 for a in range(K)] for b in range(m)])
+                           ~~~~~^^^
+IndexError: list index out of range

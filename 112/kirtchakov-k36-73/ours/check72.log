@@ -1,0 +1,5 @@
+S size 25 distinct 25 0 in S False S cap -S []
+{"N": 72, "arcs": 1800, "two_cycles": 0, "loops": 0, "indep_triples": 0, "tt_counts": {"1": 72, "2": 1800, "3": 15696, "4": 46584, "5": 39744, "6": 0, "7": 0}}
+ctl two-cycle: 144
+ctl sparse indep triples: 5424
+ctl TT8 counts: {1: 8, 2: 28, 3: 56, 4: 70, 5: 56, 6: 28, 7: 8, 8: 1} [8, 28, 56, 70, 56, 28, 8, 1]

@@ -1,0 +1,3 @@
+own_drt51_0+twin: n=52 in-degree values [25, 26] counts [26, 26] nu2=12 nu3=1
+own_drt51_1+twin: n=52 in-degree values [25, 26] counts [26, 26] nu2=12 nu3=1
+repo drt_twin52.npy: n=52 in-degree values [25, 26] counts [26, 26] nu2=12 nu3=1

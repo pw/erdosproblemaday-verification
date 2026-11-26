@@ -1,0 +1,8 @@
+classes: 456
+r=1 sigma=0 '1': distinct a_H/K = [52.0] expected 52: OK
+r=1 sigma=0 'D(0,)>=25': distinct a_H/K = [26.0] expected 26: OK
+r=1 sigma=0 'deg0<=26': distinct a_H/K = [26.0] expected 26: OK
+r=2 sigma=0 '1': distinct a_H/K = [1326.0] expected 1326: OK
+r=2 sigma=1 '1': distinct a_H/K = [1326.0] expected 1326: OK
+control r=1 'int[D(0,),25]': 15 distinct values (should be >1), range -5980.000..11700.000
+control r=1 'D(0,)>=0*D(0,)>=0': 15 distinct values (should be >1), range 27846.000..45526.000

@@ -1,0 +1,8 @@
+json arcs == Cayley(S): True
+translation-invariant: True
+2-cycles: 0 loops: 0
+independent triples: 0
+|N+(0)| 25
+TT5 inside N+(0) (=> TT6 in G iff >0): 0
+TT4 inside N+(0) (control, expect >0): 552
+control TT7: TT5 below source = 6 (expect 6)
