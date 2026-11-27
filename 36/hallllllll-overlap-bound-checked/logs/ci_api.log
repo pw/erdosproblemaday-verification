@@ -1,0 +1,390 @@
+﻿2026-11-27T02:31:50.4375485Z Current runner version: '2.338.2'
+2026-11-27T02:31:50.4404109Z ##[group]Runner Image Provisioner
+2026-11-27T02:31:50.4405046Z Hosted Compute Agent
+2026-11-27T02:31:50.4405791Z Version: 20261111.635
+2026-11-27T02:31:50.4406397Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+2026-11-27T02:31:50.4407164Z Build Date: 2026-11-11T01:49:01Z
+2026-11-27T02:31:50.4407792Z Worker ID: {b69cd3ed-27ee-4941-90ef-84d5318ab77a}
+2026-11-27T02:31:50.4408499Z Region: eastus3
+2026-11-27T02:31:50.4409001Z Cloud: Azure
+2026-11-27T02:31:50.4409488Z ##[endgroup]
+2026-11-27T02:31:50.4410860Z ##[group]Operating System
+2026-11-27T02:31:50.4411697Z Ubuntu
+2026-11-27T02:31:50.4412282Z 26.04.1
+2026-11-27T02:31:50.4412776Z LTS
+2026-11-27T02:31:50.4413255Z ##[endgroup]
+2026-11-27T02:31:50.4413825Z ##[group]Runner Image
+2026-11-27T02:31:50.4414396Z Image: ubuntu-26.04
+2026-11-27T02:31:50.4414964Z Version: 20261116.202.1
+2026-11-27T02:31:50.4416122Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261116.202/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-27T02:31:50.4418081Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261116.202
+2026-11-27T02:31:50.4419037Z ##[endgroup]
+2026-11-27T02:31:50.4420180Z ##[group]GITHUB_TOKEN Permissions
+2026-11-27T02:31:50.4422879Z Contents: read
+2026-11-27T02:31:50.4423601Z Metadata: read
+2026-11-27T02:31:50.4424145Z ##[endgroup]
+2026-11-27T02:31:50.4426308Z Secret source: Actions
+2026-11-27T02:31:50.4427194Z Cache mode: write
+2026-11-27T02:31:50.4428192Z Prepare workflow directory
+2026-11-27T02:31:50.4919729Z Prepare all required actions
+2026-11-27T02:31:50.4990330Z Getting action download info
+2026-11-27T02:31:50.7111838Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-11-27T02:31:50.8815001Z Complete job name: verify
+2026-11-27T02:31:50.9670672Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+2026-11-27T02:31:50.9671954Z with:
+2026-11-27T02:31:50.9672559Z   persist-credentials: false
+2026-11-27T02:31:50.9673196Z   repository: Hallllllll/erdos36-minimum-overlap-lean4
+2026-11-27T02:31:50.9676864Z   token: ***
+2026-11-27T02:31:50.9677372Z   ssh-strict: true
+2026-11-27T02:31:50.9677865Z   ssh-user: git
+2026-11-27T02:31:50.9678355Z   clean: true
+2026-11-27T02:31:50.9678880Z   sparse-checkout-cone-mode: true
+2026-11-27T02:31:50.9679476Z   fetch-depth: 1
+2026-11-27T02:31:50.9679981Z   fetch-tags: false
+2026-11-27T02:31:50.9680478Z   show-progress: true
+2026-11-27T02:31:50.9680982Z   lfs: false
+2026-11-27T02:31:50.9681660Z   submodules: false
+2026-11-27T02:31:50.9682212Z   set-safe-directory: true
+2026-11-27T02:31:50.9682791Z   allow-unsafe-pr-checkout: false
+2026-11-27T02:31:50.9683543Z env:
+2026-11-27T02:31:50.9684044Z   LEAN_NUM_THREADS: 1
+2026-11-27T02:31:50.9684581Z ##[endgroup]
+2026-11-27T02:31:51.2093580Z Syncing repository: Hallllllll/erdos36-minimum-overlap-lean4
+2026-11-27T02:31:51.2098178Z ##[group]Getting Git version info
+2026-11-27T02:31:51.2101112Z Working directory is '/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4'
+2026-11-27T02:31:51.2105151Z [command]/usr/bin/git version
+2026-11-27T02:31:51.2106500Z git version 2.56.1
+2026-11-27T02:31:51.2112362Z ##[endgroup]
+2026-11-27T02:31:51.2121812Z Temporarily overriding HOME='/home/runner/work/_temp/8e2bd570-cd23-4f33-8461-e744012332ca' before making global git config changes
+2026-11-27T02:31:51.2128660Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-27T02:31:51.2133296Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4
+2026-11-27T02:31:51.2178488Z Deleting the contents of '/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4'
+2026-11-27T02:31:51.2183870Z ##[group]Determining repository object format
+2026-11-27T02:31:51.2186971Z ##[endgroup]
+2026-11-27T02:31:51.2189474Z ##[group]Initializing the repository
+2026-11-27T02:31:51.2195546Z [command]/usr/bin/git init /home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4
+2026-11-27T02:31:51.2267747Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-27T02:31:51.2271926Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-27T02:31:51.2275660Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-27T02:31:51.2279085Z hint: call:
+2026-11-27T02:31:51.2280577Z hint:
+2026-11-27T02:31:51.2282759Z hint: 	git config --global init.defaultBranch <name>
+2026-11-27T02:31:51.2285126Z hint:
+2026-11-27T02:31:51.2287276Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-27T02:31:51.2291545Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-27T02:31:51.2294628Z hint:
+2026-11-27T02:31:51.2296196Z hint: 	git branch -m <name>
+2026-11-27T02:31:51.2298044Z hint:
+2026-11-27T02:31:51.2300406Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-27T02:31:51.2305668Z Initialized empty Git repository in /home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git/
+2026-11-27T02:31:51.2314473Z [command]/usr/bin/git remote add origin https://github.com/Hallllllll/erdos36-minimum-overlap-lean4
+2026-11-27T02:31:51.2333441Z ##[endgroup]
+2026-11-27T02:31:51.2336021Z ##[group]Disabling automatic garbage collection
+2026-11-27T02:31:51.2338215Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-27T02:31:51.2369270Z ##[endgroup]
+2026-11-27T02:31:51.2372148Z ##[group]Setting up auth
+2026-11-27T02:31:51.2373826Z Removing SSH command configuration
+2026-11-27T02:31:51.2375737Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-27T02:31:51.2410346Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-27T02:31:51.2773689Z Removing HTTP extra header
+2026-11-27T02:31:51.2777695Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-27T02:31:51.2809296Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-27T02:31:51.3047890Z Removing includeIf entries pointing to credentials config files
+2026-11-27T02:31:51.3052351Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-27T02:31:51.3080647Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-27T02:31:51.3296363Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-27T02:31:51.3333888Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git.path /home/runner/work/_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config
+2026-11-27T02:31:51.3361999Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config
+2026-11-27T02:31:51.3393356Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config
+2026-11-27T02:31:51.3422236Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config
+2026-11-27T02:31:51.3448987Z ##[endgroup]
+2026-11-27T02:31:51.3450658Z ##[group]Fetching the repository
+2026-11-27T02:31:51.3455629Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +045d628a3db3becc39671bd18af68f91ad6931c8:refs/remotes/origin/main
+2026-11-27T02:31:51.6375664Z From https://github.com/Hallllllll/erdos36-minimum-overlap-lean4
+2026-11-27T02:31:51.6377886Z  * [new ref]         045d628a3db3becc39671bd18af68f91ad6931c8 -> origin/main
+2026-11-27T02:31:51.6385083Z [command]/usr/bin/git branch --list --remote origin/main
+2026-11-27T02:31:51.6406852Z   origin/main
+2026-11-27T02:31:51.6415024Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+2026-11-27T02:31:51.6436629Z 045d628a3db3becc39671bd18af68f91ad6931c8
+2026-11-27T02:31:51.6441620Z ##[endgroup]
+2026-11-27T02:31:51.6444268Z ##[group]Determining the checkout info
+2026-11-27T02:31:51.6446858Z ##[endgroup]
+2026-11-27T02:31:51.6448331Z [command]/usr/bin/git sparse-checkout disable
+2026-11-27T02:31:51.6498796Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-27T02:31:51.6550242Z ##[group]Checking out the ref
+2026-11-27T02:31:51.6552711Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-11-27T02:31:51.6675686Z Switched to a new branch 'main'
+2026-11-27T02:31:51.6681282Z branch 'main' set up to track 'origin/main'.
+2026-11-27T02:31:51.6687465Z ##[endgroup]
+2026-11-27T02:31:51.6725849Z [command]/usr/bin/git log -1 --format=%H
+2026-11-27T02:31:51.6747326Z 045d628a3db3becc39671bd18af68f91ad6931c8
+2026-11-27T02:31:51.6761703Z ##[group]Removing auth
+2026-11-27T02:31:51.6762803Z Removing SSH command configuration
+2026-11-27T02:31:51.6764341Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-27T02:31:51.6794493Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-27T02:31:51.7012918Z Removing HTTP extra header
+2026-11-27T02:31:51.7015334Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-27T02:31:51.7043262Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-27T02:31:51.7255541Z Removing includeIf entries pointing to credentials config files
+2026-11-27T02:31:51.7258435Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-27T02:31:51.7280742Z includeif.gitdir:/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git.path
+2026-11-27T02:31:51.7285505Z includeif.gitdir:/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git/worktrees/*.path
+2026-11-27T02:31:51.7288593Z includeif.gitdir:/github/workspace/.git.path
+2026-11-27T02:31:51.7290525Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-11-27T02:31:51.7297268Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git.path
+2026-11-27T02:31:51.7309507Z /home/runner/work/_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config
+2026-11-27T02:31:51.7321015Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-79204c5b\-e465\-4636\-9481\-aeda4fecb6b7\.config
+2026-11-27T02:31:51.7358266Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git/worktrees/*.path
+2026-11-27T02:31:51.7376860Z /home/runner/work/_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config
+2026-11-27T02:31:51.7386151Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-79204c5b\-e465\-4636\-9481\-aeda4fecb6b7\.config
+2026-11-27T02:31:51.7422368Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-11-27T02:31:51.7443062Z /github/runner_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config
+2026-11-27T02:31:51.7452340Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-79204c5b\-e465\-4636\-9481\-aeda4fecb6b7\.config
+2026-11-27T02:31:51.7480266Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-11-27T02:31:51.7499036Z /github/runner_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config
+2026-11-27T02:31:51.7507888Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-79204c5b\-e465\-4636\-9481\-aeda4fecb6b7\.config
+2026-11-27T02:31:51.7538658Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-27T02:31:51.7748152Z Removing credentials config '/home/runner/work/_temp/git-credentials-79204c5b-e465-4636-9481-aeda4fecb6b7.config'
+2026-11-27T02:31:51.7757396Z ##[endgroup]
+2026-11-27T02:31:51.7978884Z ##[group]Run curl --proto '=https' --tlsv1.2 -fsSL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh |
+2026-11-27T02:31:51.7982041Z [36;1mcurl --proto '=https' --tlsv1.2 -fsSL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh |[0m
+2026-11-27T02:31:51.7984105Z [36;1m  sh -s -- -y --default-toolchain none --no-modify-path[0m
+2026-11-27T02:31:51.7985619Z [36;1m"$HOME/.elan/bin/elan" toolchain install "$(cat lean-toolchain)"[0m
+2026-11-27T02:31:51.7986956Z [36;1mecho "$HOME/.elan/bin" >> "$GITHUB_PATH"[0m
+2026-11-27T02:31:51.8014765Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-27T02:31:51.8016054Z env:
+2026-11-27T02:31:51.8016958Z   LEAN_NUM_THREADS: 1
+2026-11-27T02:31:51.8017832Z ##[endgroup]
+2026-11-27T02:31:51.8537377Z info: downloading installer
+2026-11-27T02:31:52.5038968Z info: downloading https://releases.lean-lang.org/lean4/v4.36.0/lean-4.36.0-linux.tar.zst
+2026-11-27T02:32:00.1645976Z info: installing /home/runner/.elan/toolchains/leanprover--lean4---v4.36.0
+2026-11-27T02:32:07.6458844Z 
+2026-11-27T02:32:07.6871230Z leanprover/lean4:v4.36.0 installed - Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+2026-11-27T02:32:07.6872259Z 
+2026-11-27T02:32:07.6974124Z ##[group]Run lake exe cache get
+2026-11-27T02:32:07.6974615Z [36;1mlake exe cache get[0m
+2026-11-27T02:32:07.7001976Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-27T02:32:07.7002484Z env:
+2026-11-27T02:32:07.7002826Z   LEAN_NUM_THREADS: 1
+2026-11-27T02:32:07.7003242Z ##[endgroup]
+2026-11-27T02:32:07.8736003Z info: mathlib: materializing new dependency
+2026-11-27T02:32:07.9139099Z info: mathlib: fetching revision 'fc4f59e577feb1a4956671bc04ac18aaaf8cd842' from https://github.com/leanprover-community/mathlib4.git
+2026-11-27T02:32:09.3703569Z info: mathlib: checking out revision 'fc4f59e577feb1a4956671bc04ac18aaaf8cd842'
+2026-11-27T02:32:20.8226006Z info: plausible: materializing new dependency
+2026-11-27T02:32:20.9558907Z info: plausible: fetching revision '054b228ce0ac61d767c6e71ba73a24728f191b72' from https://github.com/leanprover-community/plausible
+2026-11-27T02:32:21.5910191Z info: plausible: checking out revision '054b228ce0ac61d767c6e71ba73a24728f191b72'
+2026-11-27T02:32:22.2933578Z info: LeanSearchClient: materializing new dependency
+2026-11-27T02:32:22.3096685Z info: LeanSearchClient: fetching revision '4fb58e749ef3fc0395fe274f6cab70c2ea85f1c9' from https://github.com/leanprover-community/LeanSearchClient
+2026-11-27T02:32:22.5274586Z info: LeanSearchClient: checking out revision '4fb58e749ef3fc0395fe274f6cab70c2ea85f1c9'
+2026-11-27T02:32:22.9673255Z info: importGraph: materializing new dependency
+2026-11-27T02:32:22.9821960Z info: importGraph: fetching revision '8370c640afcd1cc3fb1cb9bf1560cc66eafee5e0' from https://github.com/leanprover-community/import-graph
+2026-11-27T02:32:23.2401546Z info: importGraph: checking out revision '8370c640afcd1cc3fb1cb9bf1560cc66eafee5e0'
+2026-11-27T02:32:23.7673003Z info: proofwidgets: materializing new dependency
+2026-11-27T02:32:23.7828061Z info: proofwidgets: fetching revision '2f0f3520daeac2d9310ff25b7a877a0e5cdaa203' from https://github.com/leanprover-community/ProofWidgets4
+2026-11-27T02:32:24.0548666Z info: proofwidgets: checking out revision '2f0f3520daeac2d9310ff25b7a877a0e5cdaa203'
+2026-11-27T02:32:25.3264567Z info: aesop: materializing new dependency
+2026-11-27T02:32:25.3450103Z info: aesop: fetching revision '66ff77cf0c4c898799e4b94d14db55f7a02d0c5a' from https://github.com/leanprover-community/aesop
+2026-11-27T02:32:25.6246484Z info: aesop: checking out revision '66ff77cf0c4c898799e4b94d14db55f7a02d0c5a'
+2026-11-27T02:32:26.2112022Z info: Qq: materializing new dependency
+2026-11-27T02:32:26.2267875Z info: Qq: fetching revision 'ff055a2fcc835935e0ae607339b455a5f5896b4b' from https://github.com/leanprover-community/quote4
+2026-11-27T02:32:26.4915461Z info: Qq: checking out revision 'ff055a2fcc835935e0ae607339b455a5f5896b4b'
+2026-11-27T02:32:26.9547385Z info: batteries: materializing new dependency
+2026-11-27T02:32:26.9697148Z info: batteries: fetching revision 'b4b25a3886a16daacaf6615c2eea7170a6e8f458' from https://github.com/leanprover-community/batteries
+2026-11-27T02:32:27.4519709Z info: batteries: checking out revision 'b4b25a3886a16daacaf6615c2eea7170a6e8f458'
+2026-11-27T02:32:28.1354388Z info: Cli: materializing new dependency
+2026-11-27T02:32:28.1518317Z info: Cli: fetching revision '50810f72af7618bee62fe9800dc26e806c188703' from https://github.com/leanprover/lean4-cli
+2026-11-27T02:32:28.3940693Z info: Cli: checking out revision '50810f72af7618bee62fe9800dc26e806c188703'
+2026-11-27T02:32:29.0756073Z ✔ [1/7] Built Cache.Cli (183ms)
+2026-11-27T02:32:29.3753844Z ✔ [3/13] Built Cache.Lean (233ms)
+2026-11-27T02:32:29.9750337Z ✔ [7/21] Built Batteries.Tactic.OpenPrivate (581ms)
+2026-11-27T02:32:30.8760188Z ✔ [9/21] Built Cache.IO (949ms)
+2026-11-27T02:32:31.0763102Z ✔ [11/21] Built Cache.Env (199ms)
+2026-11-27T02:32:31.4767600Z ✔ [13/21] Built Cache.Hashing (398ms)
+2026-11-27T02:32:31.6769630Z ✔ [15/27] Built Cache.Infra (223ms)
+2026-11-27T02:32:31.9773944Z ✔ [17/35] Built Cache.Location (286ms)
+2026-11-27T02:32:33.3781656Z ✔ [20/61] Built Cache.Requests (1.4s)
+2026-11-27T02:32:33.5784437Z ✔ [22/61] Built Cache.Marker (225ms)
+2026-11-27T02:32:33.6785958Z ✔ [23/61] Built Cache.Cli:c.o (103ms)
+2026-11-27T02:32:33.8790251Z ✔ [24/61] Built Cache.Lean:c.o (138ms)
+2026-11-27T02:32:34.7803097Z ✔ [25/61] Built Batteries.Tactic.OpenPrivate:c.o (893ms)
+2026-11-27T02:32:36.0810425Z ✔ [26/61] Built Cache.IO:c.o (1.4s)
+2026-11-27T02:32:36.5819375Z ✔ [27/61] Built Cache.Hashing:c.o (480ms)
+2026-11-27T02:32:36.6820607Z ✔ [28/61] Built Cache.Env:c.o (127ms)
+2026-11-27T02:32:36.8824539Z ✔ [29/61] Built Cache.Infra:c.o (132ms)
+2026-11-27T02:32:36.9855520Z ✔ [30/61] Built Cache.Location:c.o (196ms)
+2026-11-27T02:32:39.3869297Z ✔ [32/61] Built Cache.Requests:c.o (2.4s)
+2026-11-27T02:32:39.5873379Z ✔ [33/61] Built Cache.Marker:c.o (114ms)
+2026-11-27T02:32:39.7876017Z ✔ [34/61] Built Cache.Upload.Curl (274ms)
+2026-11-27T02:32:40.0880214Z ✔ [35/61] Built Cache.Query (309ms)
+2026-11-27T02:32:40.3884820Z ✔ [37/61] Built Cache.Upload.Rclone (274ms)
+2026-11-27T02:32:40.5889467Z ✔ [40/61] Built Cache.Upload.Curl:c.o (158ms)
+2026-11-27T02:32:40.7890570Z ✔ [41/61] Built Cache.Query:c.o (219ms)
+2026-11-27T02:32:40.9893434Z ✔ [42/61] Built Cache.Upload.Rclone:c.o (195ms)
+2026-11-27T02:32:41.1886563Z ✔ [43/61] Built Cache.Upload.Azure (221ms)
+2026-11-27T02:32:41.4890749Z ✔ [44/61] Built Cache.Warning (307ms)
+2026-11-27T02:32:41.7894014Z ✔ [46/61] Built Cache.Upload.S3 (313ms)
+2026-11-27T02:32:41.8895964Z ✔ [49/61] Built Cache.Upload.Azure:c.o (97ms)
+2026-11-27T02:32:42.1902468Z ✔ [50/61] Built Cache.Warning:c.o (249ms)
+2026-11-27T02:32:42.3903922Z ✔ [51/61] Built Cache.Upload.S3:c.o (237ms)
+2026-11-27T02:32:42.6898823Z ✔ [52/61] Built Cache.Upload.Defs (248ms)
+2026-11-27T02:32:42.7898989Z ✔ [54/61] Built Cache.Upload.Defs:c.o (130ms)
+2026-11-27T02:32:42.9901939Z ✔ [55/61] Built Cache.Upload (212ms)
+2026-11-27T02:32:43.0903775Z ✔ [57/61] Built Cache.Upload:c.o (91ms)
+2026-11-27T02:32:43.6900434Z ✔ [58/61] Built Cache.Main (645ms)
+2026-11-27T02:32:44.4909292Z ✔ [60/61] Built Cache.Main:c.o (807ms)
+2026-11-27T02:32:45.0916634Z ✔ [61/61] Built cache:exe (568ms)
+2026-11-27T02:32:47.0067076Z Note: curl 8.18 runs parallel downloads without retries.
+2026-11-27T02:32:47.0068121Z Current branch: HEAD
+2026-11-27T02:32:47.0068908Z Using cache from origin: (some leanprover-community/mathlib4)
+2026-11-27T02:32:47.0070001Z Attempting to download 9117 file(s) from leanprover-community/mathlib4 cache at https://cache.mathlib.org/mathlib4-master
+2026-11-27T02:32:47.1086854Z 
+2026-11-27T02:32:47.2084228Z Downloaded: 53 file(s) [attempted 53/9117 = 0%, 2152 KB/s]
+2026-11-27T02:32:47.3195569Z Downloaded: 224 file(s) [attempted 224/9117 = 2%, 544 KB/s]
+2026-11-27T02:32:47.4231177Z Downloaded: 381 file(s) [attempted 381/9117 = 4%, 232 KB/s]
+2026-11-27T02:32:47.5263026Z Downloaded: 551 file(s) [attempted 551/9117 = 6%, 3270 KB/s]
+2026-11-27T02:32:47.6263083Z Downloaded: 719 file(s) [attempted 719/9117 = 7%, 3975 KB/s]
+2026-11-27T02:32:47.7234629Z Downloaded: 907 file(s) [attempted 907/9117 = 9%, 1161 KB/s]
+2026-11-27T02:32:47.8250131Z Downloaded: 1080 file(s) [attempted 1080/9117 = 11%, 1884 KB/s]
+2026-11-27T02:32:47.9276186Z Downloaded: 1216 file(s) [attempted 1216/9117 = 13%, 784 KB/s]
+2026-11-27T02:32:48.0319359Z Downloaded: 1350 file(s) [attempted 1350/9117 = 14%, 1343 KB/s]
+2026-11-27T02:32:48.1343320Z Downloaded: 1514 file(s) [attempted 1514/9117 = 16%, 1248 KB/s]
+2026-11-27T02:32:48.2333023Z Downloaded: 1664 file(s) [attempted 1664/9117 = 18%, 2528 KB/s]
+2026-11-27T02:32:48.3376972Z Downloaded: 1824 file(s) [attempted 1824/9117 = 20%, 1753 KB/s]
+2026-11-27T02:32:48.4398729Z Downloaded: 1978 file(s) [attempted 1978/9117 = 21%, 4187 KB/s]
+2026-11-27T02:32:48.5385263Z Downloaded: 2155 file(s) [attempted 2155/9117 = 23%, 1236 KB/s]
+2026-11-27T02:32:48.6413172Z Downloaded: 2349 file(s) [attempted 2349/9117 = 25%, 886 KB/s]
+2026-11-27T02:32:48.7402770Z Downloaded: 2535 file(s) [attempted 2535/9117 = 27%, 1257 KB/s]
+2026-11-27T02:32:48.8417634Z Downloaded: 2656 file(s) [attempted 2656/9117 = 29%, 10423 KB/s]
+2026-11-27T02:32:48.9464252Z Downloaded: 2797 file(s) [attempted 2797/9117 = 30%, 1506 KB/s]
+2026-11-27T02:32:49.0508893Z Downloaded: 2965 file(s) [attempted 2965/9117 = 32%, 1759 KB/s]
+2026-11-27T02:32:49.1505477Z Downloaded: 3188 file(s) [attempted 3188/9117 = 34%, 977 KB/s]
+2026-11-27T02:32:49.2525729Z Downloaded: 3354 file(s) [attempted 3354/9117 = 36%, 2392 KB/s]
+2026-11-27T02:32:49.3551216Z Downloaded: 3527 file(s) [attempted 3527/9117 = 38%, 642 KB/s]
+2026-11-27T02:32:49.4562848Z Downloaded: 3693 file(s) [attempted 3693/9117 = 40%, 702 KB/s]
+2026-11-27T02:32:49.5577847Z Downloaded: 3887 file(s) [attempted 3887/9117 = 42%, 1018 KB/s]
+2026-11-27T02:32:49.6603104Z Downloaded: 4005 file(s) [attempted 4005/9117 = 43%, 3319 KB/s]
+2026-11-27T02:32:49.7619958Z Downloaded: 4160 file(s) [attempted 4160/9117 = 45%, 8124 KB/s]
+2026-11-27T02:32:49.8607963Z Downloaded: 4346 file(s) [attempted 4346/9117 = 47%, 548 KB/s]
+2026-11-27T02:32:49.9601534Z Downloaded: 4528 file(s) [attempted 4528/9117 = 49%, 1432 KB/s]
+2026-11-27T02:32:50.0714246Z Downloaded: 4709 file(s) [attempted 4709/9117 = 51%, 8009 KB/s]
+2026-11-27T02:32:50.1752871Z Downloaded: 4883 file(s) [attempted 4883/9117 = 53%, 1140 KB/s]
+2026-11-27T02:32:50.2775157Z Downloaded: 5086 file(s) [attempted 5086/9117 = 55%, 2616 KB/s]
+2026-11-27T02:32:50.3793314Z Downloaded: 5249 file(s) [attempted 5249/9117 = 57%, 6061 KB/s]
+2026-11-27T02:32:50.4822939Z Downloaded: 5349 file(s) [attempted 5349/9117 = 58%, 1485 KB/s]
+2026-11-27T02:32:50.6562023Z Downloaded: 5509 file(s) [attempted 5509/9117 = 60%, 687 KB/s]
+2026-11-27T02:32:50.7577465Z Downloaded: 5691 file(s) [attempted 5691/9117 = 62%, 667 KB/s]
+2026-11-27T02:32:50.8580040Z Downloaded: 5864 file(s) [attempted 5864/9117 = 64%, 1182 KB/s]
+2026-11-27T02:32:50.9672604Z Downloaded: 6054 file(s) [attempted 6054/9117 = 66%, 8673 KB/s]
+2026-11-27T02:32:51.0713183Z Downloaded: 6259 file(s) [attempted 6259/9117 = 68%, 4416 KB/s]
+2026-11-27T02:32:51.1709542Z Downloaded: 6448 file(s) [attempted 6448/9117 = 70%, 2567 KB/s]
+2026-11-27T02:32:51.2743213Z Downloaded: 6608 file(s) [attempted 6608/9117 = 72%, 5116 KB/s]
+2026-11-27T02:32:51.3709061Z Downloaded: 6757 file(s) [attempted 6757/9117 = 74%, 1322 KB/s]
+2026-11-27T02:32:51.4746878Z Downloaded: 6951 file(s) [attempted 6951/9117 = 76%, 8758 KB/s]
+2026-11-27T02:32:51.5761184Z Downloaded: 7142 file(s) [attempted 7142/9117 = 78%, 1610 KB/s]
+2026-11-27T02:32:51.6755743Z Downloaded: 7326 file(s) [attempted 7326/9117 = 80%, 482 KB/s]
+2026-11-27T02:32:51.7771827Z Downloaded: 7509 file(s) [attempted 7509/9117 = 82%, 6193 KB/s]
+2026-11-27T02:32:51.8805743Z Downloaded: 7661 file(s) [attempted 7661/9117 = 84%, 1565 KB/s]
+2026-11-27T02:32:51.9914344Z Downloaded: 7831 file(s) [attempted 7831/9117 = 85%, 295 KB/s]
+2026-11-27T02:32:52.0925624Z Downloaded: 7988 file(s) [attempted 7988/9117 = 87%, 761 KB/s]
+2026-11-27T02:32:52.2660727Z Downloaded: 8127 file(s) [attempted 8127/9117 = 89%, 690 KB/s]
+2026-11-27T02:32:52.3672745Z Downloaded: 8339 file(s) [attempted 8339/9117 = 91%, 497 KB/s]
+2026-11-27T02:32:52.4646871Z Downloaded: 8507 file(s) [attempted 8507/9117 = 93%, 1954 KB/s]
+2026-11-27T02:32:52.5673117Z Downloaded: 8703 file(s) [attempted 8703/9117 = 95%, 5125 KB/s]
+2026-11-27T02:32:52.6664784Z Downloaded: 8894 file(s) [attempted 8894/9117 = 97%, 11544 KB/s]
+2026-11-27T02:32:52.6832463Z Downloaded: 9090 file(s) [attempted 9090/9117 = 99%, 423 KB/s]
+2026-11-27T02:32:52.6837308Z Downloaded: 9117 file(s) [attempted 9117/9117 = 100%, 423 KB/s]
+2026-11-27T02:32:52.6868171Z Still decompressing downloaded files...
+2026-11-27T02:33:27.0516873Z Decompressed 9117 file(s)
+2026-11-27T02:33:27.0517409Z Already decompressed 9117 file(s)
+2026-11-27T02:33:27.1140181Z ##[group]Run lake build
+2026-11-27T02:33:27.1140548Z [36;1mlake build[0m
+2026-11-27T02:33:27.1163648Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-27T02:33:27.1164179Z env:
+2026-11-27T02:33:27.1164473Z   LEAN_NUM_THREADS: 1
+2026-11-27T02:33:27.1164761Z ##[endgroup]
+2026-11-27T02:33:28.1204196Z ✔ [1/8] Built Overlap.Tree (213ms)
+2026-11-27T02:33:39.2336389Z ✔ [4/8] Built Overlap.Data (11s)
+2026-11-27T02:33:48.9427396Z ℹ [6/186] Built Overlap.Numerical (9.7s)
+2026-11-27T02:33:48.9428672Z info: Overlap/Numerical.lean:20:0: 'Overlap.packed_certificate' does not depend on any axioms
+2026-11-27T02:33:52.6478802Z ⚠ [6866/6878] Built Overlap.Algebra (2.1s)
+2026-11-27T02:33:52.6481245Z warning: Overlap/Algebra.lean: imports `Mathlib.Data.Nat.Digits.Lemmas` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:52.6483178Z warning: Overlap/Algebra.lean: imports `Mathlib.Algebra.BigOperators.Fin` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:52.6484491Z warning: Overlap/Algebra.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7518258Z ⚠ [6867/6878] Built Overlap.AffineBridge (3.1s)
+2026-11-27T02:33:55.7519866Z warning: Overlap/AffineBridge.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7522127Z warning: Overlap/AffineBridge.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7524552Z warning: Overlap/AffineBridge.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7526102Z ⚠ [6868/6878] Ran Overlap.AffineBridge:irArts
+2026-11-27T02:33:55.7527397Z warning: Overlap/AffineBridge.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7529301Z warning: Overlap/AffineBridge.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7530793Z warning: Overlap/AffineBridge.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7532442Z ⚠ [6869/6878] Ran Overlap.Algebra:irArts
+2026-11-27T02:33:55.7533759Z warning: Overlap/Algebra.lean: imports `Mathlib.Data.Nat.Digits.Lemmas` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7535593Z warning: Overlap/Algebra.lean: imports `Mathlib.Algebra.BigOperators.Fin` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:55.7537416Z warning: Overlap/Algebra.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+2026-11-27T02:33:57.3533385Z ✔ [6870/6878] Built Overlap.Spec (1.7s)
+2026-11-27T02:33:59.0557221Z ✔ [6871/6878] Built Overlap.Profile (1.7s)
+2026-11-27T02:34:08.8653376Z ℹ [6874/6878] Built Overlap.Main (9.8s)
+2026-11-27T02:34:08.8654184Z info: Overlap/Main.lean:130:0: Overlap.witness_supremum_exact : sSup (range (overlap h (complement h))) = U
+2026-11-27T02:34:08.8656340Z info: Overlap/Main.lean:131:0: Overlap.continuous_upper_bound : continuousConstant ≤ 2462273619527794579322422405079 / 6465103708838880000000000000000
+2026-11-27T02:34:08.8657466Z info: Overlap/Main.lean:132:0: Overlap.discrete_upper_bound_of_white {c : ℝ} (hc : Tendsto (fun n => ↑(minimumOverlap n) / ↑n) atTop (𝓝 c))
+2026-11-27T02:34:08.8658310Z   (white : WhiteBridge) : c ≤ 2462273619527794579322422405079 / 6465103708838880000000000000000
+2026-11-27T02:34:08.8659075Z info: Overlap/Main.lean:133:0: 'Overlap.admissible_h' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T02:34:08.8659915Z info: Overlap/Main.lean:134:0: 'Overlap.grid_supremum' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T02:34:08.8660722Z info: Overlap/Main.lean:135:0: 'Overlap.witness_supremum_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T02:34:08.8661656Z info: Overlap/Main.lean:136:0: 'Overlap.continuous_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T02:34:08.8662469Z info: Overlap/Main.lean:137:0: 'Overlap.discrete_upper_bound_of_white' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T02:34:10.3661219Z ✔ [6876/6878] Built Overlap (1.5s)
+2026-11-27T02:34:10.4688143Z Build completed successfully (6878 jobs).
+2026-11-27T02:34:10.4962091Z ##[group]Run for module in Tree Data Numerical Algebra AffineBridge Profile Spec Main; do
+2026-11-27T02:34:10.4962807Z [36;1mfor module in Tree Data Numerical Algebra AffineBridge Profile Spec Main; do[0m
+2026-11-27T02:34:10.4963314Z [36;1m  echo "Replaying Overlap.$module"[0m
+2026-11-27T02:34:10.4963739Z [36;1m  lake env leanchecker "Overlap.$module"[0m
+2026-11-27T02:34:10.4964102Z [36;1mdone[0m
+2026-11-27T02:34:10.4985856Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-27T02:34:10.4986350Z env:
+2026-11-27T02:34:10.4986659Z   LEAN_NUM_THREADS: 1
+2026-11-27T02:34:10.4986975Z ##[endgroup]
+2026-11-27T02:34:10.5029676Z Replaying Overlap.Tree
+2026-11-27T02:34:13.6168333Z Replaying Overlap.Data
+2026-11-27T02:34:16.8072546Z Replaying Overlap.Numerical
+2026-11-27T02:34:29.3850477Z Replaying Overlap.Algebra
+2026-11-27T02:34:33.3085552Z Replaying Overlap.AffineBridge
+2026-11-27T02:34:37.3472622Z Replaying Overlap.Profile
+2026-11-27T02:34:41.3486533Z Replaying Overlap.Spec
+2026-11-27T02:34:45.3618511Z Replaying Overlap.Main
+2026-11-27T02:34:57.4539673Z ##[group]Run python3 verify.py
+2026-11-27T02:34:57.4540077Z [36;1mpython3 verify.py[0m
+2026-11-27T02:34:57.4540837Z [36;1mpython3 audit_verify.py[0m
+2026-11-27T02:34:57.4562331Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-27T02:34:57.4562769Z env:
+2026-11-27T02:34:57.4563087Z   LEAN_NUM_THREADS: 1
+2026-11-27T02:34:57.4563458Z ##[endgroup]
+2026-11-27T02:34:57.5867749Z PASS. 9408 cells. Signed vertices 18817. Peaks [-2284].
+2026-11-27T02:34:57.5869061Z c <= 2462273619527794579322422405079/6465103708838880000000000000000. Parent minus cap = 2468195140225859198307/2155034569612960000000000000000.
+2026-11-27T02:35:00.8311733Z PASS. Direct scan of 18817 signed vertices. Only peak at -2284 bins.
+2026-11-27T02:35:00.8313002Z All-event digest 784915c2a361b9779151486d3557b9c9ab5c78f838cc5539e3fcdc4232419b72. Exact improvement 2468195140225859198307/2155034569612960000000000000000.
+2026-11-27T02:35:00.8314093Z Affine branches, off-grid controls, exterior tails and small-case histograms passed.
+2026-11-27T02:35:00.8406532Z ##[group]Run python3 scripts/generate.py
+2026-11-27T02:35:00.8406965Z [36;1mpython3 scripts/generate.py[0m
+2026-11-27T02:35:00.8407417Z [36;1mgit diff --exit-code -- Overlap/Data.lean Overlap/Bench.lean[0m
+2026-11-27T02:35:00.8429012Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-27T02:35:00.8429432Z env:
+2026-11-27T02:35:00.8429709Z   LEAN_NUM_THREADS: 1
+2026-11-27T02:35:00.8430098Z ##[endgroup]
+2026-11-27T02:35:01.0100460Z Post job cleanup.
+2026-11-27T02:35:01.0927109Z [command]/usr/bin/git version
+2026-11-27T02:35:01.0973109Z git version 2.56.1
+2026-11-27T02:35:01.1010829Z Temporarily overriding HOME='/home/runner/work/_temp/72b6f283-03e5-46dd-9f86-1f444046d828' before making global git config changes
+2026-11-27T02:35:01.1012763Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-27T02:35:01.1016030Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/erdos36-minimum-overlap-lean4/erdos36-minimum-overlap-lean4
+2026-11-27T02:35:01.1048509Z Removing SSH command configuration
+2026-11-27T02:35:01.1055234Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-27T02:35:01.1088038Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-27T02:35:01.1327457Z Removing HTTP extra header
+2026-11-27T02:35:01.1332391Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-27T02:35:01.1380619Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-27T02:35:01.1620213Z Removing includeIf entries pointing to credentials config files
+2026-11-27T02:35:01.1627651Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-27T02:35:01.1669217Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-27T02:35:01.2018969Z Cleaning up orphan processes

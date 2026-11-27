@@ -1,0 +1,30 @@
+2026-11-27T07:57:45.7758711Z   REPLAY_MODULES: Tree PackedConvolution ConvolutionExample Data Numerical Algebra AffineBridge Profile Spec Main QuarticRounding CellApprox GridLower LagRounding DiscreteUpper Bench
+2026-11-27T07:57:46.8143443Z   REPLAY_MODULES: Tree PackedConvolution ConvolutionExample Data Numerical Algebra AffineBridge Profile Spec Main QuarticRounding CellApprox GridLower LagRounding DiscreteUpper Bench
+2026-11-27T07:57:59.0807230Z   REPLAY_MODULES: Tree PackedConvolution ConvolutionExample Data Numerical Algebra AffineBridge Profile Spec Main QuarticRounding CellApprox GridLower LagRounding DiscreteUpper Bench
+2026-11-27T07:59:10.5028315Z   REPLAY_MODULES: Tree PackedConvolution ConvolutionExample Data Numerical Algebra AffineBridge Profile Spec Main QuarticRounding CellApprox GridLower LagRounding DiscreteUpper Bench
+2026-11-27T07:59:27.5983178Z info: Overlap/Numerical.lean:20:0: 'Overlap.packed_certificate' does not depend on any axioms
+2026-11-27T07:59:37.9072017Z info: Overlap/QuarticRounding.lean:117:0: 'Overlap.round_cube_fourth' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:51.0217166Z info: Overlap/Main.lean:133:0: 'Overlap.admissible_h' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:51.0217773Z info: Overlap/Main.lean:134:0: 'Overlap.grid_supremum' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:51.0218427Z info: Overlap/Main.lean:135:0: 'Overlap.witness_supremum_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:51.0219084Z info: Overlap/Main.lean:136:0: 'Overlap.continuous_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:51.0219762Z info: Overlap/Main.lean:137:0: 'Overlap.discrete_upper_bound_of_white' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:52.9245890Z info: Overlap/CellApprox.lean:376:0: 'Overlap.exists_cellApprox_all_shifts' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:52.9246605Z info: Overlap/CellApprox.lean:377:0: 'Overlap.exists_cellApprox' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:54.5249464Z info: Overlap/GridLower.lean:84:0: 'Overlap.vertex_gridIndicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:54.5249985Z info: Overlap/GridLower.lean:85:0: 'Overlap.continuousConstant_le_minimumOverlap_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:56.1259816Z info: Overlap/DiscreteUpper.lean:103:0: 'Overlap.discrete_limsup_le_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:56.1260323Z info: Overlap/DiscreteUpper.lean:104:0: 'Overlap.discrete_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:56.1260751Z info: Overlap/DiscreteUpper.lean:105:0: 'Overlap.whiteBridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-11-27T07:59:57.5717214Z   REPLAY_MODULES: Tree PackedConvolution ConvolutionExample Data Numerical Algebra AffineBridge Profile Spec Main QuarticRounding CellApprox GridLower LagRounding DiscreteUpper Bench
+2026-11-27T07:59:58.5099243Z info: Overlap/Bench.lean:27:0: 'Overlap.sample_product' does not depend on any axioms
+2026-11-27T07:59:58.5503965Z   REPLAY_MODULES: Tree PackedConvolution ConvolutionExample Data Numerical Algebra AffineBridge Profile Spec Main QuarticRounding CellApprox GridLower LagRounding DiscreteUpper Bench
+2026-11-27T07:59:58.5572656Z [36;1mfor module in $REPLAY_MODULES; do[0m
+2026-11-27T07:59:58.5572819Z [36;1m  echo "Replaying Overlap.$module"[0m
+2026-11-27T07:59:58.5572985Z [36;1m  lake env leanchecker "Overlap.$module"[0m
+2026-11-27T07:59:58.5596156Z   REPLAY_MODULES: Tree PackedConvolution ConvolutionExample Data Numerical Algebra AffineBridge Profile Spec Main QuarticRounding CellApprox GridLower LagRounding DiscreteUpper Bench
+2026-11-27T07:59:58.5646029Z Replaying Overlap.Tree
+2026-11-27T08:00:03.3366152Z Replaying Overlap.PackedConvolution
+2026-11-27T08:00:08.8532657Z Replaying Overlap.ConvolutionExample
+2026-11-27T08:00:14.4029245Z Replaying Overlap.Data
+2026-11-27T08:00:19.1240002Z Replaying Overlap.Numerical

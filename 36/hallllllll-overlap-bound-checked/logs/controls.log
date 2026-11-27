@@ -1,0 +1,16 @@
+[Haugland15] N=15 integral=1.00000000000000000 (exact==1: True) max H=0.3815315482475791 argmax k=[-6, 6]
+     published 0.38153155 (rounded up); |diff| = 1.752e-09
+[Haugland19] N=19 integral=1.00000000000000000 (exact==1: True) max H=0.3811122633161048 argmax k=[-3, 3]
+     published 0.381112263316104816; |diff| = 0.000e+00
+[Haugland51] N=51 integral=1.00000000000000000 (exact==1: True) max H=0.3809268534330870 argmax k=[-2, 2]
+     published 0.3809268534330870; |diff| = 5.551e-17
+[Haugland51, WRONG convention g=1 outside [0,2)] max = 1.0 (expected: 1 = trivially bad)
+AlphaEvolve raw entries: 48 full length: 95
+[AlphaEvolve] N=95 integral=1.00000000000000000 (exact==1: False) max H=0.3809230351084502 argmax k=[-8, 8]
+     published 0.380924 (paper, rounded); |diff| = 9.649e-07
+     AlphaEvolve's own float formula: 0.38092303510845016
+neg control 1 (mass-preserving +/-1000 at cells 1010,8399): side conditions pass ; U changed: True ; new - old = 4.045e-15
+neg control 2 (+1 at cell 5000, mass broken): ['mass != 1: integral = 246624604800000001/246624604800000000']
+neg control 3 (cell above 1): ['height outside [0,D]', 'mass != 1: integral = 246677021580509683/246624604800000000']
+neg control 4 (negative cell): ['height outside [0,D]', 'mass != 1: integral = 246624592880509681/246624604800000000']
+closed-form control f=1_[1/2,3/2): max H = 1/2 (expected 1/2) argmax [-2, -1, 1, 2]

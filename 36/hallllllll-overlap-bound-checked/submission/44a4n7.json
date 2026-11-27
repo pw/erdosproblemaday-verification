@@ -1,0 +1,15 @@
+{
+ "id": "44a4n7",
+ "created": "2026-11-27T02:51:34.262Z",
+ "problem": 36,
+ "name": "Hallllllll",
+ "claim": "partial",
+ "links": "https://doi.org/10.5281/zenodo.24575270\r\nhttps://github.com/Hallllllll/erdos36-minimum-overlap-lean4/releases/tag/v1.0.0\r\nhttps://github.com/Hallllllll/erdos36-minimum-overlap-lean4/blob/045d628a3db3becc39671bd18af68f91ad6931c8/PROOF.md\r\nhttps://github.com/Hallllllll/erdos36-minimum-overlap-lean4/actions/runs/45928864419\r\nhttps://ardrive.net/IYS-L1CFuiB-2krt6PDvWIvQoztzBqE-9AvvLyfNBdY\r\nhttps://arxiv.org/html/2201.05704",
+ "body": "A 9,408-cell rational step function gives U = 2462273619527794579322422405079 / 6465103708838880000000000000000 < 0.38085601258978320592. For H(s) = ∫ h(x)g(x−s) dx, the unique maximum is at s = −571/1176. Lean proves attainment; an independent Python audit proves uniqueness by enumerating all 18,817 vertices using integer dot products. This refines the November 25, 2026 Compute Substrate parent, 123113681346619/323255185441944, by 2468195140225859198307/2155034569612960000000000000000 > 1.14531579911 × 10⁻⁹.\r\n\r\nIn Lean 4, Overlap.witness_supremum_exact and Overlap.continuous_upper_bound are unconditional. Pure-kernel packed integer multiplication certifies every coefficient. The proofs use zero sorry and zero native_decide; the only axioms reported for these theorems are [propext, Classical.choice, Quot.sound]. All eight core modules were replayed with leanchecker. Overlap.discrete_upper_bound_of_white takes WhiteBridge, the published discrete-limit characterization in White (2022), equation (1.1), as an explicit hypothesis. The exact value of the minimum overlap constant remains open.",
+ "tools": "GPT-6.2 Astra and GPT-6.2 Sol in Codex assisted with the construction, Lean formalization, and independent verification. The repository includes the exact witness, Python checks, Lean sources, and public CI so that reviewers can repeat the checks.",
+ "consent": 1,
+ "status": "received",
+ "verdict": null,
+ "review": null,
+ "reviewed": null
+}

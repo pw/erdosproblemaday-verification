@@ -1,0 +1,4 @@
+Data.lean heights: 9408  == construction.json numerators: True
+Data.lean events: 18815  == my T_k for k=-(N-1)..N-1: True
+events[7123] = 4924547239055589158644844810158  max(events) = 4924547239055589158644844810158  index of max: [7123]
+sub-defs referenced: 882 distinct: 882 defined: 882
