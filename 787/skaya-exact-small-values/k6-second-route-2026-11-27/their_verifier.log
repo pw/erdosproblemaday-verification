@@ -1,0 +1,2 @@
+FARKAS_CERTS_VERIFIED file=../repo/data/k6_farkas_certs.jsonl.gz count=1645192 max_terms=21 gt8_terms=57001 PASS
+exit=0

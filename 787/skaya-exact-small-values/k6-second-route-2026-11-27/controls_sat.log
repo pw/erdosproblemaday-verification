@@ -1,0 +1,8 @@
+C1 real cores: 124 real configurations (44..110 true equalities each): SAT 124, UNSAT 0
+C1 MUTATION ids+1: 124 real configurations (44..110 true equalities each): SAT 9, UNSAT 115
+alpha(P) = 6, alpha(P+{100}) = 7
+C2 k=7: full encoding + all cores, assumptions = P+{100}: SAT (expected SAT)
+C3 k=7: kissat on the same clauses + planted units: exit 10 (expected 10 SAT) ok
+C2 k=6: full encoding + all cores, assumptions = P+{100}: UNSAT (expected UNSAT)
+C3 k=6: kissat on the same clauses + planted units: exit 20 (expected 20 UNSAT) ok
+CONTROLS_SAT PASS (88s)

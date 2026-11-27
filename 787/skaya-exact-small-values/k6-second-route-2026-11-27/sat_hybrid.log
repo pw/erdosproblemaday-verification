@@ -1,0 +1,166 @@
+loaded 2157588 clauses (+0 extra) in 39.1s; body 75 MB
+  case 17: 25 tasks closed this run (6 by kissat), extra cores 0, 836s
+  case 17: 50 tasks closed this run (11 by kissat), extra cores 0, 1456s
+{"case": 17, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 18, "extra_cores_this_run": 0, "wall_s_this_run": 2312.8}
+  case 15: 25 tasks closed this run (5 by kissat), extra cores 0, 951s
+  case 15: 50 tasks closed this run (7 by kissat), extra cores 0, 1240s
+  case 15: 75 tasks closed this run (11 by kissat), extra cores 0, 1742s
+  case 15: 100 tasks closed this run (15 by kissat), extra cores 0, 2228s
+  case 15: 125 tasks closed this run (20 by kissat), extra cores 0, 2666s
+  case 15: 150 tasks closed this run (22 by kissat), extra cores 0, 2943s
+  case 15: 175 tasks closed this run (27 by kissat), extra cores 0, 4099s
+{"case": 15, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 31, "extra_cores_this_run": 0, "wall_s_this_run": 5031.1}
+  case 14: 25 tasks closed this run (6 by kissat), extra cores 0, 1314s
+  case 14: 50 tasks closed this run (9 by kissat), extra cores 0, 1819s
+  case 14: 75 tasks closed this run (15 by kissat), extra cores 0, 2493s
+  case 14: 100 tasks closed this run (20 by kissat), extra cores 0, 2994s
+  case 14: 125 tasks closed this run (22 by kissat), extra cores 0, 3310s
+  case 14: 150 tasks closed this run (23 by kissat), extra cores 0, 3470s
+  case 14: 175 tasks closed this run (27 by kissat), extra cores 0, 4047s
+{"case": 14, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 30, "extra_cores_this_run": 0, "wall_s_this_run": 4599.9}
+  case 19: 25 tasks closed this run (19 by kissat), extra cores 0, 1416s
+  case 19: 50 tasks closed this run (27 by kissat), extra cores 0, 2131s
+  case 19: 75 tasks closed this run (37 by kissat), extra cores 0, 2794s
+  case 19: 100 tasks closed this run (45 by kissat), extra cores 0, 3391s
+  case 19: 125 tasks closed this run (50 by kissat), extra cores 0, 3825s
+  case 19: 150 tasks closed this run (54 by kissat), extra cores 0, 4109s
+  case 19: 175 tasks closed this run (62 by kissat), extra cores 0, 4646s
+{"case": 19, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 66, "extra_cores_this_run": 0, "wall_s_this_run": 4895.7}
+  case 13: 25 tasks closed this run (6 by kissat), extra cores 0, 403s
+  case 13: 50 tasks closed this run (9 by kissat), extra cores 0, 585s
+  case 13: 75 tasks closed this run (11 by kissat), extra cores 0, 721s
+  case 13: 100 tasks closed this run (11 by kissat), extra cores 0, 755s
+  case 13: 125 tasks closed this run (11 by kissat), extra cores 0, 783s
+  case 13: 150 tasks closed this run (11 by kissat), extra cores 0, 798s
+  case 13: 175 tasks closed this run (12 by kissat), extra cores 0, 903s
+{"case": 13, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 14, "extra_cores_this_run": 0, "wall_s_this_run": 1028.6}
+  case 16: 25 tasks closed this run (4 by kissat), extra cores 0, 504s
+  case 16: 50 tasks closed this run (6 by kissat), extra cores 0, 696s
+  case 16: 75 tasks closed this run (10 by kissat), extra cores 0, 1069s
+  case 16: 100 tasks closed this run (12 by kissat), extra cores 0, 1257s
+  case 16: 125 tasks closed this run (14 by kissat), extra cores 0, 1440s
+  case 16: 150 tasks closed this run (16 by kissat), extra cores 0, 1618s
+  case 16: 175 tasks closed this run (19 by kissat), extra cores 0, 1939s
+{"case": 16, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 19, "extra_cores_this_run": 0, "wall_s_this_run": 1963.6}
+  case 12: 25 tasks closed this run (2 by kissat), extra cores 0, 153s
+  case 12: 50 tasks closed this run (2 by kissat), extra cores 0, 178s
+  case 12: 75 tasks closed this run (2 by kissat), extra cores 0, 231s
+  case 12: 100 tasks closed this run (2 by kissat), extra cores 0, 261s
+  case 12: 125 tasks closed this run (2 by kissat), extra cores 0, 277s
+  case 12: 150 tasks closed this run (2 by kissat), extra cores 0, 295s
+  case 12: 175 tasks closed this run (3 by kissat), extra cores 0, 416s
+{"case": 12, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 5, "extra_cores_this_run": 0, "wall_s_this_run": 521.7}
+  case 0: 25 tasks closed this run (5 by kissat), extra cores 0, 340s
+  case 0: 50 tasks closed this run (6 by kissat), extra cores 0, 435s
+  case 0: 75 tasks closed this run (6 by kissat), extra cores 0, 475s
+  case 0: 100 tasks closed this run (6 by kissat), extra cores 0, 509s
+  case 0: 125 tasks closed this run (6 by kissat), extra cores 0, 533s
+  case 0: 150 tasks closed this run (6 by kissat), extra cores 0, 547s
+  case 0: 175 tasks closed this run (6 by kissat), extra cores 0, 566s
+{"case": 0, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 7, "extra_cores_this_run": 0, "wall_s_this_run": 605.2}
+  case None: 25 tasks closed this run (8 by kissat), extra cores 0, 340s
+  case None: 50 tasks closed this run (11 by kissat), extra cores 0, 451s
+  case None: 75 tasks closed this run (17 by kissat), extra cores 0, 630s
+  case None: 100 tasks closed this run (18 by kissat), extra cores 0, 685s
+  case None: 125 tasks closed this run (22 by kissat), extra cores 0, 795s
+  case None: 150 tasks closed this run (23 by kissat), extra cores 0, 834s
+  case None: 175 tasks closed this run (23 by kissat), extra cores 0, 860s
+  case None: 200 tasks closed this run (25 by kissat), extra cores 0, 931s
+{"case": null, "tasks": 210, "tasks_unsat": 210, "split_exhaustive": true, "kissat_tasks_this_run": 25, "extra_cores_this_run": 0, "wall_s_this_run": 938.0}
+  case 11: 25 tasks closed this run (0 by kissat), extra cores 0, 13s
+  case 11: 50 tasks closed this run (0 by kissat), extra cores 0, 25s
+  case 11: 75 tasks closed this run (0 by kissat), extra cores 0, 37s
+  case 11: 100 tasks closed this run (0 by kissat), extra cores 0, 45s
+  case 11: 125 tasks closed this run (0 by kissat), extra cores 0, 55s
+  case 11: 150 tasks closed this run (0 by kissat), extra cores 0, 61s
+  case 11: 175 tasks closed this run (0 by kissat), extra cores 0, 72s
+{"case": 11, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 94.9}
+  case 10: 25 tasks closed this run (0 by kissat), extra cores 0, 11s
+  case 10: 50 tasks closed this run (0 by kissat), extra cores 0, 18s
+  case 10: 75 tasks closed this run (0 by kissat), extra cores 0, 26s
+  case 10: 100 tasks closed this run (0 by kissat), extra cores 0, 34s
+  case 10: 125 tasks closed this run (0 by kissat), extra cores 0, 42s
+  case 10: 150 tasks closed this run (0 by kissat), extra cores 0, 46s
+  case 10: 175 tasks closed this run (0 by kissat), extra cores 0, 54s
+{"case": 10, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 74.6}
+  case 6: 25 tasks closed this run (0 by kissat), extra cores 0, 19s
+  case 6: 50 tasks closed this run (0 by kissat), extra cores 0, 31s
+  case 6: 75 tasks closed this run (0 by kissat), extra cores 0, 42s
+  case 6: 100 tasks closed this run (0 by kissat), extra cores 0, 54s
+  case 6: 125 tasks closed this run (0 by kissat), extra cores 0, 59s
+  case 6: 150 tasks closed this run (0 by kissat), extra cores 0, 64s
+  case 6: 175 tasks closed this run (0 by kissat), extra cores 0, 68s
+{"case": 6, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 86.4}
+  case 7: 25 tasks closed this run (0 by kissat), extra cores 0, 14s
+  case 7: 50 tasks closed this run (0 by kissat), extra cores 0, 25s
+  case 7: 75 tasks closed this run (0 by kissat), extra cores 0, 34s
+  case 7: 100 tasks closed this run (0 by kissat), extra cores 0, 44s
+  case 7: 125 tasks closed this run (0 by kissat), extra cores 0, 51s
+  case 7: 150 tasks closed this run (0 by kissat), extra cores 0, 56s
+  case 7: 175 tasks closed this run (0 by kissat), extra cores 0, 60s
+{"case": 7, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 78.7}
+  case 5: 25 tasks closed this run (0 by kissat), extra cores 0, 13s
+  case 5: 50 tasks closed this run (0 by kissat), extra cores 0, 34s
+  case 5: 75 tasks closed this run (0 by kissat), extra cores 0, 44s
+  case 5: 100 tasks closed this run (0 by kissat), extra cores 0, 54s
+  case 5: 125 tasks closed this run (0 by kissat), extra cores 0, 60s
+  case 5: 150 tasks closed this run (0 by kissat), extra cores 0, 64s
+  case 5: 175 tasks closed this run (0 by kissat), extra cores 0, 69s
+{"case": 5, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 89.6}
+  case 4: 25 tasks closed this run (0 by kissat), extra cores 0, 17s
+  case 4: 50 tasks closed this run (0 by kissat), extra cores 0, 36s
+  case 4: 75 tasks closed this run (0 by kissat), extra cores 0, 66s
+  case 4: 100 tasks closed this run (0 by kissat), extra cores 0, 75s
+  case 4: 125 tasks closed this run (0 by kissat), extra cores 0, 83s
+  case 4: 150 tasks closed this run (0 by kissat), extra cores 0, 90s
+  case 4: 175 tasks closed this run (0 by kissat), extra cores 0, 102s
+{"case": 4, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 148.8}
+  case 3: 25 tasks closed this run (0 by kissat), extra cores 0, 47s
+  case 3: 50 tasks closed this run (0 by kissat), extra cores 0, 79s
+  case 3: 75 tasks closed this run (0 by kissat), extra cores 0, 94s
+  case 3: 100 tasks closed this run (0 by kissat), extra cores 0, 104s
+  case 3: 125 tasks closed this run (0 by kissat), extra cores 0, 112s
+  case 3: 150 tasks closed this run (0 by kissat), extra cores 0, 119s
+  case 3: 175 tasks closed this run (0 by kissat), extra cores 0, 123s
+{"case": 3, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 144.9}
+  case 2: 25 tasks closed this run (0 by kissat), extra cores 0, 22s
+  case 2: 50 tasks closed this run (0 by kissat), extra cores 0, 39s
+  case 2: 75 tasks closed this run (0 by kissat), extra cores 0, 51s
+  case 2: 100 tasks closed this run (0 by kissat), extra cores 0, 61s
+  case 2: 125 tasks closed this run (0 by kissat), extra cores 0, 68s
+  case 2: 150 tasks closed this run (0 by kissat), extra cores 0, 77s
+  case 2: 175 tasks closed this run (0 by kissat), extra cores 0, 82s
+{"case": 2, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 108.3}
+  case 1: 25 tasks closed this run (0 by kissat), extra cores 0, 26s
+  case 1: 50 tasks closed this run (0 by kissat), extra cores 0, 40s
+  case 1: 75 tasks closed this run (0 by kissat), extra cores 0, 54s
+  case 1: 100 tasks closed this run (0 by kissat), extra cores 0, 64s
+  case 1: 125 tasks closed this run (0 by kissat), extra cores 0, 75s
+  case 1: 150 tasks closed this run (0 by kissat), extra cores 0, 101s
+  case 1: 175 tasks closed this run (0 by kissat), extra cores 0, 117s
+{"case": 1, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 143.5}
+  case 9: 25 tasks closed this run (0 by kissat), extra cores 0, 10s
+  case 9: 50 tasks closed this run (0 by kissat), extra cores 0, 20s
+  case 9: 75 tasks closed this run (0 by kissat), extra cores 0, 31s
+  case 9: 100 tasks closed this run (0 by kissat), extra cores 0, 38s
+  case 9: 125 tasks closed this run (0 by kissat), extra cores 0, 45s
+  case 9: 150 tasks closed this run (0 by kissat), extra cores 0, 50s
+  case 9: 175 tasks closed this run (0 by kissat), extra cores 0, 55s
+{"case": 9, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 0, "extra_cores_this_run": 0, "wall_s_this_run": 63.1}
+  case 8: 25 tasks closed this run (0 by kissat), extra cores 0, 9s
+  case 8: 50 tasks closed this run (0 by kissat), extra cores 0, 19s
+  case 8: 75 tasks closed this run (0 by kissat), extra cores 0, 26s
+  case 8: 100 tasks closed this run (0 by kissat), extra cores 0, 33s
+  case 8: 125 tasks closed this run (0 by kissat), extra cores 0, 45s
+  case 8: 150 tasks closed this run (0 by kissat), extra cores 0, 50s
+  case 8: 175 tasks closed this run (0 by kissat), extra cores 0, 55s
+{"case": 8, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 1, "extra_cores_this_run": 0, "wall_s_this_run": 74.2}
+  case 18: 25 tasks closed this run (2 by kissat), extra cores 0, 116s
+  case 18: 50 tasks closed this run (3 by kissat), extra cores 0, 176s
+  case 18: 75 tasks closed this run (5 by kissat), extra cores 0, 267s
+  case 18: 100 tasks closed this run (5 by kissat), extra cores 0, 281s
+  case 18: 125 tasks closed this run (5 by kissat), extra cores 0, 287s
+  case 18: 150 tasks closed this run (5 by kissat), extra cores 0, 292s
+  case 18: 175 tasks closed this run (5 by kissat), extra cores 0, 299s
+{"case": 18, "tasks": 190, "tasks_unsat": 190, "split_exhaustive": true, "kissat_tasks_this_run": 7, "extra_cores_this_run": 0, "wall_s_this_run": 377.5}
+done, total 23434.6s

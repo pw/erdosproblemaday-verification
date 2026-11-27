@@ -1,0 +1,4 @@
+records=1645192 certified=1645192 NOT_certified=0 distinct_triple_sets=1645192 duplicate_sets=0
+sign convention: C>=0 (theirs) 1645192, C<=0 0; zero weights=0; repeated triple inside a record=0; records with m!=22 or k!=6: 0
+terms: max=21 >8 terms=57001; max |weight|=2520; size histogram=[(4, 808196), (5, 14738), (6, 616203), (7, 17116), (8, 131938), (9, 9726), (10, 31456), (11, 4396), (12, 7371), (13, 1589), (14, 1629), (15, 401), (16, 302), (17, 78), (18, 39), (19, 12), (20, 1), (21, 1)]
+time 165.0s

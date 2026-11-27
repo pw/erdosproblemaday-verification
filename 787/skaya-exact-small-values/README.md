@@ -34,3 +34,9 @@ Reader's files compiled with `elan run leanprover/lean4:v4.35.0-rc2 lean <file>`
 
 ## Not ours
 Every construction, example set and the k <= 6 computation are the reader's. Ours: the independent checker, the independent CEGAR for k = 3, 4, 5, the exact re-certification of the saved k = 6 cores, the hand checks, the world search.
+
+## Update, 27 November 2026: k = 6 by a second route
+The reader's v1.1.1 (commit d2bb472) published all 1,645,192 k = 6 Farkas certificates. Every one certified by our exact
+checker; with them our own SAT encoding (25 Nov) closes all 21 cases / 4,010 subcases (split checked exhaustive), controls
+pass. So n_max(6) = 43, and g(n) for 44 <= n <= 59, now stand on two routes (no SAT proof log on either).
+Files: k6-second-route-2026-11-27/ (README there has the chain).
